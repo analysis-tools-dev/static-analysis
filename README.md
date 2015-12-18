@@ -32,6 +32,7 @@ A collection of static analysis tools and code checkers for all programming lang
 
 ## Ruby
 
+* [rubycritic](https://github.com/whitesmith/rubycritic) - A Ruby code quality reporter 
 * [ruby-lint](https://github.com/YorickPeterse/ruby-lint) - Static code analysis for Ruby
 
 ## Rust
