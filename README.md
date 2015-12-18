@@ -2,6 +2,10 @@
 
 A collection of static analysis tools and code checkers for all programming languages
 
+## Java
+
+* [PMD](https://pmd.github.io/) - A Java source code analyzer
+
 ## Javascript
 
 * [JSLint](https://github.com/douglascrockford/JSLint) - The JavaScript Code Quality Tool
