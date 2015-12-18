@@ -1,6 +1,6 @@
 # Awesome static analysis
 
-A collection of static analysis tools and code checkers for all programming languages
+A collection of static analysis tools and code quality checkers for all programming languages
 
 ## Elixir
 
