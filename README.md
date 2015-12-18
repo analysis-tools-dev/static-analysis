@@ -4,15 +4,16 @@ A collection of static analysis tools and code checkers for all programming lang
 
 ## Javascript
 
-* [plato](https://github.com/es-analysis/plato) - Visualize JavaScript source complexity
 * [JSLint](https://github.com/douglascrockford/JSLint) - The JavaScript Code Quality Tool
+* [plato](https://github.com/es-analysis/plato) - Visualize JavaScript source complexity
 
 ## PHP
 
-* [PhpMetrics](https://github.com/Halleck45/PhpMetrics) - calculates code complexity metrics
-* [phan](https://github.com/etsy/phan) - a modern static analyzer from etsy
 * [GrumPHP](https://github.com/phpro/grumphp) - checks code on every commit
+* [phan](https://github.com/etsy/phan) - a modern static analyzer from etsy
 * [PhpDependencyAnalysis](https://github.com/mamuz/PhpDependencyAnalysis) - builds a dependency graph for a project
+* [PHPMD](http://phpmd.org/) - finds possible bugs in your code
+* [PhpMetrics](https://github.com/Halleck45/PhpMetrics) - calculates code complexity metrics
 
 ## Rust
 
