@@ -26,6 +26,12 @@ A collection of static analysis tools and code checkers for all programming lang
 
 * [clippy](https://github.com/Manishearth/rust-clippy) - a code linter to catch common mistakes and improve your Rust code
 
+# Meta
+
+## All languages
+
+* [pfff](https://github.com/facebook/pfff) - Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages
+
 ## Web-Services
 
 * [Scrutinizer](https://scrutinizer-ci.com/) - A proprietery code quality checker that can be integrated with GitHub
