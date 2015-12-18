@@ -54,5 +54,6 @@ A collection of static analysis tools and code quality checkers for all programm
 
 * [Codacy](https://www.codacy.com/) - Code Analysis to ship Better Code, Faster.
 * [Code Climate](https://codeclimate.com/) - The open and extensible static analysis platform, for everyone.
+* [Nitpick CI](https://nitpick-ci.com) - Automated PHP code review
 * [QuantifiedCode](https://www.quantifiedcode.com/) - Automated code review & repair
 * [Scrutinizer](https://scrutinizer-ci.com/) - A proprietery code quality checker that can be integrated with GitHub
