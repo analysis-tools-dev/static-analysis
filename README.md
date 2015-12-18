@@ -5,7 +5,7 @@ A collection of static analysis tools and code checkers for all programming lang
 ## Javascript
 
 * [plato](https://github.com/es-analysis/plato) - Visualize JavaScript source complexity
-* [jsLint](https://github.com/douglascrockford/JSLint) - The JavaScript Code Quality Tool
+* [JSLint](https://github.com/douglascrockford/JSLint) - The JavaScript Code Quality Tool
 
 ## PHP
 
