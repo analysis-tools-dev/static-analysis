@@ -2,6 +2,9 @@
 
 A collection of static analysis tools and code checkers for all programming languages
 
+## Javascript
+
+* [plato](https://github.com/es-analysis/plato)
 
 ## PHP
 
