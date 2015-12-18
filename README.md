@@ -13,6 +13,7 @@ A collection of static analysis tools and code checkers for all programming lang
 
 ## PHP
 
+* [DesignPatternDetector](https://github.com/Halleck45/DesignPatternDetector) - detection of design patterns in PHP code 
 * [GrumPHP](https://github.com/phpro/grumphp) - checks code on every commit
 * [phan](https://github.com/etsy/phan) - a modern static analyzer from etsy
 * [phpcpd](https://github.com/sebastianbergmann/phpcpd) - Copy/Paste Detector (CPD) for PHP code. 
