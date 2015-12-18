@@ -1,5 +1,6 @@
-# awesome-static-analysis
-A collection of static analysis tools for all programming languages
+# Awesome static analysis
+
+A collection of static analysis tools and code checkers for all programming languages
 
 
 ## PHP
