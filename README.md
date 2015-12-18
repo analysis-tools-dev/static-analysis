@@ -22,6 +22,10 @@ A collection of static analysis tools and code checkers for all programming lang
 * [PHPMD](http://phpmd.org/) - finds possible bugs in your code
 * [PhpMetrics](https://github.com/Halleck45/PhpMetrics) - calculates code complexity metrics
 
+## Ruby
+
+* [ruby-lint](https://github.com/YorickPeterse/ruby-lint) - Static code analysis for Ruby
+
 ## Rust
 
 * [clippy](https://github.com/Manishearth/rust-clippy) - a code linter to catch common mistakes and improve your Rust code
