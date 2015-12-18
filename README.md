@@ -52,4 +52,6 @@ A collection of static analysis tools and code quality checkers for all programm
 
 ## Web-Services
 
+* [Codacy](https://www.codacy.com/) - Code Analysis to ship Better Code, Faster.
+* [Code Climate](https://codeclimate.com/) - The open and extensible static analysis platform, for everyone.
 * [Scrutinizer](https://scrutinizer-ci.com/) - A proprietery code quality checker that can be integrated with GitHub
