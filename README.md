@@ -25,7 +25,7 @@ A collection of static analysis tools and code quality checkers for all programm
 * [GrumPHP](https://github.com/phpro/grumphp) - checks code on every commit
 * [phan](https://github.com/etsy/phan) - a modern static analyzer from etsy
 * [phpcpd](https://github.com/sebastianbergmann/phpcpd) - Copy/Paste Detector (CPD) for PHP code. 
-* [PHP_CodeSniffer)[https://github.com/squizlabs/PHP_CodeSniffer] - detects violations of a defined set of coding standards
+* [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) - detects violations of a defined set of coding standards
 * [phpdcd](https://github.com/sebastianbergmann/phpdcd) - Dead Code Detector (DCD) for PHP code. 
 * [PhpDependencyAnalysis](https://github.com/mamuz/PhpDependencyAnalysis) - builds a dependency graph for a project
 * [PHPMD](http://phpmd.org/) - finds possible bugs in your code
