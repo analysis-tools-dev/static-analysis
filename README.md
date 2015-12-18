@@ -2,6 +2,10 @@
 
 A collection of static analysis tools and code checkers for all programming languages
 
+## Elixir
+
+* [credo](https://github.com/rrrene/credo) -  A static code analysis tool with a focus on code consistency and teaching. 
+
 ## Java
 
 * [PMD](https://pmd.github.io/) - A Java source code analyzer
