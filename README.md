@@ -2,6 +2,10 @@
 
 A collection of static analysis tools and code quality checkers for all programming languages
 
+## C
+
+* [oclint](https://github.com/oclint/oclint) - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C
+
 ## Elixir
 
 * [credo](https://github.com/rrrene/credo) -  A static code analysis tool with a focus on code consistency and teaching. 
