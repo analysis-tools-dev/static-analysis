@@ -10,6 +10,13 @@ A collection of static analysis tools and code quality checkers for all programm
 
 * [credo](https://github.com/rrrene/credo) -  A static code analysis tool with a focus on code consistency and teaching. 
 
+## Go
+
+* [go/ast](https://golang.org/pkg/go/ast/) - Package ast declares the types used to represent syntax trees for Go packages.
+* [gocyclo](https://github.com/fzipp/gocyclo) - Calculate cyclomatic complexities of functions in Go source code
+* [Go Meta Linter](https://github.com/alecthomas/gometalinter) - Concurrently run Go lint tools and normalise their output
+* [go vet](https://godoc.org/golang.org/x/tools/cmd/vet) - Examines Go source code and reports suspicious constructs
+
 ## Java
 
 * [PMD](https://pmd.github.io/) - A Java source code analyzer
