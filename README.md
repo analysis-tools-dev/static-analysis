@@ -16,8 +16,12 @@ A collection of static analysis tools and code quality checkers for all programm
 
 ## Javascript
 
+* [complexity-report](https://github.com/jared-stilwell/complexity-report) - Software complexity analysis for JavaScript projects
+* [escomplex](https://github.com/jared-stilwell/escomplex) - Software complexity analysis of JavaScript-family abstract syntax trees.
+* [Esprima](https://github.com/jquery/esprima) - ECMAScript parsing infrastructure for multipurpose analysis
 * [JSLint](https://github.com/douglascrockford/JSLint) - The JavaScript Code Quality Tool
 * [plato](https://github.com/es-analysis/plato) - Visualize JavaScript source complexity
+* [yardstick](https://github.com/calmh/yardstick) - Javascript code metrics
 
 ## PHP
 
