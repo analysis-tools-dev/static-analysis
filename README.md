@@ -21,7 +21,7 @@ A collection of static analysis tools and code quality checkers for all programm
 
 * [PMD](https://pmd.github.io/) - A Java source code analyzer
 
-## Javascript
+## JavaScript
 
 * [complexity-report](https://github.com/jared-stilwell/complexity-report) - Software complexity analysis for JavaScript projects
 * [escomplex](https://github.com/jared-stilwell/escomplex) - Software complexity analysis of JavaScript-family abstract syntax trees.
