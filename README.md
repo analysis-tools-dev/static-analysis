@@ -1,6 +1,7 @@
 # Awesome static analysis
 
-A collection of static analysis tools and code quality checkers for all programming languages
+A collection of static analysis tools and code quality checkers for all programming languages.  
+Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for proprietary software.
 
 ## C
 
