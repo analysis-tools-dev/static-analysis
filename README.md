@@ -31,6 +31,13 @@ Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for pro
 * [plato](https://github.com/es-analysis/plato) [OSS] - Visualize JavaScript source complexity
 * [yardstick](https://github.com/calmh/yardstick) [OSS] - Javascript code metrics
 
+## Python
+
+* [jedi](http://jedi.jedidjah.ch/en/latest/) [OSS] - autocompletion/static analysis library for Python
+* [pyflakes](https://github.com/pyflakes/pyflakes/) [OSS] - A simple program which checks Python source files for errors.
+* [pylint](https://github.com/PyCQA/pylint) [OSS] -  Looks for programming errors, helps enforcing a coding standard and sniffs for some code smells 
+
+
 ## PHP
 
 * [DesignPatternDetector](https://github.com/Halleck45/DesignPatternDetector) [OSS] - detection of design patterns in PHP code 
