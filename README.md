@@ -72,6 +72,10 @@ Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for pro
 
 * [clippy](https://github.com/Manishearth/rust-clippy) [OSS] - a code linter to catch common mistakes and improve your Rust code
 
+## Swift
+
+* [SwiftLint](https://github.com/realm/SwiftLint) [OSS] - A tool to enforce Swift style and conventions
+
 # Meta
 
 ## All languages
