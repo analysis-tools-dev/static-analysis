@@ -5,7 +5,7 @@ Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for pro
 
 ## C
 
-* [CMetrics](https://github.com/MetricsGrimoire/CMetrics) - Measures size and complexity for C files
+* [CMetrics](https://github.com/MetricsGrimoire/CMetrics) [OSS] - Measures size and complexity for C files
 * [oclint](https://github.com/oclint/oclint) [OSS] - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C
 
 ## C# #
