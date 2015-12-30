@@ -24,6 +24,7 @@ Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for pro
 
 ## Java
 
+* [checkstyle](https://github.com/checkstyle/checkstyle) [OSS] - checking Java source code for adherence to a Code Standard or set of validation rules (best practices)
 * [PMD](https://pmd.github.io/) [OSS] - A Java source code analyzer
 
 ## JavaScript
