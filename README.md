@@ -31,6 +31,7 @@ Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for pro
 * [complexity-report](https://github.com/jared-stilwell/complexity-report) [OSS] - Software complexity analysis for JavaScript projects
 * [escomplex](https://github.com/jared-stilwell/escomplex) [OSS] - Software complexity analysis of JavaScript-family abstract syntax trees.
 * [Esprima](https://github.com/jquery/esprima) [OSS] - ECMAScript parsing infrastructure for multipurpose analysis
+* [jshint](https://github.com/jshint/jshint) [OSS] - detect errors and potential problems in JavaScript code and enforce your team's coding conventions
 * [JSLint](https://github.com/douglascrockford/JSLint) [PROPRIETARY] - The JavaScript Code Quality Tool
 * [plato](https://github.com/es-analysis/plato) [OSS] - Visualize JavaScript source complexity
 * [yardstick](https://github.com/calmh/yardstick) [OSS] - Javascript code metrics
