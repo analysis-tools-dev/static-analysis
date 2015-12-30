@@ -39,6 +39,7 @@ Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for pro
 ## Python
 
 * [jedi](http://jedi.jedidjah.ch/en/latest/) [OSS] - autocompletion/static analysis library for Python
+* [Linty fresh](https://github.com/lyft/linty_fresh) [OSS] - Surface lint errors during code review
 * [prospector]() [OSS] - output information about errors, potential problems, convention violations and complexity in Python code
 * [pyflakes](https://github.com/pyflakes/pyflakes/) [OSS] - A simple program which checks Python source files for errors.
 * [pylint](https://github.com/PyCQA/pylint) [OSS] -  Looks for programming errors, helps enforcing a coding standard and sniffs for some code smells 
