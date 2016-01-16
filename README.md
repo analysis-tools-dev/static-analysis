@@ -12,6 +12,10 @@ Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for pro
 
 * [ReSharper](https://www.jetbrains.com/resharper/) [PROPRIETARY] - Extends Visual Studio with on-the-fly code inspections for C#, VB.NET, ASP.NET, JavaScript, TypeScript and other technologies
 
+## Docker
+
+* [Haskell Dockerfile Linter](https://github.com/lukasmartinelli/hadolint) [OSS] - A smarter Dockerfile linter that helps you build best practice Docker images
+
 ## Elixir
 
 * [credo](https://github.com/rrrene/credo) [OSS] -  A static code analysis tool with a focus on code consistency and teaching. 
