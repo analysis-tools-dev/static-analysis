@@ -10,6 +10,7 @@ Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for pro
 ## C++
 
 * [cppcheck](https://github.com/danmar/cppcheck) [OSS] - static analysis of C/C++ code
+* [PVS Studio](http://www.viva64.com/en/pvs-studio/) [PROPRIETARY] - static analysis of C/C++ code
 
 ## C# #
 
@@ -125,6 +126,7 @@ report. The higher the score, the more pain the code is in.
 
 * [oclint](https://github.com/oclint/oclint) [OSS] - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C
 * [pfff](https://github.com/facebook/pfff) [OSS] - Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages
+* [XCode](https://developer.apple.com/xcode/) [PROPRIETARY/OSS] - XCode provides a pretty decend UI for [Clang's](http://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C)
 
 ## Web-Services
 
