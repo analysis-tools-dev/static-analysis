@@ -10,6 +10,7 @@ Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for pro
 ## C++
 
 * [cppcheck](https://github.com/danmar/cppcheck) [OSS] - static analysis of C/C++ code
+* [PVS Studio](http://www.viva64.com/en/pvs-studio/) [PROPRIETARY] - static analysis of C/C++ code
 
 ## C# #
 
