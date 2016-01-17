@@ -49,6 +49,10 @@ Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for pro
 * [plato](https://github.com/es-analysis/plato) [OSS] - Visualize JavaScript source complexity
 * [yardstick](https://github.com/calmh/yardstick) [OSS] - Javascript code metrics
 
+## Lua
+
+* [luacheck](https://github.com/mpeterv/luacheck) [OSS] -  A tool for linting and static analysis of Lua code. 
+
 ## Python
 
 * [flake8](https://pypi.python.org/pypi/flake8) [OSS] - the modular source code checker: pep8, pyflakes and co
@@ -78,8 +82,13 @@ Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for pro
 ## Ruby
 
 * [brakeman](https://github.com/presidentbeef/brakeman) [OSS] - A static analysis security vulnerability scanner for Ruby on Rails applications
+* [dawnscanner](https://github.com/thesp0nge/dawnscanner) [OSS] - a static analysis security scanner for ruby written web applications. It supports Sinatra, Padrino and Ruby on Rails frameworks. 
+* [laser](https://github.com/michaeledgar/laser) [OSS] - Static analysis and style linter for Ruby code.
+* [Mondrian](http://trismegiste.github.io/Mondrian/) [OSS] - a set of static analysis and refactoring tools for more abstraction
+* [pelusa](https://github.com/codegram/pelusa) [OSS] -  Static analysis Lint-type tool to improve your OO Ruby code
 * [rubycritic](https://github.com/whitesmith/rubycritic) [OSS] - A Ruby code quality reporter 
 * [ruby-lint](https://github.com/YorickPeterse/ruby-lint) [OSS] - Static code analysis for Ruby
+* [SandyMeter](https://github.com/makaroni4/sandi_meter) [OSS] - Static analysis tool for checking Ruby code for Sandi Metz' rules.
 
 ## Rust
 
