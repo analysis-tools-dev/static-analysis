@@ -109,6 +109,7 @@ report. The higher the score, the more pain the code is in.
 ## Scala
 
 * [linter](https://github.com/HairyFotr/linter) [OSS] - Linter is a Scala static analysis compiler plugin which adds compile-time checks for various possible bugs, inefficiencies, and style problems.
+* [scapegoat](https://github.com/sksamuel/scapegoat) [OSS] - Scala compiler plugin for static code analysis 
 
 ## Shell
 
