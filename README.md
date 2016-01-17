@@ -33,7 +33,8 @@ Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for pro
 
 ## HTML
 
-* [HTMLHint](https://github.com/yaniswang/HTMLHint) [OSS] - A Static Code Analysis Tool for HTML 
+* [HTMLHint](https://github.com/yaniswang/HTMLHint) [OSS] - A Static Code Analysis Tool for HTML
+* [HTML Inspector](https://github.com/philipwalton/html-inspector) [OSS] - HTML Inspector is a code quality tool to help you and your team write better markup. 
 
 ## Java
 
@@ -45,6 +46,7 @@ Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for pro
 * [complexity-report](https://github.com/jared-stilwell/complexity-report) [OSS] - Software complexity analysis for JavaScript projects
 * [escomplex](https://github.com/jared-stilwell/escomplex) [OSS] - Software complexity analysis of JavaScript-family abstract syntax trees.
 * [Esprima](https://github.com/jquery/esprima) [OSS] - ECMAScript parsing infrastructure for multipurpose analysis
+* [quality](https://github.com/jden/quality) [OSS] - zero configuration code and module linting 
 * [jshint](https://github.com/jshint/jshint) [OSS] - detect errors and potential problems in JavaScript code and enforce your team's coding conventions
 * [JSLint](https://github.com/douglascrockford/JSLint) [PROPRIETARY] - The JavaScript Code Quality Tool
 * [plato](https://github.com/es-analysis/plato) [OSS] - Visualize JavaScript source complexity
@@ -85,10 +87,17 @@ Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for pro
 ## Ruby
 
 * [brakeman](https://github.com/presidentbeef/brakeman) [OSS] - A static analysis security vulnerability scanner for Ruby on Rails applications
+* [cane](https://github.com/square/cane) [OSS] - Code quality threshold checking as part of your build 
 * [dawnscanner](https://github.com/thesp0nge/dawnscanner) [OSS] - a static analysis security scanner for ruby written web applications. It supports Sinatra, Padrino and Ruby on Rails frameworks. 
+* [flay](https://github.com/seattlerb/flay) [OSS] - Flay analyzes code for structural similarities.
+* [flog](https://github.com/seattlerb/flog) [OSS] - Flog reports the most tortured code in an easy to read pain
+report. The higher the score, the more pain the code is in.
 * [laser](https://github.com/michaeledgar/laser) [OSS] - Static analysis and style linter for Ruby code.
 * [Mondrian](http://trismegiste.github.io/Mondrian/) [OSS] - a set of static analysis and refactoring tools for more abstraction
 * [pelusa](https://github.com/codegram/pelusa) [OSS] -  Static analysis Lint-type tool to improve your OO Ruby code
+* [quality](https://github.com/apiology/quality) [OSS] -  Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time. 
+* [reek](https://github.com/troessner/reek) [OSS] - Code smell detector for Ruby
+* [rubocop](https://github.com/bbatsov/rubocop) [OSS] - A Ruby static code analyzer, based on the community Ruby style guide. 
 * [rubycritic](https://github.com/whitesmith/rubycritic) [OSS] - A Ruby code quality reporter 
 * [ruby-lint](https://github.com/YorickPeterse/ruby-lint) [OSS] - Static code analysis for Ruby
 * [SandyMeter](https://github.com/makaroni4/sandi_meter) [OSS] - Static analysis tool for checking Ruby code for Sandi Metz' rules.
