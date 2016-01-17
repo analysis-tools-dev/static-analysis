@@ -29,6 +29,7 @@ Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for pro
 * [gocyclo](https://github.com/fzipp/gocyclo) [OSS] - Calculate cyclomatic complexities of functions in Go source code
 * [Go Meta Linter](https://github.com/alecthomas/gometalinter) [OSS] - Concurrently run Go lint tools and normalise their output
 * [go vet](https://godoc.org/golang.org/x/tools/cmd/vet) [OSS] - Examines Go source code and reports suspicious constructs
+* [safesql](https://github.com/stripe/safesql) [OSS] - Static analysis tool for Golang that protects against SQL injections 
 
 ## HTML
 
@@ -72,8 +73,10 @@ Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for pro
 * [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) [OSS] - detects violations of a defined set of coding standards
 * [phpdcd](https://github.com/sebastianbergmann/phpdcd) [OSS] - Dead Code Detector (DCD) for PHP code. 
 * [PhpDependencyAnalysis](https://github.com/mamuz/PhpDependencyAnalysis) [OSS] - builds a dependency graph for a project
+* [phpsa](https://github.com/ovr/phpsa) [OSS] - Static analysis tool for PHP. 
 * [PHPMD](http://phpmd.org/) [OSS] - finds possible bugs in your code
 * [PhpMetrics](https://github.com/Halleck45/PhpMetrics) [OSS] - calculates code complexity metrics
+* [Tulli](https://github.com/ircmaxell/Tuli) [OSS] - A static analysis engine 
 
 ## R
 
