@@ -32,6 +32,10 @@ Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for pro
 * [go vet](https://godoc.org/golang.org/x/tools/cmd/vet) [OSS] - Examines Go source code and reports suspicious constructs
 * [safesql](https://github.com/stripe/safesql) [OSS] - Static analysis tool for Golang that protects against SQL injections 
 
+## Groovy
+
+* [CodeNarc](https://github.com/CodeNarc/CodeNarc) [OSS] - a static analysis tool for Groovy source code, enabling monitoring and enforcement of many coding standards and best practices
+
 ## HTML
 
 * [HTMLHint](https://github.com/yaniswang/HTMLHint) [OSS] - A Static Code Analysis Tool for HTML
@@ -40,10 +44,15 @@ Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for pro
 ## Java
 
 * [checkstyle](https://github.com/checkstyle/checkstyle) [OSS] - checking Java source code for adherence to a Code Standard or set of validation rules (best practices)
+* [Error-prone](https://github.com/google/error-prone) [OSS] - Catch common Java mistakes as compile-time errors·
+* [fb-contrib](https://github.com/mebigfatguy/fb-contrib) [OSS] - A plugin for FindBugs with additional bug detectors
+* [Findbugs](https://github.com/findbugsproject/findbugs) [OSS] - FindBugs is a program to find bugs in Java programs. It looks for patterns are likely to be errors.
 * [PMD](https://pmd.github.io/) [OSS] - A Java source code analyzer
 
 ## JavaScript
 
+* [aether](https://github.com/codecombat/aether) [OSS] - Lint, analyze, normalize, transform, sandbox, run, step through, and visualize user JavaScript, in node or the browser.
+* [ClosureLinter](https://github.com/google/closure-linter) [OSS] - ensures that all of your project's JavaScript code follows the guidelines in the Google JavaScript Style Guide. It can also automatically fix many common errors
 * [complexity-report](https://github.com/jared-stilwell/complexity-report) [OSS] - Software complexity analysis for JavaScript projects
 * [escomplex](https://github.com/jared-stilwell/escomplex) [OSS] - Software complexity analysis of JavaScript-family abstract syntax trees.
 * [eslint](https://github.com/eslint/eslint) [OSS] - A fully pluggable tool for identifying and reporting on patterns in JavaScript
@@ -53,6 +62,7 @@ Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for pro
 * [JSLint](https://github.com/douglascrockford/JSLint) [PROPRIETARY] - The JavaScript Code Quality Tool
 * [plato](https://github.com/es-analysis/plato) [OSS] - Visualize JavaScript source complexity
 * [yardstick](https://github.com/calmh/yardstick) [OSS] - Javascript code metrics
+* [XO](https://github.com/sindresorhus/xo) [OSS] - Enforce strict code style. Never discuss code style on a pull request again!
 
 ## Lua
 
@@ -114,7 +124,10 @@ report. The higher the score, the more pain the code is in.
 ## Scala
 
 * [linter](https://github.com/HairyFotr/linter) [OSS] - Linter is a Scala static analysis compiler plugin which adds compile-time checks for various possible bugs, inefficiencies, and style problems.
+* [ScalaStyle](https://github.com/scalastyle/scalastyle/wiki) [OSS] - Scalastyle examines your Scala code and indicates potential problems with it.
 * [scapegoat](https://github.com/sksamuel/scapegoat) [OSS] - Scala compiler plugin for static code analysis 
+* [WartRemover](https://github.com/puffnfresh/wartremover) [OSS] - a flexible Scala code linting tool.
+
 
 ## Shell
 
@@ -126,8 +139,9 @@ report. The higher the score, the more pain the code is in.
 
 # Meta
 
-## More than one language
+## Multiple languages
 
+* [Coverity Save](http://www.coverity.com/products/coverity-save/) [PROPRIETARY] - Static analysis for  C/C++, Java and C#
 * [oclint](https://github.com/oclint/oclint) [OSS] - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C
 * [pfff](https://github.com/facebook/pfff) [OSS] - Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages
 * [XCode](https://developer.apple.com/xcode/) [PROPRIETARY/OSS] - XCode provides a pretty decend UI for [Clang's](http://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C)
