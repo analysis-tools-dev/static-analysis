@@ -79,6 +79,9 @@ Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for pro
 * [phpsa](https://github.com/ovr/phpsa) [OSS] - Static analysis tool for PHP. 
 * [PHPMD](http://phpmd.org/) [OSS] - finds possible bugs in your code
 * [PhpMetrics](https://github.com/Halleck45/PhpMetrics) [OSS] - calculates code complexity metrics
+* [PHP Refactoring Browser](https://github.com/QafooLabs/php-refactoring-browser) [OSS] - Refactoring helper
+* [PHP-Token-Reflection](https://github.com/Andrewsville/PHP-Token-Reflection) [OSS] - Library emulating the PHP internal reflection
+* [PHP-Parser](https://github.com/nikic/PHP-Parser) [OSS] - A PHP parser written in PHP
 * [Tulli](https://github.com/ircmaxell/Tuli) [OSS] - A static analysis engine 
 
 ## R
