@@ -1,4 +1,4 @@
-# Awesome static analysis
+# Awesome static analysis [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 A collection of static analysis tools and code quality checkers for all programming languages.  
 Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for proprietary software.
