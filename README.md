@@ -3,13 +3,14 @@
 A collection of static analysis tools and code quality checkers for all programming languages.  
 Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for proprietary software.
 
-## C
+## C/C++
 
 * [CMetrics](https://github.com/MetricsGrimoire/CMetrics) [OSS] - Measures size and complexity for C files
-
-## C++
-
+* [clang-tidy](http://clang.llvm.org/extra/clang-tidy/) [OSS] - clang static analyser
 * [cppcheck](https://github.com/danmar/cppcheck) [OSS] - static analysis of C/C++ code
+* [oclint](http://oclint.org/) [OSS] - static analysis of C/C++ code
+* [splint](http://www.splint.org/) [OSS] - static analysis of C/C++ code
+* [flawfinder](http://www.dwheeler.com/flawfinder/) [OSS] - finds possible security weaknesses
 * [PVS Studio](http://www.viva64.com/en/pvs-studio/) [PROPRIETARY] - static analysis of C/C++ code
 
 ## C# #
