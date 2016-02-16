@@ -157,10 +157,11 @@ report. The higher the score, the more pain the code is in.
 * [Codacy](https://www.codacy.com/) [PROPRIETARY] - Code Analysis to ship Better Code, Faster.
 * [Code Climate](https://codeclimate.com/) [PROPRIETARY] - The open and extensible static analysis platform, for everyone.
 * [Functor Prevent](http://www.functor.se/products/prevent/) [PROPRIETARY] - Static code analysis for C code.
+* [kiuwan](https://www.kiuwan.com/) [PROPRIETARY] - Software Analytics in the Cloud supporting more than 22 programming languages.
+* [Landscape](https://landscape.io/) [PROPRIETARY] - Static code analysis for Python
 * [Nitpick CI](https://nitpick-ci.com) [PROPRIETARY] - Automated PHP code review
 * [QuantifiedCode](https://www.quantifiedcode.com/) [PROPRIETARY] - Automated code review & repair
 * [Scrutinizer](https://scrutinizer-ci.com/) [PROPRIETARY] - A proprietery code quality checker that can be integrated with GitHub
-* [kiuwan](https://www.kiuwan.com/) [PROPRIETARY] - Software Analytics in the Cloud supporting more than 22 programming languages.
 
 
 ## License
