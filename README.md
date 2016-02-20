@@ -97,7 +97,7 @@ Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for pro
 * [PHP-Parser](https://github.com/nikic/PHP-Parser) [OSS] - A PHP parser written in PHP
 * [Tuli](https://github.com/ircmaxell/Tuli) [OSS] - A static analysis engine 
 * [twig-lint](https://github.com/asm89/twig-lint) [OSS] - twig-lint is a lint tool for your twig files.
-
+* [RIPS](https://github.com/ripsscanner/rips) [OSS] -  A static source code analyser for vulnerabilities in PHP scripts
 
 ## R
 
@@ -151,6 +151,7 @@ report. The higher the score, the more pain the code is in.
 * [shipshape](https://github.com/google/shipshape) [OSS] - Static program analysis platform that allows custom analyzers to plug in through a common interface
 * [STOKE](https://github.com/StanfordPL/stoke-release) [OSS] - a programming-language agnosti stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations
 * [XCode](https://developer.apple.com/xcode/) [PROPRIETARY/OSS] - XCode provides a pretty decend UI for [Clang's](http://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C)
+* [Infer](https://github.com/facebook/infer) [OSS] -  A static analyzer for Java, C and Objective-C
 
 ## Web-Services
 
