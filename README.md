@@ -164,6 +164,7 @@ report. The higher the score, the more pain the code is in.
 * [Nitpick CI](https://nitpick-ci.com) [PROPRIETARY] - Automated PHP code review
 * [QuantifiedCode](https://www.quantifiedcode.com/) [PROPRIETARY] - Automated code review & repair
 * [Scrutinizer](https://scrutinizer-ci.com/) [PROPRIETARY] - A proprietery code quality checker that can be integrated with GitHub
+* [SensioLabs Insights]() [PROPRIETARY] - Detect security risks, find bugs and provide actionable metrics for PHP projects
 
 
 ## License
