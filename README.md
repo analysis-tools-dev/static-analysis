@@ -85,6 +85,7 @@ Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for pro
 * [exakat](https://github.com/exakat/exakat) [OSS] - An automated code reviewing engine for PHP
 * [GrumPHP](https://github.com/phpro/grumphp) [OSS] - checks code on every commit
 * [phan](https://github.com/etsy/phan) [OSS] - a modern static analyzer from etsy
+* [php7mar](https://github.com/Alexia/php7mar) [OSS] - assist developers in porting their code quickly to PHP 7
 * [phpcpd](https://github.com/sebastianbergmann/phpcpd) [OSS] - Copy/Paste Detector (CPD) for PHP code. 
 * [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) [OSS] - detects violations of a defined set of coding standards
 * [phpdcd](https://github.com/sebastianbergmann/phpdcd) [OSS] - Dead Code Detector (DCD) for PHP code. 
