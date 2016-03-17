@@ -11,7 +11,6 @@ Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for pro
 * [oclint](http://oclint.org/) [OSS] - static analysis of C/C++ code
 * [splint](http://www.splint.org/) [OSS] - static analysis of C/C++ code
 * [flawfinder](http://www.dwheeler.com/flawfinder/) [OSS] - finds possible security weaknesses
-* [PVS Studio](http://www.viva64.com/en/pvs-studio/) [PROPRIETARY] - static analysis of C/C++ code
 
 ## C# #
 
@@ -146,6 +145,7 @@ report. The higher the score, the more pain the code is in.
 
 ## Multiple languages
 
+* [PVS-Studio](http://www.viva64.com/en/pvs-studio/) [PROPRIETARY] - static analysis of C/C++ and C# code
 * [Coverity Save](http://www.coverity.com/products/coverity-save/) [PROPRIETARY] - Static analysis for  C/C++, Java and C#
 * [Infer](https://github.com/facebook/infer) [OSS] -  A static analyzer for Java, C and Objective-C
 * [oclint](https://github.com/oclint/oclint) [OSS] - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C
