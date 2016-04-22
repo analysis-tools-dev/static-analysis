@@ -45,6 +45,10 @@ Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for pro
 
 * [CodeNarc](https://github.com/CodeNarc/CodeNarc) [OSS] - a static analysis tool for Groovy source code, enabling monitoring and enforcement of many coding standards and best practices
 
+## Haxe
+
+* [Haxe Checkstyle](https://github.com/HaxeCheckstyle/haxe-checkstyle) [OSS] - A static analysis tool to help developers write Haxe code that adheres to a coding standard.
+
 ## HTML
 
 * [HTMLHint](https://github.com/yaniswang/HTMLHint) [OSS] - A Static Code Analysis Tool for HTML
