@@ -151,6 +151,7 @@ report. The higher the score, the more pain the code is in.
 ## Swift
 
 * [SwiftLint](https://github.com/realm/SwiftLint) [OSS] - A tool to enforce Swift style and conventions
+* [Tailor](https://github.com/sleekbyte/tailor) [OSS] - A static analysis and lint tool for source code written in Apple's Swift programming language.
 
 # Meta
 
