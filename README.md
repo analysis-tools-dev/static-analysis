@@ -6,8 +6,8 @@ Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for pro
 Table of Contents
 -----------------
 
-- [C/C++](#c/c++)
-- [C#](#c#)
+- [C/C++](#cc)
+- [C#](#c)
 - [Docker](#docker)
 - [Elixir](#elixir)
 - [Go](#go)
