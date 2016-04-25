@@ -3,6 +3,32 @@
 A collection of static analysis tools and code quality checkers for all programming languages.  
 Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for proprietary software.
 
+Table of Contents
+-----------------
+
+- [C/C++](#c/c++)
+- [C#](#c#)
+- [Docker](#docker)
+- [Elixir](#elixir)
+- [Go](#go)
+- [Groovy](#groovy)
+- [Haxe](#haxe)
+- [Html](#html)
+- [Java](#java)
+- [JavaScript](#javascript)
+- [Lua](#lua)
+- [Python](#python)
+- [PHP](#php)
+- [R](#r)
+- [Ruby](#ruby)
+- [Rust](#rust)
+- [Scala](#scala)
+- [Shell](#shell)
+- [Swift](#swift)
+- [Meta](#meta)
+- [Multiple Languages](#multiple-languages)
+- [Web-Services](#web-services)
+
 ## C/C++
 
 * [CMetrics](https://github.com/MetricsGrimoire/CMetrics) [OSS] - Measures size and complexity for C files
