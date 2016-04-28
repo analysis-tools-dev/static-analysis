@@ -12,6 +12,7 @@ Table of Contents
 - [Elixir](#elixir)
 - [Go](#go)
 - [Groovy](#groovy)
+- [Haskell](#haskell)
 - [Haxe](#haxe)
 - [Html](#html)
 - [Java](#java)
@@ -70,6 +71,10 @@ Table of Contents
 ## Groovy
 
 * [CodeNarc](https://github.com/CodeNarc/CodeNarc) [OSS] - a static analysis tool for Groovy source code, enabling monitoring and enforcement of many coding standards and best practices
+
+## Haskell
+
+* [HLint](https://github.com/ndmitchell/hlint) [OSS] - HLint is a tool for suggesting possible improvements to Haskell code.
 
 ## Haxe
 
