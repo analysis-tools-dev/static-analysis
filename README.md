@@ -119,7 +119,7 @@ Table of Contents
 * [jedi](http://jedi.jedidjah.ch/en/latest/) [OSS] - autocompletion/static analysis library for Python
 * [Linty fresh](https://github.com/lyft/linty_fresh) [OSS] - Surface lint errors during code review
 * [mypy](http://mypy-lang.org/) [OSS] - an experimental optional static type checker for Python that aims to combine the benefits of dynamic (or "duck") typing and static typing
-* [prospector]() [OSS] - output information about errors, potential problems, convention violations and complexity in Python code
+* [prospector](https://github.com/landscapeio/prospector) [OSS] - output information about errors, potential problems, convention violations and complexity in Python code
 * [pyflakes](https://github.com/pyflakes/pyflakes/) [OSS] - A simple program which checks Python source files for errors.
 * [pylint](https://github.com/PyCQA/pylint) [OSS] -  Looks for programming errors, helps enforcing a coding standard and sniffs for some code smells 
 
