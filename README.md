@@ -61,6 +61,7 @@ Table of Contents
 
 ## Go
 
+* [flen](https://github.com/lafolle/flen) [OSS] - Get info on length of functions in a Go package
 * [go/ast](https://golang.org/pkg/go/ast/) [OSS] - Package ast declares the types used to represent syntax trees for Go packages.
 * [gocyclo](https://github.com/fzipp/gocyclo) [OSS] - Calculate cyclomatic complexities of functions in Go source code
 * [Go Meta Linter](https://github.com/alecthomas/gometalinter) [OSS] - Concurrently run Go lint tools and normalise their output
