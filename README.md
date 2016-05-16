@@ -33,6 +33,7 @@ Table of Contents
 ## C/C++
 
 * [CMetrics](https://github.com/MetricsGrimoire/CMetrics) [OSS] - Measures size and complexity for C files
+* [cqmetrics](https://github.com/dspinellis/cqmetrics) [OSS] - quality metrics for C code
 * [clang-tidy](http://clang.llvm.org/extra/clang-tidy/) [OSS] - clang static analyser
 * [cppcheck](https://github.com/danmar/cppcheck) [OSS] - static analysis of C/C++ code
 * [oclint](http://oclint.org/) [OSS] - static analysis of C/C++ code
