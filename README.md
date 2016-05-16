@@ -89,6 +89,7 @@ Table of Contents
 ## Java
 
 * [checkstyle](https://github.com/checkstyle/checkstyle) [OSS] - checking Java source code for adherence to a Code Standard or set of validation rules (best practices)
+* [ckjm](http://www.spinellis.gr/sw/ckjm/) [OSS] - calculates Chidamber and Kemerer object-oriented metrics by processing the bytecode of compiled Java files
 * [Error-prone](https://github.com/google/error-prone) [OSS] - Catch common Java mistakes as compile-time errors·
 * [fb-contrib](https://github.com/mebigfatguy/fb-contrib) [OSS] - A plugin for FindBugs with additional bug detectors
 * [Findbugs](https://github.com/findbugsproject/findbugs) [OSS] - FindBugs is a program to find bugs in Java programs. It looks for patterns are likely to be errors.
