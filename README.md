@@ -36,9 +36,10 @@ Table of Contents
 * [cqmetrics](https://github.com/dspinellis/cqmetrics) [OSS] - quality metrics for C code
 * [clang-tidy](http://clang.llvm.org/extra/clang-tidy/) [OSS] - clang static analyser
 * [cppcheck](https://github.com/danmar/cppcheck) [OSS] - static analysis of C/C++ code
+* [flawfinder](http://www.dwheeler.com/flawfinder/) [OSS] - finds possible security weaknesses
 * [oclint](http://oclint.org/) [OSS] - static analysis of C/C++ code
 * [splint](http://www.splint.org/) [OSS] - static analysis of C/C++ code
-* [flawfinder](http://www.dwheeler.com/flawfinder/) [OSS] - finds possible security weaknesses
+* [tis-interpreter](https://github.com/TrustInSoft/tis-interpreter) [OSS] - An interpreter for finding subtle bugs in programs written in standard C 
 
 ## C# #
 
