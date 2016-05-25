@@ -210,6 +210,7 @@ report. The higher the score, the more pain the code is in.
 
 * [Codacy](https://www.codacy.com/) [PROPRIETARY] - Code Analysis to ship Better Code, Faster.
 * [Code Climate](https://codeclimate.com/) [PROPRIETARY] - The open and extensible static analysis platform, for everyone.
+* [ConQAT](http://www.conqat.org/) [OSS] - a toolkit for rapid development and execution of software quality analyses.
 * [Functor Prevent](http://www.functor.se/products/prevent/) [PROPRIETARY] - Static code analysis for C code.
 * [kiuwan](https://www.kiuwan.com/) [PROPRIETARY] - Software Analytics in the Cloud supporting more than 22 programming languages.
 * [Landscape](https://landscape.io/) [PROPRIETARY] - Static code analysis for Python
@@ -217,6 +218,7 @@ report. The higher the score, the more pain the code is in.
 * [QuantifiedCode](https://www.quantifiedcode.com/) [PROPRIETARY] - Automated code review & repair
 * [Scrutinizer](https://scrutinizer-ci.com/) [PROPRIETARY] - A proprietery code quality checker that can be integrated with GitHub
 * [SensioLabs Insights]() [PROPRIETARY] - Detect security risks, find bugs and provide actionable metrics for PHP projects
+* [Teamscale](http://www.teamscale.com/) [PROPRIETARY] - analyze, monitor, and improve the quality of your code.
 
 
 ## License
