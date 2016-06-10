@@ -1,6 +1,8 @@
 # Awesome static analysis [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A collection of static analysis tools and code quality checkers for all programming languages.  
+> Static program analysis is the analysis of computer software that is performed without actually executing programs (analysis performed on executing programs is known as dynamic analysis). — Definition by [Wikipedia](https://en.wikipedia.org/wiki/Static_program_analysis)
+
+This is a collection of static analysis tools and code quality checkers for all programming languages.  
 Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for proprietary software.
 
 Table of Contents
