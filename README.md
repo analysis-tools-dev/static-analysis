@@ -55,6 +55,7 @@ Table of Contents
 * [VSDiagnostics](https://github.com/Vannevelj/VSDiagnostics) [OSS] - A collection of static analyzers based on Roslyn that integrate with VS.
 * [Wintellect.Analyzers](https://github.com/Wintellect/Wintellect.Analyzers) [OSS] - .NET Compiler Platform ("Roslyn") diagnostic analyzers and code fixes written by Wintellect.
 * [Code Analysis Rule Collection](https://carc.codeplex.com/) [OSS] - Contains a set of diagnostics, code fixes and refactorings built on the Microsoft .NET Compiler Platform "Roslyn".
+* [Gendarme](http://www.mono-project.com/docs/tools+libraries/tools/gendarme/)[OSS] - Gendarme inspects programs and libraries that contain code in ECMA CIL format (Mono and .NET) and looks for common problems with the code, problems that compiler do not typically check or have not historically checked.
 
 ## Docker
 
