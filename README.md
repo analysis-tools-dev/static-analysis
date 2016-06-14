@@ -46,16 +46,16 @@ Table of Contents
 
 ## C# #
 
-* [ReSharper](https://www.jetbrains.com/resharper/) [PROPRIETARY] - Extends Visual Studio with on-the-fly code inspections for C#, VB.NET, ASP.NET, JavaScript, TypeScript and other technologies.
+* [Code Analysis Rule Collection](https://carc.codeplex.com/) [OSS] - Contains a set of diagnostics, code fixes and refactorings built on the Microsoft .NET Compiler Platform "Roslyn".
 * [code-cracker](https://github.com/code-cracker/code-cracker) [OSS] - An analyzer library for C# and VB that uses Roslyn to produce refactorings, code analysis, and other niceties.
-* [SonarLint for Visual Studio](https://github.com/SonarSource/sonarlint-vs) [OSS] - SonarLint is a Visual Studio 2015 extension that provides on-the-fly feedback to developers on new bugs and quality issues injected into .NET code.
-* [.NET Analyzers](https://github.com/DotNetAnalyzers) [OSS] - An organization for the development of analyzers (diagnostics, code fixes, and refactorings) using the .NET Compiler Platform.
 * [CSharpEssentials](https://github.com/DustinCampbell/CSharpEssentials) [OSS] - C# Essentials is a collection of Roslyn diagnostic analyzers, code fixes and refactorings that make it easy to work with C# 6 language features.
+* [Gendarme](http://www.mono-project.com/docs/tools+libraries/tools/gendarme/)[OSS] - Gendarme inspects programs and libraries that contain code in ECMA CIL format (Mono and .NET) and looks for common problems with the code, problems that compiler do not typically check or have not historically checked.
+* [.NET Analyzers](https://github.com/DotNetAnalyzers) [OSS] - An organization for the development of analyzers (diagnostics, code fixes, and refactorings) using the .NET Compiler Platform.
+* [SonarLint for Visual Studio](https://github.com/SonarSource/sonarlint-vs) [OSS] - SonarLint is a Visual Studio 2015 extension that provides on-the-fly feedback to developers on new bugs and quality issues injected into .NET code.
 * [Refactoring Essentials](http://vsrefactoringessentials.com/) [OSS] - The premier free Visual Studio 2015 extension for C# and VB.NET refactorings, including code best practice analyzers to improve your projects.
+* [ReSharper](https://www.jetbrains.com/resharper/) [PROPRIETARY] - Extends Visual Studio with on-the-fly code inspections for C#, VB.NET, ASP.NET, JavaScript, TypeScript and other technologies.
 * [VSDiagnostics](https://github.com/Vannevelj/VSDiagnostics) [OSS] - A collection of static analyzers based on Roslyn that integrate with VS.
 * [Wintellect.Analyzers](https://github.com/Wintellect/Wintellect.Analyzers) [OSS] - .NET Compiler Platform ("Roslyn") diagnostic analyzers and code fixes written by Wintellect.
-* [Code Analysis Rule Collection](https://carc.codeplex.com/) [OSS] - Contains a set of diagnostics, code fixes and refactorings built on the Microsoft .NET Compiler Platform "Roslyn".
-* [Gendarme](http://www.mono-project.com/docs/tools+libraries/tools/gendarme/)[OSS] - Gendarme inspects programs and libraries that contain code in ECMA CIL format (Mono and .NET) and looks for common problems with the code, problems that compiler do not typically check or have not historically checked.
 
 ## Docker
 
