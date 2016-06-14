@@ -43,6 +43,7 @@ Table of Contents
 * [oclint](http://oclint.org/) [OSS] - static analysis of C/C++ code
 * [splint](http://www.splint.org/) [OSS] - static analysis of C/C++ code
 * [tis-interpreter](https://github.com/TrustInSoft/tis-interpreter) [OSS] - An interpreter for finding subtle bugs in programs written in standard C 
+* [vera++](https://bitbucket.org/verateam/vera/wiki/Introduction) [OSS] - Vera++ is a programmable tool for verification, analysis and transformation of C++ source code.
 
 ## C# #
 
