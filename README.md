@@ -60,6 +60,7 @@ Table of Contents
 
 ## Containers
 
+* [clair](https://github.com/coreos/clair) [OSS] - Vulnerability Static Analysis for Containers 
 * [collector](https://github.com/banyanops/collector) [OSS] - Run arbitrary scripts inside containers, and gather useful information
 * [Haskell Dockerfile Linter](https://github.com/lukasmartinelli/hadolint) [OSS] - A smarter Dockerfile linter that helps you build best practice Docker images
 
