@@ -11,7 +11,7 @@ Table of Contents
 
 - [C/C++](#cc)
 - [C#](#c)
-- [Docker](#docker)
+- [Containers](#containers)
 - [Elixir](#elixir)
 - [Go](#go)
 - [Groovy](#groovy)
@@ -58,7 +58,7 @@ Table of Contents
 * [VSDiagnostics](https://github.com/Vannevelj/VSDiagnostics) [OSS] - A collection of static analyzers based on Roslyn that integrate with VS.
 * [Wintellect.Analyzers](https://github.com/Wintellect/Wintellect.Analyzers) [OSS] - .NET Compiler Platform ("Roslyn") diagnostic analyzers and code fixes written by Wintellect.
 
-## Docker
+## Containers
 
 * [collector](https://github.com/banyanops/collector) [OSS] - Run arbitrary scripts inside containers, and gather useful information
 * [Haskell Dockerfile Linter](https://github.com/lukasmartinelli/hadolint) [OSS] - A smarter Dockerfile linter that helps you build best practice Docker images
