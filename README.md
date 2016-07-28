@@ -60,6 +60,7 @@ Table of Contents
 
 ## Docker
 
+* [collector](https://github.com/banyanops/collector) [OSS] - Run arbitrary scripts inside containers, and gather useful information
 * [Haskell Dockerfile Linter](https://github.com/lukasmartinelli/hadolint) [OSS] - A smarter Dockerfile linter that helps you build best practice Docker images
 
 ## Elixir
