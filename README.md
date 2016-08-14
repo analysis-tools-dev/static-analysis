@@ -183,6 +183,7 @@ report. The higher the score, the more pain the code is in.
 ## Rust
 
 * [clippy](https://github.com/Manishearth/rust-clippy) [OSS] - a code linter to catch common mistakes and improve your Rust code
+* [linter-rust](https://github.com/AtomLinter/linter-rust) [OSS] -  Linting your Rust-files in Atom, using rustc and cargo
 
 ## Scala
 
