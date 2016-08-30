@@ -229,7 +229,8 @@ report. The higher the score, the more pain the code is in.
 * [Nitpick CI](https://nitpick-ci.com) [PROPRIETARY] - Automated PHP code review
 * [QuantifiedCode](https://www.quantifiedcode.com/) [PROPRIETARY] - Automated code review & repair
 * [Scrutinizer](https://scrutinizer-ci.com/) [PROPRIETARY] - A proprietery code quality checker that can be integrated with GitHub
-* [SensioLabs Insights]() [PROPRIETARY] - Detect security risks, find bugs and provide actionable metrics for PHP projects
+* [SensioLabs Insight](https://insight.sensiolabs.com/) [PROPRIETARY] - Detect security risks, find bugs and provide actionable metrics for PHP projects
+* [Snyk](https://snyk.io/) [PROPRIETARY] - Vulnerability scanner for dependencies of node.js apps (free for Open Source Projects)
 * [Teamscale](http://www.teamscale.com/) [PROPRIETARY] - analyze, monitor, and improve the quality of your code.
 
 
