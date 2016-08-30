@@ -206,6 +206,7 @@ report. The higher the score, the more pain the code is in.
 
 ## Multiple languages
 
+* [codeburner](https://github.com/groupon/codeburner) [OSS] - Provides a unified interface to sort and act on the issues it finds
 * [PVS-Studio](http://www.viva64.com/en/pvs-studio/) [PROPRIETARY] - static analysis of C/C++ and C# code
 * [Coverity Save](http://www.coverity.com/products/coverity-save/) [PROPRIETARY] - Static analysis for  C/C++, Java and C#
 * [imhotep](https://github.com/justinabrahms/imhotep) [OSS] - Comment on commits coming into your repository and check for syntactic errors and general lint warnings.
