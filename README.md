@@ -21,6 +21,7 @@ Table of Contents
 - [Java](#java)
 - [JavaScript](#javascript)
 - [Lua](#lua)
+- [Packages](#packages)
 - [Python](#python)
 - [PHP](#php)
 - [R](#r)
@@ -125,6 +126,10 @@ Table of Contents
 ## Lua
 
 * [luacheck](https://github.com/mpeterv/luacheck) [OSS] -  A tool for linting and static analysis of Lua code. 
+
+## Packages
+
+* [lintian](https://github.com/Debian/lintian)[OSS] - Static analysis tool for Debian packages
 
 ## Python
 
