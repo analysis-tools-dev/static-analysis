@@ -22,8 +22,8 @@ Table of Contents
 - [JavaScript](#javascript)
 - [Lua](#lua)
 - [Packages](#packages)
-- [Python](#python)
 - [PHP](#php)
+- [Python](#python)
 - [R](#r)
 - [Ruby](#ruby)
 - [Rust](#rust)
@@ -131,17 +131,6 @@ Table of Contents
 
 * [lintian](https://github.com/Debian/lintian)[OSS] - Static analysis tool for Debian packages
 
-## Python
-
-* [flake8](https://pypi.python.org/pypi/flake8) [OSS] - the modular source code checker: pep8, pyflakes and co
-* [jedi](http://jedi.jedidjah.ch/en/latest/) [OSS] - autocompletion/static analysis library for Python
-* [Linty fresh](https://github.com/lyft/linty_fresh) [OSS] - Surface lint errors during code review
-* [mypy](http://mypy-lang.org/) [OSS] - an experimental optional static type checker for Python that aims to combine the benefits of dynamic (or "duck") typing and static typing
-* [prospector](https://github.com/landscapeio/prospector) [OSS] - output information about errors, potential problems, convention violations and complexity in Python code
-* [pyflakes](https://github.com/pyflakes/pyflakes/) [OSS] - A simple program which checks Python source files for errors.
-* [pylint](https://github.com/PyCQA/pylint) [OSS] - Looks for programming errors, helps enforcing a coding standard and sniffs for some code smells 
-* [Pytype](https://github.com/google/pytype) [OSS] - A static type inferencer for Python code
-
 ## PHP
 
 * [DesignPatternDetector](https://github.com/Halleck45/DesignPatternDetector) [OSS] - detection of design patterns in PHP code
@@ -164,6 +153,17 @@ Table of Contents
 * [RIPS](https://github.com/ripsscanner/rips) [OSS] -  A static source code analyser for vulnerabilities in PHP scripts
 * [Tuli](https://github.com/ircmaxell/Tuli) [OSS] - A static analysis engine 
 * [twig-lint](https://github.com/asm89/twig-lint) [OSS] - twig-lint is a lint tool for your twig files.
+
+## Python
+
+* [flake8](https://pypi.python.org/pypi/flake8) [OSS] - the modular source code checker: pep8, pyflakes and co
+* [jedi](http://jedi.jedidjah.ch/en/latest/) [OSS] - autocompletion/static analysis library for Python
+* [Linty fresh](https://github.com/lyft/linty_fresh) [OSS] - Surface lint errors during code review
+* [mypy](http://mypy-lang.org/) [OSS] - an experimental optional static type checker for Python that aims to combine the benefits of dynamic (or "duck") typing and static typing
+* [prospector](https://github.com/landscapeio/prospector) [OSS] - output information about errors, potential problems, convention violations and complexity in Python code
+* [pyflakes](https://github.com/pyflakes/pyflakes/) [OSS] - A simple program which checks Python source files for errors.
+* [pylint](https://github.com/PyCQA/pylint) [OSS] - Looks for programming errors, helps enforcing a coding standard and sniffs for some code smells 
+* [Pytype](https://github.com/google/pytype) [OSS] - A static type inferencer for Python code
 
 ## R
 
