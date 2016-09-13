@@ -41,7 +41,7 @@ Table of Contents
 * [clang-tidy](http://clang.llvm.org/extra/clang-tidy/) [OSS] - clang static analyser
 * [cppcheck](https://github.com/danmar/cppcheck) [OSS] - static analysis of C/C++ code
 * [flawfinder](http://www.dwheeler.com/flawfinder/) [OSS] - finds possible security weaknesses
-* [flint++](http://l2program.co.uk/category/flint) - [OSS] - Flint++ is cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.
+* [flint++](http://l2program.co.uk/category/flint) - [OSS] - cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.
 * [oclint](http://oclint.org/) [OSS] - static analysis of C/C++ code
 * [splint](http://www.splint.org/) [OSS] - static analysis of C/C++ code
 * [tis-interpreter](https://github.com/TrustInSoft/tis-interpreter) [OSS] - An interpreter for finding subtle bugs in programs written in standard C
