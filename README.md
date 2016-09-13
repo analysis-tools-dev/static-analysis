@@ -41,9 +41,10 @@ Table of Contents
 * [clang-tidy](http://clang.llvm.org/extra/clang-tidy/) [OSS] - clang static analyser
 * [cppcheck](https://github.com/danmar/cppcheck) [OSS] - static analysis of C/C++ code
 * [flawfinder](http://www.dwheeler.com/flawfinder/) [OSS] - finds possible security weaknesses
+* [flint++](http://l2program.co.uk/category/flint) [OSS] - cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.
 * [oclint](http://oclint.org/) [OSS] - static analysis of C/C++ code
 * [splint](http://www.splint.org/) [OSS] - static analysis of C/C++ code
-* [tis-interpreter](https://github.com/TrustInSoft/tis-interpreter) [OSS] - An interpreter for finding subtle bugs in programs written in standard C 
+* [tis-interpreter](https://github.com/TrustInSoft/tis-interpreter) [OSS] - An interpreter for finding subtle bugs in programs written in standard C
 * [vera++](https://bitbucket.org/verateam/vera/wiki/Introduction) [OSS] - Vera++ is a programmable tool for verification, analysis and transformation of C++ source code.
 
 ## C# #
@@ -62,13 +63,13 @@ Table of Contents
 
 ## Containers
 
-* [clair](https://github.com/coreos/clair) [OSS] - Vulnerability Static Analysis for Containers 
+* [clair](https://github.com/coreos/clair) [OSS] - Vulnerability Static Analysis for Containers
 * [collector](https://github.com/banyanops/collector) [OSS] - Run arbitrary scripts inside containers, and gather useful information
 * [Haskell Dockerfile Linter](https://github.com/lukasmartinelli/hadolint) [OSS] - A smarter Dockerfile linter that helps you build best practice Docker images
 
 ## Elixir
 
-* [credo](https://github.com/rrrene/credo) [OSS] -  A static code analysis tool with a focus on code consistency and teaching. 
+* [credo](https://github.com/rrrene/credo) [OSS] -  A static code analysis tool with a focus on code consistency and teaching.
 
 ## Go
 
@@ -79,7 +80,7 @@ Table of Contents
 * [Go Meta Linter](https://github.com/alecthomas/gometalinter) [OSS] - Concurrently run Go lint tools and normalise their output
 * [go vet](https://godoc.org/golang.org/x/tools/cmd/vet) [OSS] - Examines Go source code and reports suspicious constructs
 * [ineffassign](https://github.com/gordonklaus/ineffassign) - Detect ineffectual assignments in Go code
-* [safesql](https://github.com/stripe/safesql) [OSS] - Static analysis tool for Golang that protects against SQL injections 
+* [safesql](https://github.com/stripe/safesql) [OSS] - Static analysis tool for Golang that protects against SQL injections
 
 ## Groovy
 
@@ -96,7 +97,7 @@ Table of Contents
 ## HTML
 
 * [HTMLHint](https://github.com/yaniswang/HTMLHint) [OSS] - A Static Code Analysis Tool for HTML
-* [HTML Inspector](https://github.com/philipwalton/html-inspector) [OSS] - HTML Inspector is a code quality tool to help you and your team write better markup. 
+* [HTML Inspector](https://github.com/philipwalton/html-inspector) [OSS] - HTML Inspector is a code quality tool to help you and your team write better markup.
 
 ## Java
 
@@ -116,7 +117,7 @@ Table of Contents
 * [escomplex](https://github.com/jared-stilwell/escomplex) [OSS] - Software complexity analysis of JavaScript-family abstract syntax trees.
 * [eslint](https://github.com/eslint/eslint) [OSS] - A fully pluggable tool for identifying and reporting on patterns in JavaScript
 * [Esprima](https://github.com/jquery/esprima) [OSS] - ECMAScript parsing infrastructure for multipurpose analysis
-* [quality](https://github.com/jden/quality) [OSS] - zero configuration code and module linting 
+* [quality](https://github.com/jden/quality) [OSS] - zero configuration code and module linting
 * [jshint](https://github.com/jshint/jshint) [OSS] - detect errors and potential problems in JavaScript code and enforce your team's coding conventions
 * [JSLint](https://github.com/douglascrockford/JSLint) [PROPRIETARY] - The JavaScript Code Quality Tool
 * [plato](https://github.com/es-analysis/plato) [OSS] - Visualize JavaScript source complexity
@@ -125,7 +126,7 @@ Table of Contents
 
 ## Lua
 
-* [luacheck](https://github.com/mpeterv/luacheck) [OSS] -  A tool for linting and static analysis of Lua code. 
+* [luacheck](https://github.com/mpeterv/luacheck) [OSS] -  A tool for linting and static analysis of Lua code.
 
 ## Packages
 
@@ -138,20 +139,20 @@ Table of Contents
 * [exakat](https://github.com/exakat/exakat) [OSS] - An automated code reviewing engine for PHP
 * [GrumPHP](https://github.com/phpro/grumphp) [OSS] - checks code on every commit
 * [phan](https://github.com/etsy/phan) [OSS] - a modern static analyzer from etsy
-* [php7cc](https://github.com/sstalle/php7cc) [OSS] - PHP 7 Compatibility Checker 
+* [php7cc](https://github.com/sstalle/php7cc) [OSS] - PHP 7 Compatibility Checker
 * [php7mar](https://github.com/Alexia/php7mar) [OSS] - assist developers in porting their code quickly to PHP 7
-* [phpcpd](https://github.com/sebastianbergmann/phpcpd) [OSS] - Copy/Paste Detector (CPD) for PHP code. 
+* [phpcpd](https://github.com/sebastianbergmann/phpcpd) [OSS] - Copy/Paste Detector (CPD) for PHP code.
 * [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) [OSS] - detects violations of a defined set of coding standards
-* [phpdcd](https://github.com/sebastianbergmann/phpdcd) [OSS] - Dead Code Detector (DCD) for PHP code. 
+* [phpdcd](https://github.com/sebastianbergmann/phpdcd) [OSS] - Dead Code Detector (DCD) for PHP code.
 * [PhpDependencyAnalysis](https://github.com/mamuz/PhpDependencyAnalysis) [OSS] - builds a dependency graph for a project
-* [phpsa](https://github.com/ovr/phpsa) [OSS] - Static analysis tool for PHP. 
+* [phpsa](https://github.com/ovr/phpsa) [OSS] - Static analysis tool for PHP.
 * [PHPMD](http://phpmd.org/) [OSS] - finds possible bugs in your code
 * [PhpMetrics](https://github.com/Halleck45/PhpMetrics) [OSS] - calculates code complexity metrics
 * [PHP Refactoring Browser](https://github.com/QafooLabs/php-refactoring-browser) [OSS] - Refactoring helper
 * [PHP-Token-Reflection](https://github.com/Andrewsville/PHP-Token-Reflection) [OSS] - Library emulating the PHP internal reflection
 * [PHP-Parser](https://github.com/nikic/PHP-Parser) [OSS] - A PHP parser written in PHP
 * [RIPS](https://github.com/ripsscanner/rips) [OSS] -  A static source code analyser for vulnerabilities in PHP scripts
-* [Tuli](https://github.com/ircmaxell/Tuli) [OSS] - A static analysis engine 
+* [Tuli](https://github.com/ircmaxell/Tuli) [OSS] - A static analysis engine
 * [twig-lint](https://github.com/asm89/twig-lint) [OSS] - twig-lint is a lint tool for your twig files.
 
 ## Python
@@ -162,7 +163,7 @@ Table of Contents
 * [mypy](http://mypy-lang.org/) [OSS] - an experimental optional static type checker for Python that aims to combine the benefits of dynamic (or "duck") typing and static typing
 * [prospector](https://github.com/landscapeio/prospector) [OSS] - output information about errors, potential problems, convention violations and complexity in Python code
 * [pyflakes](https://github.com/pyflakes/pyflakes/) [OSS] - A simple program which checks Python source files for errors.
-* [pylint](https://github.com/PyCQA/pylint) [OSS] - Looks for programming errors, helps enforcing a coding standard and sniffs for some code smells 
+* [pylint](https://github.com/PyCQA/pylint) [OSS] - Looks for programming errors, helps enforcing a coding standard and sniffs for some code smells
 * [Pytype](https://github.com/google/pytype) [OSS] - A static type inferencer for Python code
 
 ## R
@@ -172,18 +173,18 @@ Table of Contents
 ## Ruby
 
 * [brakeman](https://github.com/presidentbeef/brakeman) [OSS] - A static analysis security vulnerability scanner for Ruby on Rails applications
-* [cane](https://github.com/square/cane) [OSS] - Code quality threshold checking as part of your build 
-* [dawnscanner](https://github.com/thesp0nge/dawnscanner) [OSS] - a static analysis security scanner for ruby written web applications. It supports Sinatra, Padrino and Ruby on Rails frameworks. 
+* [cane](https://github.com/square/cane) [OSS] - Code quality threshold checking as part of your build
+* [dawnscanner](https://github.com/thesp0nge/dawnscanner) [OSS] - a static analysis security scanner for ruby written web applications. It supports Sinatra, Padrino and Ruby on Rails frameworks.
 * [flay](https://github.com/seattlerb/flay) [OSS] - Flay analyzes code for structural similarities.
 * [flog](https://github.com/seattlerb/flog) [OSS] - Flog reports the most tortured code in an easy to read pain
 report. The higher the score, the more pain the code is in.
 * [laser](https://github.com/michaeledgar/laser) [OSS] - Static analysis and style linter for Ruby code.
 * [Mondrian](http://trismegiste.github.io/Mondrian/) [OSS] - a set of static analysis and refactoring tools for more abstraction
 * [pelusa](https://github.com/codegram/pelusa) [OSS] -  Static analysis Lint-type tool to improve your OO Ruby code
-* [quality](https://github.com/apiology/quality) [OSS] -  Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time. 
+* [quality](https://github.com/apiology/quality) [OSS] -  Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time.
 * [reek](https://github.com/troessner/reek) [OSS] - Code smell detector for Ruby
-* [rubocop](https://github.com/bbatsov/rubocop) [OSS] - A Ruby static code analyzer, based on the community Ruby style guide. 
-* [rubycritic](https://github.com/whitesmith/rubycritic) [OSS] - A Ruby code quality reporter 
+* [rubocop](https://github.com/bbatsov/rubocop) [OSS] - A Ruby static code analyzer, based on the community Ruby style guide.
+* [rubycritic](https://github.com/whitesmith/rubycritic) [OSS] - A Ruby code quality reporter
 * [ruby-lint](https://github.com/YorickPeterse/ruby-lint) [OSS] - Static code analysis for Ruby
 * [SandyMeter](https://github.com/makaroni4/sandi_meter) [OSS] - Static analysis tool for checking Ruby code for Sandi Metz' rules.
 
@@ -196,13 +197,13 @@ report. The higher the score, the more pain the code is in.
 
 * [linter](https://github.com/HairyFotr/linter) [OSS] - Linter is a Scala static analysis compiler plugin which adds compile-time checks for various possible bugs, inefficiencies, and style problems.
 * [ScalaStyle](https://github.com/scalastyle/scalastyle/wiki) [OSS] - Scalastyle examines your Scala code and indicates potential problems with it.
-* [scapegoat](https://github.com/sksamuel/scapegoat) [OSS] - Scala compiler plugin for static code analysis 
+* [scapegoat](https://github.com/sksamuel/scapegoat) [OSS] - Scala compiler plugin for static code analysis
 * [WartRemover](https://github.com/puffnfresh/wartremover) [OSS] - a flexible Scala code linting tool.
 
 
 ## Shell
 
-* [shellcheck](https://github.com/koalaman/shellcheck) [OSS] - ShellCheck, a static analysis tool that gives warnings and suggestions for bash/sh shell scripts 
+* [shellcheck](https://github.com/koalaman/shellcheck) [OSS] - ShellCheck, a static analysis tool that gives warnings and suggestions for bash/sh shell scripts
 
 ## Swift
 
