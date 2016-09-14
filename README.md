@@ -33,7 +33,7 @@ Table of Contents
 - [Meta](#meta)
 - [Multiple Languages](#multiple-languages)
 - [Web-Services](#web-services)
-- [Angular 2 - TypeScript](#angular2-typescript)
+- [Angular2-TypeScript](#angular2-typescript)
 
 ## C/C++
 
@@ -243,7 +243,7 @@ report. The higher the score, the more pain the code is in.
 * [Snyk](https://snyk.io/) [PROPRIETARY] - Vulnerability scanner for dependencies of node.js apps (free for Open Source Projects)
 * [Teamscale](http://www.teamscale.com/) [PROPRIETARY] - analyze, monitor, and improve the quality of your code.
 
-## Angular 2 - TypeScript
+## Angular2-TypeScript
 
 * [Codelyzer](https://github.com/mgechev/codelyzer) A set of tslint rules for static code analysis of Angular 2 TypeScript projects.
 
