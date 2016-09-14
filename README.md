@@ -30,6 +30,7 @@ Table of Contents
 - [Scala](#scala)
 - [Shell](#shell)
 - [Swift](#swift)
+- [TypeScript](#typescript)
 - [Meta](#meta)
 - [Multiple Languages](#multiple-languages)
 - [Web-Services](#web-services)
@@ -210,6 +211,10 @@ report. The higher the score, the more pain the code is in.
 * [SwiftLint](https://github.com/realm/SwiftLint) [OSS] - A tool to enforce Swift style and conventions
 * [Tailor](https://github.com/sleekbyte/tailor) [OSS] - A static analysis and lint tool for source code written in Apple's Swift programming language.
 
+## TypeScript
+
+* [Codelyzer](https://github.com/mgechev/codelyzer) [OSS] - A set of tslint rules for static code analysis of Angular 2 TypeScript projects.
+
 # Meta
 
 ## Multiple languages
@@ -241,7 +246,6 @@ report. The higher the score, the more pain the code is in.
 * [SensioLabs Insight](https://insight.sensiolabs.com/) [PROPRIETARY] - Detect security risks, find bugs and provide actionable metrics for PHP projects
 * [Snyk](https://snyk.io/) [PROPRIETARY] - Vulnerability scanner for dependencies of node.js apps (free for Open Source Projects)
 * [Teamscale](http://www.teamscale.com/) [PROPRIETARY] - analyze, monitor, and improve the quality of your code.
-
 
 ## License
 
