@@ -213,7 +213,7 @@ report. The higher the score, the more pain the code is in.
 
 ## TypeScript
 
-* [Codelyzer](https://github.com/mgechev/codelyzer) A set of tslint rules for static code analysis of Angular 2 TypeScript projects.
+* [Codelyzer](https://github.com/mgechev/codelyzer) [OSS] - A set of tslint rules for static code analysis of Angular 2 TypeScript projects.
 
 # Meta
 
