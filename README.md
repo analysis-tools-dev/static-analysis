@@ -193,6 +193,7 @@ report. The higher the score, the more pain the code is in.
 
 * [clippy](https://github.com/Manishearth/rust-clippy) [OSS] - a code linter to catch common mistakes and improve your Rust code
 * [electrolysis](https://github.com/Kha/electrolysis) [OSS] - A tool for formally verifying Rust programs by transpiling them into definitions in the Lean theorem prover. 
+* [herbie](https://github.com/mcarton/rust-herbie-lint) [OSS] - Adds warnings or errors to your crate when using a numerically unstable floating point expression.
 * [linter-rust](https://github.com/AtomLinter/linter-rust) [OSS] -  Linting your Rust-files in Atom, using rustc and cargo
 
 ## Scala
