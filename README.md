@@ -34,6 +34,7 @@ Table of Contents
 - [TypeScript](#typescript)
 - [Meta](#meta)
 - [Multiple Languages](#multiple-languages)
+- [Build tools](#build-tools)
 - [Web-Services](#web-services)
 
 ## C/C++
@@ -239,6 +240,9 @@ report. The higher the score, the more pain the code is in.
 * [WALA](http://wala.sourceforge.net/wiki/index.php/Main_Page) [OSS] - static analysis capabilities for Java bytecode and related languages and for JavaScript
 * [XCode](https://developer.apple.com/xcode/) [PROPRIETARY/OSS] - XCode provides a pretty decend UI for [Clang's](http://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C)
 
+## Build tools
+
+* [checkmake](https://github.com/mrtazz/checkmake) [OSS] - Linter / Analyzer for Makefiles
 
 ## Web-Services
 
