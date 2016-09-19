@@ -73,6 +73,10 @@ Table of Contents
 ## CSS
 
 * [scsslint](https://github.com/brigade/scss-lint) [OSS] - Linter for SCSS files
+* [Stylelint](http://stylelint.io/) - [OSS] - Linter for SCSS/CSS files
+* [Parker](https://github.com/katiefenn/parker) [OSS] - Stylesheet analysis tool
+* [CSS Stats](https://github.com/cssstats/cssstats) [OSS] - Potentially interesting stats on stylesheets
+* [Specificity Graph](https://github.com/pocketjoso/specificity-graph) [OSS] - CSS Specificity Graph Generator
 
 ## Elixir
 
