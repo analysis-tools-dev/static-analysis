@@ -30,6 +30,7 @@ Table of Contents
 - [Rust](#rust)
 - [Scala](#scala)
 - [Shell](#shell)
+- [SQL](#sql)
 - [Swift](#swift)
 - [TypeScript](#typescript)
 - [Meta](#meta)
@@ -218,6 +219,10 @@ report. The higher the score, the more pain the code is in.
 ## Shell
 
 * [shellcheck](https://github.com/koalaman/shellcheck) [OSS] - ShellCheck, a static analysis tool that gives warnings and suggestions for bash/sh shell scripts
+
+## SQL
+
+* [sqlint](https://github.com/purcell/sqlint) [OSS] - Simple SQL linter
 
 ## Swift
 
