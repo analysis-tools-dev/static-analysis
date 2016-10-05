@@ -23,6 +23,7 @@ Table of Contents
 - [JavaScript](#javascript)
 - [Lua](#lua)
 - [Packages](#packages)
+- [Perl](#perl)
 - [PHP](#php)
 - [Python](#python)
 - [R](#r)
@@ -143,6 +144,10 @@ Table of Contents
 ## Packages
 
 * [lintian](https://github.com/Debian/lintian)[OSS] - Static analysis tool for Debian packages
+
+## Perl
+
+* [Perl::Critic](http://search.cpan.org/~thaljef/Perl-Critic-1.126/lib/Perl/Critic.pm) [OSS] - Critique Perl source code for best-practices.
 
 ## PHP
 
