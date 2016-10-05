@@ -147,7 +147,7 @@ Table of Contents
 
 ## Perl
 
-* [Perl::Critic](http://search.cpan.org/~thaljef/Perl-Critic-1.126/lib/Perl/Critic.pm) - Critique Perl source code for best-practices.
+* [Perl::Critic](http://search.cpan.org/~thaljef/Perl-Critic-1.126/lib/Perl/Critic.pm) [OSS] - Critique Perl source code for best-practices.
 
 ## PHP
 
