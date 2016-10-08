@@ -2,8 +2,8 @@
 
 > Static program analysis is the analysis of computer software that is performed without actually executing programs (analysis performed on executing programs is known as dynamic analysis). — Definition by [Wikipedia](https://en.wikipedia.org/wiki/Static_program_analysis)
 
-This is a collection of static analysis tools and code quality checkers for all programming languages.  
-Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for proprietary software.  
+This is a collection of static analysis tools and code quality checkers for all programming languages.
+Explanation: [OSS] stands for Open-Source-Software, [PROPRIETARY] stands for proprietary software.
 **Pull requests are very welcome!**
 
 Table of Contents
@@ -208,7 +208,7 @@ report. The higher the score, the more pain the code is in.
 ## Rust
 
 * [clippy](https://github.com/Manishearth/rust-clippy) [OSS] - a code linter to catch common mistakes and improve your Rust code
-* [electrolysis](https://github.com/Kha/electrolysis) [OSS] - A tool for formally verifying Rust programs by transpiling them into definitions in the Lean theorem prover. 
+* [electrolysis](https://github.com/Kha/electrolysis) [OSS] - A tool for formally verifying Rust programs by transpiling them into definitions in the Lean theorem prover.
 * [herbie](https://github.com/mcarton/rust-herbie-lint) [OSS] - Adds warnings or errors to your crate when using a numerically unstable floating point expression.
 * [linter-rust](https://github.com/AtomLinter/linter-rust) [OSS] - Linting your Rust-files in Atom, using rustc and cargo
 * [rustfix](https://github.com/killercup/rustfix) [OSS] - read and apply the suggestions made by rustc (and third-party lints, like those offered by clippy).
@@ -242,6 +242,7 @@ report. The higher the score, the more pain the code is in.
 
 ## Multiple languages
 
+* [Undebt](https://github.com/Yelp/undebt) [OSS] - Language-independent tool for massive, automatic, programmable refactoring based on simple pattern definitions
 * [codeburner](https://github.com/groupon/codeburner) [OSS] - Provides a unified interface to sort and act on the issues it finds
 * [Coverity Save](http://www.coverity.com/products/coverity-save/) [PROPRIETARY] - Static analysis for  C/C++, Java and C#
 * [imhotep](https://github.com/justinabrahms/imhotep) [OSS] - Comment on commits coming into your repository and check for syntactic errors and general lint warnings.
