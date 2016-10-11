@@ -179,7 +179,7 @@ Table of Contents
 * [linty fresh](https://github.com/lyft/linty_fresh) [OSS] - parse lint errors and report them to Github as comments on a pull request
 * [mccabe](https://github.com/PyCQA/mccabe) [OSS] - check McCabe complexity
 * [mypy](https://github.com/python/mypy) [OSS] - an experimental optional static type checker for Python that aims to combine the benefits of dynamic (or "duck") typing and static typing
-* [prospector](https://github.com/landscapeio/prospector) [OSS] - output information about errors, potential problems, convention violations and complexity in Python code
+* [prospector](https://github.com/landscapeio/prospector) [OSS] - a wrapper around `pylint`, `pep8`, `mccabe` and others
 * [py-find-injection](https://github.com/uber/py-find-injection) [OSS] - find SQL injection vulnerabilities in Python code
 * [pycodestyle](https://github.com/PyCQA/pycodestyle) [OSS] - (previously `pep8`) check Python code against some of the style conventions in PEP 8
 * [pydocstyle](https://github.com/PyCQA/pydocstyle) [OSS] - check compliance with Python docstring conventions
