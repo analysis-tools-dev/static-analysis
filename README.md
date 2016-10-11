@@ -251,7 +251,7 @@ report. The higher the score, the more pain the code is in.
 * [pfff](https://github.com/facebook/pfff) [OSS] - Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages
 * [PVS-Studio](http://www.viva64.com/en/pvs-studio/) [PROPRIETARY] - static analysis of C/C++ and C# code
 * [shipshape](https://github.com/google/shipshape) [OSS] - Static program analysis platform that allows custom analyzers to plug in through a common interface
-* [STOKE](https://github.com/StanfordPL/stoke-release) [OSS] - a programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations
+* [STOKE](https://github.com/StanfordPL/stoke) [OSS] - a programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations
 * [WALA](http://wala.sourceforge.net/wiki/index.php/Main_Page) [OSS] - static analysis capabilities for Java bytecode and related languages and for JavaScript
 * [XCode](https://developer.apple.com/xcode/) [PROPRIETARY/OSS] - XCode provides a pretty decend UI for [Clang's](http://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C)
 
