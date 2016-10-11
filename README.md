@@ -174,7 +174,7 @@ Table of Contents
 
 ## Python
 
-* [flake8](https://github.com/PyCQA/flake8) [OSS] - the modular source code checker: pep8, pyflakes and co
+* [flake8](https://github.com/PyCQA/flake8) [OSS] - a wrapper around `pyflakes`, `pycodestyle` and `mccabe`
 * [jedi](https://github.com/davidhalter/jedi) [OSS] - autocompletion/static analysis library for Python
 * [linty fresh](https://github.com/lyft/linty_fresh) [OSS] - parse lint errors and report them to Github as comments on a pull request
 * [mccabe](https://github.com/PyCQA/mccabe) [OSS] - check McCabe complexity
@@ -184,7 +184,7 @@ Table of Contents
 * [pycodestyle](https://github.com/PyCQA/pycodestyle) [OSS] - (previously `pep8`) check Python code against some of the style conventions in PEP 8
 * [pydocstyle](https://github.com/PyCQA/pydocstyle) [OSS] - check compliance with Python docstring conventions
 * [pyflakes](https://github.com/pyflakes/pyflakes/) [OSS] - check Python source files for errors
-* [pylint](https://github.com/PyCQA/pylint) [OSS] - Looks for programming errors, helps enforcing a coding standard and sniffs for some code smells
+* [pylint](https://github.com/PyCQA/pylint) [OSS] - looks for programming errors, helps enforcing a coding standard and sniffs for some code smells
 * [pytype](https://github.com/google/pytype) [OSS] - a static type inferencer for Python code
 
 ## R
