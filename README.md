@@ -1,5 +1,8 @@
 # Awesome static analysis [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
+<img align="left" src="static-analysis.jpg">
+
+
 > Static program analysis is the analysis of computer software that is performed without actually executing programs (analysis performed on executing programs is known as dynamic analysis). — Definition by [Wikipedia](https://en.wikipedia.org/wiki/Static_program_analysis)
 
 This is a collection of static analysis tools and code quality checkers for all programming languages.
@@ -285,4 +288,6 @@ report. The higher the score, the more pain the code is in.
 
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-To the extent possible under law, [Matthias Endler](http://matthias-endler.de) has waived all copyright and related or neighboring rights to this work.
+To the extent possible under law, [Matthias Endler](http://matthias-endler.de) has waived all copyright and related or neighboring rights to this work.  
+
+[Header image](https://pixabay.com/de/software-testen-service-762486/) licensed under CC0 Public Domain.
