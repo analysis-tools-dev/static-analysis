@@ -35,9 +35,9 @@ Table of Contents
 - [Swift](#swift)
 - [TypeScript](#typescript)
 - [Meta](#meta)
-- [Multiple Languages](#multiple-languages)
-- [Build tools](#build-tools)
-- [Web-Services](#web-services)
+  - [Multiple languages](#multiple-languages)
+  - [Build tools](#build-tools)
+  - [Web services](#web-services)
 
 ## C/C++
 
@@ -265,7 +265,7 @@ report. The higher the score, the more pain the code is in.
 
 * [checkmake](https://github.com/mrtazz/checkmake) [OSS] - Linter / Analyzer for Makefiles
 
-## Web-Services
+## Web services
 
 * [Codacy](https://www.codacy.com/) [PROPRIETARY] - Code Analysis to ship Better Code, Faster.
 * [Code Climate](https://codeclimate.com/) [PROPRIETARY] - The open and extensible static analysis platform, for everyone.
