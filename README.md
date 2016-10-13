@@ -189,7 +189,7 @@ Table of Contents
 * [pyflakes](https://github.com/pyflakes/pyflakes/) [OSS] - check Python source files for errors
 * [pylint](https://github.com/PyCQA/pylint) [OSS] - looks for programming errors, helps enforcing a coding standard and sniffs for some code smells
 * [pyroma](https://bitbucket.org/regebro/pyroma) [OSS] - rate how well a Python project complies with the best practices of the Python packaging ecosystem, and list issues that could be improved
-* [pytype](https://github.com/google/pytype) [OSS] - a static type inferencer for Python code
+[]( * [pytype](https://github.com/google/pytype) [OSS] - a static type inferencer for Python code - commented out because it is very buggy and is not even installable from pypi )
 * [vulture](https://bitbucket.org/jendrikseipp/vulture) [OSS] - find unused classes, functions and variables in Python code
 
 ## R
