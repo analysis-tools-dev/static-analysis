@@ -177,6 +177,7 @@ Table of Contents
 
 ## Python
 
+* [bandit](https://github.com/openstack/bandit) [OSS] - a tool to find common security issues in Python code
 * [flake8](https://github.com/PyCQA/flake8) [OSS] - a wrapper around `pyflakes`, `pycodestyle` and `mccabe`
 * [jedi](https://github.com/davidhalter/jedi) [OSS] - autocompletion/static analysis library for Python
 * [linty fresh](https://github.com/lyft/linty_fresh) [OSS] - parse lint errors and report them to Github as comments on a pull request
