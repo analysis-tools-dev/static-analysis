@@ -89,7 +89,7 @@ Table of Contents
 
 ## Go
 
-* [dingo-hunter](https://github.com/nickng/dingo-hunter) [OSS] - Static analyser for finding Deadlocks in Go
+* [dingo-hunter](https://github.com/nickng/dingo-hunter) [OSS] - Static analyser for finding deadlocks in Go
 * [flen](https://github.com/lafolle/flen) [OSS] - Get info on length of functions in a Go package
 * [go/ast](https://golang.org/pkg/go/ast/) [OSS] - Package ast declares the types used to represent syntax trees for Go packages.
 * [gocyclo](https://github.com/fzipp/gocyclo) [OSS] - Calculate cyclomatic complexities of functions in Go source code
