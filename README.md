@@ -166,7 +166,7 @@ Table of Contents
 * [phpdcd](https://github.com/sebastianbergmann/phpdcd) [OSS] - Dead Code Detector (DCD) for PHP code.
 * [PhpDependencyAnalysis](https://github.com/mamuz/PhpDependencyAnalysis) [OSS] - builds a dependency graph for a project
 * [phpsa](https://github.com/ovr/phpsa) [OSS] - Static analysis tool for PHP.
-* [PHPMD](http://phpmd.org/) [OSS] - finds possible bugs in your code
+* [PHPMD](https://phpmd.org/) [OSS] - finds possible bugs in your code
 * [PhpMetrics](https://github.com/Halleck45/PhpMetrics) [OSS] - calculates code complexity metrics
 * [PHPQA](https://github.com/EdgedesignCZ/phpqa) [OSS] - A tool for running QA tools (phploc, phpcpd, phpcs, pdepend, phpmd, phpmetrics)
 * [PHP Refactoring Browser](https://github.com/QafooLabs/php-refactoring-browser) [OSS] - Refactoring helper
