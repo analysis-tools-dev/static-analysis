@@ -179,12 +179,10 @@ Table of Contents
 ## Python
 
 * [bandit](https://github.com/openstack/bandit) [OSS] - a tool to find common security issues in Python code
-* [flake8](https://github.com/PyCQA/flake8) [OSS] - a wrapper around `pyflakes`, `pycodestyle` and `mccabe`
 * [jedi](https://github.com/davidhalter/jedi) [OSS] - autocompletion/static analysis library for Python
 * [linty fresh](https://github.com/lyft/linty_fresh) [OSS] - parse lint errors and report them to Github as comments on a pull request
 * [mccabe](https://github.com/PyCQA/mccabe) [OSS] - check McCabe complexity
 * [mypy](https://github.com/python/mypy) [OSS] - an experimental optional static type checker for Python that aims to combine the benefits of dynamic (or "duck") typing and static typing
-* [prospector](https://github.com/landscapeio/prospector) [OSS] - a wrapper around `pylint`, `pep8`, `mccabe` and others
 * [py-find-injection](https://github.com/uber/py-find-injection) [OSS] - find SQL injection vulnerabilities in Python code
 * [pycodestyle](https://github.com/PyCQA/pycodestyle) [OSS] - (previously `pep8`) check Python code against some of the style conventions in PEP 8
 * [pydocstyle](https://github.com/PyCQA/pydocstyle) [OSS] - check compliance with Python docstring conventions
@@ -193,6 +191,11 @@ Table of Contents
 * [pyroma](https://bitbucket.org/regebro/pyroma) [OSS] - rate how well a Python project complies with the best practices of the Python packaging ecosystem, and list issues that could be improved
 []( * [pytype](https://github.com/google/pytype) [OSS] - a static type inferencer for Python code - commented out because it is very buggy and is not even installable from pypi )
 * [vulture](https://bitbucket.org/jendrikseipp/vulture) [OSS] - find unused classes, functions and variables in Python code
+
+Wrappers:
+* [ciocheck](https://github.com/ContinuumIO/ciocheck) [OSS] - linter, formatter and test suite helper. As a linter, it is a wrapper around `pep8`, `pydocstyle`, `flake8`, and `pylint`.
+* [flake8](https://github.com/PyCQA/flake8) [OSS] - a wrapper around `pyflakes`, `pycodestyle` and `mccabe`
+* [prospector](https://github.com/landscapeio/prospector) [OSS] - a wrapper around `pylint`, `pep8`, `mccabe` and others
 
 ## R
 
