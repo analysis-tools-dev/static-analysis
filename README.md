@@ -185,10 +185,10 @@ Table of Contents
 * [mccabe](https://github.com/PyCQA/mccabe) [OSS] - check McCabe complexity
 * [mypy](https://github.com/python/mypy) [OSS] - an experimental optional static type checker for Python that aims to combine the benefits of dynamic (or "duck") typing and static typing
 * [py-find-injection](https://github.com/uber/py-find-injection) [OSS] - find SQL injection vulnerabilities in Python code
-* [pycodestyle](https://github.com/PyCQA/pycodestyle) [OSS] - (previously `pep8`) check Python code against some of the style conventions in PEP 8
+* [pycodestyle](https://github.com/PyCQA/pycodestyle) [OSS] - (formerly `pep8`) check Python code against some of the style conventions in PEP 8
 * [pydocstyle](https://github.com/PyCQA/pydocstyle) [OSS] - check compliance with Python docstring conventions
 * [pyflakes](https://github.com/pyflakes/pyflakes/) [OSS] - check Python source files for errors
-* [pylint](https://github.com/PyCQA/pylint) [OSS] - looks for programming errors, helps enforcing a coding standard and sniffs for some code smells. It additionally includes `pyreverse` (an UML diagram generator) and `symilar` (a similarities checker).
+* [pylint](https://github.com/PyCQA/pylint) [OSS] - looks for programming errors, helps enforcing a coding standard and sniffs for some code smells. It additionally includes `pyreverse` (an UML diagram generator) and `symilar` (a similarities checker). [Optional extensions](https://pylint.readthedocs.io/en/latest/reference_guide/extensions.html) are also included.
 * [pyroma](https://bitbucket.org/regebro/pyroma) [OSS] - rate how well a Python project complies with the best practices of the Python packaging ecosystem, and list issues that could be improved
 []( * [pytype](https://github.com/google/pytype) [OSS] - a static type inferencer for Python code - commented out because it is very buggy and is not even installable from pypi )
 * [vulture](https://bitbucket.org/jendrikseipp/vulture) [OSS] - find unused classes, functions and variables in Python code
