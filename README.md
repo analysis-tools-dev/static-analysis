@@ -192,6 +192,7 @@ Table of Contents
 * [pyroma](https://bitbucket.org/regebro/pyroma) [OSS] - rate how well a Python project complies with the best practices of the Python packaging ecosystem, and list issues that could be improved
 []( * [pytype](https://github.com/google/pytype) [OSS] - a static type inferencer for Python code - commented out because it is very buggy and is not even installable from pypi )
 * [vulture](https://bitbucket.org/jendrikseipp/vulture) [OSS] - find unused classes, functions and variables in Python code
+* [xenon](https://github.com/rubik/xenon) [OSS] - monitor code complexity using [`radon`](https://github.com/rubik/radon)
 
 Wrappers:
 * [ciocheck](https://github.com/ContinuumIO/ciocheck) [OSS] - linter, formatter and test suite helper. As a linter, it is a wrapper around `pep8`, `pydocstyle`, `flake8`, and `pylint`.
