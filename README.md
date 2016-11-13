@@ -93,6 +93,7 @@ Table of Contents
 * [dingo-hunter](https://github.com/nickng/dingo-hunter) [OSS] - Static analyser for finding deadlocks in Go
 * [flen](https://github.com/lafolle/flen) [OSS] - Get info on length of functions in a Go package
 * [go/ast](https://golang.org/pkg/go/ast/) [OSS] - Package ast declares the types used to represent syntax trees for Go packages.
+* [go-staticcheck](https://github.com/dominikh/go-staticcheck) [OSS] - go vet on steroids, similar to ReSharper for C#
 * [gocyclo](https://github.com/fzipp/gocyclo) [OSS] - Calculate cyclomatic complexities of functions in Go source code
 * [Go Meta Linter](https://github.com/alecthomas/gometalinter) [OSS] - Concurrently run Go lint tools and normalise their output
 * [go vet](https://golang.org/cmd/vet/) [OSS] - Examines Go source code and reports suspicious constructs
