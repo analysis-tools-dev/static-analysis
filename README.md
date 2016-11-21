@@ -290,6 +290,7 @@ report. The higher the score, the more pain the code is in.
 * [Functor Prevent](http://www.functor.se/products/prevent/) [PROPRIETARY] - Static code analysis for C code.
 * [kiuwan](https://www.kiuwan.com/) [PROPRIETARY] - Software Analytics in the Cloud supporting more than 22 programming languages.
 * [Landscape](https://landscape.io/) [PROPRIETARY] - Static code analysis for Python
+* [MicroBadger](https://microbadger.com/) [PROPRIETARY] - Inspect Docker container images and their metadata.
 * [Nitpick CI](https://nitpick-ci.com) [PROPRIETARY] - Automated PHP code review
 * [Node Security Platform](https://nodesecurity.io/) [PROPRIETARY] - Continuous Security monitoring for your node apps (free for Open Source Projects)
 * [QuantifiedCode](https://www.quantifiedcode.com/) [PROPRIETARY] - Automated code review & repair
