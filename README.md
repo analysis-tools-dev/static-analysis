@@ -62,7 +62,7 @@ Table of Contents
 * [code-cracker](https://github.com/code-cracker/code-cracker) [OSS] - An analyzer library for C# and VB that uses Roslyn to produce refactorings, code analysis, and other niceties.
 * [CSharpEssentials](https://github.com/DustinCampbell/CSharpEssentials) [OSS] - C# Essentials is a collection of Roslyn diagnostic analyzers, code fixes and refactorings that make it easy to work with C# 6 language features.
 * [Designite](http://www.designite-tools.com) [PROPRIETARY] - Designite is a software design quality assessment tool. It supports detection of implementation and design smells, computation of various code quality metrics, and trend analysis.
-* [Gendarme](http://www.mono-project.com/docs/tools+libraries/tools/gendarme/)[OSS] - Gendarme inspects programs and libraries that contain code in ECMA CIL format (Mono and .NET) and looks for common problems with the code, problems that compiler do not typically check or have not historically checked.
+* [Gendarme](http://www.mono-project.com/docs/tools+libraries/tools/gendarme/) [OSS] - Gendarme inspects programs and libraries that contain code in ECMA CIL format (Mono and .NET) and looks for common problems with the code, problems that compiler do not typically check or have not historically checked.
 * [.NET Analyzers](https://github.com/DotNetAnalyzers) [OSS] - An organization for the development of analyzers (diagnostics, code fixes, and refactorings) using the .NET Compiler Platform.
 * [SonarLint for Visual Studio](https://github.com/SonarSource/sonarlint-vs) [OSS] - SonarLint is a Visual Studio 2015 extension that provides on-the-fly feedback to developers on new bugs and quality issues injected into .NET code.
 * [Refactoring Essentials](http://vsrefactoringessentials.com/) [OSS] - The premier free Visual Studio 2015 extension for C# and VB.NET refactorings, including code best practice analyzers to improve your projects.
@@ -82,7 +82,7 @@ Table of Contents
 * [Parker](https://github.com/katiefenn/parker) [OSS] - Stylesheet analysis tool
 * [scsslint](https://github.com/brigade/scss-lint) [OSS] - Linter for SCSS files
 * [Specificity Graph](https://github.com/pocketjoso/specificity-graph) [OSS] - CSS Specificity Graph Generator
-* [Stylelint](http://stylelint.io/) - [OSS] - Linter for SCSS/CSS files
+* [Stylelint](http://stylelint.io/) [OSS] - Linter for SCSS/CSS files
 
 ## Elixir
 
@@ -97,7 +97,7 @@ Table of Contents
 * [gocyclo](https://github.com/fzipp/gocyclo) [OSS] - Calculate cyclomatic complexities of functions in Go source code
 * [Go Meta Linter](https://github.com/alecthomas/gometalinter) [OSS] - Concurrently run Go lint tools and normalise their output
 * [go vet](https://golang.org/cmd/vet/) [OSS] - Examines Go source code and reports suspicious constructs
-* [ineffassign](https://github.com/gordonklaus/ineffassign) - Detect ineffectual assignments in Go code
+* [ineffassign](https://github.com/gordonklaus/ineffassign) [OSS] - Detect ineffectual assignments in Go code
 * [safesql](https://github.com/stripe/safesql) [OSS] - Static analysis tool for Golang that protects against SQL injections
 
 ## Groovy
@@ -153,7 +153,7 @@ Table of Contents
 
 ## Packages
 
-* [lintian](https://github.com/Debian/lintian)[OSS] - Static analysis tool for Debian packages
+* [lintian](https://github.com/Debian/lintian) [OSS] - Static analysis tool for Debian packages
 
 ## Perl
 
@@ -197,7 +197,6 @@ Table of Contents
 * [pyflakes](https://github.com/pyflakes/pyflakes/) [OSS] - check Python source files for errors
 * [pylint](https://github.com/PyCQA/pylint) [OSS] - looks for programming errors, helps enforcing a coding standard and sniffs for some code smells. It additionally includes `pyreverse` (an UML diagram generator) and `symilar` (a similarities checker). [Optional extensions](https://pylint.readthedocs.io/en/latest/reference_guide/extensions.html) are also included.
 * [pyroma](https://bitbucket.org/regebro/pyroma) [OSS] - rate how well a Python project complies with the best practices of the Python packaging ecosystem, and list issues that could be improved
-[]( * [pytype](https://github.com/google/pytype) [OSS] - a static type inferencer for Python code - commented out because it is very buggy and is not even installable from pypi )
 * [vulture](https://bitbucket.org/jendrikseipp/vulture) [OSS] - find unused classes, functions and variables in Python code
 * [xenon](https://github.com/rubik/xenon) [OSS] - monitor code complexity using [`radon`](https://github.com/rubik/radon)
 
@@ -216,8 +215,7 @@ Wrappers:
 * [cane](https://github.com/square/cane) [OSS] - Code quality threshold checking as part of your build
 * [dawnscanner](https://github.com/thesp0nge/dawnscanner) [OSS] - a static analysis security scanner for ruby written web applications. It supports Sinatra, Padrino and Ruby on Rails frameworks.
 * [flay](https://github.com/seattlerb/flay) [OSS] - Flay analyzes code for structural similarities.
-* [flog](https://github.com/seattlerb/flog) [OSS] - Flog reports the most tortured code in an easy to read pain
-report. The higher the score, the more pain the code is in.
+* [flog](https://github.com/seattlerb/flog) [OSS] - Flog reports the most tortured code in an easy to read pain report. The higher the score, the more pain the code is in.
 * [laser](https://github.com/michaeledgar/laser) [OSS] - Static analysis and style linter for Ruby code.
 * [Mondrian](http://trismegiste.github.io/Mondrian/) [OSS] - a set of static analysis and refactoring tools for more abstraction
 * [pelusa](https://github.com/codegram/pelusa) [OSS] -  Static analysis Lint-type tool to improve your OO Ruby code
