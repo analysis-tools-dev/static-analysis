@@ -86,7 +86,7 @@ Table of Contents
 
 ## Elixir
 
-* [credo](https://github.com/rrrene/credo) [OSS] -  A static code analysis tool with a focus on code consistency and teaching.
+* [credo](https://github.com/rrrene/credo) [OSS] - A static code analysis tool with a focus on code consistency and teaching.
 
 ## Go
 
@@ -121,7 +121,7 @@ Table of Contents
 
 * [checkstyle](https://github.com/checkstyle/checkstyle) [OSS] - checking Java source code for adherence to a Code Standard or set of validation rules (best practices)
 * [ckjm](http://www.spinellis.gr/sw/ckjm/) [OSS] - calculates Chidamber and Kemerer object-oriented metrics by processing the bytecode of compiled Java files
-* [Error-prone](https://github.com/google/error-prone) [OSS] - Catch common Java mistakes as compile-time errors·
+* [Error-prone](https://github.com/google/error-prone) [OSS] - Catch common Java mistakes as compile-time errors
 * [fb-contrib](https://github.com/mebigfatguy/fb-contrib) [OSS] - A plugin for FindBugs with additional bug detectors
 * [Findbugs](https://github.com/findbugsproject/findbugs) [OSS] - FindBugs is a program to find bugs in Java programs. It looks for patterns are likely to be errors.
 * [find-sec-bugs](https://find-sec-bugs.github.io/) [OSS] - IDE/Sonarcube plugin for security audits of Java web applications.
@@ -145,7 +145,7 @@ Table of Contents
 
 ## Lua
 
-* [luacheck](https://github.com/mpeterv/luacheck) [OSS] -  A tool for linting and static analysis of Lua code.
+* [luacheck](https://github.com/mpeterv/luacheck) [OSS] - A tool for linting and static analysis of Lua code.
 
 ## Makefile
 
@@ -180,7 +180,7 @@ Table of Contents
 * [PHP Refactoring Browser](https://github.com/QafooLabs/php-refactoring-browser) [OSS] - Refactoring helper
 * [PHP-Token-Reflection](https://github.com/Andrewsville/PHP-Token-Reflection) [OSS] - Library emulating the PHP internal reflection
 * [PHP-Parser](https://github.com/nikic/PHP-Parser) [OSS] - A PHP parser written in PHP
-* [RIPS](https://github.com/ripsscanner/rips) [OSS] -  A static source code analyser for vulnerabilities in PHP scripts
+* [RIPS](https://github.com/ripsscanner/rips) [OSS] - A static source code analyser for vulnerabilities in PHP scripts
 * [Tuli](https://github.com/ircmaxell/Tuli) [OSS] - A static analysis engine
 * [twig-lint](https://github.com/asm89/twig-lint) [OSS] - twig-lint is a lint tool for your twig files.
 
@@ -218,8 +218,8 @@ Wrappers:
 * [flog](https://github.com/seattlerb/flog) [OSS] - Flog reports the most tortured code in an easy to read pain report. The higher the score, the more pain the code is in.
 * [laser](https://github.com/michaeledgar/laser) [OSS] - Static analysis and style linter for Ruby code.
 * [Mondrian](http://trismegiste.github.io/Mondrian/) [OSS] - a set of static analysis and refactoring tools for more abstraction
-* [pelusa](https://github.com/codegram/pelusa) [OSS] -  Static analysis Lint-type tool to improve your OO Ruby code
-* [quality](https://github.com/apiology/quality) [OSS] -  Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time.
+* [pelusa](https://github.com/codegram/pelusa) [OSS] - Static analysis Lint-type tool to improve your OO Ruby code
+* [quality](https://github.com/apiology/quality) [OSS] - Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time.
 * [reek](https://github.com/troessner/reek) [OSS] - Code smell detector for Ruby
 * [rubocop](https://github.com/bbatsov/rubocop) [OSS] - A Ruby static code analyzer, based on the community Ruby style guide.
 * [rubycritic](https://github.com/whitesmith/rubycritic) [OSS] - A Ruby code quality reporter
@@ -265,9 +265,9 @@ Wrappers:
 
 * [Undebt](https://github.com/Yelp/undebt) [OSS] - Language-independent tool for massive, automatic, programmable refactoring based on simple pattern definitions
 * [codeburner](https://github.com/groupon/codeburner) [OSS] - Provides a unified interface to sort and act on the issues it finds
-* [Coverity Save](http://www.coverity.com/products/coverity-save/) [PROPRIETARY] - Static analysis for  C/C++, Java and C#
+* [Coverity Save](http://www.coverity.com/products/coverity-save/) [PROPRIETARY] - Static analysis for C/C++, Java and C#
 * [imhotep](https://github.com/justinabrahms/imhotep) [OSS] - Comment on commits coming into your repository and check for syntactic errors and general lint warnings.
-* [Infer](https://github.com/facebook/infer) [OSS] -  A static analyzer for Java, C and Objective-C
+* [Infer](https://github.com/facebook/infer) [OSS] - A static analyzer for Java, C and Objective-C
 * [oclint](https://github.com/oclint/oclint) [OSS] - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C
 * [pfff](https://github.com/facebook/pfff) [OSS] - Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages
 * [PVS-Studio](http://www.viva64.com/en/pvs-studio/) [PROPRIETARY] - static analysis of C/C++ and C# code
