@@ -125,7 +125,7 @@ Table of Contents
 * [Error-prone](https://github.com/google/error-prone) [OSS] - Catch common Java mistakes as compile-time errors
 * [fb-contrib](https://github.com/mebigfatguy/fb-contrib) [OSS] - A plugin for FindBugs with additional bug detectors
 * [Findbugs](https://github.com/findbugsproject/findbugs) [OSS] - FindBugs is a program to find bugs in Java programs. It looks for patterns are likely to be errors.
-* [Find Security Bugs](https://find-sec-bugs.github.io/) [OSS] - IDE/Sonarcube plugin for security audits of Java web applications.
+* [Find Security Bugs](https://find-sec-bugs.github.io/) [OSS] - IDE/SonarQube plugin for security audits of Java web applications.
 * [HuntBugs](https://github.com/amaembo/huntbugs) [OSS] - Bytecode static analyzer tool based on Procyon Compiler Tools aimed to supersede FindBugs.
 * [PMD](https://pmd.github.io/) [OSS] - A Java source code analyzer
 
