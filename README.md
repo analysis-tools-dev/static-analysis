@@ -63,7 +63,8 @@ Table of Contents
 * [CSharpEssentials](https://github.com/DustinCampbell/CSharpEssentials) [OSS] - C# Essentials is a collection of Roslyn diagnostic analyzers, code fixes and refactorings that make it easy to work with C# 6 language features.
 * [Designite](http://www.designite-tools.com) [PROPRIETARY] - Designite is a software design quality assessment tool. It supports detection of implementation and design smells, computation of various code quality metrics, and trend analysis.
 * [Gendarme](http://www.mono-project.com/docs/tools+libraries/tools/gendarme/) [OSS] - Gendarme inspects programs and libraries that contain code in ECMA CIL format (Mono and .NET) and looks for common problems with the code, problems that compiler do not typically check or have not historically checked.
-* [.NET Analyzers](https://github.com/DotNetAnalyzers) [OSS] - An organization for the development of analyzers (diagnostics, code fixes, and refactorings) using the .NET Compiler Platform.
+* [.NET Analyzers](https://github.com/DotNetAnalyzers) [OSS] - An organization for the development of analyzers (diagnostics and code fixes) using the .NET Compiler Platform.
+* [Roslyn Security Guard](https://dotnet-security-guard.github.io/) [OSS] - Project that focus on the identification of potential vulnerabilities such as SQL injection, cross-site scripting (XSS), CSRF, cryptography weaknesses, hardcoded passwords and many more.
 * [SonarLint for Visual Studio](https://github.com/SonarSource/sonarlint-vs) [OSS] - SonarLint is a Visual Studio 2015 extension that provides on-the-fly feedback to developers on new bugs and quality issues injected into .NET code.
 * [Refactoring Essentials](http://vsrefactoringessentials.com/) [OSS] - The premier free Visual Studio 2015 extension for C# and VB.NET refactorings, including code best practice analyzers to improve your projects.
 * [ReSharper](https://www.jetbrains.com/resharper/) [PROPRIETARY] - Extends Visual Studio with on-the-fly code inspections for C#, VB.NET, ASP.NET, JavaScript, TypeScript and other technologies.
@@ -124,7 +125,7 @@ Table of Contents
 * [Error-prone](https://github.com/google/error-prone) [OSS] - Catch common Java mistakes as compile-time errors
 * [fb-contrib](https://github.com/mebigfatguy/fb-contrib) [OSS] - A plugin for FindBugs with additional bug detectors
 * [Findbugs](https://github.com/findbugsproject/findbugs) [OSS] - FindBugs is a program to find bugs in Java programs. It looks for patterns are likely to be errors.
-* [find-sec-bugs](https://find-sec-bugs.github.io/) [OSS] - IDE/Sonarcube plugin for security audits of Java web applications.
+* [Find Security Bugs](https://find-sec-bugs.github.io/) [OSS] - IDE/SonarQube plugin for security audits of Java web applications.
 * [HuntBugs](https://github.com/amaembo/huntbugs) [OSS] - Bytecode static analyzer tool based on Procyon Compiler Tools aimed to supersede FindBugs.
 * [PMD](https://pmd.github.io/) [OSS] - A Java source code analyzer
 
