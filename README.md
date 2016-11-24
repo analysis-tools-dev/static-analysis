@@ -88,6 +88,7 @@ Table of Contents
 ## Elixir
 
 * [credo](https://github.com/rrrene/credo) [OSS] - A static code analysis tool with a focus on code consistency and teaching.
+* [Dogma](https://github.com/lpil/dogma) [OSS] - A code style enforcer for Elixir
 
 ## Go
 
