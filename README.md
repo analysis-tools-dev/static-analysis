@@ -282,6 +282,7 @@ Wrappers:
 
 ## Web services
 
+* [Bithound](https://www.bithound.io/) [PROPRIETARY] - Code Analysis beyond Lint, specifically for Node.js.
 * [Codacy](https://www.codacy.com/) [PROPRIETARY] - Code Analysis to ship Better Code, Faster.
 * [Code Climate](https://codeclimate.com/) [PROPRIETARY] - The open and extensible static analysis platform, for everyone.
 * [ConQAT](http://www.conqat.org/) [OSS] - a toolkit for rapid development and execution of software quality analyses.
