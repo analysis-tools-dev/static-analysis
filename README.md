@@ -46,7 +46,7 @@ Table of Contents
 
 ## Ada
 
-* [Codepeer](http://www.adacore.com/codepeer) [Proprietary] - performs security analysis and bounds checking
+* [Codepeer](http://www.adacore.com/codepeer) [PROPRIETARY] - detects run-time and logic errors
 
 ## C/C++
 
