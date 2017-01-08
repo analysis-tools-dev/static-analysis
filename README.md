@@ -85,6 +85,7 @@ Table of Contents
 
 ## CSS
 
+* [CSScomb](https://github.com/csscomb/csscomb.js) [OSS] - a coding style formatter for CSS. Supports own configurations to make style sheets beautiful and consistent
 * [CSSLint](https://github.com/CSSLint/csslint) [OSS] - Does basic syntax checking and finds problematic patterns or signs of inefficiency
 * [CSS Stats](https://github.com/cssstats/cssstats) [OSS] - Potentially interesting stats on stylesheets
 * [Parker](https://github.com/katiefenn/parker) [OSS] - Stylesheet analysis tool
