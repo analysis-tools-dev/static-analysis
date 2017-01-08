@@ -85,6 +85,7 @@ Table of Contents
 
 ## CSS
 
+* [CSSLint](https://github.com/CSSLint/csslint) [OSS] - Does basic syntax checking and finds problematic patterns or signs of inefficiency
 * [CSS Stats](https://github.com/cssstats/cssstats) [OSS] - Potentially interesting stats on stylesheets
 * [Parker](https://github.com/katiefenn/parker) [OSS] - Stylesheet analysis tool
 * [scsslint](https://github.com/brigade/scss-lint) [OSS] - Linter for SCSS files
