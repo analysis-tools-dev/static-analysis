@@ -19,6 +19,7 @@ Table of Contents
 - [Configuration Management](#configuration-management)
 - [CSS](#css)
 - [Elixir](#elixir)
+- [Erlang](#erlang)
 - [Go](#go)
 - [Groovy](#groovy)
 - [Haskell](#haskell)
@@ -102,6 +103,10 @@ Table of Contents
 
 * [credo](https://github.com/rrrene/credo) [OSS] - A static code analysis tool with a focus on code consistency and teaching.
 * [Dogma](https://github.com/lpil/dogma) [OSS] - A code style enforcer for Elixir
+
+## Erlang
+
+* [elvis](https://github.com/inaka/elvis) [OSS] - Erlang Style Reviewer
 
 ## Go
 
