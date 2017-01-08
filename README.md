@@ -148,6 +148,7 @@ Table of Contents
 * [jshint](https://github.com/jshint/jshint) [OSS] - detect errors and potential problems in JavaScript code and enforce your team's coding conventions
 * [JSLint](https://github.com/douglascrockford/JSLint) [PROPRIETARY] - The JavaScript Code Quality Tool
 * [plato](https://github.com/es-analysis/plato) [OSS] - Visualize JavaScript source complexity
+* [standard](http://standardjs.com/) [OSS] - An npm module that checks for Javascript Styleguide issues
 * [yardstick](https://github.com/calmh/yardstick) [OSS] - Javascript code metrics
 * [XO](https://github.com/sindresorhus/xo) [OSS] - Enforce strict code style. Never discuss code style on a pull request again!
 
