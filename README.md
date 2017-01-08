@@ -140,6 +140,7 @@ Table of Contents
 
 ## Java
 
+* [Checker Framework](https://github.com/typetools/checker-framework/) [OSS] - Pluggable type-checking for Java http://checkerframework.org/
 * [checkstyle](https://github.com/checkstyle/checkstyle) [OSS] - checking Java source code for adherence to a Code Standard or set of validation rules (best practices)
 * [ckjm](http://www.spinellis.gr/sw/ckjm/) [OSS] - calculates Chidamber and Kemerer object-oriented metrics by processing the bytecode of compiled Java files
 * [Error-prone](https://github.com/google/error-prone) [OSS] - Catch common Java mistakes as compile-time errors
@@ -147,7 +148,9 @@ Table of Contents
 * [Findbugs](https://github.com/findbugsproject/findbugs) [OSS] - FindBugs is a program to find bugs in Java programs. It looks for patterns are likely to be errors.
 * [Find Security Bugs](https://find-sec-bugs.github.io/) [OSS] - IDE/SonarQube plugin for security audits of Java web applications.
 * [HuntBugs](https://github.com/amaembo/huntbugs) [OSS] - Bytecode static analyzer tool based on Procyon Compiler Tools aimed to supersede FindBugs.
+* [OWASP Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check) [OSS] - Checks dependencies for known, publicly disclosed, vulnerabilities.
 * [PMD](https://pmd.github.io/) [OSS] - A Java source code analyzer
+* [SonarQube](http://www.sonarqube.org/) [OSS] - SonarQube is an open platform to manage code quality. 
 
 ## JavaScript
 
