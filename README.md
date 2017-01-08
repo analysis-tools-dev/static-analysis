@@ -283,6 +283,7 @@ Wrappers:
 * [Infer](https://github.com/facebook/infer) [OSS] - A static analyzer for Java, C and Objective-C
 * [oclint](https://github.com/oclint/oclint) [OSS] - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C
 * [pfff](https://github.com/facebook/pfff) [OSS] - Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages
+* [pre-commit](https://github.com/pre-commit/pre-commit) [OSS] - A framework for managing and maintaining multi-language pre-commit hooks.
 * [PVS-Studio](http://www.viva64.com/en/pvs-studio/) [PROPRIETARY] - static analysis of C/C++ and C# code
 * [shipshape](https://github.com/google/shipshape) [OSS] - Static program analysis platform that allows custom analyzers to plug in through a common interface
 * [STOKE](https://github.com/StanfordPL/stoke) [OSS] - a programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations
