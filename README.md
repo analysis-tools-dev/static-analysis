@@ -150,7 +150,6 @@ Table of Contents
 * [HuntBugs](https://github.com/amaembo/huntbugs) [OSS] - Bytecode static analyzer tool based on Procyon Compiler Tools aimed to supersede FindBugs.
 * [OWASP Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check) [OSS] - Checks dependencies for known, publicly disclosed, vulnerabilities.
 * [PMD](https://pmd.github.io/) [OSS] - A Java source code analyzer
-* [SonarQube](http://www.sonarqube.org/) [OSS] - SonarQube is an open platform to manage code quality. 
 
 ## JavaScript
 
@@ -300,6 +299,7 @@ Wrappers:
 * [pre-commit](https://github.com/pre-commit/pre-commit) [OSS] - A framework for managing and maintaining multi-language pre-commit hooks.
 * [PVS-Studio](http://www.viva64.com/en/pvs-studio/) [PROPRIETARY] - static analysis of C/C++ and C# code
 * [shipshape](https://github.com/google/shipshape) [OSS] - Static program analysis platform that allows custom analyzers to plug in through a common interface
+* [SonarQube](http://www.sonarqube.org/) [OSS] - SonarQube is an open platform to manage code quality. 
 * [STOKE](https://github.com/StanfordPL/stoke) [OSS] - a programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations
 * [WALA](http://wala.sourceforge.net/wiki/index.php/Main_Page) [OSS] - static analysis capabilities for Java bytecode and related languages and for JavaScript
 * [XCode](https://developer.apple.com/xcode/) [PROPRIETARY/OSS] - XCode provides a pretty decend UI for [Clang's](http://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C)
