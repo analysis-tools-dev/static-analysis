@@ -16,6 +16,7 @@ Table of Contents
 - [C/C++](#cc)
 - [C#](#c)
 - [Containers](#containers)
+- [Configuration Management](#configuration-management)
 - [CSS](#css)
 - [Elixir](#elixir)
 - [Go](#go)
@@ -82,6 +83,10 @@ Table of Contents
 * [collector](https://github.com/banyanops/collector) [OSS] - Run arbitrary scripts inside containers, and gather useful information
 * [Docker Label Inspector](https://github.com/garethr/docker-label-inspector) [OSS] - Lint and validate Dockerfile labels
 * [Haskell Dockerfile Linter](https://github.com/lukasmartinelli/hadolint) [OSS] - A smarter Dockerfile linter that helps you build best practice Docker images
+
+## Configuration Management
+
+[Puppet Lint](https://github.com/rodjek/puppet-lint) [OSS] - Check that your Puppet manifests conform to the style guide.
 
 ## CSS
 
