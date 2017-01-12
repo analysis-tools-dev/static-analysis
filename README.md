@@ -199,6 +199,7 @@ Table of Contents
 * [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) [OSS] - detects violations of a defined set of coding standards
 * [phpdcd](https://github.com/sebastianbergmann/phpdcd) [OSS] - Dead Code Detector (DCD) for PHP code.
 * [PhpDependencyAnalysis](https://github.com/mamuz/PhpDependencyAnalysis) [OSS] - builds a dependency graph for a project
+* [phpdoc-to-typehint](https://github.com/dunglas/phpdoc-to-typehint) [OSS] - Add scalar type hints and return types to existing PHP projects using PHPDoc annotations
 * [Php Inspections (EA Extended)](https://github.com/kalessil/phpinspectionsea) [OSS] - A Static Code Analyzer for PHP.
 * [phpsa](https://github.com/ovr/phpsa) [OSS] - Static analysis tool for PHP.
 * [PHPMD](https://phpmd.org/) [OSS] - finds possible bugs in your code
