@@ -42,8 +42,9 @@ Table of Contents
 - [Swift](#swift)
 - [TypeScript](#typescript)
 - [Meta](#meta)
-  - [Multiple languages](#multiple-languages)
   - [Build tools](#build-tools)
+  - [Multiple languages](#multiple-languages)
+  - [Other Collections](#other-collections)
   - [Web services](#web-services)
 
 ## Ada
@@ -287,6 +288,10 @@ Wrappers:
 
 # Meta
 
+## Build tools
+
+* [checkmake](https://github.com/mrtazz/checkmake) [OSS] - Linter / Analyzer for Makefiles
+
 ## Multiple languages
 
 * [coala](https://coala.io/) [OSS] - Language independent framework for creating code analysis - supports [over 60 languages](https://coala.io/languages) by default
@@ -305,9 +310,9 @@ Wrappers:
 * [WALA](http://wala.sourceforge.net/wiki/index.php/Main_Page) [OSS] - static analysis capabilities for Java bytecode and related languages and for JavaScript
 * [XCode](https://developer.apple.com/xcode/) [PROPRIETARY/OSS] - XCode provides a pretty decend UI for [Clang's](http://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C)
 
-## Build tools
+## Other collections
 
-* [checkmake](https://github.com/mrtazz/checkmake) [OSS] - Linter / Analyzer for Makefiles
+* [php-static-analysis-tools](https://github.com/exakat/php-static-analysis-tools) [OSS] -  A reviewed list of useful PHP static analysis tools
 
 ## Web services
 
