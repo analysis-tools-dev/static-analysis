@@ -187,6 +187,7 @@ Table of Contents
 ## PHP
 
 * [DesignPatternDetector](https://github.com/Halleck45/DesignPatternDetector) [OSS] - detection of design patterns in PHP code
+* [dephpend](https://github.com/mihaeu/dephpend) [OSS] - Dependency analysis tool
 * [deptrac](https://github.com/sensiolabs-de/deptrac) [OSS] - Enforce rules for dependencies between software layers.
 * [exakat](https://github.com/exakat/exakat) [OSS] - An automated code reviewing engine for PHP
 * [GrumPHP](https://github.com/phpro/grumphp) [OSS] - checks code on every commit
