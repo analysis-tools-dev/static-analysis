@@ -208,6 +208,7 @@ Table of Contents
 * [PHP Refactoring Browser](https://github.com/QafooLabs/php-refactoring-browser) [OSS] - Refactoring helper
 * [PHP-Token-Reflection](https://github.com/Andrewsville/PHP-Token-Reflection) [OSS] - Library emulating the PHP internal reflection
 * [PHP-Parser](https://github.com/nikic/PHP-Parser) [OSS] - A PHP parser written in PHP
+* [Psalm](https://github.com/vimeo/psalm) [OSS] - Static analysis tool for finding errors in PHP applications
 * [RIPS](https://github.com/ripsscanner/rips) [OSS] - A static source code analyser for vulnerabilities in PHP scripts
 * [Tuli](https://github.com/ircmaxell/Tuli) [OSS] - A static analysis engine
 * [twig-lint](https://github.com/asm89/twig-lint) [OSS] - twig-lint is a lint tool for your twig files.
