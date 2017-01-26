@@ -315,6 +315,7 @@ Wrappers:
 
 ## Other collections
 
+* [go-tools](https://github.com/dominikh/go-tools) [OSS] - A collection of tools and libraries for working with Go code, including linters and static analysis
 * [php-static-analysis-tools](https://github.com/exakat/php-static-analysis-tools) [OSS] -  A reviewed list of useful PHP static analysis tools
 
 ## Web services
