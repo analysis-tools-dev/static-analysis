@@ -293,6 +293,7 @@ Wrappers:
 ## Build tools
 
 * [checkmake](https://github.com/mrtazz/checkmake) [OSS] - Linter / Analyzer for Makefiles
+* [codechecker](https://github.com/Ericsson/codechecker) [OSS] - a defect database and viewer extension for the Clang Static Analyzer
 
 ## Multiple languages
 
