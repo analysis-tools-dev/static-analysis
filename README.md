@@ -205,6 +205,7 @@ Table of Contents
 * [PHPMD](https://phpmd.org/) [OSS] - finds possible bugs in your code
 * [PhpMetrics](https://github.com/Halleck45/PhpMetrics) [OSS] - calculates code complexity metrics
 * [PHPQA](https://github.com/EdgedesignCZ/phpqa) [OSS] - A tool for running QA tools (phploc, phpcpd, phpcs, pdepend, phpmd, phpmetrics)
+* [phpqa](https://github.com/jmolivas/phpqa) [OSS] - PHPQA all-in-one Analyzer CLI tool
 * [PHP Refactoring Browser](https://github.com/QafooLabs/php-refactoring-browser) [OSS] - Refactoring helper
 * [PHP-Token-Reflection](https://github.com/Andrewsville/PHP-Token-Reflection) [OSS] - Library emulating the PHP internal reflection
 * [PHP-Parser](https://github.com/nikic/PHP-Parser) [OSS] - A PHP parser written in PHP
