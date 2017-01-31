@@ -204,6 +204,7 @@ Table of Contents
 * [phpsa](https://github.com/ovr/phpsa) [OSS] - Static analysis tool for PHP.
 * [PHPMD](https://phpmd.org/) [OSS] - finds possible bugs in your code
 * [PhpMetrics](https://github.com/Halleck45/PhpMetrics) [OSS] - calculates code complexity metrics
+* [PHPStan](https://github.com/phpstan/phpstan) [OSS] - PHP Static Analysis Tool - discover bugs in your code without running it!
 * [PHPQA](https://github.com/EdgedesignCZ/phpqa) [OSS] - A tool for running QA tools (phploc, phpcpd, phpcs, pdepend, phpmd, phpmetrics)
 * [phpqa](https://github.com/jmolivas/phpqa) [OSS] - PHPQA all-in-one Analyzer CLI tool
 * [PHP Refactoring Browser](https://github.com/QafooLabs/php-refactoring-browser) [OSS] - Refactoring helper
