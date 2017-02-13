@@ -54,6 +54,7 @@ This is a collection of static analysis tools and code quality checkers for all 
 * [CMetrics](https://github.com/MetricsGrimoire/CMetrics) [OSS] - Measures size and complexity for C files
 * [cqmetrics](https://github.com/dspinellis/cqmetrics) [OSS] - quality metrics for C code
 * [clang-tidy](http://clang.llvm.org/extra/clang-tidy/) [OSS] - clang static analyser
+* [Corrode](https://github.com/jameysharp/corrode) [OSS] - Semi-automatic translation from C to Rust. Could reveal bugs in the original implementation by showing Rust compiler warnings and errors.
 * [cppcheck](https://github.com/danmar/cppcheck) [OSS] - static analysis of C/C++ code
 * [flawfinder](http://www.dwheeler.com/flawfinder/) [OSS] - finds possible security weaknesses
 * [flint++](http://l2program.co.uk/category/flint) [OSS] - cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.
