@@ -317,9 +317,10 @@ Wrappers:
 
 ## Other collections
 
-* [go-tools](https://github.com/dominikh/go-tools) [OSS] - A collection of tools and libraries for working with Go code, including linters and static analysis
-* [linters](https://github.com/mcandre/linters) [OSS] - An introduction to static code analysis
-* [php-static-analysis-tools](https://github.com/exakat/php-static-analysis-tools) [OSS] -  A reviewed list of useful PHP static analysis tools
+* (Tools for C/C++)[https://www.peerlyst.com/posts/a-list-of-static-analysis-tools-for-c-c-peerlyst?utm_source=twitter&utm_medium=social&utm_content=peerlyst_post&utm_campaign=peerlyst_resources] - A list of static analysis tools for C/C++
+* [go-tools](https://github.com/dominikh/go-tools) - A collection of tools and libraries for working with Go code, including linters and static analysis
+* [linters](https://github.com/mcandre/linters) - An introduction to static code analysis
+* [php-static-analysis-tools](https://github.com/exakat/php-static-analysis-tools) -  A reviewed list of useful PHP static analysis tools
 
 ## Web services
 
