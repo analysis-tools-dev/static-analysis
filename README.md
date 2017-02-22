@@ -41,6 +41,7 @@ This is a collection of static analysis tools and code quality checkers for all 
 - [TypeScript](#typescript)
 - [Meta](#meta)
   - [Build tools](#build-tools)
+  - [Mobile](#mobile)
   - [Multiple languages](#multiple-languages)
   - [Other Collections](#other-collections)
   - [Web services](#web-services)
@@ -296,6 +297,10 @@ Wrappers:
 
 * [checkmake](https://github.com/mrtazz/checkmake) [OSS] - Linter / Analyzer for Makefiles
 * [codechecker](https://github.com/Ericsson/codechecker) [OSS] - a defect database and viewer extension for the Clang Static Analyzer
+
+## Mobile
+
+* [qark](https://github.com/linkedin/qark) [OSS] - Tool to look for several security related Android application vulnerabilities
 
 ## Multiple languages
 
