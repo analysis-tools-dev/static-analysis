@@ -306,6 +306,7 @@ Wrappers:
 
 ## Multiple languages
 
+* [Axivion Bauhaus Suite](https://www.axivion.com/en/products-services-9#products_bauhaussuite) [PROPRIETARY] - Tracks down error-prone code locations, style violations, cloned or dead code, cyclic dependencies and more for C/C++, C#/.NET, Java and Ada 83/Ada 95
 * [coala](https://coala.io/) [OSS] - Language independent framework for creating code analysis - supports [over 60 languages](https://coala.io/languages) by default
 * [Undebt](https://github.com/Yelp/undebt) [OSS] - Language-independent tool for massive, automatic, programmable refactoring based on simple pattern definitions
 * [codeburner](https://github.com/groupon/codeburner) [OSS] - Provides a unified interface to sort and act on the issues it finds
