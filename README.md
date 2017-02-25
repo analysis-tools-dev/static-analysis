@@ -48,7 +48,7 @@ This is a collection of static analysis tools and code quality checkers for all 
 
 ## Ada
 
-* [Codepeer](http://www.adacore.com/codepeer) [PROPRIETARY] - detects run-time and logic errors
+* [Codepeer](http://www.adacore.com/codepeer) [OSS] - detects run-time and logic errors
 * [Polyspace](https://www.mathworks.com/products/polyspace-ada.html) [PROPRIETARY] - provide code verification that proves the absence of overflow, divide-by-zero, out-of-bounds array access, and certain other run-time errors in source code.
 * [Understand](https://scitools.com/ada-programming-essential/) [PROPRIETARY] - IDE that provides code analysis, standards testing, metrics, graphing, dependency analysis and more for Ada and VHDL.
 
