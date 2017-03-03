@@ -311,6 +311,7 @@ Wrappers:
 * [Undebt](https://github.com/Yelp/undebt) [OSS] - Language-independent tool for massive, automatic, programmable refactoring based on simple pattern definitions
 * [codeburner](https://github.com/groupon/codeburner) [OSS] - Provides a unified interface to sort and act on the issues it finds
 * [Coverity Save](http://www.coverity.com/products/coverity-save/) [PROPRIETARY] - Static analysis for  C/C++, Java and C#
+* [Hound CI](https://houndci.com/) [OSS] - Comments on style violations in GitHub pull requests. Supports Coffeescript, Go, HAML, JavaScript, Ruby, SCSS and Swift.
 * [imhotep](https://github.com/justinabrahms/imhotep) [OSS] - Comment on commits coming into your repository and check for syntactic errors and general lint warnings.
 * [Infer](https://github.com/facebook/infer) [OSS] - A static analyzer for Java, C and Objective-C
 * [Klocwork](http://www.klocwork.com/products-services/klocwork) [PROPRIETARY] - Quality and Security Static analysis for  C/C++, Java and C#
