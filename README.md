@@ -49,7 +49,7 @@ This is a collection of static analysis tools and code quality checkers for all 
 ## Ada
 
 * [Codepeer](http://www.adacore.com/codepeer) [OSS] - detects run-time and logic errors
-* [Polyspace](https://www.mathworks.com/products/polyspace-ada.html) [PROPRIETARY] - provide code verification that proves the absence of overflow, divide-by-zero, out-of-bounds array access, and certain other run-time errors in source code.
+* [Polyspace for Ada](https://www.mathworks.com/products/polyspace-ada.html) [PROPRIETARY] - provide code verification that proves the absence of overflow, divide-by-zero, out-of-bounds array access, and certain other run-time errors in source code.
 * [Understand](https://scitools.com/ada-programming-essential/) [PROPRIETARY] - IDE that provides code analysis, standards testing, metrics, graphing, dependency analysis and more for Ada and VHDL.
 
 ## C/C++
@@ -62,6 +62,8 @@ This is a collection of static analysis tools and code quality checkers for all 
 * [flawfinder](http://www.dwheeler.com/flawfinder/) [OSS] - finds possible security weaknesses
 * [flint++](http://l2program.co.uk/category/flint) [OSS] - cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.
 * [oclint](http://oclint.org/) [OSS] - static analysis of C/C++ code
+* [Polyspace Bug Finder](https://www.mathworks.com/products/polyspace-bug-finder.html) [PROPRIETARY] - identifies run-time errors, concurrency issues, security vulnerabilities, and other defects in C and C++ embedded software.
+* [Polyspace Code Prover](https://www.mathworks.com/products/polyspace-code-prover.html) [PROPRIETARY] - provide code verification that proves the absence of overflow, divide-by-zero, out-of-bounds array access, and certain other run-time errors in C and C++ source code.
 * [splint](http://www.splint.org/) [OSS] - static analysis of C/C++ code
 * [tis-interpreter](https://github.com/TrustInSoft/tis-interpreter) [OSS] - An interpreter for finding subtle bugs in programs written in standard C
 * [vera++](https://bitbucket.org/verateam/vera/wiki/Introduction) [OSS] - Vera++ is a programmable tool for verification, analysis and transformation of C++ source code.
@@ -320,7 +322,7 @@ Wrappers:
 * [pre-commit](https://github.com/pre-commit/pre-commit) [OSS] - A framework for managing and maintaining multi-language pre-commit hooks.
 * [PVS-Studio](http://www.viva64.com/en/pvs-studio/) [PROPRIETARY] - static analysis of C/C++ and C# code
 * [shipshape](https://github.com/google/shipshape) [OSS] - Static program analysis platform that allows custom analyzers to plug in through a common interface
-* [SonarQube](http://www.sonarqube.org/) [OSS] - SonarQube is an open platform to manage code quality. 
+* [SonarQube](http://www.sonarqube.org/) [OSS] - SonarQube is an open platform to manage code quality.
 * [STOKE](https://github.com/StanfordPL/stoke) [OSS] - a programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations
 * [WALA](http://wala.sourceforge.net/wiki/index.php/Main_Page) [OSS] - static analysis capabilities for Java bytecode and related languages and for JavaScript
 * [XCode](https://developer.apple.com/xcode/) [PROPRIETARY/OSS] - XCode provides a pretty decend UI for [Clang's](http://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C)
