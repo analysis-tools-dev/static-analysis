@@ -153,7 +153,6 @@ This is a collection of static analysis tools and code quality checkers for all 
 * [Find Security Bugs](https://find-sec-bugs.github.io/) [OSS] - IDE/SonarQube plugin for security audits of Java web applications.
 * [HuntBugs](https://github.com/amaembo/huntbugs) [OSS] - Bytecode static analyzer tool based on Procyon Compiler Tools aimed to supersede FindBugs.
 * [OWASP Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check) [OSS] - Checks dependencies for known, publicly disclosed, vulnerabilities.
-* [PMD](https://pmd.github.io/) [OSS] - A Java source code analyzer
 
 ## JavaScript
 
@@ -317,6 +316,7 @@ Wrappers:
 * [Klocwork](http://www.klocwork.com/products-services/klocwork) [PROPRIETARY] - Quality and Security Static analysis for  C/C++, Java and C#
 * [oclint](https://github.com/oclint/oclint) [OSS] - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C
 * [pfff](https://github.com/facebook/pfff) [OSS] - Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages
+* [PMD](https://pmd.github.io/) [OSS] - A source code analyzer for Java, Javascript, PLSQL, XML, XSL and others
 * [pre-commit](https://github.com/pre-commit/pre-commit) [OSS] - A framework for managing and maintaining multi-language pre-commit hooks.
 * [PVS-Studio](http://www.viva64.com/en/pvs-studio/) [PROPRIETARY] - static analysis of C/C++ and C# code
 * [shipshape](https://github.com/google/shipshape) [OSS] - Static program analysis platform that allows custom analyzers to plug in through a common interface
