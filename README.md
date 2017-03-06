@@ -10,41 +10,45 @@ This is a collection of static analysis tools and code quality checkers for all 
 
 # Table of Contents
 
-- [Ada](#ada)
-- [C/C++](#cc)
-- [C#](#c)
-- [Containers](#containers)
-- [Configuration Management](#configuration-management)
-- [CSS](#css)
-- [Elixir](#elixir)
-- [Erlang](#erlang)
-- [Go](#go)
-- [Groovy](#groovy)
-- [Haskell](#haskell)
-- [Haxe](#haxe)
-- [Html](#html)
-- [Java](#java)
-- [JavaScript](#javascript)
-- [Lua](#lua)
-- [Makefile](#makefile)
-- [Packages](#packages)
-- [Perl](#perl)
-- [PHP](#php)
-- [Python](#python)
-- [R](#r)
-- [Ruby](#ruby)
-- [Rust](#rust)
-- [Scala](#scala)
-- [Shell](#shell)
-- [SQL](#sql)
-- [Swift](#swift)
-- [TypeScript](#typescript)
-- [Meta](#meta)
+- [Programming Languages](#programming-languages)
+  - [Ada](#ada)
+  - [C/C++](#cc)
+  - [C#](#c)
+  - [Elixir](#elixir)
+  - [Erlang](#erlang)
+  - [Go](#go)
+  - [Groovy](#groovy)
+  - [Haskell](#haskell)
+  - [Haxe](#haxe)
+  - [Java](#java)
+  - [JavaScript](#javascript)
+  - [Lua](#lua)
+  - [Perl](#perl)
+  - [PHP](#php)
+  - [Python](#python)
+  - [R](#r)
+  - [Ruby](#ruby)
+  - [Rust](#rust)
+  - [Scala](#scala)
+  - [Shell](#shell)
+  - [SQL](#sql)
+  - [Swift](#swift)
+  - [TypeScript](#typescript)
+- [Multiple languages](#multiple-languages)
+- [Other](#other)
   - [Build tools](#build-tools)
+  - [Containers](#containers)
+  - [Configuration Management](#configuration-management)
+  - [CSS](#css)
+  - [HTML](#html)
+  - [Makefiles](#makefiles)
   - [Mobile](#mobile)
-  - [Multiple languages](#multiple-languages)
-  - [Other Collections](#other-collections)
+  - [Packages](#packages)
   - [Web services](#web-services)
+- [More Collections](#more-collections)
+
+
+# Programming Languages
 
 ## Ada
 
@@ -84,27 +88,6 @@ This is a collection of static analysis tools and code quality checkers for all 
 * [VSDiagnostics](https://github.com/Vannevelj/VSDiagnostics) [OSS] - A collection of static analyzers based on Roslyn that integrate with VS.
 * [Wintellect.Analyzers](https://github.com/Wintellect/Wintellect.Analyzers) [OSS] - .NET Compiler Platform ("Roslyn") diagnostic analyzers and code fixes written by Wintellect.
 
-## Containers
-
-* [clair](https://github.com/coreos/clair) [OSS] - Vulnerability Static Analysis for Containers
-* [collector](https://github.com/banyanops/collector) [OSS] - Run arbitrary scripts inside containers, and gather useful information
-* [Docker Label Inspector](https://github.com/garethr/docker-label-inspector) [OSS] - Lint and validate Dockerfile labels
-* [Haskell Dockerfile Linter](https://github.com/lukasmartinelli/hadolint) [OSS] - A smarter Dockerfile linter that helps you build best practice Docker images
-
-## Configuration Management
-
-[Puppet Lint](https://github.com/rodjek/puppet-lint) [OSS] - Check that your Puppet manifests conform to the style guide.
-
-## CSS
-
-* [CSScomb](https://github.com/csscomb/csscomb.js) [OSS] - a coding style formatter for CSS. Supports own configurations to make style sheets beautiful and consistent
-* [CSSLint](https://github.com/CSSLint/csslint) [OSS] - Does basic syntax checking and finds problematic patterns or signs of inefficiency
-* [CSS Stats](https://github.com/cssstats/cssstats) [OSS] - Potentially interesting stats on stylesheets
-* [Parker](https://github.com/katiefenn/parker) [OSS] - Stylesheet analysis tool
-* [scsslint](https://github.com/brigade/scss-lint) [OSS] - Linter for SCSS files
-* [Specificity Graph](https://github.com/pocketjoso/specificity-graph) [OSS] - CSS Specificity Graph Generator
-* [Stylelint](http://stylelint.io/) [OSS] - Linter for SCSS/CSS files
-
 ## Elixir
 
 * [credo](https://github.com/rrrene/credo) [OSS] - A static code analysis tool with a focus on code consistency and teaching.
@@ -139,11 +122,6 @@ This is a collection of static analysis tools and code quality checkers for all 
 
 * [Haxe Checkstyle](https://github.com/HaxeCheckstyle/haxe-checkstyle) [OSS] - A static analysis tool to help developers write Haxe code that adheres to a coding standard.
 
-## HTML
-
-* [HTMLHint](https://github.com/yaniswang/HTMLHint) [OSS] - A Static Code Analysis Tool for HTML
-* [HTML Inspector](https://github.com/philipwalton/html-inspector) [OSS] - HTML Inspector is a code quality tool to help you and your team write better markup.
-
 ## Java
 
 * [Checker Framework](https://github.com/typetools/checker-framework/) [OSS] - Pluggable type-checking for Java http://checkerframework.org/
@@ -176,14 +154,6 @@ This is a collection of static analysis tools and code quality checkers for all 
 ## Lua
 
 * [luacheck](https://github.com/mpeterv/luacheck) [OSS] - A tool for linting and static analysis of Lua code.
-
-## Makefile
-
-* [portlint](https://www.freebsd.org/cgi/man.cgi?query=portlint&sektion=1&manpath=FreeBSD+8.1-RELEASE+and+Ports) [OSS] - A verifier for FreeBSD and DragonFlyBSD port directories
-
-## Packages
-
-* [lintian](https://github.com/Debian/lintian) [OSS] - Static analysis tool for Debian packages
 
 ## Perl
 
@@ -294,18 +264,7 @@ Wrappers:
 
 * [Codelyzer](https://github.com/mgechev/codelyzer) [OSS] - A set of tslint rules for static code analysis of Angular 2 TypeScript projects.
 
-# Meta
-
-## Build tools
-
-* [checkmake](https://github.com/mrtazz/checkmake) [OSS] - Linter / Analyzer for Makefiles
-* [codechecker](https://github.com/Ericsson/codechecker) [OSS] - a defect database and viewer extension for the Clang Static Analyzer
-
-## Mobile
-
-* [qark](https://github.com/linkedin/qark) [OSS] - Tool to look for several security related Android application vulnerabilities
-
-## Multiple languages
+# Multiple languages
 
 * [Axivion Bauhaus Suite](https://www.axivion.com/en/products-services-9#products_bauhaussuite) [PROPRIETARY] - Tracks down error-prone code locations, style violations, cloned or dead code, cyclic dependencies and more for C/C++, C#/.NET, Java and Ada 83/Ada 95
 * [coala](https://coala.io/) [OSS] - Language independent framework for creating code analysis - supports [over 60 languages](https://coala.io/languages) by default
@@ -327,13 +286,50 @@ Wrappers:
 * [WALA](http://wala.sourceforge.net/wiki/index.php/Main_Page) [OSS] - static analysis capabilities for Java bytecode and related languages and for JavaScript
 * [XCode](https://developer.apple.com/xcode/) [PROPRIETARY/OSS] - XCode provides a pretty decend UI for [Clang's](http://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C)
 
-## Other collections
+# Other
 
-* [Tools for C/C++](https://www.peerlyst.com/posts/a-list-of-static-analysis-tools-for-c-c-peerlyst?utm_source=twitter&utm_medium=social&utm_content=peerlyst_post&utm_campaign=peerlyst_resources) - A list of static analysis tools for C/C++
-* [go-tools](https://github.com/dominikh/go-tools) - A collection of tools and libraries for working with Go code, including linters and static analysis
-* [linters](https://github.com/mcandre/linters) - An introduction to static code analysis
-* [php-static-analysis-tools](https://github.com/exakat/php-static-analysis-tools) -  A reviewed list of useful PHP static analysis tools
-* [Wikipedia](http://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis) -  A list of tools for static code analysis.
+## Build tools
+
+* [checkmake](https://github.com/mrtazz/checkmake) [OSS] - Linter / Analyzer for Makefiles
+* [codechecker](https://github.com/Ericsson/codechecker) [OSS] - a defect database and viewer extension for the Clang Static Analyzer
+
+## Containers
+
+* [clair](https://github.com/coreos/clair) [OSS] - Vulnerability Static Analysis for Containers
+* [collector](https://github.com/banyanops/collector) [OSS] - Run arbitrary scripts inside containers, and gather useful information
+* [Docker Label Inspector](https://github.com/garethr/docker-label-inspector) [OSS] - Lint and validate Dockerfile labels
+* [Haskell Dockerfile Linter](https://github.com/lukasmartinelli/hadolint) [OSS] - A smarter Dockerfile linter that helps you build best practice Docker images
+
+## Configuration Management
+
+[Puppet Lint](https://github.com/rodjek/puppet-lint) [OSS] - Check that your Puppet manifests conform to the style guide.
+
+## CSS
+
+* [CSScomb](https://github.com/csscomb/csscomb.js) [OSS] - a coding style formatter for CSS. Supports own configurations to make style sheets beautiful and consistent
+* [CSSLint](https://github.com/CSSLint/csslint) [OSS] - Does basic syntax checking and finds problematic patterns or signs of inefficiency
+* [CSS Stats](https://github.com/cssstats/cssstats) [OSS] - Potentially interesting stats on stylesheets
+* [Parker](https://github.com/katiefenn/parker) [OSS] - Stylesheet analysis tool
+* [scsslint](https://github.com/brigade/scss-lint) [OSS] - Linter for SCSS files
+* [Specificity Graph](https://github.com/pocketjoso/specificity-graph) [OSS] - CSS Specificity Graph Generator
+* [Stylelint](http://stylelint.io/) [OSS] - Linter for SCSS/CSS files
+
+## HTML
+
+* [HTMLHint](https://github.com/yaniswang/HTMLHint) [OSS] - A Static Code Analysis Tool for HTML
+* [HTML Inspector](https://github.com/philipwalton/html-inspector) [OSS] - HTML Inspector is a code quality tool to help you and your team write better markup.
+
+## Makefiles
+
+* [portlint](https://www.freebsd.org/cgi/man.cgi?query=portlint&sektion=1&manpath=FreeBSD+8.1-RELEASE+and+Ports) [OSS] - A verifier for FreeBSD and DragonFlyBSD port directories
+
+## Mobile
+
+* [qark](https://github.com/linkedin/qark) [OSS] - Tool to look for several security related Android application vulnerabilities
+
+## Packages
+
+* [lintian](https://github.com/Debian/lintian) [OSS] - Static analysis tool for Debian packages
 
 ## Web services
 
@@ -352,6 +348,14 @@ Wrappers:
 * [Snyk](https://snyk.io/) [PROPRIETARY] - Vulnerability scanner for dependencies of node.js apps (free for Open Source Projects)
 * [Teamscale](http://www.teamscale.com/) [PROPRIETARY] - analyze, monitor, and improve the quality of your code.
 * [Upsource](https://www.jetbrains.com/upsource/) [PROPRIETARY] - Code review tool with static code analysis and code-aware navigation for Java, PHP, JavaScript and Kotlin.
+
+# More collections
+
+* [Tools for C/C++](https://www.peerlyst.com/posts/a-list-of-static-analysis-tools-for-c-c-peerlyst?utm_source=twitter&utm_medium=social&utm_content=peerlyst_post&utm_campaign=peerlyst_resources) - A list of static analysis tools for C/C++
+* [go-tools](https://github.com/dominikh/go-tools) - A collection of tools and libraries for working with Go code, including linters and static analysis
+* [linters](https://github.com/mcandre/linters) - An introduction to static code analysis
+* [php-static-analysis-tools](https://github.com/exakat/php-static-analysis-tools) -  A reviewed list of useful PHP static analysis tools
+* [Wikipedia](http://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis) -  A list of tools for static code analysis.
 
 ## License
 
