@@ -243,7 +243,7 @@ Wrappers:
 ## Scala
 
 * [linter](https://github.com/HairyFotr/linter) [OSS] - Linter is a Scala static analysis compiler plugin which adds compile-time checks for various possible bugs, inefficiencies, and style problems.
-* [ScalaStyle](https://github.com/scalastyle/scalastyle/wiki) [OSS] - Scalastyle examines your Scala code and indicates potential problems with it.
+* [Scalastyle](http://www.scalastyle.org) [OSS] - Scalastyle examines your Scala code and indicates potential problems with it.
 * [scapegoat](https://github.com/sksamuel/scapegoat) [OSS] - Scala compiler plugin for static code analysis
 * [WartRemover](https://github.com/puffnfresh/wartremover) [OSS] - a flexible Scala code linting tool.
 
