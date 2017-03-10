@@ -345,6 +345,7 @@ Wrappers:
 * [QuantifiedCode](https://www.quantifiedcode.com/) [PROPRIETARY] - Automated code review & repair
 * [Scrutinizer](https://scrutinizer-ci.com/) [PROPRIETARY] - A proprietery code quality checker that can be integrated with GitHub
 * [SensioLabs Insight](https://insight.sensiolabs.com/) [PROPRIETARY] - Detect security risks, find bugs and provide actionable metrics for PHP projects
+* [SideCI](https://sideci.com)[PROPRIETARY] - An automated code reviewing tool. Improving developers' productivity.
 * [Snyk](https://snyk.io/) [PROPRIETARY] - Vulnerability scanner for dependencies of node.js apps (free for Open Source Projects)
 * [Teamscale](http://www.teamscale.com/) [PROPRIETARY] - analyze, monitor, and improve the quality of your code.
 * [Upsource](https://www.jetbrains.com/upsource/) [PROPRIETARY] - Code review tool with static code analysis and code-aware navigation for Java, PHP, JavaScript and Kotlin.
