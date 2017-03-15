@@ -1,6 +1,8 @@
-# Thanks for helping out!
+# Thanks for helping out! :tada:
 
-Please feel free to open a pull request if you know of a code analysis tool that is not mentioned here.
+Please feel free to open a pull request if you know of a code analysis tool that is not mentioned here.  
+For the sake of keeping the list up-to-date, please make sure that the tools are **actively maintained**.  
+
 The format for a new entry is:
 
 ```Markdown
