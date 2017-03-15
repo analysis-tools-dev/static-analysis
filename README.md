@@ -132,7 +132,9 @@ This is a collection of static analysis tools and code quality checkers for all 
 * [Findbugs](https://github.com/findbugsproject/findbugs) [OSS] - FindBugs is a program to find bugs in Java programs. It looks for patterns are likely to be errors.
 * [Find Security Bugs](https://find-sec-bugs.github.io/) [OSS] - IDE/SonarQube plugin for security audits of Java web applications.
 * [HuntBugs](https://github.com/amaembo/huntbugs) [OSS] - Bytecode static analyzer tool based on Procyon Compiler Tools aimed to supersede FindBugs.
-* [OWASP Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check) [OSS] - Checks dependencies for known, publicly disclosed, vulnerabilities.
+* [OWASP Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check) [OSS]  - Checks dependencies for known, publicly disclosed, vulnerabilities.
+* [QJ-Pro] (https://java-source.net/open-source/code-analyzers/qj-pro) [OSS] QJ-Pro is a comprehensive software inspection tool targeted towards the software developer. Developers can automatically inspect their Java source code and improve their Java programming skills as they write their programs. QJ-Pro provides descriptive Java patterns explaining error prone code constructs and providing solutions for it.
+* [Hammurapi] https://java-source.net/open-source/code-analyzers/hammurapi [OSS] Hammurapi is an open source code inspection tool. Its release comes with more than 100 inspectors which inspect different aspects of code: Compliance with EJB specification, threading issues, coding standards, and much more.
 
 ## JavaScript
 
