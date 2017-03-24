@@ -166,6 +166,7 @@ This is a collection of static analysis tools and code quality checkers for all 
 * [deptrac](https://github.com/sensiolabs-de/deptrac) [OSS] - Enforce rules for dependencies between software layers.
 * [exakat](https://github.com/exakat/exakat) [OSS] - An automated code reviewing engine for PHP
 * [GrumPHP](https://github.com/phpro/grumphp) [OSS] - checks code on every commit
+* [Parse](https://github.com/psecio/parse) [OSS] - A Static Security Scanner
 * [phan](https://github.com/etsy/phan) [OSS] - a modern static analyzer from etsy
 * [php7cc](https://github.com/sstalle/php7cc) [OSS] - PHP 7 Compatibility Checker
 * [php7mar](https://github.com/Alexia/php7mar) [OSS] - assist developers in porting their code quickly to PHP 7
