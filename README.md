@@ -131,7 +131,6 @@ This is a collection of static analysis tools and code quality checkers for all 
 * [fb-contrib](https://github.com/mebigfatguy/fb-contrib) [OSS] - A plugin for FindBugs with additional bug detectors
 * [Findbugs](https://github.com/findbugsproject/findbugs) [OSS] - FindBugs is a program to find bugs in Java programs. It looks for patterns are likely to be errors.
 * [Find Security Bugs](https://find-sec-bugs.github.io/) [OSS] - IDE/SonarQube plugin for security audits of Java web applications.
-* [FlowDroid](https://github.com/secure-software-engineering/soot-infoflow-android) [OSS] - static taint analysis tool for Android applications
 * [HuntBugs](https://github.com/amaembo/huntbugs) [OSS] - Bytecode static analyzer tool based on Procyon Compiler Tools aimed to supersede FindBugs.
 * [OWASP Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check) [OSS] - Checks dependencies for known, publicly disclosed, vulnerabilities.
 
@@ -269,7 +268,7 @@ Wrappers:
 # Multiple languages
 
 * [AppChecker](https://npo-echelon.ru/en/solutions/appchecker.php) [PROPRIETARY] - Static analysis for C/C++/C#, PHP and Java
-* [ApplicationInspector](https://www.ptsecurity.com/ww-en/products/ai/) [PROPRIETARY] - Combined SAST, DAST, IAST security scanner for C#, PHP, Java, SQL languages
+* [Application Inspector](https://www.ptsecurity.com/ww-en/products/ai/) [PROPRIETARY] - Combined SAST, DAST, IAST security scanner for C#, PHP, Java, SQL languages
 * [Axivion Bauhaus Suite](https://www.axivion.com/en/products-services-9#products_bauhaussuite) [PROPRIETARY] - Tracks down error-prone code locations, style violations, cloned or dead code, cyclic dependencies and more for C/C++, C#/.NET, Java and Ada 83/Ada 95
 * [coala](https://coala.io/) [OSS] - Language independent framework for creating code analysis - supports [over 60 languages](https://coala.io/languages) by default
 * [Undebt](https://github.com/Yelp/undebt) [OSS] - Language-independent tool for massive, automatic, programmable refactoring based on simple pattern definitions
@@ -330,6 +329,7 @@ Wrappers:
 ## Mobile
 
 * [qark](https://github.com/linkedin/qark) [OSS] - Tool to look for several security related Android application vulnerabilities
+* [FlowDroid](https://github.com/secure-software-engineering/soot-infoflow-android) [OSS] - static taint analysis tool for Android applications
 
 ## Packages
 
