@@ -329,6 +329,7 @@ Wrappers:
 ## Mobile
 
 * [qark](https://github.com/linkedin/qark) [OSS] - Tool to look for several security related Android application vulnerabilities
+* [FlowDroid](https://github.com/secure-software-engineering/soot-infoflow-android) [OSS] - static taint analysis tool for Android applications
 
 ## Packages
 
