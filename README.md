@@ -104,6 +104,7 @@ This is a collection of static analysis tools and code quality checkers for all 
 * [go/ast](https://golang.org/pkg/go/ast/) [OSS] - Package ast declares the types used to represent syntax trees for Go packages.
 * [gocyclo](https://github.com/fzipp/gocyclo) [OSS] - Calculate cyclomatic complexities of functions in Go source code
 * [golint](https://github.com/golang/lint) [OSS] - Prints out coding style mistakes in Go source code.
+* [goreporter](https://github.com/wgliang/goreporter) [OSS] - concurrently runs many linters and normalises their output to a report
 * [go-staticcheck](https://github.com/dominikh/go-staticcheck) [OSS] - go vet on steroids, similar to ReSharper for C#
 * [Go Meta Linter](https://github.com/alecthomas/gometalinter) [OSS] - Concurrently run Go lint tools and normalise their output
 * [go vet](https://golang.org/cmd/vet/) [OSS] - Examines Go source code and reports suspicious constructs
