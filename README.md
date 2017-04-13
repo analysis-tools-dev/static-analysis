@@ -190,6 +190,7 @@ This is a collection of static analysis tools and code quality checkers for all 
 * [RIPS](https://github.com/ripsscanner/rips) [OSS] - A static source code analyser for vulnerabilities in PHP scripts
 * [Tuli](https://github.com/ircmaxell/Tuli) [OSS] - A static analysis engine
 * [twig-lint](https://github.com/asm89/twig-lint) [OSS] - twig-lint is a lint tool for your twig files.
+* [WAP](https://www.owasp.org/index.php/OWASP_WAP-Web_Application_Protection) [OSS] - Tool to detect and correct input validation vulnerabilities in PHP (4.0 or higher) web applications and predicts false positives. It combines source code static analysis and data mining to detect vulnerabilities and predict false positives. 
 
 ## Python
 
