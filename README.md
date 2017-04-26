@@ -302,6 +302,7 @@ Wrappers:
 
 * [clair](https://github.com/coreos/clair) [OSS] - Vulnerability Static Analysis for Containers
 * [collector](https://github.com/banyanops/collector) [OSS] - Run arbitrary scripts inside containers, and gather useful information
+* [dagda](https://github.com/eliasgranderubio/dagda) [OSS] - Perform static analysis of known vulnerabilities in docker images/containers.
 * [Docker Label Inspector](https://github.com/garethr/docker-label-inspector) [OSS] - Lint and validate Dockerfile labels
 * [Haskell Dockerfile Linter](https://github.com/lukasmartinelli/hadolint) [OSS] - A smarter Dockerfile linter that helps you build best practice Docker images
 
