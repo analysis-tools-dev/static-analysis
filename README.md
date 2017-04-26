@@ -302,6 +302,7 @@ Wrappers:
 
 ## Binaries
 
+* [BinSkim](https://github.com/Microsoft/binskim) [OSS] - A binary static analysis tool that provides security and correctness results for Windows portable executables.
 * [Manalyze](https://github.com/JusticeRage/Manalyze) [OSS] - A static analyzer, which checks portable executables for malicious content.
 
 ## Containers
