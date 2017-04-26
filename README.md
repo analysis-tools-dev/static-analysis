@@ -37,6 +37,7 @@ This is a collection of static analysis tools and code quality checkers for all 
 - [Multiple languages](#multiple-languages)
 - [Other](#other)
   - [Build tools](#build-tools)
+  - [Binaries](#binaries)
   - [Containers](#containers)
   - [Configuration Management](#configuration-management)
   - [CSS](#css)
@@ -297,6 +298,10 @@ Wrappers:
 
 * [checkmake](https://github.com/mrtazz/checkmake) [OSS] - Linter / Analyzer for Makefiles
 * [codechecker](https://github.com/Ericsson/codechecker) [OSS] - a defect database and viewer extension for the Clang Static Analyzer
+
+## Binaries
+
+* [Manalyze](https://github.com/JusticeRage/Manalyze) [OSS] - A static analyzer, which checks portable executables for malicious content.
 
 ## Containers
 
