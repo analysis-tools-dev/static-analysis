@@ -39,6 +39,7 @@ This is a collection of static analysis tools and code quality checkers for all 
   - [Build tools](#build-tools)
   - [Binaries](#binaries)
   - [Containers](#containers)
+  - [Config Files](#config-files)
   - [Configuration Management](#configuration-management)
   - [CSS](#css)
   - [HTML](#html)
@@ -312,6 +313,10 @@ Wrappers:
 * [dagda](https://github.com/eliasgranderubio/dagda) [OSS] - Perform static analysis of known vulnerabilities in docker images/containers.
 * [Docker Label Inspector](https://github.com/garethr/docker-label-inspector) [OSS] - Lint and validate Dockerfile labels
 * [Haskell Dockerfile Linter](https://github.com/lukasmartinelli/hadolint) [OSS] - A smarter Dockerfile linter that helps you build best practice Docker images
+
+## Config Files
+
+* [gixy](https://github.com/yandex/gixy) [OSS] - a tool to analyze Nginx configuration. The main goal is to prevent misconfiguration and automate flaw detection.
 
 ## Configuration Management
 
