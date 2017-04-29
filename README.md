@@ -341,8 +341,9 @@ Wrappers:
 
 ## Mobile
 
-* [qark](https://github.com/linkedin/qark) - Tool to look for several security related Android application vulnerabilities
 * [FlowDroid](https://github.com/secure-software-engineering/soot-infoflow-android) - static taint analysis tool for Android applications
+* [paprika](https://github.com/GeoffreyHecht/paprika) - A toolkit to detect some code smells in analyzed Android applications.
+* [qark](https://github.com/linkedin/qark) - Tool to look for several security related Android application vulnerabilities
 
 ## Packages
 
