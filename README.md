@@ -320,7 +320,7 @@ Wrappers:
 
 ## Configuration Management
 
-[Puppet Lint](https://github.com/rodjek/puppet-lint) [OSS] - Check that your Puppet manifests conform to the style guide.
+* [Puppet Lint](https://github.com/rodjek/puppet-lint) [OSS] - Check that your Puppet manifests conform to the style guide.
 
 ## CSS
 
