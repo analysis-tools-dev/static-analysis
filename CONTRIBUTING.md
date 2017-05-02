@@ -18,4 +18,10 @@ for **proprietary tools**, please add a "copyright emoji" (`:copyright:`):
 * [Functor Prevent](http://www.functor.se/products/prevent/) :copyright: - Static code analysis for C code.
 ```
 
+### Ordering
+
+Please make sure to keep the alphabetical, case-insensitive ordering of the
+tools.
+
+
 **Thanks for helping out!** :tada:
