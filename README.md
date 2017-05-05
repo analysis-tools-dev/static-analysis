@@ -63,6 +63,7 @@ This is a collection of static analysis tools and code quality checkers.
 * [Corrode](https://github.com/jameysharp/corrode) - Semi-automatic translation from C to Rust. Could reveal bugs in the original implementation by showing Rust compiler warnings and errors.
 * [cppcheck](https://github.com/danmar/cppcheck) - static analysis of C/C++ code
 * [cqmetrics](https://github.com/dspinellis/cqmetrics) - quality metrics for C code
+* [CScout](https://www.spinellis.gr/cscout/) - complexity and quality metrics for for C and C preprocessor code
 * [flawfinder](http://www.dwheeler.com/flawfinder/) - finds possible security weaknesses
 * [flint++](http://l2program.co.uk/category/flint) - cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.
 * [oclint](http://oclint.org/) - static analysis of C/C++ code
