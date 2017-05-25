@@ -20,6 +20,7 @@ This is a collection of static analysis tools and code quality checkers.
   - [Haxe](#haxe)
   - [Java](#java)
   - [JavaScript](#javascript)
+  - [Kotlin](#kotlin)
   - [Lua](#lua)
   - [Perl](#perl)
   - [PHP](#php)
@@ -153,6 +154,11 @@ This is a collection of static analysis tools and code quality checkers.
 * [standard](http://standardjs.com/) - An npm module that checks for Javascript Styleguide issues
 * [XO](https://github.com/sindresorhus/xo) - Enforce strict code style. Never discuss code style on a pull request again!
 * [yardstick](https://github.com/calmh/yardstick) - Javascript code metrics
+
+## Kotlin
+
+* [detekt](https://github.com/arturbosch/detekt) - Static code analysis for Kotlin code.
+* [ktlint](https://github.com/shyiko/ktlint) - An anti-bikeshedding Kotlin linter with built-in formatter
 
 ## Lua
 
