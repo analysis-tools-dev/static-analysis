@@ -45,6 +45,7 @@ This is a collection of static analysis tools and code quality checkers.
   - [Makefiles](#makefiles)
   - [Mobile](#mobile)
   - [Packages](#packages)
+  - [Plugins](#plugins)
   - [Web services](#web-services)
 - [More Collections](#more-collections)
 
@@ -355,6 +356,10 @@ Wrappers:
 ## Packages
 
 * [lintian](https://github.com/Debian/lintian) - Static analysis tool for Debian packages
+
+## Plugins
+
+* [ale](https://github.com/w0rp/ale) - Asynchronous Lint Engine for Vim and NeoVim with support for many languages
 
 ## Web services
 
