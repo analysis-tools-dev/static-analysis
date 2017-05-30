@@ -384,6 +384,7 @@ Wrappers:
 ## Packages
 
 * [lintian](https://github.com/Debian/lintian) - Static analysis tool for Debian packages
+* [rpmlint](https://github.com/rpm-software-management/rpmlint) - Tool for checking common errors in rpm packages
 
 ## Plugins
 
