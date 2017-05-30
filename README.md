@@ -326,6 +326,7 @@ Wrappers:
 
 ## Configuration Management
 
+* [ansible-lint](https://github.com/willthames/ansible-lint) - Checks playbooks for practices and behaviour that could potentially be improved
 * [Puppet Lint](https://github.com/rodjek/puppet-lint) - Check that your Puppet manifests conform to the style guide.
 
 ## CSS
