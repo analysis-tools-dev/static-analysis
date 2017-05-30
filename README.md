@@ -45,6 +45,7 @@ This is a collection of static analysis tools and code quality checkers.
   - [HTML](#html)
   - [LaTeX](#latex)
   - [Makefiles](#makefiles)
+  - [Markdown](#markdown)
   - [Mobile](#mobile)
   - [Packages](#packages)
   - [Plugins](#plugins)
@@ -363,6 +364,10 @@ Wrappers:
 ## Makefiles
 
 * [portlint](https://www.freebsd.org/cgi/man.cgi?query=portlint&sektion=1&manpath=FreeBSD+8.1-RELEASE+and+Ports) - A verifier for FreeBSD and DragonFlyBSD port directories
+
+## Markdown
+
+* [mdl](https://github.com/mivok/markdownlint) - A tool to check markdown files and flag style issues.
 
 ## Mobile
 
