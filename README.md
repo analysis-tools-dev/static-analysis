@@ -43,7 +43,7 @@ This is a collection of static analysis tools and code quality checkers.
   - [Configuration Management](#configuration-management)
   - [CSS](#css)
   - [HTML](#html)
-  - [LaTex](#latex)
+  - [LaTeX](#latex)
   - [Makefiles](#makefiles)
   - [Mobile](#mobile)
   - [Packages](#packages)
