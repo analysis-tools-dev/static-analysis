@@ -358,6 +358,7 @@ Wrappers:
 ## LaTeX
 
 * [ChkTeX](http://www.nongnu.org/chktex/) - A linter for LaTex which catches some typographic errors LaTeX oversees.
+* [lacheck](https://www.ctan.org/pkg/lacheck) - A tool for finding common mistakes in LaTeX documents.
 
 ## Makefiles
 
