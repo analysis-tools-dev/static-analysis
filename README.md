@@ -12,6 +12,7 @@ This is a collection of static analysis tools and code quality checkers.
   - [Ada](#ada)
   - [C/C++](#cc)
   - [C#](#c)
+  - [Crystal](#crystal)
   - [Elixir](#elixir)
   - [Erlang](#erlang)
   - [Go](#go)
@@ -92,6 +93,10 @@ This is a collection of static analysis tools and code quality checkers.
 * [SonarLint for Visual Studio](https://github.com/SonarSource/sonarlint-vs) - SonarLint is a Visual Studio 2015 extension that provides on-the-fly feedback to developers on new bugs and quality issues injected into .NET code.
 * [VSDiagnostics](https://github.com/Vannevelj/VSDiagnostics) - A collection of static analyzers based on Roslyn that integrate with VS.
 * [Wintellect.Analyzers](https://github.com/Wintellect/Wintellect.Analyzers) - .NET Compiler Platform ("Roslyn") diagnostic analyzers and code fixes written by Wintellect.
+
+## Crystal
+
+* [crystal](https://crystal-lang.org/) - The Crystal compiler has built-in linting functionality.
 
 ## Elixir
 
