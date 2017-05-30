@@ -23,6 +23,7 @@ This is a collection of static analysis tools and code quality checkers.
   - [JavaScript](#javascript)
   - [Kotlin](#kotlin)
   - [Lua](#lua)
+  - [MATLAB](#matlab)
   - [Perl](#perl)
   - [PHP](#php)
   - [Python](#python)
@@ -174,6 +175,10 @@ This is a collection of static analysis tools and code quality checkers.
 ## Lua
 
 * [luacheck](https://github.com/mpeterv/luacheck) - A tool for linting and static analysis of Lua code.
+
+## MATLAB
+
+* [mlint](https://de.mathworks.com/help/matlab/ref/mlint.html) :copyright: - Check MATLAB code files for possible problems.
 
 ## Perl
 
