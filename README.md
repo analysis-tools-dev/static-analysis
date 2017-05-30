@@ -47,6 +47,7 @@ This is a collection of static analysis tools and code quality checkers.
   - [Packages](#packages)
   - [Plugins](#plugins)
   - [Web services](#web-services)
+  - [Writing](#writing)
 - [More Collections](#more-collections)
 
 
@@ -361,6 +362,10 @@ Wrappers:
 ## Plugins
 
 * [ale](https://github.com/w0rp/ale) - Asynchronous Lint Engine for Vim and NeoVim with support for many languages
+
+## Writing
+
+* [proselint](https://github.com/amperser/proselint/) - a linter for English prose with a focus on writing style instead of grammar.
 
 ## Web services
 
