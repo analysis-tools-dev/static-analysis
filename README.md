@@ -398,7 +398,7 @@ Wrappers:
 * [ember-template-lint](https://github.com/rwjblue/ember-template-lint) - Linter for Ember or Handlebars templates.
 * [haml-lint](https://github.com/brigade/haml-lint) - Tool for writing clean and consistent HAML
 * [slim-lint](https://github.com/sds/slim-lint) - Configurable tool for analyzing Slim templates
-
+* [yamllint](https://github.com/adrienverge/yamllint) -Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation.
 
 ## Writing
 
