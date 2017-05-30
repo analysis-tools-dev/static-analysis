@@ -43,6 +43,7 @@ This is a collection of static analysis tools and code quality checkers.
   - [Configuration Management](#configuration-management)
   - [CSS](#css)
   - [HTML](#html)
+  - [LaTex](#latex)
   - [Makefiles](#makefiles)
   - [Mobile](#mobile)
   - [Packages](#packages)
@@ -353,6 +354,10 @@ Wrappers:
 * [HTMLHint](https://github.com/yaniswang/HTMLHint) - A Static Code Analysis Tool for HTML
 * [HTML Inspector](https://github.com/philipwalton/html-inspector) - HTML Inspector is a code quality tool to help you and your team write better markup.
 * [HTML Tidy](http://www.html-tidy.org/) - Corrects and cleans up HTML and XML documents by fixing markup errors and upgrading legacy code to modern standards.
+
+## LaTeX
+
+* [ChkTeX](http://www.nongnu.org/chktex/) - A linter for LaTex which catches some typographic errors LaTeX oversees.
 
 ## Makefiles
 
