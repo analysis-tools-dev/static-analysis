@@ -44,12 +44,12 @@ This is a collection of static analysis tools and code quality checkers.
   - [Configuration Management](#configuration-management)
   - [CSS](#css)
   - [HTML](#html)
+  - [IDE Plugins](#ide-plugins)
   - [LaTeX](#latex)
   - [Makefiles](#makefiles)
   - [Markdown](#markdown)
   - [Mobile](#mobile)
   - [Packages](#packages)
-  - [Plugins](#plugins)
   - [Template Languages](#template-languages)
   - [Web services](#web-services)
   - [Writing](#writing)
@@ -364,6 +364,11 @@ Wrappers:
 * [HTML Inspector](https://github.com/philipwalton/html-inspector) - HTML Inspector is a code quality tool to help you and your team write better markup.
 * [HTML Tidy](http://www.html-tidy.org/) - Corrects and cleans up HTML and XML documents by fixing markup errors and upgrading legacy code to modern standards.
 
+## IDE Plugins
+
+* [ale](https://github.com/w0rp/ale) - Asynchronous Lint Engine for Vim and NeoVim with support for many languages
+* [vint](https://github.com/Kuniwak/vint) - Fast and Highly Extensible Vim script Language Lint implemented by Python.
+
 ## LaTeX
 
 * [ChkTeX](http://www.nongnu.org/chktex/) - A linter for LaTex which catches some typographic errors LaTeX oversees.
@@ -387,10 +392,6 @@ Wrappers:
 
 * [lintian](https://github.com/Debian/lintian) - Static analysis tool for Debian packages
 * [rpmlint](https://github.com/rpm-software-management/rpmlint) - Tool for checking common errors in rpm packages
-
-## Plugins
-
-* [ale](https://github.com/w0rp/ale) - Asynchronous Lint Engine for Vim and NeoVim with support for many languages
 
 ## Template-Languages
 
