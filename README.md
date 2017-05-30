@@ -44,6 +44,7 @@ This is a collection of static analysis tools and code quality checkers.
   - [CSS](#css)
   - [HTML](#html)
   - [Makefiles](#makefiles)
+  - [Markup](#markup)
   - [Mobile](#mobile)
   - [Packages](#packages)
   - [Plugins](#plugins)
@@ -354,6 +355,10 @@ Wrappers:
 ## Makefiles
 
 * [portlint](https://www.freebsd.org/cgi/man.cgi?query=portlint&sektion=1&manpath=FreeBSD+8.1-RELEASE+and+Ports) - A verifier for FreeBSD and DragonFlyBSD port directories
+
+## Markup
+
+* [haml-lint](https://github.com/brigade/haml-lint) - Tool for writing clean and consistent HAML
 
 ## Mobile
 
