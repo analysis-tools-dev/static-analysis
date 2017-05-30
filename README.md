@@ -44,10 +44,10 @@ This is a collection of static analysis tools and code quality checkers.
   - [CSS](#css)
   - [HTML](#html)
   - [Makefiles](#makefiles)
-  - [Markup](#markup)
   - [Mobile](#mobile)
   - [Packages](#packages)
   - [Plugins](#plugins)
+  - [Template Languages](#template-languages)
   - [Web services](#web-services)
   - [Writing](#writing)
 - [More Collections](#more-collections)
@@ -358,11 +358,6 @@ Wrappers:
 
 * [portlint](https://www.freebsd.org/cgi/man.cgi?query=portlint&sektion=1&manpath=FreeBSD+8.1-RELEASE+and+Ports) - A verifier for FreeBSD and DragonFlyBSD port directories
 
-## Markup
-
-* [ember-template-lint](https://github.com/rwjblue/ember-template-lint) - Linter for Ember or Handlebars templates.
-* [haml-lint](https://github.com/brigade/haml-lint) - Tool for writing clean and consistent HAML
-
 ## Mobile
 
 * [FlowDroid](https://github.com/secure-software-engineering/soot-infoflow-android) - static taint analysis tool for Android applications
@@ -376,6 +371,11 @@ Wrappers:
 ## Plugins
 
 * [ale](https://github.com/w0rp/ale) - Asynchronous Lint Engine for Vim and NeoVim with support for many languages
+
+## Template-Languages
+
+* [ember-template-lint](https://github.com/rwjblue/ember-template-lint) - Linter for Ember or Handlebars templates.
+* [haml-lint](https://github.com/brigade/haml-lint) - Tool for writing clean and consistent HAML
 
 ## Writing
 
