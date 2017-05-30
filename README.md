@@ -391,6 +391,7 @@ Wrappers:
 ## Writing
 
 * [proselint](https://github.com/amperser/proselint/) - a linter for English prose with a focus on writing style instead of grammar.
+* [vale](https://github.com/ValeLint/vale) - A customizable, syntax-aware linter for prose.
 
 ## Web services
 
