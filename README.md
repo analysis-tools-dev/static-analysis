@@ -358,6 +358,7 @@ Wrappers:
 
 ## Markup
 
+* [ember-template-lint](https://github.com/rwjblue/ember-template-lint) - Linter for Ember or Handlebars templates.
 * [haml-lint](https://github.com/brigade/haml-lint) - Tool for writing clean and consistent HAML
 
 ## Mobile
