@@ -192,6 +192,7 @@ This is a collection of static analysis tools and code quality checkers.
 * [EasyCodingStandard](https://github.com/Symplify/EasyCodingStandard) - combine [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) and [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
 * [exakat](https://github.com/exakat/exakat) - An automated code reviewing engine for PHP
 * [GrumPHP](https://github.com/phpro/grumphp) - checks code on every commit
+* [Mondrian](http://trismegiste.github.io/Mondrian/) - A static php code analysis tool and refactoring tool using the Graph Theory.
 * [Parse](https://github.com/psecio/parse) - A Static Security Scanner
 * [phan](https://github.com/etsy/phan) - a modern static analyzer from etsy
 * [Php Inspections (EA Extended)](https://github.com/kalessil/phpinspectionsea) - A Static Code Analyzer for PHP.
@@ -251,7 +252,6 @@ Wrappers:
 * [flay](https://github.com/seattlerb/flay) - Flay analyzes code for structural similarities.
 * [flog](https://github.com/seattlerb/flog) - Flog reports the most tortured code in an easy to read pain report. The higher the score, the more pain the code is in.
 * [laser](https://github.com/michaeledgar/laser) - Static analysis and style linter for Ruby code.
-* [Mondrian](http://trismegiste.github.io/Mondrian/) - a set of static analysis and refactoring tools for more abstraction
 * [pelusa](https://github.com/codegram/pelusa) - Static analysis Lint-type tool to improve your OO Ruby code
 * [quality](https://github.com/apiology/quality) - Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time.
 * [reek](https://github.com/troessner/reek) - Code smell detector for Ruby
