@@ -189,7 +189,7 @@ This is a collection of static analysis tools and code quality checkers.
 * [dephpend](https://github.com/mihaeu/dephpend) - Dependency analysis tool
 * [deptrac](https://github.com/sensiolabs-de/deptrac) - Enforce rules for dependencies between software layers.
 * [DesignPatternDetector](https://github.com/Halleck45/DesignPatternDetector) - detection of design patterns in PHP code
-* [EasyCodingStandard](https://github.com/Symplify/EasyCodingStandard) - Best intro tool for Coding Standards. Combine PHP_CodeSniffer and PHP-CS-Fixer.
+* [EasyCodingStandard](https://github.com/Symplify/EasyCodingStandard) - combine [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) and [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
 * [exakat](https://github.com/exakat/exakat) - An automated code reviewing engine for PHP
 * [GrumPHP](https://github.com/phpro/grumphp) - checks code on every commit
 * [Parse](https://github.com/psecio/parse) - A Static Security Scanner
