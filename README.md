@@ -258,7 +258,7 @@ Wrappers:
 * [rubocop](https://github.com/bbatsov/rubocop) - A Ruby static code analyzer, based on the community Ruby style guide.
 * [ruby-lint](https://github.com/YorickPeterse/ruby-lint) - Static code analysis for Ruby
 * [rubycritic](https://github.com/whitesmith/rubycritic) - A Ruby code quality reporter
-* [SandyMeter](https://github.com/makaroni4/sandi_meter) - Static analysis tool for checking Ruby code for Sandi Metz' rules.
+* [SandiMeter](https://github.com/makaroni4/sandi_meter) - Static analysis tool for checking Ruby code for Sandi Metz' rules.
 
 ## Rust
 
