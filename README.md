@@ -70,6 +70,7 @@ This is a collection of static analysis tools and code quality checkers.
 * [CMetrics](https://github.com/MetricsGrimoire/CMetrics) - Measures size and complexity for C files
 * [Corrode](https://github.com/jameysharp/corrode) - Semi-automatic translation from C to Rust. Could reveal bugs in the original implementation by showing Rust compiler warnings and errors.
 * [cppcheck](https://github.com/danmar/cppcheck) - static analysis of C/C++ code
+* [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) - automated C++ cecker that follows Google's style guide
 * [cqmetrics](https://github.com/dspinellis/cqmetrics) - quality metrics for C code
 * [CScout](https://www.spinellis.gr/cscout/) - complexity and quality metrics for for C and C preprocessor code
 * [flawfinder](http://www.dwheeler.com/flawfinder/) - finds possible security weaknesses
