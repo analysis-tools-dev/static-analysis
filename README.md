@@ -234,6 +234,7 @@ Wrappers:
 * [quality](https://github.com/apiology/quality) - Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time.
 * [reek](https://github.com/troessner/reek) - Code smell detector for Ruby
 * [rubocop](https://github.com/bbatsov/rubocop) - A Ruby static code analyzer, based on the community Ruby style guide.
+* [Rubrowser](https://github.com/blazeeboy/rubrowser) - Ruby classes interactive dependency graph generator.
 * [ruby-lint](https://github.com/YorickPeterse/ruby-lint) - Static code analysis for Ruby
 * [rubycritic](https://github.com/whitesmith/rubycritic) - A Ruby code quality reporter
 * [SandiMeter](https://github.com/makaroni4/sandi_meter) - Static analysis tool for checking Ruby code for Sandi Metz' rules.
