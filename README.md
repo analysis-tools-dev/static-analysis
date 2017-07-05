@@ -381,6 +381,10 @@ Wrappers:
 * [slim-lint](https://github.com/sds/slim-lint) - Configurable tool for analyzing Slim templates
 * [yamllint](https://github.com/adrienverge/yamllint) -Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation.
 
+## Translation
+
+* [dennis](https://github.com/willkg/dennis/) - A set of utilities for working with PO files to ease development and improve quality.
+
 ## Writing
 
 * [proselint](https://github.com/amperser/proselint/) - a linter for English prose with a focus on writing style instead of grammar.
