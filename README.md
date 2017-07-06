@@ -25,6 +25,7 @@ This is a collection of static analysis tools and code quality checkers.
   - [Mobile](#mobile)
   - [Packages](#packages)
   - [Template Languages](#template-languages)
+  - [Translation](#translation)
   - [Web services](#web-services)
   - [Writing](#writing)
 - [More Collections](#more-collections)
