@@ -41,7 +41,7 @@ This is a collection of static analysis tools and code quality checkers.
 
 ## Awk
 
-* [gawk](https://www.gnu.org/software/gawk/) - GNU awk has [built-in linting functionality](https://www.gnu.org/software/gawk/manual/html_node/Options.html#Options) using the `--lint[=fatal|invalid]` (since v2.13) and the `--lint-old` (since v3.0) command-line flags, or by setting the `LINT` [global variable](https://www.gnu.org/software/gawk/manual/html_node/User_002dmodified.html)
+* [gawk --lint](https://www.gnu.org/software/gawk/manual/html_node/Options.html) warns about constructs that are dubious or nonportable to other awk implementations.
 
 ## C/C++
 
