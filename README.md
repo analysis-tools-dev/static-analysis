@@ -39,6 +39,10 @@ This is a collection of static analysis tools and code quality checkers.
 * [Polyspace for Ada](https://www.mathworks.com/products/polyspace-ada.html) :copyright: - provide code verification that proves the absence of overflow, divide-by-zero, out-of-bounds array access, and certain other run-time errors in source code.
 * [Understand](https://scitools.com/ada-programming-essential/) :copyright: - IDE that provides code analysis, standards testing, metrics, graphing, dependency analysis and more for Ada and VHDL.
 
+## Awk
+
+* [gawk](https://www.gnu.org/software/gawk/) - GNU awk has [built-in linting functionality](https://www.gnu.org/software/gawk/manual/html_node/Options.html#Options) using the `--lint[=fatal|invalid]` (since v2.13) and the `--lint-old` (since v3.0) command-line flags, or by setting the `LINT` [global variable](https://www.gnu.org/software/gawk/manual/html_node/User_002dmodified.html)
+
 ## C/C++
 
 * [clang-tidy](http://clang.llvm.org/extra/clang-tidy/) - clang static analyser
