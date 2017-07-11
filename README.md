@@ -277,6 +277,7 @@ Wrappers:
 
 * [Codelyzer](https://github.com/mgechev/codelyzer) - A set of tslint rules for static code analysis of Angular 2 TypeScript projects.
 * [TSLint](https://github.com/palantir/tslint) - An extensible linter for the TypeScript language.
+* [tslint-microsoft-contrib](https://github.com/Microsoft/tslint-microsoft-contrib) - A set of tslint rules for static code analysis of TypeScript projects maintained by Microsoft.
 
 # Multiple languages
 
