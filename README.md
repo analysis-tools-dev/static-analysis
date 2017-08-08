@@ -99,7 +99,7 @@ This is a collection of static analysis tools and code quality checkers.
 * [flen](https://github.com/lafolle/flen) - Get info on length of functions in a Go package
 * [Go Meta Linter](https://github.com/alecthomas/gometalinter) - Concurrently run Go lint tools and normalise their output
 * [go vet](https://golang.org/cmd/vet/) - Examines Go source code and reports suspicious constructs
-* [go-staticcheck](https://github.com/dominikh/go-staticcheck) - go vet on steroids, similar to ReSharper for C#
+* [go-staticcheck](https://github.com/dominikh/go-tools/tree/master/cmd/staticcheck) - go vet on steroids, similar to ReSharper for C#
 * [go/ast](https://golang.org/pkg/go/ast/) - Package ast declares the types used to represent syntax trees for Go packages.
 * [gocyclo](https://github.com/fzipp/gocyclo) - Calculate cyclomatic complexities of functions in Go source code
 * [golint](https://github.com/golang/lint) - Prints out coding style mistakes in Go source code.
