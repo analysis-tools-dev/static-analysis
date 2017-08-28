@@ -89,6 +89,7 @@ This is a collection of static analysis tools and code quality checkers.
 
 * [credo](https://github.com/rrrene/credo) - A static code analysis tool with a focus on code consistency and teaching.
 * [Dogma](https://github.com/lpil/dogma) - A code style enforcer for Elixir
+* [sobelow](https://github.com/nccgroup/sobelow) - Security-focused static analysis for the Phoenix Framework
 
 ## Erlang
 
