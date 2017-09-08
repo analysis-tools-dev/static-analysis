@@ -132,6 +132,7 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 * [Findbugs](https://github.com/findbugsproject/findbugs) - FindBugs is a program to find bugs in Java programs. It looks for patterns are likely to be errors.
 * [HuntBugs](https://github.com/amaembo/huntbugs) - Bytecode static analyzer tool based on Procyon Compiler Tools aimed to supersede FindBugs.
 * [OWASP Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check) - Checks dependencies for known, publicly disclosed, vulnerabilities.
+* [Hopper](https://github.com/cuplv/hopper) - A static analysis tool written in scala for languages that run on JVM
 
 ## JavaScript
 
@@ -378,6 +379,7 @@ Wrappers:
 * [FlowDroid](https://github.com/secure-software-engineering/soot-infoflow-android) - static taint analysis tool for Android applications
 * [paprika](https://github.com/GeoffreyHecht/paprika) - A toolkit to detect some code smells in analyzed Android applications.
 * [qark](https://github.com/linkedin/qark) - Tool to look for several security related Android application vulnerabilities
+* [android-lint-summary](https://github.com/passy/android-lint-summary) - Combines lint errors of multiple projects into one output, check lint results of multiple sub-projects at once.
 
 ## Packages
 
