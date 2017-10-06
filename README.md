@@ -272,6 +272,7 @@ Wrappers:
 ## SQL
 
 * [sqlint](https://github.com/purcell/sqlint) - Simple SQL linter
+* [sqlcheck](https://github.com/jarulraj/sqlcheck) - Automatically identify anti-patterns in SQL queries
 
 ## Swift
 
