@@ -222,6 +222,7 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 * [PyT - Python Taint](https://github.com/python-security/pyt) - A static analysis tool for detecting security vulnerabilities in Python web applications.
 * [vulture](https://github.com/jendrikseipp/vulture) - find unused classes, functions and variables in Python code
 * [xenon](https://github.com/rubik/xenon) - monitor code complexity using [`radon`](https://github.com/rubik/radon)
+* [pytype](https://github.com/google/pytype) - Static analyzer for Python code, made by Google.
 
 Wrappers:
 * [ciocheck](https://github.com/ContinuumIO/ciocheck) - linter, formatter and test suite helper. As a linter, it is a wrapper around `pep8`, `pydocstyle`, `flake8`, and `pylint`.
