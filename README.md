@@ -66,6 +66,7 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 ## C# #
 
 * [.NET Analyzers](https://github.com/DotNetAnalyzers) - An organization for the development of analyzers (diagnostics and code fixes) using the .NET Compiler Platform.
+* [Attackflow](https://www.attackflow.com) - Taint flow analysis to configurational bugs, control flow analysis to quality issues AttackFlow supports over Hundreds of software security findings grouped in nine classes including but not limited to Authorization, Injection, Cryptography, Authentication and Code Quality.
 * [Code Analysis Rule Collection](https://carc.codeplex.com/) - Contains a set of diagnostics, code fixes and refactorings built on the Microsoft .NET Compiler Platform "Roslyn".
 * [code-cracker](https://github.com/code-cracker/code-cracker) - An analyzer library for C# and VB that uses Roslyn to produce refactorings, code analysis, and other niceties.
 * [CSharpEssentials](https://github.com/DustinCampbell/CSharpEssentials) - C# Essentials is a collection of Roslyn diagnostic analyzers, code fixes and refactorings that make it easy to work with C# 6 language features.
@@ -122,7 +123,7 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 * [Haxe Checkstyle](https://github.com/HaxeCheckstyle/haxe-checkstyle) - A static analysis tool to help developers write Haxe code that adheres to a coding standard.
 
 ## Java
-
+* [Attackflow](https://www.attackflow.com) - Taint flow analysis to configurational bugs, control flow analysis to quality issues AttackFlow supports over Hundreds of software security findings grouped in nine classes including but not limited to Authorization, Injection, Cryptography, Authentication and Code Quality.
 * [Checker Framework](https://github.com/typetools/checker-framework/) - Pluggable type-checking for Java http://checkerframework.org/
 * [checkstyle](https://github.com/checkstyle/checkstyle) - checking Java source code for adherence to a Code Standard or set of validation rules (best practices)
 * [ckjm](http://www.spinellis.gr/sw/ckjm/) - calculates Chidamber and Kemerer object-oriented metrics by processing the bytecode of compiled Java files
@@ -361,6 +362,7 @@ Wrappers:
 ## IDE Plugins
 
 * [ale](https://github.com/w0rp/ale) - Asynchronous Lint Engine for Vim and NeoVim with support for many languages
+* [Attackflow Extension](https://www.attackflow.com/Extension) - AttackFlow is a new way of secure coding. Integrated into Visual Studio, it enables developers to find critical security bugs real time in the source code without any prior knowledge. 
 * [Puma Scan](https://github.com/pumasecurity/puma-scan) - Puma Scan provides real time secure code analysis for common vulnerabilities (XSS, SQLi, CSRF, LDAPi, crypto, deserialization, etc.) as development teams write code in Visual Studio.
 * [vint](https://github.com/Kuniwak/vint) - Fast and Highly Extensible Vim script Language Lint implemented by Python.
 
