@@ -420,7 +420,7 @@ Wrappers:
 * [QuantifiedCode](https://www.quantifiedcode.com/) :copyright: - Automated code review & repair
 * [Scrutinizer](https://scrutinizer-ci.com/) :copyright: - A proprietery code quality checker that can be integrated with GitHub
 * [SensioLabs Insight](https://insight.sensiolabs.com/) :copyright: - Detect security risks, find bugs and provide actionable metrics for PHP projects
-* [SideCI](https://sideci.com):copyright: - An automated code reviewing tool. Improving developers' productivity.
+* [SideCI](https://sideci.com) :copyright: - An automated code reviewing tool. Improving developers' productivity.
 * [Snyk](https://snyk.io/) :copyright: - Vulnerability scanner for dependencies of node.js apps (free for Open Source Projects)
 * [Teamscale](http://www.teamscale.com/) :copyright: - analyze, monitor, and improve the quality of your code.
 * [Upsource](https://www.jetbrains.com/upsource/) :copyright: - Code review tool with static code analysis and code-aware navigation for Java, PHP, JavaScript and Kotlin.
