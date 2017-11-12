@@ -40,7 +40,7 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 
 ## Awk
 
-* [gawk --lint](https://www.gnu.org/software/gawk/manual/html_node/Options.html) warns about constructs that are dubious or nonportable to other awk implementations.
+* [gawk --lint](https://www.gnu.org/software/gawk/manual/html_node/Options.html) - warns about constructs that are dubious or nonportable to other awk implementations.
 
 ## C/C++
 
@@ -394,7 +394,7 @@ Wrappers:
 * [ember-template-lint](https://github.com/rwjblue/ember-template-lint) - Linter for Ember or Handlebars templates.
 * [haml-lint](https://github.com/brigade/haml-lint) - Tool for writing clean and consistent HAML
 * [slim-lint](https://github.com/sds/slim-lint) - Configurable tool for analyzing Slim templates
-* [yamllint](https://github.com/adrienverge/yamllint) -Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation.
+* [yamllint](https://github.com/adrienverge/yamllint) - Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation.
 
 ## Translation
 
