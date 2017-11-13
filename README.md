@@ -411,7 +411,6 @@ Wrappers:
 * [Bithound](https://www.bithound.io/) :copyright: - Code Analysis beyond Lint, specifically for Node.js.
 * [Codacy](https://www.codacy.com/) :copyright: - Code Analysis to ship Better Code, Faster.
 * [Code Climate](https://codeclimate.com/) :copyright: - The open and extensible static analysis platform, for everyone.
-* [ConQAT](http://www.conqat.org/) - a toolkit for rapid development and execution of software quality analyses.
 * [Functor Prevent](http://www.functor.se/products/prevent/) :copyright: - Static code analysis for C code.
 * [kiuwan](https://www.kiuwan.com/) :copyright: - Software Analytics in the Cloud supporting more than 22 programming languages.
 * [Landscape](https://landscape.io/) :copyright: - Static code analysis for Python
