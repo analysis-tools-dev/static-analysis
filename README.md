@@ -79,6 +79,7 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 * [SonarLint for Visual Studio](https://github.com/SonarSource/sonarlint-vs) - SonarLint is a Visual Studio 2015 extension that provides on-the-fly feedback to developers on new bugs and quality issues injected into .NET code.
 * [VSDiagnostics](https://github.com/Vannevelj/VSDiagnostics) - A collection of static analyzers based on Roslyn that integrate with VS.
 * [Wintellect.Analyzers](https://github.com/Wintellect/Wintellect.Analyzers) - .NET Compiler Platform ("Roslyn") diagnostic analyzers and code fixes written by Wintellect.
+* [CodeRush](https://www.devexpress.com/products/coderush/) :copyright: - Powerful & quick code creation, debugging, navigation, refactoring, analysis and visualization tools that exploit the Roslyn engine in Visual Studio (2015 and up).
 
 ## Crystal
 
