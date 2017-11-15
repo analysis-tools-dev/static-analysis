@@ -200,6 +200,7 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 * [phpqa](https://github.com/jmolivas/phpqa) - PHPQA all-in-one Analyzer CLI tool
 * [phpsa](https://github.com/ovr/phpsa) - Static analysis tool for PHP.
 * [PHPStan](https://github.com/phpstan/phpstan) - PHP Static Analysis Tool - discover bugs in your code without running it!
+* [Progpilot](https://github.com/designsecurity/progpilot) - A static analysis tool for security purposes
 * [Psalm](https://github.com/vimeo/psalm) - Static analysis tool for finding errors in PHP applications
 * [RIPS](https://github.com/ripsscanner/rips) - A static source code analyser for vulnerabilities in PHP scripts
 * [Tuli](https://github.com/ircmaxell/Tuli) - A static analysis engine
