@@ -97,18 +97,43 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 
 ## Go
 
-* [dingo-hunter](https://github.com/nickng/dingo-hunter) - Static analyser for finding deadlocks in Go
-* [flen](https://github.com/lafolle/flen) - Get info on length of functions in a Go package
-* [Go Meta Linter](https://github.com/alecthomas/gometalinter) - Concurrently run Go lint tools and normalise their output
-* [go vet](https://golang.org/cmd/vet/) - Examines Go source code and reports suspicious constructs
-* [go-staticcheck](https://github.com/dominikh/go-tools/tree/master/cmd/staticcheck) - go vet on steroids, similar to ReSharper for C#
+* [deadcode](https://github.com/tsenart/deadcode) - Finds unused code.
+* [dingo-hunter](https://github.com/nickng/dingo-hunter) - Static analyser for finding deadlocks in Go.
+* [dupl](https://github.com/mibk/dupl) - Reports potentially duplicated code.
+* [errcheck](https://github.com/kisielk/errcheck) - Check that error return values are used.
+* [flen](https://github.com/lafolle/flen) - Get info on length of functions in a Go package.
+* [gas](https://github.com/GoASTScanner/gas) - Inspects source code for security problems by scanning the Go AST.
+* [Go Meta Linter](https://github.com/alecthomas/gometalinter) - Concurrently run Go lint tools and normalise their output.
+* [goconst](https://github.com/jgautheron/goconst) - Finds repeated strings that could be replaced by a constant.
+* [go vet](https://golang.org/cmd/vet/) - Examines Go source code and reports suspicious.
+* [go tool vet --shadow](https://golang.org/cmd/vet/#hdr-Shadowed_variables) - Reports variables that may have been unintentionally shadowed.
+* [gotype](https://golang.org/x/tools/cmd/gotype) - Syntactic and semantic analysis similar to the Go compiler.
+* [go-staticcheck](https://github.com/dominikh/go-tools/tree/master/cmd/staticcheck) - go vet on steroids, similar to ReSharper for C#.
 * [go/ast](https://golang.org/pkg/go/ast/) - Package ast declares the types used to represent syntax trees for Go packages.
-* [gocyclo](https://github.com/fzipp/gocyclo) - Calculate cyclomatic complexities of functions in Go source code
+* [gocyclo](https://github.com/fzipp/gocyclo) - Calculate cyclomatic complexities of functions in Go source code.
+* [gofmt -s](https://golang.org/cmd/gofmt/) - Checks if the code is properly formatted and could not be further simplified.
+* [goimports](https://godoc.org/golang.org/x/tools/cmd/goimports) - Checks missing or unreferenced package imports.
 * [golint](https://github.com/golang/lint) - Prints out coding style mistakes in Go source code.
-* [goreporter](https://github.com/wgliang/goreporter) - concurrently runs many linters and normalises their output to a report
+* [goreporter](https://github.com/wgliang/goreporter) - concurrently runs many linters and normalises their output to a report.
 * [goroutine-inspect](https://github.com/linuxerwang/goroutine-inspect) - An interactive tool to analyze Golang goroutine dump.
+* [gosimple](https://github.com/dominikh/go-tools/tree/master/cmd/gosimple) - Report simplifications in code.
 * [ineffassign](https://github.com/gordonklaus/ineffassign) - Detect ineffectual assignments in Go code
-* [safesql](https://github.com/stripe/safesql) - Static analysis tool for Golang that protects against SQL injections
+* [interfacer](https://github.com/mvdan/interfacer) - Suggest narrower interfaces that can be used.
+* [lll](https://github.com/walle/lll) - Report long lines.
+* [maligned](https://github.com/mdempsky/maligned) -  Detect structs that would take less memory if their fields were sorted.
+* [megacheck](https://github.com/dominikh/go-tools/tree/master/cmd/megacheck) - Run staticcheck, gosimple and unused, sharing work.
+* [misspell](https://github.com/client9/misspell) - Finds commonly misspelled English words.
+* [nakedret](https://github.com/alexkohler/nakedret) - Finds naked returns.
+* [prealloc](https://github.com/alexkohler/prealloc) - Finds slice declarations that could potentially be preallocated.
+* [safesql](https://github.com/stripe/safesql) - Static analysis tool for Golang that protects against SQL injections.
+* [structcheck](https://github.com/opennota/check) - Find unused struct fields.
+* [test](http://golang.org/pkg/testing/) - Show location of test failures from the stdlib testing module.
+* [testify](https://github.com/stretchr/testify) - Show location of failed testify assertions.
+* [varcheck](https://github.com/opennota/check) - Find unused global variables and constants.
+* [unconvert](https://github.com/mdempsky/unconvert) - Detect redundant type conversions.
+* [unimport](https://github.com/alexkohler/unimport) - Finds unnecessary import aliases
+* [unparam](https://github.com/mvdan/unparam) - Find unused function parameters.
+* [unused](https://github.com/dominikh/go-tools/tree/master/cmd/unused) - Find unused variables.
 
 ## Groovy
 
