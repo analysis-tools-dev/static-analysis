@@ -298,6 +298,7 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 * [Axivion Bauhaus Suite](https://www.axivion.com/en/products-services-9#products_bauhaussuite) :copyright: - Tracks down error-prone code locations, style violations, cloned or dead code, cyclic dependencies and more for C/C++, C#/.NET, Java and Ada 83/Ada 95
 * [coala](https://coala.io/) - Language independent framework for creating code analysis - supports [over 60 languages](https://coala.io/languages) by default
 * [codeburner](https://github.com/groupon/codeburner) - Provides a unified interface to sort and act on the issues it finds
+* [CodeFactor](https://codefactor.io) :copyright: - Static Code Analysis for C#, C, C++, CoffeeScript, CSS, Groovy, GO, JAVA, JavaScript, Less, Python, Ruby, Scala, SCSS, TypeScript.
 * [Coverity Save](http://www.coverity.com/products/coverity-save/) :copyright: - Static analysis for  C/C++, Java and C#
 * [DevSkim](https://github.com/microsoft/devskim) - Regex-based static analysis tool for Visual Studio, VS Code, and Sublime Text - C/C++, C#, PHP, ASP, Python, Ruby, Java, and others.
 * [graudit](https://github.com/wireghoul/graudit) - Grep rough audit - source code auditing tool - C/C++, PHP, ASP, C#, Java, Perl, Python, Ruby
@@ -417,6 +418,7 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 * [Bithound](https://www.bithound.io/) :copyright: - Code Analysis beyond Lint, specifically for Node.js.
 * [Codacy](https://www.codacy.com/) :copyright: - Code Analysis to ship Better Code, Faster.
 * [Code Climate](https://codeclimate.com/) :copyright: - The open and extensible static analysis platform, for everyone.
+* [CodeFactor](https://codefactor.io) :copyright: - Automated Code Analysis for repos on GitHub or BitBucket. 
 * [ConQAT](http://www.conqat.org/) - a toolkit for rapid development and execution of software quality analyses.
 * [Functor Prevent](http://www.functor.se/products/prevent/) :copyright: - Static code analysis for C code.
 * [kiuwan](https://www.kiuwan.com/) :copyright: - Software Analytics in the Cloud supporting more than 22 programming languages.
