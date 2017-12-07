@@ -122,7 +122,6 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 * [Haxe Checkstyle](https://github.com/HaxeCheckstyle/haxe-checkstyle) - A static analysis tool to help developers write Haxe code that adheres to a coding standard.
 
 ## Java
-* [Attackflow](https://www.attackflow.com) - Taint flow analysis to configurational bugs, control flow analysis to quality issues AttackFlow supports over Hundreds of software security findings grouped in nine classes including but not limited to Authorization, Injection, Cryptography, Authentication and Code Quality.
 * [Checker Framework](https://github.com/typetools/checker-framework/) - Pluggable type-checking for Java http://checkerframework.org/
 * [checkstyle](https://github.com/checkstyle/checkstyle) - checking Java source code for adherence to a Code Standard or set of validation rules (best practices)
 * [ckjm](http://www.spinellis.gr/sw/ckjm/) - calculates Chidamber and Kemerer object-oriented metrics by processing the bytecode of compiled Java files
