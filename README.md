@@ -104,12 +104,11 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 * [flen](https://github.com/lafolle/flen) - Get info on length of functions in a Go package.
 * [gas](https://github.com/GoASTScanner/gas) - Inspects source code for security problems by scanning the Go AST.
 * [Go Meta Linter](https://github.com/alecthomas/gometalinter) - Concurrently run Go lint tools and normalise their output.
-* [goconst](https://github.com/jgautheron/goconst) - Finds repeated strings that could be replaced by a constant.
-* [go vet](https://golang.org/cmd/vet/) - Examines Go source code and reports suspicious.
 * [go tool vet --shadow](https://golang.org/cmd/vet/#hdr-Shadowed_variables) - Reports variables that may have been unintentionally shadowed.
-* [gotype](https://golang.org/x/tools/cmd/gotype) - Syntactic and semantic analysis similar to the Go compiler.
+* [go vet](https://golang.org/cmd/vet/) - Examines Go source code and reports suspicious.
 * [go-staticcheck](https://github.com/dominikh/go-tools/tree/master/cmd/staticcheck) - go vet on steroids, similar to ReSharper for C#.
 * [go/ast](https://golang.org/pkg/go/ast/) - Package ast declares the types used to represent syntax trees for Go packages.
+* [goconst](https://github.com/jgautheron/goconst) - Finds repeated strings that could be replaced by a constant.
 * [gocyclo](https://github.com/fzipp/gocyclo) - Calculate cyclomatic complexities of functions in Go source code.
 * [gofmt -s](https://golang.org/cmd/gofmt/) - Checks if the code is properly formatted and could not be further simplified.
 * [goimports](https://godoc.org/golang.org/x/tools/cmd/goimports) - Checks missing or unreferenced package imports.
@@ -117,6 +116,7 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 * [goreporter](https://github.com/wgliang/goreporter) - concurrently runs many linters and normalises their output to a report.
 * [goroutine-inspect](https://github.com/linuxerwang/goroutine-inspect) - An interactive tool to analyze Golang goroutine dump.
 * [gosimple](https://github.com/dominikh/go-tools/tree/master/cmd/gosimple) - Report simplifications in code.
+* [gotype](https://golang.org/x/tools/cmd/gotype) - Syntactic and semantic analysis similar to the Go compiler.
 * [ineffassign](https://github.com/gordonklaus/ineffassign) - Detect ineffectual assignments in Go code
 * [interfacer](https://github.com/mvdan/interfacer) - Suggest narrower interfaces that can be used.
 * [lll](https://github.com/walle/lll) - Report long lines.
@@ -129,11 +129,11 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 * [structcheck](https://github.com/opennota/check) - Find unused struct fields.
 * [test](http://golang.org/pkg/testing/) - Show location of test failures from the stdlib testing module.
 * [testify](https://github.com/stretchr/testify) - Show location of failed testify assertions.
-* [varcheck](https://github.com/opennota/check) - Find unused global variables and constants.
 * [unconvert](https://github.com/mdempsky/unconvert) - Detect redundant type conversions.
 * [unimport](https://github.com/alexkohler/unimport) - Finds unnecessary import aliases
 * [unparam](https://github.com/mvdan/unparam) - Find unused function parameters.
 * [unused](https://github.com/dominikh/go-tools/tree/master/cmd/unused) - Find unused variables.
+* [varcheck](https://github.com/opennota/check) - Find unused global variables and constants.
 
 ## Groovy
 
