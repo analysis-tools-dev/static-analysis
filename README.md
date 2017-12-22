@@ -203,33 +203,44 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 ## PHP
 
 * [dephpend](https://github.com/mihaeu/dephpend) - Dependency analysis tool
+* [deprecation-detector](https://github.com/sensiolabs-de/deprecation-detector) - Finds usages of deprecated (Symfony) code
 * [deptrac](https://github.com/sensiolabs-de/deptrac) - Enforce rules for dependencies between software layers.
 * [DesignPatternDetector](https://github.com/Halleck45/DesignPatternDetector) - detection of design patterns in PHP code
 * [EasyCodingStandard](https://github.com/Symplify/EasyCodingStandard) - combine [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) and [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
 * [exakat](https://github.com/exakat/exakat) - An automated code reviewing engine for PHP
 * [GrumPHP](https://github.com/phpro/grumphp) - checks code on every commit
 * [Mondrian](https://github.com/Trismegiste/Mondrian) - a set of static analysis and refactoring tools which use graph theory
+* [parallel-lint](https://github.com/JakubOnderka/PHP-Parallel-Lint) - This tool checks syntax of PHP files faster than serial check with a fancier output.
 * [Parse](https://github.com/psecio/parse) - A Static Security Scanner
+* [pdepend](https://pdepend.org/) - Calculates software metrics like cyclomatic complexity for PHP code.
 * [phan](https://github.com/etsy/phan) - a modern static analyzer from etsy
+* [PHP Assumptions](https://github.com/rskuipers/php-assumptions) - Checks for weak assumptions
+* [PHP Coding Standards Fixer](http://cs.sensiolabs.org/) - Fixes your code according to standards like PSR-1, PSR-2, and the Symfony standard.
 * [Php Inspections (EA Extended)](https://github.com/kalessil/phpinspectionsea) - A Static Code Analyzer for PHP.
 * [PHP Refactoring Browser](https://github.com/QafooLabs/php-refactoring-browser) - Refactoring helper
+* [PHP Semantic Versioning Checker](https://github.com/tomzx/php-semver-checker) - Suggests a next version according to semantic versioning
 * [PHP-Parser](https://github.com/nikic/PHP-Parser) - A PHP parser written in PHP
 * [PHP-Token-Reflection](https://github.com/Andrewsville/PHP-Token-Reflection) - Library emulating the PHP internal reflection
 * [php7cc](https://github.com/sstalle/php7cc) - PHP 7 Compatibility Checker
 * [php7mar](https://github.com/Alexia/php7mar) - assist developers in porting their code quickly to PHP 7
 * [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) - detects violations of a defined set of coding standards
-* [phpcpd](https://github.com/sebastianbergmann/phpcpd) - Copy/Paste Detector (CPD) for PHP code.
+* [phpca](https://github.com/wapmorgan/PhpCodeAnalyzer) - Finds usage of non-built-in extensions
+* [phpcf](http://wapmorgan.github.io/PhpCodeFixer/) - Finds usage of deprecated PHP features
+* [phpcpd](https://github.com/sebastianbergmann/phpcpd) - Copy/Paste Detector for PHP code.
 * [phpdcd](https://github.com/sebastianbergmann/phpdcd) - Dead Code Detector (DCD) for PHP code.
 * [PhpDependencyAnalysis](https://github.com/mamuz/PhpDependencyAnalysis) - builds a dependency graph for a project
 * [phpdoc-to-typehint](https://github.com/dunglas/phpdoc-to-typehint) - Add scalar type hints and return types to existing PHP projects using PHPDoc annotations
+* [phpDocumentor](https://www.phpdoc.org/) - Analyzes PHP source code to generate documentation
 * [PHPMD](https://phpmd.org/) - finds possible bugs in your code
-* [PhpMetrics](https://github.com/Halleck45/PhpMetrics) - calculates code complexity metrics
+* [PhpMetrics](http://www.phpmetrics.org/) - Calculates and visualizes various code quality metrics
+* [phpmnd](https://github.com/povils/phpmnd) - Helps to detect magic numbers
 * [PHPQA](https://github.com/EdgedesignCZ/phpqa) - A tool for running QA tools (phploc, phpcpd, phpcs, pdepend, phpmd, phpmetrics)
 * [phpqa](https://github.com/jmolivas/phpqa) - PHPQA all-in-one Analyzer CLI tool
 * [phpsa](https://github.com/ovr/phpsa) - Static analysis tool for PHP.
 * [PHPStan](https://github.com/phpstan/phpstan) - PHP Static Analysis Tool - discover bugs in your code without running it!
 * [Progpilot](https://github.com/designsecurity/progpilot) - A static analysis tool for security purposes
-* [Psalm](https://github.com/vimeo/psalm) - Static analysis tool for finding errors in PHP applications
+* [Psalm](https://getpsalm.org/) - Static analysis tool for finding type errors in PHP applications
+* [Qafoo Quality Analyzer](https://github.com/Qafoo/QualityAnalyzer) - Visualizes metrics and source code
 * [RIPS](https://github.com/ripsscanner/rips) - A static source code analyser for vulnerabilities in PHP scripts
 * [Tuli](https://github.com/ircmaxell/Tuli) - A static analysis engine
 * [twig-lint](https://github.com/asm89/twig-lint) - twig-lint is a lint tool for your twig files.
