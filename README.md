@@ -16,6 +16,7 @@ This is a collection of static analysis tools and code quality checkers. Pull re
   - [Config Files](#config-files)
   - [Configuration Management](#configuration-management)
   - [CSS](#css)
+  - [Gherkin](#gherkin)
   - [HTML](#html)
   - [IDE Plugins](#ide-plugins)
   - [LaTeX](#latex)
@@ -399,6 +400,9 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 * [scsslint](https://github.com/brigade/scss-lint) - Linter for SCSS files
 * [Specificity Graph](https://github.com/pocketjoso/specificity-graph) - CSS Specificity Graph Generator
 * [Stylelint](http://stylelint.io/) - Linter for SCSS/CSS files
+## Gherkin
+
+* [gherkin-lint](https://github.com/vsiakka/gherkin-lint) - A linter for the Gherkin-Syntax written in Javascript.
 
 ## HTML
 
