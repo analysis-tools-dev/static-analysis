@@ -471,7 +471,7 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 * [Landscape](https://landscape.io/) :copyright: - Static code analysis for Python
 * [Nitpick CI](https://nitpick-ci.com) :copyright: - Automated PHP code review
 * [Node Security Platform](https://nodesecurity.io/) :copyright: - Continuous Security monitoring for your node apps (free for Open Source Projects)
-* [QuantifiedCode](https://www.quantifiedcode.com/) :copyright: - Automated code review & repair
+* [QuantifiedCode](https://www.quantifiedcode.com/) - Automated code review & repair
 * [Scrutinizer](https://scrutinizer-ci.com/) :copyright: - A proprietery code quality checker that can be integrated with GitHub
 * [SensioLabs Insight](https://insight.sensiolabs.com/) :copyright: - Detect security risks, find bugs and provide actionable metrics for PHP projects
 * [SideCI](https://sideci.com) :copyright: - An automated code reviewing tool. Improving developers' productivity.
