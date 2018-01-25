@@ -29,5 +29,10 @@ for **proprietary tools**, please add a "copyright emoji" (`:copyright:`):
 Please make sure to keep the alphabetical, case-insensitive ordering of the
 tools.
 
+### Categories
+
+If you can, please limit yourself to only one category.  
+This way, all tools get treated fairly and the list is easier to read.
+
 
 **Thanks for helping out!** :tada:
