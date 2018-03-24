@@ -245,8 +245,8 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 * [PhpMetrics](http://www.phpmetrics.org/) - Calculates and visualizes various code quality metrics
 * [phpmnd](https://github.com/povils/phpmnd) - Helps to detect magic numbers
 * [PHPQA](https://github.com/EdgedesignCZ/phpqa) - A tool for running QA tools (phploc, phpcpd, phpcs, pdepend, phpmd, phpmetrics)
-* [phpqa - jmolivas](https://github.com/jmolivas/phpqa) - PHPQA all-in-one Analyzer CLI tool
 * [phpqa - jakzal](https://github.com/jakzal/phpqa) - Many tools for PHP static analysis in one container
+* [phpqa - jmolivas](https://github.com/jmolivas/phpqa) - PHPQA all-in-one Analyzer CLI tool
 * [phpsa](https://github.com/ovr/phpsa) - Static analysis tool for PHP.
 * [PHPStan](https://github.com/phpstan/phpstan) - PHP Static Analysis Tool - discover bugs in your code without running it!
 * [Progpilot](https://github.com/designsecurity/progpilot) - A static analysis tool for security purposes
