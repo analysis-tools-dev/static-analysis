@@ -468,7 +468,7 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 
 ## Writing
 
-* [misspell fixer](https://github.com/vlajos/misspell_fixer) - Quick tool for fixing common misspellings, typos in source code
+* [misspell-fixer](https://github.com/vlajos/misspell-fixer) - Quick tool for fixing common misspellings, typos in source code
 * [proselint](https://github.com/amperser/proselint/) - a linter for English prose with a focus on writing style instead of grammar.
 * [vale](https://github.com/ValeLint/vale) - A customizable, syntax-aware linter for prose.
 
