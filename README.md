@@ -90,6 +90,10 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 * [ameba](https://github.com/veelenga/ameba) - A static code analysis tool for Crystal
 * [crystal](https://crystal-lang.org/) - The Crystal compiler has built-in linting functionality.
 
+## Dlang
+
+* [D-scanner](https://github.com/dlang-community/D-Scanner) - D-Scanner is a tool for analyzing D source code
+
 ## Elixir
 
 * [credo](https://github.com/rrrene/credo) - A static code analysis tool with a focus on code consistency and teaching.
@@ -184,6 +188,8 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 * [flow](https://flow.org/) - A static type checker for JavaScript.
 * [jshint](https://github.com/jshint/jshint) - detect errors and potential problems in JavaScript code and enforce your team's coding conventions
 * [JSLint](https://github.com/douglascrockford/JSLint) :copyright: - The JavaScript Code Quality Tool
+* [JSPrime](https://github.com/dpnishant/jsprime) - static security analysis tool
+* [NodeJSScan](https://github.com/ajinabraham/NodeJsScan) - NodeJsScan is a static security code scanner for Node.js applications.
 * [plato](https://github.com/es-analysis/plato) - Visualize JavaScript source complexity
 * [Prettier](https://github.com/prettier/prettier) - An opinionated code formatter.
 * [quality](https://github.com/jden/quality) - zero configuration code and module linting
@@ -243,7 +249,8 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 * [PhpMetrics](http://www.phpmetrics.org/) - Calculates and visualizes various code quality metrics
 * [phpmnd](https://github.com/povils/phpmnd) - Helps to detect magic numbers
 * [PHPQA](https://github.com/EdgedesignCZ/phpqa) - A tool for running QA tools (phploc, phpcpd, phpcs, pdepend, phpmd, phpmetrics)
-* [phpqa](https://github.com/jmolivas/phpqa) - PHPQA all-in-one Analyzer CLI tool
+* [phpqa - jakzal](https://github.com/jakzal/phpqa) - Many tools for PHP static analysis in one container
+* [phpqa - jmolivas](https://github.com/jmolivas/phpqa) - PHPQA all-in-one Analyzer CLI tool
 * [phpsa](https://github.com/ovr/phpsa) - Static analysis tool for PHP.
 * [PHPStan](https://github.com/phpstan/phpstan) - PHP Static Analysis Tool - discover bugs in your code without running it!
 * [Progpilot](https://github.com/designsecurity/progpilot) - A static analysis tool for security purposes
@@ -375,6 +382,7 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 * [Undebt](https://github.com/Yelp/undebt) - Language-independent tool for massive, automatic, programmable refactoring based on simple pattern definitions
 * [Veracode](http://www.veracode.com/products/static-analysis-sast/static-code-analysis) :copyright: - Find flaws in binaries and bytecode without requiring source. Support all major programming languages: Java, .NET, JavaScript, Swift, Objective-C, C, C++ and more.
 * [WALA](http://wala.sourceforge.net/wiki/index.php/Main_Page) - static analysis capabilities for Java bytecode and related languages and for JavaScript
+* [Wotan](https://github.com/fimbullinter/wotan) - Pluggable TypeScript and JavaScript linter
 * [XCode](https://developer.apple.com/xcode/) :copyright: - XCode provides a pretty decent UI for [Clang's](http://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C)
 
 # Other
@@ -388,6 +396,8 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 
 * [BinSkim](https://github.com/Microsoft/binskim) - A binary static analysis tool that provides security and correctness results for Windows portable executables.
 * [Manalyze](https://github.com/JusticeRage/Manalyze) - A static analyzer, which checks portable executables for malicious content.
+* [Jakstab](https://github.com/jkinder/jakstab) - Jakstab is an Abstract Interpretation-based, integrated disassembly and static analysis framework for designing analyses on executables and recovering reliable control flow graphs.
+
 
 ## Containers
 
@@ -417,6 +427,7 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 * [scsslint](https://github.com/brigade/scss-lint) - Linter for SCSS files
 * [Specificity Graph](https://github.com/pocketjoso/specificity-graph) - CSS Specificity Graph Generator
 * [Stylelint](http://stylelint.io/) - Linter for SCSS/CSS files
+
 ## Gherkin
 
 * [gherkin-lint](https://github.com/vsiakka/gherkin-lint) - A linter for the Gherkin-Syntax written in Javascript.
@@ -426,6 +437,8 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 * [HTML Inspector](https://github.com/philipwalton/html-inspector) - HTML Inspector is a code quality tool to help you and your team write better markup.
 * [HTML Tidy](http://www.html-tidy.org/) - Corrects and cleans up HTML and XML documents by fixing markup errors and upgrading legacy code to modern standards.
 * [HTMLHint](https://github.com/yaniswang/HTMLHint) - A Static Code Analysis Tool for HTML
+* [Polymer-analyzer](https://github.com/Polymer/polymer-analyzer) - A static analysis framework for Web Components.
+
 
 ## IDE Plugins
 
