@@ -336,6 +336,7 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 
 ## Swift
 
+* [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) - A library and command-line formatting tool for reformatting Swift code
 * [SwiftLint](https://github.com/realm/SwiftLint) - A tool to enforce Swift style and conventions
 * [Tailor](https://github.com/sleekbyte/tailor) - A static analysis and lint tool for source code written in Apple's Swift programming language.
 
