@@ -349,7 +349,7 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 
 ## VBScript
 
-* [Test Design Studio](http://patterson-consulting.net/tds):copyright: - A full IDE with static code analysis for Micro Focus Unified Funtional Testing VBScript-based automated tests.
+* [Test Design Studio](http://patterson-consulting.net/tds) :copyright: - A full IDE with static code analysis for Micro Focus Unified Funtional Testing VBScript-based automated tests.
 
 # Multiple languages
 
