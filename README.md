@@ -57,6 +57,7 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 * [flawfinder](http://www.dwheeler.com/flawfinder/) - finds possible security weaknesses
 * [flint++](http://l2program.co.uk/category/flint) - cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.
 * [Frama-C](http://frama-c.com/) - a sound and extensible static analyzer for C code
+* [IKOS](https://github.com/nasa-sw-vnv/ikos) - a sound static analyzer for C/C++ code based on LLVM
 * [oclint](http://oclint.org/) - static analysis of C/C++ code
 * [Polyspace Bug Finder](https://www.mathworks.com/products/polyspace-bug-finder.html) :copyright: - identifies run-time errors, concurrency issues, security vulnerabilities, and other defects in C and C++ embedded software.
 * [Polyspace Code Prover](https://www.mathworks.com/products/polyspace-code-prover.html) :copyright: - provide code verification that proves the absence of overflow, divide-by-zero, out-of-bounds array access, and certain other run-time errors in C and C++ source code.
