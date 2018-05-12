@@ -273,6 +273,7 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 * [pydocstyle](https://github.com/PyCQA/pydocstyle) - check compliance with Python docstring conventions
 * [pyflakes](https://github.com/pyflakes/pyflakes/) - check Python source files for errors
 * [pylint](https://github.com/PyCQA/pylint) - looks for programming errors, helps enforcing a coding standard and sniffs for some code smells. It additionally includes `pyreverse` (an UML diagram generator) and `symilar` (a similarities checker).
+* [pyre-check](https://github.com/facebook/pyre-check) - A fast, scalable type checker for large Python codebases
 * [pyroma](https://github.com/regebro/pyroma) - rate how well a Python project complies with the best practices of the Python packaging ecosystem, and list issues that could be improved
 * [PyT - Python Taint](https://github.com/python-security/pyt) - A static analysis tool for detecting security vulnerabilities in Python web applications.
 * [vulture](https://github.com/jendrikseipp/vulture) - find unused classes, functions and variables in Python code
