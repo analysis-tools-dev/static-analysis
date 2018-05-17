@@ -105,6 +105,10 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 
 * [elvis](https://github.com/inaka/elvis) - Erlang Style Reviewer
 
+## F# #
+
+* [FSharpLint](https://github.com/fsprojects/FSharpLint) - Lint tool for F#
+
 ## Fortran
 
 * [i-Code CNES](https://github.com/lequal/i-CodeCNES) - A static code analysis tool for Fortran 77, Fortran 90 and Shell.
