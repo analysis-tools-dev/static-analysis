@@ -268,7 +268,7 @@ This is a collection of static analysis tools and code quality checkers. Pull re
 * [jedi](https://github.com/davidhalter/jedi) - autocompletion/static analysis library for Python
 * [linty fresh](https://github.com/lyft/linty_fresh) - parse lint errors and report them to Github as comments on a pull request
 * [mccabe](https://github.com/PyCQA/mccabe) - check McCabe complexity
-* [mypy](https://github.com/python/mypy) - an experimental optional static type checker for Python that aims to combine the benefits of dynamic (or "duck") typing and static typing, frequently used with [MonkeyType](https://github.com/Instagram/MonkeyType)
+* [mypy](https://github.com/python/mypy) - a static type checker that aims to combine the benefits of duck typing and static typing, frequently used with [MonkeyType](https://github.com/Instagram/MonkeyType)
 * [py-find-injection](https://github.com/uber/py-find-injection) - find SQL injection vulnerabilities in Python code
 * [pycodestyle](https://github.com/PyCQA/pycodestyle) - (formerly `pep8`) check Python code against some of the style conventions in PEP 8
 * [pydocstyle](https://github.com/PyCQA/pydocstyle) - check compliance with Python docstring conventions
