@@ -1,0 +1,9 @@
+[package]
+authors = ["Matthias Endler <matthias-endler@gmx.net>"]
+name = "ci"
+version = "0.2.0"
+
+[dependencies]
+lazy_static = "0.2.9"
+regex = "0.2.2"
+failure = "0.1.1"
