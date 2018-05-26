@@ -1,36 +1,35 @@
- ![Logo](awesome.png)
+![Logo](awesome.png)
 
 > Static program analysis is the analysis of computer software that is performed without actually executing programs — [Wikipedia](https://en.wikipedia.org/wiki/Static_program_analysis)
 
-This is a collection of static analysis tools and code quality checkers. Pull requests are very welcome!  
-**Note: :copyright: stands for proprietary software. All other tools are Open Source.**  
-Also check out the sister project, [awesome-dynamic-analysis](https://github.com/mre/awesome-dynamic-analysis).  
+This is a collection of static analysis tools and code quality checkers. Pull requests are very welcome!
+**Note: :copyright: stands for proprietary software. All other tools are Open Source.**
+Also check out the sister project, [awesome-dynamic-analysis](https://github.com/mre/awesome-dynamic-analysis).
 
 # Table of Contents
 
-- [Programming Languages](#programming-languages)
-- [Multiple languages](#multiple-languages)
-- [Other](#other)
-  - [Build tools](#build-tools)
-  - [Binaries](#binaries)
-  - [Containers](#containers)
-  - [Config Files](#config-files)
-  - [Configuration Management](#configuration-management)
-  - [CSS](#css)
-  - [Gherkin](#gherkin)
-  - [HTML](#html)
-  - [IDE Plugins](#ide-plugins)
-  - [LaTeX](#latex)
-  - [Makefiles](#makefiles)
-  - [Markdown](#markdown)
-  - [Mobile](#mobile)
-  - [Packages](#packages)
-  - [Template Languages](#template-languages)
-  - [Translation](#translation)
-  - [Web services](#web-services)
-  - [Writing](#writing)
-- [More Collections](#more-collections)
-
+* [Programming Languages](#programming-languages)
+* [Multiple languages](#multiple-languages)
+* [Other](#other)
+  * [Build tools](#build-tools)
+  * [Binaries](#binaries)
+  * [Containers](#containers)
+  * [Config Files](#config-files)
+  * [Configuration Management](#configuration-management)
+  * [CSS](#css)
+  * [Gherkin](#gherkin)
+  * [HTML](#html)
+  * [IDE Plugins](#ide-plugins)
+  * [LaTeX](#latex)
+  * [Makefiles](#makefiles)
+  * [Markdown](#markdown)
+  * [Mobile](#mobile)
+  * [Packages](#packages)
+  * [Template Languages](#template-languages)
+  * [Translation](#translation)
+  * [Web services](#web-services)
+  * [Writing](#writing)
+* [More Collections](#more-collections)
 
 # Programming Languages
 
@@ -66,7 +65,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [splint](https://github.com/ravenexp/splint) - Annotation-assisted static program checker
 * [vera++](https://bitbucket.org/verateam/vera/wiki/Introduction) - Vera++ is a programmable tool for verification, analysis and transformation of C++ source code.
 
-## C# #
+## C
 
 * [.NET Analyzers](https://github.com/DotNetAnalyzers) - An organization for the development of analyzers (diagnostics and code fixes) using the .NET Compiler Platform.
 * [Code Analysis Rule Collection](https://carc.codeplex.com/) - Contains a set of diagnostics, code fixes and refactorings built on the Microsoft .NET Compiler Platform "Roslyn".
@@ -105,7 +104,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 * [elvis](https://github.com/inaka/elvis) - Erlang Style Reviewer
 
-## F# #
+## F
 
 * [FSharpLint](https://github.com/fsprojects/FSharpLint) - Lint tool for F#
 
@@ -138,7 +137,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [ineffassign](https://github.com/gordonklaus/ineffassign) - Detect ineffectual assignments in Go code
 * [interfacer](https://github.com/mvdan/interfacer) - Suggest narrower interfaces that can be used.
 * [lll](https://github.com/walle/lll) - Report long lines.
-* [maligned](https://github.com/mdempsky/maligned) -  Detect structs that would take less memory if their fields were sorted.
+* [maligned](https://github.com/mdempsky/maligned) - Detect structs that would take less memory if their fields were sorted.
 * [megacheck](https://github.com/dominikh/go-tools/tree/master/cmd/megacheck) - Run staticcheck, gosimple and unused, sharing work.
 * [misspell](https://github.com/client9/misspell) - Finds commonly misspelled English words.
 * [nakedret](https://github.com/alexkohler/nakedret) - Finds naked returns.
@@ -166,6 +165,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [Haxe Checkstyle](https://github.com/HaxeCheckstyle/haxe-checkstyle) - A static analysis tool to help developers write Haxe code that adheres to a coding standard.
 
 ## Java
+
 * [ArchUnit](https://www.archunit.org/) - Unit test your Java architecture
 * [Checker Framework](https://github.com/typetools/checker-framework/) - Pluggable type-checking for Java http://checkerframework.org/
 * [checkstyle](https://github.com/checkstyle/checkstyle) - checking Java source code for adherence to a Code Standard or set of validation rules (best practices)
@@ -196,9 +196,11 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [JSLint](https://github.com/douglascrockford/JSLint) :copyright: - The JavaScript Code Quality Tool
 * [JSPrime](https://github.com/dpnishant/jsprime) - static security analysis tool
 * [NodeJSScan](https://github.com/ajinabraham/NodeJsScan) - NodeJsScan is a static security code scanner for Node.js applications.
+* [NSP](https://github.com/nodesecurity/nsp) - NSP is a static security code scanner that reports on dependencies with known vulnerabilities.
 * [plato](https://github.com/es-analysis/plato) - Visualize JavaScript source complexity
 * [Prettier](https://github.com/prettier/prettier) - An opinionated code formatter.
 * [quality](https://github.com/jden/quality) - zero configuration code and module linting
+* [Snyk](https://github.com/snyk/snyk) - Snyk is a static security code scanner that reports on dependencies with known vulnerabilities.
 * [standard](http://standardjs.com/) - An npm module that checks for Javascript Styleguide issues
 * [XO](https://github.com/sindresorhus/xo) - Enforce strict code style. Never discuss code style on a pull request again!
 * [yardstick](https://github.com/calmh/yardstick) - Javascript code metrics
@@ -378,7 +380,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [Hound CI](https://houndci.com/) - Comments on style violations in GitHub pull requests. Supports Coffeescript, Go, HAML, JavaScript, Ruby, SCSS and Swift.
 * [imhotep](https://github.com/justinabrahms/imhotep) - Comment on commits coming into your repository and check for syntactic errors and general lint warnings.
 * [Infer](https://github.com/facebook/infer) - A static analyzer for Java, C and Objective-C
-* [Klocwork](http://www.klocwork.com/products-services/klocwork) :copyright: - Quality and Security Static analysis for  C/C++, Java and C#
+* [Klocwork](http://www.klocwork.com/products-services/klocwork) :copyright: - Quality and Security Static analysis for C/C++, Java and C#
 * [Kiuwan](https://www.kiuwan.com/code-security-sast/) :copyright: - Identify and remediate cyber threats in a blazingly fast, collaborative environment, with seamlessly integration in your SDLC. Python, C\C++, Java, C#, PHP and more
 * [oclint](https://github.com/oclint/oclint) - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C
 * [pfff](https://github.com/facebook/pfff) - Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages
@@ -410,7 +412,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [Jakstab](https://github.com/jkinder/jakstab) - Jakstab is an Abstract Interpretation-based, integrated disassembly and static analysis framework for designing analyses on executables and recovering reliable control flow graphs.
 * [Manalyze](https://github.com/JusticeRage/Manalyze) - A static analyzer, which checks portable executables for malicious content.
 * [Twiggy](https://github.com/rustwasm/twiggy) - Analyzes a binary's call graph to profile code size. The goal is to slim down binaries.
-
 
 ## Containers
 
@@ -451,7 +452,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [HTML Tidy](http://www.html-tidy.org/) - Corrects and cleans up HTML and XML documents by fixing markup errors and upgrading legacy code to modern standards.
 * [HTMLHint](https://github.com/yaniswang/HTMLHint) - A Static Code Analysis Tool for HTML
 * [Polymer-analyzer](https://github.com/Polymer/polymer-analyzer) - A static analysis framework for Web Components.
-
 
 ## IDE Plugins
 
@@ -529,9 +529,9 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 * [go-tools](https://github.com/dominikh/go-tools) - A collection of tools and libraries for working with Go code, including linters and static analysis
 * [linters](https://github.com/mcandre/linters) - An introduction to static code analysis
-* [php-static-analysis-tools](https://github.com/exakat/php-static-analysis-tools) -  A reviewed list of useful PHP static analysis tools
+* [php-static-analysis-tools](https://github.com/exakat/php-static-analysis-tools) - A reviewed list of useful PHP static analysis tools
 * [Tools for C/C++](https://www.peerlyst.com/posts/a-list-of-static-analysis-tools-for-c-c-peerlyst?utm_source=twitter&utm_medium=social&utm_content=peerlyst_post&utm_campaign=peerlyst_resources) - A list of static analysis tools for C/C++
-* [Wikipedia](http://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis) -  A list of tools for static code analysis.
+* [Wikipedia](http://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis) - A list of tools for static code analysis.
 
 ## License
 
