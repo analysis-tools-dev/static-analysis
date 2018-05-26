@@ -4,6 +4,7 @@
 
 This is a collection of static analysis tools and code quality checkers. Pull requests are very welcome!  
 **Note: :copyright: stands for proprietary software. All other tools are Open Source.**  
+Also check out the sister project, [awesome-dynamic-analysis](https://github.com/mre/awesome-dynamic-analysis).  
 
 # Table of Contents
 
