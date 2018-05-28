@@ -25,6 +25,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
   - [Markdown](#markdown)
   - [Mobile](#mobile)
   - [Packages](#packages)
+  - [Supporting Tools](#supporting-tools)
   - [Template Languages](#template-languages)
   - [Translation](#translation)
   - [Web services](#web-services)
