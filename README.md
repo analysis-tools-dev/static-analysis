@@ -200,6 +200,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [plato](https://github.com/es-analysis/plato) - Visualize JavaScript source complexity
 * [Prettier](https://github.com/prettier/prettier) - An opinionated code formatter.
 * [quality](https://github.com/jden/quality) - zero configuration code and module linting
+* [retire.js](https://github.com/RetireJS/retire.js) - Scanner detecting the use of JavaScript libraries with known vulnerabilities
 * [standard](http://standardjs.com/) - An npm module that checks for Javascript Styleguide issues
 * [XO](https://github.com/sindresorhus/xo) - Enforce strict code style. Never discuss code style on a pull request again!
 * [yardstick](https://github.com/calmh/yardstick) - Javascript code metrics
