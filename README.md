@@ -521,6 +521,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [Gamma](https://mygamma.io) :copyright: - An intelligent software analytics platform that identifies issues from multiple lenses: Design issues, code issues, duplication and metrics. Available for Java, C, C++ and C#.
 * [kiuwan](https://www.kiuwan.com/) :copyright: - Software Analytics in the Cloud supporting more than 22 programming languages.
 * [Landscape](https://landscape.io/) :copyright: - Static code analysis for Python
+* [Layered Insight](https://layeredinsight.com/) :copyright: - Container native application protection to provide visibility and control of containerized applications.
 * [Nitpick CI](https://nitpick-ci.com) :copyright: - Automated PHP code review
 * [Node Security Platform](https://nodesecurity.io/) :copyright: - Continuous Security monitoring for your node apps (free for Open Source Projects)
 * [QuantifiedCode](https://www.quantifiedcode.com/) - Automated code review & repair
