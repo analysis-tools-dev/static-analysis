@@ -415,6 +415,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 ## Containers
 
+* [anchore](https://anchore.io/) - Discover, analyze, and certify container images
 * [clair](https://github.com/coreos/clair) - Vulnerability Static Analysis for Containers
 * [collector](https://github.com/banyanops/collector) - Run arbitrary scripts inside containers, and gather useful information
 * [dagda](https://github.com/eliasgranderubio/dagda) - Perform static analysis of known vulnerabilities in docker images/containers.
