@@ -1,4 +1,5 @@
 Please feel free to open a pull request if you know of a code analysis tool that is not mentioned here.  
+If you're in doubt if a tool is a good fit for the list, **don't open an issue but create a pull request right away** because that's easier to handle. Thanks! :smiley:
 
 ### Requirements
 
