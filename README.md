@@ -485,6 +485,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 ## Packages
 
+* [LeanPackageValidator](https://github.com/raphaelstolt/lean-package-validator) - An utility tool that validates a project/micro-package for it's leanness.
 * [lintian](https://github.com/Debian/lintian) - Static analysis tool for Debian packages
 * [rpmlint](https://github.com/rpm-software-management/rpmlint) - Tool for checking common errors in rpm packages
 
