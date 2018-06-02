@@ -430,6 +430,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 ## Configuration Management
 
 * [ansible-lint](https://github.com/willthames/ansible-lint) - Checks playbooks for practices and behaviour that could potentially be improved
+* [cfn_nag](https://github.com/stelligent/cfn_nag) - A linter for AWS CloudFormation templates.
 * [foodcritic](http://www.foodcritic.io/) - A lint tool that checks Chef cookbooks for common problems.
 * [Puppet Lint](https://github.com/rodjek/puppet-lint) - Check that your Puppet manifests conform to the style guide.
 
