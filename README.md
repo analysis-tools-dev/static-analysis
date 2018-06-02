@@ -510,6 +510,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [misspell-fixer](https://github.com/vlajos/misspell-fixer) - Quick tool for fixing common misspellings, typos in source code
 * [proselint](https://github.com/amperser/proselint/) - a linter for English prose with a focus on writing style instead of grammar.
 * [vale](https://github.com/ValeLint/vale) - A customizable, syntax-aware linter for prose.
+* [write-good](https://github.com/btford/write-good) A linter with a focus on eliminating "weasel words".
 
 ## Web services
 
