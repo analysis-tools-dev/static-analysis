@@ -430,6 +430,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 ## Configuration Management
 
 * [ansible-lint](https://github.com/willthames/ansible-lint) - Checks playbooks for practices and behaviour that could potentially be improved
+* [cfn_nag](https://github.com/stelligent/cfn_nag) - A linter for AWS CloudFormation templates.
 * [foodcritic](http://www.foodcritic.io/) - A lint tool that checks Chef cookbooks for common problems.
 * [Puppet Lint](https://github.com/rodjek/puppet-lint) - Check that your Puppet manifests conform to the style guide.
 
@@ -510,6 +511,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [misspell-fixer](https://github.com/vlajos/misspell-fixer) - Quick tool for fixing common misspellings, typos in source code
 * [proselint](https://github.com/amperser/proselint/) - a linter for English prose with a focus on writing style instead of grammar.
 * [vale](https://github.com/ValeLint/vale) - A customizable, syntax-aware linter for prose.
+* [write-good](https://github.com/btford/write-good) - A linter with a focus on eliminating "weasel words".
 
 ## Web services
 
