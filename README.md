@@ -286,6 +286,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [pyre-check](https://github.com/facebook/pyre-check) - A fast, scalable type checker for large Python codebases
 * [pyroma](https://github.com/regebro/pyroma) - rate how well a Python project complies with the best practices of the Python packaging ecosystem, and list issues that could be improved
 * [PyT - Python Taint](https://github.com/python-security/pyt) - A static analysis tool for detecting security vulnerabilities in Python web applications.
+* [radon](https://github.com/rubik/radon) - a Python tool that computes various metrics from the source code
 * [vulture](https://github.com/jendrikseipp/vulture) - find unused classes, functions and variables in Python code
 * [xenon](https://github.com/rubik/xenon) - monitor code complexity using [`radon`](https://github.com/rubik/radon)
 
