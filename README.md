@@ -302,7 +302,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 ## RPG
 
-* [SourceMeter](https://www.sourcemeter.com/resources/rpg/) - Static Code Analysis for RPG III and RPG IV versions (including free-form)
+* [SourceMeter](https://www.sourcemeter.com/resources/rpg/) :copyright: - Static Code Analysis for RPG III and RPG IV versions (including free-form)
 
 ## Ruby
 
