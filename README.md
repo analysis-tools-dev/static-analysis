@@ -349,6 +349,8 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 * [sqlcheck](https://github.com/jarulraj/sqlcheck) - Automatically identify anti-patterns in SQL queries
 * [sqlint](https://github.com/purcell/sqlint) - Simple SQL linter
+* [tsqllint](https://github.com/tsqllint/tsqllint) - T-SQL-specific linter
+* [TSqlRules](https://github.com/ashleyglee/TSqlRules) - TSQL Static Code Analysis Rules for SQL Server
 
 ## Swift
 
