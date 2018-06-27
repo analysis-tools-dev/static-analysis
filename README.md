@@ -100,7 +100,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 ## Elixir
 
 * [credo](https://github.com/rrrene/credo) - A static code analysis tool with a focus on code consistency and teaching.
-* [Dogma](https://github.com/lpil/dogma) - A code style enforcer for Elixir
 * [sobelow](https://github.com/nccgroup/sobelow) - Security-focused static analysis for the Phoenix Framework
 
 ## Erlang
