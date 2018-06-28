@@ -113,7 +113,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 ## Fortran
 
-* [i-Code CNES](https://github.com/lequal/i-CodeCNES) - A static code analysis tool for Fortran 77, Fortran 90 and Shell.
+* [i-Code CNES for Fortran](https://github.com/lequal/i-CodeCNES) - An open source static code analysis tool for Fortran 77, Fortran 90 and Shell.
 
 ## Go
 
@@ -340,6 +340,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 ## Shell
 
+* [i-Code CNES for Shell](https://github.com/lequal/i-CodeCNES) - An open source static code analysis tool for Shell and Fortran (77 and 90).
 * [shellcheck](https://github.com/koalaman/shellcheck) - ShellCheck, a static analysis tool that gives warnings and suggestions for bash/sh shell scripts
 
 ## Solidity
