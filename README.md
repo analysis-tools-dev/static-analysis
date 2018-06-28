@@ -39,6 +39,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 * [Codepeer](http://www.adacore.com/codepeer) - detects run-time and logic errors
 * [Polyspace for Ada](https://www.mathworks.com/products/polyspace-ada.html) :copyright: - provide code verification that proves the absence of overflow, divide-by-zero, out-of-bounds array access, and certain other run-time errors in source code.
+* [SPARK](http://www.spark-2014.org/about) :copyright: - Static analysis and formal verification toolset for Ada
 * [Understand](https://scitools.com/ada-programming-essential/) :copyright: - IDE that provides code analysis, standards testing, metrics, graphing, dependency analysis and more for Ada and VHDL.
 
 ## Awk
