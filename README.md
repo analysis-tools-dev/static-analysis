@@ -275,6 +275,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 ## Python
 
 * [bandit](https://github.com/PyCQA/bandit) - a tool to find common security issues in Python code
+* [Black](https://github.com/ambv/black) - The uncompromising Python code formatter
 * [jedi](https://github.com/davidhalter/jedi) - autocompletion/static analysis library for Python
 * [linty fresh](https://github.com/lyft/linty_fresh) - parse lint errors and report them to Github as comments on a pull request
 * [mccabe](https://github.com/PyCQA/mccabe) - check McCabe complexity
