@@ -316,6 +316,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [laser](https://github.com/michaeledgar/laser) - Static analysis and style linter for Ruby code.
 * [pelusa](https://github.com/codegram/pelusa) - Static analysis Lint-type tool to improve your OO Ruby code
 * [quality](https://github.com/apiology/quality) - Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time.
+* [Querly](https://github.com/soutaro/querly) - Pattern Based Checking Tool for Ruby
 * [reek](https://github.com/troessner/reek) - Code smell detector for Ruby
 * [RuboCop](https://github.com/rubocop-hq/rubocop) - A Ruby static code analyzer, based on the community Ruby style guide.
 * [Rubrowser](https://github.com/blazeeboy/rubrowser) - Ruby classes interactive dependency graph generator.
