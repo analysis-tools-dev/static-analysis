@@ -66,7 +66,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [Polyspace Bug Finder](https://www.mathworks.com/products/polyspace-bug-finder.html) :copyright: - identifies run-time errors, concurrency issues, security vulnerabilities, and other defects in C and C++ embedded software.
 * [Polyspace Code Prover](https://www.mathworks.com/products/polyspace-code-prover.html) :copyright: - provide code verification that proves the absence of overflow, divide-by-zero, out-of-bounds array access, and certain other run-time errors in C and C++ source code.
 * [scan-build](https://clang-analyzer.llvm.org/scan-build.html) - Analyzes C/C++ code using LLVM at compile-time
-* [Semmle QL and LGTM](https://semmle.com/) :copyright: - Deep semantic code analysis using a powerful query language, integrated in developer workflow using automatic code review for pull requests. Free for open source projects on [LGTM.com](https://LGTM.com). Also for C#, Cobol, Java, JavaScript, Python, TypeScript.
 * [splint](https://github.com/ravenexp/splint) - Annotation-assisted static program checker
 * [vera++](https://bitbucket.org/verateam/vera/wiki/Introduction) - Vera++ is a programmable tool for verification, analysis and transformation of C++ source code.
 
@@ -86,7 +85,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [Roslyn Security Guard](https://dotnet-security-guard.github.io/) - Project that focus on the identification of potential vulnerabilities such as SQL injection, cross-site scripting (XSS), CSRF, cryptography weaknesses, hardcoded passwords and many more.
 * [Roslynator](https://github.com/JosefPihrt/Roslynator/) - A collection of 190+ analyzers and 190+ refactorings for C#, powered by Roslyn.
 * [Security Code Scan](https://security-code-scan.github.io/) - Security code analyzer for C# and VB.NET. Detects various security vulnerability patterns: SQLi, XSS, CSRF, XXE, Open Redirect, etc.
-* [Semmle QL and LGTM](https://semmle.com/) :copyright: - Deep semantic code analysis using a powerful query language, integrated in developer workflow using automatic code review for pull requests. Free for open source projects on [LGTM.com](https://LGTM.com). Also for C/C++, Cobol, Java, JavaScript, Python, TypeScript.
 * [SonarLint for Visual Studio](https://vs.sonarlint.org/) - SonarLint is an extension for Visual Studio 2015 and 2017 that provides on-the-fly feedback to developers on new bugs and quality issues injected into .NET code.
 * [VSDiagnostics](https://github.com/Vannevelj/VSDiagnostics) - A collection of static analyzers based on Roslyn that integrate with VS.
 * [Wintellect.Analyzers](https://github.com/Wintellect/Wintellect.Analyzers) - .NET Compiler Platform ("Roslyn") diagnostic analyzers and code fixes.
@@ -184,7 +182,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [JBMC](http://www.cprover.org/jbmc/) - bounded model-checker for Java (bytecode), verifies user-defined assertions, standard assertions, several coverage metric analyses
 * [NullAway](https://github.com/uber/NullAway) - Type-based null-pointer checker with low build-time overhead; an [Error Prone](http://errorprone.info/) plugin
 * [OWASP Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check) - Checks dependencies for known, publicly disclosed, vulnerabilities.
-* [Semmle QL and LGTM](https://semmle.com/) :copyright: - Deep semantic code analysis using a powerful query language, integrated in developer workflow using automatic code review for pull requests. Free for open source projects on [LGTM.com](https://LGTM.com). Also for C/C++, C#, Cobol, JavaScript, Python, TypeScript.
 * [Spoon](https://github.com/INRIA/spoon) - Library to write your own static analyses and architectural rule checkers for Java. Can be integrated in Maven and Gradle.
 * [SpotBugs](https://spotbugs.github.io/) - SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code.
 
@@ -205,7 +202,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [NodeJSScan](https://github.com/ajinabraham/NodeJsScan) - NodeJsScan is a static security code scanner for Node.js applications.
 * [plato](https://github.com/es-analysis/plato) - Visualize JavaScript source complexity
 * [Prettier](https://github.com/prettier/prettier) - An opinionated code formatter.
-* [Semmle QL and LGTM](https://semmle.com/) :copyright: - Deep semantic code analysis using a powerful query language, integrated in developer workflow using automatic code review for pull requests. Free for open source projects on [LGTM.com](https://LGTM.com). Also for C/C++, C#, Cobol, Java, Python, TypeScript.
 * [quality](https://github.com/jden/quality) - zero configuration code and module linting
 * [retire.js](https://github.com/RetireJS/retire.js) - Scanner detecting the use of JavaScript libraries with known vulnerabilities
 * [standard](http://standardjs.com/) - An npm module that checks for Javascript Styleguide issues
@@ -292,7 +288,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [pyre-check](https://github.com/facebook/pyre-check) - A fast, scalable type checker for large Python codebases
 * [pyroma](https://github.com/regebro/pyroma) - rate how well a Python project complies with the best practices of the Python packaging ecosystem, and list issues that could be improved
 * [PyT - Python Taint](https://github.com/python-security/pyt) - A static analysis tool for detecting security vulnerabilities in Python web applications.
-* [Semmle QL and LGTM](https://semmle.com/) :copyright: - Deep semantic code analysis using a powerful query language, integrated in developer workflow using automatic code review for pull requests. Free for open source projects on [LGTM.com](https://LGTM.com). Also for C/C++, C#, Cobol, Java, JavaScript, TypeScript.
 * [radon](https://github.com/rubik/radon) - a Python tool that computes various metrics from the source code
 * [vulture](https://github.com/jendrikseipp/vulture) - find unused classes, functions and variables in Python code
 * [xenon](https://github.com/rubik/xenon) - monitor code complexity using [`radon`](https://github.com/rubik/radon)
