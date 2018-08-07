@@ -535,22 +535,17 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [write-good](https://github.com/btford/write-good) - A linter with a focus on eliminating "weasel words".
 
 ## Web services
-
-* [Attackflow](https://www.attackflow.com) :copyright: - Application security testing tool with rules grouped into nine classes including Authorization, Injection, Cryptography, Authentication and Code Quality.
-* [Bithound](https://www.bithound.io/) :copyright: - Code Analysis beyond Lint, specifically for Node.js.
 * [Codacy](https://www.codacy.com/) :copyright: - Code Analysis to ship Better Code, Faster.
 * [Code Climate](https://codeclimate.com/) :copyright: - The open and extensible static analysis platform, for everyone.
 * [CodeFactor](https://codefactor.io) :copyright: - Automated Code Analysis for repos on GitHub or BitBucket.
-* [Functor Prevent](http://www.functor.se/products/prevent/) :copyright: - Static code analysis for C code.
 * [Gamma](https://mygamma.io) :copyright: - An intelligent software analytics platform that identifies issues from multiple lenses: Design issues, code issues, duplication and metrics. Available for Java, C, C++ and C#.
 * [kiuwan](https://www.kiuwan.com/) :copyright: - Software Analytics in the Cloud supporting more than 22 programming languages.
 * [Landscape](https://landscape.io/) :copyright: - Static code analysis for Python
 * [Layered Insight](https://layeredinsight.com/) :copyright: - Container native application protection to provide visibility and control of containerized applications.
+* [LGTM.com](https://lgtm.com/) :copyright: - Deep semantic code analysis using Semmle QL: a powerful query language. Integrated in developer workflow using automatic code review for pull requests, free for public repositories. Supports for C/C++, C#, Java, JavaScript, Python, TypeScript.
 * [Nitpick CI](https://nitpick-ci.com) :copyright: - Automated PHP code review
-* [Node Security Platform](https://nodesecurity.io/) :copyright: - Continuous Security monitoring for your node apps (free for Open Source Projects)
 * [QuantifiedCode](https://www.quantifiedcode.com/) - Automated code review & repair
 * [Scrutinizer](https://scrutinizer-ci.com/) :copyright: - A proprietery code quality checker that can be integrated with GitHub
-* [LGTM.com](https://semmle.com/) :copyright: - Deep semantic code analysis using a powerful query language, integrated in developer workflow using automatic code review for pull requests. Free for open source projects. Supports for C/C++, C#, Java, JavaScript, Python, TypeScript.
 * [SensioLabs Insight](https://insight.sensiolabs.com/) :copyright: - Detect security risks, find bugs and provide actionable metrics for PHP projects
 * [Sider](https://sider.review) :copyright: - An automated code reviewing tool. Improving developers' productivity.
 * [Snyk](https://snyk.io/) :copyright: - Vulnerability scanner for dependencies of node.js apps (free for Open Source Projects)
