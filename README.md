@@ -404,6 +404,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [pre-commit](https://github.com/pre-commit/pre-commit) - A framework for managing and maintaining multi-language pre-commit hooks.
 * [PVS-Studio](https://www.viva64.com/en/pvs-studio/) :copyright: - a ([conditionaly free](https://www.viva64.com/en/b/0457/) for FOSS) static analysis of C/C++ and C# code. For advertising purposes [you can propose a large FOSS project for analysis by PVS employees](https://github.com/viva64/pvs-studio-check-list).
 * [Security Code Scan](https://security-code-scan.github.io/) - Security code analyzer for C# and VB.NET. Detects various security vulnerability patterns: SQLi, XSS, CSRF, XXE, Open Redirect, etc.
+* [Semmle QL and LGTM](https://semmle.com/) :copyright: - Find security vulnerabilities, variants, and critical code quality issues using queries over source code. Automatic PR code review; free for public GitHub/Bitbucket repo: [LGTM.com](https://LGTM.com).
 * [shipshape](https://github.com/google/shipshape) - Static program analysis platform that allows custom analyzers to plug in through a common interface
 * [SonarQube](http://www.sonarqube.org/) - SonarQube is an open platform to manage code quality.
 * [STOKE](https://github.com/StanfordPL/stoke) - a programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations
@@ -530,19 +531,15 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [write-good](https://github.com/btford/write-good) - A linter with a focus on eliminating "weasel words".
 
 ## Web services
-
-* [Attackflow](https://www.attackflow.com) :copyright: - Application security testing tool with rules grouped into nine classes including Authorization, Injection, Cryptography, Authentication and Code Quality.
-* [Bithound](https://www.bithound.io/) :copyright: - Code Analysis beyond Lint, specifically for Node.js.
 * [Codacy](https://www.codacy.com/) :copyright: - Code Analysis to ship Better Code, Faster.
 * [Code Climate](https://codeclimate.com/) :copyright: - The open and extensible static analysis platform, for everyone.
 * [CodeFactor](https://codefactor.io) :copyright: - Automated Code Analysis for repos on GitHub or BitBucket.
-* [Functor Prevent](http://www.functor.se/products/prevent/) :copyright: - Static code analysis for C code.
 * [Gamma](https://mygamma.io) :copyright: - An intelligent software analytics platform that identifies issues from multiple lenses: Design issues, code issues, duplication and metrics. Available for Java, C, C++ and C#.
 * [kiuwan](https://www.kiuwan.com/) :copyright: - Software Analytics in the Cloud supporting more than 22 programming languages.
 * [Landscape](https://landscape.io/) :copyright: - Static code analysis for Python
 * [Layered Insight](https://layeredinsight.com/) :copyright: - Container native application protection to provide visibility and control of containerized applications.
+* [LGTM.com](https://lgtm.com/) :copyright: - Deep code analysis for GitHub and Bitbucket to find security vulnerabilities and critical code quality issues (using Semmle QL). Automatic code review for pull requests; free for public repositories.
 * [Nitpick CI](https://nitpick-ci.com) :copyright: - Automated PHP code review
-* [Node Security Platform](https://nodesecurity.io/) :copyright: - Continuous Security monitoring for your node apps (free for Open Source Projects)
 * [QuantifiedCode](https://www.quantifiedcode.com/) - Automated code review & repair
 * [Scrutinizer](https://scrutinizer-ci.com/) :copyright: - A proprietery code quality checker that can be integrated with GitHub
 * [SensioLabs Insight](https://insight.sensiolabs.com/) :copyright: - Detect security risks, find bugs and provide actionable metrics for PHP projects
