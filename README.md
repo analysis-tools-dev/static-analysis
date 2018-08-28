@@ -150,6 +150,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [structcheck](https://github.com/opennota/check) - Find unused struct fields.
 * [test](http://golang.org/pkg/testing/) - Show location of test failures from the stdlib testing module.
 * [testify](https://github.com/stretchr/testify) - Show location of failed testify assertions.
+* [revive](https://github.com/mgechev/revive) - Fast, configurable, extensible, flexible, and beautiful linter for Go. Drop-in replacement of golint.
 * [unconvert](https://github.com/mdempsky/unconvert) - Detect redundant type conversions.
 * [unimport](https://github.com/alexkohler/unimport) - Finds unnecessary import aliases
 * [unparam](https://github.com/mvdan/unparam) - Find unused function parameters.
