@@ -185,6 +185,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [OWASP Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check) - Checks dependencies for known, publicly disclosed, vulnerabilities.
 * [Spoon](https://github.com/INRIA/spoon) - Library to write your own static analyses and architectural rule checkers for Java. Can be integrated in Maven and Gradle.
 * [SpotBugs](https://spotbugs.github.io/) - SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code.
+* [Soot](https://sable.github.io/soot/) - A framework for analyzing and transforming Java and Android applications.
 
 ## JavaScript
 
