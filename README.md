@@ -35,6 +35,9 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 # Programming Languages
 
+## Abap
+* [abapOpenChecks](https://github.com/larshp/abapOpenChecks) - Enhances the SAP Code Inspector with new and customizable checks.
+
 ## Ada
 
 * [Codepeer](http://www.adacore.com/codepeer) - detects run-time and logic errors
