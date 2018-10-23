@@ -551,6 +551,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [Layered Insight](https://layeredinsight.com/) :copyright: - Container native application protection to provide visibility and control of containerized applications.
 * [LGTM.com](https://lgtm.com/) :copyright: - Deep code analysis for GitHub and Bitbucket to find security vulnerabilities and critical code quality issues (using Semmle QL). Automatic code review for pull requests; free for public repositories.
 * [Nitpick CI](https://nitpick-ci.com) :copyright: - Automated PHP code review
+* [PullRequest](https://www.pullrequest.com) :copyright: - Code review as a service with built-in static analysis
 * [QuantifiedCode](https://www.quantifiedcode.com/) - Automated code review & repair
 * [Scrutinizer](https://scrutinizer-ci.com/) :copyright: - A proprietary code quality checker that can be integrated with GitHub
 * [SensioLabs Insight](https://insight.sensiolabs.com/) :copyright: - Detect security risks, find bugs and provide actionable metrics for PHP projects
