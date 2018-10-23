@@ -444,7 +444,9 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [collector](https://github.com/banyanops/collector) - Run arbitrary scripts inside containers, and gather useful information
 * [dagda](https://github.com/eliasgranderubio/dagda) - Perform static analysis of known vulnerabilities in docker images/containers.
 * [Docker Label Inspector](https://github.com/garethr/docker-label-inspector) - Lint and validate Dockerfile labels
-* [Haskell Dockerfile Linter](https://github.com/lukasmartinelli/hadolint) - A smarter Dockerfile linter that helps you build best practice Docker images
+* [Haskell Dockerfile Linter](https://github.com/lukasmartinelli/hadolint) - A smarter Dockerfile linter that helpsyou build best practice Docker images
+* [kube-score](https://github.com/zegl/kube-score) - Static code analysis of your Kubernetes object definitions.
+
 
 ## Config Files
 
