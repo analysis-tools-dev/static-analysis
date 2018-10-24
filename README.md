@@ -353,6 +353,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 ## Solidity
 
+* [slither](https://github.com/trailofbits/slither) - Static analysis framework that runs a suite of vulnerability detectors, prints visual information about contract details, and provides an API to easily write custom analyses
 * [solium](https://github.com/duaraghav8/Solium) - Solium is a linter to identify and fix style and security issues in Solidity smart contracts
 
 ## SQL
