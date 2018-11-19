@@ -190,6 +190,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [Soot](https://sable.github.io/soot/) - A framework for analyzing and transforming Java and Android applications.
 * [Spoon](https://github.com/INRIA/spoon) - Library to write your own static analyses and architectural rule checkers for Java. Can be integrated in Maven and Gradle.
 * [SpotBugs](https://spotbugs.github.io/) - SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code.
+* [Reshift](https://reshift.softwaresecured.com/) :copyright: - A source code analysis tool for detecting and managing Java security vulnerabilities.
 
 ## JavaScript
 
