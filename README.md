@@ -187,7 +187,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [JBMC](http://www.cprover.org/jbmc/) - bounded model-checker for Java (bytecode), verifies user-defined assertions, standard assertions, several coverage metric analyses
 * [NullAway](https://github.com/uber/NullAway) - Type-based null-pointer checker with low build-time overhead; an [Error Prone](http://errorprone.info/) plugin
 * [OWASP Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check) - Checks dependencies for known, publicly disclosed, vulnerabilities.
-* [Reshift](https://softwaresecured.com/reshift/) :copyright: - A source code analysis tool for detecting and managing Java security vulnerabilities.
 * [Soot](https://sable.github.io/soot/) - A framework for analyzing and transforming Java and Android applications.
 * [Spoon](https://github.com/INRIA/spoon) - Library to write your own static analyses and architectural rule checkers for Java. Can be integrated in Maven and Gradle.
 * [SpotBugs](https://spotbugs.github.io/) - SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code.
@@ -562,6 +561,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [Nitpick CI](https://nitpick-ci.com) :copyright: - Automated PHP code review
 * [PullRequest](https://www.pullrequest.com) :copyright: - Code review as a service with built-in static analysis
 * [QuantifiedCode](https://www.quantifiedcode.com/) - Automated code review & repair
+* [Reshift](https://softwaresecured.com/reshift/) :copyright: - A source code analysis tool for detecting and managing Java security vulnerabilities.
 * [Scrutinizer](https://scrutinizer-ci.com/) :copyright: - A proprietary code quality checker that can be integrated with GitHub
 * [SensioLabs Insight](https://insight.sensiolabs.com/) :copyright: - Detect security risks, find bugs and provide actionable metrics for PHP projects
 * [Sider](https://sider.review) :copyright: - An automated code reviewing tool. Improving developers' productivity.
