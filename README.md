@@ -561,6 +561,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [Nitpick CI](https://nitpick-ci.com) :copyright: - Automated PHP code review
 * [PullRequest](https://www.pullrequest.com) :copyright: - Code review as a service with built-in static analysis
 * [QuantifiedCode](https://www.quantifiedcode.com/) - Automated code review & repair
+* [Reshift](https://softwaresecured.com/reshift/) :copyright: - A source code analysis tool for detecting and managing Java security vulnerabilities.
 * [Scrutinizer](https://scrutinizer-ci.com/) :copyright: - A proprietary code quality checker that can be integrated with GitHub
 * [SensioLabs Insight](https://insight.sensiolabs.com/) :copyright: - Detect security risks, find bugs and provide actionable metrics for PHP projects
 * [Sider](https://sider.review) :copyright: - An automated code reviewing tool. Improving developers' productivity.
