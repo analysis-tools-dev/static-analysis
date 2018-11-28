@@ -299,6 +299,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [radon](https://github.com/rubik/radon) - a Python tool that computes various metrics from the source code
 * [vulture](https://github.com/jendrikseipp/vulture) - find unused classes, functions and variables in Python code
 * [xenon](https://github.com/rubik/xenon) - monitor code complexity using [`radon`](https://github.com/rubik/radon)
+* [prospector](https://pypi.org/project/prospector/)-analyse Python code and output information about errors, potential problems, convention violations and complexity.
 
 ## Python wrappers
 
