@@ -136,6 +136,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [gocyclo](https://github.com/fzipp/gocyclo) - Calculate cyclomatic complexities of functions in Go source code.
 * [gofmt -s](https://golang.org/cmd/gofmt/) - Checks if the code is properly formatted and could not be further simplified.
 * [goimports](https://godoc.org/golang.org/x/tools/cmd/goimports) - Checks missing or unreferenced package imports.
+* [GolangCI-Lint](https://github.com/golangci/golangci-lint) - Alternative to `Go Meta Linter`: GolangCI-Lint is a linters aggregator.
 * [golint](https://github.com/golang/lint) - Prints out coding style mistakes in Go source code.
 * [goreporter](https://github.com/wgliang/goreporter) - concurrently runs many linters and normalises their output to a report.
 * [goroutine-inspect](https://github.com/linuxerwang/goroutine-inspect) - An interactive tool to analyze Golang goroutine dump.
