@@ -531,6 +531,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 ## Supporting Tools
 
 * [LibVCS4j](https://github.com/uni-bremen-agst/libvcs4j) - A Java library that allows existing tools to analyse the evolution of software systems by providing a common API for different version control systems and issue trackers.
+* [Violations Lib](https://github.com/tomasbjerre/violations-lib) - Java library for parsing report files from static code analysis. Used by a bunch of Jenkins, Maven and Gradle plugins.
 
 ## Template-Languages
 
