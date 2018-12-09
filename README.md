@@ -8,9 +8,50 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 # Table of Contents
 
-- [Programming Languages](#programming-languages)
-- [Multiple languages](#multiple-languages)
-- [Other](#other)
+#### [Programming Languages](#programming-languages)
+
+<details>
+ <summary>Show languages</summary>
+ 
+- [Abap](#abap)
+- [Ada](#ada)
+- [Awk](#awk)
+- [C/C++](#cc)
+- [C#](#c)
+- [Crystal](#crystal)
+- [Dlang](#dlang)
+- [Elixir](#elixir)
+- [Erlang](#erlang)
+- [F#](#f)
+- [Fortran](#fortran)
+- [Go](#go)
+- [Groovy](#groovy)
+- [Haskell](#haskell)
+- [Haxe](#haxe)
+- [Java](#java)
+- [JavaScript](#javascript)
+- [Kotlin](#kotlin)
+- [Lua](#lua)
+- [Matlab](#matlab)
+- [Perl](#perl)
+- [PHP](#php)
+- [Python](#python)
+- [R](#r)
+- [RPG](#rpg)
+- [Ruby](#ruby)
+- [Rust](#rust)
+- [Scala](#scala)
+- [Shell](#shell)
+- [Solidity](#solidity)
+- [SQL](#sql)
+- [Swift](#swift)
+- [TypeScript](#typescript)
+- [VBScript](#vbscript)
+
+</details>
+
+#### [Multiple languages](#multiple-languages)
+#### [Other](#other)
   - [Build tools](#build-tools)
   - [Binaries](#binaries)
   - [Containers](#containers)
@@ -30,8 +71,9 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
   - [Translation](#translation)
   - [Web services](#web-services)
   - [Writing](#writing)
-- [More Collections](#more-collections)
+#### [More Collections](#more-collections)
 
+---
 
 # Programming Languages
 
