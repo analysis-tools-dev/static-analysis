@@ -8,7 +8,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 # Table of Contents
 
-#### [Programming Languages](#programming-languages)
+#### [Programming Languages](#programming-languages-1)
 
 <details>
  <summary>Show languages</summary>
@@ -50,8 +50,10 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 </details>
 
-#### [Multiple languages](#multiple-languages)
-#### [Other](#other)
+#### [Multiple languages](#multiple-languages-1)
+
+#### [Other](#other-1)
+
   - [Build tools](#build-tools)
   - [Binaries](#binaries)
   - [Containers](#containers)
@@ -71,7 +73,8 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
   - [Translation](#translation)
   - [Web services](#web-services)
   - [Writing](#writing)
-#### [More Collections](#more-collections)
+  
+#### [More Collections](#more-collections-1)
 
 ---
 
