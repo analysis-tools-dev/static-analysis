@@ -259,7 +259,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [retire.js](https://github.com/RetireJS/retire.js) - Scanner detecting the use of JavaScript libraries with known vulnerabilities
 * [standard](http://standardjs.com/) - An npm module that checks for Javascript Styleguide issues
 * [tern](https://github.com/ternjs/tern) - A JavaScript code analyzer for deep, cross-editor language support
-* [XO](https://github.com/sindresorhus/xo) - Enforce strict code style. Never discuss code style on a pull request again!
+* [xo](https://github.com/xojs/xo) - Opinionated but configurable ESLint wrapper with lots of goodies included. Enforces strict and readable code.
 * [yardstick](https://github.com/calmh/yardstick) - Javascript code metrics
 
 ## Kotlin
