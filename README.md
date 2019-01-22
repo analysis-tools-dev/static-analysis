@@ -508,6 +508,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 ## Config Files
 
+* [dotenv-linter](https://github.com/wemake-services/dotenv-linter) - Linting dotenv files like a charm.
 * [gixy](https://github.com/yandex/gixy) - a tool to analyze Nginx configuration. The main goal is to prevent misconfiguration and automate flaw detection.
 
 ## Configuration Management
