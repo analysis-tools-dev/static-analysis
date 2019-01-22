@@ -330,6 +330,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 ## Python
 
 * [bandit](https://github.com/PyCQA/bandit) - a tool to find common security issues in Python code
+* [bellybutton](https://github.com/hchasestevens/bellybutton) - a linting engine supporting custom project-specific rules
 * [Black](https://github.com/ambv/black) - The uncompromising Python code formatter
 * [cohesion](https://github.com/mschwager/cohesion) - a tool for measuring Python class cohesion
 * [jedi](https://github.com/davidhalter/jedi) - autocompletion/static analysis library for Python
