@@ -3,7 +3,11 @@
 > Static program analysis is the analysis of computer software that is performed without actually executing programs — [Wikipedia](https://en.wikipedia.org/wiki/Static_program_analysis)
 
 This is a collection of static analysis tools and code quality checkers. Pull requests are very welcome!  
-**Note: :copyright: stands for proprietary software. All other tools are Open Source.**  
+
+* :copyright: stands for proprietary software. All other tools are Open Source.
+* :warning: indicates that the community does not recommend to use this tool for
+  new projects anymore as it is outdated or no longer maintained.
+
 Also check out the sister project, [awesome-dynamic-analysis](https://github.com/mre/awesome-dynamic-analysis).  
 
 # Table of Contents
@@ -251,8 +255,8 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [eslint](https://github.com/eslint/eslint) - A fully pluggable tool for identifying and reporting on patterns in JavaScript
 * [Esprima](https://github.com/jquery/esprima) - ECMAScript parsing infrastructure for multipurpose analysis
 * [flow](https://flow.org/) - A static type checker for JavaScript.
-* [jshint](https://github.com/jshint/jshint) - detect errors and potential problems in JavaScript code and enforce your team's coding conventions
-* [JSLint](https://github.com/douglascrockford/JSLint) :copyright: - The JavaScript Code Quality Tool
+* [jshint](https://github.com/jshint/jshint) :warning: - detect errors and potential problems in JavaScript code and enforce your team's coding conventions
+* [JSLint](https://github.com/douglascrockford/JSLint) :warning: - The JavaScript Code Quality Tool
 * [JSPrime](https://github.com/dpnishant/jsprime) - static security analysis tool
 * [NodeJSScan](https://github.com/ajinabraham/NodeJsScan) - NodeJsScan is a static security code scanner for Node.js applications.
 * [plato](https://github.com/es-analysis/plato) - Visualize JavaScript source complexity
