@@ -1,25 +1,17 @@
 // `error_chain!` can recurse deeply
 #![recursion_limit = "1024"]
 
-#[macro_use]
-extern crate failure;
-
-#[macro_use]
-extern crate lazy_static;
-
-extern crate regex;
-
-use failure::{Error, err_msg};
+use lazy_static::lazy_static; 
+use failure::{Error, err_msg, bail};
 use regex::Regex;
-use std::fmt;
 use std::cmp::Ordering;
 
 lazy_static! {
-    static ref TOOL_REGEX: Regex = Regex::new(r"\*\s\[(?P<name>.*)\]\((?P<link>http[s]?://.*)\)\s(:copyright:\s)?\-\s(?P<desc>.*)").unwrap();
+    static ref TOOL_REGEX: Regex = Regex::new(r"\*\s\[(?P<name>.*)\]\((?P<link>http[s]?://.*)\)\s(:warning:\s)?(:copyright:\s)?\-\s(?P<desc>.*)").unwrap();
     static ref SUBSECTION_HEADLINE_REGEX: Regex = Regex::new(r"[A-Za-z\s]*").unwrap();
 }
 
-struct Tool {
+pub struct Tool {
     name: String,
     link: String,
     desc: String,
@@ -55,7 +47,7 @@ impl Ord for Tool {
     }
 }
 
-fn check_tool(tool: &str) -> Result<Tool, Error> {
+pub fn check_tool(tool: &str) -> Result<Tool, Error> {
     println!("Checking `{}`", tool);
     // NoneError can not implement Fail at this time. That's why we use ok_or
     // See https://github.com/rust-lang-nursery/failure/issues/61
@@ -79,7 +71,7 @@ fn check_tool(tool: &str) -> Result<Tool, Error> {
     Ok(Tool::new(name, link, desc))
 }
 
-fn check_section(section: String) -> Result<(), Error> {
+pub fn check_section(section: String) -> Result<(), Error> {
     // Ignore license section
     if section.starts_with("License") {
         return Ok(());
@@ -108,14 +100,14 @@ fn check_section(section: String) -> Result<(), Error> {
     check_ordering(tools)
 }
 
-fn check_ordering(tools: Vec<Tool>) -> Result<(), Error> {
+pub fn check_ordering(tools: Vec<Tool>) -> Result<(), Error> {
     match tools.windows(2).find(|t| t[0] > t[1]) {
         Some(tools) => bail!("`{}` does not conform to alphabetical ordering", tools[0].name),
         None => Ok(()),
     }
 }
 
-fn check(text: String) -> Result<(), Error> {
+pub fn check(text: String) -> Result<(), Error> {
     let sections = text.split("\n# ");
 
     // Skip first two sections,
@@ -129,6 +121,7 @@ fn check(text: String) -> Result<(), Error> {
     Ok(())
 }
 
+#[cfg(test)]
 mod tests {
     use super::*;
     use std::fs::File;
