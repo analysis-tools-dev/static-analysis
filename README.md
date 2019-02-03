@@ -219,6 +219,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 ## Haskell
 
 * [HLint](https://github.com/ndmitchell/hlint) - HLint is a tool for suggesting possible improvements to Haskell code.
+* [Weeder](https://github.com/ndmitchell/weeder) - A tool for detecting dead exports or package imports in Haskell code.
 
 ## Haxe
 
