@@ -16,42 +16,43 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <details>
  <summary>Show languages</summary>
- 
-- [Abap](#abap)
-- [Ada](#ada)
-- [Awk](#awk)
-- [C/C++](#cc)
-- [C#](#c)
-- [Crystal](#crystal)
-- [Dlang](#dlang)
-- [Elixir](#elixir)
-- [Erlang](#erlang)
-- [F#](#f)
-- [Fortran](#fortran)
-- [Go](#go)
-- [Groovy](#groovy)
-- [Haskell](#haskell)
-- [Haxe](#haxe)
-- [Java](#java)
-- [JavaScript](#javascript)
-- [Kotlin](#kotlin)
-- [Lua](#lua)
-- [Matlab](#matlab)
-- [Perl](#perl)
-- [PHP](#php)
-- [Python](#python)
-- [R](#r)
-- [RPG](#rpg)
-- [Ruby](#ruby)
-- [Rust](#rust)
-- [Scala](#scala)
-- [Shell](#shell)
-- [Solidity](#solidity)
-- [SQL](#sql)
-- [Swift](#swift)
-- [TypeScript](#typescript)
-- [VBScript](#vbscript)
-
+  <!-- Please use HTML syntax here so that it works for Github and mkdocs -->
+  <ul>
+    <li><a href="#abap">Abap</a></li>
+    <li><a href="#ada">Ada</a></li>
+    <li><a href="#awk">Awk</a></li>
+    <li><a href="#cc">C/C++</a></li>
+    <li><a href="#c">C#</a></li>
+    <li><a href="#crystal">Crystal</a></li>
+    <li><a href="#dlang">Dlang</a></li>
+    <li><a href="#elixir">Elixir</a></li>
+    <li><a href="#erlang">Erlang</a></li>
+    <li><a href="#f">F#</a></li>
+    <li><a href="#fortran">Fortran</a></li>
+    <li><a href="#go">Go</a></li>
+    <li><a href="#groovy">Groovy</a></li>
+    <li><a href="#haskell">Haskell</a></li>
+    <li><a href="#haxe">Haxe</a></li>
+    <li><a href="#java">Java</a></li>
+    <li><a href="#javascript">JavaScript</a></li>
+    <li><a href="#kotlin">Kotlin</a></li>
+    <li><a href="#lua">Lua</a></li>
+    <li><a href="#matlab">Matlab</a></li>
+    <li><a href="#perl">Perl</a></li>
+    <li><a href="#php">PHP</a></li>
+    <li><a href="#python">Python</a></li>
+    <li><a href="#r">R</a></li>
+    <li><a href="#rpg">RPG</a></li>
+    <li><a href="#ruby">Ruby</a></li>
+    <li><a href="#rust">Rust</a></li>
+    <li><a href="#scala">Scala</a></li>
+    <li><a href="#shell">Shell</a></li>
+    <li><a href="#solidity">Solidity</a></li>
+    <li><a href="#sql">SQL</a></li>
+    <li><a href="#swift">Swift</a></li>
+    <li><a href="#typescript">TypeScript</a></li>
+    <li><a href="#vbscript">VBScript</a></li>
+  </ul>
 </details>
 
 #### [Multiple languages](#multiple-languages-1)
