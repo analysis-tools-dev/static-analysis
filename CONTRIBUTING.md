@@ -48,7 +48,7 @@ This way, all tools get treated fairly and the list is easier to read.
 Sometimes it happens that you come across a tool, which might not be a good fit for the list anymore. For example, it has not received any updates in a very long time.
 In such a case, please remember that the tool can still be very valuable to the community - it might just not be a good fit for your specific use-case.  
 
-If you still find that a tool should be avoided, please create a pull request which adds an `:info:` sign and provide an objective explanation as to why you think the tool should be marked. If possible, please also mention the project maintainers there, so we can find a solution together.
+If you still find that a tool should be avoided, please create a pull request which adds an `:information_source:` sign and provide an objective explanation as to why you think the tool should be marked. If possible, please also mention the project maintainers there, so we can find a solution together.
 
 Please keep in mind that behind every project there are human beings which put a lot of effort into building and maintaining a project, so be nice and constructive.
 

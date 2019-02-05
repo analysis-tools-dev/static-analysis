@@ -5,7 +5,7 @@
 This is a collection of static analysis tools and code quality checkers. Pull requests are very welcome!  
 
 * :copyright: stands for proprietary software. All other tools are Open Source.
-* :info: indicates that there was a discussion about the current state of the
+* :information_source: indicates that there was a discussion about the current state of the
   tool. You can get further information from the link in the description.
 
 Also check out the sister project, [awesome-dynamic-analysis](https://github.com/mre/awesome-dynamic-analysis).  
@@ -255,8 +255,8 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [eslint](https://github.com/eslint/eslint) - A fully pluggable tool for identifying and reporting on patterns in JavaScript
 * [Esprima](https://github.com/jquery/esprima) - ECMAScript parsing infrastructure for multipurpose analysis
 * [flow](https://flow.org/) - A static type checker for JavaScript.
-* [jshint](https://github.com/jshint/jshint) :info: - detect errors and potential problems in JavaScript code and enforce your team's coding conventions ([Discussion](https://github.com/mre/awesome-static-analysis/issues/223))
-* [JSLint](https://github.com/douglascrockford/JSLint) :info: - The JavaScript Code Quality Tool ([Discussion](https://github.com/mre/awesome-static-analysis/issues/223))
+* [jshint](https://github.com/jshint/jshint) :information_source: - detect errors and potential problems in JavaScript code and enforce your team's coding conventions ([Discussion](https://github.com/mre/awesome-static-analysis/issues/223))
+* [JSLint](https://github.com/douglascrockford/JSLint) :information_source: - The JavaScript Code Quality Tool ([Discussion](https://github.com/mre/awesome-static-analysis/issues/223))
 * [JSPrime](https://github.com/dpnishant/jsprime) - static security analysis tool
 * [NodeJSScan](https://github.com/ajinabraham/NodeJsScan) - NodeJsScan is a static security code scanner for Node.js applications.
 * [plato](https://github.com/es-analysis/plato) - Visualize JavaScript source complexity
