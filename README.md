@@ -5,8 +5,8 @@
 This is a collection of static analysis tools and code quality checkers. Pull requests are very welcome!  
 
 * :copyright: stands for proprietary software. All other tools are Open Source.
-* :warning: indicates that the community does not recommend to use this tool for
-  new projects anymore as it is outdated or no longer maintained.
+* :info: indicates that there was a discussion about the current state of the
+  tool. You can get further information from the link in the description.
 
 Also check out the sister project, [awesome-dynamic-analysis](https://github.com/mre/awesome-dynamic-analysis).  
 
@@ -219,7 +219,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 ## Haskell
 
 * [HLint](https://github.com/ndmitchell/hlint) - HLint is a tool for suggesting possible improvements to Haskell code.
-* [Weeder](https://github.com/ndmitchell/weeder) - A tool for detecting dead exports or package imports in Haskell code.
 
 ## Haxe
 
@@ -256,8 +255,8 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [eslint](https://github.com/eslint/eslint) - A fully pluggable tool for identifying and reporting on patterns in JavaScript
 * [Esprima](https://github.com/jquery/esprima) - ECMAScript parsing infrastructure for multipurpose analysis
 * [flow](https://flow.org/) - A static type checker for JavaScript.
-* [jshint](https://github.com/jshint/jshint) :warning: - detect errors and potential problems in JavaScript code and enforce your team's coding conventions
-* [JSLint](https://github.com/douglascrockford/JSLint) :warning: - The JavaScript Code Quality Tool
+* [jshint](https://github.com/jshint/jshint) :info: - detect errors and potential problems in JavaScript code and enforce your team's coding conventions ([Discussion](https://github.com/mre/awesome-static-analysis/issues/223))
+* [JSLint](https://github.com/douglascrockford/JSLint) :info: - The JavaScript Code Quality Tool ([Discussion](https://github.com/mre/awesome-static-analysis/issues/223))
 * [JSPrime](https://github.com/dpnishant/jsprime) - static security analysis tool
 * [NodeJSScan](https://github.com/ajinabraham/NodeJsScan) - NodeJsScan is a static security code scanner for Node.js applications.
 * [plato](https://github.com/es-analysis/plato) - Visualize JavaScript source complexity
@@ -626,7 +625,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [SensioLabs Insight](https://insight.sensiolabs.com/) :copyright: - Detect security risks, find bugs and provide actionable metrics for PHP projects
 * [Sider](https://sider.review) :copyright: - An automated code reviewing tool. Improving developers' productivity.
 * [Snyk](https://snyk.io/) :copyright: - Vulnerability scanner for dependencies of node.js apps (free for Open Source Projects)
-* [SonarCloud](https://sonarcloud.io) :copyright: - Multilanguage cloud-based static code analysis. History, trends, security hot-spots, pull request analysis and more. Free for open source.
 * [Teamscale](http://www.teamscale.com/) :copyright: - Static and dynamic analysis tool supporting more than 25 languages and direct IDE integration. Free hosting for Open Source projects available on request. Free academic licenses available.
 * [Upsource](https://www.jetbrains.com/upsource/) :copyright: - Code review tool with static code analysis and code-aware navigation for Java, PHP, JavaScript and Kotlin.
 

@@ -43,23 +43,13 @@ If you can, please limit yourself to only one category.
 This way, all tools get treated fairly and the list is easier to read.
 
 
-# How to mark a tool as unmaintained/deprecated
+# Deprecating tools
 
-Sometimes it happens that a tool becomes unmaintained and there's nothing wrong
-with that.  
-After all, a tool can still be very valuable to the community - even without
-frequent updates.  
-However, since it is one of the goals of this project to allow people to make an
-informed decision on what is the best tool for the job, we are marking
-unmaintained or deprecated tools with a :warning: (`:warning:`) sign.
-This sign indicates that the community does not recommend to use this tool for
-new projects anymore.
+Sometimes it happens that you come across a tool, which might not be a good fit for the list anymore. For example, it has not received any updates in a very long time.
+In such a case, please remember that the tool can still be very valuable to the community - it might just not be a good fit for your specific use-case.  
 
-[Here](https://github.com/mre/awesome-static-analysis/issues/223) is a nice
-discussion about why we think this is necessary. If you find a tool, which is
-unmaintained, please create a pull request which adds the `:warning:` sign and
-provide an objective explanation as to why you think the tool should be marked.
-Every deprecation will be handled on a case-by-case basis.
+If you still find that a tool should be avoided, please create a pull request which adds an `:info:` sign and provide an objective explanation as to why you think the tool should be marked. If possible, please also mention the project maintainers there, so we can find a solution together.
 
+Please keep in mind that behind every project there are human beings which put a lot of effort into building and maintaining a project, so be nice and constructive.
 
 **Thanks for helping out!** :tada:

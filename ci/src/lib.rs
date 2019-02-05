@@ -7,7 +7,7 @@ use regex::Regex;
 use std::cmp::Ordering;
 
 lazy_static! {
-    static ref TOOL_REGEX: Regex = Regex::new(r"\*\s\[(?P<name>.*)\]\((?P<link>http[s]?://.*)\)\s(:warning:\s)?(:copyright:\s)?\-\s(?P<desc>.*)").unwrap();
+    static ref TOOL_REGEX: Regex = Regex::new(r"\*\s\[(?P<name>.*)\]\((?P<link>http[s]?://.*)\)\s(:info:\s)?(:copyright:\s)?\-\s(?P<desc>.*)").unwrap();
     static ref SUBSECTION_HEADLINE_REGEX: Regex = Regex::new(r"[A-Za-z\s]*").unwrap();
 }
 
