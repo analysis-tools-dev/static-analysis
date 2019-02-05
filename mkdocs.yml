@@ -1,5 +1,5 @@
 site_name: 'Awesome Static Analysis'
-site_url: 'https://awesome-static-analysis.com'
+site_url: 'https://matthias-endler.de/awesome-static-analysis/'
 site_description: 'A curated list of linters, code quality checkers, and other static analysis tools  for various programming languages'
 site_author: 'Matthias Endler'
 repo_name: 'mre/awesome-static-analysis/'
