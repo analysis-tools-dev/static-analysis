@@ -104,6 +104,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [CBMC](http://www.cprover.org/cbmc/) - bounded model-checker for C programs, user-defined assertions, standard assertions, several coverage metric analyses
 * [clang-tidy](http://clang.llvm.org/extra/clang-tidy/) - clang static analyser
 * [CMetrics](https://github.com/MetricsGrimoire/CMetrics) - Measures size and complexity for C files
+* [Codecheker](https://github.com/Ericsson/codechecker) - static analysis of C/C++ code, with web GUI
 * [CodeSonar from GrammaTech](https://www.grammatech.com/products/codesonar) :copyright: - Advanced, whole program, deep path, static analysis of C and C++ with easy-to-understand explanations and code and path visualization.
 * [Corrode](https://github.com/jameysharp/corrode) - Semi-automatic translation from C to Rust. Could reveal bugs in the original implementation by showing Rust compiler warnings and errors.
 * [cppcheck](https://github.com/danmar/cppcheck) - static analysis of C/C++ code
