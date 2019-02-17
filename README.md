@@ -366,7 +366,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 ## R
 
-* [lintr](https://github.com/jimhester/lintr) :copyright: - Static Code Analysis for R
+* [lintr](https://github.com/jimhester/lintr) - Static Code Analysis for R
 
 ## RPG
 
