@@ -367,7 +367,10 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 ## R
 
-* [lintr](https://github.com/jimhester/lintr) - Static Code Analysis for R
+* [cyclocomp](https://github.com/MangoTheCat/cyclocomp) - Quantifies the cyclomatic complexity of R functions / expressions.
+* [goodpractice](http://mangothecat.github.io/goodpractice/) - Analyses the source code for R packages and provides best-practice recommendations.
+* [lintr](https://github.com/jimhester/lintr) - Static Code Analysis for R.
+* [styler](https://styler.r-lib.org/) - Formatting of R source code files and pretty-printing of R code.
 
 ## RPG
 
