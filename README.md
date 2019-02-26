@@ -578,7 +578,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 ## Markdown
 
 * [mdl](https://github.com/mivok/markdownlint) - A tool to check Markdown files and flag style issues.
-- [markdownlint](https://github.com/DavidAnson/markdownlint) - Node.js -based style checker and lint tool for Markdown/CommonMark files.
+* [markdownlint](https://github.com/DavidAnson/markdownlint) - Node.js -based style checker and lint tool for Markdown/CommonMark files.
 
 ## Mobile
 
