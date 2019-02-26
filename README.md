@@ -238,6 +238,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [Error-prone](https://github.com/google/error-prone) - Catch common Java mistakes as compile-time errors
 * [fb-contrib](https://github.com/mebigfatguy/fb-contrib) - A plugin for FindBugs with additional bug detectors
 * [Find Security Bugs](https://find-sec-bugs.github.io/) - IDE/SonarQube plugin for security audits of Java web applications.
+* [google-java-format](https://github.com/google/google-java-format) - Google Style Reformat
 * [Hopper](https://github.com/cuplv/hopper) - A static analysis tool written in scala for languages that run on JVM
 * [HuntBugs](https://github.com/amaembo/huntbugs) - Bytecode static analyzer tool based on Procyon Compiler Tools aimed to supersede FindBugs.
 * [JArchitect](https://www.jarchitect.com) :copyright: - Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.
