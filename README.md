@@ -575,11 +575,12 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 ## Makefiles
 
-* [portlint](https://www.freebsd.org/cgi/man.cgi?query=portlint&sektion=1&manpath=FreeBSD+8.1-RELEASE+and+Ports) - A verifier for FreeBSD and DragonFlyBSD port directories
+* [portlint](https://www.freebsd.org/cgi/man.cgi?query=portlint&sektion=1&manpath=FreeBSD+8.1-RELEASE+and+Ports) - A verifier for FreeBSD and DragonFlyBSD port directories.
 
 ## Markdown
 
-* [mdl](https://github.com/mivok/markdownlint) - A tool to check markdown files and flag style issues.
+* [markdownlint](https://github.com/DavidAnson/markdownlint) - Node.js -based style checker and lint tool for Markdown/CommonMark files.
+* [mdl](https://github.com/mivok/markdownlint) - A tool to check Markdown files and flag style issues.
 
 ## Mobile
 
