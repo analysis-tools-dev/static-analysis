@@ -612,6 +612,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 ## Writing
 
+* [codespell](https://github.com/codespell-project/codespell) - check code for common misspellings
 * [languagetool](https://github.com/languagetool-org/languagetool) - Style and grammar checker for 25+ languages. It finds many errors that a simple spell checker cannot detect.
 * [misspell-fixer](https://github.com/vlajos/misspell-fixer) - Quick tool for fixing common misspellings, typos in source code
 * [proselint](https://github.com/amperser/proselint/) - a linter for English prose with a focus on writing style instead of grammar.
