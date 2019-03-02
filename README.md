@@ -540,6 +540,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [CSS Stats](https://github.com/cssstats/cssstats) - Potentially interesting stats on stylesheets
 * [CSScomb](https://github.com/csscomb/csscomb.js) - a coding style formatter for CSS. Supports own configurations to make style sheets beautiful and consistent
 * [CSSLint](https://github.com/CSSLint/csslint) - Does basic syntax checking and finds problematic patterns or signs of inefficiency
+* [GraphMyCSS.com](https://graphmycss.com) - CSS Specificity Graph Generator
 * [Parker](https://github.com/katiefenn/parker) - Stylesheet analysis tool
 * [Project Wallace CSS Analyzer](https://github.com/projectwallace/css-analyzer) - Analytics for CSS, part of [Project Wallace](https://www.projectwallace.com)
 * [sass-lint](https://github.com/sasstools/sass-lint) - A Node-only Sass linter for both sass and scss syntax.
