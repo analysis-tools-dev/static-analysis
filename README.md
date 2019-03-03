@@ -507,7 +507,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [Manalyze](https://github.com/JusticeRage/Manalyze) - A static analyzer, which checks portable executables for malicious content.
 * [Twiggy](https://github.com/rustwasm/twiggy) - Analyzes a binary's call graph to profile code size. The goal is to slim down binaries.
 
-
 ## Containers
 
 * [anchore](https://anchore.io/) - Discover, analyze, and certify container images
@@ -517,7 +516,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [Docker Label Inspector](https://github.com/garethr/docker-label-inspector) - Lint and validate Dockerfile labels
 * [Haskell Dockerfile Linter](https://github.com/lukasmartinelli/hadolint) - A smarter Dockerfile linter that helpsyou build best practice Docker images
 * [kube-score](https://github.com/zegl/kube-score) - Static code analysis of your Kubernetes object definitions.
-
 
 ## Config Files
 
@@ -534,7 +532,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [Puppet Lint](https://github.com/rodjek/puppet-lint) - Check that your Puppet manifests conform to the style guide.
 * [tflint](https://github.com/wata727/tflint) - A Terraform linter for detecting errors that can not be detected by `terraform plan`.
 
-
 ## CSS
 
 * [CSS Stats](https://github.com/cssstats/cssstats) - Potentially interesting stats on stylesheets
@@ -547,6 +544,8 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [scsslint](https://github.com/brigade/scss-lint) - Linter for SCSS files
 * [Specificity Graph](https://github.com/pocketjoso/specificity-graph) - CSS Specificity Graph Generator
 * [Stylelint](http://stylelint.io/) - Linter for SCSS/CSS files
+* [NCSS Linter](https://github.com/redaxmedia/ncss-linter) - Linter for NCSS
++ [CSS Colorguard](https://github.com/SlexAxton/css-colorguard) - Keep a watchful eye on your css colors
 
 ## Gherkin
 
@@ -622,6 +621,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [write-good](https://github.com/btford/write-good) - A linter with a focus on eliminating "weasel words".
 
 ## Web services
+
 * [Codacy](https://www.codacy.com/) :copyright: - Code Analysis to ship Better Code, Faster.
 * [Code Climate](https://codeclimate.com/) :copyright: - The open and extensible static analysis platform, for everyone.
 * [CodeFactor](https://codefactor.io) :copyright: - Automated Code Analysis for repos on GitHub or BitBucket.
