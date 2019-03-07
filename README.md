@@ -616,8 +616,8 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [After the Deadline](https://afterthedeadline.com/) :warning: - spell, style and grammar checker
 * [codespell](https://github.com/codespell-project/codespell) - check code for common misspellings
 * [languagetool](https://github.com/languagetool-org/languagetool) - Style and grammar checker for 25+ languages. It finds many errors that a simple spell checker cannot detect.
-* [Misspelled Words In Context](https://github.com/jwilk/mwic) - a spell-checker that groups possible misspellings and shows them in their contexts
 * [misspell-fixer](https://github.com/vlajos/misspell-fixer) - Quick tool for fixing common misspellings, typos in source code
+* [Misspelled Words In Context](https://github.com/jwilk/mwic) - a spell-checker that groups possible misspellings and shows them in their contexts
 * [proselint](https://github.com/amperser/proselint/) - a linter for English prose with a focus on writing style instead of grammar.
 * [vale](https://github.com/ValeLint/vale) - A customizable, syntax-aware linter for prose.
 * [write-good](https://github.com/btford/write-good) - A linter with a focus on eliminating "weasel words".
