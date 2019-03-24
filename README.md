@@ -355,6 +355,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [pyflakes](https://github.com/pyflakes/pyflakes/) - check Python source files for errors
 * [pylint](https://github.com/PyCQA/pylint) - looks for programming errors, helps enforcing a coding standard and sniffs for some code smells. It additionally includes `pyreverse` (an UML diagram generator) and `symilar` (a similarities checker).
 * [pyre-check](https://github.com/facebook/pyre-check) - A fast, scalable type checker for large Python codebases
+* [pyright](https://github.com/Microsoft/pyright) - Static type checker for Python, created to address gaps in existing tools like mypy.
 * [pyroma](https://github.com/regebro/pyroma) - rate how well a Python project complies with the best practices of the Python packaging ecosystem, and list issues that could be improved
 * [PyT - Python Taint](https://github.com/python-security/pyt) - A static analysis tool for detecting security vulnerabilities in Python web applications.
 * [radon](https://github.com/rubik/radon) - a Python tool that computes various metrics from the source code
