@@ -50,6 +50,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
     <li><a href="#solidity">Solidity</a></li>
     <li><a href="#sql">SQL</a></li>
     <li><a href="#swift">Swift</a></li>
+    <li><a href="#tcl">Tcl</a></li>
     <li><a href="#typescript">TypeScript</a></li>
     <li><a href="#vbscript">VBScript</a></li>
   </ul>
@@ -439,6 +440,13 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) - A library and command-line formatting tool for reformatting Swift code
 * [SwiftLint](https://github.com/realm/SwiftLint) - A tool to enforce Swift style and conventions
 * [Tailor](https://github.com/sleekbyte/tailor) - A static analysis and lint tool for source code written in Apple's Swift programming language.
+
+## Tcl
+
+* [Nagelfar](https://sourceforge.net/projects/nagelfar/) - A static syntax checker for Tcl
+* [Frink](https://catless.ncl.ac.uk/Programs/Frink/) - A Tcl formatting and static check program (can prettify the program, minimise, obfuscate or just sanity check it).
+* [tclchecker](https://github.com/ActiveState/tdk/blob/master/docs/3.0/TDK_3.0_Checker.txt) as part of [TDK](https://github.com/ActiveState/tdk) - A static syntax analysis module.
+* [others](https://wiki.tcl-lang.org/page/Static+syntax+analysis#95329c336da897c3dea8ab434ca30575f4529bf6f514c1519881bd126e1d1423) - A wiki-page with several others Tcl checker and static syntax analysis tools.
 
 ## TypeScript
 
