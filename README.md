@@ -369,6 +369,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [flake8](https://github.com/PyCQA/flake8) - a wrapper around `pyflakes`, `pycodestyle` and `mccabe`
 * [multilint](https://github.com/adamchainz/multilint) - a wrapper around `flake8`, `isort` and `modernize`
 * [prospector](https://github.com/PyCQA/prospector) - a wrapper around `pylint`, `pep8`, `mccabe` and others
+* [Pyscent](https://github.com/whyjay17/Pyscent) - a wrapper tool that detects Python code smells and provides an intuitive report
 
 ## R
 
