@@ -630,9 +630,9 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 ## Web services
 * [Codacy](https://www.codacy.com/) :copyright: - Code Analysis to ship Better Code, Faster.
 * [Code Climate](https://codeclimate.com/) :copyright: - The open and extensible static analysis platform, for everyone.
+* [Code Inspector](https://www.code-inspector.com) :copyright: - Code quality and technical debt management platform that supports 10+ languages.
 * [CodeFactor](https://codefactor.io) :copyright: - Automated Code Analysis for repos on GitHub or BitBucket.
 * [CodeFlow](https://www.getcodeflow.com) :copyright: - Automated code analysis tool to deal with technical depth. Integrates with Bitbucket and Gitlab. (free for Open Source Projects)
-* [Code Inspector](https://www.code-inspector.com) :copyright: - Code quality and technical debt management platform that supports 10+ languages.
 * [Gamma](https://mygamma.io) :copyright: - An intelligent software analytics platform that identifies issues from multiple lenses: Design issues, code issues, duplication and metrics. Available for Java, C, C++ and C#.
 * [kiuwan](https://www.kiuwan.com/) :copyright: - Software Analytics in the Cloud supporting more than 22 programming languages.
 * [Landscape](https://landscape.io/) :copyright: - Static code analysis for Python
