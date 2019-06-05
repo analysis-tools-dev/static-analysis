@@ -18,7 +18,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
  <summary>Show languages</summary>
   <!-- Please use HTML syntax here so that it works for Github and mkdocs -->
   <ul>
-    <li><a href="#abap">Abap</a></li>
+    <li><a href="#abap">ABAP</a></li>
     <li><a href="#ada">Ada</a></li>
     <li><a href="#awk">Awk</a></li>
     <li><a href="#cc">C/C++</a></li>
@@ -86,7 +86,9 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 # Programming Languages
 
-## Abap
+## ABAP
+
+* [abaplint](https://github.com/larshp/abaplint) - Linter for ABAP, written in TypeScript.
 * [abapOpenChecks](https://github.com/larshp/abapOpenChecks) - Enhances the SAP Code Inspector with new and customizable checks.
 
 ## Ada
