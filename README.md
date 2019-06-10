@@ -540,6 +540,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 * [dotenv-linter](https://github.com/wemake-services/dotenv-linter) - Linting dotenv files like a charm.
 * [gixy](https://github.com/yandex/gixy) - a tool to analyze Nginx configuration. The main goal is to prevent misconfiguration and automate flaw detection.
+* [systemdlint](https://github.com/priv-kweihmann/systemdlint) - Linting Systemd unit files and overall systemd setup
 
 ## Configuration Management
 
