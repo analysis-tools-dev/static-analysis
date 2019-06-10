@@ -516,6 +516,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 * [checkmake](https://github.com/mrtazz/checkmake) - Linter / Analyzer for Makefiles
 * [codechecker](https://github.com/Ericsson/codechecker) - a defect database and viewer extension for the Clang Static Analyzer
+* [oelint-adv](https://github.com/priv-kweihmann/oelint-adv) - A linter for bitbake-files according to OpenEmbedded style guide
 
 ## Binaries
 
