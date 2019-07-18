@@ -2,13 +2,13 @@
 
 > Static program analysis is the analysis of computer software that is performed without actually executing programs — [Wikipedia](https://en.wikipedia.org/wiki/Static_program_analysis)
 
-This is a collection of static analysis tools and code quality checkers. Pull requests are very welcome!  
+This is a collection of static analysis tools and code quality checkers. Pull requests are very welcome!
 
 * :copyright: stands for proprietary software. All other tools are Open Source.
 * :warning: indicates that the community does not recommend to use this tool for
   new projects anymore as it is outdated or no longer maintained.
 
-Also check out the sister project, [awesome-dynamic-analysis](https://github.com/mre/awesome-dynamic-analysis).  
+Also check out the sister project, [awesome-dynamic-analysis](https://github.com/mre/awesome-dynamic-analysis).
 
 # Table of Contents
 
@@ -79,7 +79,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
   - [Translation](#translation)
   - [Web services](#web-services)
   - [Writing](#writing)
-  
+
 #### [More Collections](#more-collections-1)
 
 ---
@@ -407,6 +407,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [ruby-lint](https://github.com/YorickPeterse/ruby-lint) - Static code analysis for Ruby
 * [rubycritic](https://github.com/whitesmith/rubycritic) - A Ruby code quality reporter
 * [SandiMeter](https://github.com/makaroni4/sandi_meter) - Static analysis tool for checking Ruby code for Sandi Metz' rules.
+* [Sorbet](https://github.com/sorbet/sorbet) - A fast, powerful type checker designed for Ruby
 
 ## Rust
 
@@ -484,7 +485,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [Depends](https://github.com/multilang-depends/depends) - Analyses the comprehensive dependencies of code elements for Java, C/C++, Ruby.
 * [DevSkim](https://github.com/microsoft/devskim) - Regex-based static analysis tool for Visual Studio, VS Code, and Sublime Text - C/C++, C#, PHP, ASP, Python, Ruby, Java, and others.
 * [Fortify](https://software.microfocus.com/en-us/products/static-code-analysis-sast/overview) :copyright: A commercial static analysis platform that supports the scanning of C/C++, C#, VB.NET, VB6, ABAP/BSP, ActionScript, Apex, ASP.NET, Classic ASP, VB Script, Cobol, ColdFusion, HTML, Java, JS, JSP, MXML/Flex, Objective-C, PHP, PL/SQL, T-SQL, Python (2.6, 2.7), Ruby (1.9.3), Swift, Scala, VB, and XML.
-* [Goodcheck](https://github.com/sideci/goodcheck) - Regexp based customizable linter 
+* [Goodcheck](https://github.com/sideci/goodcheck) - Regexp based customizable linter
 * [graudit](https://github.com/wireghoul/graudit) - Grep rough audit - source code auditing tool - C/C++, PHP, ASP, C#, Java, Perl, Python, Ruby
 * [Hound CI](https://houndci.com/) - Comments on style violations in GitHub pull requests. Supports Coffeescript, Go, HAML, JavaScript, Ruby, SCSS and Swift.
 * [imhotep](https://github.com/justinabrahms/imhotep) - Comment on commits coming into your repository and check for syntactic errors and general lint warnings.
