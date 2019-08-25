@@ -1,4 +1,4 @@
-name: Rust
+name: Check Links
 
 on: [pull_request]
 
@@ -11,5 +11,7 @@ jobs:
     - uses: actions/checkout@v1
     - name: Build
       run: cargo build --verbose
+      working-directory: ci
     - name: Run tests
       run: cargo test --verbose
+      working-directory: ci
