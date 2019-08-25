@@ -1,6 +1,0 @@
-language: rust
-rust:
-  - stable
-cache: cargo
-before_install:
-  - cd ci
