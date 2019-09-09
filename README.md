@@ -26,6 +26,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
     <li><a href="#crystal">Crystal</a></li>
     <li><a href="#dlang">Dlang</a></li>
     <li><a href="#elixir">Elixir</a></li>
+    <li><a href="#elm">Elm</a></li>
     <li><a href="#erlang">Erlang</a></li>
     <li><a href="#f">F#</a></li>
     <li><a href="#fortran">Fortran</a></li>
@@ -164,6 +165,10 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 * [credo](https://github.com/rrrene/credo) - A static code analysis tool with a focus on code consistency and teaching.
 * [sobelow](https://github.com/nccgroup/sobelow) - Security-focused static analysis for the Phoenix Framework
+
+## Elm
+
+* [elm-analyse](https://stil4m.github.io/elm-analyse/) - A tool that allows you to analyse your Elm code, identify deficiencies and apply best practices.
 
 ## Erlang
 
