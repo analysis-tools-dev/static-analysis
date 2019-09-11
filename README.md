@@ -691,5 +691,5 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-To the extent possible under law, [Matthias Endler](http://matthias-endler.de) has waived all copyright and related or neighboring rights to this work.
+To the extent possible under law, [Matthias Endler](https://endler.dev) has waived all copyright and related or neighboring rights to this work.
 Title image [Designed by Freepik](http://www.freepik.com).
