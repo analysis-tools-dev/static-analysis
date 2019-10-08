@@ -263,6 +263,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [Soot](https://sable.github.io/soot/) - A framework for analyzing and transforming Java and Android applications.
 * [Spoon](https://github.com/INRIA/spoon) - Library to write your own static analyses and architectural rule checkers for Java. Can be integrated in Maven and Gradle.
 * [SpotBugs](https://spotbugs.github.io/) - SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code.
+* [Xanitizer](https://xanitizer.com/) - Xanitizer finds security vulnerabilities in Java/Scala web applications.
 
 ## JavaScript
 
@@ -435,6 +436,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [Scalastyle](http://www.scalastyle.org) - Scalastyle examines your Scala code and indicates potential problems with it.
 * [scapegoat](https://github.com/sksamuel/scapegoat) - Scala compiler plugin for static code analysis
 * [WartRemover](https://github.com/puffnfresh/wartremover) - a flexible Scala code linting tool.
+* [Xanitizer](https://xanitizer.com/) - Xanitizer finds security vulnerabilities in Java/Scala web applications.
 
 ## Shell
 
