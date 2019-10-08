@@ -269,9 +269,9 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 * [aether](https://github.com/codecombat/aether) - Lint, analyze, normalize, transform, sandbox, run, step through, and visualize user JavaScript, in node or the browser.
 * [Closure Compiler](https://github.com/google/closure-compiler) - A compiler tool to increase efficiency, reduce size, and provide code warnings in JavaScript files.
-* [ClosureLinter](https://github.com/google/closure-linter) - ensures that all of your project's JavaScript code follows the guidelines in the Google JavaScript Style Guide. It can also automatically fix many common errors
+* [ClosureLinter](https://github.com/google/closure-linter) :warning: - ensures that all of your project's JavaScript code follows the guidelines in the Google JavaScript Style Guide. It can also automatically fix many common errors
 * [coffeelint](https://github.com/clutchski/coffeelint) - A style checker that helps keep CoffeeScript code clean and consistent.
-* [complexity-report](https://github.com/jared-stilwell/complexity-report) - Software complexity analysis for JavaScript projects
+* [complexity-report](https://github.com/jared-stilwell/complexity-report) :warning: - Software complexity analysis for JavaScript projects
 * [DeepScan](https://deepscan.io) :copyright: - An analyzer for JavaScript which targets runtime errors and quality issues rather than coding conventions.
 * [escomplex](https://github.com/jared-stilwell/escomplex) - Software complexity analysis of JavaScript-family abstract syntax trees.
 * [eslint](https://github.com/eslint/eslint) - A fully pluggable tool for identifying and reporting on patterns in JavaScript
@@ -288,7 +288,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [standard](http://standardjs.com/) - An npm module that checks for Javascript Styleguide issues
 * [tern](https://github.com/ternjs/tern) - A JavaScript code analyzer for deep, cross-editor language support
 * [xo](https://github.com/xojs/xo) - Opinionated but configurable ESLint wrapper with lots of goodies included. Enforces strict and readable code.
-* [yardstick](https://github.com/calmh/yardstick) - Javascript code metrics
+* [yardstick](https://github.com/calmh/yardstick) :warning: - Javascript code metrics
 
 ## Kotlin
 
