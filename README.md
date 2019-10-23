@@ -113,7 +113,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [CodeSonar from GrammaTech](https://www.grammatech.com/products/codesonar) :copyright: - Advanced, whole program, deep path, static analysis of C and C++ with easy-to-understand explanations and code and path visualization.
 * [Corrode](https://github.com/jameysharp/corrode) - Semi-automatic translation from C to Rust. Could reveal bugs in the original implementation by showing Rust compiler warnings and errors.
 * [cppcheck](https://github.com/danmar/cppcheck) - static analysis of C/C++ code
-* [CppDepend](https://www.cppdepend.com) :copyright: - Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.
+* [CppDepend](https://www.cppdepend.com) :warning: :copyright: - Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.
 * [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) - automated C++ checker that follows Google's style guide
 * [cqmetrics](https://github.com/dspinellis/cqmetrics) - quality metrics for C code
 * [CScout](https://www.spinellis.gr/cscout/) - complexity and quality metrics for for C and C preprocessor code
