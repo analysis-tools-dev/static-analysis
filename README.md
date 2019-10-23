@@ -214,6 +214,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [golint](https://github.com/golang/lint) - Prints out coding style mistakes in Go source code.
 * [goreporter](https://github.com/wgliang/goreporter) - concurrently runs many linters and normalises their output to a report.
 * [goroutine-inspect](https://github.com/linuxerwang/goroutine-inspect) - An interactive tool to analyze Golang goroutine dump.
+* [gosec (gas)](https://github.com/GoASTScanner/gas) - Inspects source code for security problems by scanning the Go AST.
 * [gotype](https://golang.org/x/tools/cmd/gotype) - Syntactic and semantic analysis similar to the Go compiler.
 * [ineffassign](https://github.com/gordonklaus/ineffassign) - Detect ineffectual assignments in Go code
 * [interfacer](https://github.com/mvdan/interfacer) - Suggest narrower interfaces that can be used.
