@@ -199,7 +199,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [errcheck](https://github.com/kisielk/errcheck) - Check that error return values are used.
 * [flen](https://github.com/lafolle/flen) - Get info on length of functions in a Go package.
 * [gas](https://github.com/GoASTScanner/gas) - Inspects source code for security problems by scanning the Go AST.
-* [Go Meta Linter](https://github.com/alecthomas/gometalinter) - Concurrently run Go lint tools and normalise their output.
+* [Go Meta Linter](https://github.com/alecthomas/gometalinter) :warning: - Concurrently run Go lint tools and normalise their output. Use `golangci-lint` for new projects.
 * [go tool vet --shadow](https://golang.org/cmd/vet/#hdr-Shadowed_variables) - Reports variables that may have been unintentionally shadowed.
 * [go vet](https://golang.org/cmd/vet/) - Examines Go source code and reports suspicious.
 * [go-consistent](https://github.com/Quasilyte/go-consistent) - Analyzer that helps you to make your Go programs more consistent.
