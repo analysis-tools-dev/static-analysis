@@ -161,9 +161,9 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [crystal](https://crystal-lang.org/) - The Crystal compiler has built-in linting functionality.
 
 ## Delphi
-* [Fix Insight]( https://www.tmssoftware.com/site/fixinsight.asp) - A static code analysis tool for Delphi.  Available for Delphi versions 2007 and later.  The *Personal* edition is a free IDE plugin. The commercial *Pro* edition also offers a command line tool for automation purposes.
-* [Pascal Analyzer](https://peganza.com/products_pal.html) - A static code analysis tool for Delphi, compatible with all versions of Delphi and includes numerous reports. Originally released in 2001 and has been updated continuously since.  A free Pascal Analyzer Lite version is available with limited reporting.
-* [Pascal Expert](https://peganza.com/products_pex.html) - IDE plugin for code analysis.  Includes a subset of Pascal Analyzer reporting capabilities and is available for Delphi versions 2007 and later.
+* [Fix Insight]( https://www.tmssoftware.com/site/fixinsight.asp) (:copyright:) - A static code analysis tool for Delphi.  Available for Delphi versions 2007 and later.  The *Personal* edition is a free IDE plugin. The commercial *Pro* edition also offers a command line tool for automation purposes.
+* [Pascal Analyzer](https://peganza.com/products_pal.html) (:copyright:) - A static code analysis tool for Delphi, compatible with all versions of Delphi and includes numerous reports. Originally released in 2001 and has been updated continuously since.  A free Pascal Analyzer Lite version is available with limited reporting.
+* [Pascal Expert](https://peganza.com/products_pex.html) (:copyright:) - IDE plugin for code analysis.  Includes a subset of Pascal Analyzer reporting capabilities and is available for Delphi versions 2007 and later.
 
 ## Dlang
 
