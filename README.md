@@ -480,7 +480,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 # Multiple languages
 
-* [Android Lint](http://tools.android.com/tips/lint) - Run static analysis on Android projects.
 * [AppChecker](https://npo-echelon.ru/en/solutions/appchecker.php) :copyright: - Static analysis for C/C++/C#, PHP and Java
 * [Application Inspector](https://www.ptsecurity.com/ww-en/products/ai/) :copyright: - Commercial Static Code Analysis which generates exploits to verify vulnerabilities. Supports: Java (including JSP and JSF), C#, VB.Net, ASP.NET, Php, JavaScript, Objective-C, Swift, C\C++, SQL (PL/SQL. T-SQL. MySQL), HTML5
 * [AppScan Source](https://www.hcltechsw.com/wps/portal/products/appscan/home) :copyright: - Commercial Static Code Analysis. Supports: Microsoft .NET Framework (C#, ASP.NET, VB.NET), ASP (JavaScript/VBScript), C/C++, COBOL, ColdFusion, JavaScript, JavaServer Pages (JSP), Java™ (including support for Android APIs), Perl, PHP, PL/SQL, T-SQL, Visual Basic 6
@@ -624,6 +623,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 ## Mobile
 
 * [android-lint-summary](https://github.com/passy/android-lint-summary) - Combines lint errors of multiple projects into one output, check lint results of multiple sub-projects at once.
+* [Android Lint](http://tools.android.com/tips/lint) - Run static analysis on Android projects.
 * [FlowDroid](https://github.com/secure-software-engineering/soot-infoflow-android) - static taint analysis tool for Android applications
 * [paprika](https://github.com/GeoffreyHecht/paprika) - A toolkit to detect some code smells in analyzed Android applications.
 * [qark](https://github.com/linkedin/qark) - Tool to look for several security related Android application vulnerabilities
