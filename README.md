@@ -629,6 +629,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 ## Mobile
 
+* [Android Lint](http://tools.android.com/tips/lint) - Run static analysis on Android projects.
 * [android-lint-summary](https://github.com/passy/android-lint-summary) - Combines lint errors of multiple projects into one output, check lint results of multiple sub-projects at once.
 * [FlowDroid](https://github.com/secure-software-engineering/soot-infoflow-android) - static taint analysis tool for Android applications
 * [paprika](https://github.com/GeoffreyHecht/paprika) - A toolkit to detect some code smells in analyzed Android applications.
