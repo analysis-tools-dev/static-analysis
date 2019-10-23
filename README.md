@@ -24,6 +24,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
     <li><a href="#cc">C/C++</a></li>
     <li><a href="#c">C#</a></li>
     <li><a href="#crystal">Crystal</a></li>
+    <li><a href="#delphi">Delphi</a></li>
     <li><a href="#dlang">Dlang</a></li>
     <li><a href="#elixir">Elixir</a></li>
     <li><a href="#elm">Elm</a></li>
@@ -158,6 +159,12 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 * [ameba](https://github.com/veelenga/ameba) - A static code analysis tool for Crystal
 * [crystal](https://crystal-lang.org/) - The Crystal compiler has built-in linting functionality.
+
+## Delphi
+
+* [Fix Insight](https://www.tmssoftware.com/site/fixinsight.asp) :copyright: - A free IDE Plugin for static code analysis. A *Pro* edition includes a command line tool for automation purposes.
+* [Pascal Analyzer](https://peganza.com/products_pal.html) :copyright: - A static code analysis tool with numerous reports. A free *Lite* version is available with limited reporting.
+* [Pascal Expert](https://peganza.com/products_pex.html) :copyright: - IDE plugin for code analysis.  Includes a subset of Pascal Analyzer reporting capabilities and is available for Delphi versions 2007 and later.
 
 ## Dlang
 
