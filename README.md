@@ -230,7 +230,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [Staticcheck](https://staticcheck.io/) - A suite of static analysis tools for Go. It specialises on bug finding, code simplicity, performance and editor integration. 
 * [structcheck](https://gitlab.com/opennota/check) - Find unused struct fields.
 * [test](http://golang.org/pkg/testing/) - Show location of test failures from the stdlib testing module.
-* [testify](https://github.com/stretchr/testify) - Show location of failed testify assertions.
 * [unconvert](https://github.com/mdempsky/unconvert) - Detect redundant type conversions.
 * [unimport](https://github.com/alexkohler/unimport) - Finds unnecessary import aliases
 * [unparam](https://github.com/mvdan/unparam) - Find unused function parameters.
