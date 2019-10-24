@@ -221,13 +221,13 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [interfacer](https://github.com/mvdan/interfacer) - Suggest narrower interfaces that can be used.
 * [lll](https://github.com/walle/lll) - Report long lines.
 * [maligned](https://github.com/mdempsky/maligned) -  Detect structs that would take less memory if their fields were sorted.
-* [megacheck](https://github.com/dominikh/go-tools/tree/master/cmd/megacheck) - Run staticcheck, gosimple and unused, sharing work.
 * [misspell](https://github.com/client9/misspell) - Finds commonly misspelled English words.
 * [nakedret](https://github.com/alexkohler/nakedret) - Finds naked returns.
 * [nargs](https://github.com/alexkohler/nargs) - Finds unused arguments in function declarations.
 * [prealloc](https://github.com/alexkohler/prealloc) - Finds slice declarations that could potentially be preallocated.
 * [revive](https://github.com/mgechev/revive) - Fast, configurable, extensible, flexible, and beautiful linter for Go. Drop-in replacement of golint.
 * [safesql](https://github.com/stripe/safesql) - Static analysis tool for Golang that protects against SQL injections.
+* [Staticcheck](https://staticcheck.io/) - A suite of static analysis tools for Go. It specialises on bug finding, code simplicity, performance and editor integration. 
 * [structcheck](https://gitlab.com/opennota/check) - Find unused struct fields.
 * [test](http://golang.org/pkg/testing/) - Show location of test failures from the stdlib testing module.
 * [testify](https://github.com/stretchr/testify) - Show location of failed testify assertions.
