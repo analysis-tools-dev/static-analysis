@@ -193,6 +193,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 ## Go
 
+* [aligncheck](https://gitlab.com/opennota/check) - Find inefficiently packed structs.
 * [deadcode](https://github.com/tsenart/deadcode) - Finds unused code.
 * [dingo-hunter](https://github.com/nickng/dingo-hunter) - Static analyser for finding deadlocks in Go.
 * [dupl](https://github.com/mibk/dupl) - Reports potentially duplicated code.
@@ -227,14 +228,14 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [prealloc](https://github.com/alexkohler/prealloc) - Finds slice declarations that could potentially be preallocated.
 * [revive](https://github.com/mgechev/revive) - Fast, configurable, extensible, flexible, and beautiful linter for Go. Drop-in replacement of golint.
 * [safesql](https://github.com/stripe/safesql) - Static analysis tool for Golang that protects against SQL injections.
-* [structcheck](https://github.com/opennota/check) - Find unused struct fields.
+* [structcheck](https://gitlab.com/opennota/check) - Find unused struct fields.
 * [test](http://golang.org/pkg/testing/) - Show location of test failures from the stdlib testing module.
 * [testify](https://github.com/stretchr/testify) - Show location of failed testify assertions.
 * [unconvert](https://github.com/mdempsky/unconvert) - Detect redundant type conversions.
 * [unimport](https://github.com/alexkohler/unimport) - Finds unnecessary import aliases
 * [unparam](https://github.com/mvdan/unparam) - Find unused function parameters.
 * [unused](https://github.com/dominikh/go-tools/tree/master/cmd/unused) - Find unused variables.
-* [varcheck](https://github.com/opennota/check) - Find unused global variables and constants.
+* [varcheck](https://gitlab.com/opennota/check) - Find unused global variables and constants.
 
 ## Groovy
 
