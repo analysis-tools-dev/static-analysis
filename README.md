@@ -312,7 +312,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 ## Perl
 
-* [Perl::Critic](http://search.cpan.org/~thaljef/Perl-Critic-1.126/lib/Perl/Critic.pm) - Critique Perl source code for best-practices.
+* [Perl::Critic](https://metacpan.org/pod/Perl::Critic) - Critique Perl source code for best-practices.
 
 ## PHP
 
