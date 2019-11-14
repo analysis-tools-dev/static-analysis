@@ -226,7 +226,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [prealloc](https://github.com/alexkohler/prealloc) - Finds slice declarations that could potentially be preallocated.
 * [revive](https://github.com/mgechev/revive) - Fast, configurable, extensible, flexible, and beautiful linter for Go. Drop-in replacement of golint.
 * [safesql](https://github.com/stripe/safesql) - Static analysis tool for Golang that protects against SQL injections.
-* [staticcheck](https://github.com/dominikh/go-tools/tree/master/cmd/staticcheck) - A suite of static analysis tools for Go, similar to ReSharper for C#. It specialises on bug finding, code simplicity, performance and editor integration.
+* [staticcheck](https://staticcheck.io/) - A suite of static analysis tools for Go, similar to ReSharper for C#. It specialises on bug finding, code simplicity, performance and editor integration.
 * [structcheck](https://gitlab.com/opennota/check) - Find unused struct fields.
 * [test](http://golang.org/pkg/testing/) - Show location of test failures from the stdlib testing module.
 * [unconvert](https://github.com/mdempsky/unconvert) - Detect redundant type conversions.
