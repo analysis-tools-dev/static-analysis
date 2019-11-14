@@ -205,7 +205,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [go vet](https://golang.org/cmd/vet/) - Examines Go source code and reports suspicious.
 * [go-consistent](https://github.com/Quasilyte/go-consistent) - Analyzer that helps you to make your Go programs more consistent.
 * [go-critic](https://github.com/go-critic/go-critic) - Go source code linter that maintains checks which are currently not implemented in other linters.
-* [go-staticcheck](https://github.com/dominikh/go-tools/tree/master/cmd/staticcheck) - go vet on steroids, similar to ReSharper for C#.
 * [go/ast](https://golang.org/pkg/go/ast/) - Package ast declares the types used to represent syntax trees for Go packages.
 * [goconst](https://github.com/jgautheron/goconst) - Finds repeated strings that could be replaced by a constant.
 * [gocyclo](https://github.com/fzipp/gocyclo) - Calculate cyclomatic complexities of functions in Go source code.
@@ -227,7 +226,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [prealloc](https://github.com/alexkohler/prealloc) - Finds slice declarations that could potentially be preallocated.
 * [revive](https://github.com/mgechev/revive) - Fast, configurable, extensible, flexible, and beautiful linter for Go. Drop-in replacement of golint.
 * [safesql](https://github.com/stripe/safesql) - Static analysis tool for Golang that protects against SQL injections.
-* [Staticcheck](https://staticcheck.io/) - A suite of static analysis tools for Go. It specialises on bug finding, code simplicity, performance and editor integration. 
+* [staticcheck](https://staticcheck.io/) - A suite of static analysis tools for Go, similar to ReSharper for C#. It specialises on bug finding, code simplicity, performance and editor integration.
 * [structcheck](https://gitlab.com/opennota/check) - Find unused struct fields.
 * [test](http://golang.org/pkg/testing/) - Show location of test failures from the stdlib testing module.
 * [unconvert](https://github.com/mdempsky/unconvert) - Detect redundant type conversions.
