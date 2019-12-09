@@ -195,8 +195,10 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 ## Go
 
 * [aligncheck](https://gitlab.com/opennota/check) - Find inefficiently packed structs.
+* [bodyclose](https://github.com/timakin/bodyclose) - Checks whether HTTP response body is closed.
 * [deadcode](https://github.com/tsenart/deadcode) - Finds unused code.
 * [dingo-hunter](https://github.com/nickng/dingo-hunter) - Static analyser for finding deadlocks in Go.
+* [dogsled](https://github.com/alexkohler/dogsled) - Finds assignments/declarations with too many blank identifiers.
 * [dupl](https://github.com/mibk/dupl) - Reports potentially duplicated code.
 * [errcheck](https://github.com/kisielk/errcheck) - Check that error return values are used.
 * [flen](https://github.com/lafolle/flen) - Get info on length of functions in a Go package.
@@ -207,6 +209,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [go-consistent](https://github.com/Quasilyte/go-consistent) - Analyzer that helps you to make your Go programs more consistent.
 * [go-critic](https://github.com/go-critic/go-critic) - Go source code linter that maintains checks which are currently not implemented in other linters.
 * [go/ast](https://golang.org/pkg/go/ast/) - Package ast declares the types used to represent syntax trees for Go packages.
+* [gochecknoglobals](https://github.com/leighmcculloch/gochecknoglobals) - Checks that no globals are present.
 * [goconst](https://github.com/jgautheron/goconst) - Finds repeated strings that could be replaced by a constant.
 * [gocyclo](https://github.com/fzipp/gocyclo) - Calculate cyclomatic complexities of functions in Go source code.
 * [gofmt -s](https://golang.org/cmd/gofmt/) - Checks if the code is properly formatted and could not be further simplified.
@@ -216,6 +219,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [goreporter](https://github.com/360EntSecGroup-Skylar/goreporter) - concurrently runs many linters and normalises their output to a report.
 * [goroutine-inspect](https://github.com/linuxerwang/goroutine-inspect) - An interactive tool to analyze Golang goroutine dump.
 * [gosec (gas)](https://github.com/GoASTScanner/gas) - Inspects source code for security problems by scanning the Go AST.
+* [gosimple](https://godoc.org/github.com/surullabs/lint/gosimple) - Simplifies code.
 * [gotype](https://golang.org/x/tools/cmd/gotype) - Syntactic and semantic analysis similar to the Go compiler.
 * [ineffassign](https://github.com/gordonklaus/ineffassign) - Detect ineffectual assignments in Go code
 * [interfacer](https://github.com/mvdan/interfacer) - Suggest narrower interfaces that can be used.
@@ -235,6 +239,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [unparam](https://github.com/mvdan/unparam) - Find unused function parameters.
 * [unused](https://github.com/dominikh/go-tools/tree/master/cmd/unused) - Find unused variables.
 * [varcheck](https://gitlab.com/opennota/check) - Find unused global variables and constants.
+* [wsl](https://github.com/bombsimon/wsl) - Enforces empty lines at the right places.
 
 ## Groovy
 
