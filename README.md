@@ -76,6 +76,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
   - [Markdown](#markdown)
   - [Mobile](#mobile)
   - [Packages](#packages)
+  - [Protocol Buffer](#protocol-buffer)
   - [Supporting Tools](#supporting-tools)
   - [Template Languages](#template-languages)
   - [Translation](#translation)
@@ -643,6 +644,10 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 * [lintian](https://github.com/Debian/lintian) - Static analysis tool for Debian packages
 * [rpmlint](https://github.com/rpm-software-management/rpmlint) - Tool for checking common errors in rpm packages
+
+## Protocol-Buffer
+
+* [protolint](https://github.com/yoheimuta/protolint) - Pluggable linter and fixer to enforce Protocol Buffer style and conventions.
 
 ## Supporting Tools
 
