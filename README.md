@@ -333,6 +333,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [Parse](https://github.com/psecio/parse) - A Static Security Scanner
 * [pdepend](https://pdepend.org/) - Calculates software metrics like cyclomatic complexity for PHP code.
 * [phan](https://github.com/etsy/phan) - a modern static analyzer from etsy
+* [PHP Architecture Tester](https://github.com/carlosas/phpat) - Easy to use architecture testing tool for PHP.
 * [PHP Assumptions](https://github.com/rskuipers/php-assumptions) - Checks for weak assumptions
 * [PHP Coding Standards Fixer](http://cs.sensiolabs.org/) - Fixes your code according to standards like PSR-1, PSR-2, and the Symfony standard.
 * [Php Inspections (EA Extended)](https://github.com/kalessil/phpinspectionsea) - A Static Code Analyzer for PHP.
