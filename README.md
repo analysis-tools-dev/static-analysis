@@ -584,11 +584,11 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [ansible-lint](https://github.com/willthames/ansible-lint) - Checks playbooks for practices and behaviour that could potentially be improved
 * [cfn-lint](https://github.com/awslabs/cfn-python-lint) - AWS Labs CloudFormation linter.
 * [cfn_nag](https://github.com/stelligent/cfn_nag) - A linter for AWS CloudFormation templates.
+* [checkov](https://github.com/bridgecrewio/checkov/) - Static analysis tool for Terraform files (tf>=v0.12), preventing cloud misconfigs at build time.
 * [cookstyle](https://docs.chef.io/cookstyle.html) - Cookstyle is a linting tool based on the RuboCop Ruby linting tool for Chef cookbooks
 * [foodcritic](http://www.foodcritic.io/) - A lint tool that checks Chef cookbooks for common problems.
 * [Puppet Lint](https://github.com/rodjek/puppet-lint) - Check that your Puppet manifests conform to the style guide.
 * [terrascan](https://github.com/cesar-rodriguez/terrascan) - Collection of security and best practice tests for static code analysis of Terraform templates.
-* [checkov](https://github.com/bridgecrewio/checkov/) - Static analysis tool for Terraform files (tf>=v0.12), preventing cloud misconfigs at build time.
 * [tflint](https://github.com/wata727/tflint) - A Terraform linter for detecting errors that can not be detected by `terraform plan`.
 
 
