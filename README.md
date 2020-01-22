@@ -374,7 +374,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [bellybutton](https://github.com/hchasestevens/bellybutton) - a linting engine supporting custom project-specific rules
 * [Black](https://github.com/ambv/black) - The uncompromising Python code formatter
 * [cohesion](https://github.com/mschwager/cohesion) - a tool for measuring Python class cohesion
-* [Dlint](https://github.com/duo-labs/dlint) - a tool for ensuring Python code is secure
+* [Dlint](https://github.com/dlint-py/dlint) - a tool for ensuring Python code is secure
 * [include-gardener](https://github.com/feddischson/include_gardener) - a multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files.
 * [jedi](https://github.com/davidhalter/jedi) - autocompletion/static analysis library for Python
 * [linty fresh](https://github.com/lyft/linty_fresh) - parse lint errors and report them to Github as comments on a pull request
