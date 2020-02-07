@@ -6,9 +6,9 @@ If you're in doubt if a tool is a good fit for the list, **don't open an issue, 
 ### Requirements
 
 Each tool on the list should be 
-* actively maintained
-* actively used (have more than ten Stars on Github or similar impact)
-* relatively mature (project exists for at least one month)
+* actively maintained (more than one contributor)
+* actively used (have **more than 20 stars on Github or similar impact**)
+* relatively mature (project exists for at least three months)
 
 ### Format
 
