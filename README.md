@@ -183,6 +183,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 ## Erlang
 
 * [elvis](https://github.com/inaka/elvis) - Erlang Style Reviewer
+* [Primitive Erlang Security Tool (PEST)](https://github.com/okeuday/pest) - A tool to do a basic scan of Erlang source code and report any function calls that may cause Erlang source code to be insecure.
 
 ## F# #
 
