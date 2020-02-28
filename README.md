@@ -643,6 +643,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 * [markdownlint](https://github.com/DavidAnson/markdownlint) - Node.js -based style checker and lint tool for Markdown/CommonMark files.
 * [mdl](https://github.com/mivok/markdownlint) - A tool to check Markdown files and flag style issues.
+* [remark-lint](https://github.com/remarkjs/remark-lint) - Pluggable Markdown code style linter written in JavaScript.
 
 ## Mobile
 
