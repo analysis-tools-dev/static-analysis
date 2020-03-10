@@ -621,6 +621,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [Polymer-analyzer](https://github.com/Polymer/polymer-analyzer) - A static analysis framework for Web Components.
 
 ## IDE
+
 * [Android Studio](https://developer.android.com/studio) - Based on IntelliJ IDEA, and comes bundled with tools for Android including Android Lint.
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/) - Comes bundled with a lot of inspections for Java and Kotlin and includes tools for refactoring, formatting and more.
 
