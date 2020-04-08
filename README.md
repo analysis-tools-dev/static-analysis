@@ -2,6 +2,8 @@
 
 > Static program analysis is the analysis of computer software that is performed without actually executing programs — [Wikipedia](https://en.wikipedia.org/wiki/Static_program_analysis)
 
+![CI](https://github.com/analysis-tools-dev/static-analysis/workflows/CI/badge.svg)
+
 This is a collection of static analysis tools and code quality checkers. Pull requests are very welcome!
 
 * :copyright: stands for proprietary software. All other tools are Open Source.
