@@ -27,8 +27,10 @@ please edit `data/data.yml`.
   in `data/categories.yml` If a tool does not match any existing category, feel
   free to start a new category.
 
-Once you're done, call `make render` to check for errors and create the final
-rendered `README.md`. Finally, create a pull request with all your changes.
+Finally, create a pull request with all your changes.
+You can call `make render` to check for errors before.  
+This is optional, because it will also be done when creating 
+a pull request.
 
 # How to mark a tool as unmaintained/deprecated
 
