@@ -18,6 +18,7 @@ jobs:
         run: make render
       - uses: stefanzweifel/git-auto-commit-action@v4.1.2
         with:
+          branch: ${{ github.head_ref }}
           commit_message: Update list
           commit_user_name: GitHub Actions Bot
           commit_user_email: github-actions-bot@analysis-tools.dev
