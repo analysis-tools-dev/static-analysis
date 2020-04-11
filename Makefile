@@ -17,3 +17,6 @@ serve: link
 deploy: link
 	mkdocs gh-deploy
 
+.PHONY: render
+render:
+	(cd data/render && cargo run -- ../../data/categories.yml ../../data/data.yml) > README.md
