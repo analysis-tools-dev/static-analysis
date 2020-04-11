@@ -1421,7 +1421,7 @@
   tags:
     - mobile
 - name: parallel-lint
-  url: "https://github.com/JakubOnderka/PHP-Parallel-Lint"
+  url: "https://github.com/php-parallel-lint/PHP-Parallel-Lint"
   description: This tool checks syntax of PHP files faster than serial check with a fancier output.
   tags:
     - php
