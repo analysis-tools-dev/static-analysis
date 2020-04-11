@@ -378,7 +378,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [exakat](https://github.com/exakat/exakat) - An automated code reviewing engine for PHP
 * [GrumPHP](https://github.com/phpro/grumphp) - checks code on every commit
 * [Mondrian](https://github.com/Trismegiste/Mondrian) - a set of static analysis and refactoring tools which use graph theory
-* [parallel-lint](https://github.com/JakubOnderka/PHP-Parallel-Lint) - This tool checks syntax of PHP files faster than serial check with a fancier output.
+* [parallel-lint](https://github.com/php-parallel-lint/PHP-Parallel-Lint) - This tool checks syntax of PHP files faster than serial check with a fancier output.
 * [Parse](https://github.com/psecio/parse) - A Static Security Scanner
 * [pdepend](https://pdepend.org/) - Calculates software metrics like cyclomatic complexity for PHP code.
 * [phan](https://github.com/etsy/phan) - a modern static analyzer from etsy
