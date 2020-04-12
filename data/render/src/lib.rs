@@ -1,41 +1,22 @@
 #[macro_use]
 extern crate serde_derive;
 
-use std::env;
 use std::error::Error;
 
 mod lints;
-mod render;
-mod types;
+pub mod types;
 
-use render::render;
 use std::collections::BTreeMap;
 use types::{Catalog, Categories, Entry};
+
+use tera::{Context, Tera};
 
 fn valid(entry: &Entry) -> Result<(), Box<dyn Error>> {
     let lints = [lints::filename, lints::min_one_tag];
     lints.iter().map(|lint| Ok(lint(&entry)?)).collect()
 }
 
-fn get_files() -> Result<(String, String), Box<dyn Error>> {
-    let files: Vec<_> = env::args().skip(1).collect();
-    if files.len() != 2 {
-        return Err("Expected a two input files, `data.yml` and `categories.yml`".into());
-    }
-    Ok((files[0].clone(), files[1].clone()))
-}
-
-fn read_categories(file: String) -> Result<Categories, Box<dyn Error>> {
-    let f = std::fs::File::open(file)?;
-    Ok(serde_yaml::from_reader(f)?)
-}
-
-fn read_entries(file: String) -> Result<Vec<Entry>, Box<dyn Error>> {
-    let f = std::fs::File::open(file)?;
-    Ok(serde_yaml::from_reader(f)?)
-}
-
-fn validate(categories: &Categories, entries: &Vec<Entry>) -> Result<(), Box<dyn Error>> {
+pub fn validate(categories: &Categories, entries: &Vec<Entry>) -> Result<(), Box<dyn Error>> {
     for entry in entries {
         for tag in &entry.tags {
             if !categories.contains(tag) {
@@ -53,7 +34,7 @@ fn validate(categories: &Categories, entries: &Vec<Entry>) -> Result<(), Box<dyn
     Ok(())
 }
 
-fn group(categories: &Categories, entries: Vec<Entry>) -> Result<Catalog, Box<dyn Error>> {
+pub fn group(categories: &Categories, entries: Vec<Entry>) -> Result<Catalog, Box<dyn Error>> {
     let mut linters = BTreeMap::new();
 
     // Move tools that support multiple languages into their own category
@@ -96,16 +77,13 @@ fn group(categories: &Categories, entries: Vec<Entry>) -> Result<Catalog, Box<dy
     })
 }
 
-fn main() -> Result<(), Box<dyn Error>> {
-    let (categories, data) = get_files()?;
-    let categories = read_categories(categories)?;
-    let mut entries = read_entries(data)?;
-    entries.sort();
-    validate(&categories, &entries)?;
-
-    let catalog = group(&categories, entries)?;
-    let template = std::fs::read_to_string("src/templates/README.md")?;
-    let rendered = render(&template, catalog, categories)?;
-    println!("{}", rendered);
-    Ok(())
+pub fn render(
+    template: &str,
+    catalog: Catalog,
+    categories: Categories,
+) -> Result<String, Box<dyn Error>> {
+    let mut context = Context::new();
+    context.insert("catalog", &catalog);
+    context.insert("categories", &categories);
+    Ok(Tera::one_off(template, &context, true)?)
 }
