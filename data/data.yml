@@ -124,6 +124,25 @@
     - c
     - cpp
   proprietary: true
+- name: Atom-Beautify
+  url: https://atom.io/packages/atom-beautify
+  description: Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom editor
+  tags:
+     - html
+     - css
+     - javascript
+     - php
+     - python
+     - ruby
+     - java
+     - c
+     - cpp
+     - csharp
+     - objectivec
+     - coffeescript
+     - typescript
+     - coldfusion
+     - sql
 - name: Attackflow Extension
   url: "https://www.attackflow.com/Extension"
   description: "Attackflow plugin for Visual Studio, which enables developers to find critical security bugs at real time in the source code without any prior knowledge."
