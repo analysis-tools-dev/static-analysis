@@ -850,6 +850,11 @@
   description: A static type checker for JavaScript.
   tags:
     - javascript
+- name: hegel
+  url: "https://jsmonk.github.io/hegel"
+  description: A static type checker for JavaScript with a bias on type inference and strong type systems.
+  tags:
+    - javascript
 - name: FlowDroid
   url: "https://github.com/secure-software-engineering/soot-infoflow-android"
   description: static taint analysis tool for Android applications
