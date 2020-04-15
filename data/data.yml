@@ -841,7 +841,7 @@
     - javascript
 - name: hegel
   url: "https://jsmonk.github.io/hegel"
-  description: A static type checker for JavaScript with a bias on type inference an strong type system.
+  description: A static type checker for JavaScript with a bias on type inference and strong type systems.
   tags:
     - javascript
 - name: FlowDroid
