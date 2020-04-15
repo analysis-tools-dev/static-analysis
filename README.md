@@ -342,6 +342,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [eslint](https://github.com/eslint/eslint) - A fully pluggable tool for identifying and reporting on patterns in JavaScript
 * [Esprima](https://github.com/jquery/esprima) - ECMAScript parsing infrastructure for multipurpose analysis
 * [flow](https://flow.org/) - A static type checker for JavaScript.
+* [hegel](https://jsmonk.github.io/hegel) - A static type checker for JavaScript with a bias on type inference and strong type systems.
 * [jshint](https://github.com/jshint/jshint) :warning: - detect errors and potential problems in JavaScript code and enforce your team's coding conventions
 * [JSLint](https://github.com/douglascrockford/JSLint) :warning: - The JavaScript Code Quality Tool
 * [JSPrime](https://github.com/dpnishant/jsprime) - static security analysis tool
