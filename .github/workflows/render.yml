@@ -18,6 +18,6 @@ jobs:
         with:
           branch: ${{ github.head_ref }}
           commit_message: Commit list
-          commit_user_name: GitHub Actions Bot
-          commit_user_email: github-actions-bot@analysis-tools.dev
-          commit_author: GitHub Actions Bot <github-actions-bot@analysis-tools.dev>
+          commit_user_name: Analysis Tools Bot
+          commit_user_email: bot@analysis-tools.dev
+          commit_author: Analysis Tools Bot <bot@analysis-tools.dev>
