@@ -618,6 +618,17 @@
   tags:
     - javascript
   proprietary: true
+- name: DeepCode
+  url: "https://www.deepcode.ai/"
+  description: "DeepCode finds bugs, security vulnerabilities, performance and API issues based on AI. DeepCode's speed of analysis allow us to analyse your code in real time and deliver results when you hit the save button in your IDE. Supported languages are Java, C/C++, JavaScript, Python, TypeScript and XML. Integrations with GitHub, BitBucket and Gitlab."
+  tags:
+    - c
+    - cpp
+    - java
+    - python
+    - javascript
+    - typescript
+  proprietary: true
 - name: DeepSource
   url: "https://deepsource.io/"
   description: "In-depth static analysis to monitor source code quality and security. Supports Python and Go and can detect 600+ types of issues in verticals of bug risks, security, anti-patterns, performance, documentation and style. Native integration with GitHub."
