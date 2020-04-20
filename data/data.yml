@@ -1166,6 +1166,18 @@
     - cpp
     - java
     - php
+- name: InsiderSec
+  url: "https://github.com/insidersec/insider"
+  description: "A open source Static Application Security Testing tool (SAST) written in GoLang for Java (Maven and Android), Kotlin (Android), Swift (iOS), .NET Full Framework, C# and Javascript (Node.js)."
+  tags:
+    - java
+    - android
+    - kotlin
+    - swift
+    - dotnet
+    - javascript
+    - nodejs
+    - csharp
 - name: IntelliJ IDEA
   url: "https://www.jetbrains.com/idea/"
   description: "Comes bundled with a lot of inspections for Java and Kotlin and includes tools for refactoring, formatting and more."
