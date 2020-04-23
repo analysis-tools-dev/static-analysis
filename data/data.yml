@@ -1281,10 +1281,11 @@
   description: Static analysis and style linter for Ruby code.
   tags:
     - ruby
-- name: Layered Insight
-  url: "https://layeredinsight.com/"
+- name: Qualys Container Security
+  url: "https://www.qualys.com/apps/container-security/"
   description: Container native application protection to provide visibility and control of containerized applications.
   tags:
+    - container
     - service
   proprietary: true
 - name: LDRA
@@ -1458,7 +1459,7 @@
     - java
     - php
 - name: OWASP Dependency Check
-  url: "https://www.owasp.org/index.php/OWASP_Dependency_Check"
+  url: "https://owasp.org/www-project-dependency-check/"
   description: "Checks dependencies for known, publicly disclosed, vulnerabilities."
   tags:
     - java
@@ -1901,7 +1902,7 @@
   tags:
     - ruby
 - name: Refactoring Essentials
-  url: "http://vsrefactoringessentials.com/"
+  url: "https://marketplace.visualstudio.com/items?itemName=SharpDevelopTeam.RefactoringEssentialsforVisualStudio"
   description: "The free Visual Studio 2015 extension for C# and VB.NET refactorings, including code best practice analyzers."
   tags:
     - csharp
@@ -2384,7 +2385,7 @@
   tags:
     - go
 - name: unused
-  url: "https://github.com/dominikh/go-tools/tree/master/cmd/unused"
+  url: "https://github.com/dominikh/go-tools/tree/master/unused"
   description: Find unused variables.
   tags:
     - go
@@ -2448,7 +2449,7 @@
     - java
     - php
 - name: WAP
-  url: "https://www.owasp.org/index.php/OWASP_WAP-Web_Application_Protection"
+  url: "https://securityonline.info/owasp-wap-web-application-protection-project/"
   description: Tool to detect and correct input validation vulnerabilities in PHP (4.0 or higher) web applications and predicts false positives by combining static analysis and data mining.
   tags:
     - php
