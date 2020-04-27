@@ -14,7 +14,7 @@ jobs:
         with:
           # ldra.com sends gzipped content to all clients including curl, which fails the checker
           # See https://github.com/analysis-tools-dev/static-analysis/issues/350
-          args: README.md --exclude ldra.com
+          args: README.md --exclude "https://ldra.com$"
       - name: Create Issue From File
         uses: peter-evans/create-issue-from-file@v2
         with:
