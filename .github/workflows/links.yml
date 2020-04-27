@@ -12,7 +12,9 @@ jobs:
       - name: Link Checker
         uses: peter-evans/link-checker@v1
         with:
-          args: README.md
+          # ldra.com sends gzipped content to all clients including curl, which fails the checker
+          # See https://github.com/analysis-tools-dev/static-analysis/issues/350
+          args: README.md --exclude ldra.com
       - name: Create Issue From File
         uses: peter-evans/create-issue-from-file@v2
         with:
