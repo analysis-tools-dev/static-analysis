@@ -101,7 +101,7 @@
     - php
   proprietary: true
 - name: APPscreener
-  url: "https://appscreener.us"
+  url: "https://solarappscreener.com/"
   description: "Static code analysis for binary and source code - Java/Scala, PHP, Javascript, C#, PL/SQL, Python, T-SQL, C/C++, ObjectiveC/Swift, Visual Basic 6.0, Ruby, Delphi, ABAP, HTML5 and Solidity"
   tags:
     - c
