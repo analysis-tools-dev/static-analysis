@@ -1,0 +1,74 @@
+  - name: Android
+    tag: android
+  - name: Build tools
+    tag: buildtool
+  - name: Binaries
+    tag: binary
+  - name: More collections
+    tag: collection
+  - name: Compiler
+    tag: compiler
+  - name: Containers
+    tag: container
+  - name: Config Files
+    tag: configfile
+  - name: Configuration Management
+    tag: configmanagement
+  - name: CSS/SASS/SCSS
+    tag: css
+  - name: Gherkin
+    tag: gherkin
+  - name: Gradle
+    tag: gradle
+  - name: Haml
+    tag: haml
+  - name: HTML
+    tag: html
+  - name: HTML5
+    tag: html
+  - name: IDE Plugins
+    tag: ide
+  - name: LaTeX
+    tag: latex
+  - name: Less
+    tag: less
+  - name: Makefiles
+    tag: make
+  - name: Markdown
+    tag: markdown
+  - name: Mobile
+    tag: mobile
+  - name: Multiple Languages
+    tag: multi
+  - name: Node.js
+    tag: nodejs
+  - name: Packages
+    tag: package
+  - name: PhoneGap
+    tag: phonegap
+  - name: PowerShell
+    tag: powershell
+  - name: Protocol Buffers
+    tag: protobuf
+  - name: Supporting Tools
+    tag: support
+  - name: Template-Languages
+    tag: template
+  - name: Translation
+    tag: translation
+  - name: Visual Basic .NET
+    tag: vbnet
+  - name: Visual Basic
+    tag: vbasic
+  - name: Visualforce
+    tag: visualforce
+  - name: Vue.js
+    tag: vue
+  - name: Vyper (Smart contract)
+    tag: vyper
+  - name: Writing
+    tag: writing
+  - name: Web services
+    tag: service
+  - name: XML
+    tag: xml
