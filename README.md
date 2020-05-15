@@ -24,15 +24,15 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
     <li><a href="#ada">Ada</a></li>
     <li><a href="#awk">Awk</a></li>
     <li><a href="#c">C</a></li>
-    <li><a href="#cpp">C++</a></li>
-    <li><a href="#csharp">C#</a></li>
+    <li><a href="#c-2">C++</a></li>
+    <li><a href="#c-1">C#</a></li>
     <li><a href="#crystal">Crystal</a></li>
     <li><a href="#dlang">Dlang</a></li>
     <li><a href="#delphi">Delphi</a></li>
     <li><a href="#elixir">Elixir</a></li>
     <li><a href="#elm">Elm</a></li>
     <li><a href="#erlang">Erlang</a></li>
-    <li><a href="#fsharp">F#</a></li>
+    <li><a href="#f">F#</a></li>
     <li><a href="#fortran">Fortran</a></li>
     <li><a href="#go">Go</a></li>
     <li><a href="#groovy">Groovy</a></li>
@@ -46,7 +46,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
     <li><a href="#perl">Perl</a></li>
     <li><a href="#php">PHP</a></li>
     <li><a href="#python">Python</a></li>
-    <li><a href="#pythonwrapper">Python wrappers</a></li>
+    <li><a href="#python-wrappers">Python wrappers</a></li>
     <li><a href="#r">R</a></li>
     <li><a href="#rpg">RPG</a></li>
     <li><a href="#ruby">Ruby</a></li>
@@ -67,33 +67,33 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 #### [Other](#other-1)
 
 - [Android](#android)
-- [Build tools](#buildtool)
-- [Binaries](#binary)
-- [More collections](#collection)
+- [Build tools](#build-tools)
+- [Binaries](#binaries)
+- [More collections](#more-collections)
 - [Compiler](#compiler)
-- [Containers](#container)
-- [Config Files](#configfile)
-- [Configuration Management](#configmanagement)
-- [CSS&#x2F;SASS&#x2F;SCSS](#css)
+- [Containers](#containers)
+- [Config Files](#config-files)
+- [Configuration Management](#configuration-management)
+- [CSS&#x2F;SASS&#x2F;SCSS](#csssassscss)
 - [Gherkin](#gherkin)
 - [Gradle](#gradle)
 - [Haml](#haml)
 - [HTML](#html)
-- [HTML5](#html)
-- [IDE Plugins](#ide)
+- [HTML5](#html5)
+- [IDE Plugins](#ide-plugins)
 - [LaTeX](#latex)
 - [Less](#less)
-- [Makefiles](#make)
+- [Makefiles](#makefiles)
 - [Markdown](#markdown)
 - [Mobile](#mobile)
 - [Multiple Languages](#multi)
 - [Node.js](#nodejs)
-- [Packages](#package)
+- [Packages](#packages)
 - [PhoneGap](#phonegap)
 - [PowerShell](#powershell)
-- [Protocol Buffers](#protobuf)
-- [Supporting Tools](#support)
-- [Template-Languages](#template)
+- [Protocol Buffers](#protocol-buffers)
+- [Supporting Tools](#supporting-tools)
+- [Template-Languages](#template-languages)
 - [Translation](#translation)
 - [Visual Basic .NET](#vbnet)
 - [Visual Basic](#vbasic)
@@ -101,7 +101,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Vue.js](#vue)
 - [Vyper (Smart contract)](#vyper)
 - [Writing](#writing)
-- [Web services](#service)
+- [Web services](#web-services)
 - [XML](#xml)
 
 
