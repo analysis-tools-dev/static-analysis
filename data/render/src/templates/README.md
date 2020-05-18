@@ -40,7 +40,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 # Programming Languages
 {% for language, linters in catalog.linters %}
-## {{ language }}
+<h2 id="{{ language.tag }}">{{ language.name }}</h2>
 
 {% for linter in linters -%}
 
@@ -59,7 +59,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 # Other
 {% for category, others in catalog.others %}
-## {{ category }}
+<h2 id="{{ category.tag }}">{{ category.name }}</h2>
 
 {% for other in others -%}
 
