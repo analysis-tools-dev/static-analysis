@@ -54,7 +54,9 @@ pub fn group(categories: &Categories, entries: Vec<Entry>) -> Result<Catalog, Bo
             .map(|e| e.clone())
             .collect();
         if !list.is_empty() {
-            linters.insert(language.name.clone(), list);
+            let mut map = BTreeMap::new();
+            map.insert(language.tag.clone(), list);
+            linters.insert(language.name.clone(), map);
         }
     }
 
@@ -66,7 +68,9 @@ pub fn group(categories: &Categories, entries: Vec<Entry>) -> Result<Catalog, Bo
             .map(|e| e.clone())
             .collect();
         if !list.is_empty() {
-            others.insert(other.name.clone(), list);
+            let mut map = BTreeMap::new();
+            map.insert(other.tag.clone(), list);
+            others.insert(other.name.clone(), map);
         }
     }
 
