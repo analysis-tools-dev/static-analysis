@@ -168,112 +168,112 @@
   type: language
 - name: Android
   tag: android
-  type: other
+  type: tag
 - name: Build tools
   tag: buildtool
-  type: other
+  type: tag
 - name: Binaries
   tag: binary
-  type: other
+  type: tag
 - name: More collections
   tag: collection
-  type: other
+  type: tag
 - name: Compiler
   tag: compiler
-  type: other
+  type: tag
 - name: Containers
   tag: container
-  type: other
+  type: tag
 - name: Config Files
   tag: configfile
-  type: other
+  type: tag
 - name: Configuration Management
   tag: configmanagement
-  type: other
+  type: tag
 - name: CSS/SASS/SCSS
   tag: css
-  type: other
+  type: tag
 - name: Gherkin
   tag: gherkin
-  type: other
+  type: tag
 - name: Gradle
   tag: gradle
-  type: other
+  type: tag
 - name: Haml
   tag: haml
-  type: other
+  type: tag
 - name: HTML
   tag: html
-  type: other
+  type: tag
 - name: HTML5
   tag: html
-  type: other
+  type: tag
 - name: IDE Plugins
   tag: ide
-  type: other
+  type: tag
 - name: LaTeX
   tag: latex
-  type: other
+  type: tag
 - name: Less
   tag: less
-  type: other
+  type: tag
 - name: Makefiles
   tag: make
-  type: other
+  type: tag
 - name: Markdown
   tag: markdown
-  type: other
+  type: tag
 - name: Mobile
   tag: mobile
-  type: other
+  type: tag
 - name: Multiple Languages
   tag: multi
-  type: other
+  type: tag
 - name: Node.js
   tag: nodejs
-  type: other
+  type: tag
 - name: Packages
   tag: package
-  type: other
+  type: tag
 - name: PhoneGap
   tag: phonegap
-  type: other
+  type: tag
 - name: PowerShell
   tag: powershell
-  type: other
+  type: tag
 - name: Protocol Buffers
   tag: protobuf
-  type: other
+  type: tag
 - name: Supporting Tools
   tag: support
-  type: other
+  type: tag
 - name: Template-Languages
   tag: template
-  type: other
+  type: tag
 - name: Translation
   tag: translation
-  type: other
+  type: tag
 - name: Visual Basic .NET
   tag: vbnet
-  type: other
+  type: tag
 - name: Visual Basic
   tag: vbasic
-  type: other
+  type: tag
 - name: Visualforce
   tag: visualforce
-  type: other
+  type: tag
 - name: Vue.js
   tag: vue
-  type: other
+  type: tag
 - name: Vyper (Smart contract)
   tag: vyper
-  type: other
+  type: tag
 - name: Writing
   tag: writing
-  type: other
+  type: tag
 - name: Web services
   tag: service
-  type: other
+  type: tag
 - name: XML
   tag: xml
-  type: other
+  type: tag
