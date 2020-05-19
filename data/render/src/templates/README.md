@@ -39,13 +39,14 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 ---
 
 # Programming Languages
-{% for language, linters in catalog.linters %}
-## {{ language }}
+{% for language, map in catalog.linters %}
+{% for tag, linters in map -%}
+<h2 id="{{ tag }}">{{ language }}</h2>
 
 {% for linter in linters -%}
-
 * [{{linter.name }}]({{linter.url | safe }})
   {%- if linter.deprecated %} :warning:{% endif %} {% if linter.proprietary %}:copyright: {% endif %}- {{linter.description | safe }}
+{% endfor -%}
 {% endfor -%}
 {% endfor %}
 
@@ -58,12 +59,13 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 {% endfor %}
 
 # Other
-{% for category, others in catalog.others %}
-## {{ category }}
+{% for category, map in catalog.others %}
+{% for tag, others in map -%}
+<h2 id="{{ tag }}">{{ category }}</h2>
 
 {% for other in others -%}
-
 * [{{ other.name }}]({{ other.url | safe }}) - {{ other.description | safe }}
+{% endfor -%}
 {% endfor -%}
 {% endfor %}
 

@@ -70,7 +70,7 @@ impl Ord for Entry {
     }
 }
 
-pub type EntryMap = BTreeMap<String, Vec<Entry>>;
+pub type EntryMap = BTreeMap<String, BTreeMap<String,Vec<Entry>>>;
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Catalog {
