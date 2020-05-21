@@ -1444,6 +1444,7 @@
   description: NodeJsScan is a static security code scanner for Node.js applications.
   tags:
     - javascript
+    - nodejs
 - name: NullAway
   url: "https://github.com/uber/NullAway"
   description: "Type-based null-pointer checker with low build-time overhead; an [Error Prone](http://errorprone.info/) plugin"
