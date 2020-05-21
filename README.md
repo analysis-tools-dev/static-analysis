@@ -27,7 +27,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
     <li><a href="#cpp">C++</a></li>
     <li><a href="#csharp">C#</a></li>
     <li><a href="#crystal">Crystal</a></li>
-    <li><a href="#deno">Deno</a></li>
     <li><a href="#dlang">Dlang</a></li>
     <li><a href="#delphi">Delphi</a></li>
     <li><a href="#elixir">Elixir</a></li>
@@ -76,6 +75,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Config Files](#configfile)
 - [Configuration Management](#configmanagement)
 - [CSS&#x2F;SASS&#x2F;SCSS](#css)
+- [Deno](#deno)
 - [Gherkin](#gherkin)
 - [Gradle](#gradle)
 - [Haml](#haml)
@@ -217,10 +217,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [Fix Insight](https://www.tmssoftware.com/site/fixinsight.asp) :copyright: - A free IDE Plugin for static code analysis. A _Pro_ edition includes a command line tool for automation purposes.
 * [Pascal Analyzer](https://peganza.com/products_pal.html) :copyright: - A static code analysis tool with numerous reports. A free _Lite_ version is available with limited reporting.
 * [Pascal Expert](https://peganza.com/products_pex.html) :copyright: - IDE plugin for code analysis. Includes a subset of Pascal Analyzer reporting capabilities and is available for Delphi versions 2007 and later.
-
-<h2 id="deno">Deno</h2>
-
-* [deno_lint](https://github.com/denoland/deno_lint) - Official linter for Deno
 
 <h2 id="dlang">Dlang</h2>
 
@@ -669,6 +665,10 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 * [Docker Label Inspector](https://github.com/garethr/docker-label-inspector) - Lint and validate Dockerfile labels
 * [Haskell Dockerfile Linter](https://github.com/lukasmartinelli/hadolint) - A smarter Dockerfile linter that helpsyou build best practice Docker images
 * [kube-score](https://github.com/zegl/kube-score) - Static code analysis of your Kubernetes object definitions.
+
+<h2 id="deno">Deno</h2>
+
+* [deno_lint](https://github.com/denoland/deno_lint) - Official linter for Deno
 
 <h2 id="gherkin">Gherkin</h2>
 
