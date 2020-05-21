@@ -643,6 +643,11 @@
   description: A set of utilities for working with PO files to ease development and improve quality.
   tags:
     - translation
+- name: deno_lint
+  url: "https://github.com/denoland/deno_lint"
+  description: Official linter for Deno
+  tags:
+    - deno
 - name: Depends
   url: "https://github.com/multilang-depends/depends"
   description: "Analyses the comprehensive dependencies of code elements for Java, C/C++, Ruby."
