@@ -32,6 +32,8 @@ languages:
     tag: csharp
   - name: Crystal
     tag: crystal
+  - name: Deno
+    tag: deno
   - name: Dlang
     tag: dlang
   - name: Delphi
