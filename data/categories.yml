@@ -32,8 +32,6 @@ languages:
     tag: csharp
   - name: Crystal
     tag: crystal
-  - name: Deno
-    tag: deno
   - name: Dlang
     tag: dlang
   - name: Delphi
@@ -133,6 +131,8 @@ other:
     tag: configmanagement
   - name: CSS/SASS/SCSS
     tag: css
+  - name: Deno
+    tag: deno
   - name: Gherkin
     tag: gherkin
   - name: Gradle
