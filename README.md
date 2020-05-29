@@ -423,31 +423,31 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="python">Python</h2>
 
-* [bandit](https://github.com/PyCQA/bandit) - a tool to find common security issues in Python code
-* [bellybutton](https://github.com/hchasestevens/bellybutton) - a linting engine supporting custom project-specific rules
-* [Black](https://github.com/ambv/black) - The uncompromising Python code formatter
-* [cohesion](https://github.com/mschwager/cohesion) - a tool for measuring Python class cohesion
-* [Dlint](https://github.com/dlint-py/dlint) - a tool for ensuring Python code is secure
-* [include-gardener](https://github.com/feddischson/include_gardener) - a multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files.
-* [jedi](https://github.com/davidhalter/jedi) - autocompletion/static analysis library for Python
-* [linty fresh](https://github.com/lyft/linty_fresh) - parse lint errors and report them to Github as comments on a pull request
-* [mccabe](https://github.com/PyCQA/mccabe) - check McCabe complexity
-* [mypy](https://github.com/python/mypy) - a static type checker that aims to combine the benefits of duck typing and static typing, frequently used with [MonkeyType](https://github.com/Instagram/MonkeyType)
-* [py-find-injection](https://github.com/uber/py-find-injection) - find SQL injection vulnerabilities in Python code
-* [pycodestyle](https://github.com/PyCQA/pycodestyle) - (formerly `pep8`) check Python code against some of the style conventions in PEP 8
-* [pydocstyle](https://github.com/PyCQA/pydocstyle) - check compliance with Python docstring conventions
-* [pyflakes](https://github.com/pyflakes/pyflakes/) - check Python source files for errors
-* [pylint](https://github.com/PyCQA/pylint) - looks for programming errors, helps enforcing a coding standard and sniffs for some code smells. It additionally includes `pyreverse` (an UML diagram generator) and `symilar` (a similarities checker).
-* [pyre-check](https://github.com/facebook/pyre-check) - A fast, scalable type checker for large Python codebases
-* [pyright](https://github.com/Microsoft/pyright) - Static type checker for Python, created to address gaps in existing tools like mypy.
-* [pyroma](https://github.com/regebro/pyroma) - rate how well a Python project complies with the best practices of the Python packaging ecosystem, and list issues that could be improved
-* [PyT - Python Taint](https://github.com/python-security/pyt) - A static analysis tool for detecting security vulnerabilities in Python web applications.
-* [pytype](https://github.com/google/pytype) - A static type analyzer for Python code.
-* [radon](https://github.com/rubik/radon) - a Python tool that computes various metrics from the source code
-* [vulture](https://github.com/jendrikseipp/vulture) - find unused classes, functions and variables in Python code
-* [wemake-python-styleguide](https://github.com/wemake-services/wemake-python-styleguide) - the strictest and most opinionated python linter ever
-* [wily](https://github.com/tonybaloney/wily) - a command-line tool for archiving, exploring and graphing the complexity of Python source code
-* [xenon](https://github.com/rubik/xenon) - monitor code complexity using [`radon`](https://github.com/rubik/radon)
+* ![Github stars](https://img.shields.io/github/stars/PyCQA/bandit?style=social) [bandit](https://github.com/PyCQA/bandit) - a tool to find common security issues in Python code
+* ![Github stars](https://img.shields.io/github/stars/hchasestevens/bellybutton?style=social) [bellybutton](https://github.com/hchasestevens/bellybutton) - a linting engine supporting custom project-specific rules
+* ![Github stars](https://img.shields.io/github/stars/ambv/black?style=social) [Black](https://github.com/ambv/black) - The uncompromising Python code formatter
+* ![Github stars](https://img.shields.io/github/stars/mschwager/cohesion?style=social) [cohesion](https://github.com/mschwager/cohesion) - a tool for measuring Python class cohesion
+* ![Github stars](https://img.shields.io/github/stars/dlint-py/dlint?style=social) [Dlint](https://github.com/dlint-py/dlint) - a tool for ensuring Python code is secure
+* ![Github stars](https://img.shields.io/github/stars/feddischson/include_gardener?style=social) [include-gardener](https://github.com/feddischson/include_gardener) - a multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files.
+* ![Github stars](https://img.shields.io/github/stars/davidhalter/jedi?style=social) [jedi](https://github.com/davidhalter/jedi) - autocompletion/static analysis library for Python
+* ![Github stars](https://img.shields.io/github/stars/lyft/linty_fresh?style=social) [linty fresh](https://github.com/lyft/linty_fresh) - parse lint errors and report them to Github as comments on a pull request
+* ![Github stars](https://img.shields.io/github/stars/PyCQA/mccabe?style=social) [mccabe](https://github.com/PyCQA/mccabe) - check McCabe complexity
+* ![Github stars](https://img.shields.io/github/stars/python/mypy?style=social) [mypy](https://github.com/python/mypy) - a static type checker that aims to combine the benefits of duck typing and static typing, frequently used with [MonkeyType](https://github.com/Instagram/MonkeyType)
+* ![Github stars](https://img.shields.io/github/stars/uber/py-find-injection?style=social) [py-find-injection](https://github.com/uber/py-find-injection) - find SQL injection vulnerabilities in Python code
+* ![Github stars](https://img.shields.io/github/stars/PyCQA/pycodestyle?style=social) [pycodestyle](https://github.com/PyCQA/pycodestyle) - (formerly `pep8`) check Python code against some of the style conventions in PEP 8
+* ![Github stars](https://img.shields.io/github/stars/PyCQA/pydocstyle?style=social) [pydocstyle](https://github.com/PyCQA/pydocstyle) - check compliance with Python docstring conventions
+* ![Github stars](https://img.shields.io/github/stars/pyflakes/pyflakes?style=social) [pyflakes](https://github.com/pyflakes/pyflakes/) - check Python source files for errors
+* ![Github stars](https://img.shields.io/github/stars/PyCQA/pylint?style=social) [pylint](https://github.com/PyCQA/pylint) - looks for programming errors, helps enforcing a coding standard and sniffs for some code smells. It additionally includes `pyreverse` (an UML diagram generator) and `symilar` (a similarities checker).
+* ![Github stars](https://img.shields.io/github/stars/facebook/pyre-check?style=social) [pyre-check](https://github.com/facebook/pyre-check) - A fast, scalable type checker for large Python codebases
+* ![Github stars](https://img.shields.io/github/stars/Microsoft/pyright?style=social) [pyright](https://github.com/Microsoft/pyright) - Static type checker for Python, created to address gaps in existing tools like mypy.
+* ![Github stars](https://img.shields.io/github/stars/regebro/pyroma?style=social) [pyroma](https://github.com/regebro/pyroma) - rate how well a Python project complies with the best practices of the Python packaging ecosystem, and list issues that could be improved
+* ![Github stars](https://img.shields.io/github/stars/python-security/pyt?style=social) [PyT - Python Taint](https://github.com/python-security/pyt) - A static analysis tool for detecting security vulnerabilities in Python web applications.
+* ![Github stars](https://img.shields.io/github/stars/google/pytype?style=social) [pytype](https://github.com/google/pytype) - A static type analyzer for Python code.
+* ![Github stars](https://img.shields.io/github/stars/rubik/radon?style=social) [radon](https://github.com/rubik/radon) - a Python tool that computes various metrics from the source code
+* ![Github stars](https://img.shields.io/github/stars/jendrikseipp/vulture?style=social) [vulture](https://github.com/jendrikseipp/vulture) - find unused classes, functions and variables in Python code
+* ![Github stars](https://img.shields.io/github/stars/wemake-services/wemake-python-styleguide?style=social) [wemake-python-styleguide](https://github.com/wemake-services/wemake-python-styleguide) - the strictest and most opinionated python linter ever
+* ![Github stars](https://img.shields.io/github/stars/tonybaloney/wily?style=social) [wily](https://github.com/tonybaloney/wily) - a command-line tool for archiving, exploring and graphing the complexity of Python source code
+* ![Github stars](https://img.shields.io/github/stars/rubik/xenon?style=social) [xenon](https://github.com/rubik/xenon) - monitor code complexity using [`radon`](https://github.com/rubik/radon)
 
 <h2 id="pythonwrapper">Python wrappers</h2>
 
