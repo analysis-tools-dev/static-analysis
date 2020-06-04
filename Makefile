@@ -19,4 +19,4 @@ deploy: link
 
 .PHONY: render
 render:
-	(cd data/render && cargo run -- ../../data/categories.yml ../../data/data.yml) > README.md
+	(cd data/render && cargo run -- ../../data/tags.yml ../../data/tools.yml) > README.md

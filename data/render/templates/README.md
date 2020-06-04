@@ -46,7 +46,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 {% for linter in linters -%}
 
 - [{{linter.name }}]({{linter.url }})
-  {%- if linter.deprecated %} :warning:{% endif %} {% if linter.proprietary %}:copyright: {% endif %}- {{linter.description }}
+  {%- if linter.deprecated.is_some() %} :warning:{% endif %} {% if linter.proprietary.is_some() %}:copyright: {% endif %}- {{linter.description }}
   {% endfor -%}
   {% endfor %}
 
@@ -54,8 +54,8 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 {% for linter in multi -%}
 
-- [{{linter.name }}]({{linter.url | safe }})
-  {%- if linter.deprecated %} :warning:{% endif %} {% if linter.proprietary %}:copyright: {% endif %}- {{linter.description | safe }}
+- [{{linter.name }}]({{linter.url }})
+  {%- if linter.deprecated.is_some() %} :warning:{% endif %} {% if linter.proprietary.is_some() %}:copyright: {% endif %}- {{linter.description }}
   {% endfor %}
 
 # Other
@@ -66,7 +66,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 {% for other in others -%}
 
-- [{{ other.name }}]({{ other.url | safe }}) - {{ other.description | safe }}
+- [{{ other.name }}]({{ other.url }}) - {{ other.description }}
   {% endfor -%}
   {% endfor %}
 
