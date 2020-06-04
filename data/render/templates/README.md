@@ -40,7 +40,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 {% for (language, linters) in linters %}
 
-## {{ language.name }}
+<h2 id="{{ language.tag }}">{{ language.name }}</h2>
 
 {% for linter in linters -%}
 - [{{linter.name }}]({{linter.url }})
@@ -60,7 +60,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 {% for (tag, others) in others %}
 
-## {{ tag.name }}
+<h2 id="{{ tag.tag }}">{{ tag.name }}</h2>
 
 {% for other in others -%}
 - [{{ other.name }}]({{ other.url }}) - {{ other.description }}
@@ -72,9 +72,9 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [go-tools](https://github.com/dominikh/go-tools) - A collection of tools and libraries for working with Go code, including linters and static analysis
 - [linters](https://github.com/mcandre/linters) - An introduction to static code analysis
-- [php-static-analysis-tools](https://github.com/exakat/php-static-analysis-tools) - A reviewed list of useful PHP static analysis tools
+- [php-static-analysis-tools](https://github.com/exakat/php-static-analysis-tools) -  A reviewed list of useful PHP static analysis tools
 - [Tools for C/C++](https://www.peerlyst.com/posts/a-list-of-static-analysis-tools-for-c-c-peerlyst?utm_source=twitter&utm_medium=social&utm_content=peerlyst_post&utm_campaign=peerlyst_resources) - A list of static analysis tools for C/C++
-- [Wikipedia](http://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis) - A list of tools for static code analysis.
+- [Wikipedia](http://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis) -  A list of tools for static code analysis.
 
 ## License
 
