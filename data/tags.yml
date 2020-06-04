@@ -130,6 +130,9 @@
 - name: RPG
   tag: rpg
   type: language
+- name: Rails
+  tag: rails
+  type: other
 - name: Ruby
   tag: ruby
   type: language
@@ -178,9 +181,6 @@
 - name: More collections
   tag: collection
   type: other
-- name: Compiler
-  tag: compiler
-  type: other
 - name: Containers
   tag: container
   type: other
@@ -195,9 +195,6 @@
   type: other
 - name: Gherkin
   tag: gherkin
-  type: other
-- name: Gradle
-  tag: gradle
   type: other
 - name: Haml
   tag: haml
