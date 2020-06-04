@@ -169,9 +169,6 @@
 - name: Visual Basic for Applications (VBA)
   tag: vba
   type: language
-- name: Android
-  tag: android
-  type: other
 - name: Build tools
   tag: buildtool
   type: other

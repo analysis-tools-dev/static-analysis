@@ -66,6 +66,9 @@ pub fn group(tags: &Tags, entries: Vec<Entry>) -> Result<Catalog, Box<dyn Error>
         .filter(|t| t.tag_type == Type::Other)
         .collect();
     for other in other_tags {
+        // if other.tag == "android".to_string() {
+        //     println!("{:?}", entries);
+        // }
         let list: Vec<Entry> = entries
             .iter()
             .filter(|e| e.tags.contains(&other.tag))
