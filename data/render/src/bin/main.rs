@@ -2,6 +2,7 @@ use render::types::{Entry, Tags};
 use render::{group, validate};
 use std::env;
 use std::error::Error;
+use askama::Template;
 
 fn get_files() -> Result<(String, String), Box<dyn Error>> {
     let files: Vec<_> = env::args().skip(1).collect();
@@ -28,6 +29,6 @@ fn main() -> Result<(), Box<dyn Error>> {
     validate(&categories, &entries)?;
 
     let catalog = group(&categories, entries)?;
-    println!("{}", catalog.render());
+    println!("{}", catalog.render()?);
     Ok(())
 }

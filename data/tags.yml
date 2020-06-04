@@ -52,6 +52,9 @@
 - name: Delphi
   tag: delphi
   type: language
+- name: Deno
+  tag: deno
+  type: other
 - name: Elixir
   tag: elixir
   type: language
