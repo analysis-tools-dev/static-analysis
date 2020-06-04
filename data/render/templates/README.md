@@ -53,7 +53,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 {% for linter in multi -%}
 - [{{linter.name }}]({{linter.url }})
-{%- if linter.deprecated.is_some() %} :warning:{% endif %} {% if linter.proprietary.is_some() %}:copyright: {% endif %}- {{ linter.description }}
+{%- if linter.deprecated.is_some() %} :warning:{% endif %} {% if linter.proprietary.is_some() %}:copyright: {% endif %}- {{ linter.description }} 
 {% endfor %}
 
 # Other

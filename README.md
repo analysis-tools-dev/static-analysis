@@ -573,65 +573,65 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 # Multiple languages
 
-- [AppChecker](https://npo-echelon.ru/en/solutions/appchecker.php) :copyright: - Static analysis for C/C++/C#, PHP and Java
-- [Application Inspector](https://www.ptsecurity.com/ww-en/products/ai/) :copyright: - Commercial Static Code Analysis which generates exploits to verify vulnerabilities.
-- [ApplicationInspector](https://github.com/microsoft/ApplicationInspector)  - Creates reports of over 400 rule patterns for feature detection (e.g. the use of cryptography or version control in apps).
-- [AppScan Source](https://www.hcltechsw.com/wps/portal/products/appscan/home) :copyright: - Commercial Static Code Analysis.
-- [APPscreener](https://solarappscreener.com/) :copyright: - Static code analysis for binary and source code - Java/Scala, PHP, Javascript, C#, PL/SQL, Python, T-SQL, C/C++, ObjectiveC/Swift, Visual Basic 6.0, Ruby, Delphi, ABAP, HTML5 and Solidity
-- [ArchUnit](https://www.archunit.org/)  - Unit test your Java or Kotlin architecture
-- [Atom-Beautify](https://atom.io/packages/atom-beautify)  - Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom editor
-- [Axivion Bauhaus Suite](https://www.axivion.com/en/products-services-9#products_bauhaussuite) :copyright: - Tracks down error-prone code locations, style violations, cloned or dead code, cyclic dependencies and more for C/C++, C#/.NET, Java and Ada 83/Ada 95
-- [CAST Highlight](https://www.castsoftware.com/products/highlight) :copyright: - Commercial Static Code Analysis which runs locally, but uploads the results to its cloud for presentation.
-- [Checkmarx CxSAST](https://www.checkmarx.com/products/static-application-security-testing/) :copyright: - Commercial Static Code Analysis which doesn't require pre-compilation.
-- [ClassGraph](https://github.com/classgraph/classgraph)  - a classpath and module path scanner for querying or visualizing class metadata or class relatedness.
-- [coala](https://coala.io/)  - Language independent framework for creating code analysis - supports [over 60 languages](https://coala.io/languages) by default
-- [Cobra](http://spinroot.com/cobra/) :copyright: - Structural source code analyzer by NASA's Jet Propulsion Laboratory.
-- [codeburner](https://github.com/groupon/codeburner)  - Provides a unified interface to sort and act on the issues it finds
-- [CodeFactor](https://codefactor.io) :copyright: - Static Code Analysis for C#, C, C++, CoffeeScript, CSS, Groovy, GO, JAVA, JavaScript, Less, Python, Ruby, Scala, SCSS, TypeScript.
-- [CodeIt.Right](https://submain.com/products/codeit.right.aspx) :copyright: - CodeIt.Right&trade; provides a fast, automated way to ensure that your source code adheres to (your) predefined design and style guidelines as well as best coding practices. Supported languages: C#, VB.NET.
-- [CodeScene](https://empear.com/) :copyright: - CodeScene prioritizes technical debt, finds social patterns and identifies hidden risks in your code.
-- [Coverity](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html) :copyright: - Synopsys Coverity supports 20 languages and over 70 frameworks including Ruby on rails, Scala, PHP, Python, JavaScript, TypeScript, Java, Fortran, C, C++, C#, VB.NET.
-- [cqc](https://github.com/xcatliu/cqc)  - Check your code quality for js, jsx, vue, css, less, scss, sass and styl files.
-- [dawnscanner](https://github.com/thesp0nge/dawnscanner)  - a static analysis security scanner for ruby written web applications. It supports Sinatra, Padrino and Ruby on Rails frameworks.
-- [DeepCode](https://www.deepcode.ai/) :copyright: - DeepCode finds bugs, security vulnerabilities, performance and API issues based on AI. DeepCode's speed of analysis allow us to analyse your code in real time and deliver results when you hit the save button in your IDE. Supported languages are Java, C/C++, JavaScript, Python, and TypeScript. Integrations with GitHub, BitBucket and Gitlab.
-- [DeepSource](https://deepsource.io/) :copyright: - In-depth static analysis to monitor source code quality and security. Supports Python and Go and can detect 600+ types of issues in verticals of bug risks, security, anti-patterns, performance, documentation and style. Native integration with GitHub.
-- [Depends](https://github.com/multilang-depends/depends)  - Analyses the comprehensive dependencies of code elements for Java, C/C++, Ruby.
-- [DevSkim](https://github.com/microsoft/devskim)  - Regex-based static analysis tool for Visual Studio, VS Code, and Sublime Text - C/C++, C#, PHP, ASP, Python, Ruby, Java, and others.
-- [Embold](https://embold.io) :copyright: - Intelligent software analytics platform that identifies design issues, code issues, duplication and metrics. Supports Java, C, C++, C#, JavaScript, TypeScript, Python, Go, Kotlin and more.
-- [Fortify](https://software.microfocus.com/en-us/products/static-code-analysis-sast/overview) :copyright: - A commercial static analysis platform that supports the scanning of C/C++, C#, VB.NET, VB6, ABAP/BSP, ActionScript, Apex, ASP.NET, Classic ASP, VB Script, Cobol, ColdFusion, HTML, Java, JS, JSP, MXML/Flex, Objective-C, PHP, PL/SQL, T-SQL, Python (2.6, 2.7), Ruby (1.9.3), Swift, Scala, VB, and XML.
-- [Goodcheck](https://github.com/sideci/goodcheck)  - Regexp based customizable linter
-- [graudit](https://github.com/wireghoul/graudit)  - Grep rough audit - source code auditing tool - C/C++, PHP, ASP, C#, Java, Perl, Python, Ruby
-- [Hound CI](https://houndci.com/)  - Comments on style violations in GitHub pull requests. Supports Coffeescript, Go, HAML, JavaScript, Ruby, SCSS and Swift.
-- [imhotep](https://github.com/justinabrahms/imhotep)  - Comment on commits coming into your repository and check for syntactic errors and general lint warnings.
-- [Infer](https://github.com/facebook/infer)  - A static analyzer for Java, C and Objective-C
-- [InsiderSec](https://github.com/insidersec/insider)  - A open source Static Application Security Testing tool (SAST) written in GoLang for Java (Maven and Android), Kotlin (Android), Swift (iOS), .NET Full Framework, C# and Javascript (Node.js).
-- [Kiuwan](https://www.kiuwan.com/code-security-sast/) :copyright: - Identify and remediate cyber threats in a blazingly fast, collaborative environment, with seamless integration in your SDLC. Python, C\C++, Java, C#, PHP and more
-- [Klocwork](http://www.klocwork.com/products-services/klocwork) :copyright: - Quality and Security Static analysis for C/C++, Java and C#
-- [NodeJSScan](https://github.com/ajinabraham/NodeJsScan)  - NodeJsScan is a static security code scanner for Node.js applications.
-- [oclint](https://github.com/oclint/oclint)  - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C
-- [pfff](https://github.com/facebook/pfff)  - Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages
-- [PMD](https://pmd.github.io/)  - A source code analyzer for Java, Javascript, PLSQL, XML, XSL and others
-- [pre-commit](https://github.com/pre-commit/pre-commit)  - A framework for managing and maintaining multi-language pre-commit hooks.
-- [Pronto](https://github.com/prontolabs/pronto)  - Quick automated code review of your changes. Supports more than 40 runners for various languages, including Clang, Elixir, JavaSCript, PHP, Ruby and more
-- [PT.PM](https://github.com/PositiveTechnologies/PT.PM)  - An engine for searching patterns in the source code, based on Unified AST or UST. At present time C#, Java, PHP, PL/SQL, T-SQL, and JavaScript are supported. Patterns can be described within the code or using a DSL.
-- [PVS-Studio](https://www.viva64.com/en/pvs-studio/) :copyright: - a ([conditionally free](https://www.viva64.com/en/b/0614/) for FOSS and individual developers) static analysis of C, C++, C# and Java code. For advertising purposes [you can propose a large FOSS project for analysis by PVS employees](https://github.com/viva64/pvs-studio-check-list). Supports CWE mapping, MISRA and CERT coding standards.
-- [Qualys Container Security](https://www.qualys.com/apps/container-security/) :copyright: - Container native application protection to provide visibility and control of containerized applications.
-- [Reviewdog](https://github.com/haya14busa/reviewdog)  - A tool for posting review comments from any linter in any code hosting service.
-- [Security Code Scan](https://security-code-scan.github.io/)  - Security code analyzer for C# and VB.NET. Detects various security vulnerability patterns: SQLi, XSS, CSRF, XXE, Open Redirect, etc.
-- [Semmle QL and LGTM](https://semmle.com/) :copyright: - Find security vulnerabilities, variants, and critical code quality issues using queries over source code. Automatic PR code review; free for public GitHub/Bitbucket repo: [LGTM.com](https://LGTM.com).
-- [shipshape](https://github.com/google/shipshape)  - Static program analysis platform that allows custom analyzers to plug in through a common interface
-- [SmartDec Scanner](https://smartdecscanner.com/) :copyright: - SAST tool which is capable of identifying vulnerabilities and undocumented features. The analyzer scans the source code and executables without debug info (i.e. binaries). Supports: Java/Scala/Kotlin, PHP, C#, JavaScript, TypeScript, VBScript, HTML5, Python, Perl, C/C++, Objective-C/Swift, PL/SQL, T-SQL, ABAP, 1C, Apex, Go, Ruby, Groovy, Delphi, VBA, Visual Basic 6, Solidity, Vyper, COBOL.
-- [SonarQube](http://www.sonarqube.org/)  - SonarQube is an open platform to manage code quality.
-- [STOKE](https://github.com/StanfordPL/stoke)  - a programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations
-- [Synopsys](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html) :copyright: - A commercial static analysis platform that allows for scanning of multiple languages (C/C++, Android, C#, Java, JS, PHP, Python, Node.JS, Ruby, Fortran, and Swift)
-- [TscanCode](https://github.com/Tencent/TscanCode)  - A fast and accurate static analysis solution for C/C++, C#, Lua codes provided by Tencent. Using GPLv3 license.
-- [Undebt](https://github.com/Yelp/undebt)  - Language-independent tool for massive, automatic, programmable refactoring based on simple pattern definitions
-- [Unibeautify](https://unibeautify.com/)  - Universal code beautifier with a GitHub app. Supports HTML, CSS, JavaScript, TypeScript, JSX, Vue, C++, Go, Objective-C, Java, Python, PHP, GraphQL, Markdown, and more.
-- [Veracode](http://www.veracode.com/products/static-analysis-sast/static-code-analysis) :copyright: - Find flaws in binaries and bytecode without requiring source. Support all major programming languages: Java, .NET, JavaScript, Swift, Objective-C, C, C++ and more.
-- [WALA](http://wala.sourceforge.net/wiki/index.php/Main_Page)  - static analysis capabilities for Java bytecode and related languages and for JavaScript
-- [WhiteHat Application Security Platform](https://www.whitehatsec.com/products/static-application-security-testing/) :copyright: - WhiteHat Scout (for Developers) combined with WhiteHat Sentinel Source (for Operations) supporting WhiteHat Top 40 and OWASP Top 10. Language support for: Java, C#(.NET), ASP.NET, PHP, JavaScript, Node.js, Objective-C, Android, HTML5, TypeScript.
-- [Wotan](https://github.com/fimbullinter/wotan)  - Pluggable TypeScript and JavaScript linter
-- [XCode](https://developer.apple.com/xcode/) :copyright: - XCode provides a pretty decent UI for [Clang's](http://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C)
+- [AppChecker](https://npo-echelon.ru/en/solutions/appchecker.php) :copyright: - Static analysis for C/C++/C#, PHP and Java 
+- [Application Inspector](https://www.ptsecurity.com/ww-en/products/ai/) :copyright: - Commercial Static Code Analysis which generates exploits to verify vulnerabilities. 
+- [ApplicationInspector](https://github.com/microsoft/ApplicationInspector)  - Creates reports of over 400 rule patterns for feature detection (e.g. the use of cryptography or version control in apps). 
+- [AppScan Source](https://www.hcltechsw.com/wps/portal/products/appscan/home) :copyright: - Commercial Static Code Analysis. 
+- [APPscreener](https://solarappscreener.com/) :copyright: - Static code analysis for binary and source code - Java/Scala, PHP, Javascript, C#, PL/SQL, Python, T-SQL, C/C++, ObjectiveC/Swift, Visual Basic 6.0, Ruby, Delphi, ABAP, HTML5 and Solidity 
+- [ArchUnit](https://www.archunit.org/)  - Unit test your Java or Kotlin architecture 
+- [Atom-Beautify](https://atom.io/packages/atom-beautify)  - Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom editor 
+- [Axivion Bauhaus Suite](https://www.axivion.com/en/products-services-9#products_bauhaussuite) :copyright: - Tracks down error-prone code locations, style violations, cloned or dead code, cyclic dependencies and more for C/C++, C#/.NET, Java and Ada 83/Ada 95 
+- [CAST Highlight](https://www.castsoftware.com/products/highlight) :copyright: - Commercial Static Code Analysis which runs locally, but uploads the results to its cloud for presentation. 
+- [Checkmarx CxSAST](https://www.checkmarx.com/products/static-application-security-testing/) :copyright: - Commercial Static Code Analysis which doesn't require pre-compilation. 
+- [ClassGraph](https://github.com/classgraph/classgraph)  - a classpath and module path scanner for querying or visualizing class metadata or class relatedness. 
+- [coala](https://coala.io/)  - Language independent framework for creating code analysis - supports [over 60 languages](https://coala.io/languages) by default 
+- [Cobra](http://spinroot.com/cobra/) :copyright: - Structural source code analyzer by NASA's Jet Propulsion Laboratory. 
+- [codeburner](https://github.com/groupon/codeburner)  - Provides a unified interface to sort and act on the issues it finds 
+- [CodeFactor](https://codefactor.io) :copyright: - Static Code Analysis for C#, C, C++, CoffeeScript, CSS, Groovy, GO, JAVA, JavaScript, Less, Python, Ruby, Scala, SCSS, TypeScript. 
+- [CodeIt.Right](https://submain.com/products/codeit.right.aspx) :copyright: - CodeIt.Right&trade; provides a fast, automated way to ensure that your source code adheres to (your) predefined design and style guidelines as well as best coding practices. Supported languages: C#, VB.NET. 
+- [CodeScene](https://empear.com/) :copyright: - CodeScene prioritizes technical debt, finds social patterns and identifies hidden risks in your code. 
+- [Coverity](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html) :copyright: - Synopsys Coverity supports 20 languages and over 70 frameworks including Ruby on rails, Scala, PHP, Python, JavaScript, TypeScript, Java, Fortran, C, C++, C#, VB.NET. 
+- [cqc](https://github.com/xcatliu/cqc)  - Check your code quality for js, jsx, vue, css, less, scss, sass and styl files. 
+- [dawnscanner](https://github.com/thesp0nge/dawnscanner)  - a static analysis security scanner for ruby written web applications. It supports Sinatra, Padrino and Ruby on Rails frameworks. 
+- [DeepCode](https://www.deepcode.ai/) :copyright: - DeepCode finds bugs, security vulnerabilities, performance and API issues based on AI. DeepCode's speed of analysis allow us to analyse your code in real time and deliver results when you hit the save button in your IDE. Supported languages are Java, C/C++, JavaScript, Python, and TypeScript. Integrations with GitHub, BitBucket and Gitlab. 
+- [DeepSource](https://deepsource.io/) :copyright: - In-depth static analysis to monitor source code quality and security. Supports Python and Go and can detect 600+ types of issues in verticals of bug risks, security, anti-patterns, performance, documentation and style. Native integration with GitHub. 
+- [Depends](https://github.com/multilang-depends/depends)  - Analyses the comprehensive dependencies of code elements for Java, C/C++, Ruby. 
+- [DevSkim](https://github.com/microsoft/devskim)  - Regex-based static analysis tool for Visual Studio, VS Code, and Sublime Text - C/C++, C#, PHP, ASP, Python, Ruby, Java, and others. 
+- [Embold](https://embold.io) :copyright: - Intelligent software analytics platform that identifies design issues, code issues, duplication and metrics. Supports Java, C, C++, C#, JavaScript, TypeScript, Python, Go, Kotlin and more. 
+- [Fortify](https://software.microfocus.com/en-us/products/static-code-analysis-sast/overview) :copyright: - A commercial static analysis platform that supports the scanning of C/C++, C#, VB.NET, VB6, ABAP/BSP, ActionScript, Apex, ASP.NET, Classic ASP, VB Script, Cobol, ColdFusion, HTML, Java, JS, JSP, MXML/Flex, Objective-C, PHP, PL/SQL, T-SQL, Python (2.6, 2.7), Ruby (1.9.3), Swift, Scala, VB, and XML. 
+- [Goodcheck](https://github.com/sideci/goodcheck)  - Regexp based customizable linter 
+- [graudit](https://github.com/wireghoul/graudit)  - Grep rough audit - source code auditing tool - C/C++, PHP, ASP, C#, Java, Perl, Python, Ruby 
+- [Hound CI](https://houndci.com/)  - Comments on style violations in GitHub pull requests. Supports Coffeescript, Go, HAML, JavaScript, Ruby, SCSS and Swift. 
+- [imhotep](https://github.com/justinabrahms/imhotep)  - Comment on commits coming into your repository and check for syntactic errors and general lint warnings. 
+- [Infer](https://github.com/facebook/infer)  - A static analyzer for Java, C and Objective-C 
+- [InsiderSec](https://github.com/insidersec/insider)  - A open source Static Application Security Testing tool (SAST) written in GoLang for Java (Maven and Android), Kotlin (Android), Swift (iOS), .NET Full Framework, C# and Javascript (Node.js). 
+- [Kiuwan](https://www.kiuwan.com/code-security-sast/) :copyright: - Identify and remediate cyber threats in a blazingly fast, collaborative environment, with seamless integration in your SDLC. Python, C\C++, Java, C#, PHP and more 
+- [Klocwork](http://www.klocwork.com/products-services/klocwork) :copyright: - Quality and Security Static analysis for C/C++, Java and C# 
+- [NodeJSScan](https://github.com/ajinabraham/NodeJsScan)  - NodeJsScan is a static security code scanner for Node.js applications. 
+- [oclint](https://github.com/oclint/oclint)  - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C 
+- [pfff](https://github.com/facebook/pfff)  - Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages 
+- [PMD](https://pmd.github.io/)  - A source code analyzer for Java, Javascript, PLSQL, XML, XSL and others 
+- [pre-commit](https://github.com/pre-commit/pre-commit)  - A framework for managing and maintaining multi-language pre-commit hooks. 
+- [Pronto](https://github.com/prontolabs/pronto)  - Quick automated code review of your changes. Supports more than 40 runners for various languages, including Clang, Elixir, JavaSCript, PHP, Ruby and more 
+- [PT.PM](https://github.com/PositiveTechnologies/PT.PM)  - An engine for searching patterns in the source code, based on Unified AST or UST. At present time C#, Java, PHP, PL/SQL, T-SQL, and JavaScript are supported. Patterns can be described within the code or using a DSL. 
+- [PVS-Studio](https://www.viva64.com/en/pvs-studio/) :copyright: - a ([conditionally free](https://www.viva64.com/en/b/0614/) for FOSS and individual developers) static analysis of C, C++, C# and Java code. For advertising purposes [you can propose a large FOSS project for analysis by PVS employees](https://github.com/viva64/pvs-studio-check-list). Supports CWE mapping, MISRA and CERT coding standards. 
+- [Qualys Container Security](https://www.qualys.com/apps/container-security/) :copyright: - Container native application protection to provide visibility and control of containerized applications. 
+- [Reviewdog](https://github.com/haya14busa/reviewdog)  - A tool for posting review comments from any linter in any code hosting service. 
+- [Security Code Scan](https://security-code-scan.github.io/)  - Security code analyzer for C# and VB.NET. Detects various security vulnerability patterns: SQLi, XSS, CSRF, XXE, Open Redirect, etc. 
+- [Semmle QL and LGTM](https://semmle.com/) :copyright: - Find security vulnerabilities, variants, and critical code quality issues using queries over source code. Automatic PR code review; free for public GitHub/Bitbucket repo: [LGTM.com](https://LGTM.com). 
+- [shipshape](https://github.com/google/shipshape)  - Static program analysis platform that allows custom analyzers to plug in through a common interface 
+- [SmartDec Scanner](https://smartdecscanner.com/) :copyright: - SAST tool which is capable of identifying vulnerabilities and undocumented features. The analyzer scans the source code and executables without debug info (i.e. binaries). Supports: Java/Scala/Kotlin, PHP, C#, JavaScript, TypeScript, VBScript, HTML5, Python, Perl, C/C++, Objective-C/Swift, PL/SQL, T-SQL, ABAP, 1C, Apex, Go, Ruby, Groovy, Delphi, VBA, Visual Basic 6, Solidity, Vyper, COBOL. 
+- [SonarQube](http://www.sonarqube.org/)  - SonarQube is an open platform to manage code quality. 
+- [STOKE](https://github.com/StanfordPL/stoke)  - a programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations 
+- [Synopsys](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html) :copyright: - A commercial static analysis platform that allows for scanning of multiple languages (C/C++, Android, C#, Java, JS, PHP, Python, Node.JS, Ruby, Fortran, and Swift) 
+- [TscanCode](https://github.com/Tencent/TscanCode)  - A fast and accurate static analysis solution for C/C++, C#, Lua codes provided by Tencent. Using GPLv3 license. 
+- [Undebt](https://github.com/Yelp/undebt)  - Language-independent tool for massive, automatic, programmable refactoring based on simple pattern definitions 
+- [Unibeautify](https://unibeautify.com/)  - Universal code beautifier with a GitHub app. Supports HTML, CSS, JavaScript, TypeScript, JSX, Vue, C++, Go, Objective-C, Java, Python, PHP, GraphQL, Markdown, and more. 
+- [Veracode](http://www.veracode.com/products/static-analysis-sast/static-code-analysis) :copyright: - Find flaws in binaries and bytecode without requiring source. Support all major programming languages: Java, .NET, JavaScript, Swift, Objective-C, C, C++ and more. 
+- [WALA](http://wala.sourceforge.net/wiki/index.php/Main_Page)  - static analysis capabilities for Java bytecode and related languages and for JavaScript 
+- [WhiteHat Application Security Platform](https://www.whitehatsec.com/products/static-application-security-testing/) :copyright: - WhiteHat Scout (for Developers) combined with WhiteHat Sentinel Source (for Operations) supporting WhiteHat Top 40 and OWASP Top 10. Language support for: Java, C#(.NET), ASP.NET, PHP, JavaScript, Node.js, Objective-C, Android, HTML5, TypeScript. 
+- [Wotan](https://github.com/fimbullinter/wotan)  - Pluggable TypeScript and JavaScript linter 
+- [XCode](https://developer.apple.com/xcode/) :copyright: - XCode provides a pretty decent UI for [Clang's](http://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C) 
 
 
 # Other
