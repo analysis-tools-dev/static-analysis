@@ -7,22 +7,20 @@ mod lints;
 pub mod types;
 
 use std::collections::BTreeMap;
-use types::{Catalog, Categories, Entry};
-
-use tera::{Context, Tera};
+use types::{Catalog, Entry, Tag, Tags, Type};
 
 fn valid(entry: &Entry) -> Result<(), Box<dyn Error>> {
-    let lints = [lints::filename, lints::min_one_tag];
+    let lints = [lints::name, lints::min_one_tag];
     lints.iter().map(|lint| Ok(lint(&entry)?)).collect()
 }
 
-pub fn validate(categories: &Categories, entries: &Vec<Entry>) -> Result<(), Box<dyn Error>> {
+pub fn validate(tags: &Tags, entries: &Vec<Entry>) -> Result<(), Box<dyn Error>> {
     for entry in entries {
-        for tag in &entry.tags {
-            if !categories.contains(tag) {
+        for entry_tag in &entry.tags {
+            if !tags.iter().any(|tag| &tag.tag == entry_tag) {
                 return Err(format!(
-                "Unknown tag `{}` for entry `{}`. It might be missing from the `categories.yml` file.",
-                tag , entry.name
+                "Unknown tag `{}` for entry `{}`. It might be missing from the `tags.yml` file.",
+                entry_tag , entry.name
             )
                 .into());
             }
@@ -34,43 +32,47 @@ pub fn validate(categories: &Categories, entries: &Vec<Entry>) -> Result<(), Box
     Ok(())
 }
 
-pub fn group(categories: &Categories, entries: Vec<Entry>) -> Result<Catalog, Box<dyn Error>> {
+pub fn group(tags: &Tags, entries: Vec<Entry>) -> Result<Catalog, Box<dyn Error>> {
     let mut linters = BTreeMap::new();
 
     // Move tools that support multiple languages into their own category
     let (multi, entries): (Vec<Entry>, Vec<Entry>) = entries.into_iter().partition(|entry| {
         entry.tags.len() > 1
             && entry.tags
-                != ["c".to_string(), "cpp".to_string()]
-                    .iter()
-                    .cloned()
+                != vec!["c".to_string(), "cpp".to_string()]
+                    .into_iter()
                     .collect()
     });
 
-    for language in &categories.languages {
+    let languages: Vec<&Tag> = tags
+        .into_iter()
+        .filter(|t| t.tag_type == Type::Language)
+        .collect();
+
+    for language in languages {
         let list: Vec<Entry> = entries
             .iter()
             .filter(|e| e.tags.contains(&language.tag))
             .map(|e| e.clone())
             .collect();
         if !list.is_empty() {
-            let mut map = BTreeMap::new();
-            map.insert(language.tag.clone(), list);
-            linters.insert(language.name.clone(), map);
+            linters.insert(language.clone(), list);
         }
     }
 
     let mut others = BTreeMap::new();
-    for other in &categories.other {
+    let other_tags: Vec<&Tag> = tags
+        .into_iter()
+        .filter(|t| t.tag_type == Type::Other)
+        .collect();
+    for other in other_tags {
         let list: Vec<Entry> = entries
             .iter()
             .filter(|e| e.tags.contains(&other.tag))
             .map(|e| e.clone())
             .collect();
         if !list.is_empty() {
-            let mut map = BTreeMap::new();
-            map.insert(other.tag.clone(), list);
-            others.insert(other.name.clone(), map);
+            others.insert(other.clone(), list);
         }
     }
 
@@ -79,15 +81,4 @@ pub fn group(categories: &Categories, entries: Vec<Entry>) -> Result<Catalog, Bo
         others,
         multi,
     })
-}
-
-pub fn render(
-    template: &str,
-    catalog: Catalog,
-    categories: Categories,
-) -> Result<String, Box<dyn Error>> {
-    let mut context = Context::new();
-    context.insert("catalog", &catalog);
-    context.insert("categories", &categories);
-    Ok(Tera::one_off(template, &context, true)?)
 }
