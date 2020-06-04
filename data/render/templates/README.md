@@ -30,9 +30,9 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 #### [Other](#other-1)
 
-{% for (other, _) in others -%}
+{% for (tag, _) in others -%}
 
-- [{{ other.name }}](#{{ other.tag }})
+- [{{ tag.name }}](#{{ tag.tag }})
   {% endfor %}
 
 ---
@@ -41,34 +41,33 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 {% for (language, linters) in linters %}
 
-## {{ language }}
+## {{ language.name }}
 
 {% for linter in linters -%}
-
 - [{{linter.name }}]({{linter.url }})
-  {%- if linter.deprecated.is_some() %} :warning:{% endif %} {% if linter.proprietary.is_some() %}:copyright: {% endif %}- {{linter.description }}
-  {% endfor -%}
-  {% endfor %}
+{%- if linter.deprecated.is_some() %} :warning:{% endif %} {% if linter.proprietary.is_some() %}:copyright: {% endif %}- {{ linter.description }}
+{% endfor %}
+
+{%- endfor %}
 
 # Multiple languages
 
 {% for linter in multi -%}
-
 - [{{linter.name }}]({{linter.url }})
-  {%- if linter.deprecated.is_some() %} :warning:{% endif %} {% if linter.proprietary.is_some() %}:copyright: {% endif %}- {{linter.description }}
-  {% endfor %}
+{%- if linter.deprecated.is_some() %} :warning:{% endif %} {% if linter.proprietary.is_some() %}:copyright: {% endif %}- {{ linter.description }}
+{% endfor %}
 
 # Other
 
-{% for (category, others) in others %}
+{% for (tag, others) in others %}
 
-## {{ category }}
+## {{ tag.name }}
 
 {% for other in others -%}
-
 - [{{ other.name }}]({{ other.url }}) - {{ other.description }}
-  {% endfor -%}
-  {% endfor %}
+{% endfor %}
+
+{%- endfor %}
 
 # More collections
 
