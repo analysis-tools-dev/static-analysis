@@ -606,7 +606,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [multilint](https://github.com/adamchainz/multilint) - a wrapper around `flake8`, `isort` and `modernize` 
 - [NodeJSScan](https://opensecurity.in/) - NodeJsScan is a static security code scanner for Node.js applications. 
 - [oclint](http://oclint.org/) - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C 
-- [pfff](https://github.com/facebook/pfff) - Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages 
+- [pfff](https://github.com/facebookarchive/pfff/wiki/Main) :warning: - Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages 
 - [PMD](https://pmd.github.io/) - A source code analyzer for Java, Javascript, PLSQL, XML, XSL and others 
 - [pre-commit](https://github.com/pre-commit/pre-commit) - A framework for managing and maintaining multi-language pre-commit hooks. 
 - [Pronto](https://github.com/prontolabs/pronto) - Quick automated code review of your changes. Supports more than 40 runners for various languages, including Clang, Elixir, JavaSCript, PHP, Ruby and more 

@@ -1886,7 +1886,7 @@
   proprietary: true
 - name: pdepend
   homepage: "https://pdepend.org/"
-  source: "https://pdepend.org/"
+  source: "https://github.com/pdepend/pdepend"
   description: Calculates software metrics like cyclomatic complexity for PHP code.
   tags:
     - php
@@ -1898,27 +1898,36 @@
     - ruby
 - name: "Perl::Critic"
   homepage: "https://metacpan.org/pod/Perl::Critic"
-  source: "https://metacpan.org/pod/Perl::Critic"
+  source: "https://metacpan.org/release/Perl-Critic/source/lib/Perl/Critic.pm"
   description: Critique Perl source code for best-practices.
   tags:
     - perl
 - name: pfff
-  homepage: "https://github.com/facebook/pfff"
+  homepage: "https://github.com/facebookarchive/pfff/wiki/Main"
   source: "https://github.com/facebook/pfff"
   description: "Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages"
   tags:
     - c
-    - cpp
     - java
     - php
+    - javascript
+    - html
+    - css
+    - cpp
+    - rust
+    - csharp
+    - erlang
+    - haskell
+    - python
+  deprecated: true
 - name: phan
-  homepage: "https://github.com/etsy/phan"
+  homepage: "https://github.com/phan/phan/wiki"
   source: "https://github.com/etsy/phan"
   description: a modern static analyzer from etsy
   tags:
     - php
 - name: Phasar
-  homepage: "https://github.com/secure-software-engineering/phasar"
+  homepage: "https://phasar.org/"
   source: "https://github.com/secure-software-engineering/phasar"
   description: A LLVM-based static analysis framework which comes with a taint and type state analysis.
   tags:
@@ -1937,19 +1946,19 @@
   tags:
     - php
 - name: PHP Coding Standards Fixer
-  homepage: "http://cs.sensiolabs.org/"
-  source: "http://cs.sensiolabs.org/"
+  homepage: "https://cs.symfony.com/"
+  source: "https://github.com/FriendsOfPHP/PHP-CS-Fixer"
   description: "Fixes your code according to standards like PSR-1, PSR-2, and the Symfony standard."
   tags:
     - php
 - name: Php Inspections (EA Extended)
-  homepage: "https://github.com/kalessil/phpinspectionsea"
+  homepage: "https://plugins.jetbrains.com/plugin/7622-php-inspections-ea-extended-"
   source: "https://github.com/kalessil/phpinspectionsea"
   description: A Static Code Analyzer for PHP.
   tags:
     - php
 - name: PHP Refactoring Browser
-  homepage: "https://github.com/QafooLabs/php-refactoring-browser"
+  homepage: "http://qafoolabs.github.io/php-refactoring-browser/"
   source: "https://github.com/QafooLabs/php-refactoring-browser"
   description: Refactoring helper
   tags:
@@ -1978,14 +1987,16 @@
   description: PHP 7 Compatibility Checker
   tags:
     - php
+  deprecated: true
 - name: php7mar
   homepage: "https://github.com/Alexia/php7mar"
   source: "https://github.com/Alexia/php7mar"
   description: assist developers in porting their code quickly to PHP 7
   tags:
     - php
+  deprecated: true
 - name: PHP_CodeSniffer
-  homepage: "https://github.com/squizlabs/PHP_CodeSniffer"
+  homepage: "https://pear.php.net/package/PHP_CodeSniffer"
   source: "https://github.com/squizlabs/PHP_CodeSniffer"
   description: detects violations of a defined set of coding standards
   tags:
@@ -1998,7 +2009,7 @@
     - php
 - name: phpcf
   homepage: "http://wapmorgan.github.io/PhpCodeFixer/"
-  source: "http://wapmorgan.github.io/PhpCodeFixer/"
+  source: "https://github.com/wapmorgan/PhpCodeFixer/"
   description: Finds usage of deprecated PHP features
   tags:
     - php
@@ -2014,8 +2025,9 @@
   description: Dead Code Detector (DCD) for PHP code.
   tags:
     - php
+  deprecated: true
 - name: PhpDependencyAnalysis
-  homepage: "https://github.com/mamuz/PhpDependencyAnalysis"
+  homepage: "https://mamuz.github.io/PhpDependencyAnalysis/"
   source: "https://github.com/mamuz/PhpDependencyAnalysis"
   description: builds a dependency graph for a project
   tags:
@@ -2028,7 +2040,7 @@
     - php
 - name: phpDocumentor
   homepage: "https://www.phpdoc.org/"
-  source: "https://www.phpdoc.org/"
+  source: "https://github.com/phpDocumentor/phpDocumentor"
   description: Analyzes PHP source code to generate documentation
   tags:
     - php
