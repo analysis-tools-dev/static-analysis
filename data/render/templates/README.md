@@ -43,7 +43,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="{{ language.tag }}">{{ language.name }}</h2>
 
 {% for linter in linters -%}
-- [{{linter.name }}]({{linter.url }}){% if linter.deprecated.is_some() %} :warning:{% endif %}{% if linter.proprietary.is_some() %} :copyright:{% endif %} - {{ linter.description }}
+- [{{linter.name }}]({{linter.homepage }}){% if linter.deprecated.is_some() %} :warning:{% endif %}{% if linter.proprietary.is_some() %} :copyright:{% endif %} - {{ linter.description }}
 {% endfor %}
 
 {%- endfor %}
@@ -51,7 +51,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 # Multiple languages
 
 {% for linter in multi -%}
-- [{{linter.name }}]({{linter.url }}){% if linter.deprecated.is_some() %} :warning:{% endif %}{% if linter.proprietary.is_some() %} :copyright:{% endif %} - {{ linter.description }} 
+- [{{linter.name }}]({{linter.homepage }}){% if linter.deprecated.is_some() %} :warning:{% endif %}{% if linter.proprietary.is_some() %} :copyright:{% endif %} - {{ linter.description }} 
 {% endfor %}
 
 # Other
@@ -61,7 +61,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="{{ tag.tag }}">{{ tag.name }}</h2>
 
 {% for other in others -%}
-- [{{ other.name }}]({{ other.url }}){% if other.deprecated.is_some() %} :warning:{% endif %}{% if other.proprietary.is_some() %} :copyright:{% endif %} - {{ other.description }}
+- [{{ other.name }}]({{ other.homepage }}){% if other.deprecated.is_some() %} :warning:{% endif %}{% if other.proprietary.is_some() %} :copyright:{% endif %} - {{ other.description }}
 {% endfor %}
 
 {%- endfor %}
