@@ -24,16 +24,16 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
     <li><a href="#ada">Ada</a></li>
     <li><a href="#awk">Awk</a></li>
     <li><a href="#c">C</a></li>
+    <li><a href="#csharp">C#</a></li>
     <li><a href="#cpp">C++</a></li>
     <li><a href="#crystal">Crystal</a></li>
-    <li><a href="#csharp">C#</a></li>
     <li><a href="#delphi">Delphi</a></li>
     <li><a href="#dlang">Dlang</a></li>
     <li><a href="#elixir">Elixir</a></li>
     <li><a href="#elm">Elm</a></li>
     <li><a href="#erlang">Erlang</a></li>
-    <li><a href="#fortran">Fortran</a></li>
     <li><a href="#fsharp">F#</a></li>
+    <li><a href="#fortran">Fortran</a></li>
     <li><a href="#go">Go</a></li>
     <li><a href="#groovy">Groovy</a></li>
     <li><a href="#haskell">Haskell</a></li>
@@ -43,18 +43,18 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
     <li><a href="#kotlin">Kotlin</a></li>
     <li><a href="#lua">Lua</a></li>
     <li><a href="#matlab">MATLAB</a></li>
-    <li><a href="#perl">Perl</a></li>
     <li><a href="#php">PHP</a></li>
+    <li><a href="#perl">Perl</a></li>
     <li><a href="#python">Python</a></li>
     <li><a href="#pythonwrapper">Python wrappers</a></li>
     <li><a href="#r">R</a></li>
     <li><a href="#rpg">RPG</a></li>
     <li><a href="#ruby">Ruby</a></li>
     <li><a href="#rust">Rust</a></li>
+    <li><a href="#sql">SQL</a></li>
     <li><a href="#scala">Scala</a></li>
     <li><a href="#shell">Shell</a></li>
     <li><a href="#solidity">Solidity</a></li>
-    <li><a href="#sql">SQL</a></li>
     <li><a href="#swift">Swift</a></li>
     <li><a href="#tcl">Tcl</a></li>
     <li><a href="#typescript">TypeScript</a></li>
@@ -68,10 +68,10 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [Binaries](#binary)
 - [Build tools](#buildtool)
+- [CSS/SASS/SCSS](#css)
 - [Config Files](#configfile)
 - [Configuration Management](#configmanagement)
 - [Containers](#container)
-- [CSS/SASS/SCSS](#css)
 - [Deno](#deno)
 - [Gherkin](#gherkin)
 - [HTML](#html)
@@ -82,10 +82,10 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Mobile](#mobile)
 - [Packages](#package)
 - [Protocol Buffers](#protobuf)
-- [Web services](#service)
 - [Supporting Tools](#support)
 - [Template-Languages](#template)
 - [Translation](#translation)
+- [Web services](#service)
 - [Writing](#writing)
 
 
@@ -143,6 +143,28 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [vera++](https://bitbucket.org/verateam/vera/wiki/Introduction) - Vera++ is a programmable tool for verification, analysis and transformation of C++ source code.
 
 
+<h2 id="csharp">C#</h2>
+
+- [.NET Analyzers](https://github.com/DotNetAnalyzers) - An organization for the development of analyzers (diagnostics and code fixes) using the .NET Compiler Platform.
+- [Code Analysis Rule Collection](https://carc.codeplex.com/) - Contains a set of diagnostics, code fixes and refactorings built on the Microsoft .NET Compiler Platform "Roslyn".
+- [code-cracker](https://github.com/code-cracker/code-cracker) - An analyzer library for C# and VB that uses Roslyn to produce refactorings, code analysis, and other niceties.
+- [CodeRush](https://www.devexpress.com/products/coderush/) :copyright: - Code creation, debugging, navigation, refactoring, analysis and visualization tools that use the Roslyn engine in Visual Studio 2015 and up.
+- [CSharpEssentials](https://github.com/DustinCampbell/CSharpEssentials) - C# Essentials is a collection of Roslyn diagnostic analyzers, code fixes and refactorings that make it easy to work with C# 6 language features.
+- [Designite](http://www.designite-tools.com) :copyright: - Designite supports detection of various architecture, design, and implementation smells, computation of various code quality metrics, and trend analysis.
+- [Gendarme](http://www.mono-project.com/docs/tools+libraries/tools/gendarme/) - Gendarme inspects programs and libraries that contain code in ECMA CIL format (Mono and .NET).
+- [NDepend](http://www.ndepend.com/) :copyright: - Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.
+- [Puma Scan](https://github.com/pumasecurity/puma-scan) - Puma Scan provides real time secure code analysis for common vulnerabilities (XSS, SQLi, CSRF, LDAPi, crypto, deserialization, etc.) as development teams write code in Visual Studio.
+- [Refactoring Essentials](https://marketplace.visualstudio.com/items?itemName=SharpDevelopTeam.RefactoringEssentialsforVisualStudio) - The free Visual Studio 2015 extension for C# and VB.NET refactorings, including code best practice analyzers.
+- [ReSharper](https://www.jetbrains.com/resharper/) :copyright: - Extends Visual Studio with on-the-fly code inspections for C#, VB.NET, ASP.NET, JavaScript, TypeScript and other technologies.
+- [Roslyn Analyzers](https://github.com/dotnet/roslyn-analyzers) - Roslyn-based implementation of FxCop analyzers.
+- [Roslyn Security Guard](https://dotnet-security-guard.github.io/) - Project that focuses on the identification of potential vulnerabilities such as SQL injection, cross-site scripting (XSS), CSRF, cryptography weaknesses, hardcoded passwords and many more.
+- [Roslynator](https://github.com/JosefPihrt/Roslynator/) - A collection of 190+ analyzers and 190+ refactorings for C#, powered by Roslyn.
+- [Security Code Scan](https://security-code-scan.github.io/) - Security code analyzer for C# and VB.NET. Detects various security vulnerability patterns: SQLi, XSS, CSRF, XXE, Open Redirect, etc.
+- [SonarLint for Visual Studio](https://vs.sonarlint.org/) - SonarLint is an extension for Visual Studio 2015 and 2017 that provides on-the-fly feedback to developers on new bugs and quality issues injected into .NET code.
+- [VSDiagnostics](https://github.com/Vannevelj/VSDiagnostics) - A collection of static analyzers based on Roslyn that integrates with VS.
+- [Wintellect.Analyzers](https://github.com/Wintellect/Wintellect.Analyzers) - .NET Compiler Platform ("Roslyn") diagnostic analyzers and code fixes.
+
+
 <h2 id="cpp">C++</h2>
 
 - [Astrée](https://www.absint.com/astree/index.htm) :copyright: - Sound static analyzer based on abstract interpretation for C/C++, detecting memory, type and concurrency defects, and MISRA violations.
@@ -180,28 +202,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [crystal](https://crystal-lang.org/) - The Crystal compiler has built-in linting functionality.
 
 
-<h2 id="csharp">C#</h2>
-
-- [.NET Analyzers](https://github.com/DotNetAnalyzers) - An organization for the development of analyzers (diagnostics and code fixes) using the .NET Compiler Platform.
-- [Code Analysis Rule Collection](https://carc.codeplex.com/) - Contains a set of diagnostics, code fixes and refactorings built on the Microsoft .NET Compiler Platform "Roslyn".
-- [code-cracker](https://github.com/code-cracker/code-cracker) - An analyzer library for C# and VB that uses Roslyn to produce refactorings, code analysis, and other niceties.
-- [CodeRush](https://www.devexpress.com/products/coderush/) :copyright: - Code creation, debugging, navigation, refactoring, analysis and visualization tools that use the Roslyn engine in Visual Studio 2015 and up.
-- [CSharpEssentials](https://github.com/DustinCampbell/CSharpEssentials) - C# Essentials is a collection of Roslyn diagnostic analyzers, code fixes and refactorings that make it easy to work with C# 6 language features.
-- [Designite](http://www.designite-tools.com) :copyright: - Designite supports detection of various architecture, design, and implementation smells, computation of various code quality metrics, and trend analysis.
-- [Gendarme](http://www.mono-project.com/docs/tools+libraries/tools/gendarme/) - Gendarme inspects programs and libraries that contain code in ECMA CIL format (Mono and .NET).
-- [NDepend](http://www.ndepend.com/) :copyright: - Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.
-- [Puma Scan](https://github.com/pumasecurity/puma-scan) - Puma Scan provides real time secure code analysis for common vulnerabilities (XSS, SQLi, CSRF, LDAPi, crypto, deserialization, etc.) as development teams write code in Visual Studio.
-- [Refactoring Essentials](https://marketplace.visualstudio.com/items?itemName=SharpDevelopTeam.RefactoringEssentialsforVisualStudio) - The free Visual Studio 2015 extension for C# and VB.NET refactorings, including code best practice analyzers.
-- [ReSharper](https://www.jetbrains.com/resharper/) :copyright: - Extends Visual Studio with on-the-fly code inspections for C#, VB.NET, ASP.NET, JavaScript, TypeScript and other technologies.
-- [Roslyn Analyzers](https://github.com/dotnet/roslyn-analyzers) - Roslyn-based implementation of FxCop analyzers.
-- [Roslyn Security Guard](https://dotnet-security-guard.github.io/) - Project that focuses on the identification of potential vulnerabilities such as SQL injection, cross-site scripting (XSS), CSRF, cryptography weaknesses, hardcoded passwords and many more.
-- [Roslynator](https://github.com/JosefPihrt/Roslynator/) - A collection of 190+ analyzers and 190+ refactorings for C#, powered by Roslyn.
-- [Security Code Scan](https://security-code-scan.github.io/) - Security code analyzer for C# and VB.NET. Detects various security vulnerability patterns: SQLi, XSS, CSRF, XXE, Open Redirect, etc.
-- [SonarLint for Visual Studio](https://vs.sonarlint.org/) - SonarLint is an extension for Visual Studio 2015 and 2017 that provides on-the-fly feedback to developers on new bugs and quality issues injected into .NET code.
-- [VSDiagnostics](https://github.com/Vannevelj/VSDiagnostics) - A collection of static analyzers based on Roslyn that integrates with VS.
-- [Wintellect.Analyzers](https://github.com/Wintellect/Wintellect.Analyzers) - .NET Compiler Platform ("Roslyn") diagnostic analyzers and code fixes.
-
-
 <h2 id="delphi">Delphi</h2>
 
 - [Fix Insight](https://www.tmssoftware.com/site/fixinsight.asp) :copyright: - A free IDE Plugin for static code analysis. A _Pro_ edition includes a command line tool for automation purposes.
@@ -231,14 +231,14 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Primitive Erlang Security Tool (PEST)](https://github.com/okeuday/pest) - A tool to do a basic scan of Erlang source code and report any function calls that may cause Erlang source code to be insecure.
 
 
-<h2 id="fortran">Fortran</h2>
-
-- [i-Code CNES for Fortran](https://github.com/lequal/i-CodeCNES) - An open source static code analysis tool for Fortran 77, Fortran 90 and Shell.
-
-
 <h2 id="fsharp">F#</h2>
 
 - [FSharpLint](https://github.com/fsprojects/FSharpLint) - Lint tool for F#
+
+
+<h2 id="fortran">Fortran</h2>
+
+- [i-Code CNES for Fortran](https://github.com/lequal/i-CodeCNES) - An open source static code analysis tool for Fortran 77, Fortran 90 and Shell.
 
 
 <h2 id="go">Go</h2>
@@ -375,11 +375,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [mlint](https://de.mathworks.com/help/matlab/ref/mlint.html) :copyright: - Check MATLAB code files for possible problems.
 
 
-<h2 id="perl">Perl</h2>
-
-- [Perl::Critic](https://metacpan.org/pod/Perl::Critic) - Critique Perl source code for best-practices.
-
-
 <h2 id="php">PHP</h2>
 
 - [dephpend](https://github.com/mihaeu/dephpend) - Dependency analysis tool
@@ -427,6 +422,11 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Tuli](https://github.com/ircmaxell/Tuli) - A static analysis engine
 - [twig-lint](https://github.com/asm89/twig-lint) - twig-lint is a lint tool for your twig files.
 - [WAP](https://securityonline.info/owasp-wap-web-application-protection-project/) - Tool to detect and correct input validation vulnerabilities in PHP (4.0 or higher) web applications and predicts false positives by combining static analysis and data mining.
+
+
+<h2 id="perl">Perl</h2>
+
+- [Perl::Critic](https://metacpan.org/pod/Perl::Critic) - Critique Perl source code for best-practices.
 
 
 <h2 id="python">Python</h2>
@@ -513,6 +513,14 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [rustfix](https://github.com/killercup/rustfix) - read and apply the suggestions made by rustc (and third-party lints, like those offered by clippy).
 
 
+<h2 id="sql">SQL</h2>
+
+- [sqlcheck](https://github.com/jarulraj/sqlcheck-old) - Automatically identify anti-patterns in SQL queries
+- [sqlint](https://github.com/purcell/sqlint) - Simple SQL linter
+- [tsqllint](https://github.com/tsqllint/tsqllint) - T-SQL-specific linter
+- [TSqlRules](https://github.com/ashleyglee/TSqlRules) - TSQL Static Code Analysis Rules for SQL Server
+
+
 <h2 id="scala">Scala</h2>
 
 - [linter](https://github.com/HairyFotr/linter) - Linter is a Scala static analysis compiler plugin which adds compile-time checks for various possible bugs, inefficiencies, and style problems.
@@ -532,14 +540,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [slither](https://github.com/trailofbits/slither) - Static analysis framework that runs a suite of vulnerability detectors, prints visual information about contract details, and provides an API to easily write custom analyses
 - [solium](https://github.com/duaraghav8/Solium) - Solium is a linter to identify and fix style and security issues in Solidity smart contracts
-
-
-<h2 id="sql">SQL</h2>
-
-- [sqlcheck](https://github.com/jarulraj/sqlcheck-old) - Automatically identify anti-patterns in SQL queries
-- [sqlint](https://github.com/purcell/sqlint) - Simple SQL linter
-- [tsqllint](https://github.com/tsqllint/tsqllint) - T-SQL-specific linter
-- [TSqlRules](https://github.com/ashleyglee/TSqlRules) - TSQL Static Code Analysis Rules for SQL Server
 
 
 <h2 id="swift">Swift</h2>
@@ -651,6 +651,20 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [codechecker](https://github.com/Ericsson/codechecker) - a defect database and viewer extension for the Clang Static Analyzer
 
 
+<h2 id="css">CSS/SASS/SCSS</h2>
+
+- [CSS Stats](https://github.com/cssstats/cssstats) - Potentially interesting stats on stylesheets
+- [CSScomb](https://github.com/csscomb/csscomb.js) - a coding style formatter for CSS. Supports own configurations to make style sheets beautiful and consistent
+- [CSSLint](https://github.com/CSSLint/csslint) - Does basic syntax checking and finds problematic patterns or signs of inefficiency
+- [GraphMyCSS.com](https://graphmycss.com) - CSS Specificity Graph Generator
+- [Parker](https://github.com/katiefenn/parker) - Stylesheet analysis tool
+- [Project Wallace CSS Analyzer](https://github.com/projectwallace/css-analyzer) - Analytics for CSS, part of [Project Wallace](https://www.projectwallace.com)
+- [sass-lint](https://github.com/sasstools/sass-lint) - A Node-only Sass linter for both sass and scss syntax.
+- [scsslint](https://github.com/brigade/scss-lint) - Linter for SCSS files
+- [Specificity Graph](https://github.com/pocketjoso/specificity-graph) - CSS Specificity Graph Generator
+- [Stylelint](http://stylelint.io/) - Linter for SCSS/CSS files
+
+
 <h2 id="configfile">Config Files</h2>
 
 - [dotenv-linter](https://github.com/wemake-services/dotenv-linter) - Linting dotenv files like a charm.
@@ -680,20 +694,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Docker Label Inspector](https://github.com/garethr/docker-label-inspector) - Lint and validate Dockerfile labels
 - [Haskell Dockerfile Linter](https://github.com/lukasmartinelli/hadolint) - A smarter Dockerfile linter that helpsyou build best practice Docker images
 - [kube-score](https://github.com/zegl/kube-score) - Static code analysis of your Kubernetes object definitions.
-
-
-<h2 id="css">CSS/SASS/SCSS</h2>
-
-- [CSS Stats](https://github.com/cssstats/cssstats) - Potentially interesting stats on stylesheets
-- [CSScomb](https://github.com/csscomb/csscomb.js) - a coding style formatter for CSS. Supports own configurations to make style sheets beautiful and consistent
-- [CSSLint](https://github.com/CSSLint/csslint) - Does basic syntax checking and finds problematic patterns or signs of inefficiency
-- [GraphMyCSS.com](https://graphmycss.com) - CSS Specificity Graph Generator
-- [Parker](https://github.com/katiefenn/parker) - Stylesheet analysis tool
-- [Project Wallace CSS Analyzer](https://github.com/projectwallace/css-analyzer) - Analytics for CSS, part of [Project Wallace](https://www.projectwallace.com)
-- [sass-lint](https://github.com/sasstools/sass-lint) - A Node-only Sass linter for both sass and scss syntax.
-- [scsslint](https://github.com/brigade/scss-lint) - Linter for SCSS files
-- [Specificity Graph](https://github.com/pocketjoso/specificity-graph) - CSS Specificity Graph Generator
-- [Stylelint](http://stylelint.io/) - Linter for SCSS/CSS files
 
 
 <h2 id="deno">Deno</h2>
@@ -764,6 +764,25 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [protolint](https://github.com/yoheimuta/protolint) - Pluggable linter and fixer to enforce Protocol Buffer style and conventions.
 
 
+<h2 id="support">Supporting Tools</h2>
+
+- [LibVCS4j](https://github.com/uni-bremen-agst/libvcs4j) - A Java library that allows existing tools to analyse the evolution of software systems by providing a common API for different version control systems and issue trackers.
+- [Violations Lib](https://github.com/tomasbjerre/violations-lib) - Java library for parsing report files from static code analysis. Used by a bunch of Jenkins, Maven and Gradle plugins.
+
+
+<h2 id="template">Template-Languages</h2>
+
+- [ember-template-lint](https://github.com/rwjblue/ember-template-lint) - Linter for Ember or Handlebars templates.
+- [haml-lint](https://github.com/brigade/haml-lint) - Tool for writing clean and consistent HAML
+- [slim-lint](https://github.com/sds/slim-lint) - Configurable tool for analyzing Slim templates
+- [yamllint](https://github.com/adrienverge/yamllint) - Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation.
+
+
+<h2 id="translation">Translation</h2>
+
+- [dennis](https://github.com/willkg/dennis/) - A set of utilities for working with PO files to ease development and improve quality.
+
+
 <h2 id="service">Web services</h2>
 
 - [Codacy](https://www.codacy.com/) :copyright: - Code Analysis to ship Better Code, Faster.
@@ -787,25 +806,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [SonarCloud](https://sonarcloud.io) :copyright: - Multilanguage cloud-based static code analysis. History, trends, security hot-spots, pull request analysis and more. Free for open source.
 - [Teamscale](http://www.teamscale.com/) :copyright: - Static and dynamic analysis tool supporting more than 25 languages and direct IDE integration. Free hosting for Open Source projects available on request. Free academic licenses available.
 - [Upsource](https://www.jetbrains.com/upsource/) :copyright: - Code review tool with static code analysis and code-aware navigation for Java, PHP, JavaScript and Kotlin.
-
-
-<h2 id="support">Supporting Tools</h2>
-
-- [LibVCS4j](https://github.com/uni-bremen-agst/libvcs4j) - A Java library that allows existing tools to analyse the evolution of software systems by providing a common API for different version control systems and issue trackers.
-- [Violations Lib](https://github.com/tomasbjerre/violations-lib) - Java library for parsing report files from static code analysis. Used by a bunch of Jenkins, Maven and Gradle plugins.
-
-
-<h2 id="template">Template-Languages</h2>
-
-- [ember-template-lint](https://github.com/rwjblue/ember-template-lint) - Linter for Ember or Handlebars templates.
-- [haml-lint](https://github.com/brigade/haml-lint) - Tool for writing clean and consistent HAML
-- [slim-lint](https://github.com/sds/slim-lint) - Configurable tool for analyzing Slim templates
-- [yamllint](https://github.com/adrienverge/yamllint) - Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation.
-
-
-<h2 id="translation">Translation</h2>
-
-- [dennis](https://github.com/willkg/dennis/) - A set of utilities for working with PO files to ease development and improve quality.
 
 
 <h2 id="writing">Writing</h2>
