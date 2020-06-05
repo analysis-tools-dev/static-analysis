@@ -2207,7 +2207,7 @@
     - ruby
     - ci
 - name: proselint
-  homepage: "https://github.com/amperser/proselint/"
+  homepage: "http://proselint.com/"
   source: "https://github.com/amperser/proselint/"
   description: a linter for English prose with a focus on writing style instead of grammar.
   tags:
@@ -2226,8 +2226,8 @@
   tags:
     - protobuf
 - name: Psalm
-  homepage: "https://getpsalm.org/"
-  source: "https://getpsalm.org/"
+  homepage: "https://psalm.dev/"
+  source: "https://github.com/vimeo/psalm"
   description: Static analysis tool for finding type errors in PHP applications
   tags:
     - php
@@ -2236,29 +2236,26 @@
   source: "https://github.com/PositiveTechnologies/PT.PM"
   description: "An engine for searching patterns in the source code, based on Unified AST or UST. At present time C#, Java, PHP, PL/SQL, T-SQL, and JavaScript are supported. Patterns can be described within the code or using a DSL."
   tags:
-    - c
-    - cpp
+    - csharp
     - java
     - php
+    - plsql
+    - tsql
+    - javascript
+  deprecated: true
 - name: PullRequest
   homepage: "https://www.pullrequest.com"
-  source: "https://www.pullrequest.com"
   description: Code review as a service with built-in static analysis
   tags:
     - ci
     - service
   proprietary: true
 - name: Puma Scan
-  homepage: "https://github.com/pumasecurity/puma-scan"
+  homepage: "https://pumasecurity.io/"
   source: "https://github.com/pumasecurity/puma-scan"
   description: "Puma Scan provides real time secure code analysis for common vulnerabilities (XSS, SQLi, CSRF, LDAPi, crypto, deserialization, etc.) as development teams write code in Visual Studio."
   tags:
     - csharp
-- name: Puma Scan
-  homepage: "https://github.com/pumasecurity/puma-scan"
-  source: "https://github.com/pumasecurity/puma-scan"
-  description: "Puma Scan provides real time secure code analysis for common vulnerabilities (XSS, SQLi, CSRF, LDAPi, crypto, deserialization, etc.) as development teams write code in Visual Studio."
-  tags:
     - ide
 - name: Puppet Lint
   homepage: "https://github.com/rodjek/puppet-lint"
@@ -2268,11 +2265,11 @@
     - configmanagement
 - name: PVS-Studio
   homepage: "https://www.viva64.com/en/pvs-studio/"
-  source: "https://www.viva64.com/en/pvs-studio/"
   description: "a ([conditionally free](https://www.viva64.com/en/b/0614/) for FOSS and individual developers) static analysis of C, C++, C# and Java code. For advertising purposes [you can propose a large FOSS project for analysis by PVS employees](https://github.com/viva64/pvs-studio-check-list). Supports CWE mapping, MISRA and CERT coding standards."
   tags:
     - c
     - cpp
+    - charp
     - java
   proprietary: true
 - name: py-find-injection
@@ -2281,32 +2278,33 @@
   description: find SQL injection vulnerabilities in Python code
   tags:
     - python
+  deprecated: true
 - name: pycodestyle
-  homepage: "https://github.com/PyCQA/pycodestyle"
+  homepage: "https://pycodestyle.pycqa.org/en/latest/"
   source: "https://github.com/PyCQA/pycodestyle"
   description: "(formerly `pep8`) check Python code against some of the style conventions in PEP 8"
   tags:
     - python
 - name: pydocstyle
-  homepage: "https://github.com/PyCQA/pydocstyle"
+  homepage: "http://www.pydocstyle.org"
   source: "https://github.com/PyCQA/pydocstyle"
-  description: check compliance with Python docstring conventions
+  description: Check compliance with Python docstring conventions
   tags:
     - python
 - name: pyflakes
-  homepage: "https://github.com/pyflakes/pyflakes/"
+  homepage: "https://pypi.org/project/pyflakes/"
   source: "https://github.com/pyflakes/pyflakes/"
-  description: check Python source files for errors
+  description: Check Python source files for errors
   tags:
     - python
 - name: pylint
-  homepage: "https://github.com/PyCQA/pylint"
+  homepage: "http://pylint.pycqa.org/en/latest/"
   source: "https://github.com/PyCQA/pylint"
   description: "looks for programming errors, helps enforcing a coding standard and sniffs for some code smells. It additionally includes `pyreverse` (an UML diagram generator) and `symilar` (a similarities checker)."
   tags:
     - python
 - name: pyre-check
-  homepage: "https://github.com/facebook/pyre-check"
+  homepage: "https://pyre-check.org/"
   source: "https://github.com/facebook/pyre-check"
   description: "A fast, scalable type checker for large Python codebases"
   tags:
@@ -2320,7 +2318,7 @@
 - name: pyroma
   homepage: "https://github.com/regebro/pyroma"
   source: "https://github.com/regebro/pyroma"
-  description: "rate how well a Python project complies with the best practices of the Python packaging ecosystem, and list issues that could be improved"
+  description: "Rate how well a Python project complies with the best practices of the Python packaging ecosystem, and list issues that could be improved"
   tags:
     - python
 - name: PyT - Python Taint
@@ -2329,8 +2327,9 @@
   description: A static analysis tool for detecting security vulnerabilities in Python web applications.
   tags:
     - python
+  deprecated: true
 - name: pytype
-  homepage: "https://github.com/google/pytype"
+  homepage: "https://google.github.io/pytype/"
   source: "https://github.com/google/pytype"
   description: A static type analyzer for Python code.
   tags:
@@ -2358,14 +2357,16 @@
   source: "https://github.com/apiology/quality"
   description: "Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time."
   tags:
+    - ci
     - ruby
 - name: QuantifiedCode
-  homepage: "https://www.quantifiedcode.com/"
-  source: "https://www.quantifiedcode.com/"
+  homepage: "https://github.com/quantifiedcode/quantifiedcode"
+  source: "https://github.com/quantifiedcode/quantifiedcode"
   description: Automated code review & repair
   tags:
     - ci
     - service
+  deprecated: true
 - name: Querly
   homepage: "https://github.com/soutaro/querly"
   source: "https://github.com/soutaro/querly"
@@ -2374,19 +2375,19 @@
     - ruby
 - name: qulice
   homepage: "https://www.qulice.com/"
-  source: "https://www.qulice.com/"
-  description: "combines a few (pre-configured) static analysis tools (checkstyle, PMD, Findbugs, ...)."
+  source: "https://github.com/teamed/qulice"
+  description: "Combines a few (pre-configured) static analysis tools (checkstyle, PMD, Findbugs, ...)."
   tags:
     - java
 - name: radon
-  homepage: "https://github.com/rubik/radon"
+  homepage: "https://radon.readthedocs.io/en/latest/"
   source: "https://github.com/rubik/radon"
-  description: a Python tool that computes various metrics from the source code
+  description: A Python tool that computes various metrics from the source code
   tags:
     - python
 - name: Railroader
   homepage: "https://railroader.org/"
-  source: "https://railroader.org/"
+  source: "https://github.com/david-a-wheeler/railroader"
   description: An open source static analysis security vulnerability scanner for Ruby on Rails applications.
   tags:
     - ruby
@@ -2398,10 +2399,11 @@
     - ruby
 - name: Refactoring Essentials
   homepage: "https://marketplace.visualstudio.com/items?itemName=SharpDevelopTeam.RefactoringEssentialsforVisualStudio"
-  source: "https://marketplace.visualstudio.com/items?itemName=SharpDevelopTeam.RefactoringEssentialsforVisualStudio"
+  source: "https://github.com/icsharpcode/RefactoringEssentials"
   description: "The free Visual Studio 2015 extension for C# and VB.NET refactorings, including code best practice analyzers."
   tags:
     - csharp
+    - vbnet
 - name: remark-lint
   homepage: "https://github.com/remarkjs/remark-lint"
   source: "https://github.com/remarkjs/remark-lint"
