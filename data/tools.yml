@@ -76,29 +76,59 @@
   proprietary: true
 - name: Application Inspector
   url: "https://www.ptsecurity.com/ww-en/products/ai/"
-  description: "Commercial Static Code Analysis which generates exploits to verify vulnerabilities. Supports: Java (including JSP and JSF), C#, VB.Net, ASP.NET, Php, JavaScript, Objective-C, Swift, C\\C++, SQL (PL/SQL. T-SQL. MySQL), HTML5"
+  description: "Commercial Static Code Analysis which generates exploits to verify vulnerabilities."
   tags:
+    - asp
     - c
     - cpp
+    - csharp
+    - html
     - java
+    - javascript
+    - objectivec
     - php
+    - sql
+    - swift
+    - vbnet
   proprietary: true
 - name: ApplicationInspector
   url: "https://github.com/microsoft/ApplicationInspector"
-  description: "creates reports of over 400 rule patterns for feature detection (e.g. the use of cryptography or version control in apps). Supports C/C++, C#, Java, JavaScript, HTML, Python, Objective-C, Go, Ruby, Powershell"
+  description: "Creates reports of over 400 rule patterns for feature detection (e.g. the use of cryptography or version control in apps)."
   tags:
     - c
     - cpp
+    - csharp
+    - go
+    - html
     - java
+    - javascript
+    - objectivec
     - php
+    - powershell
+    - python
+    - ruby
 - name: AppScan Source
   url: "https://www.hcltechsw.com/wps/portal/products/appscan/home"
-  description: "Commercial Static Code Analysis. Supports: Microsoft .NET Framework (C#, ASP.NET, VB.NET), ASP (JavaScript/VBScript), C/C++, COBOL, ColdFusion, JavaScript, JavaServer Pages (JSP), Java™ (including support for Android APIs), Perl, PHP, PL/SQL, T-SQL, Visual Basic 6"
+  description: "Commercial Static Code Analysis."
   tags:
+    - asp
+    - aspnet
     - c
+    - csharp
+    - cobol
+    - coldfusion
     - cpp
     - java
+    - javascript
+    - jsp
+    - mobile
+    - perl
     - php
+    - plsql
+    - tsql
+    - vbasic
+    - vbnet
+    - vbscript
   proprietary: true
 - name: APPscreener
   url: "https://solarappscreener.com/"
@@ -128,21 +158,21 @@
   url: https://atom.io/packages/atom-beautify
   description: Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom editor
   tags:
-     - html
-     - css
-     - javascript
-     - php
-     - python
-     - ruby
-     - java
-     - c
-     - cpp
-     - csharp
-     - objectivec
-     - coffeescript
-     - typescript
-     - coldfusion
-     - sql
+    - html
+    - css
+    - javascript
+    - php
+    - python
+    - ruby
+    - java
+    - c
+    - cpp
+    - csharp
+    - objectivec
+    - coffeescript
+    - typescript
+    - coldfusion
+    - sql
 - name: Attackflow Extension
   url: "https://www.attackflow.com/Extension"
   description: "Attackflow plugin for Visual Studio, which enables developers to find critical security bugs at real time in the source code without any prior knowledge."
@@ -205,12 +235,21 @@
     - rust
 - name: CAST Highlight
   url: "https://www.castsoftware.com/products/highlight"
-  description: "Commercial Static Code Analysis which runs locally, but uploads the results to its cloud for presentation. Supports: Java, JavaScript, Python, JSP, COBOL, SAP/Abap, C/C++, C#, PHP, Visual Basic, T-SQL, PL/SQL."
+  description: "Commercial Static Code Analysis which runs locally, but uploads the results to its cloud for presentation."
   tags:
+    - abap
     - c
+    - cobol
     - cpp
+    - csharp
     - java
+    - javascript
+    - jsp
     - php
+    - plsql
+    - python
+    - tsql
+    - visualbasic
   proprietary: true
 - name: CBMC
   url: "http://www.cprover.org/cbmc/"
@@ -240,12 +279,32 @@
     - buildtool
 - name: Checkmarx CxSAST
   url: "https://www.checkmarx.com/products/static-application-security-testing/"
-  description: "Commercial Static Code Analysis which doesn't require pre-compilation. Supports: Android (Java), Apex and VisualForce, ASP, C#, C/C++, Go, Groovy, HTML5, Java, JavaScript, Node.js, Objective C, Perl, PhoneGap, PHP, Python, Ruby, Scala, Swift, VB.NET, VB6, VBScript"
+  description: "Commercial Static Code Analysis which doesn't require pre-compilation."
   tags:
+    - apex
+    - asp
     - c
     - cpp
+    - csharp
+    - go
+    - groovy
+    - html
     - java
+    - javascript
+    - mobile
+    - nodejs
+    - objectivec
+    - perl
+    - phonegap
     - php
+    - python
+    - ruby
+    - scala
+    - swift
+    - vbnet
+    - visualbasic
+    - vbscript
+    - visualforce
   proprietary: true
 - name: checkov
   url: "https://github.com/bridgecrewio/checkov/"
@@ -290,12 +349,11 @@
     - cpp
 - name: ClassGraph
   url: "https://github.com/classgraph/classgraph"
-  description: a classpath and module path scanner for querying or visualizing class metadata or class relatedness. Supports JVM languages.
+  description: a classpath and module path scanner for querying or visualizing class metadata or class relatedness.
   tags:
-    - c
-    - cpp
     - java
-    - php
+    - groovy
+    - kotlin
 - name: clippy
   url: "https://github.com/Manishearth/rust-clippy"
   description: A code linter to catch common mistakes and improve your Rust code
@@ -328,12 +386,12 @@
     - php
 - name: Cobra
   url: "http://spinroot.com/cobra/"
-  description: "Structural source code analyzer by NASA's Jet Propulsion Laboratory. Supports C, C++, Ada, and Python."
+  description: "Structural source code analyzer by NASA's Jet Propulsion Laboratory."
   tags:
+    - ada
     - c
     - cpp
-    - java
-    - php
+    - python
   proprietary: true
 - name: Codacy
   url: "https://www.codacy.com/"
@@ -343,7 +401,7 @@
   proprietary: true
 - name: Code Analysis Rule Collection
   url: "https://carc.codeplex.com/"
-  description: "Contains a set of diagnostics, code fixes and refactorings built on the Microsoft .NET Compiler Platform \"Roslyn\"."
+  description: 'Contains a set of diagnostics, code fixes and refactorings built on the Microsoft .NET Compiler Platform "Roslyn".'
   tags:
     - csharp
 - name: Code Climate
@@ -393,9 +451,20 @@
   description: "Static Code Analysis for C#, C, C++, CoffeeScript, CSS, Groovy, GO, JAVA, JavaScript, Less, Python, Ruby, Scala, SCSS, TypeScript."
   tags:
     - c
+    - coffeescript
     - cpp
+    - csharp
+    - css
+    - go
+    - groovy
     - java
+    - javascript
+    - less
     - php
+    - python
+    - ruby
+    - scala
+    - typescript
   proprietary: true
 - name: CodeFactor
   url: "https://codefactor.io"
@@ -509,8 +578,16 @@
   tags:
     - c
     - cpp
+    - csharp
+    - fortran
     - java
+    - javascript
     - php
+    - python
+    - rails
+    - scala
+    - typescript
+    - vbnet
   proprietary: true
 - name: cppcheck
   url: "https://github.com/danmar/cppcheck"
@@ -607,6 +684,7 @@
   description: "a static analysis security scanner for ruby written web applications. It supports Sinatra, Padrino and Ruby on Rails frameworks."
   tags:
     - ruby
+    - rails
 - name: deadcode
   url: "https://github.com/tsenart/deadcode"
   description: Finds unused code.
@@ -633,10 +711,8 @@
   url: "https://deepsource.io/"
   description: "In-depth static analysis to monitor source code quality and security. Supports Python and Go and can detect 600+ types of issues in verticals of bug risks, security, anti-patterns, performance, documentation and style. Native integration with GitHub."
   tags:
-    - c
-    - cpp
-    - java
-    - php
+    - go
+    - python
   proprietary: true
 - name: dennis
   url: "https://github.com/willkg/dennis/"
@@ -765,6 +841,15 @@
   url: "https://embold.io"
   description: "Intelligent software analytics platform that identifies design issues, code issues, duplication and metrics. Supports Java, C, C++, C#, JavaScript, TypeScript, Python, Go, Kotlin and more."
   tags:
+    - java
+    - c
+    - cpp
+    - csharp
+    - javascript
+    - typescript
+    - python
+    - go
+    - kotlin
     - service
   proprietary: true
 - name: errcheck
@@ -879,10 +964,31 @@
   url: "https://software.microfocus.com/en-us/products/static-code-analysis-sast/overview"
   description: "A commercial static analysis platform that supports the scanning of C/C++, C#, VB.NET, VB6, ABAP/BSP, ActionScript, Apex, ASP.NET, Classic ASP, VB Script, Cobol, ColdFusion, HTML, Java, JS, JSP, MXML/Flex, Objective-C, PHP, PL/SQL, T-SQL, Python (2.6, 2.7), Ruby (1.9.3), Swift, Scala, VB, and XML."
   tags:
+    - abap
+    - actionscript
+    - apex
+    - aspnet
     - c
+    - cobol
+    - coldfusion
     - cpp
+    - csharp
+    - html
     - java
+    - javascript
+    - jsp
+    - objectivec
     - php
+    - plsql
+    - python
+    - ruby
+    - scala
+    - swift
+    - tsql
+    - visualbasic
+    - vbnet
+    - vbscript
+    - xml
   proprietary: true
 - name: Frama-C
   url: "http://frama-c.com/"
@@ -1176,7 +1282,7 @@
   description: "A open source Static Application Security Testing tool (SAST) written in GoLang for Java (Maven and Android), Kotlin (Android), Swift (iOS), .NET Full Framework, C# and Javascript (Node.js)."
   tags:
     - java
-    - android
+    - mobile
     - kotlin
     - swift
     - dotnet
@@ -1462,8 +1568,7 @@
   tags:
     - c
     - cpp
-    - java
-    - php
+    - objectivec
 - name: OWASP Dependency Check
   url: "https://owasp.org/www-project-dependency-check/"
   description: "Checks dependencies for known, publicly disclosed, vulnerabilities."
@@ -1805,7 +1910,6 @@
     - c
     - cpp
     - java
-    - php
   proprietary: true
 - name: py-find-injection
   url: "https://github.com/uber/py-find-injection"
@@ -2111,10 +2215,34 @@
   url: "https://smartdecscanner.com/"
   description: "SAST tool which is capable of identifying vulnerabilities and undocumented features. The analyzer scans the source code and executables without debug info (i.e. binaries). Supports: Java/Scala/Kotlin, PHP, C#, JavaScript, TypeScript, VBScript, HTML5, Python, Perl, C/C++, Objective-C/Swift, PL/SQL, T-SQL, ABAP, 1C, Apex, Go, Ruby, Groovy, Delphi, VBA, Visual Basic 6, Solidity, Vyper, COBOL."
   tags:
+    - abap
+    - apex
     - c
+    - cobol
     - cpp
+    - csharp
+    - delphi
+    - go
+    - groovy
+    - html
     - java
+    - javascript
+    - kotlin
+    - objectivec
+    - perl
     - php
+    - plsql
+    - python
+    - ruby
+    - scala
+    - solidity
+    - swift
+    - tsql
+    - typescript
+    - vba
+    - vbscript
+    - visualbasic
+    - vyper
   proprietary: true
 - name: Snyk
   url: "https://snyk.io/"
@@ -2378,8 +2506,18 @@
   tags:
     - c
     - cpp
+    - css
+    - go
+    - html
     - java
+    - javascript
+    - jsx
+    - markdown
+    - objectivec
     - php
+    - python
+    - typescript
+    - vue
 - name: unimport
   url: "https://github.com/alexkohler/unimport"
   description: Finds unnecessary import aliases
@@ -2423,8 +2561,12 @@
   tags:
     - c
     - cpp
+    - dotnet
     - java
+    - javascript
+    - objectivec
     - php
+    - swift
   proprietary: true
 - name: vint
   url: "https://github.com/Kuniwak/vint"
@@ -2478,10 +2620,16 @@
   url: "https://www.whitehatsec.com/products/static-application-security-testing/"
   description: "WhiteHat Scout (for Developers) combined with WhiteHat Sentinel Source (for Operations) supporting WhiteHat Top 40 and OWASP Top 10. Language support for: Java, C#(.NET), ASP.NET, PHP, JavaScript, Node.js, Objective-C, Android, HTML5, TypeScript."
   tags:
-    - c
-    - cpp
     - java
+    - csharp
+    - aspnet
     - php
+    - javascript
+    - nodejs
+    - objectivec
+    - mobile
+    - html
+    - typescript
   proprietary: true
 - name: wily
   url: "https://github.com/tonybaloney/wily"
@@ -2490,7 +2638,7 @@
     - python
 - name: Wintellect.Analyzers
   url: "https://github.com/Wintellect/Wintellect.Analyzers"
-  description: ".NET Compiler Platform (\"Roslyn\") diagnostic analyzers and code fixes."
+  description: '.NET Compiler Platform ("Roslyn") diagnostic analyzers and code fixes.'
   tags:
     - csharp
 - name: Wotan
@@ -2503,7 +2651,7 @@
     - php
 - name: write-good
   url: "https://github.com/btford/write-good"
-  description: "A linter with a focus on eliminating \"weasel words\"."
+  description: 'A linter with a focus on eliminating "weasel words".'
   tags:
     - writing
 - name: wsl
