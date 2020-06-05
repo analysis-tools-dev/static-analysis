@@ -2897,15 +2897,15 @@
     - service
   proprietary: true
 - name: tern
-  homepage: "https://github.com/ternjs/tern"
+  homepage: "https://ternjs.net/"
   source: "https://github.com/ternjs/tern"
   description: "A JavaScript code analyzer for deep, cross-editor language support"
   tags:
     - javascript
 - name: terraform-compliance
   homepage: "https://terraform-compliance.com"
-  source: "https://terraform-compliance.com"
-  description: "a lightweight, compliance and security focused, BDD test framework against Terraform."
+  source: "https://github.com/eerkunt/terraform-compliance"
+  description: "A lightweight, compliance- and security focused, BDD test framework against Terraform."
   tags:
     - configmanagement
 - name: terrascan
@@ -2922,7 +2922,6 @@
     - go
 - name: Test Design Studio
   homepage: "http://patterson-consulting.net/tds"
-  source: "http://patterson-consulting.net/tds"
   description: A full IDE with static code analysis for Micro Focus Unified Functional Testing VBScript-based automated tests.
   tags:
     - vbscript
@@ -2940,10 +2939,10 @@
   tags:
     - c
     - cpp
-    - java
-    - php
+    - csharp
+    - lua
 - name: tslint-clean-code
-  homepage: "https://github.com/Glavin001/tslint-clean-code"
+  homepage: "https://www.npmjs.com/package/tslint-clean-code"
   source: "https://github.com/Glavin001/tslint-clean-code"
   description: A set of TSLint rules inspired by the Clean Code handbook.
   tags:
@@ -2979,7 +2978,7 @@
   tags:
     - php
 - name: Twiggy
-  homepage: "https://github.com/rustwasm/twiggy"
+  homepage: "https://rustwasm.github.io/twiggy/"
   source: "https://github.com/rustwasm/twiggy"
   description: "Analyzes a binary's call graph to profile code size. The goal is to slim down binaries."
   tags:
@@ -3001,16 +3000,16 @@
     - php
 - name: Understand
   homepage: "https://scitools.com/ada-programming-essential/"
-  source: "https://scitools.com/ada-programming-essential/"
   description: "IDE that provides code analysis, standards testing, metrics, graphing, dependency analysis and more for Ada and VHDL."
   tags:
     - ada
   proprietary: true
 - name: Unibeautify
   homepage: "https://unibeautify.com/"
-  source: "https://unibeautify.com/"
+  source: "https://github.com/unibeautify/unibeautify"
   description: "Universal code beautifier with a GitHub app. Supports HTML, CSS, JavaScript, TypeScript, JSX, Vue, C++, Go, Objective-C, Java, Python, PHP, GraphQL, Markdown, and more."
   tags:
+    - formatter
     - c
     - cpp
     - css
@@ -3045,15 +3044,18 @@
     - go
 - name: Upsource
   homepage: "https://www.jetbrains.com/upsource/"
-  source: "https://www.jetbrains.com/upsource/"
   description: "Code review tool with static code analysis and code-aware navigation for Java, PHP, JavaScript and Kotlin."
   tags:
     - ci
+    - java
+    - javascript
+    - kotlin
+    - php
     - service
   proprietary: true
 - name: vale
   homepage: "https://github.com/ValeLint/vale"
-  source: "https://github.com/ValeLint/vale"
+  source: "https://errata-ai.gitbook.io/vale/"
   description: "A customizable, syntax-aware linter for prose."
   tags:
     - writing
@@ -3065,14 +3067,13 @@
     - go
 - name: vera++
   homepage: "https://bitbucket.org/verateam/vera/wiki/Introduction"
-  source: "https://bitbucket.org/verateam/vera/wiki/Introduction"
+  source: "https://bitbucket.org/verateam/vera/src/master/"
   description: "Vera++ is a programmable tool for verification, analysis and transformation of C++ source code."
   tags:
     - c
     - cpp
 - name: Veracode
   homepage: "http://www.veracode.com/products/static-analysis-sast/static-code-analysis"
-  source: "http://www.veracode.com/products/static-analysis-sast/static-code-analysis"
   description: "Find flaws in binaries and bytecode without requiring source. Support all major programming languages: Java, .NET, JavaScript, Swift, Objective-C, C, C++ and more."
   tags:
     - c
@@ -3095,6 +3096,8 @@
   source: "https://github.com/tomasbjerre/violations-lib"
   description: "Java library for parsing report files from static code analysis. Used by a bunch of Jenkins, Maven and Gradle plugins."
   tags:
+    - ci
+    - java
     - support
 - name: VSDiagnostics
   homepage: "https://github.com/Vannevelj/VSDiagnostics"
@@ -3105,46 +3108,43 @@
 - name: vulture
   homepage: "https://github.com/jendrikseipp/vulture"
   source: "https://github.com/jendrikseipp/vulture"
-  description: "find unused classes, functions and variables in Python code"
+  description: "Find unused classes, functions and variables in Python code"
   tags:
     - python
 - name: WALA
-  homepage: "http://wala.sourceforge.net/wiki/index.php/Main_Page"
-  source: "http://wala.sourceforge.net/wiki/index.php/Main_Page"
+  homepage: "http://wala.sourceforge.net"
+  source: "https://github.com/wala/WALA"
   description: static analysis capabilities for Java bytecode and related languages and for JavaScript
   tags:
-    - c
-    - cpp
+    - javascript
     - java
-    - php
 - name: WAP
   homepage: "https://securityonline.info/owasp-wap-web-application-protection-project/"
-  source: "https://securityonline.info/owasp-wap-web-application-protection-project/"
+  source: "http://awap.sourceforge.net/index.html"
   description: Tool to detect and correct input validation vulnerabilities in PHP (4.0 or higher) web applications and predicts false positives by combining static analysis and data mining.
   tags:
     - php
 - name: WartRemover
-  homepage: "https://github.com/puffnfresh/wartremover"
+  homepage: "https://www.wartremover.org/"
   source: "https://github.com/puffnfresh/wartremover"
   description: a flexible Scala code linting tool.
   tags:
     - scala
 - name: Weeder
-  homepage: "https://github.com/ndmitchell/weeder"
-  source: "https://github.com/ndmitchell/weeder"
+  homepage: "https://github.com/ocharles/weeder"
+  source: "https://github.com/ocharles/weeder"
   description: A tool for detecting dead exports or package imports in Haskell code.
   tags:
     - haskell
 - name: wemake-python-styleguide
-  homepage: "https://github.com/wemake-services/wemake-python-styleguide"
+  homepage: "https://wemake-python-stylegui.de"
   source: "https://github.com/wemake-services/wemake-python-styleguide"
-  description: the strictest and most opinionated python linter ever
+  description: The strictest and most opinionated python linter ever
   tags:
     - python
 - name: WhiteHat Application Security Platform
-  homepage: "https://www.whitehatsec.com/products/static-application-security-testing/"
-  source: "https://www.whitehatsec.com/products/static-application-security-testing/"
-  description: "WhiteHat Scout (for Developers) combined with WhiteHat Sentinel Source (for Operations) supporting WhiteHat Top 40 and OWASP Top 10. Language support for: Java, C#(.NET), ASP.NET, PHP, JavaScript, Node.js, Objective-C, Android, HTML5, TypeScript."
+  homepage: "https://www.whitehatsec.com/platform/static-application-security-testing/"
+  description: "WhiteHat Scout (for Developers) combined with WhiteHat Sentinel Source (for Operations) supporting WhiteHat Top 40 and OWASP Top 10."
   tags:
     - java
     - csharp
@@ -3160,7 +3160,7 @@
 - name: wily
   homepage: "https://github.com/tonybaloney/wily"
   source: "https://github.com/tonybaloney/wily"
-  description: "a command-line tool for archiving, exploring and graphing the complexity of Python source code"
+  description: "A command-line tool for archiving, exploring and graphing the complexity of Python source code"
   tags:
     - python
 - name: Wintellect.Analyzers
@@ -3174,10 +3174,8 @@
   source: "https://github.com/fimbullinter/wotan"
   description: Pluggable TypeScript and JavaScript linter
   tags:
-    - c
-    - cpp
-    - java
-    - php
+    - typescript
+    - javascript
 - name: write-good
   homepage: "https://github.com/btford/write-good"
   source: "https://github.com/btford/write-good"
@@ -3196,24 +3194,24 @@
   description: Xanitizer finds security vulnerabilities in Java/Scala web applications.
   tags:
     - java
+    - scala
 - name: Xanitizer
   homepage: "https://xanitizer.com/"
-  source: "https://xanitizer.com/"
   description: Xanitizer finds security vulnerabilities in Java/Scala web applications.
   tags:
+    - java
     - scala
+  proprietary: true
 - name: XCode
   homepage: "https://developer.apple.com/xcode/"
-  source: "https://developer.apple.com/xcode/"
   description: "XCode provides a pretty decent UI for [Clang's](http://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C)"
   tags:
     - c
     - cpp
-    - java
-    - php
+    - objectivec
   proprietary: true
 - name: xenon
-  homepage: "https://github.com/rubik/xenon"
+  homepage: "https://xenon.readthedocs.io/"
   source: "https://github.com/rubik/xenon"
   description: "monitor code complexity using [`radon`](https://github.com/rubik/radon)"
   tags:
@@ -3225,7 +3223,7 @@
   tags:
     - javascript
 - name: yamllint
-  homepage: "https://github.com/adrienverge/yamllint"
+  homepage: "https://yamllint.readthedocs.io/"
   source: "https://github.com/adrienverge/yamllint"
   description: "Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation."
   tags:

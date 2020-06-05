@@ -296,7 +296,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="haskell">Haskell</h2>
 
 - [HLint](https://github.com/ndmitchell/hlint) - HLint is a tool for suggesting possible improvements to Haskell code.
-- [Weeder](https://github.com/ndmitchell/weeder) - A tool for detecting dead exports or package imports in Haskell code.
+- [Weeder](https://github.com/ocharles/weeder) - A tool for detecting dead exports or package imports in Haskell code.
 
 
 <h2 id="haxe">Haxe</h2>
@@ -325,7 +325,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Soot](https://sable.github.io/soot/) - A framework for analyzing and transforming Java and Android applications.
 - [Spoon](http://spoon.gforge.inria.fr/) - Spoon is a metaprogramming library to analyze and transform Java source code (incl Java 9, 10, 11, 12, 13, 14). It parses source files to build a well-designed AST with powerful analysis and transformation API. Can be integrated in Maven and Gradle.
 - [SpotBugs](https://spotbugs.github.io/) - SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code.
-- [Xanitizer](https://xanitizer.com/) - Xanitizer finds security vulnerabilities in Java/Scala web applications.
 
 
 <h2 id="javascript">JavaScript</h2>
@@ -346,7 +345,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [plato](https://github.com/es-analysis/plato) - Visualize JavaScript source complexity
 - [quality](https://github.com/jden/quality) - zero configuration code and module linting
 - [retire.js](http://retirejs.github.io/retire.js/) - Scanner detecting the use of JavaScript libraries with known vulnerabilities
-- [tern](https://github.com/ternjs/tern) - A JavaScript code analyzer for deep, cross-editor language support
+- [tern](https://ternjs.net/) - A JavaScript code analyzer for deep, cross-editor language support
 - [xo](https://github.com/xojs/xo) - Opinionated but configurable ESLint wrapper with lots of goodies included. Enforces strict and readable code.
 - [yardstick](https://github.com/calmh/yardstick) :warning: - Javascript code metrics
 
@@ -440,10 +439,10 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [PyT - Python Taint](https://github.com/python-security/pyt) :warning: - A static analysis tool for detecting security vulnerabilities in Python web applications.
 - [pytype](https://google.github.io/pytype/) - A static type analyzer for Python code.
 - [radon](https://radon.readthedocs.io/en/latest/) - A Python tool that computes various metrics from the source code
-- [vulture](https://github.com/jendrikseipp/vulture) - find unused classes, functions and variables in Python code
-- [wemake-python-styleguide](https://github.com/wemake-services/wemake-python-styleguide) - the strictest and most opinionated python linter ever
-- [wily](https://github.com/tonybaloney/wily) - a command-line tool for archiving, exploring and graphing the complexity of Python source code
-- [xenon](https://github.com/rubik/xenon) - monitor code complexity using [`radon`](https://github.com/rubik/radon)
+- [vulture](https://github.com/jendrikseipp/vulture) - Find unused classes, functions and variables in Python code
+- [wemake-python-styleguide](https://wemake-python-stylegui.de) - The strictest and most opinionated python linter ever
+- [wily](https://github.com/tonybaloney/wily) - A command-line tool for archiving, exploring and graphing the complexity of Python source code
+- [xenon](https://xenon.readthedocs.io/) - monitor code complexity using [`radon`](https://github.com/rubik/radon)
 
 
 <h2 id="r">R</h2>
@@ -504,8 +503,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [linter](https://github.com/HairyFotr/linter) - Linter is a Scala static analysis compiler plugin which adds compile-time checks for various possible bugs, inefficiencies, and style problems.
 - [Scalastyle](http://www.scalastyle.org) - Scalastyle examines your Scala code and indicates potential problems with it.
 - [scapegoat](https://github.com/sksamuel/scapegoat) - Scala compiler plugin for static code analysis
-- [WartRemover](https://github.com/puffnfresh/wartremover) - a flexible Scala code linting tool.
-- [Xanitizer](https://xanitizer.com/) - Xanitizer finds security vulnerabilities in Java/Scala web applications.
+- [WartRemover](https://www.wartremover.org/) - a flexible Scala code linting tool.
 
 
 <h2 id="shell">Shell</h2>
@@ -537,7 +535,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [Codelyzer](http://codelyzer.com/) - A set of tslint rules for static code analysis of Angular 2 TypeScript projects.
 - [ESLint](https://github.com/typescript-eslint/typescript-eslint) - An extensible linter for the TypeScript language.
-- [tslint-clean-code](https://github.com/Glavin001/tslint-clean-code) - A set of TSLint rules inspired by the Clean Code handbook.
+- [tslint-clean-code](https://www.npmjs.com/package/tslint-clean-code) - A set of TSLint rules inspired by the Clean Code handbook.
 - [tslint-microsoft-contrib](https://github.com/Microsoft/tslint-microsoft-contrib) - A set of tslint rules for static code analysis of TypeScript projects maintained by Microsoft.
 
 
@@ -642,9 +640,12 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Unibeautify](https://unibeautify.com/) - Universal code beautifier with a GitHub app. Supports HTML, CSS, JavaScript, TypeScript, JSX, Vue, C++, Go, Objective-C, Java, Python, PHP, GraphQL, Markdown, and more. 
 - [Upsource](https://www.jetbrains.com/upsource/) :copyright: - Code review tool with static code analysis and code-aware navigation for Java, PHP, JavaScript and Kotlin. 
 - [Veracode](http://www.veracode.com/products/static-analysis-sast/static-code-analysis) :copyright: - Find flaws in binaries and bytecode without requiring source. Support all major programming languages: Java, .NET, JavaScript, Swift, Objective-C, C, C++ and more. 
-- [WALA](http://wala.sourceforge.net/wiki/index.php/Main_Page) - static analysis capabilities for Java bytecode and related languages and for JavaScript 
-- [WhiteHat Application Security Platform](https://www.whitehatsec.com/products/static-application-security-testing/) :copyright: - WhiteHat Scout (for Developers) combined with WhiteHat Sentinel Source (for Operations) supporting WhiteHat Top 40 and OWASP Top 10. Language support for: Java, C#(.NET), ASP.NET, PHP, JavaScript, Node.js, Objective-C, Android, HTML5, TypeScript. 
+- [Violations Lib](https://github.com/tomasbjerre/violations-lib) - Java library for parsing report files from static code analysis. Used by a bunch of Jenkins, Maven and Gradle plugins. 
+- [WALA](http://wala.sourceforge.net) - static analysis capabilities for Java bytecode and related languages and for JavaScript 
+- [WhiteHat Application Security Platform](https://www.whitehatsec.com/platform/static-application-security-testing/) :copyright: - WhiteHat Scout (for Developers) combined with WhiteHat Sentinel Source (for Operations) supporting WhiteHat Top 40 and OWASP Top 10. 
 - [Wotan](https://github.com/fimbullinter/wotan) - Pluggable TypeScript and JavaScript linter 
+- [Xanitizer](https://xanitizer.com/) - Xanitizer finds security vulnerabilities in Java/Scala web applications. 
+- [Xanitizer](https://xanitizer.com/) :copyright: - Xanitizer finds security vulnerabilities in Java/Scala web applications. 
 - [XCode](https://developer.apple.com/xcode/) :copyright: - XCode provides a pretty decent UI for [Clang's](http://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C) 
 
 
@@ -658,7 +659,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [cwe_checker](https://github.com/fkie-cad/cwe_checker) - cwe_checker finds vulnerable patterns in binary executables.
 - [Jakstab](https://github.com/jkinder/jakstab) - Jakstab is an Abstract Interpretation-based, integrated disassembly and static analysis framework for designing analyses on executables and recovering reliable control flow graphs.
 - [Manalyze](https://github.com/JusticeRage/Manalyze) - A static analyzer, which checks portable executables for malicious content.
-- [Twiggy](https://github.com/rustwasm/twiggy) - Analyzes a binary's call graph to profile code size. The goal is to slim down binaries.
+- [Twiggy](https://rustwasm.github.io/twiggy/) - Analyzes a binary's call graph to profile code size. The goal is to slim down binaries.
 
 
 <h2 id="buildtool">Build tools</h2>
@@ -694,7 +695,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [cookstyle](https://github.com/chef/cookstyle) - Cookstyle is a linting tool based on the RuboCop Ruby linting tool for Chef cookbooks
 - [foodcritic](http://www.foodcritic.io/) - A lint tool that checks Chef cookbooks for common problems.
 - [Puppet Lint](https://github.com/rodjek/puppet-lint) - Check that your Puppet manifests conform to the style guide.
-- [terraform-compliance](https://terraform-compliance.com) - a lightweight, compliance and security focused, BDD test framework against Terraform.
+- [terraform-compliance](https://terraform-compliance.com) - A lightweight, compliance- and security focused, BDD test framework against Terraform.
 - [terrascan](https://github.com/cesar-rodriguez/terrascan) - Collection of security and best practice tests for static code analysis of Terraform templates.
 - [tflint](https://github.com/wata727/tflint) - A Terraform linter for detecting errors that can not be detected by `terraform plan`.
 
@@ -778,7 +779,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="support">Supporting Tools</h2>
 
 - [LibVCS4j](https://github.com/uni-bremen-agst/libvcs4j) - A Java library that allows existing tools to analyse the evolution of software systems by providing a common API for different version control systems and issue trackers.
-- [Violations Lib](https://github.com/tomasbjerre/violations-lib) - Java library for parsing report files from static code analysis. Used by a bunch of Jenkins, Maven and Gradle plugins.
 
 
 <h2 id="template">Template-Languages</h2>
@@ -786,7 +786,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [ember-template-lint](https://github.com/rwjblue/ember-template-lint) - Linter for Ember or Handlebars templates.
 - [haml-lint](https://github.com/sds/haml-lint) - Tool for writing clean and consistent HAML
 - [slim-lint](https://github.com/sds/slim-lint) - Configurable tool for analyzing Slim templates
-- [yamllint](https://github.com/adrienverge/yamllint) - Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation.
+- [yamllint](https://yamllint.readthedocs.io/) - Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation.
 
 
 <h2 id="translation">Translation</h2>
