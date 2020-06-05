@@ -133,7 +133,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [IKOS](https://github.com/nasa-sw-vnv/ikos) - a sound static analyzer for C/C++ code based on LLVM
 - [include-gardener](https://github.com/feddischson/include_gardener) - a multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files.
 - [LDRA](https://ldra.com) :copyright: - a tool suite including static analysis (TBVISION) to various standards including MISRA C & C++, JSF++ AV, CWE, CERT C, CERT C++ & Custom Rules.
-- [oclint](http://oclint.org/) - static analysis of C/C++ code
 - [Phasar](https://github.com/secure-software-engineering/phasar) - A LLVM-based static analysis framework which comes with a taint and type state analysis.
 - [Polyspace Bug Finder](https://www.mathworks.com/products/polyspace-bug-finder.html) :copyright: - identifies run-time errors, concurrency issues, security vulnerabilities, and other defects in C and C++ embedded software.
 - [Polyspace Code Prover](https://www.mathworks.com/products/polyspace-code-prover.html) :copyright: - provide code verification that proves the absence of overflow, divide-by-zero, out-of-bounds array access, and certain other run-time errors in C and C++ source code.
@@ -183,7 +182,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [IKOS](https://github.com/nasa-sw-vnv/ikos) - a sound static analyzer for C/C++ code based on LLVM
 - [include-gardener](https://github.com/feddischson/include_gardener) - a multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files.
 - [LDRA](https://ldra.com) :copyright: - a tool suite including static analysis (TBVISION) to various standards including MISRA C & C++, JSF++ AV, CWE, CERT C, CERT C++ & Custom Rules.
-- [oclint](http://oclint.org/) - static analysis of C/C++ code
 - [Phasar](https://github.com/secure-software-engineering/phasar) - A LLVM-based static analysis framework which comes with a taint and type state analysis.
 - [Polyspace Bug Finder](https://www.mathworks.com/products/polyspace-bug-finder.html) :copyright: - identifies run-time errors, concurrency issues, security vulnerabilities, and other defects in C and C++ embedded software.
 - [Polyspace Code Prover](https://www.mathworks.com/products/polyspace-code-prover.html) :copyright: - provide code verification that proves the absence of overflow, divide-by-zero, out-of-bounds array access, and certain other run-time errors in C and C++ source code.
@@ -369,7 +367,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="matlab">MATLAB</h2>
 
-- [mlint](https://de.mathworks.com/help/matlab/ref/mlint.html) :copyright: - Check MATLAB code files for possible problems.
+- [mlint](https://mathworks.com/help/matlab/ref/mlint.html) :copyright: - Check MATLAB code files for possible problems.
 
 
 <h2 id="php">PHP</h2>
@@ -381,7 +379,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [EasyCodingStandard](https://www.tomasvotruba.com/blog/2017/05/03/combine-power-of-php-code-sniffer-and-php-cs-fixer-in-3-lines/) - Combine [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) and [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
 - [exakat](https://www.exakat.io/) - An automated code reviewing engine for PHP
 - [GrumPHP](https://github.com/phpro/grumphp) - checks code on every commit
-- [Mondrian](https://github.com/Trismegiste/Mondrian) - a set of static analysis and refactoring tools which use graph theory
+- [Mondrian](http://trismegiste.github.io/Mondrian/) - a set of static analysis and refactoring tools which use graph theory
 - [parallel-lint](https://github.com/php-parallel-lint/PHP-Parallel-Lint) - This tool checks syntax of PHP files faster than serial check with a fancier output.
 - [Parse](https://github.com/psecio/parse) - A Static Security Scanner
 - [pdepend](https://pdepend.org/) - Calculates software metrics like cyclomatic complexity for PHP code.
@@ -436,8 +434,8 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [include-gardener](https://github.com/feddischson/include_gardener) - a multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files.
 - [jedi](https://jedi.readthedocs.io/en/latest/) - autocompletion/static analysis library for Python
 - [linty fresh](https://github.com/lyft/linty_fresh) - parse lint errors and report them to Github as comments on a pull request
-- [mccabe](https://github.com/PyCQA/mccabe) - check McCabe complexity
-- [mypy](https://github.com/python/mypy) - a static type checker that aims to combine the benefits of duck typing and static typing, frequently used with [MonkeyType](https://github.com/Instagram/MonkeyType)
+- [mccabe](https://pypi.org/project/mccabe/) - check McCabe complexity
+- [mypy](http://www.mypy-lang.org/) - A static type checker that aims to combine the benefits of duck typing and static typing, frequently used with [MonkeyType](https://github.com/Instagram/MonkeyType)
 - [py-find-injection](https://github.com/uber/py-find-injection) - find SQL injection vulnerabilities in Python code
 - [pycodestyle](https://github.com/PyCQA/pycodestyle) - (formerly `pep8`) check Python code against some of the style conventions in PEP 8
 - [pydocstyle](https://github.com/PyCQA/pydocstyle) - check compliance with Python docstring conventions
@@ -606,8 +604,8 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Kiuwan](https://www.kiuwan.com/code-security-sast/) :copyright: - Identify and remediate cyber threats in a blazingly fast, collaborative environment, with seamless integration in your SDLC. Python, C\C++, Java, C#, PHP and more 
 - [Klocwork](https://www.perforce.com/products/klocwork) :copyright: - Quality and Security Static analysis for C/C++, Java and C# 
 - [multilint](https://github.com/adamchainz/multilint) - a wrapper around `flake8`, `isort` and `modernize` 
-- [NodeJSScan](https://github.com/ajinabraham/NodeJsScan) - NodeJsScan is a static security code scanner for Node.js applications. 
-- [oclint](https://github.com/oclint/oclint) - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C 
+- [NodeJSScan](https://opensecurity.in/) - NodeJsScan is a static security code scanner for Node.js applications. 
+- [oclint](http://oclint.org/) - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C 
 - [pfff](https://github.com/facebook/pfff) - Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages 
 - [PMD](https://pmd.github.io/) - A source code analyzer for Java, Javascript, PLSQL, XML, XSL and others 
 - [pre-commit](https://github.com/pre-commit/pre-commit) - A framework for managing and maintaining multi-language pre-commit hooks. 
@@ -813,7 +811,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [codespell](https://github.com/codespell-project/codespell) - check code for common misspellings
 - [languagetool](https://languagetool.org/) - Style and grammar checker for 25+ languages. It finds many errors that a simple spell checker cannot detect.
 - [misspell-fixer](https://github.com/vlajos/misspell-fixer) - Quick tool for fixing common misspellings, typos in source code
-- [Misspelled Words In Context](https://github.com/jwilk/mwic) - a spell-checker that groups possible misspellings and shows them in their contexts
+- [Misspelled Words In Context](http://jwilk.net/software/mwic) - a spell-checker that groups possible misspellings and shows them in their contexts
 - [proselint](https://github.com/amperser/proselint/) - a linter for English prose with a focus on writing style instead of grammar.
 - [vale](https://github.com/ValeLint/vale) - A customizable, syntax-aware linter for prose.
 - [write-good](https://github.com/btford/write-good) - A linter with a focus on eliminating "weasel words".

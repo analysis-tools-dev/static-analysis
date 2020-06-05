@@ -1731,7 +1731,7 @@
   tags:
     - markdown
 - name: mccabe
-  homepage: "https://github.com/PyCQA/mccabe"
+  homepage: "https://pypi.org/project/mccabe/"
   source: "https://github.com/PyCQA/mccabe"
   description: check McCabe complexity
   tags:
@@ -1761,20 +1761,19 @@
   tags:
     - writing
 - name: Misspelled Words In Context
-  homepage: "https://github.com/jwilk/mwic"
+  homepage: "http://jwilk.net/software/mwic"
   source: "https://github.com/jwilk/mwic"
   description: a spell-checker that groups possible misspellings and shows them in their contexts
   tags:
     - writing
 - name: mlint
-  homepage: "https://de.mathworks.com/help/matlab/ref/mlint.html"
-  source: "https://de.mathworks.com/help/matlab/ref/mlint.html"
+  homepage: "https://mathworks.com/help/matlab/ref/mlint.html"
   description: Check MATLAB code files for possible problems.
   tags:
     - matlab
   proprietary: true
 - name: Mondrian
-  homepage: "https://github.com/Trismegiste/Mondrian"
+  homepage: "http://trismegiste.github.io/Mondrian/"
   source: "https://github.com/Trismegiste/Mondrian"
   description: a set of static analysis and refactoring tools which use graph theory
   tags:
@@ -1787,14 +1786,14 @@
     - python
     - meta
 - name: mypy
-  homepage: "https://github.com/python/mypy"
+  homepage: "http://www.mypy-lang.org/"
   source: "https://github.com/python/mypy"
-  description: "a static type checker that aims to combine the benefits of duck typing and static typing, frequently used with [MonkeyType](https://github.com/Instagram/MonkeyType)"
+  description: "A static type checker that aims to combine the benefits of duck typing and static typing, frequently used with [MonkeyType](https://github.com/Instagram/MonkeyType)"
   tags:
     - python
 - name: Nagelfar
   homepage: "https://sourceforge.net/projects/nagelfar/"
-  source: "https://sourceforge.net/projects/nagelfar/"
+  source: "https://sourceforge.net/p/nagelfar/code/ci/master/tree/"
   description: A static syntax checker for Tcl
   tags:
     - tcl
@@ -1812,20 +1811,18 @@
     - go
 - name: NDepend
   homepage: "http://www.ndepend.com/"
-  source: "http://www.ndepend.com/"
   description: "Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity."
   tags:
     - csharp
   proprietary: true
 - name: Nitpick CI
   homepage: "https://nitpick-ci.com"
-  source: "https://nitpick-ci.com"
   description: Automated PHP code review
   tags:
     - service
   proprietary: true
 - name: NodeJSScan
-  homepage: "https://github.com/ajinabraham/NodeJsScan"
+  homepage: "https://opensecurity.in/"
   source: "https://github.com/ajinabraham/NodeJsScan"
   description: NodeJsScan is a static security code scanner for Node.js applications.
   tags:
@@ -1839,13 +1836,6 @@
     - java
 - name: oclint
   homepage: "http://oclint.org/"
-  source: "http://oclint.org/"
-  description: static analysis of C/C++ code
-  tags:
-    - c
-    - cpp
-- name: oclint
-  homepage: "https://github.com/oclint/oclint"
   source: "https://github.com/oclint/oclint"
   description: "A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C"
   tags:
@@ -1854,7 +1844,7 @@
     - objectivec
 - name: OWASP Dependency Check
   homepage: "https://owasp.org/www-project-dependency-check/"
-  source: "https://owasp.org/www-project-dependency-check/"
+  source: "https://github.com/jeremylong/DependencyCheck"
   description: "Checks dependencies for known, publicly disclosed, vulnerabilities."
   tags:
     - java
@@ -1884,14 +1874,12 @@
     - php
 - name: Pascal Analyzer
   homepage: "https://peganza.com/products_pal.html"
-  source: "https://peganza.com/products_pal.html"
   description: A static code analysis tool with numerous reports. A free _Lite_ version is available with limited reporting.
   tags:
     - delphi
   proprietary: true
 - name: Pascal Expert
   homepage: "https://peganza.com/products_pex.html"
-  source: "https://peganza.com/products_pex.html"
   description: IDE plugin for code analysis. Includes a subset of Pascal Analyzer reporting capabilities and is available for Delphi versions 2007 and later.
   tags:
     - delphi
