@@ -220,9 +220,6 @@
 - name: Mobile
   tag: mobile
   type: other
-- name: Multiple Languages
-  tag: multi
-  type: other
 - name: Node.js
   tag: nodejs
   type: other
