@@ -1,8 +1,8 @@
+use askama::Template;
 use render::types::{Entry, Tags};
 use render::{group, validate};
 use std::env;
 use std::error::Error;
-use askama::Template;
 
 fn get_files() -> Result<(String, String), Box<dyn Error>> {
     let files: Vec<_> = env::args().skip(1).collect();
@@ -12,23 +12,24 @@ fn get_files() -> Result<(String, String), Box<dyn Error>> {
     Ok((files[0].clone(), files[1].clone()))
 }
 
-fn read_categories(file: String) -> Result<Tags, Box<dyn Error>> {
+fn read_tags(file: String) -> Result<Tags, Box<dyn Error>> {
     let f = std::fs::File::open(file)?;
     Ok(serde_yaml::from_reader(f)?)
 }
 
-fn read_entries(file: String) -> Result<Vec<Entry>, Box<dyn Error>> {
+fn read_tools(file: String) -> Result<Vec<Entry>, Box<dyn Error>> {
     let f = std::fs::File::open(file)?;
     Ok(serde_yaml::from_reader(f)?)
 }
+
 fn main() -> Result<(), Box<dyn Error>> {
-    let (categories, data) = get_files()?;
-    let categories = read_categories(categories)?;
-    let mut entries = read_entries(data)?;
-    entries.sort();
-    validate(&categories, &entries)?;
+    let (tags, tools) = get_files()?;
+    let tags = read_tags(tags)?;
+    let mut tools = read_tools(tools)?;
+    tools.sort();
+    validate(&tags, &tools)?;
 
-    let catalog = group(&categories, entries)?;
+    let catalog = group(&tags, tools)?;
     println!("{}", catalog.render()?);
     Ok(())
 }
