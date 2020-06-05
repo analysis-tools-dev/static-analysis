@@ -2269,7 +2269,7 @@
   tags:
     - c
     - cpp
-    - charp
+    - csharp
     - java
   proprietary: true
 - name: py-find-injection
@@ -2405,27 +2405,29 @@
     - csharp
     - vbnet
 - name: remark-lint
-  homepage: "https://github.com/remarkjs/remark-lint"
+  homepage: "https://remark.js.org/"
   source: "https://github.com/remarkjs/remark-lint"
   description: Pluggable Markdown code style linter written in JavaScript.
   tags:
     - markdown
 - name: ReSharper
   homepage: "https://www.jetbrains.com/resharper/"
-  source: "https://www.jetbrains.com/resharper/"
   description: "Extends Visual Studio with on-the-fly code inspections for C#, VB.NET, ASP.NET, JavaScript, TypeScript and other technologies."
   tags:
+    - asp
     - csharp
+    - javascript
+    - typescript
+    - vbnet
   proprietary: true
 - name: Reshift
-  homepage: "https://softwaresecured.com/reshift/"
-  source: "https://softwaresecured.com/reshift/"
+  homepage: "https://www.reshiftsecurity.com/"
   description: A source code analysis tool for detecting and managing Java security vulnerabilities.
   tags:
     - service
   proprietary: true
 - name: retire.js
-  homepage: "https://github.com/RetireJS/retire.js"
+  homepage: "http://retirejs.github.io/retire.js/"
   source: "https://github.com/RetireJS/retire.js"
   description: Scanner detecting the use of JavaScript libraries with known vulnerabilities
   tags:
@@ -2435,22 +2437,21 @@
   source: "https://github.com/haya14busa/reviewdog"
   description: A tool for posting review comments from any linter in any code hosting service.
   tags:
-    - c
-    - cpp
-    - java
-    - php
+    - ci
+    - go
 - name: revive
-  homepage: "https://github.com/mgechev/revive"
+  homepage: "https://revive.run/"
   source: "https://github.com/mgechev/revive"
   description: "Fast, configurable, extensible, flexible, and beautiful linter for Go. Drop-in replacement of golint."
   tags:
     - go
 - name: RIPS
   homepage: "https://www.ripstech.com/"
-  source: "https://www.ripstech.com/"
   description: A static source code analyser for vulnerabilities in PHP scripts
   tags:
     - php
+    - java
+    - nodejs
   proprietary: true
 - name: Roslyn Analyzers
   homepage: "https://github.com/dotnet/roslyn-analyzers"
@@ -2458,12 +2459,14 @@
   description: Roslyn-based implementation of FxCop analyzers.
   tags:
     - csharp
+    - dotnet
 - name: Roslyn Security Guard
-  homepage: "https://dotnet-security-guard.github.io/"
-  source: "https://dotnet-security-guard.github.io/"
+  homepage: "https://security-code-scan.github.io/"
+  source: "https://github.com/security-code-scan/security-code-scan"
   description: "Project that focuses on the identification of potential vulnerabilities such as SQL injection, cross-site scripting (XSS), CSRF, cryptography weaknesses, hardcoded passwords and many more."
   tags:
     - csharp
+    - vbnet
 - name: Roslynator
   homepage: "https://github.com/JosefPihrt/Roslynator/"
   source: "https://github.com/JosefPihrt/Roslynator/"
@@ -2477,23 +2480,24 @@
   tags:
     - package
 - name: RuboCop
-  homepage: "https://github.com/rubocop-hq/rubocop"
+  homepage: "https://docs.rubocop.org/rubocop/"
   source: "https://github.com/rubocop-hq/rubocop"
   description: "A Ruby static code analyzer, based on the community Ruby style guide."
   tags:
     - ruby
 - name: Rubrowser
-  homepage: "https://github.com/blazeeboy/rubrowser"
+  homepage: "http://www.emadelsaid.com/rubrowser/"
   source: "https://github.com/blazeeboy/rubrowser"
   description: Ruby classes interactive dependency graph generator.
   tags:
     - ruby
 - name: ruby-lint
-  homepage: "https://github.com/YorickPeterse/ruby-lint"
-  source: "https://github.com/YorickPeterse/ruby-lint"
+  homepage: "http://code.yorickpeterse.com/ruby-lint/latest/"
+  source: "https://gitlab.com/yorickpeterse/ruby-lint"
   description: Static code analysis for Ruby
   tags:
     - ruby
+  deprecated: true
 - name: rubycritic
   homepage: "https://github.com/whitesmith/rubycritic"
   source: "https://github.com/whitesmith/rubycritic"
@@ -2507,8 +2511,8 @@
   tags:
     - rust
 - name: rustfix
-  homepage: "https://github.com/killercup/rustfix"
-  source: "https://github.com/killercup/rustfix"
+  homepage: "https://github.com/rust-lang/rustfix"
+  source: "https://github.com/rust-lang/rustfix"
   description: "read and apply the suggestions made by rustc (and third-party lints, like those offered by clippy)."
   tags:
     - rust
@@ -2519,20 +2523,22 @@
   tags:
     - go
 - name: SandiMeter
-  homepage: "https://github.com/makaroni4/sandi_meter"
+  homepage: "https://rubygems.org/gems/sandi_meter"
   source: "https://github.com/makaroni4/sandi_meter"
   description: "Static analysis tool for checking Ruby code for Sandi Metz' rules."
   tags:
     - ruby
+  deprecated: true
 - name: sass-lint
   homepage: "https://github.com/sasstools/sass-lint"
   source: "https://github.com/sasstools/sass-lint"
   description: A Node-only Sass linter for both sass and scss syntax.
   tags:
     - css
+  deprecated: true
 - name: Scalastyle
   homepage: "http://www.scalastyle.org"
-  source: "http://www.scalastyle.org"
+  source: "https://github.com/scalastyle/scalastyle"
   description: Scalastyle examines your Scala code and indicates potential problems with it.
   tags:
     - scala
@@ -2551,7 +2557,6 @@
     - scala
 - name: Scrutinizer
   homepage: "https://scrutinizer-ci.com/"
-  source: "https://scrutinizer-ci.com/"
   description: A proprietary code quality checker that can be integrated with GitHub
   tags:
     - service
@@ -2562,30 +2567,21 @@
   description: Linter for SCSS files
   tags:
     - css
+  deprecated: true
 - name: Security Code Scan
   homepage: "https://security-code-scan.github.io/"
-  source: "https://security-code-scan.github.io/"
-  description: "Security code analyzer for C# and VB.NET. Detects various security vulnerability patterns: SQLi, XSS, CSRF, XXE, Open Redirect, etc."
-  tags:
-    - csharp
-- name: Security Code Scan
-  homepage: "https://security-code-scan.github.io/"
-  source: "https://security-code-scan.github.io/"
-  description: "Security code analyzer for C# and VB.NET that integrates into Visual Studio 2015 and newer. Detects various security vulnerability patterns: SQLi, XSS, CSRF, XXE, Open Redirect, etc."
-  tags:
-    - ide
-- name: Security Code Scan
-  homepage: "https://security-code-scan.github.io/"
-  source: "https://security-code-scan.github.io/"
-  description: "Security code analyzer for C# and VB.NET. Detects various security vulnerability patterns: SQLi, XSS, CSRF, XXE, Open Redirect, etc."
+  source: "https://github.com/security-code-scan/security-code-scan"
+  description: "Security code analyzer for C# and VB.NET. Detects various security vulnerability patterns: SQLi, XSS, CSRF, XXE, Open Redirect, etc. Integrates into Visual Studio 2015 and newer. Detects various security vulnerability patterns: SQLi, XSS, CSRF, XXE, Open Redirect, etc."
   tags:
     - c
     - cpp
+    - csharp
+    - ide
     - java
     - php
+    - vbnet
 - name: Semmle QL and LGTM
   homepage: "https://semmle.com/"
-  source: "https://semmle.com/"
   description: "Find security vulnerabilities, variants, and critical code quality issues using queries over source code. Automatic PR code review; free for public GitHub/Bitbucket repo: [LGTM.com](https://LGTM.com)."
   tags:
     - c
@@ -2596,13 +2592,13 @@
   proprietary: true
 - name: SensioLabs Insight
   homepage: "https://insight.sensiolabs.com/"
-  source: "https://insight.sensiolabs.com/"
   description: "Detect security risks, find bugs and provide actionable metrics for PHP projects"
   tags:
+    - php
     - service
   proprietary: true
 - name: shellcheck
-  homepage: "https://github.com/koalaman/shellcheck"
+  homepage: "https://www.shellcheck.net/"
   source: "https://github.com/koalaman/shellcheck"
   description: "ShellCheck, a static analysis tool that gives warnings and suggestions for bash/sh shell scripts"
   tags:
@@ -2616,13 +2612,18 @@
     - cpp
     - java
     - php
+  deprecated: true
 - name: Sider
   homepage: "https://sider.review"
-  source: "https://sider.review"
   description: "An automated code reviewing tool. Improving developers' productivity."
   tags:
     - ci
     - service
+    - ruby
+    - python
+    - css
+    - go
+    - swift
   proprietary: true
 - name: slim-lint
   homepage: "https://github.com/sds/slim-lint"
@@ -2638,7 +2639,6 @@
     - solidity
 - name: SmartDec Scanner
   homepage: "https://smartdecscanner.com/"
-  source: "https://smartdecscanner.com/"
   description: "SAST tool which is capable of identifying vulnerabilities and undocumented features. The analyzer scans the source code and executables without debug info (i.e. binaries). Supports: Java/Scala/Kotlin, PHP, C#, JavaScript, TypeScript, VBScript, HTML5, Python, Perl, C/C++, Objective-C/Swift, PL/SQL, T-SQL, ABAP, 1C, Apex, Go, Ruby, Groovy, Delphi, VBA, Visual Basic 6, Solidity, Vyper, COBOL."
   tags:
     - abap
@@ -2675,6 +2675,14 @@
   source: "https://snyk.io/"
   description: Vulnerability scanner for dependencies of node.js apps (free for Open Source Projects)
   tags:
+    - ci
+    - container
+    - go
+    - java
+    - javascript
+    - php
+    - python
+    - ruby
     - service
   proprietary: true
 - name: sobelow
@@ -2684,87 +2692,99 @@
   tags:
     - elixir
 - name: solium
-  homepage: "https://github.com/duaraghav8/Solium"
+  homepage: "https://ethlint.readthedocs.io/en/latest/"
   source: "https://github.com/duaraghav8/Solium"
   description: Solium is a linter to identify and fix style and security issues in Solidity smart contracts
   tags:
     - solidity
 - name: SonarCloud
   homepage: "https://sonarcloud.io"
-  source: "https://sonarcloud.io"
   description: "Multilanguage cloud-based static code analysis. History, trends, security hot-spots, pull request analysis and more. Free for open source."
   tags:
+    - ci
     - service
   proprietary: true
 - name: SonarLint for Visual Studio
   homepage: "https://vs.sonarlint.org/"
-  source: "https://vs.sonarlint.org/"
+  source: "https://github.com/SonarSource/sonarlint-visualstudio"
   description: SonarLint is an extension for Visual Studio 2015 and 2017 that provides on-the-fly feedback to developers on new bugs and quality issues injected into .NET code.
   tags:
+    - c 
+    - cpp
     - csharp
+    - javascript
+    - vbnet
 - name: SonarQube
   homepage: "http://www.sonarqube.org/"
-  source: "http://www.sonarqube.org/"
+  source: "https://github.com/SonarSource/sonarqube"
   description: SonarQube is an open platform to manage code quality.
   tags:
-    - c
-    - cpp
+    - ci
+    - csharp
+    - css
+    - go
+    - html
     - java
+    - javascript
+    - kotlin
     - php
+    - python
+    - ruby
+    - scala
+    - typescript
+    - xml
 - name: Soot
   homepage: "https://sable.github.io/soot/"
-  source: "https://sable.github.io/soot/"
+  source: "https://github.com/Sable/soot"
   description: A framework for analyzing and transforming Java and Android applications.
   tags:
     - java
 - name: Sorbet
-  homepage: "https://github.com/sorbet/sorbet"
+  homepage: "https://sorbet.org/"
   source: "https://github.com/sorbet/sorbet"
   description: "A fast, powerful type checker designed for Ruby"
   tags:
     - ruby
 - name: SourceMeter
   homepage: "https://www.sourcemeter.com/resources/rpg/"
-  source: "https://www.sourcemeter.com/resources/rpg/"
   description: Static Code Analysis for RPG III and RPG IV versions (including free-form)
   tags:
     - rpg
   proprietary: true
 - name: SPARK
-  homepage: "http://www.spark-2014.org/about"
-  source: "http://www.spark-2014.org/about"
+  homepage: "https://www.adacore.com/about-spark"
   description: Static analysis and formal verification toolset for Ada
   tags:
     - ada
   proprietary: true
 - name: Specificity Graph
-  homepage: "https://github.com/pocketjoso/specificity-graph"
+  homepage: "https://jonassebastianohlsson.com/specificity-graph/"
   source: "https://github.com/pocketjoso/specificity-graph"
   description: CSS Specificity Graph Generator
   tags:
     - css
 - name: splint
-  homepage: "https://github.com/ravenexp/splint"
+  homepage: "http://splint.org/"
   source: "https://github.com/ravenexp/splint"
   description: Annotation-assisted static program checker
   tags:
     - c
     - cpp
 - name: Spoon
-  homepage: "https://github.com/INRIA/spoon"
+  homepage: "http://spoon.gforge.inria.fr/"
   source: "https://github.com/INRIA/spoon"
-  description: Library to write your own static analyses and architectural rule checkers for Java. Can be integrated in Maven and Gradle.
+  description: Spoon is a metaprogramming library to analyze and transform Java source code (incl Java 9, 10, 11, 12, 13, 14). It parses source files to build a well-designed AST with powerful analysis and transformation API. Can be integrated in Maven and Gradle.
   tags:
     - java
 - name: SpotBugs
   homepage: "https://spotbugs.github.io/"
-  source: "https://spotbugs.github.io/"
+  source: "https://github.com/spotbugs/spotbugs"
   description: "SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code."
   tags:
     - java
 - name: sqlcheck
-  homepage: "https://github.com/jarulraj/sqlcheck-old"
-  source: "https://github.com/jarulraj/sqlcheck-old"
+  homepage: "https://github.com/jarulraj/sqlcheck"
+  source: "https://github.com/jarulraj/sqlcheck"
   description: Automatically identify anti-patterns in SQL queries
   tags:
     - sql
@@ -2776,25 +2796,23 @@
     - sql
 - name: standard
   homepage: "http://standardjs.com/"
-  source: "http://standardjs.com/"
+  source: "https://github.com/standard/standard"
   description: An npm module that checks for Javascript Styleguide issues
   tags:
     - javascript
+    - nodejs
 - name: staticcheck
   homepage: "https://staticcheck.io/"
-  source: "https://staticcheck.io/"
+  source: "https://github.com/dominikh/go-tools"
   description: "A suite of static analysis tools for Go, similar to ReSharper for C#. It specialises on bug finding, code simplicity, performance and editor integration."
   tags:
     - go
 - name: STOKE
-  homepage: "https://github.com/StanfordPL/stoke"
+  homepage: "http://stoke.stanford.edu/"
   source: "https://github.com/StanfordPL/stoke"
   description: a programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations
   tags:
-    - c
-    - cpp
-    - java
-    - php
+    - asm
 - name: structcheck
   homepage: "https://gitlab.com/opennota/check"
   source: "https://gitlab.com/opennota/check"
@@ -2803,19 +2821,19 @@
     - go
 - name: Stylelint
   homepage: "http://stylelint.io/"
-  source: "http://stylelint.io/"
+  source: "https://github.com/stylelint/stylelint"
   description: Linter for SCSS/CSS files
   tags:
     - css
 - name: styler
   homepage: "https://styler.r-lib.org/"
-  source: "https://styler.r-lib.org/"
+  source: "https://github.com/r-lib/styler/"
   description: Formatting of R source code files and pretty-printing of R code.
   tags:
     - r
     - formatter
 - name: SVF
-  homepage: "https://github.com/SVF-tools/SVF"
+  homepage: "http://svf-tools.github.io/SVF/"
   source: "https://github.com/SVF-tools/SVF"
   description: a static tool that enables scalable and precise interprocedural dependence analysis for C and C++ programs.
   tags:
@@ -2826,25 +2844,34 @@
   source: "https://github.com/nicklockwood/SwiftFormat"
   description: A library and command-line formatting tool for reformatting Swift code
   tags:
+    - formatter
     - swift
 - name: SwiftLint
-  homepage: "https://github.com/realm/SwiftLint"
+  homepage: "https://realm.github.io/SwiftLint/"
   source: "https://github.com/realm/SwiftLint"
   description: A tool to enforce Swift style and conventions
   tags:
     - swift
 - name: Synopsys
   homepage: "https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html"
-  source: "https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html"
   description: "A commercial static analysis platform that allows for scanning of multiple languages (C/C++, Android, C#, Java, JS, PHP, Python, Node.JS, Ruby, Fortran, and Swift)"
   tags:
     - c
+    - ci
     - cpp
+    - csharp
+    - fortran
     - java
+    - javascript
+    - mobile
+    - nodejs
     - php
+    - python
+    - ruby
+    - swift
   proprietary: true
 - name: Tailor
-  homepage: "https://github.com/sleekbyte/tailor"
+  homepage: "https://tailor.sh/"
   source: "https://github.com/sleekbyte/tailor"
   description: "A static analysis and lint tool for source code written in Apple's Swift programming language."
   tags:
@@ -2858,9 +2885,15 @@
     - tcl
 - name: Teamscale
   homepage: "http://www.teamscale.com/"
-  source: "http://www.teamscale.com/"
   description: Static and dynamic analysis tool supporting more than 25 languages and direct IDE integration. Free hosting for Open Source projects available on request. Free academic licenses available.
   tags:
+    - abap
+    - c
+    - ci
+    - cpp
+    - csharp
+    - ide
+    - java
     - service
   proprietary: true
 - name: tern

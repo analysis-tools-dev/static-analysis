@@ -13,6 +13,9 @@
 - name: Ada
   tag: ada
   type: language
+- name: Assembly
+  tag: asm
+  type: language
 - name: ASP.NET
   tag: aspnet
   type: language
