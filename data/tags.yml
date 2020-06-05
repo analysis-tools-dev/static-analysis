@@ -121,9 +121,6 @@
 - name: Python
   tag: python
   type: language
-- name: Python wrappers
-  tag: pythonwrapper
-  type: language
 - name: R
   tag: r
   type: language
