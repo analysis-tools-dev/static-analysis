@@ -217,6 +217,9 @@
 - name: Markdown
   tag: markdown
   type: other
+- name: Metalinter
+  tag: meta
+  type: other
 - name: Mobile
   tag: mobile
   type: other
