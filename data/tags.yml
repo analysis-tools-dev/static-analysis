@@ -190,6 +190,9 @@
 - name: Configuration Management
   tag: configmanagement
   type: other
+- name: Continuous Integration
+  tag: ci
+  type: other
 - name: CSS/SASS/SCSS
   tag: css
   type: other

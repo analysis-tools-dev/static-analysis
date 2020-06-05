@@ -488,6 +488,7 @@
   homepage: "https://www.codeac.io?ref=awesome-static-analysis"
   description: "Automated code review tool integrates with GitHub, Bitbucket and GitLab (even self-hosted). Available for JavaScript, TypeScript, Python, Ruby, Go, PHP, Java, Docker, and more. (open-source free)"
   tags:
+    - ci
     - container
     - go
     - java
@@ -572,6 +573,7 @@
   homepage: "https://cyber-security.claranet.fr/en/codepatrol"
   description: "Automated SAST code reviews driven by security, supports 15+ languages and includes security training."
   tags:
+    - ci
     - csharp
     - javascript
     - java
@@ -1033,6 +1035,7 @@
   source: "https://github.com/exakat/exakat"
   description: An automated code reviewing engine for PHP
   tags:
+    - ci
     - php
 - name: fb-contrib
   homepage: "http://fb-contrib.sourceforge.net/"
@@ -1666,6 +1669,7 @@
   homepage: "https://lgtm.com/"
   description: Deep code analysis for GitHub and Bitbucket to find security vulnerabilities and critical code quality issues (using Semmle QL). Automatic code review for pull requests; free for public repositories.
   tags:
+    - ci
     - service
   proprietary: true
 - name: LibVCS4j
@@ -1823,6 +1827,7 @@
   homepage: "https://nitpick-ci.com"
   description: Automated PHP code review
   tags:
+    - ci
     - service
   proprietary: true
 - name: NodeJSScan
@@ -2182,7 +2187,7 @@
   tags:
     - php
 - name: Project Wallace CSS Analyzer
-  homepage: "https://github.com/projectwallace/css-analyzer"
+  homepage: "https://www.projectwallace.com/"
   source: "https://github.com/projectwallace/css-analyzer"
   description: "Analytics for CSS, part of [Project Wallace](https://www.projectwallace.com)"
   tags:
@@ -2190,12 +2195,17 @@
 - name: Pronto
   homepage: "https://github.com/prontolabs/pronto"
   source: "https://github.com/prontolabs/pronto"
-  description: "Quick automated code review of your changes. Supports more than 40 runners for various languages, including Clang, Elixir, JavaSCript, PHP, Ruby and more"
+  description: "Quick automated code review of your changes. Supports more than 40 runners for various languages, including Clang, Elixir, JavaScript, PHP, Ruby and more"
   tags:
     - c
+    - ci
     - cpp
+    - elixir
     - java
+    - javascript
     - php
+    - ruby
+    - ci
 - name: proselint
   homepage: "https://github.com/amperser/proselint/"
   source: "https://github.com/amperser/proselint/"
@@ -2235,6 +2245,7 @@
   source: "https://www.pullrequest.com"
   description: Code review as a service with built-in static analysis
   tags:
+    - ci
     - service
   proprietary: true
 - name: Puma Scan
@@ -2353,6 +2364,7 @@
   source: "https://www.quantifiedcode.com/"
   description: Automated code review & repair
   tags:
+    - ci
     - service
 - name: Querly
   homepage: "https://github.com/soutaro/querly"
@@ -2575,6 +2587,7 @@
   description: "Find security vulnerabilities, variants, and critical code quality issues using queries over source code. Automatic PR code review; free for public GitHub/Bitbucket repo: [LGTM.com](https://LGTM.com)."
   tags:
     - c
+    - ci
     - cpp
     - java
     - php
@@ -2606,6 +2619,7 @@
   source: "https://sider.review"
   description: "An automated code reviewing tool. Improving developers' productivity."
   tags:
+    - ci
     - service
   proprietary: true
 - name: slim-lint
@@ -2999,6 +3013,7 @@
   source: "https://www.jetbrains.com/upsource/"
   description: "Code review tool with static code analysis and code-aware navigation for Java, PHP, JavaScript and Kotlin."
   tags:
+    - ci
     - service
   proprietary: true
 - name: vale
