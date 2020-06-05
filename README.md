@@ -133,9 +133,9 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [IKOS](https://github.com/nasa-sw-vnv/ikos) - a sound static analyzer for C/C++ code based on LLVM
 - [include-gardener](https://github.com/feddischson/include_gardener) - a multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files.
 - [LDRA](https://ldra.com) :copyright: - a tool suite including static analysis (TBVISION) to various standards including MISRA C & C++, JSF++ AV, CWE, CERT C, CERT C++ & Custom Rules.
-- [Phasar](https://github.com/secure-software-engineering/phasar) - A LLVM-based static analysis framework which comes with a taint and type state analysis.
-- [Polyspace Bug Finder](https://www.mathworks.com/products/polyspace-bug-finder.html) :copyright: - identifies run-time errors, concurrency issues, security vulnerabilities, and other defects in C and C++ embedded software.
-- [Polyspace Code Prover](https://www.mathworks.com/products/polyspace-code-prover.html) :copyright: - provide code verification that proves the absence of overflow, divide-by-zero, out-of-bounds array access, and certain other run-time errors in C and C++ source code.
+- [Phasar](https://phasar.org/) - A LLVM-based static analysis framework which comes with a taint and type state analysis.
+- [Polyspace Bug Finder](https://www.mathworks.com/products/polyspace-bug-finder.html) :copyright: - Identifies run-time errors, concurrency issues, security vulnerabilities, and other defects in C and C++ embedded software.
+- [Polyspace Code Prover](https://www.mathworks.com/products/polyspace-code-prover.html) :copyright: - Provide code verification that proves the absence of overflow, divide-by-zero, out-of-bounds array access, and certain other run-time errors in C and C++ source code.
 - [scan-build](https://clang-analyzer.llvm.org/scan-build.html) - Analyzes C/C++ code using LLVM at compile-time
 - [splint](https://github.com/ravenexp/splint) - Annotation-assisted static program checker
 - [SVF](https://github.com/SVF-tools/SVF) - a static tool that enables scalable and precise interprocedural dependence analysis for C and C++ programs.
@@ -182,9 +182,9 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [IKOS](https://github.com/nasa-sw-vnv/ikos) - a sound static analyzer for C/C++ code based on LLVM
 - [include-gardener](https://github.com/feddischson/include_gardener) - a multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files.
 - [LDRA](https://ldra.com) :copyright: - a tool suite including static analysis (TBVISION) to various standards including MISRA C & C++, JSF++ AV, CWE, CERT C, CERT C++ & Custom Rules.
-- [Phasar](https://github.com/secure-software-engineering/phasar) - A LLVM-based static analysis framework which comes with a taint and type state analysis.
-- [Polyspace Bug Finder](https://www.mathworks.com/products/polyspace-bug-finder.html) :copyright: - identifies run-time errors, concurrency issues, security vulnerabilities, and other defects in C and C++ embedded software.
-- [Polyspace Code Prover](https://www.mathworks.com/products/polyspace-code-prover.html) :copyright: - provide code verification that proves the absence of overflow, divide-by-zero, out-of-bounds array access, and certain other run-time errors in C and C++ source code.
+- [Phasar](https://phasar.org/) - A LLVM-based static analysis framework which comes with a taint and type state analysis.
+- [Polyspace Bug Finder](https://www.mathworks.com/products/polyspace-bug-finder.html) :copyright: - Identifies run-time errors, concurrency issues, security vulnerabilities, and other defects in C and C++ embedded software.
+- [Polyspace Code Prover](https://www.mathworks.com/products/polyspace-code-prover.html) :copyright: - Provide code verification that proves the absence of overflow, divide-by-zero, out-of-bounds array access, and certain other run-time errors in C and C++ source code.
 - [scan-build](https://clang-analyzer.llvm.org/scan-build.html) - Analyzes C/C++ code using LLVM at compile-time
 - [splint](https://github.com/ravenexp/splint) - Annotation-assisted static program checker
 - [SVF](https://github.com/SVF-tools/SVF) - a static tool that enables scalable and precise interprocedural dependence analysis for C and C++ programs.
@@ -345,7 +345,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [JSLint](https://github.com/douglascrockford/JSLint) :warning: - The JavaScript Code Quality Tool
 - [JSPrime](http://dpnishant.github.io/jsprime/) - static security analysis tool
 - [plato](https://github.com/es-analysis/plato) - Visualize JavaScript source complexity
-- [Prettier](https://github.com/prettier/prettier) - An opinionated code formatter.
 - [quality](https://github.com/jden/quality) - zero configuration code and module linting
 - [retire.js](https://github.com/RetireJS/retire.js) - Scanner detecting the use of JavaScript libraries with known vulnerabilities
 - [standard](http://standardjs.com/) - An npm module that checks for Javascript Styleguide issues
@@ -357,7 +356,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="kotlin">Kotlin</h2>
 
 - [detekt](https://detekt.github.io/detekt/) - Static code analysis for Kotlin code.
-- [ktlint](https://ktlint.github.io/) - An anti-bikeshedding Kotlin linter with built-in formatter
 
 
 <h2 id="lua">Lua</h2>
@@ -383,33 +381,33 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [parallel-lint](https://github.com/php-parallel-lint/PHP-Parallel-Lint) - This tool checks syntax of PHP files faster than serial check with a fancier output.
 - [Parse](https://github.com/psecio/parse) - A Static Security Scanner
 - [pdepend](https://pdepend.org/) - Calculates software metrics like cyclomatic complexity for PHP code.
-- [phan](https://github.com/etsy/phan) - a modern static analyzer from etsy
+- [phan](https://github.com/phan/phan/wiki) - a modern static analyzer from etsy
 - [PHP Architecture Tester](https://github.com/carlosas/phpat) - Easy to use architecture testing tool for PHP.
 - [PHP Assumptions](https://github.com/rskuipers/php-assumptions) - Checks for weak assumptions
-- [PHP Coding Standards Fixer](http://cs.sensiolabs.org/) - Fixes your code according to standards like PSR-1, PSR-2, and the Symfony standard.
-- [Php Inspections (EA Extended)](https://github.com/kalessil/phpinspectionsea) - A Static Code Analyzer for PHP.
-- [PHP Refactoring Browser](https://github.com/QafooLabs/php-refactoring-browser) - Refactoring helper
+- [PHP Coding Standards Fixer](https://cs.symfony.com/) - Fixes your code according to standards like PSR-1, PSR-2, and the Symfony standard.
+- [Php Inspections (EA Extended)](https://plugins.jetbrains.com/plugin/7622-php-inspections-ea-extended-) - A Static Code Analyzer for PHP.
+- [PHP Refactoring Browser](http://qafoolabs.github.io/php-refactoring-browser/) - Refactoring helper
 - [PHP Semantic Versioning Checker](https://github.com/tomzx/php-semver-checker) - Suggests a next version according to semantic versioning
 - [PHP-Parser](https://github.com/nikic/PHP-Parser) - A PHP parser written in PHP
 - [PHP-Token-Reflection](https://github.com/Andrewsville/PHP-Token-Reflection) - Library emulating the PHP internal reflection
-- [php7cc](https://github.com/sstalle/php7cc) - PHP 7 Compatibility Checker
-- [php7mar](https://github.com/Alexia/php7mar) - assist developers in porting their code quickly to PHP 7
-- [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) - detects violations of a defined set of coding standards
+- [php7cc](https://github.com/sstalle/php7cc) :warning: - PHP 7 Compatibility Checker
+- [php7mar](https://github.com/Alexia/php7mar) :warning: - assist developers in porting their code quickly to PHP 7
+- [PHP_CodeSniffer](https://pear.php.net/package/PHP_CodeSniffer) - detects violations of a defined set of coding standards
 - [phpca](https://github.com/wapmorgan/PhpCodeAnalyzer) - Finds usage of non-built-in extensions
 - [phpcf](http://wapmorgan.github.io/PhpCodeFixer/) - Finds usage of deprecated PHP features
 - [phpcpd](https://github.com/sebastianbergmann/phpcpd) - Copy/Paste Detector for PHP code.
-- [phpdcd](https://github.com/sebastianbergmann/phpdcd) - Dead Code Detector (DCD) for PHP code.
-- [PhpDependencyAnalysis](https://github.com/mamuz/PhpDependencyAnalysis) - builds a dependency graph for a project
+- [phpdcd](https://github.com/sebastianbergmann/phpdcd) :warning: - Dead Code Detector (DCD) for PHP code.
+- [PhpDependencyAnalysis](https://mamuz.github.io/PhpDependencyAnalysis/) - builds a dependency graph for a project
 - [phpdoc-to-typehint](https://github.com/dunglas/phpdoc-to-typehint) - Add scalar type hints and return types to existing PHP projects using PHPDoc annotations
 - [phpDocumentor](https://www.phpdoc.org/) - Analyzes PHP source code to generate documentation
 - [PHPMD](https://phpmd.org/) - finds possible bugs in your code
 - [PhpMetrics](http://www.phpmetrics.org/) - Calculates and visualizes various code quality metrics
 - [phpmnd](https://github.com/povils/phpmnd) - Helps to detect magic numbers
-- [PHPQA](https://github.com/EdgedesignCZ/phpqa) - A tool for running QA tools (phploc, phpcpd, phpcs, pdepend, phpmd, phpmetrics)
+- [PHPQA](https://edgedesigncz.github.io/phpqa/) - A tool for running QA tools (phploc, phpcpd, phpcs, pdepend, phpmd, phpmetrics)
 - [phpqa - jakzal](https://github.com/jakzal/phpqa) - Many tools for PHP static analysis in one container
 - [phpqa - jmolivas](https://github.com/jmolivas/phpqa) - PHPQA all-in-one Analyzer CLI tool
 - [phpsa](https://github.com/ovr/phpsa) - Static analysis tool for PHP.
-- [PHPStan](https://github.com/phpstan/phpstan) - PHP Static Analysis Tool - discover bugs in your code without running it!
+- [PHPStan](https://phpstan.org/) - PHP Static Analysis Tool - discover bugs in your code without running it!
 - [Progpilot](https://github.com/designsecurity/progpilot) - A static analysis tool for security purposes
 - [Psalm](https://getpsalm.org/) - Static analysis tool for finding type errors in PHP applications
 - [Qafoo Quality Analyzer](https://github.com/Qafoo/QualityAnalyzer) - Visualizes metrics and source code
@@ -428,7 +426,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [bandit](https://bandit.readthedocs.io/en/latest/) - a tool to find common security issues in Python code
 - [bellybutton](https://github.com/hchasestevens/bellybutton) - a linting engine supporting custom project-specific rules
-- [Black](https://black.readthedocs.io/en/stable/) - The uncompromising Python code formatter
 - [cohesion](https://github.com/mschwager/cohesion) - a tool for measuring Python class cohesion
 - [Dlint](https://github.com/dlint-py/dlint) - a tool for ensuring Python code is secure
 - [include-gardener](https://github.com/feddischson/include_gardener) - a multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files.
@@ -458,7 +455,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [cyclocomp](https://github.com/MangoTheCat/cyclocomp) - Quantifies the cyclomatic complexity of R functions / expressions.
 - [goodpractice](http://mangothecat.github.io/goodpractice/) - Analyses the source code for R packages and provides best-practice recommendations.
 - [lintr](https://github.com/jimhester/lintr) - Static Code Analysis for R.
-- [styler](https://styler.r-lib.org/) - Formatting of R source code files and pretty-printing of R code.
 
 
 <h2 id="rpg">RPG</h2>
@@ -566,6 +562,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [ArchUnit](https://www.archunit.org/) - Unit test your Java or Kotlin architecture 
 - [Atom-Beautify](https://atom.io/packages/atom-beautify) - Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom editor 
 - [Axivion Bauhaus Suite](https://www.axivion.com/en/products-services-9#products_bauhaussuite) :copyright: - Tracks down error-prone code locations, style violations, cloned or dead code, cyclic dependencies and more for C/C++, C#/.NET, Java and Ada 83/Ada 95 
+- [Black](https://black.readthedocs.io/en/stable/) - The uncompromising Python code formatter 
 - [CAST Highlight](https://www.castsoftware.com/products/highlight) :copyright: - Commercial Static Code Analysis which runs locally, but uploads the results to its cloud for presentation. 
 - [Checkmarx CxSAST](https://www.checkmarx.com/products/static-application-security-testing/) :copyright: - Commercial Static Code Analysis which doesn't require pre-compilation. 
 - [ciocheck](https://github.com/ContinuumIO/ciocheck) - linter, formatter and test suite helper. As a linter, it is a wrapper around `pep8`, `pydocstyle`, `flake8`, and `pylint`. 
@@ -583,6 +580,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Corrode](https://github.com/jameysharp/corrode) - Semi-automatic translation from C to Rust. Could reveal bugs in the original implementation by showing Rust compiler warnings and errors. 
 - [Coverity](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html) :copyright: - Synopsys Coverity supports 20 languages and over 70 frameworks including Ruby on rails, Scala, PHP, Python, JavaScript, TypeScript, Java, Fortran, C, C++, C#, VB.NET. 
 - [cqc](https://github.com/xcatliu/cqc) - Check your code quality for js, jsx, vue, css, less, scss, sass and styl files. 
+- [CSScomb](https://github.com/csscomb/csscomb.js) - a coding style formatter for CSS. Supports own configurations to make style sheets beautiful and consistent 
 - [dawnscanner](https://github.com/thesp0nge/dawnscanner) - a static analysis security scanner for ruby written web applications. It supports Sinatra, Padrino and Ruby on Rails frameworks. 
 - [DeepCode](https://www.deepcode.ai/) :copyright: - DeepCode finds bugs, security vulnerabilities, performance and API issues based on AI. DeepCode's speed of analysis allow us to analyse your code in real time and deliver results when you hit the save button in your IDE. Supported languages are Java, C/C++, JavaScript, Python, and TypeScript. Integrations with GitHub, BitBucket and Gitlab. 
 - [DeepSource](https://deepsource.io/) :copyright: - In-depth static analysis to monitor source code quality and security. Supports Python and Go and can detect 600+ types of issues in verticals of bug risks, security, anti-patterns, performance, documentation and style. Native integration with GitHub. 
@@ -603,12 +601,15 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [InsiderSec](https://insidersec.io/) - A open source Static Application Security Testing tool (SAST) written in GoLang for Java (Maven and Android), Kotlin (Android), Swift (iOS), .NET Full Framework, C# and Javascript (Node.js). 
 - [Kiuwan](https://www.kiuwan.com/code-security-sast/) :copyright: - Identify and remediate cyber threats in a blazingly fast, collaborative environment, with seamless integration in your SDLC. Python, C\C++, Java, C#, PHP and more 
 - [Klocwork](https://www.perforce.com/products/klocwork) :copyright: - Quality and Security Static analysis for C/C++, Java and C# 
+- [ktlint](https://ktlint.github.io/) - An anti-bikeshedding Kotlin linter with built-in formatter 
 - [multilint](https://github.com/adamchainz/multilint) - a wrapper around `flake8`, `isort` and `modernize` 
 - [NodeJSScan](https://opensecurity.in/) - NodeJsScan is a static security code scanner for Node.js applications. 
 - [oclint](http://oclint.org/) - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C 
 - [pfff](https://github.com/facebookarchive/pfff/wiki/Main) :warning: - Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages 
 - [PMD](https://pmd.github.io/) - A source code analyzer for Java, Javascript, PLSQL, XML, XSL and others 
-- [pre-commit](https://github.com/pre-commit/pre-commit) - A framework for managing and maintaining multi-language pre-commit hooks. 
+- [Polymer-analyzer](https://github.com/Polymer/tools/tree/master/packages/analyzer) - A static analysis framework for Web Components. 
+- [pre-commit](https://pre-commit.com/) - A framework for managing and maintaining multi-language pre-commit hooks. 
+- [Prettier](https://prettier.io/) - An opinionated code formatter. 
 - [Pronto](https://github.com/prontolabs/pronto) - Quick automated code review of your changes. Supports more than 40 runners for various languages, including Clang, Elixir, JavaSCript, PHP, Ruby and more 
 - [prospector](https://github.com/PyCQA/prospector) - a wrapper around `pylint`, `pep8`, `mccabe` and others 
 - [PT.PM](https://github.com/PositiveTechnologies/PT.PM) - An engine for searching patterns in the source code, based on Unified AST or UST. At present time C#, Java, PHP, PL/SQL, T-SQL, and JavaScript are supported. Patterns can be described within the code or using a DSL. 
@@ -621,6 +622,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [SmartDec Scanner](https://smartdecscanner.com/) :copyright: - SAST tool which is capable of identifying vulnerabilities and undocumented features. The analyzer scans the source code and executables without debug info (i.e. binaries). Supports: Java/Scala/Kotlin, PHP, C#, JavaScript, TypeScript, VBScript, HTML5, Python, Perl, C/C++, Objective-C/Swift, PL/SQL, T-SQL, ABAP, 1C, Apex, Go, Ruby, Groovy, Delphi, VBA, Visual Basic 6, Solidity, Vyper, COBOL. 
 - [SonarQube](http://www.sonarqube.org/) - SonarQube is an open platform to manage code quality. 
 - [STOKE](https://github.com/StanfordPL/stoke) - a programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations 
+- [styler](https://styler.r-lib.org/) - Formatting of R source code files and pretty-printing of R code. 
 - [Synopsys](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html) :copyright: - A commercial static analysis platform that allows for scanning of multiple languages (C/C++, Android, C#, Java, JS, PHP, Python, Node.JS, Ruby, Fortran, and Swift) 
 - [TscanCode](https://github.com/Tencent/TscanCode) - A fast and accurate static analysis solution for C/C++, C#, Lua codes provided by Tencent. Using GPLv3 license. 
 - [Undebt](https://github.com/Yelp/undebt) - Language-independent tool for massive, automatic, programmable refactoring based on simple pattern definitions 
@@ -653,7 +655,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="css">CSS/SASS/SCSS</h2>
 
 - [CSS Stats](https://cssstats.com/) - Potentially interesting stats on stylesheets
-- [CSScomb](https://github.com/csscomb/csscomb.js) - a coding style formatter for CSS. Supports own configurations to make style sheets beautiful and consistent
 - [CSSLint](http://csslint.net/) - Does basic syntax checking and finds problematic patterns or signs of inefficiency
 - [GraphMyCSS.com](https://graphmycss.com) - CSS Specificity Graph Generator
 - [Parker](https://github.com/katiefenn/parker) - Stylesheet analysis tool
@@ -710,7 +711,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [HTML Inspector](https://github.com/philipwalton/html-inspector) :warning: - HTML Inspector is a code quality tool to help you and your team write better markup.
 - [HTML Tidy](http://www.html-tidy.org/) - Corrects and cleans up HTML and XML documents by fixing markup errors and upgrading legacy code to modern standards.
 - [HTMLHint](https://htmlhint.com/) - A Static Code Analysis Tool for HTML
-- [Polymer-analyzer](https://github.com/Polymer/polymer-analyzer) - A static analysis framework for Web Components.
 
 
 <h2 id="ide">IDE Plugins</h2>

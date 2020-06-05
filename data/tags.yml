@@ -70,6 +70,9 @@
 - name: Fortran
   tag: fortran
   type: language
+- name: Formatter
+  tag: formatter
+  type: other
 - name: Go
   tag: go
   type: language
