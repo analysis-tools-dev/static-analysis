@@ -124,7 +124,7 @@
     - mobile
     - perl
     - php
-    - plsql 
+    - plsql
     - tsql
     - vbasic
     - vbnet
@@ -349,7 +349,7 @@
     - cpp
 - name: ClassGraph
   url: "https://github.com/classgraph/classgraph"
-  description: a classpath and module path scanner for querying or visualizing class metadata or class relatedness. 
+  description: a classpath and module path scanner for querying or visualizing class metadata or class relatedness.
   tags:
     - java
     - groovy
@@ -979,7 +979,7 @@
     - jsp
     - objectivec
     - php
-    - plsql 
+    - plsql
     - python
     - ruby
     - scala
@@ -2620,10 +2620,16 @@
   url: "https://www.whitehatsec.com/products/static-application-security-testing/"
   description: "WhiteHat Scout (for Developers) combined with WhiteHat Sentinel Source (for Operations) supporting WhiteHat Top 40 and OWASP Top 10. Language support for: Java, C#(.NET), ASP.NET, PHP, JavaScript, Node.js, Objective-C, Android, HTML5, TypeScript."
   tags:
-    - c
-    - cpp
     - java
+    - csharp
+    - aspnet
     - php
+    - javascript
+    - nodejs
+    - objectivec
+    - mobile
+    - html
+    - typescript
   proprietary: true
 - name: wily
   url: "https://github.com/tonybaloney/wily"

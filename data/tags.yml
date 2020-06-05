@@ -202,9 +202,6 @@
 - name: HTML
   tag: html
   type: other
-- name: HTML5
-  tag: html
-  type: other
 - name: IDE Plugins
   tag: ide
   type: other
