@@ -9,25 +9,14 @@ pub mod types;
 use std::collections::BTreeMap;
 use types::{Catalog, Entry, Tag, Tags, Type};
 
-fn valid(entry: &Entry) -> Result<(), Box<dyn Error>> {
-    let lints = [lints::name, lints::min_one_tag];
-    lints.iter().map(|lint| Ok(lint(&entry)?)).collect()
+fn valid(entry: &Entry, tags: &Tags) -> Result<(), Box<dyn Error>> {
+    let lints = [lints::name, lints::min_one_tag, lints::tags_existing];
+    lints.iter().map(|lint| Ok(lint(&entry, &tags)?)).collect()
 }
 
 pub fn validate(tags: &Tags, entries: &Vec<Entry>) -> Result<(), Box<dyn Error>> {
     for entry in entries {
-        for entry_tag in &entry.tags {
-            if !tags.iter().any(|tag| &tag.tag == entry_tag) {
-                return Err(format!(
-                "Unknown tag `{}` for entry `{}`. It might be missing from the `tags.yml` file.",
-                entry_tag , entry.name
-            )
-                .into());
-            }
-        }
-        if let Err(e) = valid(&entry) {
-            return Err(e);
-        }
+        valid(&entry, &tags)?
     }
     Ok(())
 }
