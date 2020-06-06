@@ -57,3 +57,23 @@ pub struct Catalog {
     pub others: EntryMap,
     pub multi: Vec<Entry>,
 }
+
+/// any filters defined in `mod filters` are accessible in templates
+mod filters {
+    // eventually, if other open-source sites (e.g. gitlab) support something like stars, those
+    // could also be formatted in this filter
+    pub fn format_badge(s: &str) -> ::askama::Result<String> {
+        let components: Vec<&str> = s.split("/").collect();
+        if components.contains(&"github.com") && components.len() == 5 {
+            // valid github source must have 5 elements - anything longer and they are probably a
+            // reference to a path inside a repo, rather than a repo itself.
+            Ok(format!("![stars]({}{}) ",
+                // shields.io can't have a trailing '/' before parameters begin
+                s.replace("github.com", "img.shields.io/github/stars").trim_end_matches("/"),
+                "?style=flat-square&color=ccc",
+            ))
+        } else {
+            Ok("".to_string())
+        }
+    }
+}
