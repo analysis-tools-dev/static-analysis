@@ -13,6 +13,9 @@
 - name: Ada
   tag: ada
   type: language
+- name: Assembly
+  tag: asm
+  type: language
 - name: ASP.NET
   tag: aspnet
   type: language
@@ -70,6 +73,9 @@
 - name: Fortran
   tag: fortran
   type: language
+- name: Formatter
+  tag: formatter
+  type: other
 - name: Go
   tag: go
   type: language
@@ -120,9 +126,6 @@
   type: language
 - name: Python
   tag: python
-  type: language
-- name: Python wrappers
-  tag: pythonwrapper
   type: language
 - name: R
   tag: r
@@ -190,6 +193,9 @@
 - name: Configuration Management
   tag: configmanagement
   type: other
+- name: Continuous Integration
+  tag: ci
+  type: other
 - name: CSS/SASS/SCSS
   tag: css
   type: other
@@ -216,6 +222,9 @@
   type: other
 - name: Markdown
   tag: markdown
+  type: other
+- name: Metalinter
+  tag: meta
   type: other
 - name: Mobile
   tag: mobile

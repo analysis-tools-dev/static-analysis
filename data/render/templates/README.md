@@ -2,6 +2,8 @@
 
 > Static program analysis is the analysis of computer software that is performed without actually executing programs — [Wikipedia](https://en.wikipedia.org/wiki/Static_program_analysis)
 
+> The most important thing I have done as a programmer in recent years is to aggressively pursue static code analysis. Even more valuable than the hundreds of serious bugs I have prevented with it is the change in mindset about the way I view software reliability and code quality. — [John Carmack (Creator of Doom)](https://www.gamasutra.com/view/news/128836/InDepth_Static_Code_Analysis.php) 
+
 ![CI](https://github.com/analysis-tools-dev/static-analysis/workflows/CI/badge.svg)
 
 This is a collection of static analysis tools and code quality checkers. Pull requests are very welcome!
@@ -43,7 +45,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="{{ language.tag }}">{{ language.name }}</h2>
 
 {% for linter in linters -%}
-- [{{linter.name }}]({{linter.url }}){% if linter.deprecated.is_some() %} :warning:{% endif %}{% if linter.proprietary.is_some() %} :copyright:{% endif %} - {{ linter.description }}
+- [{{linter.name }}]({{linter.homepage }}){% if linter.deprecated.is_some() %} :warning:{% endif %}{% if linter.proprietary.is_some() %} :copyright:{% endif %} - {{ linter.description }}
 {% endfor %}
 
 {%- endfor %}
@@ -51,7 +53,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 # Multiple languages
 
 {% for linter in multi -%}
-- [{{linter.name }}]({{linter.url }}){% if linter.deprecated.is_some() %} :warning:{% endif %}{% if linter.proprietary.is_some() %} :copyright:{% endif %} - {{ linter.description }} 
+- [{{linter.name }}]({{linter.homepage }}){% if linter.deprecated.is_some() %} :warning:{% endif %}{% if linter.proprietary.is_some() %} :copyright:{% endif %} - {{ linter.description }} 
 {% endfor %}
 
 # Other
@@ -61,7 +63,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="{{ tag.tag }}">{{ tag.name }}</h2>
 
 {% for other in others -%}
-- [{{ other.name }}]({{ other.url }}){% if other.deprecated.is_some() %} :warning:{% endif %}{% if other.proprietary.is_some() %} :copyright:{% endif %} - {{ other.description }}
+- [{{ other.name }}]({{ other.homepage }}){% if other.deprecated.is_some() %} :warning:{% endif %}{% if other.proprietary.is_some() %} :copyright:{% endif %} - {{ other.description }}
 {% endfor %}
 
 {%- endfor %}

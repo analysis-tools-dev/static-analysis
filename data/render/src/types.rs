@@ -27,7 +27,8 @@ pub type EntryTags = HashSet<String>;
 #[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq)]
 pub struct Entry {
     pub name: String,
-    pub url: String,
+    pub homepage: String,
+    pub source: Option<String>,
     pub description: String,
     pub tags: EntryTags,
     pub proprietary: Option<bool>,
