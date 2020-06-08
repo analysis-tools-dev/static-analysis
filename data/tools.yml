@@ -1913,7 +1913,7 @@
     - perl
 - name: pfff
   homepage: "https://github.com/facebookarchive/pfff/wiki/Main"
-  source: "https://github.com/facebook/pfff"
+  source: "https://github.com/returntocorp/pfff"
   description: "Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages"
   tags:
     - c
