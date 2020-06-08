@@ -600,7 +600,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Nitpick CI](https://nitpick-ci.com) :copyright: - Automated PHP code review 
 - [NodeJSScan](https://opensecurity.in/) - NodeJsScan is a static security code scanner for Node.js applications. 
 - [oclint](http://oclint.org/) - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C 
-- [pfff](https://github.com/returntocorp/pfff) - tools for code analysis, visualizations, or style-preserving source transformation for many languages 
+- [pfff](https://github.com/facebookarchive/pfff/wiki/Main) :warning: - Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages 
 - [PMD](https://pmd.github.io/) - A source code analyzer for Java, Javascript, PLSQL, XML, XSL and others 
 - [Polymer-analyzer](https://github.com/Polymer/tools/tree/master/packages/analyzer) - A static analysis framework for Web Components. 
 - [pre-commit](https://pre-commit.com/) - A framework for managing and maintaining multi-language pre-commit hooks. 
