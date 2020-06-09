@@ -1327,12 +1327,6 @@
   description: Inspects source code for security problems by scanning the Go AST.
   tags:
     - go
-- name: gosimple
-  homepage: "https://pkg.go.dev/github.com/surullabs/lint/gosimple?tab=doc"
-  source: "https://github.com/dominikh/go-tools"
-  description: Simplifies code.
-  tags:
-    - go
 - name: gotype
   homepage: "https://pkg.go.dev/golang.org/x/tools/cmd/gotype"
   source: "https://golang.org/x/tools/cmd/gotype"
@@ -2804,7 +2798,7 @@
 - name: staticcheck
   homepage: "https://staticcheck.io/"
   source: "https://github.com/dominikh/go-tools"
-  description: "A suite of static analysis tools for Go, similar to ReSharper for C#. It specialises on bug finding, code simplicity, performance and editor integration."
+  description: "Go static analysis that specialises in finding bugs, simplifying code and improving performance."
   tags:
     - go
 - name: STOKE
@@ -3034,12 +3028,6 @@
   homepage: "https://github.com/mvdan/unparam"
   source: "https://github.com/mvdan/unparam"
   description: Find unused function parameters.
-  tags:
-    - go
-- name: unused
-  homepage: "https://github.com/dominikh/go-tools/tree/master/unused"
-  source: "https://github.com/dominikh/go-tools/tree/master/unused"
-  description: Find unused variables.
   tags:
     - go
 - name: Upsource
