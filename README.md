@@ -134,7 +134,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) - automated C++ checker that follows Google's style guide
 - ![stars](https://img.shields.io/github/stars/dspinellis/cqmetrics?style=flat-square&color=ccc) [cqmetrics](https://github.com/dspinellis/cqmetrics) - quality metrics for C code
 - ![stars](https://img.shields.io/github/stars/dspinellis/cscout?style=flat-square&color=ccc) [CScout](https://www.spinellis.gr/cscout/) - complexity and quality metrics for for C and C preprocessor code
-- ![stars](https://img.shields.io/github/stars/david-a-wheeler/flawfinder?style=flat-square&color=ccc) [flawfinder](http://www.dwheeler.com/flawfinder/) - finds possible security weaknesses
+- ![stars](https://img.shields.io/github/stars/david-a-wheeler/flawfinder?style=flat-square&color=ccc) [flawfinder](https://www.dwheeler.com/flawfinder/) - finds possible security weaknesses
 - ![stars](https://img.shields.io/github/stars/JossWhittle/FlintPlusPlus?style=flat-square&color=ccc) [flint++](https://github.com/JossWhittle/FlintPlusPlus) - cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.
 - [Frama-C](http://frama-c.com/) - a sound and extensible static analyzer for C code
 - [Helix QAC](https://www.perforce.com/products/helix-qac) :copyright: - Enterprise-grade static analysis for embedded software. Supports MISRA, CERT, and AUTOSAR coding standards.
@@ -176,7 +176,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) - automated C++ checker that follows Google's style guide
 - ![stars](https://img.shields.io/github/stars/dspinellis/cqmetrics?style=flat-square&color=ccc) [cqmetrics](https://github.com/dspinellis/cqmetrics) - quality metrics for C code
 - ![stars](https://img.shields.io/github/stars/dspinellis/cscout?style=flat-square&color=ccc) [CScout](https://www.spinellis.gr/cscout/) - complexity and quality metrics for for C and C preprocessor code
-- ![stars](https://img.shields.io/github/stars/david-a-wheeler/flawfinder?style=flat-square&color=ccc) [flawfinder](http://www.dwheeler.com/flawfinder/) - finds possible security weaknesses
+- ![stars](https://img.shields.io/github/stars/david-a-wheeler/flawfinder?style=flat-square&color=ccc) [flawfinder](https://www.dwheeler.com/flawfinder/) - finds possible security weaknesses
 - ![stars](https://img.shields.io/github/stars/JossWhittle/FlintPlusPlus?style=flat-square&color=ccc) [flint++](https://github.com/JossWhittle/FlintPlusPlus) - cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.
 - [Frama-C](http://frama-c.com/) - a sound and extensible static analyzer for C code
 - [Helix QAC](https://www.perforce.com/products/helix-qac) :copyright: - Enterprise-grade static analysis for embedded software. Supports MISRA, CERT, and AUTOSAR coding standards.
