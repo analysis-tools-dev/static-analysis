@@ -267,7 +267,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [golint](https://github.com/golang/lint) - Prints out coding style mistakes in Go source code.
 - [goroutine-inspect](https://github.com/linuxerwang/goroutine-inspect) - An interactive tool to analyze Golang goroutine dump.
 - [gosec (gas)](https://securego.io/) - Inspects source code for security problems by scanning the Go AST.
-- [gosimple](https://pkg.go.dev/github.com/surullabs/lint/gosimple?tab=doc) - Simplifies code.
 - [gotype](https://pkg.go.dev/golang.org/x/tools/cmd/gotype) - Syntactic and semantic analysis similar to the Go compiler.
 - [ineffassign](https://github.com/gordonklaus/ineffassign) - Detect ineffectual assignments in Go code
 - [interfacer](https://github.com/mvdan/interfacer) :warning: - Suggest narrower interfaces that can be used.
@@ -279,13 +278,12 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [prealloc](https://github.com/alexkohler/prealloc) - Finds slice declarations that could potentially be preallocated.
 - [revive](https://revive.run/) - Fast, configurable, extensible, flexible, and beautiful linter for Go. Drop-in replacement of golint.
 - [safesql](https://github.com/stripe/safesql) - Static analysis tool for Golang that protects against SQL injections.
-- [staticcheck](https://staticcheck.io/) - A suite of static analysis tools for Go, similar to ReSharper for C#. It specialises on bug finding, code simplicity, performance and editor integration.
+- [staticcheck](https://staticcheck.io/) - Go static analysis that specialises in finding bugs, simplifying code and improving performance.
 - [structcheck](https://gitlab.com/opennota/check) - Find unused struct fields.
 - [test](http://golang.org/pkg/testing/) - Show location of test failures from the stdlib testing module.
 - [unconvert](https://github.com/mdempsky/unconvert) - Detect redundant type conversions.
 - [unimport](https://github.com/alexkohler/unimport) - Finds unnecessary import aliases
 - [unparam](https://github.com/mvdan/unparam) - Find unused function parameters.
-- [unused](https://github.com/dominikh/go-tools/tree/master/unused) - Find unused variables.
 - [varcheck](https://gitlab.com/opennota/check) - Find unused global variables and constants.
 - [wsl](https://github.com/bombsimon/wsl) - Enforces empty lines at the right places.
 
