@@ -47,7 +47,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="{{ language.tag }}">{{ language.name }}</h2>
 
 {% for linter in linters -%}
-- [{{linter.name }}]({{linter.homepage }}){% if linter.deprecated.is_some() %} :warning:{% endif %}{% if linter.proprietary.is_some() %} :copyright:{% endif %} - {{ linter.description }}
+- {% if linter.source.is_some() %}{{ linter.source.as_ref().unwrap()|format_badge }}{%endif%}[{{linter.name }}]({{linter.homepage }}){% if linter.deprecated.is_some() %} :warning:{% endif %}{% if linter.proprietary.is_some() %} :copyright:{% endif %} - {{ linter.description }}
 {% endfor %}
 
 {%- endfor %}
