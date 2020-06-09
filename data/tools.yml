@@ -1067,7 +1067,7 @@
     - meta
     - python
 - name: flawfinder
-  homepage: "http://www.dwheeler.com/flawfinder/"
+  homepage: "https://www.dwheeler.com/flawfinder/"
   source: "https://github.com/david-a-wheeler/flawfinder"
   description: finds possible security weaknesses
   tags:
