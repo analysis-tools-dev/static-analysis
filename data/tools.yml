@@ -890,7 +890,7 @@
     - php
 - name: detekt
   homepage: "https://detekt.github.io/detekt/"
-  source: "https://github.com/arturbosch/detekt"
+  source: "https://github.com/detekt/detekt"
   description: Static code analysis for Kotlin code.
   tags:
     - kotlin

@@ -352,7 +352,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="kotlin">Kotlin</h2>
 
-- ![stars](https://img.shields.io/github/stars/arturbosch/detekt?style=flat-square&color=ccc) [detekt](https://detekt.github.io/detekt/) - Static code analysis for Kotlin code.
+- ![stars](https://img.shields.io/github/stars/detekt/detekt?style=flat-square&color=ccc) [detekt](https://detekt.github.io/detekt/) - Static code analysis for Kotlin code.
 
 
 <h2 id="lua">Lua</h2>
