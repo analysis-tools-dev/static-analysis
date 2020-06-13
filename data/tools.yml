@@ -1556,7 +1556,7 @@
   tags:
     - python
 - name: jshint
-  homepage: "https://jedi.readthedocs.io/en/latest/"
+  homepage: "https://jshint.com/about/"
   source: "https://github.com/jshint/jshint"
   description: "detect errors and potential problems in JavaScript code and enforce your team's coding conventions"
   tags:
