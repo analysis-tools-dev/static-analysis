@@ -2398,6 +2398,18 @@
   tags:
     - csharp
     - vbnet
+- name: relint
+  homepage: "https://github.com/codingjoe/relint"
+  source: "https://github.com/codingjoe/relint"
+  description: A static file linter that allows you to write custom rules using regular expressions (RegEx).
+  tags:
+    - python
+    - java
+    - javascript
+    - c
+    - cpp
+    - dotnet
+    - jsx
 - name: remark-lint
   homepage: "https://remark.js.org/"
   source: "https://github.com/remarkjs/remark-lint"
