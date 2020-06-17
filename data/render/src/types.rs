@@ -62,7 +62,10 @@ pub struct Catalog {
 mod filters {
     // eventually, if other open-source sites (e.g. gitlab) support something like stars, those
     // could also be formatted in this filter
-    pub fn format_badge(s: &str) -> ::askama::Result<String> {
+    pub fn format_badge(mut s: &str) -> ::askama::Result<String> {
+        if s.chars().last().unwrap() == '/' {
+            s = s.trim_end_matches('/');
+        }
         let components: Vec<&str> = s.split("/").collect();
         if components.contains(&"github.com") && components.len() == 5 {
             // valid github source must have 5 elements - anything longer and they are probably a

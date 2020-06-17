@@ -55,7 +55,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 # Multiple languages
 
 {% for linter in multi -%}
-- [{{linter.name }}]({{linter.homepage }}){% if linter.deprecated.is_some() %} :warning:{% endif %}{% if linter.proprietary.is_some() %} :copyright:{% endif %} - {{ linter.description }} 
+- {% if linter.source.is_some() %}{{ linter.source.as_ref().unwrap()|format_badge }}{%endif%}[{{linter.name }}]({{linter.homepage }}){% if linter.deprecated.is_some() %} :warning:{% endif %}{% if linter.proprietary.is_some() %} :copyright:{% endif %} - {{ linter.description }} 
 {% endfor %}
 
 # Other
@@ -65,7 +65,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="{{ tag.tag }}">{{ tag.name }}</h2>
 
 {% for other in others -%}
-- [{{ other.name }}]({{ other.homepage }}){% if other.deprecated.is_some() %} :warning:{% endif %}{% if other.proprietary.is_some() %} :copyright:{% endif %} - {{ other.description }}
+- {% if other.source.is_some() %}{{ other.source.as_ref().unwrap()|format_badge }}{%endif%}[{{ other.name }}]({{ other.homepage }}){% if other.deprecated.is_some() %} :warning:{% endif %}{% if other.proprietary.is_some() %} :copyright:{% endif %} - {{ other.description }}
 {% endfor %}
 
 {%- endfor %}
