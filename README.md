@@ -125,7 +125,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="c">C</h2>
 
 - [Astrée](https://www.absint.com/astree/index.htm) :copyright: - Sound static analyzer based on abstract interpretation for C/C++, detecting memory, type and concurrency defects, and MISRA violations.
-- [CBMC](http://www.cprover.org/cbmc/) - bounded model-checker for C programs, user-defined assertions, standard assertions, several coverage metric analyses
+- ![stars](https://img.shields.io/github/stars/diffblue/cbmc?style=flat-square&color=ccc) [CBMC](http://www.cprover.org/cbmc/) - bounded model-checker for C programs, user-defined assertions, standard assertions, several coverage metric analyses
 - [clang-tidy](http://clang.llvm.org/extra/clang-tidy/) - clang static analyser
 - ![stars](https://img.shields.io/github/stars/MetricsGrimoire/CMetrics?style=flat-square&color=ccc) [CMetrics](https://github.com/MetricsGrimoire/CMetrics) - Measures size and complexity for C files
 - [CodeSonar from GrammaTech](https://www.grammatech.com/products/codesonar) :copyright: - Advanced, whole program, deep path, static analysis of C and C++ with easy-to-understand explanations and code and path visualization.
@@ -157,9 +157,9 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - ![stars](https://img.shields.io/github/stars/code-cracker/code-cracker?style=flat-square&color=ccc) [code-cracker](http://code-cracker.github.io/) - An analyzer library for C# and VB that uses Roslyn to produce refactorings, code analysis, and other niceties.
 - ![stars](https://img.shields.io/github/stars/DustinCampbell/CSharpEssentials?style=flat-square&color=ccc) [CSharpEssentials](https://github.com/DustinCampbell/CSharpEssentials) - C# Essentials is a collection of Roslyn diagnostic analyzers, code fixes and refactorings that make it easy to work with C# 6 language features.
 - [Designite](http://www.designite-tools.com) :copyright: - Designite supports detection of various architecture, design, and implementation smells, computation of various code quality metrics, and trend analysis.
-- [Gendarme](https://www.mono-project.com/docs/tools+libraries/tools/gendarme/) - Gendarme inspects programs and libraries that contain code in ECMA CIL format (Mono and .NET).
+- ![stars](https://img.shields.io/github/stars/mono/mono-tools?style=flat-square&color=ccc) [Gendarme](https://www.mono-project.com/docs/tools+libraries/tools/gendarme/) - Gendarme inspects programs and libraries that contain code in ECMA CIL format (Mono and .NET).
 - [NDepend](http://www.ndepend.com/) :copyright: - Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.
-- [Roslynator](https://github.com/JosefPihrt/Roslynator/) - A collection of 190+ analyzers and 190+ refactorings for C#, powered by Roslyn.
+- ![stars](https://img.shields.io/github/stars/JosefPihrt/Roslynator?style=flat-square&color=ccc) [Roslynator](https://github.com/JosefPihrt/Roslynator/) - A collection of 190+ analyzers and 190+ refactorings for C#, powered by Roslyn.
 - ![stars](https://img.shields.io/github/stars/Vannevelj/VSDiagnostics?style=flat-square&color=ccc) [VSDiagnostics](https://github.com/Vannevelj/VSDiagnostics) - A collection of static analyzers based on Roslyn that integrates with VS.
 - ![stars](https://img.shields.io/github/stars/Wintellect/Wintellect.Analyzers?style=flat-square&color=ccc) [Wintellect.Analyzers](https://github.com/Wintellect/Wintellect.Analyzers) - .NET Compiler Platform ("Roslyn") diagnostic analyzers and code fixes.
 
@@ -167,7 +167,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="cpp">C++</h2>
 
 - [Astrée](https://www.absint.com/astree/index.htm) :copyright: - Sound static analyzer based on abstract interpretation for C/C++, detecting memory, type and concurrency defects, and MISRA violations.
-- [CBMC](http://www.cprover.org/cbmc/) - bounded model-checker for C programs, user-defined assertions, standard assertions, several coverage metric analyses
+- ![stars](https://img.shields.io/github/stars/diffblue/cbmc?style=flat-square&color=ccc) [CBMC](http://www.cprover.org/cbmc/) - bounded model-checker for C programs, user-defined assertions, standard assertions, several coverage metric analyses
 - [clang-tidy](http://clang.llvm.org/extra/clang-tidy/) - clang static analyser
 - ![stars](https://img.shields.io/github/stars/MetricsGrimoire/CMetrics?style=flat-square&color=ccc) [CMetrics](https://github.com/MetricsGrimoire/CMetrics) - Measures size and complexity for C files
 - [CodeSonar from GrammaTech](https://www.grammatech.com/products/codesonar) :copyright: - Advanced, whole program, deep path, static analysis of C and C++ with easy-to-understand explanations and code and path visualization.
@@ -306,7 +306,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="java">Java</h2>
 
-- [Checker Framework](https://checkerframework.org/) - Pluggable type-checking for Java http://checkerframework.org/
+- ![stars](https://img.shields.io/github/stars/typetools/checker-framework?style=flat-square&color=ccc) [Checker Framework](https://checkerframework.org/) - Pluggable type-checking for Java http://checkerframework.org/
 - ![stars](https://img.shields.io/github/stars/checkstyle/checkstyle?style=flat-square&color=ccc) [checkstyle](https://checkstyle.org/) - checking Java source code for adherence to a Code Standard or set of validation rules (best practices)
 - ![stars](https://img.shields.io/github/stars/mauricioaniche/ck?style=flat-square&color=ccc) [ck](https://github.com/mauricioaniche/ck) - calculates Chidamber and Kemerer object-oriented metrics by processing the source Java files
 - ![stars](https://img.shields.io/github/stars/dspinellis/ckjm?style=flat-square&color=ccc) [ckjm](http://www.spinellis.gr/sw/ckjm/) - calculates Chidamber and Kemerer object-oriented metrics by processing the bytecode of compiled Java files
@@ -390,7 +390,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - ![stars](https://img.shields.io/github/stars/Alexia/php7mar?style=flat-square&color=ccc) [php7mar](https://github.com/Alexia/php7mar) :warning: - assist developers in porting their code quickly to PHP 7
 - ![stars](https://img.shields.io/github/stars/squizlabs/PHP_CodeSniffer?style=flat-square&color=ccc) [PHP_CodeSniffer](https://pear.php.net/package/PHP_CodeSniffer) - detects violations of a defined set of coding standards
 - ![stars](https://img.shields.io/github/stars/wapmorgan/PhpCodeAnalyzer?style=flat-square&color=ccc) [phpca](https://github.com/wapmorgan/PhpCodeAnalyzer) - Finds usage of non-built-in extensions
-- [phpcf](http://wapmorgan.github.io/PhpCodeFixer/) - Finds usage of deprecated PHP features
+- ![stars](https://img.shields.io/github/stars/wapmorgan/PhpCodeFixer?style=flat-square&color=ccc) [phpcf](http://wapmorgan.github.io/PhpCodeFixer/) - Finds usage of deprecated PHP features
 - ![stars](https://img.shields.io/github/stars/sebastianbergmann/phpcpd?style=flat-square&color=ccc) [phpcpd](https://github.com/sebastianbergmann/phpcpd) - Copy/Paste Detector for PHP code.
 - ![stars](https://img.shields.io/github/stars/sebastianbergmann/phpdcd?style=flat-square&color=ccc) [phpdcd](https://github.com/sebastianbergmann/phpdcd) :warning: - Dead Code Detector (DCD) for PHP code.
 - ![stars](https://img.shields.io/github/stars/mamuz/PhpDependencyAnalysis?style=flat-square&color=ccc) [PhpDependencyAnalysis](https://mamuz.github.io/PhpDependencyAnalysis/) - builds a dependency graph for a project
@@ -431,7 +431,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - ![stars](https://img.shields.io/github/stars/uber/py-find-injection?style=flat-square&color=ccc) [py-find-injection](https://github.com/uber/py-find-injection) :warning: - find SQL injection vulnerabilities in Python code
 - ![stars](https://img.shields.io/github/stars/PyCQA/pycodestyle?style=flat-square&color=ccc) [pycodestyle](https://pycodestyle.pycqa.org/en/latest/) - (formerly `pep8`) check Python code against some of the style conventions in PEP 8
 - ![stars](https://img.shields.io/github/stars/PyCQA/pydocstyle?style=flat-square&color=ccc) [pydocstyle](http://www.pydocstyle.org) - Check compliance with Python docstring conventions
-- [pyflakes](https://pypi.org/project/pyflakes/) - Check Python source files for errors
+- ![stars](https://img.shields.io/github/stars/pyflakes/pyflakes?style=flat-square&color=ccc) [pyflakes](https://pypi.org/project/pyflakes/) - Check Python source files for errors
 - ![stars](https://img.shields.io/github/stars/PyCQA/pylint?style=flat-square&color=ccc) [pylint](http://pylint.pycqa.org/en/latest/) - looks for programming errors, helps enforcing a coding standard and sniffs for some code smells. It additionally includes `pyreverse` (an UML diagram generator) and `symilar` (a similarities checker).
 - ![stars](https://img.shields.io/github/stars/facebook/pyre-check?style=flat-square&color=ccc) [pyre-check](https://pyre-check.org/) - A fast, scalable type checker for large Python codebases
 - ![stars](https://img.shields.io/github/stars/Microsoft/pyright?style=flat-square&color=ccc) [pyright](https://github.com/Microsoft/pyright) - Static type checker for Python, created to address gaps in existing tools like mypy.
@@ -548,103 +548,103 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [AppChecker](https://npo-echelon.ru/en/solutions/appchecker.php) :copyright: - Static analysis for C/C++/C#, PHP and Java 
 - [Application Inspector](https://www.ptsecurity.com/ww-en/products/ai/) :copyright: - Commercial Static Code Analysis which generates exploits to verify vulnerabilities. 
-- [ApplicationInspector](https://github.com/microsoft/ApplicationInspector) - Creates reports of over 400 rule patterns for feature detection (e.g. the use of cryptography or version control in apps). 
+- ![stars](https://img.shields.io/github/stars/microsoft/ApplicationInspector?style=flat-square&color=ccc) [ApplicationInspector](https://github.com/microsoft/ApplicationInspector) - Creates reports of over 400 rule patterns for feature detection (e.g. the use of cryptography or version control in apps). 
 - [AppScan Source](https://www.hcltechsw.com/wps/portal/products/appscan/home) :copyright: - Commercial Static Code Analysis. 
 - [APPscreener](https://solarappscreener.com/) :copyright: - Static code analysis for binary and source code - Java/Scala, PHP, Javascript, C#, PL/SQL, Python, T-SQL, C/C++, ObjectiveC/Swift, Visual Basic 6.0, Ruby, Delphi, ABAP, HTML5 and Solidity 
-- [ArchUnit](https://www.archunit.org/) - Unit test your Java or Kotlin architecture 
-- [Atom-Beautify](https://atom.io/packages/atom-beautify) - Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom editor 
+- ![stars](https://img.shields.io/github/stars/TNG/ArchUnit?style=flat-square&color=ccc) [ArchUnit](https://www.archunit.org/) - Unit test your Java or Kotlin architecture 
+- ![stars](https://img.shields.io/github/stars/Glavin001/atom-beautify?style=flat-square&color=ccc) [Atom-Beautify](https://atom.io/packages/atom-beautify) - Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom editor 
 - [Axivion Bauhaus Suite](https://www.axivion.com/en/products-services-9#products_bauhaussuite) :copyright: - Tracks down error-prone code locations, style violations, cloned or dead code, cyclic dependencies and more for C/C++, C#/.NET, Java and Ada 83/Ada 95 
-- [Black](https://black.readthedocs.io/en/stable/) - The uncompromising Python code formatter 
+- ![stars](https://img.shields.io/github/stars/ambv/black?style=flat-square&color=ccc) [Black](https://black.readthedocs.io/en/stable/) - The uncompromising Python code formatter 
 - [CAST Highlight](https://www.castsoftware.com/products/highlight) :copyright: - Commercial Static Code Analysis which runs locally, but uploads the results to its cloud for presentation. 
 - [Checkmarx CxSAST](https://www.checkmarx.com/products/static-application-security-testing/) :copyright: - Commercial Static Code Analysis which doesn't require pre-compilation. 
-- [ciocheck](https://github.com/ContinuumIO/ciocheck) - linter, formatter and test suite helper. As a linter, it is a wrapper around `pep8`, `pydocstyle`, `flake8`, and `pylint`. 
-- [ClassGraph](https://github.com/classgraph/classgraph) - a classpath and module path scanner for querying or visualizing class metadata or class relatedness. 
-- [coala](https://coala.io/) - Language independent framework for creating code analysis - supports [over 60 languages](https://coala.io/languages) by default 
+- ![stars](https://img.shields.io/github/stars/ContinuumIO/ciocheck?style=flat-square&color=ccc) [ciocheck](https://github.com/ContinuumIO/ciocheck) - linter, formatter and test suite helper. As a linter, it is a wrapper around `pep8`, `pydocstyle`, `flake8`, and `pylint`. 
+- ![stars](https://img.shields.io/github/stars/classgraph/classgraph?style=flat-square&color=ccc) [ClassGraph](https://github.com/classgraph/classgraph) - a classpath and module path scanner for querying or visualizing class metadata or class relatedness. 
+- ![stars](https://img.shields.io/github/stars/coala/coala?style=flat-square&color=ccc) [coala](https://coala.io/) - Language independent framework for creating code analysis - supports [over 60 languages](https://coala.io/languages) by default 
 - [Cobra](http://spinroot.com/cobra/) :copyright: - Structural source code analyzer by NASA's Jet Propulsion Laboratory. 
 - [Codeac](https://www.codeac.io?ref=awesome-static-analysis) :copyright: - Automated code review tool integrates with GitHub, Bitbucket and GitLab (even self-hosted). Available for JavaScript, TypeScript, Python, Ruby, Go, PHP, Java, Docker, and more. (open-source free) 
-- [codeburner](http://groupon.github.io/codeburner/) - Provides a unified interface to sort and act on the issues it finds 
-- [codechecker](https://codechecker.readthedocs.io/en/latest/) - a defect database and viewer extension for the Clang Static Analyzer with web GUI 
+- ![stars](https://img.shields.io/github/stars/groupon/codeburner?style=flat-square&color=ccc) [codeburner](http://groupon.github.io/codeburner/) - Provides a unified interface to sort and act on the issues it finds 
+- ![stars](https://img.shields.io/github/stars/Ericsson/codechecker?style=flat-square&color=ccc) [codechecker](https://codechecker.readthedocs.io/en/latest/) - a defect database and viewer extension for the Clang Static Analyzer with web GUI 
 - [CodeFactor](https://codefactor.io) :copyright: - Static Code Analysis for C#, C, C++, CoffeeScript, CSS, Groovy, GO, JAVA, JavaScript, Less, Python, Ruby, Scala, SCSS, TypeScript. 
 - [CodeIt.Right](https://submain.com/products/codeit.right.aspx) :copyright: - CodeIt.Right&trade; provides a fast, automated way to ensure that your source code adheres to (your) predefined design and style guidelines as well as best coding practices 
 - [CodePatrol](https://cyber-security.claranet.fr/en/codepatrol) :copyright: - Automated SAST code reviews driven by security, supports 15+ languages and includes security training. 
 - [CodeRush](https://www.devexpress.com/products/coderush/) :copyright: - Code creation, debugging, navigation, refactoring, analysis and visualization tools that use the Roslyn engine in Visual Studio 2015 and up. 
 - [CodeScene](https://empear.com/) :copyright: - CodeScene prioritizes technical debt, finds social patterns and identifies hidden risks in your code. 
-- [Corrode](https://github.com/jameysharp/corrode) - Semi-automatic translation from C to Rust. Could reveal bugs in the original implementation by showing Rust compiler warnings and errors. 
+- ![stars](https://img.shields.io/github/stars/jameysharp/corrode?style=flat-square&color=ccc) [Corrode](https://github.com/jameysharp/corrode) - Semi-automatic translation from C to Rust. Could reveal bugs in the original implementation by showing Rust compiler warnings and errors. 
 - [Coverity](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html) :copyright: - Synopsys Coverity supports 20 languages and over 70 frameworks including Ruby on rails, Scala, PHP, Python, JavaScript, TypeScript, Java, Fortran, C, C++, C#, VB.NET. 
-- [cqc](https://github.com/xcatliu/cqc) - Check your code quality for js, jsx, vue, css, less, scss, sass and styl files. 
-- [CSScomb](https://github.com/csscomb/csscomb.js) - a coding style formatter for CSS. Supports own configurations to make style sheets beautiful and consistent 
-- [dawnscanner](https://github.com/thesp0nge/dawnscanner) - a static analysis security scanner for ruby written web applications. It supports Sinatra, Padrino and Ruby on Rails frameworks. 
+- ![stars](https://img.shields.io/github/stars/xcatliu/cqc?style=flat-square&color=ccc) [cqc](https://github.com/xcatliu/cqc) - Check your code quality for js, jsx, vue, css, less, scss, sass and styl files. 
+- ![stars](https://img.shields.io/github/stars/csscomb/csscomb.js?style=flat-square&color=ccc) [CSScomb](https://github.com/csscomb/csscomb.js) - a coding style formatter for CSS. Supports own configurations to make style sheets beautiful and consistent 
+- ![stars](https://img.shields.io/github/stars/thesp0nge/dawnscanner?style=flat-square&color=ccc) [dawnscanner](https://github.com/thesp0nge/dawnscanner) - a static analysis security scanner for ruby written web applications. It supports Sinatra, Padrino and Ruby on Rails frameworks. 
 - [DeepCode](https://www.deepcode.ai/) :copyright: - DeepCode finds bugs, security vulnerabilities, performance and API issues based on AI. DeepCode's speed of analysis allow us to analyse your code in real time and deliver results when you hit the save button in your IDE. Supported languages are Java, C/C++, JavaScript, Python, and TypeScript. Integrations with GitHub, BitBucket and Gitlab. 
 - [DeepSource](https://deepsource.io/) :copyright: - In-depth static analysis to monitor source code quality and security. Supports Python and Go and can detect 600+ types of issues in verticals of bug risks, security, anti-patterns, performance, documentation and style. Native integration with GitHub. 
-- [Depends](https://github.com/multilang-depends/depends) - Analyses the comprehensive dependencies of code elements for Java, C/C++, Ruby. 
-- [DevSkim](https://github.com/microsoft/devskim) - Regex-based static analysis tool for Visual Studio, VS Code, and Sublime Text - C/C++, C#, PHP, ASP, Python, Ruby, Java, and others. 
+- ![stars](https://img.shields.io/github/stars/multilang-depends/depends?style=flat-square&color=ccc) [Depends](https://github.com/multilang-depends/depends) - Analyses the comprehensive dependencies of code elements for Java, C/C++, Ruby. 
+- ![stars](https://img.shields.io/github/stars/microsoft/devskim?style=flat-square&color=ccc) [DevSkim](https://github.com/microsoft/devskim) - Regex-based static analysis tool for Visual Studio, VS Code, and Sublime Text - C/C++, C#, PHP, ASP, Python, Ruby, Java, and others. 
 - [Embold](https://embold.io) :copyright: - Intelligent software analytics platform that identifies design issues, code issues, duplication and metrics. Supports Java, C, C++, C#, JavaScript, TypeScript, Python, Go, Kotlin and more. 
-- [exakat](https://www.exakat.io/) - An automated code reviewing engine for PHP 
-- [Find Security Bugs](https://find-sec-bugs.github.io/) - The SpotBugs plugin for security audits of Java web applications and Android applications. (Also work with Kotlin, Groovy and Scala projects) 
-- [flake8](https://github.com/PyCQA/flake8) - a wrapper around `pyflakes`, `pycodestyle` and `mccabe` 
+- ![stars](https://img.shields.io/github/stars/exakat/exakat?style=flat-square&color=ccc) [exakat](https://www.exakat.io/) - An automated code reviewing engine for PHP 
+- ![stars](https://img.shields.io/github/stars/find-sec-bugs/find-sec-bugs?style=flat-square&color=ccc) [Find Security Bugs](https://find-sec-bugs.github.io/) - The SpotBugs plugin for security audits of Java web applications and Android applications. (Also work with Kotlin, Groovy and Scala projects) 
+- ![stars](https://img.shields.io/github/stars/PyCQA/flake8?style=flat-square&color=ccc) [flake8](https://github.com/PyCQA/flake8) - a wrapper around `pyflakes`, `pycodestyle` and `mccabe` 
 - [Fortify](https://software.microfocus.com/en-us/products/static-code-analysis-sast/overview) :copyright: - A commercial static analysis platform that supports the scanning of C/C++, C#, VB.NET, VB6, ABAP/BSP, ActionScript, Apex, ASP.NET, Classic ASP, VB Script, Cobol, ColdFusion, HTML, Java, JS, JSP, MXML/Flex, Objective-C, PHP, PL/SQL, T-SQL, Python (2.6, 2.7), Ruby (1.9.3), Swift, Scala, VB, and XML. 
-- [Go Meta Linter](https://github.com/alecthomas/gometalinter) :warning: - Concurrently run Go lint tools and normalise their output. Use `golangci-lint` for new projects. 
-- [Goodcheck](https://sider.github.io/goodcheck/) - Regexp based customizable linter 
-- [goreporter](https://github.com/360EntSecGroup-Skylar/goreporter) - concurrently runs many linters and normalises their output to a report. 
-- [graudit](http://www.justanotherhacker.com/) - Grep rough audit - source code auditing tool 
-- [Hopper](https://github.com/cuplv/hopper) - A static analysis tool written in scala for languages that run on JVM 
-- [Hound CI](https://houndci.com/) - Comments on style violations in GitHub pull requests. Supports Coffeescript, Go, HAML, JavaScript, Ruby, SCSS and Swift. 
-- [imhotep](https://github.com/justinabrahms/imhotep) - Comment on commits coming into your repository and check for syntactic errors and general lint warnings. 
-- [Infer](https://fbinfer.com/) - A static analyzer for Java, C and Objective-C 
-- [InsiderSec](https://insidersec.io/) - A open source Static Application Security Testing tool (SAST) written in GoLang for Java (Maven and Android), Kotlin (Android), Swift (iOS), .NET Full Framework, C# and Javascript (Node.js). 
+- ![stars](https://img.shields.io/github/stars/alecthomas/gometalinter?style=flat-square&color=ccc) [Go Meta Linter](https://github.com/alecthomas/gometalinter) :warning: - Concurrently run Go lint tools and normalise their output. Use `golangci-lint` for new projects. 
+- ![stars](https://img.shields.io/github/stars/sideci/goodcheck?style=flat-square&color=ccc) [Goodcheck](https://sider.github.io/goodcheck/) - Regexp based customizable linter 
+- ![stars](https://img.shields.io/github/stars/360EntSecGroup-Skylar/goreporter?style=flat-square&color=ccc) [goreporter](https://github.com/360EntSecGroup-Skylar/goreporter) - concurrently runs many linters and normalises their output to a report. 
+- ![stars](https://img.shields.io/github/stars/wireghoul/graudit?style=flat-square&color=ccc) [graudit](http://www.justanotherhacker.com/) - Grep rough audit - source code auditing tool 
+- ![stars](https://img.shields.io/github/stars/cuplv/hopper?style=flat-square&color=ccc) [Hopper](https://github.com/cuplv/hopper) - A static analysis tool written in scala for languages that run on JVM 
+- ![stars](https://img.shields.io/github/stars/houndci/hound?style=flat-square&color=ccc) [Hound CI](https://houndci.com/) - Comments on style violations in GitHub pull requests. Supports Coffeescript, Go, HAML, JavaScript, Ruby, SCSS and Swift. 
+- ![stars](https://img.shields.io/github/stars/justinabrahms/imhotep?style=flat-square&color=ccc) [imhotep](https://github.com/justinabrahms/imhotep) - Comment on commits coming into your repository and check for syntactic errors and general lint warnings. 
+- ![stars](https://img.shields.io/github/stars/facebook/infer?style=flat-square&color=ccc) [Infer](https://fbinfer.com/) - A static analyzer for Java, C and Objective-C 
+- ![stars](https://img.shields.io/github/stars/insidersec/insider?style=flat-square&color=ccc) [InsiderSec](https://insidersec.io/) - A open source Static Application Security Testing tool (SAST) written in GoLang for Java (Maven and Android), Kotlin (Android), Swift (iOS), .NET Full Framework, C# and Javascript (Node.js). 
 - [Kiuwan](https://www.kiuwan.com/code-security-sast/) :copyright: - Identify and remediate cyber threats in a blazingly fast, collaborative environment, with seamless integration in your SDLC. Python, C\C++, Java, C#, PHP and more 
 - [Klocwork](https://www.perforce.com/products/klocwork) :copyright: - Quality and Security Static analysis for C/C++, Java and C# 
-- [ktlint](https://ktlint.github.io/) - An anti-bikeshedding Kotlin linter with built-in formatter 
+- ![stars](https://img.shields.io/github/stars/shyiko/ktlint?style=flat-square&color=ccc) [ktlint](https://ktlint.github.io/) - An anti-bikeshedding Kotlin linter with built-in formatter 
 - [LGTM.com](https://lgtm.com/) :copyright: - Deep code analysis for GitHub and Bitbucket to find security vulnerabilities and critical code quality issues (using Semmle QL). Automatic code review for pull requests; free for public repositories. 
-- [multilint](https://github.com/adamchainz/multilint) - a wrapper around `flake8`, `isort` and `modernize` 
+- ![stars](https://img.shields.io/github/stars/adamchainz/multilint?style=flat-square&color=ccc) [multilint](https://github.com/adamchainz/multilint) - a wrapper around `flake8`, `isort` and `modernize` 
 - [Nitpick CI](https://nitpick-ci.com) :copyright: - Automated PHP code review 
-- [NodeJSScan](https://opensecurity.in/) - NodeJsScan is a static security code scanner for Node.js applications. 
-- [oclint](http://oclint.org/) - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C 
-- [pfff](https://github.com/facebookarchive/pfff/wiki/Main) :warning: - Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages 
-- [PMD](https://pmd.github.io/) - A source code analyzer for Java, Javascript, PLSQL, XML, XSL and others 
+- ![stars](https://img.shields.io/github/stars/ajinabraham/NodeJsScan?style=flat-square&color=ccc) [NodeJSScan](https://opensecurity.in/) - NodeJsScan is a static security code scanner for Node.js applications. 
+- ![stars](https://img.shields.io/github/stars/oclint/oclint?style=flat-square&color=ccc) [oclint](http://oclint.org/) - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C 
+- ![stars](https://img.shields.io/github/stars/returntocorp/pfff?style=flat-square&color=ccc) [pfff](https://github.com/facebookarchive/pfff/wiki/Main) :warning: - Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages 
+- ![stars](https://img.shields.io/github/stars/pmd/pmd?style=flat-square&color=ccc) [PMD](https://pmd.github.io/) - A source code analyzer for Java, Javascript, PLSQL, XML, XSL and others 
 - [Polymer-analyzer](https://github.com/Polymer/tools/tree/master/packages/analyzer) - A static analysis framework for Web Components. 
-- [pre-commit](https://pre-commit.com/) - A framework for managing and maintaining multi-language pre-commit hooks. 
-- [Prettier](https://prettier.io/) - An opinionated code formatter. 
-- [Pronto](https://github.com/prontolabs/pronto) - Quick automated code review of your changes. Supports more than 40 runners for various languages, including Clang, Elixir, JavaScript, PHP, Ruby and more 
-- [prospector](https://github.com/PyCQA/prospector) - a wrapper around `pylint`, `pep8`, `mccabe` and others 
-- [PT.PM](https://github.com/PositiveTechnologies/PT.PM) :warning: - An engine for searching patterns in the source code, based on Unified AST or UST. At present time C#, Java, PHP, PL/SQL, T-SQL, and JavaScript are supported. Patterns can be described within the code or using a DSL. 
+- ![stars](https://img.shields.io/github/stars/pre-commit/pre-commit?style=flat-square&color=ccc) [pre-commit](https://pre-commit.com/) - A framework for managing and maintaining multi-language pre-commit hooks. 
+- ![stars](https://img.shields.io/github/stars/prettier/prettier?style=flat-square&color=ccc) [Prettier](https://prettier.io/) - An opinionated code formatter. 
+- ![stars](https://img.shields.io/github/stars/prontolabs/pronto?style=flat-square&color=ccc) [Pronto](https://github.com/prontolabs/pronto) - Quick automated code review of your changes. Supports more than 40 runners for various languages, including Clang, Elixir, JavaScript, PHP, Ruby and more 
+- ![stars](https://img.shields.io/github/stars/PyCQA/prospector?style=flat-square&color=ccc) [prospector](https://github.com/PyCQA/prospector) - a wrapper around `pylint`, `pep8`, `mccabe` and others 
+- ![stars](https://img.shields.io/github/stars/PositiveTechnologies/PT.PM?style=flat-square&color=ccc) [PT.PM](https://github.com/PositiveTechnologies/PT.PM) :warning: - An engine for searching patterns in the source code, based on Unified AST or UST. At present time C#, Java, PHP, PL/SQL, T-SQL, and JavaScript are supported. Patterns can be described within the code or using a DSL. 
 - [PullRequest](https://www.pullrequest.com) :copyright: - Code review as a service with built-in static analysis 
-- [Puma Scan](https://pumasecurity.io/) - Puma Scan provides real time secure code analysis for common vulnerabilities (XSS, SQLi, CSRF, LDAPi, crypto, deserialization, etc.) as development teams write code in Visual Studio. 
+- ![stars](https://img.shields.io/github/stars/pumasecurity/puma-scan?style=flat-square&color=ccc) [Puma Scan](https://pumasecurity.io/) - Puma Scan provides real time secure code analysis for common vulnerabilities (XSS, SQLi, CSRF, LDAPi, crypto, deserialization, etc.) as development teams write code in Visual Studio. 
 - [PVS-Studio](https://www.viva64.com/en/pvs-studio/) :copyright: - a ([conditionally free](https://www.viva64.com/en/b/0614/) for FOSS and individual developers) static analysis of C, C++, C# and Java code. For advertising purposes [you can propose a large FOSS project for analysis by PVS employees](https://github.com/viva64/pvs-studio-check-list). Supports CWE mapping, MISRA and CERT coding standards. 
-- [quality](https://github.com/apiology/quality) - Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time. 
+- ![stars](https://img.shields.io/github/stars/apiology/quality?style=flat-square&color=ccc) [quality](https://github.com/apiology/quality) - Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time. 
 - [Qualys Container Security](https://www.qualys.com/apps/container-security/) :copyright: - Container native application protection to provide visibility and control of containerized applications. 
-- [QuantifiedCode](https://github.com/quantifiedcode/quantifiedcode) :warning: - Automated code review & repair 
-- [Refactoring Essentials](https://marketplace.visualstudio.com/items?itemName=SharpDevelopTeam.RefactoringEssentialsforVisualStudio) - The free Visual Studio 2015 extension for C# and VB.NET refactorings, including code best practice analyzers. 
-- [relint](https://github.com/codingjoe/relint) - A static file linter that allows you to write custom rules using regular expressions (RegEx). 
+- ![stars](https://img.shields.io/github/stars/quantifiedcode/quantifiedcode?style=flat-square&color=ccc) [QuantifiedCode](https://github.com/quantifiedcode/quantifiedcode) :warning: - Automated code review & repair 
+- ![stars](https://img.shields.io/github/stars/icsharpcode/RefactoringEssentials?style=flat-square&color=ccc) [Refactoring Essentials](https://marketplace.visualstudio.com/items?itemName=SharpDevelopTeam.RefactoringEssentialsforVisualStudio) - The free Visual Studio 2015 extension for C# and VB.NET refactorings, including code best practice analyzers. 
+- ![stars](https://img.shields.io/github/stars/codingjoe/relint?style=flat-square&color=ccc) [relint](https://github.com/codingjoe/relint) - A static file linter that allows you to write custom rules using regular expressions (RegEx). 
 - [ReSharper](https://www.jetbrains.com/resharper/) :copyright: - Extends Visual Studio with on-the-fly code inspections for C#, VB.NET, ASP.NET, JavaScript, TypeScript and other technologies. 
-- [Reviewdog](https://github.com/haya14busa/reviewdog) - A tool for posting review comments from any linter in any code hosting service. 
+- ![stars](https://img.shields.io/github/stars/haya14busa/reviewdog?style=flat-square&color=ccc) [Reviewdog](https://github.com/haya14busa/reviewdog) - A tool for posting review comments from any linter in any code hosting service. 
 - [RIPS](https://www.ripstech.com/) :copyright: - A static source code analyser for vulnerabilities in PHP scripts 
-- [Roslyn Analyzers](https://github.com/dotnet/roslyn-analyzers) - Roslyn-based implementation of FxCop analyzers. 
-- [Roslyn Security Guard](https://security-code-scan.github.io/) - Project that focuses on the identification of potential vulnerabilities such as SQL injection, cross-site scripting (XSS), CSRF, cryptography weaknesses, hardcoded passwords and many more. 
-- [Security Code Scan](https://security-code-scan.github.io/) - Security code analyzer for C# and VB.NET. Detects various security vulnerability patterns: SQLi, XSS, CSRF, XXE, Open Redirect, etc. Integrates into Visual Studio 2015 and newer. Detects various security vulnerability patterns: SQLi, XSS, CSRF, XXE, Open Redirect, etc. 
+- ![stars](https://img.shields.io/github/stars/dotnet/roslyn-analyzers?style=flat-square&color=ccc) [Roslyn Analyzers](https://github.com/dotnet/roslyn-analyzers) - Roslyn-based implementation of FxCop analyzers. 
+- ![stars](https://img.shields.io/github/stars/security-code-scan/security-code-scan?style=flat-square&color=ccc) [Roslyn Security Guard](https://security-code-scan.github.io/) - Project that focuses on the identification of potential vulnerabilities such as SQL injection, cross-site scripting (XSS), CSRF, cryptography weaknesses, hardcoded passwords and many more. 
+- ![stars](https://img.shields.io/github/stars/security-code-scan/security-code-scan?style=flat-square&color=ccc) [Security Code Scan](https://security-code-scan.github.io/) - Security code analyzer for C# and VB.NET. Detects various security vulnerability patterns: SQLi, XSS, CSRF, XXE, Open Redirect, etc. Integrates into Visual Studio 2015 and newer. Detects various security vulnerability patterns: SQLi, XSS, CSRF, XXE, Open Redirect, etc. 
 - [Semmle QL and LGTM](https://semmle.com/) :copyright: - Find security vulnerabilities, variants, and critical code quality issues using queries over source code. Automatic PR code review; free for public GitHub/Bitbucket repo: [LGTM.com](https://LGTM.com). 
 - [SensioLabs Insight](https://insight.sensiolabs.com/) :copyright: - Detect security risks, find bugs and provide actionable metrics for PHP projects 
-- [shipshape](https://github.com/google/shipshape) :warning: - Static program analysis platform that allows custom analyzers to plug in through a common interface 
+- ![stars](https://img.shields.io/github/stars/google/shipshape?style=flat-square&color=ccc) [shipshape](https://github.com/google/shipshape) :warning: - Static program analysis platform that allows custom analyzers to plug in through a common interface 
 - [Sider](https://sider.review) :copyright: - An automated code reviewing tool. Improving developers' productivity. 
 - [SmartDec Scanner](https://smartdecscanner.com/) :copyright: - SAST tool which is capable of identifying vulnerabilities and undocumented features. The analyzer scans the source code and executables without debug info (i.e. binaries). Supports: Java/Scala/Kotlin, PHP, C#, JavaScript, TypeScript, VBScript, HTML5, Python, Perl, C/C++, Objective-C/Swift, PL/SQL, T-SQL, ABAP, 1C, Apex, Go, Ruby, Groovy, Delphi, VBA, Visual Basic 6, Solidity, Vyper, COBOL. 
 - [Snyk](https://snyk.io/) :copyright: - Vulnerability scanner for dependencies of node.js apps (free for Open Source Projects) 
 - [SonarCloud](https://sonarcloud.io) :copyright: - Multilanguage cloud-based static code analysis. History, trends, security hot-spots, pull request analysis and more. Free for open source. 
-- [SonarLint for Visual Studio](https://vs.sonarlint.org/) - SonarLint is an extension for Visual Studio 2015 and 2017 that provides on-the-fly feedback to developers on new bugs and quality issues injected into .NET code. 
-- [SonarQube](http://www.sonarqube.org/) - SonarQube is an open platform to manage code quality. 
-- [standard](http://standardjs.com/) - An npm module that checks for Javascript Styleguide issues 
-- [styler](https://styler.r-lib.org/) - Formatting of R source code files and pretty-printing of R code. 
-- [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) - A library and command-line formatting tool for reformatting Swift code 
+- ![stars](https://img.shields.io/github/stars/SonarSource/sonarlint-visualstudio?style=flat-square&color=ccc) [SonarLint for Visual Studio](https://vs.sonarlint.org/) - SonarLint is an extension for Visual Studio 2015 and 2017 that provides on-the-fly feedback to developers on new bugs and quality issues injected into .NET code. 
+- ![stars](https://img.shields.io/github/stars/SonarSource/sonarqube?style=flat-square&color=ccc) [SonarQube](http://www.sonarqube.org/) - SonarQube is an open platform to manage code quality. 
+- ![stars](https://img.shields.io/github/stars/standard/standard?style=flat-square&color=ccc) [standard](http://standardjs.com/) - An npm module that checks for Javascript Styleguide issues 
+- ![stars](https://img.shields.io/github/stars/r-lib/styler?style=flat-square&color=ccc) [styler](https://styler.r-lib.org/) - Formatting of R source code files and pretty-printing of R code. 
+- ![stars](https://img.shields.io/github/stars/nicklockwood/SwiftFormat?style=flat-square&color=ccc) [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) - A library and command-line formatting tool for reformatting Swift code 
 - [Synopsys](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html) :copyright: - A commercial static analysis platform that allows for scanning of multiple languages (C/C++, Android, C#, Java, JS, PHP, Python, Node.JS, Ruby, Fortran, and Swift) 
 - [Teamscale](http://www.teamscale.com/) :copyright: - Static and dynamic analysis tool supporting more than 25 languages and direct IDE integration. Free hosting for Open Source projects available on request. Free academic licenses available. 
-- [TscanCode](https://github.com/Tencent/TscanCode) - A fast and accurate static analysis solution for C/C++, C#, Lua codes provided by Tencent. Using GPLv3 license. 
-- [Undebt](https://github.com/Yelp/undebt) - Language-independent tool for massive, automatic, programmable refactoring based on simple pattern definitions 
-- [Unibeautify](https://unibeautify.com/) - Universal code beautifier with a GitHub app. Supports HTML, CSS, JavaScript, TypeScript, JSX, Vue, C++, Go, Objective-C, Java, Python, PHP, GraphQL, Markdown, and more. 
+- ![stars](https://img.shields.io/github/stars/Tencent/TscanCode?style=flat-square&color=ccc) [TscanCode](https://github.com/Tencent/TscanCode) - A fast and accurate static analysis solution for C/C++, C#, Lua codes provided by Tencent. Using GPLv3 license. 
+- ![stars](https://img.shields.io/github/stars/Yelp/undebt?style=flat-square&color=ccc) [Undebt](https://github.com/Yelp/undebt) - Language-independent tool for massive, automatic, programmable refactoring based on simple pattern definitions 
+- ![stars](https://img.shields.io/github/stars/unibeautify/unibeautify?style=flat-square&color=ccc) [Unibeautify](https://unibeautify.com/) - Universal code beautifier with a GitHub app. Supports HTML, CSS, JavaScript, TypeScript, JSX, Vue, C++, Go, Objective-C, Java, Python, PHP, GraphQL, Markdown, and more. 
 - [Upsource](https://www.jetbrains.com/upsource/) :copyright: - Code review tool with static code analysis and code-aware navigation for Java, PHP, JavaScript and Kotlin. 
 - [Veracode](http://www.veracode.com/products/static-analysis-sast/static-code-analysis) :copyright: - Find flaws in binaries and bytecode without requiring source. Support all major programming languages: Java, .NET, JavaScript, Swift, Objective-C, C, C++ and more. 
-- [Violations Lib](https://github.com/tomasbjerre/violations-lib) - Java library for parsing report files from static code analysis. Used by a bunch of Jenkins, Maven and Gradle plugins. 
-- [WALA](http://wala.sourceforge.net) - static analysis capabilities for Java bytecode and related languages and for JavaScript 
+- ![stars](https://img.shields.io/github/stars/tomasbjerre/violations-lib?style=flat-square&color=ccc) [Violations Lib](https://github.com/tomasbjerre/violations-lib) - Java library for parsing report files from static code analysis. Used by a bunch of Jenkins, Maven and Gradle plugins. 
+- ![stars](https://img.shields.io/github/stars/wala/WALA?style=flat-square&color=ccc) [WALA](http://wala.sourceforge.net) - static analysis capabilities for Java bytecode and related languages and for JavaScript 
 - [WhiteHat Application Security Platform](https://www.whitehatsec.com/platform/static-application-security-testing/) :copyright: - WhiteHat Scout (for Developers) combined with WhiteHat Sentinel Source (for Operations) supporting WhiteHat Top 40 and OWASP Top 10. 
-- [Wotan](https://github.com/fimbullinter/wotan) - Pluggable TypeScript and JavaScript linter 
+- ![stars](https://img.shields.io/github/stars/fimbullinter/wotan?style=flat-square&color=ccc) [Wotan](https://github.com/fimbullinter/wotan) - Pluggable TypeScript and JavaScript linter 
 - [Xanitizer](https://xanitizer.com/) - Xanitizer finds security vulnerabilities in Java/Scala web applications. 
 - [Xanitizer](https://xanitizer.com/) :copyright: - Xanitizer finds security vulnerabilities in Java/Scala web applications. 
 - [XCode](https://developer.apple.com/xcode/) :copyright: - XCode provides a pretty decent UI for [Clang's](http://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C) 
@@ -656,87 +656,87 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="binary">Binaries</h2>
 
-- [BinSkim](https://github.com/Microsoft/binskim) - A binary static analysis tool that provides security and correctness results for Windows portable executables.
-- [cwe_checker](https://github.com/fkie-cad/cwe_checker) - cwe_checker finds vulnerable patterns in binary executables.
-- [Jakstab](https://github.com/jkinder/jakstab) - Jakstab is an Abstract Interpretation-based, integrated disassembly and static analysis framework for designing analyses on executables and recovering reliable control flow graphs.
-- [Manalyze](https://github.com/JusticeRage/Manalyze) - A static analyzer, which checks portable executables for malicious content.
-- [Twiggy](https://rustwasm.github.io/twiggy/) - Analyzes a binary's call graph to profile code size. The goal is to slim down binaries.
+- ![stars](https://img.shields.io/github/stars/Microsoft/binskim?style=flat-square&color=ccc) [BinSkim](https://github.com/Microsoft/binskim) - A binary static analysis tool that provides security and correctness results for Windows portable executables.
+- ![stars](https://img.shields.io/github/stars/fkie-cad/cwe_checker?style=flat-square&color=ccc) [cwe_checker](https://github.com/fkie-cad/cwe_checker) - cwe_checker finds vulnerable patterns in binary executables.
+- ![stars](https://img.shields.io/github/stars/jkinder/jakstab?style=flat-square&color=ccc) [Jakstab](https://github.com/jkinder/jakstab) - Jakstab is an Abstract Interpretation-based, integrated disassembly and static analysis framework for designing analyses on executables and recovering reliable control flow graphs.
+- ![stars](https://img.shields.io/github/stars/JusticeRage/Manalyze?style=flat-square&color=ccc) [Manalyze](https://github.com/JusticeRage/Manalyze) - A static analyzer, which checks portable executables for malicious content.
+- ![stars](https://img.shields.io/github/stars/rustwasm/twiggy?style=flat-square&color=ccc) [Twiggy](https://rustwasm.github.io/twiggy/) - Analyzes a binary's call graph to profile code size. The goal is to slim down binaries.
 
 
 <h2 id="buildtool">Build tools</h2>
 
-- [checkmake](https://github.com/mrtazz/checkmake) - Linter / Analyzer for Makefiles
+- ![stars](https://img.shields.io/github/stars/mrtazz/checkmake?style=flat-square&color=ccc) [checkmake](https://github.com/mrtazz/checkmake) - Linter / Analyzer for Makefiles
 
 
 <h2 id="css">CSS/SASS/SCSS</h2>
 
-- [CSS Stats](https://cssstats.com/) - Potentially interesting stats on stylesheets
-- [CSSLint](http://csslint.net/) - Does basic syntax checking and finds problematic patterns or signs of inefficiency
-- [GraphMyCSS.com](https://graphmycss.com) - CSS Specificity Graph Generator
-- [Parker](https://github.com/katiefenn/parker) - Stylesheet analysis tool
-- [Project Wallace CSS Analyzer](https://www.projectwallace.com/) - Analytics for CSS, part of [Project Wallace](https://www.projectwallace.com)
-- [sass-lint](https://github.com/sasstools/sass-lint) :warning: - A Node-only Sass linter for both sass and scss syntax.
-- [scsslint](https://github.com/brigade/scss-lint) :warning: - Linter for SCSS files
-- [Specificity Graph](https://jonassebastianohlsson.com/specificity-graph/) - CSS Specificity Graph Generator
-- [Stylelint](http://stylelint.io/) - Linter for SCSS/CSS files
+- ![stars](https://img.shields.io/github/stars/cssstats/cssstats?style=flat-square&color=ccc) [CSS Stats](https://cssstats.com/) - Potentially interesting stats on stylesheets
+- ![stars](https://img.shields.io/github/stars/CSSLint/csslint?style=flat-square&color=ccc) [CSSLint](http://csslint.net/) - Does basic syntax checking and finds problematic patterns or signs of inefficiency
+- ![stars](https://img.shields.io/github/stars/TheJaredWilcurt/itcss-specificity-graph?style=flat-square&color=ccc) [GraphMyCSS.com](https://graphmycss.com) - CSS Specificity Graph Generator
+- ![stars](https://img.shields.io/github/stars/katiefenn/parker?style=flat-square&color=ccc) [Parker](https://github.com/katiefenn/parker) - Stylesheet analysis tool
+- ![stars](https://img.shields.io/github/stars/projectwallace/css-analyzer?style=flat-square&color=ccc) [Project Wallace CSS Analyzer](https://www.projectwallace.com/) - Analytics for CSS, part of [Project Wallace](https://www.projectwallace.com)
+- ![stars](https://img.shields.io/github/stars/sasstools/sass-lint?style=flat-square&color=ccc) [sass-lint](https://github.com/sasstools/sass-lint) :warning: - A Node-only Sass linter for both sass and scss syntax.
+- ![stars](https://img.shields.io/github/stars/brigade/scss-lint?style=flat-square&color=ccc) [scsslint](https://github.com/brigade/scss-lint) :warning: - Linter for SCSS files
+- ![stars](https://img.shields.io/github/stars/pocketjoso/specificity-graph?style=flat-square&color=ccc) [Specificity Graph](https://jonassebastianohlsson.com/specificity-graph/) - CSS Specificity Graph Generator
+- ![stars](https://img.shields.io/github/stars/stylelint/stylelint?style=flat-square&color=ccc) [Stylelint](http://stylelint.io/) - Linter for SCSS/CSS files
 
 
 <h2 id="configfile">Config Files</h2>
 
-- [dotenv-linter](https://dotenv-linter.readthedocs.io/en/latest/) - Linting dotenv files like a charm.
-- [gixy](https://github.com/yandex/gixy) - a tool to analyze Nginx configuration. The main goal is to prevent misconfiguration and automate flaw detection.
+- ![stars](https://img.shields.io/github/stars/wemake-services/dotenv-linter?style=flat-square&color=ccc) [dotenv-linter](https://dotenv-linter.readthedocs.io/en/latest/) - Linting dotenv files like a charm.
+- ![stars](https://img.shields.io/github/stars/yandex/gixy?style=flat-square&color=ccc) [gixy](https://github.com/yandex/gixy) - a tool to analyze Nginx configuration. The main goal is to prevent misconfiguration and automate flaw detection.
 
 
 <h2 id="configmanagement">Configuration Management</h2>
 
-- [ansible-lint](https://docs.ansible.com/ansible-lint/) - Checks playbooks for practices and behaviour that could potentially be improved
-- [cfn-lint](https://github.com/awslabs/cfn-python-lint) - AWS Labs CloudFormation linter.
-- [cfn_nag](https://github.com/stelligent/cfn_nag) - A linter for AWS CloudFormation templates.
-- [checkov](https://www.checkov.io/) - Static analysis tool for Terraform files (tf>=v0.12), preventing cloud misconfigs at build time.
+- ![stars](https://img.shields.io/github/stars/willthames/ansible-lint?style=flat-square&color=ccc) [ansible-lint](https://docs.ansible.com/ansible-lint/) - Checks playbooks for practices and behaviour that could potentially be improved
+- ![stars](https://img.shields.io/github/stars/awslabs/cfn-python-lint?style=flat-square&color=ccc) [cfn-lint](https://github.com/awslabs/cfn-python-lint) - AWS Labs CloudFormation linter.
+- ![stars](https://img.shields.io/github/stars/stelligent/cfn_nag?style=flat-square&color=ccc) [cfn_nag](https://github.com/stelligent/cfn_nag) - A linter for AWS CloudFormation templates.
+- ![stars](https://img.shields.io/github/stars/bridgecrewio/checkov?style=flat-square&color=ccc) [checkov](https://www.checkov.io/) - Static analysis tool for Terraform files (tf>=v0.12), preventing cloud misconfigs at build time.
 - [cookstyle](https://github.com/chef/cookstyle) - Cookstyle is a linting tool based on the RuboCop Ruby linting tool for Chef cookbooks
-- [foodcritic](http://www.foodcritic.io/) - A lint tool that checks Chef cookbooks for common problems.
-- [Puppet Lint](https://github.com/rodjek/puppet-lint) - Check that your Puppet manifests conform to the style guide.
-- [terraform-compliance](https://terraform-compliance.com) - A lightweight, compliance- and security focused, BDD test framework against Terraform.
-- [terrascan](https://github.com/cesar-rodriguez/terrascan) - Collection of security and best practice tests for static code analysis of Terraform templates.
-- [tflint](https://github.com/wata727/tflint) - A Terraform linter for detecting errors that can not be detected by `terraform plan`.
+- ![stars](https://img.shields.io/github/stars/foodcritic/foodcritic?style=flat-square&color=ccc) [foodcritic](http://www.foodcritic.io/) - A lint tool that checks Chef cookbooks for common problems.
+- ![stars](https://img.shields.io/github/stars/rodjek/puppet-lint?style=flat-square&color=ccc) [Puppet Lint](https://github.com/rodjek/puppet-lint) - Check that your Puppet manifests conform to the style guide.
+- ![stars](https://img.shields.io/github/stars/eerkunt/terraform-compliance?style=flat-square&color=ccc) [terraform-compliance](https://terraform-compliance.com) - A lightweight, compliance- and security focused, BDD test framework against Terraform.
+- ![stars](https://img.shields.io/github/stars/cesar-rodriguez/terrascan?style=flat-square&color=ccc) [terrascan](https://github.com/cesar-rodriguez/terrascan) - Collection of security and best practice tests for static code analysis of Terraform templates.
+- ![stars](https://img.shields.io/github/stars/wata727/tflint?style=flat-square&color=ccc) [tflint](https://github.com/wata727/tflint) - A Terraform linter for detecting errors that can not be detected by `terraform plan`.
 
 
 <h2 id="container">Containers</h2>
 
-- [anchore](https://anchore.io/) - Discover, analyze, and certify container images
-- [clair](https://github.com/coreos/clair) - Vulnerability Static Analysis for Containers
-- [collector](https://github.com/banyanops/collector) - Run arbitrary scripts inside containers, and gather useful information
-- [dagda](https://github.com/eliasgranderubio/dagda) - Perform static analysis of known vulnerabilities in docker images/containers.
-- [Docker Label Inspector](https://github.com/garethr/docker-label-inspector) - Lint and validate Dockerfile labels
-- [Haskell Dockerfile Linter](https://github.com/lukasmartinelli/hadolint) - A smarter Dockerfile linter that helpsyou build best practice Docker images
-- [kube-score](https://kube-score.com/) - Static code analysis of your Kubernetes object definitions.
+- ![stars](https://img.shields.io/github/stars/anchore/anchore-engine?style=flat-square&color=ccc) [anchore](https://anchore.io/) - Discover, analyze, and certify container images
+- ![stars](https://img.shields.io/github/stars/coreos/clair?style=flat-square&color=ccc) [clair](https://github.com/coreos/clair) - Vulnerability Static Analysis for Containers
+- ![stars](https://img.shields.io/github/stars/banyanops/collector?style=flat-square&color=ccc) [collector](https://github.com/banyanops/collector) - Run arbitrary scripts inside containers, and gather useful information
+- ![stars](https://img.shields.io/github/stars/eliasgranderubio/dagda?style=flat-square&color=ccc) [dagda](https://github.com/eliasgranderubio/dagda) - Perform static analysis of known vulnerabilities in docker images/containers.
+- ![stars](https://img.shields.io/github/stars/garethr/docker-label-inspector?style=flat-square&color=ccc) [Docker Label Inspector](https://github.com/garethr/docker-label-inspector) - Lint and validate Dockerfile labels
+- ![stars](https://img.shields.io/github/stars/lukasmartinelli/hadolint?style=flat-square&color=ccc) [Haskell Dockerfile Linter](https://github.com/lukasmartinelli/hadolint) - A smarter Dockerfile linter that helpsyou build best practice Docker images
+- ![stars](https://img.shields.io/github/stars/zegl/kube-score?style=flat-square&color=ccc) [kube-score](https://kube-score.com/) - Static code analysis of your Kubernetes object definitions.
 
 
 <h2 id="deno">Deno</h2>
 
-- [deno_lint](https://github.com/denoland/deno_lint) - Official linter for Deno
+- ![stars](https://img.shields.io/github/stars/denoland/deno_lint?style=flat-square&color=ccc) [deno_lint](https://github.com/denoland/deno_lint) - Official linter for Deno
 
 
 <h2 id="gherkin">Gherkin</h2>
 
-- [gherkin-lint](https://github.com/vsiakka/gherkin-lint) - A linter for the Gherkin-Syntax written in Javascript.
+- ![stars](https://img.shields.io/github/stars/vsiakka/gherkin-lint?style=flat-square&color=ccc) [gherkin-lint](https://github.com/vsiakka/gherkin-lint) - A linter for the Gherkin-Syntax written in Javascript.
 
 
 <h2 id="html">HTML</h2>
 
-- [HTML Inspector](https://github.com/philipwalton/html-inspector) :warning: - HTML Inspector is a code quality tool to help you and your team write better markup.
-- [HTML Tidy](http://www.html-tidy.org/) - Corrects and cleans up HTML and XML documents by fixing markup errors and upgrading legacy code to modern standards.
-- [HTMLHint](https://htmlhint.com/) - A Static Code Analysis Tool for HTML
+- ![stars](https://img.shields.io/github/stars/philipwalton/html-inspector?style=flat-square&color=ccc) [HTML Inspector](https://github.com/philipwalton/html-inspector) :warning: - HTML Inspector is a code quality tool to help you and your team write better markup.
+- ![stars](https://img.shields.io/github/stars/htacg/tidy-html5?style=flat-square&color=ccc) [HTML Tidy](http://www.html-tidy.org/) - Corrects and cleans up HTML and XML documents by fixing markup errors and upgrading legacy code to modern standards.
+- ![stars](https://img.shields.io/github/stars/yaniswang/HTMLHint?style=flat-square&color=ccc) [HTMLHint](https://htmlhint.com/) - A Static Code Analysis Tool for HTML
 
 
 <h2 id="ide">IDE Plugins</h2>
 
-- [ale](https://github.com/w0rp/ale) - Asynchronous Lint Engine for Vim and NeoVim with support for many languages
+- ![stars](https://img.shields.io/github/stars/w0rp/ale?style=flat-square&color=ccc) [ale](https://github.com/w0rp/ale) - Asynchronous Lint Engine for Vim and NeoVim with support for many languages
 - [Android Studio](https://developer.android.com/studio) - Based on IntelliJ IDEA, and comes bundled with tools for Android including Android Lint.
 - [Attackflow Extension](https://www.attackflow.com/Extension) :copyright: - Attackflow plugin for Visual Studio, which enables developers to find critical security bugs at real time in the source code without any prior knowledge.
-- [DevSkim](https://github.com/Microsoft/DevSkim) - Inline, realtime security analysis. Works with multiple programming languages and IDEs (VS, VS Code, Sublime Text, ...).
+- ![stars](https://img.shields.io/github/stars/Microsoft/DevSkim?style=flat-square&color=ccc) [DevSkim](https://github.com/Microsoft/DevSkim) - Inline, realtime security analysis. Works with multiple programming languages and IDEs (VS, VS Code, Sublime Text, ...).
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/) :copyright: - Comes bundled with a lot of inspections for Java and Kotlin and includes tools for refactoring, formatting and more.
-- [vint](https://github.com/Kuniwak/vint) - Fast and Highly Extensible Vim script Language Lint implemented by Python.
+- ![stars](https://img.shields.io/github/stars/Kuniwak/vint?style=flat-square&color=ccc) [vint](https://github.com/Kuniwak/vint) - Fast and Highly Extensible Vim script Language Lint implemented by Python.
 
 
 <h2 id="latex">LaTeX</h2>
@@ -752,47 +752,47 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="markdown">Markdown</h2>
 
-- [markdownlint](https://github.com/DavidAnson/markdownlint) - Node.js -based style checker and lint tool for Markdown/CommonMark files.
-- [mdl](https://github.com/mivok/markdownlint) - A tool to check Markdown files and flag style issues.
-- [remark-lint](https://remark.js.org/) - Pluggable Markdown code style linter written in JavaScript.
+- ![stars](https://img.shields.io/github/stars/DavidAnson/markdownlint?style=flat-square&color=ccc) [markdownlint](https://github.com/DavidAnson/markdownlint) - Node.js -based style checker and lint tool for Markdown/CommonMark files.
+- ![stars](https://img.shields.io/github/stars/mivok/markdownlint?style=flat-square&color=ccc) [mdl](https://github.com/mivok/markdownlint) - A tool to check Markdown files and flag style issues.
+- ![stars](https://img.shields.io/github/stars/remarkjs/remark-lint?style=flat-square&color=ccc) [remark-lint](https://remark.js.org/) - Pluggable Markdown code style linter written in JavaScript.
 
 
 <h2 id="mobile">Mobile</h2>
 
 - [Android Lint](http://tools.android.com/tips/lint) - Run static analysis on Android projects.
-- [android-lint-summary](https://passy.github.io/android-lint-summary/) - Combines lint errors of multiple projects into one output, check lint results of multiple sub-projects at once.
-- [FlowDroid](https://github.com/secure-software-engineering/FlowDroid) - static taint analysis tool for Android applications
-- [paprika](https://github.com/GeoffreyHecht/paprika) - A toolkit to detect some code smells in analyzed Android applications.
-- [qark](https://github.com/linkedin/qark) - Tool to look for several security related Android application vulnerabilities
+- ![stars](https://img.shields.io/github/stars/passy/android-lint-summary?style=flat-square&color=ccc) [android-lint-summary](https://passy.github.io/android-lint-summary/) - Combines lint errors of multiple projects into one output, check lint results of multiple sub-projects at once.
+- ![stars](https://img.shields.io/github/stars/secure-software-engineering/FlowDroid?style=flat-square&color=ccc) [FlowDroid](https://github.com/secure-software-engineering/FlowDroid) - static taint analysis tool for Android applications
+- ![stars](https://img.shields.io/github/stars/GeoffreyHecht/paprika?style=flat-square&color=ccc) [paprika](https://github.com/GeoffreyHecht/paprika) - A toolkit to detect some code smells in analyzed Android applications.
+- ![stars](https://img.shields.io/github/stars/linkedin/qark?style=flat-square&color=ccc) [qark](https://github.com/linkedin/qark) - Tool to look for several security related Android application vulnerabilities
 
 
 <h2 id="package">Packages</h2>
 
-- [lintian](https://lintian.debian.org/) - Static analysis tool for Debian packages
-- [rpmlint](https://github.com/rpm-software-management/rpmlint) - Tool for checking common errors in rpm packages
+- ![stars](https://img.shields.io/github/stars/Debian/lintian?style=flat-square&color=ccc) [lintian](https://lintian.debian.org/) - Static analysis tool for Debian packages
+- ![stars](https://img.shields.io/github/stars/rpm-software-management/rpmlint?style=flat-square&color=ccc) [rpmlint](https://github.com/rpm-software-management/rpmlint) - Tool for checking common errors in rpm packages
 
 
 <h2 id="protobuf">Protocol Buffers</h2>
 
-- [protolint](https://github.com/yoheimuta/protolint) - Pluggable linter and fixer to enforce Protocol Buffer style and conventions.
+- ![stars](https://img.shields.io/github/stars/yoheimuta/protolint?style=flat-square&color=ccc) [protolint](https://github.com/yoheimuta/protolint) - Pluggable linter and fixer to enforce Protocol Buffer style and conventions.
 
 
 <h2 id="support">Supporting Tools</h2>
 
-- [LibVCS4j](https://github.com/uni-bremen-agst/libvcs4j) - A Java library that allows existing tools to analyse the evolution of software systems by providing a common API for different version control systems and issue trackers.
+- ![stars](https://img.shields.io/github/stars/uni-bremen-agst/libvcs4j?style=flat-square&color=ccc) [LibVCS4j](https://github.com/uni-bremen-agst/libvcs4j) - A Java library that allows existing tools to analyse the evolution of software systems by providing a common API for different version control systems and issue trackers.
 
 
 <h2 id="template">Template-Languages</h2>
 
-- [ember-template-lint](https://github.com/rwjblue/ember-template-lint) - Linter for Ember or Handlebars templates.
-- [haml-lint](https://github.com/sds/haml-lint) - Tool for writing clean and consistent HAML
-- [slim-lint](https://github.com/sds/slim-lint) - Configurable tool for analyzing Slim templates
-- [yamllint](https://yamllint.readthedocs.io/) - Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation.
+- ![stars](https://img.shields.io/github/stars/rwjblue/ember-template-lint?style=flat-square&color=ccc) [ember-template-lint](https://github.com/rwjblue/ember-template-lint) - Linter for Ember or Handlebars templates.
+- ![stars](https://img.shields.io/github/stars/sds/haml-lint?style=flat-square&color=ccc) [haml-lint](https://github.com/sds/haml-lint) - Tool for writing clean and consistent HAML
+- ![stars](https://img.shields.io/github/stars/sds/slim-lint?style=flat-square&color=ccc) [slim-lint](https://github.com/sds/slim-lint) - Configurable tool for analyzing Slim templates
+- ![stars](https://img.shields.io/github/stars/adrienverge/yamllint?style=flat-square&color=ccc) [yamllint](https://yamllint.readthedocs.io/) - Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation.
 
 
 <h2 id="translation">Translation</h2>
 
-- [dennis](https://github.com/willkg/dennis/) - A set of utilities for working with PO files to ease development and improve quality.
+- ![stars](https://img.shields.io/github/stars/willkg/dennis?style=flat-square&color=ccc) [dennis](https://github.com/willkg/dennis/) - A set of utilities for working with PO files to ease development and improve quality.
 
 
 <h2 id="service">Web services</h2>
@@ -811,13 +811,13 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="writing">Writing</h2>
 
 - [After the Deadline](https://afterthedeadline.com/) :warning: - spell, style and grammar checker
-- [codespell](https://github.com/codespell-project/codespell) - check code for common misspellings
-- [languagetool](https://languagetool.org/) - Style and grammar checker for 25+ languages. It finds many errors that a simple spell checker cannot detect.
-- [misspell-fixer](https://github.com/vlajos/misspell-fixer) - Quick tool for fixing common misspellings, typos in source code
-- [Misspelled Words In Context](http://jwilk.net/software/mwic) - a spell-checker that groups possible misspellings and shows them in their contexts
-- [proselint](http://proselint.com/) - a linter for English prose with a focus on writing style instead of grammar.
+- ![stars](https://img.shields.io/github/stars/codespell-project/codespell?style=flat-square&color=ccc) [codespell](https://github.com/codespell-project/codespell) - check code for common misspellings
+- ![stars](https://img.shields.io/github/stars/languagetool-org/languagetool?style=flat-square&color=ccc) [languagetool](https://languagetool.org/) - Style and grammar checker for 25+ languages. It finds many errors that a simple spell checker cannot detect.
+- ![stars](https://img.shields.io/github/stars/vlajos/misspell-fixer?style=flat-square&color=ccc) [misspell-fixer](https://github.com/vlajos/misspell-fixer) - Quick tool for fixing common misspellings, typos in source code
+- ![stars](https://img.shields.io/github/stars/jwilk/mwic?style=flat-square&color=ccc) [Misspelled Words In Context](http://jwilk.net/software/mwic) - a spell-checker that groups possible misspellings and shows them in their contexts
+- ![stars](https://img.shields.io/github/stars/amperser/proselint?style=flat-square&color=ccc) [proselint](http://proselint.com/) - a linter for English prose with a focus on writing style instead of grammar.
 - [vale](https://github.com/ValeLint/vale) - A customizable, syntax-aware linter for prose.
-- [write-good](https://github.com/btford/write-good) - A linter with a focus on eliminating "weasel words".
+- ![stars](https://img.shields.io/github/stars/btford/write-good?style=flat-square&color=ccc) [write-good](https://github.com/btford/write-good) - A linter with a focus on eliminating "weasel words".
 
 
 # More collections
