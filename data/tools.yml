@@ -2740,8 +2740,8 @@
     - typescript
     - xml
 - name: Soot
-  homepage: "https://sable.github.io/soot/"
-  source: "https://github.com/Sable/soot"
+  homepage: "https://soot-oss.github.io/soot/"
+  source: "https://github.com/soot-oss/soot"
   description: A framework for analyzing and transforming Java and Android applications.
   tags:
     - java
