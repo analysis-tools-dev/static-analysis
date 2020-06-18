@@ -2587,7 +2587,7 @@
     - php
     - vbnet
 - name: Semgrep
-  homepage: "https://github.com/returntocorp/semgrep"
+  homepage: "https://semgrep.live"
   source: "https://github.com/returntocorp/semgrep"
   description: "Free, open-source lightweight static analysis for many languages. Find and block bug variants with patterns that look like source code."
   tags:
