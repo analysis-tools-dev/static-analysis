@@ -339,7 +339,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - ![stars](https://img.shields.io/github/stars/jquery/esprima?style=flat-square&color=ccc) [Esprima](https://esprima.org/) - ECMAScript parsing infrastructure for multipurpose analysis
 - ![stars](https://img.shields.io/github/stars/facebook/flow?style=flat-square&color=ccc) [flow](https://flow.org/) - A static type checker for JavaScript.
 - ![stars](https://img.shields.io/github/stars/JSMonk/hegel?style=flat-square&color=ccc) [hegel](https://hegel.js.org/) - A static type checker for JavaScript with a bias on type inference and strong type systems.
-- ![stars](https://img.shields.io/github/stars/jshint/jshint?style=flat-square&color=ccc) [jshint](https://jshint.com/about/) :warning: - detect errors and potential problems in JavaScript code and enforce your team's coding conventions
+- ![stars](https://img.shields.io/github/stars/jshint/jshint?style=flat-square&color=ccc) [jshint](https://jshint.com/about/) [:information_source:](https://github.com/analysis-tools-dev/static-analysis/issues/223) - detect errors and potential problems in JavaScript code and enforce your team's coding conventions
 - ![stars](https://img.shields.io/github/stars/douglascrockford/JSLint?style=flat-square&color=ccc) [JSLint](https://github.com/douglascrockford/JSLint) :warning: - The JavaScript Code Quality Tool
 - ![stars](https://img.shields.io/github/stars/dpnishant/jsprime?style=flat-square&color=ccc) [JSPrime](http://dpnishant.github.io/jsprime/) - static security analysis tool
 - ![stars](https://img.shields.io/github/stars/es-analysis/plato?style=flat-square&color=ccc) [plato](https://github.com/es-analysis/plato) - Visualize JavaScript source complexity

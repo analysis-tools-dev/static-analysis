@@ -29,6 +29,7 @@ pub struct Entry {
     pub name: String,
     pub homepage: String,
     pub source: Option<String>,
+    pub discussion: Option<String>,
     pub description: String,
     pub tags: EntryTags,
     pub proprietary: Option<bool>,

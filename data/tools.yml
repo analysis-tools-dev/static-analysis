@@ -1558,10 +1558,10 @@
 - name: jshint
   homepage: "https://jshint.com/about/"
   source: "https://github.com/jshint/jshint"
+  discussion: "https://github.com/analysis-tools-dev/static-analysis/issues/223"
   description: "detect errors and potential problems in JavaScript code and enforce your team's coding conventions"
   tags:
     - javascript
-  deprecated: true
 - name: JSLint
   homepage: "https://github.com/douglascrockford/JSLint"
   source: "https://github.com/douglascrockford/JSLint"
