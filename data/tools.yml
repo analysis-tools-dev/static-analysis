@@ -410,7 +410,7 @@
     - kotlin
 - name: clippy
   homepage: "https://rust-lang.github.io/rust-clippy/"
-  source: "https://github.com/Manishearth/rust-clippy"
+  source: "https://github.com/rust-lang/rust-clippy"
   description: A code linter to catch common mistakes and improve your Rust code
   tags:
     - rust
