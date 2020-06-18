@@ -481,7 +481,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - ![stars](https://img.shields.io/github/stars/RustSec/cargo-audit?style=flat-square&color=ccc) [cargo-audit](https://rustsec.org/) - Audit Cargo.lock for crates with security vulnerabilities reported to the [RustSec Advisory Database](https://github.com/RustSec/advisory-db/).
 - ![stars](https://img.shields.io/github/stars/mre/cargo-inspect?style=flat-square&color=ccc) [cargo-inspect](https://github.com/mre/cargo-inspect) - Inspect Rust code without syntactic sugar to see what the compiler does behind the curtains.
-- ![stars](https://img.shields.io/github/stars/Manishearth/rust-clippy?style=flat-square&color=ccc) [clippy](https://rust-lang.github.io/rust-clippy/) - A code linter to catch common mistakes and improve your Rust code
+- ![stars](https://img.shields.io/github/stars/rust-lang/rust-clippy?style=flat-square&color=ccc) [clippy](https://rust-lang.github.io/rust-clippy/) - A code linter to catch common mistakes and improve your Rust code
 - ![stars](https://img.shields.io/github/stars/Kha/electrolysis?style=flat-square&color=ccc) [electrolysis](http://kha.github.io/electrolysis/) - A tool for formally verifying Rust programs by transpiling them into definitions in the Lean theorem prover.
 - [herbie](https://github.com/mcarton/rust-herbie-lint) - Adds warnings or errors to your crate when using a numerically unstable floating point expression.
 - ![stars](https://img.shields.io/github/stars/AtomLinter/linter-rust?style=flat-square&color=ccc) [linter-rust](https://github.com/AtomLinter/linter-rust) - Linting your Rust-files in Atom, using rustc and cargo
