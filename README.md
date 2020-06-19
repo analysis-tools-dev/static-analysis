@@ -634,6 +634,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - ![stars](https://img.shields.io/github/stars/SonarSource/sonarqube?style=flat-square&color=ccc) [SonarQube](http://www.sonarqube.org/) - SonarQube is an open platform to manage code quality. 
 - ![stars](https://img.shields.io/github/stars/standard/standard?style=flat-square&color=ccc) [standard](http://standardjs.com/) - An npm module that checks for Javascript Styleguide issues 
 - ![stars](https://img.shields.io/github/stars/r-lib/styler?style=flat-square&color=ccc) [styler](https://styler.r-lib.org/) - Formatting of R source code files and pretty-printing of R code. 
+- ![stars](https://img.shields.io/github/stars/github/super-linter?style=flat-square&color=ccc) [Super-Linter](https://github.com/github/super-linter) - Combination of multiple linters to install as a GitHub Action 
 - ![stars](https://img.shields.io/github/stars/nicklockwood/SwiftFormat?style=flat-square&color=ccc) [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) - A library and command-line formatting tool for reformatting Swift code 
 - [Synopsys](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html) :copyright: - A commercial static analysis platform that allows for scanning of multiple languages (C/C++, Android, C#, Java, JS, PHP, Python, Node.JS, Ruby, Fortran, and Swift) 
 - [Teamscale](http://www.teamscale.com/) :copyright: - Static and dynamic analysis tool supporting more than 25 languages and direct IDE integration. Free hosting for Open Source projects available on request. Free academic licenses available. 
@@ -649,6 +650,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Xanitizer](https://xanitizer.com/) - Xanitizer finds security vulnerabilities in Java/Scala web applications. 
 - [Xanitizer](https://xanitizer.com/) :copyright: - Xanitizer finds security vulnerabilities in Java/Scala web applications. 
 - [XCode](https://developer.apple.com/xcode/) :copyright: - XCode provides a pretty decent UI for [Clang's](http://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C) 
+- ![stars](https://img.shields.io/github/stars/adrienverge/yamllint?style=flat-square&color=ccc) [yamllint](https://yamllint.readthedocs.io/) - Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation. 
 
 
 # Other
@@ -788,7 +790,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - ![stars](https://img.shields.io/github/stars/rwjblue/ember-template-lint?style=flat-square&color=ccc) [ember-template-lint](https://github.com/rwjblue/ember-template-lint) - Linter for Ember or Handlebars templates.
 - ![stars](https://img.shields.io/github/stars/sds/haml-lint?style=flat-square&color=ccc) [haml-lint](https://github.com/sds/haml-lint) - Tool for writing clean and consistent HAML
 - ![stars](https://img.shields.io/github/stars/sds/slim-lint?style=flat-square&color=ccc) [slim-lint](https://github.com/sds/slim-lint) - Configurable tool for analyzing Slim templates
-- ![stars](https://img.shields.io/github/stars/adrienverge/yamllint?style=flat-square&color=ccc) [yamllint](https://yamllint.readthedocs.io/) - Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation.
 
 
 <h2 id="translation">Translation</h2>
