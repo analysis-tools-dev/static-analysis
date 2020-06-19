@@ -1201,6 +1201,25 @@
   description: A linter for the Gherkin-Syntax written in Javascript.
   tags:
     - gherkin
+- name: Super-Linter
+  homepage: "https://github.com/github/super-linter"
+  source: "https://github.com/github/super-linter"
+  description: "Combination of multiple linters to install as a GitHub Action"
+  tags:
+    - coffeescript
+    - container
+    - go
+    - javascript
+    - json
+    - markdown
+    - perl
+    - python
+    - ruby
+    - shell
+    - configmanagement
+    - typescript
+    - xml
+    - yaml
 - name: gixy
   homepage: "https://github.com/yandex/gixy"
   source: "https://github.com/yandex/gixy"
@@ -3238,6 +3257,7 @@
   description: "Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation."
   tags:
     - template
+    - yaml
 - name: yardstick
   homepage: "https://github.com/calmh/yardstick"
   source: "https://github.com/calmh/yardstick"
