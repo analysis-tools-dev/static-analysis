@@ -211,6 +211,9 @@
 - name: IDE Plugins
   tag: ide
   type: other
+- name: JSON
+  tag: json
+  type: other
 - name: LaTeX
   tag: latex
   type: other
@@ -276,4 +279,7 @@
   type: other
 - name: XML
   tag: xml
+  type: other
+- name: YAML
+  tag: yaml
   type: other
