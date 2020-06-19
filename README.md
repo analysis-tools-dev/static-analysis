@@ -694,7 +694,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - ![stars](https://img.shields.io/github/stars/awslabs/cfn-python-lint?style=flat-square&color=ccc) [cfn-lint](https://github.com/awslabs/cfn-python-lint) - AWS Labs CloudFormation linter.
 - ![stars](https://img.shields.io/github/stars/stelligent/cfn_nag?style=flat-square&color=ccc) [cfn_nag](https://github.com/stelligent/cfn_nag) - A linter for AWS CloudFormation templates.
 - ![stars](https://img.shields.io/github/stars/bridgecrewio/checkov?style=flat-square&color=ccc) [checkov](https://www.checkov.io/) - Static analysis tool for Terraform files (tf>=v0.12), preventing cloud misconfigs at build time.
-- [cookstyle](https://github.com/chef/cookstyle) - Cookstyle is a linting tool based on the RuboCop Ruby linting tool for Chef cookbooks
+- ![stars](https://img.shields.io/github/stars/chef/cookstyle?style=flat-square&color=ccc) [cookstyle](https://docs.chef.io/cookstyle.html) - Cookstyle is a linting tool based on the RuboCop Ruby linting tool for Chef cookbooks
 - ![stars](https://img.shields.io/github/stars/foodcritic/foodcritic?style=flat-square&color=ccc) [foodcritic](http://www.foodcritic.io/) - A lint tool that checks Chef cookbooks for common problems.
 - ![stars](https://img.shields.io/github/stars/rodjek/puppet-lint?style=flat-square&color=ccc) [Puppet Lint](https://github.com/rodjek/puppet-lint) - Check that your Puppet manifests conform to the style guide.
 - ![stars](https://img.shields.io/github/stars/eerkunt/terraform-compliance?style=flat-square&color=ccc) [terraform-compliance](https://terraform-compliance.com) - A lightweight, compliance- and security focused, BDD test framework against Terraform.
