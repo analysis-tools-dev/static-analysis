@@ -1405,6 +1405,7 @@
   proprietary: true
 - name: herbie
   homepage: "https://github.com/mcarton/rust-herbie-lint"
+  source: "https://github.com/mcarton/rust-herbie-lint"
   description: Adds warnings or errors to your crate when using a numerically unstable floating point expression.
   tags:
     - rust
