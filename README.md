@@ -647,7 +647,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - ![stars](https://img.shields.io/github/stars/wala/WALA?style=flat-square&color=ccc) [WALA](http://wala.sourceforge.net) - static analysis capabilities for Java bytecode and related languages and for JavaScript 
 - [WhiteHat Application Security Platform](https://www.whitehatsec.com/platform/static-application-security-testing/) :copyright: - WhiteHat Scout (for Developers) combined with WhiteHat Sentinel Source (for Operations) supporting WhiteHat Top 40 and OWASP Top 10. 
 - ![stars](https://img.shields.io/github/stars/fimbullinter/wotan?style=flat-square&color=ccc) [Wotan](https://github.com/fimbullinter/wotan) - Pluggable TypeScript and JavaScript linter 
-- [Xanitizer](https://xanitizer.com/) - Xanitizer finds security vulnerabilities in Java/Scala web applications. 
 - [Xanitizer](https://xanitizer.com/) :copyright: - Xanitizer finds security vulnerabilities in Java/Scala web applications. 
 - [XCode](https://developer.apple.com/xcode/) :copyright: - XCode provides a pretty decent UI for [Clang's](http://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C) 
 - ![stars](https://img.shields.io/github/stars/adrienverge/yamllint?style=flat-square&color=ccc) [yamllint](https://yamllint.readthedocs.io/) - Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation. 
