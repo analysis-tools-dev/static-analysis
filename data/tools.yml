@@ -3220,13 +3220,6 @@
     - go
 - name: Xanitizer
   homepage: "https://xanitizer.com/"
-  source: "https://xanitizer.com/"
-  description: Xanitizer finds security vulnerabilities in Java/Scala web applications.
-  tags:
-    - java
-    - scala
-- name: Xanitizer
-  homepage: "https://xanitizer.com/"
   description: Xanitizer finds security vulnerabilities in Java/Scala web applications.
   tags:
     - java
