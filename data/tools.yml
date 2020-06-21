@@ -2708,7 +2708,6 @@
   proprietary: true
 - name: Snyk
   homepage: "https://snyk.io/"
-  source: "https://snyk.io/"
   description: Vulnerability scanner for dependencies of node.js apps (free for Open Source Projects)
   tags:
     - ci
