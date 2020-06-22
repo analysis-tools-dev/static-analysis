@@ -1645,6 +1645,12 @@
   description: A tool for finding common mistakes in LaTeX documents.
   tags:
     - latex
+- name: TeXLab
+  homepage: "https://texlab.netlify.app"
+  source: "https://github.com/latex-lsp/texlab"
+  description: A Language Server Protocol implementation for TeX/LaTeX, including lint capabilities.
+  tags:
+    - latex
 - name: Landscape
   homepage: "https://landscape.io/"
   description: Static code analysis for Python
