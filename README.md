@@ -787,7 +787,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="template">Template-Languages</h2>
 
-- ![stars](https://img.shields.io/github/stars/rwjblue/ember-template-lint?style=flat-square&color=ccc) [ember-template-lint](https://github.com/rwjblue/ember-template-lint) - Linter for Ember or Handlebars templates.
+- ![stars](https://img.shields.io/github/stars/ember-template-lint/ember-template-lint?style=flat-square&color=ccc) [ember-template-lint](https://github.com/ember-template-lint/ember-template-lint) - Linter for Ember or Handlebars templates.
 - ![stars](https://img.shields.io/github/stars/sds/haml-lint?style=flat-square&color=ccc) [haml-lint](https://github.com/sds/haml-lint) - Tool for writing clean and consistent HAML
 - ![stars](https://img.shields.io/github/stars/sds/slim-lint?style=flat-square&color=ccc) [slim-lint](https://github.com/sds/slim-lint) - Configurable tool for analyzing Slim templates
 
