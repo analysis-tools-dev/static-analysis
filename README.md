@@ -745,6 +745,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [ChkTeX](http://www.nongnu.org/chktex/) - A linter for LaTex which catches some typographic errors LaTeX oversees.
 - [lacheck](https://www.ctan.org/pkg/lacheck) - A tool for finding common mistakes in LaTeX documents.
+- ![stars](https://img.shields.io/github/stars/latex-lsp/texlab?style=flat-square&color=ccc) [TeXLab](https://texlab.netlify.app) - A Language Server Protocol implementation for TeX/LaTeX, including lint capabilities.
 
 
 <h2 id="make">Makefiles</h2>
