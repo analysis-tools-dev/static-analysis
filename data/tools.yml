@@ -1177,12 +1177,6 @@
   description: "Lint tool for F#"
   tags:
     - fsharp
-- name: gas
-  homepage: "https://securego.io/"
-  source: "https://github.com/securego/gosec"
-  description: Inspects source code for security problems by scanning the Go AST.
-  tags:
-    - go
 - name: gawk --lint
   homepage: "https://www.gnu.org/software/gawk/manual/html_node/Options.html"
   source: "https://www.gnu.org/software/gawk/manual/html_node/Options.html"
