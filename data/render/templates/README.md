@@ -11,8 +11,8 @@
 This is a collection of static analysis tools and code quality checkers. Pull requests are very welcome!
 
 - :copyright: stands for proprietary software. All other tools are Open Source.
-- :warning: indicates that the community does not recommend to use this tool for
-  new projects anymore as it is outdated or no longer maintained.
+- :information_source: indicates that the community does not recommend to use this tool for new projects anymore. The icon links to the discussion issue.
+- :warning: means that this tool was not updated for more than 6 months, or the repo was archived.
 
 Also check out the sister project, [awesome-dynamic-analysis](https://github.com/mre/awesome-dynamic-analysis).
 
@@ -55,7 +55,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 # Multiple languages
 
 {% for linter in multi -%}
-- {% if linter.source.is_some() %}{{ linter.source.as_ref().unwrap()|format_badge }}{%endif%}[{{linter.name }}]({{linter.homepage }}){% if linter.deprecated.is_some() %} :warning:{% endif %}{% if linter.proprietary.is_some() %} :copyright:{% endif %} - {{ linter.description }} 
+- {% if linter.source.is_some() %}{{ linter.source.as_ref().unwrap()|format_badge }}{%endif%}[{{linter.name }}]({{linter.homepage }}){% if linter.discussion.is_some() %} [:information_source:]({{linter.discussion.as_ref().unwrap()}}){% endif %}{% if linter.deprecated.is_some() %} :warning:{% endif %}{% if linter.proprietary.is_some() %} :copyright:{% endif %} - {{ linter.description }}
 {% endfor %}
 
 # Other
@@ -65,7 +65,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="{{ tag.tag }}">{{ tag.name }}</h2>
 
 {% for other in others -%}
-- {% if other.source.is_some() %}{{ other.source.as_ref().unwrap()|format_badge }}{%endif%}[{{ other.name }}]({{ other.homepage }}){% if other.deprecated.is_some() %} :warning:{% endif %}{% if other.proprietary.is_some() %} :copyright:{% endif %} - {{ other.description }}
+- {% if other.source.is_some() %}{{ other.source.as_ref().unwrap()|format_badge }}{%endif%}[{{ other.name }}]({{ other.homepage }}){% if other.discussion.is_some() %} [:information_source:]({{other.discussion.as_ref().unwrap()}}){% endif %}{% if other.deprecated.is_some() %} :warning:{% endif %}{% if other.proprietary.is_some() %} :copyright:{% endif %} - {{ other.description }}
 {% endfor %}
 
 {%- endfor %}
