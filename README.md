@@ -11,8 +11,8 @@
 This is a collection of static analysis tools and code quality checkers. Pull requests are very welcome!
 
 - :copyright: stands for proprietary software. All other tools are Open Source.
-- :warning: indicates that it was not maintained for longer than 6 month, or repo was archived.
-- :information_source: indicates that the community does not recommend to use this tool for new projects anymore. Click on icon to link to the discussion issue.
+- :information_source: indicates that the community does not recommend to use this tool for new projects anymore. The icon links to the discussion issue.
+- :warning: means that this tool was not updated for more than 6 months, or the repo was archived.
 
 Also check out the sister project, [awesome-dynamic-analysis](https://github.com/mre/awesome-dynamic-analysis).
 
