@@ -1579,10 +1579,10 @@
 - name: JSLint
   homepage: "https://github.com/douglascrockford/JSLint"
   source: "https://github.com/douglascrockford/JSLint"
+  discussion: "https://github.com/analysis-tools-dev/static-analysis/issues/223"
   description: The JavaScript Code Quality Tool
   tags:
     - javascript
-  deprecated: true
 - name: JSPrime
   homepage: "http://dpnishant.github.io/jsprime/"
   source: "https://github.com/dpnishant/jsprime"
