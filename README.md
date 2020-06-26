@@ -1,6 +1,11 @@
 <!-- 🚨🚨 DON'T EDIT THIS FILE DIRECTLY. Edit `data/tools.yml` instead. 🚨🚨 -->
 
-![Logo](awesome.png)
+ <a href="http://analysis-tools.dev/">
+   <img width="400px" alt="Analysis Tools" src="https://raw.githubusercontent.com/analysis-tools-dev/website/master/static/logo.svg" />
+ </a>
+
+This repository lists **static analysis tools** for all programming languages, build tools, config files and more.  
+The official website, [analysis-tools.dev](https://analysis-tools.dev/) is based on this repository and adds rankings and user comments for each tool.
 
 > Static program analysis is the analysis of computer software that is performed without actually executing programs — [Wikipedia](https://en.wikipedia.org/wiki/Static_program_analysis)
 
@@ -8,12 +13,13 @@
 
 ![CI](https://github.com/analysis-tools-dev/static-analysis/workflows/CI/badge.svg)
 
-This is a collection of static analysis tools and code quality checkers. Pull requests are very welcome!
+Meaning of symbols:  
 
 - :copyright: stands for proprietary software. All other tools are Open Source.
 - :information_source: indicates that the community does not recommend to use this tool for new projects anymore. The icon links to the discussion issue.
 - :warning: means that this tool was not updated for more than 6 months, or the repo was archived.
 
+Pull requests are very welcome!  
 Also check out the sister project, [awesome-dynamic-analysis](https://github.com/mre/awesome-dynamic-analysis).
 
 # Table of Contents
