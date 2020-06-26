@@ -1975,6 +1975,14 @@
   description: "Fixes your code according to standards like PSR-1, PSR-2, and the Symfony standard."
   tags:
     - php
+- name: PHP Insights
+  homepage: "https://phpinsights.com/"
+  source: "https://github.com/nunomaduro/phpinsights"
+  description: >
+    Instant PHP quality checks from your console. Analysis of code quality and coding style 
+    as well as overview of code architecture and its complexity
+  tags:
+    - php
 - name: Php Inspections (EA Extended)
   homepage: "https://plugins.jetbrains.com/plugin/7622-php-inspections-ea-extended-"
   source: "https://github.com/kalessil/phpinspectionsea"
