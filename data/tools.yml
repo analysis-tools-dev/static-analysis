@@ -1589,6 +1589,7 @@
   description: static security analysis tool
   tags:
     - javascript
+  deprecated: true
 - name: Kiuwan
   homepage: "https://www.kiuwan.com/code-security-sast/"
   description: "Identify and remediate cyber threats in a blazingly fast, collaborative environment, with seamless integration in your SDLC. Python, C\\C++, Java, C#, PHP and more"
@@ -2121,6 +2122,7 @@
   description: Visualize JavaScript source complexity
   tags:
     - javascript
+  deprecated: true
 - name: PMD
   homepage: "https://pmd.github.io/"
   source: "https://github.com/pmd/pmd"
@@ -2366,6 +2368,7 @@
   description: zero configuration code and module linting
   tags:
     - javascript
+  deprecated: true
 - name: quality
   homepage: "https://github.com/apiology/quality"
   source: "https://github.com/apiology/quality"
