@@ -386,6 +386,8 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - ![stars](https://img.shields.io/github/stars/carlosas/phpat?style=flat-square&color=ccc) [PHP Architecture Tester](https://github.com/carlosas/phpat) - Easy to use architecture testing tool for PHP.
 - ![stars](https://img.shields.io/github/stars/rskuipers/php-assumptions?style=flat-square&color=ccc) [PHP Assumptions](https://github.com/rskuipers/php-assumptions) - Checks for weak assumptions
 - ![stars](https://img.shields.io/github/stars/FriendsOfPHP/PHP-CS-Fixer?style=flat-square&color=ccc) [PHP Coding Standards Fixer](https://cs.symfony.com/) - Fixes your code according to standards like PSR-1, PSR-2, and the Symfony standard.
+- ![stars](https://img.shields.io/github/stars/nunomaduro/phpinsights?style=flat-square&color=ccc) [PHP Insights](https://phpinsights.com/) - Instant PHP quality checks from your console. Analysis of code quality and coding style  as well as overview of code architecture and its complexity
+
 - ![stars](https://img.shields.io/github/stars/kalessil/phpinspectionsea?style=flat-square&color=ccc) [Php Inspections (EA Extended)](https://plugins.jetbrains.com/plugin/7622-php-inspections-ea-extended-) - A Static Code Analyzer for PHP.
 - ![stars](https://img.shields.io/github/stars/QafooLabs/php-refactoring-browser?style=flat-square&color=ccc) [PHP Refactoring Browser](http://qafoolabs.github.io/php-refactoring-browser/) - Refactoring helper
 - ![stars](https://img.shields.io/github/stars/tomzx/php-semver-checker?style=flat-square&color=ccc) [PHP Semantic Versioning Checker](https://github.com/tomzx/php-semver-checker) - Suggests a next version according to semantic versioning
