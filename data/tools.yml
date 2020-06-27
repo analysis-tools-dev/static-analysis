@@ -2809,6 +2809,13 @@
   description: CSS Specificity Graph Generator
   tags:
     - css
+- name: Spectral
+  homepage: "https://github.com/stoplightio/spectral"
+  source: "https://github.com/stoplightio/spectral"
+  description: A flexible JSON/YAML linter, with out of the box support for OpenAPI v2/v3 and AsyncAPI v2.
+  tags:
+    - json
+    - yaml
 - name: splint
   homepage: "http://splint.org/"
   source: "https://github.com/ravenexp/splint"
