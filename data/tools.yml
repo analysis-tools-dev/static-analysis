@@ -2810,7 +2810,7 @@
   tags:
     - css
 - name: Spectral
-  homepage: "https://github.com/stoplightio/spectral"
+  homepage: "https://stoplight.io/open-source/spectral"
   source: "https://github.com/stoplightio/spectral"
   description: A flexible JSON/YAML linter, with out of the box support for OpenAPI v2/v3 and AsyncAPI v2.
   tags:
