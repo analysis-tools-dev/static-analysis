@@ -39,6 +39,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
     <li><a href="#cpp">C++</a></li>
     <li><a href="#coffeescript">CoffeeScript</a></li>
     <li><a href="#crystal">Crystal</a></li>
+    <li><a href="#dart">Dart</a></li>
     <li><a href="#delphi">Delphi</a></li>
     <li><a href="#dlang">Dlang</a></li>
     <li><a href="#elixir">Elixir</a></li>
@@ -207,6 +208,11 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - ![stars](https://img.shields.io/github/stars/veelenga/ameba?style=flat-square&color=ccc) [ameba](https://crystal-ameba.github.io/) - A static code analysis tool for Crystal
 - ![stars](https://img.shields.io/github/stars/crystal-lang/crystal?style=flat-square&color=ccc) [crystal](https://crystal-lang.org/) - The Crystal compiler has built-in linting functionality.
+
+
+<h2 id="dart">Dart</h2>
+
+- ![stars](https://img.shields.io/github/stars/dart-lang/linter?style=flat-square&color=ccc) [Linter for dart](https://dart-lang.github.io/linter/) - Style linter for Dart.
 
 
 <h2 id="delphi">Delphi</h2>
