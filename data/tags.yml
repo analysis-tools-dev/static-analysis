@@ -49,6 +49,9 @@
 - name: Crystal
   tag: crystal
   type: language
+- name: Dart
+  tag: dart
+  type: language
 - name: Dlang
   tag: dlang
   type: language

@@ -788,6 +788,12 @@
   description: D-Scanner is a tool for analyzing D source code
   tags:
     - dlang
+- name: Linter for dart
+  homepage: "https://dart-lang.github.io/linter/"
+  source: "https://github.com/dart-lang/linter"
+  description: Style linter for Dart.
+  tags:
+    - dart
 - name: dagda
   homepage: "https://github.com/eliasgranderubio/dagda"
   source: "https://github.com/eliasgranderubio/dagda"
