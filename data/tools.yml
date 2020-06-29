@@ -160,7 +160,7 @@
     - cpp
     - objectivec
     - swift
-    - visualbasic
+    - vbasic
     - ruby
     - delphi
     - abap
@@ -287,7 +287,7 @@
     - plsql
     - python
     - tsql
-    - visualbasic
+    - vbasic
   proprietary: true
 - name: CBMC
   homepage: "http://www.cprover.org/cbmc/"
@@ -345,7 +345,7 @@
     - scala
     - swift
     - vbnet
-    - visualbasic
+    - vbasic
     - vbscript
     - visualforce
   proprietary: true
@@ -1159,7 +1159,7 @@
     - scala
     - swift
     - tsql
-    - visualbasic
+    - vbasic
     - vbnet
     - vbscript
     - xml
@@ -2726,7 +2726,7 @@
     - typescript
     - vba
     - vbscript
-    - visualbasic
+    - vbasic
     - vyper
   proprietary: true
 - name: Snyk
