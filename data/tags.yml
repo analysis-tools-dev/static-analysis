@@ -60,7 +60,7 @@
   type: language
 - name: Deno
   tag: deno
-  type: other
+  type: language
 - name: Elixir
   tag: elixir
   type: language
