@@ -26,14 +26,14 @@
 - name: After the Deadline
   homepage: "https://afterthedeadline.com/"
   source: "https://open.afterthedeadline.com/"
-  description: "spell, style and grammar checker"
+  description: "spell, style and grammar checker."
   tags:
     - writing
   deprecated: true
 - name: ale
   homepage: "https://github.com/w0rp/ale"
   source: "https://github.com/w0rp/ale"
-  description: Asynchronous Lint Engine for Vim and NeoVim with support for many languages
+  description: Asynchronous Lint Engine for Vim and NeoVim with support for many languages.
   tags:
     - ide
 - name: aligncheck
@@ -45,13 +45,13 @@
 - name: ameba
   homepage: "https://crystal-ameba.github.io/"
   source: "https://github.com/veelenga/ameba"
-  description: A static code analysis tool for Crystal
+  description: A static code analysis tool for Crystal.
   tags:
     - crystal
 - name: anchore
   homepage: "https://anchore.io/"
   source: "https://github.com/anchore/anchore-engine"
-  description: "Discover, analyze, and certify container images"
+  description: "Discover, analyze, and certify container images."
   tags:
     - container
 - name: Android Lint
@@ -75,12 +75,12 @@
 - name: ansible-lint
   homepage: "https://docs.ansible.com/ansible-lint/"
   source: "https://github.com/willthames/ansible-lint"
-  description: Checks playbooks for practices and behaviour that could potentially be improved
+  description: Checks playbooks for practices and behaviour that could potentially be improved.
   tags:
     - configmanagement
 - name: AppChecker
   homepage: "https://npo-echelon.ru/en/solutions/appchecker.php"
-  description: "Static analysis for C/C++/C#, PHP and Java"
+  description: "Static analysis for C/C++/C#, PHP and Java."
   tags:
     - c
     - cpp
@@ -146,7 +146,7 @@
   proprietary: true
 - name: APPscreener
   homepage: "https://solarappscreener.com/"
-  description: "Static code analysis for binary and source code - Java/Scala, PHP, Javascript, C#, PL/SQL, Python, T-SQL, C/C++, ObjectiveC/Swift, Visual Basic 6.0, Ruby, Delphi, ABAP, HTML5 and Solidity"
+  description: "Static code analysis for binary and source code - Java/Scala, PHP, Javascript, C#, PL/SQL, Python, T-SQL, C/C++, ObjectiveC/Swift, Visual Basic 6.0, Ruby, Delphi, ABAP, HTML5 and Solidity."
   tags:
     - java
     - scala
@@ -170,7 +170,7 @@
 - name: ArchUnit
   homepage: "https://www.archunit.org/"
   source: "https://github.com/TNG/ArchUnit"
-  description: Unit test your Java or Kotlin architecture
+  description: Unit test your Java or Kotlin architecture.
   tags:
     - java
     - kotlin
@@ -184,7 +184,7 @@
 - name: Atom-Beautify
   homepage: "https://atom.io/packages/atom-beautify"
   source: "https://github.com/Glavin001/atom-beautify"
-  description: Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom editor
+  description: Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom editor.
   tags:
     - html
     - css
@@ -209,7 +209,7 @@
   proprietary: true
 - name: Axivion Bauhaus Suite
   homepage: "https://www.axivion.com/en/products-services-9#products_bauhaussuite"
-  description: "Tracks down error-prone code locations, style violations, cloned or dead code, cyclic dependencies and more for C/C++, C#/.NET, Java and Ada 83/Ada 95"
+  description: "Tracks down error-prone code locations, style violations, cloned or dead code, cyclic dependencies and more for C/C++, C#/.NET, Java and Ada 83/Ada 95."
   tags:
     - c
     - cpp
@@ -219,13 +219,13 @@
 - name: bandit
   homepage: "https://bandit.readthedocs.io/en/latest/"
   source: "https://github.com/PyCQA/bandit"
-  description: a tool to find common security issues in Python code
+  description: a tool to find common security issues in Python code.
   tags:
     - python
 - name: bellybutton
   homepage: "https://github.com/hchasestevens/bellybutton"
   source: "https://github.com/hchasestevens/bellybutton"
-  description: a linting engine supporting custom project-specific rules
+  description: a linting engine supporting custom project-specific rules.
   tags:
     - python
 - name: BinSkim
@@ -237,7 +237,7 @@
 - name: Black
   homepage: "https://black.readthedocs.io/en/stable/"
   source: "https://github.com/ambv/black"
-  description: The uncompromising Python code formatter
+  description: The uncompromising Python code formatter.
   tags:
     - python
     - formatter
@@ -250,13 +250,13 @@
 - name: brakeman
   homepage: "https://brakemanscanner.org/"
   source: "https://github.com/presidentbeef/brakeman"
-  description: A static analysis security vulnerability scanner for Ruby on Rails applications
+  description: A static analysis security vulnerability scanner for Ruby on Rails applications.
   tags:
     - ruby
 - name: cane
   homepage: "https://github.com/square/cane"
   source: "https://github.com/square/cane"
-  description: Code quality threshold checking as part of your build
+  description: Code quality threshold checking as part of your build.
   tags:
     - ruby
 - name: cargo-audit
@@ -292,7 +292,7 @@
 - name: CBMC
   homepage: "http://www.cprover.org/cbmc/"
   source: "https://github.com/diffblue/cbmc/"
-  description: "bounded model-checker for C programs, user-defined assertions, standard assertions, several coverage metric analyses"
+  description: "bounded model-checker for C programs, user-defined assertions, standard assertions, several coverage metric analyses."
   tags:
     - c
     - cpp
@@ -311,13 +311,13 @@
 - name: Checker Framework
   homepage: "https://checkerframework.org/"
   source: "https://github.com/typetools/checker-framework/"
-  description: "Pluggable type-checking for Java http://checkerframework.org/"
+  description: "Pluggable type-checking for Java."
   tags:
     - java
 - name: checkmake
   homepage: "https://github.com/mrtazz/checkmake"
   source: "https://github.com/mrtazz/checkmake"
-  description: Linter / Analyzer for Makefiles
+  description: Linter / Analyzer for Makefiles.
   tags:
     - buildtool
 - name: Checkmarx CxSAST
@@ -358,7 +358,7 @@
 - name: checkstyle
   homepage: "https://checkstyle.org/"
   source: "https://github.com/checkstyle/checkstyle"
-  description: checking Java source code for adherence to a Code Standard or set of validation rules (best practices)
+  description: checking Java source code for adherence to a Code Standard or set of validation rules (best practices).
   tags:
     - java
 - name: ChkTeX
@@ -378,25 +378,25 @@
 - name: ck
   homepage: "https://github.com/mauricioaniche/ck"
   source: "https://github.com/mauricioaniche/ck"
-  description: calculates Chidamber and Kemerer object-oriented metrics by processing the source Java files
+  description: calculates Chidamber and Kemerer object-oriented metrics by processing the source Java files.
   tags:
     - java
 - name: ckjm
   homepage: "http://www.spinellis.gr/sw/ckjm/"
   source: "https://github.com/dspinellis/ckjm"
-  description: calculates Chidamber and Kemerer object-oriented metrics by processing the bytecode of compiled Java files
+  description: calculates Chidamber and Kemerer object-oriented metrics by processing the bytecode of compiled Java files.
   tags:
     - java
 - name: clair
   homepage: "https://github.com/coreos/clair"
   source: "https://github.com/coreos/clair"
-  description: Vulnerability Static Analysis for Containers
+  description: Vulnerability Static Analysis for Containers.
   tags:
     - container
 - name: clang-tidy
   homepage: "http://clang.llvm.org/extra/clang-tidy/"
   source: "http://clang.llvm.org/extra/clang-tidy/"
-  description: clang static analyser
+  description: clang static analyser.
   tags:
     - c
     - cpp
@@ -411,7 +411,7 @@
 - name: clippy
   homepage: "https://rust-lang.github.io/rust-clippy/"
   source: "https://github.com/rust-lang/rust-clippy"
-  description: A code linter to catch common mistakes and improve your Rust code
+  description: A code linter to catch common mistakes and improve your Rust code.
   tags:
     - rust
 - name: Closure Compiler
@@ -423,21 +423,21 @@
 - name: ClosureLinter
   homepage: "https://github.com/google/closure-linter"
   source: "https://github.com/google/closure-linter"
-  description: "ensures that all of your project's JavaScript code follows the guidelines in the Google JavaScript Style Guide. It can also automatically fix many common errors"
+  description: "ensures that all of your project's JavaScript code follows the guidelines in the Google JavaScript Style Guide. It can also automatically fix many common errors."
   tags:
     - javascript
   deprecated: true
 - name: CMetrics
   homepage: "https://github.com/MetricsGrimoire/CMetrics"
   source: "https://github.com/MetricsGrimoire/CMetrics"
-  description: Measures size and complexity for C files
+  description: Measures size and complexity for C files.
   tags:
     - c
     - cpp
 - name: coala
   homepage: "https://coala.io/"
   source: "https://github.com/coala/coala/"
-  description: "Language independent framework for creating code analysis - supports [over 60 languages](https://coala.io/languages) by default"
+  description: "Language independent framework for creating code analysis - supports [over 60 languages](https://coala.io/languages) by default."
   tags:
     - c
     - cpp
@@ -502,7 +502,7 @@
 - name: codeburner
   homepage: "http://groupon.github.io/codeburner/"
   source: "https://github.com/groupon/codeburner"
-  description: Provides a unified interface to sort and act on the issues it finds
+  description: Provides a unified interface to sort and act on the issues it finds.
   tags:
     - c
     - cpp
@@ -513,7 +513,7 @@
 - name: codechecker
   homepage: "https://codechecker.readthedocs.io/en/latest/"
   source: "https://github.com/Ericsson/codechecker"
-  description: a defect database and viewer extension for the Clang Static Analyzer with web GUI
+  description: a defect database and viewer extension for the Clang Static Analyzer with web GUI.
   tags:
     - buildtool
     - c
@@ -552,7 +552,7 @@
   proprietary: true
 - name: CodeIt.Right
   homepage: "https://submain.com/products/codeit.right.aspx"
-  description: "CodeIt.Right&trade; provides a fast, automated way to ensure that your source code adheres to (your) predefined design and style guidelines as well as best coding practices"
+  description: "CodeIt.Right&trade; provides a fast, automated way to ensure that your source code adheres to (your) predefined design and style guidelines as well as best coding practices."
   tags:
     - csharp
     - vbnet
@@ -566,7 +566,7 @@
 - name: CodeNarc
   homepage: "https://codenarc.github.io/CodeNarc/"
   source: "https://github.com/CodeNarc/CodeNarc"
-  description: "a static analysis tool for Groovy source code, enabling monitoring and enforcement of many coding standards and best practices"
+  description: "a static analysis tool for Groovy source code, enabling monitoring and enforcement of many coding standards and best practices."
   tags:
     - groovy
 - name: CodePatrol
@@ -582,7 +582,7 @@
   proprietary: true
 - name: Codepeer
   homepage: "http://www.adacore.com/codepeer"
-  description: detects run-time and logic errors
+  description: detects run-time and logic errors.
   tags:
     - ada
   proprietary: true
@@ -622,7 +622,7 @@
 - name: codespell
   homepage: "https://github.com/codespell-project/codespell"
   source: "https://github.com/codespell-project/codespell"
-  description: check code for common misspellings
+  description: check code for common misspellings.
   tags:
     - writing
 - name: coffeelint
@@ -634,32 +634,32 @@
 - name: CogniCrypt
   homepage: "https://www.eclipse.org/cognicrypt/"
   source: "https://github.com/eclipse-cognicrypt/CogniCrypt"
-  description: checks Java source and byte code for incorrect uses of cryptographic APIs
+  description: checks Java source and byte code for incorrect uses of cryptographic APIs.
   tags:
     - java
 - name: cohesion
   homepage: "https://github.com/mschwager/cohesion"
   source: "https://github.com/mschwager/cohesion"
-  description: a tool for measuring Python class cohesion
+  description: a tool for measuring Python class cohesion.
   tags:
     - python
 - name: collector
   homepage: "https://github.com/banyanops/collector"
   source: "https://github.com/banyanops/collector"
-  description: "Run arbitrary scripts inside containers, and gather useful information"
+  description: "Run arbitrary scripts inside containers, and gather useful information."
   tags:
     - container
 - name: complexity-report
   homepage: "https://github.com/jared-stilwell/complexity-report"
   source: "https://github.com/jared-stilwell/complexity-report"
-  description: Software complexity analysis for JavaScript projects
+  description: Software complexity analysis for JavaScript projects.
   tags:
     - javascript
   deprecated: true
 - name: cookstyle
   homepage: "https://docs.chef.io/cookstyle.html"
   source: "https://github.com/chef/cookstyle"
-  description: Cookstyle is a linting tool based on the RuboCop Ruby linting tool for Chef cookbooks
+  description: Cookstyle is a linting tool based on the RuboCop Ruby linting tool for Chef cookbooks.
   tags:
     - configmanagement
 - name: Corrode
@@ -690,7 +690,7 @@
 - name: cppcheck
   homepage: "http://cppcheck.sourceforge.net/"
   source: "https://github.com/danmar/cppcheck"
-  description: static analysis of C/C++ code
+  description: static analysis of C/C++ code.
   tags:
     - c
     - cpp
@@ -705,7 +705,7 @@
 - name: cpplint
   homepage: "https://github.com/google/styleguide/tree/gh-pages/cpplint"
   source: "https://github.com/google/styleguide/tree/gh-pages/cpplint"
-  description: "automated C++ checker that follows Google's style guide"
+  description: "automated C++ checker that follows Google's style guide."
   tags:
     - c
     - cpp
@@ -722,7 +722,7 @@
 - name: cqmetrics
   homepage: "https://github.com/dspinellis/cqmetrics"
   source: "https://github.com/dspinellis/cqmetrics"
-  description: quality metrics for C code
+  description: quality metrics for C code.
   tags:
     - c
     - cpp
@@ -741,7 +741,7 @@
 - name: CScout
   homepage: "https://www.spinellis.gr/cscout/"
   source: "https://github.com/dspinellis/cscout"
-  description: complexity and quality metrics for for C and C preprocessor code
+  description: complexity and quality metrics for for C and C preprocessor code.
   tags:
     - c
     - cpp
@@ -754,20 +754,20 @@
 - name: CSS Stats
   homepage: "https://cssstats.com/"
   source: "https://github.com/cssstats/cssstats"
-  description: Potentially interesting stats on stylesheets
+  description: Potentially interesting stats on stylesheets.
   tags:
     - css
 - name: CSScomb
   homepage: "https://github.com/csscomb/csscomb.js"
   source: "https://github.com/csscomb/csscomb.js"
-  description: a coding style formatter for CSS. Supports own configurations to make style sheets beautiful and consistent
+  description: a coding style formatter for CSS. Supports own configurations to make style sheets beautiful and consistent.
   tags:
     - css
     - formatter
 - name: CSSLint
   homepage: "http://csslint.net/"
   source: "https://github.com/CSSLint/csslint"
-  description: Does basic syntax checking and finds problematic patterns or signs of inefficiency
+  description: Does basic syntax checking and finds problematic patterns or signs of inefficiency.
   tags:
     - css
 - name: cwe_checker
@@ -785,7 +785,7 @@
 - name: D-scanner
   homepage: "https://github.com/dlang-community/D-Scanner"
   source: "https://github.com/dlang-community/D-Scanner"
-  description: D-Scanner is a tool for analyzing D source code
+  description: D-Scanner is a tool for analyzing D source code.
   tags:
     - dlang
 - name: Linter for dart
@@ -846,7 +846,7 @@
 - name: deno_lint
   homepage: "https://github.com/denoland/deno_lint"
   source: "https://github.com/denoland/deno_lint"
-  description: Official linter for Deno
+  description: Official linter for Deno.
   tags:
     - deno
 - name: Depends
@@ -861,13 +861,13 @@
 - name: dephpend
   homepage: "https://dephpend.com/"
   source: "https://github.com/mihaeu/dephpend"
-  description: Dependency analysis tool
+  description: Dependency analysis tool.
   tags:
     - php
 - name: deprecation-detector
   homepage: "https://github.com/sensiolabs-de/deprecation-detector"
   source: "https://github.com/sensiolabs-de/deprecation-detector"
-  description: Finds usages of deprecated (Symfony) code
+  description: Finds usages of deprecated (Symfony) code.
   tags:
     - php
 - name: deptrac
@@ -891,7 +891,7 @@
 - name: DesignPatternDetector
   homepage: "https://github.com/Halleck45/DesignPatternDetector"
   source: "https://github.com/Halleck45/DesignPatternDetector"
-  description: detection of design patterns in PHP code
+  description: detection of design patterns in PHP code.
   tags:
     - php
 - name: detekt
@@ -928,13 +928,13 @@
 - name: Dlint
   homepage: "https://github.com/dlint-py/dlint"
   source: "https://github.com/dlint-py/dlint"
-  description: a tool for ensuring Python code is secure
+  description: a tool for ensuring Python code is secure.
   tags:
     - python
 - name: Docker Label Inspector
   homepage: "https://github.com/garethr/docker-label-inspector"
   source: "https://github.com/garethr/docker-label-inspector"
-  description: Lint and validate Dockerfile labels
+  description: Lint and validate Dockerfile labels.
   tags:
     - container
 - name: dogsled
@@ -958,7 +958,7 @@
 - name: EasyCodingStandard
   homepage: "https://www.tomasvotruba.com/blog/2017/05/03/combine-power-of-php-code-sniffer-and-php-cs-fixer-in-3-lines/"
   source: "https://github.com/Symplify/EasyCodingStandard"
-  description: "Combine [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) and [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)"
+  description: "Combine [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) and [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)."
   tags:
     - php
 - name: electrolysis
@@ -976,7 +976,7 @@
 - name: elvis
   homepage: "https://github.com/inaka/elvis"
   source: "https://github.com/inaka/elvis"
-  description: Erlang Style Reviewer
+  description: Erlang Style Reviewer.
   tags:
     - erlang
 - name: ember-template-lint
@@ -1009,7 +1009,7 @@
 - name: Error-prone
   homepage: "https://errorprone.info/"
   source: "https://github.com/google/error-prone"
-  description: Catch common Java mistakes as compile-time errors
+  description: Catch common Java mistakes as compile-time errors.
   tags:
     - java
 - name: escomplex
@@ -1021,7 +1021,7 @@
 - name: eslint
   homepage: "https://eslint.org/"
   source: "https://github.com/eslint/eslint"
-  description: A fully pluggable tool for identifying and reporting on patterns in JavaScript
+  description: A fully pluggable tool for identifying and reporting on patterns in JavaScript.
   tags:
     - javascript
 - name: ESLint
@@ -1033,20 +1033,20 @@
 - name: Esprima
   homepage: "https://esprima.org/"
   source: "https://github.com/jquery/esprima"
-  description: ECMAScript parsing infrastructure for multipurpose analysis
+  description: ECMAScript parsing infrastructure for multipurpose analysis.
   tags:
     - javascript
 - name: exakat
   homepage: "https://www.exakat.io/"
   source: "https://github.com/exakat/exakat"
-  description: An automated code reviewing engine for PHP
+  description: An automated code reviewing engine for PHP.
   tags:
     - ci
     - php
 - name: fb-contrib
   homepage: "http://fb-contrib.sourceforge.net/"
   source: "https://github.com/mebigfatguy/fb-contrib"
-  description: A plugin for FindBugs with additional bug detectors
+  description: A plugin for FindBugs with additional bug detectors.
   tags:
     - java
 - name: Find Security Bugs
@@ -1068,14 +1068,14 @@
 - name: flake8
   homepage: "https://github.com/PyCQA/flake8"
   source: "https://github.com/PyCQA/flake8"
-  description: "a wrapper around `pyflakes`, `pycodestyle` and `mccabe`"
+  description: "a wrapper around `pyflakes`, `pycodestyle` and `mccabe`."
   tags:
     - meta
     - python
 - name: flawfinder
   homepage: "https://www.dwheeler.com/flawfinder/"
   source: "https://github.com/david-a-wheeler/flawfinder"
-  description: finds possible security weaknesses
+  description: finds possible security weaknesses.
   tags:
     - c
     - cpp
@@ -1119,7 +1119,7 @@
 - name: FlowDroid
   homepage: "https://github.com/secure-software-engineering/FlowDroid"
   source: "https://github.com/secure-software-engineering/FlowDroid"
-  description: static taint analysis tool for Android applications
+  description: static taint analysis tool for Android applications.
   tags:
     - mobile
 - name: foodcritic
@@ -1167,7 +1167,7 @@
 - name: Frama-C
   homepage: "http://frama-c.com/"
   source: "http://frama-c.com/download.html"
-  description: a sound and extensible static analyzer for C code
+  description: a sound and extensible static analyzer for C code.
   tags:
     - c
     - cpp
@@ -1180,7 +1180,7 @@
 - name: FSharpLint
   homepage: "http://fsprojects.github.io/FSharpLint/"
   source: "https://github.com/fsprojects/FSharpLint"
-  description: "Lint tool for F#"
+  description: "Lint tool for F#."
   tags:
     - fsharp
 - name: gawk --lint
@@ -1204,7 +1204,7 @@
 - name: Super-Linter
   homepage: "https://github.com/github/super-linter"
   source: "https://github.com/github/super-linter"
-  description: "Combination of multiple linters to install as a GitHub Action"
+  description: "Combination of multiple linters to install as a GitHub Action."
   tags:
     - coffeescript
     - container
@@ -1309,7 +1309,7 @@
 - name: Goodcheck
   homepage: "https://sider.github.io/goodcheck/"
   source: "https://github.com/sideci/goodcheck"
-  description: Regexp based customizable linter
+  description: Regexp based customizable linter.
   tags:
     - c
     - cpp
@@ -1324,7 +1324,7 @@
 - name: google-java-format
   homepage: "https://github.com/google/google-java-format"
   source: "https://github.com/google/google-java-format"
-  description: Google Style Reformat
+  description: Google Style Reformat.
   tags:
     - java
 - name: goreporter
@@ -1355,13 +1355,13 @@
 - name: GraphMyCSS.com
   homepage: "https://graphmycss.com"
   source: "https://github.com/TheJaredWilcurt/itcss-specificity-graph"
-  description: CSS Specificity Graph Generator
+  description: CSS Specificity Graph Generator.
   tags:
     - css
 - name: graudit
   homepage: "http://www.justanotherhacker.com/"
   source: "https://github.com/wireghoul/graudit"
-  description: "Grep rough audit - source code auditing tool"
+  description: "Grep rough audit - source code auditing tool."
   tags:
     - c
     - cpp
@@ -1375,19 +1375,19 @@
 - name: GrumPHP
   homepage: "https://github.com/phpro/grumphp"
   source: "https://github.com/phpro/grumphp"
-  description: checks code on every commit
+  description: checks code on every commit.
   tags:
     - php
 - name: haml-lint
   homepage: "https://github.com/sds/haml-lint"
   source: "https://github.com/sds/haml-lint"
-  description: Tool for writing clean and consistent HAML
+  description: Tool for writing clean and consistent HAML.
   tags:
     - template
 - name: Haskell Dockerfile Linter
   homepage: "https://github.com/lukasmartinelli/hadolint"
   source: "https://github.com/lukasmartinelli/hadolint"
-  description: A smarter Dockerfile linter that helpsyou build best practice Docker images
+  description: A smarter Dockerfile linter that helpsyou build best practice Docker images.
   tags:
     - container
 - name: Haxe Checkstyle
@@ -1418,7 +1418,7 @@
 - name: Hopper
   homepage: "https://github.com/cuplv/hopper"
   source: "https://github.com/cuplv/hopper"
-  description: A static analysis tool written in scala for languages that run on JVM
+  description: A static analysis tool written in scala for languages that run on JVM.
   tags:
     - groovy
     - java
@@ -1452,7 +1452,7 @@
 - name: HTMLHint
   homepage: "https://htmlhint.com/"
   source: "https://github.com/yaniswang/HTMLHint"
-  description: A Static Code Analysis Tool for HTML
+  description: A Static Code Analysis Tool for HTML.
   tags:
     - html
 - name: HuntBugs
@@ -1477,7 +1477,7 @@
 - name: IKOS
   homepage: "https://github.com/nasa-sw-vnv/ikos"
   source: "https://github.com/nasa-sw-vnv/ikos"
-  description: a sound static analyzer for C/C++ code based on LLVM
+  description: a sound static analyzer for C/C++ code based on LLVM.
   tags:
     - c
     - cpp
@@ -1513,7 +1513,7 @@
 - name: ineffassign
   homepage: "https://github.com/gordonklaus/ineffassign"
   source: "https://github.com/gordonklaus/ineffassign"
-  description: Detect ineffectual assignments in Go code
+  description: Detect ineffectual assignments in Go code.
   tags:
     - go
 - name: Infer
@@ -1566,39 +1566,39 @@
 - name: JBMC
   homepage: "https://www.cprover.org/jbmc/"
   source: "https://github.com/peterschrammel/cbmc/releases/tag/jbmc-5.8-cav18"
-  description: "bounded model-checker for Java (bytecode), verifies user-defined assertions, standard assertions, several coverage metric analyses"
+  description: "bounded model-checker for Java (bytecode), verifies user-defined assertions, standard assertions, several coverage metric analyses."
   tags:
     - java
 - name: jedi
   homepage: "https://jedi.readthedocs.io/en/latest/"
   source: "https://github.com/davidhalter/jedi"
-  description: autocompletion/static analysis library for Python
+  description: autocompletion/static analysis library for Python.
   tags:
     - python
 - name: jshint
   homepage: "https://jshint.com/about/"
   source: "https://github.com/jshint/jshint"
   discussion: "https://github.com/analysis-tools-dev/static-analysis/issues/223"
-  description: "detect errors and potential problems in JavaScript code and enforce your team's coding conventions"
+  description: "detect errors and potential problems in JavaScript code and enforce your team's coding conventions."
   tags:
     - javascript
 - name: JSLint
   homepage: "https://github.com/douglascrockford/JSLint"
   source: "https://github.com/douglascrockford/JSLint"
   discussion: "https://github.com/analysis-tools-dev/static-analysis/issues/223"
-  description: The JavaScript Code Quality Tool
+  description: The JavaScript Code Quality Tool.
   tags:
     - javascript
 - name: JSPrime
   homepage: "http://dpnishant.github.io/jsprime/"
   source: "https://github.com/dpnishant/jsprime"
-  description: static security analysis tool
+  description: static security analysis tool.
   tags:
     - javascript
   deprecated: true
 - name: Kiuwan
   homepage: "https://www.kiuwan.com/code-security-sast/"
-  description: "Identify and remediate cyber threats in a blazingly fast, collaborative environment, with seamless integration in your SDLC. Python, C\\C++, Java, C#, PHP and more"
+  description: "Identify and remediate cyber threats in a blazingly fast, collaborative environment, with seamless integration in your SDLC. Python, C\\C++, Java, C#, PHP and more."
   tags:
     - c
     - cpp
@@ -1620,7 +1620,7 @@
   proprietary: true
 - name: Klocwork
   homepage: "https://www.perforce.com/products/klocwork"
-  description: "Quality and Security Static analysis for C/C++, Java and C#"
+  description: "Quality and Security Static analysis for C/C++, Java and C#."
   tags:
     - c
     - cpp
@@ -1630,7 +1630,7 @@
 - name: ktlint
   homepage: "https://ktlint.github.io/"
   source: "https://github.com/shyiko/ktlint"
-  description: An anti-bikeshedding Kotlin linter with built-in formatter
+  description: An anti-bikeshedding Kotlin linter with built-in formatter.
   tags:
     - kotlin
     - formatter
@@ -1660,7 +1660,7 @@
     - latex
 - name: Landscape
   homepage: "https://landscape.io/"
-  description: Static code analysis for Python
+  description: Static code analysis for Python.
   tags:
     - service
   proprietary: true
@@ -1714,13 +1714,13 @@
 - name: linter-rust
   homepage: "https://github.com/AtomLinter/linter-rust"
   source: "https://github.com/AtomLinter/linter-rust"
-  description: "Linting your Rust-files in Atom, using rustc and cargo"
+  description: "Linting your Rust-files in Atom, using rustc and cargo."
   tags:
     - rust
 - name: lintian
   homepage: "https://lintian.debian.org/"
   source: "https://github.com/Debian/lintian"
-  description: Static analysis tool for Debian packages
+  description: Static analysis tool for Debian packages.
   tags:
     - package
 - name: lintr
@@ -1732,7 +1732,7 @@
 - name: linty fresh
   homepage: "https://github.com/lyft/linty_fresh"
   source: "https://github.com/lyft/linty_fresh"
-  description: parse lint errors and report them to Github as comments on a pull request
+  description: parse lint errors and report them to Github as comments on a pull request.
   tags:
     - python
 - name: lll
@@ -1768,7 +1768,7 @@
 - name: mccabe
   homepage: "https://pypi.org/project/mccabe/"
   source: "https://github.com/PyCQA/mccabe"
-  description: check McCabe complexity
+  description: check McCabe complexity.
   tags:
     - python
 - name: mdl
@@ -1792,13 +1792,13 @@
 - name: misspell-fixer
   homepage: "https://github.com/vlajos/misspell-fixer"
   source: "https://github.com/vlajos/misspell-fixer"
-  description: "Quick tool for fixing common misspellings, typos in source code"
+  description: "Quick tool for fixing common misspellings, typos in source code."
   tags:
     - writing
 - name: Misspelled Words In Context
   homepage: "http://jwilk.net/software/mwic"
   source: "https://github.com/jwilk/mwic"
-  description: a spell-checker that groups possible misspellings and shows them in their contexts
+  description: a spell-checker that groups possible misspellings and shows them in their contexts.
   tags:
     - writing
 - name: mlint
@@ -1810,26 +1810,26 @@
 - name: Mondrian
   homepage: "http://trismegiste.github.io/Mondrian/"
   source: "https://github.com/Trismegiste/Mondrian"
-  description: a set of static analysis and refactoring tools which use graph theory
+  description: a set of static analysis and refactoring tools which use graph theory.
   tags:
     - php
 - name: multilint
   homepage: "https://github.com/adamchainz/multilint"
   source: "https://github.com/adamchainz/multilint"
-  description: "a wrapper around `flake8`, `isort` and `modernize`"
+  description: "a wrapper around `flake8`, `isort` and `modernize`."
   tags:
     - python
     - meta
 - name: mypy
   homepage: "http://www.mypy-lang.org/"
   source: "https://github.com/python/mypy"
-  description: "A static type checker that aims to combine the benefits of duck typing and static typing, frequently used with [MonkeyType](https://github.com/Instagram/MonkeyType)"
+  description: "A static type checker that aims to combine the benefits of duck typing and static typing, frequently used with [MonkeyType](https://github.com/Instagram/MonkeyType)."
   tags:
     - python
 - name: Nagelfar
   homepage: "https://sourceforge.net/projects/nagelfar/"
   source: "https://sourceforge.net/p/nagelfar/code/ci/master/tree/"
-  description: A static syntax checker for Tcl
+  description: A static syntax checker for Tcl.
   tags:
     - tcl
 - name: nakedret
@@ -1852,7 +1852,7 @@
   proprietary: true
 - name: Nitpick CI
   homepage: "https://nitpick-ci.com"
-  description: Automated PHP code review
+  description: Automated PHP code review.
   tags:
     - ci
     - service
@@ -1867,13 +1867,13 @@
 - name: NullAway
   homepage: "https://github.com/uber/NullAway"
   source: "https://github.com/uber/NullAway"
-  description: "Type-based null-pointer checker with low build-time overhead; an [Error Prone](http://errorprone.info/) plugin"
+  description: "Type-based null-pointer checker with low build-time overhead; an [Error Prone](http://errorprone.info/) plugin."
   tags:
     - java
 - name: oclint
   homepage: "http://oclint.org/"
   source: "https://github.com/oclint/oclint"
-  description: "A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C"
+  description: "A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C."
   tags:
     - c
     - cpp
@@ -1899,13 +1899,13 @@
 - name: Parker
   homepage: "https://github.com/katiefenn/parker"
   source: "https://github.com/katiefenn/parker"
-  description: Stylesheet analysis tool
+  description: Stylesheet analysis tool.
   tags:
     - css
 - name: Parse
   homepage: "https://github.com/psecio/parse"
   source: "https://github.com/psecio/parse"
-  description: A Static Security Scanner
+  description: A Static Security Scanner.
   tags:
     - php
 - name: Pascal Analyzer
@@ -1929,7 +1929,7 @@
 - name: pelusa
   homepage: "https://github.com/codegram/pelusa"
   source: "https://github.com/codegram/pelusa"
-  description: Static analysis Lint-type tool to improve your OO Ruby code
+  description: Static analysis Lint-type tool to improve your OO Ruby code.
   tags:
     - ruby
 - name: "Perl::Critic"
@@ -1941,7 +1941,7 @@
 - name: pfff
   homepage: "https://github.com/facebookarchive/pfff/wiki/Main"
   source: "https://github.com/returntocorp/pfff"
-  description: "Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages"
+  description: "Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages."
   tags:
     - c
     - java
@@ -1959,7 +1959,7 @@
 - name: phan
   homepage: "https://github.com/phan/phan/wiki"
   source: "https://github.com/etsy/phan"
-  description: a modern static analyzer from etsy
+  description: a modern static analyzer from etsy.
   tags:
     - php
 - name: Phasar
@@ -1978,7 +1978,7 @@
 - name: PHP Assumptions
   homepage: "https://github.com/rskuipers/php-assumptions"
   source: "https://github.com/rskuipers/php-assumptions"
-  description: Checks for weak assumptions
+  description: Checks for weak assumptions.
   tags:
     - php
 - name: PHP Coding Standards Fixer
@@ -1992,7 +1992,7 @@
   source: "https://github.com/nunomaduro/phpinsights"
   description: >
     Instant PHP quality checks from your console. Analysis of code quality and coding style 
-    as well as overview of code architecture and its complexity
+    as well as overview of code architecture and its complexity.
   tags:
     - php
 - name: Php Inspections (EA Extended)
@@ -2004,57 +2004,57 @@
 - name: PHP Refactoring Browser
   homepage: "http://qafoolabs.github.io/php-refactoring-browser/"
   source: "https://github.com/QafooLabs/php-refactoring-browser"
-  description: Refactoring helper
+  description: Refactoring helper.
   tags:
     - php
 - name: PHP Semantic Versioning Checker
   homepage: "https://github.com/tomzx/php-semver-checker"
   source: "https://github.com/tomzx/php-semver-checker"
-  description: Suggests a next version according to semantic versioning
+  description: Suggests a next version according to semantic versioning.
   tags:
     - php
 - name: PHP-Parser
   homepage: "https://github.com/nikic/PHP-Parser"
   source: "https://github.com/nikic/PHP-Parser"
-  description: A PHP parser written in PHP
+  description: A PHP parser written in PHP.
   tags:
     - php
 - name: PHP-Token-Reflection
   homepage: "https://github.com/Andrewsville/PHP-Token-Reflection"
   source: "https://github.com/Andrewsville/PHP-Token-Reflection"
-  description: Library emulating the PHP internal reflection
+  description: Library emulating the PHP internal reflection.
   tags:
     - php
 - name: php7cc
   homepage: "https://github.com/sstalle/php7cc"
   source: "https://github.com/sstalle/php7cc"
-  description: PHP 7 Compatibility Checker
+  description: PHP 7 Compatibility Checker.
   tags:
     - php
   deprecated: true
 - name: php7mar
   homepage: "https://github.com/Alexia/php7mar"
   source: "https://github.com/Alexia/php7mar"
-  description: assist developers in porting their code quickly to PHP 7
+  description: assist developers in porting their code quickly to PHP 7.
   tags:
     - php
   deprecated: true
 - name: PHP_CodeSniffer
   homepage: "https://pear.php.net/package/PHP_CodeSniffer"
   source: "https://github.com/squizlabs/PHP_CodeSniffer"
-  description: detects violations of a defined set of coding standards
+  description: detects violations of a defined set of coding standards.
   tags:
     - php
 - name: phpca
   homepage: "https://github.com/wapmorgan/PhpCodeAnalyzer"
   source: "https://github.com/wapmorgan/PhpCodeAnalyzer"
-  description: Finds usage of non-built-in extensions
+  description: Finds usage of non-built-in extensions.
   tags:
     - php
 - name: phpcf
   homepage: "http://wapmorgan.github.io/PhpCodeFixer/"
   source: "https://github.com/wapmorgan/PhpCodeFixer/"
-  description: Finds usage of deprecated PHP features
+  description: Finds usage of deprecated PHP features.
   tags:
     - php
 - name: phpcpd
@@ -2073,55 +2073,55 @@
 - name: PhpDependencyAnalysis
   homepage: "https://mamuz.github.io/PhpDependencyAnalysis/"
   source: "https://github.com/mamuz/PhpDependencyAnalysis"
-  description: builds a dependency graph for a project
+  description: builds a dependency graph for a project.
   tags:
     - php
 - name: phpdoc-to-typehint
   homepage: "https://github.com/dunglas/phpdoc-to-typehint"
   source: "https://github.com/dunglas/phpdoc-to-typehint"
-  description: Add scalar type hints and return types to existing PHP projects using PHPDoc annotations
+  description: Add scalar type hints and return types to existing PHP projects using PHPDoc annotations.
   tags:
     - php
 - name: phpDocumentor
   homepage: "https://www.phpdoc.org/"
   source: "https://github.com/phpDocumentor/phpDocumentor"
-  description: Analyzes PHP source code to generate documentation
+  description: Analyzes PHP source code to generate documentation.
   tags:
     - php
 - name: PHPMD
   homepage: "https://phpmd.org/"
   source: "https://github.com/phpmd/phpmd"
-  description: finds possible bugs in your code
+  description: finds possible bugs in your code.
   tags:
     - php
 - name: PhpMetrics
   homepage: "http://www.phpmetrics.org/"
   source: "https://github.com/phpmetrics/PhpMetrics"
-  description: Calculates and visualizes various code quality metrics
+  description: Calculates and visualizes various code quality metrics.
   tags:
     - php
 - name: phpmnd
   homepage: "https://github.com/povils/phpmnd"
   source: "https://github.com/povils/phpmnd"
-  description: Helps to detect magic numbers
+  description: Helps to detect magic numbers.
   tags:
     - php
 - name: PHPQA
   homepage: "https://edgedesigncz.github.io/phpqa/"
   source: "https://github.com/EdgedesignCZ/phpqa"
-  description: "A tool for running QA tools (phploc, phpcpd, phpcs, pdepend, phpmd, phpmetrics)"
+  description: "A tool for running QA tools (phploc, phpcpd, phpcs, pdepend, phpmd, phpmetrics)."
   tags:
     - php
 - name: phpqa - jakzal
   homepage: "https://github.com/jakzal/phpqa"
   source: "https://github.com/jakzal/phpqa"
-  description: Many tools for PHP static analysis in one container
+  description: Many tools for PHP static analysis in one container.
   tags:
     - php
 - name: phpqa - jmolivas
   homepage: "https://github.com/jmolivas/phpqa"
   source: "https://github.com/jmolivas/phpqa"
-  description: PHPQA all-in-one Analyzer CLI tool
+  description: PHPQA all-in-one Analyzer CLI tool.
   tags:
     - php
 - name: phpsa
@@ -2139,14 +2139,14 @@
 - name: plato
   homepage: "https://github.com/es-analysis/plato"
   source: "https://github.com/es-analysis/plato"
-  description: Visualize JavaScript source complexity
+  description: Visualize JavaScript source complexity.
   tags:
     - javascript
   deprecated: true
 - name: PMD
   homepage: "https://pmd.github.io/"
   source: "https://github.com/pmd/pmd"
-  description: "A source code analyzer for Java, Javascript, PLSQL, XML, XSL and others"
+  description: "A source code analyzer for Java, Javascript, PLSQL, XML, XSL and others."
   tags:
     - java
     - javascript
@@ -2219,19 +2219,19 @@
 - name: Progpilot
   homepage: "https://github.com/designsecurity/progpilot"
   source: "https://github.com/designsecurity/progpilot"
-  description: A static analysis tool for security purposes
+  description: A static analysis tool for security purposes.
   tags:
     - php
 - name: Project Wallace CSS Analyzer
   homepage: "https://www.projectwallace.com/"
   source: "https://github.com/projectwallace/css-analyzer"
-  description: "Analytics for CSS, part of [Project Wallace](https://www.projectwallace.com)"
+  description: "Analytics for CSS, part of [Project Wallace](https://www.projectwallace.com)."
   tags:
     - css
 - name: Pronto
   homepage: "https://github.com/prontolabs/pronto"
   source: "https://github.com/prontolabs/pronto"
-  description: "Quick automated code review of your changes. Supports more than 40 runners for various languages, including Clang, Elixir, JavaScript, PHP, Ruby and more"
+  description: "Quick automated code review of your changes. Supports more than 40 runners for various languages, including Clang, Elixir, JavaScript, PHP, Ruby and more."
   tags:
     - c
     - ci
@@ -2251,7 +2251,7 @@
 - name: prospector
   homepage: "https://github.com/PyCQA/prospector"
   source: "https://github.com/PyCQA/prospector"
-  description: "a wrapper around `pylint`, `pep8`, `mccabe` and others"
+  description: "a wrapper around `pylint`, `pep8`, `mccabe` and others."
   tags:
     - python
     - meta
@@ -2264,7 +2264,7 @@
 - name: Psalm
   homepage: "https://psalm.dev/"
   source: "https://github.com/vimeo/psalm"
-  description: Static analysis tool for finding type errors in PHP applications
+  description: Static analysis tool for finding type errors in PHP applications.
   tags:
     - php
 - name: PT.PM
@@ -2281,7 +2281,7 @@
   deprecated: true
 - name: PullRequest
   homepage: "https://www.pullrequest.com"
-  description: Code review as a service with built-in static analysis
+  description: Code review as a service with built-in static analysis.
   tags:
     - ci
     - service
@@ -2311,26 +2311,26 @@
 - name: py-find-injection
   homepage: "https://github.com/uber/py-find-injection"
   source: "https://github.com/uber/py-find-injection"
-  description: find SQL injection vulnerabilities in Python code
+  description: find SQL injection vulnerabilities in Python code.
   tags:
     - python
   deprecated: true
 - name: pycodestyle
   homepage: "https://pycodestyle.pycqa.org/en/latest/"
   source: "https://github.com/PyCQA/pycodestyle"
-  description: "(formerly `pep8`) check Python code against some of the style conventions in PEP 8"
+  description: "(formerly `pep8`) check Python code against some of the style conventions in PEP 8."
   tags:
     - python
 - name: pydocstyle
   homepage: "http://www.pydocstyle.org"
   source: "https://github.com/PyCQA/pydocstyle"
-  description: Check compliance with Python docstring conventions
+  description: Check compliance with Python docstring conventions.
   tags:
     - python
 - name: pyflakes
   homepage: "https://pypi.org/project/pyflakes/"
   source: "https://github.com/pyflakes/pyflakes/"
-  description: Check Python source files for errors
+  description: Check Python source files for errors.
   tags:
     - python
 - name: pylint
@@ -2342,7 +2342,7 @@
 - name: pyre-check
   homepage: "https://pyre-check.org/"
   source: "https://github.com/facebook/pyre-check"
-  description: "A fast, scalable type checker for large Python codebases"
+  description: "A fast, scalable type checker for large Python codebases."
   tags:
     - python
 - name: pyright
@@ -2354,7 +2354,7 @@
 - name: pyroma
   homepage: "https://github.com/regebro/pyroma"
   source: "https://github.com/regebro/pyroma"
-  description: "Rate how well a Python project complies with the best practices of the Python packaging ecosystem, and list issues that could be improved"
+  description: "Rate how well a Python project complies with the best practices of the Python packaging ecosystem, and list issues that could be improved."
   tags:
     - python
 - name: PyT - Python Taint
@@ -2373,19 +2373,19 @@
 - name: Qafoo Quality Analyzer
   homepage: "https://github.com/Qafoo/QualityAnalyzer"
   source: "https://github.com/Qafoo/QualityAnalyzer"
-  description: Visualizes metrics and source code
+  description: Visualizes metrics and source code.
   tags:
     - php
 - name: qark
   homepage: "https://github.com/linkedin/qark"
   source: "https://github.com/linkedin/qark"
-  description: Tool to look for several security related Android application vulnerabilities
+  description: Tool to look for several security related Android application vulnerabilities.
   tags:
     - mobile
 - name: quality
   homepage: "https://github.com/jden/quality"
   source: "https://github.com/jden/quality"
-  description: zero configuration code and module linting
+  description: zero configuration code and module linting.
   tags:
     - javascript
   deprecated: true
@@ -2399,7 +2399,7 @@
 - name: QuantifiedCode
   homepage: "https://github.com/quantifiedcode/quantifiedcode"
   source: "https://github.com/quantifiedcode/quantifiedcode"
-  description: Automated code review & repair
+  description: Automated code review & repair.
   tags:
     - ci
     - service
@@ -2407,7 +2407,7 @@
 - name: Querly
   homepage: "https://github.com/soutaro/querly"
   source: "https://github.com/soutaro/querly"
-  description: Pattern Based Checking Tool for Ruby
+  description: Pattern Based Checking Tool for Ruby.
   tags:
     - ruby
 - name: qulice
@@ -2419,7 +2419,7 @@
 - name: radon
   homepage: "https://radon.readthedocs.io/en/latest/"
   source: "https://github.com/rubik/radon"
-  description: A Python tool that computes various metrics from the source code
+  description: A Python tool that computes various metrics from the source code.
   tags:
     - python
 - name: Railroader
@@ -2431,7 +2431,7 @@
 - name: reek
   homepage: "https://github.com/troessner/reek"
   source: "https://github.com/troessner/reek"
-  description: Code smell detector for Ruby
+  description: Code smell detector for Ruby.
   tags:
     - ruby
 - name: Refactoring Essentials
@@ -2478,7 +2478,7 @@
 - name: retire.js
   homepage: "http://retirejs.github.io/retire.js/"
   source: "https://github.com/RetireJS/retire.js"
-  description: Scanner detecting the use of JavaScript libraries with known vulnerabilities
+  description: Scanner detecting the use of JavaScript libraries with known vulnerabilities.
   tags:
     - javascript
 - name: Reviewdog
@@ -2496,7 +2496,7 @@
     - go
 - name: RIPS
   homepage: "https://www.ripstech.com/"
-  description: A static source code analyser for vulnerabilities in PHP scripts
+  description: A static source code analyser for vulnerabilities in PHP scripts.
   tags:
     - php
     - java
@@ -2525,7 +2525,7 @@
 - name: rpmlint
   homepage: "https://github.com/rpm-software-management/rpmlint"
   source: "https://github.com/rpm-software-management/rpmlint"
-  description: Tool for checking common errors in rpm packages
+  description: Tool for checking common errors in rpm packages.
   tags:
     - package
 - name: RuboCop
@@ -2543,14 +2543,14 @@
 - name: ruby-lint
   homepage: "http://code.yorickpeterse.com/ruby-lint/latest/"
   source: "https://gitlab.com/yorickpeterse/ruby-lint"
-  description: Static code analysis for Ruby
+  description: Static code analysis for Ruby.
   tags:
     - ruby
   deprecated: true
 - name: rubycritic
   homepage: "https://github.com/whitesmith/rubycritic"
   source: "https://github.com/whitesmith/rubycritic"
-  description: A Ruby code quality reporter
+  description: A Ruby code quality reporter.
   tags:
     - ruby
 - name: Rust Language Server
@@ -2594,26 +2594,26 @@
 - name: scan-build
   homepage: "https://clang-analyzer.llvm.org/scan-build.html"
   source: "https://clang-analyzer.llvm.org/scan-build.html"
-  description: Analyzes C/C++ code using LLVM at compile-time
+  description: Analyzes C/C++ code using LLVM at compile-time.
   tags:
     - c
     - cpp
 - name: scapegoat
   homepage: "https://github.com/sksamuel/scapegoat"
   source: "https://github.com/sksamuel/scapegoat"
-  description: Scala compiler plugin for static code analysis
+  description: Scala compiler plugin for static code analysis.
   tags:
     - scala
 - name: Scrutinizer
   homepage: "https://scrutinizer-ci.com/"
-  description: A proprietary code quality checker that can be integrated with GitHub
+  description: A proprietary code quality checker that can be integrated with GitHub.
   tags:
     - service
   proprietary: true
 - name: scsslint
   homepage: "https://github.com/brigade/scss-lint"
   source: "https://github.com/brigade/scss-lint"
-  description: Linter for SCSS files
+  description: Linter for SCSS files.
   tags:
     - css
   deprecated: true
@@ -2651,7 +2651,7 @@
   proprietary: true
 - name: SensioLabs Insight
   homepage: "https://insight.sensiolabs.com/"
-  description: "Detect security risks, find bugs and provide actionable metrics for PHP projects"
+  description: "Detect security risks, find bugs and provide actionable metrics for PHP projects."
   tags:
     - php
     - service
@@ -2659,13 +2659,13 @@
 - name: shellcheck
   homepage: "https://www.shellcheck.net/"
   source: "https://github.com/koalaman/shellcheck"
-  description: "ShellCheck, a static analysis tool that gives warnings and suggestions for bash/sh shell scripts"
+  description: "ShellCheck, a static analysis tool that gives warnings and suggestions for bash/sh shell scripts."
   tags:
     - shell
 - name: shipshape
   homepage: "https://github.com/google/shipshape"
   source: "https://github.com/google/shipshape"
-  description: Static program analysis platform that allows custom analyzers to plug in through a common interface
+  description: Static program analysis platform that allows custom analyzers to plug in through a common interface.
   tags:
     - c
     - cpp
@@ -2687,13 +2687,13 @@
 - name: slim-lint
   homepage: "https://github.com/sds/slim-lint"
   source: "https://github.com/sds/slim-lint"
-  description: Configurable tool for analyzing Slim templates
+  description: Configurable tool for analyzing Slim templates.
   tags:
     - template
 - name: slither
   homepage: "https://github.com/trailofbits/slither"
   source: "https://github.com/trailofbits/slither"
-  description: "Static analysis framework that runs a suite of vulnerability detectors, prints visual information about contract details, and provides an API to easily write custom analyses"
+  description: "Static analysis framework that runs a suite of vulnerability detectors, prints visual information about contract details, and provides an API to easily write custom analyses."
   tags:
     - solidity
 - name: SmartDec Scanner
@@ -2731,7 +2731,7 @@
   proprietary: true
 - name: Snyk
   homepage: "https://snyk.io/"
-  description: Vulnerability scanner for dependencies of node.js apps (free for Open Source Projects)
+  description: Vulnerability scanner for dependencies of node.js apps (free for Open Source Projects).
   tags:
     - ci
     - container
@@ -2746,13 +2746,13 @@
 - name: sobelow
   homepage: "https://github.com/nccgroup/sobelow"
   source: "https://github.com/nccgroup/sobelow"
-  description: Security-focused static analysis for the Phoenix Framework
+  description: Security-focused static analysis for the Phoenix Framework.
   tags:
     - elixir
 - name: solium
   homepage: "https://ethlint.readthedocs.io/en/latest/"
   source: "https://github.com/duaraghav8/Solium"
-  description: Solium is a linter to identify and fix style and security issues in Solidity smart contracts
+  description: Solium is a linter to identify and fix style and security issues in Solidity smart contracts.
   tags:
     - solidity
 - name: SonarCloud
@@ -2800,25 +2800,25 @@
 - name: Sorbet
   homepage: "https://sorbet.org/"
   source: "https://github.com/sorbet/sorbet"
-  description: "A fast, powerful type checker designed for Ruby"
+  description: "A fast, powerful type checker designed for Ruby."
   tags:
     - ruby
 - name: SourceMeter
   homepage: "https://www.sourcemeter.com/resources/rpg/"
-  description: Static Code Analysis for RPG III and RPG IV versions (including free-form)
+  description: Static Code Analysis for RPG III and RPG IV versions (including free-form).
   tags:
     - rpg
   proprietary: true
 - name: SPARK
   homepage: "https://www.adacore.com/about-spark"
-  description: Static analysis and formal verification toolset for Ada
+  description: Static analysis and formal verification toolset for Ada.
   tags:
     - ada
   proprietary: true
 - name: Specificity Graph
   homepage: "https://jonassebastianohlsson.com/specificity-graph/"
   source: "https://github.com/pocketjoso/specificity-graph"
-  description: CSS Specificity Graph Generator
+  description: CSS Specificity Graph Generator.
   tags:
     - css
 - name: Spectral
@@ -2831,7 +2831,7 @@
 - name: splint
   homepage: "http://splint.org/"
   source: "https://github.com/ravenexp/splint"
-  description: Annotation-assisted static program checker
+  description: Annotation-assisted static program checker.
   tags:
     - c
     - cpp
@@ -2850,19 +2850,19 @@
 - name: sqlcheck
   homepage: "https://github.com/jarulraj/sqlcheck"
   source: "https://github.com/jarulraj/sqlcheck"
-  description: Automatically identify anti-patterns in SQL queries
+  description: Automatically identify anti-patterns in SQL queries.
   tags:
     - sql
 - name: sqlint
   homepage: "https://github.com/purcell/sqlint"
   source: "https://github.com/purcell/sqlint"
-  description: Simple SQL linter
+  description: Simple SQL linter.
   tags:
     - sql
 - name: standard
   homepage: "http://standardjs.com/"
   source: "https://github.com/standard/standard"
-  description: An npm module that checks for Javascript Styleguide issues
+  description: An npm module that checks for Javascript Styleguide issues.
   tags:
     - javascript
     - nodejs
@@ -2875,7 +2875,7 @@
 - name: STOKE
   homepage: "http://stoke.stanford.edu/"
   source: "https://github.com/StanfordPL/stoke"
-  description: a programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations
+  description: a programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations.
   tags:
     - asm
 - name: structcheck
@@ -2887,7 +2887,7 @@
 - name: Stylelint
   homepage: "http://stylelint.io/"
   source: "https://github.com/stylelint/stylelint"
-  description: Linter for SCSS/CSS files
+  description: Linter for SCSS/CSS files.
   tags:
     - css
 - name: styler
@@ -2907,19 +2907,19 @@
 - name: SwiftFormat
   homepage: "https://github.com/nicklockwood/SwiftFormat"
   source: "https://github.com/nicklockwood/SwiftFormat"
-  description: A library and command-line formatting tool for reformatting Swift code
+  description: A library and command-line formatting tool for reformatting Swift code.
   tags:
     - formatter
     - swift
 - name: SwiftLint
   homepage: "https://realm.github.io/SwiftLint/"
   source: "https://github.com/realm/SwiftLint"
-  description: A tool to enforce Swift style and conventions
+  description: A tool to enforce Swift style and conventions.
   tags:
     - swift
 - name: Synopsys
   homepage: "https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html"
-  description: "A commercial static analysis platform that allows for scanning of multiple languages (C/C++, Android, C#, Java, JS, PHP, Python, Node.JS, Ruby, Fortran, and Swift)"
+  description: "A commercial static analysis platform that allows for scanning of multiple languages (C/C++, Android, C#, Java, JS, PHP, Python, Node.JS, Ruby, Fortran, and Swift)."
   tags:
     - c
     - ci
@@ -2964,7 +2964,7 @@
 - name: tern
   homepage: "https://ternjs.net/"
   source: "https://github.com/ternjs/tern"
-  description: "A JavaScript code analyzer for deep, cross-editor language support"
+  description: "A JavaScript code analyzer for deep, cross-editor language support."
   tags:
     - javascript
 - name: terraform-compliance
@@ -3021,19 +3021,19 @@
 - name: tsqllint
   homepage: "https://github.com/tsqllint/tsqllint"
   source: "https://github.com/tsqllint/tsqllint"
-  description: T-SQL-specific linter
+  description: T-SQL-specific linter.
   tags:
     - sql
 - name: TSqlRules
   homepage: "https://github.com/ashleyglee/TSqlRules"
   source: "https://github.com/ashleyglee/TSqlRules"
-  description: TSQL Static Code Analysis Rules for SQL Server
+  description: TSQL Static Code Analysis Rules for SQL Server.
   tags:
     - sql
 - name: Tuli
   homepage: "https://github.com/ircmaxell/Tuli"
   source: "https://github.com/ircmaxell/Tuli"
-  description: A static analysis engine
+  description: A static analysis engine.
   tags:
     - php
 - name: twig-lint
@@ -3057,7 +3057,7 @@
 - name: Undebt
   homepage: "https://github.com/Yelp/undebt"
   source: "https://github.com/Yelp/undebt"
-  description: "Language-independent tool for massive, automatic, programmable refactoring based on simple pattern definitions"
+  description: "Language-independent tool for massive, automatic, programmable refactoring based on simple pattern definitions."
   tags:
     - c
     - cpp
@@ -3092,7 +3092,7 @@
 - name: unimport
   homepage: "https://github.com/alexkohler/unimport"
   source: "https://github.com/alexkohler/unimport"
-  description: Finds unnecessary import aliases
+  description: Finds unnecessary import aliases.
   tags:
     - go
 - name: unparam
@@ -3167,13 +3167,13 @@
 - name: vulture
   homepage: "https://github.com/jendrikseipp/vulture"
   source: "https://github.com/jendrikseipp/vulture"
-  description: "Find unused classes, functions and variables in Python code"
+  description: "Find unused classes, functions and variables in Python code."
   tags:
     - python
 - name: WALA
   homepage: "http://wala.sourceforge.net"
   source: "https://github.com/wala/WALA"
-  description: static analysis capabilities for Java bytecode and related languages and for JavaScript
+  description: static analysis capabilities for Java bytecode and related languages and for JavaScript.
   tags:
     - javascript
     - java
@@ -3198,7 +3198,7 @@
 - name: wemake-python-styleguide
   homepage: "https://wemake-python-stylegui.de"
   source: "https://github.com/wemake-services/wemake-python-styleguide"
-  description: The strictest and most opinionated python linter ever
+  description: The strictest and most opinionated python linter ever.
   tags:
     - python
 - name: WhiteHat Application Security Platform
@@ -3219,7 +3219,7 @@
 - name: wily
   homepage: "https://github.com/tonybaloney/wily"
   source: "https://github.com/tonybaloney/wily"
-  description: "A command-line tool for archiving, exploring and graphing the complexity of Python source code"
+  description: "A command-line tool for archiving, exploring and graphing the complexity of Python source code."
   tags:
     - python
 - name: Wintellect.Analyzers
@@ -3231,7 +3231,7 @@
 - name: Wotan
   homepage: "https://github.com/fimbullinter/wotan"
   source: "https://github.com/fimbullinter/wotan"
-  description: Pluggable TypeScript and JavaScript linter
+  description: Pluggable TypeScript and JavaScript linter.
   tags:
     - typescript
     - javascript
@@ -3256,7 +3256,7 @@
   proprietary: true
 - name: XCode
   homepage: "https://developer.apple.com/xcode/"
-  description: "XCode provides a pretty decent UI for [Clang's](http://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C)"
+  description: "XCode provides a pretty decent UI for [Clang's](http://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C)."
   tags:
     - c
     - cpp
@@ -3265,7 +3265,7 @@
 - name: xenon
   homepage: "https://xenon.readthedocs.io/"
   source: "https://github.com/rubik/xenon"
-  description: "monitor code complexity using [`radon`](https://github.com/rubik/radon)"
+  description: "monitor code complexity using [`radon`](https://github.com/rubik/radon)."
   tags:
     - python
 - name: xo
@@ -3284,7 +3284,7 @@
 - name: yardstick
   homepage: "https://github.com/calmh/yardstick"
   source: "https://github.com/calmh/yardstick"
-  description: Javascript code metrics
+  description: Javascript code metrics.
   tags:
     - javascript
   deprecated: true
