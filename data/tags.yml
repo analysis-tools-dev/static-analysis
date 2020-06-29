@@ -58,9 +58,6 @@
 - name: Delphi
   tag: delphi
   type: language
-- name: Deno
-  tag: deno
-  type: language
 - name: Elixir
   tag: elixir
   type: language
@@ -172,11 +169,14 @@
 - name: VBScript
   tag: vbscript
   type: language
-- name: Visual Basic
-  tag: visualbasic
-  type: language
 - name: Visual Basic for Applications (VBA)
   tag: vba
+  type: language
+- name: Visual Basic .NET
+  tag: vbnet
+  type: language
+- name: Visual Basic
+  tag: vbasic
   type: language
 - name: Build tools
   tag: buildtool
@@ -201,6 +201,9 @@
   type: other
 - name: CSS/SASS/SCSS
   tag: css
+  type: other
+- name: Deno
+  tag: deno
   type: other
 - name: Gherkin
   tag: gherkin
@@ -258,12 +261,6 @@
   type: other
 - name: Translation
   tag: translation
-  type: other
-- name: Visual Basic .NET
-  tag: vbnet
-  type: other
-- name: Visual Basic
-  tag: vbasic
   type: other
 - name: Visualforce
   tag: visualforce
