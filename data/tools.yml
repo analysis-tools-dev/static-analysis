@@ -1640,6 +1640,12 @@
   description: Static code analysis of your Kubernetes object definitions.
   tags:
     - container
+- name: kubeval
+  homepage: "https://kubeval.instrumenta.dev/"
+  source: "https://github.com/instrumenta/kubeval"
+  description: Validates your Kubernetes configuration files and supports multiple Kubernetes versions.
+  tags:
+    - container
 - name: lacheck
   homepage: "https://www.ctan.org/pkg/lacheck"
   source: "https://www.ctan.org/tex-archive/support/lacheck"
