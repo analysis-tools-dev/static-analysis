@@ -726,6 +726,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - ![stars](https://img.shields.io/github/stars/garethr/docker-label-inspector?style=flat-square&color=ccc) [Docker Label Inspector](https://github.com/garethr/docker-label-inspector) - Lint and validate Dockerfile labels
 - ![stars](https://img.shields.io/github/stars/lukasmartinelli/hadolint?style=flat-square&color=ccc) [Haskell Dockerfile Linter](https://github.com/lukasmartinelli/hadolint) - A smarter Dockerfile linter that helpsyou build best practice Docker images
 - ![stars](https://img.shields.io/github/stars/zegl/kube-score?style=flat-square&color=ccc) [kube-score](https://kube-score.com/) - Static code analysis of your Kubernetes object definitions.
+- ![stars](https://img.shields.io/github/stars/instrumenta/kubeval?style=flat-square&color=ccc) [kubeval](https://kubeval.instrumenta.dev/) - Validates your Kubernetes configuration files and supports multiple Kubernetes versions.
 
 
 <h2 id="deno">Deno</h2>
