@@ -26,7 +26,7 @@
 - name: After the Deadline
   homepage: "https://afterthedeadline.com/"
   source: "https://open.afterthedeadline.com/"
-  description: "spell, style and grammar checker."
+  description: "Spell, style and grammar checker."
   tags:
     - writing
   deprecated: true
@@ -219,13 +219,13 @@
 - name: bandit
   homepage: "https://bandit.readthedocs.io/en/latest/"
   source: "https://github.com/PyCQA/bandit"
-  description: a tool to find common security issues in Python code.
+  description: A tool to find common security issues in Python code.
   tags:
     - python
 - name: bellybutton
   homepage: "https://github.com/hchasestevens/bellybutton"
   source: "https://github.com/hchasestevens/bellybutton"
-  description: a linting engine supporting custom project-specific rules.
+  description: A linting engine supporting custom project-specific rules.
   tags:
     - python
 - name: BinSkim
@@ -292,7 +292,7 @@
 - name: CBMC
   homepage: "http://www.cprover.org/cbmc/"
   source: "https://github.com/diffblue/cbmc/"
-  description: "bounded model-checker for C programs, user-defined assertions, standard assertions, several coverage metric analyses."
+  description: "Bounded model-checker for C programs, user-defined assertions, standard assertions, several coverage metric analyses."
   tags:
     - c
     - cpp
@@ -358,7 +358,7 @@
 - name: checkstyle
   homepage: "https://checkstyle.org/"
   source: "https://github.com/checkstyle/checkstyle"
-  description: checking Java source code for adherence to a Code Standard or set of validation rules (best practices).
+  description: Checking Java source code for adherence to a Code Standard or set of validation rules (best practices).
   tags:
     - java
 - name: ChkTeX
@@ -370,7 +370,7 @@
 - name: ciocheck
   homepage: "https://github.com/ContinuumIO/ciocheck"
   source: "https://github.com/ContinuumIO/ciocheck"
-  description: "linter, formatter and test suite helper. As a linter, it is a wrapper around `pep8`, `pydocstyle`, `flake8`, and `pylint`."
+  description: "Linter, formatter and test suite helper. As a linter, it is a wrapper around `pep8`, `pydocstyle`, `flake8`, and `pylint`."
   tags:
     - python
     - meta
@@ -378,13 +378,13 @@
 - name: ck
   homepage: "https://github.com/mauricioaniche/ck"
   source: "https://github.com/mauricioaniche/ck"
-  description: calculates Chidamber and Kemerer object-oriented metrics by processing the source Java files.
+  description: Calculates Chidamber and Kemerer object-oriented metrics by processing the source Java files.
   tags:
     - java
 - name: ckjm
   homepage: "http://www.spinellis.gr/sw/ckjm/"
   source: "https://github.com/dspinellis/ckjm"
-  description: calculates Chidamber and Kemerer object-oriented metrics by processing the bytecode of compiled Java files.
+  description: Calculates Chidamber and Kemerer object-oriented metrics by processing the bytecode of compiled Java files.
   tags:
     - java
 - name: clair
@@ -403,7 +403,7 @@
 - name: ClassGraph
   homepage: "https://github.com/classgraph/classgraph"
   source: "https://github.com/classgraph/classgraph"
-  description: a classpath and module path scanner for querying or visualizing class metadata or class relatedness.
+  description: A classpath and module path scanner for querying or visualizing class metadata or class relatedness.
   tags:
     - java
     - groovy
@@ -423,7 +423,7 @@
 - name: ClosureLinter
   homepage: "https://github.com/google/closure-linter"
   source: "https://github.com/google/closure-linter"
-  description: "ensures that all of your project's JavaScript code follows the guidelines in the Google JavaScript Style Guide. It can also automatically fix many common errors."
+  description: "Ensures that all of your project's JavaScript code follows the guidelines in the Google JavaScript Style Guide. It can also automatically fix many common errors."
   tags:
     - javascript
   deprecated: true
@@ -513,7 +513,7 @@
 - name: codechecker
   homepage: "https://codechecker.readthedocs.io/en/latest/"
   source: "https://github.com/Ericsson/codechecker"
-  description: a defect database and viewer extension for the Clang Static Analyzer with web GUI.
+  description: A defect database and viewer extension for the Clang Static Analyzer with web GUI.
   tags:
     - buildtool
     - c
@@ -566,7 +566,7 @@
 - name: CodeNarc
   homepage: "https://codenarc.github.io/CodeNarc/"
   source: "https://github.com/CodeNarc/CodeNarc"
-  description: "a static analysis tool for Groovy source code, enabling monitoring and enforcement of many coding standards and best practices."
+  description: "A static analysis tool for Groovy source code, enabling monitoring and enforcement of many coding standards and best practices."
   tags:
     - groovy
 - name: CodePatrol
@@ -582,7 +582,7 @@
   proprietary: true
 - name: Codepeer
   homepage: "http://www.adacore.com/codepeer"
-  description: detects run-time and logic errors.
+  description: Detects run-time and logic errors.
   tags:
     - ada
   proprietary: true
@@ -622,7 +622,7 @@
 - name: codespell
   homepage: "https://github.com/codespell-project/codespell"
   source: "https://github.com/codespell-project/codespell"
-  description: check code for common misspellings.
+  description: Check code for common misspellings.
   tags:
     - writing
 - name: coffeelint
@@ -634,13 +634,13 @@
 - name: CogniCrypt
   homepage: "https://www.eclipse.org/cognicrypt/"
   source: "https://github.com/eclipse-cognicrypt/CogniCrypt"
-  description: checks Java source and byte code for incorrect uses of cryptographic APIs.
+  description: Checks Java source and byte code for incorrect uses of cryptographic APIs.
   tags:
     - java
 - name: cohesion
   homepage: "https://github.com/mschwager/cohesion"
   source: "https://github.com/mschwager/cohesion"
-  description: a tool for measuring Python class cohesion.
+  description: A tool for measuring Python class cohesion.
   tags:
     - python
 - name: collector
@@ -690,7 +690,7 @@
 - name: cppcheck
   homepage: "http://cppcheck.sourceforge.net/"
   source: "https://github.com/danmar/cppcheck"
-  description: static analysis of C/C++ code.
+  description: Static analysis of C/C++ code.
   tags:
     - c
     - cpp
@@ -705,7 +705,7 @@
 - name: cpplint
   homepage: "https://github.com/google/styleguide/tree/gh-pages/cpplint"
   source: "https://github.com/google/styleguide/tree/gh-pages/cpplint"
-  description: "automated C++ checker that follows Google's style guide."
+  description: "Automated C++ checker that follows Google's style guide."
   tags:
     - c
     - cpp
@@ -722,7 +722,7 @@
 - name: cqmetrics
   homepage: "https://github.com/dspinellis/cqmetrics"
   source: "https://github.com/dspinellis/cqmetrics"
-  description: quality metrics for C code.
+  description: Quality metrics for C code.
   tags:
     - c
     - cpp
@@ -741,7 +741,7 @@
 - name: CScout
   homepage: "https://www.spinellis.gr/cscout/"
   source: "https://github.com/dspinellis/cscout"
-  description: complexity and quality metrics for for C and C preprocessor code.
+  description: Complexity and quality metrics for for C and C preprocessor code.
   tags:
     - c
     - cpp
@@ -760,7 +760,7 @@
 - name: CSScomb
   homepage: "https://github.com/csscomb/csscomb.js"
   source: "https://github.com/csscomb/csscomb.js"
-  description: a coding style formatter for CSS. Supports own configurations to make style sheets beautiful and consistent.
+  description: A coding style formatter for CSS. Supports own configurations to make style sheets beautiful and consistent.
   tags:
     - css
     - formatter
@@ -803,7 +803,7 @@
 - name: dawnscanner
   homepage: "https://github.com/thesp0nge/dawnscanner"
   source: "https://github.com/thesp0nge/dawnscanner"
-  description: "a static analysis security scanner for ruby written web applications. It supports Sinatra, Padrino and Ruby on Rails frameworks."
+  description: "A static analysis security scanner for ruby written web applications. It supports Sinatra, Padrino and Ruby on Rails frameworks."
   tags:
     - ruby
     - rails
@@ -891,7 +891,7 @@
 - name: DesignPatternDetector
   homepage: "https://github.com/Halleck45/DesignPatternDetector"
   source: "https://github.com/Halleck45/DesignPatternDetector"
-  description: detection of design patterns in PHP code.
+  description: Detection of design patterns in PHP code.
   tags:
     - php
 - name: detekt
@@ -928,7 +928,7 @@
 - name: Dlint
   homepage: "https://github.com/dlint-py/dlint"
   source: "https://github.com/dlint-py/dlint"
-  description: a tool for ensuring Python code is secure.
+  description: A tool for ensuring Python code is secure.
   tags:
     - python
 - name: Docker Label Inspector
@@ -1068,14 +1068,14 @@
 - name: flake8
   homepage: "https://github.com/PyCQA/flake8"
   source: "https://github.com/PyCQA/flake8"
-  description: "a wrapper around `pyflakes`, `pycodestyle` and `mccabe`."
+  description: "A wrapper around `pyflakes`, `pycodestyle` and `mccabe`."
   tags:
     - meta
     - python
 - name: flawfinder
   homepage: "https://www.dwheeler.com/flawfinder/"
   source: "https://github.com/david-a-wheeler/flawfinder"
-  description: finds possible security weaknesses.
+  description: Finds possible security weaknesses.
   tags:
     - c
     - cpp
@@ -1094,7 +1094,7 @@
 - name: flint++
   homepage: "https://github.com/JossWhittle/FlintPlusPlus"
   source: "https://github.com/JossWhittle/FlintPlusPlus"
-  description: "cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook."
+  description: "Cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook."
   tags:
     - c
     - cpp
@@ -1119,7 +1119,7 @@
 - name: FlowDroid
   homepage: "https://github.com/secure-software-engineering/FlowDroid"
   source: "https://github.com/secure-software-engineering/FlowDroid"
-  description: static taint analysis tool for Android applications.
+  description: Static taint analysis tool for Android applications.
   tags:
     - mobile
 - name: foodcritic
@@ -1167,7 +1167,7 @@
 - name: Frama-C
   homepage: "http://frama-c.com/"
   source: "http://frama-c.com/download.html"
-  description: a sound and extensible static analyzer for C code.
+  description: A sound and extensible static analyzer for C code.
   tags:
     - c
     - cpp
@@ -1186,7 +1186,7 @@
 - name: gawk --lint
   homepage: "https://www.gnu.org/software/gawk/manual/html_node/Options.html"
   source: "https://www.gnu.org/software/gawk/manual/html_node/Options.html"
-  description: warns about constructs that are dubious or nonportable to other awk implementations.
+  description: Warns about constructs that are dubious or nonportable to other awk implementations.
   tags:
     - awk
 - name: Gendarme
@@ -1223,7 +1223,7 @@
 - name: gixy
   homepage: "https://github.com/yandex/gixy"
   source: "https://github.com/yandex/gixy"
-  description: a tool to analyze Nginx configuration. The main goal is to prevent misconfiguration and automate flaw detection.
+  description: A tool to analyze Nginx configuration. The main goal is to prevent misconfiguration and automate flaw detection.
   tags:
     - configfile
 - name: Go Meta Linter
@@ -1330,7 +1330,7 @@
 - name: goreporter
   homepage: "https://github.com/360EntSecGroup-Skylar/goreporter"
   source: "https://github.com/360EntSecGroup-Skylar/goreporter"
-  description: concurrently runs many linters and normalises their output to a report.
+  description: Concurrently runs many linters and normalises their output to a report.
   tags:
     - meta
     - go
@@ -1375,7 +1375,7 @@
 - name: GrumPHP
   homepage: "https://github.com/phpro/grumphp"
   source: "https://github.com/phpro/grumphp"
-  description: checks code on every commit.
+  description: Checks code on every commit.
   tags:
     - php
 - name: haml-lint
@@ -1477,7 +1477,7 @@
 - name: IKOS
   homepage: "https://github.com/nasa-sw-vnv/ikos"
   source: "https://github.com/nasa-sw-vnv/ikos"
-  description: a sound static analyzer for C/C++ code based on LLVM.
+  description: A sound static analyzer for C/C++ code based on LLVM.
   tags:
     - c
     - cpp
@@ -1494,20 +1494,20 @@
 - name: include-gardener
   homepage: "https://github.com/feddischson/include_gardener"
   source: "https://github.com/feddischson/include_gardener"
-  description: "a multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files."
+  description: "A multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files."
   tags:
     - c
     - cpp
 - name: include-gardener
   homepage: "https://github.com/feddischson/include_gardener"
   source: "https://github.com/feddischson/include_gardener"
-  description: "a multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files."
+  description: "A multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files."
   tags:
     - python
 - name: include-gardener
   homepage: "https://github.com/feddischson/include_gardener"
   source: "https://github.com/feddischson/include_gardener"
-  description: "a multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files."
+  description: "A multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files."
   tags:
     - ruby
 - name: ineffassign
@@ -1566,20 +1566,20 @@
 - name: JBMC
   homepage: "https://www.cprover.org/jbmc/"
   source: "https://github.com/peterschrammel/cbmc/releases/tag/jbmc-5.8-cav18"
-  description: "bounded model-checker for Java (bytecode), verifies user-defined assertions, standard assertions, several coverage metric analyses."
+  description: "Bounded model-checker for Java (bytecode), verifies user-defined assertions, standard assertions, several coverage metric analyses."
   tags:
     - java
 - name: jedi
   homepage: "https://jedi.readthedocs.io/en/latest/"
   source: "https://github.com/davidhalter/jedi"
-  description: autocompletion/static analysis library for Python.
+  description: Autocompletion/static analysis library for Python.
   tags:
     - python
 - name: jshint
   homepage: "https://jshint.com/about/"
   source: "https://github.com/jshint/jshint"
   discussion: "https://github.com/analysis-tools-dev/static-analysis/issues/223"
-  description: "detect errors and potential problems in JavaScript code and enforce your team's coding conventions."
+  description: "Detect errors and potential problems in JavaScript code and enforce your team's coding conventions."
   tags:
     - javascript
 - name: JSLint
@@ -1592,7 +1592,7 @@
 - name: JSPrime
   homepage: "http://dpnishant.github.io/jsprime/"
   source: "https://github.com/dpnishant/jsprime"
-  description: static security analysis tool.
+  description: Static security analysis tool.
   tags:
     - javascript
   deprecated: true
@@ -1687,7 +1687,7 @@
   proprietary: true
 - name: LDRA
   homepage: "https://ldra.com"
-  description: "a tool suite including static analysis (TBVISION) to various standards including MISRA C & C++, JSF++ AV, CWE, CERT C, CERT C++ & Custom Rules."
+  description: "A tool suite including static analysis (TBVISION) to various standards including MISRA C & C++, JSF++ AV, CWE, CERT C, CERT C++ & Custom Rules."
   tags:
     - c
     - cpp
@@ -1732,7 +1732,7 @@
 - name: linty fresh
   homepage: "https://github.com/lyft/linty_fresh"
   source: "https://github.com/lyft/linty_fresh"
-  description: parse lint errors and report them to Github as comments on a pull request.
+  description: Parse lint errors and report them to Github as comments on a pull request.
   tags:
     - python
 - name: lll
@@ -1768,7 +1768,7 @@
 - name: mccabe
   homepage: "https://pypi.org/project/mccabe/"
   source: "https://github.com/PyCQA/mccabe"
-  description: check McCabe complexity.
+  description: Check McCabe complexity.
   tags:
     - python
 - name: mdl
@@ -1798,7 +1798,7 @@
 - name: Misspelled Words In Context
   homepage: "http://jwilk.net/software/mwic"
   source: "https://github.com/jwilk/mwic"
-  description: a spell-checker that groups possible misspellings and shows them in their contexts.
+  description: A spell-checker that groups possible misspellings and shows them in their contexts.
   tags:
     - writing
 - name: mlint
@@ -1810,13 +1810,13 @@
 - name: Mondrian
   homepage: "http://trismegiste.github.io/Mondrian/"
   source: "https://github.com/Trismegiste/Mondrian"
-  description: a set of static analysis and refactoring tools which use graph theory.
+  description: A set of static analysis and refactoring tools which use graph theory.
   tags:
     - php
 - name: multilint
   homepage: "https://github.com/adamchainz/multilint"
   source: "https://github.com/adamchainz/multilint"
-  description: "a wrapper around `flake8`, `isort` and `modernize`."
+  description: "A wrapper around `flake8`, `isort` and `modernize`."
   tags:
     - python
     - meta
@@ -1959,7 +1959,7 @@
 - name: phan
   homepage: "https://github.com/phan/phan/wiki"
   source: "https://github.com/etsy/phan"
-  description: a modern static analyzer from etsy.
+  description: A modern static analyzer from etsy.
   tags:
     - php
 - name: Phasar
@@ -2035,14 +2035,14 @@
 - name: php7mar
   homepage: "https://github.com/Alexia/php7mar"
   source: "https://github.com/Alexia/php7mar"
-  description: assist developers in porting their code quickly to PHP 7.
+  description: Assist developers in porting their code quickly to PHP 7.
   tags:
     - php
   deprecated: true
 - name: PHP_CodeSniffer
   homepage: "https://pear.php.net/package/PHP_CodeSniffer"
   source: "https://github.com/squizlabs/PHP_CodeSniffer"
-  description: detects violations of a defined set of coding standards.
+  description: Detects violations of a defined set of coding standards.
   tags:
     - php
 - name: phpca
@@ -2073,7 +2073,7 @@
 - name: PhpDependencyAnalysis
   homepage: "https://mamuz.github.io/PhpDependencyAnalysis/"
   source: "https://github.com/mamuz/PhpDependencyAnalysis"
-  description: builds a dependency graph for a project.
+  description: Builds a dependency graph for a project.
   tags:
     - php
 - name: phpdoc-to-typehint
@@ -2091,7 +2091,7 @@
 - name: PHPMD
   homepage: "https://phpmd.org/"
   source: "https://github.com/phpmd/phpmd"
-  description: finds possible bugs in your code.
+  description: Finds possible bugs in your code.
   tags:
     - php
 - name: PhpMetrics
@@ -2245,13 +2245,13 @@
 - name: proselint
   homepage: "http://proselint.com/"
   source: "https://github.com/amperser/proselint/"
-  description: a linter for English prose with a focus on writing style instead of grammar.
+  description: A linter for English prose with a focus on writing style instead of grammar.
   tags:
     - writing
 - name: prospector
   homepage: "https://github.com/PyCQA/prospector"
   source: "https://github.com/PyCQA/prospector"
-  description: "a wrapper around `pylint`, `pep8`, `mccabe` and others."
+  description: "A wrapper around `pylint`, `pep8`, `mccabe` and others."
   tags:
     - python
     - meta
@@ -2301,7 +2301,7 @@
     - configmanagement
 - name: PVS-Studio
   homepage: "https://www.viva64.com/en/pvs-studio/"
-  description: "a ([conditionally free](https://www.viva64.com/en/b/0614/) for FOSS and individual developers) static analysis of C, C++, C# and Java code. For advertising purposes [you can propose a large FOSS project for analysis by PVS employees](https://github.com/viva64/pvs-studio-check-list). Supports CWE mapping, MISRA and CERT coding standards."
+  description: "A ([conditionally free](https://www.viva64.com/en/b/0614/) for FOSS and individual developers) static analysis of C, C++, C# and Java code. For advertising purposes [you can propose a large FOSS project for analysis by PVS employees](https://github.com/viva64/pvs-studio-check-list). Supports CWE mapping, MISRA and CERT coding standards."
   tags:
     - c
     - cpp
@@ -2311,14 +2311,14 @@
 - name: py-find-injection
   homepage: "https://github.com/uber/py-find-injection"
   source: "https://github.com/uber/py-find-injection"
-  description: find SQL injection vulnerabilities in Python code.
+  description: Find SQL injection vulnerabilities in Python code.
   tags:
     - python
   deprecated: true
 - name: pycodestyle
   homepage: "https://pycodestyle.pycqa.org/en/latest/"
   source: "https://github.com/PyCQA/pycodestyle"
-  description: "(formerly `pep8`) check Python code against some of the style conventions in PEP 8."
+  description: "(Formerly `pep8`) Check Python code against some of the style conventions in PEP 8."
   tags:
     - python
 - name: pydocstyle
@@ -2336,7 +2336,7 @@
 - name: pylint
   homepage: "http://pylint.pycqa.org/en/latest/"
   source: "https://github.com/PyCQA/pylint"
-  description: "looks for programming errors, helps enforcing a coding standard and sniffs for some code smells. It additionally includes `pyreverse` (an UML diagram generator) and `symilar` (a similarities checker)."
+  description: "Looks for programming errors, helps enforcing a coding standard and sniffs for some code smells. It additionally includes `pyreverse` (an UML diagram generator) and `symilar` (a similarities checker)."
   tags:
     - python
 - name: pyre-check
@@ -2385,7 +2385,7 @@
 - name: quality
   homepage: "https://github.com/jden/quality"
   source: "https://github.com/jden/quality"
-  description: zero configuration code and module linting.
+  description: Zero configuration code and module linting.
   tags:
     - javascript
   deprecated: true
@@ -2562,7 +2562,7 @@
 - name: rustfix
   homepage: "https://github.com/rust-lang/rustfix"
   source: "https://github.com/rust-lang/rustfix"
-  description: "read and apply the suggestions made by rustc (and third-party lints, like those offered by clippy)."
+  description: "Read and apply the suggestions made by rustc (and third-party lints, like those offered by clippy)."
   tags:
     - rust
 - name: safesql
@@ -2875,7 +2875,7 @@
 - name: STOKE
   homepage: "http://stoke.stanford.edu/"
   source: "https://github.com/StanfordPL/stoke"
-  description: a programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations.
+  description: A programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations.
   tags:
     - asm
 - name: structcheck
@@ -2900,7 +2900,7 @@
 - name: SVF
   homepage: "http://svf-tools.github.io/SVF/"
   source: "https://github.com/SVF-tools/SVF"
-  description: a static tool that enables scalable and precise interprocedural dependence analysis for C and C++ programs.
+  description: A static tool that enables scalable and precise interprocedural dependence analysis for C and C++ programs.
   tags:
     - c
     - cpp
@@ -3173,7 +3173,7 @@
 - name: WALA
   homepage: "http://wala.sourceforge.net"
   source: "https://github.com/wala/WALA"
-  description: static analysis capabilities for Java bytecode and related languages and for JavaScript.
+  description: Static analysis capabilities for Java bytecode and related languages and for JavaScript.
   tags:
     - javascript
     - java
@@ -3186,7 +3186,7 @@
 - name: WartRemover
   homepage: "https://www.wartremover.org/"
   source: "https://github.com/puffnfresh/wartremover"
-  description: a flexible Scala code linting tool.
+  description: A flexible Scala code linting tool.
   tags:
     - scala
 - name: Weeder
@@ -3265,7 +3265,7 @@
 - name: xenon
   homepage: "https://xenon.readthedocs.io/"
   source: "https://github.com/rubik/xenon"
-  description: "monitor code complexity using [`radon`](https://github.com/rubik/radon)."
+  description: "Monitor code complexity using [`radon`](https://github.com/rubik/radon)."
   tags:
     - python
 - name: xo
