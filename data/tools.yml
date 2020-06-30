@@ -2176,7 +2176,7 @@
   proprietary: true
 - name: Polyspace for Ada
   homepage: "https://www.mathworks.com/products/polyspace-ada.html"
-  description: "provide code verification that proves the absence of overflow, divide-by-zero, out-of-bounds array access, and certain other run-time errors in source code."
+  description: "Provide code verification that proves the absence of overflow, divide-by-zero, out-of-bounds array access, and certain other run-time errors in source code."
   tags:
     - ada
   proprietary: true
