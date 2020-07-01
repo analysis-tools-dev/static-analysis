@@ -2106,6 +2106,12 @@
   description: Analyzes PHP source code to generate documentation.
   tags:
     - php
+- name: phploc
+  homepage: "https://github.com/sebastianbergmann/phploc"
+  source: "https://github.com/sebastianbergmann/phploc"
+  description: A tool for quickly measuring the size and analyzing the structure of a PHP project.
+  tags:
+    - php
 - name: PHPMD
   homepage: "https://phpmd.org/"
   source: "https://github.com/phpmd/phpmd"
