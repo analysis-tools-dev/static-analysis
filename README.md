@@ -741,6 +741,9 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="html">HTML</h2>
 
+- ![stars](https://img.shields.io/github/stars/twbs/bootlint?style=flat-square&color=ccc) [Bootlint](https://github.com/twbs/bootlint) - An HTML linter for Bootstrap projects.
+- ![stars](https://img.shields.io/github/stars/twbs/grunt-bootlint?style=flat-square&color=ccc) [grunt-bootlint](https://github.com/twbs/grunt-bootlint) - A Grunt wrapper for [Bootlint](https://github.com/twbs/bootlint), the HTML linter for Bootstrap projects.
+- ![stars](https://img.shields.io/github/stars/tschortsch/gulp-bootlint?style=flat-square&color=ccc) [gulp-bootlint](https://github.com/tschortsch/gulp-bootlint) - A gulp wrapper for [Bootlint](https://github.com/twbs/bootlint), the HTML linter for Bootstrap projects.
 - ![stars](https://img.shields.io/github/stars/philipwalton/html-inspector?style=flat-square&color=ccc) [HTML Inspector](https://github.com/philipwalton/html-inspector) :warning: - HTML Inspector is a code quality tool to help you and your team write better markup.
 - ![stars](https://img.shields.io/github/stars/htacg/tidy-html5?style=flat-square&color=ccc) [HTML Tidy](http://www.html-tidy.org/) - Corrects and cleans up HTML and XML documents by fixing markup errors and upgrading legacy code to modern standards.
 - ![stars](https://img.shields.io/github/stars/yaniswang/HTMLHint?style=flat-square&color=ccc) [HTMLHint](https://htmlhint.com/) - A Static Code Analysis Tool for HTML.
