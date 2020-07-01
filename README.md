@@ -409,6 +409,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - ![stars](https://img.shields.io/github/stars/mamuz/PhpDependencyAnalysis?style=flat-square&color=ccc) [PhpDependencyAnalysis](https://mamuz.github.io/PhpDependencyAnalysis/) - Builds a dependency graph for a project.
 - ![stars](https://img.shields.io/github/stars/dunglas/phpdoc-to-typehint?style=flat-square&color=ccc) [phpdoc-to-typehint](https://github.com/dunglas/phpdoc-to-typehint) - Add scalar type hints and return types to existing PHP projects using PHPDoc annotations.
 - ![stars](https://img.shields.io/github/stars/phpDocumentor/phpDocumentor?style=flat-square&color=ccc) [phpDocumentor](https://www.phpdoc.org/) - Analyzes PHP source code to generate documentation.
+- ![stars](https://img.shields.io/github/stars/sebastianbergmann/phploc?style=flat-square&color=ccc) [phploc](https://github.com/sebastianbergmann/phploc) - A tool for quickly measuring the size and analyzing the structure of a PHP project.
 - ![stars](https://img.shields.io/github/stars/phpmd/phpmd?style=flat-square&color=ccc) [PHPMD](https://phpmd.org/) - Finds possible bugs in your code.
 - ![stars](https://img.shields.io/github/stars/phpmetrics/PhpMetrics?style=flat-square&color=ccc) [PhpMetrics](http://www.phpmetrics.org/) - Calculates and visualizes various code quality metrics.
 - ![stars](https://img.shields.io/github/stars/povils/phpmnd?style=flat-square&color=ccc) [phpmnd](https://github.com/povils/phpmnd) - Helps to detect magic numbers.
