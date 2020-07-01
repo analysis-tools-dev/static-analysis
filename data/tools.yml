@@ -247,6 +247,12 @@
   description: Checks whether HTTP response body is closed.
   tags:
     - go
+- name: Bootlint
+  homepage: "https://github.com/twbs/bootlint"
+  source: "https://github.com/twbs/bootlint"
+  description: An HTML linter for Bootstrap projects.
+  tags:
+    - html
 - name: brakeman
   homepage: "https://brakemanscanner.org/"
   source: "https://github.com/presidentbeef/brakeman"
@@ -1378,6 +1384,18 @@
   description: Checks code on every commit.
   tags:
     - php
+- name: grunt-bootlint
+  homepage: "https://github.com/twbs/grunt-bootlint"
+  source: "https://github.com/twbs/grunt-bootlint"
+  description: A Grunt wrapper for [Bootlint](https://github.com/twbs/bootlint), the HTML linter for Bootstrap projects.
+  tags:
+    - html
+- name: gulp-bootlint
+  homepage: "https://github.com/tschortsch/gulp-bootlint"
+  source: "https://github.com/tschortsch/gulp-bootlint"
+  description: A gulp wrapper for [Bootlint](https://github.com/twbs/bootlint), the HTML linter for Bootstrap projects.
+  tags:
+    - html
 - name: haml-lint
   homepage: "https://github.com/sds/haml-lint"
   source: "https://github.com/sds/haml-lint"
