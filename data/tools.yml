@@ -2774,6 +2774,12 @@
   description: Security-focused static analysis for the Phoenix Framework.
   tags:
     - elixir
+- name: solhint
+  homepage: "https://protofire.github.io/solhint/"
+  source: "https://github.com/protofire/solhint"
+  description: Solhint is an open source project created by https://protofire.io. Its goal is to provide a linting utility for Solidity code. 
+  tags:
+    - solidity
 - name: solium
   homepage: "https://ethlint.readthedocs.io/en/latest/"
   source: "https://github.com/duaraghav8/Solium"
