@@ -529,6 +529,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="solidity">Solidity</h2>
 
 - ![stars](https://img.shields.io/github/stars/trailofbits/slither?style=flat-square&color=ccc) [slither](https://github.com/trailofbits/slither) - Static analysis framework that runs a suite of vulnerability detectors, prints visual information about contract details, and provides an API to easily write custom analyses.
+- ![stars](https://img.shields.io/github/stars/protofire/solhint?style=flat-square&color=ccc) [solhint](https://protofire.github.io/solhint/) - Solhint is an open source project created by https://protofire.io. Its goal is to provide a linting utility for Solidity code.
 - ![stars](https://img.shields.io/github/stars/duaraghav8/Solium?style=flat-square&color=ccc) [solium](https://ethlint.readthedocs.io/en/latest/) - Solium is a linter to identify and fix style and security issues in Solidity smart contracts.
 
 
