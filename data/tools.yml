@@ -3137,8 +3137,8 @@
     - service
   proprietary: true
 - name: vale
-  homepage: "https://github.com/ValeLint/vale"
-  source: "https://errata-ai.gitbook.io/vale/"
+  homepage: "https://errata-ai.gitbook.io/vale/"
+  source: "https://github.com/ValeLint/vale"
   description: "A customizable, syntax-aware linter for prose."
   tags:
     - writing
