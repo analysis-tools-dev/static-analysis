@@ -1442,6 +1442,7 @@
     - java
     - kotlin
     - scala
+  deprecated: true
 - name: Hound CI
   homepage: "https://houndci.com/"
   source: "https://github.com/houndci/hound"
