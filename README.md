@@ -837,7 +837,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - ![stars](https://img.shields.io/github/stars/vlajos/misspell-fixer?style=flat-square&color=ccc) [misspell-fixer](https://github.com/vlajos/misspell-fixer) - Quick tool for fixing common misspellings, typos in source code.
 - ![stars](https://img.shields.io/github/stars/jwilk/mwic?style=flat-square&color=ccc) [Misspelled Words In Context](http://jwilk.net/software/mwic) - A spell-checker that groups possible misspellings and shows them in their contexts.
 - ![stars](https://img.shields.io/github/stars/amperser/proselint?style=flat-square&color=ccc) [proselint](http://proselint.com/) - A linter for English prose with a focus on writing style instead of grammar.
-- [vale](https://github.com/ValeLint/vale) - A customizable, syntax-aware linter for prose.
+- ![stars](https://img.shields.io/github/stars/ValeLint/vale?style=flat-square&color=ccc) [vale](https://errata-ai.gitbook.io/vale/) - A customizable, syntax-aware linter for prose.
 - ![stars](https://img.shields.io/github/stars/btford/write-good?style=flat-square&color=ccc) [write-good](https://github.com/btford/write-good) - A linter with a focus on eliminating "weasel words".
 
 
