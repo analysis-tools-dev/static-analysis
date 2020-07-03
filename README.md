@@ -378,6 +378,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="php">PHP</h2>
 
+- ![stars](https://img.shields.io/github/stars/bmitch/churn-php?style=flat-square&color=ccc) [churn-php](https://github.com/bmitch/churn-php) :warning: - Helps discover good candidates for refactoring.
 - ![stars](https://img.shields.io/github/stars/mihaeu/dephpend?style=flat-square&color=ccc) [dephpend](https://dephpend.com/) - Dependency analysis tool.
 - ![stars](https://img.shields.io/github/stars/sensiolabs-de/deprecation-detector?style=flat-square&color=ccc) [deprecation-detector](https://github.com/sensiolabs-de/deprecation-detector) - Finds usages of deprecated (Symfony) code.
 - ![stars](https://img.shields.io/github/stars/sensiolabs-de/deptrac?style=flat-square&color=ccc) [deptrac](https://github.com/sensiolabs-de/deptrac) - Enforce rules for dependencies between software layers.
