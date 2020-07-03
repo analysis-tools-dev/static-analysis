@@ -373,6 +373,13 @@
   description: A linter for LaTex which catches some typographic errors LaTeX oversees.
   tags:
     - latex
+- name: churn-php
+  homepage: "https://github.com/bmitch/churn-php"
+  source: "https://github.com/bmitch/churn-php"
+  description: Helps discover good candidates for refactoring.
+  tags:
+    - php
+  deprecated: true
 - name: ciocheck
   homepage: "https://github.com/ContinuumIO/ciocheck"
   source: "https://github.com/ContinuumIO/ciocheck"
