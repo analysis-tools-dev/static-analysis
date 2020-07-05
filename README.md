@@ -399,6 +399,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - ![stars](https://img.shields.io/github/stars/QafooLabs/php-refactoring-browser?style=flat-square&color=ccc) [PHP Refactoring Browser](http://qafoolabs.github.io/php-refactoring-browser/) - Refactoring helper.
 - ![stars](https://img.shields.io/github/stars/tomzx/php-semver-checker?style=flat-square&color=ccc) [PHP Semantic Versioning Checker](https://github.com/tomzx/php-semver-checker) - Suggests a next version according to semantic versioning.
 - ![stars](https://img.shields.io/github/stars/nikic/PHP-Parser?style=flat-square&color=ccc) [PHP-Parser](https://github.com/nikic/PHP-Parser) - A PHP parser written in PHP.
+- ![stars](https://img.shields.io/github/stars/mekras/php-speller?style=flat-square&color=ccc) [php-speller](https://github.com/mekras/php-speller) - PHP spell check library.
 - ![stars](https://img.shields.io/github/stars/Andrewsville/PHP-Token-Reflection?style=flat-square&color=ccc) [PHP-Token-Reflection](https://github.com/Andrewsville/PHP-Token-Reflection) - Library emulating the PHP internal reflection.
 - ![stars](https://img.shields.io/github/stars/sstalle/php7cc?style=flat-square&color=ccc) [php7cc](https://github.com/sstalle/php7cc) :warning: - PHP 7 Compatibility Checker.
 - ![stars](https://img.shields.io/github/stars/Alexia/php7mar?style=flat-square&color=ccc) [php7mar](https://github.com/Alexia/php7mar) :warning: - Assist developers in porting their code quickly to PHP 7.
