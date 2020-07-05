@@ -2162,6 +2162,12 @@
   description: Static analysis tool for PHP.
   tags:
     - php
+- name: php-speller
+  homepage: "https://github.com/mekras/php-speller"
+  source: "https://github.com/mekras/php-speller"
+  description: PHP spell check library.
+  tags:
+    - php
 - name: PHPStan
   homepage: "https://phpstan.org/"
   source: "https://github.com/phpstan/phpstan"
