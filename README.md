@@ -354,6 +354,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - ![stars](https://img.shields.io/github/stars/douglascrockford/JSLint?style=flat-square&color=ccc) [JSLint](https://github.com/douglascrockford/JSLint) [:information_source:](https://github.com/analysis-tools-dev/static-analysis/issues/223) - The JavaScript Code Quality Tool.
 - ![stars](https://img.shields.io/github/stars/dpnishant/jsprime?style=flat-square&color=ccc) [JSPrime](http://dpnishant.github.io/jsprime/) :warning: - Static security analysis tool.
 - ![stars](https://img.shields.io/github/stars/es-analysis/plato?style=flat-square&color=ccc) [plato](https://github.com/es-analysis/plato) :warning: - Visualize JavaScript source complexity.
+- ![stars](https://img.shields.io/github/stars/the-simian/es6-plato?style=flat-square&color=ccc) [es6-plato](https://github.com/the-simian/es6-plato) - Visualize JavaScript (ES6) source complexity.
 - ![stars](https://img.shields.io/github/stars/jden/quality?style=flat-square&color=ccc) [quality](https://github.com/jden/quality) :warning: - Zero configuration code and module linting.
 - ![stars](https://img.shields.io/github/stars/RetireJS/retire.js?style=flat-square&color=ccc) [retire.js](http://retirejs.github.io/retire.js/) - Scanner detecting the use of JavaScript libraries with known vulnerabilities.
 - ![stars](https://img.shields.io/github/stars/ternjs/tern?style=flat-square&color=ccc) [tern](https://ternjs.net/) - A JavaScript code analyzer for deep, cross-editor language support.
