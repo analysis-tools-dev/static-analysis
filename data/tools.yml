@@ -2181,6 +2181,12 @@
   tags:
     - javascript
   deprecated: true
+- name: es6-plato
+  homepage: "https://github.com/the-simian/es6-plato"
+  source: "https://github.com/the-simian/es6-plato"
+  description: Visualize JavaScript (ES6) source complexity.
+  tags:
+    - javascript
 - name: PMD
   homepage: "https://pmd.github.io/"
   source: "https://github.com/pmd/pmd"
