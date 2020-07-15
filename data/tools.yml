@@ -1214,6 +1214,31 @@
   description: A linter for the Gherkin-Syntax written in Javascript.
   tags:
     - gherkin
+- name: ShiftLeft Scan
+  homepage: "https://slscan.io"
+  source: https://github.com/ShiftLeftSecurity/sast-scan
+  description: Scan is a free open-source DevSecOps platform for detecting security issues in source code and dependencies. It supports a broad range of languages and CI/CD pipelines.
+  tags:
+    - apex 	
+    - shell
+    - go 	
+    - groovy 	
+    - ide
+    - java 	
+    - jsp 	
+    - json 	
+    - kotlin 	
+    - scala 	
+    - container
+    - nodejs 	
+    - configmanagement
+    - php 	
+    - plsql 	
+    - python 	
+    - ruby 	
+    - rust 	
+    - vbasic
+    - yaml 	
 - name: Super-Linter
   homepage: "https://github.com/github/super-linter"
   source: "https://github.com/github/super-linter"
