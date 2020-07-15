@@ -7,13 +7,23 @@
 This repository lists **static analysis tools** for all programming languages, build tools, config files and more.  
 The official website, [analysis-tools.dev](https://analysis-tools.dev/) is based on this repository and adds rankings and user comments for each tool.
 
+![CI](https://github.com/analysis-tools-dev/static-analysis/workflows/CI/badge.svg)
+
+## What is Static Analysis?
+
 > Static program analysis is the analysis of computer software that is performed without actually executing programs — [Wikipedia](https://en.wikipedia.org/wiki/Static_program_analysis)
 
 > The most important thing I have done as a programmer in recent years is to aggressively pursue static code analysis. Even more valuable than the hundreds of serious bugs I have prevented with it is the change in mindset about the way I view software reliability and code quality. — [John Carmack (Creator of Doom)](https://www.gamasutra.com/view/news/128836/InDepth_Static_Code_Analysis.php) 
 
-![CI](https://github.com/analysis-tools-dev/static-analysis/workflows/CI/badge.svg)
+## Sponsors
 
-Meaning of symbols:  
+This project would not be possible without the generous support of our sponsors.
+
+<a href="https://deepcode.ai"><img width="200px" src="https://raw.githubusercontent.com/analysis-tools-dev/website/master/static/sponsors/deepcode.svg" /></a>
+
+If you also want to support this project, head over to our [Github sponsors page](https://github.com/sponsors/analysis-tools-dev).
+
+## Meaning of Symbols:  
 
 - :copyright: stands for proprietary software. All other tools are Open Source.
 - :information_source: indicates that the community does not recommend to use this tool for new projects anymore. The icon links to the discussion issue.
@@ -22,7 +32,7 @@ Meaning of symbols:
 Pull requests are very welcome!  
 Also check out the sister project, [awesome-dynamic-analysis](https://github.com/mre/awesome-dynamic-analysis).
 
-# Table of Contents
+## Table of Contents
 
 #### [Programming Languages](#programming-languages-1)
 
@@ -103,7 +113,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 ---
 
-# Programming Languages
+## Programming Languages
 
 <h2 id="abap">ABAP</h2>
 
@@ -562,7 +572,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Test Design Studio](http://patterson-consulting.net/tds) :copyright: - A full IDE with static code analysis for Micro Focus Unified Functional Testing VBScript-based automated tests.
 
 
-# Multiple languages
+## Multiple languages
 
 - [AppChecker](https://npo-echelon.ru/en/solutions/appchecker.php) :copyright: - Static analysis for C/C++/C#, PHP and Java.
 - [Application Inspector](https://www.ptsecurity.com/ww-en/products/ai/) :copyright: - Commercial Static Code Analysis which generates exploits to verify vulnerabilities.
@@ -671,7 +681,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - ![stars](https://img.shields.io/github/stars/adrienverge/yamllint?style=flat-square&color=ccc) [yamllint](https://yamllint.readthedocs.io/) - Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation.
 
 
-# Other
+## Other
 
 
 
@@ -845,7 +855,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - ![stars](https://img.shields.io/github/stars/btford/write-good?style=flat-square&color=ccc) [write-good](https://github.com/btford/write-good) - A linter with a focus on eliminating "weasel words".
 
 
-# More collections
+## More Collections
 
 - [go-tools](https://github.com/dominikh/go-tools) - A collection of tools and libraries for working with Go code, including linters and static analysis
 - [linters](https://github.com/mcandre/linters/tree/b044f0628c4a96dfea869cf61e0e96cf4c49cf6b) - An introduction to static code analysis
