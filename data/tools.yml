@@ -1214,6 +1214,12 @@
   description: A linter for the Gherkin-Syntax written in Javascript.
   tags:
     - gherkin
+- name: Ghidra
+  homepage: "https://ghidra-sre.org"
+  source: "https://github.com/NationalSecurityAgency/ghidra"
+  description: A software reverse engineering (SRE) suite of tools developed by NSA's Research Directorate in support of the Cybersecurity mission
+  tags:
+    - binary
 - name: ShiftLeft Scan
   homepage: "https://slscan.io"
   source: https://github.com/ShiftLeftSecurity/sast-scan
@@ -1525,6 +1531,12 @@
   description: An open source static code analysis tool for Shell and Fortran (77 and 90).
   tags:
     - shell
+- name: IDA Free
+  homepage: "https://www.hex-rays.com/products/ida/support/download_freeware/"
+  description: Binary code analysis tool.
+  proprietary: true
+  tags:
+    - binary
 - name: IKOS
   homepage: "https://github.com/nasa-sw-vnv/ikos"
   source: "https://github.com/nasa-sw-vnv/ikos"
