@@ -690,6 +690,8 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - ![stars](https://img.shields.io/github/stars/Microsoft/binskim?style=flat-square&color=ccc) [BinSkim](https://github.com/Microsoft/binskim) - A binary static analysis tool that provides security and correctness results for Windows portable executables.
 - ![stars](https://img.shields.io/github/stars/fkie-cad/cwe_checker?style=flat-square&color=ccc) [cwe_checker](https://github.com/fkie-cad/cwe_checker) - cwe_checker finds vulnerable patterns in binary executables.
+- ![stars](https://img.shields.io/github/stars/NationalSecurityAgency/ghidra?style=flat-square&color=ccc) [Ghidra](https://ghidra-sre.org) - A software reverse engineering (SRE) suite of tools developed by NSA's Research Directorate in support of the Cybersecurity mission
+- [IDA Free](https://www.hex-rays.com/products/ida/support/download_freeware/) :copyright: - Binary code analysis tool.
 - ![stars](https://img.shields.io/github/stars/jkinder/jakstab?style=flat-square&color=ccc) [Jakstab](https://github.com/jkinder/jakstab) - Jakstab is an Abstract Interpretation-based, integrated disassembly and static analysis framework for designing analyses on executables and recovering reliable control flow graphs.
 - ![stars](https://img.shields.io/github/stars/JusticeRage/Manalyze?style=flat-square&color=ccc) [Manalyze](https://github.com/JusticeRage/Manalyze) - A static analyzer, which checks portable executables for malicious content.
 - ![stars](https://img.shields.io/github/stars/rustwasm/twiggy?style=flat-square&color=ccc) [Twiggy](https://rustwasm.github.io/twiggy/) - Analyzes a binary's call graph to profile code size. The goal is to slim down binaries.
