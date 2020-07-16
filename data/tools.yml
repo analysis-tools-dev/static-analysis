@@ -2267,6 +2267,12 @@
   description: A verifier for FreeBSD and DragonFlyBSD port directories.
   tags:
     - make
+- name: PostCSS
+  homepage: "https://postcss.org/"
+  source: "https://github.com/postcss/postcss"
+  description: A tool for transforming styles with JS plugins. These plugins can lint your CSS, support variables and mixins, transpile future CSS syntax, inline images, and more.
+  tags:
+    - css
 - name: pre-commit
   homepage: "https://pre-commit.com/"
   source: "https://github.com/pre-commit/pre-commit"
