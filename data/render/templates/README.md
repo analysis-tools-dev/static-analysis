@@ -1,7 +1,7 @@
 <!-- 🚨🚨 DON'T EDIT THIS FILE DIRECTLY. Edit `data/tools.yml` instead. 🚨🚨 -->
 
  <a href="http://analysis-tools.dev/">
-   <img width="400px" alt="Analysis Tools" src="https://raw.githubusercontent.com/analysis-tools-dev/website/master/static/logo.svg" />
+   <img width="400px" alt="Analysis Tools" src="https://raw.githubusercontent.com/analysis-tools-dev/website/master/static/logo.png" />
  </a>
 
 This repository lists **static analysis tools** for all programming languages, build tools, config files and more.  
