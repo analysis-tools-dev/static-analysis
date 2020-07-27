@@ -3381,3 +3381,11 @@
   tags:
     - javascript
   deprecated: true
+- name: Stan
+  homepage: "https://kowainik.github.io/projects/stan"
+  source: "https://github.com/kowainik/stan"
+  description: Stan is a command-line tool for analysing Haskell projects and outputting discovered vulnerabilities in a helpful way with possible solutions for detected problems.
+  tags:
+    - haskell
+    - configfile
+    - json
