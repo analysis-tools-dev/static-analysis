@@ -170,6 +170,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="csharp">C#</h2>
 
 - [.NET Analyzers](https://github.com/DotNetAnalyzers) - An organization for the development of analyzers (diagnostics and code fixes) using the .NET Compiler Platform.
+- ![stars](https://img.shields.io/github/stars/TNG/ArchUnitNET?style=flat-square&color=ccc) [ArchUnitNET](https://github.com/TNG/ArchUnitNET) - A C# architecture test library to specify and assert architecture rules in C# for automated testing.
 - [Code Analysis Rule Collection](https://carc.codeplex.com/) :warning: - Contains a set of diagnostics, code fixes and refactorings built on the Microsoft .NET Compiler Platform "Roslyn".
 - ![stars](https://img.shields.io/github/stars/code-cracker/code-cracker?style=flat-square&color=ccc) [code-cracker](http://code-cracker.github.io/) - An analyzer library for C# and VB that uses Roslyn to produce refactorings, code analysis, and other niceties.
 - ![stars](https://img.shields.io/github/stars/DustinCampbell/CSharpEssentials?style=flat-square&color=ccc) [CSharpEssentials](https://github.com/DustinCampbell/CSharpEssentials) - C# Essentials is a collection of Roslyn diagnostic analyzers, code fixes and refactorings that make it easy to work with C# 6 language features.
