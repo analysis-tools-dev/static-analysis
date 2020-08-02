@@ -852,6 +852,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="writing">Writing</h2>
 
 - [After the Deadline](https://afterthedeadline.com/) :warning: - Spell, style and grammar checker.
+- ![stars](https://img.shields.io/github/stars/get-alex/alex?style=flat-square&color=ccc) [alex](https://alexjs.com/) - Catch insensitive, inconsiderate writing
 - ![stars](https://img.shields.io/github/stars/codespell-project/codespell?style=flat-square&color=ccc) [codespell](https://github.com/codespell-project/codespell) - Check code for common misspellings.
 - ![stars](https://img.shields.io/github/stars/languagetool-org/languagetool?style=flat-square&color=ccc) [languagetool](https://languagetool.org/) - Style and grammar checker for 25+ languages. It finds many errors that a simple spell checker cannot detect.
 - ![stars](https://img.shields.io/github/stars/vlajos/misspell-fixer?style=flat-square&color=ccc) [misspell-fixer](https://github.com/vlajos/misspell-fixer) - Quick tool for fixing common misspellings, typos in source code.
