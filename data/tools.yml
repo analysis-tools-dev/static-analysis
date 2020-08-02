@@ -36,6 +36,12 @@
   description: Asynchronous Lint Engine for Vim and NeoVim with support for many languages.
   tags:
     - ide
+- name: alex
+  homepage: "https://alexjs.com/"
+  source: "https://github.com/get-alex/alex"
+  description: Catch insensitive, inconsiderate writing
+  tags:
+    - writing
 - name: aligncheck
   homepage: "https://gitlab.com/opennota/check"
   source: "https://gitlab.com/opennota/check"
