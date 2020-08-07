@@ -2469,6 +2469,12 @@
   description: A static type analyzer for Python code.
   tags:
     - python
+- name: Pysa
+  homepage: "https://pyre-check.org/docs/pysa-basics.html"
+  source: "https://github.com/facebook/pyre-check"
+  description: A tool based on Facebook's pyre-check to identify potential security issues in Python code identified with taint analysis.
+  tags:
+    - python
 - name: Qafoo Quality Analyzer
   homepage: "https://github.com/Qafoo/QualityAnalyzer"
   source: "https://github.com/Qafoo/QualityAnalyzer"
