@@ -1,0 +1,10 @@
+name: php-speller
+category:
+  - linter
+tags:
+  - php
+license: MIT License
+type: []
+source: 'https://github.com/mekras/php-speller'
+homepage: 'https://github.com/mekras/php-speller'
+description: PHP spell check library.

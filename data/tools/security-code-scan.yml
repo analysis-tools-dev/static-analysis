@@ -9,7 +9,8 @@ tags:
   - php
   - vbnet
 license: GNU Lesser General Public License v3.0
-type: []
+type:
+  - ide-plugin
 source: 'https://github.com/security-code-scan/security-code-scan'
 homepage: 'https://security-code-scan.github.io/'
 description: >-

@@ -3,7 +3,8 @@ category:
   - formatter
 tags: []
 license: proprietary
-type: []
+type:
+  - ide-plugin
 homepage: 'https://www.jetbrains.com/idea/'
 description: >-
   Comes bundled with a lot of inspections for Java and Kotlin and includes tools

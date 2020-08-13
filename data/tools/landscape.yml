@@ -5,6 +5,7 @@ tags:
   - service
 deprecated: true
 license: proprietary
-type: []
+type:
+  - service
 homepage: 'https://landscape.io/'
 description: Static code analysis for Python.

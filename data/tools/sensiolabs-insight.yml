@@ -5,7 +5,8 @@ tags:
   - php
   - service
 license: proprietary
-type: []
+type:
+  - service
 homepage: 'https://insight.sensiolabs.com/'
 description: >-
   Detect security risks, find bugs and provide actionable metrics for PHP

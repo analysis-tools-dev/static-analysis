@@ -4,6 +4,7 @@ category:
 tags:
   - service
 license: proprietary
-type: []
+type:
+  - service
 homepage: 'https://www.codacy.com/'
 description: 'Code Analysis to ship Better Code, Faster.'

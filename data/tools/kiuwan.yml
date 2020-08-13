@@ -4,6 +4,7 @@ category:
 tags:
   - service
 license: proprietary
-type: []
+type:
+  - service
 homepage: 'https://www.kiuwan.com/'
 description: Software Analytics in the Cloud supporting more than 22 programming languages.

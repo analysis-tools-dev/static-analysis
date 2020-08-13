@@ -5,7 +5,8 @@ tags:
   - ci
   - service
 license: proprietary
-type: []
+type:
+  - service
 homepage: 'https://sonarcloud.io'
 description: >-
   Multilanguage cloud-based static code analysis. History, trends, security

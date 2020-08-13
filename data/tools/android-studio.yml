@@ -2,7 +2,8 @@ name: Android Studio
 category:
   - linter
 tags: []
-type: []
+type:
+  - ide-plugin
 source: >-
   https://android.googlesource.com/platform/tools/adt/idea/+/refs/heads/mirror-goog-studio-master-dev
 homepage: 'https://developer.android.com/studio'

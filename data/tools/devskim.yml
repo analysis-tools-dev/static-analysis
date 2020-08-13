@@ -10,7 +10,8 @@ tags:
   - python
   - ruby
 license: MIT License
-type: []
+type:
+  - ide-plugin
 source: 'https://github.com/microsoft/devskim'
 homepage: 'https://github.com/microsoft/devskim'
 description: >-

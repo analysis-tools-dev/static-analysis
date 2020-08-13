@@ -5,7 +5,8 @@ tags:
   - ci
   - service
 license: proprietary
-type: []
+type:
+  - service
 homepage: 'https://lgtm.com/'
 description: >-
   Deep code analysis for GitHub and Bitbucket to find security vulnerabilities

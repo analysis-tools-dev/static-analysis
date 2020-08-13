@@ -4,7 +4,8 @@ category:
 tags:
   - service
 license: proprietary
-type: []
+type:
+  - service
 homepage: 'https://www.reshiftsecurity.com/'
 description: >-
   A source code analysis tool for detecting and managing Java security

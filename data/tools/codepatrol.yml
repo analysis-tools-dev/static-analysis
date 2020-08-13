@@ -9,7 +9,8 @@ tags:
   - php
   - service
 license: proprietary
-type: []
+type:
+  - service
 homepage: 'https://cyber-security.claranet.fr/en/codepatrol'
 description: >-
   Automated SAST code reviews driven by security, supports 15+ languages and

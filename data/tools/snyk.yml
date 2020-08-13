@@ -12,7 +12,8 @@ tags:
   - ruby
   - service
 license: proprietary
-type: []
+type:
+  - service
 homepage: 'https://snyk.io/'
 description: >-
   Vulnerability scanner for dependencies of node.js apps (free for Open Source

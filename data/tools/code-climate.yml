@@ -4,6 +4,7 @@ category:
 tags:
   - service
 license: proprietary
-type: []
+type:
+  - service
 homepage: 'https://codeclimate.com/'
 description: 'The open and extensible static analysis platform, for everyone.'

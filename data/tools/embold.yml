@@ -13,7 +13,8 @@ tags:
   - service
   - typescript
 license: proprietary
-type: []
+type:
+  - service
 homepage: 'https://embold.io'
 description: >-
   Intelligent software analytics platform that identifies design issues, code

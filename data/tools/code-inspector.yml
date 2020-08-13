@@ -4,7 +4,8 @@ category:
 tags:
   - service
 license: proprietary
-type: []
+type:
+  - service
 homepage: 'https://www.code-inspector.com'
 description: >-
   Code quality and technical debt management platform that supports 10+

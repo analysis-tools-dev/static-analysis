@@ -13,7 +13,8 @@ tags:
   - service
   - typescript
 license: proprietary
-type: []
+type:
+  - service
 homepage: 'https://www.codeac.io?ref=awesome-static-analysis'
 description: >-
   Automated code review tool integrates with GitHub, Bitbucket and GitLab (even

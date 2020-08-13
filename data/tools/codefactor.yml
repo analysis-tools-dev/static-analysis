@@ -4,6 +4,7 @@ category:
 tags:
   - service
 license: proprietary
-type: []
+type:
+  - service
 homepage: 'https://codefactor.io'
 description: Automated Code Analysis for repos on GitHub or BitBucket.

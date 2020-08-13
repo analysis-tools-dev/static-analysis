@@ -1,0 +1,9 @@
+name: IDA Free
+category:
+  - linter
+tags:
+  - binary
+license: proprietary
+type: []
+homepage: 'https://www.hex-rays.com/products/ida/support/download_freeware/'
+description: Binary code analysis tool.

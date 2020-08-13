@@ -1,0 +1,11 @@
+name: churn-php
+category:
+  - linter
+tags:
+  - php
+deprecated: true
+license: MIT License
+type: []
+source: 'https://github.com/bmitch/churn-php'
+homepage: 'https://github.com/bmitch/churn-php'
+description: Helps discover good candidates for refactoring.

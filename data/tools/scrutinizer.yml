@@ -4,6 +4,7 @@ category:
 tags:
   - service
 license: proprietary
-type: []
+type:
+  - service
 homepage: 'https://scrutinizer-ci.com/'
 description: A proprietary code quality checker that can be integrated with GitHub.

@@ -4,7 +4,8 @@ category:
 tags:
   - service
 license: proprietary
-type: []
+type:
+  - service
 homepage: 'https://www.getcodeflow.com'
 description: >-
   Automated code analysis tool to deal with technical depth. Integrates with

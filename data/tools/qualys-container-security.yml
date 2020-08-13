@@ -5,7 +5,8 @@ tags:
   - container
   - service
 license: proprietary
-type: []
+type:
+  - service
 homepage: 'https://www.qualys.com/apps/container-security/'
 description: >-
   Container native application protection to provide visibility and control of

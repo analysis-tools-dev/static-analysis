@@ -1,0 +1,12 @@
+name: PC-lint
+category:
+  - linter
+tags:
+  - c
+  - cpp
+license: proprietary
+type: []
+homepage: 'https://www.gimpel.com/'
+description: >-
+  Static analysis for C/C++. Runs natively under Windows/Linux/MacOS. Analyzes
+  code for virtually any platform, supporting C11/C18 and C++17.

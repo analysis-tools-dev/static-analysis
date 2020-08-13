@@ -9,7 +9,8 @@ tags:
   - php
   - service
 license: proprietary
-type: []
+type:
+  - service
 homepage: 'https://www.jetbrains.com/upsource/'
 description: >-
   Code review tool with static code analysis and code-aware navigation for Java,
