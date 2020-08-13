@@ -1,0 +1,10 @@
+name: bodyclose
+category:
+  - linter
+tags:
+  - go
+license: MIT License
+type: []
+source: 'https://github.com/timakin/bodyclose'
+homepage: 'https://github.com/timakin/bodyclose'
+description: Checks whether HTTP response body is closed.

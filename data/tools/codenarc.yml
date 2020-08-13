@@ -1,0 +1,12 @@
+name: CodeNarc
+category:
+  - linter
+tags:
+  - groovy
+license: Apache License 2.0
+type: []
+source: 'https://github.com/CodeNarc/CodeNarc'
+homepage: 'https://codenarc.github.io/CodeNarc/'
+description: >-
+  A static analysis tool for Groovy source code, enabling monitoring and
+  enforcement of many coding standards and best practices.

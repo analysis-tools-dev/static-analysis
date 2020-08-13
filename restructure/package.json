@@ -1,0 +1,11 @@
+{
+  "name": "restructure",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bottleneck": "^2.19.5",
+    "js-yaml": "^3.14.0",
+    "node-fetch": "^2.6.0"
+  }
+}

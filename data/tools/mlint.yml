@@ -1,0 +1,9 @@
+name: mlint
+category:
+  - linter
+tags:
+  - matlab
+license: proprietary
+type: []
+homepage: 'https://mathworks.com/help/matlab/ref/mlint.html'
+description: Check MATLAB code files for possible problems.

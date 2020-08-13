@@ -1,0 +1,10 @@
+name: phan
+category:
+  - linter
+tags:
+  - php
+license: Other
+type: []
+source: 'https://github.com/etsy/phan'
+homepage: 'https://github.com/phan/phan/wiki'
+description: A modern static analyzer from etsy.

@@ -1,0 +1,10 @@
+name: haml-lint
+category:
+  - linter
+tags:
+  - template
+license: MIT License
+type: []
+source: 'https://github.com/sds/haml-lint'
+homepage: 'https://github.com/sds/haml-lint'
+description: Tool for writing clean and consistent HAML.

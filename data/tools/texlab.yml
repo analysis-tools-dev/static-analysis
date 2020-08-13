@@ -1,0 +1,12 @@
+name: TeXLab
+category:
+  - linter
+tags:
+  - latex
+license: GNU General Public License v3.0
+type: []
+source: 'https://github.com/latex-lsp/texlab'
+homepage: 'https://texlab.netlify.app'
+description: >-
+  A Language Server Protocol implementation for TeX/LaTeX, including lint
+  capabilities.

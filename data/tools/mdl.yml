@@ -1,0 +1,10 @@
+name: mdl
+category:
+  - linter
+tags:
+  - markdown
+license: MIT License
+type: []
+source: 'https://github.com/mivok/markdownlint'
+homepage: 'https://github.com/mivok/markdownlint'
+description: A tool to check Markdown files and flag style issues.

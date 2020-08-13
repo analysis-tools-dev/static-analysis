@@ -1,0 +1,11 @@
+name: laser
+category:
+  - linter
+tags:
+  - ruby
+deprecated: true
+license: GNU Affero General Public License v3.0
+type: []
+source: 'https://github.com/michaeledgar/laser'
+homepage: 'https://github.com/michaeledgar/laser'
+description: Static analysis and style linter for Ruby code.

@@ -1,0 +1,12 @@
+name: pyright
+category:
+  - linter
+tags:
+  - python
+license: Other
+type: []
+source: 'https://github.com/Microsoft/pyright'
+homepage: 'https://github.com/Microsoft/pyright'
+description: >-
+  Static type checker for Python, created to address gaps in existing tools like
+  mypy.

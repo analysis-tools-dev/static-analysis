@@ -1,0 +1,12 @@
+name: PHPQA
+category:
+  - linter
+tags:
+  - php
+license: MIT License
+type: []
+source: 'https://github.com/EdgedesignCZ/phpqa'
+homepage: 'https://edgedesigncz.github.io/phpqa/'
+description: >-
+  A tool for running QA tools (phploc, phpcpd, phpcs, pdepend, phpmd,
+  phpmetrics).

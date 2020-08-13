@@ -1,0 +1,10 @@
+name: dupl
+category:
+  - linter
+tags:
+  - go
+license: MIT License
+type: []
+source: 'https://github.com/mibk/dupl'
+homepage: 'https://github.com/mibk/dupl'
+description: Reports potentially duplicated code.

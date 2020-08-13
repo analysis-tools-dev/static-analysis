@@ -1,0 +1,10 @@
+name: PullRequest
+category:
+  - linter
+tags:
+  - ci
+  - service
+license: proprietary
+type: []
+homepage: 'https://www.pullrequest.com'
+description: Code review as a service with built-in static analysis.

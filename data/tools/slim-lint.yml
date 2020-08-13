@@ -1,0 +1,10 @@
+name: slim-lint
+category:
+  - linter
+tags:
+  - template
+license: Other
+type: []
+source: 'https://github.com/sds/slim-lint'
+homepage: 'https://github.com/sds/slim-lint'
+description: Configurable tool for analyzing Slim templates.

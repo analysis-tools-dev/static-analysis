@@ -1,0 +1,11 @@
+name: After the Deadline
+category:
+  - linter
+tags:
+  - writing
+deprecated: true
+license: GPL v2
+type: []
+source: 'https://open.afterthedeadline.com/'
+homepage: 'https://afterthedeadline.com/'
+description: 'Spell, style and grammar checker.'

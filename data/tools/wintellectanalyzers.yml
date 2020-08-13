@@ -1,0 +1,10 @@
+name: Wintellect.Analyzers
+category:
+  - linter
+tags:
+  - csharp
+license: Other
+type: []
+source: 'https://github.com/Wintellect/Wintellect.Analyzers'
+homepage: 'https://github.com/Wintellect/Wintellect.Analyzers'
+description: .NET Compiler Platform ("Roslyn") diagnostic analyzers and code fixes.

@@ -1,0 +1,14 @@
+name: DeepSource
+category:
+  - linter
+tags:
+  - go
+  - python
+license: proprietary
+type: []
+homepage: 'https://deepsource.io/'
+description: >-
+  In-depth static analysis to monitor source code quality and security. Supports
+  Python and Go and can detect 600+ types of issues in verticals of bug risks,
+  security, anti-patterns, performance, documentation and style. Native
+  integration with GitHub.

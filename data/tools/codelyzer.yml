@@ -1,0 +1,12 @@
+name: Codelyzer
+category:
+  - linter
+tags:
+  - typescript
+license: MIT License
+type: []
+source: 'https://github.com/mgechev/codelyzer'
+homepage: 'http://codelyzer.com/'
+description: >-
+  A set of tslint rules for static code analysis of Angular 2 TypeScript
+  projects.

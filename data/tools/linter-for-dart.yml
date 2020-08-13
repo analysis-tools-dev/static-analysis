@@ -1,0 +1,10 @@
+name: Linter for dart
+category:
+  - linter
+tags:
+  - dart
+license: BSD 3-Clause "New" or "Revised" License
+type: []
+source: 'https://github.com/dart-lang/linter'
+homepage: 'https://dart-lang.github.io/linter/'
+description: Style linter for Dart.

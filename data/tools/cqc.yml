@@ -1,0 +1,15 @@
+name: cqc
+category:
+  - linter
+tags:
+  - css
+  - javascript
+  - jsx
+  - less
+  - vue
+type: []
+source: 'https://github.com/xcatliu/cqc'
+homepage: 'https://github.com/xcatliu/cqc'
+description: >-
+  Check your code quality for js, jsx, vue, css, less, scss, sass and styl
+  files.

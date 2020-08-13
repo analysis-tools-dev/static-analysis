@@ -1,0 +1,10 @@
+name: phpqa - jmolivas
+category:
+  - linter
+tags:
+  - php
+license: MIT License
+type: []
+source: 'https://github.com/jmolivas/phpqa'
+homepage: 'https://github.com/jmolivas/phpqa'
+description: PHPQA all-in-one Analyzer CLI tool.

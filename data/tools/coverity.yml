@@ -1,0 +1,24 @@
+name: Coverity
+category:
+  - linter
+tags:
+  - c
+  - cpp
+  - csharp
+  - fortran
+  - java
+  - javascript
+  - php
+  - python
+  - rails
+  - scala
+  - typescript
+  - vbnet
+license: proprietary
+type: []
+homepage: >-
+  https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html
+description: >-
+  Synopsys Coverity supports 20 languages and over 70 frameworks including Ruby
+  on rails, Scala, PHP, Python, JavaScript, TypeScript, Java, Fortran, C, C++,
+  C#, VB.NET.

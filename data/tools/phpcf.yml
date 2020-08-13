@@ -1,0 +1,9 @@
+name: phpcf
+category:
+  - linter
+tags:
+  - php
+type: []
+source: 'https://github.com/wapmorgan/PhpCodeFixer/'
+homepage: 'http://wapmorgan.github.io/PhpCodeFixer/'
+description: Finds usage of deprecated PHP features.

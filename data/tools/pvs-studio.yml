@@ -1,0 +1,17 @@
+name: PVS-Studio
+category:
+  - linter
+tags:
+  - c
+  - cpp
+  - csharp
+  - java
+license: proprietary
+type: []
+homepage: 'https://www.viva64.com/en/pvs-studio/'
+description: >-
+  A ([conditionally free](https://www.viva64.com/en/b/0614/) for FOSS and
+  individual developers) static analysis of C, C++, C# and Java code. For
+  advertising purposes [you can propose a large FOSS project for analysis by PVS
+  employees](https://github.com/viva64/pvs-studio-check-list). Supports CWE
+  mapping, MISRA and CERT coding standards.

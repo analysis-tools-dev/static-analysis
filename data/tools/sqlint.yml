@@ -1,0 +1,10 @@
+name: sqlint
+category:
+  - linter
+tags:
+  - sql
+license: MIT License
+type: []
+source: 'https://github.com/purcell/sqlint'
+homepage: 'https://github.com/purcell/sqlint'
+description: Simple SQL linter.

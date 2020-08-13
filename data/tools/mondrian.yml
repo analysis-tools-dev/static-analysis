@@ -1,0 +1,9 @@
+name: Mondrian
+category:
+  - linter
+tags:
+  - php
+type: []
+source: 'https://github.com/Trismegiste/Mondrian'
+homepage: 'http://trismegiste.github.io/Mondrian/'
+description: A set of static analysis and refactoring tools which use graph theory.

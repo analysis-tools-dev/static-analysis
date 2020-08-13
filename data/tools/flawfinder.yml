@@ -1,0 +1,11 @@
+name: flawfinder
+category:
+  - linter
+tags:
+  - c
+  - cpp
+license: GNU General Public License v2.0
+type: []
+source: 'https://github.com/david-a-wheeler/flawfinder'
+homepage: 'https://www.dwheeler.com/flawfinder/'
+description: Finds possible security weaknesses.

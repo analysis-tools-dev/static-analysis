@@ -1,0 +1,10 @@
+name: cohesion
+category:
+  - linter
+tags:
+  - python
+license: GNU General Public License v3.0
+type: []
+source: 'https://github.com/mschwager/cohesion'
+homepage: 'https://github.com/mschwager/cohesion'
+description: A tool for measuring Python class cohesion.

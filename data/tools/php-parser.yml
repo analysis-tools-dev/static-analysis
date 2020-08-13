@@ -1,0 +1,10 @@
+name: PHP-Parser
+category:
+  - linter
+tags:
+  - php
+license: BSD 3-Clause "New" or "Revised" License
+type: []
+source: 'https://github.com/nikic/PHP-Parser'
+homepage: 'https://github.com/nikic/PHP-Parser'
+description: A PHP parser written in PHP.

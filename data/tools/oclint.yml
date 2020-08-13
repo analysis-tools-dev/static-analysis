@@ -1,0 +1,13 @@
+name: oclint
+category:
+  - linter
+tags:
+  - c
+  - cpp
+  - objectivec
+type: []
+source: 'https://github.com/oclint/oclint'
+homepage: 'http://oclint.org/'
+description: >-
+  A static source code analysis tool to improve quality and reduce defects for
+  C, C++ and Objective-C.

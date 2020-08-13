@@ -1,0 +1,9 @@
+name: Checker Framework
+category:
+  - linter
+tags:
+  - java
+type: []
+source: 'https://github.com/typetools/checker-framework/'
+homepage: 'https://checkerframework.org/'
+description: Pluggable type-checking for Java.
