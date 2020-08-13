@@ -82,7 +82,7 @@ const getType = (tool) => {
     type.push("ide-plugin");
   }
 
-  return [];
+  return type;
 };
 
 const getCategory = (tool) => {
