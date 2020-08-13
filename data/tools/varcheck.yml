@@ -1,9 +1,0 @@
-name: varcheck
-category:
-  - linter
-tags:
-  - go
-type: []
-source: 'https://gitlab.com/opennota/check'
-homepage: 'https://gitlab.com/opennota/check'
-description: Find unused global variables and constants.

@@ -1,9 +1,0 @@
-name: test
-category:
-  - linter
-tags:
-  - go
-type: []
-source: 'http://golang.org/pkg/testing/'
-homepage: 'http://golang.org/pkg/testing/'
-description: Show location of test failures from the stdlib testing module.

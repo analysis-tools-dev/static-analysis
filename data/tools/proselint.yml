@@ -1,9 +1,0 @@
-name: proselint
-category:
-  - linter
-tags:
-  - writing
-type: []
-source: 'https://github.com/amperser/proselint/'
-homepage: 'http://proselint.com/'
-description: A linter for English prose with a focus on writing style instead of grammar.

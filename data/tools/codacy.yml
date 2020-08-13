@@ -1,9 +1,0 @@
-name: Codacy
-category:
-  - linter
-tags:
-  - service
-license: proprietary
-type: []
-homepage: 'https://www.codacy.com/'
-description: 'Code Analysis to ship Better Code, Faster.'

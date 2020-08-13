@@ -27,7 +27,6 @@
   homepage: "https://afterthedeadline.com/"
   source: "https://open.afterthedeadline.com/"
   description: "Spell, style and grammar checker."
-  license: "GPL v2"
   tags:
     - writing
   deprecated: true
@@ -47,7 +46,6 @@
   homepage: "https://gitlab.com/opennota/check"
   source: "https://gitlab.com/opennota/check"
   description: Find inefficiently packed structs.
-  license: "GPL v2"
   tags:
     - go
 - name: ameba
@@ -2432,7 +2430,6 @@
   homepage: "https://pypi.org/project/pyflakes/"
   source: "https://github.com/pyflakes/pyflakes/"
   description: Check Python source files for errors.
-  license: MIT License
   tags:
     - python
 - name: pylint
@@ -2628,7 +2625,6 @@
   homepage: "https://github.com/JosefPihrt/Roslynator/"
   source: "https://github.com/JosefPihrt/Roslynator/"
   description: "A collection of 190+ analyzers and 190+ refactorings for C#, powered by Roslyn."
-  license: Apache License 2.0
   tags:
     - csharp
 - name: rpmlint
@@ -2861,7 +2857,7 @@
 - name: solhint
   homepage: "https://protofire.github.io/solhint/"
   source: "https://github.com/protofire/solhint"
-  description: Solhint is an open source project created by https://protofire.io. Its goal is to provide a linting utility for Solidity code.
+  description: Solhint is an open source project created by https://protofire.io. Its goal is to provide a linting utility for Solidity code. 
   tags:
     - solidity
 - name: solium
@@ -3009,7 +3005,6 @@
   homepage: "https://styler.r-lib.org/"
   source: "https://github.com/r-lib/styler/"
   description: Formatting of R source code files and pretty-printing of R code.
-  license: GPL-3
   tags:
     - r
     - formatter
@@ -3062,7 +3057,6 @@
   homepage: "https://github.com/ActiveState/tdk/blob/master/docs/3.0/TDK_3.0_Checker.txt"
   source: "https://github.com/ActiveState/tdk/blob/master/docs/3.0/TDK_3.0_Checker.txt"
   description: "A static syntax analysis module (as part of [TDK](https://github.com/ActiveState/tdk))."
-  license: BSD 3-Clause "New" or "Revised" License
   tags:
     - tcl
 - name: Teamscale

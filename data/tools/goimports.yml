@@ -1,9 +1,0 @@
-name: goimports
-category:
-  - linter
-tags:
-  - go
-type: []
-source: 'https://github.com/golang/tools/tree/master/cmd/goimports'
-homepage: 'https://pkg.go.dev/golang.org/x/tools/cmd/goimports'
-description: Checks missing or unreferenced package imports.

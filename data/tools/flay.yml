@@ -1,9 +1,0 @@
-name: flay
-category:
-  - linter
-tags:
-  - ruby
-type: []
-source: 'https://github.com/seattlerb/flay'
-homepage: 'https://ruby.sadi.st/Flay.html'
-description: Flay analyzes code for structural similarities.

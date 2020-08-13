@@ -1,9 +1,0 @@
-name: lacheck
-category:
-  - linter
-tags:
-  - latex
-type: []
-source: 'https://www.ctan.org/tex-archive/support/lacheck'
-homepage: 'https://www.ctan.org/pkg/lacheck'
-description: A tool for finding common mistakes in LaTeX documents.

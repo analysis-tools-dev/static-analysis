@@ -1,9 +1,0 @@
-name: SPARK
-category:
-  - linter
-tags:
-  - ada
-license: proprietary
-type: []
-homepage: 'https://www.adacore.com/about-spark'
-description: Static analysis and formal verification toolset for Ada.
