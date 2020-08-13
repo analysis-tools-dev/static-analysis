@@ -1,0 +1,10 @@
+name: go-consistent
+category:
+  - linter
+tags:
+  - go
+license: MIT License
+type: []
+source: 'https://github.com/Quasilyte/go-consistent'
+homepage: 'https://github.com/Quasilyte/go-consistent'
+description: Analyzer that helps you to make your Go programs more consistent.

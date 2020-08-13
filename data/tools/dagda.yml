@@ -1,0 +1,10 @@
+name: dagda
+category:
+  - linter
+tags:
+  - container
+license: Apache License 2.0
+type: []
+source: 'https://github.com/eliasgranderubio/dagda'
+homepage: 'https://github.com/eliasgranderubio/dagda'
+description: Perform static analysis of known vulnerabilities in docker images/containers.

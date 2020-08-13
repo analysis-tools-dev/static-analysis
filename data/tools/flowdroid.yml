@@ -1,0 +1,10 @@
+name: FlowDroid
+category:
+  - linter
+tags:
+  - mobile
+license: GNU Lesser General Public License v2.1
+type: []
+source: 'https://github.com/secure-software-engineering/FlowDroid'
+homepage: 'https://github.com/secure-software-engineering/FlowDroid'
+description: Static taint analysis tool for Android applications.

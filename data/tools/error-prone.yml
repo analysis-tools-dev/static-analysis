@@ -1,0 +1,10 @@
+name: Error-prone
+category:
+  - linter
+tags:
+  - java
+license: Apache License 2.0
+type: []
+source: 'https://github.com/google/error-prone'
+homepage: 'https://errorprone.info/'
+description: Catch common Java mistakes as compile-time errors.

@@ -1,0 +1,13 @@
+name: pylint
+category:
+  - linter
+tags:
+  - python
+license: GNU General Public License v2.0
+type: []
+source: 'https://github.com/PyCQA/pylint'
+homepage: 'http://pylint.pycqa.org/en/latest/'
+description: >-
+  Looks for programming errors, helps enforcing a coding standard and sniffs for
+  some code smells. It additionally includes `pyreverse` (an UML diagram
+  generator) and `symilar` (a similarities checker).

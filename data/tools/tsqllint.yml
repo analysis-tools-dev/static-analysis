@@ -1,0 +1,10 @@
+name: tsqllint
+category:
+  - linter
+tags:
+  - sql
+license: MIT License
+type: []
+source: 'https://github.com/tsqllint/tsqllint'
+homepage: 'https://github.com/tsqllint/tsqllint'
+description: T-SQL-specific linter.

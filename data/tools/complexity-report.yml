@@ -1,0 +1,11 @@
+name: complexity-report
+category:
+  - linter
+tags:
+  - javascript
+deprecated: true
+license: MIT License
+type: []
+source: 'https://github.com/jared-stilwell/complexity-report'
+homepage: 'https://github.com/jared-stilwell/complexity-report'
+description: Software complexity analysis for JavaScript projects.

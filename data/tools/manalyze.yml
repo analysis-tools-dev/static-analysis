@@ -1,0 +1,10 @@
+name: Manalyze
+category:
+  - linter
+tags:
+  - binary
+license: GNU General Public License v3.0
+type: []
+source: 'https://github.com/JusticeRage/Manalyze'
+homepage: 'https://github.com/JusticeRage/Manalyze'
+description: 'A static analyzer, which checks portable executables for malicious content.'

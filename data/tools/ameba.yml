@@ -1,0 +1,10 @@
+name: ameba
+category:
+  - linter
+tags:
+  - crystal
+license: MIT License
+type: []
+source: 'https://github.com/veelenga/ameba'
+homepage: 'https://crystal-ameba.github.io/'
+description: A static code analysis tool for Crystal.

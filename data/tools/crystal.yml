@@ -1,0 +1,10 @@
+name: crystal
+category:
+  - linter
+tags:
+  - crystal
+license: Apache License 2.0
+type: []
+source: 'https://github.com/crystal-lang/crystal'
+homepage: 'https://crystal-lang.org/'
+description: The Crystal compiler has built-in linting functionality.

@@ -1,0 +1,11 @@
+name: phpdcd
+category:
+  - linter
+tags:
+  - php
+deprecated: true
+license: Other
+type: []
+source: 'https://github.com/sebastianbergmann/phpdcd'
+homepage: 'https://github.com/sebastianbergmann/phpdcd'
+description: Dead Code Detector (DCD) for PHP code.

@@ -1,0 +1,10 @@
+name: unimport
+category:
+  - linter
+tags:
+  - go
+license: MIT License
+type: []
+source: 'https://github.com/alexkohler/unimport'
+homepage: 'https://github.com/alexkohler/unimport'
+description: Finds unnecessary import aliases.

@@ -1,0 +1,9 @@
+name: go vet
+category:
+  - linter
+tags:
+  - go
+type: []
+source: 'https://github.com/golang/go/tree/master/src/cmd/vet'
+homepage: 'https://golang.org/cmd/vet/'
+description: Examines Go source code and reports suspicious.

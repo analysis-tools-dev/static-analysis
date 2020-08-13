@@ -1,0 +1,10 @@
+name: pytype
+category:
+  - linter
+tags:
+  - python
+license: Other
+type: []
+source: 'https://github.com/google/pytype'
+homepage: 'https://google.github.io/pytype/'
+description: A static type analyzer for Python code.

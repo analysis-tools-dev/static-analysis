@@ -1,0 +1,10 @@
+name: unconvert
+category:
+  - linter
+tags:
+  - go
+license: BSD 3-Clause "New" or "Revised" License
+type: []
+source: 'https://github.com/mdempsky/unconvert'
+homepage: 'https://github.com/mdempsky/unconvert'
+description: Detect redundant type conversions.

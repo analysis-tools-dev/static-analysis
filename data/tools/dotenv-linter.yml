@@ -1,0 +1,10 @@
+name: dotenv-linter
+category:
+  - linter
+tags:
+  - configfile
+license: MIT License
+type: []
+source: 'https://github.com/wemake-services/dotenv-linter'
+homepage: 'https://dotenv-linter.readthedocs.io/en/latest/'
+description: Linting dotenv files like a charm.

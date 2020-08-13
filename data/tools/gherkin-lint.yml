@@ -1,0 +1,10 @@
+name: gherkin-lint
+category:
+  - linter
+tags:
+  - gherkin
+license: ISC License
+type: []
+source: 'https://github.com/vsiakka/gherkin-lint'
+homepage: 'https://github.com/vsiakka/gherkin-lint'
+description: A linter for the Gherkin-Syntax written in Javascript.

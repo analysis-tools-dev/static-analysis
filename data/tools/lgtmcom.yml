@@ -1,0 +1,13 @@
+name: LGTM.com
+category:
+  - linter
+tags:
+  - ci
+  - service
+license: proprietary
+type: []
+homepage: 'https://lgtm.com/'
+description: >-
+  Deep code analysis for GitHub and Bitbucket to find security vulnerabilities
+  and critical code quality issues (using Semmle QL). Automatic code review for
+  pull requests; free for public repositories.

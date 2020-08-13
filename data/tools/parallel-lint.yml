@@ -1,0 +1,12 @@
+name: parallel-lint
+category:
+  - linter
+tags:
+  - php
+license: Other
+type: []
+source: 'https://github.com/php-parallel-lint/PHP-Parallel-Lint'
+homepage: 'https://github.com/php-parallel-lint/PHP-Parallel-Lint'
+description: >-
+  This tool checks syntax of PHP files faster than serial check with a fancier
+  output.

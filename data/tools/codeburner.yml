@@ -1,0 +1,15 @@
+name: codeburner
+category:
+  - meta
+tags:
+  - c
+  - cpp
+  - java
+  - javascript
+  - meta
+  - php
+license: MIT License
+type: []
+source: 'https://github.com/groupon/codeburner'
+homepage: 'http://groupon.github.io/codeburner/'
+description: Provides a unified interface to sort and act on the issues it finds.

@@ -1,0 +1,12 @@
+name: code-cracker
+category:
+  - linter
+tags:
+  - csharp
+license: Apache License 2.0
+type: []
+source: 'https://github.com/code-cracker/code-cracker'
+homepage: 'http://code-cracker.github.io/'
+description: >-
+  An analyzer library for C# and VB that uses Roslyn to produce refactorings,
+  code analysis, and other niceties.

@@ -1,0 +1,12 @@
+name: SonarCloud
+category:
+  - linter
+tags:
+  - ci
+  - service
+license: proprietary
+type: []
+homepage: 'https://sonarcloud.io'
+description: >-
+  Multilanguage cloud-based static code analysis. History, trends, security
+  hot-spots, pull request analysis and more. Free for open source.

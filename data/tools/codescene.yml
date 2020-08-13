@@ -1,0 +1,23 @@
+name: CodeScene
+category:
+  - linter
+tags:
+  - c
+  - cpp
+  - csharp
+  - elixir
+  - go
+  - groovy
+  - java
+  - javascript
+  - kotlin
+  - perl
+  - php
+  - python
+  - typescript
+license: proprietary
+type: []
+homepage: 'https://empear.com/'
+description: >-
+  CodeScene prioritizes technical debt, finds social patterns and identifies
+  hidden risks in your code.

@@ -1,0 +1,12 @@
+name: QuantifiedCode
+category:
+  - linter
+tags:
+  - ci
+  - service
+deprecated: true
+license: BSD 3-Clause "New" or "Revised" License
+type: []
+source: 'https://github.com/quantifiedcode/quantifiedcode'
+homepage: 'https://github.com/quantifiedcode/quantifiedcode'
+description: Automated code review & repair.

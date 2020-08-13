@@ -1,0 +1,11 @@
+name: NDepend
+category:
+  - linter
+tags:
+  - csharp
+license: proprietary
+type: []
+homepage: 'http://www.ndepend.com/'
+description: >-
+  Measure, query and visualize your code and avoid unexpected issues, technical
+  debt and complexity.

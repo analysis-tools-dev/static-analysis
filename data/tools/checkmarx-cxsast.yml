@@ -1,0 +1,32 @@
+name: Checkmarx CxSAST
+category:
+  - linter
+tags:
+  - apex
+  - asp
+  - c
+  - cpp
+  - csharp
+  - go
+  - groovy
+  - html
+  - java
+  - javascript
+  - mobile
+  - nodejs
+  - objectivec
+  - perl
+  - phonegap
+  - php
+  - python
+  - ruby
+  - scala
+  - swift
+  - vbasic
+  - vbnet
+  - vbscript
+  - visualforce
+license: proprietary
+type: []
+homepage: 'https://www.checkmarx.com/products/static-application-security-testing/'
+description: Commercial Static Code Analysis which doesn't require pre-compilation.

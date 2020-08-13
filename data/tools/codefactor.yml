@@ -1,0 +1,9 @@
+name: CodeFactor
+category:
+  - linter
+tags:
+  - service
+license: proprietary
+type: []
+homepage: 'https://codefactor.io'
+description: Automated Code Analysis for repos on GitHub or BitBucket.

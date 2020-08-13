@@ -1,0 +1,10 @@
+name: WartRemover
+category:
+  - linter
+tags:
+  - scala
+license: Apache License 2.0
+type: []
+source: 'https://github.com/puffnfresh/wartremover'
+homepage: 'https://www.wartremover.org/'
+description: A flexible Scala code linting tool.

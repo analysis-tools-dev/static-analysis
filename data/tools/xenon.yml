@@ -1,0 +1,10 @@
+name: xenon
+category:
+  - linter
+tags:
+  - python
+license: MIT License
+type: []
+source: 'https://github.com/rubik/xenon'
+homepage: 'https://xenon.readthedocs.io/'
+description: 'Monitor code complexity using [`radon`](https://github.com/rubik/radon).'

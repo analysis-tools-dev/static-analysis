@@ -1,0 +1,12 @@
+name: Rust Language Server
+category:
+  - formatter
+tags:
+  - rust
+license: Other
+type: []
+source: 'https://github.com/rust-lang-nursery/rls'
+homepage: 'https://github.com/rust-lang-nursery/rls'
+description: >-
+  Supports functionality such as 'goto definition', symbol search, reformatting,
+  and code completion, and enables renaming and refactorings.

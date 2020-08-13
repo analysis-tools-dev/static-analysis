@@ -1,0 +1,10 @@
+name: PHPMD
+category:
+  - linter
+tags:
+  - php
+license: BSD 3-Clause "New" or "Revised" License
+type: []
+source: 'https://github.com/phpmd/phpmd'
+homepage: 'https://phpmd.org/'
+description: Finds possible bugs in your code.

@@ -1,0 +1,9 @@
+name: ale
+category:
+  - linter
+tags: []
+license: BSD 2-Clause "Simplified" License
+type: []
+source: 'https://github.com/w0rp/ale'
+homepage: 'https://github.com/w0rp/ale'
+description: Asynchronous Lint Engine for Vim and NeoVim with support for many languages.

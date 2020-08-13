@@ -1,0 +1,10 @@
+name: wemake-python-styleguide
+category:
+  - linter
+tags:
+  - python
+license: MIT License
+type: []
+source: 'https://github.com/wemake-services/wemake-python-styleguide'
+homepage: 'https://wemake-python-stylegui.de'
+description: The strictest and most opinionated python linter ever.

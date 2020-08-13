@@ -1,0 +1,12 @@
+name: CBMC
+category:
+  - linter
+tags:
+  - c
+  - cpp
+type: []
+source: 'https://github.com/diffblue/cbmc/'
+homepage: 'http://www.cprover.org/cbmc/'
+description: >-
+  Bounded model-checker for C programs, user-defined assertions, standard
+  assertions, several coverage metric analyses.

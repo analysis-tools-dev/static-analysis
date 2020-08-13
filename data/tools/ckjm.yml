@@ -1,0 +1,12 @@
+name: ckjm
+category:
+  - linter
+tags:
+  - java
+license: Apache License 2.0
+type: []
+source: 'https://github.com/dspinellis/ckjm'
+homepage: 'http://www.spinellis.gr/sw/ckjm/'
+description: >-
+  Calculates Chidamber and Kemerer object-oriented metrics by processing the
+  bytecode of compiled Java files.

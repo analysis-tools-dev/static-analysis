@@ -1,0 +1,15 @@
+name: Undebt
+category:
+  - linter
+tags:
+  - c
+  - cpp
+  - java
+  - php
+license: Other
+type: []
+source: 'https://github.com/Yelp/undebt'
+homepage: 'https://github.com/Yelp/undebt'
+description: >-
+  Language-independent tool for massive, automatic, programmable refactoring
+  based on simple pattern definitions.

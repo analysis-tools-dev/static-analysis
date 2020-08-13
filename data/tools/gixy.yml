@@ -1,0 +1,12 @@
+name: gixy
+category:
+  - linter
+tags:
+  - configfile
+license: Other
+type: []
+source: 'https://github.com/yandex/gixy'
+homepage: 'https://github.com/yandex/gixy'
+description: >-
+  A tool to analyze Nginx configuration. The main goal is to prevent
+  misconfiguration and automate flaw detection.

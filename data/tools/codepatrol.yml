@@ -1,0 +1,16 @@
+name: CodePatrol
+category:
+  - linter
+tags:
+  - ci
+  - csharp
+  - java
+  - javascript
+  - php
+  - service
+license: proprietary
+type: []
+homepage: 'https://cyber-security.claranet.fr/en/codepatrol'
+description: >-
+  Automated SAST code reviews driven by security, supports 15+ languages and
+  includes security training.

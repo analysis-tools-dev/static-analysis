@@ -1,0 +1,16 @@
+name: shipshape
+category:
+  - linter
+tags:
+  - c
+  - cpp
+  - java
+  - php
+deprecated: true
+license: Apache License 2.0
+type: []
+source: 'https://github.com/google/shipshape'
+homepage: 'https://github.com/google/shipshape'
+description: >-
+  Static program analysis platform that allows custom analyzers to plug in
+  through a common interface.

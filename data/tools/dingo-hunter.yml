@@ -1,0 +1,10 @@
+name: dingo-hunter
+category:
+  - linter
+tags:
+  - go
+license: Apache License 2.0
+type: []
+source: 'https://github.com/nickng/dingo-hunter'
+homepage: 'https://github.com/nickng/dingo-hunter'
+description: Static analyser for finding deadlocks in Go.

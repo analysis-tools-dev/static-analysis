@@ -1,0 +1,13 @@
+name: yamllint
+category:
+  - linter
+tags:
+  - template
+  - yaml
+license: GNU General Public License v3.0
+type: []
+source: 'https://github.com/adrienverge/yamllint'
+homepage: 'https://yamllint.readthedocs.io/'
+description: >-
+  Checks YAML files for syntax validity, key repetition and cosmetic problems
+  such as lines length, trailing spaces, and indentation.

@@ -1,0 +1,18 @@
+name: graudit
+category:
+  - linter
+tags:
+  - asp
+  - c
+  - cpp
+  - csharp
+  - java
+  - perl
+  - php
+  - python
+  - ruby
+license: GNU General Public License v3.0
+type: []
+source: 'https://github.com/wireghoul/graudit'
+homepage: 'http://www.justanotherhacker.com/'
+description: Grep rough audit - source code auditing tool.

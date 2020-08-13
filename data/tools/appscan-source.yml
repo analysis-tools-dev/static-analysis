@@ -1,0 +1,26 @@
+name: AppScan Source
+category:
+  - linter
+tags:
+  - asp
+  - aspnet
+  - c
+  - cobol
+  - coldfusion
+  - cpp
+  - csharp
+  - java
+  - javascript
+  - jsp
+  - mobile
+  - perl
+  - php
+  - plsql
+  - tsql
+  - vbasic
+  - vbnet
+  - vbscript
+license: proprietary
+type: []
+homepage: 'https://www.hcltechsw.com/wps/portal/products/appscan/home'
+description: Commercial Static Code Analysis.

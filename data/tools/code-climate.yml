@@ -1,0 +1,9 @@
+name: Code Climate
+category:
+  - linter
+tags:
+  - service
+license: proprietary
+type: []
+homepage: 'https://codeclimate.com/'
+description: 'The open and extensible static analysis platform, for everyone.'

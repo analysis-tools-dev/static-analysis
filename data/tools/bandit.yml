@@ -1,0 +1,10 @@
+name: bandit
+category:
+  - linter
+tags:
+  - python
+license: Apache License 2.0
+type: []
+source: 'https://github.com/PyCQA/bandit'
+homepage: 'https://bandit.readthedocs.io/en/latest/'
+description: A tool to find common security issues in Python code.

@@ -1,0 +1,9 @@
+name: JSLint
+category:
+  - linter
+tags:
+  - javascript
+type: []
+source: 'https://github.com/douglascrockford/JSLint'
+homepage: 'https://github.com/douglascrockford/JSLint'
+description: The JavaScript Code Quality Tool.

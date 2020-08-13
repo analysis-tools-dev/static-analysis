@@ -1,0 +1,11 @@
+name: Code Inspector
+category:
+  - linter
+tags:
+  - service
+license: proprietary
+type: []
+homepage: 'https://www.code-inspector.com'
+description: >-
+  Code quality and technical debt management platform that supports 10+
+  languages.

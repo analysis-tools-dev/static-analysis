@@ -1,0 +1,10 @@
+name: Polymer-analyzer
+category:
+  - linter
+tags:
+  - html
+  - javascript
+type: []
+source: 'https://github.com/Polymer/tools/tree/master/packages/analyzer'
+homepage: 'https://github.com/Polymer/tools/tree/master/packages/analyzer'
+description: A static analysis framework for Web Components.

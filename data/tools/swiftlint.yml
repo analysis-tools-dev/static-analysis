@@ -1,0 +1,10 @@
+name: SwiftLint
+category:
+  - linter
+tags:
+  - swift
+license: MIT License
+type: []
+source: 'https://github.com/realm/SwiftLint'
+homepage: 'https://realm.github.io/SwiftLint/'
+description: A tool to enforce Swift style and conventions.

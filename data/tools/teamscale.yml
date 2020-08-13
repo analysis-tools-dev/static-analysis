@@ -1,0 +1,18 @@
+name: Teamscale
+category:
+  - linter
+tags:
+  - abap
+  - c
+  - ci
+  - cpp
+  - csharp
+  - java
+  - service
+license: proprietary
+type: []
+homepage: 'http://www.teamscale.com/'
+description: >-
+  Static and dynamic analysis tool supporting more than 25 languages and direct
+  IDE integration. Free hosting for Open Source projects available on request.
+  Free academic licenses available.

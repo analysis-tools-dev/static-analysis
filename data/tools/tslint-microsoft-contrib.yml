@@ -1,0 +1,12 @@
+name: tslint-microsoft-contrib
+category:
+  - linter
+tags:
+  - typescript
+license: MIT License
+type: []
+source: 'https://github.com/Microsoft/tslint-microsoft-contrib'
+homepage: 'https://github.com/Microsoft/tslint-microsoft-contrib'
+description: >-
+  A set of tslint rules for static code analysis of TypeScript projects
+  maintained by Microsoft.

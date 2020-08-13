@@ -1,0 +1,10 @@
+name: prealloc
+category:
+  - linter
+tags:
+  - go
+license: MIT License
+type: []
+source: 'https://github.com/alexkohler/prealloc'
+homepage: 'https://github.com/alexkohler/prealloc'
+description: Finds slice declarations that could potentially be preallocated.

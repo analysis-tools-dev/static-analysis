@@ -1,0 +1,11 @@
+name: php7cc
+category:
+  - linter
+tags:
+  - php
+deprecated: true
+license: MIT License
+type: []
+source: 'https://github.com/sstalle/php7cc'
+homepage: 'https://github.com/sstalle/php7cc'
+description: PHP 7 Compatibility Checker.

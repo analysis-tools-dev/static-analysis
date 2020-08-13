@@ -1,0 +1,11 @@
+name: goreporter
+category:
+  - meta
+tags:
+  - go
+  - meta
+license: Apache License 2.0
+type: []
+source: 'https://github.com/360EntSecGroup-Skylar/goreporter'
+homepage: 'https://github.com/360EntSecGroup-Skylar/goreporter'
+description: Concurrently runs many linters and normalises their output to a report.
