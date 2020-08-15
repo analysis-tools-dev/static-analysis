@@ -1,9 +1,10 @@
 name: flog
-category:
+categories:
   - linter
 tags:
   - ruby
-type: []
+types:
+  - cli
 source: 'https://github.com/seattlerb/flog'
 homepage: 'https://ruby.sadi.st/Flog.html'
 description: >-

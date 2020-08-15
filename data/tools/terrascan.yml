@@ -1,10 +1,11 @@
 name: terrascan
-category:
+categories:
   - linter
 tags:
   - configmanagement
 license: Apache License 2.0
-type: []
+types:
+  - cli
 source: 'https://github.com/cesar-rodriguez/terrascan'
 homepage: 'https://github.com/cesar-rodriguez/terrascan'
 description: >-

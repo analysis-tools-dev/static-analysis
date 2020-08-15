@@ -1,9 +1,10 @@
 name: portlint
-category:
+categories:
   - linter
 tags:
   - make
-type: []
+types:
+  - cli
 source: >-
   https://www.freebsd.org/cgi/man.cgi?query=portlint&sektion=1&manpath=FreeBSD+8.1-RELEASE+and+Ports
 homepage: >-

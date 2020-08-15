@@ -1,10 +1,11 @@
 name: cargo-inspect
-category:
+categories:
   - linter
 tags:
   - rust
 license: Other
-type: []
+types:
+  - cli
 source: 'https://github.com/mre/cargo-inspect'
 homepage: 'https://github.com/mre/cargo-inspect'
 description: >-

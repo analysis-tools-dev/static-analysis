@@ -1,5 +1,5 @@
 name: SonarQube
-category:
+categories:
   - linter
 tags:
   - ci
@@ -17,7 +17,8 @@ tags:
   - typescript
   - xml
 license: GNU Lesser General Public License v3.0
-type: []
+types:
+  - cli
 source: 'https://github.com/SonarSource/sonarqube'
-homepage: 'http://www.sonarqube.org/'
+homepage: 'http://www.sonarqube.org'
 description: SonarQube is an open platform to manage code quality.

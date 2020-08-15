@@ -1,12 +1,13 @@
 name: CSSLint
-category:
+categories:
   - linter
 tags:
   - css
 license: Other
-type: []
+types:
+  - cli
 source: 'https://github.com/CSSLint/csslint'
-homepage: 'http://csslint.net/'
+homepage: 'http://csslint.net'
 description: >-
   Does basic syntax checking and finds problematic patterns or signs of
   inefficiency.

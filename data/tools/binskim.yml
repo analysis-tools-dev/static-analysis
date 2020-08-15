@@ -1,10 +1,11 @@
 name: BinSkim
-category:
+categories:
   - linter
 tags:
   - binary
 license: Other
-type: []
+types:
+  - cli
 source: 'https://github.com/Microsoft/binskim'
 homepage: 'https://github.com/Microsoft/binskim'
 description: >-

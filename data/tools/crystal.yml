@@ -1,10 +1,11 @@
 name: crystal
-category:
+categories:
   - linter
 tags:
   - crystal
 license: Apache License 2.0
-type: []
+types:
+  - cli
 source: 'https://github.com/crystal-lang/crystal'
-homepage: 'https://crystal-lang.org/'
+homepage: 'https://crystal-lang.org'
 description: The Crystal compiler has built-in linting functionality.

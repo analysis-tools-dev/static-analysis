@@ -1,10 +1,11 @@
 name: linter
-category:
+categories:
   - linter
 tags:
   - scala
 license: Apache License 2.0
-type: []
+types:
+  - cli
 source: 'https://github.com/HairyFotr/linter'
 homepage: 'https://github.com/HairyFotr/linter'
 description: >-

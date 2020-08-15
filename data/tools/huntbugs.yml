@@ -1,11 +1,12 @@
 name: HuntBugs
-category:
+categories:
   - linter
 tags:
   - java
 deprecated: true
 license: Apache License 2.0
-type: []
+types:
+  - cli
 source: 'https://github.com/amaembo/huntbugs'
 homepage: 'https://github.com/amaembo/huntbugs'
 description: >-

@@ -1,5 +1,5 @@
 name: Checkmarx CxSAST
-category:
+categories:
   - linter
 tags:
   - apex
@@ -27,6 +27,7 @@ tags:
   - vbscript
   - visualforce
 license: proprietary
-type: []
-homepage: 'https://www.checkmarx.com/products/static-application-security-testing/'
+types:
+  - cli
+homepage: 'https://www.checkmarx.com/products/static-application-security-testing'
 description: Commercial Static Code Analysis which doesn't require pre-compilation.

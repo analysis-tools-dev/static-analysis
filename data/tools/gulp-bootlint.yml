@@ -1,10 +1,11 @@
 name: gulp-bootlint
-category:
+categories:
   - linter
 tags:
   - html
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/tschortsch/gulp-bootlint'
 homepage: 'https://github.com/tschortsch/gulp-bootlint'
 description: >-

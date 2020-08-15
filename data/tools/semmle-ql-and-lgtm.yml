@@ -1,5 +1,5 @@
 name: Semmle QL and LGTM
-category:
+categories:
   - linter
 tags:
   - c
@@ -8,8 +8,9 @@ tags:
   - java
   - php
 license: proprietary
-type: []
-homepage: 'https://semmle.com/'
+types:
+  - cli
+homepage: 'https://semmle.com'
 description: >-
   Find security vulnerabilities, variants, and critical code quality issues
   using queries over source code. Automatic PR code review; free for public

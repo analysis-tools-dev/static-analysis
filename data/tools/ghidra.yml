@@ -1,10 +1,11 @@
 name: Ghidra
-category:
+categories:
   - linter
 tags:
   - binary
 license: Apache License 2.0
-type: []
+types:
+  - cli
 source: 'https://github.com/NationalSecurityAgency/ghidra'
 homepage: 'https://ghidra-sre.org'
 description: >-

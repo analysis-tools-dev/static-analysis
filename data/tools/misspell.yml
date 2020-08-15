@@ -1,10 +1,11 @@
 name: misspell
-category:
+categories:
   - linter
 tags:
   - go
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/client9/misspell'
 homepage: 'https://github.com/client9/misspell'
 description: Finds commonly misspelled English words.

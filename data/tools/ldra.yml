@@ -1,11 +1,12 @@
 name: LDRA
-category:
+categories:
   - linter
 tags:
   - c
   - cpp
 license: proprietary
-type: []
+types:
+  - cli
 homepage: 'https://ldra.com'
 description: >-
   A tool suite including static analysis (TBVISION) to various standards

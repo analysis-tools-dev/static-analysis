@@ -1,9 +1,10 @@
 name: gawk --lint
-category:
+categories:
   - linter
 tags:
   - awk
-type: []
+types:
+  - cli
 source: 'https://www.gnu.org/software/gawk/manual/html_node/Options.html'
 homepage: 'https://www.gnu.org/software/gawk/manual/html_node/Options.html'
 description: >-

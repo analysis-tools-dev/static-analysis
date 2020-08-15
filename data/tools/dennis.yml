@@ -1,11 +1,12 @@
 name: dennis
-category:
+categories:
   - linter
 tags:
   - translation
-type: []
-source: 'https://github.com/willkg/dennis/'
-homepage: 'https://github.com/willkg/dennis/'
+types:
+  - cli
+source: 'https://github.com/willkg/dennis'
+homepage: 'https://github.com/willkg/dennis'
 description: >-
   A set of utilities for working with PO files to ease development and improve
   quality.

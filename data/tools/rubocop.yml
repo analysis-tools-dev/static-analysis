@@ -1,10 +1,11 @@
 name: RuboCop
-category:
+categories:
   - linter
 tags:
   - ruby
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/rubocop-hq/rubocop'
-homepage: 'https://docs.rubocop.org/rubocop/'
+homepage: 'https://docs.rubocop.org/rubocop'
 description: 'A Ruby static code analyzer, based on the community Ruby style guide.'

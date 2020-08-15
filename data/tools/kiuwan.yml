@@ -1,10 +1,10 @@
 name: kiuwan
-category:
+categories:
   - linter
 tags:
   - service
 license: proprietary
-type:
+types:
   - service
-homepage: 'https://www.kiuwan.com/'
+homepage: 'https://www.kiuwan.com'
 description: Software Analytics in the Cloud supporting more than 22 programming languages.

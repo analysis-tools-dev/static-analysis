@@ -1,5 +1,5 @@
 name: Embold
-category:
+categories:
   - linter
 tags:
   - c
@@ -13,7 +13,7 @@ tags:
   - service
   - typescript
 license: proprietary
-type:
+types:
   - service
 homepage: 'https://embold.io'
 description: >-

@@ -1,11 +1,12 @@
 name: Reviewdog
-category:
+categories:
   - linter
 tags:
   - ci
   - go
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/haya14busa/reviewdog'
 homepage: 'https://github.com/haya14busa/reviewdog'
 description: >-

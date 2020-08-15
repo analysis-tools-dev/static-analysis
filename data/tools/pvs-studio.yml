@@ -1,5 +1,5 @@
 name: PVS-Studio
-category:
+categories:
   - linter
 tags:
   - c
@@ -7,8 +7,9 @@ tags:
   - csharp
   - java
 license: proprietary
-type: []
-homepage: 'https://www.viva64.com/en/pvs-studio/'
+types:
+  - cli
+homepage: 'https://www.viva64.com/en/pvs-studio'
 description: >-
   A ([conditionally free](https://www.viva64.com/en/b/0614/) for FOSS and
   individual developers) static analysis of C, C++, C# and Java code. For

@@ -1,11 +1,12 @@
 name: ClosureLinter
-category:
+categories:
   - linter
 tags:
   - javascript
 deprecated: true
 license: Apache License 2.0
-type: []
+types:
+  - cli
 source: 'https://github.com/google/closure-linter'
 homepage: 'https://github.com/google/closure-linter'
 description: >-

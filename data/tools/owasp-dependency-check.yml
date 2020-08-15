@@ -1,10 +1,11 @@
 name: OWASP Dependency Check
-category:
+categories:
   - linter
 tags:
   - java
 license: Apache License 2.0
-type: []
+types:
+  - cli
 source: 'https://github.com/jeremylong/DependencyCheck'
-homepage: 'https://owasp.org/www-project-dependency-check/'
+homepage: 'https://owasp.org/www-project-dependency-check'
 description: 'Checks dependencies for known, publicly disclosed, vulnerabilities.'

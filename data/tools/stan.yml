@@ -1,10 +1,11 @@
 name: Stan
-category:
+categories:
   - linter
 tags:
   - haskell
 license: Mozilla Public License 2.0
-type: []
+types:
+  - cli
 source: 'https://github.com/kowainik/stan'
 homepage: 'https://kowainik.github.io/projects/stan'
 description: >-

@@ -1,10 +1,11 @@
 name: scan-build
-category:
+categories:
   - linter
 tags:
   - c
   - cpp
-type: []
+types:
+  - cli
 source: 'https://clang-analyzer.llvm.org/scan-build.html'
 homepage: 'https://clang-analyzer.llvm.org/scan-build.html'
 description: Analyzes C/C++ code using LLVM at compile-time.

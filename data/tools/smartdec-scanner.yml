@@ -1,5 +1,5 @@
 name: SmartDec Scanner
-category:
+categories:
   - linter
 tags:
   - abap
@@ -31,8 +31,9 @@ tags:
   - vbscript
   - vyper
 license: proprietary
-type: []
-homepage: 'https://smartdecscanner.com/'
+types:
+  - cli
+homepage: 'https://smartdecscanner.com'
 description: >-
   SAST tool which is capable of identifying vulnerabilities and undocumented
   features. The analyzer scans the source code and executables without debug

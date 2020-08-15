@@ -1,11 +1,12 @@
 name: flake8
-category:
+categories:
   - meta
 tags:
   - meta
   - python
 license: Other
-type: []
+types:
+  - cli
 source: 'https://github.com/PyCQA/flake8'
 homepage: 'https://github.com/PyCQA/flake8'
 description: 'A wrapper around `pyflakes`, `pycodestyle` and `mccabe`.'

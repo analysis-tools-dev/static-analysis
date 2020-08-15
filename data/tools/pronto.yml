@@ -1,5 +1,5 @@
 name: Pronto
-category:
+categories:
   - linter
 tags:
   - c
@@ -12,7 +12,8 @@ tags:
   - php
   - ruby
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/prontolabs/pronto'
 homepage: 'https://github.com/prontolabs/pronto'
 description: >-

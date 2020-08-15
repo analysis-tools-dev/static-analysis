@@ -1,11 +1,11 @@
 name: Black
-category:
+categories:
   - formatter
 tags:
-  - formatter
   - python
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/ambv/black'
-homepage: 'https://black.readthedocs.io/en/stable/'
+homepage: 'https://black.readthedocs.io/en/stable'
 description: The uncompromising Python code formatter.

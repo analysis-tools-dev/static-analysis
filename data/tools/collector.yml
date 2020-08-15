@@ -1,10 +1,11 @@
 name: collector
-category:
+categories:
   - formatter
 tags:
   - container
 license: Other
-type: []
+types:
+  - cli
 source: 'https://github.com/banyanops/collector'
 homepage: 'https://github.com/banyanops/collector'
 description: 'Run arbitrary scripts inside containers, and gather useful information.'

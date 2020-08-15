@@ -1,11 +1,11 @@
 name: SonarCloud
-category:
+categories:
   - linter
 tags:
   - ci
   - service
 license: proprietary
-type:
+types:
   - service
 homepage: 'https://sonarcloud.io'
 description: >-

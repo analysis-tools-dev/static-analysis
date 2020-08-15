@@ -1,5 +1,5 @@
 name: Snyk
-category:
+categories:
   - linter
 tags:
   - ci
@@ -12,9 +12,9 @@ tags:
   - ruby
   - service
 license: proprietary
-type:
+types:
   - service
-homepage: 'https://snyk.io/'
+homepage: 'https://snyk.io'
 description: >-
   Vulnerability scanner for dependencies of node.js apps (free for Open Source
   Projects).

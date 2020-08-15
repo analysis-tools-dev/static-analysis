@@ -1,10 +1,11 @@
 name: rpmlint
-category:
+categories:
   - linter
 tags:
   - package
 license: GNU General Public License v2.0
-type: []
+types:
+  - cli
 source: 'https://github.com/rpm-software-management/rpmlint'
 homepage: 'https://github.com/rpm-software-management/rpmlint'
 description: Tool for checking common errors in rpm packages.

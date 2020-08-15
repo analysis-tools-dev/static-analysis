@@ -1,10 +1,11 @@
 name: cpplint
-category:
+categories:
   - linter
 tags:
   - c
   - cpp
-type: []
+types:
+  - cli
 source: 'https://github.com/google/styleguide/tree/gh-pages/cpplint'
 homepage: 'https://github.com/google/styleguide/tree/gh-pages/cpplint'
 description: Automated C++ checker that follows Google's style guide.

@@ -1,14 +1,15 @@
 name: codechecker
-category:
+categories:
   - linter
 tags:
   - buildtool
   - c
   - cpp
 license: Apache License 2.0
-type: []
+types:
+  - cli
 source: 'https://github.com/Ericsson/codechecker'
-homepage: 'https://codechecker.readthedocs.io/en/latest/'
+homepage: 'https://codechecker.readthedocs.io/en/latest'
 description: >-
   A defect database and viewer extension for the Clang Static Analyzer with web
   GUI.

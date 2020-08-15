@@ -1,11 +1,12 @@
 name: Astrée
-category:
+categories:
   - linter
 tags:
   - c
   - cpp
 license: proprietary
-type: []
+types:
+  - cli
 homepage: 'https://www.absint.com/astree/index.htm'
 description: >-
   Sound static analyzer based on abstract interpretation for C/C++, detecting

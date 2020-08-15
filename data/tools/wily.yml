@@ -1,10 +1,11 @@
 name: wily
-category:
+categories:
   - linter
 tags:
   - python
 license: Apache License 2.0
-type: []
+types:
+  - cli
 source: 'https://github.com/tonybaloney/wily'
 homepage: 'https://github.com/tonybaloney/wily'
 description: >-

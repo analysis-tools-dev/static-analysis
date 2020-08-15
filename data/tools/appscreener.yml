@@ -1,5 +1,5 @@
 name: APPscreener
-category:
+categories:
   - linter
 tags:
   - abap
@@ -21,8 +21,9 @@ tags:
   - tsql
   - vbasic
 license: proprietary
-type: []
-homepage: 'https://solarappscreener.com/'
+types:
+  - cli
+homepage: 'https://solarappscreener.com'
 description: >-
   Static code analysis for binary and source code - Java/Scala, PHP, Javascript,
   C#, PL/SQL, Python, T-SQL, C/C++, ObjectiveC/Swift, Visual Basic 6.0, Ruby,

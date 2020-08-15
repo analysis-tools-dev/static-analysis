@@ -1,9 +1,9 @@
 name: ale
-category:
+categories:
   - linter
 tags: []
 license: BSD 2-Clause "Simplified" License
-type:
+types:
   - ide-plugin
 source: 'https://github.com/w0rp/ale'
 homepage: 'https://github.com/w0rp/ale'

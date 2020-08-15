@@ -1,10 +1,11 @@
 name: Rubrowser
-category:
+categories:
   - linter
 tags:
   - ruby
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/blazeeboy/rubrowser'
-homepage: 'http://www.emadelsaid.com/rubrowser/'
+homepage: 'http://www.emadelsaid.com/rubrowser'
 description: Ruby classes interactive dependency graph generator.

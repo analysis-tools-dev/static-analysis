@@ -1,11 +1,11 @@
 name: Landscape
-category:
+categories:
   - linter
 tags:
   - service
 deprecated: true
 license: proprietary
-type:
+types:
   - service
-homepage: 'https://landscape.io/'
+homepage: 'https://landscape.io'
 description: Static code analysis for Python.

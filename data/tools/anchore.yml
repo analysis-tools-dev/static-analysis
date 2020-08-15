@@ -1,10 +1,11 @@
 name: anchore
-category:
+categories:
   - linter
 tags:
   - container
 license: Apache License 2.0
-type: []
+types:
+  - cli
 source: 'https://github.com/anchore/anchore-engine'
-homepage: 'https://anchore.io/'
+homepage: 'https://anchore.io'
 description: 'Discover, analyze, and certify container images.'

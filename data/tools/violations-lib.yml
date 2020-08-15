@@ -1,12 +1,13 @@
 name: Violations Lib
-category:
+categories:
   - linter
 tags:
   - ci
   - java
   - support
 license: Apache License 2.0
-type: []
+types:
+  - cli
 source: 'https://github.com/tomasbjerre/violations-lib'
 homepage: 'https://github.com/tomasbjerre/violations-lib'
 description: >-

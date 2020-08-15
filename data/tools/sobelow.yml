@@ -1,10 +1,11 @@
 name: sobelow
-category:
+categories:
   - linter
 tags:
   - elixir
 license: Apache License 2.0
-type: []
+types:
+  - cli
 source: 'https://github.com/nccgroup/sobelow'
 homepage: 'https://github.com/nccgroup/sobelow'
 description: Security-focused static analysis for the Phoenix Framework.

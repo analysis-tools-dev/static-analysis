@@ -1,5 +1,5 @@
 name: WhiteHat Application Security Platform
-category:
+categories:
   - linter
 tags:
   - aspnet
@@ -13,8 +13,9 @@ tags:
   - php
   - typescript
 license: proprietary
-type: []
-homepage: 'https://www.whitehatsec.com/platform/static-application-security-testing/'
+types:
+  - cli
+homepage: 'https://www.whitehatsec.com/platform/static-application-security-testing'
 description: >-
   WhiteHat Scout (for Developers) combined with WhiteHat Sentinel Source (for
   Operations) supporting WhiteHat Top 40 and OWASP Top 10.

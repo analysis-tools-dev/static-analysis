@@ -1,12 +1,12 @@
 name: Reshift
-category:
+categories:
   - linter
 tags:
   - service
 license: proprietary
-type:
+types:
   - service
-homepage: 'https://www.reshiftsecurity.com/'
+homepage: 'https://www.reshiftsecurity.com'
 description: >-
   A source code analysis tool for detecting and managing Java security
   vulnerabilities.

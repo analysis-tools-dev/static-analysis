@@ -1,9 +1,13 @@
 name: include-gardener
-category:
+categories:
   - formatter
 tags:
+  - c
+  - cpp
+  - python
   - ruby
-type: []
+types:
+  - cli
 source: 'https://github.com/feddischson/include_gardener'
 homepage: 'https://github.com/feddischson/include_gardener'
 description: >-

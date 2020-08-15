@@ -1,5 +1,5 @@
 name: InsiderSec
-category:
+categories:
   - linter
 tags:
   - csharp
@@ -11,9 +11,10 @@ tags:
   - nodejs
   - swift
 license: GNU General Public License v3.0
-type: []
+types:
+  - cli
 source: 'https://github.com/insidersec/insider'
-homepage: 'https://insidersec.io/'
+homepage: 'https://insidersec.io'
 description: >-
   A open source Static Application Security Testing tool (SAST) written in
   GoLang for Java (Maven and Android), Kotlin (Android), Swift (iOS), .NET Full

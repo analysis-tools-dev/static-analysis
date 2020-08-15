@@ -1,5 +1,5 @@
 name: Upsource
-category:
+categories:
   - linter
 tags:
   - ci
@@ -9,9 +9,9 @@ tags:
   - php
   - service
 license: proprietary
-type:
+types:
   - service
-homepage: 'https://www.jetbrains.com/upsource/'
+homepage: 'https://www.jetbrains.com/upsource'
 description: >-
   Code review tool with static code analysis and code-aware navigation for Java,
   PHP, JavaScript and Kotlin.

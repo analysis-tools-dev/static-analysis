@@ -1,11 +1,12 @@
 name: CMetrics
-category:
+categories:
   - linter
 tags:
   - c
   - cpp
 license: GNU General Public License v2.0
-type: []
+types:
+  - cli
 source: 'https://github.com/MetricsGrimoire/CMetrics'
 homepage: 'https://github.com/MetricsGrimoire/CMetrics'
 description: Measures size and complexity for C files.

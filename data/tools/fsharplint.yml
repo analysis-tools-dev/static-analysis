@@ -1,10 +1,11 @@
 name: FSharpLint
-category:
+categories:
   - linter
 tags:
   - fsharp
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/fsprojects/FSharpLint'
-homepage: 'http://fsprojects.github.io/FSharpLint/'
+homepage: 'http://fsprojects.github.io/FSharpLint'
 description: Lint tool for F#.

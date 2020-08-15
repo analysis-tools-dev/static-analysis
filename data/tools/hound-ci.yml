@@ -1,5 +1,5 @@
 name: Hound CI
-category:
+categories:
   - linter
 tags:
   - coffeescript
@@ -10,9 +10,10 @@ tags:
   - ruby
   - swift
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/houndci/hound'
-homepage: 'https://houndci.com/'
+homepage: 'https://houndci.com'
 description: >-
   Comments on style violations in GitHub pull requests. Supports Coffeescript,
   Go, HAML, JavaScript, Ruby, SCSS and Swift.

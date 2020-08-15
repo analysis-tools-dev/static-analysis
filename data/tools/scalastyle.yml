@@ -1,10 +1,11 @@
 name: Scalastyle
-category:
+categories:
   - linter
 tags:
   - scala
 license: Apache License 2.0
-type: []
+types:
+  - cli
 source: 'https://github.com/scalastyle/scalastyle'
 homepage: 'http://www.scalastyle.org'
 description: Scalastyle examines your Scala code and indicates potential problems with it.

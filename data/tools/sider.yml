@@ -1,5 +1,5 @@
 name: Sider
-category:
+categories:
   - linter
 tags:
   - ci
@@ -10,7 +10,7 @@ tags:
   - service
   - swift
 license: proprietary
-type:
+types:
   - service
 homepage: 'https://sider.review'
 description: An automated code reviewing tool. Improving developers' productivity.

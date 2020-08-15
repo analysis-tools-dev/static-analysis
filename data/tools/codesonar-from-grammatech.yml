@@ -1,11 +1,12 @@
 name: CodeSonar from GrammaTech
-category:
+categories:
   - linter
 tags:
   - c
   - cpp
 license: proprietary
-type: []
+types:
+  - cli
 homepage: 'https://www.grammatech.com/products/codesonar'
 description: >-
   Advanced, whole program, deep path, static analysis of C and C++ with

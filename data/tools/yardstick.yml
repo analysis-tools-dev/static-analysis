@@ -1,11 +1,12 @@
 name: yardstick
-category:
+categories:
   - linter
 tags:
   - javascript
 deprecated: true
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/calmh/yardstick'
 homepage: 'https://github.com/calmh/yardstick'
 description: Javascript code metrics.

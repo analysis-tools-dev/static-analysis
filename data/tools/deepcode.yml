@@ -1,5 +1,5 @@
 name: DeepCode
-category:
+categories:
   - linter
 tags:
   - c
@@ -9,8 +9,9 @@ tags:
   - python
   - typescript
 license: proprietary
-type: []
-homepage: 'https://www.deepcode.ai/'
+types:
+  - cli
+homepage: 'https://www.deepcode.ai'
 description: >-
   DeepCode finds bugs, security vulnerabilities, performance and API issues
   based on AI. DeepCode's speed of analysis allow us to analyse your code in

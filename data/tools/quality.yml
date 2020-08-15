@@ -1,11 +1,12 @@
 name: quality
-category:
+categories:
   - linter
 tags:
   - ci
   - ruby
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/apiology/quality'
 homepage: 'https://github.com/apiology/quality'
 description: >-

@@ -1,10 +1,11 @@
 name: VSDiagnostics
-category:
+categories:
   - linter
 tags:
   - csharp
 license: GNU General Public License v2.0
-type: []
+types:
+  - cli
 source: 'https://github.com/Vannevelj/VSDiagnostics'
 homepage: 'https://github.com/Vannevelj/VSDiagnostics'
 description: A collection of static analyzers based on Roslyn that integrates with VS.

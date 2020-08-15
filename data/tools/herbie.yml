@@ -1,10 +1,11 @@
 name: herbie
-category:
+categories:
   - linter
 tags:
   - rust
 license: Mozilla Public License 2.0
-type: []
+types:
+  - cli
 source: 'https://github.com/mcarton/rust-herbie-lint'
 homepage: 'https://github.com/mcarton/rust-herbie-lint'
 description: >-

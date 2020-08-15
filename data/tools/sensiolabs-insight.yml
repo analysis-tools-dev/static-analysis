@@ -1,13 +1,13 @@
 name: SensioLabs Insight
-category:
+categories:
   - linter
 tags:
   - php
   - service
 license: proprietary
-type:
+types:
   - service
-homepage: 'https://insight.sensiolabs.com/'
+homepage: 'https://insight.sensiolabs.com'
 description: >-
   Detect security risks, find bugs and provide actionable metrics for PHP
   projects.

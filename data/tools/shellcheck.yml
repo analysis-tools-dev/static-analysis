@@ -1,12 +1,13 @@
 name: shellcheck
-category:
+categories:
   - linter
 tags:
   - shell
 license: GNU General Public License v3.0
-type: []
+types:
+  - cli
 source: 'https://github.com/koalaman/shellcheck'
-homepage: 'https://www.shellcheck.net/'
+homepage: 'https://www.shellcheck.net'
 description: >-
   ShellCheck, a static analysis tool that gives warnings and suggestions for
   bash/sh shell scripts.

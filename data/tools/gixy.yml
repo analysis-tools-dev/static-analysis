@@ -1,10 +1,11 @@
 name: gixy
-category:
+categories:
   - linter
 tags:
   - configfile
 license: Other
-type: []
+types:
+  - cli
 source: 'https://github.com/yandex/gixy'
 homepage: 'https://github.com/yandex/gixy'
 description: >-

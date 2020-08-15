@@ -1,5 +1,5 @@
 name: Synopsys
-category:
+categories:
   - linter
 tags:
   - c
@@ -16,7 +16,8 @@ tags:
   - ruby
   - swift
 license: proprietary
-type: []
+types:
+  - cli
 homepage: >-
   https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html
 description: >-

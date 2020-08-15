@@ -1,10 +1,11 @@
 name: TeXLab
-category:
+categories:
   - linter
 tags:
   - latex
 license: GNU General Public License v3.0
-type: []
+types:
+  - cli
 source: 'https://github.com/latex-lsp/texlab'
 homepage: 'https://texlab.netlify.app'
 description: >-

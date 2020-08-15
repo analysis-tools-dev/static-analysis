@@ -1,5 +1,5 @@
 name: coala
-category:
+categories:
   - linter
 tags:
   - c
@@ -7,9 +7,10 @@ tags:
   - css
   - java
   - javascript
-type: []
-source: 'https://github.com/coala/coala/'
-homepage: 'https://coala.io/'
+types:
+  - cli
+source: 'https://github.com/coala/coala'
+homepage: 'https://coala.io'
 description: >-
   Language independent framework for creating code analysis - supports [over 60
   languages](https://coala.io/languages) by default.

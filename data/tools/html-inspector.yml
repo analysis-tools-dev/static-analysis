@@ -1,10 +1,11 @@
 name: HTML Inspector
-category:
+categories:
   - linter
 tags:
   - html
 deprecated: true
-type: []
+types:
+  - cli
 source: 'https://github.com/philipwalton/html-inspector'
 homepage: 'https://github.com/philipwalton/html-inspector'
 description: >-

@@ -1,5 +1,5 @@
 name: Depends
-category:
+categories:
   - linter
 tags:
   - c
@@ -7,7 +7,8 @@ tags:
   - java
   - php
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/multilang-depends/depends'
 homepage: 'https://github.com/multilang-depends/depends'
 description: >-

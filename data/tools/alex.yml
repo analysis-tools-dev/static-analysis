@@ -1,10 +1,11 @@
 name: alex
-category:
+categories:
   - linter
 tags:
   - writing
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/get-alex/alex'
-homepage: 'https://alexjs.com/'
+homepage: 'https://alexjs.com'
 description: 'Catch insensitive, inconsiderate writing'

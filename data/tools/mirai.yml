@@ -1,10 +1,11 @@
 name: MIRAI
-category:
+categories:
   - linter
 tags:
   - rust
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/facebookexperimental/MIRAI'
 homepage: 'https://github.com/facebookexperimental/MIRAI'
 description: >-

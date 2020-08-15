@@ -1,9 +1,10 @@
 name: Nagelfar
-category:
+categories:
   - linter
 tags:
   - tcl
-type: []
-source: 'https://sourceforge.net/p/nagelfar/code/ci/master/tree/'
-homepage: 'https://sourceforge.net/projects/nagelfar/'
+types:
+  - cli
+source: 'https://sourceforge.net/p/nagelfar/code/ci/master/tree'
+homepage: 'https://sourceforge.net/projects/nagelfar'
 description: A static syntax checker for Tcl.

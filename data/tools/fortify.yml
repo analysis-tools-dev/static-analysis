@@ -1,5 +1,5 @@
 name: Fortify
-category:
+categories:
   - linter
 tags:
   - abap
@@ -28,7 +28,8 @@ tags:
   - vbscript
   - xml
 license: proprietary
-type: []
+types:
+  - cli
 homepage: >-
   https://software.microfocus.com/en-us/products/static-code-analysis-sast/overview
 description: >-

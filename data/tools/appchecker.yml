@@ -1,5 +1,5 @@
 name: AppChecker
-category:
+categories:
   - linter
 tags:
   - c
@@ -7,6 +7,7 @@ tags:
   - java
   - php
 license: proprietary
-type: []
+types:
+  - cli
 homepage: 'https://npo-echelon.ru/en/solutions/appchecker.php'
 description: 'Static analysis for C/C++/C#, PHP and Java.'

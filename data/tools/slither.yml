@@ -1,10 +1,11 @@
 name: slither
-category:
+categories:
   - formatter
 tags:
   - solidity
 license: GNU Affero General Public License v3.0
-type: []
+types:
+  - cli
 source: 'https://github.com/trailofbits/slither'
 homepage: 'https://github.com/trailofbits/slither'
 description: >-

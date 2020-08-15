@@ -1,12 +1,13 @@
 name: revive
-category:
+categories:
   - linter
 tags:
   - go
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/mgechev/revive'
-homepage: 'https://revive.run/'
+homepage: 'https://revive.run'
 description: >-
   Fast, configurable, extensible, flexible, and beautiful linter for Go. Drop-in
   replacement of golint.

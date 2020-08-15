@@ -1,9 +1,10 @@
 name: SourceMeter
-category:
+categories:
   - linter
 tags:
   - rpg
 license: proprietary
-type: []
-homepage: 'https://www.sourcemeter.com/resources/rpg/'
+types:
+  - cli
+homepage: 'https://www.sourcemeter.com/resources/rpg'
 description: Static Code Analysis for RPG III and RPG IV versions (including free-form).

@@ -1,5 +1,5 @@
 name: ApplicationInspector
-category:
+categories:
   - linter
 tags:
   - c
@@ -15,7 +15,8 @@ tags:
   - python
   - ruby
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/microsoft/ApplicationInspector'
 homepage: 'https://github.com/microsoft/ApplicationInspector'
 description: >-

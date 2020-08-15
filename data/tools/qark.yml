@@ -1,10 +1,11 @@
 name: qark
-category:
+categories:
   - linter
 tags:
   - mobile
 license: Other
-type: []
+types:
+  - cli
 source: 'https://github.com/linkedin/qark'
 homepage: 'https://github.com/linkedin/qark'
 description: Tool to look for several security related Android application vulnerabilities.

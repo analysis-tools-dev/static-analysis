@@ -1,10 +1,11 @@
 name: phpcpd
-category:
+categories:
   - linter
 tags:
   - php
 license: Other
-type: []
+types:
+  - cli
 source: 'https://github.com/sebastianbergmann/phpcpd'
 homepage: 'https://github.com/sebastianbergmann/phpcpd'
 description: Copy/Paste Detector for PHP code.

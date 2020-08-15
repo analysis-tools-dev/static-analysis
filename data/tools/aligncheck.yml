@@ -1,10 +1,11 @@
 name: aligncheck
-category:
+categories:
   - linter
 tags:
   - go
 license: GPL v2
-type: []
+types:
+  - cli
 source: 'https://gitlab.com/opennota/check'
 homepage: 'https://gitlab.com/opennota/check'
 description: Find inefficiently packed structs.

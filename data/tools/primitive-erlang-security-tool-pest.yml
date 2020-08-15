@@ -1,10 +1,11 @@
 name: Primitive Erlang Security Tool (PEST)
-category:
+categories:
   - linter
 tags:
   - erlang
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/okeuday/pest'
 homepage: 'https://github.com/okeuday/pest'
 description: >-

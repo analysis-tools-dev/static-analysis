@@ -1,12 +1,13 @@
 name: jshint
-category:
+categories:
   - linter
 tags:
   - javascript
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/jshint/jshint'
-homepage: 'https://jshint.com/about/'
+homepage: 'https://jshint.com/about'
 description: >-
   Detect errors and potential problems in JavaScript code and enforce your
   team's coding conventions.

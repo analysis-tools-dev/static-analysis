@@ -1,11 +1,12 @@
 name: CodeIt.Right
-category:
+categories:
   - linter
 tags:
   - csharp
   - vbnet
 license: proprietary
-type: []
+types:
+  - cli
 homepage: 'https://submain.com/products/codeit.right.aspx'
 description: >-
   CodeIt.Right&trade; provides a fast, automated way to ensure that your source

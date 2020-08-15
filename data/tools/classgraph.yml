@@ -1,12 +1,13 @@
 name: ClassGraph
-category:
+categories:
   - linter
 tags:
   - groovy
   - java
   - kotlin
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/classgraph/classgraph'
 homepage: 'https://github.com/classgraph/classgraph'
 description: >-

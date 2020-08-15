@@ -1,5 +1,5 @@
 name: relint
-category:
+categories:
   - linter
 tags:
   - c
@@ -10,7 +10,8 @@ tags:
   - jsx
   - python
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/codingjoe/relint'
 homepage: 'https://github.com/codingjoe/relint'
 description: >-

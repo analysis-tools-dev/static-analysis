@@ -1,12 +1,13 @@
 name: Twiggy
-category:
+categories:
   - linter
 tags:
   - binary
 license: Other
-type: []
+types:
+  - cli
 source: 'https://github.com/rustwasm/twiggy'
-homepage: 'https://rustwasm.github.io/twiggy/'
+homepage: 'https://rustwasm.github.io/twiggy'
 description: >-
   Analyzes a binary's call graph to profile code size. The goal is to slim down
   binaries.

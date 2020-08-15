@@ -1,10 +1,10 @@
 name: Scrutinizer
-category:
+categories:
   - linter
 tags:
   - service
 license: proprietary
-type:
+types:
   - service
-homepage: 'https://scrutinizer-ci.com/'
+homepage: 'https://scrutinizer-ci.com'
 description: A proprietary code quality checker that can be integrated with GitHub.

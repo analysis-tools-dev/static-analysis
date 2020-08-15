@@ -1,10 +1,11 @@
 name: parallel-lint
-category:
+categories:
   - linter
 tags:
   - php
 license: Other
-type: []
+types:
+  - cli
 source: 'https://github.com/php-parallel-lint/PHP-Parallel-Lint'
 homepage: 'https://github.com/php-parallel-lint/PHP-Parallel-Lint'
 description: >-

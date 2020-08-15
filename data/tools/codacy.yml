@@ -1,10 +1,10 @@
 name: Codacy
-category:
+categories:
   - linter
 tags:
   - service
 license: proprietary
-type:
+types:
   - service
-homepage: 'https://www.codacy.com/'
+homepage: 'https://www.codacy.com'
 description: 'Code Analysis to ship Better Code, Faster.'

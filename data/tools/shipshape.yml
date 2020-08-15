@@ -1,5 +1,5 @@
 name: shipshape
-category:
+categories:
   - linter
 tags:
   - c
@@ -8,7 +8,8 @@ tags:
   - php
 deprecated: true
 license: Apache License 2.0
-type: []
+types:
+  - cli
 source: 'https://github.com/google/shipshape'
 homepage: 'https://github.com/google/shipshape'
 description: >-

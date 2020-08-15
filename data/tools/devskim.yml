@@ -1,5 +1,5 @@
 name: DevSkim
-category:
+categories:
   - linter
 tags:
   - asp
@@ -10,7 +10,7 @@ tags:
   - python
   - ruby
 license: MIT License
-type:
+types:
   - ide-plugin
 source: 'https://github.com/microsoft/devskim'
 homepage: 'https://github.com/microsoft/devskim'

@@ -1,10 +1,11 @@
 name: pyre-check
-category:
+categories:
   - linter
 tags:
   - python
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/facebook/pyre-check'
-homepage: 'https://pyre-check.org/'
+homepage: 'https://pyre-check.org'
 description: 'A fast, scalable type checker for large Python codebases.'

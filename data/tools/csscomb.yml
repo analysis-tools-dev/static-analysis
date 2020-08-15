@@ -1,11 +1,11 @@
 name: CSScomb
-category:
+categories:
   - formatter
 tags:
   - css
-  - formatter
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/csscomb/csscomb.js'
 homepage: 'https://github.com/csscomb/csscomb.js'
 description: >-

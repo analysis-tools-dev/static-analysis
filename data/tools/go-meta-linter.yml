@@ -1,12 +1,13 @@
 name: Go Meta Linter
-category:
+categories:
   - meta
 tags:
   - go
   - meta
 deprecated: true
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/alecthomas/gometalinter'
 homepage: 'https://github.com/alecthomas/gometalinter'
 description: >-

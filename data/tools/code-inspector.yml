@@ -1,10 +1,10 @@
 name: Code Inspector
-category:
+categories:
   - linter
 tags:
   - service
 license: proprietary
-type:
+types:
   - service
 homepage: 'https://www.code-inspector.com'
 description: >-

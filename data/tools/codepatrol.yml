@@ -1,5 +1,5 @@
 name: CodePatrol
-category:
+categories:
   - linter
 tags:
   - ci
@@ -9,7 +9,7 @@ tags:
   - php
   - service
 license: proprietary
-type:
+types:
   - service
 homepage: 'https://cyber-security.claranet.fr/en/codepatrol'
 description: >-

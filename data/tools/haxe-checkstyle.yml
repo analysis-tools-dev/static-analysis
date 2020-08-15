@@ -1,10 +1,11 @@
 name: Haxe Checkstyle
-category:
+categories:
   - linter
 tags:
   - haxe
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/HaxeCheckstyle/haxe-checkstyle'
 homepage: 'http://haxecheckstyle.github.io/docs/haxe-checkstyle/home.html'
 description: >-

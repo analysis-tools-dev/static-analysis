@@ -1,10 +1,11 @@
 name: DesigniteJava
-category:
+categories:
   - linter
 tags:
   - java
 license: proprietary
-type: []
+types:
+  - cli
 homepage: 'http://www.designite-tools.com/designitejava'
 description: >-
   DesigniteJava supports detection of various architecture, design, and

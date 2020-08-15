@@ -1,10 +1,11 @@
 name: abapOpenChecks
-category:
+categories:
   - linter
 tags:
   - abap
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/larshp/abapOpenChecks'
-homepage: 'https://docs.abapopenchecks.org/'
+homepage: 'https://docs.abapopenchecks.org'
 description: Enhances the SAP Code Inspector with new and customizable checks.

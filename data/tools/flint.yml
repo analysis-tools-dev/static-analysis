@@ -1,11 +1,12 @@
 name: flint++
-category:
+categories:
   - linter
 tags:
   - c
   - cpp
 license: Boost Software License 1.0
-type: []
+types:
+  - cli
 source: 'https://github.com/JossWhittle/FlintPlusPlus'
 homepage: 'https://github.com/JossWhittle/FlintPlusPlus'
 description: >-

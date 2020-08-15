@@ -1,11 +1,12 @@
 name: Frink
-category:
+categories:
   - formatter
 tags:
   - tcl
-type: []
-source: 'https://catless.ncl.ac.uk/Programs/Frink/'
-homepage: 'https://catless.ncl.ac.uk/Programs/Frink/'
+types:
+  - cli
+source: 'https://catless.ncl.ac.uk/Programs/Frink'
+homepage: 'https://catless.ncl.ac.uk/Programs/Frink'
 description: >-
   A Tcl formatting and static check program (can prettify the program, minimise,
   obfuscate or just sanity check it).

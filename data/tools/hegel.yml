@@ -1,12 +1,13 @@
 name: hegel
-category:
+categories:
   - linter
 tags:
   - javascript
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/JSMonk/hegel'
-homepage: 'https://hegel.js.org/'
+homepage: 'https://hegel.js.org'
 description: >-
   A static type checker for JavaScript with a bias on type inference and strong
   type systems.

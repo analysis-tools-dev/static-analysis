@@ -1,13 +1,14 @@
 name: Phasar
-category:
+categories:
   - linter
 tags:
   - c
   - cpp
 license: Other
-type: []
+types:
+  - cli
 source: 'https://github.com/secure-software-engineering/phasar'
-homepage: 'https://phasar.org/'
+homepage: 'https://phasar.org'
 description: >-
   A LLVM-based static analysis framework which comes with a taint and type state
   analysis.

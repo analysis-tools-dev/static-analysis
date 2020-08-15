@@ -1,10 +1,11 @@
 name: Specificity Graph
-category:
+categories:
   - linter
 tags:
   - css
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/pocketjoso/specificity-graph'
-homepage: 'https://jonassebastianohlsson.com/specificity-graph/'
+homepage: 'https://jonassebastianohlsson.com/specificity-graph'
 description: CSS Specificity Graph Generator.

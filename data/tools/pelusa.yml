@@ -1,9 +1,10 @@
 name: pelusa
-category:
+categories:
   - linter
 tags:
   - ruby
-type: []
+types:
+  - cli
 source: 'https://github.com/codegram/pelusa'
 homepage: 'https://github.com/codegram/pelusa'
 description: Static analysis Lint-type tool to improve your OO Ruby code.

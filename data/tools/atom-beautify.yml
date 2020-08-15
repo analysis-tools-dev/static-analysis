@@ -1,5 +1,5 @@
 name: Atom-Beautify
-category:
+categories:
   - linter
 tags:
   - c
@@ -18,7 +18,8 @@ tags:
   - sql
   - typescript
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/Glavin001/atom-beautify'
 homepage: 'https://atom.io/packages/atom-beautify'
 description: >-

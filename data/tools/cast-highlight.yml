@@ -1,5 +1,5 @@
 name: CAST Highlight
-category:
+categories:
   - linter
 tags:
   - abap
@@ -16,7 +16,8 @@ tags:
   - tsql
   - vbasic
 license: proprietary
-type: []
+types:
+  - cli
 homepage: 'https://www.castsoftware.com/products/highlight'
 description: >-
   Commercial Static Code Analysis which runs locally, but uploads the results to

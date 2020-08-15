@@ -1,11 +1,12 @@
 name: WALA
-category:
+categories:
   - linter
 tags:
   - java
   - javascript
 license: Eclipse Public License 2.0
-type: []
+types:
+  - cli
 source: 'https://github.com/wala/WALA'
 homepage: 'http://wala.sourceforge.net'
 description: >-

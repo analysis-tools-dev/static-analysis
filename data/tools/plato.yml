@@ -1,11 +1,12 @@
 name: plato
-category:
+categories:
   - linter
 tags:
   - javascript
 deprecated: true
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/es-analysis/plato'
 homepage: 'https://github.com/es-analysis/plato'
 description: Visualize JavaScript source complexity.

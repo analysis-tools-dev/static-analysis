@@ -1,11 +1,12 @@
 name: SandiMeter
-category:
+categories:
   - linter
 tags:
   - ruby
 deprecated: true
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/makaroni4/sandi_meter'
 homepage: 'https://rubygems.org/gems/sandi_meter'
 description: Static analysis tool for checking Ruby code for Sandi Metz' rules.

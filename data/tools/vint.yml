@@ -1,9 +1,9 @@
 name: vint
-category:
+categories:
   - linter
 tags: []
 license: MIT License
-type:
+types:
   - ide-plugin
 source: 'https://github.com/Kuniwak/vint'
 homepage: 'https://github.com/Kuniwak/vint'

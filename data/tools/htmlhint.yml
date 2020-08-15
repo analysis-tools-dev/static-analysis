@@ -1,10 +1,11 @@
 name: HTMLHint
-category:
+categories:
   - linter
 tags:
   - html
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/yaniswang/HTMLHint'
-homepage: 'https://htmlhint.com/'
+homepage: 'https://htmlhint.com'
 description: A Static Code Analysis Tool for HTML.

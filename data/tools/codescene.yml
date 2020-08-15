@@ -1,5 +1,5 @@
 name: CodeScene
-category:
+categories:
   - linter
 tags:
   - c
@@ -16,8 +16,9 @@ tags:
   - python
   - typescript
 license: proprietary
-type: []
-homepage: 'https://empear.com/'
+types:
+  - cli
+homepage: 'https://empear.com'
 description: >-
   CodeScene prioritizes technical debt, finds social patterns and identifies
   hidden risks in your code.

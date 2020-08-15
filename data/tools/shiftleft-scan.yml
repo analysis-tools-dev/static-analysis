@@ -1,5 +1,5 @@
 name: ShiftLeft Scan
-category:
+categories:
   - linter
 tags:
   - apex
@@ -22,7 +22,7 @@ tags:
   - vbasic
   - yaml
 license: Other
-type:
+types:
   - ide-plugin
 source: 'https://github.com/ShiftLeftSecurity/sast-scan'
 homepage: 'https://slscan.io'

@@ -1,9 +1,9 @@
 name: Attackflow Extension
-category:
+categories:
   - linter
 tags: []
 license: proprietary
-type:
+types:
   - ide-plugin
 homepage: 'https://www.attackflow.com/Extension'
 description: >-

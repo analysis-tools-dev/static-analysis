@@ -1,5 +1,5 @@
 name: Semgrep
-category:
+categories:
   - linter
 tags:
   - c
@@ -8,7 +8,8 @@ tags:
   - javascript
   - python
 license: GNU Lesser General Public License v2.1
-type: []
+types:
+  - cli
 source: 'https://github.com/returntocorp/semgrep'
 homepage: 'https://semgrep.live'
 description: >-

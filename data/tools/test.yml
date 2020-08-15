@@ -1,9 +1,10 @@
 name: test
-category:
+categories:
   - linter
 tags:
   - go
-type: []
-source: 'http://golang.org/pkg/testing/'
-homepage: 'http://golang.org/pkg/testing/'
+types:
+  - cli
+source: 'http://golang.org/pkg/testing'
+homepage: 'http://golang.org/pkg/testing'
 description: Show location of test failures from the stdlib testing module.

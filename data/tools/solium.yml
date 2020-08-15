@@ -1,12 +1,13 @@
 name: solium
-category:
+categories:
   - linter
 tags:
   - solidity
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/duaraghav8/Solium'
-homepage: 'https://ethlint.readthedocs.io/en/latest/'
+homepage: 'https://ethlint.readthedocs.io/en/latest'
 description: >-
   Solium is a linter to identify and fix style and security issues in Solidity
   smart contracts.

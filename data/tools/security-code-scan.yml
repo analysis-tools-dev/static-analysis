@@ -1,5 +1,5 @@
 name: Security Code Scan
-category:
+categories:
   - linter
 tags:
   - c
@@ -9,10 +9,10 @@ tags:
   - php
   - vbnet
 license: GNU Lesser General Public License v3.0
-type:
+types:
   - ide-plugin
 source: 'https://github.com/security-code-scan/security-code-scan'
-homepage: 'https://security-code-scan.github.io/'
+homepage: 'https://security-code-scan.github.io'
 description: >-
   Security code analyzer for C# and VB.NET. Detects various security
   vulnerability patterns: SQLi, XSS, CSRF, XXE, Open Redirect, etc. Integrates

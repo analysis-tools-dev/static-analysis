@@ -1,5 +1,5 @@
 name: Application Inspector
-category:
+categories:
   - linter
 tags:
   - asp
@@ -15,8 +15,9 @@ tags:
   - swift
   - vbnet
 license: proprietary
-type: []
-homepage: 'https://www.ptsecurity.com/ww-en/products/ai/'
+types:
+  - cli
+homepage: 'https://www.ptsecurity.com/ww-en/products/ai'
 description: >-
   Commercial Static Code Analysis which generates exploits to verify
   vulnerabilities.

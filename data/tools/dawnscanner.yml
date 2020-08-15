@@ -1,11 +1,12 @@
 name: dawnscanner
-category:
+categories:
   - linter
 tags:
   - rails
   - ruby
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/thesp0nge/dawnscanner'
 homepage: 'https://github.com/thesp0nge/dawnscanner'
 description: >-

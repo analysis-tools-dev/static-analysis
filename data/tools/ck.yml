@@ -1,10 +1,11 @@
 name: ck
-category:
+categories:
   - linter
 tags:
   - java
 license: Apache License 2.0
-type: []
+types:
+  - cli
 source: 'https://github.com/mauricioaniche/ck'
 homepage: 'https://github.com/mauricioaniche/ck'
 description: >-

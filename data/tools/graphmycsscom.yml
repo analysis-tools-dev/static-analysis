@@ -1,10 +1,11 @@
 name: GraphMyCSS.com
-category:
+categories:
   - linter
 tags:
   - css
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/TheJaredWilcurt/itcss-specificity-graph'
 homepage: 'https://graphmycss.com'
 description: CSS Specificity Graph Generator.

@@ -1,10 +1,11 @@
 name: Pysa
-category:
+categories:
   - linter
 tags:
   - python
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/facebook/pyre-check'
 homepage: 'https://pyre-check.org/docs/pysa-basics.html'
 description: >-

@@ -1,10 +1,11 @@
 name: cookstyle
-category:
+categories:
   - linter
 tags:
   - configmanagement
 license: Apache License 2.0
-type: []
+types:
+  - cli
 source: 'https://github.com/chef/cookstyle'
 homepage: 'https://docs.chef.io/cookstyle.html'
 description: >-

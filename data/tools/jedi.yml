@@ -1,10 +1,11 @@
 name: jedi
-category:
+categories:
   - linter
 tags:
   - python
 license: Other
-type: []
+types:
+  - cli
 source: 'https://github.com/davidhalter/jedi'
-homepage: 'https://jedi.readthedocs.io/en/latest/'
+homepage: 'https://jedi.readthedocs.io/en/latest'
 description: Autocompletion/static analysis library for Python.

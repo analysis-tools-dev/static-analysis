@@ -1,10 +1,11 @@
 name: nakedret
-category:
+categories:
   - linter
 tags:
   - go
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/alexkohler/nakedret'
 homepage: 'https://github.com/alexkohler/nakedret'
 description: Finds naked returns.

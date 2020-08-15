@@ -1,10 +1,11 @@
 name: LibVCS4j
-category:
+categories:
   - linter
 tags:
   - support
 license: Other
-type: []
+types:
+  - cli
 source: 'https://github.com/uni-bremen-agst/libvcs4j'
 homepage: 'https://github.com/uni-bremen-agst/libvcs4j'
 description: >-

@@ -1,5 +1,5 @@
 name: Veracode
-category:
+categories:
   - linter
 tags:
   - c
@@ -11,7 +11,8 @@ tags:
   - php
   - swift
 license: proprietary
-type: []
+types:
+  - cli
 homepage: 'http://www.veracode.com/products/static-analysis-sast/static-code-analysis'
 description: >-
   Find flaws in binaries and bytecode without requiring source. Support all

@@ -1,10 +1,11 @@
 name: radon
-category:
+categories:
   - linter
 tags:
   - python
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/rubik/radon'
-homepage: 'https://radon.readthedocs.io/en/latest/'
+homepage: 'https://radon.readthedocs.io/en/latest'
 description: A Python tool that computes various metrics from the source code.

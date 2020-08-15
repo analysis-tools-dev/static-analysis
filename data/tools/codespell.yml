@@ -1,10 +1,11 @@
 name: codespell
-category:
+categories:
   - linter
 tags:
   - writing
 license: GNU General Public License v2.0
-type: []
+types:
+  - cli
 source: 'https://github.com/codespell-project/codespell'
 homepage: 'https://github.com/codespell-project/codespell'
 description: Check code for common misspellings.

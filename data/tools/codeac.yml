@@ -1,5 +1,5 @@
 name: Codeac
-category:
+categories:
   - linter
 tags:
   - ci
@@ -13,9 +13,9 @@ tags:
   - service
   - typescript
 license: proprietary
-type:
+types:
   - service
-homepage: 'https://www.codeac.io?ref=awesome-static-analysis'
+homepage: 'https://www.codeac.io/?ref=awesome-static-analysis'
 description: >-
   Automated code review tool integrates with GitHub, Bitbucket and GitLab (even
   self-hosted). Available for JavaScript, TypeScript, Python, Ruby, Go, PHP,

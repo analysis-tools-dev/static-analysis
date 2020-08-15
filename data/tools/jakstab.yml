@@ -1,10 +1,11 @@
 name: Jakstab
-category:
+categories:
   - linter
 tags:
   - binary
 license: GNU General Public License v2.0
-type: []
+types:
+  - cli
 source: 'https://github.com/jkinder/jakstab'
 homepage: 'https://github.com/jkinder/jakstab'
 description: >-

@@ -1,11 +1,12 @@
 name: CScout
-category:
+categories:
   - linter
 tags:
   - c
   - cpp
 license: GNU General Public License v3.0
-type: []
+types:
+  - cli
 source: 'https://github.com/dspinellis/cscout'
-homepage: 'https://www.spinellis.gr/cscout/'
+homepage: 'https://www.spinellis.gr/cscout'
 description: Complexity and quality metrics for for C and C preprocessor code.

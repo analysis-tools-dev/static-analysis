@@ -1,10 +1,11 @@
 name: Error-prone
-category:
+categories:
   - linter
 tags:
   - java
 license: Apache License 2.0
-type: []
+types:
+  - cli
 source: 'https://github.com/google/error-prone'
-homepage: 'https://errorprone.info/'
+homepage: 'https://errorprone.info'
 description: Catch common Java mistakes as compile-time errors.

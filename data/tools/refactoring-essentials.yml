@@ -1,11 +1,12 @@
 name: Refactoring Essentials
-category:
+categories:
   - linter
 tags:
   - csharp
   - vbnet
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/icsharpcode/RefactoringEssentials'
 homepage: >-
   https://marketplace.visualstudio.com/items?itemName=SharpDevelopTeam.RefactoringEssentialsforVisualStudio

@@ -1,10 +1,11 @@
 name: Designite
-category:
+categories:
   - linter
 tags:
   - csharp
 license: proprietary
-type: []
+types:
+  - cli
 homepage: 'http://www.designite-tools.com'
 description: >-
   Designite supports detection of various architecture, design, and

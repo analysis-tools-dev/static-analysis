@@ -1,9 +1,10 @@
 name: 'Perl::Critic'
-category:
+categories:
   - linter
 tags:
   - perl
-type: []
+types:
+  - cli
 source: 'https://metacpan.org/release/Perl-Critic/source/lib/Perl/Critic.pm'
 homepage: 'https://metacpan.org/pod/Perl::Critic'
 description: Critique Perl source code for best-practices.

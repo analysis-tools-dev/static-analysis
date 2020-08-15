@@ -1,10 +1,11 @@
 name: Rust Language Server
-category:
+categories:
   - formatter
 tags:
   - rust
 license: Other
-type: []
+types:
+  - cli
 source: 'https://github.com/rust-lang-nursery/rls'
 homepage: 'https://github.com/rust-lang-nursery/rls'
 description: >-

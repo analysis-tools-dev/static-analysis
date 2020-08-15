@@ -1,5 +1,5 @@
 name: Super-Linter
-category:
+categories:
   - linter
 tags:
   - coffeescript
@@ -17,7 +17,8 @@ tags:
   - xml
   - yaml
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/github/super-linter'
 homepage: 'https://github.com/github/super-linter'
 description: Combination of multiple linters to install as a GitHub Action.

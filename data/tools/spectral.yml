@@ -1,11 +1,12 @@
 name: Spectral
-category:
+categories:
   - linter
 tags:
   - json
   - yaml
 license: Apache License 2.0
-type: []
+types:
+  - cli
 source: 'https://github.com/stoplightio/spectral'
 homepage: 'https://stoplight.io/open-source/spectral'
 description: >-

@@ -1,5 +1,5 @@
 name: PT.PM
-category:
+categories:
   - linter
 tags:
   - csharp
@@ -10,7 +10,8 @@ tags:
   - tsql
 deprecated: true
 license: Other
-type: []
+types:
+  - cli
 source: 'https://github.com/PositiveTechnologies/PT.PM'
 homepage: 'https://github.com/PositiveTechnologies/PT.PM'
 description: >-

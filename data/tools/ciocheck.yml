@@ -1,13 +1,13 @@
 name: ciocheck
-category:
+categories:
   - formatter
   - meta
 tags:
-  - formatter
   - meta
   - python
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/ContinuumIO/ciocheck'
 homepage: 'https://github.com/ContinuumIO/ciocheck'
 description: >-

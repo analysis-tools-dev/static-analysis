@@ -1,10 +1,11 @@
 name: PHPStan
-category:
+categories:
   - linter
 tags:
   - php
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/phpstan/phpstan'
-homepage: 'https://phpstan.org/'
+homepage: 'https://phpstan.org'
 description: PHP Static Analysis Tool - discover bugs in your code without running it!

@@ -1,5 +1,5 @@
 name: Klocwork
-category:
+categories:
   - linter
 tags:
   - c
@@ -7,6 +7,7 @@ tags:
   - csharp
   - java
 license: proprietary
-type: []
+types:
+  - cli
 homepage: 'https://www.perforce.com/products/klocwork'
 description: 'Quality and Security Static analysis for C/C++, Java and C#.'

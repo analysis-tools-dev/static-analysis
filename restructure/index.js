@@ -1,5 +1,6 @@
 const fs = require("fs");
 const yaml = require("js-yaml");
+const normalizeUrl = require("normalize-url");
 
 const Bottleneck = require("bottleneck/es5");
 const fetch = require("node-fetch");
@@ -70,19 +71,22 @@ const getLicense = async (tool) => {
   return undefined;
 };
 
-const getType = (tool) => {
-  let type = [];
+const getTypes = (tool) => {
+  let types = [];
   if (tool.tags.includes("service")) {
-    type.push("service");
+    types.push("service");
   }
   if (tool.tags.includes("cli")) {
-    type.push("cli");
+    types.push("cli");
   }
   if (tool.tags.includes("ide")) {
-    type.push("ide-plugin");
+    types.push("ide-plugin");
+  }
+  if (types.length == 0) {
+    types.push("cli");
   }
 
-  return type;
+  return types;
 };
 
 const getCategory = (tool) => {
@@ -119,7 +123,7 @@ const run = async () => {
     }, [])
     .filter((item, i, ar) => ar.indexOf(item) === i)
     .filter((x) => {
-      if (x == "ide") {
+      if (x == "ide" || x == "formatter") {
         return false;
       }
       return true;
@@ -130,7 +134,7 @@ const run = async () => {
     data.map(async (tool) => {
       let x = {
         name: tool.name,
-        category: getCategory(tool),
+        categories: getCategory(tool),
         tags: tool.tags ? tool.tags.filter((t) => tags.includes(t)).sort() : [],
       };
       if (tool.deprecated) {
@@ -140,15 +144,21 @@ const run = async () => {
       if (license) {
         x.license = license;
       }
-      let type = getType(tool);
-      if (type) {
-        x.type = type;
+      let types = getTypes(tool);
+      if (types) {
+        x.types = types;
       }
       if (tool.source) {
-        x.source = tool.source;
+        x.source = normalizeUrl(tool.source, {
+          sortQueryParameters: false,
+          stripWWW: false,
+        });
       }
       if (tool.homepage) {
-        x.homepage = tool.homepage;
+        x.homepage = normalizeUrl(tool.homepage, {
+          sortQueryParameters: false,
+          stripWWW: false,
+        });
       }
       if (tool.description) {
         x.description = tool.description;

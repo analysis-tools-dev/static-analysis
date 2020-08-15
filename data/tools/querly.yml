@@ -1,10 +1,11 @@
 name: Querly
-category:
+categories:
   - linter
 tags:
   - ruby
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/soutaro/querly'
 homepage: 'https://github.com/soutaro/querly'
 description: Pattern Based Checking Tool for Ruby.

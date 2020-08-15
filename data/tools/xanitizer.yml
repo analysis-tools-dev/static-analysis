@@ -1,10 +1,11 @@
 name: Xanitizer
-category:
+categories:
   - linter
 tags:
   - java
   - scala
 license: proprietary
-type: []
-homepage: 'https://xanitizer.com/'
+types:
+  - cli
+homepage: 'https://xanitizer.com'
 description: Xanitizer finds security vulnerabilities in Java/Scala web applications.

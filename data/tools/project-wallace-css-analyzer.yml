@@ -1,10 +1,11 @@
 name: Project Wallace CSS Analyzer
-category:
+categories:
   - linter
 tags:
   - css
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/projectwallace/css-analyzer'
-homepage: 'https://www.projectwallace.com/'
+homepage: 'https://www.projectwallace.com'
 description: 'Analytics for CSS, part of [Project Wallace](https://www.projectwallace.com).'

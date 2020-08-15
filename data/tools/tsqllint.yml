@@ -1,10 +1,11 @@
 name: tsqllint
-category:
+categories:
   - linter
 tags:
   - sql
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/tsqllint/tsqllint'
 homepage: 'https://github.com/tsqllint/tsqllint'
 description: T-SQL-specific linter.

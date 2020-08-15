@@ -1,9 +1,10 @@
 name: .NET Analyzers
-category:
+categories:
   - linter
 tags:
   - csharp
-type: []
+types:
+  - cli
 source: 'https://github.com/DotNetAnalyzers'
 homepage: 'https://github.com/DotNetAnalyzers'
 description: >-

@@ -1,11 +1,12 @@
 name: standard
-category:
+categories:
   - linter
 tags:
   - javascript
   - nodejs
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/standard/standard'
-homepage: 'http://standardjs.com/'
+homepage: 'http://standardjs.com'
 description: An npm module that checks for Javascript Styleguide issues.

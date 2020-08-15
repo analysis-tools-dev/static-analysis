@@ -1,10 +1,11 @@
 name: forbidden-apis
-category:
+categories:
   - linter
 tags:
   - java
 license: Apache License 2.0
-type: []
+types:
+  - cli
 source: 'https://github.com/policeman-tools/forbidden-apis'
 homepage: 'https://github.com/policeman-tools/forbidden-apis'
 description: >-

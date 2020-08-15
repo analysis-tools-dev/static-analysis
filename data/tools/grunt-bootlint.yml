@@ -1,10 +1,11 @@
 name: grunt-bootlint
-category:
+categories:
   - linter
 tags:
   - html
 license: MIT License
-type: []
+types:
+  - cli
 source: 'https://github.com/twbs/grunt-bootlint'
 homepage: 'https://github.com/twbs/grunt-bootlint'
 description: >-

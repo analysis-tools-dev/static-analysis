@@ -6,6 +6,7 @@
   "dependencies": {
     "bottleneck": "^2.19.5",
     "js-yaml": "^3.14.0",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.0",
+    "normalize-url": "^5.1.0"
   }
 }

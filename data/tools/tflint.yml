@@ -1,10 +1,11 @@
 name: tflint
-category:
+categories:
   - linter
 tags:
   - configmanagement
 license: Mozilla Public License 2.0
-type: []
+types:
+  - cli
 source: 'https://github.com/wata727/tflint'
 homepage: 'https://github.com/wata727/tflint'
 description: >-

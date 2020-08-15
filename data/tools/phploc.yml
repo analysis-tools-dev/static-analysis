@@ -1,10 +1,11 @@
 name: phploc
-category:
+categories:
   - linter
 tags:
   - php
 license: Other
-type: []
+types:
+  - cli
 source: 'https://github.com/sebastianbergmann/phploc'
 homepage: 'https://github.com/sebastianbergmann/phploc'
 description: >-

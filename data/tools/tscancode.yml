@@ -1,5 +1,5 @@
 name: TscanCode
-category:
+categories:
   - linter
 tags:
   - c
@@ -7,7 +7,8 @@ tags:
   - csharp
   - lua
 license: Other
-type: []
+types:
+  - cli
 source: 'https://github.com/Tencent/TscanCode'
 homepage: 'https://github.com/Tencent/TscanCode'
 description: >-

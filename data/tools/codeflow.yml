@@ -1,10 +1,10 @@
 name: CodeFlow
-category:
+categories:
   - linter
 tags:
   - service
 license: proprietary
-type:
+types:
   - service
 homepage: 'https://www.getcodeflow.com'
 description: >-

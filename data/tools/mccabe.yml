@@ -1,10 +1,11 @@
 name: mccabe
-category:
+categories:
   - linter
 tags:
   - python
 license: Other
-type: []
+types:
+  - cli
 source: 'https://github.com/PyCQA/mccabe'
-homepage: 'https://pypi.org/project/mccabe/'
+homepage: 'https://pypi.org/project/mccabe'
 description: Check McCabe complexity.

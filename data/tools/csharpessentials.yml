@@ -1,10 +1,11 @@
 name: CSharpEssentials
-category:
+categories:
   - linter
 tags:
   - csharp
 license: Other
-type: []
+types:
+  - cli
 source: 'https://github.com/DustinCampbell/CSharpEssentials'
 homepage: 'https://github.com/DustinCampbell/CSharpEssentials'
 description: >-
