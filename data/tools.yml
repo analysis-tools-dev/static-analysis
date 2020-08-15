@@ -185,7 +185,7 @@
 - name: ArchUnitNET
   homepage: "https://github.com/TNG/ArchUnitNET"
   source: "https://github.com/TNG/ArchUnitNET"
-  description:  A C# architecture test library to specify and assert architecture rules in C# for automated testing.
+  description: A C# architecture test library to specify and assert architecture rules in C# for automated testing.
   tags:
     - csharp
 - name: Astrée
@@ -1239,26 +1239,26 @@
   source: https://github.com/ShiftLeftSecurity/sast-scan
   description: Scan is a free open-source DevSecOps platform for detecting security issues in source code and dependencies. It supports a broad range of languages and CI/CD pipelines.
   tags:
-    - apex 	
+    - apex
     - shell
-    - go 	
-    - groovy 	
+    - go
+    - groovy
     - ide
-    - java 	
-    - jsp 	
-    - json 	
-    - kotlin 	
-    - scala 	
+    - java
+    - jsp
+    - json
+    - kotlin
+    - scala
     - container
-    - nodejs 	
+    - nodejs
     - configmanagement
-    - php 	
-    - plsql 	
-    - python 	
-    - ruby 	
-    - rust 	
+    - php
+    - plsql
+    - python
+    - ruby
+    - rust
     - vbasic
-    - yaml 	
+    - yaml
 - name: Super-Linter
   homepage: "https://github.com/github/super-linter"
   source: "https://github.com/github/super-linter"
@@ -1575,17 +1575,7 @@
   tags:
     - c
     - cpp
-- name: include-gardener
-  homepage: "https://github.com/feddischson/include_gardener"
-  source: "https://github.com/feddischson/include_gardener"
-  description: "A multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files."
-  tags:
     - python
-- name: include-gardener
-  homepage: "https://github.com/feddischson/include_gardener"
-  source: "https://github.com/feddischson/include_gardener"
-  description: "A multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files."
-  tags:
     - ruby
 - name: ineffassign
   homepage: "https://github.com/gordonklaus/ineffassign"
