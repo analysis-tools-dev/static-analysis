@@ -271,6 +271,12 @@
   description: A static analysis security vulnerability scanner for Ruby on Rails applications.
   tags:
     - ruby
+- name: brittany
+  homepage: "https://github.com/lspitzner/brittany"
+  source: "https://github.com/lspitzner/brittany"
+  description: Haskell source code formatter
+  tags:
+    - haskell
 - name: cane
   homepage: "https://github.com/square/cane"
   source: "https://github.com/square/cane"
