@@ -319,6 +319,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="haskell">Haskell</h2>
 
+- ![stars](https://img.shields.io/github/stars/lspitzner/brittany?style=flat-square&color=ccc) [brittany](https://github.com/lspitzner/brittany) - Haskell source code formatter
 - ![stars](https://img.shields.io/github/stars/ndmitchell/hlint?style=flat-square&color=ccc) [HLint](https://github.com/ndmitchell/hlint) - HLint is a tool for suggesting possible improvements to Haskell code.
 - ![stars](https://img.shields.io/github/stars/kowainik/stan?style=flat-square&color=ccc) [Stan](https://kowainik.github.io/projects/stan) - Stan is a command-line tool for analysing Haskell projects and outputting discovered vulnerabilities in a helpful way with possible solutions for detected problems.
 - ![stars](https://img.shields.io/github/stars/ocharles/weeder?style=flat-square&color=ccc) [Weeder](https://github.com/ocharles/weeder) - A tool for detecting dead exports or package imports in Haskell code.
