@@ -4,6 +4,8 @@ const normalizeUrl = require("normalize-url");
 
 const Bottleneck = require("bottleneck/es5");
 const fetch = require("node-fetch");
+const util = require("util");
+const exec = util.promisify(require("child_process").exec);
 
 const limiter = new Bottleneck({
   maxConcurrent: 5,
@@ -54,6 +56,8 @@ const getGithubStats = async (url) => {
   }
 };
 
+const licenseRegex = /License\: (.*)$/gm;
+
 const getLicense = async (tool) => {
   if (tool.proprietary) {
     return "proprietary";
@@ -66,6 +70,42 @@ const getLicense = async (tool) => {
     if (stats.license && stats.license.name) {
       return stats.license.name;
     }
+
+    const licenseText = await Promise.all(
+      [
+        "LICENSE",
+        "LICENSE.MD",
+        "LICENSE.md",
+        "LICENSE.txt",
+        "license",
+        "LICENSE-MIT",
+        "README",
+      ].map(async (file) => {
+        let licenseContents = await fetch(
+          `${tool.source.replace(
+            "github.com",
+            "raw.githubusercontent.com"
+          )}/master/${file}`
+        );
+        if (licenseContents.status == 200) {
+          return await licenseContents.text();
+        }
+      })
+    );
+    // console.log(await licenseContents.text());
+    fs.writeFileSync(
+      "license.tmp",
+      await licenseText.filter((x) => x !== undefined)[0]
+    );
+    try {
+      const { stdout, stderr } = await exec("askalono identify license.tmp", {
+        shell: true,
+      });
+      const license = stdout.match(licenseRegex);
+      if (license[0]) {
+        return license[0].replace("License: ", "");
+      }
+    } catch (e) {}
   }
   console.log(`Missing license for ${tool.name} ${tool.source}`);
   return undefined;

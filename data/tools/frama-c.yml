@@ -4,6 +4,7 @@ categories:
 tags:
   - c
   - cpp
+license: GNU Lesser General Public License v2.1
 types:
   - cli
 source: 'http://frama-c.com/download.html'

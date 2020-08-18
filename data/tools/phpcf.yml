@@ -3,6 +3,7 @@ categories:
   - linter
 tags:
   - php
+license: BSD-3-Clause (original text)
 types:
   - cli
 source: 'https://github.com/wapmorgan/PhpCodeFixer'

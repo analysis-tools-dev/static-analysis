@@ -3,6 +3,7 @@ categories:
   - linter
 tags:
   - latex
+license: GNU Public License version 2 or greater
 types:
   - cli
 source: 'http://git.savannah.nongnu.org/cgit/chktex.git'

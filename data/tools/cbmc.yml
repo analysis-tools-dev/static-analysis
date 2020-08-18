@@ -4,6 +4,7 @@ categories:
 tags:
   - c
   - cpp
+license: BSD-4-Clause-UC (original text)
 types:
   - cli
 source: 'https://github.com/diffblue/cbmc'

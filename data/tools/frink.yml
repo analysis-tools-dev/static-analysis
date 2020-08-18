@@ -3,6 +3,7 @@ categories:
   - formatter
 tags:
   - tcl
+license: unknown
 types:
   - cli
 source: 'https://catless.ncl.ac.uk/Programs/Frink'

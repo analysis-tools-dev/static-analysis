@@ -3,6 +3,7 @@ categories:
   - linter
 tags:
   - latex
+license: GPL
 types:
   - cli
 source: 'https://www.ctan.org/tex-archive/support/lacheck'

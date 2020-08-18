@@ -4,6 +4,7 @@ categories:
 tags:
   - html
 deprecated: true
+license: MIT
 types:
   - cli
 source: 'https://github.com/philipwalton/html-inspector'

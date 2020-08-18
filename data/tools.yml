@@ -385,6 +385,7 @@
   homepage: "http://www.nongnu.org/chktex/"
   source: "http://git.savannah.nongnu.org/cgit/chktex.git"
   description: A linter for LaTex which catches some typographic errors LaTeX oversees.
+  license: "GNU Public License version 2 or greater"
   tags:
     - latex
 - name: churn-php
@@ -424,6 +425,7 @@
   homepage: "http://clang.llvm.org/extra/clang-tidy/"
   source: "http://clang.llvm.org/extra/clang-tidy/"
   description: clang static analyser.
+  license: Apache License v2.0 with LLVM Exceptions
   tags:
     - c
     - cpp
@@ -493,6 +495,7 @@
   tags:
     - csharp
   deprecated: true
+  license: unknown
 - name: Code Climate
   homepage: "https://codeclimate.com/"
   description: "The open and extensible static analysis platform, for everyone."
@@ -733,6 +736,7 @@
   homepage: "https://github.com/google/styleguide/tree/gh-pages/cpplint"
   source: "https://github.com/google/styleguide/tree/gh-pages/cpplint"
   description: "Automated C++ checker that follows Google's style guide."
+  license: "Apache-2.0"
   tags:
     - c
     - cpp
@@ -1195,6 +1199,7 @@
   homepage: "http://frama-c.com/"
   source: "http://frama-c.com/download.html"
   description: A sound and extensible static analyzer for C code.
+  license: "GNU Lesser General Public License v2.1"
   tags:
     - c
     - cpp
@@ -1204,6 +1209,7 @@
   description: "A Tcl formatting and static check program (can prettify the program, minimise, obfuscate or just sanity check it)."
   tags:
     - tcl
+  license: unknown
 - name: FSharpLint
   homepage: "http://fsprojects.github.io/FSharpLint/"
   source: "https://github.com/fsprojects/FSharpLint"
@@ -1214,6 +1220,7 @@
   homepage: "https://www.gnu.org/software/gawk/manual/html_node/Options.html"
   source: "https://www.gnu.org/software/gawk/manual/html_node/Options.html"
   description: Warns about constructs that are dubious or nonportable to other awk implementations.
+  license: "GNU General Public License v3.0"
   tags:
     - awk
 - name: Gendarme
@@ -1510,6 +1517,7 @@
 - name: HTML Inspector
   homepage: "https://github.com/philipwalton/html-inspector"
   source: "https://github.com/philipwalton/html-inspector"
+  license: MIT
   description: HTML Inspector is a code quality tool to help you and your team write better markup.
   tags:
     - html
@@ -1719,6 +1727,7 @@
   description: A tool for finding common mistakes in LaTeX documents.
   tags:
     - latex
+  license: GPL
 - name: TeXLab
   homepage: "https://texlab.netlify.app"
   source: "https://github.com/latex-lsp/texlab"
@@ -1897,6 +1906,7 @@
   homepage: "https://sourceforge.net/projects/nagelfar/"
   source: "https://sourceforge.net/p/nagelfar/code/ci/master/tree/"
   description: A static syntax checker for Tcl.
+  license: GPL v2
   tags:
     - tcl
 - name: nakedret

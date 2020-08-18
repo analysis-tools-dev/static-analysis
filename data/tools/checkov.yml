@@ -3,6 +3,7 @@ categories:
   - linter
 tags:
   - configmanagement
+license: Apache-2.0 (original text)
 types:
   - cli
 source: 'https://github.com/bridgecrewio/checkov'

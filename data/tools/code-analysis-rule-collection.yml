@@ -4,6 +4,7 @@ categories:
 tags:
   - csharp
 deprecated: true
+license: unknown
 types:
   - cli
 source: 'https://carc.codeplex.com'

@@ -3,6 +3,7 @@ categories:
   - formatter
 tags:
   - csharp
+license: MIT (original text)
 types:
   - cli
 source: 'https://github.com/mono/mono-tools'

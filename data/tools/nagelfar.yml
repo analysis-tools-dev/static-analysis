@@ -3,6 +3,7 @@ categories:
   - linter
 tags:
   - tcl
+license: GPL v2
 types:
   - cli
 source: 'https://sourceforge.net/p/nagelfar/code/ci/master/tree'
