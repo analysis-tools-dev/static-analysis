@@ -6,6 +6,7 @@ tags:
   - cpp
   - python
   - ruby
+license: GNU Public License version 2 or greater
 types:
   - cli
 source: 'https://github.com/feddischson/include_gardener'

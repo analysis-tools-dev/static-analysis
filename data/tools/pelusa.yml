@@ -3,6 +3,7 @@ categories:
   - linter
 tags:
   - ruby
+license: MIT
 types:
   - cli
 source: 'https://github.com/codegram/pelusa'

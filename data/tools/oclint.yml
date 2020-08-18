@@ -5,6 +5,7 @@ tags:
   - c
   - cpp
   - objectivec
+license: BSD-3-Clause (original text)
 types:
   - cli
 source: 'https://github.com/oclint/oclint'

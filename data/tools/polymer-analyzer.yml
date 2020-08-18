@@ -4,6 +4,7 @@ categories:
 tags:
   - html
   - javascript
+license: BSD-3-Clause (original text)
 types:
   - cli
 source: 'https://github.com/Polymer/tools/tree/master/packages/analyzer'

@@ -1580,6 +1580,7 @@
   homepage: "https://github.com/feddischson/include_gardener"
   source: "https://github.com/feddischson/include_gardener"
   description: "A multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files."
+  license: "GNU Public License version 2 or greater"
   tags:
     - c
     - cpp
@@ -1642,6 +1643,7 @@
   homepage: "https://www.cprover.org/jbmc/"
   source: "https://github.com/peterschrammel/cbmc/releases/tag/jbmc-5.8-cav18"
   description: "Bounded model-checker for Java (bytecode), verifies user-defined assertions, standard assertions, several coverage metric analyses."
+  license: BSD-4-Clause-UC (original text)
   tags:
     - java
 - name: jedi
@@ -1887,6 +1889,7 @@
   homepage: "http://trismegiste.github.io/Mondrian/"
   source: "https://github.com/Trismegiste/Mondrian"
   description: A set of static analysis and refactoring tools which use graph theory.
+  license: "CC-BY-SA-3.0"
   tags:
     - php
 - name: multilint
@@ -1950,6 +1953,7 @@
 - name: oclint
   homepage: "http://oclint.org/"
   source: "https://github.com/oclint/oclint"
+  license: "BSD-3-Clause (original text)"
   description: "A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C."
   tags:
     - c
@@ -1983,6 +1987,7 @@
   homepage: "https://github.com/psecio/parse"
   source: "https://github.com/psecio/parse"
   description: A Static Security Scanner.
+  license: MIT
   tags:
     - php
 - name: Pascal Analyzer
@@ -2007,6 +2012,7 @@
   homepage: "https://github.com/codegram/pelusa"
   source: "https://github.com/codegram/pelusa"
   description: Static analysis Lint-type tool to improve your OO Ruby code.
+  license: MIT
   tags:
     - ruby
 - name: "Perl::Critic"
@@ -2252,6 +2258,7 @@
   homepage: "https://github.com/Polymer/tools/tree/master/packages/analyzer"
   source: "https://github.com/Polymer/tools/tree/master/packages/analyzer"
   description: A static analysis framework for Web Components.
+  license: "BSD-3-Clause (original text)"
   tags:
     - html
     - javascript
