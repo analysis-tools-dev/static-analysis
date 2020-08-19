@@ -513,6 +513,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="rust">Rust</h2>
 
+- ![stars](https://img.shields.io/github/stars/immunant/c2rust?style=flat-square&color=ccc) [C2Rust](https://c2rust.com/) - C2Rust helps you migrate C99-compliant code to Rust. The translator (or transpiler) produces unsafe Rust code that closely mirrors the input C code.
 - ![stars](https://img.shields.io/github/stars/RustSec/cargo-audit?style=flat-square&color=ccc) [cargo-audit](https://rustsec.org/) - Audit Cargo.lock for crates with security vulnerabilities reported to the [RustSec Advisory Database](https://github.com/RustSec/advisory-db/).
 - ![stars](https://img.shields.io/github/stars/mre/cargo-inspect?style=flat-square&color=ccc) [cargo-inspect](https://github.com/mre/cargo-inspect) - Inspect Rust code without syntactic sugar to see what the compiler does behind the curtains.
 - ![stars](https://img.shields.io/github/stars/rust-lang/rust-clippy?style=flat-square&color=ccc) [clippy](https://rust-lang.github.io/rust-clippy/) - A code linter to catch common mistakes and improve your Rust code.
@@ -604,7 +605,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [CodePatrol](https://cyber-security.claranet.fr/en/codepatrol) :copyright: - Automated SAST code reviews driven by security, supports 15+ languages and includes security training.
 - [CodeRush](https://www.devexpress.com/products/coderush/) :copyright: - Code creation, debugging, navigation, refactoring, analysis and visualization tools that use the Roslyn engine in Visual Studio 2015 and up.
 - [CodeScene](https://empear.com/) :copyright: - CodeScene prioritizes technical debt, finds social patterns and identifies hidden risks in your code.
-- ![stars](https://img.shields.io/github/stars/jameysharp/corrode?style=flat-square&color=ccc) [Corrode](https://github.com/jameysharp/corrode) - Semi-automatic translation from C to Rust. Could reveal bugs in the original implementation by showing Rust compiler warnings and errors.
+- ![stars](https://img.shields.io/github/stars/jameysharp/corrode?style=flat-square&color=ccc) [Corrode](https://github.com/jameysharp/corrode) :warning: - Semi-automatic translation from C to Rust. Could reveal bugs in the original implementation by showing Rust compiler warnings and errors. Superseded by C2Rust.
 - [Coverity](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html) :copyright: - Synopsys Coverity supports 20 languages and over 70 frameworks including Ruby on rails, Scala, PHP, Python, JavaScript, TypeScript, Java, Fortran, C, C++, C#, VB.NET.
 - ![stars](https://img.shields.io/github/stars/xcatliu/cqc?style=flat-square&color=ccc) [cqc](https://github.com/xcatliu/cqc) - Check your code quality for js, jsx, vue, css, less, scss, sass and styl files.
 - ![stars](https://img.shields.io/github/stars/csscomb/csscomb.js?style=flat-square&color=ccc) [CSScomb](https://github.com/csscomb/csscomb.js) - A coding style formatter for CSS. Supports own configurations to make style sheets beautiful and consistent.
