@@ -89,7 +89,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 #### [Other](#other-1)
 
 - [Binaries](#binary)
-- [Build tools](#buildtool)
 - [CSS/SASS/SCSS](#css)
 - [Config Files](#configfile)
 - [Configuration Management](#configmanagement)
@@ -99,7 +98,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [HTML](#html)
 - [IDE Plugins](#ide)
 - [LaTeX](#latex)
-- [Makefiles](#make)
 - [Markdown](#markdown)
 - [Mobile](#mobile)
 - [Packages](#package)
@@ -592,6 +590,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Axivion Bauhaus Suite](https://www.axivion.com/en/products-services-9#products_bauhaussuite) :copyright: - Tracks down error-prone code locations, style violations, cloned or dead code, cyclic dependencies and more for C/C++, C#/.NET, Java and Ada 83/Ada 95.
 - ![stars](https://img.shields.io/github/stars/ambv/black?style=flat-square&color=ccc) [Black](https://black.readthedocs.io/en/stable/) - The uncompromising Python code formatter.
 - [CAST Highlight](https://www.castsoftware.com/products/highlight) :copyright: - Commercial Static Code Analysis which runs locally, but uploads the results to its cloud for presentation.
+- ![stars](https://img.shields.io/github/stars/mrtazz/checkmake?style=flat-square&color=ccc) [checkmake](https://github.com/mrtazz/checkmake) - Linter / Analyzer for Makefiles.
 - [Checkmarx CxSAST](https://www.checkmarx.com/products/static-application-security-testing/) :copyright: - Commercial Static Code Analysis which doesn't require pre-compilation.
 - ![stars](https://img.shields.io/github/stars/ContinuumIO/ciocheck?style=flat-square&color=ccc) [ciocheck](https://github.com/ContinuumIO/ciocheck) - Linter, formatter and test suite helper. As a linter, it is a wrapper around `pep8`, `pydocstyle`, `flake8`, and `pylint`.
 - ![stars](https://img.shields.io/github/stars/classgraph/classgraph?style=flat-square&color=ccc) [ClassGraph](https://github.com/classgraph/classgraph) - A classpath and module path scanner for querying or visualizing class metadata or class relatedness.
@@ -639,6 +638,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - ![stars](https://img.shields.io/github/stars/returntocorp/pfff?style=flat-square&color=ccc) [pfff](https://github.com/facebookarchive/pfff/wiki/Main) :warning: - Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages.
 - ![stars](https://img.shields.io/github/stars/pmd/pmd?style=flat-square&color=ccc) [PMD](https://pmd.github.io/) - A source code analyzer for Java, Javascript, PLSQL, XML, XSL and others.
 - [Polymer-analyzer](https://github.com/Polymer/tools/tree/master/packages/analyzer) - A static analysis framework for Web Components.
+- [portlint](https://www.freebsd.org/cgi/man.cgi?query=portlint&sektion=1&manpath=FreeBSD+8.1-RELEASE+and+Ports) - A verifier for FreeBSD and DragonFlyBSD port directories.
 - ![stars](https://img.shields.io/github/stars/pre-commit/pre-commit?style=flat-square&color=ccc) [pre-commit](https://pre-commit.com/) - A framework for managing and maintaining multi-language pre-commit hooks.
 - ![stars](https://img.shields.io/github/stars/prettier/prettier?style=flat-square&color=ccc) [Prettier](https://prettier.io/) - An opinionated code formatter.
 - ![stars](https://img.shields.io/github/stars/prontolabs/pronto?style=flat-square&color=ccc) [Pronto](https://github.com/prontolabs/pronto) - Quick automated code review of your changes. Supports more than 40 runners for various languages, including Clang, Elixir, JavaScript, PHP, Ruby and more.
@@ -703,11 +703,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - ![stars](https://img.shields.io/github/stars/jkinder/jakstab?style=flat-square&color=ccc) [Jakstab](https://github.com/jkinder/jakstab) - Jakstab is an Abstract Interpretation-based, integrated disassembly and static analysis framework for designing analyses on executables and recovering reliable control flow graphs.
 - ![stars](https://img.shields.io/github/stars/JusticeRage/Manalyze?style=flat-square&color=ccc) [Manalyze](https://github.com/JusticeRage/Manalyze) - A static analyzer, which checks portable executables for malicious content.
 - ![stars](https://img.shields.io/github/stars/rustwasm/twiggy?style=flat-square&color=ccc) [Twiggy](https://rustwasm.github.io/twiggy/) - Analyzes a binary's call graph to profile code size. The goal is to slim down binaries.
-
-
-<h2 id="buildtool">Build tools</h2>
-
-- ![stars](https://img.shields.io/github/stars/mrtazz/checkmake?style=flat-square&color=ccc) [checkmake](https://github.com/mrtazz/checkmake) - Linter / Analyzer for Makefiles.
 
 
 <h2 id="css">CSS/SASS/SCSS</h2>
@@ -791,11 +786,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [ChkTeX](http://www.nongnu.org/chktex/) - A linter for LaTex which catches some typographic errors LaTeX oversees.
 - [lacheck](https://www.ctan.org/pkg/lacheck) - A tool for finding common mistakes in LaTeX documents.
 - ![stars](https://img.shields.io/github/stars/latex-lsp/texlab?style=flat-square&color=ccc) [TeXLab](https://texlab.netlify.app) - A Language Server Protocol implementation for TeX/LaTeX, including lint capabilities.
-
-
-<h2 id="make">Makefiles</h2>
-
-- [portlint](https://www.freebsd.org/cgi/man.cgi?query=portlint&sektion=1&manpath=FreeBSD+8.1-RELEASE+and+Ports) - A verifier for FreeBSD and DragonFlyBSD port directories.
 
 
 <h2 id="markdown">Markdown</h2>
