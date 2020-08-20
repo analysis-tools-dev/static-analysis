@@ -839,7 +839,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Code Inspector](https://www.code-inspector.com) :copyright: - Code quality and technical debt management platform that supports 10+ languages.
 - [CodeFactor](https://codefactor.io) :copyright: - Automated Code Analysis for repos on GitHub or BitBucket.
 - [CodeFlow](https://www.getcodeflow.com) :copyright: - Automated code analysis tool to deal with technical depth. Integrates with Bitbucket and Gitlab. (free for Open Source Projects)
-- [kiuwan](https://www.kiuwan.com/) :copyright: - Software Analytics in the Cloud supporting more than 22 programming languages.
 - [Landscape](https://landscape.io/) :warning: :copyright: - Static code analysis for Python.
 - [Reshift](https://www.reshiftsecurity.com/) :copyright: - A source code analysis tool for detecting and managing Java security vulnerabilities.
 - [Scrutinizer](https://scrutinizer-ci.com/) :copyright: - A proprietary code quality checker that can be integrated with GitHub.
