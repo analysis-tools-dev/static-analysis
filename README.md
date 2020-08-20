@@ -408,7 +408,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - ![stars](https://img.shields.io/github/stars/carlosas/phpat?style=flat-square&color=ccc) [PHP Architecture Tester](https://github.com/carlosas/phpat) - Easy to use architecture testing tool for PHP.
 - ![stars](https://img.shields.io/github/stars/rskuipers/php-assumptions?style=flat-square&color=ccc) [PHP Assumptions](https://github.com/rskuipers/php-assumptions) - Checks for weak assumptions.
 - ![stars](https://img.shields.io/github/stars/FriendsOfPHP/PHP-CS-Fixer?style=flat-square&color=ccc) [PHP Coding Standards Fixer](https://cs.symfony.com/) - Fixes your code according to standards like PSR-1, PSR-2, and the Symfony standard.
-- ![stars](https://img.shields.io/github/stars/nunomaduro/phpinsights?style=flat-square&color=ccc) [PHP Insights](https://phpinsights.com/) - Instant PHP quality checks from your console. Analysis of code quality and coding style  as well as overview of code architecture and its complexity.
+- ![stars](https://img.shields.io/github/stars/nunomaduro/phpinsights?style=flat-square&color=ccc) [PHP Insights](https://phpinsights.com/) - Instant PHP quality checks from your console. Analysis of code quality and coding style as well as overview of code architecture and its complexity.
 
 - ![stars](https://img.shields.io/github/stars/kalessil/phpinspectionsea?style=flat-square&color=ccc) [Php Inspections (EA Extended)](https://plugins.jetbrains.com/plugin/7622-php-inspections-ea-extended-) - A Static Code Analyzer for PHP.
 - ![stars](https://img.shields.io/github/stars/QafooLabs/php-refactoring-browser?style=flat-square&color=ccc) [PHP Refactoring Browser](http://qafoolabs.github.io/php-refactoring-browser/) - Refactoring helper.
@@ -571,6 +571,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - ![stars](https://img.shields.io/github/stars/typescript-eslint/typescript-eslint?style=flat-square&color=ccc) [ESLint](https://github.com/typescript-eslint/typescript-eslint) - An extensible linter for the TypeScript language.
 - ![stars](https://img.shields.io/github/stars/Glavin001/tslint-clean-code?style=flat-square&color=ccc) [tslint-clean-code](https://www.npmjs.com/package/tslint-clean-code) - A set of TSLint rules inspired by the Clean Code handbook.
 - ![stars](https://img.shields.io/github/stars/Microsoft/tslint-microsoft-contrib?style=flat-square&color=ccc) [tslint-microsoft-contrib](https://github.com/Microsoft/tslint-microsoft-contrib) - A set of tslint rules for static code analysis of TypeScript projects maintained by Microsoft.
+- ![stars](https://img.shields.io/github/stars/whyboris/TypeScript-Call-Graph?style=flat-square&color=ccc) [TypeScript Call Graph](https://github.com/whyboris/TypeScript-Call-Graph) - CLI to generate an interactive graph of functions and calls from your TypeScript files
 
 
 <h2 id="vbscript">VBScript</h2>
