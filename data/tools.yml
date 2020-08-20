@@ -3431,3 +3431,9 @@
     - c
     - cpp
   proprietary: true
+- name: Luanalysis
+  homepage: "https://plugins.jetbrains.com/plugin/14698-luanalysis"
+  source: "https://github.com/Benjamin-Dobell/IntelliJ-Luanalysis"
+  description: An IDE for statically typed Lua development.
+  tags:
+    - lua
