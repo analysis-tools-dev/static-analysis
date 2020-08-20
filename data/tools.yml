@@ -350,6 +350,7 @@
   description: Linter / Analyzer for Makefiles.
   tags:
     - buildtool
+    - make
 - name: Checkmarx CxSAST
   homepage: "https://www.checkmarx.com/products/static-application-security-testing/"
   description: "Commercial Static Code Analysis which doesn't require pre-compilation."
@@ -2298,6 +2299,7 @@
   description: A verifier for FreeBSD and DragonFlyBSD port directories.
   tags:
     - make
+    - buildtool
 - name: PostCSS
   homepage: "https://postcss.org/"
   source: "https://github.com/postcss/postcss"
