@@ -280,7 +280,7 @@
 - name: C2Rust
   homepage: "https://c2rust.com/"
   source: "https://github.com/immunant/c2rust"
-  description: C2Rust helps you migrate C99-compliant code to Rust. The translator (or transpiler) produces unsafe Rust code that closely mirrors the input C code. 
+  description: C2Rust helps you migrate C99-compliant code to Rust. The translator (or transpiler) produces unsafe Rust code that closely mirrors the input C code.
   tags:
     - rust
 - name: cane
@@ -1257,26 +1257,26 @@
   source: https://github.com/ShiftLeftSecurity/sast-scan
   description: Scan is a free open-source DevSecOps platform for detecting security issues in source code and dependencies. It supports a broad range of languages and CI/CD pipelines.
   tags:
-    - apex 	
+    - apex
     - shell
-    - go 	
-    - groovy 	
+    - go
+    - groovy
     - ide
-    - java 	
-    - jsp 	
-    - json 	
-    - kotlin 	
-    - scala 	
+    - java
+    - jsp
+    - json
+    - kotlin
+    - scala
     - container
-    - nodejs 	
+    - nodejs
     - configmanagement
-    - php 	
-    - plsql 	
-    - python 	
-    - ruby 	
-    - rust 	
+    - php
+    - plsql
+    - python
+    - ruby
+    - rust
     - vbasic
-    - yaml 	
+    - yaml
 - name: Super-Linter
   homepage: "https://github.com/github/super-linter"
   source: "https://github.com/github/super-linter"
@@ -2080,7 +2080,7 @@
   homepage: "https://phpinsights.com/"
   source: "https://github.com/nunomaduro/phpinsights"
   description: >
-    Instant PHP quality checks from your console. Analysis of code quality and coding style 
+    Instant PHP quality checks from your console. Analysis of code quality and coding style
     as well as overview of code architecture and its complexity.
   tags:
     - php
@@ -2872,7 +2872,7 @@
 - name: solhint
   homepage: "https://protofire.github.io/solhint/"
   source: "https://github.com/protofire/solhint"
-  description: Solhint is an open source project created by https://protofire.io. Its goal is to provide a linting utility for Solidity code. 
+  description: Solhint is an open source project created by https://protofire.io. Its goal is to provide a linting utility for Solidity code.
   tags:
     - solidity
 - name: solium
@@ -3174,6 +3174,12 @@
   description: "Analyzes a binary's call graph to profile code size. The goal is to slim down binaries."
   tags:
     - binary
+- name: TypeScript Call Graph
+  homepage: "https://github.com/whyboris/TypeScript-Call-Graph"
+  source: "https://github.com/whyboris/TypeScript-Call-Graph"
+  description: "CLI to generate an interactive graph of functions and calls from your TypeScript files"
+  tags:
+    - typescript
 - name: unconvert
   homepage: "https://github.com/mdempsky/unconvert"
   source: "https://github.com/mdempsky/unconvert"
