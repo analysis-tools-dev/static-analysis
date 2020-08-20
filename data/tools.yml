@@ -1707,12 +1707,6 @@
     - service
     - swift
   proprietary: true
-- name: kiuwan
-  homepage: "https://www.kiuwan.com/"
-  description: Software Analytics in the Cloud supporting more than 22 programming languages.
-  tags:
-    - service
-  proprietary: true
 - name: Klocwork
   homepage: "https://www.perforce.com/products/klocwork"
   description: "Quality and Security Static analysis for C/C++, Java and C#."
