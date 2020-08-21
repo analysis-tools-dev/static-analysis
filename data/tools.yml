@@ -878,7 +878,7 @@
     - ruby
     - javascript
     - sql
-    - docker
+    - container
     - terraform
   proprietary: true
 - name: dennis
