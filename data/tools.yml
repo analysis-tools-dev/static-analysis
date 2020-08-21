@@ -879,7 +879,7 @@
     - javascript
     - sql
     - container
-    - terraform
+    - configmanagement
   proprietary: true
 - name: dennis
   homepage: "https://github.com/willkg/dennis/"
