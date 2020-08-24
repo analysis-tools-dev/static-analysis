@@ -1062,6 +1062,13 @@
   description: Catch common Java mistakes as compile-time errors.
   tags:
     - java
+- name: ESBMC
+  homepage: "http://esbmc.org/"
+  source: "https://github.com/esbmc/esbmc/"
+  description: "ESBMC is an open source, permissively licensed, context-bounded model checker based on satisfiability modulo theories for the verification of single- and multi-threaded C/C++ programs."
+  tags:
+    - c
+    - cpp
 - name: escomplex
   homepage: "https://github.com/jared-stilwell/escomplex"
   source: "https://github.com/jared-stilwell/escomplex"
