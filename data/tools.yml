@@ -380,6 +380,7 @@
     - python
     - ruby
     - scala
+    - security
     - swift
     - vbnet
     - vbasic
@@ -623,6 +624,7 @@
     - java
     - php
     - service
+    - security
   proprietary: true
 - name: Codepeer
   homepage: "http://www.adacore.com/codepeer"
@@ -731,6 +733,7 @@
     - scala
     - typescript
     - vbnet
+    - security
   proprietary: true
 - name: cppcheck
   homepage: "http://cppcheck.sourceforge.net/"
@@ -1232,6 +1235,7 @@
     - vbnet
     - vbscript
     - xml
+    - security
   proprietary: true
 - name: Frama-C
   homepage: "http://frama-c.com/"
@@ -1663,6 +1667,7 @@
     - javascript
     - nodejs
     - csharp
+    - security
 - name: IntelliJ IDEA
   homepage: "https://www.jetbrains.com/idea/"
   description: "Comes bundled with a lot of inspections for Java and Kotlin and includes tools for refactoring, formatting and more."
@@ -2883,6 +2888,7 @@
     - python
     - ruby
     - scala
+    - security
     - solidity
     - swift
     - tsql
@@ -3318,6 +3324,7 @@
     - objectivec
     - php
     - swift
+    - security
   proprietary: true
 - name: vint
   homepage: "https://github.com/Kuniwak/vint"
