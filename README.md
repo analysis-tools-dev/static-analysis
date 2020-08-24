@@ -103,8 +103,8 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Mobile](#mobile)
 - [Packages](#package)
 - [Protocol Buffers](#protobuf)
-- [Security Tools](#security)
-- [Supporting Tools](#support)
+- [Security](#security)
+- [Support](#support)
 - [Template-Languages](#template)
 - [Translation](#translation)
 - [Web services](#service)
@@ -830,12 +830,12 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - ![stars](https://img.shields.io/github/stars/yoheimuta/protolint?style=flat-square&color=ccc) [protolint](https://github.com/yoheimuta/protolint) - Pluggable linter and fixer to enforce Protocol Buffer style and conventions.
 
 
-<h2 id="security">Security Tools</h2>
+<h2 id="security">Security</h2>
 
 - ![stars](https://img.shields.io/github/stars/zricethezav/gitleaks?style=flat-square&color=ccc) [Gitleaks](https://github.com/zricethezav/gitleaks) - A SAST tool for detecting hardcoded secrets like passwords, api keys, and tokens in git repos.
 
 
-<h2 id="support">Supporting Tools</h2>
+<h2 id="support">Support</h2>
 
 - ![stars](https://img.shields.io/github/stars/uni-bremen-agst/libvcs4j?style=flat-square&color=ccc) [LibVCS4j](https://github.com/uni-bremen-agst/libvcs4j) - A Java library that allows existing tools to analyse the evolution of software systems by providing a common API for different version control systems and issue trackers.
 
