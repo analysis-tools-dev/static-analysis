@@ -63,6 +63,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
     <li><a href="#haxe">Haxe</a></li>
     <li><a href="#java">Java</a></li>
     <li><a href="#javascript">JavaScript</a></li>
+    <li><a href="#julia">Julia</a></li>
     <li><a href="#kotlin">Kotlin</a></li>
     <li><a href="#lua">Lua</a></li>
     <li><a href="#matlab">MATLAB</a></li>
@@ -102,6 +103,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Mobile](#mobile)
 - [Packages](#package)
 - [Protocol Buffers](#protobuf)
+- [Security Tools](#security)
 - [Supporting Tools](#support)
 - [Template-Languages](#template)
 - [Translation](#translation)
@@ -156,6 +158,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Helix QAC](https://www.perforce.com/products/helix-qac) :copyright: - Enterprise-grade static analysis for embedded software. Supports MISRA, CERT, and AUTOSAR coding standards.
 - ![stars](https://img.shields.io/github/stars/nasa-sw-vnv/ikos?style=flat-square&color=ccc) [IKOS](https://github.com/nasa-sw-vnv/ikos) - A sound static analyzer for C/C++ code based on LLVM.
 - ![stars](https://img.shields.io/github/stars/feddischson/include_gardener?style=flat-square&color=ccc) [include-gardener](https://github.com/feddischson/include_gardener) - A multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files.
+- ![stars](https://img.shields.io/github/stars/ShiftLeftSecurity/joern?style=flat-square&color=ccc) [Joern](https://joern.io/) - Open-source code analysis platform for C/C++ based on code property graphs
 - [LDRA](https://ldra.com) :copyright: - A tool suite including static analysis (TBVISION) to various standards including MISRA C & C++, JSF++ AV, CWE, CERT C, CERT C++ & Custom Rules.
 - [PC-lint](https://www.gimpel.com/) :copyright: - Static analysis for C/C++. Runs natively under Windows/Linux/MacOS. Analyzes code for virtually any platform, supporting C11/C18 and C++17.
 - ![stars](https://img.shields.io/github/stars/secure-software-engineering/phasar?style=flat-square&color=ccc) [Phasar](https://phasar.org/) - A LLVM-based static analysis framework which comes with a taint and type state analysis.
@@ -201,6 +204,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Helix QAC](https://www.perforce.com/products/helix-qac) :copyright: - Enterprise-grade static analysis for embedded software. Supports MISRA, CERT, and AUTOSAR coding standards.
 - ![stars](https://img.shields.io/github/stars/nasa-sw-vnv/ikos?style=flat-square&color=ccc) [IKOS](https://github.com/nasa-sw-vnv/ikos) - A sound static analyzer for C/C++ code based on LLVM.
 - ![stars](https://img.shields.io/github/stars/feddischson/include_gardener?style=flat-square&color=ccc) [include-gardener](https://github.com/feddischson/include_gardener) - A multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files.
+- ![stars](https://img.shields.io/github/stars/ShiftLeftSecurity/joern?style=flat-square&color=ccc) [Joern](https://joern.io/) - Open-source code analysis platform for C/C++ based on code property graphs
 - [LDRA](https://ldra.com) :copyright: - A tool suite including static analysis (TBVISION) to various standards including MISRA C & C++, JSF++ AV, CWE, CERT C, CERT C++ & Custom Rules.
 - [PC-lint](https://www.gimpel.com/) :copyright: - Static analysis for C/C++. Runs natively under Windows/Linux/MacOS. Analyzes code for virtually any platform, supporting C11/C18 and C++17.
 - ![stars](https://img.shields.io/github/stars/secure-software-engineering/phasar?style=flat-square&color=ccc) [Phasar](https://phasar.org/) - A LLVM-based static analysis framework which comes with a taint and type state analysis.
@@ -225,6 +229,8 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="dart">Dart</h2>
 
+- ![stars](https://img.shields.io/github/stars/tenhobi/effective_dart?style=flat-square&color=ccc) [effective_dart](https://pub.dev/packages/effective_dart) - Linter rules corresponding to the guidelines in Effective Dart
+- ![stars](https://img.shields.io/github/stars/passsy/dart-lint?style=flat-square&color=ccc) [lint](https://github.com/passsy/dart-lint) - An opinionated, community-driven set of lint rules for Dart and Flutter projects. Like pedantic but stricter
 - ![stars](https://img.shields.io/github/stars/dart-lang/linter?style=flat-square&color=ccc) [Linter for dart](https://dart-lang.github.io/linter/) - Style linter for Dart.
 
 
@@ -376,6 +382,11 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - ![stars](https://img.shields.io/github/stars/ternjs/tern?style=flat-square&color=ccc) [tern](https://ternjs.net/) - A JavaScript code analyzer for deep, cross-editor language support.
 - ![stars](https://img.shields.io/github/stars/xojs/xo?style=flat-square&color=ccc) [xo](https://github.com/xojs/xo) - Opinionated but configurable ESLint wrapper with lots of goodies included. Enforces strict and readable code.
 - ![stars](https://img.shields.io/github/stars/calmh/yardstick?style=flat-square&color=ccc) [yardstick](https://github.com/calmh/yardstick) :warning: - Javascript code metrics.
+
+
+<h2 id="julia">Julia</h2>
+
+- ![stars](https://img.shields.io/github/stars/julia-vscode/StaticLint.jl?style=flat-square&color=ccc) [StaticLint](https://github.com/julia-vscode/StaticLint.jl) - Static Code Analysis for Julia
 
 
 <h2 id="kotlin">Kotlin</h2>
@@ -700,6 +711,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="binary">Binaries</h2>
 
 - ![stars](https://img.shields.io/github/stars/Microsoft/binskim?style=flat-square&color=ccc) [BinSkim](https://github.com/Microsoft/binskim) - A binary static analysis tool that provides security and correctness results for Windows portable executables.
+- [Black Duck](https://www.blackducksoftware.com/) :copyright: - Tool to analyze source code and binaries for reusable code, necessary licenses and potential security aspects.
 - ![stars](https://img.shields.io/github/stars/fkie-cad/cwe_checker?style=flat-square&color=ccc) [cwe_checker](https://github.com/fkie-cad/cwe_checker) - cwe_checker finds vulnerable patterns in binary executables.
 - ![stars](https://img.shields.io/github/stars/NationalSecurityAgency/ghidra?style=flat-square&color=ccc) [Ghidra](https://ghidra-sre.org) - A software reverse engineering (SRE) suite of tools developed by NSA's Research Directorate in support of the Cybersecurity mission
 - [IDA Free](https://www.hex-rays.com/products/ida/support/download_freeware/) :copyright: - Binary code analysis tool.
@@ -816,6 +828,11 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="protobuf">Protocol Buffers</h2>
 
 - ![stars](https://img.shields.io/github/stars/yoheimuta/protolint?style=flat-square&color=ccc) [protolint](https://github.com/yoheimuta/protolint) - Pluggable linter and fixer to enforce Protocol Buffer style and conventions.
+
+
+<h2 id="security">Security Tools</h2>
+
+- ![stars](https://img.shields.io/github/stars/zricethezav/gitleaks?style=flat-square&color=ccc) [Gitleaks](https://github.com/zricethezav/gitleaks) - A SAST tool for detecting hardcoded secrets like passwords, api keys, and tokens in git repos.
 
 
 <h2 id="support">Supporting Tools</h2>
