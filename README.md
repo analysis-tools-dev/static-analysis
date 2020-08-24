@@ -149,6 +149,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) - Automated C++ checker that follows Google's style guide.
 - ![stars](https://img.shields.io/github/stars/dspinellis/cqmetrics?style=flat-square&color=ccc) [cqmetrics](https://github.com/dspinellis/cqmetrics) - Quality metrics for C code.
 - ![stars](https://img.shields.io/github/stars/dspinellis/cscout?style=flat-square&color=ccc) [CScout](https://www.spinellis.gr/cscout/) - Complexity and quality metrics for for C and C preprocessor code.
+- ![stars](https://img.shields.io/github/stars/esbmc/esbmc?style=flat-square&color=ccc) [ESBMC](http://esbmc.org/) - ESBMC is an open source, permissively licensed, context-bounded model checker based on satisfiability modulo theories for the verification of single- and multi-threaded C/C++ programs.
 - ![stars](https://img.shields.io/github/stars/david-a-wheeler/flawfinder?style=flat-square&color=ccc) [flawfinder](https://www.dwheeler.com/flawfinder/) - Finds possible security weaknesses.
 - ![stars](https://img.shields.io/github/stars/JossWhittle/FlintPlusPlus?style=flat-square&color=ccc) [flint++](https://github.com/JossWhittle/FlintPlusPlus) - Cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.
 - [Frama-C](http://frama-c.com/) - A sound and extensible static analyzer for C code.
@@ -193,6 +194,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) - Automated C++ checker that follows Google's style guide.
 - ![stars](https://img.shields.io/github/stars/dspinellis/cqmetrics?style=flat-square&color=ccc) [cqmetrics](https://github.com/dspinellis/cqmetrics) - Quality metrics for C code.
 - ![stars](https://img.shields.io/github/stars/dspinellis/cscout?style=flat-square&color=ccc) [CScout](https://www.spinellis.gr/cscout/) - Complexity and quality metrics for for C and C preprocessor code.
+- ![stars](https://img.shields.io/github/stars/esbmc/esbmc?style=flat-square&color=ccc) [ESBMC](http://esbmc.org/) - ESBMC is an open source, permissively licensed, context-bounded model checker based on satisfiability modulo theories for the verification of single- and multi-threaded C/C++ programs.
 - ![stars](https://img.shields.io/github/stars/david-a-wheeler/flawfinder?style=flat-square&color=ccc) [flawfinder](https://www.dwheeler.com/flawfinder/) - Finds possible security weaknesses.
 - ![stars](https://img.shields.io/github/stars/JossWhittle/FlintPlusPlus?style=flat-square&color=ccc) [flint++](https://github.com/JossWhittle/FlintPlusPlus) - Cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.
 - [Frama-C](http://frama-c.com/) - A sound and extensible static analyzer for C code.
