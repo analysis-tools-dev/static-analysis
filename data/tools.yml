@@ -253,6 +253,12 @@
   tags:
     - python
     - formatter
+- name: Black Duck
+  homepage: https://www.blackducksoftware.com/
+  proprietary: true
+  description: Tool to analyze source code and binaries for reusable code, necessary licenses and potential security aspects.
+  tags:
+    - binary
 - name: bodyclose
   homepage: "https://github.com/timakin/bodyclose"
   source: "https://github.com/timakin/bodyclose"
@@ -1005,6 +1011,12 @@
   description: "Combine [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) and [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)."
   tags:
     - php
+- name: effective_dart
+  homepage: https://pub.dev/packages/effective_dart
+  source: https://github.com/tenhobi/effective_dart
+  description: "Linter rules corresponding to the guidelines in Effective Dart"
+  tags:
+    - dart
 - name: electrolysis
   homepage: "http://kha.github.io/electrolysis/"
   source: "https://github.com/Kha/electrolysis"
@@ -1264,6 +1276,12 @@
   description: A software reverse engineering (SRE) suite of tools developed by NSA's Research Directorate in support of the Cybersecurity mission
   tags:
     - binary
+- name: Gitleaks
+  homepage: https://github.com/zricethezav/gitleaks
+  source: https://github.com/zricethezav/gitleaks
+  description: A SAST tool for detecting hardcoded secrets like passwords, api keys, and tokens in git repos. 
+  tags:
+    - security
 - name: ShiftLeft Scan
   homepage: "https://slscan.io"
   source: https://github.com/ShiftLeftSecurity/sast-scan
@@ -1682,6 +1700,13 @@
   description: Autocompletion/static analysis library for Python.
   tags:
     - python
+- name: Joern
+  homepage: https://joern.io/
+  source: https://github.com/ShiftLeftSecurity/joern 
+  description: Open-source code analysis platform for C/C++ based on code property graphs 
+  tags:
+    - c
+    - cpp
 - name: jshint
   homepage: "https://jshint.com/about/"
   source: "https://github.com/jshint/jshint"
@@ -1806,6 +1831,12 @@
   description: A Java library that allows existing tools to analyse the evolution of software systems by providing a common API for different version control systems and issue trackers.
   tags:
     - support
+- name: lint
+  homepage: https://github.com/passsy/dart-lint
+  source: https://github.com/passsy/dart-lint
+  description: An opinionated, community-driven set of lint rules for Dart and Flutter projects. Like pedantic but stricter 
+  tags:
+    - dart
 - name: linter
   homepage: "https://github.com/HairyFotr/linter"
   source: "https://github.com/HairyFotr/linter"
@@ -3438,6 +3469,12 @@
   description: Stan is a command-line tool for analysing Haskell projects and outputting discovered vulnerabilities in a helpful way with possible solutions for detected problems.
   tags:
     - haskell
+- name: StaticLint
+  homepage: https://github.com/julia-vscode/StaticLint.jl 
+  source: https://github.com/julia-vscode/StaticLint.jl
+  description: Static Code Analysis for Julia 
+  tags:
+    - julia
 - name: PC-lint
   homepage: "https://www.gimpel.com/"
   description: "Static analysis for C/C++. Runs natively under Windows/Linux/MacOS. Analyzes code for virtually any platform, supporting C11/C18 and C++17."
