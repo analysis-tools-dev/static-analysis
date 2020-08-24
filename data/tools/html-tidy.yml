@@ -3,6 +3,7 @@ categories:
   - linter
 tags:
   - html
+license: Custom
 types:
   - cli
 source: 'https://github.com/htacg/tidy-html5'

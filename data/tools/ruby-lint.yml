@@ -4,6 +4,7 @@ categories:
 tags:
   - ruby
 deprecated: true
+license: 'Mozilla Public License, version 2.0'
 types:
   - cli
 source: 'https://gitlab.com/yorickpeterse/ruby-lint'

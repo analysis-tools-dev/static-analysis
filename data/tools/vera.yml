@@ -4,6 +4,7 @@ categories:
 tags:
   - c
   - cpp
+license: BSL-1.0 (original text)
 types:
   - cli
 source: 'https://bitbucket.org/verateam/vera/src/master'

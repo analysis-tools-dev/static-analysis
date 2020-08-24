@@ -3,6 +3,7 @@ categories:
   - linter
 tags:
   - javascript
+license: Llvm release license
 types:
   - cli
 source: 'https://github.com/douglascrockford/JSLint'

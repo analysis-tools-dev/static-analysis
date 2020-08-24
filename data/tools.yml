@@ -741,6 +741,7 @@
     - c
     - cpp
 - name: cqc
+  license: BSD-3-Clause (original text)
   homepage: "https://github.com/xcatliu/cqc"
   source: "https://github.com/xcatliu/cqc"
   description: "Check your code quality for js, jsx, vue, css, less, scss, sass and styl files."
@@ -1114,6 +1115,7 @@
   homepage: "https://ruby.sadi.st/Flay.html"
   source: "https://github.com/seattlerb/flay"
   description: Flay analyzes code for structural similarities.
+  license: "MIT"
   tags:
     - ruby
 - name: flen
@@ -1132,6 +1134,7 @@
 - name: flog
   homepage: "https://ruby.sadi.st/Flog.html"
   source: "https://github.com/seattlerb/flog"
+  license: MIT
   description: "Flog reports the most tortured code in an easy to read pain report. The higher the score, the more pain the code is in."
   tags:
     - ruby
@@ -1303,12 +1306,14 @@
   homepage: "https://golang.org/cmd/vet/#hdr-Shadowed_variables"
   source: "https://github.com/golang/go/tree/master/src/cmd/vet"
   description: Reports variables that may have been unintentionally shadowed.
+  license: "BSD-3-Clause (original text)"
   tags:
     - go
 - name: go vet
   homepage: "https://golang.org/cmd/vet/"
   source: "https://github.com/golang/go/tree/master/src/cmd/vet"
   description: Examines Go source code and reports suspicious.
+  license: BSD-3-Clause (original text)
   tags:
     - go
 - name: go-consistent
@@ -1327,6 +1332,7 @@
   homepage: "https://golang.org/pkg/go/ast/"
   source: "https://github.com/golang/go/tree/master/src/go/ast"
   description: Package ast declares the types used to represent syntax trees for Go packages.
+  license: "BSD-3-Clause (original text)"
   tags:
     - go
 - name: gochecknoglobals
@@ -1351,12 +1357,14 @@
   homepage: "https://golang.org/cmd/gofmt/"
   source: "https://github.com/golang/go/tree/master/src/cmd/gofmt"
   description: Checks if the code is properly formatted and could not be further simplified.
+  license: "BSD-3-Clause (original text)"
   tags:
     - go
 - name: goimports
   homepage: "https://pkg.go.dev/golang.org/x/tools/cmd/goimports"
   source: "https://github.com/golang/tools/tree/master/cmd/goimports"
   description: Checks missing or unreferenced package imports.
+  license: BSD-3-Clause (original text)
   tags:
     - go
 - name: GolangCI-Lint
@@ -1525,6 +1533,7 @@
 - name: HTML Tidy
   homepage: "http://www.html-tidy.org/"
   source: "https://github.com/htacg/tidy-html5"
+  license: "Custom"
   description: Corrects and cleans up HTML and XML documents by fixing markup errors and upgrading legacy code to modern standards.
   tags:
     - html
@@ -1664,6 +1673,7 @@
   source: "https://github.com/douglascrockford/JSLint"
   discussion: "https://github.com/analysis-tools-dev/static-analysis/issues/223"
   description: The JavaScript Code Quality Tool.
+  license: Llvm release license
   tags:
     - javascript
 - name: JSPrime
@@ -2019,6 +2029,7 @@
   homepage: "https://metacpan.org/pod/Perl::Critic"
   source: "https://metacpan.org/release/Perl-Critic/source/lib/Perl/Critic.pm"
   description: Critique Perl source code for best-practices.
+  license: GPL v2
   tags:
     - perl
 - name: pfff
@@ -2660,6 +2671,7 @@
   homepage: "http://code.yorickpeterse.com/ruby-lint/latest/"
   source: "https://gitlab.com/yorickpeterse/ruby-lint"
   description: Static code analysis for Ruby.
+  license: Mozilla Public License, version 2.0
   tags:
     - ruby
   deprecated: true
@@ -3003,6 +3015,7 @@
 - name: structcheck
   homepage: "https://gitlab.com/opennota/check"
   source: "https://gitlab.com/opennota/check"
+  license: GPL-3.0-only (original text)
   description: Find unused struct fields.
   tags:
     - go
@@ -3106,6 +3119,7 @@
 - name: test
   homepage: "http://golang.org/pkg/testing/"
   source: "http://golang.org/pkg/testing/"
+  license: BSD-3-Clause (original text)
   description: Show location of test failures from the stdlib testing module.
   tags:
     - go
@@ -3245,12 +3259,14 @@
 - name: varcheck
   homepage: "https://gitlab.com/opennota/check"
   source: "https://gitlab.com/opennota/check"
+  license: GPL-3.0-only (original text)
   description: Find unused global variables and constants.
   tags:
     - go
 - name: vera++
   homepage: "https://bitbucket.org/verateam/vera/wiki/Introduction"
   source: "https://bitbucket.org/verateam/vera/src/master/"
+  license: BSL-1.0 (original text)
   description: "Vera++ is a programmable tool for verification, analysis and transformation of C++ source code."
   tags:
     - c

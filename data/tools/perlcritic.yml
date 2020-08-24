@@ -3,6 +3,7 @@ categories:
   - linter
 tags:
   - perl
+license: GPL v2
 types:
   - cli
 source: 'https://metacpan.org/release/Perl-Critic/source/lib/Perl/Critic.pm'

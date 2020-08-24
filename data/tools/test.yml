@@ -3,6 +3,7 @@ categories:
   - linter
 tags:
   - go
+license: BSD-3-Clause (original text)
 types:
   - cli
 source: 'http://golang.org/pkg/testing'
