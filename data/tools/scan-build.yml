@@ -4,6 +4,7 @@ categories:
 tags:
   - c
   - cpp
+license: Llvm release license
 types:
   - cli
 source: 'https://clang-analyzer.llvm.org/scan-build.html'

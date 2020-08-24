@@ -3,6 +3,7 @@ categories:
   - linter
 tags:
   - make
+license: BSD License
 types:
   - cli
 source: >-

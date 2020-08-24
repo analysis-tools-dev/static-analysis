@@ -3,6 +3,7 @@ categories:
   - linter
 tags:
   - csharp
+license: MIT
 types:
   - cli
 source: 'https://github.com/DotNetAnalyzers'

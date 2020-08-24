@@ -3,6 +3,7 @@ categories:
   - linter
 tags:
   - go
+license: 3-Clause BSD License + Patent Grant
 types:
   - cli
 source: 'https://golang.org/x/tools/cmd/gotype'

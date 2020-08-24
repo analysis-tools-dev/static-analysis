@@ -2,6 +2,7 @@ name: Android Studio
 categories:
   - linter
 tags: []
+license: Android Software Development Kit License Agreement
 types:
   - ide-plugin
 source: >-

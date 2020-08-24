@@ -3,6 +3,7 @@ categories:
   - linter
 tags:
   - mobile
+license: Android Software Development Kit License Agreement
 types:
   - cli
 source: 'https://android.googlesource.com'

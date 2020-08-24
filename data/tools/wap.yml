@@ -3,6 +3,7 @@ categories:
   - linter
 tags:
   - php
+license: GNU GPL
 types:
   - cli
 source: 'http://awap.sourceforge.net/index.html'

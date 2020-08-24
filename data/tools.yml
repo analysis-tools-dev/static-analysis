@@ -1,5 +1,6 @@
 ---
 - name: ".NET Analyzers"
+  license: MIT
   homepage: "https://github.com/DotNetAnalyzers"
   source: "https://github.com/DotNetAnalyzers"
   description: An organization for the development of analyzers (diagnostics and code fixes) using the .NET Compiler Platform.
@@ -63,12 +64,14 @@
   tags:
     - container
 - name: Android Lint
+  license: Android Software Development Kit License Agreement
   homepage: "http://tools.android.com/tips/lint"
   source: "https://android.googlesource.com/"
   description: Run static analysis on Android projects.
   tags:
     - mobile
 - name: Android Studio
+  license: Android Software Development Kit License Agreement
   homepage: "https://developer.android.com/studio"
   source: "https://android.googlesource.com/platform/tools/adt/idea/+/refs/heads/mirror-goog-studio-master-dev"
   description: "Based on IntelliJ IDEA, and comes bundled with tools for Android including Android Lint."
@@ -1421,6 +1424,7 @@
     - go
 - name: gotype
   homepage: "https://pkg.go.dev/golang.org/x/tools/cmd/gotype"
+  license: 3-Clause BSD License + Patent Grant
   source: "https://golang.org/x/tools/cmd/gotype"
   description: Syntactic and semantic analysis similar to the Go compiler.
   tags:
@@ -2297,6 +2301,7 @@
   homepage: "https://www.freebsd.org/cgi/man.cgi?query=portlint&sektion=1&manpath=FreeBSD+8.1-RELEASE+and+Ports"
   source: "https://www.freebsd.org/cgi/man.cgi?query=portlint&sektion=1&manpath=FreeBSD+8.1-RELEASE+and+Ports"
   description: A verifier for FreeBSD and DragonFlyBSD port directories.
+  license: BSD License
   tags:
     - make
 - name: PostCSS
@@ -2720,6 +2725,7 @@
   tags:
     - scala
 - name: scan-build
+  license: Llvm release license
   homepage: "https://clang-analyzer.llvm.org/scan-build.html"
   source: "https://clang-analyzer.llvm.org/scan-build.html"
   description: Analyzes C/C++ code using LLVM at compile-time.
@@ -3320,6 +3326,7 @@
 - name: WAP
   homepage: "https://securityonline.info/owasp-wap-web-application-protection-project/"
   source: "http://awap.sourceforge.net/index.html"
+  license: GNU GPL
   description: Tool to detect and correct input validation vulnerabilities in PHP (4.0 or higher) web applications and predicts false positives by combining static analysis and data mining.
   tags:
     - php
