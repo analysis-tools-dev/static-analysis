@@ -256,10 +256,10 @@
 - name: Protocol Buffers
   tag: protobuf
   type: other
-- name: Security Tools
+- name: Security
   tag: security
   type: other
-- name: Supporting Tools
+- name: Support
   tag: support
   type: other
 - name: Template-Languages
