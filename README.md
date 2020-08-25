@@ -539,6 +539,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - ![stars](https://img.shields.io/github/stars/AtomLinter/linter-rust?style=flat-square&color=ccc) [linter-rust](https://github.com/AtomLinter/linter-rust) - Linting your Rust-files in Atom, using rustc and cargo.
 - ![stars](https://img.shields.io/github/stars/facebookexperimental/MIRAI?style=flat-square&color=ccc) [MIRAI](https://github.com/facebookexperimental/MIRAI) - And abstract interpreter operating on Rust's mid-level intermediate language, and providing warnings based on taint analysis.
 - ![stars](https://img.shields.io/github/stars/rust-lang-nursery/rls?style=flat-square&color=ccc) [Rust Language Server](https://github.com/rust-lang-nursery/rls) - Supports functionality such as 'goto definition', symbol search, reformatting, and code completion, and enables renaming and refactorings.
+- ![stars](https://img.shields.io/github/stars/rust-analyzer/rust-analyzer?style=flat-square&color=ccc) [rust-analyzer](https://rust-analyzer.github.io/) - Supports functionality such as 'goto definition', type inference, symbol search, reformatting, and code completion, and enables renaming and refactorings.
 - ![stars](https://img.shields.io/github/stars/rust-lang/rustfix?style=flat-square&color=ccc) [rustfix](https://github.com/rust-lang/rustfix) - Read and apply the suggestions made by rustc (and third-party lints, like those offered by clippy).
 
 
