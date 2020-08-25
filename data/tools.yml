@@ -472,6 +472,12 @@
   tags:
     - javascript
   deprecated: true
+- name: clj-kondo
+  homepage: https://github.com/borkdude/clj-kondo
+  source: https://github.com/borkdude/clj-kondo
+  description:  A linter for Clojure code that sparks joy. It informs you about potential errors while you are typing.
+  tags:
+    - clojure
 - name: CMetrics
   homepage: "https://github.com/MetricsGrimoire/CMetrics"
   source: "https://github.com/MetricsGrimoire/CMetrics"
