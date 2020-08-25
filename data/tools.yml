@@ -240,6 +240,28 @@
   description: A linting engine supporting custom project-specific rules.
   tags:
     - python
+- name: Better Code Hub
+  homepage: "https://bettercodehub.com"
+  proprietary: true
+  description: Better Code Hub checks your GitHub codebase against 10 engineering guidelines devised by the authority in software quality, Software Improvement Group.
+  tags:
+    - csharp
+    - cpp
+    - go
+    - groovy
+    - java
+    - javascript
+    - objectivec
+    - perl
+    - php
+    - python
+    - ruby
+    - scala
+    - shell
+    - solidity
+    - swift
+    - typescript
+    - kotlin
 - name: BinSkim
   homepage: "https://github.com/Microsoft/binskim"
   source: "https://github.com/Microsoft/binskim"
