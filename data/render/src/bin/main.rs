@@ -3,11 +3,12 @@ use render::types::{Entry, Tags};
 use render::{group, validate};
 use std::env;
 use std::error::Error;
-
+use std::ffi::OsStr;
+use std::io;
 fn get_files() -> Result<(String, String), Box<dyn Error>> {
     let files: Vec<_> = env::args().skip(1).collect();
     if files.len() != 2 {
-        return Err("Expected a two input files, `tools.yml` and `tags.yml`".into());
+        return Err("Expected two input parameters: `tools` directory and `tags.yml path`".into());
     }
     Ok((files[0].clone(), files[1].clone()))
 }
@@ -18,8 +19,48 @@ fn read_tags(file: String) -> Result<Tags, Box<dyn Error>> {
 }
 
 fn read_tools(file: String) -> Result<Vec<Entry>, Box<dyn Error>> {
-    let f = std::fs::File::open(file)?;
-    Ok(serde_yaml::from_reader(f)?)
+    let dir: std::fs::ReadDir = std::fs::read_dir(file)?;
+
+    let files = dir
+        .map(|res| res.map(|e| e.path()))
+        // .filter_map(Result::Ok)
+        .filter(|x| match x {
+            Ok(pb) => {
+                println!(
+                    "{:?} {:?}",
+                    pb.as_path(),
+                    pb.extension().and_then(OsStr::to_str)
+                );
+                return pb.extension().and_then(OsStr::to_str) == Some("yml");
+            }
+
+            Err(_) => false,
+        })
+        .collect::<Result<Vec<_>, io::Error>>()?;
+
+    files
+        .iter()
+        .map(|y| {
+            let file = std::fs::File::open(y)?;
+            let entry: Entry = serde_yaml::from_reader(file)?;
+            return Ok(entry);
+        })
+        .collect::<Result<Vec<Entry>, _>>()
+
+    // files.map(|x| {
+    //     // println!("{:?}", f)
+    //     match x {
+    //         Ok(f) => {
+    //             let file = std::fs::File::open(f);
+    //             serde_yaml::from_reader(file)
+    //         }
+    //     }
+    // });
+    // .collect()?;
+
+    // let f = std::fs::File::open(file)?;
+    // Ok(serde_yaml::from_reader(f)?)
+    // Ok(serde_yaml::from_str("{}")?)
 }
 
 fn main() -> Result<(), Box<dyn Error>> {

@@ -38,6 +38,8 @@
   description: Asynchronous Lint Engine for Vim and NeoVim with support for many languages.
   tags:
     - ide
+    - javascript
+    - python
 - name: alex
   homepage: "https://alexjs.com/"
   source: "https://github.com/get-alex/alex"
@@ -77,6 +79,8 @@
   description: "Based on IntelliJ IDEA, and comes bundled with tools for Android including Android Lint."
   tags:
     - ide
+    - java
+    - kotlin
 - name: android-lint-summary
   homepage: "https://passy.github.io/android-lint-summary/"
   source: "https://github.com/passy/android-lint-summary"
@@ -223,6 +227,7 @@
   description: "Attackflow plugin for Visual Studio, which enables developers to find critical security bugs at real time in the source code without any prior knowledge."
   tags:
     - ide
+    - security
   proprietary: true
 - name: Axivion Bauhaus Suite
   homepage: "https://www.axivion.com/en/products-services-9#products_bauhaussuite"
@@ -1716,6 +1721,7 @@
   description: "Comes bundled with a lot of inspections for Java and Kotlin and includes tools for refactoring, formatting and more."
   tags:
     - ide
+    - java
   proprietary: true
 - name: interfacer
   homepage: "https://github.com/mvdan/interfacer"
@@ -3402,6 +3408,7 @@
   description: Fast and Highly Extensible Vim script Language Lint implemented by Python.
   tags:
     - ide
+    - vim-script
 - name: Violations Lib
   homepage: "https://github.com/tomasbjerre/violations-lib"
   source: "https://github.com/tomasbjerre/violations-lib"
