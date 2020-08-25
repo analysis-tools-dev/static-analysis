@@ -3,6 +3,7 @@ categories:
   - linter
 tags:
   - buildtool
+  - make
 license: MIT License
 types:
   - cli

@@ -1,0 +1,12 @@
+name: Joern
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/ShiftLeftSecurity/joern'
+homepage: 'https://joern.io'
+description: Open-source code analysis platform for C/C++ based on code property graphs

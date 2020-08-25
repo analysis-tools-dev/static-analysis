@@ -1,0 +1,12 @@
+name: Black Duck
+categories:
+  - linter
+tags:
+  - binary
+license: proprietary
+types:
+  - cli
+homepage: 'https://www.blackducksoftware.com'
+description: >-
+  Tool to analyze source code and binaries for reusable code, necessary licenses
+  and potential security aspects.

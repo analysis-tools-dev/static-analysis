@@ -1,10 +1,23 @@
-name: kiuwan
+name: Kiuwan
 categories:
   - linter
 tags:
+  - c
+  - cpp
+  - go
+  - java
+  - javascript
+  - kotlin
+  - php
+  - python
+  - scala
   - service
+  - swift
 license: proprietary
 types:
   - service
-homepage: 'https://www.kiuwan.com'
-description: Software Analytics in the Cloud supporting more than 22 programming languages.
+homepage: 'https://www.kiuwan.com/code-security-sast'
+description: >-
+  Identify and remediate cyber threats in a blazingly fast, collaborative
+  environment, with seamless integration in your SDLC. Python, C\C++, Java, C#,
+  PHP and more.

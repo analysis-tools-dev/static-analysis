@@ -504,7 +504,7 @@
 - name: clj-kondo
   homepage: https://github.com/borkdude/clj-kondo
   source: https://github.com/borkdude/clj-kondo
-  description:  A linter for Clojure code that sparks joy. It informs you about potential errors while you are typing.
+  description: A linter for Clojure code that sparks joy. It informs you about potential errors while you are typing.
   tags:
     - clojure
 - name: CMetrics
@@ -1118,6 +1118,7 @@
 - name: ESBMC
   homepage: "http://esbmc.org/"
   source: "https://github.com/esbmc/esbmc/"
+  license: Apache License 2.0
   description: "ESBMC is an open source, permissively licensed, context-bounded model checker based on satisfiability modulo theories for the verification of single- and multi-threaded C/C++ programs."
   tags:
     - c
@@ -1326,7 +1327,7 @@
 - name: Gitleaks
   homepage: https://github.com/zricethezav/gitleaks
   source: https://github.com/zricethezav/gitleaks
-  description: A SAST tool for detecting hardcoded secrets like passwords, api keys, and tokens in git repos. 
+  description: A SAST tool for detecting hardcoded secrets like passwords, api keys, and tokens in git repos.
   tags:
     - security
 - name: ShiftLeft Scan
@@ -1750,8 +1751,8 @@
     - python
 - name: Joern
   homepage: https://joern.io/
-  source: https://github.com/ShiftLeftSecurity/joern 
-  description: Open-source code analysis platform for C/C++ based on code property graphs 
+  source: https://github.com/ShiftLeftSecurity/joern
+  description: Open-source code analysis platform for C/C++ based on code property graphs
   tags:
     - c
     - cpp
@@ -1884,7 +1885,7 @@
 - name: lint
   homepage: https://github.com/passsy/dart-lint
   source: https://github.com/passsy/dart-lint
-  description: An opinionated, community-driven set of lint rules for Dart and Flutter projects. Like pedantic but stricter 
+  description: An opinionated, community-driven set of lint rules for Dart and Flutter projects. Like pedantic but stricter
   tags:
     - dart
 - name: linter
@@ -3547,9 +3548,9 @@
   tags:
     - haskell
 - name: StaticLint
-  homepage: https://github.com/julia-vscode/StaticLint.jl 
+  homepage: https://github.com/julia-vscode/StaticLint.jl
   source: https://github.com/julia-vscode/StaticLint.jl
-  description: Static Code Analysis for Julia 
+  description: Static Code Analysis for Julia
   tags:
     - julia
 - name: PC-lint

@@ -2,14 +2,18 @@ name: DeepSource
 categories:
   - linter
 tags:
+  - configmanagement
+  - container
   - go
+  - javascript
   - python
+  - ruby
+  - sql
 license: proprietary
 types:
   - cli
 homepage: 'https://deepsource.io'
 description: >-
-  In-depth static analysis to monitor source code quality and security. Supports
-  Python and Go and can detect 600+ types of issues in verticals of bug risks,
-  security, anti-patterns, performance, documentation and style. Native
-  integration with GitHub.
+  In-depth static analysis to find issues in verticals of bug risks, security,
+  anti-patterns, performance, documentation and style. Native integrations with
+  GitHub, GitLab and Bitbucket. Less than 5% false positives.

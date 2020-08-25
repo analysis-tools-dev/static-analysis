@@ -2,6 +2,7 @@ name: portlint
 categories:
   - linter
 tags:
+  - buildtool
   - make
 license: BSD License
 types:
