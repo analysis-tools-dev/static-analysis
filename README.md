@@ -47,6 +47,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
     <li><a href="#c">C</a></li>
     <li><a href="#csharp">C#</a></li>
     <li><a href="#cpp">C++</a></li>
+    <li><a href="#clojure">Clojure</a></li>
     <li><a href="#coffeescript">CoffeeScript</a></li>
     <li><a href="#crystal">Crystal</a></li>
     <li><a href="#dart">Dart</a></li>
@@ -214,6 +215,11 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - ![stars](https://img.shields.io/github/stars/ravenexp/splint?style=flat-square&color=ccc) [splint](http://splint.org/) - Annotation-assisted static program checker.
 - ![stars](https://img.shields.io/github/stars/SVF-tools/SVF?style=flat-square&color=ccc) [SVF](http://svf-tools.github.io/SVF/) - A static tool that enables scalable and precise interprocedural dependence analysis for C and C++ programs.
 - [vera++](https://bitbucket.org/verateam/vera/wiki/Introduction) - Vera++ is a programmable tool for verification, analysis and transformation of C++ source code.
+
+
+<h2 id="clojure">Clojure</h2>
+
+- ![stars](https://img.shields.io/github/stars/borkdude/clj-kondo?style=flat-square&color=ccc) [clj-kondo](https://github.com/borkdude/clj-kondo) - A linter for Clojure code that sparks joy. It informs you about potential errors while you are typing.
 
 
 <h2 id="coffeescript">CoffeeScript</h2>
