@@ -245,6 +245,28 @@
   description: A linting engine supporting custom project-specific rules.
   tags:
     - python
+- name: Better Code Hub
+  homepage: "https://bettercodehub.com"
+  proprietary: true
+  description: Better Code Hub checks your GitHub codebase against 10 engineering guidelines devised by the authority in software quality, Software Improvement Group.
+  tags:
+    - csharp
+    - cpp
+    - go
+    - groovy
+    - java
+    - javascript
+    - objectivec
+    - perl
+    - php
+    - python
+    - ruby
+    - scala
+    - shell
+    - solidity
+    - swift
+    - typescript
+    - kotlin
 - name: BinSkim
   homepage: "https://github.com/Microsoft/binskim"
   source: "https://github.com/Microsoft/binskim"
@@ -258,6 +280,12 @@
   tags:
     - python
     - formatter
+- name: Black Duck
+  homepage: https://www.blackducksoftware.com/
+  proprietary: true
+  description: Tool to analyze source code and binaries for reusable code, necessary licenses and potential security aspects.
+  tags:
+    - binary
 - name: bodyclose
   homepage: "https://github.com/timakin/bodyclose"
   source: "https://github.com/timakin/bodyclose"
@@ -276,6 +304,18 @@
   description: A static analysis security vulnerability scanner for Ruby on Rails applications.
   tags:
     - ruby
+- name: brittany
+  homepage: "https://github.com/lspitzner/brittany"
+  source: "https://github.com/lspitzner/brittany"
+  description: Haskell source code formatter
+  tags:
+    - haskell
+- name: C2Rust
+  homepage: "https://c2rust.com/"
+  source: "https://github.com/immunant/c2rust"
+  description: C2Rust helps you migrate C99-compliant code to Rust. The translator (or transpiler) produces unsafe Rust code that closely mirrors the input C code.
+  tags:
+    - rust
 - name: cane
   homepage: "https://github.com/square/cane"
   source: "https://github.com/square/cane"
@@ -343,6 +383,7 @@
   description: Linter / Analyzer for Makefiles.
   tags:
     - buildtool
+    - make
 - name: Checkmarx CxSAST
   homepage: "https://www.checkmarx.com/products/static-application-security-testing/"
   description: "Commercial Static Code Analysis which doesn't require pre-compilation."
@@ -366,6 +407,7 @@
     - python
     - ruby
     - scala
+    - security
     - swift
     - vbnet
     - vbasic
@@ -459,6 +501,12 @@
   tags:
     - javascript
   deprecated: true
+- name: clj-kondo
+  homepage: https://github.com/borkdude/clj-kondo
+  source: https://github.com/borkdude/clj-kondo
+  description:  A linter for Clojure code that sparks joy. It informs you about potential errors while you are typing.
+  tags:
+    - clojure
 - name: CMetrics
   homepage: "https://github.com/MetricsGrimoire/CMetrics"
   source: "https://github.com/MetricsGrimoire/CMetrics"
@@ -612,6 +660,7 @@
     - java
     - php
     - service
+    - security
   proprietary: true
 - name: Codepeer
   homepage: "http://www.adacore.com/codepeer"
@@ -698,11 +747,12 @@
 - name: Corrode
   homepage: "https://github.com/jameysharp/corrode"
   source: "https://github.com/jameysharp/corrode"
-  description: Semi-automatic translation from C to Rust. Could reveal bugs in the original implementation by showing Rust compiler warnings and errors.
+  description: Semi-automatic translation from C to Rust. Could reveal bugs in the original implementation by showing Rust compiler warnings and errors. Superseded by C2Rust.
   tags:
     - c
     - cpp
     - rust
+  deprecated: true
 - name: Coverity
   homepage: "https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html"
   description: "Synopsys Coverity supports 20 languages and over 70 frameworks including Ruby on rails, Scala, PHP, Python, JavaScript, TypeScript, Java, Fortran, C, C++, C#, VB.NET."
@@ -719,6 +769,7 @@
     - scala
     - typescript
     - vbnet
+    - security
   proprietary: true
 - name: cppcheck
   homepage: "http://cppcheck.sourceforge.net/"
@@ -867,10 +918,15 @@
   proprietary: true
 - name: DeepSource
   homepage: "https://deepsource.io/"
-  description: "In-depth static analysis to monitor source code quality and security. Supports Python and Go and can detect 600+ types of issues in verticals of bug risks, security, anti-patterns, performance, documentation and style. Native integration with GitHub."
+  description: "In-depth static analysis to find issues in verticals of bug risks, security, anti-patterns, performance, documentation and style. Native integrations with GitHub, GitLab and Bitbucket. Less than 5% false positives."
   tags:
     - go
     - python
+    - ruby
+    - javascript
+    - sql
+    - container
+    - configmanagement
   proprietary: true
 - name: dennis
   homepage: "https://github.com/willkg/dennis/"
@@ -996,6 +1052,12 @@
   description: "Combine [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) and [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)."
   tags:
     - php
+- name: effective_dart
+  homepage: https://pub.dev/packages/effective_dart
+  source: https://github.com/tenhobi/effective_dart
+  description: "Linter rules corresponding to the guidelines in Effective Dart"
+  tags:
+    - dart
 - name: electrolysis
   homepage: "http://kha.github.io/electrolysis/"
   source: "https://github.com/Kha/electrolysis"
@@ -1006,6 +1068,12 @@
   homepage: "https://stil4m.github.io/elm-analyse/"
   source: "https://github.com/stil4m/elm-analyse"
   description: "A tool that allows you to analyse your Elm code, identify deficiencies and apply best practices."
+  tags:
+    - elm
+- name: elm-review
+  homepage: "https://package.elm-lang.org/packages/jfmengels/elm-review/latest/"
+  source: "https://github.com/jfmengels/elm-review"
+  description: "Analyzes whole Elm projects, with a focus on shareable and custom rules written in Elm that add guarantees the Elm compiler doesn't give you."
   tags:
     - elm
 - name: elvis
@@ -1047,6 +1115,13 @@
   description: Catch common Java mistakes as compile-time errors.
   tags:
     - java
+- name: ESBMC
+  homepage: "http://esbmc.org/"
+  source: "https://github.com/esbmc/esbmc/"
+  description: "ESBMC is an open source, permissively licensed, context-bounded model checker based on satisfiability modulo theories for the verification of single- and multi-threaded C/C++ programs."
+  tags:
+    - c
+    - cpp
 - name: escomplex
   homepage: "https://github.com/jared-stilwell/escomplex"
   source: "https://github.com/jared-stilwell/escomplex"
@@ -1200,6 +1275,7 @@
     - vbnet
     - vbscript
     - xml
+    - security
   proprietary: true
 - name: Frama-C
   homepage: "http://frama-c.com/"
@@ -1247,6 +1323,12 @@
   description: A software reverse engineering (SRE) suite of tools developed by NSA's Research Directorate in support of the Cybersecurity mission
   tags:
     - binary
+- name: Gitleaks
+  homepage: https://github.com/zricethezav/gitleaks
+  source: https://github.com/zricethezav/gitleaks
+  description: A SAST tool for detecting hardcoded secrets like passwords, api keys, and tokens in git repos. 
+  tags:
+    - security
 - name: ShiftLeft Scan
   homepage: "https://slscan.io"
   source: https://github.com/ShiftLeftSecurity/sast-scan
@@ -1627,6 +1709,7 @@
     - javascript
     - nodejs
     - csharp
+    - security
 - name: IntelliJ IDEA
   homepage: "https://www.jetbrains.com/idea/"
   description: "Comes bundled with a lot of inspections for Java and Kotlin and includes tools for refactoring, formatting and more."
@@ -1665,6 +1748,13 @@
   description: Autocompletion/static analysis library for Python.
   tags:
     - python
+- name: Joern
+  homepage: https://joern.io/
+  source: https://github.com/ShiftLeftSecurity/joern 
+  description: Open-source code analysis platform for C/C++ based on code property graphs 
+  tags:
+    - c
+    - cpp
 - name: jshint
   homepage: "https://jshint.com/about/"
   source: "https://github.com/jshint/jshint"
@@ -1702,12 +1792,6 @@
     - scala
     - service
     - swift
-  proprietary: true
-- name: kiuwan
-  homepage: "https://www.kiuwan.com/"
-  description: Software Analytics in the Cloud supporting more than 22 programming languages.
-  tags:
-    - service
   proprietary: true
 - name: Klocwork
   homepage: "https://www.perforce.com/products/klocwork"
@@ -1797,6 +1881,12 @@
   description: A Java library that allows existing tools to analyse the evolution of software systems by providing a common API for different version control systems and issue trackers.
   tags:
     - support
+- name: lint
+  homepage: https://github.com/passsy/dart-lint
+  source: https://github.com/passsy/dart-lint
+  description: An opinionated, community-driven set of lint rules for Dart and Flutter projects. Like pedantic but stricter 
+  tags:
+    - dart
 - name: linter
   homepage: "https://github.com/HairyFotr/linter"
   source: "https://github.com/HairyFotr/linter"
@@ -2089,7 +2179,7 @@
   homepage: "https://phpinsights.com/"
   source: "https://github.com/nunomaduro/phpinsights"
   description: >
-    Instant PHP quality checks from your console. Analysis of code quality and coding style 
+    Instant PHP quality checks from your console. Analysis of code quality and coding style
     as well as overview of code architecture and its complexity.
   tags:
     - php
@@ -2304,6 +2394,7 @@
   license: BSD License
   tags:
     - make
+    - buildtool
 - name: PostCSS
   homepage: "https://postcss.org/"
   source: "https://github.com/postcss/postcss"
@@ -2692,6 +2783,12 @@
   description: "Supports functionality such as 'goto definition', symbol search, reformatting, and code completion, and enables renaming and refactorings."
   tags:
     - rust
+- name: rust-analyzer
+  homepage: "https://rust-analyzer.github.io/"
+  source: "https://github.com/rust-analyzer/rust-analyzer"
+  description: "Supports functionality such as 'goto definition', type inference, symbol search, reformatting, and code completion, and enables renaming and refactorings."
+  tags:
+    - rust
 - name: rustfix
   homepage: "https://github.com/rust-lang/rustfix"
   source: "https://github.com/rust-lang/rustfix"
@@ -2854,6 +2951,7 @@
     - python
     - ruby
     - scala
+    - security
     - solidity
     - swift
     - tsql
@@ -3192,6 +3290,12 @@
   description: "Analyzes a binary's call graph to profile code size. The goal is to slim down binaries."
   tags:
     - binary
+- name: TypeScript Call Graph
+  homepage: "https://github.com/whyboris/TypeScript-Call-Graph"
+  source: "https://github.com/whyboris/TypeScript-Call-Graph"
+  description: "CLI to generate an interactive graph of functions and calls from your TypeScript files"
+  tags:
+    - typescript
 - name: unconvert
   homepage: "https://github.com/mdempsky/unconvert"
   source: "https://github.com/mdempsky/unconvert"
@@ -3289,6 +3393,7 @@
     - objectivec
     - php
     - swift
+    - security
   proprietary: true
 - name: vint
   homepage: "https://github.com/Kuniwak/vint"
@@ -3441,6 +3546,12 @@
   description: Stan is a command-line tool for analysing Haskell projects and outputting discovered vulnerabilities in a helpful way with possible solutions for detected problems.
   tags:
     - haskell
+- name: StaticLint
+  homepage: https://github.com/julia-vscode/StaticLint.jl 
+  source: https://github.com/julia-vscode/StaticLint.jl
+  description: Static Code Analysis for Julia 
+  tags:
+    - julia
 - name: PC-lint
   homepage: "https://www.gimpel.com/"
   description: "Static analysis for C/C++. Runs natively under Windows/Linux/MacOS. Analyzes code for virtually any platform, supporting C11/C18 and C++17."
