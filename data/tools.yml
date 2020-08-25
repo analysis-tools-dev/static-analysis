@@ -2727,6 +2727,12 @@
   description: "Supports functionality such as 'goto definition', symbol search, reformatting, and code completion, and enables renaming and refactorings."
   tags:
     - rust
+- name: rust-analyzer
+  homepage: "https://rust-analyzer.github.io/"
+  source: "https://github.com/rust-analyzer/rust-analyzer"
+  description: "Supports functionality such as 'goto definition', type inference, symbol search, reformatting, and code completion, and enables renaming and refactorings."
+  tags:
+    - rust
 - name: rustfix
   homepage: "https://github.com/rust-lang/rustfix"
   source: "https://github.com/rust-lang/rustfix"
