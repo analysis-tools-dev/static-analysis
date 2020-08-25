@@ -245,7 +245,7 @@
   proprietary: true
   description: Better Code Hub checks your GitHub codebase against 10 engineering guidelines devised by the authority in software quality, Software Improvement Group.
   tags:
-    - c
+    - csharp
     - cpp
     - go
     - groovy
