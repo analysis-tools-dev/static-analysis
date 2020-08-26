@@ -299,6 +299,7 @@
   description: A static analysis security vulnerability scanner for Ruby on Rails applications.
   tags:
     - ruby
+    - security
 - name: brittany
   homepage: "https://github.com/lspitzner/brittany"
   source: "https://github.com/lspitzner/brittany"
