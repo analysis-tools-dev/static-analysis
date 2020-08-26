@@ -513,7 +513,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="ruby">Ruby</h2>
 
-- ![stars](https://img.shields.io/github/stars/presidentbeef/brakeman?style=flat-square&color=ccc) [brakeman](https://brakemanscanner.org/) - A static analysis security vulnerability scanner for Ruby on Rails applications.
 - ![stars](https://img.shields.io/github/stars/square/cane?style=flat-square&color=ccc) [cane](https://github.com/square/cane) - Code quality threshold checking as part of your build.
 - ![stars](https://img.shields.io/github/stars/seattlerb/flay?style=flat-square&color=ccc) [flay](https://ruby.sadi.st/Flay.html) - Flay analyzes code for structural similarities.
 - ![stars](https://img.shields.io/github/stars/seattlerb/flog?style=flat-square&color=ccc) [flog](https://ruby.sadi.st/Flog.html) - Flog reports the most tortured code in an easy to read pain report. The higher the score, the more pain the code is in.
@@ -614,6 +613,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Axivion Bauhaus Suite](https://www.axivion.com/en/products-services-9#products_bauhaussuite) :copyright: - Tracks down error-prone code locations, style violations, cloned or dead code, cyclic dependencies and more for C/C++, C#/.NET, Java and Ada 83/Ada 95.
 - [Better Code Hub](https://bettercodehub.com) :copyright: - Better Code Hub checks your GitHub codebase against 10 engineering guidelines devised by the authority in software quality, Software Improvement Group.
 - ![stars](https://img.shields.io/github/stars/ambv/black?style=flat-square&color=ccc) [Black](https://black.readthedocs.io/en/stable/) - The uncompromising Python code formatter.
+- ![stars](https://img.shields.io/github/stars/presidentbeef/brakeman?style=flat-square&color=ccc) [brakeman](https://brakemanscanner.org/) - A static analysis security vulnerability scanner for Ruby on Rails applications.
 - [CAST Highlight](https://www.castsoftware.com/products/highlight) :copyright: - Commercial Static Code Analysis which runs locally, but uploads the results to its cloud for presentation.
 - ![stars](https://img.shields.io/github/stars/mrtazz/checkmake?style=flat-square&color=ccc) [checkmake](https://github.com/mrtazz/checkmake) - Linter / Analyzer for Makefiles.
 - [Checkmarx CxSAST](https://www.checkmarx.com/products/static-application-security-testing/) :copyright: - Commercial Static Code Analysis which doesn't require pre-compilation.
