@@ -21,6 +21,7 @@ This project would not be possible without the generous support of our sponsors.
 
 <ul>
   <li><a href="https://deepcode.ai"><img width="200px" src="https://raw.githubusercontent.com/analysis-tools-dev/website/master/static/sponsors/deepcode.svg" /></a></li>
+   <li><a href="https://deepsource.io"><img width="200px" src="https://raw.githubusercontent.com/analysis-tools-dev/website/master/static/sponsors/deepsource.png" /></a></li>
   <li><a href="https://codescene.io/"><img width="200px" src="https://raw.githubusercontent.com/analysis-tools-dev/website/master/static/sponsors/codescene.png" /></a></li>
 </ul>
 
