@@ -565,6 +565,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="shell">Shell</h2>
 
 - ![stars](https://img.shields.io/github/stars/lequal/i-CodeCNES?style=flat-square&color=ccc) [i-Code CNES for Shell](https://github.com/lequal/i-CodeCNES) - An open source static code analysis tool for Shell and Fortran (77 and 90).
+- ![stars](https://img.shields.io/github/stars/ediardo/kmdr-cli?style=flat-square&color=ccc) [kmdr](https://kmdr.sh/) - CLI tool for learning commands from your terminal. kmdr delivers a break down of commands with every attribute explained.
 - ![stars](https://img.shields.io/github/stars/koalaman/shellcheck?style=flat-square&color=ccc) [shellcheck](https://www.shellcheck.net/) - ShellCheck, a static analysis tool that gives warnings and suggestions for bash/sh shell scripts.
 
 
