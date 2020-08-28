@@ -3524,3 +3524,9 @@
     - c
     - cpp
   proprietary: true
+- name: kmdr
+  homepage: "https://kmdr.sh/"
+  source: "https://github.com/ediardo/kmdr-cli"
+  description: "CLI tool for learning commands from your terminal. kmdr delivers a break down of commands with every attribute explained."
+  tags:
+    - shell
