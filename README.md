@@ -662,6 +662,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Nitpick CI](https://nitpick-ci.com) :copyright: - Automated PHP code review.
 - ![stars](https://img.shields.io/github/stars/ajinabraham/NodeJsScan?style=flat-square&color=ccc) [NodeJSScan](https://opensecurity.in/) - NodeJsScan is a static security code scanner for Node.js applications.
 - ![stars](https://img.shields.io/github/stars/oclint/oclint?style=flat-square&color=ccc) [oclint](http://oclint.org/) - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C.
+- [Oversecured](https://oversecured.com/) :copyright: - A mobile app vulnerability scanner, designed for security researchers and bug bounty hackers. It also allows integrations into the DevOps process for businesses.
 - ![stars](https://img.shields.io/github/stars/returntocorp/pfff?style=flat-square&color=ccc) [pfff](https://github.com/facebookarchive/pfff/wiki/Main) :warning: - Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages.
 - ![stars](https://img.shields.io/github/stars/pmd/pmd?style=flat-square&color=ccc) [PMD](https://pmd.github.io/) - A source code analyzer for Java, Javascript, PLSQL, XML, XSL and others.
 - [Polymer-analyzer](https://github.com/Polymer/tools/tree/master/packages/analyzer) - A static analysis framework for Web Components.
