@@ -2056,6 +2056,13 @@
   description: A toolkit to detect some code smells in analyzed Android applications.
   tags:
     - mobile
+- name: Oversecured
+  homepage: "https://oversecured.com/"
+  description: A mobile app vulnerability scanner, designed for security researchers and bug bounty hackers. It also allows integrations into the DevOps process for businesses.
+  tags:
+    - mobile
+    - security
+  proprietary: true
 - name: parallel-lint
   homepage: "https://github.com/php-parallel-lint/PHP-Parallel-Lint"
   source: "https://github.com/php-parallel-lint/PHP-Parallel-Lint"
