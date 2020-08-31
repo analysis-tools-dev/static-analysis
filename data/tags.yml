@@ -151,6 +151,9 @@
 - name: Shell
   tag: shell
   type: language
+- name: Smart Contracts
+  tag: smart-contracts
+  type: other
 - name: Solidity
   tag: solidity
   type: language

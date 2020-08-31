@@ -1992,6 +1992,21 @@
   description: "A static type checker that aims to combine the benefits of duck typing and static typing, frequently used with [MonkeyType](https://github.com/Instagram/MonkeyType)."
   tags:
     - python
+- name: mythril
+  homepage: "https://github.com/ConsenSys/mythril"
+  source: "https://github.com/ConsenSys/mythril"
+  description: A symbolic execution framework with batteries included, can be used to find and exploit vulnerabilities in smart contracts automatically.
+  tags:
+   - solidity
+   - smart-contracts
+
+- name: MythX
+  homepage: "https://mythx.io"
+  description: MythX is an easy to use analysis platform which integrates several analysis methods like fuzzing, symbolic execution and static analysis to find vulnerabilities with high precision.
+  tags:
+    - solidity
+    - smart-contracts
+
 - name: Nagelfar
   homepage: "https://sourceforge.net/projects/nagelfar/"
   source: "https://sourceforge.net/p/nagelfar/code/ci/master/tree/"
