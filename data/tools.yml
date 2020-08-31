@@ -171,7 +171,7 @@
     - delphi
     - abap
     - html
-    - solidity
+    - smart-contracts
   proprietary: true
 - name: ArchUnit
   homepage: "https://www.archunit.org/"
@@ -258,7 +258,7 @@
     - ruby
     - scala
     - shell
-    - solidity
+    - smart-contracts
     - swift
     - typescript
     - kotlin
@@ -1992,6 +1992,18 @@
   description: "A static type checker that aims to combine the benefits of duck typing and static typing, frequently used with [MonkeyType](https://github.com/Instagram/MonkeyType)."
   tags:
     - python
+- name: mythril
+  homepage: "https://github.com/ConsenSys/mythril"
+  source: "https://github.com/ConsenSys/mythril"
+  description: A symbolic execution framework with batteries included, can be used to find and exploit vulnerabilities in smart contracts automatically.
+  tags:
+   - smart-contracts
+- name: MythX
+  homepage: "https://mythx.io"
+  description: MythX is an easy to use analysis platform which integrates several analysis methods like fuzzing, symbolic execution and static analysis to find vulnerabilities with high precision.
+  proprietary: true
+  tags:
+    - smart-contracts
 - name: Nagelfar
   homepage: "https://sourceforge.net/projects/nagelfar/"
   source: "https://sourceforge.net/p/nagelfar/code/ci/master/tree/"
@@ -2905,7 +2917,7 @@
   source: "https://github.com/trailofbits/slither"
   description: "Static analysis framework that runs a suite of vulnerability detectors, prints visual information about contract details, and provides an API to easily write custom analyses."
   tags:
-    - solidity
+    - smart-contracts
 - name: SmartDec Scanner
   homepage: "https://smartdecscanner.com/"
   description: "SAST tool which is capable of identifying vulnerabilities and undocumented features. The analyzer scans the source code and executables without debug info (i.e. binaries). Supports: Java/Scala/Kotlin, PHP, C#, JavaScript, TypeScript, VBScript, HTML5, Python, Perl, C/C++, Objective-C/Swift, PL/SQL, T-SQL, ABAP, 1C, Apex, Go, Ruby, Groovy, Delphi, VBA, Visual Basic 6, Solidity, Vyper, COBOL."
@@ -2931,7 +2943,7 @@
     - ruby
     - scala
     - security
-    - solidity
+    - smart-contracts
     - swift
     - tsql
     - typescript
@@ -2965,13 +2977,13 @@
   source: "https://github.com/protofire/solhint"
   description: Solhint is an open source project created by https://protofire.io. Its goal is to provide a linting utility for Solidity code.
   tags:
-    - solidity
+    - smart-contracts
 - name: solium
   homepage: "https://ethlint.readthedocs.io/en/latest/"
   source: "https://github.com/duaraghav8/Solium"
   description: Solium is a linter to identify and fix style and security issues in Solidity smart contracts.
   tags:
-    - solidity
+    - smart-contracts
 - name: SonarCloud
   homepage: "https://sonarcloud.io"
   description: "Multilanguage cloud-based static code analysis. History, trends, security hot-spots, pull request analysis and more. Free for open source."
