@@ -82,7 +82,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
     <li><a href="#sql">SQL</a></li>
     <li><a href="#scala">Scala</a></li>
     <li><a href="#shell">Shell</a></li>
-    <li><a href="#solidity">Solidity</a></li>
     <li><a href="#swift">Swift</a></li>
     <li><a href="#tcl">Tcl</a></li>
     <li><a href="#typescript">TypeScript</a></li>
@@ -109,6 +108,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Packages](#package)
 - [Protocol Buffers](#protobuf)
 - [Security](#security)
+- [Smart Contracts](#smart-contracts)
 - [Support](#support)
 - [Template-Languages](#template)
 - [Translation](#translation)
@@ -569,13 +569,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - ![stars](https://img.shields.io/github/stars/koalaman/shellcheck?style=flat-square&color=ccc) [shellcheck](https://www.shellcheck.net/) - ShellCheck, a static analysis tool that gives warnings and suggestions for bash/sh shell scripts.
 
 
-<h2 id="solidity">Solidity</h2>
-
-- ![stars](https://img.shields.io/github/stars/trailofbits/slither?style=flat-square&color=ccc) [slither](https://github.com/trailofbits/slither) - Static analysis framework that runs a suite of vulnerability detectors, prints visual information about contract details, and provides an API to easily write custom analyses.
-- ![stars](https://img.shields.io/github/stars/protofire/solhint?style=flat-square&color=ccc) [solhint](https://protofire.github.io/solhint/) - Solhint is an open source project created by https://protofire.io. Its goal is to provide a linting utility for Solidity code.
-- ![stars](https://img.shields.io/github/stars/duaraghav8/Solium?style=flat-square&color=ccc) [solium](https://ethlint.readthedocs.io/en/latest/) - Solium is a linter to identify and fix style and security issues in Solidity smart contracts.
-
-
 <h2 id="swift">Swift</h2>
 
 - ![stars](https://img.shields.io/github/stars/realm/SwiftLint?style=flat-square&color=ccc) [SwiftLint](https://realm.github.io/SwiftLint/) - A tool to enforce Swift style and conventions.
@@ -847,6 +840,15 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="security">Security</h2>
 
 - ![stars](https://img.shields.io/github/stars/zricethezav/gitleaks?style=flat-square&color=ccc) [Gitleaks](https://github.com/zricethezav/gitleaks) - A SAST tool for detecting hardcoded secrets like passwords, api keys, and tokens in git repos.
+
+
+<h2 id="smart-contracts">Smart Contracts</h2>
+
+- ![stars](https://img.shields.io/github/stars/ConsenSys/mythril?style=flat-square&color=ccc) [mythril](https://github.com/ConsenSys/mythril) - A symbolic execution framework with batteries included, can be used to find and exploit vulnerabilities in smart contracts automatically.
+- [MythX](https://mythx.io) :copyright: - MythX is an easy to use analysis platform which integrates several analysis methods like fuzzing, symbolic execution and static analysis to find vulnerabilities with high precision.
+- ![stars](https://img.shields.io/github/stars/trailofbits/slither?style=flat-square&color=ccc) [slither](https://github.com/trailofbits/slither) - Static analysis framework that runs a suite of vulnerability detectors, prints visual information about contract details, and provides an API to easily write custom analyses.
+- ![stars](https://img.shields.io/github/stars/protofire/solhint?style=flat-square&color=ccc) [solhint](https://protofire.github.io/solhint/) - Solhint is an open source project created by https://protofire.io. Its goal is to provide a linting utility for Solidity code.
+- ![stars](https://img.shields.io/github/stars/duaraghav8/Solium?style=flat-square&color=ccc) [solium](https://ethlint.readthedocs.io/en/latest/) - Solium is a linter to identify and fix style and security issues in Solidity smart contracts.
 
 
 <h2 id="support">Support</h2>
