@@ -30,7 +30,7 @@ If you also want to support this project, head over to our [Github sponsors page
 
 - :copyright: stands for proprietary software. All other tools are Open Source.
 - :information_source: indicates that the community does not recommend to use this tool for new projects anymore. The icon links to the discussion issue.
-- :warning: means that this tool was not updated for more than 6 months, or the repo was archived.
+- :warning: means that this tool was not updated for more than 1 year, or the repo was archived.
 
 Pull requests are very welcome!  
 Also check out the sister project, [awesome-dynamic-analysis](https://github.com/mre/awesome-dynamic-analysis).
