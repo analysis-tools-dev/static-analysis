@@ -28,7 +28,15 @@ fn main() -> Result<(), Box<dyn Error>> {
     let mut tools = read_tools(tools)?;
     tools.sort();
     validate(&tags, &tools)?;
-    tools = check_deprecated(&mut tools)?;
+
+    let token = env::var("GITHUB_TOKEN");
+    let token = match token {
+        Ok(token) => token,
+        Err(_error) => "".to_string(),
+    };
+    if token.len() > 0 {
+        tools = check_deprecated(token, &mut tools)?;
+    }
 
     let catalog = group(&tags, tools)?;
     println!("{}", catalog.render()?);

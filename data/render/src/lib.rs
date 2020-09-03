@@ -4,7 +4,6 @@ extern crate serde_derive;
 use std::error::Error;
 use hubcaps::{Credentials, Github};
 use chrono::{Utc, NaiveDateTime};
-use std::env;
 
 mod lints;
 pub mod types;
@@ -25,10 +24,10 @@ pub fn validate(tags: &Tags, entries: &Vec<Entry>) -> Result<(), Box<dyn Error>>
 }
 
 #[tokio::main]
-pub async fn check_deprecated(entries: &mut Vec<Entry>) -> Result<Vec<Entry>, Box<dyn Error>> {
+pub async fn check_deprecated(token: std::string::String, entries: &mut Vec<Entry>) -> Result<Vec<Entry>, Box<dyn Error>> {
     let github = Github::new(
         String::from("user-agent-name"),
-        env::var("GITHUB_TOKEN").ok().map(Credentials::Token),
+        Credentials::Token(token),
     )?;
 
     let mut entries_tmp: Vec<Entry> = entries.to_vec();
