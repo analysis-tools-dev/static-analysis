@@ -32,49 +32,50 @@ pub async fn check_deprecated(token: std::string::String, entries: &mut Vec<Entr
 
     let mut entries_tmp: Vec<Entry> = entries.to_vec();
     for entry in &mut entries_tmp {
-        if entry.source.is_some() {
-            let mut source: &str = entry.source.as_ref().unwrap();
+        if entry.source.is_none() {
+            continue;
+        }
 
-            if source.chars().last().unwrap() == '/' {
-                source = source.trim_end_matches('/');
+        let mut source: &str = entry.source.as_ref().unwrap();
+        if source.chars().last().unwrap() == '/' {
+            source = source.trim_end_matches('/');
+        }
+
+        let components: Vec<&str> = source.split("/").collect();
+        if !(components.contains(&"github.com") && components.len() == 5) {
+            // valid github source must have 5 elements - anything longer and they are probably a
+            // reference to a path inside a repo, rather than a repo itself.
+            continue;
+        }
+
+        let owner = components[3];
+        let repo  = components[4];
+
+        let commit_list = github
+            .repo(owner, repo)
+            .commits()
+            .list()
+            .await;
+
+        let commit_list = match commit_list {
+            Ok(commit_list) => commit_list,
+            Err(_error) => Vec::new(),
+        };
+        if commit_list.len() == 0 {
+            continue;
+        }
+
+        let date: &str = &commit_list[0].commit.author.date[..];
+        let timestamp = NaiveDateTime::parse_from_str(date, "%Y-%m-%dT%H:%M:%SZ")?.timestamp();
+        let current_timestamp = Utc::now().timestamp();
+
+        if current_timestamp - timestamp > 365 * 86400 {
+            if entry.deprecated.is_none() {
+                entry.deprecated = Some(true);
             }
-
-            let components: Vec<&str> = source.split("/").collect();
-            if components.contains(&"github.com") && components.len() == 5 {
-                // valid github source must have 5 elements - anything longer and they are probably a
-                // reference to a path inside a repo, rather than a repo itself.
-
-                let owner = components[3];
-                let repo  = components[4];
-
-                let commit_list = github
-                    .repo(owner, repo)
-                    .commits()
-                    .list()
-                    .await;
-
-                let commit_list = match commit_list {
-                    Ok(commit_list) => commit_list,
-                    Err(_error) => Vec::new(),
-                };
-
-                if commit_list.len() == 0 {
-                    continue;
-                }
-
-                let date: &str = &commit_list[0].commit.author.date[..];
-                let timestamp = NaiveDateTime::parse_from_str(date, "%Y-%m-%dT%H:%M:%SZ")?.timestamp();
-                let current_timestamp = Utc::now().timestamp();
-
-                if current_timestamp - timestamp > 365 * 86400 {
-                    if entry.deprecated.is_none() {
-                        entry.deprecated = Some(true);
-                    }
-                } else {
-                    if entry.deprecated.is_some() {
-                        entry.deprecated = None;
-                    }
-                }
+        } else {
+            if entry.deprecated.is_some() {
+                entry.deprecated = None;
             }
         }
     }
