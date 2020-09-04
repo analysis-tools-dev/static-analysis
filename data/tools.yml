@@ -1626,6 +1626,13 @@
   description: An open source static code analysis tool for Shell and Fortran (77 and 90).
   tags:
     - shell
+- name: iblessing
+  homepage: https://www.kitploit.com/2020/08/iblessing-ios-security-exploiting.html
+  source: https://github.com/Soulghost/iblessing
+  description:  iblessing is an iOS security exploiting toolkit. It can be used for reverse engineering, binary analysis and vulnerability mining. 
+  tags:
+    - mobile
+    - security
 - name: IDA Free
   homepage: "https://www.hex-rays.com/products/ida/support/download_freeware/"
   description: Binary code analysis tool.
