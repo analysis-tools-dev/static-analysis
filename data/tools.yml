@@ -3338,7 +3338,7 @@
   tags:
     - go
 - name: unimport
-  homepage: "https://unimport.hakancelik.dev/#/"
+  homepage: "https://unimport.hakancelik.dev"
   source: "https://github.com/hakancelik96/unimport"
   description: A linter, formatter for finding and removing unused import statements.
   tags:
