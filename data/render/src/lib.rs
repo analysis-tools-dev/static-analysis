@@ -3,7 +3,7 @@ extern crate serde_derive;
 
 use std::error::Error;
 use hubcaps::{Credentials, Github};
-use chrono::{Utc, NaiveDateTime};
+use chrono::{Utc, NaiveDateTime, Local, DateTime};
 
 mod lints;
 pub mod types;
@@ -24,24 +24,18 @@ pub fn validate(tags: &Tags, entries: &Vec<Entry>) -> Result<(), Box<dyn Error>>
 }
 
 #[tokio::main]
-pub async fn check_deprecated(token: std::string::String, entries: &mut Vec<Entry>) -> Result<Vec<Entry>, Box<dyn Error>> {
+pub async fn check_deprecated(token: std::string::String, entries: &mut Vec<Entry>) -> Result<(), Box<dyn Error>> {
     let github = Github::new(
-        String::from("user-agent-name"),
+        String::from("analysis tools bot"),
         Credentials::Token(token),
     )?;
 
-    let mut entries_tmp: Vec<Entry> = entries.to_vec();
-    for entry in &mut entries_tmp {
+    for entry in entries {
         if entry.source.is_none() {
             continue;
         }
 
-        let mut source: &str = entry.source.as_ref().unwrap();
-        if source.chars().last().unwrap() == '/' {
-            source = source.trim_end_matches('/');
-        }
-
-        let components: Vec<&str> = source.split("/").collect();
+        let components: Vec<&str> = entry.source.as_ref().unwrap().trim_end_matches('/').split("/").collect();
         if !(components.contains(&"github.com") && components.len() == 5) {
             // valid github source must have 5 elements - anything longer and they are probably a
             // reference to a path inside a repo, rather than a repo itself.
@@ -51,35 +45,26 @@ pub async fn check_deprecated(token: std::string::String, entries: &mut Vec<Entr
         let owner = components[3];
         let repo  = components[4];
 
-        let commit_list = github
+        if let Ok(commit_list) = github
             .repo(owner, repo)
             .commits()
             .list()
-            .await;
+            .await
+        {
+            let date = &commit_list[0].commit.author.date;
+            let last_commit = NaiveDateTime::parse_from_str(&date, "%Y-%m-%dT%H:%M:%SZ")?;
+            let last_commit_utc = DateTime::<Utc>::from_utc(last_commit, Utc);
+            let duration = Local::today().signed_duration_since(last_commit_utc.date());
 
-        let commit_list = match commit_list {
-            Ok(commit_list) => commit_list,
-            Err(_error) => Vec::new(),
-        };
-        if commit_list.len() == 0 {
-            continue;
-        }
-
-        let date: &str = &commit_list[0].commit.author.date[..];
-        let timestamp = NaiveDateTime::parse_from_str(date, "%Y-%m-%dT%H:%M:%SZ")?.timestamp();
-        let current_timestamp = Utc::now().timestamp();
-
-        if current_timestamp - timestamp > 365 * 86400 {
-            if entry.deprecated.is_none() {
+            if duration.num_days() > 365 {
                 entry.deprecated = Some(true);
-            }
-        } else {
-            if entry.deprecated.is_some() {
+            } else {
                 entry.deprecated = None;
             }
         }
     }
-    Ok(entries_tmp.to_vec())
+
+    Ok(())
 }
 
 pub fn group(tags: &Tags, entries: Vec<Entry>) -> Result<Catalog, Box<dyn Error>> {
