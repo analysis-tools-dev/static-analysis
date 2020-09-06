@@ -3337,6 +3337,12 @@
   description: Finds unnecessary import aliases.
   tags:
     - go
+- name: unimport
+  homepage: "https://unimport.hakancelik.dev"
+  source: "https://github.com/hakancelik96/unimport"
+  description: A linter, formatter for finding and removing unused import statements.
+  tags:
+    - python
 - name: unparam
   homepage: "https://github.com/mvdan/unparam"
   source: "https://github.com/mvdan/unparam"
