@@ -24,7 +24,7 @@ pub fn validate(tags: &Tags, entries: &Vec<Entry>) -> Result<(), Box<dyn Error>>
 }
 
 #[tokio::main]
-pub async fn check_deprecated(token: std::string::String, entries: &mut Vec<Entry>) -> Result<(), Box<dyn Error>> {
+pub async fn check_deprecated(token: String, entries: &mut Vec<Entry>) -> Result<(), Box<dyn Error>> {
     let github = Github::new(
         String::from("analysis tools bot"),
         Credentials::Token(token),
