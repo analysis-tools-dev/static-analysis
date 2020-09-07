@@ -1,6 +1,6 @@
 use askama::Template;
 use render::types::{Entry, Tags};
-use render::{group, validate};
+use render::{group, validate, check_deprecated};
 use std::env;
 use std::error::Error;
 
@@ -28,6 +28,10 @@ fn main() -> Result<(), Box<dyn Error>> {
     let mut tools = read_tools(tools)?;
     tools.sort();
     validate(&tags, &tools)?;
+
+    if let Ok(token) = env::var("GITHUB_TOKEN") {
+        check_deprecated(token, &mut tools)?;
+    }
 
     let catalog = group(&tags, tools)?;
     println!("{}", catalog.render()?);
