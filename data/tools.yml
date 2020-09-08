@@ -2788,6 +2788,12 @@
   description: "Supports functionality such as 'goto definition', type inference, symbol search, reformatting, and code completion, and enables renaming and refactorings."
   tags:
     - rust
+- name: rust-audit
+  homepage: https://github.com/Shnatsel/rust-audit
+  source: https://github.com/Shnatsel/rust-audit
+  description: "Audit Rust binaries for known bugs or security vulnerabilities. This works by embedding data about the dependency tree (Cargo.lock) in JSON format into a dedicated linker section of the compiled executable."
+  tags:
+    - rust
 - name: rustfix
   homepage: "https://github.com/rust-lang/rustfix"
   source: "https://github.com/rust-lang/rustfix"
