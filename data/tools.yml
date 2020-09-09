@@ -2478,6 +2478,12 @@
   description: Pluggable linter and fixer to enforce Protocol Buffer style and conventions.
   tags:
     - protobuf
+- name: Prusti
+  homepage: https://www.pm.inf.ethz.ch/research/prusti.html
+  source: https://github.com/viperproject/prusti-dev
+  description: A static verifier for Rust, based on the Viper verification infrastructure. By default Prusti verifies absence of panics by proving that statements such as unreachable!() and panic!() are unreachable.
+  tags:
+    - rust
 - name: Psalm
   homepage: "https://psalm.dev/"
   source: "https://github.com/vimeo/psalm"
