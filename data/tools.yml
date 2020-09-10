@@ -670,21 +670,28 @@
     - dotnet
   proprietary: true
 - name: CodeScene
-  homepage: "https://empear.com/"
-  description: "CodeScene prioritizes technical debt, finds social patterns and identifies hidden risks in your code."
+  homepage: "https://codescene.com/"
+  description: "CodeScene is a quality visualization tool for software. Prioritize technical debt, detect delivery risks, and measure organizational aspects. Fully automated."
   tags:
     - c
     - cpp
+    - clojure
     - csharp
+    - dart
     - elixir
+    - erlang
     - go
     - groovy
     - java
     - javascript
     - kotlin
     - perl
+    - powershell
     - php
     - python
+    - ruby
+    - scala
+    - swift
     - typescript
   proprietary: true
 - name: CodeSonar from GrammaTech
