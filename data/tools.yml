@@ -3517,10 +3517,12 @@
     - go
 - name: Xanitizer
   homepage: "https://xanitizer.com/"
-  description: Xanitizer finds security vulnerabilities in Java/Scala web applications.
+  description: Xanitizer finds security vulnerabilities in web applications. It supports Java, Scala, JavaScript and TypeScript.
   tags:
     - java
     - scala
+    - javascript
+    - typescript
   proprietary: true
 - name: XCode
   homepage: "https://developer.apple.com/xcode/"
