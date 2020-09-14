@@ -55,7 +55,7 @@
     - go
 - name: ameba
   homepage: "https://crystal-ameba.github.io/"
-  source: "https://github.com/veelenga/ameba"
+  source: "https://github.com/crystal-ameba/ameba"
   description: A static code analysis tool for Crystal.
   tags:
     - crystal
@@ -737,8 +737,8 @@
   tags:
     - container
 - name: complexity-report
-  homepage: "https://github.com/jared-stilwell/complexity-report"
-  source: "https://github.com/jared-stilwell/complexity-report"
+  homepage: "https://github.com/escomplex/complexity-report"
+  source: "https://github.com/escomplex/complexity-report"
   description: Software complexity analysis for JavaScript projects.
   tags:
     - javascript
@@ -2612,8 +2612,8 @@
   tags:
     - mobile
 - name: quality
-  homepage: "https://github.com/jden/quality"
-  source: "https://github.com/jden/quality"
+  homepage: "https://github.com/junosuarez/quality"
+  source: "https://github.com/junosuarez/quality"
   description: Zero configuration code and module linting.
   tags:
     - javascript
