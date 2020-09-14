@@ -23,7 +23,6 @@ fn read_tools(file: String) -> Result<Vec<Entry>, Box<dyn Error>> {
 
     let files = dir
         .map(|res| res.map(|e| e.path()))
-        // .filter_map(Result::Ok)
         .filter(|x| match x {
             Ok(pb) => {
                 println!(
