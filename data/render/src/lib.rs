@@ -34,7 +34,7 @@ pub fn group(tags: &Tags, entries: Vec<Entry>) -> Result<Catalog, Box<dyn Error>
     });
 
     let languages: Vec<&Tag> = tags
-        .into_iter()
+        .iter()
         .filter(|t| t.tag_type == Type::Language)
         .collect();
 
@@ -42,7 +42,7 @@ pub fn group(tags: &Tags, entries: Vec<Entry>) -> Result<Catalog, Box<dyn Error>
         let list: Vec<Entry> = entries
             .iter()
             .filter(|e| e.tags.contains(&language.tag))
-            .map(|e| e.clone())
+            .cloned()
             .collect();
         if !list.is_empty() {
             linters.insert(language.clone(), list);
@@ -50,15 +50,12 @@ pub fn group(tags: &Tags, entries: Vec<Entry>) -> Result<Catalog, Box<dyn Error>
     }
 
     let mut others = BTreeMap::new();
-    let other_tags: Vec<&Tag> = tags
-        .into_iter()
-        .filter(|t| t.tag_type == Type::Other)
-        .collect();
+    let other_tags: Vec<&Tag> = tags.iter().filter(|t| t.tag_type == Type::Other).collect();
     for other in other_tags {
         let list: Vec<Entry> = entries
             .iter()
             .filter(|e| e.tags.contains(&other.tag))
-            .map(|e| e.clone())
+            .cloned()
             .collect();
         if !list.is_empty() {
             others.insert(other.clone(), list);

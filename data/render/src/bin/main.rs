@@ -31,7 +31,7 @@ fn read_tools(file: String) -> Result<Vec<Entry>, Box<dyn Error>> {
                     pb.as_path(),
                     pb.extension().and_then(OsStr::to_str)
                 );
-                return pb.extension().and_then(OsStr::to_str) == Some("yml");
+                pb.extension().and_then(OsStr::to_str) == Some("yml")
             }
 
             Err(_) => false,
@@ -43,7 +43,7 @@ fn read_tools(file: String) -> Result<Vec<Entry>, Box<dyn Error>> {
         .map(|y| {
             let file = std::fs::File::open(y)?;
             let entry: Entry = serde_yaml::from_reader(file)?;
-            return Ok(entry);
+            Ok(entry)
         })
         .collect::<Result<Vec<Entry>, _>>()
 
