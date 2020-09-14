@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - go
-license: Other
+license: MIT
 types:
   - cli
 source: 'https://github.com/dominikh/go-tools'

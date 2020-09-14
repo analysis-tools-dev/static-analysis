@@ -9,7 +9,6 @@ tags:
   - javascript
   - ruby
   - swift
-license: MIT License
 types:
   - cli
 source: 'https://github.com/houndci/hound'

@@ -4,7 +4,7 @@ categories:
 tags:
   - javascript
   - nodejs
-license: MIT License
+license: MIT
 types:
   - cli
 source: 'https://github.com/standard/standard'

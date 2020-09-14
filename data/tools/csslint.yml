@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - css
-license: Other
+license: MIT
 types:
   - cli
 source: 'https://github.com/CSSLint/csslint'

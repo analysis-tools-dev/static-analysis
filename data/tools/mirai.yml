@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - rust
-license: MIT License
+license: MIT
 types:
   - cli
 source: 'https://github.com/facebookexperimental/MIRAI'

@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - rust
-license: Mozilla Public License 2.0
+license: MPL-2.0
 types:
   - cli
 source: 'https://github.com/mcarton/rust-herbie-lint'

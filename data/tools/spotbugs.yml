@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - java
-license: GNU Lesser General Public License v2.1
+license: LGPL-2.1-only
 types:
   - cli
 source: 'https://github.com/spotbugs/spotbugs'

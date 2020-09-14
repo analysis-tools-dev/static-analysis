@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - typescript
-license: Other
+license: MIT
 types:
   - cli
 source: 'https://github.com/Glavin001/tslint-clean-code'

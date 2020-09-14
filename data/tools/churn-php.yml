@@ -4,7 +4,7 @@ categories:
 tags:
   - php
 deprecated: true
-license: MIT License
+license: MIT
 types:
   - cli
 source: 'https://github.com/bmitch/churn-php'

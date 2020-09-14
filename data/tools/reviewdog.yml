@@ -4,7 +4,7 @@ categories:
 tags:
   - ci
   - go
-license: MIT License
+license: MIT
 types:
   - cli
 source: 'https://github.com/haya14busa/reviewdog'

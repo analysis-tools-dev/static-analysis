@@ -4,7 +4,7 @@ categories:
 tags:
   - php
 deprecated: true
-license: Other
+license: BSD-3-Clause
 types:
   - cli
 source: 'https://github.com/sebastianbergmann/phpdcd'

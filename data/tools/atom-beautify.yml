@@ -17,7 +17,7 @@ tags:
   - ruby
   - sql
   - typescript
-license: MIT License
+license: MIT
 types:
   - cli
 source: 'https://github.com/Glavin001/atom-beautify'

@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - go
-license: MIT License
+license: MIT
 types:
   - cli
 source: 'https://github.com/alexkohler/dogsled'

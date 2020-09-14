@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - java
-license: Other
+license: LGPL-2.1-only
 types:
   - cli
 source: 'https://github.com/checkstyle/checkstyle'

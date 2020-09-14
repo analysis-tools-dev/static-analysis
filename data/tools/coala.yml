@@ -7,7 +7,7 @@ tags:
   - css
   - java
   - javascript
-license: AGPL-3.0-only (original text)
+license: AGPL-3.0-only
 types:
   - cli
 source: 'https://github.com/coala/coala'

@@ -3,7 +3,6 @@ categories:
   - linter
 tags:
   - configmanagement
-license: MIT License
 types:
   - cli
 source: 'https://github.com/rodjek/puppet-lint'

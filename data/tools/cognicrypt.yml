@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - java
-license: Eclipse Public License 2.0
+license: EPL-2.0
 types:
   - cli
 source: 'https://github.com/eclipse-cognicrypt/CogniCrypt'

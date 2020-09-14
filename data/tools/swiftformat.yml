@@ -3,7 +3,7 @@ categories:
   - formatter
 tags:
   - swift
-license: MIT License
+license: MIT
 types:
   - cli
 source: 'https://github.com/nicklockwood/SwiftFormat'

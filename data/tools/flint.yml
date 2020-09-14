@@ -4,7 +4,7 @@ categories:
 tags:
   - c
   - cpp
-license: Boost Software License 1.0
+license: BSL-1.0
 types:
   - cli
 source: 'https://github.com/JossWhittle/FlintPlusPlus'

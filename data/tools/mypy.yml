@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - python
-license: Other
+license: Python-2.0
 types:
   - cli
 source: 'https://github.com/python/mypy'

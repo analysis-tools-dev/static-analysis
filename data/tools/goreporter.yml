@@ -4,7 +4,7 @@ categories:
 tags:
   - go
   - meta
-license: Apache License 2.0
+license: Apache-2.0
 types:
   - cli
 source: 'https://github.com/360EntSecGroup-Skylar/goreporter'

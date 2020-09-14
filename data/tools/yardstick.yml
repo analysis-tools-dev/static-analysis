@@ -4,7 +4,7 @@ categories:
 tags:
   - javascript
 deprecated: true
-license: MIT License
+license: MIT
 types:
   - cli
 source: 'https://github.com/calmh/yardstick'

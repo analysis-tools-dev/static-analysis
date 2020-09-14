@@ -5,7 +5,7 @@ categories:
 tags:
   - meta
   - python
-license: MIT License
+license: MIT
 types:
   - cli
 source: 'https://github.com/ContinuumIO/ciocheck'

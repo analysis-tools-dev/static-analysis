@@ -4,7 +4,7 @@ categories:
 tags:
   - csharp
 deprecated: true
-license: unknown
+license: Microsoft Public License (Ms-PL)
 types:
   - cli
 source: 'https://carc.codeplex.com'

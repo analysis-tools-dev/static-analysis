@@ -4,7 +4,7 @@ categories:
 tags:
   - c
   - cpp
-license: GNU General Public License v2.0
+license: AGPL-1.0-only
 types:
   - cli
 source: 'https://github.com/MetricsGrimoire/CMetrics'

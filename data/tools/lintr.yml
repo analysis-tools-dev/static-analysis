@@ -3,7 +3,6 @@ categories:
   - linter
 tags:
   - r
-license: Other
 types:
   - cli
 source: 'https://github.com/jimhester/lintr'

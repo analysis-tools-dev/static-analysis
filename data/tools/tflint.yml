@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - configmanagement
-license: Mozilla Public License 2.0
+license: MPL-2.0
 types:
   - cli
 source: 'https://github.com/wata727/tflint'

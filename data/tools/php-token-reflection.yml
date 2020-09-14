@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - php
-license: Other
+license: BSD-3-Clause
 types:
   - cli
 source: 'https://github.com/Andrewsville/PHP-Token-Reflection'

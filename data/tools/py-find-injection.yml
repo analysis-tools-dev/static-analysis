@@ -4,7 +4,7 @@ categories:
 tags:
   - python
 deprecated: true
-license: Other
+license: MIT
 types:
   - cli
 source: 'https://github.com/uber/py-find-injection'

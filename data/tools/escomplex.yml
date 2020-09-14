@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - javascript
-license: MIT License
+license: MIT
 types:
   - cli
 source: 'https://github.com/jared-stilwell/escomplex'

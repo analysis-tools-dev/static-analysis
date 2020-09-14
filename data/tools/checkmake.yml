@@ -4,7 +4,7 @@ categories:
 tags:
   - buildtool
   - make
-license: MIT License
+license: MIT
 types:
   - cli
 source: 'https://github.com/mrtazz/checkmake'

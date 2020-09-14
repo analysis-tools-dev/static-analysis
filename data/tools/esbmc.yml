@@ -4,6 +4,7 @@ categories:
 tags:
   - c
   - cpp
+license: Apache License 2.0
 types:
   - cli
 source: 'https://github.com/esbmc/esbmc'

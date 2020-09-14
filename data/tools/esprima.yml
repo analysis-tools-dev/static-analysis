@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - javascript
-license: BSD 2-Clause "Simplified" License
+license: BSD-2-Clause
 types:
   - cli
 source: 'https://github.com/jquery/esprima'

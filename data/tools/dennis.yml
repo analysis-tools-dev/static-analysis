@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - translation
-license: BSD-3-Clause (original text)
+license: BSD-3-Clause
 types:
   - cli
 source: 'https://github.com/willkg/dennis'

@@ -11,7 +11,7 @@ tags:
   - javascript
   - php
   - ruby
-license: MIT License
+license: MIT
 types:
   - cli
 source: 'https://github.com/prontolabs/pronto'

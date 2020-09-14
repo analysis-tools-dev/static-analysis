@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - php
-license: MIT License
+license: MIT
 types:
   - cli
 source: 'https://github.com/designsecurity/progpilot'

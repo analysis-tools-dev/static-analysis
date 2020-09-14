@@ -3,7 +3,6 @@ categories:
   - linter
 tags:
   - csharp
-license: Mozilla Public License 2.0
 types:
   - ide-plugin
 source: 'https://github.com/pumasecurity/puma-scan'

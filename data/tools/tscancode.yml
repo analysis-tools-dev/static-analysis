@@ -6,7 +6,7 @@ tags:
   - cpp
   - csharp
   - lua
-license: Other
+license: GPL-3.0-only
 types:
   - cli
 source: 'https://github.com/Tencent/TscanCode'

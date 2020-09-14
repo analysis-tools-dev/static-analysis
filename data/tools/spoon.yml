@@ -3,7 +3,7 @@ categories:
   - formatter
 tags:
   - java
-license: Other
+license: CECILL-C
 types:
   - cli
 source: 'https://github.com/INRIA/spoon'

@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - abap
-license: MIT License
+license: MIT
 types:
   - cli
 source: 'https://github.com/larshp/abapOpenChecks'

@@ -3,7 +3,6 @@ categories:
   - linter
 tags:
   - php
-license: GNU Affero General Public License v3.0
 types:
   - cli
 source: 'https://github.com/Qafoo/QualityAnalyzer'

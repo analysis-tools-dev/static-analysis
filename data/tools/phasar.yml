@@ -4,7 +4,6 @@ categories:
 tags:
   - c
   - cpp
-license: Other
 types:
   - cli
 source: 'https://github.com/secure-software-engineering/phasar'

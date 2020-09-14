@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - csharp
-license: Other
+license: Apache-2.0 (license header)
 types:
   - cli
 source: 'https://github.com/DustinCampbell/CSharpEssentials'

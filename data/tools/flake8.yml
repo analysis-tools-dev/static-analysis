@@ -4,7 +4,7 @@ categories:
 tags:
   - meta
   - python
-license: Other
+license: MIT
 types:
   - cli
 source: 'https://github.com/PyCQA/flake8'

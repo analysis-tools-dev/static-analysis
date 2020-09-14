@@ -7,7 +7,7 @@ tags:
   - meta
   - python
   - ruby
-license: MIT License
+license: MIT
 types:
   - cli
 source: 'https://github.com/justinabrahms/imhotep'

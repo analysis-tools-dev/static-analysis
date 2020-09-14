@@ -5,7 +5,7 @@ tags:
   - groovy
   - java
   - kotlin
-license: MIT License
+license: MIT
 types:
   - cli
 source: 'https://github.com/classgraph/classgraph'

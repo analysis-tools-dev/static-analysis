@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - php
-license: Other
+license: BSD-2-Clause-FreeBSD
 types:
   - cli
 source: 'https://github.com/php-parallel-lint/PHP-Parallel-Lint'

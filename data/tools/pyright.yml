@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - python
-license: Other
+license: MIT
 types:
   - cli
 source: 'https://github.com/Microsoft/pyright'

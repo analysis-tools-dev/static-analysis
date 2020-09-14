@@ -3,7 +3,6 @@ categories:
   - formatter
 tags:
   - rust
-license: Other
 types:
   - cli
 source: 'https://github.com/rust-lang-nursery/rls'

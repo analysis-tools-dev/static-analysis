@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - php
-license: BSD 3-Clause "New" or "Revised" License
+license: BSD-3-Clause
 types:
   - cli
 source: 'https://github.com/pdepend/pdepend'

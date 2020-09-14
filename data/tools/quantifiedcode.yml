@@ -5,7 +5,7 @@ tags:
   - ci
   - service
 deprecated: true
-license: BSD 3-Clause "New" or "Revised" License
+license: BSD-3-Clause
 types:
   - service
 source: 'https://github.com/quantifiedcode/quantifiedcode'

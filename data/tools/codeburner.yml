@@ -8,7 +8,7 @@ tags:
   - javascript
   - meta
   - php
-license: MIT License
+license: MIT
 types:
   - cli
 source: 'https://github.com/groupon/codeburner'

@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - writing
-license: MIT License
+license: MIT
 types:
   - cli
 source: 'https://github.com/get-alex/alex'

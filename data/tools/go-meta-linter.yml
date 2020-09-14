@@ -5,7 +5,6 @@ tags:
   - go
   - meta
 deprecated: true
-license: MIT License
 types:
   - cli
 source: 'https://github.com/alecthomas/gometalinter'

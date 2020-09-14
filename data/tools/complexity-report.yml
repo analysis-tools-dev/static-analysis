@@ -4,9 +4,9 @@ categories:
 tags:
   - javascript
 deprecated: true
-license: MIT License
+license: MIT
 types:
   - cli
-source: 'https://github.com/jared-stilwell/complexity-report'
-homepage: 'https://github.com/jared-stilwell/complexity-report'
+source: 'https://github.com/escomplex/complexity-report'
+homepage: 'https://github.com/escomplex/complexity-report'
 description: Software complexity analysis for JavaScript projects.

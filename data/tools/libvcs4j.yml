@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - support
-license: Other
+license: MIT/GPL-3.0/LGPL-3.0
 types:
   - cli
 source: 'https://github.com/uni-bremen-agst/libvcs4j'

@@ -21,7 +21,6 @@ tags:
   - shell
   - vbasic
   - yaml
-license: Other
 types:
   - ide-plugin
 source: 'https://github.com/ShiftLeftSecurity/sast-scan'

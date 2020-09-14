@@ -3,7 +3,6 @@ categories:
   - linter
 tags:
   - php
-license: MIT License
 types:
   - cli
 source: 'https://github.com/nunomaduro/phpinsights'

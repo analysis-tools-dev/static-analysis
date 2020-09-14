@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - clojure
-license: Eclipse Public License 1.0
+license: EPL-1.0
 types:
   - cli
 source: 'https://github.com/borkdude/clj-kondo'

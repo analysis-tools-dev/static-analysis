@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - sql
-license: MIT License
+license: MIT
 types:
   - cli
 source: 'https://github.com/ashleyglee/TSqlRules'

@@ -6,7 +6,7 @@ tags:
   - cpp
   - rust
 deprecated: true
-license: GNU General Public License v2.0
+license: GPL-2.0-only
 types:
   - cli
 source: 'https://github.com/jameysharp/corrode'

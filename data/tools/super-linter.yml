@@ -16,7 +16,7 @@ tags:
   - typescript
   - xml
   - yaml
-license: MIT License
+license: MIT
 types:
   - cli
 source: 'https://github.com/github/super-linter'

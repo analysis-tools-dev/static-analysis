@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - lua
-license: MIT License
+license: MIT
 types:
   - cli
 source: 'https://github.com/mpeterv/luacheck'

@@ -9,7 +9,6 @@ tags:
   - plsql
   - tsql
 deprecated: true
-license: Other
 types:
   - cli
 source: 'https://github.com/PositiveTechnologies/PT.PM'

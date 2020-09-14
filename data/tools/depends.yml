@@ -6,7 +6,7 @@ tags:
   - cpp
   - java
   - php
-license: MIT License
+license: MIT
 types:
   - cli
 source: 'https://github.com/multilang-depends/depends'

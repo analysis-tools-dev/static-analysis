@@ -16,7 +16,7 @@ tags:
   - scala
   - typescript
   - xml
-license: GNU Lesser General Public License v3.0
+license: LGPL-3.0-only
 types:
   - cli
 source: 'https://github.com/SonarSource/sonarqube'

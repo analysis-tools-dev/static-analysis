@@ -4,7 +4,7 @@ categories:
 tags:
   - javascript
 deprecated: true
-license: Other
+license: MIT
 types:
   - cli
 source: 'https://github.com/dpnishant/jsprime'

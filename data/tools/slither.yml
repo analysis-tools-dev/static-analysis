@@ -3,7 +3,7 @@ categories:
   - formatter
 tags:
   - solidity
-license: GNU Affero General Public License v3.0
+license: AGPL-3.0-only
 types:
   - cli
 source: 'https://github.com/trailofbits/slither'

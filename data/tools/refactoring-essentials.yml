@@ -4,7 +4,6 @@ categories:
 tags:
   - csharp
   - vbnet
-license: MIT License
 types:
   - cli
 source: 'https://github.com/icsharpcode/RefactoringEssentials'

@@ -3,7 +3,6 @@ categories:
   - linter
 tags:
   - haxe
-license: MIT License
 types:
   - cli
 source: 'https://github.com/HaxeCheckstyle/haxe-checkstyle'

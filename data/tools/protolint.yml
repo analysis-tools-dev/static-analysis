@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - protobuf
-license: MIT License
+license: MIT
 types:
   - cli
 source: 'https://github.com/yoheimuta/protolint'

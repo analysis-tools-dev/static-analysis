@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - ruby
-license: Other
+license: Brakeman Public Use License
 types:
   - cli
 source: 'https://github.com/presidentbeef/brakeman'

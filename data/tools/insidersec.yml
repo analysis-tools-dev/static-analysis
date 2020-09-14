@@ -11,7 +11,7 @@ tags:
   - nodejs
   - security
   - swift
-license: GNU General Public License v3.0
+license: MIT
 types:
   - cli
 source: 'https://github.com/insidersec/insider'

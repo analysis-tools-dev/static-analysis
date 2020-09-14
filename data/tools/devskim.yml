@@ -9,7 +9,7 @@ tags:
   - php
   - python
   - ruby
-license: MIT License
+license: MIT
 types:
   - ide-plugin
 source: 'https://github.com/microsoft/devskim'
