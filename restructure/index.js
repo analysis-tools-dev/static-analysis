@@ -1,6 +1,11 @@
 const fs = require("fs");
 const yaml = require("js-yaml");
 const normalizeUrl = require("normalize-url");
+require("make-promises-safe");
+
+// https://stackoverflow.com/questions/63123579
+const any = require("promise.any");
+any.shim(); // will be a no-op if not needed
 
 const Bottleneck = require("bottleneck/es5");
 const fetch = require("node-fetch");
@@ -58,6 +63,40 @@ const getGithubStats = async (url) => {
 
 const licenseRegex = /License\: (.*)$/gm;
 
+const matchEsotericLicenses = (licenseText) => {
+  let licenseMap = new Map();
+  licenseMap.set("Brakeman Public Use License", "Brakeman Public Use License");
+  licenseMap.set(
+    `Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or
+  http://www.apache.org/licenses/LICENSE-2.0> or the MIT license
+  <LICENSE-MIT or http://opensource.org/licenses/MIT>, at your
+  option`,
+    "Apache-2.0/MIT"
+  );
+  licenseMap.set(
+    "Licensed under the Apache License, Version 2.0",
+    "Apache-2.0"
+  );
+  licenseMap.set("Copyright (c) MMXV jden jason@denizac.org", "ISC");
+  licenseMap.set(
+    "CeCILL-C FREE SOFTWARE LICENSE AGREEMENT",
+    "CeCILL-C license"
+  );
+  licenseMap.set("LibVCS4j", "MIT/GPL-3.0/LGPL-3.0");
+  licenseMap.set("Checker Framework developers", "GPL with Classpath exception / MIT License")
+
+  const licenseTextSanitized = licenseText.replace(/\s+/g, "").toLowerCase();
+  // console.log(`Checking esoteric license ${licenseTextSanitized}`);
+  for (const [needle, license] of licenseMap.entries()) {
+    let needleSanitized = needle.replace(/\s+/g, "").toLowerCase();
+    // console.log(needleSanitized, license);
+    if (licenseTextSanitized.indexOf(needleSanitized) > -1) {
+      console.log(`Found ${license}`);
+      return license;
+    }
+  }
+};
+
 const getLicense = async (tool) => {
   if (tool.proprietary) {
     return "proprietary";
@@ -71,44 +110,84 @@ const getLicense = async (tool) => {
       return stats.license.name;
     }
 
-    const licenseText = await Promise.all(
+    const licenseTextAsync = await Promise.any(
       [
-        "LICENSE",
-        "LICENSE.MD",
-        "LICENSE.md",
-        "LICENSE.txt",
-        "license",
-        "LICENSE-MIT",
-        "README",
+        "master/LICENSE",
+        "master/LICENSE.MD",
+        "master/LICENSE.md",
+        "master/LICENSE.txt",
+        "master/license",
+        "master/LICENSE-MIT",
+        "master/README",
+        "main/LICENSE",
+        "main/LICENSE.MD",
+        "main/LICENSE.md",
+        "main/LICENSE.txt",
+        "main/license",
+        "main/LICENSE-MIT",
+        "main/README",
+        "master/COPYRIGHT",
+        "latest/LICENSE-ClassGraph.txt",
+        "master/COPYING",
+        "master/LICENSE.TXT",
+        "dev/LICENSE",
+        "master/LICENSE_1_0.txt",
+        "master/LICENCE.md",
+        "master/LICENSE.BSD",
+        "master/LICENCE.txt",
+        "spotbugs/license.txt",
+        "gh-pages/LICENSE",
+        "develop/license.txt",
+        "master/licence.txt",
+        "master/License.txt",
+        "master/MIT-LICENSE",
+        "develop/LICENSE",
+        "master/LICENSE-CECILL-C.txt",
+        "main/COPYING",
+        "master/COPYING.txt",
       ].map(async (file) => {
-        let licenseContents = await fetch(
-          `${tool.source.replace(
-            "github.com",
-            "raw.githubusercontent.com"
-          )}/master/${file}`
-        );
-        if (licenseContents.status == 200) {
-          return await licenseContents.text();
+        const url = `${tool.source.replace(
+          "github.com",
+          "raw.githubusercontent.com"
+        )}/${file}`;
+        console.log(url);
+        let response = await fetch(url);
+        if (response.status != 200) {
+          console.log(response.status);
+          throw new Error(`HTTP error! status: ${response.status}`);
         }
+        // console.log(url);
+        return await response.text();
       })
-    );
-    // console.log(await licenseContents.text());
-    fs.writeFileSync(
-      "license.tmp",
-      await licenseText.filter((x) => x !== undefined)[0]
-    );
+    ).catch((e) => {
+      throw new Error(
+        `Cannot find license file for tool ${tool.source} ${e.message}`
+      );
+    });
+    const licenseText = await licenseTextAsync;
+    fs.writeFileSync(`license-${tool.name}`, licenseText);
     try {
-      const { stdout, stderr } = await exec("askalono identify license.tmp", {
-        shell: true,
-      });
+      const { stdout, stderr } = await exec(
+        `askalono identify license-${tool.name}`,
+        {
+          shell: true,
+        }
+      );
       const license = stdout.match(licenseRegex);
-      if (license[0]) {
-        return license[0].replace("License: ", "");
+      if (license !== undefined && license.length > 0) {
+        return license[0]
+          .replace("License: ", "")
+          .replace(" (original text)", "");
       }
-    } catch (e) {}
+    } catch (e) {
+      console.log(e);
+      return matchEsotericLicenses(licenseText);
+    } finally {
+      fs.unlinkSync(`license-${tool.name}`);
+    }
   }
-  console.log(`Missing license for ${tool.name} ${tool.source}`);
-  return undefined;
+  // Halt and catch fire
+  throw new Error(`Missing license for ${tool.name} (${tool.source})`);
 };
 
 const getTypes = (tool) => {
@@ -156,6 +235,15 @@ const run = async () => {
   let fileContents = fs.readFileSync("../data/tools.yml", "utf8");
   let data = yaml.safeLoad(fileContents);
 
+  data = data.filter((tool) => {
+    const path = `../data/tools/${slugify(tool.name)}.yml`;
+    if (fs.existsSync(path)) {
+      console.log(`Found file ${path}. Skipping.`);
+      return false;
+    }
+    return true;
+  });
+
   let tags = data
     .map((x) => x.tags)
     .reduce((x, y) => {
@@ -170,6 +258,8 @@ const run = async () => {
     })
     .sort();
 
+  // fs.rmdirSync("../data/tools", { recursive: true });
+  // fs.mkdirSync("../data/tools");
   const results = await Promise.all(
     data.map(async (tool) => {
       let x = {
@@ -203,23 +293,11 @@ const run = async () => {
       if (tool.description) {
         x.description = tool.description;
       }
-
+      const path = `../data/tools/${slugify(x.name)}.yml`;
+      fs.writeFileSync(path, yaml.dump(x));
       return x;
     })
   );
-
-  fs.rmdirSync("../data/tools", { recursive: true });
-  fs.mkdirSync("../data/tools");
-  results.forEach((tool) => {
-    fs.writeFileSync(
-      `../data/tools/${slugify(tool.name)}.yml`,
-      yaml.dump(tool)
-    );
-  });
 };
 
-try {
-  run();
-} catch (e) {
-  console.log(e);
-}
+run();
