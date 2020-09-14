@@ -29,7 +29,7 @@ pub struct Entry {
     pub name: String,
     pub categories: HashSet<String>,
     pub tags: HashSet<String>,
-    pub license: Option<String>,
+    pub license: String,
     pub types: HashSet<String>,
     pub homepage: String,
     pub source: Option<String>,
@@ -38,7 +38,6 @@ pub struct Entry {
     // implement in the convert script
     pub discussion: Option<String>,
     pub deprecated: Option<bool>,
-    pub proprietary: Option<bool>,
     pub wrapper: Option<bool>,
 }
 

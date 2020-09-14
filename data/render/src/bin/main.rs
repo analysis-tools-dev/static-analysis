@@ -24,23 +24,16 @@ fn read_tools(file: String) -> Result<Vec<Entry>, Box<dyn Error>> {
     let files = dir
         .map(|res| res.map(|e| e.path()))
         .filter(|x| match x {
-            Ok(pb) => {
-                println!(
-                    "{:?} {:?}",
-                    pb.as_path(),
-                    pb.extension().and_then(OsStr::to_str)
-                );
-                pb.extension().and_then(OsStr::to_str) == Some("yml")
-            }
-
+            Ok(pb) => pb.extension().and_then(OsStr::to_str) == Some("yml"),
             Err(_) => false,
         })
         .collect::<Result<Vec<_>, io::Error>>()?;
 
     files
         .iter()
-        .map(|y| {
-            let file = std::fs::File::open(y)?;
+        .map(|p| {
+            let file = std::fs::File::open(p)?;
+            dbg!(&p);
             let entry: Entry = serde_yaml::from_reader(file)?;
             Ok(entry)
         })
