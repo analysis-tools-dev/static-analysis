@@ -10,6 +10,7 @@ tags:
   - vbnet
 types:
   - ide-plugin
+license: LGPL-3.0 
 source: 'https://github.com/security-code-scan/security-code-scan'
 homepage: 'https://security-code-scan.github.io'
 description: >-

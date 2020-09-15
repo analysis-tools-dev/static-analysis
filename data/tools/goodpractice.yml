@@ -5,6 +5,7 @@ tags:
   - r
 types:
   - cli
+license: proprietary
 source: 'https://github.com/mangothecat/goodpractice'
 homepage: 'http://mangothecat.github.io/goodpractice'
 description: >-

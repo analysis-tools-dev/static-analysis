@@ -5,6 +5,7 @@ tags:
   - php
 types:
   - cli
+license: AGPL-3.0 License 
 source: 'https://github.com/Qafoo/QualityAnalyzer'
 homepage: 'https://github.com/Qafoo/QualityAnalyzer'
 description: Visualizes metrics and source code.

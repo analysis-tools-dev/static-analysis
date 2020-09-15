@@ -11,6 +11,7 @@ tags:
   - swift
 types:
   - cli
+license: MIT
 source: 'https://github.com/houndci/hound'
 homepage: 'https://houndci.com'
 description: >-

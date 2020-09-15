@@ -6,6 +6,7 @@ tags:
   - cpp
 types:
   - cli
+license: MIT
 source: 'https://github.com/secure-software-engineering/phasar'
 homepage: 'https://phasar.org'
 description: >-

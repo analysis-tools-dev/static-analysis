@@ -5,6 +5,7 @@ tags:
   - java
 types:
   - cli
+license: GPL2
 source: 'https://github.com/typetools/checker-framework'
 homepage: 'https://checkerframework.org'
 description: Pluggable type-checking for Java.

@@ -5,6 +5,7 @@ tags:
   - php
 types:
   - cli
+license: MIT
 source: 'https://github.com/nunomaduro/phpinsights'
 homepage: 'https://phpinsights.com'
 description: >

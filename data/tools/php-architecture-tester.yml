@@ -5,6 +5,7 @@ tags:
   - php
 types:
   - cli
+license: MIT
 source: 'https://github.com/carlosas/phpat'
 homepage: 'https://github.com/carlosas/phpat'
 description: Easy to use architecture testing tool for PHP.

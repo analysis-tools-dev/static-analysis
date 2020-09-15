@@ -6,6 +6,7 @@ tags:
   - cpp
 types:
   - cli
+license: SVF Release License
 source: 'https://github.com/SVF-tools/SVF'
 homepage: 'http://svf-tools.github.io/SVF'
 description: >-

@@ -5,6 +5,7 @@ tags:
   - php
 types:
   - cli
+license: MIT
 source: 'https://github.com/rskuipers/php-assumptions'
 homepage: 'https://github.com/rskuipers/php-assumptions'
 description: Checks for weak assumptions.

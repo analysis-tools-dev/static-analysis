@@ -5,6 +5,7 @@ tags:
   - typescript
 types:
   - cli
+license: MIT
 source: 'https://github.com/whyboris/TypeScript-Call-Graph'
 homepage: 'https://github.com/whyboris/TypeScript-Call-Graph'
 description: >-

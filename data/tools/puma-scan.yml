@@ -6,6 +6,7 @@ tags:
 types:
   - ide-plugin
 source: 'https://github.com/pumasecurity/puma-scan'
+license: MPL-2.0 License 
 homepage: 'https://pumasecurity.io'
 description: >-
   Puma Scan provides real time secure code analysis for common vulnerabilities

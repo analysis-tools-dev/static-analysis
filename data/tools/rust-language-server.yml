@@ -5,6 +5,7 @@ tags:
   - rust
 types:
   - cli
+license: Apache-2.0/MIT
 source: 'https://github.com/rust-lang-nursery/rls'
 homepage: 'https://github.com/rust-lang-nursery/rls'
 description: >-

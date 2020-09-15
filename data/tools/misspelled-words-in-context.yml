@@ -5,6 +5,7 @@ tags:
   - writing
 types:
   - cli
+license: MIT
 source: 'https://github.com/jwilk/mwic'
 homepage: 'http://jwilk.net/software/mwic'
 description: >-

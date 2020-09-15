@@ -5,6 +5,7 @@ tags:
   - css
 types:
   - cli
+license: MIT
 source: 'https://github.com/pocketjoso/specificity-graph'
 homepage: 'https://jonassebastianohlsson.com/specificity-graph'
 description: CSS Specificity Graph Generator.

@@ -5,6 +5,7 @@ tags:
   - css
 types:
   - cli
+license: MIT
 source: 'https://github.com/cssstats/cssstats'
 homepage: 'https://cssstats.com'
 description: Potentially interesting stats on stylesheets.

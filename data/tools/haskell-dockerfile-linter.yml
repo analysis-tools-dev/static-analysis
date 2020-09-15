@@ -5,6 +5,7 @@ tags:
   - container
 types:
   - cli
+license: GPL-3.0 
 source: 'https://github.com/lukasmartinelli/hadolint'
 homepage: 'https://github.com/lukasmartinelli/hadolint'
 description: A smarter Dockerfile linter that helpsyou build best practice Docker images.

@@ -5,6 +5,7 @@ tags:
   - php
 types:
   - cli
+license: MIT
 source: 'https://github.com/jmolivas/phpqa'
 homepage: 'https://github.com/jmolivas/phpqa'
 description: PHPQA all-in-one Analyzer CLI tool.

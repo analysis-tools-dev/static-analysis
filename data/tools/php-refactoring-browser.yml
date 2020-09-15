@@ -5,6 +5,7 @@ tags:
   - php
 types:
   - cli
+license: MIT
 source: 'https://github.com/QafooLabs/php-refactoring-browser'
 homepage: 'http://qafoolabs.github.io/php-refactoring-browser'
 description: Refactoring helper.

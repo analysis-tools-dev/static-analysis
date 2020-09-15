@@ -5,6 +5,7 @@ tags:
   - configmanagement
 types:
   - cli
+license: MIT
 source: 'https://github.com/rodjek/puppet-lint'
 homepage: 'https://github.com/rodjek/puppet-lint'
 description: Check that your Puppet manifests conform to the style guide.

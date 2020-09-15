@@ -5,6 +5,7 @@ tags:
   - php
 types:
   - cli
+license: MIT
 source: 'https://github.com/tomzx/php-semver-checker'
 homepage: 'https://github.com/tomzx/php-semver-checker'
 description: Suggests a next version according to semantic versioning.

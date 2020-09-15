@@ -5,6 +5,7 @@ tags:
   - php
 types:
   - cli
+license: LGPL-2.1-only
 source: 'https://github.com/kalessil/phpinspectionsea'
 homepage: 'https://plugins.jetbrains.com/plugin/7622-php-inspections-ea-extended-'
 description: A Static Code Analyzer for PHP.

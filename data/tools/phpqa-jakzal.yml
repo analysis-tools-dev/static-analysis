@@ -5,6 +5,7 @@ tags:
   - php
 types:
   - cli
+license: MIT
 source: 'https://github.com/jakzal/phpqa'
 homepage: 'https://github.com/jakzal/phpqa'
 description: Many tools for PHP static analysis in one container.

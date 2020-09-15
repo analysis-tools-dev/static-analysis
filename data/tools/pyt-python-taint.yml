@@ -6,6 +6,7 @@ tags:
 deprecated: true
 types:
   - cli
+license: GPL-2.0 License 
 source: 'https://github.com/python-security/pyt'
 homepage: 'https://github.com/python-security/pyt'
 description: >-
