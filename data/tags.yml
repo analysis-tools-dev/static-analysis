@@ -271,6 +271,9 @@
 - name: Visualforce
   tag: visualforce
   type: other
+- name: Vim Script
+  tag: vim-script
+  type: language
 - name: Vue.js
   tag: vue
   type: other
