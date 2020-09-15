@@ -2,6 +2,8 @@
 extern crate serde_derive;
 
 use std::error::Error;
+use hubcaps::{Credentials, Github};
+use chrono::{Utc, NaiveDateTime, Local, DateTime};
 
 mod lints;
 pub mod types;
@@ -18,6 +20,50 @@ pub fn validate(tags: &Tags, entries: &Vec<Entry>) -> Result<(), Box<dyn Error>>
     for entry in entries {
         valid(&entry, &tags)?
     }
+    Ok(())
+}
+
+#[tokio::main]
+pub async fn check_deprecated(token: String, entries: &mut Vec<Entry>) -> Result<(), Box<dyn Error>> {
+    let github = Github::new(
+        String::from("analysis tools bot"),
+        Credentials::Token(token),
+    )?;
+
+    for entry in entries {
+        if entry.source.is_none() {
+            continue;
+        }
+
+        let components: Vec<&str> = entry.source.as_ref().unwrap().trim_end_matches('/').split("/").collect();
+        if !(components.contains(&"github.com") && components.len() == 5) {
+            // valid github source must have 5 elements - anything longer and they are probably a
+            // reference to a path inside a repo, rather than a repo itself.
+            continue;
+        }
+
+        let owner = components[3];
+        let repo  = components[4];
+
+        if let Ok(commit_list) = github
+            .repo(owner, repo)
+            .commits()
+            .list()
+            .await
+        {
+            let date = &commit_list[0].commit.author.date;
+            let last_commit = NaiveDateTime::parse_from_str(&date, "%Y-%m-%dT%H:%M:%SZ")?;
+            let last_commit_utc = DateTime::<Utc>::from_utc(last_commit, Utc);
+            let duration = Local::today().signed_duration_since(last_commit_utc.date());
+
+            if duration.num_days() > 365 {
+                entry.deprecated = Some(true);
+            } else {
+                entry.deprecated = None;
+            }
+        }
+    }
+
     Ok(())
 }
 

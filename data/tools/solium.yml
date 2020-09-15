@@ -2,7 +2,7 @@ name: solium
 categories:
   - linter
 tags:
-  - solidity
+  - smart-contracts
 license: MIT
 types:
   - cli

@@ -151,9 +151,9 @@
 - name: Shell
   tag: shell
   type: language
-- name: Solidity
-  tag: solidity
-  type: language
+- name: Smart Contracts
+  tag: smart-contracts
+  type: other
 - name: SQL
   tag: sql
   type: language

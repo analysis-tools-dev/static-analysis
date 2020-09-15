@@ -9,3 +9,6 @@ serde = "1.0.111"
 serde_derive = "1.0.111"
 serde_yaml = "0.8.12"
 askama = "0.9.0"
+hubcaps = "0.6"
+tokio = { version = "0.2", features = ["macros"] }
+chrono = "0.4.15"

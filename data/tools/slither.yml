@@ -2,7 +2,7 @@ name: slither
 categories:
   - formatter
 tags:
-  - solidity
+  - smart-contracts
 license: AGPL-3.0-only
 types:
   - cli
