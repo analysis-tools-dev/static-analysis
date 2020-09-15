@@ -532,6 +532,59 @@
   description: "Code Analysis to ship Better Code, Faster."
   tags:
     - service
+    - apex
+    - bash
+    - c
+    - coffeeScript
+    - cpp
+    - csharp
+    - crystal
+    - css
+    - docker
+    - elixir
+    - go
+    - groovy
+    - java
+    - javaScript
+    - json
+    - jsp
+    - kotlin
+    - less
+    - markdown
+    - php
+    - PLSQL
+    - Powershell
+    - python
+    - ruby
+    - sass
+    - scala
+    - swift
+    - tsql
+    - typescript
+    - velocity
+    - vbscript
+    - visualforce
+    - xml
+  proprietary: true
+- name: CodeScan
+  homepage: "https://www.codescan.io/"
+  description: "Code Quality and Security for Salesforce Developers. Made exclusively for the Salesforce platform, CodeScan’s code analysis solutions provide you with total visibility into your code health."
+  tags:
+    - service
+    - apex
+    - Salesforce
+    - lwc
+    - Visualforce
+  proprietary: true
+- name: Clayton
+  homepage: "https://www.getclayton.com/"
+  description: "AI-powered code reviews for Salesforce. Secure your developments, enforce best practice and control your technical debt in real-time."
+  tags:
+    - service
+    - apex
+    - Salesforce
+    - lwc
+    - Visualforce
   proprietary: true
 - name: Code Analysis Rule Collection
   homepage: "https://carc.codeplex.com/"
@@ -2363,13 +2416,15 @@
 - name: PMD
   homepage: "https://pmd.github.io/"
   source: "https://github.com/pmd/pmd"
-  description: "A source code analyzer for Java, Javascript, PLSQL, XML, XSL and others."
+  description: "A source code analyzer for Java, Salesforce Apex, Javascript, PLSQL, XML, XSL and others."
   tags:
     - java
     - javascript
     - plsql
     - scala
     - xml
+    - apex
+    - visualforce
 - name: Polymer-analyzer
   homepage: "https://github.com/Polymer/tools/tree/master/packages/analyzer"
   source: "https://github.com/Polymer/tools/tree/master/packages/analyzer"
