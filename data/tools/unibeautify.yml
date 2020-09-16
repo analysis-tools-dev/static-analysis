@@ -16,7 +16,7 @@ tags:
   - python
   - typescript
   - vue
-license: MIT
+license: MIT License
 types:
   - cli
 source: 'https://github.com/unibeautify/unibeautify'

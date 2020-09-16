@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - smart-contracts
-license: MIT
+license: MIT License
 types:
   - cli
 source: 'https://github.com/duaraghav8/Solium'

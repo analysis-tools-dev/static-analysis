@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - javascript
-license: MIT
+license: MIT License
 types:
   - cli
 source: 'https://github.com/ternjs/tern'

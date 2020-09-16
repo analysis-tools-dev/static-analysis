@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - javascript
-license: Apache-2.0 (license header)
+license: Other
 types:
   - cli
 source: 'https://github.com/RetireJS/retire.js'

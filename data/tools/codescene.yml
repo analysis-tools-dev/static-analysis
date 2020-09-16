@@ -3,9 +3,12 @@ categories:
   - linter
 tags:
   - c
+  - clojure
   - cpp
   - csharp
+  - dart
   - elixir
+  - erlang
   - go
   - groovy
   - java
@@ -13,12 +16,17 @@ tags:
   - kotlin
   - perl
   - php
+  - powershell
   - python
+  - ruby
+  - scala
+  - swift
   - typescript
 license: proprietary
 types:
   - cli
-homepage: 'https://empear.com'
+homepage: 'https://codescene.com'
 description: >-
-  CodeScene prioritizes technical debt, finds social patterns and identifies
-  hidden risks in your code.
+  CodeScene is a quality visualization tool for software. Prioritize technical
+  debt, detect delivery risks, and measure organizational aspects. Fully
+  automated.

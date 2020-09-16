@@ -6,7 +6,7 @@ tags:
   - cpp
   - java
   - php
-license: MIT
+license: MIT License
 types:
   - cli
 source: 'https://github.com/pre-commit/pre-commit'

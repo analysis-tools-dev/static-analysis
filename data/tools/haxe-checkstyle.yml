@@ -3,9 +3,9 @@ categories:
   - linter
 tags:
   - haxe
+license: MIT License
 types:
   - cli
-license: MIT
 source: 'https://github.com/HaxeCheckstyle/haxe-checkstyle'
 homepage: 'http://haxecheckstyle.github.io/docs/haxe-checkstyle/home.html'
 description: >-

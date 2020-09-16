@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - configfile
-license: MPL-2.0
+license: Other
 types:
   - cli
 source: 'https://github.com/yandex/gixy'

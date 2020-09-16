@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - swift
-license: MIT
+license: MIT License
 types:
   - cli
 source: 'https://github.com/realm/SwiftLint'

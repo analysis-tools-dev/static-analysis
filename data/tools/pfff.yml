@@ -15,7 +15,7 @@ tags:
   - python
   - rust
 deprecated: true
-license: LGPL-2.1-only
+license: Other
 types:
   - cli
 source: 'https://github.com/returntocorp/pfff'

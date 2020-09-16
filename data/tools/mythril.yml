@@ -1,0 +1,13 @@
+name: mythril
+categories:
+  - linter
+tags:
+  - smart-contracts
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/ConsenSys/mythril'
+homepage: 'https://github.com/ConsenSys/mythril'
+description: >-
+  A symbolic execution framework with batteries included, can be used to find
+  and exploit vulnerabilities in smart contracts automatically.

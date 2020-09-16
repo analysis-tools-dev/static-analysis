@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - configmanagement
-license: MIT-0
+license: Other
 types:
   - cli
 source: 'https://github.com/awslabs/cfn-python-lint'

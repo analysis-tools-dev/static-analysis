@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - dlang
-license: BSL-1.0
+license: Boost Software License 1.0
 types:
   - cli
 source: 'https://github.com/dlang-community/D-Scanner'

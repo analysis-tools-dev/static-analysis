@@ -183,7 +183,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [ArchUnitNET](https://github.com/TNG/ArchUnitNET) - A C# architecture test library to specify and assert architecture rules in C# for automated testing.
 - [Code Analysis Rule Collection](https://carc.codeplex.com) :warning: - Contains a set of diagnostics, code fixes and refactorings built on the Microsoft .NET Compiler Platform "Roslyn".
 - [code-cracker](http://code-cracker.github.io) - An analyzer library for C# and VB that uses Roslyn to produce refactorings, code analysis, and other niceties.
-- [CSharpEssentials](https://github.com/DustinCampbell/CSharpEssentials) - C# Essentials is a collection of Roslyn diagnostic analyzers, code fixes and refactorings that make it easy to work with C# 6 language features.
+- [CSharpEssentials](https://github.com/DustinCampbell/CSharpEssentials) :warning: - C# Essentials is a collection of Roslyn diagnostic analyzers, code fixes and refactorings that make it easy to work with C# 6 language features.
 - [Designite](http://www.designite-tools.com) :copyright: - Designite supports detection of various architecture, design, and implementation smells, computation of various code quality metrics, and trend analysis.
 - [Gendarme](https://www.mono-project.com/docs/tools+libraries/tools/gendarme) - Gendarme inspects programs and libraries that contain code in ECMA CIL format (Mono and .NET).
 - [NDepend](http://www.ndepend.com) :copyright: - Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.
@@ -230,7 +230,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="coffeescript">CoffeeScript</h2>
 
-- [coffeelint](http://www.coffeelint.org) - A style checker that helps keep CoffeeScript code clean and consistent.
+- [coffeelint](http://www.coffeelint.org) :warning: - A style checker that helps keep CoffeeScript code clean and consistent.
 
 
 <h2 id="crystal">Crystal</h2>
@@ -291,9 +291,9 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [aligncheck](https://gitlab.com/opennota/check) - Find inefficiently packed structs.
 - [bodyclose](https://github.com/timakin/bodyclose) - Checks whether HTTP response body is closed.
 - [deadcode](https://github.com/tsenart/deadcode) - Finds unused code.
-- [dingo-hunter](https://github.com/nickng/dingo-hunter) - Static analyser for finding deadlocks in Go.
+- [dingo-hunter](https://github.com/nickng/dingo-hunter) :warning: - Static analyser for finding deadlocks in Go.
 - [dogsled](https://github.com/alexkohler/dogsled) - Finds assignments/declarations with too many blank identifiers.
-- [dupl](https://github.com/mibk/dupl) - Reports potentially duplicated code.
+- [dupl](https://github.com/mibk/dupl) :warning: - Reports potentially duplicated code.
 - [errcheck](https://github.com/kisielk/errcheck) - Check that error return values are used.
 - [flen](https://github.com/lafolle/flen) - Get info on length of functions in a Go package.
 - [go tool vet --shadow](https://golang.org/cmd/vet#hdr-Shadowed_variables) - Reports variables that may have been unintentionally shadowed.
@@ -301,9 +301,9 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [go-consistent](https://github.com/Quasilyte/go-consistent) - Analyzer that helps you to make your Go programs more consistent.
 - [go-critic](https://github.com/go-critic/go-critic) - Go source code linter that maintains checks which are currently not implemented in other linters.
 - [go/ast](https://golang.org/pkg/go/ast) - Package ast declares the types used to represent syntax trees for Go packages.
-- [gochecknoglobals](https://github.com/leighmcculloch/gochecknoglobals) - Checks that no globals are present.
+- [gochecknoglobals](https://github.com/leighmcculloch/gochecknoglobals) :warning: - Checks that no globals are present.
 - [goconst](https://github.com/jgautheron/goconst) - Finds repeated strings that could be replaced by a constant.
-- [gocyclo](https://github.com/fzipp/gocyclo) - Calculate cyclomatic complexities of functions in Go source code.
+- [gocyclo](https://github.com/fzipp/gocyclo) :warning: - Calculate cyclomatic complexities of functions in Go source code.
 - [gofmt -s](https://golang.org/cmd/gofmt) - Checks if the code is properly formatted and could not be further simplified.
 - [goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports) - Checks missing or unreferenced package imports.
 - [GolangCI-Lint](https://golangci-lint.run) - Alternative to `Go Meta Linter`: GolangCI-Lint is a linters aggregator.
@@ -313,8 +313,8 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [gotype](https://pkg.go.dev/golang.org/x/tools/cmd/gotype) - Syntactic and semantic analysis similar to the Go compiler.
 - [ineffassign](https://github.com/gordonklaus/ineffassign) - Detect ineffectual assignments in Go code.
 - [interfacer](https://github.com/mvdan/interfacer) :warning: - Suggest narrower interfaces that can be used.
-- [lll](https://github.com/walle/lll) - Report long lines.
-- [maligned](https://github.com/mdempsky/maligned) - Detect structs that would take less memory if their fields were sorted.
+- [lll](https://github.com/walle/lll) :warning: - Report long lines.
+- [maligned](https://github.com/mdempsky/maligned) :warning: - Detect structs that would take less memory if their fields were sorted.
 - [misspell](https://github.com/client9/misspell) - Finds commonly misspelled English words.
 - [nakedret](https://github.com/alexkohler/nakedret) - Finds naked returns.
 - [nargs](https://github.com/alexkohler/nargs) - Finds unused arguments in function declarations.
@@ -325,7 +325,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [structcheck](https://gitlab.com/opennota/check) - Find unused struct fields.
 - [test](http://golang.org/pkg/testing) - Show location of test failures from the stdlib testing module.
 - [unconvert](https://github.com/mdempsky/unconvert) - Detect redundant type conversions.
-- [unimport](https://github.com/alexkohler/unimport) - Finds unnecessary import aliases.
 - [unparam](https://github.com/mvdan/unparam) - Find unused function parameters.
 - [varcheck](https://gitlab.com/opennota/check) - Find unused global variables and constants.
 - [wsl](https://github.com/bombsimon/wsl) - Enforces empty lines at the right places.
@@ -375,21 +374,20 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="javascript">JavaScript</h2>
 
-- [aether](http://aetherjs.com) - Lint, analyze, normalize, transform, sandbox, run, step through, and visualize user JavaScript, in node or the browser.
+- [aether](http://aetherjs.com) :warning: - Lint, analyze, normalize, transform, sandbox, run, step through, and visualize user JavaScript, in node or the browser.
 - [Closure Compiler](https://developers.google.com/closure/compiler) - A compiler tool to increase efficiency, reduce size, and provide code warnings in JavaScript files.
 - [ClosureLinter](https://github.com/google/closure-linter) :warning: - Ensures that all of your project's JavaScript code follows the guidelines in the Google JavaScript Style Guide. It can also automatically fix many common errors.
 - [complexity-report](https://github.com/escomplex/complexity-report) :warning: - Software complexity analysis for JavaScript projects.
 - [DeepScan](https://deepscan.io) :copyright: - An analyzer for JavaScript which targets runtime errors and quality issues rather than coding conventions.
 - [es6-plato](https://github.com/the-simian/es6-plato) - Visualize JavaScript (ES6) source complexity.
-- [escomplex](https://github.com/jared-stilwell/escomplex) - Software complexity analysis of JavaScript-family abstract syntax trees.
+- [escomplex](https://github.com/jared-stilwell/escomplex) :warning: - Software complexity analysis of JavaScript-family abstract syntax trees.
 - [Esprima](https://esprima.org) - ECMAScript parsing infrastructure for multipurpose analysis.
 - [flow](https://flow.org) - A static type checker for JavaScript.
 - [hegel](https://hegel.js.org) - A static type checker for JavaScript with a bias on type inference and strong type systems.
-- [jshint](https://jshint.com/about) - Detect errors and potential problems in JavaScript code and enforce your team's coding conventions.
-- [JSLint](https://github.com/douglascrockford/JSLint) - The JavaScript Code Quality Tool.
+- [jshint](https://jshint.com/about) [:information_source:](<https://github.com/analysis-tools-dev/static-analysis/issues/223>) - Detect errors and potential problems in JavaScript code and enforce your team's coding conventions.
+- [JSLint](https://github.com/douglascrockford/JSLint) [:information_source:](<https://github.com/analysis-tools-dev/static-analysis/issues/223>) - The JavaScript Code Quality Tool.
 - [JSPrime](http://dpnishant.github.io/jsprime) :warning: - Static security analysis tool.
 - [plato](https://github.com/es-analysis/plato) :warning: - Visualize JavaScript source complexity.
-- [quality](https://github.com/junosuarez/quality) :warning: - Zero configuration code and module linting.
 - [retire.js](http://retirejs.github.io/retire.js) - Scanner detecting the use of JavaScript libraries with known vulnerabilities.
 - [tern](https://ternjs.net) - A JavaScript code analyzer for deep, cross-editor language support.
 - [xo](https://github.com/xojs/xo) - Opinionated but configurable ESLint wrapper with lots of goodies included. Enforces strict and readable code.
@@ -409,7 +407,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="lua">Lua</h2>
 
-- [luacheck](https://github.com/mpeterv/luacheck) - A tool for linting and static analysis of Lua code.
+- [luacheck](https://github.com/mpeterv/luacheck) :warning: - A tool for linting and static analysis of Lua code.
 
 
 <h2 id="matlab">MATLAB</h2>
@@ -419,20 +417,20 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="php">PHP</h2>
 
-- [churn-php](https://github.com/bmitch/churn-php) :warning: - Helps discover good candidates for refactoring.
+- [churn-php](https://github.com/bmitch/churn-php) - Helps discover good candidates for refactoring.
 - [dephpend](https://dephpend.com) - Dependency analysis tool.
-- [deprecation-detector](https://github.com/sensiolabs-de/deprecation-detector) - Finds usages of deprecated (Symfony) code.
+- [deprecation-detector](https://github.com/sensiolabs-de/deprecation-detector) :warning: - Finds usages of deprecated (Symfony) code.
 - [deptrac](https://github.com/sensiolabs-de/deptrac) - Enforce rules for dependencies between software layers.
 - [DesignPatternDetector](https://github.com/Halleck45/DesignPatternDetector) - Detection of design patterns in PHP code.
 - [EasyCodingStandard](https://www.tomasvotruba.com/blog/2017/05/03/combine-power-of-php-code-sniffer-and-php-cs-fixer-in-3-lines) - Combine [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) and [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer).
 - [GrumPHP](https://github.com/phpro/grumphp) - Checks code on every commit.
-- [Mondrian](http://trismegiste.github.io/Mondrian) - A set of static analysis and refactoring tools which use graph theory.
+- [Mondrian](http://trismegiste.github.io/Mondrian) :warning: - A set of static analysis and refactoring tools which use graph theory.
 - [parallel-lint](https://github.com/php-parallel-lint/PHP-Parallel-Lint) - This tool checks syntax of PHP files faster than serial check with a fancier output.
 - [Parse](https://github.com/psecio/parse) - A Static Security Scanner.
 - [pdepend](https://pdepend.org) - Calculates software metrics like cyclomatic complexity for PHP code.
 - [phan](https://github.com/phan/phan/wiki) - A modern static analyzer from etsy.
 - [PHP Architecture Tester](https://github.com/carlosas/phpat) - Easy to use architecture testing tool for PHP.
-- [PHP Assumptions](https://github.com/rskuipers/php-assumptions) - Checks for weak assumptions.
+- [PHP Assumptions](https://github.com/rskuipers/php-assumptions) :warning: - Checks for weak assumptions.
 - [PHP Coding Standards Fixer](https://cs.symfony.com) - Fixes your code according to standards like PSR-1, PSR-2, and the Symfony standard.
 - [PHP Insights](https://phpinsights.com) - Instant PHP quality checks from your console. Analysis of code quality and coding style as well as overview of code architecture and its complexity.
 
@@ -441,16 +439,16 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [PHP Semantic Versioning Checker](https://github.com/tomzx/php-semver-checker) - Suggests a next version according to semantic versioning.
 - [PHP-Parser](https://github.com/nikic/PHP-Parser) - A PHP parser written in PHP.
 - [php-speller](https://github.com/mekras/php-speller) - PHP spell check library.
-- [PHP-Token-Reflection](https://github.com/Andrewsville/PHP-Token-Reflection) - Library emulating the PHP internal reflection.
+- [PHP-Token-Reflection](https://github.com/Andrewsville/PHP-Token-Reflection) :warning: - Library emulating the PHP internal reflection.
 - [php7cc](https://github.com/sstalle/php7cc) :warning: - PHP 7 Compatibility Checker.
 - [php7mar](https://github.com/Alexia/php7mar) :warning: - Assist developers in porting their code quickly to PHP 7.
 - [PHP_CodeSniffer](https://pear.php.net/package/PHP_CodeSniffer) - Detects violations of a defined set of coding standards.
-- [phpca](https://github.com/wapmorgan/PhpCodeAnalyzer) - Finds usage of non-built-in extensions.
+- [phpca](https://github.com/wapmorgan/PhpCodeAnalyzer) :warning: - Finds usage of non-built-in extensions.
 - [phpcf](http://wapmorgan.github.io/PhpCodeFixer) - Finds usage of deprecated PHP features.
 - [phpcpd](https://github.com/sebastianbergmann/phpcpd) - Copy/Paste Detector for PHP code.
 - [phpdcd](https://github.com/sebastianbergmann/phpdcd) :warning: - Dead Code Detector (DCD) for PHP code.
 - [PhpDependencyAnalysis](https://mamuz.github.io/PhpDependencyAnalysis) - Builds a dependency graph for a project.
-- [phpdoc-to-typehint](https://github.com/dunglas/phpdoc-to-typehint) - Add scalar type hints and return types to existing PHP projects using PHPDoc annotations.
+- [phpdoc-to-typehint](https://github.com/dunglas/phpdoc-to-typehint) :warning: - Add scalar type hints and return types to existing PHP projects using PHPDoc annotations.
 - [phpDocumentor](https://www.phpdoc.org) - Analyzes PHP source code to generate documentation.
 - [phploc](https://github.com/sebastianbergmann/phploc) - A tool for quickly measuring the size and analyzing the structure of a PHP project.
 - [PHPMD](https://phpmd.org) - Finds possible bugs in your code.
@@ -459,7 +457,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [PHPQA](https://edgedesigncz.github.io/phpqa) - A tool for running QA tools (phploc, phpcpd, phpcs, pdepend, phpmd, phpmetrics).
 - [phpqa - jakzal](https://github.com/jakzal/phpqa) - Many tools for PHP static analysis in one container.
 - [phpqa - jmolivas](https://github.com/jmolivas/phpqa) - PHPQA all-in-one Analyzer CLI tool.
-- [phpsa](https://github.com/ovr/phpsa) - Static analysis tool for PHP.
+- [phpsa](https://github.com/ovr/phpsa) :warning: - Static analysis tool for PHP.
 - [PHPStan](https://phpstan.org) - PHP Static Analysis Tool - discover bugs in your code without running it!
 - [Progpilot](https://github.com/designsecurity/progpilot) - A static analysis tool for security purposes.
 - [Psalm](https://psalm.dev) - Static analysis tool for finding type errors in PHP applications.
@@ -479,7 +477,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [bandit](https://bandit.readthedocs.io/en/latest) - A tool to find common security issues in Python code.
 - [bellybutton](https://github.com/hchasestevens/bellybutton) - A linting engine supporting custom project-specific rules.
 - [Black](https://black.readthedocs.io/en/stable) - The uncompromising Python code formatter.
-- [cohesion](https://github.com/mschwager/cohesion) - A tool for measuring Python class cohesion.
+- [cohesion](https://github.com/mschwager/cohesion) :warning: - A tool for measuring Python class cohesion.
 - [Dlint](https://github.com/dlint-py/dlint) - A tool for ensuring Python code is secure.
 - [jedi](https://jedi.readthedocs.io/en/latest) - Autocompletion/static analysis library for Python.
 - [linty fresh](https://github.com/lyft/linty_fresh) - Parse lint errors and report them to Github as comments on a pull request.
@@ -497,6 +495,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [PyT - Python Taint](https://github.com/python-security/pyt) :warning: - A static analysis tool for detecting security vulnerabilities in Python web applications.
 - [pytype](https://google.github.io/pytype) - A static type analyzer for Python code.
 - [radon](https://radon.readthedocs.io/en/latest) - A Python tool that computes various metrics from the source code.
+- [unimport](https://unimport.hakancelik.dev) - A linter, formatter for finding and removing unused import statements.
 - [vulture](https://github.com/jendrikseipp/vulture) - Find unused classes, functions and variables in Python code.
 - [wemake-python-styleguide](https://wemake-python-stylegui.de) - The strictest and most opinionated python linter ever.
 - [wily](https://github.com/tonybaloney/wily) - A command-line tool for archiving, exploring and graphing the complexity of Python source code.
@@ -505,9 +504,9 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="r">R</h2>
 
-- [cyclocomp](https://github.com/MangoTheCat/cyclocomp) :copyright: - Quantifies the cyclomatic complexity of R functions / expressions.
-- [goodpractice](http://mangothecat.github.io/goodpractice) :copyright: - Analyses the source code for R packages and provides best-practice recommendations.
-- [lintr](https://github.com/jimhester/lintr) :copyright: - Static Code Analysis for R.
+- [cyclocomp](https://github.com/MangoTheCat/cyclocomp) :warning: - Quantifies the cyclomatic complexity of R functions / expressions.
+- [goodpractice](http://mangothecat.github.io/goodpractice) - Analyses the source code for R packages and provides best-practice recommendations.
+- [lintr](https://github.com/jimhester/lintr) - Static Code Analysis for R.
 - [styler](https://styler.r-lib.org) - Formatting of R source code files and pretty-printing of R code.
 
 
@@ -518,8 +517,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="ruby">Ruby</h2>
 
-- [brakeman](https://brakemanscanner.org) - A static analysis security vulnerability scanner for Ruby on Rails applications.
-- [cane](https://github.com/square/cane) - Code quality threshold checking as part of your build.
+- [cane](https://github.com/square/cane) :warning: - Code quality threshold checking as part of your build.
 - [flay](https://ruby.sadi.st/Flay.html) - Flay analyzes code for structural similarities.
 - [flog](https://ruby.sadi.st/Flog.html) - Flog reports the most tortured code in an easy to read pain report. The higher the score, the more pain the code is in.
 - [laser](https://github.com/michaeledgar/laser) :warning: - Static analysis and style linter for Ruby code.
@@ -541,12 +539,14 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [cargo-audit](https://rustsec.org) - Audit Cargo.lock for crates with security vulnerabilities reported to the [RustSec Advisory Database](https://github.com/RustSec/advisory-db/).
 - [cargo-inspect](https://github.com/mre/cargo-inspect) - Inspect Rust code without syntactic sugar to see what the compiler does behind the curtains.
 - [clippy](https://rust-lang.github.io/rust-clippy) - A code linter to catch common mistakes and improve your Rust code.
-- [electrolysis](http://kha.github.io/electrolysis) - A tool for formally verifying Rust programs by transpiling them into definitions in the Lean theorem prover.
-- [herbie](https://github.com/mcarton/rust-herbie-lint) - Adds warnings or errors to your crate when using a numerically unstable floating point expression.
+- [electrolysis](http://kha.github.io/electrolysis) :warning: - A tool for formally verifying Rust programs by transpiling them into definitions in the Lean theorem prover.
+- [herbie](https://github.com/mcarton/rust-herbie-lint) :warning: - Adds warnings or errors to your crate when using a numerically unstable floating point expression.
 - [linter-rust](https://github.com/AtomLinter/linter-rust) - Linting your Rust-files in Atom, using rustc and cargo.
 - [MIRAI](https://github.com/facebookexperimental/MIRAI) - And abstract interpreter operating on Rust's mid-level intermediate language, and providing warnings based on taint analysis.
+- [Prusti](https://www.pm.inf.ethz.ch/research/prusti.html) - A static verifier for Rust, based on the Viper verification infrastructure. By default Prusti verifies absence of panics by proving that statements such as unreachable!() and panic!() are unreachable.
 - [Rust Language Server](https://github.com/rust-lang-nursery/rls) - Supports functionality such as 'goto definition', symbol search, reformatting, and code completion, and enables renaming and refactorings.
 - [rust-analyzer](https://rust-analyzer.github.io) - Supports functionality such as 'goto definition', type inference, symbol search, reformatting, and code completion, and enables renaming and refactorings.
+- [rust-audit](https://github.com/Shnatsel/rust-audit) - Audit Rust binaries for known bugs or security vulnerabilities. This works by embedding data about the dependency tree (Cargo.lock) in JSON format into a dedicated linker section of the compiled executable.
 - [rustfix](https://github.com/rust-lang/rustfix) - Read and apply the suggestions made by rustc (and third-party lints, like those offered by clippy).
 
 
@@ -555,12 +555,12 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [sqlcheck](https://github.com/jarulraj/sqlcheck) - Automatically identify anti-patterns in SQL queries.
 - [sqlint](https://github.com/purcell/sqlint) - Simple SQL linter.
 - [tsqllint](https://github.com/tsqllint/tsqllint) - T-SQL-specific linter.
-- [TSqlRules](https://github.com/ashleyglee/TSqlRules) - TSQL Static Code Analysis Rules for SQL Server.
+- [TSqlRules](https://github.com/ashleyglee/TSqlRules) :warning: - TSQL Static Code Analysis Rules for SQL Server.
 
 
 <h2 id="scala">Scala</h2>
 
-- [linter](https://github.com/HairyFotr/linter) - Linter is a Scala static analysis compiler plugin which adds compile-time checks for various possible bugs, inefficiencies, and style problems.
+- [linter](https://github.com/HairyFotr/linter) :warning: - Linter is a Scala static analysis compiler plugin which adds compile-time checks for various possible bugs, inefficiencies, and style problems.
 - [Scalastyle](http://www.scalastyle.org) - Scalastyle examines your Scala code and indicates potential problems with it.
 - [scapegoat](https://github.com/sksamuel/scapegoat) - Scala compiler plugin for static code analysis.
 - [WartRemover](https://www.wartremover.org) - A flexible Scala code linting tool.
@@ -569,6 +569,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="shell">Shell</h2>
 
 - [i-Code CNES for Shell](https://github.com/lequal/i-CodeCNES) - An open source static code analysis tool for Shell and Fortran (77 and 90).
+- [kmdr](https://kmdr.sh) - CLI tool for learning commands from your terminal. kmdr delivers a break down of commands with every attribute explained.
 - [shellcheck](https://www.shellcheck.net) - ShellCheck, a static analysis tool that gives warnings and suggestions for bash/sh shell scripts.
 
 
@@ -615,23 +616,24 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [AppScan Source](https://www.hcltechsw.com/wps/portal/products/appscan/home) :copyright: - Commercial Static Code Analysis.
 - [APPscreener](https://solarappscreener.com) :copyright: - Static code analysis for binary and source code - Java/Scala, PHP, Javascript, C#, PL/SQL, Python, T-SQL, C/C++, ObjectiveC/Swift, Visual Basic 6.0, Ruby, Delphi, ABAP, HTML5 and Solidity.
 - [ArchUnit](https://www.archunit.org) - Unit test your Java or Kotlin architecture.
-- [Atom-Beautify](https://atom.io/packages/atom-beautify) - Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom editor.
+- [Atom-Beautify](https://atom.io/packages/atom-beautify) :warning: - Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom editor.
 - [Axivion Bauhaus Suite](https://www.axivion.com/en/products-services-9#products_bauhaussuite) :copyright: - Tracks down error-prone code locations, style violations, cloned or dead code, cyclic dependencies and more for C/C++, C#/.NET, Java and Ada 83/Ada 95.
 - [Better Code Hub](https://bettercodehub.com) :copyright: - Better Code Hub checks your GitHub codebase against 10 engineering guidelines devised by the authority in software quality, Software Improvement Group.
+- [brakeman](https://brakemanscanner.org) - A static analysis security vulnerability scanner for Ruby on Rails applications.
 - [CAST Highlight](https://www.castsoftware.com/products/highlight) :copyright: - Commercial Static Code Analysis which runs locally, but uploads the results to its cloud for presentation.
 - [checkmake](https://github.com/mrtazz/checkmake) - Linter / Analyzer for Makefiles.
 - [Checkmarx CxSAST](https://www.checkmarx.com/products/static-application-security-testing) :copyright: - Commercial Static Code Analysis which doesn't require pre-compilation.
-- [ciocheck](https://github.com/ContinuumIO/ciocheck) - Linter, formatter and test suite helper. As a linter, it is a wrapper around `pep8`, `pydocstyle`, `flake8`, and `pylint`.
+- [ciocheck](https://github.com/ContinuumIO/ciocheck) :warning: - Linter, formatter and test suite helper. As a linter, it is a wrapper around `pep8`, `pydocstyle`, `flake8`, and `pylint`.
 - [ClassGraph](https://github.com/classgraph/classgraph) - A classpath and module path scanner for querying or visualizing class metadata or class relatedness.
 - [coala](https://coala.io) - Language independent framework for creating code analysis - supports [over 60 languages](https://coala.io/languages) by default.
 - [Cobra](http://spinroot.com/cobra) :copyright: - Structural source code analyzer by NASA's Jet Propulsion Laboratory.
 - [Codeac](https://www.codeac.io/?ref=awesome-static-analysis) :copyright: - Automated code review tool integrates with GitHub, Bitbucket and GitLab (even self-hosted). Available for JavaScript, TypeScript, Python, Ruby, Go, PHP, Java, Docker, and more. (open-source free)
-- [codeburner](http://groupon.github.io/codeburner) - Provides a unified interface to sort and act on the issues it finds.
+- [codeburner](http://groupon.github.io/codeburner) :warning: - Provides a unified interface to sort and act on the issues it finds.
 - [codechecker](https://codechecker.readthedocs.io/en/latest) - A defect database and viewer extension for the Clang Static Analyzer with web GUI.
 - [CodeIt.Right](https://submain.com/products/codeit.right.aspx) :copyright: - CodeIt.Right&trade; provides a fast, automated way to ensure that your source code adheres to (your) predefined design and style guidelines as well as best coding practices.
 - [CodePatrol](https://cyber-security.claranet.fr/en/codepatrol) :copyright: - Automated SAST code reviews driven by security, supports 15+ languages and includes security training.
 - [CodeRush](https://www.devexpress.com/products/coderush) :copyright: - Code creation, debugging, navigation, refactoring, analysis and visualization tools that use the Roslyn engine in Visual Studio 2015 and up.
-- [CodeScene](https://empear.com) :copyright: - CodeScene prioritizes technical debt, finds social patterns and identifies hidden risks in your code.
+- [CodeScene](https://codescene.com) :copyright: - CodeScene is a quality visualization tool for software. Prioritize technical debt, detect delivery risks, and measure organizational aspects. Fully automated.
 - [Corrode](https://github.com/jameysharp/corrode) :warning: - Semi-automatic translation from C to Rust. Could reveal bugs in the original implementation by showing Rust compiler warnings and errors. Superseded by C2Rust.
 - [Coverity](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html) :copyright: - Synopsys Coverity supports 20 languages and over 70 frameworks including Ruby on rails, Scala, PHP, Python, JavaScript, TypeScript, Java, Fortran, C, C++, C#, VB.NET.
 - [cqc](https://github.com/xcatliu/cqc) - Check your code quality for js, jsx, vue, css, less, scss, sass and styl files.
@@ -651,18 +653,21 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [graudit](http://www.justanotherhacker.com) - Grep rough audit - source code auditing tool.
 - [Hopper](https://github.com/cuplv/hopper) :warning: - A static analysis tool written in scala for languages that run on JVM.
 - [Hound CI](https://houndci.com) - Comments on style violations in GitHub pull requests. Supports Coffeescript, Go, HAML, JavaScript, Ruby, SCSS and Swift.
-- [imhotep](https://github.com/justinabrahms/imhotep) - Comment on commits coming into your repository and check for syntactic errors and general lint warnings.
+- [iblessing](https://www.kitploit.com/2020/08/iblessing-ios-security-exploiting.html) - iblessing is an iOS security exploiting toolkit. It can be used for reverse engineering, binary analysis and vulnerability mining.
+- [imhotep](https://github.com/justinabrahms/imhotep) :warning: - Comment on commits coming into your repository and check for syntactic errors and general lint warnings.
 - [include-gardener](https://github.com/feddischson/include_gardener) - A multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files.
 - [Infer](https://fbinfer.com) - A static analyzer for Java, C and Objective-C
 - [InsiderSec](https://insidersec.io) - A open source Static Application Security Testing tool (SAST) written in GoLang for Java (Maven and Android), Kotlin (Android), Swift (iOS), .NET Full Framework, C# and Javascript (Node.js).
 - [Kiuwan](https://www.kiuwan.com/code-security-sast) :copyright: - Identify and remediate cyber threats in a blazingly fast, collaborative environment, with seamless integration in your SDLC. Python, C\C++, Java, C#, PHP and more.
 - [Klocwork](https://www.perforce.com/products/klocwork) :copyright: - Quality and Security Static analysis for C/C++, Java and C#.
 - [LGTM.com](https://lgtm.com) :copyright: - Deep code analysis for GitHub and Bitbucket to find security vulnerabilities and critical code quality issues (using Semmle QL). Automatic code review for pull requests; free for public repositories.
+- [Lumnify](https://lumnify.com) :copyright: - Benchmark against thousands of projects, and analyse code for structural quality with focus on maintainability.
 - [multilint](https://github.com/adamchainz/multilint) - A wrapper around `flake8`, `isort` and `modernize`.
 - [Nitpick CI](https://nitpick-ci.com) :copyright: - Automated PHP code review.
 - [NodeJSScan](https://opensecurity.in) - NodeJsScan is a static security code scanner for Node.js applications.
 - [oclint](http://oclint.org) - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C.
-- [pfff](https://github.com/facebookarchive/pfff/wiki/Main) :warning: - Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages.
+- [Oversecured](https://oversecured.com) :copyright: - A mobile app vulnerability scanner, designed for security researchers and bug bounty hackers. It also allows integrations into the DevOps process for businesses.
+- [pfff](https://github.com/facebookarchive/pfff/wiki/Main) - Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages.
 - [PMD](https://pmd.github.io) - A source code analyzer for Java, Javascript, PLSQL, XML, XSL and others.
 - [Polymer-analyzer](https://github.com/Polymer/tools/tree/master/packages/analyzer) - A static analysis framework for Web Components.
 - [portlint](https://www.freebsd.org/cgi/man.cgi?query=portlint&sektion=1&manpath=FreeBSD+8.1-RELEASE+and+Ports) - A verifier for FreeBSD and DragonFlyBSD port directories.
@@ -670,9 +675,10 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Prettier](https://prettier.io) - An opinionated code formatter.
 - [Pronto](https://github.com/prontolabs/pronto) - Quick automated code review of your changes. Supports more than 40 runners for various languages, including Clang, Elixir, JavaScript, PHP, Ruby and more.
 - [prospector](https://github.com/PyCQA/prospector) - A wrapper around `pylint`, `pep8`, `mccabe` and others.
-- [PT.PM](https://github.com/PositiveTechnologies/PT.PM) :warning: - An engine for searching patterns in the source code, based on Unified AST or UST. At present time C#, Java, PHP, PL/SQL, T-SQL, and JavaScript are supported. Patterns can be described within the code or using a DSL.
+- [PT.PM](https://github.com/PositiveTechnologies/PT.PM) - An engine for searching patterns in the source code, based on Unified AST or UST. At present time C#, Java, PHP, PL/SQL, T-SQL, and JavaScript are supported. Patterns can be described within the code or using a DSL.
 - [PullRequest](https://www.pullrequest.com) :copyright: - Code review as a service with built-in static analysis.
 - [PVS-Studio](https://www.viva64.com/en/pvs-studio) :copyright: - A ([conditionally free](https://www.viva64.com/en/b/0614/) for FOSS and individual developers) static analysis of C, C++, C# and Java code. For advertising purposes [you can propose a large FOSS project for analysis by PVS employees](https://github.com/viva64/pvs-studio-check-list). Supports CWE mapping, MISRA and CERT coding standards.
+- [quality](https://github.com/apiology/quality) - Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time.
 - [Qualys Container Security](https://www.qualys.com/apps/container-security) :copyright: - Container native application protection to provide visibility and control of containerized applications.
 - [QuantifiedCode](https://github.com/quantifiedcode/quantifiedcode) :warning: - Automated code review & repair.
 - [Refactoring Essentials](https://marketplace.visualstudio.com/items?itemName=SharpDevelopTeam.RefactoringEssentialsforVisualStudio) - The free Visual Studio 2015 extension for C# and VB.NET refactorings, including code best practice analyzers.
@@ -708,7 +714,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [WALA](http://wala.sourceforge.net) - Static analysis capabilities for Java bytecode and related languages and for JavaScript.
 - [WhiteHat Application Security Platform](https://www.whitehatsec.com/platform/static-application-security-testing) :copyright: - WhiteHat Scout (for Developers) combined with WhiteHat Sentinel Source (for Operations) supporting WhiteHat Top 40 and OWASP Top 10.
 - [Wotan](https://github.com/fimbullinter/wotan) - Pluggable TypeScript and JavaScript linter.
-- [Xanitizer](https://xanitizer.com) :copyright: - Xanitizer finds security vulnerabilities in Java/Scala web applications.
+- [Xanitizer](https://xanitizer.com) :copyright: - Xanitizer finds security vulnerabilities in web applications. It supports Java, Scala, JavaScript and TypeScript.
 - [XCode](https://developer.apple.com/xcode) :copyright: - XCode provides a pretty decent UI for [Clang's](http://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C).
 - [yamllint](https://yamllint.readthedocs.io) - Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation.
 
@@ -735,11 +741,11 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [CSScomb](https://github.com/csscomb/csscomb.js) - A coding style formatter for CSS. Supports own configurations to make style sheets beautiful and consistent.
 - [CSSLint](http://csslint.net) - Does basic syntax checking and finds problematic patterns or signs of inefficiency.
 - [GraphMyCSS.com](https://graphmycss.com) - CSS Specificity Graph Generator.
-- [Parker](https://github.com/katiefenn/parker) - Stylesheet analysis tool.
+- [Parker](https://github.com/katiefenn/parker) :warning: - Stylesheet analysis tool.
 - [PostCSS](https://postcss.org) - A tool for transforming styles with JS plugins. These plugins can lint your CSS, support variables and mixins, transpile future CSS syntax, inline images, and more.
 - [Project Wallace CSS Analyzer](https://www.projectwallace.com) - Analytics for CSS, part of [Project Wallace](https://www.projectwallace.com).
 - [sass-lint](https://github.com/sasstools/sass-lint) :warning: - A Node-only Sass linter for both sass and scss syntax.
-- [scsslint](https://github.com/brigade/scss-lint) :warning: - Linter for SCSS files.
+- [scsslint](https://github.com/brigade/scss-lint) - Linter for SCSS files.
 - [Specificity Graph](https://jonassebastianohlsson.com/specificity-graph) - CSS Specificity Graph Generator.
 - [Stylelint](http://stylelint.io) - Linter for SCSS/CSS files.
 
@@ -768,9 +774,9 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [anchore](https://anchore.io) - Discover, analyze, and certify container images.
 - [clair](https://github.com/coreos/clair) - Vulnerability Static Analysis for Containers.
-- [collector](https://github.com/banyanops/collector) - Run arbitrary scripts inside containers, and gather useful information.
+- [collector](https://github.com/banyanops/collector) :warning: - Run arbitrary scripts inside containers, and gather useful information.
 - [dagda](https://github.com/eliasgranderubio/dagda) - Perform static analysis of known vulnerabilities in docker images/containers.
-- [Docker Label Inspector](https://github.com/garethr/docker-label-inspector) - Lint and validate Dockerfile labels.
+- [Docker Label Inspector](https://github.com/garethr/docker-label-inspector) :warning: - Lint and validate Dockerfile labels.
 - [Haskell Dockerfile Linter](https://github.com/lukasmartinelli/hadolint) - A smarter Dockerfile linter that helpsyou build best practice Docker images.
 - [kube-score](https://kube-score.com) - Static code analysis of your Kubernetes object definitions.
 - [kubeval](https://kubeval.instrumenta.dev) - Validates your Kubernetes configuration files and supports multiple Kubernetes versions.
@@ -792,7 +798,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [grunt-bootlint](https://github.com/twbs/grunt-bootlint) - A Grunt wrapper for [Bootlint](https://github.com/twbs/bootlint), the HTML linter for Bootstrap projects.
 - [gulp-bootlint](https://github.com/tschortsch/gulp-bootlint) - A gulp wrapper for [Bootlint](https://github.com/twbs/bootlint), the HTML linter for Bootstrap projects.
 - [HTML Inspector](https://github.com/philipwalton/html-inspector) :warning: - HTML Inspector is a code quality tool to help you and your team write better markup.
-- [HTML Tidy](http://www.html-tidy.org) - Corrects and cleans up HTML and XML documents by fixing markup errors and upgrading legacy code to modern standards.
+- [HTML Tidy](http://www.html-tidy.org) :warning: - Corrects and cleans up HTML and XML documents by fixing markup errors and upgrading legacy code to modern standards.
 - [HTMLHint](https://htmlhint.com) - A Static Code Analysis Tool for HTML.
 
 
@@ -813,15 +819,15 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="mobile">Mobile</h2>
 
 - [Android Lint](http://tools.android.com/tips/lint) - Run static analysis on Android projects.
-- [android-lint-summary](https://passy.github.io/android-lint-summary) - Combines lint errors of multiple projects into one output, check lint results of multiple sub-projects at once.
+- [android-lint-summary](https://passy.github.io/android-lint-summary) :warning: - Combines lint errors of multiple projects into one output, check lint results of multiple sub-projects at once.
 - [FlowDroid](https://github.com/secure-software-engineering/FlowDroid) - Static taint analysis tool for Android applications.
-- [paprika](https://github.com/GeoffreyHecht/paprika) - A toolkit to detect some code smells in analyzed Android applications.
-- [qark](https://github.com/linkedin/qark) - Tool to look for several security related Android application vulnerabilities.
+- [paprika](https://github.com/GeoffreyHecht/paprika) :warning: - A toolkit to detect some code smells in analyzed Android applications.
+- [qark](https://github.com/linkedin/qark) :warning: - Tool to look for several security related Android application vulnerabilities.
 
 
 <h2 id="package">Packages</h2>
 
-- [lintian](https://lintian.debian.org) - Static analysis tool for Debian packages.
+- [lintian](https://lintian.debian.org) :warning: - Static analysis tool for Debian packages.
 - [rpmlint](https://github.com/rpm-software-management/rpmlint) - Tool for checking common errors in rpm packages.
 
 
@@ -838,6 +844,8 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="smart-contracts">Smart Contracts</h2>
 
+- [mythril](https://github.com/ConsenSys/mythril) - A symbolic execution framework with batteries included, can be used to find and exploit vulnerabilities in smart contracts automatically.
+- [MythX](https://mythx.io) :copyright: - MythX is an easy to use analysis platform which integrates several analysis methods like fuzzing, symbolic execution and static analysis to find vulnerabilities with high precision.
 - [slither](https://github.com/trailofbits/slither) - Static analysis framework that runs a suite of vulnerability detectors, prints visual information about contract details, and provides an API to easily write custom analyses.
 - [solhint](https://protofire.github.io/solhint) - Solhint is an open source project created by https://protofire.io. Its goal is to provide a linting utility for Solidity code.
 - [solium](https://ethlint.readthedocs.io/en/latest) - Solium is a linter to identify and fix style and security issues in Solidity smart contracts.
@@ -880,7 +888,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [languagetool](https://languagetool.org) - Style and grammar checker for 25+ languages. It finds many errors that a simple spell checker cannot detect.
 - [misspell-fixer](https://github.com/vlajos/misspell-fixer) - Quick tool for fixing common misspellings, typos in source code.
 - [Misspelled Words In Context](http://jwilk.net/software/mwic) - A spell-checker that groups possible misspellings and shows them in their contexts.
-- [proselint](http://proselint.com) - A linter for English prose with a focus on writing style instead of grammar.
+- [proselint](http://proselint.com) :warning: - A linter for English prose with a focus on writing style instead of grammar.
 - [vale](https://errata-ai.gitbook.io/vale) - A customizable, syntax-aware linter for prose.
 - [write-good](https://github.com/btford/write-good) - A linter with a focus on eliminating "weasel words".
 

@@ -3,9 +3,9 @@ categories:
   - linter
 tags:
   - r
+license: Other
 types:
   - cli
-license: proprietary
 source: 'https://github.com/jimhester/lintr'
 homepage: 'https://github.com/jimhester/lintr'
 description: Static Code Analysis for R.

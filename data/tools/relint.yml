@@ -9,7 +9,7 @@ tags:
   - javascript
   - jsx
   - python
-license: MIT
+license: MIT License
 types:
   - cli
 source: 'https://github.com/codingjoe/relint'

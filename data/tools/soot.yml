@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - java
-license: LGPL-2.1-only
+license: GNU Lesser General Public License v2.1
 types:
   - cli
 source: 'https://github.com/soot-oss/soot'

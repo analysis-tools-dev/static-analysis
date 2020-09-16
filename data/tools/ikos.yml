@@ -4,7 +4,7 @@ categories:
 tags:
   - c
   - cpp
-license: NASA-1.3
+license: Other
 types:
   - cli
 source: 'https://github.com/nasa-sw-vnv/ikos'

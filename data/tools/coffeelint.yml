@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - coffeescript
-license: MIT
+license: Other
 types:
   - cli
 source: 'https://github.com/clutchski/coffeelint'

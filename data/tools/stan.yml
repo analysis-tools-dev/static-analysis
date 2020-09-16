@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - haskell
-license: MPL-2.0
+license: Mozilla Public License 2.0
 types:
   - cli
 source: 'https://github.com/kowainik/stan'

@@ -4,7 +4,7 @@ categories:
 tags:
   - swift
 deprecated: true
-license: MIT
+license: MIT License
 types:
   - cli
 source: 'https://github.com/sleekbyte/tailor'

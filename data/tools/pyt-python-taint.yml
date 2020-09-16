@@ -4,9 +4,9 @@ categories:
 tags:
   - python
 deprecated: true
+license: GNU General Public License v2.0
 types:
   - cli
-license: GPL-2.0 License 
 source: 'https://github.com/python-security/pyt'
 homepage: 'https://github.com/python-security/pyt'
 description: >-

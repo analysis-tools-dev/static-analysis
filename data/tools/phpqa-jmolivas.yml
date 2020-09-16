@@ -3,9 +3,9 @@ categories:
   - linter
 tags:
   - php
+license: MIT License
 types:
   - cli
-license: MIT
 source: 'https://github.com/jmolivas/phpqa'
 homepage: 'https://github.com/jmolivas/phpqa'
 description: PHPQA all-in-one Analyzer CLI tool.

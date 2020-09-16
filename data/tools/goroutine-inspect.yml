@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - go
-license: BSD-2-Clause
+license: BSD 2-Clause "Simplified" License
 types:
   - cli
 source: 'https://github.com/linuxerwang/goroutine-inspect'

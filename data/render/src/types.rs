@@ -34,11 +34,9 @@ pub struct Entry {
     pub homepage: String,
     pub source: Option<String>,
     pub description: String,
-
-    // implement in the convert script
     pub discussion: Option<String>,
     pub deprecated: Option<bool>,
-    pub wrapper: Option<bool>,
+    pub wrapper: Option<bool>, // rename and map to category metalinter
 }
 
 impl PartialOrd for Entry {

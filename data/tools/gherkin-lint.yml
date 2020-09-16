@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - gherkin
-license: ISC
+license: ISC License
 types:
   - cli
 source: 'https://github.com/vsiakka/gherkin-lint'

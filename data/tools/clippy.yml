@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - rust
-license: Apache-2.0/MIT
+license: Other
 types:
   - cli
 source: 'https://github.com/rust-lang/rust-clippy'

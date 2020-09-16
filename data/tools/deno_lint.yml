@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - deno
-license: MIT
+license: MIT License
 types:
   - cli
 source: 'https://github.com/denoland/deno_lint'

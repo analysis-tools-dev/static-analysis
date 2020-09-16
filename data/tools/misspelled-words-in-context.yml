@@ -3,9 +3,9 @@ categories:
   - linter
 tags:
   - writing
+license: MIT License
 types:
   - cli
-license: MIT
 source: 'https://github.com/jwilk/mwic'
 homepage: 'http://jwilk.net/software/mwic'
 description: >-

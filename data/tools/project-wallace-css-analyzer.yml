@@ -3,9 +3,9 @@ categories:
   - linter
 tags:
   - css
+license: MIT License
 types:
   - cli
-license: MIT
 source: 'https://github.com/projectwallace/css-analyzer'
 homepage: 'https://www.projectwallace.com'
 description: 'Analytics for CSS, part of [Project Wallace](https://www.projectwallace.com).'

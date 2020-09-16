@@ -4,7 +4,7 @@ categories:
 tags:
   - java
   - javascript
-license: EPL-2.0
+license: Eclipse Public License 2.0
 types:
   - cli
 source: 'https://github.com/wala/WALA'

@@ -83,7 +83,10 @@ const matchEsotericLicenses = (licenseText) => {
     "CeCILL-C license"
   );
   licenseMap.set("LibVCS4j", "MIT/GPL-3.0/LGPL-3.0");
-  licenseMap.set("Checker Framework developers", "GPL with Classpath exception / MIT License")
+  licenseMap.set(
+    "Checker Framework developers",
+    "GPL with Classpath exception / MIT License"
+  );
 
   const licenseTextSanitized = licenseText.replace(/\s+/g, "").toLowerCase();
   // console.log(`Checking esoteric license ${licenseTextSanitized}`);
@@ -165,10 +168,11 @@ const getLicense = async (tool) => {
       );
     });
     const licenseText = await licenseTextAsync;
-    fs.writeFileSync(`license-${tool.name}`, licenseText);
+    console.log(tool.name);
+    fs.writeFileSync(`license-${tool.name.replace(/\ /g, "")}`, licenseText);
     try {
       const { stdout, stderr } = await exec(
-        `askalono identify license-${tool.name}`,
+        `askalono identify license-${tool.name.replace(/\ /g, "")}`,
         {
           shell: true,
         }
@@ -181,9 +185,12 @@ const getLicense = async (tool) => {
       }
     } catch (e) {
       console.log(e);
-      return matchEsotericLicenses(licenseText);
+      const esoteric = matchEsotericLicenses(licenseText);
+      if (esoteric) {
+        return esoteric;
+      }
     } finally {
-      fs.unlinkSync(`license-${tool.name}`);
+      fs.unlinkSync(`license-${tool.name.replace(/\ /g, "")}`);
     }
   }
   // Halt and catch fire
@@ -217,7 +224,7 @@ const getCategory = (tool) => {
     category.push("formatter");
   }
 
-  if (tool.tags.includes("meta")) {
+  if (tool.tags.includes("meta") || tool.wrapper) {
     category.push("meta");
   } else if (tool.description.toLowerCase().includes("lint")) {
     category.push("linter");
@@ -290,6 +297,10 @@ const run = async () => {
           stripWWW: false,
         });
       }
+      if (tool.discussion) {
+        x.discussion = tool.discussion;
+      }
+
       if (tool.description) {
         x.description = tool.description;
       }

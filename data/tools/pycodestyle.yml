@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - python
-license: MIT
+license: Other
 types:
   - cli
 source: 'https://github.com/PyCQA/pycodestyle'

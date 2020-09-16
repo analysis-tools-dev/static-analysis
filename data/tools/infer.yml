@@ -6,7 +6,7 @@ tags:
   - cpp
   - java
   - objectivec
-license: MIT
+license: MIT License
 types:
   - cli
 source: 'https://github.com/facebook/infer'

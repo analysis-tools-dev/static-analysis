@@ -9,9 +9,9 @@ tags:
   - plsql
   - tsql
 deprecated: true
+license: Other
 types:
   - cli
-license: JSC Positive Technologies license agreement
 source: 'https://github.com/PositiveTechnologies/PT.PM'
 homepage: 'https://github.com/PositiveTechnologies/PT.PM'
 description: >-

@@ -4,7 +4,7 @@ categories:
 tags:
   - css
 deprecated: true
-license: MIT
+license: MIT License
 types:
   - cli
 source: 'https://github.com/brigade/scss-lint'

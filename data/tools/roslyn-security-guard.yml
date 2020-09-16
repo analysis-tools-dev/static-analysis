@@ -4,9 +4,9 @@ categories:
 tags:
   - csharp
   - vbnet
+license: GNU Lesser General Public License v3.0
 types:
   - cli
-license: LGPL-3.0 License 
 source: 'https://github.com/security-code-scan/security-code-scan'
 homepage: 'https://security-code-scan.github.io'
 description: >-

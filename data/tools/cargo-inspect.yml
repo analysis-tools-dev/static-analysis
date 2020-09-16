@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - rust
-license: MIT
+license: Other
 types:
   - cli
 source: 'https://github.com/mre/cargo-inspect'

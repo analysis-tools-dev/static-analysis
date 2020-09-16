@@ -3,7 +3,7 @@ categories:
   - formatter
 tags:
   - css
-license: MIT
+license: MIT License
 types:
   - cli
 source: 'https://github.com/csscomb/csscomb.js'

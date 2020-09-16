@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - python
-license: MIT
+license: MIT License
 types:
   - cli
 source: 'https://github.com/wemake-services/wemake-python-styleguide'

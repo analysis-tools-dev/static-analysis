@@ -14,7 +14,7 @@ tags:
   - powershell
   - python
   - ruby
-license: MIT
+license: MIT License
 types:
   - cli
 source: 'https://github.com/microsoft/ApplicationInspector'

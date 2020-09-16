@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - php
-license: MIT
+license: Other
 types:
   - cli
 source: 'https://github.com/etsy/phan'

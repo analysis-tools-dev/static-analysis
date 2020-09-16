@@ -4,7 +4,7 @@ categories:
 tags:
   - c
   - cpp
-license: GPL-2.0-only
+license: Other
 types:
   - cli
 source: 'https://github.com/ravenexp/splint'

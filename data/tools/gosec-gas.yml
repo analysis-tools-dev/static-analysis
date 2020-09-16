@@ -3,9 +3,9 @@ categories:
   - linter
 tags:
   - go
+license: Apache License 2.0
 types:
   - cli
-license: Apache License 2.0
 source: 'https://github.com/securego/gosec'
 homepage: 'https://securego.io'
 description: Inspects source code for security problems by scanning the Go AST.

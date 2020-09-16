@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - configmanagement
-license: MIT
+license: MIT License
 types:
   - cli
 source: 'https://github.com/foodcritic/foodcritic'

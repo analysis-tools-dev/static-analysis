@@ -5,7 +5,7 @@ tags:
   - html
   - javascript
   - typescript
-license: MIT
+license: MIT License
 types:
   - cli
 source: 'https://github.com/prettier/prettier'

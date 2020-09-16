@@ -7,7 +7,7 @@ tags:
   - plsql
   - scala
   - xml
-license: Apache-2.0
+license: Other
 types:
   - cli
 source: 'https://github.com/pmd/pmd'

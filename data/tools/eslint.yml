@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - typescript
-license: BSD-2-Clause
+license: Other
 types:
   - cli
 source: 'https://github.com/typescript-eslint/typescript-eslint'

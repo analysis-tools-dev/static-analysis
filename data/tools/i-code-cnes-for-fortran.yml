@@ -3,9 +3,9 @@ categories:
   - linter
 tags:
   - fortran
+license: Eclipse Public License 1.0
 types:
   - cli
-license: EPL-1.0 License 
 source: 'https://github.com/lequal/i-CodeCNES'
 homepage: 'https://github.com/lequal/i-CodeCNES'
 description: 'An open source static code analysis tool for Fortran 77, Fortran 90 and Shell.'

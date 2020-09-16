@@ -4,7 +4,7 @@ categories:
 tags:
   - rails
   - ruby
-license: MIT
+license: MIT License
 types:
   - cli
 source: 'https://github.com/thesp0nge/dawnscanner'

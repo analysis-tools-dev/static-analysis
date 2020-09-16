@@ -1,11 +1,12 @@
 name: unimport
 categories:
+  - formatter
   - linter
 tags:
-  - go
-license: MIT
+  - python
+license: MIT License
 types:
   - cli
-source: 'https://github.com/alexkohler/unimport'
-homepage: 'https://github.com/alexkohler/unimport'
-description: Finds unnecessary import aliases.
+source: 'https://github.com/hakancelik96/unimport'
+homepage: 'https://unimport.hakancelik.dev'
+description: 'A linter, formatter for finding and removing unused import statements.'

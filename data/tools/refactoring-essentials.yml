@@ -4,9 +4,9 @@ categories:
 tags:
   - csharp
   - vbnet
+license: MIT License
 types:
   - cli
-license: MIT
 source: 'https://github.com/icsharpcode/RefactoringEssentials'
 homepage: >-
   https://marketplace.visualstudio.com/items?itemName=SharpDevelopTeam.RefactoringEssentialsforVisualStudio

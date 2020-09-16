@@ -4,9 +4,9 @@ categories:
 tags:
   - c
   - cpp
+license: Other
 types:
   - cli
-license: SVF Release License
 source: 'https://github.com/SVF-tools/SVF'
 homepage: 'http://svf-tools.github.io/SVF'
 description: >-

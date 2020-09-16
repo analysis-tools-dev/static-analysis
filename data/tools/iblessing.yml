@@ -1,0 +1,14 @@
+name: iblessing
+categories:
+  - linter
+tags:
+  - mobile
+  - security
+license: GNU General Public License v3.0
+types:
+  - cli
+source: 'https://github.com/Soulghost/iblessing'
+homepage: 'https://www.kitploit.com/2020/08/iblessing-ios-security-exploiting.html'
+description: >-
+  iblessing is an iOS security exploiting toolkit. It can be used for reverse
+  engineering, binary analysis and vulnerability mining.

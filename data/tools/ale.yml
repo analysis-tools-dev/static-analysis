@@ -4,7 +4,7 @@ categories:
 tags:
   - javascript
   - python
-license: BSD-2-Clause
+license: BSD 2-Clause "Simplified" License
 types:
   - ide-plugin
 source: 'https://github.com/w0rp/ale'

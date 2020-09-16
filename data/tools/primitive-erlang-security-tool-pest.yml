@@ -3,9 +3,9 @@ categories:
   - linter
 tags:
   - erlang
+license: MIT License
 types:
   - cli
-license: MIT
 source: 'https://github.com/okeuday/pest'
 homepage: 'https://github.com/okeuday/pest'
 description: >-
