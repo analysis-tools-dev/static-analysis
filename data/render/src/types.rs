@@ -36,7 +36,7 @@ pub struct Entry {
     pub description: String,
     pub discussion: Option<String>,
     pub deprecated: Option<bool>,
-    pub wrapper: Option<bool>, // rename and map to category metalinter
+    pub wrapper: Option<bool>,
 }
 
 impl PartialOrd for Entry {
