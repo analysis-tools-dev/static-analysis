@@ -658,6 +658,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Klocwork](https://www.perforce.com/products/klocwork) :copyright: - Quality and Security Static analysis for C/C++, Java and C#.
 - ![stars](https://img.shields.io/github/stars/shyiko/ktlint?style=flat-square&color=ccc) [ktlint](https://ktlint.github.io/) - An anti-bikeshedding Kotlin linter with built-in formatter.
 - [LGTM.com](https://lgtm.com/) :copyright: - Deep code analysis for GitHub and Bitbucket to find security vulnerabilities and critical code quality issues (using Semmle QL). Automatic code review for pull requests; free for public repositories.
+- [Lumnify](https://lumnify.com/) :copyright: - Benchmark against thousands of projects, and analyse code for structural quality with focus on maintainability.
 - ![stars](https://img.shields.io/github/stars/adamchainz/multilint?style=flat-square&color=ccc) [multilint](https://github.com/adamchainz/multilint) - A wrapper around `flake8`, `isort` and `modernize`.
 - [Nitpick CI](https://nitpick-ci.com) :copyright: - Automated PHP code review.
 - ![stars](https://img.shields.io/github/stars/ajinabraham/NodeJsScan?style=flat-square&color=ccc) [NodeJSScan](https://opensecurity.in/) - NodeJsScan is a static security code scanner for Node.js applications.
