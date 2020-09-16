@@ -37,21 +37,6 @@ fn read_tools(file: String) -> Result<Vec<Entry>, Box<dyn Error>> {
             Ok(entry)
         })
         .collect::<Result<Vec<Entry>, _>>()
-
-    // files.map(|x| {
-    //     // println!("{:?}", f)
-    //     match x {
-    //         Ok(f) => {
-    //             let file = std::fs::File::open(f);
-    //             serde_yaml::from_reader(file)
-    //         }
-    //     }
-    // });
-    // .collect()?;
-
-    // let f = std::fs::File::open(file)?;
-    // Ok(serde_yaml::from_reader(f)?)
-    // Ok(serde_yaml::from_str("{}")?)
 }
 
 fn main() -> Result<(), Box<dyn Error>> {
