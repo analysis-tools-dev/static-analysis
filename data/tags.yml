@@ -127,132 +127,6 @@
 - name: PL/SQL
   tag: plsql
   type: language
-
-  tag: actionscript
-  type: language
-- name: Active Server Pages
-  tag: asp
-  type: language
-- name: Ada
-  tag: ada
-  type: language
-- name: Assembly
-  tag: asm
-  type: language
-- name: ASP.NET
-  tag: aspnet
-  type: language
-- name: Apex
-  tag: apex
-  type: language
-- name: Awk
-  tag: awk
-  type: language
-- name: C
-  tag: c
-  type: language
-- name: Clojure
-  tag: clojure
-  type: language
-- name: COBOL
-  tag: cobol
-  type: language
-- name: CoffeeScript
-  tag: coffeescript
-  type: language
-- name: ColdFusion
-  tag: coldfusion
-  type: language
-- name: C++
-  tag: cpp
-  type: language
-- name: "C#"
-  tag: csharp
-  type: language
-- name: Crystal
-  tag: crystal
-  type: language
-- name: Dart
-  tag: dart
-  type: language
-- name: Dlang
-  tag: dlang
-  type: language
-- name: Delphi
-  tag: delphi
-  type: language
-- name: Elixir
-  tag: elixir
-  type: language
-- name: Elm
-  tag: elm
-  type: language
-- name: Erlang
-  tag: erlang
-  type: language
-- name: "F#"
-  tag: fsharp
-  type: language
-- name: Fortran
-  tag: fortran
-  type: language
-- name: Formatter
-  tag: formatter
-  type: other
-- name: Go
-  tag: go
-  type: language
-- name: Groovy
-  tag: groovy
-  type: language
-- name: Haskell
-  tag: haskell
-  type: language
-- name: Haxe
-  tag: haxe
-  type: language
-- name: Java
-  tag: java
-  type: language
-- name: JavaServer Pages
-  tag: jsp
-  type: language
-- name: JavaScript
-  tag: javascript
-  type: language
-- name: JSX
-  tag: jsx
-  type: language
-- name: Julia
-  tag: julia
-  type: language
-- name: Kotlin
-  tag: kotlin
-  type: language
-- name: Lua
-  tag: lua
-  type: language
-- name: Lightning Web Components
-  tag: lwc
-  type: language
-- name: MATLAB
-  tag: matlab
-  type: language
-- name: Objective C
-  tag: objectivec
-  type: language
-- name: Obj-C
-  tag: objectivec
-  type: language
-- name: Perl
-  tag: perl
-  type: language
-- name: PHP
-  tag: php
-  type: language
-- name: PL/SQL
-  tag: plsql
-  type: language
 - name: Python
   tag: python
   type: language
@@ -376,8 +250,30 @@
 - name: PhoneGap
   tag: phonegap
   type: other
-- n- name: Python
-  t
+- name: PowerShell
+  tag: powershell
+  type: language
+- name: Protocol Buffers
+  tag: protobuf
+  type: other
+- name: Security
+  tag: security
+  type: other
+- name: Support
+  tag: support
+  type: other
+- name: Template-Languages
+  tag: template
+  type: other
+- name: Translation
+  tag: translation
+  type: other
+- name: Visualforce
+  tag: visualforce
+  type: language
+- name: Lightning Web Components
+  tag: lwc
+  type: language  
 - name: Vue.js
   tag: vue
   type: other
