@@ -533,30 +533,25 @@
   tags:
     - service
     - apex
-    - bash
-    - c
-    - coffeeScript
+    - shell
+    - coffeescript
     - cpp
     - csharp
     - crystal
     - css
-    - docker
     - elixir
     - go
     - groovy
     - java
-    - javaScript
+    - javascript
     - json
     - jsp
     - kotlin
-    - less
     - markdown
     - php
-    - PLSQL
-    - Powershell
+    - plsql
     - python
     - ruby
-    - sass
     - scala
     - swift
     - tsql
