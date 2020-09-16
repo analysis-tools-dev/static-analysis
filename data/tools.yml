@@ -1951,6 +1951,22 @@
   description: A tool for linting and static analysis of Lua code.
   tags:
     - lua
+- name: Lumnify
+  homepage: "https://lumnify.com/"
+  description: Benchmark against thousands of projects, and analyse code for structural quality with focus on maintainability.
+  tags:
+    - c
+    - cpp
+    - csharp
+    - java
+    - javascript
+    - php
+    - ruby
+    - python
+    - perl
+    - swift
+    - objectivec
+  proprietary: true
 - name: maligned
   homepage: "https://github.com/mdempsky/maligned"
   source: "https://github.com/mdempsky/maligned"

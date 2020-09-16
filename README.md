@@ -657,8 +657,15 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [InsiderSec](https://insidersec.io) - A open source Static Application Security Testing tool (SAST) written in GoLang for Java (Maven and Android), Kotlin (Android), Swift (iOS), .NET Full Framework, C# and Javascript (Node.js).
 - [Kiuwan](https://www.kiuwan.com/code-security-sast) :copyright: - Identify and remediate cyber threats in a blazingly fast, collaborative environment, with seamless integration in your SDLC. Python, C\C++, Java, C#, PHP and more.
 - [Klocwork](https://www.perforce.com/products/klocwork) :copyright: - Quality and Security Static analysis for C/C++, Java and C#.
+<<<<<<< HEAD
 - [LGTM.com](https://lgtm.com) :copyright: - Deep code analysis for GitHub and Bitbucket to find security vulnerabilities and critical code quality issues (using Semmle QL). Automatic code review for pull requests; free for public repositories.
 - [multilint](https://github.com/adamchainz/multilint) - A wrapper around `flake8`, `isort` and `modernize`.
+=======
+- ![stars](https://img.shields.io/github/stars/shyiko/ktlint?style=flat-square&color=ccc) [ktlint](https://ktlint.github.io/) - An anti-bikeshedding Kotlin linter with built-in formatter.
+- [LGTM.com](https://lgtm.com/) :copyright: - Deep code analysis for GitHub and Bitbucket to find security vulnerabilities and critical code quality issues (using Semmle QL). Automatic code review for pull requests; free for public repositories.
+- [Lumnify](https://lumnify.com/) :copyright: - Benchmark against thousands of projects, and analyse code for structural quality with focus on maintainability.
+- ![stars](https://img.shields.io/github/stars/adamchainz/multilint?style=flat-square&color=ccc) [multilint](https://github.com/adamchainz/multilint) - A wrapper around `flake8`, `isort` and `modernize`.
+>>>>>>> origin/master
 - [Nitpick CI](https://nitpick-ci.com) :copyright: - Automated PHP code review.
 - [NodeJSScan](https://opensecurity.in) - NodeJsScan is a static security code scanner for Node.js applications.
 - [oclint](http://oclint.org) - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C.
