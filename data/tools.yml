@@ -572,9 +572,8 @@
   tags:
     - service
     - apex
-    - Salesforce
     - lwc
-    - Visualforce
+    - visualforce
   proprietary: true
 - name: Clayton
   homepage: "https://www.getclayton.com/"
@@ -582,9 +581,8 @@
   tags:
     - service
     - apex
-    - Salesforce
     - lwc
-    - Visualforce
+    - visualforce
   proprietary: true
 - name: Code Analysis Rule Collection
   homepage: "https://carc.codeplex.com/"
