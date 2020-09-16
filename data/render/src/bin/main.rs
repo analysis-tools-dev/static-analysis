@@ -1,6 +1,6 @@
 use askama::Template;
 use render::types::{Entry, Tags};
-use render::{group, validate, check_deprecated};
+use render::{check_deprecated, group, validate};
 use std::env;
 use std::error::Error;
 use std::ffi::OsStr;
@@ -33,7 +33,6 @@ fn read_tools(file: String) -> Result<Vec<Entry>, Box<dyn Error>> {
         .iter()
         .map(|p| {
             let file = std::fs::File::open(p)?;
-            dbg!(&p);
             let entry: Entry = serde_yaml::from_reader(file)?;
             Ok(entry)
         })
