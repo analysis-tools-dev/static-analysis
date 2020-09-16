@@ -1,0 +1,17 @@
+name: imhotep
+categories:
+  - meta
+tags:
+  - buildtool
+  - javascript
+  - meta
+  - python
+  - ruby
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/justinabrahms/imhotep'
+homepage: 'https://github.com/justinabrahms/imhotep'
+description: >-
+  Comment on commits coming into your repository and check for syntactic errors
+  and general lint warnings.

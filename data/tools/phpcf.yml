@@ -1,0 +1,11 @@
+name: phpcf
+categories:
+  - linter
+tags:
+  - php
+license: BSD-3-Clause
+types:
+  - cli
+source: 'https://github.com/wapmorgan/PhpCodeFixer'
+homepage: 'http://wapmorgan.github.io/PhpCodeFixer'
+description: Finds usage of deprecated PHP features.

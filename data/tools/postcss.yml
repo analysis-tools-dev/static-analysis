@@ -1,0 +1,14 @@
+name: PostCSS
+categories:
+  - linter
+tags:
+  - css
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/postcss/postcss'
+homepage: 'https://postcss.org'
+description: >-
+  A tool for transforming styles with JS plugins. These plugins can lint your
+  CSS, support variables and mixins, transpile future CSS syntax, inline images,
+  and more.

@@ -1,0 +1,11 @@
+name: PHP Architecture Tester
+categories:
+  - linter
+tags:
+  - php
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/carlosas/phpat'
+homepage: 'https://github.com/carlosas/phpat'
+description: Easy to use architecture testing tool for PHP.

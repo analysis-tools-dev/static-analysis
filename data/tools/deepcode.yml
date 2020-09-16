@@ -1,0 +1,20 @@
+name: DeepCode
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - java
+  - javascript
+  - python
+  - typescript
+license: proprietary
+types:
+  - cli
+homepage: 'https://www.deepcode.ai'
+description: >-
+  DeepCode finds bugs, security vulnerabilities, performance and API issues
+  based on AI. DeepCode's speed of analysis allow us to analyse your code in
+  real time and deliver results when you hit the save button in your IDE.
+  Supported languages are Java, C/C++, JavaScript, Python, and TypeScript.
+  Integrations with GitHub, BitBucket and Gitlab.

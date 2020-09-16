@@ -1,0 +1,11 @@
+name: CSS Stats
+categories:
+  - linter
+tags:
+  - css
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/cssstats/cssstats'
+homepage: 'https://cssstats.com'
+description: Potentially interesting stats on stylesheets.

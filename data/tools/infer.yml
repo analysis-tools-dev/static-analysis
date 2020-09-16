@@ -1,0 +1,14 @@
+name: Infer
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - java
+  - objectivec
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/facebook/infer'
+homepage: 'https://fbinfer.com'
+description: 'A static analyzer for Java, C and Objective-C'

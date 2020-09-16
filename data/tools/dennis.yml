@@ -1,0 +1,13 @@
+name: dennis
+categories:
+  - linter
+tags:
+  - translation
+license: BSD-3-Clause
+types:
+  - cli
+source: 'https://github.com/willkg/dennis'
+homepage: 'https://github.com/willkg/dennis'
+description: >-
+  A set of utilities for working with PO files to ease development and improve
+  quality.

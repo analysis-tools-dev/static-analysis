@@ -1,0 +1,11 @@
+name: unparam
+categories:
+  - linter
+tags:
+  - go
+license: BSD 3-Clause "New" or "Revised" License
+types:
+  - cli
+source: 'https://github.com/mvdan/unparam'
+homepage: 'https://github.com/mvdan/unparam'
+description: Find unused function parameters.

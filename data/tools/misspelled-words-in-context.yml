@@ -1,0 +1,13 @@
+name: Misspelled Words In Context
+categories:
+  - linter
+tags:
+  - writing
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/jwilk/mwic'
+homepage: 'http://jwilk.net/software/mwic'
+description: >-
+  A spell-checker that groups possible misspellings and shows them in their
+  contexts.

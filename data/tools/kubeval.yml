@@ -1,0 +1,13 @@
+name: kubeval
+categories:
+  - linter
+tags:
+  - container
+license: Other
+types:
+  - cli
+source: 'https://github.com/instrumenta/kubeval'
+homepage: 'https://kubeval.instrumenta.dev'
+description: >-
+  Validates your Kubernetes configuration files and supports multiple Kubernetes
+  versions.

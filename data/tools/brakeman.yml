@@ -1,0 +1,14 @@
+name: brakeman
+categories:
+  - linter
+tags:
+  - ruby
+  - security
+license: Other
+types:
+  - cli
+source: 'https://github.com/presidentbeef/brakeman'
+homepage: 'https://brakemanscanner.org'
+description: >-
+  A static analysis security vulnerability scanner for Ruby on Rails
+  applications.

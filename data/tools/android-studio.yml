@@ -1,0 +1,15 @@
+name: Android Studio
+categories:
+  - linter
+tags:
+  - java
+  - kotlin
+license: Android Software Development Kit License Agreement
+types:
+  - ide-plugin
+source: >-
+  https://android.googlesource.com/platform/tools/adt/idea/+/refs/heads/mirror-goog-studio-master-dev
+homepage: 'https://developer.android.com/studio'
+description: >-
+  Based on IntelliJ IDEA, and comes bundled with tools for Android including
+  Android Lint.

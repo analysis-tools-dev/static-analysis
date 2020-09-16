@@ -1,0 +1,13 @@
+name: cargo-audit
+categories:
+  - linter
+tags:
+  - rust
+license: Other
+types:
+  - cli
+source: 'https://github.com/RustSec/cargo-audit'
+homepage: 'https://rustsec.org'
+description: >-
+  Audit Cargo.lock for crates with security vulnerabilities reported to the
+  [RustSec Advisory Database](https://github.com/RustSec/advisory-db/).

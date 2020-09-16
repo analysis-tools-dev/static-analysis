@@ -1,0 +1,13 @@
+name: aether
+categories:
+  - linter
+tags:
+  - javascript
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/codecombat/aether'
+homepage: 'http://aetherjs.com'
+description: >-
+  Lint, analyze, normalize, transform, sandbox, run, step through, and visualize
+  user JavaScript, in node or the browser.

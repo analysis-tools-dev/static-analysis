@@ -1,0 +1,14 @@
+name: dawnscanner
+categories:
+  - linter
+tags:
+  - rails
+  - ruby
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/thesp0nge/dawnscanner'
+homepage: 'https://github.com/thesp0nge/dawnscanner'
+description: >-
+  A static analysis security scanner for ruby written web applications. It
+  supports Sinatra, Padrino and Ruby on Rails frameworks.

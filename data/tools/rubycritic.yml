@@ -1,0 +1,11 @@
+name: rubycritic
+categories:
+  - linter
+tags:
+  - ruby
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/whitesmith/rubycritic'
+homepage: 'https://github.com/whitesmith/rubycritic'
+description: A Ruby code quality reporter.

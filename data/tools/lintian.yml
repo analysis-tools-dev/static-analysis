@@ -1,0 +1,11 @@
+name: lintian
+categories:
+  - linter
+tags:
+  - package
+license: GNU General Public License v2.0
+types:
+  - cli
+source: 'https://github.com/Debian/lintian'
+homepage: 'https://lintian.debian.org'
+description: Static analysis tool for Debian packages.

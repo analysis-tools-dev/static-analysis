@@ -1,0 +1,11 @@
+name: clippy
+categories:
+  - linter
+tags:
+  - rust
+license: Other
+types:
+  - cli
+source: 'https://github.com/rust-lang/rust-clippy'
+homepage: 'https://rust-lang.github.io/rust-clippy'
+description: A code linter to catch common mistakes and improve your Rust code.

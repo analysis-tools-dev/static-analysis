@@ -1,0 +1,11 @@
+name: Sorbet
+categories:
+  - linter
+tags:
+  - ruby
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/sorbet/sorbet'
+homepage: 'https://sorbet.org'
+description: 'A fast, powerful type checker designed for Ruby.'

@@ -1,0 +1,13 @@
+name: forbidden-apis
+categories:
+  - linter
+tags:
+  - java
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/policeman-tools/forbidden-apis'
+homepage: 'https://github.com/policeman-tools/forbidden-apis'
+description: >-
+  Detects and forbids invocations of specific method/class/field (like reading
+  from a text stream without a charset). Maven/Gradle/Ant compatible.

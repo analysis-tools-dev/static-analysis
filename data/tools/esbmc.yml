@@ -1,0 +1,15 @@
+name: ESBMC
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/esbmc/esbmc'
+homepage: 'http://esbmc.org'
+description: >-
+  ESBMC is an open source, permissively licensed, context-bounded model checker
+  based on satisfiability modulo theories for the verification of single- and
+  multi-threaded C/C++ programs.

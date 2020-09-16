@@ -1,0 +1,10 @@
+name: Codepeer
+categories:
+  - linter
+tags:
+  - ada
+license: proprietary
+types:
+  - cli
+homepage: 'http://www.adacore.com/codepeer'
+description: Detects run-time and logic errors.

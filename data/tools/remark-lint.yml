@@ -1,0 +1,11 @@
+name: remark-lint
+categories:
+  - linter
+tags:
+  - markdown
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/remarkjs/remark-lint'
+homepage: 'https://remark.js.org'
+description: Pluggable Markdown code style linter written in JavaScript.

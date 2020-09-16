@@ -1,0 +1,11 @@
+name: PHP-Token-Reflection
+categories:
+  - linter
+tags:
+  - php
+license: Other
+types:
+  - cli
+source: 'https://github.com/Andrewsville/PHP-Token-Reflection'
+homepage: 'https://github.com/Andrewsville/PHP-Token-Reflection'
+description: Library emulating the PHP internal reflection.

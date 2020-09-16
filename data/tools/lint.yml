@@ -1,0 +1,13 @@
+name: lint
+categories:
+  - linter
+tags:
+  - dart
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/passsy/dart-lint'
+homepage: 'https://github.com/passsy/dart-lint'
+description: >-
+  An opinionated, community-driven set of lint rules for Dart and Flutter
+  projects. Like pedantic but stricter

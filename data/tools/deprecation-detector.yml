@@ -1,0 +1,11 @@
+name: deprecation-detector
+categories:
+  - linter
+tags:
+  - php
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/sensiolabs-de/deprecation-detector'
+homepage: 'https://github.com/sensiolabs-de/deprecation-detector'
+description: Finds usages of deprecated (Symfony) code.

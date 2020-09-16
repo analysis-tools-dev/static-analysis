@@ -1,0 +1,12 @@
+name: php7mar
+categories:
+  - linter
+tags:
+  - php
+deprecated: true
+license: GNU General Public License v3.0
+types:
+  - cli
+source: 'https://github.com/Alexia/php7mar'
+homepage: 'https://github.com/Alexia/php7mar'
+description: Assist developers in porting their code quickly to PHP 7.

@@ -1,0 +1,13 @@
+name: goodpractice
+categories:
+  - linter
+tags:
+  - r
+license: Other
+types:
+  - cli
+source: 'https://github.com/mangothecat/goodpractice'
+homepage: 'http://mangothecat.github.io/goodpractice'
+description: >-
+  Analyses the source code for R packages and provides best-practice
+  recommendations.

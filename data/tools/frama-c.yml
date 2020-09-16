@@ -1,0 +1,12 @@
+name: Frama-C
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+license: GNU Lesser General Public License v2.1
+types:
+  - cli
+source: 'http://frama-c.com/download.html'
+homepage: 'http://frama-c.com'
+description: A sound and extensible static analyzer for C code.

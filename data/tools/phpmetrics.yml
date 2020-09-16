@@ -1,0 +1,11 @@
+name: PhpMetrics
+categories:
+  - linter
+tags:
+  - php
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/phpmetrics/PhpMetrics'
+homepage: 'http://www.phpmetrics.org'
+description: Calculates and visualizes various code quality metrics.

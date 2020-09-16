@@ -1,0 +1,15 @@
+name: Hopper
+categories:
+  - linter
+tags:
+  - groovy
+  - java
+  - kotlin
+  - scala
+deprecated: true
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/cuplv/hopper'
+homepage: 'https://github.com/cuplv/hopper'
+description: A static analysis tool written in scala for languages that run on JVM.

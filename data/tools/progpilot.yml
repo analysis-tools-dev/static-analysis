@@ -1,0 +1,11 @@
+name: Progpilot
+categories:
+  - linter
+tags:
+  - php
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/designsecurity/progpilot'
+homepage: 'https://github.com/designsecurity/progpilot'
+description: A static analysis tool for security purposes.

@@ -1,0 +1,12 @@
+name: multilint
+categories:
+  - meta
+tags:
+  - meta
+  - python
+license: ISC License
+types:
+  - cli
+source: 'https://github.com/adamchainz/multilint'
+homepage: 'https://github.com/adamchainz/multilint'
+description: 'A wrapper around `flake8`, `isort` and `modernize`.'

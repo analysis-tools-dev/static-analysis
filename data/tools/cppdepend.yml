@@ -1,0 +1,14 @@
+name: CppDepend
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+deprecated: true
+license: proprietary
+types:
+  - cli
+homepage: 'https://www.cppdepend.com'
+description: >-
+  Measure, query and visualize your code and avoid unexpected issues, technical
+  debt and complexity.

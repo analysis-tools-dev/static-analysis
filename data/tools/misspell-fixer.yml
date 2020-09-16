@@ -1,0 +1,11 @@
+name: misspell-fixer
+categories:
+  - linter
+tags:
+  - writing
+license: Other
+types:
+  - cli
+source: 'https://github.com/vlajos/misspell-fixer'
+homepage: 'https://github.com/vlajos/misspell-fixer'
+description: 'Quick tool for fixing common misspellings, typos in source code.'

@@ -1,0 +1,11 @@
+name: PHP Assumptions
+categories:
+  - linter
+tags:
+  - php
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/rskuipers/php-assumptions'
+homepage: 'https://github.com/rskuipers/php-assumptions'
+description: Checks for weak assumptions.

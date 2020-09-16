@@ -1,0 +1,11 @@
+name: foodcritic
+categories:
+  - linter
+tags:
+  - configmanagement
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/foodcritic/foodcritic'
+homepage: 'http://www.foodcritic.io'
+description: A lint tool that checks Chef cookbooks for common problems.

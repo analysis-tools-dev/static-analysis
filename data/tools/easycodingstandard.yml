@@ -1,0 +1,14 @@
+name: EasyCodingStandard
+categories:
+  - linter
+tags:
+  - php
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/Symplify/EasyCodingStandard'
+homepage: >-
+  https://www.tomasvotruba.com/blog/2017/05/03/combine-power-of-php-code-sniffer-and-php-cs-fixer-in-3-lines
+description: >-
+  Combine [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) and
+  [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer).

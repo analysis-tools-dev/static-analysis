@@ -1,0 +1,11 @@
+name: sqlcheck
+categories:
+  - linter
+tags:
+  - sql
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/jarulraj/sqlcheck'
+homepage: 'https://github.com/jarulraj/sqlcheck'
+description: Automatically identify anti-patterns in SQL queries.

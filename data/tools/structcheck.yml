@@ -1,0 +1,11 @@
+name: structcheck
+categories:
+  - linter
+tags:
+  - go
+license: GPL-3.0-only (original text)
+types:
+  - cli
+source: 'https://gitlab.com/opennota/check'
+homepage: 'https://gitlab.com/opennota/check'
+description: Find unused struct fields.

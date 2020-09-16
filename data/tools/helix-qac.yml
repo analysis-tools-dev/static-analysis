@@ -1,0 +1,13 @@
+name: Helix QAC
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+license: proprietary
+types:
+  - cli
+homepage: 'https://www.perforce.com/products/helix-qac'
+description: >-
+  Enterprise-grade static analysis for embedded software. Supports MISRA, CERT,
+  and AUTOSAR coding standards.

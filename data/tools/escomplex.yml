@@ -1,0 +1,11 @@
+name: escomplex
+categories:
+  - linter
+tags:
+  - javascript
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/jared-stilwell/escomplex'
+homepage: 'https://github.com/jared-stilwell/escomplex'
+description: Software complexity analysis of JavaScript-family abstract syntax trees.

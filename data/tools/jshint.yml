@@ -1,0 +1,14 @@
+name: jshint
+categories:
+  - linter
+tags:
+  - javascript
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/jshint/jshint'
+homepage: 'https://jshint.com/about'
+discussion: 'https://github.com/analysis-tools-dev/static-analysis/issues/223'
+description: >-
+  Detect errors and potential problems in JavaScript code and enforce your
+  team's coding conventions.

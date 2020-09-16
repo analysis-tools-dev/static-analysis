@@ -1,0 +1,11 @@
+name: phpsa
+categories:
+  - linter
+tags:
+  - php
+license: Other
+types:
+  - cli
+source: 'https://github.com/ovr/phpsa'
+homepage: 'https://github.com/ovr/phpsa'
+description: Static analysis tool for PHP.

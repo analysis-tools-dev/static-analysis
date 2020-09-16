@@ -1,0 +1,11 @@
+name: goroutine-inspect
+categories:
+  - linter
+tags:
+  - go
+license: BSD 2-Clause "Simplified" License
+types:
+  - cli
+source: 'https://github.com/linuxerwang/goroutine-inspect'
+homepage: 'https://github.com/linuxerwang/goroutine-inspect'
+description: An interactive tool to analyze Golang goroutine dump.

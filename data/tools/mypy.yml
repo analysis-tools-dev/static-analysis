@@ -1,0 +1,14 @@
+name: mypy
+categories:
+  - linter
+tags:
+  - python
+license: Other
+types:
+  - cli
+source: 'https://github.com/python/mypy'
+homepage: 'http://www.mypy-lang.org'
+description: >-
+  A static type checker that aims to combine the benefits of duck typing and
+  static typing, frequently used with
+  [MonkeyType](https://github.com/Instagram/MonkeyType).

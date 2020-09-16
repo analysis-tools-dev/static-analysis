@@ -1,0 +1,11 @@
+name: gosec (gas)
+categories:
+  - linter
+tags:
+  - go
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/securego/gosec'
+homepage: 'https://securego.io'
+description: Inspects source code for security problems by scanning the Go AST.

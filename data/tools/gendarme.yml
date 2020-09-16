@@ -1,0 +1,13 @@
+name: Gendarme
+categories:
+  - formatter
+tags:
+  - csharp
+license: MIT
+types:
+  - cli
+source: 'https://github.com/mono/mono-tools'
+homepage: 'https://www.mono-project.com/docs/tools+libraries/tools/gendarme'
+description: >-
+  Gendarme inspects programs and libraries that contain code in ECMA CIL format
+  (Mono and .NET).

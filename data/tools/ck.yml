@@ -1,0 +1,13 @@
+name: ck
+categories:
+  - linter
+tags:
+  - java
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/mauricioaniche/ck'
+homepage: 'https://github.com/mauricioaniche/ck'
+description: >-
+  Calculates Chidamber and Kemerer object-oriented metrics by processing the
+  source Java files.

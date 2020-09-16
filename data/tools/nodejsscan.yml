@@ -1,0 +1,12 @@
+name: NodeJSScan
+categories:
+  - linter
+tags:
+  - javascript
+  - nodejs
+license: GNU General Public License v3.0
+types:
+  - cli
+source: 'https://github.com/ajinabraham/NodeJsScan'
+homepage: 'https://opensecurity.in'
+description: NodeJsScan is a static security code scanner for Node.js applications.

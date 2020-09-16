@@ -1,0 +1,13 @@
+name: Polyspace Bug Finder
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+license: proprietary
+types:
+  - cli
+homepage: 'https://www.mathworks.com/products/polyspace-bug-finder.html'
+description: >-
+  Identifies run-time errors, concurrency issues, security vulnerabilities, and
+  other defects in C and C++ embedded software.

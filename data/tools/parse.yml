@@ -1,0 +1,11 @@
+name: Parse
+categories:
+  - linter
+tags:
+  - php
+license: MIT
+types:
+  - cli
+source: 'https://github.com/psecio/parse'
+homepage: 'https://github.com/psecio/parse'
+description: A Static Security Scanner.

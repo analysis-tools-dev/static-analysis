@@ -1,0 +1,13 @@
+name: Roslynator
+categories:
+  - linter
+tags:
+  - csharp
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/JosefPihrt/Roslynator'
+homepage: 'https://github.com/JosefPihrt/Roslynator'
+description: >-
+  A collection of 190+ analyzers and 190+ refactorings for C#, powered by
+  Roslyn.

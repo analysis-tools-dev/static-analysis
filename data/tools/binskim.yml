@@ -1,0 +1,13 @@
+name: BinSkim
+categories:
+  - linter
+tags:
+  - binary
+license: Other
+types:
+  - cli
+source: 'https://github.com/Microsoft/binskim'
+homepage: 'https://github.com/Microsoft/binskim'
+description: >-
+  A binary static analysis tool that provides security and correctness results
+  for Windows portable executables.

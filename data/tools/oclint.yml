@@ -1,0 +1,15 @@
+name: oclint
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - objectivec
+license: BSD-3-Clause (original text)
+types:
+  - cli
+source: 'https://github.com/oclint/oclint'
+homepage: 'http://oclint.org'
+description: >-
+  A static source code analysis tool to improve quality and reduce defects for
+  C, C++ and Objective-C.

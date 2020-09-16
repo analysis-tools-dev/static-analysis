@@ -1,0 +1,13 @@
+name: phploc
+categories:
+  - linter
+tags:
+  - php
+license: Other
+types:
+  - cli
+source: 'https://github.com/sebastianbergmann/phploc'
+homepage: 'https://github.com/sebastianbergmann/phploc'
+description: >-
+  A tool for quickly measuring the size and analyzing the structure of a PHP
+  project.

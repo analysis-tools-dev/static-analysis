@@ -1,0 +1,12 @@
+name: Polymer-analyzer
+categories:
+  - linter
+tags:
+  - html
+  - javascript
+license: BSD-3-Clause (original text)
+types:
+  - cli
+source: 'https://github.com/Polymer/tools/tree/master/packages/analyzer'
+homepage: 'https://github.com/Polymer/tools/tree/master/packages/analyzer'
+description: A static analysis framework for Web Components.

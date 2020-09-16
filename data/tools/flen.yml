@@ -1,0 +1,11 @@
+name: flen
+categories:
+  - linter
+tags:
+  - go
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/lafolle/flen'
+homepage: 'https://github.com/lafolle/flen'
+description: Get info on length of functions in a Go package.

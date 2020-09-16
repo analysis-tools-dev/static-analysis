@@ -1,0 +1,11 @@
+name: reek
+categories:
+  - linter
+tags:
+  - ruby
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/troessner/reek'
+homepage: 'https://github.com/troessner/reek'
+description: Code smell detector for Ruby.

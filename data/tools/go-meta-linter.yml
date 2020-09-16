@@ -1,0 +1,15 @@
+name: Go Meta Linter
+categories:
+  - meta
+tags:
+  - go
+  - meta
+deprecated: true
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/alecthomas/gometalinter'
+homepage: 'https://github.com/alecthomas/gometalinter'
+description: >-
+  Concurrently run Go lint tools and normalise their output. Use `golangci-lint`
+  for new projects.

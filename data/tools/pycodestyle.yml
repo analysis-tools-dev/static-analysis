@@ -1,0 +1,13 @@
+name: pycodestyle
+categories:
+  - linter
+tags:
+  - python
+license: Other
+types:
+  - cli
+source: 'https://github.com/PyCQA/pycodestyle'
+homepage: 'https://pycodestyle.pycqa.org/en/latest'
+description: >-
+  (Formerly `pep8`) Check Python code against some of the style conventions in
+  PEP 8.

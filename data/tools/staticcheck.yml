@@ -1,0 +1,13 @@
+name: staticcheck
+categories:
+  - linter
+tags:
+  - go
+license: Other
+types:
+  - cli
+source: 'https://github.com/dominikh/go-tools'
+homepage: 'https://staticcheck.io'
+description: >-
+  Go static analysis that specialises in finding bugs, simplifying code and
+  improving performance.

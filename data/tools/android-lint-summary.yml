@@ -1,0 +1,13 @@
+name: android-lint-summary
+categories:
+  - linter
+tags:
+  - mobile
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/passy/android-lint-summary'
+homepage: 'https://passy.github.io/android-lint-summary'
+description: >-
+  Combines lint errors of multiple projects into one output, check lint results
+  of multiple sub-projects at once.

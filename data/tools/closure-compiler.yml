@@ -1,0 +1,13 @@
+name: Closure Compiler
+categories:
+  - linter
+tags:
+  - javascript
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/google/closure-compiler'
+homepage: 'https://developers.google.com/closure/compiler'
+description: >-
+  A compiler tool to increase efficiency, reduce size, and provide code warnings
+  in JavaScript files.

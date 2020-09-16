@@ -1,0 +1,11 @@
+name: write-good
+categories:
+  - linter
+tags:
+  - writing
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/btford/write-good'
+homepage: 'https://github.com/btford/write-good'
+description: A linter with a focus on eliminating "weasel words".

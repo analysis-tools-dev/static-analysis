@@ -1,0 +1,13 @@
+name: terrascan
+categories:
+  - linter
+tags:
+  - configmanagement
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/cesar-rodriguez/terrascan'
+homepage: 'https://github.com/cesar-rodriguez/terrascan'
+description: >-
+  Collection of security and best practice tests for static code analysis of
+  Terraform templates.

@@ -1,0 +1,11 @@
+name: proselint
+categories:
+  - linter
+tags:
+  - writing
+license: BSD-3-Clause
+types:
+  - cli
+source: 'https://github.com/amperser/proselint'
+homepage: 'http://proselint.com'
+description: A linter for English prose with a focus on writing style instead of grammar.

@@ -1,0 +1,13 @@
+name: Primitive Erlang Security Tool (PEST)
+categories:
+  - linter
+tags:
+  - erlang
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/okeuday/pest'
+homepage: 'https://github.com/okeuday/pest'
+description: >-
+  A tool to do a basic scan of Erlang source code and report any function calls
+  that may cause Erlang source code to be insecure.

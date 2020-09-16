@@ -1,0 +1,12 @@
+name: JSPrime
+categories:
+  - linter
+tags:
+  - javascript
+deprecated: true
+license: Other
+types:
+  - cli
+source: 'https://github.com/dpnishant/jsprime'
+homepage: 'http://dpnishant.github.io/jsprime'
+description: Static security analysis tool.

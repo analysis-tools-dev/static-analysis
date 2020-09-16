@@ -1,0 +1,14 @@
+name: Prusti
+categories:
+  - linter
+tags:
+  - rust
+license: Other
+types:
+  - cli
+source: 'https://github.com/viperproject/prusti-dev'
+homepage: 'https://www.pm.inf.ethz.ch/research/prusti.html'
+description: >-
+  A static verifier for Rust, based on the Viper verification infrastructure. By
+  default Prusti verifies absence of panics by proving that statements such as
+  unreachable!() and panic!() are unreachable.

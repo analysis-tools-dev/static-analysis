@@ -1,0 +1,11 @@
+name: Tuli
+categories:
+  - linter
+tags:
+  - php
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/ircmaxell/Tuli'
+homepage: 'https://github.com/ircmaxell/Tuli'
+description: A static analysis engine.

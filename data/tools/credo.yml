@@ -1,0 +1,11 @@
+name: credo
+categories:
+  - linter
+tags:
+  - elixir
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/rrrene/credo'
+homepage: 'http://credo-ci.org'
+description: A static code analysis tool with a focus on code consistency and teaching.

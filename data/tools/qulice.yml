@@ -1,0 +1,13 @@
+name: qulice
+categories:
+  - linter
+tags:
+  - java
+license: Other
+types:
+  - cli
+source: 'https://github.com/teamed/qulice'
+homepage: 'https://www.qulice.com'
+description: >-
+  Combines a few (pre-configured) static analysis tools (checkstyle, PMD,
+  Findbugs, ...).

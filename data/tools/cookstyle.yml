@@ -1,0 +1,13 @@
+name: cookstyle
+categories:
+  - linter
+tags:
+  - configmanagement
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/chef/cookstyle'
+homepage: 'https://docs.chef.io/cookstyle.html'
+description: >-
+  Cookstyle is a linting tool based on the RuboCop Ruby linting tool for Chef
+  cookbooks.

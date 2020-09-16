@@ -1,0 +1,11 @@
+name: vint
+categories:
+  - linter
+tags:
+  - vim-script
+license: MIT License
+types:
+  - ide-plugin
+source: 'https://github.com/Kuniwak/vint'
+homepage: 'https://github.com/Kuniwak/vint'
+description: Fast and Highly Extensible Vim script Language Lint implemented by Python.

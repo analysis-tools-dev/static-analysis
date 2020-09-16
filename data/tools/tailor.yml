@@ -1,0 +1,14 @@
+name: Tailor
+categories:
+  - linter
+tags:
+  - swift
+deprecated: true
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/sleekbyte/tailor'
+homepage: 'https://tailor.sh'
+description: >-
+  A static analysis and lint tool for source code written in Apple's Swift
+  programming language.

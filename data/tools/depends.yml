@@ -1,0 +1,16 @@
+name: Depends
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - java
+  - php
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/multilang-depends/depends'
+homepage: 'https://github.com/multilang-depends/depends'
+description: >-
+  Analyses the comprehensive dependencies of code elements for Java, C/C++,
+  Ruby.

@@ -1,0 +1,11 @@
+name: go/ast
+categories:
+  - linter
+tags:
+  - go
+license: BSD-3-Clause (original text)
+types:
+  - cli
+source: 'https://github.com/golang/go/tree/master/src/go/ast'
+homepage: 'https://golang.org/pkg/go/ast'
+description: Package ast declares the types used to represent syntax trees for Go packages.

@@ -1,0 +1,13 @@
+name: terraform-compliance
+categories:
+  - linter
+tags:
+  - configmanagement
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/eerkunt/terraform-compliance'
+homepage: 'https://terraform-compliance.com'
+description: >-
+  A lightweight, compliance- and security focused, BDD test framework against
+  Terraform.

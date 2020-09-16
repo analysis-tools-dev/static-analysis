@@ -1,0 +1,11 @@
+name: HLint
+categories:
+  - linter
+tags:
+  - haskell
+license: BSD 3-Clause "New" or "Revised" License
+types:
+  - cli
+source: 'https://github.com/ndmitchell/hlint'
+homepage: 'https://github.com/ndmitchell/hlint'
+description: HLint is a tool for suggesting possible improvements to Haskell code.

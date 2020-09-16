@@ -1,0 +1,13 @@
+name: herbie
+categories:
+  - linter
+tags:
+  - rust
+license: Mozilla Public License 2.0
+types:
+  - cli
+source: 'https://github.com/mcarton/rust-herbie-lint'
+homepage: 'https://github.com/mcarton/rust-herbie-lint'
+description: >-
+  Adds warnings or errors to your crate when using a numerically unstable
+  floating point expression.

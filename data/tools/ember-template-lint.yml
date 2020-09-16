@@ -1,0 +1,11 @@
+name: ember-template-lint
+categories:
+  - linter
+tags:
+  - template
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/ember-template-lint/ember-template-lint'
+homepage: 'https://github.com/ember-template-lint/ember-template-lint'
+description: Linter for Ember or Handlebars templates.

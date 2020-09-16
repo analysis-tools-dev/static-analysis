@@ -1,0 +1,11 @@
+name: scapegoat
+categories:
+  - linter
+tags:
+  - scala
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/sksamuel/scapegoat'
+homepage: 'https://github.com/sksamuel/scapegoat'
+description: Scala compiler plugin for static code analysis.

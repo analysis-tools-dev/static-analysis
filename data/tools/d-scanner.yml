@@ -1,0 +1,11 @@
+name: D-scanner
+categories:
+  - linter
+tags:
+  - dlang
+license: Boost Software License 1.0
+types:
+  - cli
+source: 'https://github.com/dlang-community/D-Scanner'
+homepage: 'https://github.com/dlang-community/D-Scanner'
+description: D-Scanner is a tool for analyzing D source code.

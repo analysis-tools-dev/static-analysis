@@ -1,0 +1,12 @@
+name: prospector
+categories:
+  - meta
+tags:
+  - meta
+  - python
+license: GNU General Public License v2.0
+types:
+  - cli
+source: 'https://github.com/PyCQA/prospector'
+homepage: 'https://github.com/PyCQA/prospector'
+description: 'A wrapper around `pylint`, `pep8`, `mccabe` and others.'

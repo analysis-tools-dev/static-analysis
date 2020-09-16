@@ -1,0 +1,14 @@
+name: WAP
+categories:
+  - linter
+tags:
+  - php
+license: GNU GPL
+types:
+  - cli
+source: 'http://awap.sourceforge.net/index.html'
+homepage: 'https://securityonline.info/owasp-wap-web-application-protection-project'
+description: >-
+  Tool to detect and correct input validation vulnerabilities in PHP (4.0 or
+  higher) web applications and predicts false positives by combining static
+  analysis and data mining.

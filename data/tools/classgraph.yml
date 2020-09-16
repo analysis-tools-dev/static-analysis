@@ -1,0 +1,15 @@
+name: ClassGraph
+categories:
+  - linter
+tags:
+  - groovy
+  - java
+  - kotlin
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/classgraph/classgraph'
+homepage: 'https://github.com/classgraph/classgraph'
+description: >-
+  A classpath and module path scanner for querying or visualizing class metadata
+  or class relatedness.

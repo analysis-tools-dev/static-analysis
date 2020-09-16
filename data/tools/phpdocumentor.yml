@@ -1,0 +1,11 @@
+name: phpDocumentor
+categories:
+  - linter
+tags:
+  - php
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/phpDocumentor/phpDocumentor'
+homepage: 'https://www.phpdoc.org'
+description: Analyzes PHP source code to generate documentation.

@@ -1,0 +1,13 @@
+name: pyroma
+categories:
+  - linter
+tags:
+  - python
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/regebro/pyroma'
+homepage: 'https://github.com/regebro/pyroma'
+description: >-
+  Rate how well a Python project complies with the best practices of the Python
+  packaging ecosystem, and list issues that could be improved.

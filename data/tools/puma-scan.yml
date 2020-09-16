@@ -1,0 +1,14 @@
+name: Puma Scan
+categories:
+  - linter
+tags:
+  - csharp
+license: Mozilla Public License 2.0
+types:
+  - ide-plugin
+source: 'https://github.com/pumasecurity/puma-scan'
+homepage: 'https://pumasecurity.io'
+description: >-
+  Puma Scan provides real time secure code analysis for common vulnerabilities
+  (XSS, SQLi, CSRF, LDAPi, crypto, deserialization, etc.) as development teams
+  write code in Visual Studio.

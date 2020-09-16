@@ -1,0 +1,12 @@
+name: splint
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+license: Other
+types:
+  - cli
+source: 'https://github.com/ravenexp/splint'
+homepage: 'http://splint.org'
+description: Annotation-assisted static program checker.

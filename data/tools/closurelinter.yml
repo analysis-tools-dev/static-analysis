@@ -1,0 +1,15 @@
+name: ClosureLinter
+categories:
+  - linter
+tags:
+  - javascript
+deprecated: true
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/google/closure-linter'
+homepage: 'https://github.com/google/closure-linter'
+description: >-
+  Ensures that all of your project's JavaScript code follows the guidelines in
+  the Google JavaScript Style Guide. It can also automatically fix many common
+  errors.

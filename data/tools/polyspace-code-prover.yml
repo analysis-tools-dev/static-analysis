@@ -1,0 +1,14 @@
+name: Polyspace Code Prover
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+license: proprietary
+types:
+  - cli
+homepage: 'https://www.mathworks.com/products/polyspace-code-prover.html'
+description: >-
+  Provide code verification that proves the absence of overflow, divide-by-zero,
+  out-of-bounds array access, and certain other run-time errors in C and C++
+  source code.

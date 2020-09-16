@@ -1,0 +1,19 @@
+name: relint
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - dotnet
+  - java
+  - javascript
+  - jsx
+  - python
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/codingjoe/relint'
+homepage: 'https://github.com/codingjoe/relint'
+description: >-
+  A static file linter that allows you to write custom rules using regular
+  expressions (RegEx).

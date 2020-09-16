@@ -1,0 +1,11 @@
+name: cyclocomp
+categories:
+  - linter
+tags:
+  - r
+license: Other
+types:
+  - cli
+source: 'https://github.com/MangoTheCat/cyclocomp'
+homepage: 'https://github.com/MangoTheCat/cyclocomp'
+description: Quantifies the cyclomatic complexity of R functions / expressions.

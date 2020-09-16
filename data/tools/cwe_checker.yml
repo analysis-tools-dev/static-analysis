@@ -1,0 +1,11 @@
+name: cwe_checker
+categories:
+  - linter
+tags:
+  - binary
+license: GNU Lesser General Public License v3.0
+types:
+  - cli
+source: 'https://github.com/fkie-cad/cwe_checker'
+homepage: 'https://github.com/fkie-cad/cwe_checker'
+description: cwe_checker finds vulnerable patterns in binary executables.

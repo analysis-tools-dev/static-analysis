@@ -1,0 +1,11 @@
+name: nargs
+categories:
+  - linter
+tags:
+  - go
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/alexkohler/nargs'
+homepage: 'https://github.com/alexkohler/nargs'
+description: Finds unused arguments in function declarations.

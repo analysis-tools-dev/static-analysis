@@ -1,0 +1,13 @@
+name: NullAway
+categories:
+  - linter
+tags:
+  - java
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/uber/NullAway'
+homepage: 'https://github.com/uber/NullAway'
+description: >-
+  Type-based null-pointer checker with low build-time overhead; an [Error
+  Prone](http://errorprone.info/) plugin.

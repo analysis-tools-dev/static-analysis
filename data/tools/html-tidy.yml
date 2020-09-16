@@ -1,0 +1,13 @@
+name: HTML Tidy
+categories:
+  - linter
+tags:
+  - html
+license: Custom
+types:
+  - cli
+source: 'https://github.com/htacg/tidy-html5'
+homepage: 'http://www.html-tidy.org'
+description: >-
+  Corrects and cleans up HTML and XML documents by fixing markup errors and
+  upgrading legacy code to modern standards.

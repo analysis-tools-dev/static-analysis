@@ -1,0 +1,11 @@
+name: dephpend
+categories:
+  - linter
+tags:
+  - php
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/mihaeu/dephpend'
+homepage: 'https://dephpend.com'
+description: Dependency analysis tool.

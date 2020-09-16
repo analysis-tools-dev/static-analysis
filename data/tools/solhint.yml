@@ -1,0 +1,13 @@
+name: solhint
+categories:
+  - linter
+tags:
+  - smart-contracts
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/protofire/solhint'
+homepage: 'https://protofire.github.io/solhint'
+description: >-
+  Solhint is an open source project created by https://protofire.io. Its goal is
+  to provide a linting utility for Solidity code.

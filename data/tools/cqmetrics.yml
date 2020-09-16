@@ -1,0 +1,12 @@
+name: cqmetrics
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+license: Other
+types:
+  - cli
+source: 'https://github.com/dspinellis/cqmetrics'
+homepage: 'https://github.com/dspinellis/cqmetrics'
+description: Quality metrics for C code.

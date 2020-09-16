@@ -1,0 +1,11 @@
+name: wsl
+categories:
+  - linter
+tags:
+  - go
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/bombsimon/wsl'
+homepage: 'https://github.com/bombsimon/wsl'
+description: Enforces empty lines at the right places.

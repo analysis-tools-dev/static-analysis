@@ -1,0 +1,11 @@
+name: linty fresh
+categories:
+  - linter
+tags:
+  - python
+license: Other
+types:
+  - cli
+source: 'https://github.com/lyft/linty_fresh'
+homepage: 'https://github.com/lyft/linty_fresh'
+description: Parse lint errors and report them to Github as comments on a pull request.

@@ -1,0 +1,11 @@
+name: PhpDependencyAnalysis
+categories:
+  - linter
+tags:
+  - php
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/mamuz/PhpDependencyAnalysis'
+homepage: 'https://mamuz.github.io/PhpDependencyAnalysis'
+description: Builds a dependency graph for a project.

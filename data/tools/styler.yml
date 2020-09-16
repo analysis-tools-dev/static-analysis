@@ -1,0 +1,11 @@
+name: styler
+categories:
+  - formatter
+tags:
+  - r
+license: GPL-3
+types:
+  - cli
+source: 'https://github.com/r-lib/styler'
+homepage: 'https://styler.r-lib.org'
+description: Formatting of R source code files and pretty-printing of R code.

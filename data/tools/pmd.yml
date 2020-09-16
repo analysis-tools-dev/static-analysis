@@ -1,0 +1,15 @@
+name: PMD
+categories:
+  - linter
+tags:
+  - java
+  - javascript
+  - plsql
+  - scala
+  - xml
+license: Other
+types:
+  - cli
+source: 'https://github.com/pmd/pmd'
+homepage: 'https://pmd.github.io'
+description: 'A source code analyzer for Java, Javascript, PLSQL, XML, XSL and others.'

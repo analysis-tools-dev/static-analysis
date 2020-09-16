@@ -1,0 +1,15 @@
+name: Violations Lib
+categories:
+  - linter
+tags:
+  - ci
+  - java
+  - support
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/tomasbjerre/violations-lib'
+homepage: 'https://github.com/tomasbjerre/violations-lib'
+description: >-
+  Java library for parsing report files from static code analysis. Used by a
+  bunch of Jenkins, Maven and Gradle plugins.

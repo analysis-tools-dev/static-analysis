@@ -1,0 +1,11 @@
+name: protolint
+categories:
+  - linter
+tags:
+  - protobuf
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/yoheimuta/protolint'
+homepage: 'https://github.com/yoheimuta/protolint'
+description: Pluggable linter and fixer to enforce Protocol Buffer style and conventions.

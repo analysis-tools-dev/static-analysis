@@ -1,0 +1,11 @@
+name: markdownlint
+categories:
+  - linter
+tags:
+  - markdown
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/DavidAnson/markdownlint'
+homepage: 'https://github.com/DavidAnson/markdownlint'
+description: Node.js -based style checker and lint tool for Markdown/CommonMark files.

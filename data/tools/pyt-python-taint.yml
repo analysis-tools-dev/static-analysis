@@ -1,0 +1,14 @@
+name: PyT - Python Taint
+categories:
+  - linter
+tags:
+  - python
+deprecated: true
+license: GNU General Public License v2.0
+types:
+  - cli
+source: 'https://github.com/python-security/pyt'
+homepage: 'https://github.com/python-security/pyt'
+description: >-
+  A static analysis tool for detecting security vulnerabilities in Python web
+  applications.

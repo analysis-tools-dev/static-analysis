@@ -1,0 +1,11 @@
+name: brittany
+categories:
+  - formatter
+tags:
+  - haskell
+license: GNU Affero General Public License v3.0
+types:
+  - cli
+source: 'https://github.com/lspitzner/brittany'
+homepage: 'https://github.com/lspitzner/brittany'
+description: Haskell source code formatter

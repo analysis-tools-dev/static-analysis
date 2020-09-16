@@ -17,7 +17,7 @@ Each tool on the list should be
 ### Format
 
 The main `README.md` is just a rendered version of the data. To add a new tool,
-please edit `data/tools.yml`.
+please create a file in the `data/tools` directory.
 
 - Make each tool description as precise as possible.  
   Please limit the description to **500 characters**.

@@ -1,0 +1,13 @@
+name: .NET Analyzers
+categories:
+  - linter
+tags:
+  - csharp
+license: MIT
+types:
+  - cli
+source: 'https://github.com/DotNetAnalyzers'
+homepage: 'https://github.com/DotNetAnalyzers'
+description: >-
+  An organization for the development of analyzers (diagnostics and code fixes)
+  using the .NET Compiler Platform.

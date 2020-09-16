@@ -1,0 +1,11 @@
+name: es6-plato
+categories:
+  - linter
+tags:
+  - javascript
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/the-simian/es6-plato'
+homepage: 'https://github.com/the-simian/es6-plato'
+description: Visualize JavaScript (ES6) source complexity.

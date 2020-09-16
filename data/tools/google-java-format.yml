@@ -1,0 +1,11 @@
+name: google-java-format
+categories:
+  - formatter
+tags:
+  - java
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/google/google-java-format'
+homepage: 'https://github.com/google/google-java-format'
+description: Google Style Reformat.

@@ -1,0 +1,11 @@
+name: go tool vet --shadow
+categories:
+  - linter
+tags:
+  - go
+license: BSD-3-Clause (original text)
+types:
+  - cli
+source: 'https://github.com/golang/go/tree/master/src/cmd/vet'
+homepage: 'https://golang.org/cmd/vet#hdr-Shadowed_variables'
+description: Reports variables that may have been unintentionally shadowed.

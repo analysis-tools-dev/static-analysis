@@ -1,0 +1,11 @@
+name: golint
+categories:
+  - linter
+tags:
+  - go
+license: BSD 3-Clause "New" or "Revised" License
+types:
+  - cli
+source: 'https://github.com/golang/lint'
+homepage: 'https://github.com/golang/lint'
+description: Prints out coding style mistakes in Go source code.

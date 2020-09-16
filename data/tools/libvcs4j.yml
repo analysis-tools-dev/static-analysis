@@ -1,0 +1,14 @@
+name: LibVCS4j
+categories:
+  - linter
+tags:
+  - support
+license: Other
+types:
+  - cli
+source: 'https://github.com/uni-bremen-agst/libvcs4j'
+homepage: 'https://github.com/uni-bremen-agst/libvcs4j'
+description: >-
+  A Java library that allows existing tools to analyse the evolution of software
+  systems by providing a common API for different version control systems and
+  issue trackers.

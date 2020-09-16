@@ -1,0 +1,32 @@
+name: CodeScene
+categories:
+  - linter
+tags:
+  - c
+  - clojure
+  - cpp
+  - csharp
+  - dart
+  - elixir
+  - erlang
+  - go
+  - groovy
+  - java
+  - javascript
+  - kotlin
+  - perl
+  - php
+  - powershell
+  - python
+  - ruby
+  - scala
+  - swift
+  - typescript
+license: proprietary
+types:
+  - cli
+homepage: 'https://codescene.com'
+description: >-
+  CodeScene is a quality visualization tool for software. Prioritize technical
+  debt, detect delivery risks, and measure organizational aspects. Fully
+  automated.

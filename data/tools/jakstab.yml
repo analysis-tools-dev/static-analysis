@@ -1,0 +1,14 @@
+name: Jakstab
+categories:
+  - linter
+tags:
+  - binary
+license: GNU General Public License v2.0
+types:
+  - cli
+source: 'https://github.com/jkinder/jakstab'
+homepage: 'https://github.com/jkinder/jakstab'
+description: >-
+  Jakstab is an Abstract Interpretation-based, integrated disassembly and static
+  analysis framework for designing analyses on executables and recovering
+  reliable control flow graphs.

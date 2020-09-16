@@ -1,0 +1,11 @@
+name: paprika
+categories:
+  - linter
+tags:
+  - mobile
+license: GNU Affero General Public License v3.0
+types:
+  - cli
+source: 'https://github.com/GeoffreyHecht/paprika'
+homepage: 'https://github.com/GeoffreyHecht/paprika'
+description: A toolkit to detect some code smells in analyzed Android applications.

@@ -1,0 +1,13 @@
+name: elm-analyse
+categories:
+  - linter
+tags:
+  - elm
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/stil4m/elm-analyse'
+homepage: 'https://stil4m.github.io/elm-analyse'
+description: >-
+  A tool that allows you to analyse your Elm code, identify deficiencies and
+  apply best practices.

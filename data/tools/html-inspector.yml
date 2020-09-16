@@ -1,0 +1,14 @@
+name: HTML Inspector
+categories:
+  - linter
+tags:
+  - html
+deprecated: true
+license: MIT
+types:
+  - cli
+source: 'https://github.com/philipwalton/html-inspector'
+homepage: 'https://github.com/philipwalton/html-inspector'
+description: >-
+  HTML Inspector is a code quality tool to help you and your team write better
+  markup.

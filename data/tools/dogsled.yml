@@ -1,0 +1,11 @@
+name: dogsled
+categories:
+  - linter
+tags:
+  - go
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/alexkohler/dogsled'
+homepage: 'https://github.com/alexkohler/dogsled'
+description: Finds assignments/declarations with too many blank identifiers.

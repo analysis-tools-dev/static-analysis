@@ -1,0 +1,12 @@
+name: ktlint
+categories:
+  - formatter
+  - linter
+tags:
+  - kotlin
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/shyiko/ktlint'
+homepage: 'https://ktlint.github.io'
+description: An anti-bikeshedding Kotlin linter with built-in formatter.

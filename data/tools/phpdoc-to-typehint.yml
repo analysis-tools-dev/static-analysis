@@ -1,0 +1,13 @@
+name: phpdoc-to-typehint
+categories:
+  - linter
+tags:
+  - php
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/dunglas/phpdoc-to-typehint'
+homepage: 'https://github.com/dunglas/phpdoc-to-typehint'
+description: >-
+  Add scalar type hints and return types to existing PHP projects using PHPDoc
+  annotations.

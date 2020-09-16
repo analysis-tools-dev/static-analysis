@@ -1,0 +1,11 @@
+name: deno_lint
+categories:
+  - linter
+tags:
+  - deno
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/denoland/deno_lint'
+homepage: 'https://github.com/denoland/deno_lint'
+description: Official linter for Deno.

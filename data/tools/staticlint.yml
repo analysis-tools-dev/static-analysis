@@ -1,0 +1,11 @@
+name: StaticLint
+categories:
+  - linter
+tags:
+  - julia
+license: Other
+types:
+  - cli
+source: 'https://github.com/julia-vscode/StaticLint.jl'
+homepage: 'https://github.com/julia-vscode/StaticLint.jl'
+description: Static Code Analysis for Julia

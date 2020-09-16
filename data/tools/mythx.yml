@@ -1,0 +1,13 @@
+name: MythX
+categories:
+  - linter
+tags:
+  - smart-contracts
+license: proprietary
+types:
+  - cli
+homepage: 'https://mythx.io'
+description: >-
+  MythX is an easy to use analysis platform which integrates several analysis
+  methods like fuzzing, symbolic execution and static analysis to find
+  vulnerabilities with high precision.

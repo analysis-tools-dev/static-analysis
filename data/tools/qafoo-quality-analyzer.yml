@@ -1,0 +1,11 @@
+name: Qafoo Quality Analyzer
+categories:
+  - linter
+tags:
+  - php
+license: GNU Affero General Public License v3.0
+types:
+  - cli
+source: 'https://github.com/Qafoo/QualityAnalyzer'
+homepage: 'https://github.com/Qafoo/QualityAnalyzer'
+description: Visualizes metrics and source code.

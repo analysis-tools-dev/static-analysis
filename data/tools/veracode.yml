@@ -1,0 +1,21 @@
+name: Veracode
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - dotnet
+  - java
+  - javascript
+  - objectivec
+  - php
+  - security
+  - swift
+license: proprietary
+types:
+  - cli
+homepage: 'http://www.veracode.com/products/static-analysis-sast/static-code-analysis'
+description: >-
+  Find flaws in binaries and bytecode without requiring source. Support all
+  major programming languages: Java, .NET, JavaScript, Swift, Objective-C, C,
+  C++ and more.

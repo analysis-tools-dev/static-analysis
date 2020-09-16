@@ -1,0 +1,12 @@
+name: IKOS
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+license: Other
+types:
+  - cli
+source: 'https://github.com/nasa-sw-vnv/ikos'
+homepage: 'https://github.com/nasa-sw-vnv/ikos'
+description: A sound static analyzer for C/C++ code based on LLVM.

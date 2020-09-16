@@ -1,0 +1,11 @@
+name: lll
+categories:
+  - linter
+tags:
+  - go
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/walle/lll'
+homepage: 'https://github.com/walle/lll'
+description: Report long lines.

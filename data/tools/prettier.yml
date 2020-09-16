@@ -1,0 +1,13 @@
+name: Prettier
+categories:
+  - formatter
+tags:
+  - html
+  - javascript
+  - typescript
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/prettier/prettier'
+homepage: 'https://prettier.io'
+description: An opinionated code formatter.

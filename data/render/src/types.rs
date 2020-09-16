@@ -27,12 +27,14 @@ pub type EntryTags = HashSet<String>;
 #[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq)]
 pub struct Entry {
     pub name: String,
+    pub categories: HashSet<String>,
+    pub tags: HashSet<String>,
+    pub license: String,
+    pub types: HashSet<String>,
     pub homepage: String,
     pub source: Option<String>,
-    pub discussion: Option<String>,
     pub description: String,
-    pub tags: EntryTags,
-    pub proprietary: Option<bool>,
+    pub discussion: Option<String>,
     pub deprecated: Option<bool>,
     pub wrapper: Option<bool>,
 }
@@ -57,27 +59,4 @@ pub struct Catalog {
     pub linters: EntryMap,
     pub others: EntryMap,
     pub multi: Vec<Entry>,
-}
-
-/// any filters defined in `mod filters` are accessible in templates
-mod filters {
-    // eventually, if other open-source sites (e.g. gitlab) support something like stars, those
-    // could also be formatted in this filter
-    pub fn format_badge(mut s: &str) -> ::askama::Result<String> {
-        if s.chars().last().unwrap() == '/' {
-            s = s.trim_end_matches('/');
-        }
-        let components: Vec<&str> = s.split("/").collect();
-        if components.contains(&"github.com") && components.len() == 5 {
-            // valid github source must have 5 elements - anything longer and they are probably a
-            // reference to a path inside a repo, rather than a repo itself.
-            Ok(format!("![stars]({}{}) ",
-                // shields.io can't have a trailing '/' before parameters begin
-                s.replace("github.com", "img.shields.io/github/stars").trim_end_matches("/"),
-                "?style=flat-square&color=ccc",
-            ))
-        } else {
-            Ok("".to_string())
-        }
-    }
 }

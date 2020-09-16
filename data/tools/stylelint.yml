@@ -1,0 +1,11 @@
+name: Stylelint
+categories:
+  - linter
+tags:
+  - css
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/stylelint/stylelint'
+homepage: 'http://stylelint.io'
+description: Linter for SCSS/CSS files.

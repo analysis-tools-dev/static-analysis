@@ -1,0 +1,11 @@
+name: Docker Label Inspector
+categories:
+  - linter
+tags:
+  - container
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/garethr/docker-label-inspector'
+homepage: 'https://github.com/garethr/docker-label-inspector'
+description: Lint and validate Dockerfile labels.

@@ -1,0 +1,17 @@
+name: Semgrep
+categories:
+  - linter
+tags:
+  - c
+  - go
+  - java
+  - javascript
+  - python
+license: GNU Lesser General Public License v2.1
+types:
+  - cli
+source: 'https://github.com/returntocorp/semgrep'
+homepage: 'https://semgrep.live'
+description: >-
+  Free, open-source lightweight static analysis for many languages. Find and
+  block bug variants with patterns that look like source code.

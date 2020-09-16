@@ -1,0 +1,12 @@
+name: Roslyn Analyzers
+categories:
+  - linter
+tags:
+  - csharp
+  - dotnet
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/dotnet/roslyn-analyzers'
+homepage: 'https://github.com/dotnet/roslyn-analyzers'
+description: Roslyn-based implementation of FxCop analyzers.

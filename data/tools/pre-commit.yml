@@ -1,0 +1,14 @@
+name: pre-commit
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - java
+  - php
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/pre-commit/pre-commit'
+homepage: 'https://pre-commit.com'
+description: A framework for managing and maintaining multi-language pre-commit hooks.

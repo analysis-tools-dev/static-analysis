@@ -1,0 +1,13 @@
+name: Haxe Checkstyle
+categories:
+  - linter
+tags:
+  - haxe
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/HaxeCheckstyle/haxe-checkstyle'
+homepage: 'http://haxecheckstyle.github.io/docs/haxe-checkstyle/home.html'
+description: >-
+  A static analysis tool to help developers write Haxe code that adheres to a
+  coding standard.

@@ -1,0 +1,11 @@
+name: PHP_CodeSniffer
+categories:
+  - linter
+tags:
+  - php
+license: Other
+types:
+  - cli
+source: 'https://github.com/squizlabs/PHP_CodeSniffer'
+homepage: 'https://pear.php.net/package/PHP_CodeSniffer'
+description: Detects violations of a defined set of coding standards.
