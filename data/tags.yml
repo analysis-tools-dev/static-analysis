@@ -270,7 +270,10 @@
   type: other
 - name: Visualforce
   tag: visualforce
-  type: other
+  type: language
+- name: Lightning Web Components
+  tag: lwc
+  type: language
 - name: Vim Script
   tag: vim-script
   type: language
@@ -282,9 +285,6 @@
   type: other
 - name: Writing
   tag: writing
-  type: other
-- name: Web services
-  tag: service
   type: other
 - name: XML
   tag: xml
