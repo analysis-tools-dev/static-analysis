@@ -37,7 +37,7 @@ fn read_tools(path: PathBuf) -> Result<Vec<Entry>> {
 
     files
         .iter()
-        .inspect(|p| println!("Reading {}", p.display()))
+        .inspect(|p| println!("Checking {}", p.display()))
         .map(|p| {
             let file = std::fs::File::open(p)?;
             let entry: Entry = serde_yaml::from_reader(file)?;
