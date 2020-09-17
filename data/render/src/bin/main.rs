@@ -1,25 +1,31 @@
 use askama::Template;
+use anyhow::{Context, Result};
 use render::types::{Entry, Tags};
 use render::{check_deprecated, group, validate};
 use std::env;
-use std::error::Error;
 use std::ffi::OsStr;
 use std::io;
-fn get_files() -> Result<(String, String), Box<dyn Error>> {
-    let files: Vec<_> = env::args().skip(1).collect();
-    if files.len() != 2 {
-        return Err("Expected two input parameters: `tools` directory and `tags.yml path`".into());
-    }
-    Ok((files[0].clone(), files[1].clone()))
+use std::fs;
+use std::path::PathBuf;
+use pico_args::Arguments;
+
+struct Args {
+    tags: PathBuf,
+    tools: PathBuf,
+    out: PathBuf,
 }
 
-fn read_tags(file: String) -> Result<Tags, Box<dyn Error>> {
-    let f = std::fs::File::open(file)?;
+fn parse_path(s: &OsStr) -> Result<PathBuf> {
+    Ok(s.into())
+}
+
+fn read_tags(path: PathBuf) -> Result<Tags> {
+    let f = std::fs::File::open(path)?;
     Ok(serde_yaml::from_reader(f)?)
 }
 
-fn read_tools(file: String) -> Result<Vec<Entry>, Box<dyn Error>> {
-    let dir: std::fs::ReadDir = std::fs::read_dir(file)?;
+fn read_tools(path: PathBuf) -> Result<Vec<Entry>> {
+    let dir: std::fs::ReadDir = std::fs::read_dir(path)?;
 
     let files = dir
         .map(|res| res.map(|e| e.path()))
@@ -31,6 +37,7 @@ fn read_tools(file: String) -> Result<Vec<Entry>, Box<dyn Error>> {
 
     files
         .iter()
+        .inspect(|p| println!("Reading {}", p.display()))
         .map(|p| {
             let file = std::fs::File::open(p)?;
             let entry: Entry = serde_yaml::from_reader(file)?;
@@ -39,10 +46,16 @@ fn read_tools(file: String) -> Result<Vec<Entry>, Box<dyn Error>> {
         .collect::<Result<Vec<Entry>, _>>()
 }
 
-fn main() -> Result<(), Box<dyn Error>> {
-    let (tags, tools) = get_files()?;
-    let tags = read_tags(tags)?;
-    let mut tools = read_tools(tools)?;
+fn main() -> Result<()> {
+    let mut args = Arguments::from_env();
+    let args = Args {
+        tags: args.value_from_os_str("--tags", parse_path)?,
+        tools: args.value_from_os_str("--tools", parse_path)?,
+        out: args.value_from_os_str("--out", parse_path)?,
+    };
+
+    let tags = read_tags(args.tags)?;
+    let mut tools = read_tools(args.tools)?;
     tools.sort();
     validate(&tags, &tools)?;
 
@@ -51,6 +64,6 @@ fn main() -> Result<(), Box<dyn Error>> {
     }
 
     let catalog = group(&tags, tools)?;
-    println!("{}", catalog.render()?);
+    fs::write(&args.out, catalog.render()?).context("Cannot write")?;
     Ok(())
 }

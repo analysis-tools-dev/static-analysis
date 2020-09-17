@@ -12,3 +12,5 @@ askama = "0.9.0"
 hubcaps = "0.6"
 tokio = { version = "0.2", features = ["macros"] }
 chrono = "0.4.15"
+anyhow = "1.0.32"
+pico-args = "0.3.4"

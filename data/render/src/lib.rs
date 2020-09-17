@@ -1,9 +1,9 @@
 #[macro_use]
 extern crate serde_derive;
 
-use std::error::Error;
 use hubcaps::{Credentials, Github};
 use chrono::{Utc, NaiveDateTime, Local, DateTime};
+use anyhow::Result;
 
 mod lints;
 pub mod types;
@@ -11,12 +11,12 @@ pub mod types;
 use std::collections::BTreeMap;
 use types::{Catalog, Entry, Tag, Tags, Type};
 
-fn valid(entry: &Entry, tags: &Tags) -> Result<(), Box<dyn Error>> {
+fn valid(entry: &Entry, tags: &Tags) -> Result<()> {
     let lints = [lints::name, lints::min_one_tag, lints::tags_existing];
     lints.iter().map(|lint| Ok(lint(&entry, &tags)?)).collect()
 }
 
-pub fn validate(tags: &Tags, entries: &Vec<Entry>) -> Result<(), Box<dyn Error>> {
+pub fn validate(tags: &Tags, entries: &Vec<Entry>) -> Result<()> {
     for entry in entries {
         valid(&entry, &tags)?
     }
@@ -24,7 +24,8 @@ pub fn validate(tags: &Tags, entries: &Vec<Entry>) -> Result<(), Box<dyn Error>>
 }
 
 #[tokio::main]
-pub async fn check_deprecated(token: String, entries: &mut Vec<Entry>) -> Result<(), Box<dyn Error>> {
+pub async fn check_deprecated(token: String, entries: &mut Vec<Entry>) -> Result<()> {
+    println!("Checking for deprecated entries on Github. This might take a while...");
     let github = Github::new(
         String::from("analysis tools bot"),
         Credentials::Token(token),
@@ -67,7 +68,7 @@ pub async fn check_deprecated(token: String, entries: &mut Vec<Entry>) -> Result
     Ok(())
 }
 
-pub fn group(tags: &Tags, entries: Vec<Entry>) -> Result<Catalog, Box<dyn Error>> {
+pub fn group(tags: &Tags, entries: Vec<Entry>) -> Result<Catalog> {
     let mut linters = BTreeMap::new();
 
     // Move tools that support multiple languages into their own category
