@@ -2,11 +2,21 @@ name: Code Inspector
 categories:
   - linter
 tags:
-  - service
+  - c
+  - cpp
+  - go
+  - java
+  - javascript
+  - ruby
+  - php
+  - python
+  - kotlin
+  - typescript
+  - ci
 license: proprietary
 types:
   - service
-homepage: 'https://www.code-inspector.com'
+homepage: "https://www.code-inspector.com"
 description: >-
   Code quality and technical debt management platform that supports 10+
   languages.

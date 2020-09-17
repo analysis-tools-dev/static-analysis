@@ -2,7 +2,8 @@ name: Reshift
 categories:
   - linter
 tags:
-  - service
+  - java
+  - security
 license: proprietary
 types:
   - service

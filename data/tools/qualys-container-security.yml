@@ -3,7 +3,7 @@ categories:
   - linter
 tags:
   - container
-  - service
+  - security
 license: proprietary
 types:
   - service

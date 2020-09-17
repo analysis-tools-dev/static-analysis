@@ -3,7 +3,15 @@ categories:
   - linter
 tags:
   - ci
-  - service
+  - security
+  - java
+  - python
+  - javascript
+  - typescript
+  - csharp
+  - go
+  - c
+  - cpp
 license: proprietary
 types:
   - service

@@ -2,7 +2,14 @@ name: Scrutinizer
 categories:
   - linter
 tags:
-  - service
+  - ci
+  - php
+  - python
+  - ruby
+  - java
+  - javascript
+  - go
+  - typescript
 license: proprietary
 types:
   - service

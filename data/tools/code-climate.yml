@@ -1,10 +1,10 @@
 name: Code Climate
 categories:
   - linter
-tags:
-  - service
 license: proprietary
+tags:
+  - ci
 types:
   - service
-homepage: 'https://codeclimate.com'
-description: 'The open and extensible static analysis platform, for everyone.'
+homepage: "https://codeclimate.com"
+description: "The open and extensible static analysis platform, for everyone."

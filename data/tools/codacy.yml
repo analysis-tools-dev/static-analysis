@@ -2,9 +2,35 @@ name: Codacy
 categories:
   - linter
 tags:
-  - service
+  - apex
+  - shell
+  - coffeescript
+  - cpp
+  - csharp
+  - crystal
+  - css
+  - elixir
+  - go
+  - groovy
+  - java
+  - javascript
+  - json
+  - jsp
+  - kotlin
+  - markdown
+  - php
+  - plsql
+  - python
+  - ruby
+  - scala
+  - swift
+  - tsql
+  - typescript
+  - vbscript
+  - visualforce
+  - xml
 license: proprietary
 types:
   - service
-homepage: 'https://www.codacy.com'
-description: 'Code Analysis to ship Better Code, Faster.'
+homepage: "https://www.codacy.com"
+description: "Code Analysis to ship Better Code, Faster."

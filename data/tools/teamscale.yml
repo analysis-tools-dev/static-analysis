@@ -8,7 +8,6 @@ tags:
   - cpp
   - csharp
   - java
-  - service
 license: proprietary
 types:
   - service

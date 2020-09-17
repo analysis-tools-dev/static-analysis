@@ -2,7 +2,15 @@ name: CodeFlow
 categories:
   - linter
 tags:
-  - service
+  - ci
+  - javascript
+  - typescript
+  - php
+  - ruby
+  - java
+  - css
+  - container
+  - python
 license: proprietary
 types:
   - service

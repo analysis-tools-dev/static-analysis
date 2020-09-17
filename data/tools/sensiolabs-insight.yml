@@ -3,7 +3,8 @@ categories:
   - linter
 tags:
   - php
-  - service
+  - ci
+  - security
 license: proprietary
 types:
   - service

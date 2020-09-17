@@ -2,7 +2,7 @@ name: Landscape
 categories:
   - linter
 tags:
-  - service
+  - python
 deprecated: true
 license: proprietary
 types:

@@ -1,0 +1,12 @@
+name: CodeScan
+homepage: "https://www.codescan.io/"
+description: "Code Quality and Security for Salesforce Developers. Made exclusively for the Salesforce platform, CodeScan’s code analysis solutions provide you with total visibility into your code health."
+categories:
+  - linter
+tags:
+  - apex
+  - lwc
+  - visualforce
+license: proprietary
+types:
+  - service

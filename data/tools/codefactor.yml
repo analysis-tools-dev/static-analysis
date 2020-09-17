@@ -2,7 +2,31 @@ name: CodeFactor
 categories:
   - linter
 tags:
-  - service
+  - ci
+  - c
+  - cpp
+  - csharp
+  - java
+  - css
+  - javascript
+  - go
+  - python
+  - ruby
+  - typescript
+  - scala
+  - coffeescript
+  - groovy
+  - php
+  - container
+  - shell
+  - yaml
+  - vue
+  - html
+  - swift
+  - kotlin
+  - powershell
+  - dart
+  - r 
 license: proprietary
 types:
   - service
