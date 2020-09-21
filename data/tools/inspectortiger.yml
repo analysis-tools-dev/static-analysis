@@ -1,0 +1,14 @@
+name: InspectorTiger
+categories:
+  - linter
+tags:
+  - python
+license: MIT
+types:
+  - cli
+source: 'https://github.com/thg-consulting/it'
+homepage: 'https://github.com/thg-consulting/it'
+description: >-
+  IT, Inspector Tiger, is a modern python code review tool / framework.
+  It comes with bunch of pre-defined handlers which warns you about improvements and possible bugs.
+  Beside these handlers, you can write your own or use community ones.
