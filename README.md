@@ -152,6 +152,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Astrée](https://www.absint.com/astree/index.htm) :copyright: - Sound static analyzer based on abstract interpretation for C/C++, detecting memory, type and concurrency defects, and MISRA violations.
 - [CBMC](http://www.cprover.org/cbmc) - Bounded model-checker for C programs, user-defined assertions, standard assertions, several coverage metric analyses.
 - [clang-tidy](http://clang.llvm.org/extra/clang-tidy) - clang static analyser.
+- [clazy](https://github.com/KDE/clazy) - Qt-oriented static code analyzer based on the Clang framework. clazy is a compiler plugin which allows clang to understand Qt semantics. You get more than 50 Qt related compiler warnings, ranging from unneeded memory allocations to misusage of API, including fix-its for automatic refactoring.
 - [CMetrics](https://github.com/MetricsGrimoire/CMetrics) - Measures size and complexity for C files.
 - [CodeSonar from GrammaTech](https://www.grammatech.com/products/codesonar) :copyright: - Advanced, whole program, deep path, static analysis of C and C++ with easy-to-understand explanations and code and path visualization.
 - [cppcheck](http://cppcheck.sourceforge.net) - Static analysis of C/C++ code.
@@ -198,6 +199,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Astrée](https://www.absint.com/astree/index.htm) :copyright: - Sound static analyzer based on abstract interpretation for C/C++, detecting memory, type and concurrency defects, and MISRA violations.
 - [CBMC](http://www.cprover.org/cbmc) - Bounded model-checker for C programs, user-defined assertions, standard assertions, several coverage metric analyses.
 - [clang-tidy](http://clang.llvm.org/extra/clang-tidy) - clang static analyser.
+- [clazy](https://github.com/KDE/clazy) - Qt-oriented static code analyzer based on the Clang framework. clazy is a compiler plugin which allows clang to understand Qt semantics. You get more than 50 Qt related compiler warnings, ranging from unneeded memory allocations to misusage of API, including fix-its for automatic refactoring.
 - [CMetrics](https://github.com/MetricsGrimoire/CMetrics) - Measures size and complexity for C files.
 - [CodeSonar from GrammaTech](https://www.grammatech.com/products/codesonar) :copyright: - Advanced, whole program, deep path, static analysis of C and C++ with easy-to-understand explanations and code and path visualization.
 - [cppcheck](http://cppcheck.sourceforge.net) - Static analysis of C/C++ code.
