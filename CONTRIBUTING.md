@@ -43,7 +43,7 @@ informed decision on what is the best tool for the job, we are marking
 unmaintained or deprecated tools.
 [Here](https://github.com/mre/awesome-static-analysis/issues/223) is a nice
 discussion about why we think this is necessary. If you find a tool, which is
-unmaintained, please add `deprecated: true` to the entry in `data/tools.yml` and
+unmaintained, please add `deprecated: true` to the entry in `data/tools/` and
 create a pull request in which you provide an objective explanation as to why
 you think the tool should be marked deprecated. Every deprecation will be
 handled on a case-by-case basis.
