@@ -1,6 +1,6 @@
 use askama::Template;
-use std::cmp::Ordering;
 use std::collections::{BTreeMap, HashSet};
+use std::{cmp::Ordering, collections::HashMap};
 
 #[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq, Hash, Ord, PartialOrd)]
 pub enum Type {
@@ -36,6 +36,13 @@ pub struct Entry {
     pub description: String,
     pub discussion: Option<String>,
     pub deprecated: Option<bool>,
+    // The optional resources field is currently not parsed. It is only used
+    // for the website. In the future we could extend
+    // https://crates.io/crates/serde-tuple-vec-map to support optional fields
+    // or implement our own deserializer.
+    // Ideally we'd create a struct Resource { k: String, v: Url};
+    #[serde(skip_deserializing)]
+    pub resources: Option<Vec<(String, String)>>,
     pub wrapper: Option<bool>,
 }
 

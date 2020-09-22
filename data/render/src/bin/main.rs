@@ -13,6 +13,7 @@ struct Args {
     tags: PathBuf,
     tools: PathBuf,
     out: PathBuf,
+    skip_deprecated: bool,
 }
 
 fn parse_path(s: &OsStr) -> Result<PathBuf> {
@@ -52,6 +53,7 @@ fn main() -> Result<()> {
         tags: args.value_from_os_str("--tags", parse_path)?,
         tools: args.value_from_os_str("--tools", parse_path)?,
         out: args.value_from_os_str("--out", parse_path)?,
+        skip_deprecated: args.contains("--skip-deprecated"),
     };
 
     let tags = read_tags(args.tags)?;
@@ -59,8 +61,10 @@ fn main() -> Result<()> {
     tools.sort();
     validate(&tags, &tools)?;
 
+    if !args.skip_deprecated {
     if let Ok(token) = env::var("GITHUB_TOKEN") {
         check_deprecated(token, &mut tools)?;
+    }
     }
 
     let catalog = group(&tags, tools)?;
