@@ -24,8 +24,8 @@ tags:
   - typescript
 license: proprietary
 types:
-  - cli
-homepage: 'https://codescene.com'
+  - service
+homepage: "https://codescene.com"
 description: >-
   CodeScene is a quality visualization tool for software. Prioritize technical
   debt, detect delivery risks, and measure organizational aspects. Fully

@@ -20,8 +20,9 @@ tags:
   - vbasic
   - vbnet
   - vbscript
+  - security
 license: proprietary
 types:
-  - cli
-homepage: 'https://www.hcltechsw.com/wps/portal/products/appscan/home'
+  - service
+homepage: "https://www.hcltechsw.com/wps/portal/products/appscan/home"
 description: Commercial Static Code Analysis.

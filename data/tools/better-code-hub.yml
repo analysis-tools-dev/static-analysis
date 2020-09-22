@@ -21,8 +21,8 @@ tags:
   - typescript
 license: proprietary
 types:
-  - cli
-homepage: 'https://bettercodehub.com'
+  - service
+homepage: "https://bettercodehub.com"
 description: >-
   Better Code Hub checks your GitHub codebase against 10 engineering guidelines
   devised by the authority in software quality, Software Improvement Group.

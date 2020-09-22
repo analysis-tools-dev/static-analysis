@@ -11,8 +11,8 @@ tags:
   - sql
 license: proprietary
 types:
-  - cli
-homepage: 'https://deepsource.io'
+  - service
+homepage: "https://deepsource.io"
 description: >-
   In-depth static analysis to find issues in verticals of bug risks, security,
   anti-patterns, performance, documentation and style. Native integrations with

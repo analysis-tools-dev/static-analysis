@@ -10,8 +10,8 @@ tags:
   - typescript
 license: proprietary
 types:
-  - cli
-homepage: 'https://www.deepcode.ai'
+  - service
+homepage: "https://www.deepcode.ai"
 description: >-
   DeepCode finds bugs, security vulnerabilities, performance and API issues
   based on AI. DeepCode's speed of analysis allow us to analyse your code in

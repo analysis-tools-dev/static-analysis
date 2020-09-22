@@ -19,8 +19,9 @@ tags:
 license: MIT License
 types:
   - cli
-source: 'https://github.com/unibeautify/unibeautify'
-homepage: 'https://unibeautify.com'
+  - service
+source: "https://github.com/unibeautify/unibeautify"
+homepage: "https://unibeautify.com"
 description: >-
   Universal code beautifier with a GitHub app. Supports HTML, CSS, JavaScript,
   TypeScript, JSX, Vue, C++, Go, Objective-C, Java, Python, PHP, GraphQL,

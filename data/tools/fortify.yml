@@ -30,7 +30,7 @@ tags:
   - xml
 license: proprietary
 types:
-  - cli
+  - ide-plugin
 homepage: >-
   https://software.microfocus.com/en-us/products/static-code-analysis-sast/overview
 description: >-

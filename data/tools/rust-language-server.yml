@@ -5,9 +5,9 @@ tags:
   - rust
 license: Other
 types:
-  - cli
-source: 'https://github.com/rust-lang-nursery/rls'
-homepage: 'https://github.com/rust-lang-nursery/rls'
+  - ide-plugin
+source: "https://github.com/rust-lang-nursery/rls"
+homepage: "https://github.com/rust-lang-nursery/rls"
 description: >-
   Supports functionality such as 'goto definition', symbol search, reformatting,
   and code completion, and enables renaming and refactorings.

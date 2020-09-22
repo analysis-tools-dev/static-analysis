@@ -19,9 +19,9 @@ tags:
   - typescript
 license: MIT License
 types:
-  - cli
-source: 'https://github.com/Glavin001/atom-beautify'
-homepage: 'https://atom.io/packages/atom-beautify'
+  - ide-plugin
+source: "https://github.com/Glavin001/atom-beautify"
+homepage: "https://atom.io/packages/atom-beautify"
 description: >-
   Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#,
   Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom
