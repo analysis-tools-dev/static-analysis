@@ -26,3 +26,6 @@ homepage: "https://bettercodehub.com"
 description: >-
   Better Code Hub checks your GitHub codebase against 10 engineering guidelines
   devised by the authority in software quality, Software Improvement Group.
+resources:
+  - title: Better Code Hub introduction video
+    url: https://www.youtube.com/watch?v=diERwdr2omM

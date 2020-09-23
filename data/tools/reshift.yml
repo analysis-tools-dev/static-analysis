@@ -7,7 +7,10 @@ tags:
 license: proprietary
 types:
   - service
-homepage: 'https://www.reshiftsecurity.com'
+homepage: "https://www.reshiftsecurity.com"
 description: >-
   A source code analysis tool for detecting and managing Java security
   vulnerabilities.
+resources:
+  - title: 3 Minute Reshift Demo 2020
+    url: https://www.youtube.com/watch?v=GspuLMF3Vyo
