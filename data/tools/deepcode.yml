@@ -18,3 +18,8 @@ description: >-
   real time and deliver results when you hit the save button in your IDE.
   Supported languages are Java, C/C++, JavaScript, Python, and TypeScript.
   Integrations with GitHub, BitBucket and Gitlab.
+resources:
+  - title: Intro to DeepCode
+    url: https://www.youtube.com/watch?v=5ThvYN3nWcg
+  - title: How DeepCode addresses False Positives
+    url: https://www.youtube.com/watch?v=d-fvZ83O_es

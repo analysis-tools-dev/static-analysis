@@ -7,6 +7,9 @@ tags:
 license: Other
 types:
   - cli
-source: 'https://github.com/PyCQA/flake8'
-homepage: 'https://github.com/PyCQA/flake8'
-description: 'A wrapper around `pyflakes`, `pycodestyle` and `mccabe`.'
+source: "https://github.com/PyCQA/flake8"
+homepage: "https://github.com/PyCQA/flake8"
+description: "A wrapper around `pyflakes`, `pycodestyle` and `mccabe`."
+resources:
+  - title: My Python Code Looks Ugly and Confusing - Help!
+    url: https://www.youtube.com/watch?v=TDUf93vqq3g

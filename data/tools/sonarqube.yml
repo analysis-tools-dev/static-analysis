@@ -22,3 +22,8 @@ types:
 source: "https://github.com/SonarSource/sonarqube"
 homepage: "http://www.sonarqube.org"
 description: SonarQube is an open platform to manage code quality.
+resources:
+  - title: Write Cleaner, Safer, Modern C++ Code with SonarQube
+    url: https://www.youtube.com/watch?v=WPHVPbxCAwE
+  - title: Write cleaner, safer Python code with SonarQube
+    url: https://www.youtube.com/watch?v=ow-yuIlCuHk

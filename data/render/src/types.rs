@@ -1,6 +1,6 @@
 use askama::Template;
-use std::cmp::Ordering;
 use std::collections::{BTreeMap, HashSet};
+use std::cmp::Ordering;
 
 #[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq, Hash, Ord, PartialOrd)]
 pub enum Type {
@@ -25,6 +25,12 @@ pub type Tags = Vec<Tag>;
 pub type EntryTags = HashSet<String>;
 
 #[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq)]
+pub struct Resource {
+    title: String,
+    url: String,
+}
+
+#[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq)]
 pub struct Entry {
     pub name: String,
     pub categories: HashSet<String>,
@@ -36,6 +42,7 @@ pub struct Entry {
     pub description: String,
     pub discussion: Option<String>,
     pub deprecated: Option<bool>,
+    pub resources: Option<Vec<Resource>>,
     pub wrapper: Option<bool>,
 }
 

@@ -38,3 +38,6 @@ description: >-
   VB.NET, VB6, ABAP/BSP, ActionScript, Apex, ASP.NET, Classic ASP, VB Script,
   Cobol, ColdFusion, HTML, Java, JS, JSP, MXML/Flex, Objective-C, PHP, PL/SQL,
   T-SQL, Python (2.6, 2.7), Ruby (1.9.3), Swift, Scala, VB, and XML.
+resources:
+  - title: Visual Studio - real-time security with Fortify Security Assistant (2018)
+    url: https://www.youtube.com/watch?v=7CfeUXtDlwQ
