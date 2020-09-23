@@ -23,8 +23,10 @@ types:
 source: "https://github.com/Glavin001/atom-beautify"
 homepage: "https://atom.io/packages/atom-beautify"
 resources:
-  - Adding Atom Beautify Package to Atom: https://www.youtube.com/watch?v=oBz6rXG0XT8
-  - 10 Essential Atom Editor Packages & Setup: https://www.youtube.com/watch?v=aiXNKHKWlmY
+  - title: Adding Atom Beautify Package to Atom
+    url: https://www.youtube.com/watch?v=oBz6rXG0XT8
+  - title: 10 Essential Atom Editor Packages & Setup
+    url: https://www.youtube.com/watch?v=aiXNKHKWlmY
 description: >-
   Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#,
   Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom
