@@ -12,3 +12,6 @@ homepage: 'http://wala.sourceforge.net'
 description: >-
   Static analysis capabilities for Java bytecode and related languages and for
   JavaScript.
+resources:
+  - title: WALA Everywhere
+    url: https://www.youtube.com/watch?v=QtrJEopSSuw
