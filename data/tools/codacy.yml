@@ -34,3 +34,6 @@ types:
   - service
 homepage: "https://www.codacy.com"
 description: "Code Analysis to ship Better Code, Faster."
+resources:
+  - title: Automate your code quality with Codacy Static Analysis Tool
+    url: https://www.youtube.com/watch?v=oxqTu2ouxaw
