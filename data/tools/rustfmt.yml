@@ -1,0 +1,11 @@
+name: rustfmt
+categories:
+  - formatter
+tags:
+  - rust
+license: Apache License
+types:
+  - cli
+source: 'https://github.com/rust-lang/rustfmt'
+homepage: 'https://github.com/rust-lang/rustfmt'
+description: 'A tool for formatting Rust code according to style guidelines.'
