@@ -552,6 +552,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [rust-analyzer](https://rust-analyzer.github.io) - Supports functionality such as 'goto definition', type inference, symbol search, reformatting, and code completion, and enables renaming and refactorings.
 - [rust-audit](https://github.com/Shnatsel/rust-audit) - Audit Rust binaries for known bugs or security vulnerabilities. This works by embedding data about the dependency tree (Cargo.lock) in JSON format into a dedicated linker section of the compiled executable.
 - [rustfix](https://github.com/rust-lang/rustfix) - Read and apply the suggestions made by rustc (and third-party lints, like those offered by clippy).
+- [rustfmt](https://github.com/rust-lang/rustfmt) - A tool for formatting Rust code according to style guidelines.
 
 
 <h2 id="sql">SQL</h2>
