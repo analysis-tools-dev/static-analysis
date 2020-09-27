@@ -703,6 +703,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Semgrep](https://semgrep.live) - Free, open-source lightweight static analysis for many languages. Find and block bug variants with patterns that look like source code.
 - [Semmle QL and LGTM](https://semmle.com) :copyright: - Find security vulnerabilities, variants, and critical code quality issues using queries over source code. Automatic PR code review; free for public GitHub/Bitbucket repo: [LGTM.com](https://LGTM.com).
 - [SensioLabs Insight](https://insight.sensiolabs.com) :copyright: - Detect security risks, find bugs and provide actionable metrics for PHP projects.
+- [ShiftLeft](https://www.shiftleft.io) :copyright: - Identify vulnerabilities that are unique to your code base before they reach production. Leverages the Code Property Graph (CPG) to run its analyses concurrently in a single graph of graphs. Automatically finds business logic flaws in dev like hardcoded secrets and logic bombs
 - [ShiftLeft Scan](https://slscan.io) - Scan is a free open-source DevSecOps platform for detecting security issues in source code and dependencies. It supports a broad range of languages and CI/CD pipelines.
 - [shipshape](https://github.com/google/shipshape) :warning: - Static program analysis platform that allows custom analyzers to plug in through a common interface.
 - [Sider](https://sider.review) :copyright: - An automated code reviewing tool. Improving developers' productivity.
