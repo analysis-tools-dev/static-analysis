@@ -24,6 +24,6 @@ jobs:
       - name: Redeploy website
         uses: peter-evans/repository-dispatch@v1
         with:
-          token: ${{ secrets.REPO_DISPATCH_TOKEN }}
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
           repository: analysis-tools-dev/website
           event-type: rebuild
