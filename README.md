@@ -116,6 +116,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
   - [Support](#support)
   - [Template-Languages](#template)
   - [Translation](#translation)
+  - [Vue.js](#vue)
   - [Writing](#writing)
   
 
@@ -885,6 +886,11 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="translation">Translation</h2>
 
 - [dennis](https://github.com/willkg/dennis) - A set of utilities for working with PO files to ease development and improve quality.
+
+
+<h2 id="vue">Vue.js</h2>
+
+- [Vetur](https://vuejs.github.io) - Vue tooling for VS Code, powered by vls (vue language server). Vetur has support for formatting embedded HTML, CSS, SCSS, JS, TypeScript, and more. Vetur only has a "whole document formatter" and cannot format arbitrary ranges.
 
 
 <h2 id="writing">Writing</h2>
