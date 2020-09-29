@@ -9,8 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        
       - name: Render list
         run: make render
+        
       - uses: stefanzweifel/git-auto-commit-action@v4.1.2
         with:
           branch: ${{ github.head_ref }}
@@ -19,9 +21,9 @@ jobs:
           commit_user_email: bot@analysis-tools.dev
           commit_author: Analysis Tools Bot <bot@analysis-tools.dev>
 
-    - name: Redeploy website
-      uses: peter-evans/repository-dispatch@v1
-      with:
-        token: ${{ secrets.REPO_DISPATCH_TOKEN }}
-        repository: analysis-tools-dev/website
-        event-type: rebuild
+      - name: Redeploy website
+        uses: peter-evans/repository-dispatch@v1
+        with:
+          token: ${{ secrets.REPO_DISPATCH_TOKEN }}
+          repository: analysis-tools-dev/website
+          event-type: rebuild
