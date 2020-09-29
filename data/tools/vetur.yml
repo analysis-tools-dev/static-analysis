@@ -1,0 +1,16 @@
+name: Vetur
+categories:
+  - linter
+  - formatter
+tags:
+  - vue
+license: MIT License
+types:
+  - cli
+  - ide-plugin
+source: 'https://github.com/vuejs/vetur'
+homepage: 'https://vuejs.github.io'
+description: >-
+  Vue tooling for VS Code, powered by vls (vue language server).
+  Vetur has support for formatting embedded HTML, CSS, SCSS, JS, TypeScript, and more.
+  Vetur only has a "whole document formatter" and cannot format arbitrary ranges.
