@@ -1,0 +1,11 @@
+name: Nauz File Detector
+categories:
+  - linter
+tags:
+  - binary
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/horsicq/Nauz-File-Detector'
+homepage: 'https://github.com/horsicq/Nauz-File-Detector'
+description: Static Linker/Compiler/Tool detector for Windows, Linux and MacOS.
