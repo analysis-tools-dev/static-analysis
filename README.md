@@ -111,7 +111,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
   - [Mobile](#mobile)
   - [Packages](#package)
   - [Protocol Buffers](#protobuf)
-  - [Security](#security)
+  - [Security/SAST](#security)
   - [Smart Contracts](#smart-contracts)
   - [Support](#support)
   - [Template-Languages](#template)
@@ -856,7 +856,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [protolint](https://github.com/yoheimuta/protolint) - Pluggable linter and fixer to enforce Protocol Buffer style and conventions.
 
 
-<h2 id="security">Security</h2>
+<h2 id="security">Security/SAST</h2>
 
 - [Attackflow Extension](https://www.attackflow.com/Extension) :copyright: - Attackflow plugin for Visual Studio, which enables developers to find critical security bugs at real time in the source code without any prior knowledge.
 - [Gitleaks](https://github.com/zricethezav/gitleaks) - A SAST tool for detecting hardcoded secrets like passwords, api keys, and tokens in git repos.
