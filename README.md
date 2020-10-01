@@ -747,6 +747,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Jakstab](https://github.com/jkinder/jakstab) - Jakstab is an Abstract Interpretation-based, integrated disassembly and static analysis framework for designing analyses on executables and recovering reliable control flow graphs.
 - [Manalyze](https://github.com/JusticeRage/Manalyze) - A static analyzer, which checks portable executables for malicious content.
 - [Twiggy](https://rustwasm.github.io/twiggy) - Analyzes a binary's call graph to profile code size. The goal is to slim down binaries.
+- [Nauz File Detector(NFD)](https://github.com/horsicq/Nauz-File-Detector) - Static Linker/Compiler/Tool detector for Windows, Linux and MacOS.
 
 
 <h2 id="css">CSS/SASS/SCSS</h2>
