@@ -482,6 +482,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Black](https://black.readthedocs.io/en/stable) - The uncompromising Python code formatter.
 - [cohesion](https://github.com/mschwager/cohesion) - A tool for measuring Python class cohesion.
 - [Dlint](https://github.com/dlint-py/dlint) - A tool for ensuring Python code is secure.
+- [fixit](https://pypi.org/project/fixit) - A framework for creating lint rules and corresponding auto-fixes for source code.
 - [InspectorTiger](https://github.com/thg-consulting/it) - IT, Inspector Tiger, is a modern python code review tool / framework. It comes with bunch of pre-defined handlers which warns you about improvements and possible bugs. Beside these handlers, you can write your own or use community ones.
 - [jedi](https://jedi.readthedocs.io/en/latest) - Autocompletion/static analysis library for Python.
 - [Landscape](https://landscape.io) :warning: :copyright: - Static code analysis for Python.
@@ -747,6 +748,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [IDA Free](https://www.hex-rays.com/products/ida/support/download_freeware) :copyright: - Binary code analysis tool.
 - [Jakstab](https://github.com/jkinder/jakstab) - Jakstab is an Abstract Interpretation-based, integrated disassembly and static analysis framework for designing analyses on executables and recovering reliable control flow graphs.
 - [Manalyze](https://github.com/JusticeRage/Manalyze) - A static analyzer, which checks portable executables for malicious content.
+- [Nauz File Detector](https://github.com/horsicq/Nauz-File-Detector) - Static Linker/Compiler/Tool detector for Windows, Linux and MacOS.
 - [Twiggy](https://rustwasm.github.io/twiggy) - Analyzes a binary's call graph to profile code size. The goal is to slim down binaries.
 
 
