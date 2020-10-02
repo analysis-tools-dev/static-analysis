@@ -1,0 +1,14 @@
+name: fixit
+categories:
+  - linter
+tags:
+  - python
+license: MIT
+types:
+  - cli
+source: 'https://github.com/Instagram/Fixit'
+homepage: 'https://pypi.org/project/fixit'
+description: A framework for creating lint rules and corresponding auto-fixes for source code.
+resources:
+  - title: Enforcing coding conventions using libCST and Fixit
+    url: https://www.digitalernachschub.de/blog/enforcing-coding-conventions-using-libcst-and-fixit/
