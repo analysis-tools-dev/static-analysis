@@ -846,6 +846,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [FlowDroid](https://github.com/secure-software-engineering/FlowDroid) - Static taint analysis tool for Android applications.
 - [paprika](https://github.com/GeoffreyHecht/paprika) - A toolkit to detect some code smells in analyzed Android applications.
 - [qark](https://github.com/linkedin/qark) - Tool to look for several security related Android application vulnerabilities.
+- [redex](https://fbredex.com) - Redex provides a framework for reading, writing, and analyzing .dex files, and a set of optimization passes  that use this framework to improve the bytecode. An APK optimized by Redex should be smaller and faster.
 
 
 <h2 id="package">Packages</h2>
