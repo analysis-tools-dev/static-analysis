@@ -14,6 +14,7 @@ tags:
 license: MIT
 types:
   - service
+  - ide-plugin
 homepage: 'https://github.com/github/codeql'
 description: >-
   Deep code analysis - semantic queries and dataflow for several languages
