@@ -1,0 +1,21 @@
+name: codeql
+categories:
+  - linter
+tags:
+  - ci
+  - security
+  - java
+  - python
+  - javascript
+  - typescript
+  - csharp
+  - c
+  - cpp
+license: MIT
+types:
+  - service
+  - ide-plugin
+homepage: 'https://github.com/github/codeql'
+description: >-
+  Deep code analysis - semantic queries and dataflow for several languages
+  with VSCode plugin support.
