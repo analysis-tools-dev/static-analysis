@@ -1,0 +1,12 @@
+name: JEB Decompiler
+categories:
+  - linter
+tags:
+  - binary
+license: proprietary
+types:
+  - cli
+homepage: 'https://www.pnfsoftware.com/'
+description: >-
+  Decompile and debug binary code. Break down and analyze document files.
+  Android Dalvik, MIPS, ARM, Intel x86, Java, WebAssembly & Ethereum Decompilers.
