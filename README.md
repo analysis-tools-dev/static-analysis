@@ -749,6 +749,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Ghidra](https://ghidra-sre.org) - A software reverse engineering (SRE) suite of tools developed by NSA's Research Directorate in support of the Cybersecurity mission
 - [IDA Free](https://www.hex-rays.com/products/ida/support/download_freeware) :copyright: - Binary code analysis tool.
 - [Jakstab](https://github.com/jkinder/jakstab) - Jakstab is an Abstract Interpretation-based, integrated disassembly and static analysis framework for designing analyses on executables and recovering reliable control flow graphs.
+- [JEB Decompiler](https://www.pnfsoftware.com/) :copyright: - Decompile and debug binary code. Break down and analyze document files. Android Dalvik, MIPS, ARM, Intel x86, Java, WebAssembly & Ethereum Decompilers.
 - [Manalyze](https://github.com/JusticeRage/Manalyze) - A static analyzer, which checks portable executables for malicious content.
 - [Nauz File Detector](https://github.com/horsicq/Nauz-File-Detector) - Static Linker/Compiler/Tool detector for Windows, Linux and MacOS.
 - [Twiggy](https://rustwasm.github.io/twiggy) - Analyzes a binary's call graph to profile code size. The goal is to slim down binaries.
