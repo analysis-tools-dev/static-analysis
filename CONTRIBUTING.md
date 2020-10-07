@@ -1,6 +1,6 @@
 # How to add a new tool to the list
 
-Please feel free to open a pull request if you know of a code analysis tool that
+Please feel free to open a pull request if you know of a static analysis tool that
 is not mentioned here.  
 If you're in doubt if a tool is a good fit for the list, **don't open an issue,
 but create a pull request right away** because that's easier to handle. Thanks!
@@ -21,12 +21,11 @@ please create a file in the `data/tools` directory.
 
 - Make each tool description as precise as possible.  
   Please limit the description to **500 characters**.
-- Please keep the tools in alphabetical order.
 - By default, we assume that the tool is open source.
   If a tool is proprietary, add `proprietary: true`.
 - Please add as many tags as possible. You can choose from the tags
   in `data/tags.yml` If a tool does not match any existing tag, feel
-  free to start a new tag.
+  free to add a new tag.
 
 Finally, create a pull request with all your changes.
 You can call `make render` to check for errors before.  
