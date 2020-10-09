@@ -283,6 +283,9 @@
 - name: Vyper (Smart contract)
   tag: vyper
   type: other
+- name: Webassembly
+  tag: wasm
+  type: other
 - name: Writing
   tag: writing
   type: other
