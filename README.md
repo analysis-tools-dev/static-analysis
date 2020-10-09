@@ -872,7 +872,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="smart-contracts">Smart Contracts</h2>
 
 - [mythril](https://github.com/ConsenSys/mythril) - A symbolic execution framework with batteries included, can be used to find and exploit vulnerabilities in smart contracts automatically.
-- [MythX](https://mythx.io) :copyright: - MythX is an easy to use analysis platform which integrates several analysis methods like fuzzing, symbolic execution and static analysis to find vulnerabilities with high precision.
+- [MythX](https://mythx.io) :copyright: - MythX is an easy to use analysis platform which integrates several analysis methods like fuzzing, symbolic execution and static analysis to find vulnerabilities with high precision. It can be integrated with toolchains like Remix or VSCode or called from the command-line.
 - [slither](https://github.com/trailofbits/slither) - Static analysis framework that runs a suite of vulnerability detectors, prints visual information about contract details, and provides an API to easily write custom analyses.
 - [solhint](https://protofire.github.io/solhint) - Solhint is an open source project created by https://protofire.io. Its goal is to provide a linting utility for Solidity code.
 - [solium](https://ethlint.readthedocs.io/en/latest) - Solium is a linter to identify and fix style and security issues in Solidity smart contracts.
