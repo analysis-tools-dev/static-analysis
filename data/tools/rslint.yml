@@ -1,0 +1,13 @@
+name: RSLint
+categories:
+  - linter
+tags:
+  - javascript
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/RDambrosio016/RSLint'
+homepage: 'http://rslint.org/'
+description: >-
+  A (WIP) JavaScript linter written in Rust designed to be as fast as possible,
+  customizable, and easy to use.
