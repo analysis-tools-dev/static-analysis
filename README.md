@@ -392,6 +392,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [JSPrime](http://dpnishant.github.io/jsprime) :warning: - Static security analysis tool.
 - [plato](https://github.com/es-analysis/plato) :warning: - Visualize JavaScript source complexity.
 - [retire.js](http://retirejs.github.io/retire.js) - Scanner detecting the use of JavaScript libraries with known vulnerabilities.
+- [RSLint](http://rslint.org/) - A (WIP) JavaScript linter written in Rust designed to be as fast as possible, customizable, and easy to use.
 - [tern](https://ternjs.net) - A JavaScript code analyzer for deep, cross-editor language support.
 - [xo](https://github.com/xojs/xo) - Opinionated but configurable ESLint wrapper with lots of goodies included. Enforces strict and readable code.
 - [yardstick](https://github.com/calmh/yardstick) :warning: - Javascript code metrics.
