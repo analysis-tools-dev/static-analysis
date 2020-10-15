@@ -1,0 +1,12 @@
+name: Standard Ruby
+categories:
+  - linter
+tags:
+  - ruby
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/testdouble/standard'
+homepage: 'https://github.com/testdouble/standard'
+description: >-
+  Ruby Style Guide, with linter & automatic code fixer

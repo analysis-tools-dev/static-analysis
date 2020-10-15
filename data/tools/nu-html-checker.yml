@@ -1,0 +1,13 @@
+name: Nu Html Checker
+categories:
+  - linter
+tags:
+  - css
+  - html
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/validator/validator'
+homepage: 'https://validator.github.io/validator/'
+description: >-
+  Helps you catch problems in your HTML/CSS/SVG
