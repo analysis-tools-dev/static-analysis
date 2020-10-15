@@ -538,6 +538,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [rubycritic](https://github.com/whitesmith/rubycritic) - A Ruby code quality reporter.
 - [SandiMeter](https://rubygems.org/gems/sandi_meter) :warning: - Static analysis tool for checking Ruby code for Sandi Metz' rules.
 - [Sorbet](https://sorbet.org) - A fast, powerful type checker designed for Ruby.
+- [Standard Ruby](https://github.com/testdouble/standard) - Ruby Style Guide, with linter & automatic code fixer
 
 
 <h2 id="rust">Rust</h2>
@@ -682,6 +683,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [multilint](https://github.com/adamchainz/multilint) - A wrapper around `flake8`, `isort` and `modernize`.
 - [Nitpick CI](https://nitpick-ci.com) :copyright: - Automated PHP code review.
 - [NodeJSScan](https://opensecurity.in) - NodeJsScan is a static security code scanner for Node.js applications.
+- [Nu Html Checker](https://validator.github.io/validator/) - Helps you catch problems in your HTML/CSS/SVG
 - [oclint](http://oclint.org) - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C.
 - [Oversecured](https://oversecured.com) :copyright: - A mobile app vulnerability scanner, designed for security researchers and bug bounty hackers. It also allows integrations into the DevOps process for businesses.
 - [pfff](https://github.com/facebookarchive/pfff/wiki/Main) :warning: - Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages.
@@ -919,6 +921,8 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 ## More Collections
 
 - [go-tools](https://github.com/dominikh/go-tools) - A collection of tools and libraries for working with Go code, including linters and static analysis
+- [Clean code linters](https://github.com/collections/clean-code-linters) - A collection of linters in github collections
+- [Code Quality Checker Tools For PHP Projects](https://github.com/collections/code-quality-in-php) - A collection of PHP linters in github collections
 - [linters](https://github.com/mcandre/linters/tree/b044f0628c4a96dfea869cf61e0e96cf4c49cf6b) - An introduction to static code analysis
 - [php-static-analysis-tools](https://github.com/exakat/php-static-analysis-tools) - A reviewed list of useful PHP static analysis tools
 - [Tools for C/C++](https://www.peerlyst.com/posts/a-list-of-static-analysis-tools-for-c-c-peerlyst?utm_source=twitter&utm_medium=social&utm_content=peerlyst_post&utm_campaign=peerlyst_resources) - A list of static analysis tools for C/C++
