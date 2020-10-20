@@ -407,7 +407,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [detekt](https://detekt.github.io/detekt) - Static code analysis for Kotlin code.
 - [ktlint](https://ktlint.github.io) - An anti-bikeshedding Kotlin linter with built-in formatter.
-- [diktat](https://www.cqfn.org/diKTat/) - Strict coding standard for Kotlin and a linter that detects and auto-fixes code smells.
 
 
 <h2 id="lua">Lua</h2>
