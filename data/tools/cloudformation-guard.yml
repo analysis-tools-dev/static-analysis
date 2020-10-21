@@ -1,0 +1,13 @@
+name: AWS CloudFormation Guard
+categories:
+  - linter
+tags:
+  - configmanagement
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/aws-cloudformation/cloudformation-guard'
+homepage: 'https://github.com/aws-cloudformation/cloudformation-guard'
+description: >-
+  Check local CloudFormation templates against policy-as-code rules 
+  and generate rules from existing templates.
