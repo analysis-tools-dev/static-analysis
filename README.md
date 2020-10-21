@@ -785,6 +785,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="configmanagement">Configuration Management</h2>
 
 - [ansible-lint](https://docs.ansible.com/ansible-lint) - Checks playbooks for practices and behaviour that could potentially be improved.
+- [AWS CloudFormation Guard](https://github.com/aws-cloudformation/cloudformation-guard) - Check local CloudFormation templates against policy-as-code rules  and generate rules from existing templates.
 - [cfn-lint](https://github.com/awslabs/cfn-python-lint) - AWS Labs CloudFormation linter.
 - [cfn_nag](https://github.com/stelligent/cfn_nag) - A linter for AWS CloudFormation templates.
 - [checkov](https://www.checkov.io) - Static analysis tool for Terraform files (tf>=v0.12), preventing cloud misconfigs at build time.
