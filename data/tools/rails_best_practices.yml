@@ -1,0 +1,11 @@
+name: rails_best_practices
+categories:
+  - linter
+tags:
+  - ruby
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/flyerhzm/rails_best_practices'
+homepage: 'https://rails-bestpractices.com'
+description: 'A code metric tool for Rails projects'
