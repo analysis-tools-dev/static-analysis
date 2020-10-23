@@ -1,0 +1,11 @@
+name: Steep
+categories:
+  - linter
+tags:
+  - ruby
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/soutaro/steep'
+homepage: 'https://github.com/soutaro/steep'
+description: 'Gradual Typing for Ruby.'
