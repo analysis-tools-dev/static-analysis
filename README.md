@@ -526,6 +526,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="ruby">Ruby</h2>
 
 - [cane](https://github.com/square/cane) - Code quality threshold checking as part of your build.
+- [Fasterer](https://github.com/DamirSvrtan/fasterer) - Common Ruby idioms checker.
 - [flay](https://ruby.sadi.st/Flay.html) - Flay analyzes code for structural similarities.
 - [flog](https://ruby.sadi.st/Flog.html) - Flog reports the most tortured code in an easy to read pain report. The higher the score, the more pain the code is in.
 - [laser](https://github.com/michaeledgar/laser) :warning: - Static analysis and style linter for Ruby code.
