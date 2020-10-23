@@ -814,7 +814,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="ci">Continuous Integration</h2>
 
-- [Code Climate](https://codeclimate.com) :copyright: - The open and extensible static analysis platform, for everyone.
+- [Code Climate](https://codeclimate.com) - The open and extensible static analysis platform, for everyone.
 - [PullRequest](https://www.pullrequest.com) :copyright: - Code review as a service with built-in static analysis.  Increase velocity and reduce technical debt through quality code review by expert engineers backed by best-in-class automation.
 
 
