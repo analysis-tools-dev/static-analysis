@@ -539,6 +539,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Rubrowser](http://www.emadelsaid.com/rubrowser) - Ruby classes interactive dependency graph generator.
 - [ruby-lint](http://code.yorickpeterse.com/ruby-lint/latest) :warning: - Static code analysis for Ruby.
 - [rubycritic](https://github.com/whitesmith/rubycritic) - A Ruby code quality reporter.
+- [rufo](https://github.com/ruby-formatter/rufo) - An opinionated ruby formatter, intended to be used via the command line as a text-editor plugin, to autoformat files on save or on demand.
 - [Saikuro](https://metricfu.github.io/Saikuro) - A Ruby cyclomatic complexity analyzer.
 - [SandiMeter](https://rubygems.org/gems/sandi_meter) :warning: - Static analysis tool for checking Ruby code for Sandi Metz' rules.
 - [Sorbet](https://sorbet.org) - A fast, powerful type checker designed for Ruby.
