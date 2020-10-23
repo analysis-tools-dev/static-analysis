@@ -540,6 +540,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [SandiMeter](https://rubygems.org/gems/sandi_meter) :warning: - Static analysis tool for checking Ruby code for Sandi Metz' rules.
 - [Sorbet](https://sorbet.org) - A fast, powerful type checker designed for Ruby.
 - [Standard Ruby](https://github.com/testdouble/standard) - Ruby Style Guide, with linter & automatic code fixer
+- [Steep](https://github.com/soutaro/steep) - Gradual Typing for Ruby.
 
 
 <h2 id="rust">Rust</h2>
