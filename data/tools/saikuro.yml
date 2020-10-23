@@ -1,0 +1,11 @@
+name: Saikuro
+categories:
+  - linter
+tags:
+  - ruby
+license: BSD License
+types:
+  - cli
+source: 'https://github.com/metricfu/Saikuro'
+homepage: 'https://metricfu.github.io/Saikuro'
+description: 'A Ruby cyclomatic complexity analyzer.'
