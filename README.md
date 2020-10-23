@@ -533,6 +533,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [pelusa](https://github.com/codegram/pelusa) - Static analysis Lint-type tool to improve your OO Ruby code.
 - [Querly](https://github.com/soutaro/querly) - Pattern Based Checking Tool for Ruby.
 - [Railroader](https://railroader.org) - An open source static analysis security vulnerability scanner for Ruby on Rails applications.
+- [rails_best_practices](https://rails-bestpractices.com) - A code metric tool for Rails projects
 - [reek](https://github.com/troessner/reek) - Code smell detector for Ruby.
 - [RuboCop](https://docs.rubocop.org/rubocop) - A Ruby static code analyzer, based on the community Ruby style guide.
 - [Rubrowser](http://www.emadelsaid.com/rubrowser) - Ruby classes interactive dependency graph generator.
