@@ -438,7 +438,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [PHP Assumptions](https://github.com/rskuipers/php-assumptions) - Checks for weak assumptions.
 - [PHP Coding Standards Fixer](https://cs.symfony.com) - Fixes your code according to standards like PSR-1, PSR-2, and the Symfony standard.
 - [PHP Insights](https://phpinsights.com) - Instant PHP quality checks from your console. Analysis of code quality and coding style as well as overview of code architecture and its complexity.
-
 - [Php Inspections (EA Extended)](https://plugins.jetbrains.com/plugin/7622-php-inspections-ea-extended-) - A Static Code Analyzer for PHP.
 - [PHP Refactoring Browser](http://qafoolabs.github.io/php-refactoring-browser) - Refactoring helper.
 - [PHP Semantic Versioning Checker](https://github.com/tomzx/php-semver-checker) - Suggests a next version according to semantic versioning.
