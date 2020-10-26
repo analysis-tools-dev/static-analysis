@@ -800,6 +800,8 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [terraform-compliance](https://terraform-compliance.com) - A lightweight, compliance- and security focused, BDD test framework against Terraform.
 - [terrascan](https://github.com/cesar-rodriguez/terrascan) - Collection of security and best practice tests for static code analysis of Terraform templates.
 - [tflint](https://github.com/wata727/tflint) - A Terraform linter for detecting errors that can not be detected by `terraform plan`.
+- [tfsec] (https://github.com/tfsec/tfsec) - Terraform static analysis tool that supports terraform <0.12 & >=0.12, prevents cloud misconfigs at build time & directly integrates with HCL parser for better results.
+
 
 
 <h2 id="container">Containers</h2>
