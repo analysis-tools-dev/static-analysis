@@ -8,4 +8,4 @@ types:
   - cli
 source: 'https://github.com/lukasmartinelli/hadolint'
 homepage: 'https://github.com/lukasmartinelli/hadolint'
-description: A smarter Dockerfile linter that helpsyou build best practice Docker images.
+description: A smarter Dockerfile linter that helps you build best practice Docker images.
