@@ -413,6 +413,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="lua">Lua</h2>
 
 - [luacheck](https://github.com/mpeterv/luacheck) - A tool for linting and static analysis of Lua code.
+- [lualint](https://github.com/philips/lualint) - lualint performs luac-based static analysis of global variable usage in Lua source code.
 
 
 <h2 id="matlab">MATLAB</h2>
