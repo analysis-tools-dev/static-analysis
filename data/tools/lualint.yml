@@ -1,0 +1,13 @@
+name: lualint
+categories:
+  - linter
+tags:
+  - lua
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/philips/lualint'
+homepage: 'https://github.com/philips/lualint'
+description: >-
+  lualint performs luac-based static analysis of global variable usage in
+  Lua source code.
