@@ -21,9 +21,9 @@ description: >-
   Dialyzer bases its analysis on the concept of success typings, 
   which allows for sound warnings (no false positives).
 resources:
-    - title: ElixirConf 2016 - Dialyzer: Optimistic Type Checking for Erlang and Elixir by Jason Voegele
+    - title: "ElixirConf 2016 - Dialyzer: Optimistic Type Checking for Erlang and Elixir by Jason Voegele"
       url: https://www.youtube.com/watch?v=JT0ECYZ9FaQ
-    - title: Sean Cribbs - Chemanalysis: Dialyzing Elixir | Code BEAM SF 19
+    - title: "Sean Cribbs - Chemanalysis: Dialyzing Elixir | Code BEAM SF 19"
       url: https://www.youtube.com/watch?v=k4au7VioXNk
-    - title: Stavros Aronis - What does Dialyzer think about me? | Code BEAM STO 19
+    - title: "Stavros Aronis - What does Dialyzer think about me? | Code BEAM STO 19"
       url: https://www.youtube.com/watch?v=Nxsw1jRE2A4&t=709s
