@@ -758,6 +758,8 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 
 <h2 id="binary">Binaries</h2>
 
+- [binbloom](https://github.com/quarkslab/binbloom) - The purpose of this project is to analyse a raw binary firmware  and determine automatically some of its features.  This tool is compatible with all architectures as basically,  it just does simple statistics on it.
+Loading address: binbloom can parse a raw binary firmware and determine its loading address. Endianness: binbloom can use heuristics to determine the endianness of a firmware. UDS Database: binbloom can parse a raw binary firmware and check if it contains an array containing UDS command IDs.
 - [BinSkim](https://github.com/Microsoft/binskim) - A binary static analysis tool that provides security and correctness results for Windows portable executables.
 - [Black Duck](https://www.blackducksoftware.com) :copyright: - Tool to analyze source code and binaries for reusable code, necessary licenses and potential security aspects.
 - [bloaty](https://github.com/google/bloaty) - Ever wondered what's making your binary big? Bloaty McBloatface will show you a size profile of the binary so you can understand what's taking up space inside. Bloaty performs a deep analysis of the binary. Using custom ELF, DWARF, and Mach-O parsers,  Bloaty aims to accurately attribute every byte of the binary to the symbol or compileunit that produced it.  It will even disassemble the binary looking for references to anonymous data. F
