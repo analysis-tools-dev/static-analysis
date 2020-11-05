@@ -1,0 +1,22 @@
+name: binbloom
+categories:
+  - linter
+tags:
+  - binary
+license: Apache-2.0 License 
+types:
+  - cli
+source: 'https://github.com/quarkslab/binbloom'
+homepage: 'https://github.com/quarkslab/binbloom'
+description: >-
+  The purpose of this project is to analyse a raw binary firmware 
+  and determine automatically some of its features. 
+  This tool is compatible with all architectures as basically, 
+  it just does simple statistics on it.
+  
+  Loading address: binbloom can parse a raw binary firmware and determine its loading address.
+  Endianness: binbloom can use heuristics to determine the endianness of a firmware.
+  UDS Database: binbloom can parse a raw binary firmware and check if it contains an array containing UDS command IDs.
+resources:
+  - title: "Tutorial: Binbloom - Raw Binary Firmware Analysis Software"
+    url: https://www.kitploit.com/2020/10/binbloom-raw-binary-firmware-analysis.html?m=1
