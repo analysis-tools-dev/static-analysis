@@ -17,3 +17,6 @@ description: >-
   Loading address: binbloom can parse a raw binary firmware and determine its loading address.
   Endianness: binbloom can use heuristics to determine the endianness of a firmware.
   UDS Database: binbloom can parse a raw binary firmware and check if it contains an array containing UDS command IDs.
+resources:
+  - title: Tutorial: Binbloom - Raw Binary Firmware Analysis Software 
+    url: https://www.kitploit.com/2020/10/binbloom-raw-binary-firmware-analysis.html?m=1
