@@ -79,7 +79,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
     <li><a href="#perl">Perl</a></li>
     <li><a href="#python">Python</a></li>
     <li><a href="#r">R</a></li>
-    <li><a href="#rpg">RPG</a></li>
     <li><a href="#ruby">Ruby</a></li>
     <li><a href="#rust">Rust</a></li>
     <li><a href="#sql">SQL</a></li>
@@ -521,11 +520,6 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [styler](https://styler.r-lib.org) - Formatting of R source code files and pretty-printing of R code.
 
 
-<h2 id="rpg">RPG</h2>
-
-- [SourceMeter](https://www.sourcemeter.com/resources/rpg) :copyright: - Static Code Analysis for RPG III and RPG IV versions (including free-form).
-
-
 <h2 id="ruby">Ruby</h2>
 
 - [cane](https://github.com/square/cane) - Code quality threshold checking as part of your build.
@@ -731,6 +725,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [SonarCloud](https://sonarcloud.io) :copyright: - Multi-language cloud-based static code analysis. History, trends, security hot-spots, pull request analysis and more. Free for open source.
 - [SonarLint for Visual Studio](https://vs.sonarlint.org) - SonarLint is an extension for Visual Studio 2015 and 2017 that provides on-the-fly feedback to developers on new bugs and quality issues injected into .NET code.
 - [SonarQube](http://www.sonarqube.org) - SonarQube is an open platform to manage code quality.
+- [SourceMeter](https://www.sourcemeter.com/) :copyright: - Static Code Analysis for C/C++, Java, C#, Python, and RPG III and RPG IV versions (including free-form).
 - [Spectral](https://stoplight.io/open-source/spectral) - A flexible JSON/YAML linter, without of the box support for OpenAPI v2/v3 and AsyncAPI v2.
 - [standard](http://standardjs.com) - An npm module that checks for Javascript Styleguide issues.
 - [Super-Linter](https://github.com/github/super-linter) - Combination of multiple linters to install as a GitHub Action.
@@ -770,6 +765,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 - [JEB Decompiler](https://www.pnfsoftware.com/) :copyright: - Decompile and debug binary code. Break down and analyze document files. Android Dalvik, MIPS, ARM, Intel x86, Java, WebAssembly & Ethereum Decompilers.
 - [Manalyze](https://github.com/JusticeRage/Manalyze) - A static analyzer, which checks portable executables for malicious content.
 - [Nauz File Detector](https://github.com/horsicq/Nauz-File-Detector) - Static Linker/Compiler/Tool detector for Windows, Linux and MacOS.
+- [zydis](https://zydis.re) - Fast and lightweight x86/x86-64 disassembler library
 
 
 <h2 id="css">CSS/SASS/SCSS</h2>
