@@ -1,0 +1,11 @@
+name: zydis
+categories:
+  - linter
+tags:
+  - binary
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/zyantific/zydis'
+homepage: 'https://zydis.re'
+description: 'Fast and lightweight x86/x86-64 disassembler library'
