@@ -494,6 +494,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [mccabe](https://pypi.org/project/mccabe) - Check McCabe complexity.
 - [mypy](http://www.mypy-lang.org) - A static type checker that aims to combine the benefits of duck typing and static typing, frequently used with [MonkeyType](https://github.com/Instagram/MonkeyType).
 - [py-find-injection](https://github.com/uber/py-find-injection) :warning: - Find SQL injection vulnerabilities in Python code.
+- [PyCodeQual](https://pycodequ.al) :copyright: - PyCodeQual gives you insights into complexity and bug risks. It adds automatic reviews to your pull requests.
 - [pycodestyle](https://pycodestyle.pycqa.org/en/latest) - (Formerly `pep8`) Check Python code against some of the style conventions in PEP 8.
 - [pydocstyle](http://www.pydocstyle.org) - Check compliance with Python docstring conventions.
 - [pyflakes](https://pypi.org/project/pyflakes) - Check Python source files for errors.
