@@ -300,6 +300,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [dogsled](https://github.com/alexkohler/dogsled) - Finds assignments/declarations with too many blank identifiers.
 - [dupl](https://github.com/mibk/dupl) - Reports potentially duplicated code.
 - [errcheck](https://github.com/kisielk/errcheck) - Check that error return values are used.
+- [errwrap](https://github.com/fatih/errwrap) - Wrap and fix Go errors with the new %w verb directive.  This tool analyzes fmt.Errorf() calls and reports calls that contain a verb directive that  is different than the new %w verb directive introduced in Go v1.13.  It's also capable of rewriting calls to use the new %w wrap verb directive.
 - [flen](https://github.com/lafolle/flen) - Get info on length of functions in a Go package.
 - [go tool vet --shadow](https://golang.org/cmd/vet#hdr-Shadowed_variables) - Reports variables that may have been unintentionally shadowed.
 - [go vet](https://golang.org/cmd/vet) - Examines Go source code and reports suspicious.
