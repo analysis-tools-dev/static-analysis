@@ -1,0 +1,15 @@
+name: errwrap
+categories:
+  - linter
+tags:
+  - go
+license: BSD 3-Clause License
+types:
+  - cli
+source: 'https://github.com/fatih/errwrap'
+homepage: 'https://github.com/fatih/errwrap'
+description: >-
+  Wrap and fix Go errors with the new %w verb directive. 
+  This tool analyzes fmt.Errorf() calls and reports calls that contain a verb directive that 
+  is different than the new %w verb directive introduced in Go v1.13. 
+  It's also capable of rewriting calls to use the new %w wrap verb directive.
