@@ -1,0 +1,15 @@
+name: tfsec
+categories:
+  - linter
+tags:
+  - configmanagement
+  - security
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/tfsec/tfsec'
+homepage: 'https://github.com/tfsec/tfsec'
+description: >-
+  Terraform static analysis tool that prevents potential security issues
+  by checking cloud misconfigurations at build time and directly integrates with the HCL parser for better results.
+  Checks for violations of AWS, Azure and GCP security best practice recommendations.
