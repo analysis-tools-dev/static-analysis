@@ -734,6 +734,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [Super-Linter](https://github.com/github/super-linter) - Combination of multiple linters to install as a GitHub Action.
 - [Synopsys](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html) :copyright: - A commercial static analysis platform that allows for scanning of multiple languages (C/C++, Android, C#, Java, JS, PHP, Python, Node.JS, Ruby, Fortran, and Swift).
 - [Teamscale](http://www.teamscale.com) :copyright: - Static and dynamic analysis tool supporting more than 25 languages and direct IDE integration. Free hosting for Open Source projects available on request. Free academic licenses available.
+- [tfsec](https://github.com/tfsec/tfsec) - Terraform static analysis tool that prevents potential security issues by checking cloud misconfigurations at build time and directly integrates with the HCL parser for better results. Checks for violations of AWS, Azure and GCP security best practice recommendations.
 - [todocheck](https://github.com/preslavmihaylov/todocheck) - Linter for integrating annotated TODOs with your issue trackers
 - [TscanCode](https://github.com/Tencent/TscanCode) - A fast and accurate static analysis solution for C/C++, C#, Lua codes provided by Tencent. Using GPLv3 license.
 - [Twiggy](https://rustwasm.github.io/twiggy) - Analyzes a binary's call graph to profile code size. The goal is to slim down wasm binary size.
