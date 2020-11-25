@@ -241,6 +241,9 @@
 - name: Mobile
   tag: mobile
   type: other
+- name: Nim
+  tag: nim
+  type: language
 - name: Node.js
   tag: nodejs
   type: other
