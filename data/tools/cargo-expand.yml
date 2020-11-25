@@ -1,0 +1,14 @@
+name: cargo-expand
+categories:
+  - linter
+tags:
+  - rust
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/dtolnay/cargo-expand'
+homepage: 'https://github.com/dtolnay/cargo-expand'
+description: >-
+  Cargo subcommand to show result of macro expansion 
+  and #[derive] expansion applied to the current crate. 
+  This is a wrapper around a more verbose compiler command.
