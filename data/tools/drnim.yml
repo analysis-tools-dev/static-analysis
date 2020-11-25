@@ -1,0 +1,11 @@
+name: DrNim
+categories:
+  - linter
+tags:
+  - nim
+license: MIT
+types:
+  - cli
+source: 'https://nim-lang.org/docs/drnim.html'
+homepage: 'https://nim-lang.org/docs/drnim.html'
+description: 'DrNim combines the Nim frontend with the Z3 proof engine in order to allow verify / validate software written in Nim.'
