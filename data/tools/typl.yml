@@ -1,0 +1,13 @@
+name: TypL
+categories:
+  - linter
+tags:
+  - javascript
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/getify/TypL'
+homepage: 'https://typl.dev'
+description: >-
+  With TypL, you just write completely standard JS, and the tool figures
+  out your types via powerful inferencing.
