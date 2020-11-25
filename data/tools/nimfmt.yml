@@ -1,0 +1,11 @@
+name: nimfmt
+categories:
+  - linter
+tags:
+  - nim
+license:  GPL-3.0 License 
+types:
+  - cli
+source: 'https://github.com/FedericoCeratto/nimfmt'
+homepage: 'https://github.com/FedericoCeratto/nimfmt'
+description: 'Nim code formatter / linter / style checker'
