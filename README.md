@@ -75,6 +75,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
     <li><a href="#kotlin">Kotlin</a></li>
     <li><a href="#lua">Lua</a></li>
     <li><a href="#matlab">MATLAB</a></li>
+    <li><a href="#nim">Nim</a></li>
     <li><a href="#php">PHP</a></li>
     <li><a href="#perl">Perl</a></li>
     <li><a href="#python">Python</a></li>
@@ -422,6 +423,12 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 <h2 id="matlab">MATLAB</h2>
 
 - [mlint](https://mathworks.com/help/matlab/ref/mlint.html) :copyright: - Check MATLAB code files for possible problems.
+
+
+<h2 id="nim">Nim</h2>
+
+- [DrNim](https://nim-lang.org/docs/drnim.html) - DrNim combines the Nim frontend with the Z3 proof engine in order to allow verify / validate software written in Nim.
+- [nimfmt](https://github.com/FedericoCeratto/nimfmt) - Nim code formatter / linter / style checker
 
 
 <h2 id="php">PHP</h2>
