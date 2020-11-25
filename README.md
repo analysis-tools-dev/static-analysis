@@ -549,7 +549,9 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 <h2 id="rust">Rust</h2>
 
 - [C2Rust](https://c2rust.com) - C2Rust helps you migrate C99-compliant code to Rust. The translator (or transpiler) produces unsafe Rust code that closely mirrors the input C code.
+- [cargo udeps](https://github.com/est31/cargo-udeps) - Find unused dependencies in Cargo.toml. It either prints out a "unused crates" line listing the crates,  or it prints out a line saying that no crates were unused.
 - [cargo-audit](https://rustsec.org) - Audit Cargo.lock for crates with security vulnerabilities reported to the [RustSec Advisory Database](https://github.com/RustSec/advisory-db/).
+- [cargo-expand](https://github.com/dtolnay/cargo-expand) - Cargo subcommand to show result of macro expansion  and #[derive] expansion applied to the current crate.  This is a wrapper around a more verbose compiler command.
 - [cargo-inspect](https://github.com/mre/cargo-inspect) - Inspect Rust code without syntactic sugar to see what the compiler does behind the curtains.
 - [clippy](https://rust-lang.github.io/rust-clippy) - A code linter to catch common mistakes and improve your Rust code.
 - [electrolysis](http://kha.github.io/electrolysis) - A tool for formally verifying Rust programs by transpiling them into definitions in the Lean theorem prover.
