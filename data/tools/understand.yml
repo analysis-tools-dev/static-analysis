@@ -6,7 +6,7 @@ tags:
 license: proprietary
 types:
   - cli
-homepage: 'https://scitools.com/ada-programming-essential'
+homepage: 'https://www.scitools.com/ada-programming-essential'
 description: >-
   IDE that provides code analysis, standards testing, metrics, graphing,
   dependency analysis and more for Ada and VHDL.
