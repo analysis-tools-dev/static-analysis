@@ -927,7 +927,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 <h2 id="vue">Vue.js</h2>
 
-- [Vetur](https://vuejs.github.io) - Vue tooling for VS Code, powered by vls (vue language server). Vetur has support for formatting embedded HTML, CSS, SCSS, JS, TypeScript, and more. Vetur only has a "whole document formatter" and cannot format arbitrary ranges.
+- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) - Vue tooling for VS Code, powered by vls (vue language server). Vetur has support for formatting embedded HTML, CSS, SCSS, JS, TypeScript, and more. Vetur only has a "whole document formatter" and cannot format arbitrary ranges.
 
 
 <h2 id="writing">Writing</h2>
