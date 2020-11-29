@@ -7,5 +7,5 @@ license: MIT License
 types:
   - cli
 source: 'https://github.com/blazeeboy/rubrowser'
-homepage: 'http://www.emadelsaid.com/rubrowser'
+homepage: 'https://github.com/blazeeboy/rubrowser'
 description: Ruby classes interactive dependency graph generator.
