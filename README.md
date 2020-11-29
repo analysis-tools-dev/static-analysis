@@ -543,7 +543,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [rails_best_practices](https://rails-bestpractices.com) - A code metric tool for Rails projects
 - [reek](https://github.com/troessner/reek) - Code smell detector for Ruby.
 - [RuboCop](https://docs.rubocop.org/rubocop) - A Ruby static code analyzer, based on the community Ruby style guide.
-- [Rubrowser](http://www.emadelsaid.com/rubrowser) - Ruby classes interactive dependency graph generator.
+- [Rubrowser](https://github.com/blazeeboy/rubrowser) - Ruby classes interactive dependency graph generator.
 - [ruby-lint](http://code.yorickpeterse.com/ruby-lint/latest) :warning: - Static code analysis for Ruby.
 - [rubycritic](https://github.com/whitesmith/rubycritic) - A Ruby code quality reporter.
 - [rufo](https://github.com/ruby-formatter/rufo) - An opinionated ruby formatter, intended to be used via the command line as a text-editor plugin, to autoformat files on save or on demand.
