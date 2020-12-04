@@ -1,0 +1,13 @@
+name: cargo-spellcheck
+categories:
+  - linter
+tags:
+  - rust
+license: Apache 2.0 / MIT License
+types:
+  - cli
+source: 'https://github.com/drahnr/cargo-spellcheck'
+homepage: 'https://github.com/drahnr/cargo-spellcheck'
+description: >-
+  Checks all your documentation for spelling and grammar mistakes 
+  with hunspell (ready) and languagetool (preview)
