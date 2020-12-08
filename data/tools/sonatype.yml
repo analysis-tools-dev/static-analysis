@@ -27,7 +27,7 @@ tags:
 license: proprietary
 types:
   - service
-source: 'https://www.sonatype.com''
+source: 'https://www.sonatype.com'
 homepage: 'https://www.sonatype.com'
 description: >-
   Reports known vulnerabilities in common dependencies and recommends updated packages
