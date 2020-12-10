@@ -724,6 +724,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [Reshift](https://www.reshiftsecurity.com) :copyright: - A source code analysis tool for detecting and managing Java security vulnerabilities.
 - [Reviewdog](https://github.com/haya14busa/reviewdog) - A tool for posting review comments from any linter in any code hosting service.
 - [RIPS](https://www.ripstech.com) :copyright: - A static source code analyser for vulnerabilities in PHP scripts.
+- [Rome](https://rome.tools/) - Rome is a linter, compiler, bundler, and [more](https://rome.tools/#development-status) for JavaScript, TypeScript, JSON, HTML, Markdown, and CSS.
 - [Roslyn Analyzers](https://github.com/dotnet/roslyn-analyzers) - Roslyn-based implementation of FxCop analyzers.
 - [Roslyn Security Guard](https://security-code-scan.github.io) - Project that focuses on the identification of potential vulnerabilities such as SQL injection, cross-site scripting (XSS), CSRF, cryptography weaknesses, hardcoded passwords and many more.
 - [Scrutinizer](https://scrutinizer-ci.com) :copyright: - A proprietary code quality checker that can be integrated with GitHub.
