@@ -1,0 +1,17 @@
+name: Rome
+categories:
+  - linter
+tags:
+  - javascript
+  - typescript
+  - html
+  - markdown
+  - css
+license: MIT License
+types:
+  - cli
+source: "https://github.com/rome/tools"
+homepage: "https://rome.tools/"
+description: >-
+  Rome is a linter, compiler, bundler, and [more](https://rome.tools/#development-status)
+  for JavaScript, TypeScript, JSON, HTML, Markdown, and CSS.
