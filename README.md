@@ -357,6 +357,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 
 <h2 id="java">Java</h2>
 
+- [PMD](https://pmd.github.io/) - PMD is a source code analyzer. It finds common programming flaws like unused variables, empty catch blocks, unnecessary object creation, and so forth. It supports Java, JavaScript, Salesforce.com Apex and Visualforce, PLSQL, Apache Velocity, XML, XSL.
 - [Checker Framework](https://checkerframework.org) - Pluggable type-checking for Java.
 - [checkstyle](https://checkstyle.org) - Checking Java source code for adherence to a Code Standard or set of validation rules (best practices).
 - [ck](https://github.com/mauricioaniche/ck) - Calculates Chidamber and Kemerer object-oriented metrics by processing the source Java files.
@@ -381,6 +382,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 
 <h2 id="javascript">JavaScript</h2>
 
+- [PMD](https://pmd.github.io/) - PMD is a source code analyzer. It finds common programming flaws like unused variables, empty catch blocks, unnecessary object creation, and so forth. It supports Java, JavaScript, Salesforce.com Apex and Visualforce, PLSQL, Apache Velocity, XML, XSL.
 - [aether](http://aetherjs.com) - Lint, analyze, normalize, transform, sandbox, run, step through, and visualize user JavaScript, in node or the browser.
 - [Closure Compiler](https://developers.google.com/closure/compiler) - A compiler tool to increase efficiency, reduce size, and provide code warnings in JavaScript files.
 - [ClosureLinter](https://github.com/google/closure-linter) :warning: - Ensures that all of your project's JavaScript code follows the guidelines in the Google JavaScript Style Guide. It can also automatically fix many common errors.
