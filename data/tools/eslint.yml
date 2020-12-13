@@ -6,7 +6,7 @@ tags:
   - typescript
   - jsx
   - flow
-license: Other
+license: MIT License
 types:
   - cli
 source: "https://github.com/eslint/eslint"
