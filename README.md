@@ -264,7 +264,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="elixir">Elixir</h2>
 
-- [credo](http://credo-ci.org) - A static code analysis tool with a focus on code consistency and teaching.
+- [credo](https://github.com/rrrene/credo) - A static code analysis tool with a focus on code consistency and teaching.
 - [sobelow](https://github.com/nccgroup/sobelow) - Security-focused static analysis for the Phoenix Framework.
 
 
@@ -435,7 +435,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 <h2 id="php">PHP</h2>
 
 - [churn-php](https://github.com/bmitch/churn-php) - Helps discover good candidates for refactoring.
-- [dephpend](https://dephpend.com) - Dependency analysis tool.
+- [dephpend](https://github.com/mihaeu/dephpend) - Dependency analysis tool.
 - [deprecation-detector](https://github.com/sensiolabs-de/deprecation-detector) - Finds usages of deprecated (Symfony) code.
 - [deptrac](https://github.com/sensiolabs-de/deptrac) - Enforce rules for dependencies between software layers.
 - [DesignPatternDetector](https://github.com/Halleck45/DesignPatternDetector) - Detection of design patterns in PHP code.
@@ -498,7 +498,6 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [fixit](https://pypi.org/project/fixit) - A framework for creating lint rules and corresponding auto-fixes for source code.
 - [InspectorTiger](https://github.com/thg-consulting/it) - IT, Inspector Tiger, is a modern python code review tool / framework. It comes with bunch of pre-defined handlers which warns you about improvements and possible bugs. Beside these handlers, you can write your own or use community ones.
 - [jedi](https://jedi.readthedocs.io/en/latest) - Autocompletion/static analysis library for Python.
-- [Landscape](https://landscape.io) :warning: :copyright: - Static code analysis for Python.
 - [linty fresh](https://github.com/lyft/linty_fresh) - Parse lint errors and report them to Github as comments on a pull request.
 - [mccabe](https://pypi.org/project/mccabe) - Check McCabe complexity.
 - [mypy](http://www.mypy-lang.org) - A static type checker that aims to combine the benefits of duck typing and static typing, frequently used with [MonkeyType](https://github.com/Instagram/MonkeyType).
