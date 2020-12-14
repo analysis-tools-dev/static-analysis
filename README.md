@@ -615,10 +615,10 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 <h2 id="typescript">TypeScript</h2>
 
 - [Codelyzer](http://codelyzer.com) - A set of tslint rules for static code analysis of Angular 2 TypeScript projects.
-- [ESLint](https://github.com/typescript-eslint/typescript-eslint) - An extensible linter for the TypeScript language.
 - [tslint-clean-code](https://www.npmjs.com/package/tslint-clean-code) - A set of TSLint rules inspired by the Clean Code handbook.
 - [tslint-microsoft-contrib](https://github.com/Microsoft/tslint-microsoft-contrib) - A set of tslint rules for static code analysis of TypeScript projects maintained by Microsoft.
 - [TypeScript Call Graph](https://github.com/whyboris/TypeScript-Call-Graph) - CLI to generate an interactive graph of functions and calls from your TypeScript files
+- [TypeScript ESLint](https://github.com/typescript-eslint/typescript-eslint) - TypeScript language extension for eslint.
 
 
 <h2 id="vbscript">VBScript</h2>
@@ -677,6 +677,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [Depends](https://github.com/multilang-depends/depends) - Analyses the comprehensive dependencies of code elements for Java, C/C++, Ruby.
 - [DevSkim](https://github.com/microsoft/devskim) - Regex-based static analysis tool for Visual Studio, VS Code, and Sublime Text - C/C++, C#, PHP, ASP, Python, Ruby, Java, and others.
 - [Embold](https://embold.io) :copyright: - Intelligent software analytics platform that identifies design issues, code issues, duplication and metrics. Supports Java, C, C++, C#, JavaScript, TypeScript, Python, Go, Kotlin and more.
+- [ESLint](https://github.com/eslint/eslint) - An extensible linter for JS, following the ECMAScript standard.
 - [exakat](https://www.exakat.io) - An automated code reviewing engine for PHP.
 - [Find Security Bugs](https://find-sec-bugs.github.io) - The SpotBugs plugin for security audits of Java web applications and Android applications. (Also work with Kotlin, Groovy and Scala projects)
 - [flake8](https://github.com/PyCQA/flake8) - A wrapper around `pyflakes`, `pycodestyle` and `mccabe`.
@@ -741,6 +742,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [SonarCloud](https://sonarcloud.io) :copyright: - Multi-language cloud-based static code analysis. History, trends, security hot-spots, pull request analysis and more. Free for open source.
 - [SonarLint for Visual Studio](https://vs.sonarlint.org) - SonarLint is an extension for Visual Studio 2015 and 2017 that provides on-the-fly feedback to developers on new bugs and quality issues injected into .NET code.
 - [SonarQube](http://www.sonarqube.org) - SonarQube is an open platform to manage code quality.
+- [Sonatype](https://www.sonatype.com) :copyright: - Reports known vulnerabilities in common dependencies and recommends updated packages to minimize breaking changes
 - [SourceMeter](https://www.sourcemeter.com/) :copyright: - Static Code Analysis for C/C++, Java, C#, Python, and RPG III and RPG IV versions (including free-form).
 - [Spectral](https://stoplight.io/open-source/spectral) - A flexible JSON/YAML linter, without of the box support for OpenAPI v2/v3 and AsyncAPI v2.
 - [standard](http://standardjs.com) - An npm module that checks for Javascript Styleguide issues.
