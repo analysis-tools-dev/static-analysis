@@ -136,7 +136,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Codepeer](http://www.adacore.com/codepeer) :copyright: - Detects run-time and logic errors.
 - [Polyspace for Ada](https://www.mathworks.com/products/polyspace-ada.html) :copyright: - Provide code verification that proves the absence of overflow, divide-by-zero, out-of-bounds array access, and certain other run-time errors in source code.
 - [SPARK](https://www.adacore.com/about-spark) :copyright: - Static analysis and formal verification toolset for Ada.
-- [Understand](https://www.scitools.com/ada-programming-essential) :copyright: - IDE that provides code analysis, standards testing, metrics, graphing, dependency analysis and more for Ada and VHDL.
 
 
 <h2 id="asm">Assembly</h2>
@@ -753,6 +752,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [TscanCode](https://github.com/Tencent/TscanCode) - A fast and accurate static analysis solution for C/C++, C#, Lua codes provided by Tencent. Using GPLv3 license.
 - [Twiggy](https://rustwasm.github.io/twiggy) - Analyzes a binary's call graph to profile code size. The goal is to slim down wasm binary size.
 - [Undebt](https://github.com/Yelp/undebt) - Language-independent tool for massive, automatic, programmable refactoring based on simple pattern definitions.
+- [Understand](https://www.scitools.com) :copyright: - Code visualization tool that provides code analysis, standards testing, metrics, graphing, dependency analysis and more for Ada, VHDL, and others.
 - [Unibeautify](https://unibeautify.com) - Universal code beautifier with a GitHub app. Supports HTML, CSS, JavaScript, TypeScript, JSX, Vue, C++, Go, Objective-C, Java, Python, PHP, GraphQL, Markdown, and more.
 - [Upsource](https://www.jetbrains.com/upsource) :copyright: - Code review tool with static code analysis and code-aware navigation for Java, PHP, JavaScript and Kotlin.
 - [Veracode](http://www.veracode.com/products/static-analysis-sast/static-code-analysis) :copyright: - Find flaws in binaries and bytecode without requiring source. Support all major programming languages: Java, .NET, JavaScript, Swift, Objective-C, C, C++ and more.
