@@ -11,9 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
       - name: Link Checker
         uses: lycheeverse/lychee-action@v1
-      
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        
       - name: Create Issue From File
         uses: peter-evans/create-issue-from-file@v2
         with:
