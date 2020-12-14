@@ -3,7 +3,6 @@ categories:
   - linter
 tags:
   - php
-deprecated: true
 license: MIT License
 types:
   - cli
