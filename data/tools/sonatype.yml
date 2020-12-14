@@ -1,0 +1,34 @@
+name: Sonatype
+categories:
+  - linter
+tags:
+  - ci
+  - security
+  - java
+  - kotlin
+  - go
+  - scala
+  - clojure
+  - groovy
+  - javascript
+  - coffeescript
+  - csharp
+  - vbasic
+  - fsharp
+  - python
+  - ruby
+  - swift
+  - php
+  - objectivec
+  - c
+  - cpp
+  - rust
+  - r
+license: proprietary
+types:
+  - service
+source: 'https://www.sonatype.com'
+homepage: 'https://www.sonatype.com'
+description: >-
+  Reports known vulnerabilities in common dependencies and recommends updated packages
+  to minimize breaking changes
