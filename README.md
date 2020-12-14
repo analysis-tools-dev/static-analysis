@@ -757,7 +757,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [Upsource](https://www.jetbrains.com/upsource) :copyright: - Code review tool with static code analysis and code-aware navigation for Java, PHP, JavaScript and Kotlin.
 - [Veracode](http://www.veracode.com/products/static-analysis-sast/static-code-analysis) :copyright: - Find flaws in binaries and bytecode without requiring source. Support all major programming languages: Java, .NET, JavaScript, Swift, Objective-C, C, C++ and more.
 - [Violations Lib](https://github.com/tomasbjerre/violations-lib) - Java library for parsing report files from static code analysis. Used by a bunch of Jenkins, Maven and Gradle plugins.
-- [WALA](http://wala.sourceforge.net) - Static analysis capabilities for Java bytecode and related languages and for JavaScript.
+- [WALA](https://github.com/wala/WALA) - Static analysis capabilities for Java bytecode and related languages and for JavaScript.
 - [WhiteHat Application Security Platform](https://www.whitehatsec.com/platform/static-application-security-testing) :copyright: - WhiteHat Scout (for Developers) combined with WhiteHat Sentinel Source (for Operations) supporting WhiteHat Top 40 and OWASP Top 10.
 - [Wotan](https://github.com/fimbullinter/wotan) - Pluggable TypeScript and JavaScript linter.
 - [Xanitizer](https://xanitizer.com) :copyright: - Xanitizer finds security vulnerabilities in web applications. It supports Java, Scala, JavaScript and TypeScript.
