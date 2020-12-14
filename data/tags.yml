@@ -280,6 +280,9 @@
 - name: Lightning Web Components
   tag: lwc
   type: language
+- name: VHDL
+  tag: vhdl
+  type: language
 - name: Vim Script
   tag: vim-script
   type: language
