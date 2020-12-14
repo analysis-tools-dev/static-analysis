@@ -7,5 +7,5 @@ license: MIT License
 types:
   - cli
 source: 'https://github.com/mihaeu/dephpend'
-homepage: 'https://dephpend.com'
+homepage: 'https://github.com/mihaeu/dephpend'
 description: Dependency analysis tool.
