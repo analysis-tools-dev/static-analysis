@@ -460,10 +460,10 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [php7mar](https://github.com/Alexia/php7mar) :warning: - Assist developers in porting their code quickly to PHP 7.
 - [PHP_CodeSniffer](https://pear.php.net/package/PHP_CodeSniffer) - Detects violations of a defined set of coding standards.
 - [phpca](https://github.com/wapmorgan/PhpCodeAnalyzer) - Finds usage of non-built-in extensions.
-- [phpcf](http://wapmorgan.github.io/PhpCodeFixer) - Finds usage of deprecated PHP features.
 - [phpcpd](https://github.com/sebastianbergmann/phpcpd) - Copy/Paste Detector for PHP code.
 - [phpdcd](https://github.com/sebastianbergmann/phpdcd) :warning: - Dead Code Detector (DCD) for PHP code.
 - [PhpDependencyAnalysis](https://mamuz.github.io/PhpDependencyAnalysis) - Builds a dependency graph for a project.
+- [PhpDeprecationDetector](https://github.com/wapmorgan/PhpDeprecationDetector) - Analyzer of PHP code to search issues with deprecated functionality in newer interpreter versions.  It finds removed objects (functions, variables, constants and ini-directives),  deprecated functions functionality, and usage of forbidden names or tricks (e.g. reserved identifiers in newer versions).
 - [phpdoc-to-typehint](https://github.com/dunglas/phpdoc-to-typehint) - Add scalar type hints and return types to existing PHP projects using PHPDoc annotations.
 - [phpDocumentor](https://www.phpdoc.org) - Analyzes PHP source code to generate documentation.
 - [phploc](https://github.com/sebastianbergmann/phploc) - A tool for quickly measuring the size and analyzing the structure of a PHP project.
@@ -601,7 +601,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 
 - [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) - A library and command-line formatting tool for reformatting Swift code.
 - [SwiftLint](https://realm.github.io/SwiftLint) - A tool to enforce Swift style and conventions.
-- [Tailor](https://tailor.sh) :warning: - A static analysis and lint tool for source code written in Apple's Swift programming language.
+- [Tailor](https://github.com/sleekbyte/tailor) :warning: - A static analysis and lint tool for source code written in Apple's Swift programming language.
 
 
 <h2 id="tcl">Tcl</h2>
