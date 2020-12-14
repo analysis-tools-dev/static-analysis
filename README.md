@@ -434,7 +434,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 
 <h2 id="php">PHP</h2>
 
-- [churn-php](https://github.com/bmitch/churn-php) :warning: - Helps discover good candidates for refactoring.
+- [churn-php](https://github.com/bmitch/churn-php) - Helps discover good candidates for refactoring.
 - [dephpend](https://dephpend.com) - Dependency analysis tool.
 - [deprecation-detector](https://github.com/sensiolabs-de/deprecation-detector) - Finds usages of deprecated (Symfony) code.
 - [deptrac](https://github.com/sensiolabs-de/deptrac) - Enforce rules for dependencies between software layers.
