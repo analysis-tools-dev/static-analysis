@@ -1,0 +1,18 @@
+
+
+name: Similarity Tester
+  
+tags:
+  - c
+  - cpp
+  - miranda
+  - java
+  - pascal
+  - lisp
+  - assembler
+  - modula-2
+license: unknown
+types:
+  - service
+homepage: 'https://dickgrune.com/Programs/similarity_tester/'
+description: A tool that finds similarities between or within files to support you encountering DRY principle violations.
