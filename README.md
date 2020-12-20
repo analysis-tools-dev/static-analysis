@@ -117,7 +117,9 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Template-Languages](#template)
 - [Translation](#translation)
 - [Vue.js](#vue)
-- [Writing](#writing)---
+- [Writing](#writing)
+
+---
 
 ## Programming Languages
 

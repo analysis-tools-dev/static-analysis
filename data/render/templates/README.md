@@ -58,7 +58,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 #### [Other](#other-1)
 {% for (tag, _) in others %}
 - [{{ tag.name }}](#{{ tag.tag }})
-{%- endfor -%}
+{%- endfor %}
 
 ---
 
