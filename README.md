@@ -97,30 +97,28 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 #### [Other](#other-1)
 
-- [Binaries](#binary)
-  - [CSS/SASS/SCSS](#css)
-  - [Config Files](#configfile)
-  - [Configuration Management](#configmanagement)
-  - [Containers](#container)
-  - [Continuous Integration](#ci)
-  - [Deno](#deno)
-  - [Gherkin](#gherkin)
-  - [HTML](#html)
-  - [LaTeX](#latex)
-  - [Markdown](#markdown)
-  - [Mobile](#mobile)
-  - [Packages](#package)
-  - [Protocol Buffers](#protobuf)
-  - [Security/SAST](#security)
-  - [Smart Contracts](#smart-contracts)
-  - [Support](#support)
-  - [Template-Languages](#template)
-  - [Translation](#translation)
-  - [Vue.js](#vue)
-  - [Writing](#writing)
-  
 
----
+- [Binaries](#binary)
+- [CSS/SASS/SCSS](#css)
+- [Config Files](#configfile)
+- [Configuration Management](#configmanagement)
+- [Containers](#container)
+- [Continuous Integration](#ci)
+- [Deno](#deno)
+- [Gherkin](#gherkin)
+- [HTML](#html)
+- [LaTeX](#latex)
+- [Markdown](#markdown)
+- [Mobile](#mobile)
+- [Packages](#package)
+- [Protocol Buffers](#protobuf)
+- [Security/SAST](#security)
+- [Smart Contracts](#smart-contracts)
+- [Support](#support)
+- [Template-Languages](#template)
+- [Translation](#translation)
+- [Vue.js](#vue)
+- [Writing](#writing)---
 
 ## Programming Languages
 
