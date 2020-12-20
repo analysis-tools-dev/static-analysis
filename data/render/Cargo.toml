@@ -1,16 +1,16 @@
 [package]
 name = "render"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Matthias Endler <matthias-endler@gmx.net>"]
 edition = "2018"
 
 [dependencies]
-serde = "1.0.111"
-serde_derive = "1.0.111"
-serde_yaml = "0.8.12"
-askama = "0.9.0"
-hubcaps = "0.6"
-tokio = { version = "0.2", features = ["macros"] }
-chrono = "0.4.15"
-anyhow = "1.0.32"
+serde = "1.0.118"
+serde_derive = "1.0.118"
+serde_yaml = "0.8.14"
+askama = "0.10.5"
+hubcaps = "0.6.2"
+tokio = { version = "0.3.6", features = ["rt-multi-thread", "macros"] }
+chrono = "0.4.19"
+anyhow = "1.0.36"
 pico-args = "0.3.4"

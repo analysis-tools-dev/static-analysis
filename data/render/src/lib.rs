@@ -9,16 +9,16 @@ mod lints;
 pub mod types;
 
 use std::collections::BTreeMap;
-use types::{Catalog, Entry, Tag, Tags, Type};
+use types::{Catalog, Entry, Tag, Type};
 
-fn valid(entry: &Entry, tags: &Tags) -> Result<()> {
+fn valid(entry: &Entry, tags: &[Tag]) -> Result<()> {
     let lints = [lints::name, lints::min_one_tag, lints::tags_existing];
-    lints.iter().map(|lint| Ok(lint(&entry, &tags)?)).collect()
+    lints.iter().try_for_each(|lint| Ok(lint(&entry, &tags)?))
 }
 
-pub fn validate(tags: &Tags, entries: &Vec<Entry>) -> Result<()> {
+pub fn validate(tags: &[Tag], entries: &[Entry]) -> Result<()> {
     for entry in entries {
-        valid(&entry, &tags)?
+        valid(&entry, tags)?
     }
     Ok(())
 }
@@ -36,7 +36,7 @@ pub async fn check_deprecated(token: String, entries: &mut Vec<Entry>) -> Result
             continue;
         }
 
-        let components: Vec<&str> = entry.source.as_ref().unwrap().trim_end_matches('/').split("/").collect();
+        let components: Vec<&str> = entry.source.as_ref().unwrap().trim_end_matches('/').split('/').collect();
         if !(components.contains(&"github.com") && components.len() == 5) {
             // valid github source must have 5 elements - anything longer and they are probably a
             // reference to a path inside a repo, rather than a repo itself.
@@ -68,11 +68,11 @@ pub async fn check_deprecated(token: String, entries: &mut Vec<Entry>) -> Result
     Ok(())
 }
 
-pub fn group(tags: &Tags, entries: Vec<Entry>) -> Result<Catalog> {
+pub fn group(tags: &[Tag], entries: &[Entry]) -> Result<Catalog> {
     let mut linters = BTreeMap::new();
 
     // Move tools that support multiple languages into their own category
-    let (multi, entries): (Vec<Entry>, Vec<Entry>) = entries.into_iter().partition(|entry| {
+    let (multi, entries): (Vec<Entry>, Vec<Entry>) = entries.iter().cloned().partition(|entry| {
         entry.tags.len() > 1
             && entry.tags
                 != vec!["c".to_string(), "cpp".to_string()]

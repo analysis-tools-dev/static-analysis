@@ -62,12 +62,12 @@ fn main() -> Result<()> {
     validate(&tags, &tools)?;
 
     if !args.skip_deprecated {
-    if let Ok(token) = env::var("GITHUB_TOKEN") {
-        check_deprecated(token, &mut tools)?;
-    }
+        if let Ok(token) = env::var("GITHUB_TOKEN") {
+            check_deprecated(token, &mut tools)?;
+        }
     }
 
-    let catalog = group(&tags, tools)?;
+    let catalog = group(&tags, &tools)?;
     fs::write(&args.out, catalog.render()?).context("Cannot write")?;
     Ok(())
 }
