@@ -97,7 +97,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 #### [Other](#other-1)
 
-
 - [Binaries](#binary)
 - [CSS/SASS/SCSS](#css)
 - [Config Files](#configfile)
