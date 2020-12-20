@@ -1,0 +1,13 @@
+name: LDRA
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+license: proprietary
+types:
+  - cli
+homepage: 'https://ldra.com'
+description: >-
+  A tool suite including static analysis (TBVISION) to various standards
+  including MISRA C & C++, JSF++ AV, CWE, CERT C, CERT C++ & Custom Rules.

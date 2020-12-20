@@ -1,0 +1,12 @@
+name: IntelliJ IDEA
+categories:
+  - formatter
+tags:
+  - java
+license: proprietary
+types:
+  - ide-plugin
+homepage: 'https://www.jetbrains.com/idea'
+description: >-
+  Comes bundled with a lot of inspections for Java and Kotlin and includes tools
+  for refactoring, formatting and more.

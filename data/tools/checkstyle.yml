@@ -1,0 +1,13 @@
+name: checkstyle
+categories:
+  - linter
+tags:
+  - java
+license: Other
+types:
+  - cli
+source: 'https://github.com/checkstyle/checkstyle'
+homepage: 'https://checkstyle.org'
+description: >-
+  Checking Java source code for adherence to a Code Standard or set of
+  validation rules (best practices).

@@ -1,0 +1,13 @@
+name: tflint
+categories:
+  - linter
+tags:
+  - configmanagement
+license: Mozilla Public License 2.0
+types:
+  - cli
+source: 'https://github.com/wata727/tflint'
+homepage: 'https://github.com/wata727/tflint'
+description: >-
+  A Terraform linter for detecting errors that can not be detected by `terraform
+  plan`.

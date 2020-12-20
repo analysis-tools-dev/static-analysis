@@ -1,0 +1,17 @@
+name: pylint
+categories:
+  - linter
+tags:
+  - python
+license: GNU General Public License v2.0
+types:
+  - cli
+source: 'https://github.com/PyCQA/pylint'
+homepage: 'http://pylint.pycqa.org/en/latest'
+description: >-
+  Looks for programming errors, helps enforcing a coding standard and sniffs for
+  some code smells. It additionally includes `pyreverse` (an UML diagram
+  generator) and `symilar` (a similarities checker).
+resources:
+  - title: Pylint Tutorial – How to Write Clean Python
+    url: https://www.youtube.com/watch?v=fFY5103p5-c

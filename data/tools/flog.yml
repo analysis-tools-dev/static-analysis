@@ -1,0 +1,13 @@
+name: flog
+categories:
+  - linter
+tags:
+  - ruby
+license: MIT
+types:
+  - cli
+source: 'https://github.com/seattlerb/flog'
+homepage: 'https://ruby.sadi.st/Flog.html'
+description: >-
+  Flog reports the most tortured code in an easy to read pain report. The higher
+  the score, the more pain the code is in.

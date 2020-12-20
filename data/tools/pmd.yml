@@ -1,0 +1,17 @@
+name: PMD
+categories:
+  - linter
+tags:
+  - apex
+  - java
+  - javascript
+  - plsql
+  - scala
+  - xml
+  - visualforce
+license: Other
+types:
+  - cli
+source: "https://github.com/pmd/pmd"
+homepage: "https://pmd.github.io"
+description: "A source code analyzer for Java, Salesforce Apex, Javascript, PLSQL, XML, XSL and others."

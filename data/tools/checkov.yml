@@ -1,0 +1,13 @@
+name: checkov
+categories:
+  - linter
+tags:
+  - configmanagement
+license: Apache-2.0
+types:
+  - cli
+source: 'https://github.com/bridgecrewio/checkov'
+homepage: 'https://www.checkov.io'
+description: >-
+  Static analysis tool for Terraform files (tf>=v0.12), preventing cloud
+  misconfigs at build time.

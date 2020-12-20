@@ -1,0 +1,41 @@
+name: Codacy
+categories:
+  - linter
+tags:
+  - apex
+  - shell
+  - coffeescript
+  - cpp
+  - csharp
+  - crystal
+  - css
+  - elixir
+  - go
+  - groovy
+  - java
+  - javascript
+  - json
+  - jsp
+  - kotlin
+  - markdown
+  - php
+  - plsql
+  - python
+  - ruby
+  - scala
+  - swift
+  - tsql
+  - typescript
+  - vbscript
+  - visualforce
+  - xml
+license: proprietary
+types:
+  - service
+homepage: "https://www.codacy.com"
+description: "Code Analysis to ship Better Code, Faster."
+resources:
+  - title: Automate your code quality with Codacy Static Analysis Tool
+    url: https://www.youtube.com/watch?v=oxqTu2ouxaw
+  - title: A founder's journey - Codacy
+    url: https://www.youtube.com/watch?v=lVxkD_bmbFY

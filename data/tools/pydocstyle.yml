@@ -1,0 +1,11 @@
+name: pydocstyle
+categories:
+  - linter
+tags:
+  - python
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/PyCQA/pydocstyle'
+homepage: 'http://www.pydocstyle.org'
+description: Check compliance with Python docstring conventions.

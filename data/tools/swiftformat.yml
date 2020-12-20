@@ -1,0 +1,11 @@
+name: SwiftFormat
+categories:
+  - formatter
+tags:
+  - swift
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/nicklockwood/SwiftFormat'
+homepage: 'https://github.com/nicklockwood/SwiftFormat'
+description: A library and command-line formatting tool for reformatting Swift code.

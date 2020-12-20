@@ -1,0 +1,17 @@
+name: include-gardener
+categories:
+  - formatter
+tags:
+  - c
+  - cpp
+  - python
+  - ruby
+license: GNU Public License version 2 or greater
+types:
+  - cli
+source: 'https://github.com/feddischson/include_gardener'
+homepage: 'https://github.com/feddischson/include_gardener'
+description: >-
+  A multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph
+  (in dot or graphml format) which shows all `#include` relations of a given set
+  of files.

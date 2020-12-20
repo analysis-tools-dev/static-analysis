@@ -1,0 +1,13 @@
+name: clj-kondo
+categories:
+  - linter
+tags:
+  - clojure
+license: Eclipse Public License 1.0
+types:
+  - cli
+source: 'https://github.com/borkdude/clj-kondo'
+homepage: 'https://github.com/borkdude/clj-kondo'
+description: >-
+  A linter for Clojure code that sparks joy. It informs you about potential
+  errors while you are typing.

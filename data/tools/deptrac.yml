@@ -1,0 +1,11 @@
+name: deptrac
+categories:
+  - linter
+tags:
+  - php
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/sensiolabs-de/deptrac'
+homepage: 'https://github.com/sensiolabs-de/deptrac'
+description: Enforce rules for dependencies between software layers.

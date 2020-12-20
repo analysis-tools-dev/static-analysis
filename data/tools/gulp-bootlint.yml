@@ -1,0 +1,13 @@
+name: gulp-bootlint
+categories:
+  - linter
+tags:
+  - html
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/tschortsch/gulp-bootlint'
+homepage: 'https://github.com/tschortsch/gulp-bootlint'
+description: >-
+  A gulp wrapper for [Bootlint](https://github.com/twbs/bootlint), the HTML
+  linter for Bootstrap projects.

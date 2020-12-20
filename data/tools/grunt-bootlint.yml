@@ -1,0 +1,13 @@
+name: grunt-bootlint
+categories:
+  - linter
+tags:
+  - html
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/twbs/grunt-bootlint'
+homepage: 'https://github.com/twbs/grunt-bootlint'
+description: >-
+  A Grunt wrapper for [Bootlint](https://github.com/twbs/bootlint), the HTML
+  linter for Bootstrap projects.

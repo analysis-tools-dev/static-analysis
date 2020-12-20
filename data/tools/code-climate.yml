@@ -1,0 +1,11 @@
+name: Code Climate
+categories:
+  - linter
+license: AGPL-3.0 License
+tags:
+  - ci
+types:
+  - service
+source: "https://github.com/codeclimate/codeclimate"
+homepage: "https://codeclimate.com"
+description: "The open and extensible static analysis platform, for everyone."

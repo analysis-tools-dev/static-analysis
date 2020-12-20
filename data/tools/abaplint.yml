@@ -1,0 +1,11 @@
+name: abaplint
+categories:
+  - linter
+tags:
+  - abap
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/larshp/abaplint'
+homepage: 'https://abaplint.org'
+description: 'Linter for ABAP, written in TypeScript.'

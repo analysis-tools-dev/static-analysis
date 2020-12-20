@@ -1,0 +1,14 @@
+name: GolangCI-Lint
+categories:
+  - linter
+tags:
+  - go
+license: GNU General Public License v3.0
+types:
+  - cli
+source: "https://github.com/golangci/golangci-lint"
+homepage: "https://golangci-lint.run"
+description: "Alternative to `Go Meta Linter`: GolangCI-Lint is a linters aggregator."
+resources:
+  - title: "GopherCon 2019: Denis Isaev (author of golangci-lint) - Go Linters: Myths and Best Practices"
+    url: https://www.youtube.com/watch?v=1U-Gzz4TYP0

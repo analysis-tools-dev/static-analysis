@@ -1,0 +1,11 @@
+name: elvis
+categories:
+  - linter
+tags:
+  - erlang
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/inaka/elvis'
+homepage: 'https://github.com/inaka/elvis'
+description: Erlang Style Reviewer.

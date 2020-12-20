@@ -1,0 +1,18 @@
+name: mythril
+categories:
+  - linter
+tags:
+  - smart-contracts
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/ConsenSys/mythril'
+homepage: 'https://github.com/ConsenSys/mythril'
+description: >-
+  A symbolic execution framework with batteries included, can be used to find
+  and exploit vulnerabilities in smart contracts automatically.
+resources:
+  - title: "The Ether Wars: Exploits, counter exploits and honeypots - Bernhard Mueller, DEF CON 27 Conference"
+    url: https://www.youtube.com/watch?v=Qd9ubry-c_M
+  - title: "Smashing Ethereum Smart Contracts for Fun and ACTUAL Profit - Bernhard Mueller"
+    url: https://www.youtube.com/watch?v=iqf6epACgds

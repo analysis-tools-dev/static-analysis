@@ -1,0 +1,11 @@
+name: goimports
+categories:
+  - linter
+tags:
+  - go
+license: BSD-3-Clause (original text)
+types:
+  - cli
+source: 'https://github.com/golang/tools/tree/master/cmd/goimports'
+homepage: 'https://pkg.go.dev/golang.org/x/tools/cmd/goimports'
+description: Checks missing or unreferenced package imports.

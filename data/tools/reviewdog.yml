@@ -1,0 +1,14 @@
+name: Reviewdog
+categories:
+  - linter
+tags:
+  - ci
+  - go
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/haya14busa/reviewdog'
+homepage: 'https://github.com/haya14busa/reviewdog'
+description: >-
+  A tool for posting review comments from any linter in any code hosting
+  service.

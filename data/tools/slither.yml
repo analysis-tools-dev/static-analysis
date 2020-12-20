@@ -1,0 +1,14 @@
+name: slither
+categories:
+  - formatter
+tags:
+  - smart-contracts
+license: GNU Affero General Public License v3.0
+types:
+  - cli
+source: 'https://github.com/trailofbits/slither'
+homepage: 'https://github.com/trailofbits/slither'
+description: >-
+  Static analysis framework that runs a suite of vulnerability detectors, prints
+  visual information about contract details, and provides an API to easily write
+  custom analyses.

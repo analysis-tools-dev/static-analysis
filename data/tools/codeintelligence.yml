@@ -1,0 +1,17 @@
+name: Code Intelligence
+categories:
+  - linter
+tags:
+  - security
+  - go
+  - c
+  - cpp
+  - java
+license: proprietary
+types:
+  - service
+homepage: 'https://www.code-intelligence.com'
+description: 'CI/CD-agnostic DevSecOps platform which combines industry-leading fuzzing engines for finding bugs and visualizing code coverage'
+resources:
+  - title: Code Intelligence | Introduction
+    url: https://www.youtube.com/watch?v=Qfsz_ZTKM6Y

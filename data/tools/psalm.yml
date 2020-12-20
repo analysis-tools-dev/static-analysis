@@ -1,0 +1,11 @@
+name: Psalm
+categories:
+  - linter
+tags:
+  - php
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/vimeo/psalm'
+homepage: 'https://psalm.dev'
+description: Static analysis tool for finding type errors in PHP applications.

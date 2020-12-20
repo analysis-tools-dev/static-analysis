@@ -1,0 +1,11 @@
+name: ChkTeX
+categories:
+  - linter
+tags:
+  - latex
+license: GNU Public License version 2 or greater
+types:
+  - cli
+source: 'http://git.savannah.nongnu.org/cgit/chktex.git'
+homepage: 'http://www.nongnu.org/chktex'
+description: A linter for LaTex which catches some typographic errors LaTeX oversees.

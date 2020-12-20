@@ -1,0 +1,15 @@
+name: Refactoring Essentials
+categories:
+  - linter
+tags:
+  - csharp
+  - vbnet
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/icsharpcode/RefactoringEssentials'
+homepage: >-
+  https://marketplace.visualstudio.com/items?itemName=SharpDevelopTeam.RefactoringEssentialsforVisualStudio
+description: >-
+  The free Visual Studio 2015 extension for C# and VB.NET refactorings,
+  including code best practice analyzers.

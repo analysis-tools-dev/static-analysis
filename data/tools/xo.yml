@@ -1,0 +1,13 @@
+name: xo
+categories:
+  - linter
+tags:
+  - javascript
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/xojs/xo'
+homepage: 'https://github.com/xojs/xo'
+description: >-
+  Opinionated but configurable ESLint wrapper with lots of goodies included.
+  Enforces strict and readable code.

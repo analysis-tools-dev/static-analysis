@@ -1,0 +1,20 @@
+name: Pronto
+categories:
+  - linter
+tags:
+  - c
+  - ci
+  - cpp
+  - elixir
+  - java
+  - javascript
+  - php
+  - ruby
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/prontolabs/pronto'
+homepage: 'https://github.com/prontolabs/pronto'
+description: >-
+  Quick automated code review of your changes. Supports more than 40 runners for
+  various languages, including Clang, Elixir, JavaScript, PHP, Ruby and more.

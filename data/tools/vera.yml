@@ -1,0 +1,14 @@
+name: vera++
+categories:
+  - formatter
+tags:
+  - c
+  - cpp
+license: BSL-1.0 (original text)
+types:
+  - cli
+source: 'https://bitbucket.org/verateam/vera/src/master'
+homepage: 'https://bitbucket.org/verateam/vera/wiki/Introduction'
+description: >-
+  Vera++ is a programmable tool for verification, analysis and transformation of
+  C++ source code.

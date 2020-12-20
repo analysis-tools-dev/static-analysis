@@ -1,0 +1,14 @@
+name: cargo udeps
+categories:
+  - linter
+tags:
+  - rust
+license: MIT License / Apache 2.0 license
+types:
+  - cli
+source: 'https://github.com/est31/cargo-udeps'
+homepage: 'https://github.com/est31/cargo-udeps'
+description: >- 
+  Find unused dependencies in Cargo.toml.
+  It either prints out a "unused crates" line listing the crates, 
+  or it prints out a line saying that no crates were unused.

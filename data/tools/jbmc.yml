@@ -1,0 +1,13 @@
+name: JBMC
+categories:
+  - linter
+tags:
+  - java
+license: BSD-4-Clause-UC (original text)
+types:
+  - cli
+source: 'https://github.com/peterschrammel/cbmc/releases/tag/jbmc-5.8-cav18'
+homepage: 'https://www.cprover.org/jbmc'
+description: >-
+  Bounded model-checker for Java (bytecode), verifies user-defined assertions,
+  standard assertions, several coverage metric analyses.

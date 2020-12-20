@@ -1,0 +1,18 @@
+name: Prettier
+categories:
+  - formatter
+tags:
+  - html
+  - javascript
+  - typescript
+license: MIT License
+types:
+  - cli
+source: "https://github.com/prettier/prettier"
+homepage: "https://prettier.io"
+description: An opinionated code formatter.
+resources:
+  - title: Code Formatting with Prettier in Visual Studio Code
+    url: https://www.youtube.com/watch?v=h3PJjP0nE98
+  - title: VSCode ESLint, Prettier & Airbnb Style Guide Setup
+    url: https://www.youtube.com/watch?v=SydnKbGc7W8

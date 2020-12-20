@@ -1,0 +1,13 @@
+name: Astrée
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+license: proprietary
+types:
+  - cli
+homepage: 'https://www.absint.com/astree/index.htm'
+description: >-
+  Sound static analyzer based on abstract interpretation for C/C++, detecting
+  memory, type and concurrency defects, and MISRA violations.

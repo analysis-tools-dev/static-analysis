@@ -1,0 +1,11 @@
+name: kube-score
+categories:
+  - linter
+tags:
+  - container
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/zegl/kube-score'
+homepage: 'https://kube-score.com'
+description: Static code analysis of your Kubernetes object definitions.

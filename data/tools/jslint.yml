@@ -1,0 +1,12 @@
+name: JSLint
+categories:
+  - linter
+tags:
+  - javascript
+license: Llvm release license
+types:
+  - cli
+source: 'https://github.com/douglascrockford/JSLint'
+homepage: 'https://github.com/douglascrockford/JSLint'
+discussion: 'https://github.com/analysis-tools-dev/static-analysis/issues/223'
+description: The JavaScript Code Quality Tool.

@@ -1,0 +1,30 @@
+name: APPscreener
+categories:
+  - linter
+tags:
+  - abap
+  - c
+  - cpp
+  - csharp
+  - delphi
+  - html
+  - java
+  - javascript
+  - objectivec
+  - php
+  - plsql
+  - python
+  - ruby
+  - scala
+  - smart-contracts
+  - swift
+  - tsql
+  - vbasic
+license: proprietary
+types:
+  - cli
+homepage: 'https://solarappscreener.com'
+description: >-
+  Static code analysis for binary and source code - Java/Scala, PHP, Javascript,
+  C#, PL/SQL, Python, T-SQL, C/C++, ObjectiveC/Swift, Visual Basic 6.0, Ruby,
+  Delphi, ABAP, HTML5 and Solidity.

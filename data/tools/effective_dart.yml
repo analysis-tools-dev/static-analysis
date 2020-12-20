@@ -1,0 +1,11 @@
+name: effective_dart
+categories:
+  - linter
+tags:
+  - dart
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/tenhobi/effective_dart'
+homepage: 'https://pub.dev/packages/effective_dart'
+description: Linter rules corresponding to the guidelines in Effective Dart

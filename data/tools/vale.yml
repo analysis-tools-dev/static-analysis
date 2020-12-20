@@ -1,0 +1,11 @@
+name: vale
+categories:
+  - linter
+tags:
+  - writing
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/ValeLint/vale'
+homepage: 'https://errata-ai.gitbook.io/vale'
+description: 'A customizable, syntax-aware linter for prose.'

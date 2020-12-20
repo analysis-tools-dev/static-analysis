@@ -1,0 +1,12 @@
+name: ArchUnit
+categories:
+  - linter
+tags:
+  - java
+  - kotlin
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/TNG/ArchUnit'
+homepage: 'https://www.archunit.org'
+description: Unit test your Java or Kotlin architecture.

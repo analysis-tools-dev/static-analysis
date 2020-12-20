@@ -1,0 +1,12 @@
+name: scsslint
+categories:
+  - linter
+tags:
+  - css
+deprecated: true
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/brigade/scss-lint'
+homepage: 'https://github.com/brigade/scss-lint'
+description: Linter for SCSS files.

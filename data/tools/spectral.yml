@@ -1,0 +1,14 @@
+name: Spectral
+categories:
+  - linter
+tags:
+  - json
+  - yaml
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/stoplightio/spectral'
+homepage: 'https://stoplight.io/open-source/spectral'
+description: >-
+  A flexible JSON/YAML linter, without of the box support for OpenAPI v2/v3 and
+  AsyncAPI v2.

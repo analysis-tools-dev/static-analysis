@@ -1,0 +1,12 @@
+name: interfacer
+categories:
+  - linter
+tags:
+  - go
+deprecated: true
+license: BSD 3-Clause "New" or "Revised" License
+types:
+  - cli
+source: 'https://github.com/mvdan/interfacer'
+homepage: 'https://github.com/mvdan/interfacer'
+description: Suggest narrower interfaces that can be used.

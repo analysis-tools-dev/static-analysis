@@ -1,0 +1,11 @@
+name: goconst
+categories:
+  - linter
+tags:
+  - go
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/jgautheron/goconst'
+homepage: 'https://github.com/jgautheron/goconst'
+description: Finds repeated strings that could be replaced by a constant.

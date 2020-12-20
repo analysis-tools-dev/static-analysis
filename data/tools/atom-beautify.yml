@@ -1,0 +1,33 @@
+name: Atom-Beautify
+categories:
+  - linter
+tags:
+  - c
+  - coffeescript
+  - coldfusion
+  - cpp
+  - csharp
+  - css
+  - html
+  - java
+  - javascript
+  - objectivec
+  - php
+  - python
+  - ruby
+  - sql
+  - typescript
+license: MIT License
+types:
+  - ide-plugin
+source: "https://github.com/Glavin001/atom-beautify"
+homepage: "https://atom.io/packages/atom-beautify"
+resources:
+  - title: Adding Atom Beautify Package to Atom
+    url: https://www.youtube.com/watch?v=oBz6rXG0XT8
+  - title: 10 Essential Atom Editor Packages & Setup
+    url: https://www.youtube.com/watch?v=aiXNKHKWlmY
+description: >-
+  Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#,
+  Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom
+  editor.

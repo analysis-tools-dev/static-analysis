@@ -1,0 +1,12 @@
+name: checkmake
+categories:
+  - linter
+tags:
+  - buildtool
+  - make
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/mrtazz/checkmake'
+homepage: 'https://github.com/mrtazz/checkmake'
+description: Linter / Analyzer for Makefiles.

@@ -1,0 +1,11 @@
+name: cfn-lint
+categories:
+  - linter
+tags:
+  - configmanagement
+license: Other
+types:
+  - cli
+source: 'https://github.com/awslabs/cfn-python-lint'
+homepage: 'https://github.com/awslabs/cfn-python-lint'
+description: AWS Labs CloudFormation linter.

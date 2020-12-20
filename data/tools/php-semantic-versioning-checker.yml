@@ -1,0 +1,11 @@
+name: PHP Semantic Versioning Checker
+categories:
+  - linter
+tags:
+  - php
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/tomzx/php-semver-checker'
+homepage: 'https://github.com/tomzx/php-semver-checker'
+description: Suggests a next version according to semantic versioning.

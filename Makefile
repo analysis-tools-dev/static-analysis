@@ -1,3 +1,7 @@
 .PHONY: render
 render:
-	(cd data/render && cargo run -- ../../data/tags.yml ../../data/tools.yml) > README.md
+	cargo run --manifest-path data/render/Cargo.toml -- --tags data/tags.yml --tools data/tools --out README.md
+
+.PHONY: render-skip-deprecated
+render-skip-deprecated:
+	cargo run --manifest-path data/render/Cargo.toml -- --tags data/tags.yml --tools data/tools --out README.md --skip-deprecated

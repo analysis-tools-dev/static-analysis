@@ -1,0 +1,13 @@
+name: languagetool
+categories:
+  - linter
+tags:
+  - writing
+license: GNU Lesser General Public License v2.1
+types:
+  - cli
+source: 'https://github.com/languagetool-org/languagetool'
+homepage: 'https://languagetool.org'
+description: >-
+  Style and grammar checker for 25+ languages. It finds many errors that a
+  simple spell checker cannot detect.

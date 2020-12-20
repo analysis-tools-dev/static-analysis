@@ -1,0 +1,22 @@
+name: Teamscale
+categories:
+  - linter
+tags:
+  - abap
+  - c
+  - ci
+  - cpp
+  - csharp
+  - java
+license: proprietary
+types:
+  - service
+  - ide-plugin
+homepage: "http://www.teamscale.com"
+description: >-
+  Static and dynamic analysis tool supporting more than 25 languages and direct
+  IDE integration. Free hosting for Open Source projects available on request.
+  Free academic licenses available.
+resources:
+  - title: "CQSE Webinar: Architekturanalyse mit Teamscale (German)"
+    url: https://www.youtube.com/watch?v=fJVjv0153-U

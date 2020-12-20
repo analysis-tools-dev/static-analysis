@@ -1,0 +1,11 @@
+name: 'Perl::Critic'
+categories:
+  - linter
+tags:
+  - perl
+license: GPL v2
+types:
+  - cli
+source: 'https://metacpan.org/release/Perl-Critic/source/lib/Perl/Critic.pm'
+homepage: 'https://metacpan.org/pod/Perl::Critic'
+description: Critique Perl source code for best-practices.

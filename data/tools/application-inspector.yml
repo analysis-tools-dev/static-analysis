@@ -1,0 +1,24 @@
+name: Application Inspector
+categories:
+  - linter
+tags:
+  - asp
+  - c
+  - cpp
+  - csharp
+  - html
+  - java
+  - javascript
+  - objectivec
+  - php
+  - sql
+  - swift
+  - vbnet
+  - security
+license: proprietary
+types:
+  - service
+homepage: "https://www.ptsecurity.com/ww-en/products/ai"
+description: >-
+  Commercial Static Code Analysis which generates exploits to verify
+  vulnerabilities.

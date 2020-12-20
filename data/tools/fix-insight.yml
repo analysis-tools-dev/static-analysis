@@ -1,0 +1,13 @@
+name: Fix Insight
+categories:
+  - linter
+tags:
+  - delphi
+license: proprietary
+types:
+  - cli
+source: 'https://www.tmssoftware.com/site/fixinsight.asp'
+homepage: 'https://www.tmssoftware.com/site/fixinsight.asp'
+description: >-
+  A free IDE Plugin for static code analysis. A _Pro_ edition includes a command
+  line tool for automation purposes.

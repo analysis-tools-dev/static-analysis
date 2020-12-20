@@ -1,0 +1,25 @@
+name: todocheck
+categories:
+  - linter
+tags:
+  - javascript
+  - typescript
+  - python
+  - c
+  - cpp
+  - scala
+  - java
+  - rust
+  - swift
+  - go
+  - groovy
+  - csharp
+  - shell
+  - php
+  - r
+license: MIT
+types:
+  - cli
+source: 'https://github.com/preslavmihaylov/todocheck'
+homepage: 'https://github.com/preslavmihaylov/todocheck'
+description: Linter for integrating annotated TODOs with your issue trackers

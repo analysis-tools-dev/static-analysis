@@ -1,0 +1,13 @@
+name: MIRAI
+categories:
+  - linter
+tags:
+  - rust
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/facebookexperimental/MIRAI'
+homepage: 'https://github.com/facebookexperimental/MIRAI'
+description: >-
+  And abstract interpreter operating on Rust's mid-level intermediate language,
+  and providing warnings based on taint analysis.

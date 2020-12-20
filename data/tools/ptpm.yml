@@ -1,0 +1,20 @@
+name: PT.PM
+categories:
+  - linter
+tags:
+  - csharp
+  - java
+  - javascript
+  - php
+  - plsql
+  - tsql
+deprecated: true
+license: Other
+types:
+  - cli
+source: 'https://github.com/PositiveTechnologies/PT.PM'
+homepage: 'https://github.com/PositiveTechnologies/PT.PM'
+description: >-
+  An engine for searching patterns in the source code, based on Unified AST or
+  UST. At present time C#, Java, PHP, PL/SQL, T-SQL, and JavaScript are
+  supported. Patterns can be described within the code or using a DSL.

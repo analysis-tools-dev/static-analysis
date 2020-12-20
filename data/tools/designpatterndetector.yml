@@ -1,0 +1,11 @@
+name: DesignPatternDetector
+categories:
+  - linter
+tags:
+  - php
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/Halleck45/DesignPatternDetector'
+homepage: 'https://github.com/Halleck45/DesignPatternDetector'
+description: Detection of design patterns in PHP code.

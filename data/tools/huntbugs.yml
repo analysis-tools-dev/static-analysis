@@ -1,0 +1,14 @@
+name: HuntBugs
+categories:
+  - linter
+tags:
+  - java
+deprecated: true
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/amaembo/huntbugs'
+homepage: 'https://github.com/amaembo/huntbugs'
+description: >-
+  Bytecode static analyzer tool based on Procyon Compiler Tools aimed to
+  supersede FindBugs.

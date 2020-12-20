@@ -1,0 +1,28 @@
+name: Unibeautify
+categories:
+  - formatter
+tags:
+  - c
+  - cpp
+  - css
+  - go
+  - html
+  - java
+  - javascript
+  - jsx
+  - markdown
+  - objectivec
+  - php
+  - python
+  - typescript
+  - vue
+license: MIT License
+types:
+  - cli
+  - service
+source: "https://github.com/unibeautify/unibeautify"
+homepage: "https://unibeautify.com"
+description: >-
+  Universal code beautifier with a GitHub app. Supports HTML, CSS, JavaScript,
+  TypeScript, JSX, Vue, C++, Go, Objective-C, Java, Python, PHP, GraphQL,
+  Markdown, and more.

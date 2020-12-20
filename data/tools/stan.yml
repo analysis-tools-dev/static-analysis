@@ -1,0 +1,14 @@
+name: Stan
+categories:
+  - linter
+tags:
+  - haskell
+license: Mozilla Public License 2.0
+types:
+  - cli
+source: 'https://github.com/kowainik/stan'
+homepage: 'https://kowainik.github.io/projects/stan'
+description: >-
+  Stan is a command-line tool for analysing Haskell projects and outputting
+  discovered vulnerabilities in a helpful way with possible solutions for
+  detected problems.

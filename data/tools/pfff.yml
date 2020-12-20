@@ -1,0 +1,25 @@
+name: pfff
+categories:
+  - formatter
+tags:
+  - c
+  - cpp
+  - csharp
+  - css
+  - erlang
+  - haskell
+  - html
+  - java
+  - javascript
+  - php
+  - python
+  - rust
+deprecated: true
+license: Other
+types:
+  - cli
+source: 'https://github.com/returntocorp/pfff'
+homepage: 'https://github.com/facebookarchive/pfff/wiki/Main'
+description: >-
+  Facebook's tools for code analysis, visualizations, or style-preserving source
+  transformation for many languages.

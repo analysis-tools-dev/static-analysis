@@ -1,0 +1,21 @@
+name: Codeac
+categories:
+  - linter
+tags:
+  - ci
+  - container
+  - go
+  - java
+  - javascript
+  - php
+  - python
+  - ruby
+  - typescript
+license: proprietary
+types:
+  - service
+homepage: "https://www.codeac.io/?ref=awesome-static-analysis"
+description: >-
+  Automated code review tool integrates with GitHub, Bitbucket and GitLab (even
+  self-hosted). Available for JavaScript, TypeScript, Python, Ruby, Go, PHP,
+  Java, Docker, and more. (open-source free)

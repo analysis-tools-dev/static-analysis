@@ -1,0 +1,11 @@
+name: luacheck
+categories:
+  - linter
+tags:
+  - lua
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/mpeterv/luacheck'
+homepage: 'https://github.com/mpeterv/luacheck'
+description: A tool for linting and static analysis of Lua code.

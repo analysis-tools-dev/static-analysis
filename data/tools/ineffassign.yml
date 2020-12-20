@@ -1,0 +1,11 @@
+name: ineffassign
+categories:
+  - linter
+tags:
+  - go
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/gordonklaus/ineffassign'
+homepage: 'https://github.com/gordonklaus/ineffassign'
+description: Detect ineffectual assignments in Go code.

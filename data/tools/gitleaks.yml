@@ -1,0 +1,13 @@
+name: Gitleaks
+categories:
+  - linter
+tags:
+  - security
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/zricethezav/gitleaks'
+homepage: 'https://github.com/zricethezav/gitleaks'
+description: >-
+  A SAST tool for detecting hardcoded secrets like passwords, api keys, and
+  tokens in git repos.

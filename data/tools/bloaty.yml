@@ -1,0 +1,16 @@
+name: bloaty
+categories:
+  - linter
+tags:
+  - binary
+license: Apache-2.0 License 
+types:
+  - cli
+source: 'https://github.com/google/bloaty'
+homepage: 'https://github.com/google/bloaty'
+description: >-
+  Ever wondered what's making your binary big?
+  Bloaty McBloatface will show you a size profile of the binary so you can understand what's taking up space inside.
+  Bloaty performs a deep analysis of the binary. Using custom ELF, DWARF, and Mach-O parsers, 
+  Bloaty aims to accurately attribute every byte of the binary to the symbol or compileunit that produced it. 
+  It will even disassemble the binary looking for references to anonymous data. F

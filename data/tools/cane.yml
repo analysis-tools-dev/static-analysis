@@ -1,0 +1,11 @@
+name: cane
+categories:
+  - linter
+tags:
+  - ruby
+license: Other
+types:
+  - cli
+source: 'https://github.com/square/cane'
+homepage: 'https://github.com/square/cane'
+description: Code quality threshold checking as part of your build.

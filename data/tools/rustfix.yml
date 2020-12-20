@@ -1,0 +1,13 @@
+name: rustfix
+categories:
+  - linter
+tags:
+  - rust
+license: Other
+types:
+  - cli
+source: 'https://github.com/rust-lang/rustfix'
+homepage: 'https://github.com/rust-lang/rustfix'
+description: >-
+  Read and apply the suggestions made by rustc (and third-party lints, like
+  those offered by clippy).

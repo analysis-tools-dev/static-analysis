@@ -1,0 +1,11 @@
+name: tern
+categories:
+  - linter
+tags:
+  - javascript
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/ternjs/tern'
+homepage: 'https://ternjs.net'
+description: 'A JavaScript code analyzer for deep, cross-editor language support.'

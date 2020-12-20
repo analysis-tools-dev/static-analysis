@@ -1,0 +1,11 @@
+name: linter-rust
+categories:
+  - linter
+tags:
+  - rust
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/AtomLinter/linter-rust'
+homepage: 'https://github.com/AtomLinter/linter-rust'
+description: 'Linting your Rust-files in Atom, using rustc and cargo.'

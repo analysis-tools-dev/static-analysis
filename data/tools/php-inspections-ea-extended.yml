@@ -1,0 +1,11 @@
+name: Php Inspections (EA Extended)
+categories:
+  - linter
+tags:
+  - php
+license: Other
+types:
+  - cli
+source: 'https://github.com/kalessil/phpinspectionsea'
+homepage: 'https://plugins.jetbrains.com/plugin/7622-php-inspections-ea-extended-'
+description: A Static Code Analyzer for PHP.

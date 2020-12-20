@@ -1,0 +1,33 @@
+name: ShiftLeft Scan
+categories:
+  - linter
+tags:
+  - apex
+  - configmanagement
+  - container
+  - go
+  - groovy
+  - java
+  - json
+  - jsp
+  - kotlin
+  - nodejs
+  - php
+  - plsql
+  - python
+  - ruby
+  - rust
+  - scala
+  - shell
+  - vbasic
+  - yaml
+license: Other
+types:
+  - cli
+  - service
+source: "https://github.com/ShiftLeftSecurity/sast-scan"
+homepage: "https://slscan.io"
+description: >-
+  Scan is a free open-source DevSecOps platform for detecting security issues in
+  source code and dependencies. It supports a broad range of languages and CI/CD
+  pipelines.

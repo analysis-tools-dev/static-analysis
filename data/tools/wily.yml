@@ -1,0 +1,13 @@
+name: wily
+categories:
+  - linter
+tags:
+  - python
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/tonybaloney/wily'
+homepage: 'https://github.com/tonybaloney/wily'
+description: >-
+  A command-line tool for archiving, exploring and graphing the complexity of
+  Python source code.

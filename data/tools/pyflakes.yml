@@ -1,0 +1,11 @@
+name: pyflakes
+categories:
+  - linter
+tags:
+  - python
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/pyflakes/pyflakes'
+homepage: 'https://pypi.org/project/pyflakes'
+description: Check Python source files for errors.

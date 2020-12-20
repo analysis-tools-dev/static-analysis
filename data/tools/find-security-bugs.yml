@@ -1,0 +1,16 @@
+name: Find Security Bugs
+categories:
+  - linter
+tags:
+  - groovy
+  - java
+  - kotlin
+  - scala
+license: LGPL-3.0-only
+types:
+  - cli
+source: 'https://github.com/find-sec-bugs/find-sec-bugs'
+homepage: 'https://find-sec-bugs.github.io'
+description: >-
+  The SpotBugs plugin for security audits of Java web applications and Android
+  applications. (Also work with Kotlin, Groovy and Scala projects)

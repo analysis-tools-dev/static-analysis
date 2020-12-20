@@ -1,0 +1,12 @@
+name: Pascal Expert
+categories:
+  - linter
+tags:
+  - delphi
+license: proprietary
+types:
+  - cli
+homepage: 'https://peganza.com/products_pex.html'
+description: >-
+  IDE plugin for code analysis. Includes a subset of Pascal Analyzer reporting
+  capabilities and is available for Delphi versions 2007 and later.

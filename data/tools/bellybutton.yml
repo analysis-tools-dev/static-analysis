@@ -1,0 +1,11 @@
+name: bellybutton
+categories:
+  - linter
+tags:
+  - python
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/hchasestevens/bellybutton'
+homepage: 'https://github.com/hchasestevens/bellybutton'
+description: A linting engine supporting custom project-specific rules.

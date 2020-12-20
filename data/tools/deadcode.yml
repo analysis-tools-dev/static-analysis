@@ -1,0 +1,11 @@
+name: deadcode
+categories:
+  - linter
+tags:
+  - go
+license: Other
+types:
+  - cli
+source: 'https://github.com/tsenart/deadcode'
+homepage: 'https://github.com/tsenart/deadcode'
+description: Finds unused code.

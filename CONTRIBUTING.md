@@ -1,6 +1,6 @@
 # How to add a new tool to the list
 
-Please feel free to open a pull request if you know of a code analysis tool that
+Please feel free to open a pull request if you know of a static analysis tool that
 is not mentioned here.  
 If you're in doubt if a tool is a good fit for the list, **don't open an issue,
 but create a pull request right away** because that's easier to handle. Thanks!
@@ -17,16 +17,15 @@ Each tool on the list should be
 ### Format
 
 The main `README.md` is just a rendered version of the data. To add a new tool,
-please edit `data/tools.yml`.
+please create a file in the `data/tools` directory.
 
 - Make each tool description as precise as possible.  
   Please limit the description to **500 characters**.
-- Please keep the tools in alphabetical order.
 - By default, we assume that the tool is open source.
   If a tool is proprietary, add `proprietary: true`.
 - Please add as many tags as possible. You can choose from the tags
   in `data/tags.yml` If a tool does not match any existing tag, feel
-  free to start a new tag.
+  free to add a new tag.
 
 Finally, create a pull request with all your changes.
 You can call `make render` to check for errors before.  
@@ -43,7 +42,7 @@ informed decision on what is the best tool for the job, we are marking
 unmaintained or deprecated tools.
 [Here](https://github.com/mre/awesome-static-analysis/issues/223) is a nice
 discussion about why we think this is necessary. If you find a tool, which is
-unmaintained, please add `deprecated: true` to the entry in `data/tools.yml` and
+unmaintained, please add `deprecated: true` to the entry in `data/tools/` and
 create a pull request in which you provide an objective explanation as to why
 you think the tool should be marked deprecated. Every deprecation will be
 handled on a case-by-case basis.

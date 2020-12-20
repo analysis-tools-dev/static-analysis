@@ -1,0 +1,29 @@
+name: Coverity
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - csharp
+  - fortran
+  - java
+  - javascript
+  - php
+  - python
+  - rails
+  - scala
+  - security
+  - typescript
+  - vbnet
+license: proprietary
+types:
+  - cli
+homepage: >-
+  https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html
+description: >-
+  Synopsys Coverity supports 20 languages and over 70 frameworks including Ruby
+  on rails, Scala, PHP, Python, JavaScript, TypeScript, Java, Fortran, C, C++,
+  C#, VB.NET.
+resources:
+  - title: Checkmarx - Source Code Analysis Made Easy 2017
+    url: https://www.youtube.com/watch?v=zo1pCl6yQ34

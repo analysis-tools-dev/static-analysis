@@ -1,0 +1,11 @@
+name: Bootlint
+categories:
+  - linter
+tags:
+  - html
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/twbs/bootlint'
+homepage: 'https://github.com/twbs/bootlint'
+description: An HTML linter for Bootstrap projects.

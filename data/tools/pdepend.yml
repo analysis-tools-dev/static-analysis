@@ -1,0 +1,11 @@
+name: pdepend
+categories:
+  - linter
+tags:
+  - php
+license: BSD 3-Clause "New" or "Revised" License
+types:
+  - cli
+source: 'https://github.com/pdepend/pdepend'
+homepage: 'https://pdepend.org'
+description: Calculates software metrics like cyclomatic complexity for PHP code.

@@ -1,0 +1,31 @@
+name: AppScan Source
+categories:
+  - linter
+tags:
+  - asp
+  - aspnet
+  - c
+  - cobol
+  - coldfusion
+  - cpp
+  - csharp
+  - java
+  - javascript
+  - jsp
+  - mobile
+  - perl
+  - php
+  - plsql
+  - tsql
+  - vbasic
+  - vbnet
+  - vbscript
+  - security
+license: proprietary
+types:
+  - service
+homepage: "https://www.hcltechsw.com/wps/portal/products/appscan/home"
+description: Commercial Static Code Analysis.
+resources:
+  - title: Introducing HCL AppScan Standard
+    url: https://www.youtube.com/watch?v=TmYY67w18RI

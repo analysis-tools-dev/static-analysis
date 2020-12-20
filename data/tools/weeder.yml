@@ -1,0 +1,11 @@
+name: Weeder
+categories:
+  - linter
+tags:
+  - haskell
+license: BSD 3-Clause "New" or "Revised" License
+types:
+  - cli
+source: 'https://github.com/ocharles/weeder'
+homepage: 'https://github.com/ocharles/weeder'
+description: A tool for detecting dead exports or package imports in Haskell code.

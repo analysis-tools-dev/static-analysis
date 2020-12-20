@@ -1,0 +1,11 @@
+name: Esprima
+categories:
+  - linter
+tags:
+  - javascript
+license: BSD 2-Clause "Simplified" License
+types:
+  - cli
+source: 'https://github.com/jquery/esprima'
+homepage: 'https://esprima.org'
+description: ECMAScript parsing infrastructure for multipurpose analysis.

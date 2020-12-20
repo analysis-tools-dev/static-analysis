@@ -1,0 +1,11 @@
+name: clair
+categories:
+  - linter
+tags:
+  - container
+license: Other
+types:
+  - cli
+source: 'https://github.com/coreos/clair'
+homepage: 'https://github.com/coreos/clair'
+description: Vulnerability Static Analysis for Containers.

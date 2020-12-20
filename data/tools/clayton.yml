@@ -1,0 +1,12 @@
+name: Clayton
+homepage: "https://www.getclayton.com/"
+description: "AI-powered code reviews for Salesforce. Secure your developments, enforce best practice and control your technical debt in real-time."
+tags:
+  - apex
+  - lwc
+  - visualforce
+categories:
+  - foo
+types:
+  - service
+license: proprietary

@@ -1,0 +1,11 @@
+name: dialyxir
+categories:
+  - linter
+tags:
+  - abap
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/jeremyjh/dialyxir'
+homepage: 'https://github.com/jeremyjh/dialyxir'
+description: 'Mix tasks to simplify use of Dialyzer in Elixir projects.'

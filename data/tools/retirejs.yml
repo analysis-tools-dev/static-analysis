@@ -1,0 +1,11 @@
+name: retire.js
+categories:
+  - linter
+tags:
+  - javascript
+license: Other
+types:
+  - cli
+source: 'https://github.com/RetireJS/retire.js'
+homepage: 'http://retirejs.github.io/retire.js'
+description: Scanner detecting the use of JavaScript libraries with known vulnerabilities.

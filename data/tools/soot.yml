@@ -1,0 +1,11 @@
+name: Soot
+categories:
+  - linter
+tags:
+  - java
+license: GNU Lesser General Public License v2.1
+types:
+  - cli
+source: 'https://github.com/soot-oss/soot'
+homepage: 'https://soot-oss.github.io/soot'
+description: A framework for analyzing and transforming Java and Android applications.

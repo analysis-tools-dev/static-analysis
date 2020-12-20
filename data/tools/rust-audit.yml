@@ -1,0 +1,14 @@
+name: rust-audit
+categories:
+  - formatter
+tags:
+  - rust
+license: Other
+types:
+  - cli
+source: 'https://github.com/Shnatsel/rust-audit'
+homepage: 'https://github.com/Shnatsel/rust-audit'
+description: >-
+  Audit Rust binaries for known bugs or security vulnerabilities. This works by
+  embedding data about the dependency tree (Cargo.lock) in JSON format into a
+  dedicated linker section of the compiled executable.

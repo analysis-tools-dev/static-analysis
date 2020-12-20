@@ -1,0 +1,11 @@
+name: Puppet Lint
+categories:
+  - linter
+tags:
+  - configmanagement
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/rodjek/puppet-lint'
+homepage: 'https://github.com/rodjek/puppet-lint'
+description: Check that your Puppet manifests conform to the style guide.

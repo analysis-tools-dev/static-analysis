@@ -1,0 +1,13 @@
+name: ansible-lint
+categories:
+  - linter
+tags:
+  - configmanagement
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/willthames/ansible-lint'
+homepage: 'https://docs.ansible.com/ansible-lint'
+description: >-
+  Checks playbooks for practices and behaviour that could potentially be
+  improved.

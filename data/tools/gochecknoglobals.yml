@@ -1,0 +1,11 @@
+name: gochecknoglobals
+categories:
+  - linter
+tags:
+  - go
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/leighmcculloch/gochecknoglobals'
+homepage: 'https://github.com/leighmcculloch/gochecknoglobals'
+description: Checks that no globals are present.

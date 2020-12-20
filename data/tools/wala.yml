@@ -1,0 +1,17 @@
+name: WALA
+categories:
+  - linter
+tags:
+  - java
+  - javascript
+license: Eclipse Public License 2.0
+types:
+  - cli
+source: 'https://github.com/wala/WALA'
+homepage: 'https://github.com/wala/WALA'
+description: >-
+  Static analysis capabilities for Java bytecode and related languages and for
+  JavaScript.
+resources:
+  - title: WALA Everywhere
+    url: https://www.youtube.com/watch?v=QtrJEopSSuw

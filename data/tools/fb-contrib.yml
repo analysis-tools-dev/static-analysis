@@ -1,0 +1,11 @@
+name: fb-contrib
+categories:
+  - linter
+tags:
+  - java
+license: GNU Lesser General Public License v2.1
+types:
+  - cli
+source: 'https://github.com/mebigfatguy/fb-contrib'
+homepage: 'http://fb-contrib.sourceforge.net'
+description: A plugin for FindBugs with additional bug detectors.

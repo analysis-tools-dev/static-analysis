@@ -1,0 +1,17 @@
+name: Corrode
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - rust
+deprecated: true
+license: GNU General Public License v2.0
+types:
+  - cli
+source: 'https://github.com/jameysharp/corrode'
+homepage: 'https://github.com/jameysharp/corrode'
+description: >-
+  Semi-automatic translation from C to Rust. Could reveal bugs in the original
+  implementation by showing Rust compiler warnings and errors. Superseded by
+  C2Rust.

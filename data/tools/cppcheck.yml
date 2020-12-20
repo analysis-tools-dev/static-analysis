@@ -1,0 +1,15 @@
+name: cppcheck
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+license: GNU General Public License v3.0
+types:
+  - cli
+source: 'https://github.com/danmar/cppcheck'
+homepage: 'http://cppcheck.sourceforge.net'
+description: Static analysis of C/C++ code.
+resources:
+  - title: Cppcheck introduction
+    url: https://www.viva64.com/en/t/0083/

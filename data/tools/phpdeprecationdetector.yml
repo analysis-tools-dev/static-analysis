@@ -1,0 +1,14 @@
+name: PhpDeprecationDetector
+categories:
+  - linter
+tags:
+  - php
+license: BSD-3-Clause
+types:
+  - cli
+source: 'https://github.com/wapmorgan/PhpDeprecationDetector'
+homepage: 'https://github.com/wapmorgan/PhpDeprecationDetector'
+description:  >-
+  Analyzer of PHP code to search issues with deprecated functionality in newer interpreter versions. 
+  It finds removed objects (functions, variables, constants and ini-directives), 
+  deprecated functions functionality, and usage of forbidden names or tricks (e.g. reserved identifiers in newer versions).

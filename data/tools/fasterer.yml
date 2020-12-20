@@ -1,0 +1,11 @@
+name: Fasterer
+categories:
+  - linter
+tags:
+  - ruby
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/DamirSvrtan/fasterer'
+homepage: 'https://github.com/DamirSvrtan/fasterer'
+description: 'Common Ruby idioms checker.'

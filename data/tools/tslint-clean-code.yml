@@ -1,0 +1,11 @@
+name: tslint-clean-code
+categories:
+  - linter
+tags:
+  - typescript
+license: Other
+types:
+  - cli
+source: 'https://github.com/Glavin001/tslint-clean-code'
+homepage: 'https://www.npmjs.com/package/tslint-clean-code'
+description: A set of TSLint rules inspired by the Clean Code handbook.

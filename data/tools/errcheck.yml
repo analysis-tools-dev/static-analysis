@@ -1,0 +1,11 @@
+name: errcheck
+categories:
+  - linter
+tags:
+  - go
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/kisielk/errcheck'
+homepage: 'https://github.com/kisielk/errcheck'
+description: Check that error return values are used.

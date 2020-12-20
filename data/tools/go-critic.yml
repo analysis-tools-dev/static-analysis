@@ -1,0 +1,13 @@
+name: go-critic
+categories:
+  - linter
+tags:
+  - go
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/go-critic/go-critic'
+homepage: 'https://github.com/go-critic/go-critic'
+description: >-
+  Go source code linter that maintains checks which are currently not
+  implemented in other linters.

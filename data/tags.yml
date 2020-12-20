@@ -70,6 +70,9 @@
 - name: "F#"
   tag: fsharp
   type: language
+- name: "Flow"
+  tag: flow
+  type: language
 - name: Fortran
   tag: fortran
   type: language
@@ -99,6 +102,9 @@
   type: language
 - name: JSX
   tag: jsx
+  type: language
+- name: Julia
+  tag: julia
   type: language
 - name: Kotlin
   tag: kotlin
@@ -148,9 +154,9 @@
 - name: Shell
   tag: shell
   type: language
-- name: Solidity
-  tag: solidity
-  type: language
+- name: Smart Contracts
+  tag: smart-contracts
+  type: other
 - name: SQL
   tag: sql
   type: language
@@ -238,6 +244,9 @@
 - name: Mobile
   tag: mobile
   type: other
+- name: Nim
+  tag: nim
+  type: language
 - name: Node.js
   tag: nodejs
   type: other
@@ -249,11 +258,14 @@
   type: other
 - name: PowerShell
   tag: powershell
-  type: other
+  type: language
 - name: Protocol Buffers
   tag: protobuf
   type: other
-- name: Supporting Tools
+- name: Security/SAST
+  tag: security
+  type: other
+- name: Support
   tag: support
   type: other
 - name: Template-Languages
@@ -264,18 +276,27 @@
   type: other
 - name: Visualforce
   tag: visualforce
-  type: other
+  type: language
+- name: Lightning Web Components
+  tag: lwc
+  type: language
+- name: VHDL
+  tag: vhdl
+  type: language
+- name: Vim Script
+  tag: vim-script
+  type: language
 - name: Vue.js
   tag: vue
   type: other
 - name: Vyper (Smart contract)
   tag: vyper
   type: other
+- name: Webassembly
+  tag: wasm
+  type: other
 - name: Writing
   tag: writing
-  type: other
-- name: Web services
-  tag: service
   type: other
 - name: XML
   tag: xml

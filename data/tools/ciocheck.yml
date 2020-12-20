@@ -1,0 +1,15 @@
+name: ciocheck
+categories:
+  - formatter
+  - meta
+tags:
+  - meta
+  - python
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/ContinuumIO/ciocheck'
+homepage: 'https://github.com/ContinuumIO/ciocheck'
+description: >-
+  Linter, formatter and test suite helper. As a linter, it is a wrapper around
+  `pep8`, `pydocstyle`, `flake8`, and `pylint`.

@@ -1,0 +1,12 @@
+name: Wotan
+categories:
+  - linter
+tags:
+  - javascript
+  - typescript
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/fimbullinter/wotan'
+homepage: 'https://github.com/fimbullinter/wotan'
+description: Pluggable TypeScript and JavaScript linter.

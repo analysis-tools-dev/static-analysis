@@ -1,0 +1,13 @@
+name: ArchUnitNET
+categories:
+  - linter
+tags:
+  - csharp
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/TNG/ArchUnitNET'
+homepage: 'https://github.com/TNG/ArchUnitNET'
+description: >-
+  A C# architecture test library to specify and assert architecture rules in C#
+  for automated testing.

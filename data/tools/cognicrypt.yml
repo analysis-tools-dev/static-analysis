@@ -1,0 +1,14 @@
+name: CogniCrypt
+categories:
+  - linter
+tags:
+  - java
+license: Eclipse Public License 2.0
+types:
+  - cli
+source: "https://github.com/eclipse-cognicrypt/CogniCrypt"
+homepage: "https://www.eclipse.org/cognicrypt"
+description: Checks Java source and byte code for incorrect uses of cryptographic APIs.
+resources:
+  - title: "Tutorial: CogniCrypt basics, and how to integrate your own Crypto APIs into CognICrypt"
+    url: https://www.youtube.com/watch?v=vOZKN8yQcAY

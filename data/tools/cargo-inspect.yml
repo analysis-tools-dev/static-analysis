@@ -1,0 +1,13 @@
+name: cargo-inspect
+categories:
+  - linter
+tags:
+  - rust
+license: Other
+types:
+  - cli
+source: 'https://github.com/mre/cargo-inspect'
+homepage: 'https://github.com/mre/cargo-inspect'
+description: >-
+  Inspect Rust code without syntactic sugar to see what the compiler does behind
+  the curtains.

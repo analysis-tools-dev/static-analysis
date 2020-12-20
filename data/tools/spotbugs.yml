@@ -1,0 +1,13 @@
+name: SpotBugs
+categories:
+  - linter
+tags:
+  - java
+license: GNU Lesser General Public License v2.1
+types:
+  - cli
+source: 'https://github.com/spotbugs/spotbugs'
+homepage: 'https://spotbugs.github.io'
+description: >-
+  SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs
+  in Java code.

@@ -1,0 +1,11 @@
+name: phpca
+categories:
+  - linter
+tags:
+  - php
+license: BSD 3-Clause "New" or "Revised" License
+types:
+  - cli
+source: 'https://github.com/wapmorgan/PhpCodeAnalyzer'
+homepage: 'https://github.com/wapmorgan/PhpCodeAnalyzer'
+description: Finds usage of non-built-in extensions.

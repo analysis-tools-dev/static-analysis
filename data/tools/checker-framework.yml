@@ -1,0 +1,11 @@
+name: Checker Framework
+categories:
+  - linter
+tags:
+  - java
+license: GPL with Classpath exception / MIT License
+types:
+  - cli
+source: 'https://github.com/typetools/checker-framework'
+homepage: 'https://checkerframework.org'
+description: Pluggable type-checking for Java.

@@ -1,0 +1,16 @@
+name: Ghidra
+categories:
+  - linter
+tags:
+  - binary
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/NationalSecurityAgency/ghidra'
+homepage: 'https://ghidra-sre.org'
+description: >-
+  A software reverse engineering (SRE) suite of tools developed by NSA's
+  Research Directorate in support of the Cybersecurity mission
+resources:
+  - title: Ghidra Installation Guide
+    url: https://ghidra-sre.org/InstallationGuide.html

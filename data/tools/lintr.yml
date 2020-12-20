@@ -1,0 +1,11 @@
+name: lintr
+categories:
+  - linter
+tags:
+  - r
+license: Other
+types:
+  - cli
+source: 'https://github.com/jimhester/lintr'
+homepage: 'https://github.com/jimhester/lintr'
+description: Static Code Analysis for R.

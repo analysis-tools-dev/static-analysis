@@ -1,0 +1,37 @@
+name: CodeFactor
+categories:
+  - linter
+tags:
+  - ci
+  - c
+  - cpp
+  - csharp
+  - java
+  - css
+  - javascript
+  - go
+  - python
+  - ruby
+  - typescript
+  - scala
+  - coffeescript
+  - groovy
+  - php
+  - container
+  - shell
+  - yaml
+  - vue
+  - html
+  - swift
+  - kotlin
+  - powershell
+  - dart
+  - r 
+license: proprietary
+types:
+  - service
+homepage: 'https://codefactor.io'
+description: Automated Code Analysis for repos on GitHub or BitBucket.
+resources:
+  - title: Getting started with CodeFactor.io
+    url: https://www.youtube.com/watch?v=0wL1bgoya2U

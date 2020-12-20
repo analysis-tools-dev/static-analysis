@@ -1,0 +1,13 @@
+name: Cobra
+categories:
+  - linter
+tags:
+  - ada
+  - c
+  - cpp
+  - python
+license: proprietary
+types:
+  - cli
+homepage: 'http://spinroot.com/cobra'
+description: Structural source code analyzer by NASA's Jet Propulsion Laboratory.

@@ -1,0 +1,24 @@
+name: Super-Linter
+categories:
+  - linter
+tags:
+  - coffeescript
+  - configmanagement
+  - container
+  - go
+  - javascript
+  - json
+  - markdown
+  - perl
+  - python
+  - ruby
+  - shell
+  - typescript
+  - xml
+  - yaml
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/github/super-linter'
+homepage: 'https://github.com/github/super-linter'
+description: Combination of multiple linters to install as a GitHub Action.

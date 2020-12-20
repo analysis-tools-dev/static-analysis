@@ -1,0 +1,11 @@
+name: i-Code CNES for Shell
+categories:
+  - linter
+tags:
+  - shell
+license: Eclipse Public License 1.0
+types:
+  - cli
+source: 'https://github.com/lequal/i-CodeCNES'
+homepage: 'https://github.com/lequal/i-CodeCNES'
+description: An open source static code analysis tool for Shell and Fortran (77 and 90).

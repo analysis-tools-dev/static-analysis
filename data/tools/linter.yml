@@ -1,0 +1,13 @@
+name: linter
+categories:
+  - linter
+tags:
+  - scala
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/HairyFotr/linter'
+homepage: 'https://github.com/HairyFotr/linter'
+description: >-
+  Linter is a Scala static analysis compiler plugin which adds compile-time
+  checks for various possible bugs, inefficiencies, and style problems.

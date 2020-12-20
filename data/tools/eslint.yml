@@ -1,0 +1,17 @@
+name: ESLint
+categories:
+  - linter
+tags:
+  - javascript
+  - typescript
+  - jsx
+  - flow
+license: MIT License
+types:
+  - cli
+source: "https://github.com/eslint/eslint"
+homepage: "https://github.com/eslint/eslint"
+description: An extensible linter for JS, following the ECMAScript standard.
+resources:
+  - title: VSCode ESLint, Prettier & Airbnb Style Guide Setup
+    url: https://www.youtube.com/watch?v=SydnKbGc7W8

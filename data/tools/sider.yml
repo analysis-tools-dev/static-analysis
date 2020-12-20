@@ -1,0 +1,15 @@
+name: Sider
+categories:
+  - linter
+tags:
+  - ci
+  - css
+  - go
+  - python
+  - ruby
+  - swift
+license: proprietary
+types:
+  - service
+homepage: 'https://sider.review'
+description: An automated code reviewing tool. Improving developers' productivity.

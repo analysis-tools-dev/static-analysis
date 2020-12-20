@@ -1,0 +1,12 @@
+name: Polyspace for Ada
+categories:
+  - linter
+tags:
+  - ada
+license: proprietary
+types:
+  - cli
+homepage: 'https://www.mathworks.com/products/polyspace-ada.html'
+description: >-
+  Provide code verification that proves the absence of overflow, divide-by-zero,
+  out-of-bounds array access, and certain other run-time errors in source code.

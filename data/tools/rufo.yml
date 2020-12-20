@@ -1,0 +1,11 @@
+name: rufo
+categories:
+  - formatter
+tags:
+  - ruby
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/ruby-formatter/rufo'
+homepage: 'https://github.com/ruby-formatter/rufo'
+description: 'An opinionated ruby formatter, intended to be used via the command line as a text-editor plugin, to autoformat files on save or on demand.'

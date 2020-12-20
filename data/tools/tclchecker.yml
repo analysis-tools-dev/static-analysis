@@ -1,0 +1,13 @@
+name: tclchecker
+categories:
+  - linter
+tags:
+  - tcl
+license: BSD 3-Clause "New" or "Revised" License
+types:
+  - cli
+source: 'https://github.com/ActiveState/tdk/blob/master/docs/3.0/TDK_3.0_Checker.txt'
+homepage: 'https://github.com/ActiveState/tdk/blob/master/docs/3.0/TDK_3.0_Checker.txt'
+description: >-
+  A static syntax analysis module (as part of
+  [TDK](https://github.com/ActiveState/tdk)).

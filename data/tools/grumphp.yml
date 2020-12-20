@@ -1,0 +1,11 @@
+name: GrumPHP
+categories:
+  - linter
+tags:
+  - php
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/phpro/grumphp'
+homepage: 'https://github.com/phpro/grumphp'
+description: Checks code on every commit.

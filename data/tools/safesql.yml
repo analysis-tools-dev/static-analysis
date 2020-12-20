@@ -1,0 +1,11 @@
+name: safesql
+categories:
+  - linter
+tags:
+  - go
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/stripe/safesql'
+homepage: 'https://github.com/stripe/safesql'
+description: Static analysis tool for Golang that protects against SQL injections.

@@ -1,0 +1,11 @@
+name: gocyclo
+categories:
+  - linter
+tags:
+  - go
+license: BSD 3-Clause "New" or "Revised" License
+types:
+  - cli
+source: 'https://github.com/fzipp/gocyclo'
+homepage: 'https://github.com/fzipp/gocyclo'
+description: Calculate cyclomatic complexities of functions in Go source code.

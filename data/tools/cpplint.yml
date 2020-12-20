@@ -1,0 +1,12 @@
+name: cpplint
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+license: Apache-2.0
+types:
+  - cli
+source: 'https://github.com/google/styleguide/tree/gh-pages/cpplint'
+homepage: 'https://github.com/google/styleguide/tree/gh-pages/cpplint'
+description: Automated C++ checker that follows Google's style guide.

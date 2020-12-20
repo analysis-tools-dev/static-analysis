@@ -1,0 +1,13 @@
+name: Railroader
+categories:
+  - linter
+tags:
+  - ruby
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/david-a-wheeler/railroader'
+homepage: 'https://railroader.org'
+description: >-
+  An open source static analysis security vulnerability scanner for Ruby on
+  Rails applications.

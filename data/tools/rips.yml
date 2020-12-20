@@ -1,0 +1,12 @@
+name: RIPS
+categories:
+  - linter
+tags:
+  - java
+  - nodejs
+  - php
+license: proprietary
+types:
+  - cli
+homepage: 'https://www.ripstech.com'
+description: A static source code analyser for vulnerabilities in PHP scripts.

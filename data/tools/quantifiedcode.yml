@@ -1,0 +1,17 @@
+name: QuantifiedCode
+categories:
+  - linter
+tags:
+  - ci
+  - security
+  - python
+deprecated: true
+license: BSD 3-Clause "New" or "Revised" License
+types:
+  - service
+source: "https://github.com/quantifiedcode/quantifiedcode"
+homepage: "https://github.com/quantifiedcode/quantifiedcode"
+description: >-
+  Automated code review & repair.
+  It helps you to keep track of issues and metrics in your software projects,
+  and can be easily extended to support new types of analyses.

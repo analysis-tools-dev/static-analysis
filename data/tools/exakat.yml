@@ -1,0 +1,12 @@
+name: exakat
+categories:
+  - linter
+tags:
+  - ci
+  - php
+license: Other
+types:
+  - service
+source: 'https://github.com/exakat/exakat'
+homepage: 'https://www.exakat.io'
+description: An automated code reviewing engine for PHP.

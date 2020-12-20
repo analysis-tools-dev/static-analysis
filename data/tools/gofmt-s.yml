@@ -1,0 +1,12 @@
+name: gofmt -s
+categories:
+  - formatter
+  - linter
+tags:
+  - go
+license: BSD-3-Clause (original text)
+types:
+  - cli
+source: 'https://github.com/golang/go/tree/master/src/cmd/gofmt'
+homepage: 'https://golang.org/cmd/gofmt'
+description: Checks if the code is properly formatted and could not be further simplified.

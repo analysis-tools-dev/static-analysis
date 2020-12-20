@@ -1,0 +1,26 @@
+name: Synopsys
+categories:
+  - linter
+tags:
+  - c
+  - ci
+  - cpp
+  - csharp
+  - fortran
+  - java
+  - javascript
+  - mobile
+  - nodejs
+  - php
+  - python
+  - ruby
+  - swift
+license: proprietary
+types:
+  - cli
+homepage: >-
+  https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html
+description: >-
+  A commercial static analysis platform that allows for scanning of multiple
+  languages (C/C++, Android, C#, Java, JS, PHP, Python, Node.JS, Ruby, Fortran,
+  and Swift).

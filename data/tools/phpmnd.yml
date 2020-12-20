@@ -1,0 +1,11 @@
+name: phpmnd
+categories:
+  - linter
+tags:
+  - php
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/povils/phpmnd'
+homepage: 'https://github.com/povils/phpmnd'
+description: Helps to detect magic numbers.

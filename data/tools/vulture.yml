@@ -1,0 +1,11 @@
+name: vulture
+categories:
+  - linter
+tags:
+  - python
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/jendrikseipp/vulture'
+homepage: 'https://github.com/jendrikseipp/vulture'
+description: 'Find unused classes, functions and variables in Python code.'

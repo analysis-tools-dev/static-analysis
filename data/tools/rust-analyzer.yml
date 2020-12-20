@@ -1,0 +1,14 @@
+name: rust-analyzer
+categories:
+  - formatter
+tags:
+  - rust
+license: Other
+types:
+  - ide-plugin
+source: "https://github.com/rust-analyzer/rust-analyzer"
+homepage: "https://rust-analyzer.github.io"
+description: >-
+  Supports functionality such as 'goto definition', type inference, symbol
+  search, reformatting, and code completion, and enables renaming and
+  refactorings.

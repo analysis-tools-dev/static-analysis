@@ -1,0 +1,11 @@
+name: gotype
+categories:
+  - linter
+tags:
+  - go
+license: 3-Clause BSD License + Patent Grant
+types:
+  - cli
+source: 'https://golang.org/x/tools/cmd/gotype'
+homepage: 'https://pkg.go.dev/golang.org/x/tools/cmd/gotype'
+description: Syntactic and semantic analysis similar to the Go compiler.

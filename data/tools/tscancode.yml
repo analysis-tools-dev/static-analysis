@@ -1,0 +1,16 @@
+name: TscanCode
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - csharp
+  - lua
+license: Other
+types:
+  - cli
+source: 'https://github.com/Tencent/TscanCode'
+homepage: 'https://github.com/Tencent/TscanCode'
+description: >-
+  A fast and accurate static analysis solution for C/C++, C#, Lua codes provided
+  by Tencent. Using GPLv3 license.

@@ -1,0 +1,11 @@
+name: phpqa - jakzal
+categories:
+  - linter
+tags:
+  - php
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/jakzal/phpqa'
+homepage: 'https://github.com/jakzal/phpqa'
+description: Many tools for PHP static analysis in one container.

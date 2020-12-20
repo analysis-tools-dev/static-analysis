@@ -1,0 +1,24 @@
+name: ApplicationInspector
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - csharp
+  - go
+  - html
+  - java
+  - javascript
+  - objectivec
+  - php
+  - powershell
+  - python
+  - ruby
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/microsoft/ApplicationInspector'
+homepage: 'https://github.com/microsoft/ApplicationInspector'
+description: >-
+  Creates reports of over 400 rule patterns for feature detection (e.g. the use
+  of cryptography or version control in apps).

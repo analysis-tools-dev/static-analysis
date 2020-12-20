@@ -1,0 +1,13 @@
+name: PHP Coding Standards Fixer
+categories:
+  - linter
+tags:
+  - php
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/FriendsOfPHP/PHP-CS-Fixer'
+homepage: 'https://cs.symfony.com'
+description: >-
+  Fixes your code according to standards like PSR-1, PSR-2, and the Symfony
+  standard.

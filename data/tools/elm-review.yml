@@ -1,0 +1,13 @@
+name: elm-review
+categories:
+  - linter
+tags:
+  - elm
+license: BSD 3-Clause "New" or "Revised" License
+types:
+  - cli
+source: 'https://github.com/jfmengels/elm-review'
+homepage: 'https://package.elm-lang.org/packages/jfmengels/elm-review/latest'
+description: >-
+  Analyzes whole Elm projects, with a focus on shareable and custom rules
+  written in Elm that add guarantees the Elm compiler doesn't give you.

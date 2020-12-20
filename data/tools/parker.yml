@@ -1,0 +1,11 @@
+name: Parker
+categories:
+  - linter
+tags:
+  - css
+license: Other
+types:
+  - cli
+source: 'https://github.com/katiefenn/parker'
+homepage: 'https://github.com/katiefenn/parker'
+description: Stylesheet analysis tool.

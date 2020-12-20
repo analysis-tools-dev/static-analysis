@@ -1,0 +1,22 @@
+name: Lumnify
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - csharp
+  - java
+  - javascript
+  - objectivec
+  - perl
+  - php
+  - python
+  - ruby
+  - swift
+license: proprietary
+types:
+  - cli
+homepage: 'https://lumnify.com'
+description: >-
+  Benchmark against thousands of projects, and analyse code for structural
+  quality with focus on maintainability.

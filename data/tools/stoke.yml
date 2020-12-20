@@ -1,0 +1,14 @@
+name: STOKE
+categories:
+  - formatter
+tags:
+  - asm
+license: Other
+types:
+  - cli
+source: 'https://github.com/StanfordPL/stoke'
+homepage: 'http://stoke.stanford.edu'
+description: >-
+  A programming-language agnostic stochastic optimizer for the x86_64
+  instruction set. It uses random search to explore the extremely
+  high-dimensional space of all possible program transformations.

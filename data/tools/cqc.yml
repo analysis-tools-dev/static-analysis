@@ -1,0 +1,17 @@
+name: cqc
+categories:
+  - linter
+tags:
+  - css
+  - javascript
+  - jsx
+  - less
+  - vue
+license: BSD-3-Clause (original text)
+types:
+  - cli
+source: 'https://github.com/xcatliu/cqc'
+homepage: 'https://github.com/xcatliu/cqc'
+description: >-
+  Check your code quality for js, jsx, vue, css, less, scss, sass and styl
+  files.

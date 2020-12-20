@@ -1,0 +1,12 @@
+name: clang-tidy
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+license: Apache License v2.0 with LLVM Exceptions
+types:
+  - cli
+source: 'http://clang.llvm.org/extra/clang-tidy'
+homepage: 'http://clang.llvm.org/extra/clang-tidy'
+description: clang static analyser.

@@ -1,0 +1,11 @@
+name: twig-lint
+categories:
+  - linter
+tags:
+  - php
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/asm89/twig-lint'
+homepage: 'https://github.com/asm89/twig-lint'
+description: twig-lint is a lint tool for your twig files.

@@ -1,0 +1,13 @@
+name: CSharpEssentials
+categories:
+  - linter
+tags:
+  - csharp
+license: Other
+types:
+  - cli
+source: 'https://github.com/DustinCampbell/CSharpEssentials'
+homepage: 'https://github.com/DustinCampbell/CSharpEssentials'
+description: >-
+  C# Essentials is a collection of Roslyn diagnostic analyzers, code fixes and
+  refactorings that make it easy to work with C# 6 language features.

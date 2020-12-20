@@ -1,0 +1,14 @@
+name: quality
+categories:
+  - linter
+tags:
+  - ci
+  - ruby
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/apiology/quality'
+homepage: 'https://github.com/apiology/quality'
+description: >-
+  Runs quality checks on your code using community tools, and makes sure your
+  numbers don't get any worse over time.

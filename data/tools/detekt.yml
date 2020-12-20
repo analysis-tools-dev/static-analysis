@@ -1,0 +1,11 @@
+name: detekt
+categories:
+  - linter
+tags:
+  - kotlin
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/detekt/detekt'
+homepage: 'https://detekt.github.io/detekt'
+description: Static code analysis for Kotlin code.

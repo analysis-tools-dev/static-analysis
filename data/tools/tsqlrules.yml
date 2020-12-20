@@ -1,0 +1,11 @@
+name: TSqlRules
+categories:
+  - linter
+tags:
+  - sql
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/ashleyglee/TSqlRules'
+homepage: 'https://github.com/ashleyglee/TSqlRules'
+description: TSQL Static Code Analysis Rules for SQL Server.

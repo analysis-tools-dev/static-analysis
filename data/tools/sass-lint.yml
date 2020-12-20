@@ -1,0 +1,12 @@
+name: sass-lint
+categories:
+  - linter
+tags:
+  - css
+deprecated: true
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/sasstools/sass-lint'
+homepage: 'https://github.com/sasstools/sass-lint'
+description: A Node-only Sass linter for both sass and scss syntax.

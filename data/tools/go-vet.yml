@@ -1,0 +1,11 @@
+name: go vet
+categories:
+  - linter
+tags:
+  - go
+license: BSD-3-Clause (original text)
+types:
+  - cli
+source: 'https://github.com/golang/go/tree/master/src/cmd/vet'
+homepage: 'https://golang.org/cmd/vet'
+description: Examines Go source code and reports suspicious.

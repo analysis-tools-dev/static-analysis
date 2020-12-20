@@ -1,0 +1,13 @@
+name: TypeScript Call Graph
+categories:
+  - linter
+tags:
+  - typescript
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/whyboris/TypeScript-Call-Graph'
+homepage: 'https://github.com/whyboris/TypeScript-Call-Graph'
+description: >-
+  CLI to generate an interactive graph of functions and calls from your
+  TypeScript files

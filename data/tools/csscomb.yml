@@ -1,0 +1,13 @@
+name: CSScomb
+categories:
+  - formatter
+tags:
+  - css
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/csscomb/csscomb.js'
+homepage: 'https://github.com/csscomb/csscomb.js'
+description: >-
+  A coding style formatter for CSS. Supports own configurations to make style
+  sheets beautiful and consistent.

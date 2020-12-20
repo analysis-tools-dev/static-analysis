@@ -1,0 +1,44 @@
+name: SmartDec Scanner
+categories:
+  - linter
+tags:
+  - abap
+  - apex
+  - c
+  - cobol
+  - cpp
+  - csharp
+  - delphi
+  - go
+  - groovy
+  - html
+  - java
+  - javascript
+  - kotlin
+  - objectivec
+  - perl
+  - php
+  - plsql
+  - python
+  - ruby
+  - scala
+  - security
+  - smart-contracts
+  - swift
+  - tsql
+  - typescript
+  - vba
+  - vbasic
+  - vbscript
+  - vyper
+license: proprietary
+types:
+  - cli
+homepage: 'https://smartdecscanner.com'
+description: >-
+  SAST tool which is capable of identifying vulnerabilities and undocumented
+  features. The analyzer scans the source code and executables without debug
+  info (i.e. binaries). Supports: Java/Scala/Kotlin, PHP, C#, JavaScript,
+  TypeScript, VBScript, HTML5, Python, Perl, C/C++, Objective-C/Swift, PL/SQL,
+  T-SQL, ABAP, 1C, Apex, Go, Ruby, Groovy, Delphi, VBA, Visual Basic 6,
+  Solidity, Vyper, COBOL.

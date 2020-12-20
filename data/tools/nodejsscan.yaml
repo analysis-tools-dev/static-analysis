@@ -1,0 +1,14 @@
+name: nodejsscan
+categories:
+  - linter
+tags:
+  - security
+  - nodejs
+license: GPL-3.0 License
+types:
+  - service
+source: 'https://github.com/ajinabraham/nodejsscan'
+homepage: 'https://opensecurity.in'
+description: >-
+   A static security code scanner for Node.js applications powered by libsast and semgrep that builds on the njsscan cli tool.
+   It features a UI with various dashboards about an application's security status.

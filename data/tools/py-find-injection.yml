@@ -1,0 +1,12 @@
+name: py-find-injection
+categories:
+  - linter
+tags:
+  - python
+deprecated: true
+license: Other
+types:
+  - cli
+source: 'https://github.com/uber/py-find-injection'
+homepage: 'https://github.com/uber/py-find-injection'
+description: Find SQL injection vulnerabilities in Python code.

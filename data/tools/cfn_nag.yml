@@ -1,0 +1,11 @@
+name: cfn_nag
+categories:
+  - linter
+tags:
+  - configmanagement
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/stelligent/cfn_nag'
+homepage: 'https://github.com/stelligent/cfn_nag'
+description: A linter for AWS CloudFormation templates.

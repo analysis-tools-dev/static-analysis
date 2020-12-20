@@ -1,0 +1,11 @@
+name: Dlint
+categories:
+  - linter
+tags:
+  - python
+license: BSD 3-Clause "New" or "Revised" License
+types:
+  - cli
+source: 'https://github.com/dlint-py/dlint'
+homepage: 'https://github.com/dlint-py/dlint'
+description: A tool for ensuring Python code is secure.

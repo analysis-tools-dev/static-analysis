@@ -1,0 +1,11 @@
+name: Nitpick CI
+categories:
+  - linter
+tags:
+  - ci
+  - php
+license: proprietary
+types:
+  - service
+homepage: 'https://nitpick-ci.com'
+description: Automated PHP code review.

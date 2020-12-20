@@ -1,0 +1,11 @@
+name: flow
+categories:
+  - linter
+tags:
+  - javascript
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/facebook/flow'
+homepage: 'https://flow.org'
+description: A static type checker for JavaScript.

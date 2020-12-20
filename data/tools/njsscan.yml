@@ -1,0 +1,14 @@
+name: njsscan
+categories:
+  - linter
+tags:
+  - security
+  - nodejs
+license: LGPL-2.1 License 
+types:
+  - cli
+source: 'https://github.com/ajinabraham/njsscan'
+homepage: 'https://opensecurity.in'
+description: >-
+  A static application testing (SAST) tool that can find insecure code patterns in your node.js applications
+  using simple pattern matcher from libsast and syntax-aware semantic code pattern search tool semgrep.

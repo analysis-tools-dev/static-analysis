@@ -1,0 +1,13 @@
+name: PHP Insights
+categories:
+  - linter
+tags:
+  - php
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/nunomaduro/phpinsights'
+homepage: 'https://phpinsights.com'
+description: >-
+  Instant PHP quality checks from your console. Analysis of code quality and
+  coding style as well as overview of code architecture and its complexity.
