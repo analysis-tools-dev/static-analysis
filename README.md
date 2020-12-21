@@ -99,27 +99,26 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 #### [Other](#other-1)
 
 - [Binaries](#binary)
-  - [CSS/SASS/SCSS](#css)
-  - [Config Files](#configfile)
-  - [Configuration Management](#configmanagement)
-  - [Containers](#container)
-  - [Continuous Integration](#ci)
-  - [Deno](#deno)
-  - [Gherkin](#gherkin)
-  - [HTML](#html)
-  - [LaTeX](#latex)
-  - [Markdown](#markdown)
-  - [Mobile](#mobile)
-  - [Packages](#package)
-  - [Protocol Buffers](#protobuf)
-  - [Security/SAST](#security)
-  - [Smart Contracts](#smart-contracts)
-  - [Support](#support)
-  - [Template-Languages](#template)
-  - [Translation](#translation)
-  - [Vue.js](#vue)
-  - [Writing](#writing)
-  
+- [CSS/SASS/SCSS](#css)
+- [Config Files](#configfile)
+- [Configuration Management](#configmanagement)
+- [Containers](#container)
+- [Continuous Integration](#ci)
+- [Deno](#deno)
+- [Gherkin](#gherkin)
+- [HTML](#html)
+- [LaTeX](#latex)
+- [Markdown](#markdown)
+- [Mobile](#mobile)
+- [Packages](#package)
+- [Protocol Buffers](#protobuf)
+- [Security/SAST](#security)
+- [Smart Contracts](#smart-contracts)
+- [Support](#support)
+- [Template-Languages](#template)
+- [Translation](#translation)
+- [Vue.js](#vue)
+- [Writing](#writing)
 
 ---
 
@@ -137,7 +136,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Codepeer](http://www.adacore.com/codepeer) :copyright: - Detects run-time and logic errors.
 - [Polyspace for Ada](https://www.mathworks.com/products/polyspace-ada.html) :copyright: - Provide code verification that proves the absence of overflow, divide-by-zero, out-of-bounds array access, and certain other run-time errors in source code.
 - [SPARK](https://www.adacore.com/about-spark) :copyright: - Static analysis and formal verification toolset for Ada.
-- [Understand](https://www.scitools.com/ada-programming-essential) :copyright: - IDE that provides code analysis, standards testing, metrics, graphing, dependency analysis and more for Ada and VHDL.
 
 
 <h2 id="asm">Assembly</h2>
@@ -267,7 +265,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="elixir">Elixir</h2>
 
-- [credo](http://credo-ci.org) - A static code analysis tool with a focus on code consistency and teaching.
+- [credo](https://github.com/rrrene/credo) - A static code analysis tool with a focus on code consistency and teaching.
 - [sobelow](https://github.com/nccgroup/sobelow) - Security-focused static analysis for the Phoenix Framework.
 
 
@@ -437,8 +435,8 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 
 <h2 id="php">PHP</h2>
 
-- [churn-php](https://github.com/bmitch/churn-php) :warning: - Helps discover good candidates for refactoring.
-- [dephpend](https://dephpend.com) - Dependency analysis tool.
+- [churn-php](https://github.com/bmitch/churn-php) - Helps discover good candidates for refactoring.
+- [dephpend](https://github.com/mihaeu/dephpend) - Dependency analysis tool.
 - [deprecation-detector](https://github.com/sensiolabs-de/deprecation-detector) - Finds usages of deprecated (Symfony) code.
 - [deptrac](https://github.com/sensiolabs-de/deptrac) - Enforce rules for dependencies between software layers.
 - [DesignPatternDetector](https://github.com/Halleck45/DesignPatternDetector) - Detection of design patterns in PHP code.
@@ -463,10 +461,10 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [php7mar](https://github.com/Alexia/php7mar) :warning: - Assist developers in porting their code quickly to PHP 7.
 - [PHP_CodeSniffer](https://pear.php.net/package/PHP_CodeSniffer) - Detects violations of a defined set of coding standards.
 - [phpca](https://github.com/wapmorgan/PhpCodeAnalyzer) - Finds usage of non-built-in extensions.
-- [phpcf](http://wapmorgan.github.io/PhpCodeFixer) - Finds usage of deprecated PHP features.
 - [phpcpd](https://github.com/sebastianbergmann/phpcpd) - Copy/Paste Detector for PHP code.
 - [phpdcd](https://github.com/sebastianbergmann/phpdcd) :warning: - Dead Code Detector (DCD) for PHP code.
 - [PhpDependencyAnalysis](https://mamuz.github.io/PhpDependencyAnalysis) - Builds a dependency graph for a project.
+- [PhpDeprecationDetector](https://github.com/wapmorgan/PhpDeprecationDetector) - Analyzer of PHP code to search issues with deprecated functionality in newer interpreter versions.  It finds removed objects (functions, variables, constants and ini-directives),  deprecated functions functionality, and usage of forbidden names or tricks (e.g. reserved identifiers in newer versions).
 - [phpdoc-to-typehint](https://github.com/dunglas/phpdoc-to-typehint) - Add scalar type hints and return types to existing PHP projects using PHPDoc annotations.
 - [phpDocumentor](https://www.phpdoc.org) - Analyzes PHP source code to generate documentation.
 - [phploc](https://github.com/sebastianbergmann/phploc) - A tool for quickly measuring the size and analyzing the structure of a PHP project.
@@ -501,7 +499,6 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [fixit](https://pypi.org/project/fixit) - A framework for creating lint rules and corresponding auto-fixes for source code.
 - [InspectorTiger](https://github.com/thg-consulting/it) - IT, Inspector Tiger, is a modern python code review tool / framework. It comes with bunch of pre-defined handlers which warns you about improvements and possible bugs. Beside these handlers, you can write your own or use community ones.
 - [jedi](https://jedi.readthedocs.io/en/latest) - Autocompletion/static analysis library for Python.
-- [Landscape](https://landscape.io) :warning: :copyright: - Static code analysis for Python.
 - [linty fresh](https://github.com/lyft/linty_fresh) - Parse lint errors and report them to Github as comments on a pull request.
 - [mccabe](https://pypi.org/project/mccabe) - Check McCabe complexity.
 - [mypy](http://www.mypy-lang.org) - A static type checker that aims to combine the benefits of duck typing and static typing, frequently used with [MonkeyType](https://github.com/Instagram/MonkeyType).
@@ -605,7 +602,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 
 - [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) - A library and command-line formatting tool for reformatting Swift code.
 - [SwiftLint](https://realm.github.io/SwiftLint) - A tool to enforce Swift style and conventions.
-- [Tailor](https://tailor.sh) :warning: - A static analysis and lint tool for source code written in Apple's Swift programming language.
+- [Tailor](https://github.com/sleekbyte/tailor) :warning: - A static analysis and lint tool for source code written in Apple's Swift programming language.
 
 
 <h2 id="tcl">Tcl</h2>
@@ -618,10 +615,10 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 <h2 id="typescript">TypeScript</h2>
 
 - [Codelyzer](http://codelyzer.com) - A set of tslint rules for static code analysis of Angular 2 TypeScript projects.
-- [ESLint](https://github.com/typescript-eslint/typescript-eslint) - An extensible linter for the TypeScript language.
 - [tslint-clean-code](https://www.npmjs.com/package/tslint-clean-code) - A set of TSLint rules inspired by the Clean Code handbook.
 - [tslint-microsoft-contrib](https://github.com/Microsoft/tslint-microsoft-contrib) - A set of tslint rules for static code analysis of TypeScript projects maintained by Microsoft.
 - [TypeScript Call Graph](https://github.com/whyboris/TypeScript-Call-Graph) - CLI to generate an interactive graph of functions and calls from your TypeScript files
+- [TypeScript ESLint](https://github.com/typescript-eslint/typescript-eslint) - TypeScript language extension for eslint.
 
 
 <h2 id="vbscript">VBScript</h2>
@@ -680,6 +677,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [Depends](https://github.com/multilang-depends/depends) - Analyses the comprehensive dependencies of code elements for Java, C/C++, Ruby.
 - [DevSkim](https://github.com/microsoft/devskim) - Regex-based static analysis tool for Visual Studio, VS Code, and Sublime Text - C/C++, C#, PHP, ASP, Python, Ruby, Java, and others.
 - [Embold](https://embold.io) :copyright: - Intelligent software analytics platform that identifies design issues, code issues, duplication and metrics. Supports Java, C, C++, C#, JavaScript, TypeScript, Python, Go, Kotlin and more.
+- [ESLint](https://github.com/eslint/eslint) - An extensible linter for JS, following the ECMAScript standard.
 - [exakat](https://www.exakat.io) - An automated code reviewing engine for PHP.
 - [Find Security Bugs](https://find-sec-bugs.github.io) - The SpotBugs plugin for security audits of Java web applications and Android applications. (Also work with Kotlin, Groovy and Scala projects)
 - [flake8](https://github.com/PyCQA/flake8) - A wrapper around `pyflakes`, `pycodestyle` and `mccabe`.
@@ -727,6 +725,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [Reshift](https://www.reshiftsecurity.com) :copyright: - A source code analysis tool for detecting and managing Java security vulnerabilities.
 - [Reviewdog](https://github.com/haya14busa/reviewdog) - A tool for posting review comments from any linter in any code hosting service.
 - [RIPS](https://www.ripstech.com) :copyright: - A static source code analyser for vulnerabilities in PHP scripts.
+- [Rome](https://rome.tools/) - Rome is a linter, compiler, bundler, and [more](https://rome.tools/#development-status) for JavaScript, TypeScript, JSON, HTML, Markdown, and CSS.
 - [Roslyn Analyzers](https://github.com/dotnet/roslyn-analyzers) - Roslyn-based implementation of FxCop analyzers.
 - [Roslyn Security Guard](https://security-code-scan.github.io) - Project that focuses on the identification of potential vulnerabilities such as SQL injection, cross-site scripting (XSS), CSRF, cryptography weaknesses, hardcoded passwords and many more.
 - [Scrutinizer](https://scrutinizer-ci.com) :copyright: - A proprietary code quality checker that can be integrated with GitHub.
@@ -743,6 +742,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [SonarCloud](https://sonarcloud.io) :copyright: - Multi-language cloud-based static code analysis. History, trends, security hot-spots, pull request analysis and more. Free for open source.
 - [SonarLint for Visual Studio](https://vs.sonarlint.org) - SonarLint is an extension for Visual Studio 2015 and 2017 that provides on-the-fly feedback to developers on new bugs and quality issues injected into .NET code.
 - [SonarQube](http://www.sonarqube.org) - SonarQube is an open platform to manage code quality.
+- [Sonatype](https://www.sonatype.com) :copyright: - Reports known vulnerabilities in common dependencies and recommends updated packages to minimize breaking changes
 - [SourceMeter](https://www.sourcemeter.com/) :copyright: - Static Code Analysis for C/C++, Java, C#, Python, and RPG III and RPG IV versions (including free-form).
 - [Spectral](https://stoplight.io/open-source/spectral) - A flexible JSON/YAML linter, without of the box support for OpenAPI v2/v3 and AsyncAPI v2.
 - [standard](http://standardjs.com) - An npm module that checks for Javascript Styleguide issues.
@@ -754,11 +754,12 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [TscanCode](https://github.com/Tencent/TscanCode) - A fast and accurate static analysis solution for C/C++, C#, Lua codes provided by Tencent. Using GPLv3 license.
 - [Twiggy](https://rustwasm.github.io/twiggy) - Analyzes a binary's call graph to profile code size. The goal is to slim down wasm binary size.
 - [Undebt](https://github.com/Yelp/undebt) - Language-independent tool for massive, automatic, programmable refactoring based on simple pattern definitions.
+- [Understand](https://www.scitools.com) :copyright: - Code visualization tool that provides code analysis, standards testing, metrics, graphing, dependency analysis and more for Ada, VHDL, and others.
 - [Unibeautify](https://unibeautify.com) - Universal code beautifier with a GitHub app. Supports HTML, CSS, JavaScript, TypeScript, JSX, Vue, C++, Go, Objective-C, Java, Python, PHP, GraphQL, Markdown, and more.
 - [Upsource](https://www.jetbrains.com/upsource) :copyright: - Code review tool with static code analysis and code-aware navigation for Java, PHP, JavaScript and Kotlin.
 - [Veracode](http://www.veracode.com/products/static-analysis-sast/static-code-analysis) :copyright: - Find flaws in binaries and bytecode without requiring source. Support all major programming languages: Java, .NET, JavaScript, Swift, Objective-C, C, C++ and more.
 - [Violations Lib](https://github.com/tomasbjerre/violations-lib) - Java library for parsing report files from static code analysis. Used by a bunch of Jenkins, Maven and Gradle plugins.
-- [WALA](http://wala.sourceforge.net) - Static analysis capabilities for Java bytecode and related languages and for JavaScript.
+- [WALA](https://github.com/wala/WALA) - Static analysis capabilities for Java bytecode and related languages and for JavaScript.
 - [WhiteHat Application Security Platform](https://www.whitehatsec.com/platform/static-application-security-testing) :copyright: - WhiteHat Scout (for Developers) combined with WhiteHat Sentinel Source (for Operations) supporting WhiteHat Top 40 and OWASP Top 10.
 - [Wotan](https://github.com/fimbullinter/wotan) - Pluggable TypeScript and JavaScript linter.
 - [Xanitizer](https://xanitizer.com) :copyright: - Xanitizer finds security vulnerabilities in web applications. It supports Java, Scala, JavaScript and TypeScript.

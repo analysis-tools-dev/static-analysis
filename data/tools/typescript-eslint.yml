@@ -1,0 +1,14 @@
+name: TypeScript ESLint
+categories:
+  - linter
+tags:
+  - typescript
+license: Other
+types:
+  - cli
+source: "https://github.com/typescript-eslint/typescript-eslint"
+homepage: "https://github.com/typescript-eslint/typescript-eslint"
+description: TypeScript language extension for eslint.
+resources:
+  - title: VSCode ESLint, Prettier & Airbnb Style Guide Setup
+    url: https://www.youtube.com/watch?v=SydnKbGc7W8

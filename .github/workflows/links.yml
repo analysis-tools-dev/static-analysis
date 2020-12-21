@@ -3,23 +3,25 @@ name: Links
 on:
   repository_dispatch:
   workflow_dispatch:
-  #schedule:
-  #  - cron: "00 18 * * *"
+  schedule:
+    - cron: "00 18 * * *"
 
 jobs:
   linkChecker:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
       - name: Link Checker
-        uses: peter-evans/link-checker@v1
+        uses: lycheeverse/lychee-action@v1
         with:
-          # ldra.com sends gzipped content to all clients including curl, which fails the checker
-          # See https://github.com/analysis-tools-dev/static-analysis/issues/350
-          args: README.md --exclude "https://ldra.com$" --timeout 10 --concurrency 5
+          args: README.md
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        
       - name: Create Issue From File
         uses: peter-evans/create-issue-from-file@v2
         with:
           title: Link Checker Report
-          content-filepath: ./link-checker/out.md
+          content-filepath: ./lychee/out.md
           labels: report, automated issue

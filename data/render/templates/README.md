@@ -56,10 +56,9 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 #### [Multiple languages](#multiple-languages-1)
 
 #### [Other](#other-1)
-
-{% for (tag, _) in others -%}
+{% for (tag, _) in others %}
 - [{{ tag.name }}](#{{ tag.tag }})
-  {% endfor %}
+{%- endfor %}
 
 ---
 

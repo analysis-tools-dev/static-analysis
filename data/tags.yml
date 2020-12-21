@@ -73,6 +73,9 @@
 - name: "Ocaml"
   tag: ocaml
   type: language  
+- name: "Flow"
+  tag: flow
+  type: language
 - name: Fortran
   tag: fortran
   type: language
@@ -279,6 +282,9 @@
   type: language
 - name: Lightning Web Components
   tag: lwc
+  type: language
+- name: VHDL
+  tag: vhdl
   type: language
 - name: Vim Script
   tag: vim-script
