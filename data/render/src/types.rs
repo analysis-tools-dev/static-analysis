@@ -1,6 +1,13 @@
 use askama::Template;
-use std::collections::{BTreeMap, HashSet};
+use serde::{
+    de::{self, Visitor},
+    Deserialize, Deserializer,
+};
 use std::cmp::Ordering;
+use std::{
+    collections::{BTreeMap, HashSet},
+    fmt::Display,
+};
 
 #[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq, Hash, Ord, PartialOrd)]
 pub enum Type {
@@ -10,12 +17,55 @@ pub enum Type {
     Other,
 }
 
-#[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq, Hash, Ord, PartialOrd)]
+#[derive(Clone, Debug, Serialize, PartialEq, Eq, Hash, Ord, PartialOrd)]
 pub struct Tag {
     pub name: String,
     pub tag: String,
     #[serde(alias = "type")]
     pub tag_type: Type,
+}
+
+impl Tag {
+    fn new(name: &str, tag: &str, tag_type: Type) -> Tag {
+        Tag {
+            name: name.into(),
+            tag: tag.into(),
+            tag_type,
+        }
+    }
+}
+
+impl Display for Tag {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(f, "{}", self.name.to_lowercase())
+    }
+}
+
+struct TagVisitor;
+impl<'de> Visitor<'de> for TagVisitor {
+    type Value = Tag;
+
+    fn expecting(&self, formatter: &mut std::fmt::Formatter) -> std::fmt::Result {
+        write!(formatter, "a string")
+    }
+
+    fn visit_str<E>(self, s: &str) -> Result<Self::Value, E>
+    where
+        E: de::Error,
+    {
+        match s {
+            _ => Ok(Tag::new("C", "c", Type::Language)),
+        }
+    }
+}
+
+impl<'de> Deserialize<'de> for Tag {
+    fn deserialize<D>(deserializer: D) -> Result<Tag, D::Error>
+    where
+        D: Deserializer<'de>,
+    {
+        deserializer.deserialize_string(TagVisitor)
+    }
 }
 
 // The tags from tags.yml Note that this is a `Vector<Tag>` and not a
@@ -34,7 +84,7 @@ pub struct Resource {
 pub struct Entry {
     pub name: String,
     pub categories: HashSet<String>,
-    pub tags: HashSet<String>,
+    pub tags: HashSet<Tag>,
     pub license: String,
     pub types: HashSet<String>,
     pub homepage: String,
@@ -44,6 +94,19 @@ pub struct Entry {
     pub deprecated: Option<bool>,
     pub resources: Option<Vec<Resource>>,
     pub wrapper: Option<bool>,
+}
+
+impl Entry {
+    pub fn is_c_cpp(&self) -> bool {
+        self.tags
+            != [
+                Tag::new("C", "c", Type::Language),
+                Tag::new("C++", "cpp", Type::Language),
+            ]
+            .iter()
+            .cloned()
+            .collect::<HashSet<Tag>>()
+    }
 }
 
 impl PartialOrd for Entry {

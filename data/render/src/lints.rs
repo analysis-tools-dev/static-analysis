@@ -16,17 +16,21 @@ pub fn name(entry: &Entry, _: &[Tag]) -> Result<()> {
 
 pub fn min_one_tag(entry: &Entry, _: &[Tag]) -> Result<()> {
     match entry.tags.is_empty() {
-        true => Err(anyhow!("{} must have at least one tag from `tags.yml`.", entry.name)),
+        true => Err(anyhow!(
+            "{} must have at least one tag from `tags.yml`.",
+            entry.name
+        )),
         false => Ok(()),
     }
 }
 
 pub fn tags_existing(entry: &Entry, tags: &[Tag]) -> Result<()> {
     for entry_tag in &entry.tags {
-        if !tags.iter().any(|tag| &tag.tag == entry_tag) {
+        if !tags.iter().any(|tag| tag == entry_tag) {
             return Err(anyhow!(
                 "Unknown tag `{}` for entry `{}`. It might be missing from the `tags.yml` file.",
-                entry_tag, entry.name
+                entry_tag,
+                entry.name
             ));
         }
     }

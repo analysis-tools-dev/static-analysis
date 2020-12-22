@@ -56,9 +56,9 @@ fn main() -> Result<()> {
         skip_deprecated: args.contains("--skip-deprecated"),
     };
 
-    let tags = read_tags(args.tags)?;
     let mut tools = read_tools(args.tools)?;
     tools.sort();
+    let tags = read_tags(args.tags)?;
     validate(&tags, &tools)?;
 
     if !args.skip_deprecated {
