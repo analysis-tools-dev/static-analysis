@@ -79,7 +79,7 @@ pub struct Entry {
 impl Entry {
     pub fn is_c_cpp(&self) -> bool {
         self.tags
-            != [
+            == [
                 Tag::new("C", "c", Type::Language),
                 Tag::new("C++", "cpp", Type::Language),
             ]
