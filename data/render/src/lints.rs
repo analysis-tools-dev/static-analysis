@@ -1,9 +1,9 @@
 use anyhow::{anyhow, Result};
 
-use crate::types::Entry;
+use crate::types::ParsedEntry;
 use crate::types::Tag;
 
-pub fn name(entry: &Entry, _: &[Tag]) -> Result<()> {
+pub fn name(entry: &ParsedEntry, _: &[Tag]) -> Result<()> {
     match entry.name.len() <= 50 {
         true => Ok(()),
         false => Err(anyhow!(
@@ -14,7 +14,7 @@ pub fn name(entry: &Entry, _: &[Tag]) -> Result<()> {
     }
 }
 
-pub fn min_one_tag(entry: &Entry, _: &[Tag]) -> Result<()> {
+pub fn min_one_tag(entry: &ParsedEntry, _: &[Tag]) -> Result<()> {
     match entry.tags.is_empty() {
         true => Err(anyhow!(
             "{} must have at least one tag from `tags.yml`.",
@@ -22,17 +22,4 @@ pub fn min_one_tag(entry: &Entry, _: &[Tag]) -> Result<()> {
         )),
         false => Ok(()),
     }
-}
-
-pub fn tags_existing(entry: &Entry, tags: &[Tag]) -> Result<()> {
-    for entry_tag in &entry.tags {
-        if !tags.iter().any(|tag| tag == entry_tag) {
-            return Err(anyhow!(
-                "Unknown tag `{}` for entry `{}`. It might be missing from the `tags.yml` file.",
-                entry_tag,
-                entry.name
-            ));
-        }
-    }
-    Ok(())
 }

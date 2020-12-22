@@ -1,13 +1,10 @@
+use anyhow::{bail, Result};
 use askama::Template;
-use serde::{
-    de::{self, Visitor},
-    Deserialize, Deserializer,
-};
+use serde::Deserialize;
 use std::cmp::Ordering;
-use std::{
-    collections::{BTreeMap, HashSet},
-    fmt::Display,
-};
+use std::collections::{BTreeMap, HashSet};
+
+use crate::valid;
 
 #[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq, Hash, Ord, PartialOrd)]
 pub enum Type {
@@ -17,7 +14,7 @@ pub enum Type {
     Other,
 }
 
-#[derive(Clone, Debug, Serialize, PartialEq, Eq, Hash, Ord, PartialOrd)]
+#[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq, Hash, Ord, PartialOrd)]
 pub struct Tag {
     pub name: String,
     pub tag: String,
@@ -35,40 +32,7 @@ impl Tag {
     }
 }
 
-impl Display for Tag {
-    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
-        write!(f, "{}", self.name.to_lowercase())
-    }
-}
-
-struct TagVisitor;
-impl<'de> Visitor<'de> for TagVisitor {
-    type Value = Tag;
-
-    fn expecting(&self, formatter: &mut std::fmt::Formatter) -> std::fmt::Result {
-        write!(formatter, "a string")
-    }
-
-    fn visit_str<E>(self, s: &str) -> Result<Self::Value, E>
-    where
-        E: de::Error,
-    {
-        match s {
-            _ => Ok(Tag::new("C", "c", Type::Language)),
-        }
-    }
-}
-
-impl<'de> Deserialize<'de> for Tag {
-    fn deserialize<D>(deserializer: D) -> Result<Tag, D::Error>
-    where
-        D: Deserializer<'de>,
-    {
-        deserializer.deserialize_string(TagVisitor)
-    }
-}
-
-// The tags from tags.yml Note that this is a `Vector<Tag>` and not a
+// The tags from tags.yml. Note that this is a `Vector<Tag>` and not a
 // `HashSet<Tag>` because we like to keep the sorting between renders.
 pub type Tags = Vec<Tag>;
 
@@ -78,6 +42,22 @@ pub type EntryTags = HashSet<String>;
 pub struct Resource {
     title: String,
     url: String,
+}
+
+#[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq)]
+pub struct ParsedEntry {
+    pub name: String,
+    pub categories: HashSet<String>,
+    pub tags: HashSet<String>,
+    pub license: String,
+    pub types: HashSet<String>,
+    pub homepage: String,
+    pub source: Option<String>,
+    pub description: String,
+    pub discussion: Option<String>,
+    pub deprecated: Option<bool>,
+    pub resources: Option<Vec<Resource>>,
+    pub wrapper: Option<bool>,
 }
 
 #[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq)]
@@ -107,6 +87,34 @@ impl Entry {
             .cloned()
             .collect::<HashSet<Tag>>()
     }
+
+    pub fn from_parsed(p: ParsedEntry, tags: &[Tag]) -> Result<Entry> {
+        valid(&p, tags)?;
+        let entry_tags: Result<HashSet<Tag>> = p.tags.iter().map(|t| get_tag(t, tags)).collect();
+        Ok(Entry {
+            name: p.name,
+            categories: p.categories,
+            tags: entry_tags?,
+            license: p.license,
+            types: p.types,
+            homepage: p.homepage,
+            source: p.source,
+            description: p.description,
+            discussion: p.discussion,
+            deprecated: p.deprecated,
+            resources: p.resources,
+            wrapper: p.wrapper,
+        })
+    }
+}
+
+fn get_tag(t: &str, tags: &[Tag]) -> Result<Tag> {
+    for tag in tags {
+        if tag.tag == t {
+            return Ok(tag.clone());
+        }
+    }
+    bail!("Invalid tag: {}", t)
 }
 
 impl PartialOrd for Entry {

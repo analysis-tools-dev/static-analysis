@@ -9,18 +9,11 @@ mod lints;
 pub mod types;
 
 use std::collections::BTreeMap;
-use types::{Catalog, Entry, Tag, Type};
+use types::{Catalog, Entry, ParsedEntry, Tag, Type};
 
-fn valid(entry: &Entry, tags: &[Tag]) -> Result<()> {
-    let lints = [lints::name, lints::min_one_tag, lints::tags_existing];
+fn valid(entry: &ParsedEntry, tags: &[Tag]) -> Result<()> {
+    let lints = [lints::name, lints::min_one_tag];
     lints.iter().try_for_each(|lint| Ok(lint(&entry, &tags)?))
-}
-
-pub fn validate(tags: &[Tag], entries: &[Entry]) -> Result<()> {
-    for entry in entries {
-        valid(&entry, tags)?
-    }
-    Ok(())
 }
 
 #[tokio::main]
