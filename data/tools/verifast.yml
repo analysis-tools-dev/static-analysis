@@ -9,4 +9,4 @@ types:
 source: 'https://github.com/verifast/verifast'
 homepage: 'https://github.com/verifast/verifast'
 description: >- 
-Source Code verification tool for C and Java.
+  Source Code verification tool for C and Java.
