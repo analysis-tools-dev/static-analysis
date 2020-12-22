@@ -65,11 +65,12 @@ pub async fn check_deprecated(token: String, entries: &mut Vec<Entry>) -> Result
 pub fn group(tags: &[Tag], entries: &[Entry]) -> Result<Catalog> {
     let mut linters = BTreeMap::new();
 
-    // Move tools that support multiple languages into their own category
-    let (multi, entries): (Vec<Entry>, Vec<Entry>) = entries
-        .iter()
-        .cloned()
-        .partition(|entry| entry.tags.len() > 1 && !entry.is_c_cpp());
+    // Move tools that support multiple programming languages into their own category
+    let (multi, entries): (Vec<Entry>, Vec<Entry>) = entries.iter().cloned().partition(|entry| {
+        entry.tags.len() > 1
+            && !entry.is_c_cpp()
+            && entry.tags.iter().all(|t| t.tag_type == Type::Language)
+    });
 
     let languages: Vec<&Tag> = tags
         .iter()
