@@ -1,0 +1,11 @@
+name: Sys
+categories:
+  - linter
+tags:
+  - ocaml
+license: GPL-2.0 License
+types:
+  - cli
+source: 'https://github.com/PLSysSec/sys'
+homepage: 'https://github.com/PLSysSec/sys'
+description: A static analysis tool support LLVM.

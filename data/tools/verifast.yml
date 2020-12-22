@@ -1,0 +1,12 @@
+name: VeriFast
+categories:
+  - linter
+tags:
+  - ocaml
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/verifast/verifast'
+homepage: 'https://github.com/verifast/verifast'
+description: >- 
+  Source Code verification tool for C and Java.

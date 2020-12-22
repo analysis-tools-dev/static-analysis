@@ -64,6 +64,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
     <li><a href="#elm">Elm</a></li>
     <li><a href="#erlang">Erlang</a></li>
     <li><a href="#fsharp">F#</a></li>
+    <li><a href="#ocaml">Ocaml</a></li>
     <li><a href="#fortran">Fortran</a></li>
     <li><a href="#go">Go</a></li>
     <li><a href="#groovy">Groovy</a></li>
@@ -176,6 +177,8 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [splint](http://splint.org) - Annotation-assisted static program checker.
 - [SVF](http://svf-tools.github.io/SVF) - A static tool that enables scalable and precise interprocedural dependence analysis for C and C++ programs.
 - [vera++](https://bitbucket.org/verateam/vera/wiki/Introduction) - Vera++ is a programmable tool for verification, analysis and transformation of C++ source code.
+- [verifast](https://github.com/verifast/verifast) - is a program analysis tool
+ for verification, analysis and transformation of C source code.
 
 
 <h2 id="csharp">C#</h2>
@@ -223,7 +226,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [splint](http://splint.org) - Annotation-assisted static program checker.
 - [SVF](http://svf-tools.github.io/SVF) - A static tool that enables scalable and precise interprocedural dependence analysis for C and C++ programs.
 - [vera++](https://bitbucket.org/verateam/vera/wiki/Introduction) - Vera++ is a programmable tool for verification, analysis and transformation of C++ source code.
-
+- [Sys](https://github.com/PLSysSec/sys) - A  static and symbolic analyzer for C/C++ code based on LLVM.
 
 <h2 id="clojure">Clojure</h2>
 
