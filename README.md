@@ -369,6 +369,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [ckjm](http://www.spinellis.gr/sw/ckjm) - Calculates Chidamber and Kemerer object-oriented metrics by processing the bytecode of compiled Java files.
 - [CogniCrypt](https://www.eclipse.org/cognicrypt) - Checks Java source and byte code for incorrect uses of cryptographic APIs.
 - [DesigniteJava](http://www.designite-tools.com/designitejava) :copyright: - DesigniteJava supports detection of various architecture, design, and implementation smells along with computation of various code quality metrics.
+- [Doop](https://bitbucket.org/yanniss/doop) - Doop is a declarative framework for static analysis of Java/Android programs, centered on pointer analysis algorithms. Doop provides a large variety of analyses and also the surrounding scaffolding to run an analysis end-to-end (fact generation, processing, statistics, etc.).
 - [Error-prone](https://errorprone.info) - Catch common Java mistakes as compile-time errors.
 - [fb-contrib](http://fb-contrib.sourceforge.net) - A plugin for FindBugs with additional bug detectors.
 - [forbidden-apis](https://github.com/policeman-tools/forbidden-apis) - Detects and forbids invocations of specific method/class/field (like reading from a text stream without a charset). Maven/Gradle/Ant compatible.
