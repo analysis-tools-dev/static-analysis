@@ -2,7 +2,7 @@ name: Infer#
 categories:
   - linter
 tags:
-  - c#
+  - csharp
 license: MIT License
 types:
   - cli
