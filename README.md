@@ -707,6 +707,9 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [Klocwork](https://www.perforce.com/products/klocwork) :copyright: - Quality and Security Static analysis for C/C++, Java and C#.
 - [LGTM.com](https://lgtm.com) :copyright: - Deep code analysis for GitHub and Bitbucket to find security vulnerabilities and critical code quality issues (using Semmle QL). Automatic code review for pull requests; free for public repositories.
 - [Lumnify](https://lumnify.com) :copyright: - Benchmark against thousands of projects, and analyse code for structural quality with focus on maintainability.
+- [Mega-Linter](https://nvuillam.github.io/mega-linter/) - Mega-Linter can handle any type of project thanks to its 70+ embedded Linters,
+ its advanced reporting, runnable on any CI system or locally,
+ with assisted installation and configuration, able to apply formatting and fixes
 - [multilint](https://github.com/adamchainz/multilint) - A wrapper around `flake8`, `isort` and `modernize`.
 - [Nitpick CI](https://nitpick-ci.com) :copyright: - Automated PHP code review.
 - [NodeJSScan](https://opensecurity.in) - NodeJsScan is a static security code scanner for Node.js applications.
