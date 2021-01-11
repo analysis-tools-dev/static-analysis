@@ -1,0 +1,81 @@
+name: Mega-Linter
+categories:
+  - linter
+tags:
+  - ansible
+  - apex
+  - arm
+  - c
+  - ci
+  - clojure
+  - cloudformation
+  - coffeescript
+  - configfile
+  - configmanagement
+  - container
+  - cpp
+  - css
+  - csharp
+  - dart
+  - dockerfile
+  - dotenv
+  - dotnet
+  - editorconfig
+  - formatter
+  - gherkin
+  - go
+  - graphql
+  - groovy
+  - html
+  - java
+  - javascript
+  - json
+  - jsonschema
+  - jsx
+  - kotlin
+  - kubernetes
+  - latex
+  - lua
+  - lwc
+  - markdown
+  - nodejs
+  - perl
+  - php
+  - powershell
+  - protobuf
+  - puppet
+  - python
+  - r
+  - raku
+  - rst
+  - ruby
+  - rust
+  - scala
+  - shell
+  - snakemake
+  - sql
+  - terraform
+  - typescript
+  - vbnet
+  - vue
+  - writing
+  - xml
+  - yaml
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/nvuillam/mega-linter'
+homepage: 'https://nvuillam.github.io/mega-linter/'
+description: >-
+  Mega-Linter can handle any type of project thanks to its 70+ embedded Linters,
+   its advanced reporting, runnable on any CI system or locally,
+   with assisted installation and configuration, able to apply formatting and fixes
+resources:
+  - title: How Mega-linter works
+    url: https://nvuillam.github.io/mega-linter/frequently-asked-questions/
+  - title: List of Mega-Linter supported languages, formats and tooling formats
+    url: https://nvuillam.github.io/mega-linter/supported-linters/
+  - title: Assisted installation guide
+    url: https://nvuillam.github.io/mega-linter/installation/
+  - title: Assisted configuration guide
+    url: https://nvuillam.github.io/mega-linter/configuration/
