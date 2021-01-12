@@ -156,7 +156,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="c">C</h2>
 
-- [Astrée](https://www.absint.com/astree/index.htm) :copyright: - Sound static analyzer based on abstract interpretation for C/C++, detecting memory, type and concurrency defects, and MISRA violations.
+- [Astrée](https://www.absint.com/astree/index.htm) :copyright: - Astrée automatically proves the absence of runtime errors and invalid con­current behavior in C/C++ applications. It is sound for floating-point computations, very fast, and exceptionally precise. The analyzer also checks for MISRA/CERT/CWE/Adaptive Autosar coding rules and supports qualification for ISO 26262, DO-178C level A, and other safety standards. Jenkins and Eclipse plugins are available.
 - [CBMC](http://www.cprover.org/cbmc) - Bounded model-checker for C programs, user-defined assertions, standard assertions, several coverage metric analyses.
 - [clang-tidy](http://clang.llvm.org/extra/clang-tidy) - clang static analyser.
 - [clazy](https://github.com/KDE/clazy) - Qt-oriented static code analyzer based on the Clang framework. clazy is a compiler plugin which allows clang to understand Qt semantics. You get more than 50 Qt related compiler warnings, ranging from unneeded memory allocations to misusage of API, including fix-its for automatic refactoring.
@@ -204,7 +204,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="cpp">C++</h2>
 
-- [Astrée](https://www.absint.com/astree/index.htm) :copyright: - Sound static analyzer based on abstract interpretation for C/C++, detecting memory, type and concurrency defects, and MISRA violations.
+- [Astrée](https://www.absint.com/astree/index.htm) :copyright: - Astrée automatically proves the absence of runtime errors and invalid con­current behavior in C/C++ applications. It is sound for floating-point computations, very fast, and exceptionally precise. The analyzer also checks for MISRA/CERT/CWE/Adaptive Autosar coding rules and supports qualification for ISO 26262, DO-178C level A, and other safety standards. Jenkins and Eclipse plugins are available.
 - [CBMC](http://www.cprover.org/cbmc) - Bounded model-checker for C programs, user-defined assertions, standard assertions, several coverage metric analyses.
 - [clang-tidy](http://clang.llvm.org/extra/clang-tidy) - clang static analyser.
 - [clazy](https://github.com/KDE/clazy) - Qt-oriented static code analyzer based on the Clang framework. clazy is a compiler plugin which allows clang to understand Qt semantics. You get more than 50 Qt related compiler warnings, ranging from unneeded memory allocations to misusage of API, including fix-its for automatic refactoring.
