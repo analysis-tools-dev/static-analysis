@@ -9,5 +9,8 @@ types:
   - cli
 homepage: 'https://www.absint.com/astree/index.htm'
 description: >-
-  Sound static analyzer based on abstract interpretation for C/C++, detecting
-  memory, type and concurrency defects, and MISRA violations.
+  Astrée automatically proves the absence of runtime errors and invalid con­current behavior in C/C++ applications.
+  It is sound for floating-point computations, very fast, and exceptionally precise.
+  The analyzer also checks for MISRA/CERT/CWE/Adaptive Autosar coding rules and supports qualification for ISO 26262,
+  DO-178C level A, and other safety standards.
+  Jenkins and Eclipse plugins are available.
