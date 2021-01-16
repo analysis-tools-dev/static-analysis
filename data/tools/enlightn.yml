@@ -13,4 +13,4 @@ homepage: 'https://www.laravel-enlightn.com/'
 description: >-
   A static and dynamic analysis tool for Laravel applications that provides
   recommendations to improve the performance, security and code reliability
-  of Laravel apps. Contains more than 120 automated checks.
+  of Laravel apps. Contains 120 automated checks.
