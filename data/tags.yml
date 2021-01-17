@@ -271,6 +271,9 @@
 - name: JSON Schema
   tag: jsonschema
   type: other
+- name: Laravel
+  tag: laravel
+  type: other
 - name: LaTeX
   tag: latex
   type: other
