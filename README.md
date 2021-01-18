@@ -781,6 +781,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 - [cwe_checker](https://github.com/fkie-cad/cwe_checker) - cwe_checker finds vulnerable patterns in binary executables.
 - [Ghidra](https://ghidra-sre.org) - A software reverse engineering (SRE) suite of tools developed by NSA's Research Directorate in support of the Cybersecurity mission
 - [IDA Free](https://www.hex-rays.com/products/ida/support/download_freeware) :copyright: - Binary code analysis tool.
+- [angr](https://github.com/angr/angr) - angr is a platform-agnostic binary analysis framework that also support symbolic execution. 
 - [Jakstab](https://github.com/jkinder/jakstab) - Jakstab is an Abstract Interpretation-based, integrated disassembly and static analysis framework for designing analyses on executables and recovering reliable control flow graphs.
 - [JEB Decompiler](https://www.pnfsoftware.com/) :copyright: - Decompile and debug binary code. Break down and analyze document files. Android Dalvik, MIPS, ARM, Intel x86, Java, WebAssembly & Ethereum Decompilers.
 - [Manalyze](https://github.com/JusticeRage/Manalyze) - A static analyzer, which checks portable executables for malicious content.
