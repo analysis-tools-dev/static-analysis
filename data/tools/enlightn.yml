@@ -1,0 +1,16 @@
+name: Enlightn
+categories:
+  - linter
+tags:
+  - php
+  - security
+  - laravel
+license: LGPL-3.0 License
+types:
+  - cli
+source: 'https://github.com/enlightn/enlightn'
+homepage: 'https://www.laravel-enlightn.com/'
+description: >-
+  A static and dynamic analysis tool for Laravel applications that provides
+  recommendations to improve the performance, security and code reliability
+  of Laravel apps. Contains 120 automated checks.

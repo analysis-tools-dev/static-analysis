@@ -13,6 +13,12 @@
 - name: Ada
   tag: ada
   type: language
+- name: Ansible
+  tag: ansible
+  type: other
+- name: Azure Resource Manager
+  tag: arm
+  type: other
 - name: Assembly
   tag: asm
   type: language
@@ -31,6 +37,9 @@
 - name: Clojure
   tag: clojure
   type: language
+- name: Cloud Formation
+  tag: cloudformation
+  type: other
 - name: COBOL
   tag: cobol
   type: language
@@ -58,12 +67,21 @@
 - name: Delphi
   tag: delphi
   type: language
+- name: Dockerfile
+  tag: dockerfile
+  type: other
+- name: .editorconfig
+  tag: editorconfig
+  type: other
 - name: Elixir
   tag: elixir
   type: language
 - name: Elm
   tag: elm
   type: language
+- name: .env
+  tag: dotenv
+  type: other
 - name: Erlang
   tag: erlang
   type: language
@@ -88,6 +106,9 @@
 - name: Groovy
   tag: groovy
   type: language
+- name: GraphQL
+  tag: graphql
+  type: other
 - name: Haskell
   tag: haskell
   type: language
@@ -112,6 +133,9 @@
 - name: Kotlin
   tag: kotlin
   type: language
+- name: Kubernetes
+  tag: kubernetes
+  type: other
 - name: Lua
   tag: lua
   type: language
@@ -133,17 +157,26 @@
 - name: PL/SQL
   tag: plsql
   type: language
+- name: Puppet
+  tag: puppet
+  type: other
 - name: Python
   tag: python
   type: language
 - name: R
   tag: r
   type: language
+- name: Raku
+  tag: raku
+  type: language
 - name: RPG
   tag: rpg
   type: language
 - name: Rails
   tag: rails
+  type: other
+- name: reStructuredText
+  tag: rst
   type: other
 - name: Ruby
   tag: ruby
@@ -160,9 +193,15 @@
 - name: Smart Contracts
   tag: smart-contracts
   type: other
+- name: Snakemake
+  tag: snakemake
+  type: other
 - name: SQL
   tag: sql
   type: language
+- name: Terraform
+  tag: terraform
+  type: other
 - name: TSQL
   tag: tsql
   type: language
@@ -228,6 +267,12 @@
   type: other
 - name: JSON
   tag: json
+  type: other
+- name: JSON Schema
+  tag: jsonschema
+  type: other
+- name: Laravel
+  tag: laravel
   type: other
 - name: LaTeX
   tag: latex

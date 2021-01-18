@@ -1,0 +1,14 @@
+name: Infer#
+categories:
+  - linter
+tags:
+  - csharp
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/microsoft/infersharp'
+homepage: 'https://github.com/microsoft/infersharp'
+description: >-
+  InferSharp (also referred to as Infer#) is an interprocedural and 
+  scalable static code analyzer for C#. Via the capabilities of Facebook's Infer, 
+  this tool detects null pointer dereferences and resource leaks.

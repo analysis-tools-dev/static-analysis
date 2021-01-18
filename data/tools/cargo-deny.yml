@@ -1,0 +1,14 @@
+name: cargo-deny
+categories:
+  - linter
+tags:
+  - rust
+license: Apache License
+types:
+  - cli
+source: 'https://github.com/EmbarkStudios/cargo-deny'
+homepage: 'https://embarkstudios.github.io/cargo-deny'
+description: >-
+  A cargo plugin for linting your dependencies.
+  It can be used either as a command line too, a Rust crate, or a Github action for CI.
+  It checks for valid license information, duplicate crates, security vulnerabilities, and more.
