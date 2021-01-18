@@ -64,7 +64,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
     <li><a href="#elm">Elm</a></li>
     <li><a href="#erlang">Erlang</a></li>
     <li><a href="#fsharp">F#</a></li>
-    <li><a href="#ocaml">Ocaml</a></li>
     <li><a href="#fortran">Fortran</a></li>
     <li><a href="#go">Go</a></li>
     <li><a href="#groovy">Groovy</a></li>
@@ -184,8 +183,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [splint](http://splint.org) - Annotation-assisted static program checker.
 - [SVF](http://svf-tools.github.io/SVF) - A static tool that enables scalable and precise interprocedural dependence analysis for C and C++ programs.
 - [vera++](https://bitbucket.org/verateam/vera/wiki/Introduction) - Vera++ is a programmable tool for verification, analysis and transformation of C++ source code.
-- [verifast](https://github.com/verifast/verifast) - is a program analysis tool
- for verification, analysis and transformation of C source code.
 
 
 <h2 id="csharp">C#</h2>
@@ -234,7 +231,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [splint](http://splint.org) - Annotation-assisted static program checker.
 - [SVF](http://svf-tools.github.io/SVF) - A static tool that enables scalable and precise interprocedural dependence analysis for C and C++ programs.
 - [vera++](https://bitbucket.org/verateam/vera/wiki/Introduction) - Vera++ is a programmable tool for verification, analysis and transformation of C++ source code.
-- [Sys](https://github.com/PLSysSec/sys) - A  static and symbolic analyzer for C/C++ code based on LLVM.
+
 
 <h2 id="clojure">Clojure</h2>
 
@@ -444,8 +441,8 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 
 <h2 id="ocaml">Ocaml</h2>
 
-- [Sys](https://github.com/PLSysSec/sys) - A static analysis tool support LLVM.
-- [VeriFast](https://github.com/verifast/verifast) - Source Code verification tool for C and Java.
+- [Sys](https://github.com/PLSysSec/sys) - A static/symbolic Tool for finding bugs in (browser) code. It uses the LLVM AST to find bugs like uninitialized memory access.
+- [VeriFast](https://github.com/verifast/verifast) - A tool for modular formal verification of correctness properties of single-threaded and multithreaded  C and Java programs annotated with preconditions and postconditions written in separation logic.  To express rich specifications, the programmer can define inductive datatypes,  primitive recursive pure functions over these datatypes, and abstract separation logic predicates.
 
 
 <h2 id="php">PHP</h2>
@@ -782,6 +779,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 
 <h2 id="binary">Binaries</h2>
 
+- [angr](https://github.com/angr/angr) - Binary code analysis tool that also supports symbolic execution.
 - [binbloom](https://github.com/quarkslab/binbloom) - The purpose of this project is to analyse a raw binary firmware  and determine automatically some of its features.  This tool is compatible with all architectures as basically,  it just does simple statistics on it.
 Loading address: binbloom can parse a raw binary firmware and determine its loading address. Endianness: binbloom can use heuristics to determine the endianness of a firmware. UDS Database: binbloom can parse a raw binary firmware and check if it contains an array containing UDS command IDs.
 - [BinSkim](https://github.com/Microsoft/binskim) - A binary static analysis tool that provides security and correctness results for Windows portable executables.
@@ -790,7 +788,6 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 - [cwe_checker](https://github.com/fkie-cad/cwe_checker) - cwe_checker finds vulnerable patterns in binary executables.
 - [Ghidra](https://ghidra-sre.org) - A software reverse engineering (SRE) suite of tools developed by NSA's Research Directorate in support of the Cybersecurity mission
 - [IDA Free](https://www.hex-rays.com/products/ida/support/download_freeware) :copyright: - Binary code analysis tool.
-- [angr](https://github.com/angr/angr) - angr is a platform-agnostic binary analysis framework that also support symbolic execution. 
 - [Jakstab](https://github.com/jkinder/jakstab) - Jakstab is an Abstract Interpretation-based, integrated disassembly and static analysis framework for designing analyses on executables and recovering reliable control flow graphs.
 - [JEB Decompiler](https://www.pnfsoftware.com/) :copyright: - Decompile and debug binary code. Break down and analyze document files. Android Dalvik, MIPS, ARM, Intel x86, Java, WebAssembly & Ethereum Decompilers.
 - [Manalyze](https://github.com/JusticeRage/Manalyze) - A static analyzer, which checks portable executables for malicious content.
