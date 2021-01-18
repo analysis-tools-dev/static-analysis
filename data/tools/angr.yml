@@ -1,0 +1,10 @@
+name: angr
+categories:
+  - linter
+tags:
+  - binary
+license: BSD 2-Clause "Simplified" License
+types:
+  - cli
+homepage: 'https://github.com/angr/angr'
+description: Binary code analysis tool that also supports symbolic execution.
