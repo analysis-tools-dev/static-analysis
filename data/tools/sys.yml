@@ -8,4 +8,6 @@ types:
   - cli
 source: 'https://github.com/PLSysSec/sys'
 homepage: 'https://github.com/PLSysSec/sys'
-description: A static analysis tool support LLVM.
+description: >-
+  A static/symbolic Tool for finding bugs in (browser) code.
+  It uses the LLVM AST to find bugs like uninitialized memory access.
