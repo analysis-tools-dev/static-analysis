@@ -1,0 +1,11 @@
+name: dotenv-linter (Rust)
+categories:
+  - linter
+tags:
+  - configfile
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/dotenv-linter/dotenv-linter'
+homepage: 'https://dotenv-linter.github.io/#/'
+description: 'Lightning-fast linter for .env files. Written in Rust'
