@@ -1,0 +1,13 @@
+name: lockfile-lint
+categories:
+  - linter
+tags:
+  - security
+  - nodejs
+license: Apache-2.0 License 
+types:
+  - cli
+source: 'https://github.com/lirantal/lockfile-lint'
+homepage: 'https://github.com/lirantal/lockfile-lint'
+description: >-
+    Lint an npm or yarn lockfile to analyze and detect security issues
