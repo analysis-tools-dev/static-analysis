@@ -606,6 +606,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 
 <h2 id="shell">Shell</h2>
 
+- [bashate](https://github.com/openstack/bashate) - Code style enforcement for bash programs. The output format aims to follow pycodestyle (pep8) default output format.
 - [i-Code CNES for Shell](https://github.com/lequal/i-CodeCNES) - An open source static code analysis tool for Shell and Fortran (77 and 90).
 - [kmdr](https://kmdr.sh) - CLI tool for learning commands from your terminal. kmdr delivers a break down of commands with every attribute explained.
 - [shellcheck](https://www.shellcheck.net) - ShellCheck, a static analysis tool that gives warnings and suggestions for bash/sh shell scripts.
