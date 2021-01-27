@@ -1,0 +1,16 @@
+name: bashate
+categories:
+  - linter
+tags:
+  - shell
+license:  Apache-2.0 License 
+types:
+  - cli
+source: 'https://github.com/openstack/bashate'
+homepage: 'https://github.com/openstack/bashate'
+description: >-
+   Code style enforcement for bash programs.
+   The output format aims to follow pycodestyle (pep8) default output format.
+resources:
+  - title: Official bashate documentation
+    url: https://docs.openstack.org/bashate
