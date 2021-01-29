@@ -12,4 +12,4 @@ homepage: 'https://www.sqlfluff.com/'
 description: Multiple dialect SQL linter and formatter.
 resources:
   - title: Official SQLFluff documentation
-  - url: https://docs.sqlfluff.com/en/stable/
+    url: https://docs.sqlfluff.com/en/stable/
