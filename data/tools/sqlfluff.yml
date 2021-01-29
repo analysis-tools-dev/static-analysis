@@ -1,0 +1,15 @@
+name: SQLFluff
+categories:
+  - linter
+  - formatter
+tags:
+  - sql
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/sqlfluff/sqlfluff'
+homepage: 'https://www.sqlfluff.com/'
+description: Multiple dialect SQL linter and formatter.
+resources:
+  - title: Official SQLFluff documentation
+    url: https://docs.sqlfluff.com/en/stable/

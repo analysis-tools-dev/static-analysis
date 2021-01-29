@@ -591,6 +591,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 <h2 id="sql">SQL</h2>
 
 - [sqlcheck](https://github.com/jarulraj/sqlcheck) - Automatically identify anti-patterns in SQL queries.
+- [SQLFluff](https://www.sqlfluff.com/) - Multiple dialect SQL linter and formatter.
 - [sqlint](https://github.com/purcell/sqlint) - Simple SQL linter.
 - [tsqllint](https://github.com/tsqllint/tsqllint) - T-SQL-specific linter.
 - [TSqlRules](https://github.com/ashleyglee/TSqlRules) - TSQL Static Code Analysis Rules for SQL Server.
