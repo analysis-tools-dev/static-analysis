@@ -1,0 +1,19 @@
+name: trivy
+categories:
+  - linter
+tags:
+  - container
+  - ruby
+  - php
+  - nodejs
+  - javascript
+  - rust
+license: Apache-2.0 License 
+types:
+  - cli
+source: 'https://github.com/aquasecurity/trivy'
+homepage: 'https://github.com/aquasecurity/trivy'
+description: >
+  A Simple and Comprehensive Vulnerability Scanner for Containers and other Artifacts, Suitable for CI.
+  Trivy detects vulnerabilities of OS packages (Alpine, RHEL, CentOS, etc.) and application dependencies (Bundler, Composer, npm, yarn, etc.).
+  Checks containers and filesystems.
