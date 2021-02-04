@@ -13,4 +13,4 @@ hubcaps = "0.6.2"
 tokio = { version = "0.3.6", features = ["rt-multi-thread", "macros"] }
 chrono = "0.4.19"
 anyhow = "1.0.38"
-pico-args = "0.3.4"
+pico-args = "0.4.0"
