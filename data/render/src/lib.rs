@@ -45,7 +45,7 @@ pub async fn check_deprecated(token: String, entries: &mut Vec<Entry>) -> Result
         let owner = components[3];
         let repo = components[4];
 
-        if let Ok(commit_list) = github.repo(owner, repo).commits().list().await {
+        if let Ok(commit_list) = github.repo(owner, repo).commits().list("").await {
             let date = &commit_list[0].commit.author.date;
             let last_commit = NaiveDateTime::parse_from_str(&date, "%Y-%m-%dT%H:%M:%SZ")?;
             let last_commit_utc = DateTime::<Utc>::from_utc(last_commit, Utc);
