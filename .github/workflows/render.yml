@@ -12,6 +12,8 @@ jobs:
         
       - name: Render list
         run: make render
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         
       - uses: stefanzweifel/git-auto-commit-action@v4.1.2
         with:
