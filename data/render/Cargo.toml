@@ -7,7 +7,7 @@ edition = "2018"
 [dependencies]
 serde = "1.0.123"
 serde_derive = "1.0.118"
-serde_yaml = "0.8.16"
+serde_yaml = "0.8.17"
 askama = "0.10.5"
 hubcaps = "0.6.2"
 tokio = { version = "1.2.0", features = ["rt-multi-thread", "macros"] }
