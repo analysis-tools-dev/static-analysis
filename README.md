@@ -168,7 +168,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [cqmetrics](https://github.com/dspinellis/cqmetrics) - Quality metrics for C code.
 - [CScout](https://www.spinellis.gr/cscout) - Complexity and quality metrics for for C and C preprocessor code.
 - [ESBMC](http://esbmc.org) - ESBMC is an open source, permissively licensed, context-bounded model checker based on satisfiability modulo theories for the verification of single- and multi-threaded C/C++ programs.
-- [flawfinder](https://www.dwheeler.com/flawfinder) - Finds possible security weaknesses.
+- [flawfinder](http://dwheeler.com/flawfinder/) - Finds possible security weaknesses.
 - [flint++](https://github.com/JossWhittle/FlintPlusPlus) - Cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.
 - [Frama-C](http://frama-c.com) - A sound and extensible static analyzer for C code.
 - [Helix QAC](https://www.perforce.com/products/helix-qac) :copyright: - Enterprise-grade static analysis for embedded software. Supports MISRA, CERT, and AUTOSAR coding standards.
@@ -216,7 +216,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [cqmetrics](https://github.com/dspinellis/cqmetrics) - Quality metrics for C code.
 - [CScout](https://www.spinellis.gr/cscout) - Complexity and quality metrics for for C and C preprocessor code.
 - [ESBMC](http://esbmc.org) - ESBMC is an open source, permissively licensed, context-bounded model checker based on satisfiability modulo theories for the verification of single- and multi-threaded C/C++ programs.
-- [flawfinder](https://www.dwheeler.com/flawfinder) - Finds possible security weaknesses.
+- [flawfinder](http://dwheeler.com/flawfinder/) - Finds possible security weaknesses.
 - [flint++](https://github.com/JossWhittle/FlintPlusPlus) - Cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.
 - [Frama-C](http://frama-c.com) - A sound and extensible static analyzer for C code.
 - [Helix QAC](https://www.perforce.com/products/helix-qac) :copyright: - Enterprise-grade static analysis for embedded software. Supports MISRA, CERT, and AUTOSAR coding standards.
@@ -711,7 +711,6 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [Kiuwan](https://www.kiuwan.com/code-security-sast) :copyright: - Identify and remediate cyber threats in a blazingly fast, collaborative environment, with seamless integration in your SDLC. Python, C\C++, Java, C#, PHP and more.
 - [Klocwork](https://www.perforce.com/products/klocwork) :copyright: - Quality and Security Static analysis for C/C++, Java and C#.
 - [LGTM.com](https://lgtm.com) :copyright: - Deep code analysis for GitHub and Bitbucket to find security vulnerabilities and critical code quality issues (using Semmle QL). Automatic code review for pull requests; free for public repositories.
-- [Lumnify](https://lumnify.com) :copyright: - Benchmark against thousands of projects, and analyse code for structural quality with focus on maintainability.
 - [Mega-Linter](https://nvuillam.github.io/mega-linter/) - Mega-Linter can handle any type of project thanks to its 70+ embedded Linters,
  its advanced reporting, runnable on any CI system or locally,
  with assisted installation and configuration, able to apply formatting and fixes
