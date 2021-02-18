@@ -991,7 +991,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 <h2 id="writing">Writing</h2>
 
-- [After the Deadline](https://afterthedeadline.com) :warning: - Spell, style and grammar checker.
+- [After the Deadline](https://open.afterthedeadline.com) :warning: - Spell, style and grammar checker.
 - [alex](https://alexjs.com) - Catch insensitive, inconsiderate writing
 - [codespell](https://github.com/codespell-project/codespell) - Check code for common misspellings.
 - [languagetool](https://languagetool.org) - Style and grammar checker for 25+ languages. It finds many errors that a simple spell checker cannot detect.
