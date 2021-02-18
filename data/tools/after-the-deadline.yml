@@ -8,5 +8,5 @@ license: GPL v2
 types:
   - cli
 source: 'https://open.afterthedeadline.com'
-homepage: 'https://afterthedeadline.com'
+homepage: 'https://open.afterthedeadline.com'
 description: 'Spell, style and grammar checker.'
