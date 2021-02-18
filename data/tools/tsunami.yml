@@ -1,0 +1,17 @@
+name: Tsunami Security Scanner
+categories:
+  - linter
+tags:
+  - security
+license: Apache-2.0 License
+types:
+  - cli
+source: 'https://github.com/google/tsunami-security-scanner'
+homepage: 'https://github.com/google/tsunami-security-scanner'
+description: >-
+  A general purpose network security scanner with an extensible plugin system for 
+  detecting high severity RCE-like vulnerabilities with high confidence.
+  Custom detectors for finding vulnerabilities (e.g. open APIs) can be added.
+resources:
+  - title: "Tsunami Security Scanner from Google: Identify Critical vulnerabilities with high confidence - LAB"
+    url: https://www.youtube.com/watch?v=SMlWes1XnWw
