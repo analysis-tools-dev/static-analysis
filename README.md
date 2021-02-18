@@ -522,7 +522,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [pylint](http://pylint.pycqa.org/en/latest) - Looks for programming errors, helps enforcing a coding standard and sniffs for some code smells. It additionally includes `pyreverse` (an UML diagram generator) and `symilar` (a similarities checker).
 - [pyre-check](https://pyre-check.org) - A fast, scalable type checker for large Python codebases.
 - [pyright](https://github.com/Microsoft/pyright) - Static type checker for Python, created to address gaps in existing tools like mypy.
-- [pyroma](https://github.com/regebro/pyroma) :warning: - Rate how well a Python project complies with the best practices of the Python packaging ecosystem, and list issues that could be improved.
+- [pyroma](https://github.com/regebro/pyroma) - Rate how well a Python project complies with the best practices of the Python packaging ecosystem, and list issues that could be improved.
 - [Pysa](https://pyre-check.org/docs/pysa-basics.html) - A tool based on Facebook's pyre-check to identify potential security issues in Python code identified with taint analysis.
 - [PyT - Python Taint](https://github.com/python-security/pyt) :warning: - A static analysis tool for detecting security vulnerabilities in Python web applications.
 - [pytype](https://google.github.io/pytype) - A static type analyzer for Python code.
@@ -949,6 +949,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 - [Oversecured](https://oversecured.com) :copyright: - A mobile app vulnerability scanner, designed for security researchers and bug bounty hackers. It also allows integrations into the DevOps process for businesses.
 - [Qualys Container Security](https://www.qualys.com/apps/container-security) :copyright: - Container native application protection to provide visibility and control of containerized applications.
 - [tfsec](https://github.com/tfsec/tfsec) - Terraform static analysis tool that prevents potential security issues by checking cloud misconfigurations at build time and directly integrates with the HCL parser for better results. Checks for violations of AWS, Azure and GCP security best practice recommendations.
+- [Tsunami Security Scanner](https://github.com/google/tsunami-security-scanner) - A general purpose network security scanner with an extensible plugin system for  detecting high severity RCE-like vulnerabilities with high confidence. Custom detectors for finding vulnerabilities (e.g. open APIs) can be added.
 
 
 <h2 id="smart-contracts">Smart Contracts</h2>
