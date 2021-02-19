@@ -1,0 +1,15 @@
+name: ClassGraph
+categories:
+  - translation
+tags:
+  - java
+  - javascript
+  - android
+  - swift
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/simplelocalize/simplelocalize-cli'
+homepage: 'https://simplelocalize.io'
+description: >-
+  Open source tool for managing i18n keys in software projects.
