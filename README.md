@@ -337,7 +337,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [staticcheck](https://staticcheck.io) - Go static analysis that specialises in finding bugs, simplifying code and improving performance.
 - [structcheck](https://gitlab.com/opennota/check) - Find unused struct fields.
 - [test](http://golang.org/pkg/testing) - Show location of test failures from the stdlib testing module.
-- [unconvert](https://github.com/mdempsky/unconvert) - Detect redundant type conversions.
+- [unconvert](https://github.com/mdempsky/unconvert) :warning: - Detect redundant type conversions.
 - [unparam](https://github.com/mvdan/unparam) - Find unused function parameters.
 - [varcheck](https://gitlab.com/opennota/check) - Find unused global variables and constants.
 - [wsl](https://github.com/bombsimon/wsl) - Enforces empty lines at the right places.
@@ -617,7 +617,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 
 - [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) - A library and command-line formatting tool for reformatting Swift code.
 - [SwiftLint](https://realm.github.io/SwiftLint) - A tool to enforce Swift style and conventions.
-- [Tailor](https://github.com/sleekbyte/tailor) :warning: - A static analysis and lint tool for source code written in Apple's Swift programming language.
+- [Tailor](https://sleekbyte.github.io/tailor) :warning: - A static analysis and lint tool for source code written in Apple's Swift programming language.
 
 
 <h2 id="tcl">Tcl</h2>
