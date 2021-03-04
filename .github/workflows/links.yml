@@ -15,7 +15,7 @@ jobs:
       - name: Link Checker
         uses: lycheeverse/lychee-action@master
         with:
-          args: README.md
+          args: README.md --exclude https://github.com/collections
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         
