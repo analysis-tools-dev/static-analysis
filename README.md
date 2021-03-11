@@ -371,7 +371,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [DesigniteJava](http://www.designite-tools.com/designitejava) :copyright: - DesigniteJava supports detection of various architecture, design, and implementation smells along with computation of various code quality metrics.
 - [Doop](https://bitbucket.org/yanniss/doop) - Doop is a declarative framework for static analysis of Java/Android programs, centered on pointer analysis algorithms. Doop provides a large variety of analyses and also the surrounding scaffolding to run an analysis end-to-end (fact generation, processing, statistics, etc.).
 - [Error-prone](https://errorprone.info) - Catch common Java mistakes as compile-time errors.
-- [fb-contrib](http://fb-contrib.sourceforge.net) - A plugin for FindBugs with additional bug detectors.
+- [fb-contrib](http://fb-contrib.sourceforge.net) :warning: - A plugin for FindBugs with additional bug detectors.
 - [forbidden-apis](https://github.com/policeman-tools/forbidden-apis) - Detects and forbids invocations of specific method/class/field (like reading from a text stream without a charset). Maven/Gradle/Ant compatible.
 - [google-java-format](https://github.com/google/google-java-format) - Google Style Reformat.
 - [HuntBugs](https://github.com/amaembo/huntbugs) :warning: - Bytecode static analyzer tool based on Procyon Compiler Tools aimed to supersede FindBugs.
@@ -998,7 +998,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 - [misspell-fixer](https://github.com/vlajos/misspell-fixer) - Quick tool for fixing common misspellings, typos in source code.
 - [Misspelled Words In Context](http://jwilk.net/software/mwic) - A spell-checker that groups possible misspellings and shows them in their contexts.
 - [proselint](http://proselint.com) :warning: - A linter for English prose with a focus on writing style instead of grammar.
-- [vale](https://errata-ai.gitbook.io/vale) - A customizable, syntax-aware linter for prose.
+- [vale](https://docs.errata.ai/vale/about) - A syntax-aware linter for prose built with speed and extensibility in mind.
 - [write-good](https://github.com/btford/write-good) - A linter with a focus on eliminating "weasel words".
 
 
