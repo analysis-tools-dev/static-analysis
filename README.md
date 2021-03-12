@@ -426,6 +426,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 
 - [luacheck](https://github.com/mpeterv/luacheck) :warning: - A tool for linting and static analysis of Lua code.
 - [lualint](https://github.com/philips/lualint) - lualint performs luac-based static analysis of global variable usage in Lua source code.
+- [Luanalysis](https://plugins.jetbrains.com/plugin/14698-luanalysis) - An IDE for statically typed Lua development.
 
 
 <h2 id="matlab">MATLAB</h2>
