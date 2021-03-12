@@ -1,0 +1,11 @@
+name: Luanalysis
+categories:
+  - linter
+tags:
+  - lua
+license:  Apache-2.0 License 
+types:
+  - ide-plugin
+source: 'https://github.com/Benjamin-Dobell/IntelliJ-Luanalysis'
+homepage: 'https://plugins.jetbrains.com/plugin/14698-luanalysis'
+description: 'An IDE for statically typed Lua development.'
