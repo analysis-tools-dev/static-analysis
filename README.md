@@ -593,7 +593,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 
 - [sqlcheck](https://github.com/jarulraj/sqlcheck) - Automatically identify anti-patterns in SQL queries.
 - [SQLFluff](https://www.sqlfluff.com/) - Multiple dialect SQL linter and formatter.
-- [sqlint](https://github.com/purcell/sqlint) :warning: - Simple SQL linter.
+- [sqlint](https://github.com/purcell/sqlint) - Simple SQL linter.
 - [tsqllint](https://github.com/tsqllint/tsqllint) - T-SQL-specific linter.
 - [TSqlRules](https://github.com/ashleyglee/TSqlRules) :warning: - TSQL Static Code Analysis Rules for SQL Server.
 
@@ -611,7 +611,9 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [bashate](https://github.com/openstack/bashate) - Code style enforcement for bash programs. The output format aims to follow pycodestyle (pep8) default output format.
 - [i-Code CNES for Shell](https://github.com/lequal/i-CodeCNES) - An open source static code analysis tool for Shell and Fortran (77 and 90).
 - [kmdr](https://kmdr.sh) - CLI tool for learning commands from your terminal. kmdr delivers a break down of commands with every attribute explained.
+- [sh](https://pkg.go.dev/mvdan.cc/sh/v3) - A shell parser, formatter, and interpreter with bash support; includes shfmt
 - [shellcheck](https://www.shellcheck.net) - ShellCheck, a static analysis tool that gives warnings and suggestions for bash/sh shell scripts.
+- [shellharden](https://github.com/anordal/shellharden) - A syntax highlighter and a tool to semi-automate the rewriting of scripts to ShellCheck conformance, mainly focused on quoting.
 
 
 <h2 id="swift">Swift</h2>
