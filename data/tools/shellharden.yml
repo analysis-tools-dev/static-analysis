@@ -1,0 +1,11 @@
+name: shellharden
+categories:
+  - linter
+tags:
+  - shell
+license: MPL-2.0 License 
+types:
+  - cli
+source: 'https://github.com/anordal/shellharden'
+homepage: 'https://github.com/anordal/shellharden'
+description: 'A syntax highlighter and a tool to semi-automate the rewriting of scripts to ShellCheck conformance, mainly focused on quoting.'
