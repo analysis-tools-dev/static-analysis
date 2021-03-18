@@ -1,0 +1,11 @@
+name: sh
+categories:
+  - linter
+tags:
+  - shell
+license: BSD-3-Clause License 
+types:
+  - cli
+source: 'https://github.com/mvdan/sh'
+homepage: 'https://pkg.go.dev/mvdan.cc/sh/v3'
+description: 'A shell parser, formatter, and interpreter with bash support; includes shfmt'
