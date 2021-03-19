@@ -1,0 +1,17 @@
+name: kics
+categories:
+  - linter
+tags:
+  - configmanagement
+license: Apache License 2.0
+types:
+  - cli
+  - security
+  - terraform
+  - ansible
+  - docker
+  - kubernetes
+  - rego
+source: 'https://github.com/Checkmarx/kics'
+homepage: 'https://kics.io/'
+description: 'Find security vulnerabilities, compliance issues, and infrastructure misconfigurations in your infrastructure-as-code. Supports Terraform, Kubernetes, Docker, AWS CloudFormation and Ansible'
