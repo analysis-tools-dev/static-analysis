@@ -4,8 +4,8 @@ categories:
 tags:
   - ansible
   - configmanagement
+  - container
   - kubernetes
-  - rego
   - security
   - terraform
 license: Apache License 2.0
