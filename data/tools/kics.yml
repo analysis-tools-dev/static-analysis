@@ -4,7 +4,6 @@ categories:
 tags:
   - ansible
   - configmanagement
-  - docker
   - kubernetes
   - rego
   - security
