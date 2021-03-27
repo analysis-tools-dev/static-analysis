@@ -2,10 +2,10 @@ name: AzSK
 categories:
   - linter
 tags:
-  - ARM
+  - arm
   - configmanagement
+  - ci
   - security
-  - continuous-assurance
 license: MIT License
 types:
   - cli
