@@ -1,0 +1,14 @@
+name: AzSK
+categories:
+  - linter
+tags:
+  - arm
+  - configmanagement
+  - ci
+  - security
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/azsk/DevOpsKit'
+homepage: 'https://azsk.azurewebsites.net/'
+description: 'Secure DevOps kit for Azure (AzSK) provides security IntelliSense, Security Verification Tests (SVTs), CICD scan vulnerabilities, compliance issues, and infrastructure misconfiguration in your infrastructure-as-code. Supports Azure via ARM.'
