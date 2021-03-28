@@ -99,6 +99,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 #### [Other](#other-1)
 
 - [Ansible](#ansible)
+- [Azure Resource Manager](#arm)
 - [Binaries](#binary)
 - [Build tools](#buildtool)
 - [CSS/SASS/SCSS](#css)
@@ -792,6 +793,11 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [kics](https://kics.io/) - Find security vulnerabilities, compliance issues, and infrastructure misconfigurations in your infrastructure-as-code. Supports Terraform, Kubernetes, Docker, AWS CloudFormation and Ansible
 
 
+<h2 id="arm">Azure Resource Manager</h2>
+
+- [AzSK](https://azsk.azurewebsites.net/) - Secure DevOps kit for Azure (AzSK) provides security IntelliSense, Security Verification Tests (SVTs), CICD scan vulnerabilities, compliance issues, and infrastructure misconfiguration in your infrastructure-as-code. Supports Azure via ARM.
+
+
 <h2 id="binary">Binaries</h2>
 
 - [angr](https://github.com/angr/angr) - Binary code analysis tool that also supports symbolic execution.
@@ -844,6 +850,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 - [ansible-lint](https://docs.ansible.com/ansible-lint) - Checks playbooks for practices and behaviour that could potentially be improved.
 - [AWS CloudFormation Guard](https://github.com/aws-cloudformation/cloudformation-guard) - Check local CloudFormation templates against policy-as-code rules  and generate rules from existing templates.
+- [AzSK](https://azsk.azurewebsites.net/) - Secure DevOps kit for Azure (AzSK) provides security IntelliSense, Security Verification Tests (SVTs), CICD scan vulnerabilities, compliance issues, and infrastructure misconfiguration in your infrastructure-as-code. Supports Azure via ARM.
 - [cfn-lint](https://github.com/awslabs/cfn-python-lint) - AWS Labs CloudFormation linter.
 - [cfn_nag](https://github.com/stelligent/cfn_nag) - A linter for AWS CloudFormation templates.
 - [checkov](https://www.checkov.io) - Static analysis tool for Terraform files (tf>=v0.12), preventing cloud misconfigs at build time.
@@ -874,6 +881,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 <h2 id="ci">Continuous Integration</h2>
 
+- [AzSK](https://azsk.azurewebsites.net/) - Secure DevOps kit for Azure (AzSK) provides security IntelliSense, Security Verification Tests (SVTs), CICD scan vulnerabilities, compliance issues, and infrastructure misconfiguration in your infrastructure-as-code. Supports Azure via ARM.
 - [Code Climate](https://codeclimate.com) - The open and extensible static analysis platform, for everyone.
 - [PullRequest](https://www.pullrequest.com) :copyright: - Code review as a service with built-in static analysis.  Increase velocity and reduce technical debt through quality code review by expert engineers backed by best-in-class automation.
 
@@ -961,6 +969,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 <h2 id="security">Security/SAST</h2>
 
 - [Attackflow Extension](https://www.attackflow.com/Extension) :copyright: - Attackflow plugin for Visual Studio, which enables developers to find critical security bugs at real time in the source code without any prior knowledge.
+- [AzSK](https://azsk.azurewebsites.net/) - Secure DevOps kit for Azure (AzSK) provides security IntelliSense, Security Verification Tests (SVTs), CICD scan vulnerabilities, compliance issues, and infrastructure misconfiguration in your infrastructure-as-code. Supports Azure via ARM.
 - [Gitleaks](https://github.com/zricethezav/gitleaks) - A SAST tool for detecting hardcoded secrets like passwords, api keys, and tokens in git repos.
 - [iblessing](https://www.kitploit.com/2020/08/iblessing-ios-security-exploiting.html) - iblessing is an iOS security exploiting toolkit. It can be used for reverse engineering, binary analysis and vulnerability mining.
 - [kics](https://kics.io/) - Find security vulnerabilities, compliance issues, and infrastructure misconfigurations in your infrastructure-as-code. Supports Terraform, Kubernetes, Docker, AWS CloudFormation and Ansible
