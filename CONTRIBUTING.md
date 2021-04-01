@@ -21,8 +21,7 @@ please create a file in the `data/tools` directory.
 
 - Make each tool description as precise as possible.  
   Please limit the description to **500 characters**.
-- By default, we assume that the tool is open source.
-  If a tool is proprietary, add `proprietary: true`.
+- Add a license. If it's a proprietary tool, use `license: proprietary`. 
 - Please add as many tags as possible. You can choose from the tags
   in `data/tags.yml` If a tool does not match any existing tag, feel
   free to add a new tag.
