@@ -1,0 +1,11 @@
+name: warnalyzer
+categories:
+  - linter
+tags:
+  - rust
+license: MIT / Apache 2.0
+types:
+  - cli
+source: 'https://github.com/est31/warnalyzer'
+homepage: 'https://github.com/est31/warnalyzer'
+description: 'Show unused code from multi-crate Rust projects'
