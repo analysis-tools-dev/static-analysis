@@ -7,6 +7,7 @@ tags:
   - security
 license: GNU General Public License v3.0
 types:
+  - cli
   - service
 source: 'https://github.com/ajinabraham/NodeJsScan'
 homepage: 'https://opensecurity.in'
