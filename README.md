@@ -724,7 +724,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
  with assisted installation and configuration, able to apply formatting and fixes
 - [multilint](https://github.com/adamchainz/multilint) - A wrapper around `flake8`, `isort` and `modernize`.
 - [Nitpick CI](https://nitpick-ci.com) :copyright: - Automated PHP code review.
-- [NodeJSScan](https://opensecurity.in) - NodeJsScan is a static security code scanner for Node.js applications.
+- [NodeJSScan](https://opensecurity.in) - A static security code scanner for Node.js applications powered by libsast and semgrep that builds on the njsscan cli tool. It features a UI with various dashboards about an application's security status.
 - [oclint](http://oclint.org) - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C.
 - [ocular](https://www.shiftleft.io/ocular/) :copyright: - Enables code auditors and security teams to interactively investigate their unique code bases  to find business logic flaws and technical vulnerabilities that traditional SASTs cannot. This is done by enabling the analyst to write their own custom queries. Can find hard-coded secrets, authentication issues, and malicious code like rootkits and backdoors.
 - [pfff](https://github.com/facebookarchive/pfff/wiki/Main) - Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages.
