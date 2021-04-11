@@ -299,7 +299,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 
 <h2 id="fortran">Fortran</h2>
 
-- [i-Code CNES for Fortran](https://github.com/lequal/i-CodeCNES) - An open source static code analysis tool for Fortran 77, Fortran 90 and Shell.
+- [i-Code CNES for Fortran](https://github.com/lequal/i-CodeCNES) :warning: - An open source static code analysis tool for Fortran 77, Fortran 90 and Shell.
 
 
 <h2 id="go">Go</h2>
@@ -315,7 +315,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [flen](https://github.com/lafolle/flen) - Get info on length of functions in a Go package.
 - [go tool vet --shadow](https://golang.org/cmd/vet#hdr-Shadowed_variables) - Reports variables that may have been unintentionally shadowed.
 - [go vet](https://golang.org/cmd/vet) - Examines Go source code and reports suspicious.
-- [go-consistent](https://github.com/Quasilyte/go-consistent) - Analyzer that helps you to make your Go programs more consistent.
+- [go-consistent](https://github.com/Quasilyte/go-consistent) :warning: - Analyzer that helps you to make your Go programs more consistent.
 - [go-critic](https://github.com/go-critic/go-critic) - Go source code linter that maintains checks which are currently not implemented in other linters.
 - [go/ast](https://golang.org/pkg/go/ast) - Package ast declares the types used to represent syntax trees for Go packages.
 - [gochecknoglobals](https://github.com/leighmcculloch/gochecknoglobals) - Checks that no globals are present.
@@ -596,7 +596,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 
 <h2 id="sql">SQL</h2>
 
-- [sqlcheck](https://github.com/jarulraj/sqlcheck) - Automatically identify anti-patterns in SQL queries.
+- [sqlcheck](https://github.com/jarulraj/sqlcheck) :warning: - Automatically identify anti-patterns in SQL queries.
 - [SQLFluff](https://www.sqlfluff.com/) - Multiple dialect SQL linter and formatter.
 - [sqlint](https://github.com/purcell/sqlint) - Simple SQL linter.
 - [tsqllint](https://github.com/tsqllint/tsqllint) - T-SQL-specific linter.
@@ -614,7 +614,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 <h2 id="shell">Shell</h2>
 
 - [bashate](https://github.com/openstack/bashate) - Code style enforcement for bash programs. The output format aims to follow pycodestyle (pep8) default output format.
-- [i-Code CNES for Shell](https://github.com/lequal/i-CodeCNES) - An open source static code analysis tool for Shell and Fortran (77 and 90).
+- [i-Code CNES for Shell](https://github.com/lequal/i-CodeCNES) :warning: - An open source static code analysis tool for Shell and Fortran (77 and 90).
 - [kmdr](https://kmdr.sh) - CLI tool for learning commands from your terminal. kmdr delivers a break down of commands with every attribute explained.
 - [sh](https://pkg.go.dev/mvdan.cc/sh/v3) - A shell parser, formatter, and interpreter with bash support; includes shfmt
 - [shellcheck](https://www.shellcheck.net) - ShellCheck, a static analysis tool that gives warnings and suggestions for bash/sh shell scripts.
@@ -934,6 +934,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 <h2 id="markdown">Markdown</h2>
 
 - [markdownlint](https://github.com/DavidAnson/markdownlint) - Node.js -based style checker and lint tool for Markdown/CommonMark files.
+- [mdformat](https://mdformat.rtfd.io) - CommonMark compliant Markdown formatter
 - [mdl](https://github.com/mivok/markdownlint) - A tool to check Markdown files and flag style issues.
 - [remark-lint](https://remark.js.org) - Pluggable Markdown code style linter written in JavaScript.
 
