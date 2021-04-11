@@ -1,0 +1,11 @@
+name: mdformat
+categories:
+  - formatter
+tags:
+  - markdown
+license: MIT License
+types:
+  - cli
+source: "https://github.com/executablebooks/mdformat"
+homepage: "https://mdformat.rtfd.io"
+description: "CommonMark compliant Markdown formatter"
