@@ -2,7 +2,7 @@ name: dialyxir
 categories:
   - linter
 tags:
-  - abap
+  - elixir
 license: Apache License 2.0
 types:
   - cli
