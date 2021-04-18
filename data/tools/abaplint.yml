@@ -6,6 +6,8 @@ tags:
 license: MIT License
 types:
   - cli
-source: 'https://github.com/larshp/abaplint'
+  - service
+  - ide-plugin  
+source: 'https://github.com/abaplint/abaplint'
 homepage: 'https://abaplint.org'
 description: 'Linter for ABAP, written in TypeScript.'
