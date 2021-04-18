@@ -138,7 +138,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [abaplint](https://abaplint.org) - Linter for ABAP, written in TypeScript.
 - [abapOpenChecks](https://docs.abapopenchecks.org) - Enhances the SAP Code Inspector with new and customizable checks.
-- [dialyxir](https://github.com/jeremyjh/dialyxir) - Mix tasks to simplify use of Dialyzer in Elixir projects.
 
 
 <h2 id="ada">Ada</h2>
@@ -275,6 +274,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="elixir">Elixir</h2>
 
 - [credo](https://github.com/rrrene/credo) - A static code analysis tool with a focus on code consistency and teaching.
+- [dialyxir](https://github.com/jeremyjh/dialyxir) - Mix tasks to simplify use of Dialyzer in Elixir projects.
 - [sobelow](https://github.com/nccgroup/sobelow) - Security-focused static analysis for the Phoenix Framework.
 
 
