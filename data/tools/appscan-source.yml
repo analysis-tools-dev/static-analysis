@@ -1,4 +1,4 @@
-name: AppScan Source
+name: HCL AppScan Source
 categories:
   - linter
 tags:
@@ -24,7 +24,7 @@ tags:
 license: proprietary
 types:
   - service
-homepage: "https://www.hcltechsw.com/wps/portal/products/appscan/home"
+homepage: "https://www.hcltechsw.com/products/appscan"
 description: Commercial Static Code Analysis.
 resources:
   - title: Introducing HCL AppScan Standard
