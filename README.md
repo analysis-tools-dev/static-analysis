@@ -661,7 +661,6 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [AppChecker](https://npo-echelon.ru/en/solutions/appchecker.php) :copyright: - Static analysis for C/C++/C#, PHP and Java.
 - [Application Inspector](https://www.ptsecurity.com/ww-en/products/ai) :copyright: - Commercial Static Code Analysis which generates exploits to verify vulnerabilities.
 - [ApplicationInspector](https://github.com/microsoft/ApplicationInspector) - Creates reports of over 400 rule patterns for feature detection (e.g. the use of cryptography or version control in apps).
-- [AppScan Source](https://www.hcltechsw.com/wps/portal/products/appscan/home) :copyright: - Commercial Static Code Analysis.
 - [APPscreener](https://solarappscreener.com) :copyright: - Static code analysis for binary and source code - Java/Scala, PHP, Javascript, C#, PL/SQL, Python, T-SQL, C/C++, ObjectiveC/Swift, Visual Basic 6.0, Ruby, Delphi, ABAP, HTML5 and Solidity.
 - [ArchUnit](https://www.archunit.org) - Unit test your Java or Kotlin architecture.
 - [Atom-Beautify](https://atom.io/packages/atom-beautify) :warning: - Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom editor.
@@ -710,6 +709,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [Goodcheck](https://sider.github.io/goodcheck) - Regexp based customizable linter.
 - [goreporter](https://github.com/360EntSecGroup-Skylar/goreporter) - Concurrently runs many linters and normalises their output to a report.
 - [graudit](http://www.justanotherhacker.com) - Grep rough audit - source code auditing tool.
+- [HCL AppScan Source](https://www.hcltechsw.com/products/appscan) :copyright: - Commercial Static Code Analysis.
 - [Hopper](https://github.com/cuplv/hopper) :warning: - A static analysis tool written in scala for languages that run on JVM.
 - [Hound CI](https://houndci.com) - Comments on style violations in GitHub pull requests. Supports Coffeescript, Go, HAML, JavaScript, Ruby, SCSS and Swift.
 - [imhotep](https://github.com/justinabrahms/imhotep) :warning: - Comment on commits coming into your repository and check for syntactic errors and general lint warnings.
