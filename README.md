@@ -165,6 +165,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [clazy](https://github.com/KDE/clazy) - Qt-oriented static code analyzer based on the Clang framework. clazy is a compiler plugin which allows clang to understand Qt semantics. You get more than 50 Qt related compiler warnings, ranging from unneeded memory allocations to misusage of API, including fix-its for automatic refactoring.
 - [CMetrics](https://github.com/MetricsGrimoire/CMetrics) - Measures size and complexity for C files.
 - [CodeSonar from GrammaTech](https://www.grammatech.com/products/codesonar) :copyright: - Advanced, whole program, deep path, static analysis of C and C++ with easy-to-understand explanations and code and path visualization.
+- [CPAchecker](https://cpachecker.sosy-lab.org) - A tool for configurable software verification of C programs.  The name CPAchecker was chosen to reflect that the tool is based on the CPA concepts and is used for checking software programs.
 - [cppcheck](http://cppcheck.sourceforge.net) - Static analysis of C/C++ code.
 - [CppDepend](https://www.cppdepend.com) :warning: :copyright: - Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.
 - [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) - Automated C++ checker that follows Google's style guide.
@@ -601,6 +602,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [sqlint](https://github.com/purcell/sqlint) - Simple SQL linter.
 - [tsqllint](https://github.com/tsqllint/tsqllint) - T-SQL-specific linter.
 - [TSqlRules](https://github.com/ashleyglee/TSqlRules) :warning: - TSQL Static Code Analysis Rules for SQL Server.
+- [Visual Expert](https://www.visual-expert.com) :copyright: - Code analysis for PowerBuilder, Oracle, and SQL Server Explores, analyzes, and documents Code 
 
 
 <h2 id="scala">Scala</h2>
