@@ -1,0 +1,13 @@
+name: CPAchecker
+categories:
+  - linter
+tags:
+  - c
+license: Apache 2.0 License
+types:
+  - cli 
+source: 'https://cpachecker.sosy-lab.org/download.php'
+homepage: 'https://cpachecker.sosy-lab.org'
+description: >-
+  A tool for configurable software verification of C programs. 
+  The name CPAchecker was chosen to reflect that the tool is based on the CPA concepts and is used for checking software programs.
