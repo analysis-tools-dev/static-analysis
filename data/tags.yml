@@ -1,3 +1,9 @@
+- name: .editorconfig
+  tag: editorconfig
+  type: other
+- name: .env
+  tag: dotenv
+  type: other
 - name: .NET
   tag: dotnet
   type: language
@@ -16,23 +22,35 @@
 - name: Ansible
   tag: ansible
   type: other
-- name: Azure Resource Manager
-  tag: arm
-  type: other
-- name: Assembly
-  tag: asm
+- name: Apex
+  tag: apex
   type: language
 - name: ASP.NET
   tag: aspnet
   type: language
-- name: Apex
-  tag: apex
+- name: Assembly
+  tag: asm
   type: language
 - name: Awk
   tag: awk
   type: language
+- name: Azure Resource Manager
+  tag: arm
+  type: other
+- name: Binaries
+  tag: binary
+  type: other
+- name: Build tools
+  tag: buildtool
+  type: other
 - name: C
   tag: c
+  type: language
+- name: C#
+  tag: csharp
+  type: language
+- name: C++
+  tag: cpp
   type: language
 - name: Clojure
   tag: clojure
@@ -49,29 +67,38 @@
 - name: ColdFusion
   tag: coldfusion
   type: language
-- name: C++
-  tag: cpp
-  type: language
-- name: "C#"
-  tag: csharp
-  type: language
+- name: Config Files
+  tag: configfile
+  type: other
+- name: Configuration Management
+  tag: configmanagement
+  type: other
+- name: Containers
+  tag: container
+  type: other
+- name: Continuous Integration
+  tag: ci
+  type: other
 - name: Crystal
   tag: crystal
   type: language
+- name: CSS/SASS/SCSS
+  tag: css
+  type: other
 - name: Dart
   tag: dart
-  type: language
-- name: Dlang
-  tag: dlang
   type: language
 - name: Delphi
   tag: delphi
   type: language
+- name: Deno
+  tag: deno
+  type: other
+- name: Dlang
+  tag: dlang
+  type: language
 - name: Dockerfile
   tag: dockerfile
-  type: other
-- name: .editorconfig
-  tag: editorconfig
   type: other
 - name: Elixir
   tag: elixir
@@ -79,35 +106,35 @@
 - name: Elm
   tag: elm
   type: language
-- name: .env
-  tag: dotenv
-  type: other
 - name: Erlang
   tag: erlang
   type: language
-- name: "F#"
+- name: F#
   tag: fsharp
   type: language
-- name: "Ocaml"
-  tag: ocaml
-  type: language  
-- name: "Flow"
+- name: Flow
   tag: flow
-  type: language
-- name: Fortran
-  tag: fortran
   type: language
 - name: Formatter
   tag: formatter
   type: other
+- name: Fortran
+  tag: fortran
+  type: language
+- name: Gherkin
+  tag: gherkin
+  type: other
 - name: Go
   tag: go
   type: language
+- name: GraphQL
+  tag: graphql
+  type: other
 - name: Groovy
   tag: groovy
   type: language
-- name: GraphQL
-  tag: graphql
+- name: Haml
+  tag: haml
   type: other
 - name: Haskell
   tag: haskell
@@ -115,15 +142,27 @@
 - name: Haxe
   tag: haxe
   type: language
+- name: HTML
+  tag: html
+  type: other
+- name: IDE Plugins
+  tag: ide
+  type: other
 - name: Java
   tag: java
-  type: language
-- name: JavaServer Pages
-  tag: jsp
   type: language
 - name: JavaScript
   tag: javascript
   type: language
+- name: JavaServer Pages
+  tag: jsp
+  type: language
+- name: JSON
+  tag: json
+  type: other
+- name: JSON Schema
+  tag: jsonschema
+  type: other
 - name: JSX
   tag: jsx
   type: language
@@ -136,27 +175,75 @@
 - name: Kubernetes
   tag: kubernetes
   type: other
+- name: Laravel
+  tag: laravel
+  type: other
+- name: LaTeX
+  tag: latex
+  type: other
+- name: Less
+  tag: less
+  type: other
+- name: Lightning Web Components
+  tag: lwc
+  type: language
 - name: Lua
   tag: lua
   type: language
+- name: Makefiles
+  tag: make
+  type: other
+- name: Markdown
+  tag: markdown
+  type: other
 - name: MATLAB
   tag: matlab
+  type: language
+- name: Metalinter
+  tag: meta
+  type: other
+- name: Mobile
+  tag: mobile
+  type: other
+- name: More collections
+  tag: collection
+  type: other
+- name: Nim
+  tag: nim
+  type: language
+- name: Node.js
+  tag: nodejs
+  type: other
+- name: Obj-C
+  tag: objectivec
   type: language
 - name: Objective C
   tag: objectivec
   type: language
-- name: Obj-C
-  tag: objectivec
+- name: Ocaml
+  tag: ocaml
   type: language
+- name: Packages
+  tag: package
+  type: other
 - name: Perl
   tag: perl
   type: language
+- name: PhoneGap
+  tag: phonegap
+  type: other
 - name: PHP
   tag: php
   type: language
 - name: PL/SQL
   tag: plsql
   type: language
+- name: PowerShell
+  tag: powershell
+  type: language
+- name: Protocol Buffers
+  tag: protobuf
+  type: other
 - name: Puppet
   tag: puppet
   type: other
@@ -166,18 +253,18 @@
 - name: R
   tag: r
   type: language
-- name: Raku
-  tag: raku
-  type: language
-- name: RPG
-  tag: rpg
-  type: language
 - name: Rails
   tag: rails
   type: other
+- name: Raku
+  tag: raku
+  type: language
 - name: reStructuredText
   tag: rst
   type: other
+- name: RPG
+  tag: rpg
+  type: language
 - name: Ruby
   tag: ruby
   type: language
@@ -187,6 +274,9 @@
 - name: Scala
   tag: scala
   type: language
+- name: Security/SAST
+  tag: security
+  type: other
 - name: Shell
   tag: shell
   type: language
@@ -199,17 +289,26 @@
 - name: SQL
   tag: sql
   type: language
-- name: Terraform
-  tag: terraform
+- name: Support
+  tag: support
   type: other
-- name: TSQL
-  tag: tsql
-  type: language
 - name: Swift
   tag: swift
   type: language
 - name: Tcl
   tag: tcl
+  type: language
+- name: Template-Languages
+  tag: template
+  type: other
+- name: Terraform
+  tag: terraform
+  type: other
+- name: Translation
+  tag: translation
+  type: other
+- name: TSQL
+  tag: tsql
   type: language
 - name: TypeScript
   tag: typescript
@@ -217,122 +316,23 @@
 - name: VBScript
   tag: vbscript
   type: language
-- name: Visual Basic for Applications (VBA)
-  tag: vba
-  type: language
-- name: Visual Basic .NET
-  tag: vbnet
-  type: language
-- name: Visual Basic
-  tag: vbasic
-  type: language
-- name: Build tools
-  tag: buildtool
-  type: other
-- name: Binaries
-  tag: binary
-  type: other
-- name: More collections
-  tag: collection
-  type: other
-- name: Containers
-  tag: container
-  type: other
-- name: Config Files
-  tag: configfile
-  type: other
-- name: Configuration Management
-  tag: configmanagement
-  type: other
-- name: Continuous Integration
-  tag: ci
-  type: other
-- name: CSS/SASS/SCSS
-  tag: css
-  type: other
-- name: Deno
-  tag: deno
-  type: other
-- name: Gherkin
-  tag: gherkin
-  type: other
-- name: Haml
-  tag: haml
-  type: other
-- name: HTML
-  tag: html
-  type: other
-- name: IDE Plugins
-  tag: ide
-  type: other
-- name: JSON
-  tag: json
-  type: other
-- name: JSON Schema
-  tag: jsonschema
-  type: other
-- name: Laravel
-  tag: laravel
-  type: other
-- name: LaTeX
-  tag: latex
-  type: other
-- name: Less
-  tag: less
-  type: other
-- name: Makefiles
-  tag: make
-  type: other
-- name: Markdown
-  tag: markdown
-  type: other
-- name: Metalinter
-  tag: meta
-  type: other
-- name: Mobile
-  tag: mobile
-  type: other
-- name: Nim
-  tag: nim
-  type: language
-- name: Node.js
-  tag: nodejs
-  type: other
-- name: Packages
-  tag: package
-  type: other
-- name: PhoneGap
-  tag: phonegap
-  type: other
-- name: PowerShell
-  tag: powershell
-  type: language
-- name: Protocol Buffers
-  tag: protobuf
-  type: other
-- name: Security/SAST
-  tag: security
-  type: other
-- name: Support
-  tag: support
-  type: other
-- name: Template-Languages
-  tag: template
-  type: other
-- name: Translation
-  tag: translation
-  type: other
-- name: Visualforce
-  tag: visualforce
-  type: language
-- name: Lightning Web Components
-  tag: lwc
-  type: language
 - name: VHDL
   tag: vhdl
   type: language
 - name: Vim Script
   tag: vim-script
+  type: language
+- name: Visual Basic
+  tag: vbasic
+  type: language
+- name: Visual Basic .NET
+  tag: vbnet
+  type: language
+- name: Visual Basic for Applications (VBA)
+  tag: vba
+  type: language
+- name: Visualforce
+  tag: visualforce
   type: language
 - name: Vue.js
   tag: vue
@@ -352,3 +352,4 @@
 - name: YAML
   tag: yaml
   type: other
+
