@@ -11,5 +11,5 @@ description: >-
   Identifies code flaws and detects vulnerabilities to prevent web attacks.
   Demonstrates remote code execution by presenting possible exploits.
 resources:
-  - name: Introduction video
+  - title: Introduction video
     url: https://www.youtube.com/watch?v=gtFH6tV2dlM
