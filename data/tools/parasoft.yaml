@@ -1,0 +1,15 @@
+name: parasoft
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - csharp
+  - js
+license: proprietary
+types:
+  - service
+homepage: 'https://www.parasoft.com/'
+description: >-
+  Automated Software Testing Solutions for unit-, API-, and web UI testing.
+  Complies with MISRA, OWASP, and others.
