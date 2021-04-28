@@ -1,0 +1,16 @@
+name: VMware chap
+categories:
+  - linter
+tags:
+  - binary
+license: GPL v2
+types:
+  - cli 
+source: 'https://github.com/vmware/chap'
+homepage: 'https://github.com/vmware/chap'
+description: >-
+   chap analyzes un-instrumented ELF core files for leaks, memory growth, and corruption. 
+   It is sufficiently reliable that it can be used in automation to catch leaks before 
+   they are committed. As an interactive tool, it helps explain memory growth, 
+   can identify some forms of corruption, and supplements a debugger 
+   by giving the status of various memory locations. 
