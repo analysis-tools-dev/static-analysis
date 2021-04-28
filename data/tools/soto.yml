@@ -1,0 +1,22 @@
+name: Soto Platform
+categories:
+  - linter
+tags:
+  - abap
+  - c
+  - cpp
+  - csharp
+  - php
+  - typescript
+  - java
+license: proprietary
+types:
+  - cli
+homepage: "https://www.hello2morrow.com/products/sotograph"
+description: >-
+    Suite of static analysis tools consisting of the three components
+    Sotoarc (Architecture Analysis), Sotograph (Quality Analysis), and Sotoreport (Quality report).
+    Helps find differences between architecture and implementation, interface violations (e.g. external access of private
+    parts of subsystems, detection of all classes, files, packages and subsystems which are strongly coupled by cyclical relationships
+    and more.
+    The Sotograph product family runs on Windows and Linux. 
