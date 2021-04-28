@@ -1,4 +1,4 @@
-name: SensioLabs Insight
+name: Symfony Insight
 categories:
   - linter
 tags:
@@ -8,7 +8,7 @@ tags:
 license: proprietary
 types:
   - service
-homepage: 'https://insight.sensiolabs.com'
+homepage: 'https://insight.symfony.com/'
 description: >-
   Detect security risks, find bugs and provide actionable metrics for PHP
   projects.
