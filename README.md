@@ -766,6 +766,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [SonarLint for Visual Studio](https://vs.sonarlint.org) - SonarLint is an extension for Visual Studio 2015 and 2017 that provides on-the-fly feedback to developers on new bugs and quality issues injected into .NET code.
 - [SonarQube](http://www.sonarqube.org) - SonarQube is an open platform to manage code quality.
 - [Sonatype](https://www.sonatype.com) :copyright: - Reports known vulnerabilities in common dependencies and recommends updated packages to minimize breaking changes
+- [Soto Platform](https://www.hello2morrow.com/products/sotograph) :copyright: - Suite of static analysis tools consisting of the three components Sotoarc (Architecture Analysis), Sotograph (Quality Analysis), and Sotoreport (Quality report). Helps find differences between architecture and implementation, interface violations (e.g. external access of private parts of subsystems, detection of all classes, files, packages and subsystems which are strongly coupled by cyclical relationships and more. The Sotograph product family runs on Windows and Linux. 
 - [SourceMeter](https://www.sourcemeter.com/) :copyright: - Static Code Analysis for C/C++, Java, C#, Python, and RPG III and RPG IV versions (including free-form).
 - [standard](http://standardjs.com) - An npm module that checks for Javascript Styleguide issues.
 - [Super-Linter](https://github.com/github/super-linter) - Combination of multiple linters to install as a GitHub Action.
