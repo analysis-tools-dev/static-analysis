@@ -1,0 +1,12 @@
+name: goone
+categories:
+  - linter
+tags:
+  - go
+  - sql
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/masibw/goone'
+homepage: 'https://github.com/masibw/goone'
+description: 'Finds N+1 queries (SQL calls in a for loop) in go code'
