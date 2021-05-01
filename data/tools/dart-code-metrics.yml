@@ -1,0 +1,11 @@
+name: Dart Code Metrics
+categories:
+  - linter
+tags:
+  - dart
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/dart-code-checker/dart-code-metrics'
+homepage: 'https://pub.dev/packages/dart_code_metrics'
+description: Additional linter for Dart. Reports code metrics, checks for anti-patterns and provides additional rules for Dart analyzer.
