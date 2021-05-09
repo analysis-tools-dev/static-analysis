@@ -78,6 +78,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
     <li><a href="#nim">Nim</a></li>
     <li><a href="#ocaml">Ocaml</a></li>
     <li><a href="#php">PHP</a></li>
+    <li><a href="#plsql">PL/SQL</a></li>
     <li><a href="#perl">Perl</a></li>
     <li><a href="#python">Python</a></li>
     <li><a href="#r">R</a></li>
@@ -499,6 +500,11 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [Tuli](https://github.com/ircmaxell/Tuli) - A static analysis engine.
 - [twig-lint](https://github.com/asm89/twig-lint) - twig-lint is a lint tool for your twig files.
 - [WAP](https://securityonline.info/owasp-wap-web-application-protection-project) - Tool to detect and correct input validation vulnerabilities in PHP (4.0 or higher) web applications and predicts false positives by combining static analysis and data mining.
+
+
+<h2 id="plsql">PL/SQL</h2>
+
+- [ZPA](https://felipezorzo.com.br/zpa/) - Z PL/SQL Analyzer (ZPA) is an extensible code analyzer for PL/SQL and Oracle SQL. It can be integrated with SonarQube.
 
 
 <h2 id="perl">Perl</h2>
