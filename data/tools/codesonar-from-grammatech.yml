@@ -11,5 +11,5 @@ types:
   - cli
 homepage: 'https://www.grammatech.com/products/codesonar'
 description: >-
-  Advanced, whole program, deep path, static analysis of C and C++ with
+  Advanced, whole program, deep path, static analysis of C, C++, Java and C# with
   easy-to-understand explanations and code and path visualization.
