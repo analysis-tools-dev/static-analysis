@@ -559,7 +559,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [cane](https://github.com/square/cane) :warning: - Code quality threshold checking as part of your build.
 - [Fasterer](https://github.com/DamirSvrtan/fasterer) - Common Ruby idioms checker.
 - [flay](https://ruby.sadi.st/Flay.html) :warning: - Flay analyzes code for structural similarities.
-- [flog](https://ruby.sadi.st/Flog.html) :warning: - Flog reports the most tortured code in an easy to read pain report. The higher the score, the more pain the code is in.
+- [flog](https://ruby.sadi.st/Flog.html) - Flog reports the most tortured code in an easy to read pain report. The higher the score, the more pain the code is in.
 - [laser](https://github.com/michaeledgar/laser) :warning: - Static analysis and style linter for Ruby code.
 - [pelusa](https://github.com/codegram/pelusa) - Static analysis Lint-type tool to improve your OO Ruby code.
 - [Querly](https://github.com/soutaro/querly) - Pattern Based Checking Tool for Ruby.
@@ -1047,7 +1047,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 - [languagetool](https://languagetool.org) - Style and grammar checker for 25+ languages. It finds many errors that a simple spell checker cannot detect.
 - [misspell-fixer](https://github.com/vlajos/misspell-fixer) - Quick tool for fixing common misspellings, typos in source code.
 - [Misspelled Words In Context](http://jwilk.net/software/mwic) - A spell-checker that groups possible misspellings and shows them in their contexts.
-- [proselint](http://proselint.com) :warning: - A linter for English prose with a focus on writing style instead of grammar.
+- [proselint](http://proselint.com) - A linter for English prose with a focus on writing style instead of grammar.
 - [vale](https://docs.errata.ai/vale/about) - A syntax-aware linter for prose built with speed and extensibility in mind.
 - [write-good](https://github.com/btford/write-good) - A linter with a focus on eliminating "weasel words".
 
