@@ -1,0 +1,30 @@
+name: lizard
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - java
+  - csharp
+  - javascript
+  - typescript
+  - objectivec
+  - swift
+  - python
+  - ruby
+  - php
+  - scala
+  - go
+  - lua
+  - rust
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/terryyin/lizard'
+homepage: 'https://github.com/terryyin/lizard'
+description: >-
+  Lizard is an extensible Cyclomatic Complexity Analyzer for many programming languages 
+  including C/C++ (doesn't require all the header files or Java imports). 
+  It also does copy-paste detection (code clone detection/code duplicate detection)
+  and many other forms of static code analysis.
+  Counts lines of code without comments, CCN (cyclomatic complexity number), token count of functions, parameter count of functions.
