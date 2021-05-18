@@ -1,0 +1,14 @@
+name: SearchDiggity
+categories:
+  - linter
+tags:
+  - security
+license: proprietary
+types:
+  - cli 
+homepage: 'https://resources.bishopfox.com/resources/tools/google-hacking-diggity/attack-tools/'
+description: >-
+  Identifies vulnerabilities in open source code projects 
+  hosted on Github, Google Code, MS CodePlex, SourceForge, and more. 
+  The tool comes with over 130 default searches that identify SQL injection, 
+  cross-site scripting (XSS), insecure remote and local file includes, hard-coded passwords, etc. 
