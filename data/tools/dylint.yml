@@ -1,0 +1,13 @@
+name: dylint
+categories:
+  - linter
+tags:
+  - rust
+license: MIT License / Apache 2.0 license
+types:
+  - cli
+source: 'https://github.com/trailofbits/dylint'
+homepage: 'https://www.trailofbits.com/post/write-rust-lints-without-forking-clippy'
+description: >-
+  A tool for running Rust lints from dynamic libraries.
+  Dylint makes it easy for developers to maintain their own personal lint collections.
