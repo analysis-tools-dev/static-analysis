@@ -588,6 +588,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [cargo-inspect](https://github.com/mre/cargo-inspect) - Inspect Rust code without syntactic sugar to see what the compiler does behind the curtains.
 - [cargo-spellcheck](https://github.com/drahnr/cargo-spellcheck) - Checks all your documentation for spelling and grammar mistakes  with hunspell (ready) and languagetool (preview)
 - [clippy](https://rust-lang.github.io/rust-clippy) - A code linter to catch common mistakes and improve your Rust code.
+- [dylint](https://www.trailofbits.com/post/write-rust-lints-without-forking-clippy) - A tool for running Rust lints from dynamic libraries. Dylint makes it easy for developers to maintain their own personal lint collections.
 - [electrolysis](http://kha.github.io/electrolysis) :warning: - A tool for formally verifying Rust programs by transpiling them into definitions in the Lean theorem prover.
 - [herbie](https://github.com/mcarton/rust-herbie-lint) :warning: - Adds warnings or errors to your crate when using a numerically unstable floating point expression.
 - [linter-rust](https://github.com/AtomLinter/linter-rust) :warning: - Linting your Rust-files in Atom, using rustc and cargo.
