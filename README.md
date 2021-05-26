@@ -558,7 +558,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 
 - [cane](https://github.com/square/cane) :warning: - Code quality threshold checking as part of your build.
 - [Fasterer](https://github.com/DamirSvrtan/fasterer) - Common Ruby idioms checker.
-- [flay](https://ruby.sadi.st/Flay.html) :warning: - Flay analyzes code for structural similarities.
+- [flay](https://ruby.sadi.st/Flay.html) - Flay analyzes code for structural similarities.
 - [flog](https://ruby.sadi.st/Flog.html) - Flog reports the most tortured code in an easy to read pain report. The higher the score, the more pain the code is in.
 - [laser](https://github.com/michaeledgar/laser) :warning: - Static analysis and style linter for Ruby code.
 - [pelusa](https://github.com/codegram/pelusa) - Static analysis Lint-type tool to improve your OO Ruby code.
@@ -748,7 +748,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [Pronto](https://github.com/prontolabs/pronto) - Quick automated code review of your changes. Supports more than 40 runners for various languages, including Clang, Elixir, JavaScript, PHP, Ruby and more.
 - [prospector](https://github.com/PyCQA/prospector) - A wrapper around `pylint`, `pep8`, `mccabe` and others.
 - [PT.PM](https://github.com/PositiveTechnologies/PT.PM) - An engine for searching patterns in the source code, based on Unified AST or UST. At present time C#, Java, PHP, PL/SQL, T-SQL, and JavaScript are supported. Patterns can be described within the code or using a DSL.
-- [PVS-Studio](https://pvs-studio.com) :copyright: - A ([conditionally free](https://www.viva64.com/en/b/0614/) for FOSS and individual developers) static analysis of C, C++, C# and Java code. For advertising purposes [you can propose a large FOSS project for analysis by PVS employees](https://github.com/viva64/pvs-studio-check-list). Supports CWE mapping, MISRA and CERT coding standards.
+- [PVS-Studio](https://pvs-studio.com) :copyright: - A ([conditionally free](https://pvs-studio.com/en/order/open-source-license) for FOSS and individual developers) static analysis of C, C++, C# and Java code. For advertising purposes [you can propose a large FOSS project for analysis by PVS employees](https://github.com/viva64/pvs-studio-check-list). Supports CWE mapping, MISRA and CERT coding standards.
 - [pylama](https://pylama.readthedocs.io/en/latest/) - Code audit tool for Python and JavaScript. Wraps pycodestyle, pydocstyle, PyFlakes, Mccabe, Pylint, and more
 - [quality](https://github.com/apiology/quality) - Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time.
 - [QuantifiedCode](https://github.com/quantifiedcode/quantifiedcode) :warning: - Automated code review & repair. It helps you to keep track of issues and metrics in your software projects, and can be easily extended to support new types of analyses.
