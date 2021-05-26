@@ -1,0 +1,13 @@
+name: typos
+categories:
+  - linter
+tags:
+  - writing
+license: Apache License
+types:
+  - cli
+source: 'https://github.com/crate-ci/typos'
+homepage: 'https://github.com/crate-ci/typos'
+description: >-
+  Finds and corrects spelling mistakes in source code.
+  Fast enough to run on monorepos and low false positives so you can run on PRs.
