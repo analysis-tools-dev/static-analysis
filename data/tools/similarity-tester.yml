@@ -1,0 +1,17 @@
+name: Similarity Tester 
+tags:
+  - asm
+  - c
+  - cpp
+  - java
+  - miranda
+  - modula-2
+  - pascal
+  - lisp
+categories:
+  - linter
+license: BSD 3-Clause Revised License
+types:
+  - service
+homepage: 'https://dickgrune.com/Programs/similarity_tester/'
+description: A tool that finds similarities between or within files to support you encountering DRY principle violations.
