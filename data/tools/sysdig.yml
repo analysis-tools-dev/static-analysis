@@ -1,0 +1,16 @@
+name: sysdig
+categories:
+  - linter
+tags:
+  - container
+types:
+  - service
+license: proprietary
+homepage: 'https://sysdig.com/'
+description: >-
+  A secure DevOps platform for cloud and container forensics.
+  Built on an open source stack, Sysdig provides Docker image scanning and
+  created Falco, the open standard for runtime threat detection for containers, Kubernetes and cloud. 
+resources:
+  - title: "Run confidently with secure DevOps"
+    url: "https://www.youtube.com/watch?v=KXfZWprVr0w"
