@@ -1,0 +1,13 @@
+name: Vuls
+categories:
+  - linter
+tags:
+  - container
+license: AGPL-3.0 License 
+types:
+  - cli
+source: 'https://github.com/future-architect/vuls'
+homepage: 'https://vuls.io/'
+description: >-
+  Agent-less Linux vulnerability scanner based on information from NVD, OVAL, etc. 
+  It has some container image support, although is not a container specific tool.
