@@ -1,0 +1,14 @@
+name: OpenSCAP
+categories:
+  - linter
+tags:
+  - container
+license: LGPL-2.1 License 
+types:
+  - cli 
+source: 'https://github.com/OpenSCAP/openscap'
+homepage: 'https://www.open-scap.org/'
+description: >-
+  Suite of automated audit tools to examine the configuration and 
+  known vulnerabilities following the NIST-certified Security 
+  Content Automation Protocol (SCAP).
