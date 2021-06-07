@@ -8,4 +8,7 @@ types:
   - cli
 source: 'https://github.com/anchore/anchore-engine'
 homepage: 'https://anchore.io'
-description: 'Discover, analyze, and certify container images.'
+description: >-
+  Discover, analyze, and certify container images.
+  A service that analyzes Docker images and applies user-defined acceptance policies 
+  to allow automated container image validation and certification 
