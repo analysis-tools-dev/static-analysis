@@ -5,6 +5,7 @@ tags:
   - container
 types:
   - service
+license: proprietary
 homepage: 'https://sysdig.com/'
 description: >-
   A secure DevOps platform for cloud and container forensics.
