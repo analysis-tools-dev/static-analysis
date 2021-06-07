@@ -187,6 +187,9 @@
 - name: Lightning Web Components
   tag: lwc
   type: language
+- name: Lisp
+  tag: lisp
+  type: language
 - name: Lua
   tag: lua
   type: language
