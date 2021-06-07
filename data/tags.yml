@@ -202,9 +202,15 @@
 - name: Metalinter
   tag: meta
   type: other
+- name: Miranda
+  tag: miranda
+  type: language
 - name: Mobile
   tag: mobile
   type: other
+- name: Modula-2
+  tag: modula-2
+  type: language
 - name: More collections
   tag: collection
   type: other
@@ -226,6 +232,9 @@
 - name: Packages
   tag: package
   type: other
+- name: Pascal
+  tag: pascal
+  type: language
 - name: Perl
   tag: perl
   type: language
