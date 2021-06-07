@@ -1,17 +1,14 @@
-
-
-name: Similarity Tester
-  
+name: Similarity Tester 
 tags:
   - c
   - cpp
-  - miranda
   - java
   - pascal
   - lisp
   - assembler
-  - modula-2
-license: unknown
+categories:
+  - linter
+license: BSD 3-Clause Revised License
 types:
   - service
 homepage: 'https://dickgrune.com/Programs/similarity_tester/'
