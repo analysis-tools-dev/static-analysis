@@ -34,4 +34,6 @@ description: >-
   A fast, open-source, static analysis tool
   for finding bugs and enforcing code standards
   at editor, commit, and CI time.
+  Its rules look like the code you already write; 
+  no abstract syntax trees or regex wrestling.
   Supports 17+ languages.
