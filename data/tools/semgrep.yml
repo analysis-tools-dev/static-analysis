@@ -3,15 +3,35 @@ categories:
   - linter
 tags:
   - c
+  - ci
+  - configmanagement
+  - csharp
+  - dockerfile
   - go
+  - ide
   - java
   - javascript
+  - json
+  - jsx
+  - kubernetes
+  - nodejs
+  - ocaml
+  - php
   - python
+  - rails
+  - ruby
+  - security
+  - terraform
+  - typescript
+  - yaml
 license: GNU Lesser General Public License v2.1
 types:
   - cli
+  - service
 source: 'https://github.com/returntocorp/semgrep'
-homepage: 'https://semgrep.live'
+homepage: 'https://semgrep.dev'
 description: >-
-  Free, open-source lightweight static analysis for many languages. Find and
-  block bug variants with patterns that look like source code.
+  A fast, open-source, static analysis tool
+  for finding bugs and enforcing code standards
+  at editor, commit, and CI time.
+  Supports 17+ languages.
