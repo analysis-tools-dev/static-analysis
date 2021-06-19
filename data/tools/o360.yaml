@@ -1,0 +1,33 @@
+name: Checkmarx CxSAST
+categories:
+  - linter
+tags:
+  - asp
+  - csharp
+  - html
+  - java
+  - javascript
+  - mobile
+  - nodejs
+  - phonegap
+  - php
+  - security
+  - vbasic
+  - vbnet
+  - vbscript
+  - DLL
+  - Docker configurations 
+  - Malware analysis
+  - Licence analysis
+  - dependencies analysis
+  - .net , .net core
+  - React
+  - Angular
+  - TypeScript
+  - XML files
+  - JSX
+license: proprietary
+types:
+  - web
+homepage: 'https://offensive360.com/'
+description: Commercial Static Code Analysis system doesn't require building the source code or pre-compilation.
