@@ -15,17 +15,11 @@ tags:
   - vbasic
   - vbnet
   - vbscript
-  - DLL
-  - Docker configurations 
-  - Malware analysis
-  - Licence analysis
-  - dependencies analysis
-  - .net , .net core
-  - React
-  - Angular
-  - TypeScript
-  - XML files
-  - JSX
+  - container
+  - dotnet
+  - typescript
+  - xml
+  - jsx
 license: proprietary
 types:
   - web
