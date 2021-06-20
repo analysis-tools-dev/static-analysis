@@ -740,6 +740,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [NodeJSScan](https://opensecurity.in) - A static security code scanner for Node.js applications powered by libsast and semgrep that builds on the njsscan cli tool. It features a UI with various dashboards about an application's security status.
 - [oclint](http://oclint.org) - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C.
 - [ocular](https://www.shiftleft.io/ocular/) :copyright: - Enables code auditors and security teams to interactively investigate their unique code bases  to find business logic flaws and technical vulnerabilities that traditional SASTs cannot. This is done by enabling the analyst to write their own custom queries. Can find hard-coded secrets, authentication issues, and malicious code like rootkits and backdoors.
+- [Offensive 360](https://offensive360.com/) :copyright: - Commercial Static Code Analysis system doesn't require building the source code or pre-compilation.
 - [parasoft](https://www.parasoft.com/) :copyright: - Automated Software Testing Solutions for unit-, API-, and web UI testing. Complies with MISRA, OWASP, and others.
 - [pfff](https://github.com/facebookarchive/pfff/wiki/Main) - Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages.
 - [PMD](https://pmd.github.io) - A source code analyzer for Java, Salesforce Apex, Javascript, PLSQL, XML, XSL and others.
