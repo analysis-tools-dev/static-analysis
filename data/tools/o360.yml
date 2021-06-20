@@ -1,0 +1,27 @@
+name: Offensive 360
+categories:
+  - linter
+tags:
+  - asp
+  - csharp
+  - html
+  - java
+  - javascript
+  - mobile
+  - nodejs
+  - phonegap
+  - php
+  - security
+  - vbasic
+  - vbnet
+  - vbscript
+  - container
+  - dotnet
+  - typescript
+  - xml
+  - jsx
+license: proprietary
+types:
+  - web
+homepage: 'https://offensive360.com/'
+description: Commercial Static Code Analysis system doesn't require building the source code or pre-compilation.
