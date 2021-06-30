@@ -170,7 +170,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [CppDepend](https://www.cppdepend.com) :warning: :copyright: - Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.
 - [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) - Automated C++ checker that follows Google's style guide.
 - [cqmetrics](https://github.com/dspinellis/cqmetrics) - Quality metrics for C code.
-- [CScout](https://www.spinellis.gr/cscout) - Complexity and quality metrics for for C and C preprocessor code.
+- [CScout](https://www.spinellis.gr/cscout) :warning: - Complexity and quality metrics for for C and C preprocessor code.
 - [ESBMC](http://esbmc.org) - ESBMC is an open source, permissively licensed, context-bounded model checker based on satisfiability modulo theories for the verification of single- and multi-threaded C/C++ programs.
 - [flawfinder](http://dwheeler.com/flawfinder/) - Finds possible security weaknesses.
 - [flint++](https://github.com/JossWhittle/FlintPlusPlus) - Cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.
@@ -217,7 +217,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [CppDepend](https://www.cppdepend.com) :warning: :copyright: - Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.
 - [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) - Automated C++ checker that follows Google's style guide.
 - [cqmetrics](https://github.com/dspinellis/cqmetrics) - Quality metrics for C code.
-- [CScout](https://www.spinellis.gr/cscout) - Complexity and quality metrics for for C and C preprocessor code.
+- [CScout](https://www.spinellis.gr/cscout) :warning: - Complexity and quality metrics for for C and C preprocessor code.
 - [ESBMC](http://esbmc.org) - ESBMC is an open source, permissively licensed, context-bounded model checker based on satisfiability modulo theories for the verification of single- and multi-threaded C/C++ programs.
 - [flawfinder](http://dwheeler.com/flawfinder/) - Finds possible security weaknesses.
 - [flint++](https://github.com/JossWhittle/FlintPlusPlus) - Cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.
@@ -372,7 +372,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [checkstyle](https://checkstyle.org) - Checking Java source code for adherence to a Code Standard or set of validation rules (best practices).
 - [ck](https://github.com/mauricioaniche/ck) - Calculates Chidamber and Kemerer object-oriented metrics by processing the source Java files.
 - [ckjm](http://www.spinellis.gr/sw/ckjm) - Calculates Chidamber and Kemerer object-oriented metrics by processing the bytecode of compiled Java files.
-- [CogniCrypt](https://www.eclipse.org/cognicrypt) - Checks Java source and byte code for incorrect uses of cryptographic APIs.
+- [CogniCrypt](https://www.eclipse.org/cognicrypt) :warning: - Checks Java source and byte code for incorrect uses of cryptographic APIs.
 - [DesigniteJava](http://www.designite-tools.com/designitejava) :copyright: - DesigniteJava supports detection of various architecture, design, and implementation smells along with computation of various code quality metrics.
 - [Doop](https://bitbucket.org/yanniss/doop) - Doop is a declarative framework for static analysis of Java/Android programs, centered on pointer analysis algorithms. Doop provides a large variety of analyses and also the surrounding scaffolding to run an analysis end-to-end (fact generation, processing, statistics, etc.).
 - [Error-prone](https://errorprone.info) - Catch common Java mistakes as compile-time errors.
@@ -550,7 +550,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 <h2 id="r">R</h2>
 
 - [cyclocomp](https://github.com/MangoTheCat/cyclocomp) :warning: - Quantifies the cyclomatic complexity of R functions / expressions.
-- [goodpractice](http://mangothecat.github.io/goodpractice) :warning: - Analyses the source code for R packages and provides best-practice recommendations.
+- [goodpractice](http://mangothecat.github.io/goodpractice) - Analyses the source code for R packages and provides best-practice recommendations.
 - [lintr](https://github.com/jimhester/lintr) - Static Code Analysis for R.
 - [styler](https://styler.r-lib.org) - Formatting of R source code files and pretty-printing of R code.
 
