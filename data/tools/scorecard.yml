@@ -1,0 +1,12 @@
+name: scorecard
+categories:
+  - linter
+tags:
+  - security
+license: Apache-2.0 License
+types:
+  - cli
+source: 'https://github.com/ossf/scorecard'
+homepage: 'https://github.com/ossf/scorecard'
+description: >-
+  Security Scorecards - Security health metrics for Open Source
