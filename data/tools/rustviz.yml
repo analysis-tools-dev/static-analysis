@@ -1,0 +1,16 @@
+name: RustViz
+categories:
+  - linter
+tags:
+  - rust
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/rustviz/rustviz'
+homepage: 'https://github.com/rustviz/rustviz'
+description: >-
+  RustViz is a tool that generates visualizations 
+  from simple Rust programs to assist users in better 
+  understanding the Rust Lifetime and Borrowing mechanism.
+  It generates SVG files with graphical indicators that integrate 
+  with mdbook to render visualizations of data-flow in Rust programs.
