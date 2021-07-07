@@ -410,7 +410,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [retire.js](http://retirejs.github.io/retire.js) - Scanner detecting the use of JavaScript libraries with known vulnerabilities.
 - [RSLint](http://rslint.org/) - A (WIP) JavaScript linter written in Rust designed to be as fast as possible, customizable, and easy to use.
 - [tern](https://ternjs.net) - A JavaScript code analyzer for deep, cross-editor language support.
-- [TypL](https://typl.dev) - With TypL, you just write completely standard JS, and the tool figures out your types via powerful inferencing.
+- [TypL](https://typl.dev) :warning: - With TypL, you just write completely standard JS, and the tool figures out your types via powerful inferencing.
 - [xo](https://github.com/xojs/xo) - Opinionated but configurable ESLint wrapper with lots of goodies included. Enforces strict and readable code.
 - [yardstick](https://github.com/calmh/yardstick) :warning: - Javascript code metrics.
 
@@ -549,7 +549,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 
 <h2 id="r">R</h2>
 
-- [cyclocomp](https://github.com/MangoTheCat/cyclocomp) :warning: - Quantifies the cyclomatic complexity of R functions / expressions.
+- [cyclocomp](https://github.com/MangoTheCat/cyclocomp) - Quantifies the cyclomatic complexity of R functions / expressions.
 - [goodpractice](http://mangothecat.github.io/goodpractice) - Analyses the source code for R packages and provides best-practice recommendations.
 - [lintr](https://github.com/jimhester/lintr) - Static Code Analysis for R.
 - [styler](https://styler.r-lib.org) - Formatting of R source code files and pretty-printing of R code.
@@ -606,6 +606,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 
 <h2 id="sql">SQL</h2>
 
+- [dbcritic](https://github.com/channable/dbcritic) - dbcritic finds problems in a database schema, such as a missing primary key constraint in a table.
 - [sqlcheck](https://github.com/jarulraj/sqlcheck) - Automatically identify anti-patterns in SQL queries.
 - [SQLFluff](https://www.sqlfluff.com/) - Multiple dialect SQL linter and formatter.
 - [sqlint](https://github.com/purcell/sqlint) - Simple SQL linter.
