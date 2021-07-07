@@ -1,0 +1,14 @@
+
+name: prae
+categories:
+  - linter
+tags:
+  - rust
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/teenjuna/prae'
+homepage: 'https://github.com/teenjuna/prae'
+description: >-
+   Provides a convenient macro that allows you to generate type wrappers 
+   that promise to always uphold arbitrary invariants that you specified. 
