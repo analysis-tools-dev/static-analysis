@@ -1,0 +1,13 @@
+name: dbcritic
+categories:
+  - linter
+tags:
+  - sql
+license: BSD-3-Clause License 
+types:
+  - cli
+source: 'https://github.com/channable/dbcritic'
+homepage: 'https://github.com/channable/dbcritic'
+description: >-
+  dbcritic finds problems in a database schema, such as
+  a missing primary key constraint in a table.
