@@ -1,0 +1,11 @@
+name: actionlint
+categories:
+  - linter
+tags:
+  - ci
+license: MIT License
+types:
+  - cli 
+source: 'https://github.com/rhysd/actionlint'
+homepage: 'https://rhysd.github.io/actionlint'
+description: 'Static checker for GitHub Actions workflow files. Provides an online version.'
