@@ -7,7 +7,7 @@ license: MIT License
 types:
   - cli
 source: 'https://github.com/nunomaduro/larastan'
-homepage: 'hhttps://github.com/nunomaduro/larastan'
+homepage: 'https://github.com/nunomaduro/larastan'
 description:  >-
   Adds static analysis to Laravel improving developer productivity and code quality.
   It is a wrapper around PHPStan.
