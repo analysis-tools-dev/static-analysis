@@ -1,0 +1,14 @@
+name: Datree
+categories:
+  - linter
+tags:
+  - configmanagement
+  - container
+  - kubernetes
+  - security
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/datreeio/datree'
+homepage: 'https://datree.io/'
+description: 'A CLI tool to prevent Kubernetes misconfigurations by ensuring that manifests and Helm charts follow best practices as well as your organization’s policies'
