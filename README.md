@@ -169,7 +169,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [cppcheck](http://cppcheck.sourceforge.net) - Static analysis of C/C++ code.
 - [CppDepend](https://www.cppdepend.com) :warning: :copyright: - Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.
 - [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) - Automated C++ checker that follows Google's style guide.
-- [cqmetrics](https://github.com/dspinellis/cqmetrics) - Quality metrics for C code.
+- [cqmetrics](https://github.com/dspinellis/cqmetrics) :warning: - Quality metrics for C code.
 - [CScout](https://www.spinellis.gr/cscout) :warning: - Complexity and quality metrics for for C and C preprocessor code.
 - [ESBMC](http://esbmc.org) - ESBMC is an open source, permissively licensed, context-bounded model checker based on satisfiability modulo theories for the verification of single- and multi-threaded C/C++ programs.
 - [flawfinder](http://dwheeler.com/flawfinder/) - Finds possible security weaknesses.
@@ -216,7 +216,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [cppcheck](http://cppcheck.sourceforge.net) - Static analysis of C/C++ code.
 - [CppDepend](https://www.cppdepend.com) :warning: :copyright: - Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.
 - [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) - Automated C++ checker that follows Google's style guide.
-- [cqmetrics](https://github.com/dspinellis/cqmetrics) - Quality metrics for C code.
+- [cqmetrics](https://github.com/dspinellis/cqmetrics) :warning: - Quality metrics for C code.
 - [CScout](https://www.spinellis.gr/cscout) :warning: - Complexity and quality metrics for for C and C preprocessor code.
 - [ESBMC](http://esbmc.org) - ESBMC is an open source, permissively licensed, context-bounded model checker based on satisfiability modulo theories for the verification of single- and multi-threaded C/C++ programs.
 - [flawfinder](http://dwheeler.com/flawfinder/) - Finds possible security weaknesses.
@@ -738,7 +738,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [Mega-Linter](https://nvuillam.github.io/mega-linter/) - Mega-Linter can handle any type of project thanks to its 70+ embedded Linters,
  its advanced reporting, runnable on any CI system or locally,
  with assisted installation and configuration, able to apply formatting and fixes
-- [multilint](https://github.com/adamchainz/multilint) - A wrapper around `flake8`, `isort` and `modernize`.
+- [multilint](https://github.com/adamchainz/multilint) :warning: - A wrapper around `flake8`, `isort` and `modernize`.
 - [Nitpick CI](https://nitpick-ci.com) :copyright: - Automated PHP code review.
 - [NodeJSScan](https://opensecurity.in) - A static security code scanner for Node.js applications powered by libsast and semgrep that builds on the njsscan cli tool. It features a UI with various dashboards about an application's security status.
 - [oclint](http://oclint.org) - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C.
@@ -855,7 +855,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 - [PostCSS](https://postcss.org) - A tool for transforming styles with JS plugins. These plugins can lint your CSS, support variables and mixins, transpile future CSS syntax, inline images, and more.
 - [Project Wallace CSS Analyzer](https://www.projectwallace.com) - Analytics for CSS, part of [Project Wallace](https://www.projectwallace.com).
 - [sass-lint](https://github.com/sasstools/sass-lint) :warning: - A Node-only Sass linter for both sass and scss syntax.
-- [scsslint](https://github.com/brigade/scss-lint) - Linter for SCSS files.
+- [scsslint](https://github.com/brigade/scss-lint) :warning: - Linter for SCSS files.
 - [Specificity Graph](https://jonassebastianohlsson.com/specificity-graph) - CSS Specificity Graph Generator.
 - [Stylelint](http://stylelint.io) - Linter for SCSS/CSS files.
 
@@ -876,6 +876,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 - [cfn_nag](https://github.com/stelligent/cfn_nag) - A linter for AWS CloudFormation templates.
 - [checkov](https://www.checkov.io) - Static analysis tool for Terraform files (tf>=v0.12), preventing cloud misconfigs at build time.
 - [cookstyle](https://docs.chef.io/cookstyle.html) - Cookstyle is a linting tool based on the RuboCop Ruby linting tool for Chef cookbooks.
+- [Datree](https://datree.io/) - A CLI tool to prevent Kubernetes misconfigurations by ensuring that manifests and Helm charts follow best practices as well as your organization’s policies
 - [foodcritic](http://www.foodcritic.io) - A lint tool that checks Chef cookbooks for common problems.
 - [kics](https://kics.io/) - Find security vulnerabilities, compliance issues, and infrastructure misconfigurations in your infrastructure-as-code. Supports Terraform, Kubernetes, Docker, AWS CloudFormation and Ansible
 - [Puppet Lint](https://github.com/rodjek/puppet-lint) - Check that your Puppet manifests conform to the style guide.
@@ -891,6 +892,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 - [clair](https://github.com/coreos/clair) - Vulnerability Static Analysis for Containers.
 - [collector](https://github.com/banyanops/collector) :warning: - Run arbitrary scripts inside containers, and gather useful information.
 - [dagda](https://github.com/eliasgranderubio/dagda) - Perform static analysis of known vulnerabilities in docker images/containers.
+- [Datree](https://datree.io/) - A CLI tool to prevent Kubernetes misconfigurations by ensuring that manifests and Helm charts follow best practices as well as your organization’s policies
 - [Docker Label Inspector](https://github.com/garethr/docker-label-inspector) :warning: - Lint and validate Dockerfile labels.
 - [Haskell Dockerfile Linter](https://github.com/lukasmartinelli/hadolint) - A smarter Dockerfile linter that helps you build best practice Docker images.
 - [kics](https://kics.io/) - Find security vulnerabilities, compliance issues, and infrastructure misconfigurations in your infrastructure-as-code. Supports Terraform, Kubernetes, Docker, AWS CloudFormation and Ansible
@@ -939,6 +941,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 <h2 id="kubernetes">Kubernetes</h2>
 
+- [Datree](https://datree.io/) - A CLI tool to prevent Kubernetes misconfigurations by ensuring that manifests and Helm charts follow best practices as well as your organization’s policies
 - [kics](https://kics.io/) - Find security vulnerabilities, compliance issues, and infrastructure misconfigurations in your infrastructure-as-code. Supports Terraform, Kubernetes, Docker, AWS CloudFormation and Ansible
 
 
@@ -996,6 +999,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 - [Attackflow Extension](https://www.attackflow.com/Extension) :copyright: - Attackflow plugin for Visual Studio, which enables developers to find critical security bugs at real time in the source code without any prior knowledge.
 - [AzSK](https://azsk.azurewebsites.net/) - Secure DevOps kit for Azure (AzSK) provides security IntelliSense, Security Verification Tests (SVTs), CICD scan vulnerabilities, compliance issues, and infrastructure misconfiguration in your infrastructure-as-code. Supports Azure via ARM.
+- [Datree](https://datree.io/) - A CLI tool to prevent Kubernetes misconfigurations by ensuring that manifests and Helm charts follow best practices as well as your organization’s policies
 - [Gitleaks](https://github.com/zricethezav/gitleaks) - A SAST tool for detecting hardcoded secrets like passwords, api keys, and tokens in git repos.
 - [iblessing](https://www.kitploit.com/2020/08/iblessing-ios-security-exploiting.html) - iblessing is an iOS security exploiting toolkit. It can be used for reverse engineering, binary analysis and vulnerability mining.
 - [kics](https://kics.io/) - Find security vulnerabilities, compliance issues, and infrastructure misconfigurations in your infrastructure-as-code. Supports Terraform, Kubernetes, Docker, AWS CloudFormation and Ansible
