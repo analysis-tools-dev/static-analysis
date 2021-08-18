@@ -2,7 +2,7 @@ name: gokart
 categories:
   - linter
 tags:
-  - golang
+  - go
   - security
 license: Apache-2.0 License 
 types:
