@@ -1,0 +1,15 @@
+name: gokart
+categories:
+  - linter
+tags:
+  - go
+  - security
+license: Apache-2.0 License 
+types:
+  - cli
+source: 'https://github.com/praetorian-inc/gokart'
+homepage: 'https://github.com/praetorian-inc/gokart'
+description: >- 
+  Golang security analysis with a focus on minimizing false positives.
+  It is capable of tracing the source of variables and function arguments 
+  to determine whether input sources are safe.
