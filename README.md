@@ -342,7 +342,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [staticcheck](https://staticcheck.io) - Go static analysis that specialises in finding bugs, simplifying code and improving performance.
 - [structcheck](https://gitlab.com/opennota/check) - Find unused struct fields.
 - [test](http://golang.org/pkg/testing) - Show location of test failures from the stdlib testing module.
-- [unconvert](https://github.com/mdempsky/unconvert) :warning: - Detect redundant type conversions.
+- [unconvert](https://github.com/mdempsky/unconvert) - Detect redundant type conversions.
 - [unparam](https://github.com/mvdan/unparam) - Find unused function parameters.
 - [varcheck](https://gitlab.com/opennota/check) - Find unused global variables and constants.
 - [wsl](https://github.com/bombsimon/wsl) - Enforces empty lines at the right places.
@@ -385,7 +385,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [JBMC](https://www.cprover.org/jbmc) - Bounded model-checker for Java (bytecode), verifies user-defined assertions, standard assertions, several coverage metric analyses.
 - [NullAway](https://github.com/uber/NullAway) - Type-based null-pointer checker with low build-time overhead; an [Error Prone](http://errorprone.info/) plugin.
 - [OWASP Dependency Check](https://owasp.org/www-project-dependency-check) - Checks dependencies for known, publicly disclosed, vulnerabilities.
-- [qulice](https://www.qulice.com) :warning: - Combines a few (pre-configured) static analysis tools (checkstyle, PMD, Findbugs, ...).
+- [qulice](https://www.qulice.com) - Combines a few (pre-configured) static analysis tools (checkstyle, PMD, Findbugs, ...).
 - [Soot](https://soot-oss.github.io/soot) - A framework for analyzing and transforming Java and Android applications.
 - [Spoon](http://spoon.gforge.inria.fr) - Spoon is a metaprogramming library to analyze and transform Java source code (incl Java 9, 10, 11, 12, 13, 14). It parses source files to build a well-designed AST with powerful analysis and transformation API. Can be integrated in Maven and Gradle.
 - [SpotBugs](https://spotbugs.github.io) - SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code.
@@ -410,7 +410,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [retire.js](http://retirejs.github.io/retire.js) - Scanner detecting the use of JavaScript libraries with known vulnerabilities.
 - [RSLint](http://rslint.org/) - A (WIP) JavaScript linter written in Rust designed to be as fast as possible, customizable, and easy to use.
 - [tern](https://ternjs.net) - A JavaScript code analyzer for deep, cross-editor language support.
-- [TypL](https://typl.dev) :warning: - With TypL, you just write completely standard JS, and the tool figures out your types via powerful inferencing.
+- [TypL](https://typl.dev) - With TypL, you just write completely standard JS, and the tool figures out your types via powerful inferencing.
 - [xo](https://github.com/xojs/xo) - Opinionated but configurable ESLint wrapper with lots of goodies included. Enforces strict and readable code.
 - [yardstick](https://github.com/calmh/yardstick) :warning: - Javascript code metrics.
 
@@ -497,7 +497,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [PHPStan](https://phpstan.org) - PHP Static Analysis Tool - discover bugs in your code without running it!
 - [Progpilot](https://github.com/designsecurity/progpilot) - A static analysis tool for security purposes.
 - [Psalm](https://psalm.dev) - Static analysis tool for finding type errors in PHP applications.
-- [Qafoo Quality Analyzer](https://github.com/Qafoo/QualityAnalyzer) :warning: - Visualizes metrics and source code.
+- [Qafoo Quality Analyzer](https://github.com/Qafoo/QualityAnalyzer) - Visualizes metrics and source code.
 - [Tuli](https://github.com/ircmaxell/Tuli) - A static analysis engine.
 - [twig-lint](https://github.com/asm89/twig-lint) - twig-lint is a lint tool for your twig files.
 - [WAP](https://securityonline.info/owasp-wap-web-application-protection-project) - Tool to detect and correct input validation vulnerabilities in PHP (4.0 or higher) web applications and predicts false positives by combining static analysis and data mining.
@@ -564,7 +564,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [laser](https://github.com/michaeledgar/laser) :warning: - Static analysis and style linter for Ruby code.
 - [pelusa](https://github.com/codegram/pelusa) - Static analysis Lint-type tool to improve your OO Ruby code.
 - [Querly](https://github.com/soutaro/querly) - Pattern Based Checking Tool for Ruby.
-- [Railroader](https://railroader.org) :warning: - An open source static analysis security vulnerability scanner for Ruby on Rails applications.
+- [Railroader](https://railroader.org) - An open source static analysis security vulnerability scanner for Ruby on Rails applications.
 - [rails_best_practices](https://rails-bestpractices.com) - A code metric tool for Rails projects
 - [reek](https://github.com/troessner/reek) - Code smell detector for Ruby.
 - [RuboCop](https://docs.rubocop.org/rubocop) - A Ruby static code analyzer, based on the community Ruby style guide.
@@ -572,7 +572,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [ruby-lint](http://code.yorickpeterse.com/ruby-lint/latest) :warning: - Static code analysis for Ruby.
 - [rubycritic](https://github.com/whitesmith/rubycritic) - A Ruby code quality reporter.
 - [rufo](https://github.com/ruby-formatter/rufo) - An opinionated ruby formatter, intended to be used via the command line as a text-editor plugin, to autoformat files on save or on demand.
-- [Saikuro](https://metricfu.github.io/Saikuro) :warning: - A Ruby cyclomatic complexity analyzer.
+- [Saikuro](https://metricfu.github.io/Saikuro) - A Ruby cyclomatic complexity analyzer.
 - [SandiMeter](https://rubygems.org/gems/sandi_meter) :warning: - Static analysis tool for checking Ruby code for Sandi Metz' rules.
 - [Sorbet](https://sorbet.org) - A fast, powerful type checker designed for Ruby.
 - [Standard Ruby](https://github.com/testdouble/standard) - Ruby Style Guide, with linter & automatic code fixer
@@ -612,7 +612,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [SQLFluff](https://www.sqlfluff.com/) - Multiple dialect SQL linter and formatter.
 - [sqlint](https://github.com/purcell/sqlint) - Simple SQL linter.
 - [tsqllint](https://github.com/tsqllint/tsqllint) - T-SQL-specific linter.
-- [TSqlRules](https://github.com/ashleyglee/TSqlRules) :warning: - TSQL Static Code Analysis Rules for SQL Server.
+- [TSqlRules](https://github.com/ashleyglee/TSqlRules) - TSQL Static Code Analysis Rules for SQL Server.
 - [Visual Expert](https://www.visual-expert.com) :copyright: - Code analysis for PowerBuilder, Oracle, and SQL Server Explores, analyzes, and documents Code 
 
 
@@ -757,7 +757,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [pylama](https://pylama.readthedocs.io/en/latest/) - Code audit tool for Python and JavaScript. Wraps pycodestyle, pydocstyle, PyFlakes, Mccabe, Pylint, and more
 - [quality](https://github.com/apiology/quality) - Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time.
 - [QuantifiedCode](https://github.com/quantifiedcode/quantifiedcode) :warning: - Automated code review & repair. It helps you to keep track of issues and metrics in your software projects, and can be easily extended to support new types of analyses.
-- [Refactoring Essentials](https://marketplace.visualstudio.com/items?itemName=SharpDevelopTeam.RefactoringEssentialsforVisualStudio) :warning: - The free Visual Studio 2015 extension for C# and VB.NET refactorings, including code best practice analyzers.
+- [Refactoring Essentials](https://marketplace.visualstudio.com/items?itemName=SharpDevelopTeam.RefactoringEssentialsforVisualStudio) - The free Visual Studio 2015 extension for C# and VB.NET refactorings, including code best practice analyzers.
 - [relint](https://github.com/codingjoe/relint) - A static file linter that allows you to write custom rules using regular expressions (RegEx).
 - [ReSharper](https://www.jetbrains.com/resharper) :copyright: - Extends Visual Studio with on-the-fly code inspections for C#, VB.NET, ASP.NET, JavaScript, TypeScript and other technologies.
 - [Reshift](https://www.reshiftsecurity.com) :copyright: - A source code analysis tool for detecting and managing Java security vulnerabilities.
@@ -974,7 +974,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 - [iblessing](https://www.kitploit.com/2020/08/iblessing-ios-security-exploiting.html) - iblessing is an iOS security exploiting toolkit. It can be used for reverse engineering, binary analysis and vulnerability mining.
 - [Oversecured](https://oversecured.com) :copyright: - A mobile app vulnerability scanner, designed for security researchers and bug bounty hackers. It also allows integrations into the DevOps process for businesses.
 - [paprika](https://github.com/GeoffreyHecht/paprika) :warning: - A toolkit to detect some code smells in analyzed Android applications.
-- [qark](https://github.com/linkedin/qark) :warning: - Tool to look for several security related Android application vulnerabilities.
+- [qark](https://github.com/linkedin/qark) - Tool to look for several security related Android application vulnerabilities.
 - [redex](https://fbredex.com) - Redex provides a framework for reading, writing, and analyzing .dex files, and a set of optimization passes  that use this framework to improve the bytecode. An APK optimized by Redex should be smaller and faster.
 
 
