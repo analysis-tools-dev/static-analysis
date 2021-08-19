@@ -1,0 +1,16 @@
+name: shisho
+categories:
+  - linter
+tags:
+  - go
+  - terraform
+license: AGPL-3.0 
+types:
+  - cli
+  - service
+source: 'https://github.com/flatt-security/shisho'
+homepage: 'https://docs.shisho.dev/'
+description: >-
+  A lightweight static code analyzer designed for developers and security teams.
+  It allows you to analyze and transform source code with an intuitive DSL similar
+  to sed, but for code.
