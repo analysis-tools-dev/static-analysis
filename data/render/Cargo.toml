@@ -5,7 +5,7 @@ authors = ["Matthias Endler <matthias-endler@gmx.net>"]
 edition = "2018"
 
 [dependencies]
-serde = "1.0.127"
+serde = "1.0.128"
 serde_derive = "1.0.126"
 serde_yaml = "0.8.18"
 askama = "0.10.5"
