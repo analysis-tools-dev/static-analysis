@@ -7,7 +7,7 @@ license: MIT License
 types:
   - cli
 source: 'https://github.com/jwilk/mwic'
-homepage: 'http://jwilk.net/software/mwic'
+homepage: 'https://jwilk.net/software/mwic'
 description: >-
   A spell-checker that groups possible misspellings and shows them in their
   contexts.
