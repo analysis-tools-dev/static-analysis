@@ -858,7 +858,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 - [PostCSS](https://postcss.org) - A tool for transforming styles with JS plugins. These plugins can lint your CSS, support variables and mixins, transpile future CSS syntax, inline images, and more.
 - [Project Wallace CSS Analyzer](https://www.projectwallace.com) - Analytics for CSS, part of [Project Wallace](https://www.projectwallace.com).
 - [sass-lint](https://github.com/sasstools/sass-lint) :warning: - A Node-only Sass linter for both sass and scss syntax.
-- [scsslint](https://github.com/brigade/scss-lint) :warning: - Linter for SCSS files.
+- [scsslint](https://github.com/brigade/scss-lint) - Linter for SCSS files.
 - [Specificity Graph](https://jonassebastianohlsson.com/specificity-graph) - CSS Specificity Graph Generator.
 - [Stylelint](http://stylelint.io) - Linter for SCSS/CSS files.
 
