@@ -788,7 +788,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [Super-Linter](https://github.com/github/super-linter) - Combination of multiple linters to install as a GitHub Action.
 - [Symfony Insight](https://insight.symfony.com/) :copyright: - Detect security risks, find bugs and provide actionable metrics for PHP projects.
 - [Synopsys](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html) :copyright: - A commercial static analysis platform that allows for scanning of multiple languages (C/C++, Android, C#, Java, JS, PHP, Python, Node.JS, Ruby, Fortran, and Swift).
-- [Teamscale](http://www.teamscale.com) :copyright: - Static and dynamic analysis tool supporting more than 25 languages and direct IDE integration. Free hosting for Open Source projects available on request. Free academic licenses available.
+- [Teamscale](https://www.cqse.eu/en/teamscale/overview/) :copyright: - Static and dynamic analysis tool supporting more than 25 languages and direct IDE integration. Free hosting for Open Source projects available on request. Free academic licenses available.
 - [todocheck](https://github.com/preslavmihaylov/todocheck) - Linter for integrating annotated TODOs with your issue trackers
 - [trivy](https://github.com/aquasecurity/trivy) - A Simple and Comprehensive Vulnerability Scanner for Containers and other Artifacts, Suitable for CI. Trivy detects vulnerabilities of OS packages (Alpine, RHEL, CentOS, etc.) and application dependencies (Bundler, Composer, npm, yarn, etc.). Checks containers and filesystems.
 
