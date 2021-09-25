@@ -9,6 +9,7 @@ The official website, [analysis-tools.dev](https://analysis-tools.dev/) is based
 
 ![CI](https://github.com/analysis-tools-dev/static-analysis/workflows/CI/badge.svg)
 
+
 ## What is Static Analysis?
 
 > Static program analysis is the analysis of computer software that is performed without actually executing programs — [Wikipedia](https://en.wikipedia.org/wiki/Static_program_analysis)
