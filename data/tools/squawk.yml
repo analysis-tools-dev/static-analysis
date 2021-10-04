@@ -1,0 +1,13 @@
+name: squawk
+categories:
+  - linter
+tags:
+  - sql
+license: GPL-3.0 License 
+types:
+  - cli
+source: 'https://github.com/sbdchd/squawk'
+homepage: 'https://squawkhq.com'
+description: >-
+  Linter for PostgreSQL, focused on migrations.
+  Prevents unexpected downtime caused by database migrations and encourages best practices around Postgres schemas and SQL.
