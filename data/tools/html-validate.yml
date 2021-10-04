@@ -1,0 +1,13 @@
+name: HTML-Validate
+categories:
+  - linter
+tags:
+  - html
+  - vue
+license: MIT License
+types:
+  - cli
+  - ide-plugin
+source: 'https://gitlab.com/html-validate/html-validate'
+homepage: 'https://html-validate.org/'
+description: Offline HTML5 validator.
