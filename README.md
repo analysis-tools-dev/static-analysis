@@ -560,6 +560,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [Fasterer](https://github.com/DamirSvrtan/fasterer) - Common Ruby idioms checker.
 - [flay](https://ruby.sadi.st/Flay.html) - Flay analyzes code for structural similarities.
 - [flog](https://ruby.sadi.st/Flog.html) - Flog reports the most tortured code in an easy to read pain report. The higher the score, the more pain the code is in.
+- [Fukuzatsu](https://github.com/CoralineAda/fukuzatsu) - A tool for measuring code complexity in Ruby class files. Its analysis generates scores based on cyclomatic complexity algorithms with no added "opinions".
 - [laser](https://github.com/michaeledgar/laser) :warning: - Static analysis and style linter for Ruby code.
 - [pelusa](https://github.com/codegram/pelusa) - Static analysis Lint-type tool to improve your OO Ruby code.
 - [Querly](https://github.com/soutaro/querly) - Pattern Based Checking Tool for Ruby.
