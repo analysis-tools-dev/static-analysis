@@ -1,0 +1,11 @@
+name: Fukuzatsu
+categories:
+  - linter
+tags:
+  - ruby
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/CoralineAda/fukuzatsu'
+homepage: 'https://github.com/CoralineAda/fukuzatsu'
+description: 'A tool for measuring code complexity in Ruby class files. Its analysis generates scores based on cyclomatic complexity algorithms with no added "opinions".'
