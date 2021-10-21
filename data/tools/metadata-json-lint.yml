@@ -1,0 +1,12 @@
+name: metadata-json-lint
+categories:
+  - linter
+tags:
+  - configmanagement
+  - puppet
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/voxpupuli/metadata-json-lint'
+homepage: 'https://github.com/voxpupuli/metadata-json-lint'
+description: Tool to check the validity of Puppet metadata.json files.
