@@ -1,0 +1,13 @@
+name: bundler-audit
+categories:
+  - linter
+tags:
+  - ruby
+license: GNU General Public License v3.0
+types:
+  - cli
+source: 'https://github.com/rubysec/bundler-audit'
+homepage: 'https://github.com/rubysec/bundler-audit'
+description: >-
+  Audit Gemfile.lock for gems with security vulnerabilities reported in
+  [Ruby Advisory Database](https://github.com/rubysec/ruby-advisory-db).
