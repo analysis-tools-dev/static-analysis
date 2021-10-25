@@ -106,6 +106,9 @@
 - name: Elm
   tag: elm
   type: language
+- name: Embedded Ruby (a.k.a. ERB, eRuby)
+  tag: erb
+  type: other
 - name: Erlang
   tag: erlang
   type: language

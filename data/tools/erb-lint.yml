@@ -1,0 +1,13 @@
+name: ERB Lint
+categories:
+  - linter
+tags:
+  - erb
+  - html
+  - ruby
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/Shopify/erb-lint'
+homepage: 'https://github.com/Shopify/erb-lint'
+description: 'Lint your ERB or HTML files'
