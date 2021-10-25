@@ -119,6 +119,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Node.js](#nodejs)
 - [Packages](#package)
 - [Protocol Buffers](#protobuf)
+- [Puppet](#puppet)
 - [Security/SAST](#security)
 - [Smart Contracts](#smart-contracts)
 - [Support](#support)
@@ -242,7 +243,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="coffeescript">CoffeeScript</h2>
 
-- [coffeelint](http://www.coffeelint.org) :warning: - A style checker that helps keep CoffeeScript code clean and consistent.
+- [coffeelint](http://www.coffeelint.org) - A style checker that helps keep CoffeeScript code clean and consistent.
 
 
 <h2 id="crystal">Crystal</h2>
@@ -375,7 +376,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [DesigniteJava](http://www.designite-tools.com/designitejava) :copyright: - DesigniteJava supports detection of various architecture, design, and implementation smells along with computation of various code quality metrics.
 - [Doop](https://bitbucket.org/yanniss/doop) - Doop is a declarative framework for static analysis of Java/Android programs, centered on pointer analysis algorithms. Doop provides a large variety of analyses and also the surrounding scaffolding to run an analysis end-to-end (fact generation, processing, statistics, etc.).
 - [Error-prone](https://errorprone.info) - Catch common Java mistakes as compile-time errors.
-- [fb-contrib](http://fb-contrib.sourceforge.net) :warning: - A plugin for FindBugs with additional bug detectors.
+- [fb-contrib](http://fb-contrib.sourceforge.net) - A plugin for FindBugs with additional bug detectors.
 - [forbidden-apis](https://github.com/policeman-tools/forbidden-apis) - Detects and forbids invocations of specific method/class/field (like reading from a text stream without a charset). Maven/Gradle/Ant compatible.
 - [google-java-format](https://github.com/google/google-java-format) - Google Style Reformat.
 - [HuntBugs](https://github.com/amaembo/huntbugs) :warning: - Bytecode static analyzer tool based on Procyon Compiler Tools aimed to supersede FindBugs.
@@ -556,6 +557,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 
 <h2 id="ruby">Ruby</h2>
 
+- [bundler-audit](https://github.com/rubysec/bundler-audit) - Audit Gemfile.lock for gems with security vulnerabilities reported in [Ruby Advisory Database](https://github.com/rubysec/ruby-advisory-db).
 - [cane](https://github.com/square/cane) :warning: - Code quality threshold checking as part of your build.
 - [Fasterer](https://github.com/DamirSvrtan/fasterer) - Common Ruby idioms checker.
 - [flay](https://ruby.sadi.st/Flay.html) - Flay analyzes code for structural similarities.
@@ -884,6 +886,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 - [Datree](https://datree.io/) - A CLI tool to prevent Kubernetes misconfigurations by ensuring that manifests and Helm charts follow best practices as well as your organization’s policies
 - [foodcritic](http://www.foodcritic.io) - A lint tool that checks Chef cookbooks for common problems.
 - [kics](https://kics.io/) - Find security vulnerabilities, compliance issues, and infrastructure misconfigurations in your infrastructure-as-code. Supports Terraform, Kubernetes, Docker, AWS CloudFormation and Ansible
+- [metadata-json-lint](https://github.com/voxpupuli/metadata-json-lint) - Tool to check the validity of Puppet metadata.json files.
 - [Puppet Lint](https://github.com/rodjek/puppet-lint) - Check that your Puppet manifests conform to the style guide.
 - [terraform-compliance](https://terraform-compliance.com) - A lightweight, compliance- and security focused, BDD test framework against Terraform.
 - [terrascan](https://github.com/cesar-rodriguez/terrascan) - Collection of security and best practice tests for static code analysis of Terraform templates.
@@ -992,13 +995,18 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 <h2 id="package">Packages</h2>
 
-- [lintian](https://lintian.debian.org) :warning: - Static analysis tool for Debian packages.
+- [lintian](https://lintian.debian.org) - Static analysis tool for Debian packages.
 - [rpmlint](https://github.com/rpm-software-management/rpmlint) - Tool for checking common errors in rpm packages.
 
 
 <h2 id="protobuf">Protocol Buffers</h2>
 
 - [protolint](https://github.com/yoheimuta/protolint) - Pluggable linter and fixer to enforce Protocol Buffer style and conventions.
+
+
+<h2 id="puppet">Puppet</h2>
+
+- [metadata-json-lint](https://github.com/voxpupuli/metadata-json-lint) - Tool to check the validity of Puppet metadata.json files.
 
 
 <h2 id="security">Security/SAST</h2>
