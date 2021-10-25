@@ -4,6 +4,7 @@ categories:
 tags:
   - erb
   - html
+  - ruby
 license: MIT License
 types:
   - cli
