@@ -3,6 +3,7 @@ categories:
   - linter
 tags:
   - typescript
+deprecated: true
 license: MIT License
 types:
   - cli
