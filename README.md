@@ -655,7 +655,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 
 - [Codelyzer](http://codelyzer.com) - A set of tslint rules for static code analysis of Angular 2 TypeScript projects.
 - [tslint-clean-code](https://www.npmjs.com/package/tslint-clean-code) - A set of TSLint rules inspired by the Clean Code handbook.
-- [tslint-microsoft-contrib](https://github.com/Microsoft/tslint-microsoft-contrib) - A set of tslint rules for static code analysis of TypeScript projects maintained by Microsoft.
+- [tslint-microsoft-contrib](https://github.com/Microsoft/tslint-microsoft-contrib) :warning: - A set of tslint rules for static code analysis of TypeScript projects maintained by Microsoft.
 - [TypeScript Call Graph](https://github.com/whyboris/TypeScript-Call-Graph) - CLI to generate an interactive graph of functions and calls from your TypeScript files
 - [TypeScript ESLint](https://github.com/typescript-eslint/typescript-eslint) - TypeScript language extension for eslint.
 
@@ -674,6 +674,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 
 - [ale](https://github.com/w0rp/ale) - Asynchronous Lint Engine for Vim and NeoVim with support for many languages.
 - [Android Studio](https://developer.android.com/studio) - Based on IntelliJ IDEA, and comes bundled with tools for Android including Android Lint.
+- [Angular ESLint](https://github.com/angular-eslint/angular-eslint#readme) - Linter for Angular projects
 - [AppChecker](https://npo-echelon.ru/en/solutions/appchecker.php) :copyright: - Static analysis for C/C++/C#, PHP and Java.
 - [Application Inspector](https://www.ptsecurity.com/ww-en/products/ai) :copyright: - Commercial Static Code Analysis which generates exploits to verify vulnerabilities.
 - [ApplicationInspector](https://github.com/microsoft/ApplicationInspector) - Creates reports of over 400 rule patterns for feature detection (e.g. the use of cryptography or version control in apps).
