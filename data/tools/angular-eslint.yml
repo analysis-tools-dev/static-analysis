@@ -1,0 +1,13 @@
+name: Angular ESLint
+categories:
+  - linter
+tags:
+  - typescript
+  - angular
+  - html
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/angular-eslint/angular-eslint'
+homepage: 'https://github.com/angular-eslint/angular-eslint#readme'
+description: 'Linter for Angular projects'

@@ -19,6 +19,9 @@
 - name: Ada
   tag: ada
   type: language
+- name: Angular
+  tag: angular
+  type: other
 - name: Ansible
   tag: ansible
   type: other
