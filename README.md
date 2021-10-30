@@ -602,7 +602,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [rust-analyzer](https://rust-analyzer.github.io) - Supports functionality such as 'goto definition', type inference, symbol search, reformatting, and code completion, and enables renaming and refactorings.
 - [rust-audit](https://github.com/Shnatsel/rust-audit) - Audit Rust binaries for known bugs or security vulnerabilities. This works by embedding data about the dependency tree (Cargo.lock) in JSON format into a dedicated linker section of the compiled executable.
 - [rustfix](https://github.com/rust-lang/rustfix) - Read and apply the suggestions made by rustc (and third-party lints, like those offered by clippy).
-- [rustfmt](https://github.com/rust-lang/rustfmt) - A tool for formatting Rust code according to style guidelines.
+- [rustfmt](https://github.com/rust-lang/rustfmt) :warning: - A tool for formatting Rust code according to style guidelines.
 - [RustViz](https://github.com/rustviz/rustviz) - RustViz is a tool that generates visualizations  from simple Rust programs to assist users in better  understanding the Rust Lifetime and Borrowing mechanism. It generates SVG files with graphical indicators that integrate  with mdbook to render visualizations of data-flow in Rust programs.
 - [warnalyzer](https://github.com/est31/warnalyzer) - Show unused code from multi-crate Rust projects
 
@@ -858,7 +858,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 - [CSScomb](https://github.com/csscomb/csscomb.js) - A coding style formatter for CSS. Supports own configurations to make style sheets beautiful and consistent.
 - [CSSLint](http://csslint.net) - Does basic syntax checking and finds problematic patterns or signs of inefficiency.
 - [GraphMyCSS.com](https://graphmycss.com) - CSS Specificity Graph Generator.
-- [Nu Html Checker](https://validator.github.io/validator/) - Helps you catch problems in your HTML/CSS/SVG
+- [Nu Html Checker](https://validator.github.io/validator/) :warning: - Helps you catch problems in your HTML/CSS/SVG
 - [Parker](https://github.com/katiefenn/parker) :warning: - Stylesheet analysis tool.
 - [PostCSS](https://postcss.org) - A tool for transforming styles with JS plugins. These plugins can lint your CSS, support variables and mixins, transpile future CSS syntax, inline images, and more.
 - [Project Wallace CSS Analyzer](https://www.projectwallace.com) - Analytics for CSS, part of [Project Wallace](https://www.projectwallace.com).
@@ -941,7 +941,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 - [HTML Tidy](http://www.html-tidy.org) - Corrects and cleans up HTML and XML documents by fixing markup errors and upgrading legacy code to modern standards.
 - [HTML-Validate](https://html-validate.org/) - Offline HTML5 validator.
 - [HTMLHint](https://htmlhint.com) - A Static Code Analysis Tool for HTML.
-- [Nu Html Checker](https://validator.github.io/validator/) - Helps you catch problems in your HTML/CSS/SVG
+- [Nu Html Checker](https://validator.github.io/validator/) :warning: - Helps you catch problems in your HTML/CSS/SVG
 
 
 <h2 id="json">JSON</h2>
