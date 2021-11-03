@@ -1,0 +1,14 @@
+name: mcsema
+categories:
+  - linter
+tags:
+  - binary
+license: AGPL-3.0 License 
+types:
+  - cli 
+source: 'https://github.com/lifting-bits/mcsema'
+homepage: 'https://github.com/lifting-bits/mcsema'
+description: >-
+   Framework for lifting x86, amd64, aarch64, sparc32, and sparc64 program binaries to LLVM bitcode.
+   It translates ("lifts") executable binaries from native machine code to LLVM bitcode,
+   which is very useful for performing program analysis methods.
