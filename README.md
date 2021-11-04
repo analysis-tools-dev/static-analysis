@@ -323,6 +323,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [gocyclo](https://github.com/fzipp/gocyclo) - Calculate cyclomatic complexities of functions in Go source code.
 - [gofmt -s](https://golang.org/cmd/gofmt) - Checks if the code is properly formatted and could not be further simplified.
 - [goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports) - Checks missing or unreferenced package imports.
+- [GoKart](https://github.com/praetorian-inc/gokart) - Finds security vulnerabilities by analyzing the SSA (single static assignment) form of Go source code.
 - [GolangCI-Lint](https://golangci-lint.run) - Alternative to `Go Meta Linter`: GolangCI-Lint is a linters aggregator.
 - [golint](https://github.com/golang/lint) - Prints out coding style mistakes in Go source code.
 - [goroutine-inspect](https://github.com/linuxerwang/goroutine-inspect) - An interactive tool to analyze Golang goroutine dump.
