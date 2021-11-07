@@ -1,0 +1,13 @@
+name: Icarus Verilog
+categories:
+  - linter
+tags:
+  - verilog
+license: GNU General Public License v2.0
+types:
+  - cli
+source: 'http://iverilog.icarus.com/'
+homepage: 'https://github.com/steveicarus/iverilog'
+description: >-
+  A Verilog simulation and synthesis tool that operates by compiling
+  source code written in IEEE-1364 Verilog into some target format

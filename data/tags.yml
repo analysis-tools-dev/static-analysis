@@ -337,6 +337,9 @@
 - name: VHDL
   tag: vhdl
   type: language
+- name: Verilog/SystemVerilog
+  tag: verilog
+  type: language
 - name: Vim Script
   tag: vim-script
   type: language
