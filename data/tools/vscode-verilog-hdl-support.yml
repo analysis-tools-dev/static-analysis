@@ -1,0 +1,14 @@
+name: vscode-verilog-hdl-support
+categories:
+  - linter
+tags:
+  - verilog
+license: MIT License
+types:
+  - ide-plugin  
+source: 'https://github.com/mshr-h/vscode-verilog-hdl-support'
+homepage: 'https://github.com/mshr-h/vscode-verilog-hdl-support'
+description: >-
+  Verilog HDL/SystemVerilog/Bluespec SystemVerilog support for VS Code.
+  Provides syntax highlighting and Linting support from
+  Icarus Verilog, Vivado Logical Simulation, Modelsim and Verilator
