@@ -1,0 +1,12 @@
+name: structslop
+categories:
+  - linter
+  - formatter
+tags:
+  - go
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/orijtech/structslop'
+homepage: 'https://github.com/orijtech/structslop'
+description: Static analyzer for Go that recommends struct field rearrangements to provide for maximum space/allocation efficiency
