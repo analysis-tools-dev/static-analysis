@@ -1,0 +1,12 @@
+name: Verilator
+categories:
+  - linter
+tags:
+  - verilog
+license: GPL v3 or Perl Artistic License Version 2.0
+types:
+  - cli  
+source: 'https://www.veripool.org/verilator/'
+homepage: 'https://www.veripool.org/verilator/'
+description: >-
+  Verilog/SystemVerilog simulator which performs lint code-quality checks
