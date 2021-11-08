@@ -334,6 +334,9 @@
 - name: VBScript
   tag: vbscript
   type: language
+- name: Verilog
+  tag: verilog
+  type: language  
 - name: VHDL
   tag: vhdl
   type: language
