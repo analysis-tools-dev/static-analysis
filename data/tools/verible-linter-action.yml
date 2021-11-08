@@ -1,0 +1,14 @@
+name: verible-linter-action
+categories:
+  - linter
+tags:
+  - verilog
+license: Apache-2.0 License 
+types:
+  - service
+source: 'https://github.com/chipsalliance/verible-linter-action'
+homepage: 'https://github.com/chipsalliance/verible-linter-action'
+description: >-
+   Automatic SystemVerilog linting in github actions with the help of Verible
+   Used to lint Verilog and SystemVerilog source files and comment erroneous lines 
+   of code in Pull Requests automatically.
