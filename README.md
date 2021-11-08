@@ -341,6 +341,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [safesql](https://github.com/stripe/safesql) - Static analysis tool for Golang that protects against SQL injections.
 - [staticcheck](https://staticcheck.io) - Go static analysis that specialises in finding bugs, simplifying code and improving performance.
 - [structcheck](https://gitlab.com/opennota/check) - Find unused struct fields.
+- [structslop](https://github.com/orijtech/structslop) - Static analyzer for Go that recommends struct field rearrangements to provide for maximum space/allocation efficiency
 - [test](http://golang.org/pkg/testing) - Show location of test failures from the stdlib testing module.
 - [unconvert](https://github.com/mdempsky/unconvert) - Detect redundant type conversions.
 - [unparam](https://github.com/mvdan/unparam) - Find unused function parameters.
