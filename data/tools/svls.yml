@@ -1,0 +1,13 @@
+name: svls
+categories:
+  - linter
+tags:
+  - verilog
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/dalance/svls'
+homepage: 'https://github.com/dalance/svls'
+description: >-
+  A Language Server Protocol implementation for Verilog and
+  SystemVerilog, including lint capabilities.

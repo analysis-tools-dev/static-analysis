@@ -3,10 +3,11 @@ categories:
   - linter
 tags:
   - verilog
-license: GPL v3 or Perl Artistic License Version 2.0
+license: GPL v3 or Perl Artistic License Version 2.0  
 types:
-  - cli  
-source: 'https://www.veripool.org/verilator/'
-homepage: 'https://www.veripool.org/verilator/'
+  - cli
+source: 'https://github.com/verilator/verilator'
+homepage: 'https://www.veripool.org/verilator'
 description: >-
-  Verilog/SystemVerilog simulator which performs lint code-quality checks
+  A tool which converts Verilog to a cycle-accurate behavioral model in
+  C++ or SystemC. Performs lint code-quality checks.
