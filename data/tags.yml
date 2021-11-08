@@ -334,14 +334,11 @@
 - name: VBScript
   tag: vbscript
   type: language
-- name: Verilog
+- name: Verilog/SystemVerilog
   tag: verilog
   type: language  
 - name: VHDL
   tag: vhdl
-  type: language
-- name: Verilog/SystemVerilog
-  tag: verilog
   type: language
 - name: Vim Script
   tag: vim-script
