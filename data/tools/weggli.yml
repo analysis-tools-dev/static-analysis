@@ -1,0 +1,16 @@
+name: weggli
+categories:
+  - linter
+tags:
+  - security
+  - c
+  - cpp
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/googleprojectzero/weggli'
+homepage: 'https://github.com/googleprojectzero/weggli'
+description: >-
+  A fast and robust semantic search tool for C and C++ codebases. It is
+  designed to help security researchers identify interesting functionality in
+  large codebases.
