@@ -7,7 +7,7 @@ license: Apache-2.0 License
 types:
   - cli
 source: 'https://github.com/erlang/otp/tree/master/lib/dialyzer'
-homepage: 'https://erlang.org/doc/man/dialyzer.html'
+homepage: 'https://www.erlang.org/doc/man/dialyzer.html'
 description: >-
   The DIALYZER, a DIscrepancy AnaLYZer for ERlang programs.
   Dialyzer is a static analysis tool that identifies software discrepancies, 
