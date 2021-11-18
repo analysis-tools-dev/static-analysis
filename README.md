@@ -151,7 +151,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="asm">Assembly</h2>
 
-- [STOKE](http://stoke.stanford.edu) - A programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations.
+- [STOKE](https://github.com/StanfordPL/stoke) - A programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations.
 
 
 <h2 id="awk">Awk</h2>
@@ -604,7 +604,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [rust-analyzer](https://rust-analyzer.github.io) - Supports functionality such as 'goto definition', type inference, symbol search, reformatting, and code completion, and enables renaming and refactorings.
 - [rust-audit](https://github.com/Shnatsel/rust-audit) - Audit Rust binaries for known bugs or security vulnerabilities. This works by embedding data about the dependency tree (Cargo.lock) in JSON format into a dedicated linker section of the compiled executable.
 - [rustfix](https://github.com/rust-lang/rustfix) - Read and apply the suggestions made by rustc (and third-party lints, like those offered by clippy).
-- [rustfmt](https://github.com/rust-lang/rustfmt) :warning: - A tool for formatting Rust code according to style guidelines.
+- [rustfmt](https://github.com/rust-lang/rustfmt) - A tool for formatting Rust code according to style guidelines.
 - [RustViz](https://github.com/rustviz/rustviz) - RustViz is a tool that generates visualizations  from simple Rust programs to assist users in better  understanding the Rust Lifetime and Borrowing mechanism. It generates SVG files with graphical indicators that integrate  with mdbook to render visualizations of data-flow in Rust programs.
 - [warnalyzer](https://github.com/est31/warnalyzer) - Show unused code from multi-crate Rust projects
 
