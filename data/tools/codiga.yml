@@ -1,22 +1,25 @@
-name: Code Inspector
+name: Codiga
 categories:
   - linter
 tags:
+  - apex
   - c
   - cpp
+  - dockerfile
   - go
   - java
   - javascript
+  - kotlin
   - ruby
   - php
   - python
-  - kotlin
   - typescript
+  - scala
   - ci
 license: proprietary
 types:
   - service
-homepage: "https://www.code-inspector.com"
+homepage: "https://www.codga.io"
 description: >-
-  Code quality and technical debt management platform that supports 10+
+  Automated Code Reviews and Technical Debt management platform that supports 12+
   languages.
