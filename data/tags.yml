@@ -133,6 +133,9 @@
 - name: Go
   tag: go
   type: language
+- name: git
+  tag: git
+  type: other
 - name: GraphQL
   tag: graphql
   type: other
