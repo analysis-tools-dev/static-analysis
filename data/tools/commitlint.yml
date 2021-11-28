@@ -1,0 +1,12 @@
+name: commitlint
+categories:
+  - linter
+tags:
+  - git
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/conventional-changelog/commitlint'
+homepage: 'https://commitlint.js.org'
+description: >-
+  checks if your commit messages meet the conventional commit format
