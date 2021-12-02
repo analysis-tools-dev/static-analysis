@@ -67,9 +67,12 @@ pub fn group(tags: &[Tag], entries: &[Entry]) -> Result<Catalog> {
 
     // Move tools that support multiple programming languages into their own category
     let (multi, entries): (Vec<Entry>, Vec<Entry>) = entries.iter().cloned().partition(|entry| {
-        entry.tags.len() > 1
-            && !entry.is_c_cpp()
-            && !entry.tags.iter().all(|t| t.tag_type == Type::Other)
+        let language_tags: Vec<_> = entry
+            .tags
+            .iter()
+            .filter(|t| t.tag_type == Type::Language)
+            .collect();
+        language_tags.len() > 1 && !entry.is_c_cpp()
     });
 
     let languages: Vec<&Tag> = tags
