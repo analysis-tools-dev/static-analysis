@@ -13,7 +13,7 @@ use types::{Catalog, Entry, ParsedEntry, Tag, Type};
 
 fn valid(entry: &ParsedEntry, tags: &[Tag]) -> Result<()> {
     let lints = [lints::name, lints::min_one_tag];
-    lints.iter().try_for_each(|lint| Ok(lint(&entry, &tags)?))
+    lints.iter().try_for_each(|lint| Ok(lint(entry, tags)?))
 }
 
 #[tokio::main]
@@ -47,7 +47,7 @@ pub async fn check_deprecated(token: String, entries: &mut Vec<Entry>) -> Result
 
         if let Ok(commit_list) = github.repo(owner, repo).commits().list("").await {
             let date = &commit_list[0].commit.author.date;
-            let last_commit = NaiveDateTime::parse_from_str(&date, "%Y-%m-%dT%H:%M:%SZ")?;
+            let last_commit = NaiveDateTime::parse_from_str(date, "%Y-%m-%dT%H:%M:%SZ")?;
             let last_commit_utc = DateTime::<Utc>::from_utc(last_commit, Utc);
             let duration = Local::today().signed_duration_since(last_commit_utc.date());
 
@@ -67,9 +67,12 @@ pub fn group(tags: &[Tag], entries: &[Entry]) -> Result<Catalog> {
 
     // Move tools that support multiple programming languages into their own category
     let (multi, entries): (Vec<Entry>, Vec<Entry>) = entries.iter().cloned().partition(|entry| {
-        entry.tags.len() > 1
-            && !entry.is_c_cpp()
-            && !entry.tags.iter().all(|t| t.tag_type == Type::Other)
+        let language_tags = entry
+            .tags
+            .iter()
+            .filter(|t| t.tag_type == Type::Language)
+            .count();
+        language_tags > 1 && !entry.is_c_cpp()
     });
 
     let languages: Vec<&Tag> = tags
@@ -80,7 +83,7 @@ pub fn group(tags: &[Tag], entries: &[Entry]) -> Result<Catalog> {
     for language in languages {
         let list: Vec<Entry> = entries
             .iter()
-            .filter(|e| e.tags.contains(&language))
+            .filter(|e| e.tags.contains(language))
             .cloned()
             .collect();
         if !list.is_empty() {
@@ -93,7 +96,7 @@ pub fn group(tags: &[Tag], entries: &[Entry]) -> Result<Catalog> {
     for other in other_tags {
         let list: Vec<Entry> = entries
             .iter()
-            .filter(|e| e.tags.contains(&other))
+            .filter(|e| e.tags.contains(other))
             .cloned()
             .collect();
         if !list.is_empty() {
