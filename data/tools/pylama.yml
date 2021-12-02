@@ -9,5 +9,5 @@ license:  LGPL-3.0 License
 types:
   - cli
 source: 'https://github.com/klen/pylama'
-homepage: 'https://pylama.readthedocs.io/en/latest/'
+homepage: 'https://klen.github.io/pylama/'
 description: 'Code audit tool for Python and JavaScript. Wraps pycodestyle, pydocstyle, PyFlakes, Mccabe, Pylint, and more'
