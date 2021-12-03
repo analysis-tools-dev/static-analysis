@@ -1,0 +1,29 @@
+name: trunk
+categories:
+  - linter
+  - formatter
+tags:
+  - javascript
+  - typescript
+  - ansible
+  - c
+  - cpp
+  - cloudformation
+  - dockerfile
+  - go
+  - java
+  - markdown
+  - protobuf
+  - python
+  - ruby
+  - rust
+  - terraform
+license: proprietary
+types:
+  - cli
+source: "https://github.com/trunk-io/"
+homepage: "https://trunk.io"
+description: Modern repositories include many technologies, each with its own set of linters. With 30+ linters and counting, Trunk makes it dead-simple to identify, install, configure, and run the right linters, static analyzers, and formatters for all your repos.
+resources:
+  - title: Trunk GitHub Action
+    url: https://github.com/trunk-io/trunk-action
