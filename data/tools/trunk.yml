@@ -27,3 +27,5 @@ description: Modern repositories include many technologies, each with its own se
 resources:
   - title: Trunk GitHub Action
     url: https://github.com/trunk-io/trunk-action
+  - title: Community Slack Channel
+    url: https://slack.trunk.io
