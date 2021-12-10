@@ -122,6 +122,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Markdown](#markdown)
 - [Metalinter](#meta)
 - [Mobile](#mobile)
+- [Nix](#nix)
 - [Node.js](#nodejs)
 - [Packages](#package)
 - [Protocol Buffers](#protobuf)
@@ -1043,6 +1044,11 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 - [paprika](https://github.com/GeoffreyHecht/paprika) :warning: - A toolkit to detect some code smells in analyzed Android applications.
 - [qark](https://github.com/linkedin/qark) :warning: - Tool to look for several security related Android application vulnerabilities.
 - [redex](https://fbredex.com) - Redex provides a framework for reading, writing, and analyzing .dex files, and a set of optimization passes  that use this framework to improve the bytecode. An APK optimized by Redex should be smaller and faster.
+
+
+<h2 id="nix">Nix</h2>
+
+- [deadnix](https://github.com/astro/deadnix) - Scan Nix files for dead code (unused variable bindings)
 
 
 <h2 id="nodejs">Node.js</h2>
