@@ -229,6 +229,9 @@
 - name: Nim
   tag: nim
   type: language
+- name: Nix
+  tag: nix
+  type: other
 - name: Node.js
   tag: nodejs
   type: other
