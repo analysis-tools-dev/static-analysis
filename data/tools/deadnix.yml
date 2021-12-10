@@ -1,0 +1,11 @@
+name: deadnix
+categories:
+  - linter
+tags:
+  - nix
+license: GPL-3.0
+types:
+  - cli 
+source: 'https://github.com/astro/deadnix'
+homepage: 'https://github.com/astro/deadnix'
+description: 'Scan Nix files for dead code (unused variable bindings)'
