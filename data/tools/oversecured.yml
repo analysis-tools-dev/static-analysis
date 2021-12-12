@@ -9,6 +9,6 @@ types:
   - cli
 homepage: 'https://oversecured.com'
 description: >-
-  A mobile app vulnerability scanner, designed for security researchers and bug
-  bounty hackers. It also allows integrations into the DevOps process for
-  businesses.
+  Enterprise vulnerability scanner for Android and iOS apps.
+  It allows app owners and developers to secure each new version
+  of a mobile app by integrating Oversecured into the development process.
