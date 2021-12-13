@@ -1040,7 +1040,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 - [android-lint-summary](https://passy.github.io/android-lint-summary) :warning: - Combines lint errors of multiple projects into one output, check lint results of multiple sub-projects at once.
 - [FlowDroid](https://github.com/secure-software-engineering/FlowDroid) - Static taint analysis tool for Android applications.
 - [iblessing](https://www.kitploit.com/2020/08/iblessing-ios-security-exploiting.html) - iblessing is an iOS security exploiting toolkit. It can be used for reverse engineering, binary analysis and vulnerability mining.
-- [Oversecured](https://oversecured.com) :copyright: - A mobile app vulnerability scanner, designed for security researchers and bug bounty hackers. It also allows integrations into the DevOps process for businesses.
+- [Oversecured](https://oversecured.com) :copyright: - Enterprise vulnerability scanner for Android and iOS apps. It allows app owners and developers to secure each new version of a mobile app by integrating Oversecured into the development process.
 - [paprika](https://github.com/GeoffreyHecht/paprika) :warning: - A toolkit to detect some code smells in analyzed Android applications.
 - [qark](https://github.com/linkedin/qark) :warning: - Tool to look for several security related Android application vulnerabilities.
 - [redex](https://fbredex.com) - Redex provides a framework for reading, writing, and analyzing .dex files, and a set of optimization passes  that use this framework to improve the bytecode. An APK optimized by Redex should be smaller and faster.
@@ -1093,7 +1093,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 - [lockfile-lint](https://github.com/lirantal/lockfile-lint) - Lint an npm or yarn lockfile to analyze and detect security issues
 - [njsscan](https://opensecurity.in) - A static application testing (SAST) tool that can find insecure code patterns in your node.js applications using simple pattern matcher from libsast and syntax-aware semantic code pattern search tool semgrep.
 - [NodeJSScan](https://opensecurity.in) - A static security code scanner for Node.js applications powered by libsast and semgrep that builds on the njsscan cli tool. It features a UI with various dashboards about an application's security status.
-- [Oversecured](https://oversecured.com) :copyright: - A mobile app vulnerability scanner, designed for security researchers and bug bounty hackers. It also allows integrations into the DevOps process for businesses.
+- [Oversecured](https://oversecured.com) :copyright: - Enterprise vulnerability scanner for Android and iOS apps. It allows app owners and developers to secure each new version of a mobile app by integrating Oversecured into the development process.
 - [PT Application Inspector](https://www.parasoft.com/) :copyright: - Identifies code flaws and detects vulnerabilities to prevent web attacks. Demonstrates remote code execution by presenting possible exploits.
 - [Qualys Container Security](https://www.qualys.com/apps/container-security) :copyright: - Container native application protection to provide visibility and control of containerized applications.
 - [QuantifiedCode](https://github.com/quantifiedcode/quantifiedcode) :warning: - Automated code review & repair. It helps you to keep track of issues and metrics in your software projects, and can be easily extended to support new types of analyses.
