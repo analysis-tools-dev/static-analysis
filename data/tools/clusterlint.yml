@@ -1,0 +1,16 @@
+name: clusterlint
+categories:
+  - linter
+tags:
+  - configmanagement
+  - container
+  - kubernetes
+license: Apache-2.0 License 
+types:
+  - cli
+source: 'https://github.com/digitalocean/clusterlint'
+homepage: 'https://github.com/digitalocean/clusterlint'
+description: >-
+  Clusterlint queries live Kubernetes clusters for resources, executes common and 
+  platform specific checks against these resources and provides actionable feedback to cluster operators. 
+  It is a non invasive tool that is run externally. Clusterlint does not alter the resource configurations.
