@@ -831,6 +831,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [Wotan](https://github.com/fimbullinter/wotan) - Pluggable TypeScript and JavaScript linter.
 - [Xanitizer](https://xanitizer.com) :copyright: - Xanitizer finds security vulnerabilities in web applications. It supports Java, Scala, JavaScript and TypeScript.
 - [XCode](https://developer.apple.com/xcode) :copyright: - XCode provides a pretty decent UI for [Clang's](http://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C).
+- [🐊Putout](https://github.com/coderaiser/putout) - Pluggable and configurable code transformer with built-in eslint, babel plugins support for js, jsx typescript, flow, markdown, yaml and json.
 
 
 ## Other
