@@ -111,6 +111,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Containers](#container)
 - [Continuous Integration](#ci)
 - [Deno](#deno)
+- [Embedded](#embedded)
 - [Embedded Ruby (a.k.a. ERB, eRuby)](#erb)
 - [Gherkin](#gherkin)
 - [HTML](#html)
@@ -461,7 +462,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 <h2 id="nim">Nim</h2>
 
 - [DrNim](https://nim-lang.org/docs/drnim.html) - DrNim combines the Nim frontend with the Z3 proof engine in order to allow verify / validate software written in Nim.
-- [nimfmt](https://github.com/FedericoCeratto/nimfmt) :warning: - Nim code formatter / linter / style checker
+- [nimfmt](https://github.com/FedericoCeratto/nimfmt) - Nim code formatter / linter / style checker
 
 
 <h2 id="ocaml">Ocaml</h2>
@@ -506,7 +507,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [phpdcd](https://github.com/sebastianbergmann/phpdcd) :warning: - Dead Code Detector (DCD) for PHP code.
 - [PhpDependencyAnalysis](https://mamuz.github.io/PhpDependencyAnalysis) :warning: - Builds a dependency graph for a project.
 - [PhpDeprecationDetector](https://github.com/wapmorgan/PhpDeprecationDetector) - Analyzer of PHP code to search issues with deprecated functionality in newer interpreter versions.  It finds removed objects (functions, variables, constants and ini-directives),  deprecated functions functionality, and usage of forbidden names or tricks (e.g. reserved identifiers in newer versions).
-- [phpdoc-to-typehint](https://github.com/dunglas/phpdoc-to-typehint) - Add scalar type hints and return types to existing PHP projects using PHPDoc annotations.
+- [phpdoc-to-typehint](https://github.com/dunglas/phpdoc-to-typehint) :warning: - Add scalar type hints and return types to existing PHP projects using PHPDoc annotations.
 - [phpDocumentor](https://www.phpdoc.org) - Analyzes PHP source code to generate documentation.
 - [phploc](https://github.com/sebastianbergmann/phploc) - A tool for quickly measuring the size and analyzing the structure of a PHP project.
 - [PHPMD](https://phpmd.org) - Finds possible bugs in your code.
@@ -970,6 +971,11 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 <h2 id="deno">Deno</h2>
 
 - [deno_lint](https://github.com/denoland/deno_lint) - Official linter for Deno.
+
+
+<h2 id="embedded">Embedded</h2>
+
+- [oelint-adv](https://github.com/priv-kweihmann/oelint-adv) - Linter for bitbake recipes used in open-embedded and YOCTO
 
 
 <h2 id="erb">Embedded Ruby (a.k.a. ERB, eRuby)</h2>
