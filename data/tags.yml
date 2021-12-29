@@ -112,6 +112,9 @@
 - name: Embedded Ruby (a.k.a. ERB, eRuby)
   tag: erb
   type: other
+- name: Embedded
+  tag: embedded
+  type: other
 - name: Erlang
   tag: erlang
   type: language
