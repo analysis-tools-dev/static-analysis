@@ -1,0 +1,11 @@
+name: oelint-adv
+categories:
+  - linter
+tags:
+  - embedded
+license: BSD 2-Clause "Simplified" License
+types:
+  - cli
+source: 'https://github.com/priv-kweihmann/oelint-adv'
+homepage: 'https://github.com/priv-kweihmann/oelint-adv'
+description: Linter for bitbake recipes used in open-embedded and YOCTO
