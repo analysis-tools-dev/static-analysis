@@ -1,0 +1,15 @@
+name: sqlvet
+categories:
+  - linter
+tags:
+  - go
+  - sql
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/houqp/sqlvet'
+homepage: 'https://github.com/houqp/sqlvet'
+description: >-
+   Performs static analysis on raw SQL queries in your Go code base to surface potential runtime errors.
+   It checks for SQL syntax error, identifies unsafe queries that could potentially lead to SQL injections
+   makes sure column count matches value count in INSERT statements and validates table- and column names.
