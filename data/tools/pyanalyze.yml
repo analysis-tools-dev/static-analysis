@@ -1,0 +1,13 @@
+name: pyanalyze
+categories:
+  - linter
+tags:
+  - python
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/quora/pyanalyze'
+homepage: 'https://pyanalyze.readthedocs.io/en/latest/'
+description: >-
+  A tool for programmatically detecting common mistakes in Python code, such as references to undefined variables and type errors.
+  It can be extended to add additional rules and perform checks specific to particular functions.
