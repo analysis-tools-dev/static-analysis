@@ -6,7 +6,7 @@ tags:
 license: proprietary
 types:
   - service
-homepage: 'https://www.parasoft.com/'
+homepage: 'https://www.ptsecurity.com'
 description: >-
   Identifies code flaws and detects vulnerabilities to prevent web attacks.
   Demonstrates remote code execution by presenting possible exploits.
