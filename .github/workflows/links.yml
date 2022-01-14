@@ -15,14 +15,7 @@ jobs:
       - name: Link Checker
         uses: lycheeverse/lychee-action@master
         with:
-          args: >-
-            README.md 
-            --accept 200,204,429 
-            --exclude languagetool.org 
-            --exclude https://www.ptsecurity.com 
-            --exclude https://github.com/collections 
-            --exclude https://github.com/sponsors
-            --exclude https://xanitizer.com
+          args: --accept 200,204,429 README.md
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         
