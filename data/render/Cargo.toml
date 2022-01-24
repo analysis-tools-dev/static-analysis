@@ -14,5 +14,5 @@ askama = "0.11.0"
 hubcaps = { git="https://github.com/softprops/hubcaps" }
 tokio = { version = "1.15.0", features = ["rt-multi-thread", "macros"] }
 chrono = "0.4.19"
-anyhow = "1.0.52"
+anyhow = "1.0.53"
 pico-args = "0.4.2"
