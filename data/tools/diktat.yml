@@ -8,5 +8,5 @@ license: MIT License
 types:
   - cli
 source: 'https://github.com/diktat-static-analysis/diKTat'
-homepage: 'https://github.com/diktat-static-analysis/diKTat'
+homepage: 'https://analysis-dev.github.io/diktat'
 description: Strict coding standard for Kotlin and a linter that detects and auto-fixes code smells.
