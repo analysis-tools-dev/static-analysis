@@ -1,0 +1,12 @@
+name: buf
+categories:
+  - linter
+tags:
+  - protobuf
+license: Apache-2.0 License
+types:
+  - cli
+source: 'https://github.com/bufbuild/buf'
+homepage: 'https://buf.build'
+description: >-
+  Provides a CLI linter that enforces good API design choices and structure
