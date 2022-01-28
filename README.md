@@ -443,7 +443,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 <h2 id="kotlin">Kotlin</h2>
 
 - [detekt](https://detekt.github.io/detekt) - Static code analysis for Kotlin code.
-- [diktat](https://github.com/diktat-static-analysis/diKTat) - Strict coding standard for Kotlin and a linter that detects and auto-fixes code smells.
+- [diktat](https://analysis-dev.github.io/diktat) - Strict coding standard for Kotlin and a linter that detects and auto-fixes code smells.
 - [ktlint](https://ktlint.github.io) - An anti-bikeshedding Kotlin linter with built-in formatter.
 
 
