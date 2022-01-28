@@ -1089,6 +1089,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 <h2 id="protobuf">Protocol Buffers</h2>
 
+- [buf](https://buf.build) - Provides a CLI linter that enforces good API design choices and structure
 - [protolint](https://github.com/yoheimuta/protolint) - Pluggable linter and fixer to enforce Protocol Buffer style and conventions.
 
 
