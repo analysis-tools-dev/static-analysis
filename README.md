@@ -490,7 +490,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [pdepend](https://pdepend.org) - Calculates software metrics like cyclomatic complexity for PHP code.
 - [phan](https://github.com/phan/phan/wiki) - A modern static analyzer from etsy.
 - [PHP Architecture Tester](https://github.com/carlosas/phpat) - Easy to use architecture testing tool for PHP.
-- [PHP Assumptions](https://github.com/rskuipers/php-assumptions) :warning: - Checks for weak assumptions.
+- [PHP Assumptions](https://github.com/rskuipers/php-assumptions) - Checks for weak assumptions.
 - [PHP Coding Standards Fixer](https://cs.symfony.com) - Fixes your code according to standards like PSR-1, PSR-2, and the Symfony standard.
 - [PHP Insights](https://phpinsights.com) - Instant PHP quality checks from your console. Analysis of code quality and coding style as well as overview of code architecture and its complexity.
 - [Php Inspections (EA Extended)](https://plugins.jetbrains.com/plugin/7622-php-inspections-ea-extended-) - A Static Code Analyzer for PHP.
