@@ -321,7 +321,7 @@ checksum = "494b4d60369511e7dea41cf646832512a94e542f68bb9c49e54518e0f468eb47"
 [[package]]
 name = "hubcaps"
 version = "0.6.2"
-source = "git+https://github.com/softprops/hubcaps#1c623b80b216a7ad76fd1bbc369a4d09fcbb0c7c"
+source = "git+https://github.com/softprops/hubcaps#30bbb3a66bc85a062bab15bb10818395a387dcce"
 dependencies = [
  "base64 0.13.0",
  "data-encoding",
