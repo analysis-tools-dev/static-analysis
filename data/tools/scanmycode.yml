@@ -1,0 +1,19 @@
+name: Scanmycode CE (Community Edition)
+categories:
+  - linter
+tags:
+  - ci
+  - php
+  - python
+  - ruby
+  - go
+  - java
+  - scala
+  - javascript
+  - python
+license: BSD-3 Clause License with LGPL-2.1 with Commonsclause. 
+types:
+  - service
+source: "https://github.com/marcinguy/scanmycode-ce"
+homepage: "http://www.scanmycode.today"
+description: Scanmycode - Code Scanning/SAST/Linting using many tools/Scanners with One Report
