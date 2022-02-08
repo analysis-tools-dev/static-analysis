@@ -372,6 +372,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 
 - [brittany](https://github.com/lspitzner/brittany) — Haskell source code formatter
 - [HLint](https://github.com/ndmitchell/hlint) — HLint is a tool for suggesting possible improvements to Haskell code.
+- [Liquid Haskell](https://ucsd-progsys.github.io/liquidhaskell-blog/) — Liquid Haskell is a refinement type checker for Haskell programs.
 - [Stan](https://kowainik.github.io/projects/stan) — Stan is a command-line tool for analysing Haskell projects and outputting discovered vulnerabilities in a helpful way with possible solutions for detected problems.
 - [Weeder](https://github.com/ocharles/weeder) — A tool for detecting dead exports or package imports in Haskell code.
 
