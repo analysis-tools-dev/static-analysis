@@ -1,0 +1,11 @@
+name: Liquid Haskell
+categories:
+  - linter
+tags:
+  - haskell
+license: BSD 3-Clause "New" or "Revised" License
+types:
+  - cli
+source: 'https://github.com/ucsd-progsys/liquidhaskell'
+homepage: 'https://ucsd-progsys.github.io/liquidhaskell-blog/'
+description: Liquid Haskell is a refinement type checker for Haskell programs.
