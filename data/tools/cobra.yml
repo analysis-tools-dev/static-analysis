@@ -9,5 +9,5 @@ tags:
 license: proprietary
 types:
   - cli
-homepage: 'http://spinroot.com/cobra'
+homepage: 'https://spinroot.com/cobra'
 description: Structural source code analyzer by NASA's Jet Propulsion Laboratory.
