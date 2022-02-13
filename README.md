@@ -1073,6 +1073,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 <h2 id="nix">Nix</h2>
 
 - [deadnix](https://github.com/astro/deadnix) — Scan Nix files for dead code (unused variable bindings)
+- [statix](https://git.peppe.rs/languages/statix/about/) — Lints and suggestions for the Nix programming language. "statix check" highlights antipatterns in Nix code. "statix fix" can fix several such occurrences.
 
 
 <h2 id="nodejs">Node.js</h2>
