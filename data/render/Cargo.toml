@@ -8,7 +8,7 @@ edition = "2018"
 serde = "1.0.136"
 serde_derive = "1.0.126"
 serde_yaml = "0.8.23"
-askama = "0.11.0"
+askama = "0.11.1"
 # Switch back to crates as soon as a new release with tokio 1.x support is
 # released. See https://github.com/softprops/hubcaps/pull/285
 hubcaps = { git="https://github.com/softprops/hubcaps" }
