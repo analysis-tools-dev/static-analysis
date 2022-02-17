@@ -30,4 +30,4 @@ types:
   - cli
 source: 'https://github.com/koknat/callGraph'
 homepage: 'https://github.com/koknat/callGraph'
-description: open-source call graph generator for awk, bash, basic, dart, fortran, go, lua, javascript, juila, kotlin, matlab, perl, pascal, php, python, R, raku, ruby, rust, scala, swift, tcl, and typescript
+description: statically generates a call graph image and displays it on screen.
