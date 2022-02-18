@@ -30,4 +30,4 @@ types:
   - cli
 source: 'https://github.com/koknat/callGraph'
 homepage: 'https://github.com/koknat/callGraph'
-description: statically generates a call graph image and displays it on screen.
+description: Statically generates a call graph image and displays it on screen.
