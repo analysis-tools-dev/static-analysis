@@ -8,12 +8,15 @@ use hubcaps::{Credentials, Github};
 mod lints;
 pub mod types;
 
-use std::collections::BTreeMap;
-use types::{Catalog, Entry, ParsedEntry, Tag, Type};
+use std::{
+    collections::{BTreeMap, HashSet},
+    iter::FromIterator,
+};
+use types::{Catalog, Entry, ParsedEntry, Resource, Tag, Type};
 
 fn valid(entry: &ParsedEntry, tags: &[Tag]) -> Result<()> {
     let lints = [lints::name, lints::min_one_tag];
-    lints.iter().try_for_each(|lint| Ok(lint(entry, tags)?))
+    lints.iter().try_for_each(|lint| lint(entry, tags))
 }
 
 #[tokio::main]
@@ -62,9 +65,7 @@ pub async fn check_deprecated(token: String, entries: &mut Vec<Entry>) -> Result
     Ok(())
 }
 
-pub fn group(tags: &[Tag], entries: &[Entry]) -> Result<Catalog> {
-    let mut linters = BTreeMap::new();
-
+pub fn create_catalog(entries: &[Entry], languages: &[Tag], other_tags: &[Tag]) -> Result<Catalog> {
     // Move tools that support multiple programming languages into their own category
     let (multi, entries): (Vec<Entry>, Vec<Entry>) = entries.iter().cloned().partition(|entry| {
         let language_tags = entry
@@ -75,11 +76,7 @@ pub fn group(tags: &[Tag], entries: &[Entry]) -> Result<Catalog> {
         language_tags > 1 && !entry.is_c_cpp()
     });
 
-    let languages: Vec<&Tag> = tags
-        .iter()
-        .filter(|t| t.tag_type == Type::Language)
-        .collect();
-
+    let mut linters = BTreeMap::new();
     for language in languages {
         let list: Vec<Entry> = entries
             .iter()
@@ -92,7 +89,6 @@ pub fn group(tags: &[Tag], entries: &[Entry]) -> Result<Catalog> {
     }
 
     let mut others = BTreeMap::new();
-    let other_tags: Vec<&Tag> = tags.iter().filter(|t| t.tag_type == Type::Other).collect();
     for other in other_tags {
         let list: Vec<Entry> = entries
             .iter()
@@ -109,4 +105,91 @@ pub fn group(tags: &[Tag], entries: &[Entry]) -> Result<Catalog> {
         others,
         multi,
     })
+}
+
+/// An entry of the machine-readable JSON out from the tool.
+///
+/// We use a different, de-normalized data format instead of the catalog, which
+/// keeps the information for each tool in a struct instead of grouping tools by
+/// tags.
+#[derive(Debug, Serialize, Deserialize)]
+pub struct ApiEntry {
+    categories: HashSet<String>,
+    languages: Vec<String>,
+    other: Vec<String>,
+    licenses: Vec<String>,
+    types: HashSet<String>,
+    homepage: String,
+    source: Option<String>,
+    description: String,
+    discussion: Option<String>,
+    deprecated: Option<bool>,
+    resources: Option<Vec<Resource>>,
+    wrapper: Option<bool>,
+}
+
+/// The final API dataformat is a map where the key is the entry name and the
+/// value is the entry data, which makes searching for a tool's data easier
+type Api = BTreeMap<String, ApiEntry>;
+
+pub fn create_api(catalog: Catalog, languages: &[Tag], other_tags: &[Tag]) -> Result<Api> {
+    let mut api_entries = BTreeMap::new();
+
+    // Concatenate all entries into one vector
+    let mut entries: Vec<Entry> = Vec::from_iter(catalog.linters.into_values().flatten());
+    entries.extend(Vec::from_iter(catalog.others.into_values().flatten()));
+    entries.extend(catalog.multi);
+
+    for entry in entries {
+        // Get the language data for the entry. We iterate over all languages
+        // and look up each language in the entry tags This is an O(n) operation
+        // as we iterate over the language list only once while the lookup is an
+        // O(1) operation thanks to the tag hash set.
+        let entry_languages = languages
+            .iter()
+            .filter_map(|lang| {
+                if entry.tags.contains(lang) {
+                    entry.tags.get(lang).map(|tag| tag.tag.clone())
+                } else {
+                    None
+                }
+            })
+            .collect();
+
+        // ...same for the non-language tags
+        let entry_other = other_tags
+            .iter()
+            .filter_map(|other| {
+                if entry.tags.contains(other) {
+                    entry.tags.get(other).map(|tag| tag.tag.clone())
+                } else {
+                    None
+                }
+            })
+            .collect();
+
+        // In the future we want to split up licenses in the YAML input files into a list.
+        // Emulate the future data format by creating a list from the current string.
+        // Note that this string could contain more than one license name for now, e.g.
+        // MIT / Apache License
+        let licenses = vec![entry.license];
+
+        let api_entry = ApiEntry {
+            categories: entry.categories,
+            languages: entry_languages,
+            other: entry_other,
+            licenses,
+            types: entry.types,
+            homepage: entry.homepage,
+            source: entry.source,
+            description: entry.description,
+            discussion: entry.discussion,
+            deprecated: entry.deprecated,
+            resources: entry.resources,
+            wrapper: entry.wrapper,
+        };
+        api_entries.insert(entry.name, api_entry);
+    }
+
+    Ok(api_entries)
 }
