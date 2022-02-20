@@ -81,6 +81,7 @@ fn main() -> Result<()> {
         .collect();
 
     let other_tags: Vec<Tag> = tags
+        .clone()
         .into_iter()
         .filter(|t| t.tag_type == Type::Other)
         .collect();
@@ -94,8 +95,16 @@ fn main() -> Result<()> {
     let api = create_api(catalog, &languages, &other_tags)?;
 
     let json = serde_json::to_string_pretty(&api)?;
-    fs::write(&args.json_out, json).context(format!(
-        "Cannot write JSON output to {}",
+    let tools_out = args.json_out.join("tools.json");
+    fs::write(&tools_out, json).context(format!(
+        "Cannot write tools JSON output to {}",
+        args.json_out.display()
+    ))?;
+
+    let json = serde_json::to_string_pretty(&tags)?;
+    let tags_out = args.json_out.join("tags.json");
+    fs::write(&tags_out, json).context(format!(
+        "Cannot write tags JSON output to {}",
         args.json_out.display()
     ))?;
     Ok(())
