@@ -3960,8 +3960,8 @@
   "diktat": {
     "name": "diktat",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "kotlin"
@@ -7025,8 +7025,8 @@
   "ktlint": {
     "name": "ktlint",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "kotlin"
@@ -8234,8 +8234,8 @@
     ],
     "types": [
       "service",
-      "ide-plugin",
-      "cli"
+      "cli",
+      "ide-plugin"
     ],
     "homepage": "https://mythx.io",
     "source": null,
@@ -12054,8 +12054,8 @@
       "GNU Lesser General Public License v2.1"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://semgrep.dev",
     "source": "https://github.com/returntocorp/semgrep",
@@ -12259,8 +12259,8 @@
       "AGPL-3.0"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://docs.shisho.dev/",
     "source": "https://github.com/flatt-security/shisho",
@@ -13208,8 +13208,8 @@
   "structslop": {
     "name": "structslop",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "go"
@@ -13857,8 +13857,8 @@
   "trunk": {
     "name": "trunk",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "c",
@@ -14583,8 +14583,8 @@
   "vetur": {
     "name": "Vetur",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [],
     "other": [
