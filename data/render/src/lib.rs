@@ -4,6 +4,7 @@ extern crate serde_derive;
 use anyhow::Result;
 use chrono::{DateTime, Local, NaiveDateTime, Utc};
 use hubcaps::{Credentials, Github};
+use slug::slugify;
 
 mod lints;
 pub mod types;
@@ -114,6 +115,8 @@ pub fn create_catalog(entries: &[Entry], languages: &[Tag], other_tags: &[Tag]) 
 /// tags.
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ApiEntry {
+    /// The original entry name (not slugified)
+    name: String,
     categories: HashSet<String>,
     languages: Vec<String>,
     other: Vec<String>,
@@ -175,6 +178,7 @@ pub fn create_api(catalog: Catalog, languages: &[Tag], other_tags: &[Tag]) -> Re
         let licenses = vec![entry.license];
 
         let api_entry = ApiEntry {
+            name: entry.name.clone(),
             categories: entry.categories,
             languages: entry_languages,
             other: entry_other,
@@ -188,8 +192,27 @@ pub fn create_api(catalog: Catalog, languages: &[Tag], other_tags: &[Tag]) -> Re
             resources: entry.resources,
             wrapper: entry.wrapper,
         };
-        api_entries.insert(entry.name, api_entry);
+        api_entries.insert(slugify(&entry.name), api_entry);
     }
 
     Ok(api_entries)
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_slugify() {
+        assert_eq!(slugify("this is a test"), "this-is-a-test".to_string());
+        assert_eq!(slugify("Big"), "big".to_string());
+        assert_eq!(slugify("   Big"), "big".to_string());
+        assert_eq!(slugify("Astrée"), "astree".to_string());
+        assert_eq!(slugify("non word 1234"), "non-word-1234".to_string());
+        assert_eq!(slugify("it-has-dashes"), "it-has-dashes".to_string());
+        assert_eq!(
+            slugify("   - - it-has-dashes - -"),
+            "it-has-dashes".to_string()
+        );
+    }
 }
