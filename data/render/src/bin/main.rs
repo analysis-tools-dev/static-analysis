@@ -3,6 +3,7 @@ use askama::Template;
 use pico_args::Arguments;
 use render::types::{Entry, ParsedEntry, Tag, Tags, Type};
 use render::{check_deprecated, create_api, create_catalog};
+use std::collections::HashMap;
 use std::env;
 use std::ffi::OsStr;
 use std::fs;
@@ -101,7 +102,11 @@ fn main() -> Result<()> {
         args.json_out.display()
     ))?;
 
-    let json = serde_json::to_string_pretty(&tags)?;
+    let mut tags_json = HashMap::new();
+    tags_json.insert("languages", languages);
+    tags_json.insert("other", other_tags);
+    let json = serde_json::to_string_pretty(&tags_json)?;
+
     let tags_out = args.json_out.join("tags.json");
     fs::write(&tags_out, json).context(format!(
         "Cannot write tags JSON output to {}",
