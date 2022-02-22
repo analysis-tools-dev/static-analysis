@@ -1,0 +1,32 @@
+name: callGraph
+categories:
+  - linter
+tags:
+  - awk
+  - shell
+  - dart
+  - fortran
+  - go
+  - lua
+  - javascript
+  - julia
+  - kotlin
+  - matlab
+  - perl
+  - pascal
+  - php
+  - python
+  - r
+  - raku
+  - ruby
+  - rust
+  - scala
+  - swift
+  - tcl
+  - typescript
+license: GNU General Public License
+types:
+  - cli
+source: 'https://github.com/koknat/callGraph'
+homepage: 'https://github.com/koknat/callGraph'
+description: Statically generates a call graph image and displays it on screen.
