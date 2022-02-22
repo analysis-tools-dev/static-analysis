@@ -3185,37 +3185,6 @@
     "resources": null,
     "wrapper": null
   },
-  "crocodile-putout": {
-    "name": "🐊Putout",
-    "categories": [
-      "linter"
-    ],
-    "languages": [
-      "flow",
-      "javascript",
-      "jsx",
-      "typescript"
-    ],
-    "other": [
-      "css",
-      "json",
-      "markdown",
-      "yaml"
-    ],
-    "licenses": [
-      "MIT License"
-    ],
-    "types": [
-      "cli"
-    ],
-    "homepage": "https://github.com/coderaiser/putout",
-    "source": "https://github.com/coderaiser/putout",
-    "description": "Pluggable and configurable code transformer with built-in eslint, babel plugins support for js, jsx typescript, flow, markdown, yaml and json.",
-    "discussion": null,
-    "deprecated": null,
-    "resources": null,
-    "wrapper": null
-  },
   "crystal": {
     "name": "crystal",
     "categories": [
@@ -4004,8 +3973,8 @@
   "diktat": {
     "name": "diktat",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "kotlin"
@@ -6348,8 +6317,8 @@
       "MIT License"
     ],
     "types": [
-      "ide-plugin",
-      "cli"
+      "cli",
+      "ide-plugin"
     ],
     "homepage": "https://html-validate.org/",
     "source": "https://gitlab.com/html-validate/html-validate",
@@ -8277,9 +8246,9 @@
       "proprietary"
     ],
     "types": [
+      "ide-plugin",
       "cli",
-      "service",
-      "ide-plugin"
+      "service"
     ],
     "homepage": "https://mythx.io",
     "source": null,
@@ -10422,6 +10391,37 @@
     "resources": null,
     "wrapper": null
   },
+  "putout": {
+    "name": "Putout",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "flow",
+      "javascript",
+      "jsx",
+      "typescript"
+    ],
+    "other": [
+      "css",
+      "json",
+      "markdown",
+      "yaml"
+    ],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/coderaiser/putout",
+    "source": "https://github.com/coderaiser/putout",
+    "description": "Pluggable and configurable code transformer with built-in eslint, babel plugins support for js, jsx typescript, flow, markdown, yaml and json.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "wrapper": null
+  },
   "pvs-studio": {
     "name": "PVS-Studio",
     "categories": [
@@ -12251,8 +12251,8 @@
       "Other"
     ],
     "types": [
-      "service",
-      "cli"
+      "cli",
+      "service"
     ],
     "homepage": "https://slscan.io",
     "source": "https://github.com/ShiftLeftSecurity/sast-scan",
@@ -12303,8 +12303,8 @@
       "AGPL-3.0"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://docs.shisho.dev/",
     "source": "https://github.com/flatt-security/shisho",
@@ -12944,8 +12944,8 @@
   "sqlfluff": {
     "name": "SQLFluff",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "sql"
@@ -13627,8 +13627,8 @@
       "proprietary"
     ],
     "types": [
-      "service",
-      "ide-plugin"
+      "ide-plugin",
+      "service"
     ],
     "homepage": "https://www.cqse.eu/en/teamscale/overview/",
     "source": null,
@@ -14353,8 +14353,8 @@
       "MIT License"
     ],
     "types": [
-      "service",
-      "cli"
+      "cli",
+      "service"
     ],
     "homepage": "https://unibeautify.com",
     "source": "https://github.com/unibeautify/unibeautify",
@@ -14367,8 +14367,8 @@
   "unimport": {
     "name": "unimport",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "python"
@@ -14638,8 +14638,8 @@
       "MIT License"
     ],
     "types": [
-      "ide-plugin",
-      "cli"
+      "cli",
+      "ide-plugin"
     ],
     "homepage": "https://marketplace.visualstudio.com/items?itemName=octref.vetur",
     "source": "https://github.com/vuejs/vetur",
