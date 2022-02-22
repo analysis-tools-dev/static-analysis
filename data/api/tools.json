@@ -13,8 +13,8 @@
     ],
     "types": [
       "cli",
-      "service",
-      "ide-plugin"
+      "ide-plugin",
+      "service"
     ],
     "homepage": "https://abaplint.org",
     "source": "https://github.com/abaplint/abaplint",
@@ -1139,6 +1139,50 @@
     "homepage": "https://c2rust.com",
     "source": "https://github.com/immunant/c2rust",
     "description": "C2Rust helps you migrate C99-compliant code to Rust. The translator (or transpiler) produces unsafe Rust code that closely mirrors the input C code.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "wrapper": null
+  },
+  "callgraph": {
+    "name": "callGraph",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "awk",
+      "dart",
+      "fortran",
+      "go",
+      "javascript",
+      "julia",
+      "kotlin",
+      "lua",
+      "matlab",
+      "pascal",
+      "perl",
+      "php",
+      "python",
+      "r",
+      "raku",
+      "ruby",
+      "rust",
+      "scala",
+      "shell",
+      "swift",
+      "tcl",
+      "typescript"
+    ],
+    "other": [],
+    "licenses": [
+      "GNU General Public License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/koknat/callGraph",
+    "source": "https://github.com/koknat/callGraph",
+    "description": "Statically generates a call graph image and displays it on screen.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
@@ -3960,8 +4004,8 @@
   "diktat": {
     "name": "diktat",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "kotlin"
@@ -5537,8 +5581,8 @@
   "gofmt-s": {
     "name": "gofmt -s",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "go"
@@ -8233,8 +8277,8 @@
       "proprietary"
     ],
     "types": [
-      "service",
       "cli",
+      "service",
       "ide-plugin"
     ],
     "homepage": "https://mythx.io",
@@ -8476,8 +8520,8 @@
       "GNU General Public License v3.0"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://opensecurity.in",
     "source": "https://github.com/ajinabraham/NodeJsScan",
@@ -12054,8 +12098,8 @@
       "GNU Lesser General Public License v2.1"
     ],
     "types": [
-      "service",
-      "cli"
+      "cli",
+      "service"
     ],
     "homepage": "https://semgrep.dev",
     "source": "https://github.com/returntocorp/semgrep",
@@ -12207,8 +12251,8 @@
       "Other"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://slscan.io",
     "source": "https://github.com/ShiftLeftSecurity/sast-scan",
@@ -12259,8 +12303,8 @@
       "AGPL-3.0"
     ],
     "types": [
-      "service",
-      "cli"
+      "cli",
+      "service"
     ],
     "homepage": "https://docs.shisho.dev/",
     "source": "https://github.com/flatt-security/shisho",
@@ -13857,8 +13901,8 @@
   "trunk": {
     "name": "trunk",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "c",
@@ -14594,8 +14638,8 @@
       "MIT License"
     ],
     "types": [
-      "cli",
-      "ide-plugin"
+      "ide-plugin",
+      "cli"
     ],
     "homepage": "https://marketplace.visualstudio.com/items?itemName=octref.vetur",
     "source": "https://github.com/vuejs/vetur",
