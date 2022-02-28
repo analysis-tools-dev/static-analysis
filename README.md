@@ -1009,7 +1009,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 <h2 id="json">JSON</h2>
 
-- [Spectral](https://stoplight.io/open-source/spectral) — A flexible JSON/YAML linter, without of the box support for OpenAPI v2/v3 and AsyncAPI v2.
+- [Spectral](https://stoplight.io/open-source/spectral) — A flexible JSON/YAML linter, with out-of-the-box support for OpenAPI v2/v3 and AsyncAPI v2.
 
 
 <h2 id="kubernetes">Kubernetes</h2>
@@ -1192,7 +1192,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 <h2 id="yaml">YAML</h2>
 
-- [Spectral](https://stoplight.io/open-source/spectral) — A flexible JSON/YAML linter, without of the box support for OpenAPI v2/v3 and AsyncAPI v2.
+- [Spectral](https://stoplight.io/open-source/spectral) — A flexible JSON/YAML linter, with out-of-the-box support for OpenAPI v2/v3 and AsyncAPI v2.
 - [yamllint](https://yamllint.readthedocs.io) — Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation.
 
 
