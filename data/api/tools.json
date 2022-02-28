@@ -12,8 +12,8 @@
       "MIT License"
     ],
     "types": [
-      "ide-plugin",
       "service",
+      "ide-plugin",
       "cli"
     ],
     "homepage": "https://abaplint.org",
@@ -1694,8 +1694,8 @@
   "ciocheck": {
     "name": "ciocheck",
     "categories": [
-      "formatter",
-      "meta"
+      "meta",
+      "formatter"
     ],
     "languages": [
       "python"
@@ -3973,8 +3973,8 @@
   "diktat": {
     "name": "diktat",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "kotlin"
@@ -5550,8 +5550,8 @@
   "gofmt-s": {
     "name": "gofmt -s",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "go"
@@ -6317,8 +6317,8 @@
       "MIT License"
     ],
     "types": [
-      "ide-plugin",
-      "cli"
+      "cli",
+      "ide-plugin"
     ],
     "homepage": "https://html-validate.org/",
     "source": "https://gitlab.com/html-validate/html-validate",
@@ -6903,6 +6903,30 @@
     "resources": null,
     "wrapper": null
   },
+  "jsonlint": {
+    "name": "jsonlint",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "json"
+    ],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli",
+      "service"
+    ],
+    "homepage": "https://jsonlint.com/",
+    "source": "https://github.com/zaach/jsonlint",
+    "description": "A JSON parser and validator with a CLI. Standalone version of jsonlint.com",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "wrapper": null
+  },
   "jsprime": {
     "name": "JSPrime",
     "categories": [
@@ -7038,8 +7062,8 @@
   "ktlint": {
     "name": "ktlint",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "kotlin"
@@ -8247,8 +8271,8 @@
     ],
     "types": [
       "cli",
-      "ide-plugin",
-      "service"
+      "service",
+      "ide-plugin"
     ],
     "homepage": "https://mythx.io",
     "source": null,
@@ -12251,8 +12275,8 @@
       "Other"
     ],
     "types": [
-      "service",
-      "cli"
+      "cli",
+      "service"
     ],
     "homepage": "https://slscan.io",
     "source": "https://github.com/ShiftLeftSecurity/sast-scan",
@@ -12303,8 +12327,8 @@
       "AGPL-3.0"
     ],
     "types": [
-      "service",
-      "cli"
+      "cli",
+      "service"
     ],
     "homepage": "https://docs.shisho.dev/",
     "source": "https://github.com/flatt-security/shisho",
@@ -12944,8 +12968,8 @@
   "sqlfluff": {
     "name": "SQLFluff",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "sql"
@@ -13627,8 +13651,8 @@
       "proprietary"
     ],
     "types": [
-      "service",
-      "ide-plugin"
+      "ide-plugin",
+      "service"
     ],
     "homepage": "https://www.cqse.eu/en/teamscale/overview/",
     "source": null,
@@ -14255,7 +14279,7 @@
     "source": "https://github.com/mdempsky/unconvert",
     "description": "Detect redundant type conversions.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "wrapper": null
   },
@@ -14367,8 +14391,8 @@
   "unimport": {
     "name": "unimport",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "python"
@@ -14627,8 +14651,8 @@
   "vetur": {
     "name": "Vetur",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [],
     "other": [
@@ -14638,8 +14662,8 @@
       "MIT License"
     ],
     "types": [
-      "ide-plugin",
-      "cli"
+      "cli",
+      "ide-plugin"
     ],
     "homepage": "https://marketplace.visualstudio.com/items?itemName=octref.vetur",
     "source": "https://github.com/vuejs/vetur",
@@ -14705,7 +14729,7 @@
     "source": "https://github.com/Kuniwak/vint",
     "description": "Fast and Highly Extensible Vim script Language Lint implemented by Python.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "wrapper": null
   },
@@ -14823,7 +14847,7 @@
     "source": "https://github.com/Vannevelj/VSDiagnostics",
     "description": "A collection of static analyzers based on Roslyn that integrates with VS.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "wrapper": null
   },
