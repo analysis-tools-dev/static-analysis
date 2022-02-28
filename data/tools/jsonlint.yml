@@ -1,0 +1,13 @@
+name: jsonlint
+categories:
+  - linter
+tags:
+  - json
+license: MIT License
+types:
+  - cli
+  - service
+source: 'https://github.com/zaach/jsonlint'
+homepage: 'https://jsonlint.com/'
+description: >-
+  A JSON parser and validator with a CLI. Standalone version of jsonlint.com
