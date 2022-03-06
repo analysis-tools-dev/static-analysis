@@ -7,7 +7,7 @@
 This repository lists **static analysis tools** for all programming languages, build tools, config files and more.  
 The official website, [analysis-tools.dev](https://analysis-tools.dev/) is based on this repository and adds rankings, user comments, and additional resources like videos for each tool.
 
-[![Check Links](https://github.com/analysis-tools-dev/static-analysis/actions/workflows/links.yml/badge.svg)](https://github.com/analysis-tools-dev/static-analysis/actions/workflows/links.yml)
+![CI](https://github.com/analysis-tools-dev/static-analysis/workflows/CI/badge.svg)
 
 ## What is Static Analysis?
 
