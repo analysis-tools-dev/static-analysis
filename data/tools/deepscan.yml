@@ -1,12 +1,13 @@
 name: DeepScan
 categories:
-  - linter
+- linter
 tags:
-  - javascript
+- javascript
 license: proprietary
 types:
-  - cli
-homepage: 'https://deepscan.io'
+- cli
+homepage: https://deepscan.io
 description: >-
-  An analyzer for JavaScript which targets runtime errors and quality issues
-  rather than coding conventions.
+  An analyzer for JavaScript which targets runtime errors and quality issues rather
+  than coding conventions.
+pricing: https://deepscan.io/pricing

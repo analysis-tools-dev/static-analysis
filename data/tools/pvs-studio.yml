@@ -1,25 +1,25 @@
 name: PVS-Studio
 categories:
-  - linter
+- linter
 tags:
-  - c
-  - cpp
-  - csharp
-  - java
+- c
+- cpp
+- csharp
+- java
 license: proprietary
 types:
-  - service
-homepage: "https://pvs-studio.com"
+- service
+homepage: https://pvs-studio.com
 description: >-
-  A ([conditionally free](https://pvs-studio.com/en/order/open-source-license) for FOSS and
-  individual developers) static analysis of C, C++, C# and Java code. For
-  advertising purposes [you can propose a large FOSS project for analysis by PVS
-  employees](https://github.com/viva64/pvs-studio-check-list). Supports CWE
-  mapping, MISRA and CERT coding standards.
+  A ([conditionally free](https://pvs-studio.com/en/order/open-source-license) for
+  FOSS and individual developers) static analysis of C, C++, C# and Java code. For
+  advertising purposes [you can propose a large FOSS project for analysis by PVS employees](https://github.com/viva64/pvs-studio-check-list).
+  Supports CWE mapping, MISRA and CERT coding standards.
 resources:
-  - title: PVS-Studio is now in Compiler Explorer!
-    url: https://www.youtube.com/watch?v=hw5npZqB3b8
-  - title: PVS-Studio in 2019
-    url: https://www.youtube.com/watch?v=FkfMGqxIR-I
-  - title: Static Analysis in C++ (mostly about PVS-Studio)
-    url: https://www.youtube.com/watch?v=vYW6TOwFK2M
+- title: PVS-Studio is now in Compiler Explorer!
+  url: https://www.youtube.com/watch?v=hw5npZqB3b8
+- title: PVS-Studio in 2019
+  url: https://www.youtube.com/watch?v=FkfMGqxIR-I
+- title: Static Analysis in C++ (mostly about PVS-Studio)
+  url: https://www.youtube.com/watch?v=vYW6TOwFK2M
+pricing: https://pvs-studio.com/en/order/license/

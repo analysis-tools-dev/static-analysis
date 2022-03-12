@@ -1,13 +1,14 @@
 name: PC-lint
 categories:
-  - linter
+- linter
 tags:
-  - c
-  - cpp
+- c
+- cpp
 license: proprietary
 types:
-  - cli
-homepage: 'https://www.gimpel.com'
+- cli
+homepage: https://www.gimpel.com
 description: >-
-  Static analysis for C/C++. Runs natively under Windows/Linux/MacOS. Analyzes
-  code for virtually any platform, supporting C11/C18 and C++17.
+  Static analysis for C/C++. Runs natively under Windows/Linux/MacOS. Analyzes code
+  for virtually any platform, supporting C11/C18 and C++17.
+pricing: https://www.gimpel.com/order.html

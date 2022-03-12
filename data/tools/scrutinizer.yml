@@ -1,17 +1,19 @@
 name: Scrutinizer
 categories:
-  - linter
+- linter
 tags:
-  - ci
-  - php
-  - python
-  - ruby
-  - java
-  - javascript
-  - go
-  - typescript
+- ci
+- php
+- python
+- ruby
+- java
+- javascript
+- go
+- typescript
 license: proprietary
 types:
-  - service
-homepage: 'https://scrutinizer-ci.com'
-description: A proprietary code quality checker that can be integrated with GitHub.
+- service
+homepage: https://scrutinizer-ci.com
+description: >-
+  A proprietary code quality checker that can be integrated with GitHub.
+pricing: https://scrutinizer-ci.com/pricing

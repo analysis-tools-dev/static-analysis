@@ -1,22 +1,22 @@
 name: Kiuwan
 categories:
-  - linter
+- linter
 tags:
-  - c
-  - cpp
-  - go
-  - java
-  - javascript
-  - kotlin
-  - php
-  - python
-  - scala
-  - swift
+- c
+- cpp
+- go
+- java
+- javascript
+- kotlin
+- php
+- python
+- scala
+- swift
 license: proprietary
 types:
-  - service
-homepage: 'https://www.kiuwan.com/code-security-sast'
+- service
+homepage: https://www.kiuwan.com/code-security-sast
 description: >-
-  Identify and remediate cyber threats in a blazingly fast, collaborative
-  environment, with seamless integration in your SDLC. Python, C\C++, Java, C#,
-  PHP and more.
+  Identify and remediate cyber threats in a blazingly fast, collaborative environment,
+  with seamless integration in your SDLC. Python, C\C++, Java, C#, PHP and more.
+pricing: https://www.kiuwan.com/pricing

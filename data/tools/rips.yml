@@ -1,12 +1,13 @@
 name: RIPS
 categories:
-  - linter
+- linter
 tags:
-  - java
-  - nodejs
-  - php
+- java
+- nodejs
+- php
 license: proprietary
 types:
-  - cli
-homepage: 'https://www.ripstech.com'
+- cli
+homepage: https://www.ripstech.com
 description: A static source code analyser for vulnerabilities in PHP scripts.
+pricing: https://www.ripstech.com/pricing

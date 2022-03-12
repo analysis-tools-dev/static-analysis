@@ -1,12 +1,12 @@
 name: Visual Expert
 categories:
-  - linter
+- linter
 tags:
-  - sql
+- sql
 license: proprietary
 types:
-  - service 
-homepage: 'https://www.visual-expert.com'
-description: >-
-  Code analysis for PowerBuilder, Oracle, and SQL Server
-  Explores, analyzes, and documents Code 
+- service
+homepage: https://www.visual-expert.com
+description: "Code analysis for PowerBuilder, Oracle, and SQL Server Explores, analyzes,\
+  \ and documents Code "
+pricing: https://www.visual-expert.com/EN/visual-expert-price.html

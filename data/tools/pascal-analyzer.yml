@@ -1,12 +1,13 @@
 name: Pascal Analyzer
 categories:
-  - linter
+- linter
 tags:
-  - delphi
+- delphi
 license: proprietary
 types:
-  - cli
-homepage: 'https://peganza.com/products_pal.html'
+- cli
+homepage: https://peganza.com/products_pal.html
 description: >-
-  A static code analysis tool with numerous reports. A free _Lite_ version is
-  available with limited reporting.
+  A static code analysis tool with numerous reports. A free _Lite_ version is available
+  with limited reporting.
+pricing: https://peganza.com/orders.html

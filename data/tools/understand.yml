@@ -1,29 +1,30 @@
 name: Understand
 categories:
-  - linter
+- linter
 tags:
-  - ada
-  - asm
-  - c 
-  - cpp
-  - csharp
-  - cobol
-  - css
-  - fortran
-  - html
-  - java
-  - javascript
-  - delphi
-  - php
-  - python
-  - typescript
-  - vhdl
-  - vbnet
-  - xml 
+- ada
+- asm
+- c
+- cpp
+- csharp
+- cobol
+- css
+- fortran
+- html
+- java
+- javascript
+- delphi
+- php
+- python
+- typescript
+- vhdl
+- vbnet
+- xml
 license: proprietary
 types:
-  - cli
-homepage: 'https://www.scitools.com'
+- cli
+homepage: https://www.scitools.com
 description: >-
-  Code visualization tool that provides code analysis, standards testing, metrics, graphing,
-  dependency analysis and more for Ada, VHDL, and others.
+  Code visualization tool that provides code analysis, standards testing, metrics,
+  graphing, dependency analysis and more for Ada, VHDL, and others.
+pricing: https://www.scitools.com/pricing

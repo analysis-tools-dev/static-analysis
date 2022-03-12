@@ -1,14 +1,14 @@
 name: Symfony Insight
 categories:
-  - linter
+- linter
 tags:
-  - php
-  - ci
-  - security
+- php
+- ci
+- security
 license: proprietary
 types:
-  - service
-homepage: 'https://insight.symfony.com/'
+- service
+homepage: https://insight.symfony.com/
 description: >-
-  Detect security risks, find bugs and provide actionable metrics for PHP
-  projects.
+  Detect security risks, find bugs and provide actionable metrics for PHP projects.
+pricing: https://insight.symfony.com/pricing

@@ -1,19 +1,20 @@
 name: Upsource
 categories:
-  - linter
+- linter
 tags:
-  - ci
-  - java
-  - javascript
-  - kotlin
-  - php
+- ci
+- java
+- javascript
+- kotlin
+- php
 license: proprietary
 types:
-  - service
-homepage: 'https://www.jetbrains.com/upsource'
+- service
+homepage: https://www.jetbrains.com/upsource
 description: >-
-  Code review tool with static code analysis and code-aware navigation for Java,
-  PHP, JavaScript and Kotlin.
+  Code review tool with static code analysis and code-aware navigation for Java, PHP,
+  JavaScript and Kotlin.
 resources:
-  - title: Upsource - Code Review Best Practices
-    url: https://www.youtube.com/watch?v=EjwD7Pi7J_0
+- title: Upsource - Code Review Best Practices
+  url: https://www.youtube.com/watch?v=EjwD7Pi7J_0
+pricing: https://www.jetbrains.com/buy

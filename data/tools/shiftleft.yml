@@ -1,26 +1,28 @@
 name: ShiftLeft
 categories:
-  - linter
+- linter
 tags:
-  - java
-  - javascript
-  - jsp
-  - csharp
-  - python
-  - scala
-  - go
-  - configmanagement
-  - security
+- java
+- javascript
+- jsp
+- csharp
+- python
+- scala
+- go
+- configmanagement
+- security
 license: proprietary
 types:
-  - service
-homepage: "https://www.shiftleft.io"
+- service
+homepage: https://www.shiftleft.io
 description: >-
   Identify vulnerabilities that are unique to your code base before they reach production.
-  Leverages the Code Property Graph (CPG) to run its analyses concurrently in a single graph of graphs.
-  Automatically finds business logic flaws in dev like hardcoded secrets and logic bombs
+  Leverages the Code Property Graph (CPG) to run its analyses concurrently in a single
+  graph of graphs. Automatically finds business logic flaws in dev like hardcoded
+  secrets and logic bombs
 resources:
-  - title: Securing Every Pull Request with ShiftLeft
-    url: https://vimeo.com/383381584
-  - title: ShiftLeft Intro 
-    url: https://vimeo.com/233423863
+- title: Securing Every Pull Request with ShiftLeft
+  url: https://vimeo.com/383381584
+- title: ShiftLeft Intro
+  url: https://vimeo.com/233423863
+pricing: https://www.shiftleft.io/pricing

@@ -1,13 +1,14 @@
 name: Rudra
 categories:
-  - linter
+- linter
 tags:
-  - rust
+- rust
 license: proprietary
 types:
-  - cli
-source: 'https://github.com/sslab-gatech/Rudra'
-homepage: 'https://github.com/sslab-gatech/Rudra'
+- cli
+source: https://github.com/sslab-gatech/Rudra
+homepage: https://github.com/sslab-gatech/Rudra
 description: >-
-  Rust Memory Safety & Undefined Behavior Detection.
-  It is capable of analyzing single Rust packages as well as all the packages on crates.io.
+  Rust Memory Safety & Undefined Behavior Detection. It is capable of analyzing single
+  Rust packages as well as all the packages on crates.io.
+pricing: https://github.com/pricing

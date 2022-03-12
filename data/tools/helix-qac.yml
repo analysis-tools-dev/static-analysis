@@ -1,18 +1,19 @@
 name: Helix QAC
 categories:
-  - linter
+- linter
 tags:
-  - c
-  - cpp
+- c
+- cpp
 license: proprietary
 types:
-  - cli
-homepage: 'https://www.perforce.com/products/helix-qac'
+- cli
+homepage: https://www.perforce.com/products/helix-qac
 description: >-
-  Enterprise-grade static analysis for embedded software. Supports MISRA, CERT,
-  and AUTOSAR coding standards.
+  Enterprise-grade static analysis for embedded software. Supports MISRA, CERT, and
+  AUTOSAR coding standards.
 resources:
-  - title: Code with Confidence - Helix QAC
-    url: https://www.youtube.com/watch?v=HHaBnZx2fGY
-  - title: How to Apply AUTOSAR Guidelines With Helix QAC
-    url: https://www.youtube.com/watch?v=XFvZ_hh6LCo
+- title: Code with Confidence - Helix QAC
+  url: https://www.youtube.com/watch?v=HHaBnZx2fGY
+- title: How to Apply AUTOSAR Guidelines With Helix QAC
+  url: https://www.youtube.com/watch?v=XFvZ_hh6LCo
+pricing: https://www.perforce.com/purchase

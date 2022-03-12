@@ -1,13 +1,14 @@
 name: PullRequest
 categories:
-  - linter
+- linter
 tags:
-  - ci
+- ci
 license: proprietary
 types:
-  - service
-homepage: "https://www.pullrequest.com"
+- service
+homepage: https://www.pullrequest.com
 description: >-
-  Code review as a service with built-in static analysis. 
-  Increase velocity and reduce technical debt through quality code review by
-  expert engineers backed by best-in-class automation.
+  Code review as a service with built-in static analysis.  Increase velocity and reduce
+  technical debt through quality code review by expert engineers backed by best-in-class
+  automation.
+pricing: https://www.pullrequest.com/pricing

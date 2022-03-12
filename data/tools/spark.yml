@@ -1,10 +1,11 @@
 name: SPARK
 categories:
-  - linter
+- linter
 tags:
-  - ada
+- ada
 license: proprietary
 types:
-  - cli
-homepage: 'https://www.adacore.com/about-spark'
+- cli
+homepage: https://www.adacore.com/about-spark
 description: Static analysis and formal verification toolset for Ada.
+pricing: https://www.adacore.com/pricing
