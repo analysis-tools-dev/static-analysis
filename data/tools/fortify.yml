@@ -1,36 +1,36 @@
 name: Fortify
 categories:
-- linter
+  - linter
 tags:
-- abap
-- actionscript
-- apex
-- aspnet
-- c
-- cobol
-- coldfusion
-- cpp
-- csharp
-- html
-- java
-- javascript
-- jsp
-- objectivec
-- php
-- plsql
-- python
-- ruby
-- scala
-- security
-- swift
-- tsql
-- vbasic
-- vbnet
-- vbscript
-- xml
+  - abap
+  - actionscript
+  - apex
+  - aspnet
+  - c
+  - cobol
+  - coldfusion
+  - cpp
+  - csharp
+  - html
+  - java
+  - javascript
+  - jsp
+  - objectivec
+  - php
+  - plsql
+  - python
+  - ruby
+  - scala
+  - security
+  - swift
+  - tsql
+  - vbasic
+  - vbnet
+  - vbscript
+  - xml
 license: proprietary
 types:
-- ide-plugin
+  - ide-plugin
 homepage: https://software.microfocus.com/en-us/products/static-code-analysis-sast/overview
 description: >-
   A commercial static analysis platform that supports the scanning of C/C++, C#, VB.NET,
@@ -38,6 +38,5 @@ description: >-
   HTML, Java, JS, JSP, MXML/Flex, Objective-C, PHP, PL/SQL, T-SQL, Python (2.6, 2.7),
   Ruby (1.9.3), Swift, Scala, VB, and XML.
 resources:
-- title: Visual Studio - real-time security with Fortify Security Assistant (2018)
-  url: https://www.youtube.com/watch?v=7CfeUXtDlwQ
-pricing: https://software.microfocus.com/pricing
+  - title: Visual Studio - real-time security with Fortify Security Assistant (2018)
+    url: https://www.youtube.com/watch?v=7CfeUXtDlwQ

@@ -1,16 +1,16 @@
 name: DeepCode
 categories:
-- linter
+  - linter
 tags:
-- c
-- cpp
-- java
-- javascript
-- python
-- typescript
+  - c
+  - cpp
+  - java
+  - javascript
+  - python
+  - typescript
 license: proprietary
 types:
-- service
+  - service
 homepage: https://www.deepcode.ai
 description: >-
   DeepCode finds bugs, security vulnerabilities, performance and API issues based
@@ -19,8 +19,7 @@ description: >-
   Java, C/C++, JavaScript, Python, and TypeScript. Integrations with GitHub, BitBucket
   and Gitlab.
 resources:
-- title: Intro to DeepCode
-  url: https://www.youtube.com/watch?v=5ThvYN3nWcg
-- title: How DeepCode addresses False Positives
-  url: https://www.youtube.com/watch?v=d-fvZ83O_es
-pricing: https://www.deepcode.ai/pricing
+  - title: Intro to DeepCode
+    url: https://www.youtube.com/watch?v=5ThvYN3nWcg
+  - title: How DeepCode addresses False Positives
+    url: https://www.youtube.com/watch?v=d-fvZ83O_es

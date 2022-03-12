@@ -1,13 +1,13 @@
 name: JArchitect
 categories:
-- linter
+  - linter
 tags:
-- java
+  - java
 license: proprietary
 types:
-- cli
+  - cli
 homepage: https://www.jarchitect.com
 description: >-
   Measure, query and visualize your code and avoid unexpected issues, technical debt
   and complexity.
-pricing: https://www.jarchitect.com/pricing
+pricing: https://www.jarchitect.com/purchase

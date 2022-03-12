@@ -1,13 +1,13 @@
 name: MythX
 categories:
-- linter
+  - linter
 tags:
-- smart-contracts
+  - smart-contracts
 license: proprietary
 types:
-- cli
-- service
-- ide-plugin
+  - cli
+  - service
+  - ide-plugin
 homepage: https://mythx.io
 description: >-
   MythX is an easy to use analysis platform which integrates several analysis methods
@@ -15,6 +15,6 @@ description: >-
   high precision. It can be integrated with toolchains like Remix or VSCode or called
   from the command-line.
 resources:
-- title: What is MythX?
-  url: https://www.youtube.com/watch?v=N-dAuqNztjA
-pricing: https://mythx.io/pricing
+  - title: What is MythX?
+    url: https://www.youtube.com/watch?v=N-dAuqNztjA
+pricing: https://mythx.io/plans/
