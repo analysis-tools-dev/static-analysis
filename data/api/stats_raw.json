@@ -1,0 +1,265 @@
+{
+    "status": "success",
+    "data": {
+        "resultType": "vector",
+        "result": [
+            {
+                "metric": {
+                    "path": "/tool/better-code-hub"
+                },
+                "value": [
+                    1645390881.154,
+                    "20"
+                ]
+            },
+            {
+                "metric": {
+                    "path": "/tool/black"
+                },
+                "value": [
+                    1645390881.154,
+                    "41"
+                ]
+            },
+            {
+                "metric": {
+                    "path": "/tool/codacy"
+                },
+                "value": [
+                    1645390881.154,
+                    "23"
+                ]
+            },
+            {
+                "metric": {
+                    "path": "/tool/codescene"
+                },
+                "value": [
+                    1645390881.154,
+                    "62"
+                ]
+            },
+            {
+                "metric": {
+                    "path": "/tool/coverity"
+                },
+                "value": [
+                    1645390881.154,
+                    "37"
+                ]
+            },
+            {
+                "metric": {
+                    "path": "/tool/eslint"
+                },
+                "value": [
+                    1645390881.154,
+                    "20"
+                ]
+            },
+            {
+                "metric": {
+                    "path": "/tool/fortify"
+                },
+                "value": [
+                    1645390881.154,
+                    "18"
+                ]
+            },
+            {
+                "metric": {
+                    "path": "/tool/go-vet"
+                },
+                "value": [
+                    1645390881.154,
+                    "23"
+                ]
+            },
+            {
+                "metric": {
+                    "path": "/tool/golangci-lint"
+                },
+                "value": [
+                    1645390881.154,
+                    "51"
+                ]
+            },
+            {
+                "metric": {
+                    "path": "/tool/graudit"
+                },
+                "value": [
+                    1645390881.154,
+                    "26"
+                ]
+            },
+            {
+                "metric": {
+                    "path": "/tool/insidersec"
+                },
+                "value": [
+                    1645390881.154,
+                    "34"
+                ]
+            },
+            {
+                "metric": {
+                    "path": "/tool/intellij-idea"
+                },
+                "value": [
+                    1645390881.154,
+                    "21"
+                ]
+            },
+            {
+                "metric": {
+                    "path": "/tool/lizard"
+                },
+                "value": [
+                    1645390881.154,
+                    "21"
+                ]
+            },
+            {
+                "metric": {
+                    "path": "/tool/mega-linter"
+                },
+                "value": [
+                    1645390881.154,
+                    "160"
+                ]
+            },
+            {
+                "metric": {
+                    "path": "/tool/mypy"
+                },
+                "value": [
+                    1645390881.154,
+                    "22"
+                ]
+            },
+            {
+                "metric": {
+                    "path": "/tool/njsscan"
+                },
+                "value": [
+                    1645390881.154,
+                    "22"
+                ]
+            },
+            {
+                "metric": {
+                    "path": "/tool/nodejsscan"
+                },
+                "value": [
+                    1645390881.154,
+                    "21"
+                ]
+            },
+            {
+                "metric": {
+                    "path": "/tool/phpstan"
+                },
+                "value": [
+                    1645390881.154,
+                    "21"
+                ]
+            },
+            {
+                "metric": {
+                    "path": "/tool/pysa"
+                },
+                "value": [
+                    1645390881.154,
+                    "19"
+                ]
+            },
+            {
+                "metric": {
+                    "path": "/tool/security-code-scan"
+                },
+                "value": [
+                    1645390881.154,
+                    "28"
+                ]
+            },
+            {
+                "metric": {
+                    "path": "/tool/semgrep"
+                },
+                "value": [
+                    1645390881.154,
+                    "85"
+                ]
+            },
+            {
+                "metric": {
+                    "path": "/tool/shiftleft-scan"
+                },
+                "value": [
+                    1645390881.154,
+                    "22"
+                ]
+            },
+            {
+                "metric": {
+                    "path": "/tool/sonarqube"
+                },
+                "value": [
+                    1645390881.154,
+                    "35"
+                ]
+            },
+            {
+                "metric": {
+                    "path": "/tool/teamscale"
+                },
+                "value": [
+                    1645390881.154,
+                    "38"
+                ]
+            },
+            {
+                "metric": {
+                    "path": "/tool/understand"
+                },
+                "value": [
+                    1645390881.154,
+                    "21"
+                ]
+            }
+        ],
+        "stats": {
+            "summary": {
+                "bytesProcessedPerSecond": 4199455,
+                "linesProcessedPerSecond": 9336,
+                "totalBytesProcessed": 2119027,
+                "totalLinesProcessed": 4711,
+                "execTime": 0.504595652
+            },
+            "store": {
+                "totalChunksRef": 4605,
+                "totalChunksDownloaded": 4605,
+                "chunksDownloadTime": 0.090923938,
+                "headChunkBytes": 0,
+                "headChunkLines": 0,
+                "decompressedBytes": 2110025,
+                "decompressedLines": 4689,
+                "compressedBytes": 1459363,
+                "totalDuplicates": 5
+            },
+            "ingester": {
+                "totalReached": 1,
+                "totalChunksMatched": 22,
+                "totalBatches": 1,
+                "totalLinesSent": 22,
+                "headChunkBytes": 6903,
+                "headChunkLines": 17,
+                "decompressedBytes": 2099,
+                "decompressedLines": 5,
+                "compressedBytes": 1463,
+                "totalDuplicates": 0
+            }
+        }
+    }
+}

@@ -1,8 +1,9 @@
 use anyhow::{Context, Result};
 use askama::Template;
 use pico_args::Arguments;
+use render::stats::StatsRaw;
 use render::types::{Entry, ParsedEntry, Tag, Tags, Type};
-use render::{check_deprecated, create_api, create_catalog};
+use render::{check_deprecated, create_api, create_catalog, format_stats};
 use std::collections::HashMap;
 use std::env;
 use std::ffi::OsStr;
@@ -112,5 +113,18 @@ fn main() -> Result<()> {
         "Cannot write tags JSON output to {}",
         args.json_out.display()
     ))?;
+
+    // let stats_raw = fs::read_to_string("data/api/stats_raw.json")?;
+    // let stats: StatsRaw = serde_json::from_str(&stats_raw)?;
+
+    // let stats = format_stats(stats);
+    // let json = serde_json::to_string(&stats)?;
+
+    // let stats_out = args.json_out.join("stats.json");
+    // fs::write(&stats_out, json).context(format!(
+    //     "Cannot write stats JSON output to {}",
+    //     args.json_out.display()
+    // ))?;
+
     Ok(())
 }

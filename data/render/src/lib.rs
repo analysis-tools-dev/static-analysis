@@ -5,8 +5,10 @@ use anyhow::Result;
 use chrono::{DateTime, Local, NaiveDateTime, Utc};
 use hubcaps::{Credentials, Github};
 use slug::slugify;
+use stats::StatsRaw;
 
 mod lints;
+pub mod stats;
 pub mod types;
 
 use std::{
@@ -217,4 +219,18 @@ mod tests {
             "it-has-dashes".to_string()
         );
     }
+}
+
+pub fn format_stats(stats: StatsRaw) -> BTreeMap<String, String> {
+    stats
+        .data
+        .result
+        .into_iter()
+        .map(|r| {
+            (
+                r.metric.path.trim_start_matches("/tool/").to_string(),
+                r.value.1,
+            )
+        })
+        .collect()
 }
