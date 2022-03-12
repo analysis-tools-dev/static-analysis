@@ -1,24 +1,26 @@
 name: ocular
 categories:
-  - linter
+- linter
 tags:
-  - java
-  - javascript
-  - jsp
-  - scala
-  - csharp
-  - c
-  - cpp
-  - go
-  - python
-  - swift
-  - security
+- java
+- javascript
+- jsp
+- scala
+- csharp
+- c
+- cpp
+- go
+- python
+- swift
+- security
 license: proprietary
 types:
-  - service
-homepage: 'https://www.shiftleft.io/ocular/'
+- service
+homepage: https://www.shiftleft.io/ocular/
 description: >-
-  Enables code auditors and security teams to interactively investigate their unique code bases 
-  to find business logic flaws and technical vulnerabilities that traditional SASTs cannot.
-  This is done by enabling the analyst to write their own custom queries.
-  Can find hard-coded secrets, authentication issues, and malicious code like rootkits and backdoors.
+  Enables code auditors and security teams to interactively investigate their unique
+  code bases  to find business logic flaws and technical vulnerabilities that traditional
+  SASTs cannot. This is done by enabling the analyst to write their own custom queries.
+  Can find hard-coded secrets, authentication issues, and malicious code like rootkits
+  and backdoors.
+pricing: https://www.shiftleft.io/pricing

@@ -1,25 +1,26 @@
 name: SonarCloud
 categories:
-  - linter
+- linter
 tags:
-  - ci
-  - security
-  - java
-  - javascript
-  - typescript
-  - csharp
-  - python
-  - cpp
-  - go
-  - kotlin
-  - swift
-  - ruby
-  - abap
-  - apex
+- ci
+- security
+- java
+- javascript
+- typescript
+- csharp
+- python
+- cpp
+- go
+- kotlin
+- swift
+- ruby
+- abap
+- apex
 license: proprietary
 types:
-  - service
-homepage: 'https://sonarcloud.io'
+- service
+homepage: https://sonarcloud.io
 description: >-
-  Multi-language cloud-based static code analysis. History, trends, security
-  hot-spots, pull request analysis and more. Free for open source.
+  Multi-language cloud-based static code analysis. History, trends, security hot-spots,
+  pull request analysis and more. Free for open source.
+pricing: https://sonarcloud.io/pricing

@@ -1,13 +1,13 @@
 name: Designite
 categories:
-  - linter
+- linter
 tags:
-  - csharp
+- csharp
 license: proprietary
 types:
-  - cli
-homepage: 'http://www.designite-tools.com'
+- cli
+homepage: http://www.designite-tools.com
 description: >-
-  Designite supports detection of various architecture, design, and
-  implementation smells, computation of various code quality metrics, and trend
-  analysis.
+  Designite supports detection of various architecture, design, and implementation
+  smells, computation of various code quality metrics, and trend analysis.
+pricing: http://www.designite-tools.com/buy

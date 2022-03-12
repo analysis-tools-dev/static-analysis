@@ -1,19 +1,20 @@
 name: DeepSource
 categories:
-  - linter
+- linter
 tags:
-  - configmanagement
-  - container
-  - go
-  - javascript
-  - python
-  - ruby
-  - sql
+- configmanagement
+- container
+- go
+- javascript
+- python
+- ruby
+- sql
 license: proprietary
 types:
-  - service
-homepage: "https://deepsource.io"
+- service
+homepage: https://deepsource.io
 description: >-
-  In-depth static analysis to find issues in verticals of bug risks, security,
-  anti-patterns, performance, documentation and style. Native integrations with
-  GitHub, GitLab and Bitbucket. Less than 5% false positives.
+  In-depth static analysis to find issues in verticals of bug risks, security, anti-patterns,
+  performance, documentation and style. Native integrations with GitHub, GitLab and
+  Bitbucket. Less than 5% false positives.
+pricing: https://deepsource.io/pricing

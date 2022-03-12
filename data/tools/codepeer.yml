@@ -1,13 +1,14 @@
 name: Codepeer
 categories:
-  - linter
+- linter
 tags:
-  - ada
+- ada
 license: proprietary
 types:
-  - cli
-homepage: 'http://www.adacore.com/codepeer'
+- cli
+homepage: http://www.adacore.com/codepeer
 description: Detects run-time and logic errors.
 resources:
-  - title: What's New in CodePeer 19
-    url: https://www.youtube.com/watch?v=8837TUpLLMo
+- title: What's New in CodePeer 19
+  url: https://www.youtube.com/watch?v=8837TUpLLMo
+pricing: http://www.adacore.com/pricing

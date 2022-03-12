@@ -1,13 +1,14 @@
 name: Qualys Container Security
 categories:
-  - linter
+- linter
 tags:
-  - container
-  - security
+- container
+- security
 license: proprietary
 types:
-  - service
-homepage: 'https://www.qualys.com/apps/container-security'
+- service
+homepage: https://www.qualys.com/apps/container-security
 description: >-
-  Container native application protection to provide visibility and control of
-  containerized applications.
+  Container native application protection to provide visibility and control of containerized
+  applications.
+pricing: https://www.qualys.com/free-trial/

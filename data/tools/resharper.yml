@@ -1,16 +1,17 @@
 name: ReSharper
 categories:
-  - linter
+- linter
 tags:
-  - asp
-  - csharp
-  - javascript
-  - typescript
-  - vbnet
+- asp
+- csharp
+- javascript
+- typescript
+- vbnet
 license: proprietary
 types:
-  - cli
-homepage: 'https://www.jetbrains.com/resharper'
+- cli
+homepage: https://www.jetbrains.com/resharper
 description: >-
-  Extends Visual Studio with on-the-fly code inspections for C#, VB.NET,
-  ASP.NET, JavaScript, TypeScript and other technologies.
+  Extends Visual Studio with on-the-fly code inspections for C#, VB.NET, ASP.NET,
+  JavaScript, TypeScript and other technologies.
+pricing: https://www.jetbrains.com/buy

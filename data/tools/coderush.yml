@@ -1,14 +1,15 @@
 name: CodeRush
 categories:
-  - linter
+- linter
 tags:
-  - aspnet
-  - csharp
-  - dotnet
+- aspnet
+- csharp
+- dotnet
 license: proprietary
 types:
-  - cli
-homepage: 'https://www.devexpress.com/products/coderush'
+- cli
+homepage: https://www.devexpress.com/products/coderush
 description: >-
-  Code creation, debugging, navigation, refactoring, analysis and visualization
-  tools that use the Roslyn engine in Visual Studio 2015 and up.
+  Code creation, debugging, navigation, refactoring, analysis and visualization tools
+  that use the Roslyn engine in Visual Studio 2015 and up.
+pricing: https://www.devexpress.com/purchase

@@ -1,24 +1,25 @@
 name: CAST Highlight
 categories:
-  - linter
+- linter
 tags:
-  - abap
-  - c
-  - cobol
-  - cpp
-  - csharp
-  - java
-  - javascript
-  - jsp
-  - php
-  - plsql
-  - python
-  - tsql
-  - vbasic
+- abap
+- c
+- cobol
+- cpp
+- csharp
+- java
+- javascript
+- jsp
+- php
+- plsql
+- python
+- tsql
+- vbasic
 license: proprietary
 types:
-  - cli
-homepage: 'https://www.castsoftware.com/products/highlight'
+- cli
+homepage: https://www.castsoftware.com/products/highlight
 description: >-
-  Commercial Static Code Analysis which runs locally, but uploads the results to
-  its cloud for presentation.
+  Commercial Static Code Analysis which runs locally, but uploads the results to its
+  cloud for presentation.
+pricing: https://www.castsoftware.com/products/highlight/pricing#pricing

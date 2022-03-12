@@ -1,15 +1,16 @@
 name: Axivion Bauhaus Suite
 categories:
-  - linter
+- linter
 tags:
-  - c
-  - cpp
-  - java
-  - php
+- c
+- cpp
+- java
+- php
 license: proprietary
 types:
-  - cli
-homepage: 'https://www.axivion.com/en/products-services-9#products_bauhaussuite'
+- cli
+homepage: https://www.axivion.com/en/products-services-9#products_bauhaussuite
 description: >-
-  Tracks down error-prone code locations, style violations, cloned or dead code,
-  cyclic dependencies and more for C/C++, C#/.NET, Java and Ada 83/Ada 95.
+  Tracks down error-prone code locations, style violations, cloned or dead code, cyclic
+  dependencies and more for C/C++, C#/.NET, Java and Ada 83/Ada 95.
+pricing: https://www.axivion.com/pricing
