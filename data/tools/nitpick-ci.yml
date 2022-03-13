@@ -1,12 +1,15 @@
 name: Nitpick CI
 categories:
-- linter
+  - linter
 tags:
-- ci
-- php
+  - ci
+  - php
 license: proprietary
 types:
-- service
+  - service
 homepage: https://nitpick-ci.com
 description: Automated PHP code review.
 pricing: https://nitpick-ci.com/#pricing
+plans:
+  - free: false
+  - oss: true

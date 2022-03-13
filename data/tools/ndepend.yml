@@ -11,3 +11,6 @@ description: >-
   Measure, query and visualize your code and avoid unexpected issues, technical debt
   and complexity.
 pricing: https://www.ndepend.com/purchase
+plans:
+  - free: false
+  - oss: false
