@@ -13,8 +13,8 @@
     ],
     "types": [
       "cli",
-      "ide-plugin",
-      "service"
+      "service",
+      "ide-plugin"
     ],
     "homepage": "https://abaplint.org",
     "source": "https://github.com/abaplint/abaplint",
@@ -5766,8 +5766,8 @@
   "gofmt-s": {
     "name": "gofmt -s",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "go"
@@ -6563,8 +6563,8 @@
       "MIT License"
     ],
     "types": [
-      "ide-plugin",
-      "cli"
+      "cli",
+      "ide-plugin"
     ],
     "homepage": "https://html-validate.org/",
     "source": "https://gitlab.com/html-validate/html-validate",
@@ -7187,8 +7187,8 @@
       "MIT License"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://jsonlint.com/",
     "source": "https://github.com/zaach/jsonlint",
@@ -7339,8 +7339,8 @@
   "ktlint": {
     "name": "ktlint",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "kotlin"
@@ -8593,9 +8593,9 @@
       "proprietary"
     ],
     "types": [
-      "ide-plugin",
+      "cli",
       "service",
-      "cli"
+      "ide-plugin"
     ],
     "homepage": "https://mythx.io",
     "source": null,
@@ -8846,8 +8846,8 @@
       "GNU General Public License v3.0"
     ],
     "types": [
-      "service",
-      "cli"
+      "cli",
+      "service"
     ],
     "homepage": "https://opensecurity.in",
     "source": "https://github.com/ajinabraham/NodeJsScan",
@@ -12051,14 +12051,14 @@
     ],
     "other": [],
     "licenses": [
-      "proprietary"
+      "Apache"
     ],
     "types": [
       "cli"
     ],
     "homepage": "https://github.com/sslab-gatech/Rudra",
     "source": "https://github.com/sslab-gatech/Rudra",
-    "pricing": "https://github.com/pricing",
+    "pricing": null,
     "description": "Rust Memory Safety & Undefined Behavior Detection. It is capable of analyzing single Rust packages as well as all the packages on crates.io.",
     "discussion": null,
     "deprecated": null,
@@ -12814,8 +12814,8 @@
       "AGPL-3.0"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://docs.shisho.dev/",
     "source": "https://github.com/flatt-security/shisho",
@@ -13192,7 +13192,7 @@
     ],
     "homepage": "https://www.sonatype.com",
     "source": "https://www.sonatype.com",
-    "pricing": "https://www.sonatype.com/pricing",
+    "pricing": "https://www.sonatype.com/products/pricing",
     "description": "Reports known vulnerabilities in common dependencies and recommends updated packages to minimize breaking changes",
     "discussion": null,
     "deprecated": null,
@@ -14189,12 +14189,12 @@
       "proprietary"
     ],
     "types": [
-      "ide-plugin",
-      "service"
+      "service",
+      "ide-plugin"
     ],
     "homepage": "https://www.cqse.eu/en/teamscale/overview/",
     "source": null,
-    "pricing": "https://www.cqse.eu/pricing",
+    "pricing": "https://www.cqse.eu/en/teamscale/buy/",
     "description": "Static and dynamic analysis tool supporting more than 25 languages and direct IDE integration. Free hosting for Open Source projects available on request. Free academic licenses available.",
     "discussion": null,
     "deprecated": null,
@@ -14918,8 +14918,8 @@
       "MIT License"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://unibeautify.com",
     "source": "https://github.com/unibeautify/unibeautify",
@@ -14933,8 +14933,8 @@
   "unimport": {
     "name": "unimport",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "python"
@@ -15214,8 +15214,8 @@
       "MIT License"
     ],
     "types": [
-      "cli",
-      "ide-plugin"
+      "ide-plugin",
+      "cli"
     ],
     "homepage": "https://marketplace.visualstudio.com/items?itemName=octref.vetur",
     "source": "https://github.com/vuejs/vetur",
