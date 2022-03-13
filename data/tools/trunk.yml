@@ -1,26 +1,26 @@
 name: trunk
 categories:
-- linter
-- formatter
+  - linter
+  - formatter
 tags:
-- javascript
-- typescript
-- ansible
-- c
-- cpp
-- cloudformation
-- dockerfile
-- go
-- java
-- markdown
-- protobuf
-- python
-- ruby
-- rust
-- terraform
+  - javascript
+  - typescript
+  - ansible
+  - c
+  - cpp
+  - cloudformation
+  - dockerfile
+  - go
+  - java
+  - markdown
+  - protobuf
+  - python
+  - ruby
+  - rust
+  - terraform
 license: proprietary
 types:
-- cli
+  - cli
 source: https://github.com/trunk-io/
 homepage: https://trunk.io
 description: >-
@@ -29,8 +29,11 @@ description: >-
   configure, and run the right linters, static analyzers, and formatters for all your
   repos.
 resources:
-- title: Trunk GitHub Action
-  url: https://github.com/trunk-io/trunk-action
-- title: Community Slack Channel
-  url: https://slack.trunk.io
+  - title: Trunk GitHub Action
+    url: https://github.com/trunk-io/trunk-action
+  - title: Community Slack Channel
+    url: https://slack.trunk.io
 pricing: https://trunk.io/pricing
+plans:
+  - free: true
+  - oss: true

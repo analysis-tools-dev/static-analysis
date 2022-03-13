@@ -1,26 +1,29 @@
 name: Codiga
 categories:
-- linter
+  - linter
 tags:
-- apex
-- c
-- cpp
-- dockerfile
-- go
-- java
-- javascript
-- kotlin
-- ruby
-- php
-- python
-- typescript
-- scala
-- ci
+  - apex
+  - c
+  - cpp
+  - dockerfile
+  - go
+  - java
+  - javascript
+  - kotlin
+  - ruby
+  - php
+  - python
+  - typescript
+  - scala
+  - ci
 license: proprietary
 types:
-- service
+  - service
 homepage: https://www.codiga.io
 description: >-
   Automated Code Reviews and Technical Debt management platform that supports 12+
   languages.
 pricing: https://www.codiga.io/pricing
+plans:
+  - free: true
+  - oss: false

@@ -1,18 +1,21 @@
 name: SourceMeter
 categories:
-- linter
+  - linter
 tags:
-- c
-- cpp
-- java
-- csharp
-- python
-- rpg
+  - c
+  - cpp
+  - java
+  - csharp
+  - python
+  - rpg
 license: proprietary
 types:
-- cli
+  - cli
 homepage: https://www.sourcemeter.com/
 description: >-
   Static Code Analysis for C/C++, Java, C#, Python, and RPG III and RPG IV versions
   (including free-form).
 pricing: https://www.sourcemeter.com/download
+plans:
+  - free: true
+  - oss: false

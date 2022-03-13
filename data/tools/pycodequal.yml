@@ -1,13 +1,16 @@
 name: PyCodeQual
 categories:
-- linter
+  - linter
 tags:
-- python
+  - python
 license: proprietary
 types:
-- service
+  - service
 homepage: https://pycodequ.al
 description: >-
   PyCodeQual gives you insights into complexity and bug risks. It adds automatic reviews
   to your pull requests.
 pricing: https://pycodequ.al/pricing
+plans:
+  - free: true
+  - oss: false
