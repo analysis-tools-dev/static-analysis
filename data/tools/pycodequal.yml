@@ -12,5 +12,5 @@ description: >-
   to your pull requests.
 pricing: https://pycodequ.al/pricing
 plans:
-  - free: true
-  - oss: false
+  free: true
+  oss: false

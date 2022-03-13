@@ -11,5 +11,5 @@ homepage: https://nitpick-ci.com
 description: Automated PHP code review.
 pricing: https://nitpick-ci.com/#pricing
 plans:
-  - free: false
-  - oss: true
+  free: false
+  oss: true

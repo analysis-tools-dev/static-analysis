@@ -21,5 +21,5 @@ description: >-
   Go, Kotlin and more.
 pricing: https://embold.io/pricing
 plans:
-  - free: true
-  - oss: false
+  free: true
+  oss: false

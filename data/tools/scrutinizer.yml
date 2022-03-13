@@ -18,5 +18,5 @@ description: >-
   A proprietary code quality checker that can be integrated with GitHub.
 pricing: https://scrutinizer-ci.com/pricing
 plans:
-  - free: false
-  - oss: true
+  free: false
+  oss: true

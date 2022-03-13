@@ -24,5 +24,5 @@ resources:
     url: https://marketplace.visualstudio.com/items?itemName=CQSEGmbH.Teamscale
 pricing: https://www.cqse.eu/en/teamscale/buy/
 plans:
-  - free: false
-  - oss: false
+  free: false
+  oss: false

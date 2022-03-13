@@ -31,5 +31,5 @@ resources:
     url: https://www.youtube.com/watch?v=diERwdr2omM
 pricing: https://bettercodehub.com/pricing
 plans:
-  - free: true
-  - oss: true
+  free: true
+  oss: true

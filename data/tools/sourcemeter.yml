@@ -17,5 +17,5 @@ description: >-
   (including free-form).
 pricing: https://www.sourcemeter.com/download
 plans:
-  - free: true
-  - oss: false
+  free: true
+  oss: false

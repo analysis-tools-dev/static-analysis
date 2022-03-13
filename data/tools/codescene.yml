@@ -38,5 +38,5 @@ resources:
     url: https://www.youtube.com/watch?v=tbCA2JiO_K8
 pricing: https://codescene.com/pricing
 plans:
-  - free: false
-  - oss: true
+  free: false
+  oss: true

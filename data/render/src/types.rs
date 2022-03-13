@@ -2,7 +2,7 @@ use anyhow::{bail, Result};
 use askama::Template;
 use serde::Deserialize;
 use std::cmp::Ordering;
-use std::collections::{BTreeMap, HashSet};
+use std::collections::{BTreeMap, HashMap, HashSet};
 
 use crate::valid;
 
@@ -54,6 +54,7 @@ pub struct ParsedEntry {
     pub homepage: String,
     pub source: Option<String>,
     pub pricing: Option<String>,
+    pub plans: Option<HashMap<String, bool>>,
     pub description: String,
     pub discussion: Option<String>,
     pub deprecated: Option<bool>,
@@ -71,6 +72,7 @@ pub struct Entry {
     pub homepage: String,
     pub source: Option<String>,
     pub pricing: Option<String>,
+    pub plans: Option<HashMap<String, bool>>,
     pub description: String,
     pub discussion: Option<String>,
     pub deprecated: Option<bool>,
@@ -102,6 +104,7 @@ impl Entry {
             homepage: p.homepage,
             source: p.source,
             pricing: p.pricing,
+            plans: p.plans,
             description: p.description,
             discussion: p.discussion,
             deprecated: p.deprecated,
@@ -141,3 +144,32 @@ pub struct Catalog {
     pub others: EntryMap,
     pub multi: Vec<Entry>,
 }
+
+/// An entry of the machine-readable JSON out from the tool.
+///
+/// We use a different, de-normalized data format instead of the catalog, which
+/// keeps the information for each tool in a struct instead of grouping tools by
+/// tags.
+#[derive(Debug, Serialize, Deserialize)]
+pub struct ApiEntry {
+    /// The original entry name (not slugified)
+    pub name: String,
+    pub categories: HashSet<String>,
+    pub languages: Vec<String>,
+    pub other: Vec<String>,
+    pub licenses: Vec<String>,
+    pub types: HashSet<String>,
+    pub homepage: String,
+    pub source: Option<String>,
+    pub pricing: Option<String>,
+    pub plans: Option<HashMap<String, bool>>,
+    pub description: String,
+    pub discussion: Option<String>,
+    pub deprecated: Option<bool>,
+    pub resources: Option<Vec<Resource>>,
+    pub wrapper: Option<bool>,
+}
+
+/// The final API dataformat is a map where the key is the entry name and the
+/// value is the entry data, which makes searching for a tool's data easier
+pub type Api = BTreeMap<String, ApiEntry>;

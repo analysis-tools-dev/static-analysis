@@ -25,5 +25,5 @@ description: >-
   and backdoors.
 pricing: https://www.shiftleft.io/pricing
 plans:
-  - free: true
-  - oss: false
+  free: true
+  oss: false

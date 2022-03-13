@@ -41,5 +41,5 @@ resources:
     url: https://www.youtube.com/watch?v=lVxkD_bmbFY
 pricing: https://www.codacy.com/pricing
 plans:
-  - free: false
-  - oss: true
+  free: false
+  oss: true

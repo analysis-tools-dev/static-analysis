@@ -12,5 +12,5 @@ description: >-
   and complexity.
 pricing: https://www.ndepend.com/purchase
 plans:
-  - free: false
-  - oss: false
+  free: false
+  oss: false

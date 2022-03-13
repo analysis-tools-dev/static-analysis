@@ -25,5 +25,5 @@ description: >-
   languages.
 pricing: https://www.codiga.io/pricing
 plans:
-  - free: true
-  - oss: false
+  free: true
+  oss: false

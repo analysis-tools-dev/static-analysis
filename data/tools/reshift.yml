@@ -15,5 +15,5 @@ resources:
     url: https://www.youtube.com/watch?v=GspuLMF3Vyo
 pricing: https://www.reshiftsecurity.com/pricing
 plans:
-  - free: true
-  - oss: false
+  free: true
+  oss: false

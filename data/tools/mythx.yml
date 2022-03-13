@@ -19,5 +19,5 @@ resources:
     url: https://www.youtube.com/watch?v=N-dAuqNztjA
 pricing: https://mythx.io/plans/
 plans:
-  - free: false
-  - oss: false
+  free: false
+  oss: false

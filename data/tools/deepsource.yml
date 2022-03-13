@@ -19,5 +19,5 @@ description: >-
   Bitbucket. Less than 5% false positives.
 pricing: https://deepsource.io/pricing
 plans:
-  - free: true
-  - oss: true
+  free: true
+  oss: true

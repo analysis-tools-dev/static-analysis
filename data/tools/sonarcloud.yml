@@ -25,5 +25,5 @@ description: >-
   pull request analysis and more. Free for open source.
 pricing: https://sonarcloud.io/pricing
 plans:
-  - free: false
-  - oss: true
+  free: false
+  oss: true

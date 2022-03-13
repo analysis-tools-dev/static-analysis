@@ -12,5 +12,5 @@ description: >-
   than coding conventions.
 pricing: https://deepscan.io/pricing
 plans:
-  - free: false
-  - oss: true
+  free: false
+  oss: true

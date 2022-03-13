@@ -35,5 +35,5 @@ resources:
     url: https://slack.trunk.io
 pricing: https://trunk.io/pricing
 plans:
-  - free: true
-  - oss: true
+  free: true
+  oss: true

@@ -12,5 +12,5 @@ description: >-
   refactoring, formatting and more.
 pricing: https://www.jetbrains.com/buy
 plans:
-  - free: false
-  - oss: true
+  free: false
+  oss: true

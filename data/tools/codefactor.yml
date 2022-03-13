@@ -37,5 +37,5 @@ resources:
     url: https://www.youtube.com/watch?v=0wL1bgoya2U
 pricing: https://codefactor.io/pricing
 plans:
-  - free: false
-  - oss: true
+  free: false
+  oss: true
