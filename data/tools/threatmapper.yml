@@ -1,0 +1,26 @@
+name: ThreatMapper
+categories:
+  - linter
+tags:
+  - container
+  - ci
+  - security
+  - java
+  - go
+  - php
+  - nodejs
+  - javascript
+  - ruby
+  - dotnet
+  - rust
+  - python
+license: Apache-2.0 License 
+types:
+  - service
+  - web
+source: 'https://github.com/deepfence/ThreatMapper'
+homepage: 'https://github.com/deepfence/ThreatMapper'
+description: >-
+  Vulnerability Scanner and Risk Evaluation for containers, serverless and hosts at runtime. ThreatMapper generates runtime BOMs from
+  dependencies and operating system packages, matches against multiple threat feeds, scans for unprotected secrets, and scores issues
+  based on severity and risk-of-exploit.
