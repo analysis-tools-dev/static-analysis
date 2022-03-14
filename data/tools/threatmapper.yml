@@ -20,7 +20,7 @@ types:
   - web
 source: 'https://github.com/deepfence/ThreatMapper'
 homepage: 'https://github.com/deepfence/ThreatMapper'
-description: >
+description: >-
   Vulnerability Scanner and Risk Evaluation for containers, serverless and hosts at runtime. ThreatMapper generates runtime BOMs from
   dependencies and operating system packages, matches against multiple threat feeds, scans for unprotected secrets, and scores issues
   based on severity and risk-of-exploit.
