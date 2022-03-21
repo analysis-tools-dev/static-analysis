@@ -1,0 +1,34 @@
+name: Stats
+
+on:
+  repository_dispatch:
+  workflow_dispatch:
+  schedule:
+    - cron: "00 22 * * *"
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Run logcli
+        run: |
+          ls -althr
+          rm -rf logcli.zip logcli-linux-amd64
+          wget -nc -q -O "logcli.zip" "https://github.com/grafana/loki/releases/download/v2.4.2/logcli-linux-amd64.zip"
+          unzip logcli.zip
+          chmod a+x logcli-linux-amd64
+          ./logcli-linux-amd64 -q --org-id=${ORG_ID} instant-query 'topk(25, sum(count_over_time({path=~"/tool/.*"}[2d])) by (path))' > data/api/stats.json
+          rm -rf logcli.zip logcli-linux-amd64
+        env:
+          ORG_ID: ${{secrets.LOKI_ORG_ID}}
+          LOKI_ADDR: http://loki.jorgelbg.me
+
+      - uses: stefanzweifel/git-auto-commit-action@v4.1.2
+        with:
+          branch: ${{ github.head_ref }}
+          commit_message: Commit list
+          commit_user_name: Analysis Tools Bot
+          commit_user_email: bot@analysis-tools.dev
+          commit_author: Analysis Tools Bot <bot@analysis-tools.dev>
