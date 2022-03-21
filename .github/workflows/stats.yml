@@ -11,15 +11,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-
-      - name: Run logcli
+      
+      - name: Install logcli
         run: |
-          ls -althr
           rm -rf logcli.zip logcli-linux-amd64
           wget -nc -q -O "logcli.zip" "https://github.com/grafana/loki/releases/download/v2.4.2/logcli-linux-amd64.zip"
           unzip logcli.zip
           chmod a+x logcli-linux-amd64
-          ./logcli-linux-amd64 -q --org-id=${ORG_ID} instant-query 'topk(25, sum(count_over_time({path=~"/tool/.*"}[2d])) by (path))' > data/api/stats.json
+        env:
+          ORG_ID: ${{secrets.LOKI_ORG_ID}}
+          LOKI_ADDR: http://loki.jorgelbg.me
+          
+      - name: Run logcli
+        run: |
+          ./logcli-linux-amd64 -q --org-id=${ORG_ID} instant-query 'topk(25, sum(count_over_time({path=~"/tool/.*"}[2d])) by (path))' > data/api/stats_raw.json
+          cat data/api/stats_raw.json | jq '[.[] | {(.metric.path | sub("^\/tool\/"; "")): .value[1] }] | add' > data/api/stats.json
           rm -rf logcli.zip logcli-linux-amd64
         env:
           ORG_ID: ${{secrets.LOKI_ORG_ID}}
