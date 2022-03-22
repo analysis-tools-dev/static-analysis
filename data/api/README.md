@@ -1,6 +1,6 @@
 # API
 
-This directory contains a machine-readable JSON files from all static analysis
+This directory contains machine-readable JSON files of all static analysis
 tools in the repo. The files can be used to create your own API endpoints from
 the data, for running more complicated queries on the command-line with `jq`, or
 for using them inside a Jupyter notebook.
