@@ -211,7 +211,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [NDepend](http://www.ndepend.com) :copyright: — Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.
 - [Puma Scan](https://pumasecurity.io) — Puma Scan provides real time secure code analysis for common vulnerabilities (XSS, SQLi, CSRF, LDAPi, crypto, deserialization, etc.) as development teams write code in Visual Studio.
 - [Roslynator](https://github.com/JosefPihrt/Roslynator) — A collection of 190+ analyzers and 190+ refactorings for C#, powered by Roslyn.
-- [VSDiagnostics](https://github.com/Vannevelj/VSDiagnostics) — A collection of static analyzers based on Roslyn that integrates with VS.
+- [VSDiagnostics](https://github.com/Vannevelj/VSDiagnostics) :warning: — A collection of static analyzers based on Roslyn that integrates with VS.
 - [Wintellect.Analyzers](https://github.com/Wintellect/Wintellect.Analyzers) — .NET Compiler Platform ("Roslyn") diagnostic analyzers and code fixes.
 
 
@@ -357,7 +357,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [structcheck](https://gitlab.com/opennota/check) — Find unused struct fields.
 - [structslop](https://github.com/orijtech/structslop) — Static analyzer for Go that recommends struct field rearrangements to provide for maximum space/allocation efficiency
 - [test](http://golang.org/pkg/testing) — Show location of test failures from the stdlib testing module.
-- [unconvert](https://github.com/mdempsky/unconvert) — Detect redundant type conversions.
+- [unconvert](https://github.com/mdempsky/unconvert) :warning: — Detect redundant type conversions.
 - [unparam](https://github.com/mvdan/unparam) — Find unused function parameters.
 - [varcheck](https://gitlab.com/opennota/check) — Find unused global variables and constants.
 - [wsl](https://github.com/bombsimon/wsl) — Enforces empty lines at the right places.
@@ -709,7 +709,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 
 <h2 id="vim-script">Vim Script</h2>
 
-- [vint](https://github.com/Kuniwak/vint) — Fast and Highly Extensible Vim script Language Lint implemented by Python.
+- [vint](https://github.com/Kuniwak/vint) :warning: — Fast and Highly Extensible Vim script Language Lint implemented by Python.
 
 
 ## Multiple languages
@@ -767,7 +767,6 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [imhotep](https://github.com/justinabrahms/imhotep) — Comment on commits coming into your repository and check for syntactic errors and general lint warnings.
 - [include-gardener](https://github.com/feddischson/include_gardener) :warning: — A multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files.
 - [Infer](https://fbinfer.com) — A static analyzer for Java, C and Objective-C
-- [InsiderSec](https://insidersec.io) :warning: — A open source Static Application Security Testing tool (SAST) written in GoLang for Java (Maven and Android), Kotlin (Android), Swift (iOS), .NET Full Framework, C# and Javascript (Node.js).
 - [Kiuwan](https://www.kiuwan.com/code-security-sast) :copyright: — Identify and remediate cyber threats in a blazingly fast, collaborative environment, with seamless integration in your SDLC. Python, C\C++, Java, C#, PHP and more.
 - [Klocwork](https://www.perforce.com/products/klocwork) :copyright: — Quality and Security Static analysis for C/C++, Java and C#.
 - [LGTM](https://lgtm.com/) :copyright: — Find security vulnerabilities, variants, and critical code quality issues using queries over source code. Automatic PR code review; free for open source. Formerly semmle.
