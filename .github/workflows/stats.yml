@@ -23,6 +23,7 @@ jobs:
         run: |
           ./logcli-linux-amd64 -q --org-id=${ORG_ID} instant-query 'topk(25, sum(count_over_time({path=~"/tool/.*"}[2d])) by (path))' > data/api/stats_raw.json
           cat data/api/stats_raw.json | jq '[.[] | {(.metric.path | sub("^\/tool\/"; "")): .value[1] }] | add' > data/api/stats.json
+          rm data/api/stats_raw.json
         env:
           ORG_ID: ${{secrets.LOKI_ORG_ID}}
           LOKI_ADDR: http://loki.jorgelbg.me
