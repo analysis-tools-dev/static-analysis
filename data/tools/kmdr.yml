@@ -7,7 +7,7 @@ license: MIT License
 types:
   - cli
 source: 'https://github.com/ediardo/kmdr-cli'
-homepage: 'https://kmdr.sh'
+homepage: 'https://github.com/ediardo/kmdr-cli'
 description: >-
   CLI tool for learning commands from your terminal. kmdr delivers a break down
   of commands with every attribute explained.
