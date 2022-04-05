@@ -22,10 +22,10 @@ jobs:
       - name: Run logcli
         run: |
           mkdir -p data/api/stats/
-          ./logcli-linux-amd64 -q --org-id=${ORG_ID} instant-query 'topk(25, sum(count_over_time({path=~"/tool/.*"}[2d])) by (path))' > data/api/stats_tools_raw.json
+          ./logcli-linux-amd64 -q --org-id=${ORG_ID} instant-query 'topk(25, sum(count_over_time({path=~"/tool/.*"}[7d])) by (path))' > data/api/stats_tools_raw.json
           cat data/api/stats_tools_raw.json | jq '[.[] | {(.metric.path | sub("^\/tool\/"; "")): .value[1] }] | add' > data/api/stats/tools.json
           rm data/api/stats_tools_raw.json
-          ./logcli-linux-amd64 -q --org-id=${ORG_ID} instant-query 'topk(25, sum(count_over_time({path=~"/tag/.*"}[2d])) by (path))' > data/api/stats_tags_raw.json
+          ./logcli-linux-amd64 -q --org-id=${ORG_ID} instant-query 'topk(25, sum(count_over_time({path=~"/tag/.*"}[7d])) by (path))' > data/api/stats_tags_raw.json
           cat data/api/stats_tags_raw.json | jq '[.[] | {(.metric.path | sub("^\/tool\/"; "")): .value[1] }] | add' > data/api/stats/tags.json
           rm data/api/stats_tags_raw.json
         env:
