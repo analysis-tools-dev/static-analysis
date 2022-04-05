@@ -7,7 +7,7 @@ tags:
 license: MIT License
 types:
   - cli
-  - ide
+  - ide-plugin
 source: "https://github.com/rome/tools/tree/main/crates/rome_js_formatter"
 homepage: "https://rome.tools/blog/2022/04/05/rome-formatter-release"
 description: A performant and fault-tolerant code formatter for JS/TS written in Rust 
