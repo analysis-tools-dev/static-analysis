@@ -1,0 +1,20 @@
+name: cpp-linter-action
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - ci
+  - github-actions
+  - clang-format
+  - clang-tidy
+  - python
+license: MIT
+types:
+  - cli
+source: 'https://github.com/shenxianpeng/cpp-linter-action'
+homepage: 'https://shenxianpeng.github.io/cpp-linter-action/'
+description: A Github Action for linting C/C++ code integrating clang-tidy and clang-format to collect feedback provided in the form of thread comments and/or annotations.
+resources:
+  - title: C/C++ Lint Action introduction
+    url: https://github.com/shenxianpeng/cpp-linter-action
