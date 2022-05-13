@@ -995,7 +995,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 - [Bootlint](https://github.com/twbs/bootlint) — An HTML linter for Bootstrap projects.
 - [ERB Lint](https://github.com/Shopify/erb-lint) — Lint your ERB or HTML files
 - [grunt-bootlint](https://github.com/twbs/grunt-bootlint) — A Grunt wrapper for [Bootlint](https://github.com/twbs/bootlint), the HTML linter for Bootstrap projects.
-- [gulp-bootlint](https://github.com/tschortsch/gulp-bootlint) — A gulp wrapper for [Bootlint](https://github.com/twbs/bootlint), the HTML linter for Bootstrap projects.
+- [gulp-bootlint](https://github.com/tschortsch/gulp-bootlint) :warning: — A gulp wrapper for [Bootlint](https://github.com/twbs/bootlint), the HTML linter for Bootstrap projects.
 - [HTML Inspector](https://github.com/philipwalton/html-inspector) :warning: — HTML Inspector is a code quality tool to help you and your team write better markup.
 - [HTML Tidy](http://www.html-tidy.org) — Corrects and cleans up HTML and XML documents by fixing markup errors and upgrading legacy code to modern standards.
 - [HTML-Validate](https://html-validate.org/) — Offline HTML5 validator.
