@@ -12,9 +12,9 @@
       "MIT License"
     ],
     "types": [
-      "ide-plugin",
+      "cli",
       "service",
-      "cli"
+      "ide-plugin"
     ],
     "homepage": "https://abaplint.org",
     "source": "https://github.com/abaplint/abaplint",
@@ -2530,8 +2530,8 @@
     "source": null,
     "pricing": "https://codefactor.io/pricing",
     "plans": {
-      "oss": true,
-      "free": false
+      "free": false,
+      "oss": true
     },
     "description": "Automated Code Analysis for repos on GitHub or BitBucket.",
     "discussion": null,
@@ -2882,8 +2882,8 @@
     "source": null,
     "pricing": "https://codescene.com/pricing",
     "plans": {
-      "free": false,
-      "oss": true
+      "oss": true,
+      "free": false
     },
     "description": "CodeScene is a quality visualization tool for software. Prioritize technical debt, detect delivery risks, and measure organizational aspects. Fully automated.",
     "discussion": null,
@@ -3936,8 +3936,8 @@
     "source": null,
     "pricing": "https://deepscan.io/pricing",
     "plans": {
-      "oss": true,
-      "free": false
+      "free": false,
+      "oss": true
     },
     "description": "An analyzer for JavaScript which targets runtime errors and quality issues rather than coding conventions.",
     "discussion": null,
@@ -6867,8 +6867,8 @@
       "MIT License"
     ],
     "types": [
-      "ide-plugin",
-      "cli"
+      "cli",
+      "ide-plugin"
     ],
     "homepage": "https://html-validate.org/",
     "source": "https://gitlab.com/html-validate/html-validate",
@@ -7643,8 +7643,8 @@
   "ktlint": {
     "name": "ktlint",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "kotlin"
@@ -8943,8 +8943,8 @@
       "proprietary"
     ],
     "types": [
-      "service",
       "ide-plugin",
+      "service",
       "cli"
     ],
     "homepage": "https://mythx.io",
@@ -9084,8 +9084,8 @@
     "source": null,
     "pricing": "https://www.ndepend.com/purchase",
     "plans": {
-      "oss": false,
-      "free": false
+      "free": false,
+      "oss": false
     },
     "description": "Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.",
     "discussion": null,
@@ -9215,8 +9215,8 @@
       "GNU General Public License v3.0"
     ],
     "types": [
-      "service",
-      "cli"
+      "cli",
+      "service"
     ],
     "homepage": "https://opensecurity.in",
     "source": "https://github.com/ajinabraham/NodeJsScan",
@@ -11421,8 +11421,8 @@
     "source": null,
     "pricing": "https://pycodequ.al/pricing",
     "plans": {
-      "oss": false,
-      "free": true
+      "free": true,
+      "oss": false
     },
     "description": "PyCodeQual gives you insights into complexity and bug risks. It adds automatic reviews to your pull requests.",
     "discussion": null,
@@ -13325,8 +13325,8 @@
       "Other"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://slscan.io",
     "source": "https://github.com/ShiftLeftSecurity/sast-scan",
@@ -13419,8 +13419,8 @@
     "source": null,
     "pricing": "https://sider.review/pricing",
     "plans": {
-      "oss": true,
-      "free": false
+      "free": false,
+      "oss": true
     },
     "description": "An automated code reviewing tool. Improving developers' productivity.",
     "discussion": null,
@@ -13652,8 +13652,8 @@
     "source": null,
     "pricing": "https://sonarcloud.io/pricing",
     "plans": {
-      "free": false,
-      "oss": true
+      "oss": true,
+      "free": false
     },
     "description": "Multi-language cloud-based static code analysis. History, trends, security hot-spots, pull request analysis and more. Free for open source.",
     "discussion": null,
@@ -14381,7 +14381,7 @@
     "plans": null,
     "description": "A programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -14413,8 +14413,8 @@
   "structslop": {
     "name": "structslop",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "go"
@@ -14816,8 +14816,8 @@
       "proprietary"
     ],
     "types": [
-      "service",
-      "ide-plugin"
+      "ide-plugin",
+      "service"
     ],
     "homepage": "https://www.cqse.eu/en/teamscale/overview/",
     "source": null,
@@ -15169,8 +15169,8 @@
   "trunk": {
     "name": "trunk",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "c",
@@ -15343,7 +15343,7 @@
     "plans": null,
     "description": "TSQL Static Code Analysis Rules for SQL Server.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -15554,7 +15554,7 @@
     "plans": null,
     "description": "Detect redundant type conversions.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -15656,8 +15656,8 @@
       "MIT License"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://unibeautify.com",
     "source": "https://github.com/unibeautify/unibeautify",
@@ -15672,8 +15672,8 @@
   "unimport": {
     "name": "unimport",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "python"
@@ -16002,7 +16002,7 @@
     "plans": null,
     "description": "Fast and Highly Extensible Vim script Language Lint implemented by Python.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -16130,7 +16130,7 @@
     "plans": null,
     "description": "A collection of static analyzers based on Roslyn that integrates with VS.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -16654,6 +16654,31 @@
     "description": "Javascript code metrics.",
     "discussion": null,
     "deprecated": true,
+    "resources": null,
+    "wrapper": null
+  },
+  "zod": {
+    "name": "zod",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "typescript"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://zod.dev",
+    "source": "https://github.com/colinhacks/zod",
+    "pricing": null,
+    "plans": null,
+    "description": "TypeScript-first schema validation with static type inference. The goal is to eliminate duplicative type declarations. With Zod, you declare a validator once and Zod will automatically infer the static TypeScript type. It is easy to compose simpler types into complex data structures.",
+    "discussion": null,
+    "deprecated": null,
     "resources": null,
     "wrapper": null
   },
