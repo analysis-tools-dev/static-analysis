@@ -1,0 +1,15 @@
+name: zod
+categories:
+  - linter
+tags:
+  - typescript
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/colinhacks/zod'
+homepage: 'https://zod.dev'
+description: >-
+  TypeScript-first schema validation with static type inference.
+  The goal is to eliminate duplicative type declarations.
+  With Zod, you declare a validator once and Zod will automatically infer the static TypeScript type.
+  It is easy to compose simpler types into complex data structures.
