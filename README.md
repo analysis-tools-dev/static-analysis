@@ -1162,7 +1162,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 <h2 id="translation">Translation</h2>
 
-- [dennis](https://github.com/willkg/dennis) :warning: — A set of utilities for working with PO files to ease development and improve quality.
+- [dennis](https://github.com/willkg/dennis) — A set of utilities for working with PO files to ease development and improve quality.
 
 
 <h2 id="vue">Vue.js</h2>
