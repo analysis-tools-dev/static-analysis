@@ -1,0 +1,48 @@
+name: Sigrid
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - csharp
+  - delphi
+  - go
+  - groovy
+  - java
+  - javascript
+  - kotlin
+  - lua
+  - nodejs
+  - objectivec
+  - perl
+  - php
+  - plsql
+  - powershell
+  - python
+  - r
+  - ruby
+  - rust
+  - scala
+  - shell
+  - sql
+  - swift
+  - typescript
+  - vbnet
+  - vue
+license: proprietary
+types:
+  - cli
+  - service
+homepage: https://www.softwareimprovementgroup.com/solutions/sigrid-software-assurance-platform/
+description: >-
+  Sigrid helps you to improve your software by measuring your system's code quality, 
+  and then compares the results against a benchmark of thousands of industry systems
+  to give you concrete advice on areas where you can improve.
+resources:
+  - title: "Sigrid Security | Security without headache"
+    url: https://www.youtube.com/watch?v=wJwK0cjDiEo
+pricing: https://www.softwareimprovementgroup.com/contact/
+plans:
+  free: false
+  oss: false
+  
