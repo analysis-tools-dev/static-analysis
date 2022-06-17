@@ -730,7 +730,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [Checkmarx CxSAST](https://www.checkmarx.com/products/static-application-security-testing) :copyright: — Commercial Static Code Analysis which doesn't require pre-compilation.
 - [ClassGraph](https://github.com/classgraph/classgraph) — A classpath and module path scanner for querying or visualizing class metadata or class relatedness.
 - [Clayton](https://www.getclayton.com/) :copyright: — AI-powered code reviews for Salesforce. Secure your developments, enforce best practice and control your technical debt in real-time.
-- [coala](https://coala.io) — Language independent framework for creating code analysis - supports [over 60 languages](https://coala.io/languages) by default.
+- [coala](https://coala.io) :warning: — Language independent framework for creating code analysis - supports [over 60 languages](https://coala.io/languages) by default.
 - [Cobra](https://spinroot.com/cobra) :copyright: — Structural source code analyzer by NASA's Jet Propulsion Laboratory.
 - [Codacy](https://www.codacy.com) :copyright: — Code Analysis to ship Better Code, Faster.
 - [Code Intelligence](https://www.code-intelligence.com) :copyright: — CI/CD-agnostic DevSecOps platform which combines industry-leading fuzzing engines for finding bugs and visualizing code coverage
@@ -806,6 +806,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [ShiftLeft Scan](https://slscan.io) — Scan is a free open-source DevSecOps platform for detecting security issues in source code and dependencies. It supports a broad range of languages and CI/CD pipelines.
 - [shipshape](https://github.com/google/shipshape) :warning: — Static program analysis platform that allows custom analyzers to plug in through a common interface.
 - [Sider](https://sider.review) :copyright: — An automated code reviewing tool. Improving developers' productivity.
+- [Sigrid](https://www.softwareimprovementgroup.com/solutions/sigrid-software-assurance-platform/) :copyright: — Sigrid helps you to improve your software by measuring your system's code quality,  and then compares the results against a benchmark of thousands of industry systems to give you concrete advice on areas where you can improve.
 - [Similarity Tester](https://dickgrune.com/Programs/similarity_tester/) — A tool that finds similarities between or within files to support you encountering DRY principle violations.
 - [Snyk](https://snyk.io) :copyright: — Vulnerability scanner for dependencies of node.js apps (free for Open Source Projects).
 - [SonarCloud](https://sonarcloud.io) :copyright: — Multi-language cloud-based static code analysis. History, trends, security hot-spots, pull request analysis and more. Free for open source.

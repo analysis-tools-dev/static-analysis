@@ -13,8 +13,8 @@
     ],
     "types": [
       "cli",
-      "ide-plugin",
-      "service"
+      "service",
+      "ide-plugin"
     ],
     "homepage": "https://abaplint.org",
     "source": "https://github.com/abaplint/abaplint",
@@ -875,8 +875,8 @@
     "source": null,
     "pricing": "https://bettercodehub.com/pricing",
     "plans": {
-      "oss": true,
-      "free": true
+      "free": true,
+      "oss": true
     },
     "description": "Better Code Hub checks your GitHub codebase against 10 engineering guidelines devised by the authority in software quality, Software Improvement Group.",
     "discussion": null,
@@ -1827,8 +1827,8 @@
   "ciocheck": {
     "name": "ciocheck",
     "categories": [
-      "formatter",
-      "meta"
+      "meta",
+      "formatter"
     ],
     "languages": [
       "python"
@@ -2212,7 +2212,7 @@
     "plans": null,
     "description": "Language independent framework for creating code analysis - supports [over 60 languages](https://coala.io/languages) by default.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -2882,8 +2882,8 @@
     "source": null,
     "pricing": "https://codescene.com/pricing",
     "plans": {
-      "free": false,
-      "oss": true
+      "oss": true,
+      "free": false
     },
     "description": "CodeScene is a quality visualization tool for software. Prioritize technical debt, detect delivery risks, and measure organizational aspects. Fully automated.",
     "discussion": null,
@@ -2990,8 +2990,8 @@
     "source": null,
     "pricing": "https://www.codiga.io/pricing",
     "plans": {
-      "free": true,
-      "oss": false
+      "oss": false,
+      "free": true
     },
     "description": "Automated Code Reviews and Technical Debt management platform that supports 12+ languages.",
     "discussion": null,
@@ -3936,8 +3936,8 @@
     "source": null,
     "pricing": "https://deepscan.io/pricing",
     "plans": {
-      "oss": true,
-      "free": false
+      "free": false,
+      "oss": true
     },
     "description": "An analyzer for JavaScript which targets runtime errors and quality issues rather than coding conventions.",
     "discussion": null,
@@ -4330,8 +4330,8 @@
   "diktat": {
     "name": "diktat",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "kotlin"
@@ -4805,8 +4805,8 @@
     "source": null,
     "pricing": "https://embold.io/pricing",
     "plans": {
-      "free": true,
-      "oss": false
+      "oss": false,
+      "free": true
     },
     "description": "Intelligent software analytics platform that identifies design issues, code issues, duplication and metrics. Supports Java, C, C++, C#, JavaScript, TypeScript, Python, Go, Kotlin and more.",
     "discussion": null,
@@ -6040,8 +6040,8 @@
   "gofmt-s": {
     "name": "gofmt -s",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "go"
@@ -6867,8 +6867,8 @@
       "MIT License"
     ],
     "types": [
-      "ide-plugin",
-      "cli"
+      "cli",
+      "ide-plugin"
     ],
     "homepage": "https://html-validate.org/",
     "source": "https://gitlab.com/html-validate/html-validate",
@@ -7237,8 +7237,8 @@
     "source": null,
     "pricing": "https://www.jetbrains.com/buy",
     "plans": {
-      "free": false,
-      "oss": true
+      "oss": true,
+      "free": false
     },
     "description": "Comes bundled with a lot of inspections for Java and Kotlin and includes tools for refactoring, formatting and more.",
     "discussion": null,
@@ -7643,8 +7643,8 @@
   "ktlint": {
     "name": "ktlint",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "kotlin"
@@ -8943,16 +8943,16 @@
       "proprietary"
     ],
     "types": [
+      "cli",
       "service",
-      "ide-plugin",
-      "cli"
+      "ide-plugin"
     ],
     "homepage": "https://mythx.io",
     "source": null,
     "pricing": "https://mythx.io/plans/",
     "plans": {
-      "free": false,
-      "oss": false
+      "oss": false,
+      "free": false
     },
     "description": "MythX is an easy to use analysis platform which integrates several analysis methods like fuzzing, symbolic execution and static analysis to find vulnerabilities with high precision. It can be integrated with toolchains like Remix or VSCode or called from the command-line.",
     "discussion": null,
@@ -9215,8 +9215,8 @@
       "GNU General Public License v3.0"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://opensecurity.in",
     "source": "https://github.com/ajinabraham/NodeJsScan",
@@ -11421,8 +11421,8 @@
     "source": null,
     "pricing": "https://pycodequ.al/pricing",
     "plans": {
-      "free": true,
-      "oss": false
+      "oss": false,
+      "free": true
     },
     "description": "PyCodeQual gives you insights into complexity and bug risks. It adds automatic reviews to your pull requests.",
     "discussion": null,
@@ -13038,8 +13038,8 @@
     "source": null,
     "pricing": "https://scrutinizer-ci.com/pricing",
     "plans": {
-      "free": false,
-      "oss": true
+      "oss": true,
+      "free": false
     },
     "description": "A proprietary code quality checker that can be integrated with GitHub.",
     "discussion": null,
@@ -13419,13 +13419,74 @@
     "source": null,
     "pricing": "https://sider.review/pricing",
     "plans": {
-      "free": false,
-      "oss": true
+      "oss": true,
+      "free": false
     },
     "description": "An automated code reviewing tool. Improving developers' productivity.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "wrapper": null
+  },
+  "sigrid": {
+    "name": "Sigrid",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "c",
+      "csharp",
+      "cpp",
+      "delphi",
+      "go",
+      "groovy",
+      "java",
+      "javascript",
+      "kotlin",
+      "lua",
+      "objectivec",
+      "perl",
+      "php",
+      "plsql",
+      "powershell",
+      "python",
+      "r",
+      "ruby",
+      "rust",
+      "scala",
+      "shell",
+      "sql",
+      "swift",
+      "typescript",
+      "vbnet"
+    ],
+    "other": [
+      "nodejs",
+      "vue"
+    ],
+    "licenses": [
+      "proprietary"
+    ],
+    "types": [
+      "cli",
+      "service"
+    ],
+    "homepage": "https://www.softwareimprovementgroup.com/solutions/sigrid-software-assurance-platform/",
+    "source": null,
+    "pricing": "https://www.softwareimprovementgroup.com/contact/",
+    "plans": {
+      "oss": false,
+      "free": false
+    },
+    "description": "Sigrid helps you to improve your software by measuring your system's code quality,  and then compares the results against a benchmark of thousands of industry systems to give you concrete advice on areas where you can improve.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Sigrid Security | Security without headache",
+        "url": "https://www.youtube.com/watch?v=wJwK0cjDiEo"
+      }
+    ],
     "wrapper": null
   },
   "similarity-tester": {
@@ -14079,8 +14140,8 @@
   "sqlfluff": {
     "name": "SQLFluff",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "sql"
@@ -14816,15 +14877,15 @@
       "proprietary"
     ],
     "types": [
-      "ide-plugin",
-      "service"
+      "service",
+      "ide-plugin"
     ],
     "homepage": "https://www.cqse.eu/en/teamscale/overview/",
     "source": null,
     "pricing": "https://www.cqse.eu/en/teamscale/buy/",
     "plans": {
-      "oss": false,
-      "free": false
+      "free": false,
+      "oss": false
     },
     "description": "Static and dynamic analysis tool supporting more than 25 languages and direct IDE integration. Free hosting for Open Source projects available on request. Free academic licenses available.",
     "discussion": null,
@@ -15169,8 +15230,8 @@
   "trunk": {
     "name": "trunk",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "c",
@@ -15201,8 +15262,8 @@
     "source": "https://github.com/trunk-io/",
     "pricing": "https://trunk.io/pricing",
     "plans": {
-      "free": true,
-      "oss": true
+      "oss": true,
+      "free": true
     },
     "description": "Modern repositories include many technologies, each with its own set of linters. With 30+ linters and counting, Trunk makes it dead-simple to identify, install, configure, and run the right linters, static analyzers, and formatters for all your repos.",
     "discussion": null,
@@ -15672,8 +15733,8 @@
   "unimport": {
     "name": "unimport",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "python"
@@ -15952,8 +16013,8 @@
   "vetur": {
     "name": "Vetur",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [],
     "other": [
@@ -15963,8 +16024,8 @@
       "MIT License"
     ],
     "types": [
-      "ide-plugin",
-      "cli"
+      "cli",
+      "ide-plugin"
     ],
     "homepage": "https://marketplace.visualstudio.com/items?itemName=octref.vetur",
     "source": "https://github.com/vuejs/vetur",
