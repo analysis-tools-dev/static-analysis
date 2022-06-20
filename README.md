@@ -1010,6 +1010,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 - [jsonlint](https://jsonlint.com/) — A JSON parser and validator with a CLI. Standalone version of jsonlint.com
 - [Spectral](https://stoplight.io/open-source/spectral) — A flexible JSON/YAML linter, with out-of-the-box support for OpenAPI v2/v3 and AsyncAPI v2.
+- [JSON Lint](https://jsonlint.live/) — JSON Formatter and Validator
 
 
 <h2 id="kubernetes">Kubernetes</h2>
