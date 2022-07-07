@@ -16,20 +16,23 @@ Each tool on the list should be
 
 ### Format
 
-The main `README.md` is just a rendered version of the data. To add a new tool,
-please create a file in the `data/tools` directory.
+⚠️ **The main `README.md` is just a rendered version of the data. Do not edit it
+manually.**
 
-- Make each tool description as precise as possible.  
-  Please limit the description to **500 characters**.
-- Add a license. If it's a proprietary tool, use `license: proprietary`. 
-- Please add as many tags as possible. You can choose from the tags
-  in `data/tags.yml` If a tool does not match any existing tag, feel
-  free to add a new tag.
+To add a new tool, please create a file in the `data/tools` directory like
+`data/tools/<toolname>.yml`. Feel free to check out a few other YAML files in
+that directory to see how it should look like.
 
-Finally, create a pull request with all your changes.
-You can call `make render` to check for errors before.  
-This is optional, because it will also be done when creating
-a pull request.
+- Make each tool description as precise as possible.  Please limit the
+  description to **500 characters**.
+- Add a license. If it's a proprietary tool, use `license: proprietary`.
+- Please add as many tags as possible. You can choose from the tags in
+  `data/tags.yml` If a tool does not match any existing tag, feel free to add a
+  new tag but also add it to `data/tags.yml`.
+
+Finally, create a pull request with all your changes. You can call `make
+render` to check for errors before.  This is optional, because it will also be
+done when creating a pull request.
 
 # How to mark a tool as unmaintained/deprecated
 
@@ -38,7 +41,7 @@ After all, a tool can still be very valuable to the community - even without
 frequent updates.  
 However, since it is one of the goals of this project to allow people to make an
 informed decision on what is the best tool for the job, we are marking
-unmaintained or deprecated tools.
+unmaintained or deprecated tools after a while.
 [Here](https://github.com/mre/awesome-static-analysis/issues/223) is a nice
 discussion about why we think this is necessary. If you find a tool, which is
 unmaintained, please add `deprecated: true` to the entry in `data/tools/` and
