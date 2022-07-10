@@ -7,6 +7,6 @@ tags:
 license: MIT License
 types:
   - cli
-source: 'https://github.com/hakancelik96/unimport'
+source: 'https://github.com/hakancelikdev/unimport'
 homepage: 'https://unimport.hakancelik.dev'
 description: 'A linter, formatter for finding and removing unused import statements.'
