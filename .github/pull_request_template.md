@@ -8,3 +8,7 @@ Please make sure to check all of the items below.
 - More details in the contributors guide, `CONTRIBUTING.md`
 
 -->
+
+* [ ] I have not changed the `README.md` directly.
+
+
