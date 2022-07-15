@@ -1,0 +1,16 @@
+name: Svace
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - csharp
+  - java
+  - go
+
+license: proprietary
+types:
+  - cli
+homepage: https://www.ispras.ru/en/technologies/svace
+description: >-
+  Static code analysis for source code - Java,C,C++,C#,Go.
