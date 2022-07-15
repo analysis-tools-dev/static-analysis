@@ -8,7 +8,6 @@ tags:
   - java
   - go
   - security
-
 license: proprietary
 types:
   - cli
