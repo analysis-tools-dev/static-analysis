@@ -3,10 +3,11 @@ categories:
   - linter
 tags:
   - c
+  - ci
 license: MIT License
 types:
   - cli
-  - ide-plugin
+  - ide
 homepage: 'https://goblint.in.tum.de'
 source: 'https://github.com/goblint/analyzer'
 description: >-
