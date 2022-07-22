@@ -1,0 +1,16 @@
+name: Goblint
+categories:
+  - linter
+tags:
+  - c
+  - ci
+license: MIT License
+types:
+  - cli
+  - ide
+homepage: 'https://goblint.in.tum.de'
+source: 'https://github.com/goblint/analyzer'
+description: >-
+  A static analyzer for the analysis of multi-threaded C programs. Its primary focus is the 
+  detection of data races, but it also reports other runtime errors, such as buffer overflows and
+  null-pointer dereferences.
