@@ -1,0 +1,14 @@
+name: Fixinator
+categories:
+- linter
+tags:
+- coldfusion
+license: proprietary
+types:
+- cli
+homepage: https://fixinator.app
+description: Static security code analysis for ColdFusion or CFML code. Designed to work within a CI pipeline or from the developers terminal.
+resources:
+- title: Fixinator Getting Started Guide
+  url: https://github.com/foundeo/fixinator/wiki/Getting-Started
+pricing: https://fixinator.app
