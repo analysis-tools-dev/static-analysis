@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GH_STATS_COMMIT_TOKEN }}
         
       - name: Render list
         run: make render
