@@ -35,6 +35,7 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4.1.2
         with:
           branch: ${{ github.head_ref }}
+          token: ${{ secrets.GH_STATS_COMMIT_TOKEN }}
           commit_message: Commit list
           commit_user_name: Analysis Tools Bot
           commit_user_email: bot@analysis-tools.dev
