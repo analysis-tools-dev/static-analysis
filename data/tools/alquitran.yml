@@ -2,7 +2,7 @@ name: alquitran
 categories:
   - linter
 tags:
-  - rust
+  - archive
 license: MIT License
 types:
   - cli 
