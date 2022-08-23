@@ -1,0 +1,14 @@
+name: packj
+categories:
+  - linter
+tags:
+  - archive
+license: AGPL-3.0 
+types:
+  - cli 
+source: 'https://github.com/ossillate-inc/packj'
+homepage: 'https://packj.dev'
+description: >-
+  Packj (pronounced package) is a command line (CLI) tool to vet open-source software packages for "risky" attributes
+  that make them vulnerable to supply chain attacks. This is the tool behind our large-scale security analysis
+  platform Packj.dev that continuously vets packages and provides free reports.
