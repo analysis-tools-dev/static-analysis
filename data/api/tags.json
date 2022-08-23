@@ -1,4 +1,286 @@
 {
+  "other": [
+    {
+      "name": ".editorconfig",
+      "tag": "editorconfig",
+      "tag_type": "Other"
+    },
+    {
+      "name": ".env",
+      "tag": "dotenv",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Angular",
+      "tag": "angular",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Ansible",
+      "tag": "ansible",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Azure Resource Manager",
+      "tag": "arm",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Binaries",
+      "tag": "binary",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Build tools",
+      "tag": "buildtool",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Cloud Formation",
+      "tag": "cloudformation",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Config Files",
+      "tag": "configfile",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Configuration Management",
+      "tag": "configmanagement",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Containers",
+      "tag": "container",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Continuous Integration",
+      "tag": "ci",
+      "tag_type": "Other"
+    },
+    {
+      "name": "CSS/SASS/SCSS",
+      "tag": "css",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Deno",
+      "tag": "deno",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Dockerfile",
+      "tag": "dockerfile",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Embedded Ruby (a.k.a. ERB, eRuby)",
+      "tag": "erb",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Embedded",
+      "tag": "embedded",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Formatter",
+      "tag": "formatter",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Gherkin",
+      "tag": "gherkin",
+      "tag_type": "Other"
+    },
+    {
+      "name": "git",
+      "tag": "git",
+      "tag_type": "Other"
+    },
+    {
+      "name": "GraphQL",
+      "tag": "graphql",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Haml",
+      "tag": "haml",
+      "tag_type": "Other"
+    },
+    {
+      "name": "HTML",
+      "tag": "html",
+      "tag_type": "Other"
+    },
+    {
+      "name": "IDE Plugins",
+      "tag": "ide",
+      "tag_type": "Other"
+    },
+    {
+      "name": "JSON",
+      "tag": "json",
+      "tag_type": "Other"
+    },
+    {
+      "name": "JSON Schema",
+      "tag": "jsonschema",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Kubernetes",
+      "tag": "kubernetes",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Laravel",
+      "tag": "laravel",
+      "tag_type": "Other"
+    },
+    {
+      "name": "LaTeX",
+      "tag": "latex",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Less",
+      "tag": "less",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Makefiles",
+      "tag": "make",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Markdown",
+      "tag": "markdown",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Metalinter",
+      "tag": "meta",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Mobile",
+      "tag": "mobile",
+      "tag_type": "Other"
+    },
+    {
+      "name": "More collections",
+      "tag": "collection",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Nix",
+      "tag": "nix",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Node.js",
+      "tag": "nodejs",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Packages",
+      "tag": "package",
+      "tag_type": "Other"
+    },
+    {
+      "name": "PhoneGap",
+      "tag": "phonegap",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Protocol Buffers",
+      "tag": "protobuf",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Puppet",
+      "tag": "puppet",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Rails",
+      "tag": "rails",
+      "tag_type": "Other"
+    },
+    {
+      "name": "reStructuredText",
+      "tag": "rst",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Security/SAST",
+      "tag": "security",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Smart Contracts",
+      "tag": "smart-contracts",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Snakemake",
+      "tag": "snakemake",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Support",
+      "tag": "support",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Template-Languages",
+      "tag": "template",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Terraform",
+      "tag": "terraform",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Translation",
+      "tag": "translation",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Vue.js",
+      "tag": "vue",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Vyper (Smart contract)",
+      "tag": "vyper",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Webassembly",
+      "tag": "wasm",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Writing",
+      "tag": "writing",
+      "tag_type": "Other"
+    },
+    {
+      "name": "XML",
+      "tag": "xml",
+      "tag_type": "Other"
+    },
+    {
+      "name": "YAML",
+      "tag": "yaml",
+      "tag_type": "Other"
+    }
+  ],
   "languages": [
     {
       "name": ".NET",
@@ -359,288 +641,6 @@
       "name": "Visualforce",
       "tag": "visualforce",
       "tag_type": "Language"
-    }
-  ],
-  "other": [
-    {
-      "name": ".editorconfig",
-      "tag": "editorconfig",
-      "tag_type": "Other"
-    },
-    {
-      "name": ".env",
-      "tag": "dotenv",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Angular",
-      "tag": "angular",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Ansible",
-      "tag": "ansible",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Azure Resource Manager",
-      "tag": "arm",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Binaries",
-      "tag": "binary",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Build tools",
-      "tag": "buildtool",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Cloud Formation",
-      "tag": "cloudformation",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Config Files",
-      "tag": "configfile",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Configuration Management",
-      "tag": "configmanagement",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Containers",
-      "tag": "container",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Continuous Integration",
-      "tag": "ci",
-      "tag_type": "Other"
-    },
-    {
-      "name": "CSS/SASS/SCSS",
-      "tag": "css",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Deno",
-      "tag": "deno",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Dockerfile",
-      "tag": "dockerfile",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Embedded Ruby (a.k.a. ERB, eRuby)",
-      "tag": "erb",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Embedded",
-      "tag": "embedded",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Formatter",
-      "tag": "formatter",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Gherkin",
-      "tag": "gherkin",
-      "tag_type": "Other"
-    },
-    {
-      "name": "git",
-      "tag": "git",
-      "tag_type": "Other"
-    },
-    {
-      "name": "GraphQL",
-      "tag": "graphql",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Haml",
-      "tag": "haml",
-      "tag_type": "Other"
-    },
-    {
-      "name": "HTML",
-      "tag": "html",
-      "tag_type": "Other"
-    },
-    {
-      "name": "IDE Plugins",
-      "tag": "ide",
-      "tag_type": "Other"
-    },
-    {
-      "name": "JSON",
-      "tag": "json",
-      "tag_type": "Other"
-    },
-    {
-      "name": "JSON Schema",
-      "tag": "jsonschema",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Kubernetes",
-      "tag": "kubernetes",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Laravel",
-      "tag": "laravel",
-      "tag_type": "Other"
-    },
-    {
-      "name": "LaTeX",
-      "tag": "latex",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Less",
-      "tag": "less",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Makefiles",
-      "tag": "make",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Markdown",
-      "tag": "markdown",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Metalinter",
-      "tag": "meta",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Mobile",
-      "tag": "mobile",
-      "tag_type": "Other"
-    },
-    {
-      "name": "More collections",
-      "tag": "collection",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Nix",
-      "tag": "nix",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Node.js",
-      "tag": "nodejs",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Packages",
-      "tag": "package",
-      "tag_type": "Other"
-    },
-    {
-      "name": "PhoneGap",
-      "tag": "phonegap",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Protocol Buffers",
-      "tag": "protobuf",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Puppet",
-      "tag": "puppet",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Rails",
-      "tag": "rails",
-      "tag_type": "Other"
-    },
-    {
-      "name": "reStructuredText",
-      "tag": "rst",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Security/SAST",
-      "tag": "security",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Smart Contracts",
-      "tag": "smart-contracts",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Snakemake",
-      "tag": "snakemake",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Support",
-      "tag": "support",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Template-Languages",
-      "tag": "template",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Terraform",
-      "tag": "terraform",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Translation",
-      "tag": "translation",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Vue.js",
-      "tag": "vue",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Vyper (Smart contract)",
-      "tag": "vyper",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Webassembly",
-      "tag": "wasm",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Writing",
-      "tag": "writing",
-      "tag_type": "Other"
-    },
-    {
-      "name": "XML",
-      "tag": "xml",
-      "tag_type": "Other"
-    },
-    {
-      "name": "YAML",
-      "tag": "yaml",
-      "tag_type": "Other"
     }
   ]
 }
