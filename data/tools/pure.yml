@@ -1,0 +1,15 @@
+name: pure
+categories:
+  - linter
+tags:
+  - archive
+license: MIT License
+types:
+  - cli 
+source: 'https://github.com/ronomon/pure'
+homepage: 'https://github.com/ronomon/pure'
+description: >-
+  Pure is a static analysis file format checker that checks ZIP files for dangerous compression ratios, spec deviations,
+  malicious archive signatures, mismatching local and central directory headers, ambiguous UTF-8 filenames,
+  directory and symlink traversals, invalid MS-DOS dates, overlapping headers, overflow, underflow, 
+  sparseness, accidental buffer bleeds etc.
