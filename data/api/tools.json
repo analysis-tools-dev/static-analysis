@@ -12,9 +12,9 @@
       "MIT License"
     ],
     "types": [
-      "ide-plugin",
       "service",
-      "cli"
+      "cli",
+      "ide-plugin"
     ],
     "homepage": "https://abaplint.org",
     "source": "https://github.com/abaplint/abaplint",
@@ -2315,8 +2315,8 @@
     "source": null,
     "pricing": "https://www.codacy.com/pricing",
     "plans": {
-      "free": false,
-      "oss": true
+      "oss": true,
+      "free": false
     },
     "description": "Code Analysis to ship Better Code, Faster.",
     "discussion": null,
@@ -2555,8 +2555,8 @@
     "source": null,
     "pricing": "https://codefactor.io/pricing",
     "plans": {
-      "free": false,
-      "oss": true
+      "oss": true,
+      "free": false
     },
     "description": "Automated Code Analysis for repos on GitHub or BitBucket.",
     "discussion": null,
@@ -6032,8 +6032,8 @@
       "MIT License"
     ],
     "types": [
-      "cli",
-      "ide"
+      "ide",
+      "cli"
     ],
     "homepage": "https://goblint.in.tum.de",
     "source": "https://github.com/goblint/analyzer",
@@ -7320,8 +7320,8 @@
     "source": null,
     "pricing": "https://www.jetbrains.com/buy",
     "plans": {
-      "oss": true,
-      "free": false
+      "free": false,
+      "oss": true
     },
     "description": "Comes bundled with a lot of inspections for Java and Kotlin and includes tools for refactoring, formatting and more.",
     "discussion": null,
@@ -7568,8 +7568,8 @@
       "MIT License"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://jsonlint.com/",
     "source": "https://github.com/zaach/jsonlint",
@@ -8996,16 +8996,16 @@
       "proprietary"
     ],
     "types": [
-      "cli",
+      "service",
       "ide-plugin",
-      "service"
+      "cli"
     ],
     "homepage": "https://mythx.io",
     "source": null,
     "pricing": "https://mythx.io/plans/",
     "plans": {
-      "free": false,
-      "oss": false
+      "oss": false,
+      "free": false
     },
     "description": "MythX is an easy to use analysis platform which integrates several analysis methods like fuzzing, symbolic execution and static analysis to find vulnerabilities with high precision. It can be integrated with toolchains like Remix or VSCode or called from the command-line.",
     "discussion": null,
@@ -13265,8 +13265,8 @@
       "GNU Lesser General Public License v2.1"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://semgrep.dev",
     "source": "https://github.com/returntocorp/semgrep",
@@ -13428,8 +13428,8 @@
       "Other"
     ],
     "types": [
-      "service",
-      "cli"
+      "cli",
+      "service"
     ],
     "homepage": "https://slscan.io",
     "source": "https://github.com/ShiftLeftSecurity/sast-scan",
@@ -13522,8 +13522,8 @@
     "source": null,
     "pricing": "https://sider.review/pricing",
     "plans": {
-      "oss": true,
-      "free": false
+      "free": false,
+      "oss": true
     },
     "description": "An automated code reviewing tool. Improving developers' productivity.",
     "discussion": null,
@@ -13578,8 +13578,8 @@
     "source": null,
     "pricing": "https://www.softwareimprovementgroup.com/contact/",
     "plans": {
-      "oss": false,
-      "free": false
+      "free": false,
+      "oss": false
     },
     "description": "Sigrid helps you to improve your software by measuring your system's code quality,  and then compares the results against a benchmark of thousands of industry systems to give you concrete advice on areas where you can improve.",
     "discussion": null,
@@ -14243,8 +14243,8 @@
   "sqlfluff": {
     "name": "SQLFluff",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "sql"
@@ -15278,8 +15278,8 @@
       "Apache-2.0 License"
     ],
     "types": [
-      "service",
-      "web"
+      "web",
+      "service"
     ],
     "homepage": "https://github.com/deepfence/ThreatMapper",
     "source": "https://github.com/deepfence/ThreatMapper",
@@ -15364,8 +15364,8 @@
   "trunk": {
     "name": "trunk",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "c",
@@ -15851,8 +15851,8 @@
       "MIT License"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://unibeautify.com",
     "source": "https://github.com/unibeautify/unibeautify",
