@@ -28,6 +28,9 @@
 - name: Apex
   tag: apex
   type: language
+- name: Archive
+  tag: archive
+  type: other
 - name: ASP.NET
   tag: aspnet
   type: language
