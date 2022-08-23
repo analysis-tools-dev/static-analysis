@@ -1,0 +1,16 @@
+name: alquitran
+categories:
+  - linter
+tags:
+  - archive
+license: MIT License
+types:
+  - cli 
+source: 'https://github.com/ferivoz/alquitran'
+homepage: 'https://github.com/ferivoz/alquitran'
+description: >-
+  Inspects tar archives and tries to spot portability issues in regard 
+  to POSIX 2017 pax specification and common tar implementations.
+  
+  This project is intended to be used by maintainers of projects who want to offer portable source code archives for as many systems as possible.
+  Checking tar archives with alquitran before publishing them should help spotting issues before they reach distributors and users.
