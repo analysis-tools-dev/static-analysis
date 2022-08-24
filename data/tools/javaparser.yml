@@ -1,0 +1,13 @@
+name: JavaParser
+categories:
+  - linter
+tags:
+  - java
+license: Apache-2.0 GPL-3.0 LGPL-3.0
+types:
+  - cli
+source: 'https://github.com/javaparser/javaparser'
+homepage: 'https://javaparser.org/'
+description: >-
+  The JavaParser library provides you with an Abstract Syntax Tree of your Java code. 
+  The AST structure then allows you to work with your Java code in an easy programmatic way.
