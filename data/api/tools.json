@@ -900,8 +900,8 @@
     "source": null,
     "pricing": "https://bettercodehub.com/pricing",
     "plans": {
-      "free": true,
-      "oss": true
+      "oss": true,
+      "free": true
     },
     "description": "Better Code Hub checks your GitHub codebase against 10 engineering guidelines devised by the authority in software quality, Software Improvement Group.",
     "discussion": null,
@@ -1852,8 +1852,8 @@
   "ciocheck": {
     "name": "ciocheck",
     "categories": [
-      "formatter",
-      "meta"
+      "meta",
+      "formatter"
     ],
     "languages": [
       "python"
@@ -3961,8 +3961,8 @@
     "source": null,
     "pricing": "https://deepscan.io/pricing",
     "plans": {
-      "oss": true,
-      "free": false
+      "free": false,
+      "oss": true
     },
     "description": "An analyzer for JavaScript which targets runtime errors and quality issues rather than coding conventions.",
     "discussion": null,
@@ -6123,8 +6123,8 @@
   "gofmt-s": {
     "name": "gofmt -s",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "go"
@@ -7726,8 +7726,8 @@
   "ktlint": {
     "name": "ktlint",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "kotlin"
@@ -9137,8 +9137,8 @@
     "source": null,
     "pricing": "https://www.ndepend.com/purchase",
     "plans": {
-      "oss": false,
-      "free": false
+      "free": false,
+      "oss": false
     },
     "description": "Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.",
     "discussion": null,
@@ -9217,8 +9217,8 @@
     "source": null,
     "pricing": "https://nitpick-ci.com/#pricing",
     "plans": {
-      "free": false,
-      "oss": true
+      "oss": true,
+      "free": false
     },
     "description": "Automated PHP code review.",
     "discussion": null,
@@ -12272,8 +12272,8 @@
     "source": null,
     "pricing": "https://www.reshiftsecurity.com/pricing",
     "plans": {
-      "free": true,
-      "oss": false
+      "oss": false,
+      "free": true
     },
     "description": "A source code analysis tool for detecting and managing Java security vulnerabilities.",
     "discussion": null,
@@ -13141,8 +13141,8 @@
     "source": null,
     "pricing": "https://scrutinizer-ci.com/pricing",
     "plans": {
-      "free": false,
-      "oss": true
+      "oss": true,
+      "free": false
     },
     "description": "A proprietary code quality checker that can be integrated with GitHub.",
     "discussion": null,
@@ -13265,8 +13265,8 @@
       "GNU Lesser General Public License v2.1"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://semgrep.dev",
     "source": "https://github.com/returntocorp/semgrep",
@@ -13428,8 +13428,8 @@
       "Other"
     ],
     "types": [
-      "service",
-      "cli"
+      "cli",
+      "service"
     ],
     "homepage": "https://slscan.io",
     "source": "https://github.com/ShiftLeftSecurity/sast-scan",
@@ -13484,8 +13484,8 @@
       "AGPL-3.0"
     ],
     "types": [
-      "service",
-      "cli"
+      "cli",
+      "service"
     ],
     "homepage": "https://docs.shisho.dev/",
     "source": "https://github.com/flatt-security/shisho",
@@ -14243,8 +14243,8 @@
   "sqlfluff": {
     "name": "SQLFluff",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "sql"
@@ -14577,8 +14577,8 @@
   "structslop": {
     "name": "structslop",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "go"
@@ -15011,8 +15011,8 @@
       "proprietary"
     ],
     "types": [
-      "service",
-      "ide-plugin"
+      "ide-plugin",
+      "service"
     ],
     "homepage": "https://www.cqse.eu/en/teamscale/overview/",
     "source": null,
@@ -15064,8 +15064,8 @@
       "MIT License"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://tca.tencent.com/",
     "source": "https://github.com/Tencent/CodeAnalysis",
@@ -15278,8 +15278,8 @@
       "Apache-2.0 License"
     ],
     "types": [
-      "service",
-      "web"
+      "web",
+      "service"
     ],
     "homepage": "https://github.com/deepfence/ThreatMapper",
     "source": "https://github.com/deepfence/ThreatMapper",
@@ -15364,8 +15364,8 @@
   "trunk": {
     "name": "trunk",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "c",
@@ -16158,8 +16158,8 @@
       "MIT License"
     ],
     "types": [
-      "ide-plugin",
-      "cli"
+      "cli",
+      "ide-plugin"
     ],
     "homepage": "https://marketplace.visualstudio.com/items?itemName=octref.vetur",
     "source": "https://github.com/vuejs/vetur",
