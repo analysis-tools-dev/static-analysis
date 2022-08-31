@@ -12,9 +12,9 @@
       "MIT License"
     ],
     "types": [
-      "service",
+      "ide-plugin",
       "cli",
-      "ide-plugin"
+      "service"
     ],
     "homepage": "https://abaplint.org",
     "source": "https://github.com/abaplint/abaplint",
@@ -97,7 +97,7 @@
     "plans": null,
     "description": "Lint, analyze, normalize, transform, sandbox, run, step through, and visualize user JavaScript, in node or the browser.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -323,7 +323,7 @@
     "plans": null,
     "description": "Combines lint errors of multiple projects into one output, check lint results of multiple sub-projects at once.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -690,7 +690,7 @@
     "plans": null,
     "description": "Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom editor.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": [
       {
         "title": "Adding Atom Beautify Package to Atom",
@@ -860,7 +860,7 @@
     "plans": null,
     "description": "A linting engine supporting custom project-specific rules.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -1327,7 +1327,7 @@
     "plans": null,
     "description": "Code quality threshold checking as part of your build.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -1852,8 +1852,8 @@
   "ciocheck": {
     "name": "ciocheck",
     "categories": [
-      "formatter",
-      "meta"
+      "meta",
+      "formatter"
     ],
     "languages": [
       "python"
@@ -3961,8 +3961,8 @@
     "source": null,
     "pricing": "https://deepscan.io/pricing",
     "plans": {
-      "free": false,
-      "oss": true
+      "oss": true,
+      "free": false
     },
     "description": "An analyzer for JavaScript which targets runtime errors and quality issues rather than coding conventions.",
     "discussion": null,
@@ -4355,8 +4355,8 @@
   "diktat": {
     "name": "diktat",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "kotlin"
@@ -4830,8 +4830,8 @@
     "source": null,
     "pricing": "https://embold.io/pricing",
     "plans": {
-      "oss": false,
-      "free": true
+      "free": true,
+      "oss": false
     },
     "description": "Intelligent software analytics platform that identifies design issues, code issues, duplication and metrics. Supports Java, C, C++, C#, JavaScript, TypeScript, Python, Go, Kotlin and more.",
     "discussion": null,
@@ -6032,8 +6032,8 @@
       "MIT License"
     ],
     "types": [
-      "ide",
-      "cli"
+      "cli",
+      "ide"
     ],
     "homepage": "https://goblint.in.tum.de",
     "source": "https://github.com/goblint/analyzer",
@@ -6123,8 +6123,8 @@
   "gofmt-s": {
     "name": "gofmt -s",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "go"
@@ -7568,8 +7568,8 @@
       "MIT License"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://jsonlint.com/",
     "source": "https://github.com/zaach/jsonlint",
@@ -7726,8 +7726,8 @@
   "ktlint": {
     "name": "ktlint",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "kotlin"
@@ -8996,8 +8996,8 @@
       "proprietary"
     ],
     "types": [
-      "cli",
       "ide-plugin",
+      "cli",
       "service"
     ],
     "homepage": "https://mythx.io",
@@ -9217,8 +9217,8 @@
     "source": null,
     "pricing": "https://nitpick-ci.com/#pricing",
     "plans": {
-      "free": false,
-      "oss": true
+      "oss": true,
+      "free": false
     },
     "description": "Automated PHP code review.",
     "discussion": null,
@@ -9389,8 +9389,8 @@
     "source": null,
     "pricing": "https://www.shiftleft.io/pricing",
     "plans": {
-      "oss": false,
-      "free": true
+      "free": true,
+      "oss": false
     },
     "description": "Enables code auditors and security teams to interactively investigate their unique code bases  to find business logic flaws and technical vulnerabilities that traditional SASTs cannot. This is done by enabling the analyst to write their own custom queries. Can find hard-coded secrets, authentication issues, and malicious code like rootkits and backdoors.",
     "discussion": null,
@@ -11524,8 +11524,8 @@
     "source": null,
     "pricing": "https://pycodequ.al/pricing",
     "plans": {
-      "free": true,
-      "oss": false
+      "oss": false,
+      "free": true
     },
     "description": "PyCodeQual gives you insights into complexity and bug risks. It adds automatic reviews to your pull requests.",
     "discussion": null,
@@ -12272,8 +12272,8 @@
     "source": null,
     "pricing": "https://www.reshiftsecurity.com/pricing",
     "plans": {
-      "oss": false,
-      "free": true
+      "free": true,
+      "oss": false
     },
     "description": "A source code analysis tool for detecting and managing Java security vulnerabilities.",
     "discussion": null,
@@ -12435,8 +12435,8 @@
       "MIT License"
     ],
     "types": [
-      "cli",
-      "ide-plugin"
+      "ide-plugin",
+      "cli"
     ],
     "homepage": "https://rome.tools/blog/2022/04/05/rome-formatter-release",
     "source": "https://github.com/rome/tools/tree/main/crates/rome_js_formatter",
@@ -13141,8 +13141,8 @@
     "source": null,
     "pricing": "https://scrutinizer-ci.com/pricing",
     "plans": {
-      "free": false,
-      "oss": true
+      "oss": true,
+      "free": false
     },
     "description": "A proprietary code quality checker that can be integrated with GitHub.",
     "discussion": null,
@@ -13428,8 +13428,8 @@
       "Other"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://slscan.io",
     "source": "https://github.com/ShiftLeftSecurity/sast-scan",
@@ -13522,8 +13522,8 @@
     "source": null,
     "pricing": "https://sider.review/pricing",
     "plans": {
-      "free": false,
-      "oss": true
+      "oss": true,
+      "free": false
     },
     "description": "An automated code reviewing tool. Improving developers' productivity.",
     "discussion": null,
@@ -13571,8 +13571,8 @@
       "proprietary"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://www.softwareimprovementgroup.com/solutions/sigrid-software-assurance-platform/",
     "source": null,
@@ -13816,8 +13816,8 @@
     "source": null,
     "pricing": "https://sonarcloud.io/pricing",
     "plans": {
-      "oss": true,
-      "free": false
+      "free": false,
+      "oss": true
     },
     "description": "Multi-language cloud-based static code analysis. History, trends, security hot-spots, pull request analysis and more. Free for open source.",
     "discussion": null,
@@ -14243,8 +14243,8 @@
   "sqlfluff": {
     "name": "SQLFluff",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "sql"
@@ -14577,8 +14577,8 @@
   "structslop": {
     "name": "structslop",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "go"
@@ -15018,8 +15018,8 @@
     "source": null,
     "pricing": "https://www.cqse.eu/en/teamscale/buy/",
     "plans": {
-      "free": false,
-      "oss": false
+      "oss": false,
+      "free": false
     },
     "description": "Static and dynamic analysis tool supporting more than 25 languages and direct IDE integration. Free hosting for Open Source projects available on request. Free academic licenses available.",
     "discussion": null,
@@ -15278,8 +15278,8 @@
       "Apache-2.0 License"
     ],
     "types": [
-      "web",
-      "service"
+      "service",
+      "web"
     ],
     "homepage": "https://github.com/deepfence/ThreatMapper",
     "source": "https://github.com/deepfence/ThreatMapper",
@@ -16147,8 +16147,8 @@
   "vetur": {
     "name": "Vetur",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [],
     "other": [
