@@ -12,9 +12,9 @@
       "MIT License"
     ],
     "types": [
-      "cli",
+      "ide-plugin",
       "service",
-      "ide-plugin"
+      "cli"
     ],
     "homepage": "https://abaplint.org",
     "source": "https://github.com/abaplint/abaplint",
@@ -1852,8 +1852,8 @@
   "ciocheck": {
     "name": "ciocheck",
     "categories": [
-      "formatter",
-      "meta"
+      "meta",
+      "formatter"
     ],
     "languages": [
       "python"
@@ -2315,8 +2315,8 @@
     "source": null,
     "pricing": "https://www.codacy.com/pricing",
     "plans": {
-      "free": false,
-      "oss": true
+      "oss": true,
+      "free": false
     },
     "description": "Code Analysis to ship Better Code, Faster.",
     "discussion": null,
@@ -2762,8 +2762,8 @@
       "MIT"
     ],
     "types": [
-      "ide-plugin",
-      "service"
+      "service",
+      "ide-plugin"
     ],
     "homepage": "https://github.com/github/codeql",
     "source": null,
@@ -3015,8 +3015,8 @@
     "source": null,
     "pricing": "https://www.codiga.io/pricing",
     "plans": {
-      "oss": false,
-      "free": true
+      "free": true,
+      "oss": false
     },
     "description": "Automated Code Reviews and Technical Debt management platform that supports 12+ languages.",
     "discussion": null,
@@ -4355,8 +4355,8 @@
   "diktat": {
     "name": "diktat",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "kotlin"
@@ -4830,8 +4830,8 @@
     "source": null,
     "pricing": "https://embold.io/pricing",
     "plans": {
-      "oss": false,
-      "free": true
+      "free": true,
+      "oss": false
     },
     "description": "Intelligent software analytics platform that identifies design issues, code issues, duplication and metrics. Supports Java, C, C++, C#, JavaScript, TypeScript, Python, Go, Kotlin and more.",
     "discussion": null,
@@ -6123,8 +6123,8 @@
   "gofmt-s": {
     "name": "gofmt -s",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "go"
@@ -6950,8 +6950,8 @@
       "MIT License"
     ],
     "types": [
-      "cli",
-      "ide-plugin"
+      "ide-plugin",
+      "cli"
     ],
     "homepage": "https://html-validate.org/",
     "source": "https://gitlab.com/html-validate/html-validate",
@@ -7568,8 +7568,8 @@
       "MIT License"
     ],
     "types": [
-      "service",
-      "cli"
+      "cli",
+      "service"
     ],
     "homepage": "https://jsonlint.com/",
     "source": "https://github.com/zaach/jsonlint",
@@ -8997,8 +8997,8 @@
     ],
     "types": [
       "service",
-      "cli",
-      "ide-plugin"
+      "ide-plugin",
+      "cli"
     ],
     "homepage": "https://mythx.io",
     "source": null,
@@ -9137,8 +9137,8 @@
     "source": null,
     "pricing": "https://www.ndepend.com/purchase",
     "plans": {
-      "oss": false,
-      "free": false
+      "free": false,
+      "oss": false
     },
     "description": "Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.",
     "discussion": null,
@@ -11524,8 +11524,8 @@
     "source": null,
     "pricing": "https://pycodequ.al/pricing",
     "plans": {
-      "oss": false,
-      "free": true
+      "free": true,
+      "oss": false
     },
     "description": "PyCodeQual gives you insights into complexity and bug risks. It adds automatic reviews to your pull requests.",
     "discussion": null,
@@ -12272,8 +12272,8 @@
     "source": null,
     "pricing": "https://www.reshiftsecurity.com/pricing",
     "plans": {
-      "free": true,
-      "oss": false
+      "oss": false,
+      "free": true
     },
     "description": "A source code analysis tool for detecting and managing Java security vulnerabilities.",
     "discussion": null,
@@ -12435,8 +12435,8 @@
       "MIT License"
     ],
     "types": [
-      "cli",
-      "ide-plugin"
+      "ide-plugin",
+      "cli"
     ],
     "homepage": "https://rome.tools/blog/2022/04/05/rome-formatter-release",
     "source": "https://github.com/rome/tools/tree/main/crates/rome_js_formatter",
@@ -13522,8 +13522,8 @@
     "source": null,
     "pricing": "https://sider.review/pricing",
     "plans": {
-      "free": false,
-      "oss": true
+      "oss": true,
+      "free": false
     },
     "description": "An automated code reviewing tool. Improving developers' productivity.",
     "discussion": null,
@@ -13571,15 +13571,15 @@
       "proprietary"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://www.softwareimprovementgroup.com/solutions/sigrid-software-assurance-platform/",
     "source": null,
     "pricing": "https://www.softwareimprovementgroup.com/contact/",
     "plans": {
-      "oss": false,
-      "free": false
+      "free": false,
+      "oss": false
     },
     "description": "Sigrid helps you to improve your software by measuring your system's code quality,  and then compares the results against a benchmark of thousands of industry systems to give you concrete advice on areas where you can improve.",
     "discussion": null,
@@ -14243,8 +14243,8 @@
   "sqlfluff": {
     "name": "SQLFluff",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "sql"
@@ -14577,8 +14577,8 @@
   "structslop": {
     "name": "structslop",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "go"
@@ -15011,15 +15011,15 @@
       "proprietary"
     ],
     "types": [
-      "service",
-      "ide-plugin"
+      "ide-plugin",
+      "service"
     ],
     "homepage": "https://www.cqse.eu/en/teamscale/overview/",
     "source": null,
     "pricing": "https://www.cqse.eu/en/teamscale/buy/",
     "plans": {
-      "free": false,
-      "oss": false
+      "oss": false,
+      "free": false
     },
     "description": "Static and dynamic analysis tool supporting more than 25 languages and direct IDE integration. Free hosting for Open Source projects available on request. Free academic licenses available.",
     "discussion": null,
@@ -15851,8 +15851,8 @@
       "MIT License"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://unibeautify.com",
     "source": "https://github.com/unibeautify/unibeautify",
@@ -15867,8 +15867,8 @@
   "unimport": {
     "name": "unimport",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "python"
