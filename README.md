@@ -162,7 +162,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="asm">Assembly</h2>
 
-- [STOKE](https://github.com/StanfordPL/stoke) :warning: — A programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations.
+- [STOKE](https://github.com/StanfordPL/stoke) — A programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations.
 
 
 <h2 id="awk">Awk</h2>
@@ -214,7 +214,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [NDepend](http://www.ndepend.com) :copyright: — Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.
 - [Puma Scan](https://pumasecurity.io) — Puma Scan provides real time secure code analysis for common vulnerabilities (XSS, SQLi, CSRF, LDAPi, crypto, deserialization, etc.) as development teams write code in Visual Studio.
 - [Roslynator](https://github.com/JosefPihrt/Roslynator) — A collection of 190+ analyzers and 190+ refactorings for C#, powered by Roslyn.
-- [VSDiagnostics](https://github.com/Vannevelj/VSDiagnostics) :warning: — A collection of static analyzers based on Roslyn that integrates with VS.
+- [VSDiagnostics](https://github.com/Vannevelj/VSDiagnostics) — A collection of static analyzers based on Roslyn that integrates with VS.
 - [Wintellect.Analyzers](https://github.com/Wintellect/Wintellect.Analyzers) — .NET Compiler Platform ("Roslyn") diagnostic analyzers and code fixes.
 
 
@@ -365,7 +365,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [structcheck](https://gitlab.com/opennota/check) — Find unused struct fields.
 - [structslop](https://github.com/orijtech/structslop) — Static analyzer for Go that recommends struct field rearrangements to provide for maximum space/allocation efficiency
 - [test](http://golang.org/pkg/testing) — Show location of test failures from the stdlib testing module.
-- [unconvert](https://github.com/mdempsky/unconvert) :warning: — Detect redundant type conversions.
+- [unconvert](https://github.com/mdempsky/unconvert) — Detect redundant type conversions.
 - [unparam](https://github.com/mvdan/unparam) — Find unused function parameters.
 - [varcheck](https://gitlab.com/opennota/check) — Find unused global variables and constants.
 - [wsl](https://github.com/bombsimon/wsl) — Enforces empty lines at the right places.
@@ -413,7 +413,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [Reshift](https://www.reshiftsecurity.com) :copyright: — A source code analysis tool for detecting and managing Java security vulnerabilities.
 - [Soot](https://soot-oss.github.io/soot) — A framework for analyzing and transforming Java and Android applications.
 - [Spoon](http://spoon.gforge.inria.fr) — Spoon is a metaprogramming library to analyze and transform Java source code (incl Java 9, 10, 11, 12, 13, 14). It parses source files to build a well-designed AST with powerful analysis and transformation API. Can be integrated in Maven and Gradle.
-- [SpotBugs](https://spotbugs.github.io) :warning: — SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code.
+- [SpotBugs](https://spotbugs.github.io) — SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code.
 - [Violations Lib](https://github.com/tomasbjerre/violations-lib) — Java library for parsing report files from static code analysis. Used by a bunch of Jenkins, Maven and Gradle plugins.
 
 
@@ -529,7 +529,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [PHPStan](https://phpstan.org) — PHP Static Analysis Tool - discover bugs in your code without running it!
 - [Progpilot](https://github.com/designsecurity/progpilot) — A static analysis tool for security purposes.
 - [Psalm](https://psalm.dev) — Static analysis tool for finding type errors in PHP applications.
-- [Qafoo Quality Analyzer](https://github.com/Qafoo/QualityAnalyzer) :warning: — Visualizes metrics and source code.
+- [Qafoo Quality Analyzer](https://github.com/Qafoo/QualityAnalyzer) — Visualizes metrics and source code.
 - [Symfony Insight](https://insight.symfony.com/) :copyright: — Detect security risks, find bugs and provide actionable metrics for PHP projects.
 - [Tuli](https://github.com/ircmaxell/Tuli) — A static analysis engine.
 - [twig-lint](https://github.com/asm89/twig-lint) — twig-lint is a lint tool for your twig files.
@@ -608,8 +608,8 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [laser](https://github.com/michaeledgar/laser) :warning: — Static analysis and style linter for Ruby code.
 - [pelusa](https://github.com/codegram/pelusa) — Static analysis Lint-type tool to improve your OO Ruby code.
 - [quality](https://github.com/apiology/quality) — Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time.
-- [Querly](https://github.com/soutaro/querly) :warning: — Pattern Based Checking Tool for Ruby.
-- [Railroader](https://railroader.org) :warning: — An open source static analysis security vulnerability scanner for Ruby on Rails applications.
+- [Querly](https://github.com/soutaro/querly) — Pattern Based Checking Tool for Ruby.
+- [Railroader](https://railroader.org) — An open source static analysis security vulnerability scanner for Ruby on Rails applications.
 - [rails_best_practices](https://rails-bestpractices.com) — A code metric tool for Rails projects
 - [reek](https://github.com/troessner/reek) — Code smell detector for Ruby.
 - [RuboCop](https://docs.rubocop.org/rubocop) — A Ruby static code analyzer, based on the community Ruby style guide.
@@ -617,7 +617,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [ruby-lint](http://code.yorickpeterse.com/ruby-lint/latest) :warning: — Static code analysis for Ruby.
 - [rubycritic](https://github.com/whitesmith/rubycritic) — A Ruby code quality reporter.
 - [rufo](https://github.com/ruby-formatter/rufo) — An opinionated ruby formatter, intended to be used via the command line as a text-editor plugin, to autoformat files on save or on demand.
-- [Saikuro](https://metricfu.github.io/Saikuro) :warning: — A Ruby cyclomatic complexity analyzer.
+- [Saikuro](https://metricfu.github.io/Saikuro) — A Ruby cyclomatic complexity analyzer.
 - [SandiMeter](https://rubygems.org/gems/sandi_meter) :warning: — Static analysis tool for checking Ruby code for Sandi Metz' rules.
 - [Sorbet](https://sorbet.org) — A fast, powerful type checker designed for Ruby.
 - [Standard Ruby](https://github.com/testdouble/standard) — Ruby Style Guide, with linter & automatic code fixer
@@ -660,7 +660,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [sqlint](https://github.com/purcell/sqlint) — Simple SQL linter.
 - [squawk](https://squawkhq.com) — Linter for PostgreSQL, focused on migrations. Prevents unexpected downtime caused by database migrations and encourages best practices around Postgres schemas and SQL.
 - [tsqllint](https://github.com/tsqllint/tsqllint) — T-SQL-specific linter.
-- [TSqlRules](https://github.com/ashleyglee/TSqlRules) :warning: — TSQL Static Code Analysis Rules for SQL Server.
+- [TSqlRules](https://github.com/ashleyglee/TSqlRules) — TSQL Static Code Analysis Rules for SQL Server.
 - [Visual Expert](https://www.visual-expert.com) :copyright: — Code analysis for PowerBuilder, Oracle, and SQL Server Explores, analyzes, and documents Code 
 
 
@@ -718,7 +718,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 
 <h2 id="vim-script">Vim Script</h2>
 
-- [vint](https://github.com/Kuniwak/vint) :warning: — Fast and Highly Extensible Vim script Language Lint implemented by Python.
+- [vint](https://github.com/Kuniwak/vint) — Fast and Highly Extensible Vim script Language Lint implemented by Python.
 
 
 ## Multiple languages
@@ -797,7 +797,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [Putout](https://github.com/coderaiser/putout) — Pluggable and configurable code transformer with built-in eslint, babel plugins support for js, jsx typescript, flow, markdown, yaml and json.
 - [PVS-Studio](https://pvs-studio.com) :copyright: — A ([conditionally free](https://pvs-studio.com/en/order/open-source-license) for FOSS and individual developers) static analysis of C, C++, C# and Java code. For advertising purposes [you can propose a large FOSS project for analysis by PVS employees](https://github.com/viva64/pvs-studio-check-list). Supports CWE mapping, MISRA and CERT coding standards.
 - [pylama](https://klen.github.io/pylama/) — Code audit tool for Python and JavaScript. Wraps pycodestyle, pydocstyle, PyFlakes, Mccabe, Pylint, and more
-- [Refactoring Essentials](https://marketplace.visualstudio.com/items?itemName=SharpDevelopTeam.RefactoringEssentialsforVisualStudio) :warning: — The free Visual Studio 2015 extension for C# and VB.NET refactorings, including code best practice analyzers.
+- [Refactoring Essentials](https://marketplace.visualstudio.com/items?itemName=SharpDevelopTeam.RefactoringEssentialsforVisualStudio) — The free Visual Studio 2015 extension for C# and VB.NET refactorings, including code best practice analyzers.
 - [relint](https://github.com/codingjoe/relint) — A static file linter that allows you to write custom rules using regular expressions (RegEx).
 - [ReSharper](https://www.jetbrains.com/resharper) :copyright: — Extends Visual Studio with on-the-fly code inspections for C#, VB.NET, ASP.NET, JavaScript, TypeScript and other technologies.
 - [RIPS](https://www.ripstech.com) :copyright: — A static source code analyser for vulnerabilities in PHP scripts.
@@ -912,7 +912,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 - [PostCSS](https://postcss.org) — A tool for transforming styles with JS plugins. These plugins can lint your CSS, support variables and mixins, transpile future CSS syntax, inline images, and more.
 - [Project Wallace CSS Analyzer](https://www.projectwallace.com) — Analytics for CSS, part of [Project Wallace](https://www.projectwallace.com).
 - [sass-lint](https://github.com/sasstools/sass-lint) :warning: — A Node-only Sass linter for both sass and scss syntax.
-- [scsslint](https://github.com/brigade/scss-lint) — Linter for SCSS files.
+- [scsslint](https://github.com/brigade/scss-lint) :warning: — Linter for SCSS files.
 - [Specificity Graph](https://jonassebastianohlsson.com/specificity-graph) — CSS Specificity Graph Generator.
 - [Stylelint](http://stylelint.io) — Linter for SCSS/CSS files.
 
@@ -1084,7 +1084,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 - [iblessing](https://www.kitploit.com/2020/08/iblessing-ios-security-exploiting.html) — iblessing is an iOS security exploiting toolkit. It can be used for reverse engineering, binary analysis and vulnerability mining.
 - [Oversecured](https://oversecured.com) :copyright: — Enterprise vulnerability scanner for Android and iOS apps. It allows app owners and developers to secure each new version of a mobile app by integrating Oversecured into the development process.
 - [paprika](https://github.com/GeoffreyHecht/paprika) :warning: — A toolkit to detect some code smells in analyzed Android applications.
-- [qark](https://github.com/linkedin/qark) :warning: — Tool to look for several security related Android application vulnerabilities.
+- [qark](https://github.com/linkedin/qark) — Tool to look for several security related Android application vulnerabilities.
 - [redex](https://fbredex.com) — Redex provides a framework for reading, writing, and analyzing .dex files, and a set of optimization passes  that use this framework to improve the bytecode. An APK optimized by Redex should be smaller and faster.
 
 
@@ -1154,7 +1154,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 - [mythril](https://github.com/ConsenSys/mythril) — A symbolic execution framework with batteries included, can be used to find and exploit vulnerabilities in smart contracts automatically.
 - [MythX](https://mythx.io) :copyright: — MythX is an easy to use analysis platform which integrates several analysis methods like fuzzing, symbolic execution and static analysis to find vulnerabilities with high precision. It can be integrated with toolchains like Remix or VSCode or called from the command-line.
 - [slither](https://github.com/trailofbits/slither) — Static analysis framework that runs a suite of vulnerability detectors, prints visual information about contract details, and provides an API to easily write custom analyses.
-- [solhint](https://protofire.github.io/solhint) :warning: — Solhint is an open source project created by https://protofire.io. Its goal is to provide a linting utility for Solidity code.
+- [solhint](https://protofire.github.io/solhint) — Solhint is an open source project created by https://protofire.io. Its goal is to provide a linting utility for Solidity code.
 - [solium](https://ethlint.readthedocs.io/en/latest) — Solium is a linter to identify and fix style and security issues in Solidity smart contracts.
 
 
@@ -1169,7 +1169,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 - [ember-template-lint](https://github.com/ember-template-lint/ember-template-lint) — Linter for Ember or Handlebars templates.
 - [haml-lint](https://github.com/sds/haml-lint) — Tool for writing clean and consistent HAML.
 - [slim-lint](https://github.com/sds/slim-lint) — Configurable tool for analyzing Slim templates.
-- [yamllint](https://yamllint.readthedocs.io) :warning: — Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation.
+- [yamllint](https://yamllint.readthedocs.io) — Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation.
 
 
 <h2 id="terraform">Terraform</h2>
@@ -1210,7 +1210,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 <h2 id="yaml">YAML</h2>
 
 - [Spectral](https://stoplight.io/open-source/spectral) — A flexible JSON/YAML linter, with out-of-the-box support for OpenAPI v2/v3 and AsyncAPI v2.
-- [yamllint](https://yamllint.readthedocs.io) :warning: — Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation.
+- [yamllint](https://yamllint.readthedocs.io) — Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation.
 
 
 <h2 id="git">git</h2>
