@@ -9,7 +9,7 @@ types:
 source: 'https://github.com/charliermarsh/ruff'
 homepage: 'https://github.com/charliermarsh/ruff'
 resources:
-  - name: Python tooling could be much, much faster (announcement)
+  - title: Python tooling could be much, much faster (announcement)
     url: https://notes.crmarsh.com/python-tooling-could-be-much-much-faster
 description: >-
    Fast Python linter, written in Rust. 10-100x faster than existing linters.
