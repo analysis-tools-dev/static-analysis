@@ -1,0 +1,16 @@
+name: ruff
+categories:
+  - linter
+tags:
+  - python
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/charliermarsh/ruff'
+homepage: 'https://github.com/charliermarsh/ruff'
+resources:
+  - title: Python tooling could be much, much faster (announcement)
+    url: https://notes.crmarsh.com/python-tooling-could-be-much-much-faster
+description: >-
+   Fast Python linter, written in Rust. 10-100x faster than existing linters.
+   Compatible with Python 3.10. Supports file watcher.
