@@ -12,9 +12,9 @@
       "MIT License"
     ],
     "types": [
-      "ide-plugin",
       "cli",
-      "service"
+      "service",
+      "ide-plugin"
     ],
     "homepage": "https://abaplint.org",
     "source": "https://github.com/abaplint/abaplint",
@@ -900,8 +900,8 @@
     "source": null,
     "pricing": "https://bettercodehub.com/pricing",
     "plans": {
-      "oss": true,
-      "free": true
+      "free": true,
+      "oss": true
     },
     "description": "Better Code Hub checks your GitHub codebase against 10 engineering guidelines devised by the authority in software quality, Software Improvement Group.",
     "discussion": null,
@@ -1852,8 +1852,8 @@
   "ciocheck": {
     "name": "ciocheck",
     "categories": [
-      "formatter",
-      "meta"
+      "meta",
+      "formatter"
     ],
     "languages": [
       "python"
@@ -2315,8 +2315,8 @@
     "source": null,
     "pricing": "https://www.codacy.com/pricing",
     "plans": {
-      "oss": true,
-      "free": false
+      "free": false,
+      "oss": true
     },
     "description": "Code Analysis to ship Better Code, Faster.",
     "discussion": null,
@@ -2555,8 +2555,8 @@
     "source": null,
     "pricing": "https://codefactor.io/pricing",
     "plans": {
-      "oss": true,
-      "free": false
+      "free": false,
+      "oss": true
     },
     "description": "Automated Code Analysis for repos on GitHub or BitBucket.",
     "discussion": null,
@@ -3961,8 +3961,8 @@
     "source": null,
     "pricing": "https://deepscan.io/pricing",
     "plans": {
-      "oss": true,
-      "free": false
+      "free": false,
+      "oss": true
     },
     "description": "An analyzer for JavaScript which targets runtime errors and quality issues rather than coding conventions.",
     "discussion": null,
@@ -4355,8 +4355,8 @@
   "diktat": {
     "name": "diktat",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "kotlin"
@@ -6123,8 +6123,8 @@
   "gofmt-s": {
     "name": "gofmt -s",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "go"
@@ -7320,8 +7320,8 @@
     "source": null,
     "pricing": "https://www.jetbrains.com/buy",
     "plans": {
-      "oss": true,
-      "free": false
+      "free": false,
+      "oss": true
     },
     "description": "Comes bundled with a lot of inspections for Java and Kotlin and includes tools for refactoring, formatting and more.",
     "discussion": null,
@@ -7568,8 +7568,8 @@
       "MIT License"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://jsonlint.com/",
     "source": "https://github.com/zaach/jsonlint",
@@ -7726,8 +7726,8 @@
   "ktlint": {
     "name": "ktlint",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "kotlin"
@@ -9268,8 +9268,8 @@
       "GNU General Public License v3.0"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://opensecurity.in",
     "source": "https://github.com/ajinabraham/NodeJsScan",
@@ -11524,8 +11524,8 @@
     "source": null,
     "pricing": "https://pycodequ.al/pricing",
     "plans": {
-      "oss": false,
-      "free": true
+      "free": true,
+      "oss": false
     },
     "description": "PyCodeQual gives you insights into complexity and bug risks. It adds automatic reviews to your pull requests.",
     "discussion": null,
@@ -12272,8 +12272,8 @@
     "source": null,
     "pricing": "https://www.reshiftsecurity.com/pricing",
     "plans": {
-      "free": true,
-      "oss": false
+      "oss": false,
+      "free": true
     },
     "description": "A source code analysis tool for detecting and managing Java security vulnerabilities.",
     "discussion": null,
@@ -13552,8 +13552,8 @@
     "source": null,
     "pricing": "https://sider.review/pricing",
     "plans": {
-      "free": false,
-      "oss": true
+      "oss": true,
+      "free": false
     },
     "description": "An automated code reviewing tool. Improving developers' productivity.",
     "discussion": null,
@@ -14273,8 +14273,8 @@
   "sqlfluff": {
     "name": "SQLFluff",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "sql"
@@ -15041,8 +15041,8 @@
       "proprietary"
     ],
     "types": [
-      "service",
-      "ide-plugin"
+      "ide-plugin",
+      "service"
     ],
     "homepage": "https://www.cqse.eu/en/teamscale/overview/",
     "source": null,
@@ -15394,8 +15394,8 @@
   "trunk": {
     "name": "trunk",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "c",
@@ -15426,8 +15426,8 @@
     "source": "https://github.com/trunk-io/",
     "pricing": "https://trunk.io/pricing",
     "plans": {
-      "oss": true,
-      "free": true
+      "free": true,
+      "oss": true
     },
     "description": "Modern repositories include many technologies, each with its own set of linters. With 30+ linters and counting, Trunk makes it dead-simple to identify, install, configure, and run the right linters, static analyzers, and formatters for all your repos.",
     "discussion": null,
@@ -15897,8 +15897,8 @@
   "unimport": {
     "name": "unimport",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "python"
@@ -16177,8 +16177,8 @@
   "vetur": {
     "name": "Vetur",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [],
     "other": [
@@ -16188,8 +16188,8 @@
       "MIT License"
     ],
     "types": [
-      "ide-plugin",
-      "cli"
+      "cli",
+      "ide-plugin"
     ],
     "homepage": "https://marketplace.visualstudio.com/items?itemName=octref.vetur",
     "source": "https://github.com/vuejs/vetur",
