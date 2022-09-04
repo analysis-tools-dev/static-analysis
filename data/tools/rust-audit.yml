@@ -1,8 +1,9 @@
 name: rust-audit
 categories:
-  - formatter
+  - linter
 tags:
   - rust
+  - binary
 license: Other
 types:
   - cli
