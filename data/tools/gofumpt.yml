@@ -1,6 +1,6 @@
 name: gofumpt
 categories:
-  - linter
+  - formatter
 tags:
   - go
 license: BSD-3
