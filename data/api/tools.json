@@ -12,8 +12,8 @@
       "MIT License"
     ],
     "types": [
-      "cli",
       "service",
+      "cli",
       "ide-plugin"
     ],
     "homepage": "https://abaplint.org",
@@ -2315,8 +2315,8 @@
     "source": null,
     "pricing": "https://www.codacy.com/pricing",
     "plans": {
-      "oss": true,
-      "free": false
+      "free": false,
+      "oss": true
     },
     "description": "Code Analysis to ship Better Code, Faster.",
     "discussion": null,
@@ -3996,8 +3996,8 @@
     "source": null,
     "pricing": "https://deepsource.io/pricing",
     "plans": {
-      "free": true,
-      "oss": true
+      "oss": true,
+      "free": true
     },
     "description": "In-depth static analysis to find issues in verticals of bug risks, security, anti-patterns, performance, documentation and style. Native integrations with GitHub, GitLab and Bitbucket. Less than 5% false positives.",
     "discussion": null,
@@ -4355,8 +4355,8 @@
   "diktat": {
     "name": "diktat",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "kotlin"
@@ -4830,8 +4830,8 @@
     "source": null,
     "pricing": "https://embold.io/pricing",
     "plans": {
-      "oss": false,
-      "free": true
+      "free": true,
+      "oss": false
     },
     "description": "Intelligent software analytics platform that identifies design issues, code issues, duplication and metrics. Supports Java, C, C++, C#, JavaScript, TypeScript, Python, Go, Kotlin and more.",
     "discussion": null,
@@ -6123,8 +6123,8 @@
   "gofmt-s": {
     "name": "gofmt -s",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "go"
@@ -6159,8 +6159,8 @@
       "BSD-3"
     ],
     "types": [
-      "ide-plugin",
-      "cli"
+      "cli",
+      "ide-plugin"
     ],
     "homepage": "https://github.com/mvdan/gofumpt",
     "source": "https://github.com/mvdan/gofumpt",
@@ -6976,8 +6976,8 @@
       "MIT License"
     ],
     "types": [
-      "cli",
-      "ide-plugin"
+      "ide-plugin",
+      "cli"
     ],
     "homepage": "https://html-validate.org/",
     "source": "https://gitlab.com/html-validate/html-validate",
@@ -7346,8 +7346,8 @@
     "source": null,
     "pricing": "https://www.jetbrains.com/buy",
     "plans": {
-      "oss": true,
-      "free": false
+      "free": false,
+      "oss": true
     },
     "description": "Comes bundled with a lot of inspections for Java and Kotlin and includes tools for refactoring, formatting and more.",
     "discussion": null,
@@ -9023,8 +9023,8 @@
     ],
     "types": [
       "service",
-      "ide-plugin",
-      "cli"
+      "cli",
+      "ide-plugin"
     ],
     "homepage": "https://mythx.io",
     "source": null,
@@ -9163,8 +9163,8 @@
     "source": null,
     "pricing": "https://www.ndepend.com/purchase",
     "plans": {
-      "free": false,
-      "oss": false
+      "oss": false,
+      "free": false
     },
     "description": "Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.",
     "discussion": null,
@@ -9243,8 +9243,8 @@
     "source": null,
     "pricing": "https://nitpick-ci.com/#pricing",
     "plans": {
-      "oss": true,
-      "free": false
+      "free": false,
+      "oss": true
     },
     "description": "Automated PHP code review.",
     "discussion": null,
@@ -9294,8 +9294,8 @@
       "GNU General Public License v3.0"
     ],
     "types": [
-      "service",
-      "cli"
+      "cli",
+      "service"
     ],
     "homepage": "https://opensecurity.in",
     "source": "https://github.com/ajinabraham/NodeJsScan",
@@ -9415,8 +9415,8 @@
     "source": null,
     "pricing": "https://www.shiftleft.io/pricing",
     "plans": {
-      "oss": false,
-      "free": true
+      "free": true,
+      "oss": false
     },
     "description": "Enables code auditors and security teams to interactively investigate their unique code bases  to find business logic flaws and technical vulnerabilities that traditional SASTs cannot. This is done by enabling the analyst to write their own custom queries. Can find hard-coded secrets, authentication issues, and malicious code like rootkits and backdoors.",
     "discussion": null,
@@ -11550,8 +11550,8 @@
     "source": null,
     "pricing": "https://pycodequ.al/pricing",
     "plans": {
-      "free": true,
-      "oss": false
+      "oss": false,
+      "free": true
     },
     "description": "PyCodeQual gives you insights into complexity and bug risks. It adds automatic reviews to your pull requests.",
     "discussion": null,
@@ -13199,8 +13199,8 @@
     "source": null,
     "pricing": "https://scrutinizer-ci.com/pricing",
     "plans": {
-      "free": false,
-      "oss": true
+      "oss": true,
+      "free": false
     },
     "description": "A proprietary code quality checker that can be integrated with GitHub.",
     "discussion": null,
@@ -13629,15 +13629,15 @@
       "proprietary"
     ],
     "types": [
-      "service",
-      "cli"
+      "cli",
+      "service"
     ],
     "homepage": "https://www.softwareimprovementgroup.com/solutions/sigrid-software-assurance-platform/",
     "source": null,
     "pricing": "https://www.softwareimprovementgroup.com/contact/",
     "plans": {
-      "oss": false,
-      "free": false
+      "free": false,
+      "oss": false
     },
     "description": "Sigrid helps you to improve your software by measuring your system's code quality,  and then compares the results against a benchmark of thousands of industry systems to give you concrete advice on areas where you can improve.",
     "discussion": null,
@@ -15336,8 +15336,8 @@
       "Apache-2.0 License"
     ],
     "types": [
-      "web",
-      "service"
+      "service",
+      "web"
     ],
     "homepage": "https://github.com/deepfence/ThreatMapper",
     "source": "https://github.com/deepfence/ThreatMapper",
@@ -15909,8 +15909,8 @@
       "MIT License"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://unibeautify.com",
     "source": "https://github.com/unibeautify/unibeautify",
@@ -15925,8 +15925,8 @@
   "unimport": {
     "name": "unimport",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "python"
