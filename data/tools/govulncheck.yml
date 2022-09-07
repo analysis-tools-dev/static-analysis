@@ -1,0 +1,17 @@
+name: govulncheck
+categories:
+  - linter
+tags:
+  - go
+license: BSD-3-Clause
+types:
+  - cli
+  - service
+source: 'https://pkg.go.dev/golang.org/x/vuln/vulncheck'
+homepage: 'https://go.dev/blog/vuln'
+description: >-
+  Govulncheck reports known vulnerabilities that affect Go code. 
+  It uses static analysis of source code or a binary's symbol table to narrow down reports to only those that could affect the application.
+
+  By default, govulncheck makes requests to the Go vulnerability database at https://vuln.go.dev.
+  Requests to the vulnerability database contain only module paths, not code or other properties of your program.
