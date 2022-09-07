@@ -352,6 +352,8 @@ The tool is a fork of `gofmt` as of Go 1.19, and requires Go 1.18 or later.  It 
 - [goroutine-inspect](https://github.com/linuxerwang/goroutine-inspect) — An interactive tool to analyze Golang goroutine dump.
 - [gosec (gas)](https://securego.io) — Inspects source code for security problems by scanning the Go AST.
 - [gotype](https://pkg.go.dev/golang.org/x/tools/cmd/gotype) — Syntactic and semantic analysis similar to the Go compiler.
+- [govulncheck](https://go.dev/blog/vuln) — Govulncheck reports known vulnerabilities that affect Go code.  It uses static analysis of source code or a binary's symbol table to narrow down reports to only those that could affect the application.
+By default, govulncheck makes requests to the Go vulnerability database at https://vuln.go.dev. Requests to the vulnerability database contain only module paths, not code or other properties of your program.
 - [ineffassign](https://github.com/gordonklaus/ineffassign) — Detect ineffectual assignments in Go code.
 - [interfacer](https://github.com/mvdan/interfacer) :warning: — Suggest narrower interfaces that can be used.
 - [lll](https://github.com/walle/lll) — Report long lines.
