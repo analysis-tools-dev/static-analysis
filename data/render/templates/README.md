@@ -4,7 +4,7 @@
    <img width="400px" alt="Analysis Tools" src="https://raw.githubusercontent.com/analysis-tools-dev/website/master/static/logo.png" />
  </a>
 
-This repository lists **static analysis tools** for all programming languages, build tools, config files and more. The focus is on tools which improve code quality such as linters and formatters. 
+This repository lists **static analysis tools** for all programming languages, build tools, config files and more. The focus is on tools which improve code quality such as linters and formatters.
 The official website, [analysis-tools.dev](https://analysis-tools.dev/) is based on this repository and adds rankings, user comments, and additional resources like videos for each tool.
 
 ![CI](https://github.com/analysis-tools-dev/static-analysis/workflows/CI/badge.svg)
@@ -23,7 +23,7 @@ This project would not be possible without the generous support of our sponsors.
   <tr>
     <td><a href="https://deepcode.ai"><img width="200px" src="https://raw.githubusercontent.com/analysis-tools-dev/website/master/static/sponsors/deepcode.png" /></a></td>
     <td><a href="https://codescene.io/"><img width="200px" src="https://raw.githubusercontent.com/analysis-tools-dev/website/master/static/sponsors/codescene.svg" /></a></td>
-    <td><a href="https://r2c.dev/"><img width="200px" src="https://raw.githubusercontent.com/analysis-tools-dev/website/master/static/sponsors/r2c.svg" /></a></td>
+    <td><a href="https://semgrep.dev/"><img width="200px" src="https://raw.githubusercontent.com/analysis-tools-dev/website/master/static/sponsors/semgrep.svg" /></a></td>
     <td><a href="https://codiga.io/"><img width="200px" src="https://raw.githubusercontent.com/analysis-tools-dev/website/master/static/sponsors/codiga.svg" /></a></td>
     <td><a href="https://offensive360.com/"><img width="200px" src="https://raw.githubusercontent.com/analysis-tools-dev/website/master/static/sponsors/offensive360.png" /></a></td>
   </tr>
@@ -59,7 +59,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 #### [Other](#other-1)
 {% for (tag, _) in others %}
 - [{{ tag.name }}](#{{ tag.tag }})
-{%- endfor %}
+  {%- endfor %}
 
 ---
 
@@ -71,7 +71,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 {% for linter in linters -%}
 - [{{linter.name }}]({{linter.homepage }}){% if linter.discussion.is_some() %} [:information_source:](<{{linter.discussion.as_ref().unwrap()}}>){% endif %}{% if linter.deprecated.is_some() %} :warning:{% endif %}{% if linter.license == "proprietary" %} :copyright:{% endif %} — {{ linter.description }}
-{% endfor %}
+  {% endfor %}
 
 {%- endfor %}
 
@@ -79,7 +79,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 {% for linter in multi -%}
 - [{{linter.name }}]({{linter.homepage }}){% if linter.discussion.is_some() %} [:information_source:](<{{linter.discussion.as_ref().unwrap()}}>){% endif %}{% if linter.deprecated.is_some() %} :warning:{% endif %}{% if linter.license == "proprietary" %} :copyright:{% endif %} — {{ linter.description }}
-{% endfor %}
+  {% endfor %}
 
 ## Other
 
@@ -89,7 +89,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 {% for other in others -%}
 - [{{ other.name }}]({{ other.homepage }}){% if other.discussion.is_some() %} [:information_source:](<{{other.discussion.as_ref().unwrap()}}>){% endif %}{% if other.deprecated.is_some() %} :warning:{% endif %}{% if other.license == "proprietary" %} :copyright:{% endif %} — {{ other.description }}
-{% endfor %}
+  {% endfor %}
 
 {%- endfor %}
 
