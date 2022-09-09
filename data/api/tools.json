@@ -12,9 +12,9 @@
       "MIT License"
     ],
     "types": [
-      "ide-plugin",
       "cli",
-      "service"
+      "service",
+      "ide-plugin"
     ],
     "homepage": "https://abaplint.org",
     "source": "https://github.com/abaplint/abaplint",
@@ -900,8 +900,8 @@
     "source": null,
     "pricing": "https://bettercodehub.com/pricing",
     "plans": {
-      "free": true,
-      "oss": true
+      "oss": true,
+      "free": true
     },
     "description": "Better Code Hub checks your GitHub codebase against 10 engineering guidelines devised by the authority in software quality, Software Improvement Group.",
     "discussion": null,
@@ -2315,8 +2315,8 @@
     "source": null,
     "pricing": "https://www.codacy.com/pricing",
     "plans": {
-      "oss": true,
-      "free": false
+      "free": false,
+      "oss": true
     },
     "description": "Code Analysis to ship Better Code, Faster.",
     "discussion": null,
@@ -3961,8 +3961,8 @@
     "source": null,
     "pricing": "https://deepscan.io/pricing",
     "plans": {
-      "free": false,
-      "oss": true
+      "oss": true,
+      "free": false
     },
     "description": "An analyzer for JavaScript which targets runtime errors and quality issues rather than coding conventions.",
     "discussion": null,
@@ -4355,8 +4355,8 @@
   "diktat": {
     "name": "diktat",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "kotlin"
@@ -7002,8 +7002,8 @@
       "MIT License"
     ],
     "types": [
-      "cli",
-      "ide-plugin"
+      "ide-plugin",
+      "cli"
     ],
     "homepage": "https://html-validate.org/",
     "source": "https://gitlab.com/html-validate/html-validate",
@@ -7372,8 +7372,8 @@
     "source": null,
     "pricing": "https://www.jetbrains.com/buy",
     "plans": {
-      "free": false,
-      "oss": true
+      "oss": true,
+      "free": false
     },
     "description": "Comes bundled with a lot of inspections for Java and Kotlin and includes tools for refactoring, formatting and more.",
     "discussion": null,
@@ -7620,8 +7620,8 @@
       "MIT License"
     ],
     "types": [
-      "service",
-      "cli"
+      "cli",
+      "service"
     ],
     "homepage": "https://jsonlint.com/",
     "source": "https://github.com/zaach/jsonlint",
@@ -9048,9 +9048,9 @@
       "proprietary"
     ],
     "types": [
+      "cli",
       "ide-plugin",
-      "service",
-      "cli"
+      "service"
     ],
     "homepage": "https://mythx.io",
     "source": null,
@@ -9189,8 +9189,8 @@
     "source": null,
     "pricing": "https://www.ndepend.com/purchase",
     "plans": {
-      "oss": false,
-      "free": false
+      "free": false,
+      "oss": false
     },
     "description": "Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.",
     "discussion": null,
@@ -9269,8 +9269,8 @@
     "source": null,
     "pricing": "https://nitpick-ci.com/#pricing",
     "plans": {
-      "oss": true,
-      "free": false
+      "free": false,
+      "oss": true
     },
     "description": "Automated PHP code review.",
     "discussion": null,
@@ -9320,8 +9320,8 @@
       "GNU General Public License v3.0"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://opensecurity.in",
     "source": "https://github.com/ajinabraham/NodeJsScan",
@@ -12487,8 +12487,8 @@
       "MIT License"
     ],
     "types": [
-      "ide-plugin",
-      "cli"
+      "cli",
+      "ide-plugin"
     ],
     "homepage": "https://rome.tools/blog/2022/04/05/rome-formatter-release",
     "source": "https://github.com/rome/tools/tree/main/crates/rome_js_formatter",
@@ -13512,8 +13512,8 @@
       "Other"
     ],
     "types": [
-      "service",
-      "cli"
+      "cli",
+      "service"
     ],
     "homepage": "https://slscan.io",
     "source": "https://github.com/ShiftLeftSecurity/sast-scan",
@@ -14138,8 +14138,8 @@
     "source": null,
     "pricing": "https://www.sourcemeter.com/download",
     "plans": {
-      "oss": false,
-      "free": true
+      "free": true,
+      "oss": false
     },
     "description": "Static Code Analysis for C/C++, Java, C#, Python, and RPG III and RPG IV versions (including free-form).",
     "discussion": null,
@@ -14327,8 +14327,8 @@
   "sqlfluff": {
     "name": "SQLFluff",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "sql"
@@ -14661,8 +14661,8 @@
   "structslop": {
     "name": "structslop",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "go"
@@ -15095,15 +15095,15 @@
       "proprietary"
     ],
     "types": [
-      "ide-plugin",
-      "service"
+      "service",
+      "ide-plugin"
     ],
     "homepage": "https://www.cqse.eu/en/teamscale/overview/",
     "source": null,
     "pricing": "https://www.cqse.eu/en/teamscale/buy/",
     "plans": {
-      "oss": false,
-      "free": false
+      "free": false,
+      "oss": false
     },
     "description": "Static and dynamic analysis tool supporting more than 25 languages and direct IDE integration. Free hosting for Open Source projects available on request. Free academic licenses available.",
     "discussion": null,
@@ -15362,8 +15362,8 @@
       "Apache-2.0 License"
     ],
     "types": [
-      "web",
-      "service"
+      "service",
+      "web"
     ],
     "homepage": "https://github.com/deepfence/ThreatMapper",
     "source": "https://github.com/deepfence/ThreatMapper",
@@ -15448,8 +15448,8 @@
   "trunk": {
     "name": "trunk",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "c",
@@ -15935,8 +15935,8 @@
       "MIT License"
     ],
     "types": [
-      "service",
-      "cli"
+      "cli",
+      "service"
     ],
     "homepage": "https://unibeautify.com",
     "source": "https://github.com/unibeautify/unibeautify",
@@ -15951,8 +15951,8 @@
   "unimport": {
     "name": "unimport",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "python"
@@ -16231,8 +16231,8 @@
   "vetur": {
     "name": "Vetur",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [],
     "other": [
@@ -16242,8 +16242,8 @@
       "MIT License"
     ],
     "types": [
-      "ide-plugin",
-      "cli"
+      "cli",
+      "ide-plugin"
     ],
     "homepage": "https://marketplace.visualstudio.com/items?itemName=octref.vetur",
     "source": "https://github.com/vuejs/vetur",
