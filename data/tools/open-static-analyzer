@@ -1,0 +1,19 @@
+name: OpenStaticAnalyzer
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - java
+  - csharp
+  - python
+  - javascript
+license: European Union Public Licence (EUPL) v1.2
+types:
+  - cli
+homepage: https://github.com/sed-inf-u-szeged/OpenStaticAnalyzer
+description: >-
+  OpenStaticAnalyzer is a source code analyzer tool, which can perform deep static analysis of the source code of complex systems.
+plans:
+  free: true
+  oss: true
