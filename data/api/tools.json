@@ -13,8 +13,8 @@
     ],
     "types": [
       "cli",
-      "service",
-      "ide-plugin"
+      "ide-plugin",
+      "service"
     ],
     "homepage": "https://abaplint.org",
     "source": "https://github.com/abaplint/abaplint",
@@ -1852,8 +1852,8 @@
   "ciocheck": {
     "name": "ciocheck",
     "categories": [
-      "meta",
-      "formatter"
+      "formatter",
+      "meta"
     ],
     "languages": [
       "python"
@@ -2315,8 +2315,8 @@
     "source": null,
     "pricing": "https://www.codacy.com/pricing",
     "plans": {
-      "oss": true,
-      "free": false
+      "free": false,
+      "oss": true
     },
     "description": "Code Analysis to ship Better Code, Faster.",
     "discussion": null,
@@ -2762,8 +2762,8 @@
       "MIT"
     ],
     "types": [
-      "ide-plugin",
-      "service"
+      "service",
+      "ide-plugin"
     ],
     "homepage": "https://github.com/github/codeql",
     "source": null,
@@ -3961,8 +3961,8 @@
     "source": null,
     "pricing": "https://deepscan.io/pricing",
     "plans": {
-      "oss": true,
-      "free": false
+      "free": false,
+      "oss": true
     },
     "description": "An analyzer for JavaScript which targets runtime errors and quality issues rather than coding conventions.",
     "discussion": null,
@@ -3996,8 +3996,8 @@
     "source": null,
     "pricing": "https://deepsource.io/pricing",
     "plans": {
-      "oss": true,
-      "free": true
+      "free": true,
+      "oss": true
     },
     "description": "In-depth static analysis to find issues in verticals of bug risks, security, anti-patterns, performance, documentation and style. Native integrations with GitHub, GitLab and Bitbucket. Less than 5% false positives.",
     "discussion": null,
@@ -6123,8 +6123,8 @@
   "gofmt-s": {
     "name": "gofmt -s",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "go"
@@ -6159,8 +6159,8 @@
       "BSD-3"
     ],
     "types": [
-      "cli",
-      "ide-plugin"
+      "ide-plugin",
+      "cli"
     ],
     "homepage": "https://github.com/mvdan/gofumpt",
     "source": "https://github.com/mvdan/gofumpt",
@@ -6498,8 +6498,8 @@
       "BSD-3-Clause"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://go.dev/blog/vuln",
     "source": "https://pkg.go.dev/golang.org/x/vuln/vulncheck",
@@ -7620,8 +7620,8 @@
       "MIT License"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://jsonlint.com/",
     "source": "https://github.com/zaach/jsonlint",
@@ -7778,8 +7778,8 @@
   "ktlint": {
     "name": "ktlint",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "kotlin"
@@ -9048,16 +9048,16 @@
       "proprietary"
     ],
     "types": [
-      "ide-plugin",
+      "cli",
       "service",
-      "cli"
+      "ide-plugin"
     ],
     "homepage": "https://mythx.io",
     "source": null,
     "pricing": "https://mythx.io/plans/",
     "plans": {
-      "oss": false,
-      "free": false
+      "free": false,
+      "oss": false
     },
     "description": "MythX is an easy to use analysis platform which integrates several analysis methods like fuzzing, symbolic execution and static analysis to find vulnerabilities with high precision. It can be integrated with toolchains like Remix or VSCode or called from the command-line.",
     "discussion": null,
@@ -11576,8 +11576,8 @@
     "source": null,
     "pricing": "https://pycodequ.al/pricing",
     "plans": {
-      "free": true,
-      "oss": false
+      "oss": false,
+      "free": true
     },
     "description": "PyCodeQual gives you insights into complexity and bug risks. It adds automatic reviews to your pull requests.",
     "discussion": null,
@@ -12324,8 +12324,8 @@
     "source": null,
     "pricing": "https://www.reshiftsecurity.com/pricing",
     "plans": {
-      "oss": false,
-      "free": true
+      "free": true,
+      "oss": false
     },
     "description": "A source code analysis tool for detecting and managing Java security vulnerabilities.",
     "discussion": null,
@@ -13568,8 +13568,8 @@
       "AGPL-3.0"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://docs.shisho.dev/",
     "source": "https://github.com/flatt-security/shisho",
@@ -13662,8 +13662,8 @@
     "source": null,
     "pricing": "https://www.softwareimprovementgroup.com/contact/",
     "plans": {
-      "oss": false,
-      "free": false
+      "free": false,
+      "oss": false
     },
     "description": "Sigrid helps you to improve your software by measuring your system's code quality,  and then compares the results against a benchmark of thousands of industry systems to give you concrete advice on areas where you can improve.",
     "discussion": null,
@@ -13900,8 +13900,8 @@
     "source": null,
     "pricing": "https://sonarcloud.io/pricing",
     "plans": {
-      "free": false,
-      "oss": true
+      "oss": true,
+      "free": false
     },
     "description": "Multi-language cloud-based static code analysis. History, trends, security hot-spots, pull request analysis and more. Free for open source.",
     "discussion": null,
@@ -14327,8 +14327,8 @@
   "sqlfluff": {
     "name": "SQLFluff",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "sql"
@@ -15148,8 +15148,8 @@
       "MIT License"
     ],
     "types": [
-      "service",
-      "cli"
+      "cli",
+      "service"
     ],
     "homepage": "https://tca.tencent.com/",
     "source": "https://github.com/Tencent/CodeAnalysis",
@@ -15622,7 +15622,7 @@
     "plans": null,
     "description": "TSQL Static Code Analysis Rules for SQL Server.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "wrapper": null
   },
@@ -15833,7 +15833,7 @@
     "plans": null,
     "description": "Detect redundant type conversions.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "wrapper": null
   },
@@ -15951,8 +15951,8 @@
   "unimport": {
     "name": "unimport",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "python"
@@ -16281,7 +16281,7 @@
     "plans": null,
     "description": "Fast and Highly Extensible Vim script Language Lint implemented by Python.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "wrapper": null
   },
@@ -16409,7 +16409,7 @@
     "plans": null,
     "description": "A collection of static analyzers based on Roslyn that integrates with VS.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "wrapper": null
   },
