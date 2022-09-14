@@ -12,8 +12,8 @@
       "MIT License"
     ],
     "types": [
-      "cli",
       "service",
+      "cli",
       "ide-plugin"
     ],
     "homepage": "https://abaplint.org",
@@ -900,8 +900,8 @@
     "source": null,
     "pricing": "https://bettercodehub.com/pricing",
     "plans": {
-      "oss": true,
-      "free": true
+      "free": true,
+      "oss": true
     },
     "description": "Better Code Hub checks your GitHub codebase against 10 engineering guidelines devised by the authority in software quality, Software Improvement Group.",
     "discussion": null,
@@ -2315,8 +2315,8 @@
     "source": null,
     "pricing": "https://www.codacy.com/pricing",
     "plans": {
-      "free": false,
-      "oss": true
+      "oss": true,
+      "free": false
     },
     "description": "Code Analysis to ship Better Code, Faster.",
     "discussion": null,
@@ -3961,8 +3961,8 @@
     "source": null,
     "pricing": "https://deepscan.io/pricing",
     "plans": {
-      "free": false,
-      "oss": true
+      "oss": true,
+      "free": false
     },
     "description": "An analyzer for JavaScript which targets runtime errors and quality issues rather than coding conventions.",
     "discussion": null,
@@ -6123,8 +6123,8 @@
   "gofmt-s": {
     "name": "gofmt -s",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "go"
@@ -6159,8 +6159,8 @@
       "BSD-3"
     ],
     "types": [
-      "ide-plugin",
-      "cli"
+      "cli",
+      "ide-plugin"
     ],
     "homepage": "https://github.com/mvdan/gofumpt",
     "source": "https://github.com/mvdan/gofumpt",
@@ -6498,8 +6498,8 @@
       "BSD-3-Clause"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://go.dev/blog/vuln",
     "source": "https://pkg.go.dev/golang.org/x/vuln/vulncheck",
@@ -7002,8 +7002,8 @@
       "MIT License"
     ],
     "types": [
-      "cli",
-      "ide-plugin"
+      "ide-plugin",
+      "cli"
     ],
     "homepage": "https://html-validate.org/",
     "source": "https://gitlab.com/html-validate/html-validate",
@@ -7778,8 +7778,8 @@
   "ktlint": {
     "name": "ktlint",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "kotlin"
@@ -9048,8 +9048,8 @@
       "proprietary"
     ],
     "types": [
-      "cli",
       "ide-plugin",
+      "cli",
       "service"
     ],
     "homepage": "https://mythx.io",
@@ -9189,8 +9189,8 @@
     "source": null,
     "pricing": "https://www.ndepend.com/purchase",
     "plans": {
-      "free": false,
-      "oss": false
+      "oss": false,
+      "free": false
     },
     "description": "Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.",
     "discussion": null,
@@ -9441,8 +9441,8 @@
     "source": null,
     "pricing": "https://www.shiftleft.io/pricing",
     "plans": {
-      "free": true,
-      "oss": false
+      "oss": false,
+      "free": true
     },
     "description": "Enables code auditors and security teams to interactively investigate their unique code bases  to find business logic flaws and technical vulnerabilities that traditional SASTs cannot. This is done by enabling the analyst to write their own custom queries. Can find hard-coded secrets, authentication issues, and malicious code like rootkits and backdoors.",
     "discussion": null,
@@ -12324,8 +12324,8 @@
     "source": null,
     "pricing": "https://www.reshiftsecurity.com/pricing",
     "plans": {
-      "free": true,
-      "oss": false
+      "oss": false,
+      "free": true
     },
     "description": "A source code analysis tool for detecting and managing Java security vulnerabilities.",
     "discussion": null,
@@ -13512,8 +13512,8 @@
       "Other"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://slscan.io",
     "source": "https://github.com/ShiftLeftSecurity/sast-scan",
@@ -13568,8 +13568,8 @@
       "AGPL-3.0"
     ],
     "types": [
-      "service",
-      "cli"
+      "cli",
+      "service"
     ],
     "homepage": "https://docs.shisho.dev/",
     "source": "https://github.com/flatt-security/shisho",
@@ -13662,8 +13662,8 @@
     "source": null,
     "pricing": "https://www.softwareimprovementgroup.com/contact/",
     "plans": {
-      "free": false,
-      "oss": false
+      "oss": false,
+      "free": false
     },
     "description": "Sigrid helps you to improve your software by measuring your system's code quality,  and then compares the results against a benchmark of thousands of industry systems to give you concrete advice on areas where you can improve.",
     "discussion": null,
@@ -14661,8 +14661,8 @@
   "structslop": {
     "name": "structslop",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "go"
@@ -15095,8 +15095,8 @@
       "proprietary"
     ],
     "types": [
-      "ide-plugin",
-      "service"
+      "service",
+      "ide-plugin"
     ],
     "homepage": "https://www.cqse.eu/en/teamscale/overview/",
     "source": null,
@@ -15148,8 +15148,8 @@
       "MIT License"
     ],
     "types": [
-      "service",
-      "cli"
+      "cli",
+      "service"
     ],
     "homepage": "https://tca.tencent.com/",
     "source": "https://github.com/Tencent/CodeAnalysis",
