@@ -12,8 +12,8 @@
       "MIT License"
     ],
     "types": [
-      "ide-plugin",
       "service",
+      "ide-plugin",
       "cli"
     ],
     "homepage": "https://abaplint.org",
@@ -2907,8 +2907,8 @@
     "source": null,
     "pricing": "https://codescene.com/pricing",
     "plans": {
-      "oss": true,
-      "free": false
+      "free": false,
+      "oss": true
     },
     "description": "CodeScene is a quality visualization tool for software. Prioritize technical debt, detect delivery risks, and measure organizational aspects. Fully automated.",
     "discussion": null,
@@ -4355,8 +4355,8 @@
   "diktat": {
     "name": "diktat",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "kotlin"
@@ -6032,8 +6032,8 @@
       "MIT License"
     ],
     "types": [
-      "cli",
-      "ide"
+      "ide",
+      "cli"
     ],
     "homepage": "https://goblint.in.tum.de",
     "source": "https://github.com/goblint/analyzer",
@@ -6123,8 +6123,8 @@
   "gofmt-s": {
     "name": "gofmt -s",
     "categories": [
-      "linter",
-      "formatter"
+      "formatter",
+      "linter"
     ],
     "languages": [
       "go"
@@ -6159,8 +6159,8 @@
       "BSD-3"
     ],
     "types": [
-      "cli",
-      "ide-plugin"
+      "ide-plugin",
+      "cli"
     ],
     "homepage": "https://github.com/mvdan/gofumpt",
     "source": "https://github.com/mvdan/gofumpt",
@@ -7002,8 +7002,8 @@
       "MIT License"
     ],
     "types": [
-      "ide-plugin",
-      "cli"
+      "cli",
+      "ide-plugin"
     ],
     "homepage": "https://html-validate.org/",
     "source": "https://gitlab.com/html-validate/html-validate",
@@ -7620,8 +7620,8 @@
       "MIT License"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://jsonlint.com/",
     "source": "https://github.com/zaach/jsonlint",
@@ -9049,15 +9049,15 @@
     ],
     "types": [
       "cli",
-      "ide-plugin",
-      "service"
+      "service",
+      "ide-plugin"
     ],
     "homepage": "https://mythx.io",
     "source": null,
     "pricing": "https://mythx.io/plans/",
     "plans": {
-      "free": false,
-      "oss": false
+      "oss": false,
+      "free": false
     },
     "description": "MythX is an easy to use analysis platform which integrates several analysis methods like fuzzing, symbolic execution and static analysis to find vulnerabilities with high precision. It can be integrated with toolchains like Remix or VSCode or called from the command-line.",
     "discussion": null,
@@ -9189,8 +9189,8 @@
     "source": null,
     "pricing": "https://www.ndepend.com/purchase",
     "plans": {
-      "oss": false,
-      "free": false
+      "free": false,
+      "oss": false
     },
     "description": "Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.",
     "discussion": null,
@@ -9269,8 +9269,8 @@
     "source": null,
     "pricing": "https://nitpick-ci.com/#pricing",
     "plans": {
-      "oss": true,
-      "free": false
+      "free": false,
+      "oss": true
     },
     "description": "Automated PHP code review.",
     "discussion": null,
@@ -12487,8 +12487,8 @@
       "MIT License"
     ],
     "types": [
-      "cli",
-      "ide-plugin"
+      "ide-plugin",
+      "cli"
     ],
     "homepage": "https://rome.tools/blog/2022/04/05/rome-formatter-release",
     "source": "https://github.com/rome/tools/tree/main/crates/rome_js_formatter",
@@ -13349,8 +13349,8 @@
       "GNU Lesser General Public License v2.1"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://semgrep.dev",
     "source": "https://github.com/returntocorp/semgrep",
@@ -13512,8 +13512,8 @@
       "Other"
     ],
     "types": [
-      "service",
-      "cli"
+      "cli",
+      "service"
     ],
     "homepage": "https://slscan.io",
     "source": "https://github.com/ShiftLeftSecurity/sast-scan",
@@ -13655,15 +13655,15 @@
       "proprietary"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://www.softwareimprovementgroup.com/solutions/sigrid-software-assurance-platform/",
     "source": null,
     "pricing": "https://www.softwareimprovementgroup.com/contact/",
     "plans": {
-      "free": false,
-      "oss": false
+      "oss": false,
+      "free": false
     },
     "description": "Sigrid helps you to improve your software by measuring your system's code quality,  and then compares the results against a benchmark of thousands of industry systems to give you concrete advice on areas where you can improve.",
     "discussion": null,
@@ -13900,8 +13900,8 @@
     "source": null,
     "pricing": "https://sonarcloud.io/pricing",
     "plans": {
-      "oss": true,
-      "free": false
+      "free": false,
+      "oss": true
     },
     "description": "Multi-language cloud-based static code analysis. History, trends, security hot-spots, pull request analysis and more. Free for open source.",
     "discussion": null,
@@ -14138,8 +14138,8 @@
     "source": null,
     "pricing": "https://www.sourcemeter.com/download",
     "plans": {
-      "oss": false,
-      "free": true
+      "free": true,
+      "oss": false
     },
     "description": "Static Code Analysis for C/C++, Java, C#, Python, and RPG III and RPG IV versions (including free-form).",
     "discussion": null,
@@ -15362,8 +15362,8 @@
       "Apache-2.0 License"
     ],
     "types": [
-      "service",
-      "web"
+      "web",
+      "service"
     ],
     "homepage": "https://github.com/deepfence/ThreatMapper",
     "source": "https://github.com/deepfence/ThreatMapper",
@@ -15622,7 +15622,7 @@
     "plans": null,
     "description": "TSQL Static Code Analysis Rules for SQL Server.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "wrapper": null
   },
@@ -15833,7 +15833,7 @@
     "plans": null,
     "description": "Detect redundant type conversions.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "wrapper": null
   },
@@ -15935,8 +15935,8 @@
       "MIT License"
     ],
     "types": [
-      "cli",
-      "service"
+      "service",
+      "cli"
     ],
     "homepage": "https://unibeautify.com",
     "source": "https://github.com/unibeautify/unibeautify",
@@ -16281,7 +16281,7 @@
     "plans": null,
     "description": "Fast and Highly Extensible Vim script Language Lint implemented by Python.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "wrapper": null
   },
@@ -16409,7 +16409,7 @@
     "plans": null,
     "description": "A collection of static analyzers based on Roslyn that integrates with VS.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "wrapper": null
   },
