@@ -1,0 +1,13 @@
+name: holistic
+categories:
+  - linter
+tags:
+  - sql
+license: MIT License
+types:
+  - service
+homepage: 'https://holistic.dev/'
+description: >-
+  More than 1,300 rules to analyze SQL queries.
+  Takes an SQL schema definition and the query source code to generate improvement recommendations.
+  Detects code smells, unused indexes, unused tables, views, materialized views, and more.
