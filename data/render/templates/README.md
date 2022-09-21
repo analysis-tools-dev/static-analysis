@@ -7,7 +7,7 @@
 This repository lists **static analysis tools** for all programming languages, build tools, config files and more. The focus is on tools which improve code quality such as linters and formatters.
 The official website, [analysis-tools.dev](https://analysis-tools.dev/) is based on this repository and adds rankings, user comments, and additional resources like videos for each tool.
 
-[![Website](https://img.shields.io/badge/Homepage-Online-2B5BAE)](https://analysis-tools.dev)
+[![Website](https://img.shields.io/badge/Website-Online-2B5BAE)](https://analysis-tools.dev)
 ![CI](https://github.com/analysis-tools-dev/static-analysis/workflows/CI/badge.svg)
 
 ## Sponsors
