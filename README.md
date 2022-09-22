@@ -209,7 +209,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
   - [NDepend](http://www.ndepend.com) :copyright: — Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.
   - [Puma Scan](https://pumasecurity.io) — Puma Scan provides real time secure code analysis for common vulnerabilities (XSS, SQLi, CSRF, LDAPi, crypto, deserialization, etc.) as development teams write code in Visual Studio.
   - [Roslynator](https://github.com/JosefPihrt/Roslynator) — A collection of 190+ analyzers and 190+ refactorings for C#, powered by Roslyn.
-  - [VSDiagnostics](https://github.com/Vannevelj/VSDiagnostics) :warning: — A collection of static analyzers based on Roslyn that integrates with VS.
+  - [VSDiagnostics](https://github.com/Vannevelj/VSDiagnostics) — A collection of static analyzers based on Roslyn that integrates with VS.
   - [Wintellect.Analyzers](https://github.com/Wintellect/Wintellect.Analyzers) — .NET Compiler Platform ("Roslyn") diagnostic analyzers and code fixes.
   
 
@@ -419,7 +419,7 @@ By default, govulncheck makes requests to the Go vulnerability database at https
 
 <h2 id="javascript">JavaScript</h2>
 
-- [aether](http://aetherjs.com) — Lint, analyze, normalize, transform, sandbox, run, step through, and visualize user JavaScript, in node or the browser.
+- [aether](http://aetherjs.com) :warning: — Lint, analyze, normalize, transform, sandbox, run, step through, and visualize user JavaScript, in node or the browser.
   - [Closure Compiler](https://developers.google.com/closure/compiler) — A compiler tool to increase efficiency, reduce size, and provide code warnings in JavaScript files.
   - [ClosureLinter](https://github.com/google/closure-linter) :warning: — Ensures that all of your project's JavaScript code follows the guidelines in the Google JavaScript Style Guide. It can also automatically fix many common errors.
   - [complexity-report](https://github.com/escomplex/complexity-report) :warning: — Software complexity analysis for JavaScript projects.
@@ -549,7 +549,7 @@ By default, govulncheck makes requests to the Go vulnerability database at https
 <h2 id="python">Python</h2>
 
 - [bandit](https://bandit.readthedocs.io/en/latest) — A tool to find common security issues in Python code.
-  - [bellybutton](https://github.com/hchasestevens/bellybutton) — A linting engine supporting custom project-specific rules.
+  - [bellybutton](https://github.com/hchasestevens/bellybutton) :warning: — A linting engine supporting custom project-specific rules.
   - [Black](https://black.readthedocs.io/en/stable) — The uncompromising Python code formatter.
   - [Bowler](https://pybowler.io/) — Safe code refactoring for modern Python.  Bowler is a refactoring tool for manipulating Python at the syntax tree level.  It enables safe, large scale code modifications while guaranteeing that the  resulting code compiles and runs. It provides both a simple command line interface  and a fluent API in Python for generating complex code modifications in code.
   - [ciocheck](https://github.com/ContinuumIO/ciocheck) :warning: — Linter, formatter and test suite helper. As a linter, it is a wrapper around `pep8`, `pydocstyle`, `flake8`, and `pylint`.
@@ -719,7 +719,7 @@ By default, govulncheck makes requests to the Go vulnerability database at https
 
 <h2 id="vim-script">Vim Script</h2>
 
-- [vint](https://github.com/Kuniwak/vint) :warning: — Fast and Highly Extensible Vim script Language Lint implemented by Python.
+- [vint](https://github.com/Kuniwak/vint) — Fast and Highly Extensible Vim script Language Lint implemented by Python.
   
 
 ## Multiple languages
@@ -731,7 +731,7 @@ By default, govulncheck makes requests to the Go vulnerability database at https
   - [ApplicationInspector](https://github.com/microsoft/ApplicationInspector) — Creates reports of over 400 rule patterns for feature detection (e.g. the use of cryptography or version control in apps).
   - [APPscreener](https://solarappscreener.com) :copyright: — Static code analysis for binary and source code - Java/Scala, PHP, Javascript, C#, PL/SQL, Python, T-SQL, C/C++, ObjectiveC/Swift, Visual Basic 6.0, Ruby, Delphi, ABAP, HTML5 and Solidity.
   - [ArchUnit](https://www.archunit.org) — Unit test your Java or Kotlin architecture.
-  - [Atom-Beautify](https://atom.io/packages/atom-beautify) — Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom editor.
+  - [Atom-Beautify](https://atom.io/packages/atom-beautify) :warning: — Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom editor.
   - [Axivion Bauhaus Suite](https://www.axivion.com/en/products-services-9#products_bauhaussuite) :copyright: — Tracks down error-prone code locations, style violations, cloned or dead code, cyclic dependencies and more for C/C++, C#/.NET, Java and Ada 83/Ada 95.
   - [Better Code Hub](https://bettercodehub.com) :copyright: — Better Code Hub checks your GitHub codebase against 10 engineering guidelines devised by the authority in software quality, Software Improvement Group.
   - [callGraph](https://github.com/koknat/callGraph) — Statically generates a call graph image and displays it on screen.
@@ -1081,7 +1081,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 <h2 id="mobile">Mobile</h2>
 
 - [Android Lint](http://tools.android.com/tips/lint) — Run static analysis on Android projects.
-  - [android-lint-summary](https://passy.github.io/android-lint-summary) — Combines lint errors of multiple projects into one output, check lint results of multiple sub-projects at once.
+  - [android-lint-summary](https://passy.github.io/android-lint-summary) :warning: — Combines lint errors of multiple projects into one output, check lint results of multiple sub-projects at once.
   - [FlowDroid](https://github.com/secure-software-engineering/FlowDroid) — Static taint analysis tool for Android applications.
   - [iblessing](https://www.kitploit.com/2020/08/iblessing-ios-security-exploiting.html) — iblessing is an iOS security exploiting toolkit. It can be used for reverse engineering, binary analysis and vulnerability mining.
   - [Oversecured](https://oversecured.com) :copyright: — Enterprise vulnerability scanner for Android and iOS apps. It allows app owners and developers to secure each new version of a mobile app by integrating Oversecured into the development process.
