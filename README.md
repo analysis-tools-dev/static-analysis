@@ -157,7 +157,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="asm">Assembly</h2>
 
-- [STOKE](https://github.com/StanfordPL/stoke) :warning: — A programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations.
+- [STOKE](https://github.com/StanfordPL/stoke) — A programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations.
   
 
 <h2 id="awk">Awk</h2>
@@ -209,7 +209,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
   - [NDepend](http://www.ndepend.com) :copyright: — Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.
   - [Puma Scan](https://pumasecurity.io) — Puma Scan provides real time secure code analysis for common vulnerabilities (XSS, SQLi, CSRF, LDAPi, crypto, deserialization, etc.) as development teams write code in Visual Studio.
   - [Roslynator](https://github.com/JosefPihrt/Roslynator) — A collection of 190+ analyzers and 190+ refactorings for C#, powered by Roslyn.
-  - [VSDiagnostics](https://github.com/Vannevelj/VSDiagnostics) :warning: — A collection of static analyzers based on Roslyn that integrates with VS.
+  - [VSDiagnostics](https://github.com/Vannevelj/VSDiagnostics) — A collection of static analyzers based on Roslyn that integrates with VS.
   - [Wintellect.Analyzers](https://github.com/Wintellect/Wintellect.Analyzers) — .NET Compiler Platform ("Roslyn") diagnostic analyzers and code fixes.
   
 
@@ -661,7 +661,7 @@ By default, govulncheck makes requests to the Go vulnerability database at https
   - [sqlint](https://github.com/purcell/sqlint) — Simple SQL linter.
   - [squawk](https://squawkhq.com) — Linter for PostgreSQL, focused on migrations. Prevents unexpected downtime caused by database migrations and encourages best practices around Postgres schemas and SQL.
   - [tsqllint](https://github.com/tsqllint/tsqllint) — T-SQL-specific linter.
-  - [TSqlRules](https://github.com/ashleyglee/TSqlRules) :warning: — TSQL Static Code Analysis Rules for SQL Server.
+  - [TSqlRules](https://github.com/ashleyglee/TSqlRules) — TSQL Static Code Analysis Rules for SQL Server.
   - [Visual Expert](https://www.visual-expert.com) :copyright: — Code analysis for PowerBuilder, Oracle, and SQL Server Explores, analyzes, and documents Code 
   
 
@@ -719,7 +719,7 @@ By default, govulncheck makes requests to the Go vulnerability database at https
 
 <h2 id="vim-script">Vim Script</h2>
 
-- [vint](https://github.com/Kuniwak/vint) :warning: — Fast and Highly Extensible Vim script Language Lint implemented by Python.
+- [vint](https://github.com/Kuniwak/vint) — Fast and Highly Extensible Vim script Language Lint implemented by Python.
   
 
 ## Multiple languages
@@ -914,7 +914,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
   - [PostCSS](https://postcss.org) — A tool for transforming styles with JS plugins. These plugins can lint your CSS, support variables and mixins, transpile future CSS syntax, inline images, and more.
   - [Project Wallace CSS Analyzer](https://www.projectwallace.com) — Analytics for CSS, part of [Project Wallace](https://www.projectwallace.com).
   - [sass-lint](https://github.com/sasstools/sass-lint) :warning: — A Node-only Sass linter for both sass and scss syntax.
-  - [scsslint](https://github.com/brigade/scss-lint) — Linter for SCSS files.
+  - [scsslint](https://github.com/brigade/scss-lint) :warning: — Linter for SCSS files.
   - [Specificity Graph](https://jonassebastianohlsson.com/specificity-graph) — CSS Specificity Graph Generator.
   - [Stylelint](http://stylelint.io) — Linter for SCSS/CSS files.
   
@@ -1156,7 +1156,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 - [mythril](https://github.com/ConsenSys/mythril) — A symbolic execution framework with batteries included, can be used to find and exploit vulnerabilities in smart contracts automatically.
   - [MythX](https://mythx.io) :copyright: — MythX is an easy to use analysis platform which integrates several analysis methods like fuzzing, symbolic execution and static analysis to find vulnerabilities with high precision. It can be integrated with toolchains like Remix or VSCode or called from the command-line.
   - [slither](https://github.com/trailofbits/slither) — Static analysis framework that runs a suite of vulnerability detectors, prints visual information about contract details, and provides an API to easily write custom analyses.
-  - [solhint](https://protofire.github.io/solhint) :warning: — Solhint is an open source project created by https://protofire.io. Its goal is to provide a linting utility for Solidity code.
+  - [solhint](https://protofire.github.io/solhint) — Solhint is an open source project created by https://protofire.io. Its goal is to provide a linting utility for Solidity code.
   - [solium](https://ethlint.readthedocs.io/en/latest) — Solium is a linter to identify and fix style and security issues in Solidity smart contracts.
   
 
