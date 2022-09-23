@@ -16,6 +16,11 @@ types:
   - service
   - ide-plugin
 homepage: 'https://github.com/github/codeql'
+resources:
+  - title: Community-powered security analysis with CodeQL - GitHub Universe 2020
+    url: https://www.youtube.com/watch?v=Y6PjAaZKNYk
+  - title: Continuous code analysis with CodeQL
+    url: https://www.youtube.com/watch?v=KEPiDz2oO-I
 description: >-
   Deep code analysis - semantic queries and dataflow for several languages
   with VSCode plugin support.
