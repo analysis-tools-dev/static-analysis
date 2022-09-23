@@ -8,4 +8,9 @@ types:
   - cli
 source: 'https://github.com/rust-lang/rust-clippy'
 homepage: 'https://rust-lang.github.io/rust-clippy'
+resources:
+  - title: Rust For Beginners Tutorial - Linting with Clippy
+    url: https://www.youtube.com/watch?v=BE9KY6X7aUM
+  - title: "Easy Rust 096: Final example of iterators and quick look at clippy"
+    url: https://www.youtube.com/watch?v=OgcrRt84bUY
 description: A code linter to catch common mistakes and improve your Rust code.
