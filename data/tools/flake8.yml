@@ -13,3 +13,7 @@ description: "A wrapper around `pyflakes`, `pycodestyle` and `mccabe`."
 resources:
   - title: My Python Code Looks Ugly and Confusing - Help!
     url: https://www.youtube.com/watch?v=TDUf93vqq3g
+  - title: flake8 in Python | Linters | PEP8 Standards
+    url: https://www.youtube.com/watch?v=qUpfUenwUPA
+  - title: A flake8 plugin from scratch (intermediate)
+    url: https://www.youtube.com/watch?v=ot5Z4KQPBL8
