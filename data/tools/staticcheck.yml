@@ -8,6 +8,9 @@ types:
   - cli
 source: 'https://github.com/dominikh/go-tools'
 homepage: 'https://staticcheck.io'
+resources:
+  - title: "GopherCon 2019: Denis Isaev - Go Linters: Myths and Best Practices"
+    url: https://www.youtube.com/watch?v=1U-Gzz4TYP0
 description: >-
   Go static analysis that specialises in finding bugs, simplifying code and
   improving performance.
