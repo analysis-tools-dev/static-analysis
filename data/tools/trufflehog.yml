@@ -1,0 +1,14 @@
+name: trufflehog
+categories:
+  - linter
+tags:
+  - security
+license: AGPL-3.0
+types:  
+  - cli
+source: 'https://github.com/trufflesecurity/trufflehog'
+homepage: 'https://trufflesecurity.com'
+description: >-
+  Find credentials all over the place
+
+  TruffleHog is an open source secret-scanning engine that resolves exposed secrets across your company’s entire tech stack. 
