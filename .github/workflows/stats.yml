@@ -25,12 +25,12 @@ jobs:
         run: |
           mkdir -p data/api/stats/
           ./logcli-linux-amd64 -q --org-id=${ORG_ID} instant-query 'topk(25, sum(count_over_time({path=~"/tool/.*"}[7d])) by (path))' > data/api/stats_tools_raw.json
-          cat data/api/stats_tools_raw.json | jq '[.[] | {(.metric.path | sub("^\/tool\/"; "")): .value[1] }] | add' > data/api/stats/tools_unsorted.json
+          cat data/api/stats_tools_raw.json | jq '[.[] | {(.metric.path | sub("^\/tool\/"; "")): (.value[1]|tonumber) }] | add' > data/api/stats/tools_unsorted.json
           cat data/api/stats/tools_unsorted.json | jq 'to_entries | sort_by(.value) | reverse | from_entries' > data/api/stats/tools.json
           rm data/api/stats/tools_unsorted.json
           rm data/api/stats_tools_raw.json
           ./logcli-linux-amd64 -q --org-id=${ORG_ID} instant-query 'topk(25, sum(count_over_time({path=~"/tag/.*"}[7d])) by (path))' > data/api/stats_tags_raw.json
-          cat data/api/stats_tags_raw.json | jq '[.[] | {(.metric.path | sub("^\/tool\/"; "")): .value[1] }] | add' > data/api/stats/tags_unsorted.json
+          cat data/api/stats_tags_raw.json | jq '[.[] | {(.metric.path | sub("^\/tool\/"; "")): (.value[1]|tonumber) }] | add' > data/api/stats/tags_unsorted.json
           cat data/api/stats/tags_unsorted.json | jq 'to_entries | sort_by(.value) | reverse | from_entries' > data/api/stats/tags.json
           rm data/api/stats/tags_unsorted.json
           rm data/api/stats_tags_raw.json
