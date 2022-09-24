@@ -54,7 +54,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 #### [Other](#other-1)
 {% for (tag, _) in others %}
 - [{{ tag.name }}](#{{ tag.tag }})
-  {%- endfor %}
+{%- endfor %}
 
 ---
 
@@ -64,17 +64,17 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="{{ language.tag }}">{{ language.name }}</h2>
 
-{% for linter in linters -%}
+{% for linter in linters %}
 - [{{linter.name }}]({{linter.homepage }}){% if linter.discussion.is_some() %} [:information_source:](<{{linter.discussion.as_ref().unwrap()}}>){% endif %}{% if linter.deprecated.is_some() %} :warning:{% endif %}{% if linter.license == "proprietary" %} :copyright:{% endif %} — {{ linter.description }}
-  {% endfor %}
+{% endfor %}
 
 {%- endfor %}
 
 ## Multiple languages
 
-{% for linter in multi -%}
+{% for linter in multi %}
 - [{{linter.name }}]({{linter.homepage }}){% if linter.discussion.is_some() %} [:information_source:](<{{linter.discussion.as_ref().unwrap()}}>){% endif %}{% if linter.deprecated.is_some() %} :warning:{% endif %}{% if linter.license == "proprietary" %} :copyright:{% endif %} — {{ linter.description }}
-  {% endfor %}
+{% endfor %}
 
 ## Other
 
@@ -82,9 +82,9 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 <h2 id="{{ tag.tag }}">{{ tag.name }}</h2>
 
-{% for other in others -%}
+{% for other in others %}
 - [{{ other.name }}]({{ other.homepage }}){% if other.discussion.is_some() %} [:information_source:](<{{other.discussion.as_ref().unwrap()}}>){% endif %}{% if other.deprecated.is_some() %} :warning:{% endif %}{% if other.license == "proprietary" %} :copyright:{% endif %} — {{ other.description }}
-  {% endfor %}
+{% endfor %}
 
 {%- endfor %}
 
