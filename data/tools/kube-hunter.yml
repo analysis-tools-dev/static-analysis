@@ -1,0 +1,13 @@
+name: kube-hunter
+categories:
+  - linter
+tags:
+  - kubernetes
+  - security
+license: Apache-2.0
+types:  
+  - cli
+source: 'https://github.com/aquasecurity/kube-hunter'
+homepage: 'https://aquasecurity.github.io/kube-hunter/'
+description: >-
+    Hunt for security weaknesses in Kubernetes clusters.
