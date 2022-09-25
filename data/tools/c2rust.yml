@@ -8,6 +8,9 @@ types:
   - cli
 source: 'https://github.com/immunant/c2rust'
 homepage: 'https://c2rust.com'
+resources:
+  - title: "RustConf 2018 - C2Rust: Migrating Legacy Code to Rust by Per Larsen"
+    url: https://www.youtube.com/watch?v=WEsR0Vv7jhg&t=233s
 description: >-
   C2Rust helps you migrate C99-compliant code to Rust. The translator (or
   transpiler) produces unsafe Rust code that closely mirrors the input C code.
