@@ -24,6 +24,13 @@ license: proprietary
 types:
 - cli
 homepage: https://www.scitools.com
+resources:
+  - title: What is Understand?
+    url: https://www.youtube.com/watch?v=QXxciTA1R4k
+  - title: Basic Navigation in Understand
+    url: https://www.youtube.com/watch?v=YDd9J2Fs5Ug
+  - title: Tell a story about your code in just one image using Graphs
+    url: https://www.youtube.com/watch?v=mZRWN6ukUig
 description: >-
   Code visualization tool that provides code analysis, standards testing, metrics,
   graphing, dependency analysis and more for Ada, VHDL, and others.
