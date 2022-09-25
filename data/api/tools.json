@@ -249,7 +249,12 @@
     "description": "A static code analysis tool for Crystal.",
     "discussion": null,
     "deprecated": null,
-    "resources": null,
+    "resources": [
+      {
+        "title": "Crystal Language Static Code Analysis with the Ameba Shard",
+        "url": "https://www.youtube.com/watch?v=SV8tV79Lvog"
+      }
+    ],
     "wrapper": null
   },
   "anchore": {
