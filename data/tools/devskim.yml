@@ -14,6 +14,9 @@ types:
   - ide-plugin
 source: 'https://github.com/microsoft/devskim'
 homepage: 'https://github.com/microsoft/devskim'
+resources:
+  - title: "ToorCon 19 — Pavel Bansky - Detecting security issues as fast as you making them"
+    url: https://www.youtube.com/watch?v=VK80nTLGUk4
 description: >-
   Regex-based static analysis tool for Visual Studio, VS Code, and Sublime Text
   - C/C++, C#, PHP, ASP, Python, Ruby, Java, and others.
