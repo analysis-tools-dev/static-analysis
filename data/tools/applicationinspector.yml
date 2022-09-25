@@ -19,6 +19,9 @@ types:
   - cli
 source: 'https://github.com/microsoft/ApplicationInspector'
 homepage: 'https://github.com/microsoft/ApplicationInspector'
+resources:
+  - title: Introducing Microsoft Application Inspector
+    url: https://www.microsoft.com/security/blog/2020/01/16/introducing-microsoft-application-inspector/
 description: >-
   Creates reports of over 400 rule patterns for feature detection (e.g. the use
   of cryptography or version control in apps).
