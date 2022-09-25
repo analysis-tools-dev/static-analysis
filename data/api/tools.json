@@ -531,7 +531,12 @@
     "description": "Creates reports of over 400 rule patterns for feature detection (e.g. the use of cryptography or version control in apps).",
     "discussion": null,
     "deprecated": null,
-    "resources": null,
+    "resources": [
+      {
+        "title": "Introducing Microsoft Application Inspector",
+        "url": "https://www.microsoft.com/security/blog/2020/01/16/introducing-microsoft-application-inspector/"
+      }
+    ],
     "wrapper": null
   },
   "appscreener": {
