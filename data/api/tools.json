@@ -14920,7 +14920,12 @@
     "description": "Combination of multiple linters to install as a GitHub Action.",
     "discussion": null,
     "deprecated": null,
-    "resources": null,
+    "resources": [
+      {
+        "title": "The Easiest Way to Lint Your Code: GitHub Super Linter Deep Dive",
+        "url": "https://www.youtube.com/watch?v=BCrtoZ04L1Y"
+      }
+    ],
     "wrapper": null
   },
   "svace": {
