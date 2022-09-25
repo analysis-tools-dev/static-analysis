@@ -40,7 +40,9 @@ description: >-
   to give you concrete advice on areas where you can improve.
 resources:
   - title: "Sigrid Security | Security without headache"
-    url: https://www.youtube.com/watch?v=wJwK0cjDiEo
+    url: https://www.youtube.com/watch?v=mpQxzdv4oc8
+  - title: Sigrid Open Source Health module
+    url: https://www.youtube.com/watch?v=UvhV9dyXWIU
 pricing: https://www.softwareimprovementgroup.com/contact/
 plans:
   free: false
