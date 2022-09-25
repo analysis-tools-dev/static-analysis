@@ -8,4 +8,7 @@ types:
   - cli
 source: 'https://github.com/jarulraj/sqlcheck'
 homepage: 'https://github.com/jarulraj/sqlcheck'
+resources:
+  - title: "SQLCheck: Automated Detection and Diagnosis of SQL Anti-Patterns"
+    url: https://www.youtube.com/watch?v=5vHhuuPy3FI
 description: Automatically identify anti-patterns in SQL queries.
