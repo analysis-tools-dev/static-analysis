@@ -21,4 +21,7 @@ types:
   - cli
 source: 'https://github.com/github/super-linter'
 homepage: 'https://github.com/github/super-linter'
+resources:
+  - title: "The Easiest Way to Lint Your Code: GitHub Super Linter Deep Dive"
+    url: https://www.youtube.com/watch?v=BCrtoZ04L1Y
 description: Combination of multiple linters to install as a GitHub Action.
