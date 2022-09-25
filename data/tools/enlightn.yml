@@ -10,6 +10,9 @@ types:
   - cli
 source: 'https://github.com/enlightn/enlightn'
 homepage: 'https://www.laravel-enlightn.com/'
+resources:
+  - title: "Enlightn: Performance and Security Consultant"
+    url: https://www.youtube.com/watch?v=l6gY53fL1zI
 description: >-
   A static and dynamic analysis tool for Laravel applications that provides
   recommendations to improve the performance, security and code reliability
