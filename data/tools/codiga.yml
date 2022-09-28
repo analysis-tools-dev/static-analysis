@@ -24,6 +24,11 @@ description: >-
   Automated Code Reviews and Technical Debt management platform that supports 12+
   languages.
 pricing: https://www.codiga.io/pricing
+resources:
+  - title: Codiga Code Analysis Demonstration
+    url: https://www.youtube.com/watch?v=hQ_BjDYlsCU
+  - title: Codiga Coding Assistant
+    url: https://www.youtube.com/watch?v=alS_h2ig7ZI
 plans:
   free: true
   oss: false
