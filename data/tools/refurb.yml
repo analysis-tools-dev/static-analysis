@@ -1,0 +1,13 @@
+name: refurb
+categories:
+  - linter
+tags:
+  - python
+license: GPL-3.0
+types:  
+  - cli
+source: 'https://github.com/dosisod/refurb'
+homepage: 'https://github.com/dosisod/refurb'
+description: >-
+    A tool for refurbishing and modernizing Python codebases.
+    Refurb is heavily inspired by clippy, the built-in linter for Rust.
