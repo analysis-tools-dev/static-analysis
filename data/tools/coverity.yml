@@ -25,5 +25,7 @@ description: >-
   on rails, Scala, PHP, Python, JavaScript, TypeScript, Java, Fortran, C, C++,
   C#, VB.NET.
 resources:
+  - title: Coverity - Static Analysis by Synopsys
+    url: https://www.youtube.com/watch?v=FZ-ySGEcD0c
   - title: Checkmarx - Source Code Analysis Made Easy 2017
     url: https://www.youtube.com/watch?v=zo1pCl6yQ34
