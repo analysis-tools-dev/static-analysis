@@ -1,0 +1,17 @@
+name: Rezilion
+categories:
+  - linter
+tags:
+  - security
+license: proprietary
+types:
+  - service
+homepage: 'https://www.rezilion.com/'
+resources:
+  - title: Rezilion and CircleCI Integration Demo
+    url: https://www.youtube.com/watch?v=OIhfnVKq-MU
+description: >-
+  Discovers vulnerabilities for all components in your environment,
+  filters out 85% non-exploitable vulnerabilities and creates a 
+  remediation plan and open tickets to upgrade components that violate your
+  security policy and/or patch automatically in CI.
