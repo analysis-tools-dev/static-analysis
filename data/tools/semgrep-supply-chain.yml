@@ -1,0 +1,23 @@
+name: Semgrep Supply Chain
+categories:
+  - linter
+tags:
+  - go
+  - java
+  - javascript
+  - python
+  - ruby
+  - typescript
+  - security
+license: proprietary
+types:
+  - service
+homepage: 'https://semgrep.dev/products/semgrep-supply-chain'
+resources:
+  - title: Reachability analysis in Semgrep Supply Chain
+    url: https://www.youtube.com/watch?v=dzmiQXhVMAw
+  - title: "It's time to ignore 98% of dependency alerts"
+    url: https://r2c.dev/blog/2022/introducing-semgrep-supply-chain/
+description: >-
+  Quickly find and remediate high-priority security issues. 
+  Semgrep Supply Chain prioritizes the 2% of vulnerabilities that are reachable from your code.
