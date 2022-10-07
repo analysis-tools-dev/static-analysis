@@ -14,7 +14,7 @@ description: >-
   A ([conditionally free](https://pvs-studio.com/en/order/open-source-license) for
   FOSS and individual developers) static analysis of C, C++, C# and Java code. For
   advertising purposes [you can propose a large FOSS project for analysis by PVS employees](https://github.com/viva64/pvs-studio-check-list).
-  Supports CWE mapping, MISRA and CERT coding standards.
+  Supports CWE mapping, OWASP ASVS, MISRA, AUTOSAR and SEI CERT coding standards.
 resources:
 - title: PVS-Studio is now in Compiler Explorer!
   url: https://www.youtube.com/watch?v=hw5npZqB3b8
