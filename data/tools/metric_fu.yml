@@ -1,0 +1,12 @@
+name: MetricFu
+categories:
+  - linter
+tags:
+  - ruby
+license: MIT License
+types:
+  - cli
+source: "https://github.com/metricfu/metric_fu"
+homepage: "https://github.com/metricfu/metric_fu"
+description: >-
+  MetricFu is a set of tools to provide reports that show which parts of your code might need extra work.
