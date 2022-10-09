@@ -1,0 +1,13 @@
+name: Roodi
+categories:
+  - linter
+tags:
+  - ruby
+license: MIT License
+types:
+  - cli
+source: "https://github.com/roodi/roodi"
+homepage: "https://github.com/roodi/roodi"
+description: >-
+  Roodi stands for Ruby Object Oriented Design Inferometer.
+  It parses your Ruby code and warns you about design issues you have based on the checks that it has configured.
