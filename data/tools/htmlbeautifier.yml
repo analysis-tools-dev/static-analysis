@@ -1,0 +1,15 @@
+name: htmlbeautifier
+categories:
+  - formatter
+tags:
+  - erb
+  - html
+  - ruby
+license: MIT License
+types:
+  - cli
+source: "https://github.com/threedaymonk/htmlbeautifier"
+homepage: "https://github.com/threedaymonk/htmlbeautifier"
+description: >-
+  A normaliser/beautifier for HTML that also understands embedded Ruby.
+  Ideal for tidying up Rails templates.
