@@ -1,0 +1,13 @@
+name: Churn
+categories:
+  - linter
+tags:
+  - ruby
+license: MIT License
+types:
+  - cli
+source: "https://github.com/danmayer/churn"
+homepage: "https://github.com/danmayer/churn"
+description: >-
+  A Project to give the churn file, class, and method for a project for a given checkin.
+  Over time the tool adds up the history of churns to give the number of times a file, class, or method is changing during the life of a project.
