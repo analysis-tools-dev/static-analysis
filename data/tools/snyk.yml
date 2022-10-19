@@ -1,4 +1,4 @@
-name: Snyk
+name: Snyk Code
 categories:
   - linter
 tags:
@@ -11,10 +11,20 @@ tags:
   - python
   - ruby
   - security
+  - typescript
+  - csharp
 license: proprietary
 types:
   - service
 homepage: 'https://snyk.io'
 description: >-
-  Vulnerability scanner for dependencies of node.js apps (free for Open Source
-  Projects).
+  Snyk Code finds security vulnerabilities based on AI. Its speed of analysis allow us to 
+  analyse your code in real time and deliver results when you hit the save button in your IDE. 
+  Supported languages are Java, JavaScript, Python, PHP, C#, Go and TypeScript. Integrations with 
+  GitHub, BitBucket and Gitlab. It is free to try and part of the Snyk platform also covering SCA, 
+  containers and IaC.
+resources:
+  - title: Product homepage
+    url: https://snyk.io/product/snyk-code/
+  - title: Intro to Snyk Code Video
+    url: https://www.youtube.com/watch?v=fNYf0fgWOFQ
