@@ -97,7 +97,7 @@
     "plans": null,
     "description": "Lint, analyze, normalize, transform, sandbox, run, step through, and visualize user JavaScript, in node or the browser.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -328,7 +328,7 @@
     "plans": null,
     "description": "Combines lint errors of multiple projects into one output, check lint results of multiple sub-projects at once.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -705,7 +705,7 @@
     "plans": null,
     "description": "Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom editor.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": [
       {
         "title": "Adding Atom Beautify Package to Atom",
@@ -875,7 +875,7 @@
     "plans": null,
     "description": "A linting engine supporting custom project-specific rules.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -1347,7 +1347,7 @@
     "plans": null,
     "description": "Code quality threshold checking as part of your build.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -1865,7 +1865,7 @@
     "plans": null,
     "description": "A Project to give the churn file, class, and method for a project for a given checkin. Over time the tool adds up the history of churns to give the number of times a file, class, or method is changing during the life of a project.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -1918,7 +1918,7 @@
     "plans": null,
     "description": "Linter, formatter and test suite helper. As a linter, it is a wrapper around `pep8`, `pydocstyle`, `flake8`, and `pylint`.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -2291,7 +2291,7 @@
     "plans": null,
     "description": "Language independent framework for creating code analysis - supports [over 60 languages](https://coala.io/languages) by default.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -3117,7 +3117,7 @@
     "plans": null,
     "description": "A style checker that helps keep CoffeeScript code clean and consistent.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -3172,7 +3172,7 @@
     "plans": null,
     "description": "A tool for measuring Python class cohesion.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -3197,7 +3197,7 @@
     "plans": null,
     "description": "Run arbitrary scripts inside containers, and gather useful information.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -3518,7 +3518,7 @@
     "plans": null,
     "description": "Check your code quality for js, jsx, vue, css, less, scss, sass and styl files.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -3620,7 +3620,7 @@
     "plans": null,
     "description": "Complexity and quality metrics for C and C preprocessor code.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -3645,7 +3645,7 @@
     "plans": null,
     "description": "C# Essentials is a collection of Roslyn diagnostic analyzers, code fixes and refactorings that make it easy to work with C# 6 language features.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -3770,7 +3770,7 @@
     "plans": null,
     "description": "Quantifies the cyclomatic complexity of R functions / expressions.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -4003,19 +4003,10 @@
     "source": null,
     "pricing": null,
     "plans": null,
-    "description": "DeepCode finds bugs, security vulnerabilities, performance and API issues based on AI. DeepCode's speed of analysis allow us to analyse your code in real time and deliver results when you hit the save button in your IDE. Supported languages are Java, C/C++, JavaScript, Python, and TypeScript. Integrations with GitHub, BitBucket and Gitlab.",
+    "description": "DeepCode was acquired by Snyk is now Snyk Code.",
     "discussion": null,
     "deprecated": null,
-    "resources": [
-      {
-        "title": "Intro to DeepCode",
-        "url": "https://www.youtube.com/watch?v=5ThvYN3nWcg"
-      },
-      {
-        "title": "How DeepCode addresses False Positives",
-        "url": "https://www.youtube.com/watch?v=d-fvZ83O_es"
-      }
-    ],
+    "resources": null,
     "wrapper": null
   },
   "deepscan": {
@@ -4514,7 +4505,7 @@
     "plans": null,
     "description": "Static analyser for finding deadlocks in Go.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -4564,7 +4555,7 @@
     "plans": null,
     "description": "Lint and validate Dockerfile labels.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -4714,7 +4705,7 @@
     "plans": null,
     "description": "Reports potentially duplicated code.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -4789,7 +4780,7 @@
     "plans": null,
     "description": "Linter rules corresponding to the guidelines in Effective Dart",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -4814,7 +4805,7 @@
     "plans": null,
     "description": "A tool for formally verifying Rust programs by transpiling them into definitions in the Lean theorem prover.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -4839,7 +4830,7 @@
     "plans": null,
     "description": "A tool that allows you to analyse your Elm code, identify deficiencies and apply best practices.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -4949,6 +4940,43 @@
       "oss": false
     },
     "description": "Intelligent software analytics platform that identifies design issues, code issues, duplication and metrics. Supports Java, C, C++, C#, JavaScript, TypeScript, Python, Go, Kotlin and more.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "wrapper": null
+  },
+  "emerge": {
+    "name": "emerge",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "c",
+      "cpp",
+      "go",
+      "java",
+      "javascript",
+      "kotlin",
+      "objectivec",
+      "php",
+      "python",
+      "ruby",
+      "swift",
+      "typescript"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "cli",
+      "web"
+    ],
+    "homepage": "https://github.com/glato/emerge",
+    "source": "https://github.com/glato/emerge",
+    "pricing": null,
+    "plans": null,
+    "description": "Emerge is a source code and dependency visualizer that can be used to gather insights about source code structure, metrics, dependencies and complexity of software projects. After scanning the source code of a project it provides you an interactive web interface to explore and analyze your project by using graph structures.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
@@ -5111,7 +5139,7 @@
     "plans": null,
     "description": "Visualize JavaScript (ES6) source complexity.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -5162,7 +5190,7 @@
     "plans": null,
     "description": "Software complexity analysis of JavaScript-family abstract syntax trees.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -5224,7 +5252,7 @@
     "plans": null,
     "description": "ECMAScript parsing infrastructure for multipurpose analysis.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -5993,7 +6021,7 @@
     "plans": null,
     "description": "A tool to analyze Nginx configuration. The main goal is to prevent misconfiguration and automate flaw detection.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -6747,7 +6775,7 @@
     "plans": null,
     "description": "A Grunt wrapper for [Bootlint](https://github.com/twbs/bootlint), the HTML linter for Bootstrap projects.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -6772,7 +6800,7 @@
     "plans": null,
     "description": "A gulp wrapper for [Bootlint](https://github.com/twbs/bootlint), the HTML linter for Bootstrap projects.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -6981,7 +7009,7 @@
     "plans": null,
     "description": "Adds warnings or errors to your crate when using a numerically unstable floating point expression.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -7431,7 +7459,7 @@
     "plans": null,
     "description": "A multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -7509,7 +7537,7 @@
     "plans": null,
     "description": "IT, Inspector Tiger, is a modern python code review tool / framework. It comes with bunch of pre-defined handlers which warns you about improvements and possible bugs. Beside these handlers, you can write your own or use community ones.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -7931,7 +7959,7 @@
     "plans": null,
     "description": "CLI tool for learning commands from your terminal. kmdr delivers a break down of commands with every attribute explained.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -8395,7 +8423,7 @@
     "plans": null,
     "description": "Linter is a Scala static analysis compiler plugin which adds compile-time checks for various possible bugs, inefficiencies, and style problems.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -8445,7 +8473,7 @@
     "plans": null,
     "description": "Linting your Rust-files in Atom, using rustc and cargo.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -8609,7 +8637,7 @@
     "plans": null,
     "description": "Report long lines.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -8660,7 +8688,7 @@
     "plans": null,
     "description": "A tool for linting and static analysis of Lua code.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -9212,7 +9240,7 @@
     "plans": null,
     "description": "A set of static analysis and refactoring tools which use graph theory.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -9239,7 +9267,7 @@
     "plans": null,
     "description": "A wrapper around `flake8`, `isort` and `modernize`.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -9916,7 +9944,7 @@
     "plans": null,
     "description": "A toolkit to detect some code smells in analyzed Android applications.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -9994,7 +10022,7 @@
     "plans": null,
     "description": "Stylesheet analysis tool.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -10207,7 +10235,7 @@
     "plans": null,
     "description": "Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "wrapper": null
   },
@@ -10533,7 +10561,7 @@
     "plans": null,
     "description": "Library emulating the PHP internal reflection.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -10608,7 +10636,7 @@
     "plans": null,
     "description": "Finds usage of non-built-in extensions.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -10683,7 +10711,7 @@
     "plans": null,
     "description": "Builds a dependency graph for a project.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -10733,7 +10761,7 @@
     "plans": null,
     "description": "Add scalar type hints and return types to existing PHP projects using PHPDoc annotations.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -10958,7 +10986,7 @@
     "plans": null,
     "description": "Static analysis tool for PHP.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -11690,7 +11718,7 @@
     "plans": null,
     "description": "Check that your Puppet manifests conform to the style guide.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -11715,7 +11743,7 @@
     "plans": null,
     "description": "Pure is a static analysis file format checker that checks ZIP files for dangerous compression ratios, spec deviations, malicious archive signatures, mismatching local and central directory headers, ambiguous UTF-8 filenames, directory and symlink traversals, invalid MS-DOS dates, overlapping headers, overflow, underflow,  sparseness, accidental buffer bleeds etc.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -12180,7 +12208,7 @@
     "plans": null,
     "description": "Visualizes metrics and source code.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -12205,7 +12233,7 @@
     "plans": null,
     "description": "Tool to look for several security related Android application vulnerabilities.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -12311,7 +12339,7 @@
     "plans": null,
     "description": "Pattern Based Checking Tool for Ruby.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -12386,7 +12414,7 @@
     "plans": null,
     "description": "An open source static analysis security vulnerability scanner for Ruby on Rails applications.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -12500,7 +12528,7 @@
     "plans": null,
     "description": "The free Visual Studio 2015 extension for C# and VB.NET refactorings, including code best practice analyzers.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -12867,7 +12895,7 @@
     "plans": null,
     "description": "Roodi stands for Ruby Object Oriented Design Inferometer. It parses your Ruby code and warns you about design issues you have based on the checks that it has configured.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -13356,7 +13384,7 @@
     "plans": null,
     "description": "Static analysis tool for Golang that protects against SQL injections.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -13381,7 +13409,7 @@
     "plans": null,
     "description": "A Ruby cyclomatic complexity analyzer.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -13626,7 +13654,7 @@
     "plans": null,
     "description": "Linter for SCSS files.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "wrapper": null
   },
@@ -14183,18 +14211,20 @@
     "resources": null,
     "wrapper": null
   },
-  "snyk": {
-    "name": "Snyk",
+  "snyk-code": {
+    "name": "Snyk Code",
     "categories": [
       "linter"
     ],
     "languages": [
+      "csharp",
       "go",
       "java",
       "javascript",
       "php",
       "python",
-      "ruby"
+      "ruby",
+      "typescript"
     ],
     "other": [
       "container",
@@ -14211,10 +14241,19 @@
     "source": null,
     "pricing": null,
     "plans": null,
-    "description": "Vulnerability scanner for dependencies of node.js apps (free for Open Source Projects).",
+    "description": "Snyk Code finds security vulnerabilities based on AI. Its speed of analysis allow us to  analyse your code in real time and deliver results when you hit the save button in your IDE.  Supported languages are Java, JavaScript, Python, PHP, C#, Go and TypeScript. Integrations with  GitHub, BitBucket and Gitlab. It is free to try and part of the Snyk platform also covering SCA,  containers and IaC.",
     "discussion": null,
     "deprecated": null,
-    "resources": null,
+    "resources": [
+      {
+        "title": "Product homepage",
+        "url": "https://snyk.io/product/snyk-code/"
+      },
+      {
+        "title": "Intro to Snyk Code Video",
+        "url": "https://www.youtube.com/watch?v=fNYf0fgWOFQ"
+      }
+    ],
     "wrapper": null
   },
   "sobelow": {
@@ -14263,7 +14302,7 @@
     "plans": null,
     "description": "Solhint is an open source project created by https://protofire.io. Its goal is to provide a linting utility for Solidity code.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -15064,7 +15103,7 @@
     "plans": null,
     "description": "A programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
@@ -16117,7 +16156,7 @@
     "plans": null,
     "description": "TSQL Static Code Analysis Rules for SQL Server.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "wrapper": null
   },
