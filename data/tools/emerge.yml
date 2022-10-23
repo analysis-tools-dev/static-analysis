@@ -1,0 +1,23 @@
+name: emerge
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - objectivec
+  - go
+  - javascript
+  - java
+  - kotlin
+  - php
+  - python
+  - ruby
+  - swift
+  - typescript
+license: MIT
+types:
+  - cli
+  - web
+source: 'https://github.com/glato/emerge'
+homepage: 'https://github.com/glato/emerge'
+description: Emerge is a source code and dependency visualizer that can be used to gather insights about source code structure, metrics, dependencies and complexity of software projects. After scanning the source code of a project it provides you an interactive web interface to explore and analyze your project by using graph structures.
