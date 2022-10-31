@@ -1,0 +1,16 @@
+name: cargo-unused-features
+categories:
+  - linter
+tags:
+  - rust
+license: MIT
+types:  
+  - cli
+source: 'https://github.com/TimonPost/cargo-unused-features'
+homepage: 'https://github.com/TimonPost/cargo-unused-features'
+description: >-
+    Find potential unused enabled feature flags and prune them.
+    You can generate a simple HTML report from the json to make it easier to inspect results.
+    
+    It removes a feature of a dependency and then compiles the project to see if it still compiles.
+    If it does, the feature flag can possibly be removed, but it can be a false-positve.
