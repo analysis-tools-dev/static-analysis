@@ -1673,8 +1673,6 @@
     ],
     "languages": [],
     "other": [
-      "configmanagement",
-      "container",
       "kubernetes"
     ],
     "licenses": [
@@ -2244,8 +2242,6 @@
     ],
     "languages": [],
     "other": [
-      "configmanagement",
-      "container",
       "kubernetes"
     ],
     "licenses": [
@@ -3881,8 +3877,6 @@
     ],
     "languages": [],
     "other": [
-      "configmanagement",
-      "container",
       "kubernetes",
       "security"
     ],
@@ -8072,8 +8066,6 @@
     ],
     "languages": [],
     "other": [
-      "configmanagement",
-      "container",
       "kubernetes"
     ],
     "licenses": [
@@ -8099,8 +8091,6 @@
     ],
     "languages": [],
     "other": [
-      "configmanagement",
-      "container",
       "kubernetes"
     ],
     "licenses": [
@@ -8113,7 +8103,7 @@
     "source": "https://github.com/stackrox/kube-linter",
     "pricing": null,
     "plans": null,
-    "description": "KubeLinter is a static analysis tool that checks Kubernetes YAML files  and Helm charts to ensure the applications represented in them adhere to best practices. ",
+    "description": "KubeLinter is a static analysis tool that checks Kubernetes YAML files  and Helm charts to ensure the applications represented in them adhere to best practices.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
@@ -8126,7 +8116,7 @@
     ],
     "languages": [],
     "other": [
-      "container"
+      "kubernetes"
     ],
     "licenses": [
       "MIT License"
@@ -8151,7 +8141,6 @@
     ],
     "languages": [],
     "other": [
-      "container",
       "kubernetes"
     ],
     "licenses": [
@@ -8182,7 +8171,7 @@
     ],
     "languages": [],
     "other": [
-      "container"
+      "kubernetes"
     ],
     "licenses": [
       "Apache-2.0 License"
@@ -8216,8 +8205,6 @@
     ],
     "languages": [],
     "other": [
-      "configmanagement",
-      "container",
       "kubernetes"
     ],
     "licenses": [
