@@ -1,0 +1,15 @@
+name: klint
+categories:
+  - linter
+tags:
+  - kubernetes
+license: Apache-2.0
+types:  
+  - cli
+source: 'https://github.com/uswitch/klint'
+homepage: 'https://github.com/uswitch/klint'
+description: >-
+    A tool that listens to changes in Kubernetes resources and runs linting rules against them.
+    Identify and debug erroneous objects and nudge objects in line with the policies
+    as both change over time.
+    Klint helps us encode checks and proactively alert teams when they need to take action.
