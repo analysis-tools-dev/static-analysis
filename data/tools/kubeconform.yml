@@ -3,21 +3,19 @@ categories:
   - linter
 tags:
   - kubernetes
-  - container
 license: Apache 2.0
 types:
   - cli
-source: 'https://github.com/yannh/kubeconform'
-homepage: 'https://github.com/yannh/kubeconform'
+source: "https://github.com/yannh/kubeconform"
+homepage: "https://github.com/yannh/kubeconform"
 resources:
   - title: Ensuring Kubernetes manifests validity & compliance - a tooling overview - Yann Hamon, Contentful
     url: https://youtu.be/YM7Wy_M7Lvw?t=657
 description: >-
-   A fast Kubernetes manifests validator with support for custom resources.
-   
-   It is inspired by, contains code from and is designed to stay close to [Kubeval](https://analysis-tools.dev/tool/kubeval),
-   but with the following improvements:
-   * high performance: will validate & download manifests over multiple routines, caching downloaded files in memory
-   * configurable list of remote, or local schemas locations, enabling validating Kubernetes custom resources (CRDs) and offline validation capabilities
-   * uses by default a self-updating fork of the schemas registry maintained by the kubernetes-json-schema project - which guarantees up-to-date schemas for all recent versions of Kubernetes.
+  A fast Kubernetes manifests validator with support for custom resources.
 
+  It is inspired by, contains code from and is designed to stay close to [Kubeval](https://analysis-tools.dev/tool/kubeval),
+  but with the following improvements:
+  * high performance: will validate & download manifests over multiple routines, caching downloaded files in memory
+  * configurable list of remote, or local schemas locations, enabling validating Kubernetes custom resources (CRDs) and offline validation capabilities
+  * uses by default a self-updating fork of the schemas registry maintained by the kubernetes-json-schema project - which guarantees up-to-date schemas for all recent versions of Kubernetes.

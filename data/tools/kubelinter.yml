@@ -2,13 +2,13 @@ name: KubeLinter
 categories:
   - linter
 tags:
-  - container
-license: Apache-2.0 License 
+  - kubernetes
+license: Apache-2.0 License
 types:
   - cli
-source: 'https://github.com/stackrox/kube-linter'
-homepage: 'https://github.com/stackrox/kube-linter'
-description: 'KubeLinter is a static analysis tool that checks Kubernetes YAML files and Helm charts to ensure the applications represented in them adhere to best practices.'
+source: "https://github.com/stackrox/kube-linter"
+homepage: "https://github.com/stackrox/kube-linter"
+description: "KubeLinter is a static analysis tool that checks Kubernetes YAML files and Helm charts to ensure the applications represented in them adhere to best practices."
 resources:
   - title: "KubeLinter: An open source linter for Kubernetes, from StackRox"
     url: https://www.youtube.com/watch?v=KWX0sWojV_0

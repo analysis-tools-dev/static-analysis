@@ -2,8 +2,6 @@ name: clusterlint
 categories:
   - linter
 tags:
-  - configmanagement
-  - container
   - kubernetes
 license: Apache-2.0 License 
 types:

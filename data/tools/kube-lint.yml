@@ -2,14 +2,12 @@ name: kube-lint
 categories:
   - linter
 tags:
-  - configmanagement
-  - container
   - kubernetes
-license: Apache-2.0 License 
+license: Apache-2.0 License
 types:
   - cli
-source: 'https://github.com/viglesiasce/kube-lint'
-homepage: 'https://github.com/viglesiasce/kube-lint'
+source: "https://github.com/viglesiasce/kube-lint"
+homepage: "https://github.com/viglesiasce/kube-lint"
 description: >-
   A linter for Kubernetes resources with a customizable rule set.
   You define a list of rules that you would like to validate against your 
