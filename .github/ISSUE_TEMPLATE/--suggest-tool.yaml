@@ -1,0 +1,90 @@
+name: ⚙️ Suggest Tool
+description: Suggest a new tool to be added to the list
+title: "⚙️ New Tool Suggestion: "
+labels: [suggestion]
+assignees:
+- mre
+body:
+- type: markdown
+  attributes:
+    value: |
+      ❤️ Thank you for taking the time to suggest a new tool!
+
+- type: input
+  attributes:
+    label: Tool Name?
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Description
+    description: What does the tool do? A clear and concise description of what you want to happen.
+  validations:
+    required: true
+
+- type: checkboxes
+  attributes:
+    label: Tool category
+    description: A tool can be a formatter, a linter, or both.
+    options:
+      - label: 🌈 Formatter
+        required: false
+      - label: 🔍 Linter
+        required: false
+
+- type: textarea
+  attributes:
+    label: tags
+    description: A list of tags (languages) that this tool supports. (See [here](https://github.com/analysis-tools-dev/static-analysis/blob/master/data/tags.yml) for a list of options)
+    placeholder: |
+      * c
+      * cpp
+      * go
+      * js
+  validations:
+    required: true
+
+- type: input
+  attributes:
+    label: License
+    description: The license of the tool (e.g. MIT, Apache, or proprietary)
+  validations:
+    required: false
+
+- type: checkboxes
+  attributes:
+    label: How can the tool be used?
+    options:
+      - label: Command Line
+        required: false
+      - label: Web Service
+        required: false
+      - label: IDE-Plugin
+        required: false
+
+- type: input
+  attributes:
+    label: Source URL
+    description: URL to the source code (if the tool is open source)
+    placeholder: https://github.com/tool/repo
+  validations:
+    required: false
+
+- type: input
+  attributes:
+    label: Source URL
+    description: URL to tool homepage (if any)
+    placeholder: https://example.com
+  validations:
+    required: false
+    
+- type: textarea
+  attributes:
+    label: Resources
+    description: Found a nice product video or a blog post about a tool? Please add it here.
+    placeholder: |
+      * [Product Video](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+      * [Article](https://analysis-tools.dev/blog/our-mission)
+  validations:
+    required: false
