@@ -1,4 +1,4 @@
-# How to add a new tool to the list
+# Thank you for contributing
 
 Please feel free to open a pull request if you know of a static analysis tool that
 is not mentioned here.  
@@ -34,7 +34,7 @@ Finally, create a pull request with all your changes. You can call `make
 render` to check for errors before.  This is optional, because it will also be
 done when creating a pull request.
 
-# How to mark a tool as unmaintained/deprecated
+### How to mark a tool as unmaintained/deprecated
 
 Sometimes a tool becomes unmaintained and there's nothing wrong with that.  
 After all, a tool can still be very valuable to the community - even without
