@@ -13,7 +13,7 @@ askama = "0.11.1"
 # released. See https://github.com/softprops/hubcaps/pull/285
 hubcaps = { git="https://github.com/softprops/hubcaps" }
 tokio = { version = "1.21.2", features = ["rt-multi-thread", "macros"] }
-chrono = "0.4.22"
+chrono = "0.4.23"
 anyhow = "1.0.66"
 pico-args = "0.5.0"
 serde_json = "1.0.87"
