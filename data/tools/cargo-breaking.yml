@@ -1,0 +1,13 @@
+name: cargo-breaking
+categories:
+  - linter
+tags:
+  - rust
+license: MPL-2.0
+types:  
+  - cli
+source: 'https://github.com/iomentum/cargo-breaking'
+homepage: 'https://github.com/iomentum/cargo-breaking'
+description: >-
+  cargo-breaking compares a crate's public API between two different branches,
+  shows what changed, and suggests the next version according to semver.
