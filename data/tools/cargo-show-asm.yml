@@ -1,0 +1,12 @@
+name: cargo-show-asm
+categories:
+  - linter
+tags:
+  - rust
+license: MIT / Apache 2.0
+types:  
+  - cli
+source: 'https://github.com/pacak/cargo-show-asm'
+homepage: 'https://github.com/pacak/cargo-show-asm'
+description: >-
+    cargo subcommand showing the assembly, LLVM-IR and MIR generated for Rust code
