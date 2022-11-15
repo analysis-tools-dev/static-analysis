@@ -2,12 +2,6 @@ name: cargo-show-asm
 categories:
   - linter
 tags:
-  - assembly
-  - cargo
-  - cargo-plugin
-  - cargo-subcommand
-  - llvm-ir
-  - optimization
   - rust
 license: MIT / Apache 2.0
 types:  
