@@ -1,0 +1,14 @@
+name: GCC
+categories:
+  - linter
+tags:
+  - c
+license: GPL
+types:
+  - cli
+source: "https://github.com/gcc-mirror/gcc"
+homepage: "https://gcc.gnu.org/onlinedocs/gcc/Static-Analyzer-Options.html"
+description: >-
+  The GCC compiler has static analysis capabilities since version 10.
+  This option is only available if GCC was configured with analyzer support enabled. 
+  It can also output its diagnostics to a JSON file in the SARIF format (from v13).
