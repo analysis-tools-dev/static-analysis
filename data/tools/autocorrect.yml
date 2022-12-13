@@ -1,0 +1,29 @@
+name: autocorrect
+categories:
+  - linter
+  - formatter
+tags:
+  - writing
+  - markdown
+  - html
+  - javascript
+  - css
+  - typescript
+  - jsx
+  - vue
+  - json
+  - yaml
+  - rust
+  - ruby
+  - python
+  - go
+  - csharp
+  - scala
+  - shell
+  - xml
+license: MIT
+types:
+  - cli
+source: 'https://github.com/huacnlee/autocorrect'
+homepage: 'https://huacnlee.github.io/autocorrect'
+description: A linter and formatter to help you to improve copywriting, correct spaces, words, punctuations between CJK (Chinese, Japanese, Korean).
