@@ -1,0 +1,23 @@
+name: CodeQue
+categories:
+  - linter
+tags:
+  - typescript
+  - javascript
+  - json
+license: Sustainable Use License
+types:
+  - cli, 
+  - ide-plugin
+source: "https://github.com/codeque-co/codeque"
+homepage: "https://codeque.co"
+description: Ecosystem for structural matching JavaScript and TypeScript code. Offers search tool that understands code structure. Available as CLI tool and Visual Studio Code extension. It helps to search code faster and more accurately making you workflow more effective. Soon it will offer ESLint plugin to create your own rules in minutes to help with assuring codebase quality.
+resources:
+  - title: Documentation
+    url:  "https://codeque.co/docs"
+  - title: Visual Studio Code Extension
+    url:  "https://codeque.co/r/vsc"
+  - title: CLI via NPM
+    url:  "https://www.npmjs.com/package/@codeque/cli"
+  - title: Core via NPM
+    url:  "https://www.npmjs.com/package/@codeque/core"
