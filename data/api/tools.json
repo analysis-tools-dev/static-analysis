@@ -718,6 +718,50 @@
     ],
     "wrapper": null
   },
+  "autocorrect": {
+    "name": "autocorrect",
+    "categories": [
+      "formatter",
+      "linter"
+    ],
+    "languages": [
+      "csharp",
+      "go",
+      "javascript",
+      "jsx",
+      "python",
+      "ruby",
+      "rust",
+      "scala",
+      "shell",
+      "typescript"
+    ],
+    "other": [
+      "css",
+      "html",
+      "json",
+      "markdown",
+      "vue",
+      "writing",
+      "xml",
+      "yaml"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://huacnlee.github.io/autocorrect",
+    "source": "https://github.com/huacnlee/autocorrect",
+    "pricing": null,
+    "plans": null,
+    "description": "A linter and formatter to help you to improve copywriting, correct spaces, words, punctuations between CJK (Chinese, Japanese, Korean).",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "wrapper": null
+  },
   "aws-cloudformation-guard": {
     "name": "AWS CloudFormation Guard",
     "categories": [
@@ -2905,6 +2949,52 @@
       {
         "title": "Continuous code analysis with CodeQL",
         "url": "https://www.youtube.com/watch?v=KEPiDz2oO-I"
+      }
+    ],
+    "wrapper": null
+  },
+  "codeque": {
+    "name": "CodeQue",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "javascript",
+      "typescript"
+    ],
+    "other": [
+      "json"
+    ],
+    "licenses": [
+      "Sustainable Use License"
+    ],
+    "types": [
+      "cli,",
+      "ide-plugin"
+    ],
+    "homepage": "https://codeque.co",
+    "source": "https://github.com/codeque-co/codeque",
+    "pricing": null,
+    "plans": null,
+    "description": "Ecosystem for structural matching JavaScript and TypeScript code. Offers search tool that understands code structure. Available as CLI tool and Visual Studio Code extension. It helps to search code faster and more accurately making you workflow more effective. Soon it will offer ESLint plugin to create your own rules in minutes to help with assuring codebase quality.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Documentation",
+        "url": "https://codeque.co/docs"
+      },
+      {
+        "title": "Visual Studio Code Extension",
+        "url": "https://codeque.co/r/vsc"
+      },
+      {
+        "title": "CLI via NPM",
+        "url": "https://www.npmjs.com/package/@codeque/cli"
+      },
+      {
+        "title": "Core via NPM",
+        "url": "https://www.npmjs.com/package/@codeque/core"
       }
     ],
     "wrapper": null
