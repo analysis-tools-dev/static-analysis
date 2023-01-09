@@ -1,0 +1,17 @@
+name: Perl::Analyzer
+categories:
+  - linter
+tags:
+  - perl
+license: Artistic License (2.0)
+types:
+  - cli
+  - service
+  - ide-plugin  
+source: 'https://github.com/technix/Perl-Analyzer'
+homepage: 'https://technix.github.io/Perl-Analyzer/'
+description: >-
+  Perl-Analyzer is a set of programs and modules that allow users to analyze and visualize Perl 
+  codebases by providing information about namespaces and their relations, dependencies, 
+  inheritance, and methods implemented, inherited, and redefined in packages, 
+  as well as calls to methods from parent packages via SUPER. 
