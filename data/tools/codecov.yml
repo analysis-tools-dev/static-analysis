@@ -1,0 +1,28 @@
+name: Codecov
+categories:
+  - linter
+license: proprietary
+tags:
+  - ci
+types:
+  - service
+homepage: "https://about.codecov.io/"
+pricing: "https://about.codecov.io/pricing/"
+plans:
+  free: true
+  oss: true
+resources:
+  - title: "Codecov Overview"
+    url: https://www.youtube.com/watch?v=wwFookaYHoo
+  - title: "Codecov Onboarding 1: Account Creation"
+    url: https://www.youtube.com/watch?v=8xToLcchs4Y
+  - title: "Codecov Github Tutorial/Demo"
+    url: https://docs.codecov.com/docs/github-tutorial
+description: >-
+  Codecov is a company that provides code coverage tools for developers and engineering leaders 
+  to gain visibility into their code coverage.
+  
+  They offer flexible and unified reporting, seamless coverage insights, and robust coverage controls.
+  Codecov supports over 20 languages and is CI/CD agnostic.
+  Over 29,000 organizations and 1 million developers use Codecov.
+  Codecov has recently joined Sentry.
