@@ -1,0 +1,30 @@
+name: Diffblue
+categories:
+  - linter
+license: proprietary
+tags:
+  - ci
+  - java
+types:
+  - service
+homepage: "https://www.diffblue.com/"
+pricing: "https://www.diffblue.com/pricing/"
+plans:
+  free: true
+resources:
+  - title: "Diffblue Cover Overview"
+    url: https://www.youtube.com/watch?v=9vt1szlaAKw
+  - title: "Codecov Github Tutorial/Demo"
+    url: https://docs.codecov.com/docs/github-tutorial
+  - title: "Diffblue Cover in Eclipse"
+    url: https://www.youtube.com/watch?v=jiUgMs21NNE
+  - title: "Diffblue Cover on a Pull Request"
+    url: https://www.youtube.com/watch?v=dhN-mbgOSMo
+description: >-
+  Diffblue is a software company that provides AI-powered code analysis and
+  testing solutions for software development teams.
+
+  Its technology helps developers automate testing, find bugs, and reduce manual
+  labor in their software development processes. The company's main product,
+  Diffblue Cover, uses AI to generate and run unit tests for Java code, helping
+  to catch errors and improve code quality.
