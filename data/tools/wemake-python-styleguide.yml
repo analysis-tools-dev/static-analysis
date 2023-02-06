@@ -7,5 +7,5 @@ license: MIT License
 types:
   - cli
 source: 'https://github.com/wemake-services/wemake-python-styleguide'
-homepage: 'https://wemake-python-stylegui.de'
+homepage: 'https://wemake-python-styleguide.rtfd.io/'
 description: The strictest and most opinionated python linter ever.
