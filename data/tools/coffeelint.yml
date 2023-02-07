@@ -7,5 +7,5 @@ license: Other
 types:
   - cli
 source: 'https://github.com/clutchski/coffeelint'
-homepage: 'http://www.coffeelint.org'
+homepage: 'https://coffeelint.github.io/'
 description: A style checker that helps keep CoffeeScript code clean and consistent.
