@@ -1,0 +1,14 @@
+name: autopep8
+categories:
+  - formatter
+tags:
+  - python
+license: MIT
+types:
+  - cli
+source: "https://github.com/hhatto/autopep8"
+homepage: "https://pypi.org/project/autopep8/"
+description: >-
+  A tool that automatically formats Python code to conform to the PEP 8 style guide.
+
+  It uses the pycodestyle utility to determine what parts of the code needs to be formatted.
