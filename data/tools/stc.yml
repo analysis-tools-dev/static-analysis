@@ -1,0 +1,12 @@
+name: stc
+categories:
+  - linter
+tags:
+  - typescript
+license: Apache-2.0
+types:  
+  - cli
+source: 'https://github.com/dudykr/stc'
+homepage: 'https://stc.dudy.dev'
+description: >-
+    Speedy TypeScript type checker written in Rust
