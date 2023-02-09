@@ -124,9 +124,6 @@
 - name: F#
   tag: fsharp
   type: language
-- name: Flow
-  tag: flow
-  type: language
 - name: Formatter
   tag: formatter
   type: other
@@ -348,7 +345,7 @@
   type: language
 - name: Verilog/SystemVerilog
   tag: verilog
-  type: language  
+  type: language
 - name: VHDL
   tag: vhdl
   type: language
@@ -385,4 +382,3 @@
 - name: YAML
   tag: yaml
   type: other
-

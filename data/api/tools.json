@@ -5446,7 +5446,6 @@
       "linter"
     ],
     "languages": [
-      "flow",
       "javascript",
       "jsx",
       "typescript"
@@ -12069,7 +12068,6 @@
       "linter"
     ],
     "languages": [
-      "flow",
       "javascript",
       "jsx",
       "typescript"
@@ -15373,6 +15371,31 @@
     "resources": null,
     "wrapper": null
   },
+  "stc": {
+    "name": "stc",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "typescript"
+    ],
+    "other": [],
+    "licenses": [
+      "Apache-2.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://stc.dudy.dev",
+    "source": "https://github.com/dudykr/stc",
+    "pricing": null,
+    "plans": null,
+    "description": "Speedy TypeScript type checker written in Rust",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "wrapper": null
+  },
   "steep": {
     "name": "Steep",
     "categories": [
@@ -17499,7 +17522,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://wemake-python-stylegui.de",
+    "homepage": "https://wemake-python-styleguide.rtfd.io/",
     "source": "https://github.com/wemake-services/wemake-python-styleguide",
     "pricing": null,
     "plans": null,
