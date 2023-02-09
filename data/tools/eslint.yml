@@ -5,7 +5,6 @@ tags:
   - javascript
   - typescript
   - jsx
-  - flow
 license: MIT License
 types:
   - cli

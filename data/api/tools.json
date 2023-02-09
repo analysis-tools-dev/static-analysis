@@ -5446,7 +5446,6 @@
       "linter"
     ],
     "languages": [
-      "flow",
       "javascript",
       "jsx",
       "typescript"
@@ -12069,7 +12068,6 @@
       "linter"
     ],
     "languages": [
-      "flow",
       "javascript",
       "jsx",
       "typescript"
@@ -15368,6 +15366,31 @@
     "pricing": null,
     "plans": null,
     "description": "Lints and suggestions for the Nix programming language. \"statix check\" highlights antipatterns in Nix code. \"statix fix\" can fix several such occurrences.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "wrapper": null
+  },
+  "stc": {
+    "name": "stc",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "typescript"
+    ],
+    "other": [],
+    "licenses": [
+      "Apache-2.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://stc.dudy.dev",
+    "source": "https://github.com/dudykr/stc",
+    "pricing": null,
+    "plans": null,
+    "description": "Speedy TypeScript type checker written in Rust",
     "discussion": null,
     "deprecated": null,
     "resources": null,
