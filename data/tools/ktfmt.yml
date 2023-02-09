@@ -1,0 +1,18 @@
+name: ktfmt
+categories:
+  - formatter
+tags:
+  - kotlin
+license: Apache-2.0
+types:
+  - cli
+  - ide-plugin
+source: "https://github.com/facebook/ktfmt"
+homepage: "https://facebook.github.io/ktfmt/"
+description: >-
+  A program that reformats Kotlin source code to comply with the common
+  community standard for Kotlin code conventions.
+
+  A ktfmt IntelliJ plugin is available from the plugin repository. To install
+  it, go to your IDE's settings and select the Plugins category. Click the
+  Marketplace tab, search for the ktfmt plugin, and click the Install button.
