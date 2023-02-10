@@ -24,6 +24,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "abapopenchecks": {
@@ -49,6 +51,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "actionlint": {
@@ -74,6 +78,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "aether": {
@@ -99,6 +105,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "after-the-deadline": {
@@ -124,6 +132,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "ale": {
@@ -150,6 +160,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "alex": {
@@ -175,6 +187,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "aligncheck": {
@@ -200,6 +214,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "alquitran": {
@@ -225,6 +241,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "ameba": {
@@ -255,6 +273,8 @@
         "url": "https://www.youtube.com/watch?v=SV8tV79Lvog"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "anchore": {
@@ -280,6 +300,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "android-lint": {
@@ -305,6 +327,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "android-lint-summary": {
@@ -330,6 +354,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "android-studio": {
@@ -356,6 +382,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "angr": {
@@ -381,6 +409,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "angular-eslint": {
@@ -409,6 +439,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "ansible-lint": {
@@ -434,6 +466,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "appchecker": {
@@ -462,6 +496,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "application-inspector": {
@@ -500,6 +536,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "applicationinspector": {
@@ -542,6 +580,8 @@
         "url": "https://www.microsoft.com/security/blog/2020/01/16/introducing-microsoft-application-inspector/"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "appscreener": {
@@ -590,6 +630,8 @@
         "url": "https://www.youtube.com/watch?v=sOTkvdEKeq8"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "archunit": {
@@ -616,6 +658,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "archunitnet": {
@@ -641,6 +685,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "astree": {
@@ -667,6 +713,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "atom-beautify": {
@@ -716,6 +764,8 @@
         "url": "https://www.youtube.com/watch?v=aiXNKHKWlmY"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "autocorrect": {
@@ -760,6 +810,35 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "autopep8": {
+    "name": "autopep8",
+    "categories": [
+      "formatter"
+    ],
+    "languages": [
+      "python"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://pypi.org/project/autopep8/",
+    "source": "https://github.com/hhatto/autopep8",
+    "pricing": null,
+    "plans": null,
+    "description": "A tool that automatically formats Python code to conform to the PEP 8 style guide.\nIt uses the pycodestyle utility to determine what parts of the code needs to be formatted.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "autopep8": {
@@ -810,6 +889,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "axivion-bauhaus-suite": {
@@ -838,6 +919,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "azsk": {
@@ -866,6 +949,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "bandit": {
@@ -891,6 +976,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "bashate": {
@@ -921,6 +1008,8 @@
         "url": "https://docs.openstack.org/bashate"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "bellybutton": {
@@ -946,6 +1035,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "better-code-hub": {
@@ -996,6 +1087,8 @@
         "url": "https://www.youtube.com/watch?v=diERwdr2omM"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "binbloom": {
@@ -1026,6 +1119,8 @@
         "url": "https://www.kitploit.com/2020/10/binbloom-raw-binary-firmware-analysis.html?m=1"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "binskim": {
@@ -1051,6 +1146,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "black": {
@@ -1085,6 +1182,12 @@
         "url": "https://www.youtube.com/watch?v=esZLCuWs_2Y"
       }
     ],
+    "reviews": [
+      "https://luminousmen.com/post/my-unpopular-opinion-about-black-code-formatter"
+    ],
+    "demos": [
+      "https://black.vercel.app/"
+    ],
     "wrapper": null
   },
   "black-duck": {
@@ -1115,6 +1218,8 @@
         "url": "https://www.youtube.com/watch?v=GEvxbU6EmiA"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "bloaty": {
@@ -1140,6 +1245,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "bodyclose": {
@@ -1165,6 +1272,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "bootlint": {
@@ -1190,6 +1299,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "bowler": {
@@ -1215,6 +1326,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "brakeman": {
@@ -1242,6 +1355,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "brittany": {
@@ -1267,6 +1382,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "buf": {
@@ -1292,6 +1409,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "bundler-audit": {
@@ -1317,6 +1436,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "c2rust": {
@@ -1347,6 +1468,8 @@
         "url": "https://www.youtube.com/watch?v=WEsR0Vv7jhg&t=233s"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "callgraph": {
@@ -1393,6 +1516,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cane": {
@@ -1418,6 +1543,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cargo-audit": {
@@ -1443,6 +1570,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cargo-bloat": {
@@ -1470,6 +1599,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cargo-breaking": {
@@ -1495,6 +1626,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cargo-deny": {
@@ -1520,6 +1653,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cargo-expand": {
@@ -1545,6 +1680,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cargo-inspect": {
@@ -1570,6 +1707,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cargo-show-asm": {
@@ -1595,6 +1734,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cargo-spellcheck": {
@@ -1620,6 +1761,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cargo-udeps": {
@@ -1645,6 +1788,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cargo-unused-features": {
@@ -1670,6 +1815,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cast-highlight": {
@@ -1707,6 +1854,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cbmc": {
@@ -1733,6 +1882,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cfn-lint": {
@@ -1758,6 +1909,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cfn-nag": {
@@ -1783,6 +1936,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "chart-testing": {
@@ -1808,6 +1963,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "checker-framework": {
@@ -1833,6 +1990,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "checkmake": {
@@ -1859,6 +2018,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "checkmarx-cxsast": {
@@ -1909,6 +2070,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "checkov": {
@@ -1934,6 +2097,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "checkstyle": {
@@ -1959,6 +2124,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "chktex": {
@@ -1984,6 +2151,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "churn": {
@@ -2009,6 +2178,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "churn-php": {
@@ -2034,6 +2205,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "ciocheck": {
@@ -2062,6 +2235,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "ck": {
@@ -2087,6 +2262,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "ckjm": {
@@ -2112,6 +2289,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "clair": {
@@ -2137,6 +2316,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "clang-tidy": {
@@ -2163,6 +2344,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "classgraph": {
@@ -2190,6 +2373,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "clayton": {
@@ -2217,6 +2402,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "clazy": {
@@ -2243,6 +2430,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "clippy": {
@@ -2277,6 +2466,8 @@
         "url": "https://www.youtube.com/watch?v=OgcrRt84bUY"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "clj-kondo": {
@@ -2302,6 +2493,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "closure-compiler": {
@@ -2327,6 +2520,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "closurelinter": {
@@ -2352,6 +2547,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "clusterlint": {
@@ -2377,6 +2574,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cmetrics": {
@@ -2403,6 +2602,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "coala": {
@@ -2433,6 +2634,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cobra": {
@@ -2461,6 +2664,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "codacy": {
@@ -2525,6 +2730,8 @@
         "url": "https://www.youtube.com/watch?v=lVxkD_bmbFY"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "code-climate": {
@@ -2550,6 +2757,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "code-cracker": {
@@ -2575,6 +2784,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "code-intelligence": {
@@ -2610,6 +2821,8 @@
         "url": "https://www.youtube.com/watch?v=Qfsz_ZTKM6Y"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "codeac": {
@@ -2644,6 +2857,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "codeburner": {
@@ -2675,6 +2890,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "codechecker": {
@@ -2703,6 +2920,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "codecov": {
@@ -2744,6 +2963,10 @@
         "url": "https://docs.codecov.com/docs/github-tutorial"
       }
     ],
+    "reviews": [
+      "https://www.g2.com/products/codecov/reviews"
+    ],
+    "demos": null,
     "wrapper": null
   },
   "codefactor": {
@@ -2802,6 +3025,8 @@
         "url": "https://www.youtube.com/watch?v=0wL1bgoya2U"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "codeflow": {
@@ -2836,6 +3061,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "codeit-right": {
@@ -2862,6 +3089,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "codelyzer": {
@@ -2887,6 +3116,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "codenarc": {
@@ -2912,6 +3143,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "codepatrol": {
@@ -2943,6 +3176,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "codepeer": {
@@ -2973,6 +3208,8 @@
         "url": "https://www.youtube.com/watch?v=8837TUpLLMo"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "codeql": {
@@ -3017,6 +3254,8 @@
         "url": "https://www.youtube.com/watch?v=KEPiDz2oO-I"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "codeque": {
@@ -3063,6 +3302,8 @@
         "url": "https://www.npmjs.com/package/@codeque/core"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "coderrect": {
@@ -3103,6 +3344,8 @@
         "url": "https://www.reddit.com/r/cpp/comments/l7z6s9/a_fast_static_analysis_tool_for_detecting_race/"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "coderush": {
@@ -3130,6 +3373,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "codescan": {
@@ -3157,6 +3402,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "codescene": {
@@ -3217,6 +3464,10 @@
         "url": "https://www.youtube.com/watch?v=tbCA2JiO_K8"
       }
     ],
+    "reviews": [
+      "https://www.capterra.com/p/193379/CodeScene/"
+    ],
+    "demos": null,
     "wrapper": null
   },
   "codesonar-from-grammatech": {
@@ -3245,6 +3496,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "codespell": {
@@ -3270,6 +3523,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "codiga": {
@@ -3321,6 +3576,10 @@
         "url": "https://www.youtube.com/watch?v=alS_h2ig7ZI"
       }
     ],
+    "reviews": [
+      "https://www.capterra.com/p/234335/Codiga/"
+    ],
+    "demos": null,
     "wrapper": null
   },
   "coffeelint": {
@@ -3346,6 +3605,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cognicrypt": {
@@ -3376,6 +3637,8 @@
         "url": "https://www.youtube.com/watch?v=vOZKN8yQcAY"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cohesion": {
@@ -3401,6 +3664,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "collector": {
@@ -3426,6 +3691,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "commitlint": {
@@ -3451,6 +3718,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "complexity-report": {
@@ -3476,6 +3745,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cookstyle": {
@@ -3501,6 +3772,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "corrode": {
@@ -3528,6 +3801,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "coverity": {
@@ -3575,6 +3850,8 @@
         "url": "https://www.youtube.com/watch?v=zo1pCl6yQ34"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cpachecker": {
@@ -3600,6 +3877,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cpp-linter-action": {
@@ -3634,6 +3913,8 @@
         "url": "https://github.com/cpp-linter/cpp-linter-action"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cppcheck": {
@@ -3665,6 +3946,8 @@
         "url": "https://www.viva64.com/en/t/0083/"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cppdepend": {
@@ -3691,6 +3974,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cpplint": {
@@ -3717,6 +4002,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cqc": {
@@ -3747,6 +4034,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cqmetrics": {
@@ -3773,6 +4062,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "credo": {
@@ -3798,6 +4089,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "crystal": {
@@ -3823,6 +4116,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cscout": {
@@ -3849,6 +4144,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "csharpessentials": {
@@ -3874,6 +4171,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "css-stats": {
@@ -3899,6 +4198,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "csscomb": {
@@ -3924,6 +4225,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "csslint": {
@@ -3949,6 +4252,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cwe-checker": {
@@ -3974,6 +4279,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "cyclocomp": {
@@ -3999,6 +4306,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "d-scanner": {
@@ -4024,6 +4333,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "dagda": {
@@ -4049,6 +4360,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "dart-code-metrics": {
@@ -4074,6 +4387,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "datree": {
@@ -4100,6 +4415,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "dawnscanner": {
@@ -4127,6 +4444,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "dbcritic": {
@@ -4152,6 +4471,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "deadcode": {
@@ -4177,6 +4498,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "deadnix": {
@@ -4202,6 +4525,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "deepcode": {
@@ -4232,6 +4557,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "deepscan": {
@@ -4260,6 +4587,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "deepsource": {
@@ -4304,6 +4633,10 @@
         "url": "https://www.youtube.com/watch?v=hgWui62Aa0E"
       }
     ],
+    "reviews": [
+      "https://www.capterra.com/p/199025/DeepSource/"
+    ],
+    "demos": null,
     "wrapper": null
   },
   "dennis": {
@@ -4329,6 +4662,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "deno-lint": {
@@ -4354,6 +4689,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "depends": {
@@ -4382,6 +4719,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "dephpend": {
@@ -4407,6 +4746,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "deprecation-detector": {
@@ -4432,6 +4773,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "deptrac": {
@@ -4457,6 +4800,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "designite": {
@@ -4482,6 +4827,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "designitejava": {
@@ -4507,6 +4854,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "designpatterndetector": {
@@ -4532,6 +4881,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "detect-secrets": {
@@ -4557,6 +4908,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "detekt": {
@@ -4582,6 +4935,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "devskim": {
@@ -4618,6 +4973,8 @@
         "url": "https://www.youtube.com/watch?v=VK80nTLGUk4"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "dialyxir": {
@@ -4643,6 +5000,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "dialyzer": {
@@ -4681,6 +5040,8 @@
         "url": "https://www.youtube.com/watch?v=Nxsw1jRE2A4&t=709s"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "diffblue": {
@@ -4727,6 +5088,8 @@
         "url": "https://www.youtube.com/watch?v=dhN-mbgOSMo"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "diktat": {
@@ -4753,6 +5116,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "dingo-hunter": {
@@ -4778,6 +5143,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "dlint": {
@@ -4803,6 +5170,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "docker-label-inspector": {
@@ -4828,6 +5197,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "dogsled": {
@@ -4853,6 +5224,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "doop": {
@@ -4878,6 +5251,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "dotenv-linter": {
@@ -4903,6 +5278,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "dotenv-linter-rust": {
@@ -4928,6 +5305,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "drnim": {
@@ -4953,6 +5332,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "dupl": {
@@ -4978,6 +5359,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "dylint": {
@@ -5003,6 +5386,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "easycodingstandard": {
@@ -5028,6 +5413,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "effective-dart": {
@@ -5053,6 +5440,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "electrolysis": {
@@ -5078,6 +5467,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "elm-analyse": {
@@ -5103,6 +5494,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "elm-review": {
@@ -5128,6 +5521,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "elvis": {
@@ -5153,6 +5548,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "ember-template-lint": {
@@ -5178,6 +5575,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "embold": {
@@ -5214,6 +5613,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "emerge": {
@@ -5251,6 +5652,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "enlightn": {
@@ -5284,6 +5687,8 @@
         "url": "https://www.youtube.com/watch?v=l6gY53fL1zI"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "erb-lint": {
@@ -5312,6 +5717,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "errcheck": {
@@ -5337,6 +5744,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "error-prone": {
@@ -5362,6 +5771,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "errwrap": {
@@ -5387,6 +5798,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "es6-plato": {
@@ -5412,6 +5825,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "esbmc": {
@@ -5438,6 +5853,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "escomplex": {
@@ -5463,6 +5880,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "eslint": {
@@ -5499,6 +5918,13 @@
         "url": "https://www.youtube.com/watch?v=SydnKbGc7W8"
       }
     ],
+    "reviews": [
+      "https://openbase.com/js/eslint/reviews",
+      "https://stackshare.io/eslint"
+    ],
+    "demos": [
+      "https://eslint.org/play/"
+    ],
     "wrapper": null
   },
   "esprima": {
@@ -5524,6 +5950,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "exakat": {
@@ -5551,6 +5979,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "fasterer": {
@@ -5576,6 +6006,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "fb-contrib": {
@@ -5601,6 +6033,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "find-security-bugs": {
@@ -5629,6 +6063,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "fix-insight": {
@@ -5654,6 +6090,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "fixinator": {
@@ -5684,6 +6122,8 @@
         "url": "https://github.com/foundeo/fixinator/wiki/Getting-Started"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "fixit": {
@@ -5714,6 +6154,8 @@
         "url": "https://www.digitalernachschub.de/blog/enforcing-coding-conventions-using-libcst-and-fixit/"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "flake8": {
@@ -5754,6 +6196,8 @@
         "url": "https://www.youtube.com/watch?v=ot5Z4KQPBL8"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "flawfinder": {
@@ -5780,6 +6224,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "flay": {
@@ -5805,6 +6251,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "flen": {
@@ -5830,6 +6278,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "flint": {
@@ -5856,6 +6306,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "flog": {
@@ -5881,6 +6333,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "flow": {
@@ -5906,6 +6360,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "flowdroid": {
@@ -5931,6 +6387,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "foodcritic": {
@@ -5956,6 +6414,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "forbidden-apis": {
@@ -5981,6 +6441,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "fortify": {
@@ -6037,6 +6499,8 @@
         "url": "https://www.youtube.com/watch?v=7CfeUXtDlwQ"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "frama-c": {
@@ -6063,6 +6527,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "frink": {
@@ -6088,6 +6554,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "fsharplint": {
@@ -6113,6 +6581,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "fukuzatsu": {
@@ -6138,6 +6608,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "gawk-lint": {
@@ -6163,6 +6635,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "gcc": {
@@ -6188,6 +6662,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "gendarme": {
@@ -6213,6 +6689,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "gherkin-lint": {
@@ -6238,6 +6716,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "ghidra": {
@@ -6268,6 +6748,8 @@
         "url": "https://ghidra-sre.org/InstallationGuide.html"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "gitleaks": {
@@ -6293,6 +6775,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "gixy": {
@@ -6318,6 +6802,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "go-ast": {
@@ -6343,6 +6829,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "go-consistent": {
@@ -6368,6 +6856,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "go-critic": {
@@ -6393,6 +6883,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "go-meta-linter": {
@@ -6420,6 +6912,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "go-tool-vet-shadow": {
@@ -6445,6 +6939,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "go-vet": {
@@ -6470,6 +6966,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "goblint": {
@@ -6498,6 +6996,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "gochecknoglobals": {
@@ -6523,6 +7023,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "goconst": {
@@ -6548,6 +7050,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "gocyclo": {
@@ -6573,6 +7077,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "gofmt-s": {
@@ -6599,6 +7105,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "gofumpt": {
@@ -6625,6 +7133,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "goimports": {
@@ -6650,6 +7160,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "gokart": {
@@ -6677,6 +7189,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "golangci-lint": {
@@ -6707,6 +7221,8 @@
         "url": "https://www.youtube.com/watch?v=1U-Gzz4TYP0"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "golint": {
@@ -6732,6 +7248,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "goodcheck": {
@@ -6760,6 +7278,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "goodpractice": {
@@ -6785,6 +7305,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "google-java-format": {
@@ -6811,6 +7333,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "goone": {
@@ -6837,6 +7361,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "goreporter": {
@@ -6864,6 +7390,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "goroutine-inspect": {
@@ -6889,6 +7417,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "gosec-gas": {
@@ -6914,6 +7444,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "gotype": {
@@ -6939,6 +7471,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "govulncheck": {
@@ -6965,6 +7499,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "graphmycss-com": {
@@ -6990,6 +7526,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "graudit": {
@@ -7023,6 +7561,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "grumphp": {
@@ -7048,6 +7588,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "grunt-bootlint": {
@@ -7073,6 +7615,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "gulp-bootlint": {
@@ -7098,6 +7642,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "haml-lint": {
@@ -7123,6 +7669,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "haskell-dockerfile-linter": {
@@ -7148,6 +7696,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "haxe-checkstyle": {
@@ -7173,6 +7723,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "hcl-appscan-source": {
@@ -7222,6 +7774,8 @@
         "url": "https://www.youtube.com/watch?v=TmYY67w18RI"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "hegel": {
@@ -7247,6 +7801,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "helix-qac": {
@@ -7282,6 +7838,8 @@
         "url": "https://www.youtube.com/watch?v=XFvZ_hh6LCo"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "herbie": {
@@ -7307,6 +7865,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "hlint": {
@@ -7332,6 +7892,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "hopper": {
@@ -7360,6 +7922,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "hound-ci": {
@@ -7392,6 +7956,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "html-inspector": {
@@ -7417,6 +7983,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "html-tidy": {
@@ -7442,6 +8010,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "html-validate": {
@@ -7469,6 +8039,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "htmlbeautifier": {
@@ -7497,6 +8069,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "htmlhint": {
@@ -7522,6 +8096,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "huntbugs": {
@@ -7547,6 +8123,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "i-code-cnes-for-fortran": {
@@ -7572,6 +8150,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "i-code-cnes-for-shell": {
@@ -7597,6 +8177,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "iblessing": {
@@ -7623,6 +8205,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "icarus-verilog": {
@@ -7648,6 +8232,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "ida-free": {
@@ -7673,6 +8259,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "ikos": {
@@ -7699,6 +8287,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "imhotep": {
@@ -7729,6 +8319,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "include-gardener": {
@@ -7757,6 +8349,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "ineffassign": {
@@ -7782,6 +8376,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "infer": {
@@ -7810,6 +8406,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "inspectortiger": {
@@ -7835,6 +8433,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "intellij-idea": {
@@ -7863,6 +8463,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "interfacer": {
@@ -7888,6 +8490,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "jakstab": {
@@ -7913,6 +8517,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "jarchitect": {
@@ -7938,6 +8544,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "jbmc": {
@@ -7963,6 +8571,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "jeb-decompiler": {
@@ -7988,6 +8598,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "jedi": {
@@ -8013,6 +8625,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "joern": {
@@ -8039,6 +8653,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "jshint": {
@@ -8064,6 +8680,8 @@
     "discussion": "https://github.com/analysis-tools-dev/static-analysis/issues/223",
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "jslint": {
@@ -8089,6 +8707,8 @@
     "discussion": "https://github.com/analysis-tools-dev/static-analysis/issues/223",
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "jsonlint": {
@@ -8115,6 +8735,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "jsprime": {
@@ -8140,6 +8762,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "kics": {
@@ -8170,6 +8794,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "kiuwan": {
@@ -8204,6 +8830,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "klint": {
@@ -8229,6 +8857,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "klocwork": {
@@ -8257,6 +8887,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "kmdr": {
@@ -8282,6 +8914,36 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "ktfmt": {
+    "name": "ktfmt",
+    "categories": [
+      "formatter"
+    ],
+    "languages": [
+      "kotlin"
+    ],
+    "other": [],
+    "licenses": [
+      "Apache-2.0"
+    ],
+    "types": [
+      "cli",
+      "ide-plugin"
+    ],
+    "homepage": "https://facebook.github.io/ktfmt/",
+    "source": "https://github.com/facebook/ktfmt",
+    "pricing": null,
+    "plans": null,
+    "description": "A program that reformats Kotlin source code to comply with the common community standard for Kotlin code conventions.\nA ktfmt IntelliJ plugin is available from the plugin repository. To install it, go to your IDE's settings and select the Plugins category. Click the Marketplace tab, search for the ktfmt plugin, and click the Install button.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "ktfmt": {
@@ -8334,6 +8996,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "kube-hunter": {
@@ -8360,6 +9024,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "kube-lint": {
@@ -8385,6 +9051,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "kube-linter": {
@@ -8410,6 +9078,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "kube-score": {
@@ -8435,6 +9105,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "kubeconform": {
@@ -8465,6 +9137,8 @@
         "url": "https://youtu.be/YM7Wy_M7Lvw?t=657"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "kubelinter": {
@@ -8499,6 +9173,8 @@
         "url": "https://www.stackrox.com/post/2020/10/introducing-kubelinter-an-open-source-linter-for-kubernetes"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "kubeval": {
@@ -8524,6 +9200,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "lacheck": {
@@ -8549,6 +9227,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "languagetool": {
@@ -8574,6 +9254,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "larastan": {
@@ -8599,6 +9281,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "laser": {
@@ -8624,6 +9308,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "ldra": {
@@ -8650,6 +9336,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "lgtm": {
@@ -8690,6 +9378,8 @@
         "url": "https://github.blog/2019-09-18-github-welcomes-semmle/"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "libvcs4j": {
@@ -8715,6 +9405,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "lint": {
@@ -8740,6 +9432,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "linter": {
@@ -8765,6 +9459,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "linter-for-dart": {
@@ -8790,6 +9486,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "linter-rust": {
@@ -8815,6 +9513,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "lintian": {
@@ -8840,6 +9540,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "lintr": {
@@ -8865,6 +9567,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "linty-fresh": {
@@ -8890,6 +9594,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "liquid-haskell": {
@@ -8915,6 +9621,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "lizard": {
@@ -8954,6 +9662,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "lll": {
@@ -8979,6 +9689,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "lockfile-lint": {
@@ -9005,6 +9717,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "luacheck": {
@@ -9030,6 +9744,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "lualint": {
@@ -9055,6 +9771,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "luanalysis": {
@@ -9080,6 +9798,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "lunasec": {
@@ -9105,6 +9825,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "maligned": {
@@ -9130,6 +9852,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "manalyze": {
@@ -9155,6 +9879,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "markdownlint": {
@@ -9180,6 +9906,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "mccabe": {
@@ -9205,6 +9933,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "mcsema": {
@@ -9230,6 +9960,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "mdformat": {
@@ -9255,6 +9987,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "mdl": {
@@ -9280,6 +10014,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "mega-linter": {
@@ -9365,6 +10101,10 @@
     "deprecated": null,
     "resources": [
       {
+        "title": "Hands on - Improving code standards with mega linter",
+        "url": "https://www.youtube.com/watch?v=3xgTU1GhRvs"
+      },
+      {
         "title": "How Mega-linter works",
         "url": "https://nvuillam.github.io/mega-linter/frequently-asked-questions/"
       },
@@ -9381,6 +10121,8 @@
         "url": "https://nvuillam.github.io/mega-linter/configuration/"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "metadata-json-lint": {
@@ -9407,6 +10149,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "metricfu": {
@@ -9432,6 +10176,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "mirai": {
@@ -9457,6 +10203,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "misspell": {
@@ -9482,6 +10230,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "misspell-fixer": {
@@ -9507,6 +10257,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "misspelled-words-in-context": {
@@ -9532,6 +10284,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "mlint": {
@@ -9557,6 +10311,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "mondrian": {
@@ -9582,6 +10338,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "multilint": {
@@ -9609,6 +10367,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "mypy": {
@@ -9642,6 +10402,10 @@
         "title": "Introduction to python typing + mypy (beginner - intermediate)",
         "url": "https://www.youtube.com/watch?v=H5CnZQDKfhU"
       }
+    ],
+    "reviews": null,
+    "demos": [
+      "https://mypy-lang.org/examples.html"
     ],
     "wrapper": null
   },
@@ -9677,6 +10441,8 @@
         "url": "https://www.youtube.com/watch?v=iqf6epACgds"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "mythx": {
@@ -9712,6 +10478,8 @@
         "url": "https://www.youtube.com/watch?v=N-dAuqNztjA"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "nagelfar": {
@@ -9737,6 +10505,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "nakedret": {
@@ -9762,6 +10532,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "nargs": {
@@ -9787,6 +10559,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "nauz-file-detector": {
@@ -9812,6 +10586,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "ndepend": {
@@ -9840,6 +10616,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "net-analyzers": {
@@ -9865,6 +10643,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "nimfmt": {
@@ -9890,6 +10670,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "nitpick-ci": {
@@ -9920,6 +10702,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "njsscan": {
@@ -9946,6 +10730,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "nodejsscan": {
@@ -9975,6 +10761,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "nu-html-checker": {
@@ -10001,6 +10789,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "nullaway": {
@@ -10026,6 +10816,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "oclint": {
@@ -10053,6 +10845,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "ocular": {
@@ -10092,6 +10886,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "oelint-adv": {
@@ -10117,6 +10913,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "offensive-360": {
@@ -10160,6 +10958,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "openscap": {
@@ -10185,6 +10985,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "oversecured": {
@@ -10211,6 +11013,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "owasp-dependency-check": {
@@ -10236,6 +11040,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "packj": {
@@ -10261,6 +11067,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "paprika": {
@@ -10286,6 +11094,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "parallel-lint": {
@@ -10311,6 +11121,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "parasoft": {
@@ -10339,6 +11151,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "parker": {
@@ -10364,6 +11178,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "parse": {
@@ -10389,6 +11205,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "pascal-analyzer": {
@@ -10414,6 +11232,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "pascal-expert": {
@@ -10439,6 +11259,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "pc-lint": {
@@ -10465,6 +11287,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "pdepend": {
@@ -10490,6 +11314,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "pelusa": {
@@ -10515,6 +11341,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "perl-analyzer": {
@@ -10542,6 +11370,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "perl-critic": {
@@ -10567,6 +11397,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "pfff": {
@@ -10604,6 +11436,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "phan": {
@@ -10629,6 +11463,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "phasar": {
@@ -10655,6 +11491,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "php-architecture-tester": {
@@ -10680,6 +11518,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "php-assumptions": {
@@ -10705,6 +11545,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "php-codesniffer": {
@@ -10730,6 +11572,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "php-coding-standards-fixer": {
@@ -10755,6 +11599,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "php-insights": {
@@ -10780,6 +11626,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "php-inspections-ea-extended": {
@@ -10805,6 +11653,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "php-parser": {
@@ -10830,6 +11680,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "php-refactoring-browser": {
@@ -10855,6 +11707,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "php-semantic-versioning-checker": {
@@ -10880,6 +11734,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "php-speller": {
@@ -10905,6 +11761,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "php-token-reflection": {
@@ -10930,6 +11788,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "php7cc": {
@@ -10955,6 +11815,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "php7mar": {
@@ -10980,6 +11842,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "phpca": {
@@ -11005,6 +11869,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "phpcpd": {
@@ -11030,6 +11896,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "phpdcd": {
@@ -11055,6 +11923,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "phpdependencyanalysis": {
@@ -11080,6 +11950,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "phpdeprecationdetector": {
@@ -11105,6 +11977,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "phpdoc-to-typehint": {
@@ -11130,6 +12004,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "phpdocumentor": {
@@ -11155,6 +12031,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "phploc": {
@@ -11180,6 +12058,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "phpmd": {
@@ -11205,6 +12085,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "phpmetrics": {
@@ -11230,6 +12112,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "phpmnd": {
@@ -11255,6 +12139,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "phpqa": {
@@ -11280,6 +12166,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "phpqa-jakzal": {
@@ -11305,6 +12193,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "phpqa-jmolivas": {
@@ -11330,6 +12220,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "phpsa": {
@@ -11355,6 +12247,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "phpstan": {
@@ -11385,6 +12279,10 @@
         "url": "https://www.youtube.com/watch?v=OiS2xGVWEa0"
       }
     ],
+    "reviews": null,
+    "demos": [
+      "https://phpstan.org/try"
+    ],
     "wrapper": null
   },
   "plato": {
@@ -11410,6 +12308,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "pmd": {
@@ -11442,6 +12342,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "polymer-analyzer": {
@@ -11469,6 +12371,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "polyspace-bug-finder": {
@@ -11495,6 +12399,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "polyspace-code-prover": {
@@ -11521,6 +12427,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "polyspace-for-ada": {
@@ -11546,6 +12454,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "portlint": {
@@ -11572,6 +12482,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "postcss": {
@@ -11597,6 +12509,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "prae": {
@@ -11622,6 +12536,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "pre-commit": {
@@ -11650,6 +12566,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "prealloc": {
@@ -11675,6 +12593,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "prettier": {
@@ -11712,6 +12632,8 @@
         "url": "https://www.youtube.com/watch?v=SydnKbGc7W8"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "primitive-erlang-security-tool-pest": {
@@ -11737,6 +12659,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "progpilot": {
@@ -11762,6 +12686,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "project-wallace-css-analyzer": {
@@ -11787,6 +12713,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "pronto": {
@@ -11820,6 +12748,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "proselint": {
@@ -11845,6 +12775,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "prospector": {
@@ -11872,6 +12804,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "protolint": {
@@ -11897,6 +12831,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "prusti": {
@@ -11922,6 +12858,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "psalm": {
@@ -11952,6 +12890,8 @@
         "url": "https://www.youtube.com/watch?v=ZxXw5Fkp9R8"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "pt-application-inspector": {
@@ -11982,6 +12922,8 @@
         "url": "https://www.youtube.com/watch?v=gtFH6tV2dlM"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "pt-pm": {
@@ -12012,6 +12954,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "pullrequest": {
@@ -12037,6 +12981,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "puma-scan": {
@@ -12062,6 +13008,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "puppet-lint": {
@@ -12087,6 +13035,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "pure": {
@@ -12112,6 +13062,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "putout": {
@@ -12144,6 +13096,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "pvs-studio": {
@@ -12185,6 +13139,8 @@
         "url": "https://www.youtube.com/watch?v=vYW6TOwFK2M"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "py-find-injection": {
@@ -12210,6 +13166,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "pyanalyze": {
@@ -12235,6 +13193,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "pycodequal": {
@@ -12263,6 +13223,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "pycodestyle": {
@@ -12288,6 +13250,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "pydocstyle": {
@@ -12313,6 +13277,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "pyflakes": {
@@ -12338,6 +13304,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "pylama": {
@@ -12366,6 +13334,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "pylint": {
@@ -12396,6 +13366,8 @@
         "url": "https://www.youtube.com/watch?v=fFY5103p5-c"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "pyre-check": {
@@ -12421,6 +13393,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "pyright": {
@@ -12446,6 +13420,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "pyroma": {
@@ -12471,6 +13447,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "pysa": {
@@ -12501,6 +13479,8 @@
         "url": "https://www.youtube.com/watch?v=8I3zlvtpOww"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "pyt-python-taint": {
@@ -12526,6 +13506,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "pytype": {
@@ -12551,6 +13533,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "qafoo-quality-analyzer": {
@@ -12576,6 +13560,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "qark": {
@@ -12601,6 +13587,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "quality": {
@@ -12628,6 +13616,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "qualys-container-security": {
@@ -12654,6 +13644,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "quantifiedcode": {
@@ -12682,6 +13674,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "querly": {
@@ -12707,6 +13701,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "qulice": {
@@ -12732,6 +13728,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "radon": {
@@ -12757,6 +13755,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "railroader": {
@@ -12782,6 +13782,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "rails-best-practices": {
@@ -12807,6 +13809,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "redex": {
@@ -12845,6 +13849,8 @@
         "url": "https://www.youtube.com/watch?v=h_Gkl5eAdc4"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "reek": {
@@ -12870,6 +13876,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "refactoring-essentials": {
@@ -12896,6 +13904,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "refurb": {
@@ -12921,6 +13931,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "relint": {
@@ -12952,6 +13964,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "remark-lint": {
@@ -12977,6 +13991,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "resharper": {
@@ -13006,6 +14022,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "reshift": {
@@ -13041,6 +14059,8 @@
         "url": "https://www.youtube.com/watch?v=GspuLMF3Vyo"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "retire-js": {
@@ -13066,6 +14086,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "reviewdog": {
@@ -13093,6 +14115,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "revive": {
@@ -13118,6 +14142,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "rezilion": {
@@ -13148,6 +14174,8 @@
         "url": "https://www.youtube.com/watch?v=OIhfnVKq-MU"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "rips": {
@@ -13176,6 +14204,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "rome": {
@@ -13206,6 +14236,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "rome-formatter": {
@@ -13238,6 +14270,8 @@
         "url": "https://marketplace.visualstudio.com/items?itemName=rome.rome"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "roodi": {
@@ -13263,6 +14297,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "roslyn-analyzers": {
@@ -13289,6 +14325,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "roslyn-security-guard": {
@@ -13315,6 +14353,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "roslynator": {
@@ -13340,6 +14380,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "rpmlint": {
@@ -13365,6 +14407,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "rslint": {
@@ -13390,6 +14434,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "rubocop": {
@@ -13420,6 +14466,8 @@
         "url": "https://www.youtube.com/watch?v=sfOGjcMVQ9U"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "rubrowser": {
@@ -13445,6 +14493,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "ruby-lint": {
@@ -13470,6 +14520,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "rubycritic": {
@@ -13495,6 +14547,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "rudra": {
@@ -13520,6 +14574,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "ruff": {
@@ -13550,6 +14606,8 @@
         "url": "https://notes.crmarsh.com/python-tooling-could-be-much-much-faster"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "rufo": {
@@ -13575,6 +14633,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "rust-analyzer": {
@@ -13600,6 +14660,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "rust-audit": {
@@ -13627,6 +14689,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "rust-language-server": {
@@ -13652,6 +14716,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "rustfix": {
@@ -13677,6 +14743,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "rustfmt": {
@@ -13702,6 +14770,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "rustviz": {
@@ -13727,6 +14797,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "safesql": {
@@ -13752,6 +14824,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "saikuro": {
@@ -13777,6 +14851,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "sandimeter": {
@@ -13802,6 +14878,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "sass-lint": {
@@ -13827,6 +14905,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "scalastyle": {
@@ -13852,6 +14932,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "scan-build": {
@@ -13878,6 +14960,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "scanmycode-ce-community-edition": {
@@ -13911,6 +14995,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "scapegoat": {
@@ -13936,6 +15022,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "scorecard": {
@@ -13961,6 +15049,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "scrutinizer": {
@@ -13997,6 +15087,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "scsslint": {
@@ -14022,6 +15114,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "searchdiggity": {
@@ -14047,6 +15141,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "security-code-scan": {
@@ -14077,6 +15173,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "semgrep": {
@@ -14134,6 +15232,12 @@
         "url": "https://www.youtube.com/watch?v=pul1bRIOYc8"
       }
     ],
+    "reviews": [
+      "https://stackshare.io/semgrep"
+    ],
+    "demos": [
+      "https://semgrep.dev/playground"
+    ],
     "wrapper": null
   },
   "semgrep-supply-chain": {
@@ -14175,6 +15279,8 @@
         "url": "https://r2c.dev/blog/2022/introducing-semgrep-supply-chain/"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "sh": {
@@ -14200,6 +15306,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "shellcheck": {
@@ -14225,6 +15333,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "shellharden": {
@@ -14250,6 +15360,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "shiftleft": {
@@ -14293,6 +15405,8 @@
         "url": "https://vimeo.com/233423863"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "shiftleft-scan": {
@@ -14338,6 +15452,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "shipshape": {
@@ -14366,6 +15482,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "shisho": {
@@ -14394,6 +15512,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "sider": {
@@ -14428,6 +15548,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "sigrid": {
@@ -14493,6 +15615,10 @@
         "url": "https://www.youtube.com/watch?v=UvhV9dyXWIU"
       }
     ],
+    "reviews": [
+      "https://www.capterra.com/p/219140/Sigrid/"
+    ],
+    "demos": null,
     "wrapper": null
   },
   "similarity-tester": {
@@ -14525,6 +15651,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "slim-lint": {
@@ -14550,6 +15678,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "slither": {
@@ -14575,6 +15705,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "snyk-code": {
@@ -14620,6 +15752,8 @@
         "url": "https://www.youtube.com/watch?v=fNYf0fgWOFQ"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "sobelow": {
@@ -14645,6 +15779,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "solhint": {
@@ -14670,6 +15806,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "solium": {
@@ -14695,6 +15833,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "sonarcloud": {
@@ -14737,6 +15877,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "sonarlint-for-visual-studio": {
@@ -14766,6 +15908,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "sonarqube": {
@@ -14814,6 +15958,12 @@
         "url": "https://www.youtube.com/watch?v=ow-yuIlCuHk"
       }
     ],
+    "reviews": [
+      "https://www.capterra.com/p/210481/SonarQube/"
+    ],
+    "demos": [
+      "https://next.sonarqube.com/sonarqube/projects"
+    ],
     "wrapper": null
   },
   "sonatype": {
@@ -14861,6 +16011,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "soot": {
@@ -14886,6 +16038,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "sorbet": {
@@ -14911,6 +16065,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "soto-platform": {
@@ -14942,6 +16098,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "sourcemeter": {
@@ -14975,6 +16133,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "spark": {
@@ -15000,6 +16160,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "specificity-graph": {
@@ -15025,6 +16187,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "spectral": {
@@ -15051,6 +16215,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "splint": {
@@ -15077,6 +16243,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "spoon": {
@@ -15102,6 +16270,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "spotbugs": {
@@ -15127,6 +16297,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "sqlcheck": {
@@ -15157,6 +16329,8 @@
         "url": "https://www.youtube.com/watch?v=5vHhuuPy3FI"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "sqlfluff": {
@@ -15188,6 +16362,8 @@
         "url": "https://docs.sqlfluff.com/en/stable/"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "sqlint": {
@@ -15213,6 +16389,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "sqlvet": {
@@ -15239,6 +16417,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "squawk": {
@@ -15264,6 +16444,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "stan": {
@@ -15289,6 +16471,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "standard": {
@@ -15316,6 +16500,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "standard-ruby": {
@@ -15341,6 +16527,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "staticcheck": {
@@ -15371,6 +16559,8 @@
         "url": "https://www.youtube.com/watch?v=1U-Gzz4TYP0"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "staticlint": {
@@ -15396,6 +16586,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "statix": {
@@ -15421,6 +16613,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "stc": {
@@ -15446,6 +16640,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "steep": {
@@ -15471,6 +16667,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "stoke": {
@@ -15496,6 +16694,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "structcheck": {
@@ -15521,6 +16721,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "structslop": {
@@ -15547,6 +16749,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "stylelint": {
@@ -15572,6 +16776,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "styler": {
@@ -15597,6 +16803,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "super-linter": {
@@ -15641,6 +16849,8 @@
         "url": "https://www.youtube.com/watch?v=BCrtoZ04L1Y"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "svace": {
@@ -15672,6 +16882,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "svf": {
@@ -15698,6 +16910,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "svls": {
@@ -15723,6 +16937,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "swiftformat": {
@@ -15748,6 +16964,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "swiftlint": {
@@ -15773,6 +16991,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "symfony-insight": {
@@ -15801,6 +17021,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "synopsys": {
@@ -15839,6 +17061,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "sys": {
@@ -15864,6 +17088,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "sysdig": {
@@ -15894,6 +17120,8 @@
         "url": "https://www.youtube.com/watch?v=KXfZWprVr0w"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "tailor": {
@@ -15919,6 +17147,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "tclchecker": {
@@ -15944,6 +17174,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "teamscale": {
@@ -15988,6 +17220,8 @@
         "url": "https://marketplace.visualstudio.com/items?itemName=CQSEGmbH.Teamscale"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "tencentcodeanalysis": {
@@ -16029,6 +17263,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "tern": {
@@ -16054,6 +17290,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "terraform-compliance": {
@@ -16079,6 +17317,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "terrascan": {
@@ -16104,6 +17344,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "test": {
@@ -16129,6 +17371,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "texlab": {
@@ -16154,6 +17398,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "tflint": {
@@ -16179,6 +17425,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "tfsec": {
@@ -16205,6 +17453,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "threatmapper": {
@@ -16243,6 +17493,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "todocheck": {
@@ -16282,6 +17534,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "trivy": {
@@ -16313,6 +17567,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "trufflehog": {
@@ -16338,6 +17594,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "trunk": {
@@ -16391,6 +17649,8 @@
         "url": "https://slack.trunk.io"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "tscancode": {
@@ -16419,6 +17679,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "tslint": {
@@ -16449,6 +17711,8 @@
         "url": "https://www.youtube.com/watch?v=qXzIW4CfpxA"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "tslint-clean-code": {
@@ -16474,6 +17738,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "tslint-microsoft-contrib": {
@@ -16499,6 +17765,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "tsqllint": {
@@ -16524,6 +17792,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "tsqlrules": {
@@ -16549,6 +17819,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "tsunami-security-scanner": {
@@ -16579,6 +17851,8 @@
         "url": "https://www.youtube.com/watch?v=SMlWes1XnWw"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "tuli": {
@@ -16604,6 +17878,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "twig-lint": {
@@ -16629,6 +17905,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "twiggy": {
@@ -16655,6 +17933,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "typescript-call-graph": {
@@ -16680,6 +17960,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "typescript-eslint": {
@@ -16710,6 +17992,8 @@
         "url": "https://www.youtube.com/watch?v=SydnKbGc7W8"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "typl": {
@@ -16735,6 +18019,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "unconvert": {
@@ -16760,6 +18046,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "undebt": {
@@ -16788,6 +18076,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "understand": {
@@ -16843,6 +18133,8 @@
         "url": "https://www.youtube.com/watch?v=mZRWN6ukUig"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "unibeautify": {
@@ -16883,6 +18175,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "unimport": {
@@ -16909,6 +18203,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "unparam": {
@@ -16934,6 +18230,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "upsource": {
@@ -16969,6 +18267,8 @@
         "url": "https://www.youtube.com/watch?v=EjwD7Pi7J_0"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "vale": {
@@ -16994,6 +18294,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "varcheck": {
@@ -17019,6 +18321,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "vera": {
@@ -17045,6 +18349,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "veracode": {
@@ -17088,6 +18394,8 @@
         "url": "https://www.youtube.com/watch?v=CacOX9ytugc"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "verible-linter-action": {
@@ -17113,6 +18421,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "verifast": {
@@ -17138,6 +18448,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "verilator": {
@@ -17163,6 +18475,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "vetur": {
@@ -17195,6 +18509,8 @@
         "url": "https://www.youtube.com/watch?v=05tNXJ-Kric"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "vint": {
@@ -17220,6 +18536,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "violations-lib": {
@@ -17248,6 +18566,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "visual-expert": {
@@ -17273,6 +18593,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "vmware-chap": {
@@ -17298,6 +18620,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "vscode-verilog-hdl-support": {
@@ -17323,6 +18647,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "vsdiagnostics": {
@@ -17348,6 +18674,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "vuls": {
@@ -17373,6 +18701,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "vulture": {
@@ -17398,6 +18728,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "wala": {
@@ -17429,6 +18761,8 @@
         "url": "https://www.youtube.com/watch?v=QtrJEopSSuw"
       }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "wap": {
@@ -17454,6 +18788,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "warnalyzer": {
@@ -17479,6 +18815,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "wartremover": {
@@ -17504,6 +18842,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "weeder": {
@@ -17529,6 +18869,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "weggli": {
@@ -17557,6 +18899,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "wemake-python-styleguide": {
@@ -17582,6 +18926,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "whitehat-application-security-platform": {
@@ -17617,6 +18963,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "wily": {
@@ -17642,6 +18990,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "wintellect-analyzers": {
@@ -17667,6 +19017,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "wotan": {
@@ -17693,6 +19045,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "write-good": {
@@ -17718,6 +19072,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "wsl": {
@@ -17743,6 +19099,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "xcode": {
@@ -17770,6 +19128,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "xenon": {
@@ -17795,6 +19155,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "xo": {
@@ -17820,6 +19182,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "yamllint": {
@@ -17846,6 +19210,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "yapf": {
@@ -17871,6 +19237,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "yardstick": {
@@ -17896,6 +19264,8 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "zod": {
@@ -17921,6 +19291,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "zpa": {
@@ -17946,6 +19318,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "zydis": {
@@ -17971,6 +19345,8 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   }
 }

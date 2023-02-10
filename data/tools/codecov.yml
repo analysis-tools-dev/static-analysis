@@ -18,6 +18,8 @@ resources:
     url: https://www.youtube.com/watch?v=8xToLcchs4Y
   - title: "Codecov Github Tutorial/Demo"
     url: https://docs.codecov.com/docs/github-tutorial
+reviews:
+  - https://www.g2.com/products/codecov/reviews
 description: >-
   Codecov is a company that provides code coverage tools for developers and engineering leaders 
   to gain visibility into their code coverage.

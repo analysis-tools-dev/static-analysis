@@ -40,3 +40,5 @@ pricing: https://codescene.com/pricing
 plans:
   free: false
   oss: true
+reviews:
+  - https://www.capterra.com/p/193379/CodeScene/

@@ -164,6 +164,8 @@ pub fn create_api(catalog: Catalog, languages: &[Tag], other_tags: &[Tag]) -> Re
             discussion: entry.discussion,
             deprecated: entry.deprecated,
             resources: entry.resources,
+            reviews: entry.reviews,
+            demos: entry.demos,
             wrapper: entry.wrapper,
         };
         api_entries.insert(slugify(&entry.name), api_entry);

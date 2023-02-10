@@ -45,6 +45,16 @@ pub struct Resource {
 }
 
 #[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq)]
+pub struct Review {
+    url: String,
+}
+
+#[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq)]
+pub struct Demo {
+    url: String,
+}
+
+#[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq)]
 pub struct ParsedEntry {
     pub name: String,
     pub categories: BTreeSet<String>,
@@ -59,6 +69,8 @@ pub struct ParsedEntry {
     pub discussion: Option<String>,
     pub deprecated: Option<bool>,
     pub resources: Option<Vec<Resource>>,
+    pub reviews: Option<BTreeSet<String>>,
+    pub demos: Option<BTreeSet<String>>,
     pub wrapper: Option<bool>,
 }
 
@@ -77,6 +89,8 @@ pub struct Entry {
     pub discussion: Option<String>,
     pub deprecated: Option<bool>,
     pub resources: Option<Vec<Resource>>,
+    pub reviews: Option<BTreeSet<String>>,
+    pub demos: Option<BTreeSet<String>>,
     pub wrapper: Option<bool>,
 }
 
@@ -109,6 +123,8 @@ impl Entry {
             discussion: p.discussion,
             deprecated: p.deprecated,
             resources: p.resources,
+            reviews: p.reviews,
+            demos: p.demos,
             wrapper: p.wrapper,
         })
     }
@@ -167,6 +183,8 @@ pub struct ApiEntry {
     pub discussion: Option<String>,
     pub deprecated: Option<bool>,
     pub resources: Option<Vec<Resource>>,
+    pub reviews: Option<BTreeSet<String>>,
+    pub demos: Option<BTreeSet<String>>,
     pub wrapper: Option<bool>,
 }
 

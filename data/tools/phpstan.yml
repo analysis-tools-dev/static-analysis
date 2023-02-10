@@ -11,4 +11,6 @@ homepage: 'https://phpstan.org'
 resources:
   - title: Measure PHP Code Quality With Static Analysis Using PHPStan
     url: https://www.youtube.com/watch?v=OiS2xGVWEa0
+demos:
+  - https://phpstan.org/try
 description: PHP Static Analysis Tool - discover bugs in your code without running it!

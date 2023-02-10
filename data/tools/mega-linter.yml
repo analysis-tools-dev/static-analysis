@@ -64,13 +64,15 @@ tags:
 license: MIT License
 types:
   - cli
-source: 'https://github.com/nvuillam/mega-linter'
-homepage: 'https://nvuillam.github.io/mega-linter/'
+source: "https://github.com/nvuillam/mega-linter"
+homepage: "https://nvuillam.github.io/mega-linter/"
 description: >-
   Mega-Linter can handle any type of project thanks to its 70+ embedded Linters,
    its advanced reporting, runnable on any CI system or locally,
    with assisted installation and configuration, able to apply formatting and fixes
 resources:
+  - title: Hands on - Improving code standards with mega linter
+    url: https://www.youtube.com/watch?v=3xgTU1GhRvs
   - title: How Mega-linter works
     url: https://nvuillam.github.io/mega-linter/frequently-asked-questions/
   - title: List of Mega-Linter supported languages, formats and tooling formats

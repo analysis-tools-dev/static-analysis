@@ -42,3 +42,7 @@ description: >-
   Its rules look like the code you already write; 
   no abstract syntax trees or regex wrestling.
   Supports 17+ languages.
+reviews:
+  - https://stackshare.io/semgrep
+demos:
+  - https://semgrep.dev/playground
