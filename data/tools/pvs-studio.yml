@@ -23,3 +23,6 @@ resources:
 - title: Static Analysis in C++ (mostly about PVS-Studio)
   url: https://www.youtube.com/watch?v=vYW6TOwFK2M
 pricing: https://pvs-studio.com/en/order/license/
+reviews:
+  - https://www.gartner.com/reviews/market/application-security-testing/vendor/pvs-studio/product/pvs-studio
+  - https://www.g2.com/products/pvs-studio/reviews

@@ -17,3 +17,7 @@ resources:
     url: https://www.youtube.com/watch?v=qUpfUenwUPA
   - title: A flake8 plugin from scratch (intermediate)
     url: https://www.youtube.com/watch?v=ot5Z4KQPBL8
+demo:
+  - https://aperezhortal.github.io/flake8-dashboard/example_dashboard/index.html
+reviews:
+  - https://www.slant.co/options/12632/~flake8-review

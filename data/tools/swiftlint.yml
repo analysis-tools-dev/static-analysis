@@ -6,6 +6,14 @@ tags:
 license: MIT License
 types:
   - cli
-source: 'https://github.com/realm/SwiftLint'
-homepage: 'https://realm.github.io/SwiftLint'
+  - ide-plugin
+source: "https://github.com/realm/SwiftLint"
+homepage: "https://realm.github.io/SwiftLint"
 description: A tool to enforce Swift style and conventions.
+resources:
+  - title: "Mastering SwiftLint for Code Readability"
+    url: "https://www.youtube.com/watch?v=4YQ6DJ-xovY"
+  - title: "The Road to Cleaner Code w/ SwiftLint"
+    url: https://academy.realm.io/posts/slug-jp-simard-swiftlint/
+reviews:
+  - https://plugins.jetbrains.com/plugin/9175-swiftlint

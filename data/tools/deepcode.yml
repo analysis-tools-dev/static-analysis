@@ -14,4 +14,8 @@ types:
 homepage: https://www.deepcode.ai
 description: >-
   DeepCode was acquired by Snyk is now Snyk Code.
-
+resources:
+  - title: Intro to DeepCode
+    url: https://www.youtube.com/watch?v=5ThvYN3nWcg
+  - title: "Introduction to DeepCode's CLI - Install, config, first use"
+    url: https://www.youtube.com/watch?v=PG8PmrKEuLY
