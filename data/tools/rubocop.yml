@@ -12,3 +12,5 @@ resources:
   - title: Ruby Code Linting with RuboCop
     url: https://www.youtube.com/watch?v=sfOGjcMVQ9U
 description: 'A Ruby static code analyzer, based on the community Ruby style guide.'
+reviews:
+  - https://stackshare.io/rubocop

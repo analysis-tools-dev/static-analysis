@@ -16,3 +16,9 @@ resources:
     url: https://www.youtube.com/watch?v=h3PJjP0nE98
   - title: VSCode ESLint, Prettier & Airbnb Style Guide Setup
     url: https://www.youtube.com/watch?v=SydnKbGc7W8
+demos:
+  - https://prettier.io/playground
+reviews:
+  - https://plugins.jetbrains.com/plugin/10456-prettier/reviews
+  - https://www.producthunt.com/products/prettier/reviews
+  - https://stackshare.io/prettier

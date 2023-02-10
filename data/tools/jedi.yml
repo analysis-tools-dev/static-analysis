@@ -9,3 +9,6 @@ types:
 source: 'https://github.com/davidhalter/jedi'
 homepage: 'https://jedi.readthedocs.io/en/latest'
 description: Autocompletion/static analysis library for Python.
+resources:
+  - title: Choosing an Autocomplete for Python
+    url: https://www.youtube.com/watch?v=Qa-5mYCqPto

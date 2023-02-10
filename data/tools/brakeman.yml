@@ -7,8 +7,11 @@ tags:
 license: Other
 types:
   - cli
-source: 'https://github.com/presidentbeef/brakeman'
-homepage: 'https://brakemanscanner.org'
+source: "https://github.com/presidentbeef/brakeman"
+homepage: "https://brakemanscanner.org"
 description: >-
   A static analysis security vulnerability scanner for Ruby on Rails
   applications.
+resources:
+  - title: "Brakeman: A Security Scanner for Ruby on Rails"
+    url: https://www.youtube.com/watch?v=pTUlPq4glOg

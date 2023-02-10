@@ -950,7 +950,12 @@
     "description": "A tool to find common security issues in Python code.",
     "discussion": null,
     "deprecated": null,
-    "resources": null,
+    "resources": [
+      {
+        "title": "Code security with Bandit and Safety — Perfect Python",
+        "url": "https://www.youtube.com/watch?v=YZOKnvisJpw"
+      }
+    ],
     "reviews": null,
     "demos": null,
     "wrapper": null
@@ -1329,7 +1334,12 @@
     "description": "A static analysis security vulnerability scanner for Ruby on Rails applications.",
     "discussion": null,
     "deprecated": null,
-    "resources": null,
+    "resources": [
+      {
+        "title": "Brakeman: A Security Scanner for Ruby on Rails",
+        "url": "https://www.youtube.com/watch?v=pTUlPq4glOg"
+      }
+    ],
     "reviews": null,
     "demos": null,
     "wrapper": null
@@ -1544,7 +1554,16 @@
     "description": "Audit Cargo.lock for crates with security vulnerabilities reported to the [RustSec Advisory Database](https://github.com/RustSec/advisory-db/).",
     "discussion": null,
     "deprecated": null,
-    "resources": null,
+    "resources": [
+      {
+        "title": "Keep your Users Safe and Scan Your Rust Dependencies With This Tool",
+        "url": "https://www.youtube.com/watch?v=V8RfQ0uihzE"
+      },
+      {
+        "title": "How to audit Rust code in 4 minutes!",
+        "url": "https://www.youtube.com/watch?v=w2Co88TzrsQ"
+      }
+    ],
     "reviews": null,
     "demos": null,
     "wrapper": null
@@ -2442,7 +2461,9 @@
       }
     ],
     "reviews": null,
-    "demos": null,
+    "demos": [
+      "https://play.rust-lang.org"
+    ],
     "wrapper": null
   },
   "clj-kondo": {
@@ -3825,7 +3846,11 @@
         "url": "https://www.youtube.com/watch?v=zo1pCl6yQ34"
       }
     ],
-    "reviews": null,
+    "reviews": [
+      "https://www.g2.com/products/coverity/reviews",
+      "https://www.gartner.com/reviews/market/application-security-testing/vendor/synopsys/product/coverity-sast",
+      "https://www.peerspot.com/products/coverity-reviews"
+    ],
     "demos": null,
     "wrapper": null
   },
@@ -3919,10 +3944,19 @@
       {
         "title": "Cppcheck introduction",
         "url": "https://www.viva64.com/en/t/0083/"
+      },
+      {
+        "title": "Using cppcheck for C & C++ Static Analysis",
+        "url": "https://www.youtube.com/watch?v=oJ8SXVoefaA"
       }
     ],
-    "reviews": null,
-    "demos": null,
+    "reviews": [
+      "https://sourceforge.net/projects/cppcheck/reviews/"
+    ],
+    "demos": [
+      "https://cppcheck.sourceforge.io/demo/",
+      "https://www.g2.com/products/cppcheck/reviews"
+    ],
     "wrapper": null
   },
   "cppdepend": {
@@ -4531,7 +4565,16 @@
     "description": "DeepCode was acquired by Snyk is now Snyk Code.",
     "discussion": null,
     "deprecated": null,
-    "resources": null,
+    "resources": [
+      {
+        "title": "Intro to DeepCode",
+        "url": "https://www.youtube.com/watch?v=5ThvYN3nWcg"
+      },
+      {
+        "title": "Introduction to DeepCode's CLI - Install, config, first use",
+        "url": "https://www.youtube.com/watch?v=PG8PmrKEuLY"
+      }
+    ],
     "reviews": null,
     "demos": null,
     "wrapper": null
@@ -6171,7 +6214,9 @@
         "url": "https://www.youtube.com/watch?v=ot5Z4KQPBL8"
       }
     ],
-    "reviews": null,
+    "reviews": [
+      "https://www.slant.co/options/12632/~flake8-review"
+    ],
     "demos": null,
     "wrapper": null
   },
@@ -8599,7 +8644,12 @@
     "description": "Autocompletion/static analysis library for Python.",
     "discussion": null,
     "deprecated": null,
-    "resources": null,
+    "resources": [
+      {
+        "title": "Choosing an Autocomplete for Python",
+        "url": "https://www.youtube.com/watch?v=Qa-5mYCqPto"
+      }
+    ],
     "reviews": null,
     "demos": null,
     "wrapper": null
@@ -12581,8 +12631,14 @@
         "url": "https://www.youtube.com/watch?v=SydnKbGc7W8"
       }
     ],
-    "reviews": null,
-    "demos": null,
+    "reviews": [
+      "https://plugins.jetbrains.com/plugin/10456-prettier/reviews",
+      "https://stackshare.io/prettier",
+      "https://www.producthunt.com/products/prettier/reviews"
+    ],
+    "demos": [
+      "https://prettier.io/playground"
+    ],
     "wrapper": null
   },
   "primitive-erlang-security-tool-pest": {
@@ -13090,7 +13146,10 @@
         "url": "https://www.youtube.com/watch?v=vYW6TOwFK2M"
       }
     ],
-    "reviews": null,
+    "reviews": [
+      "https://www.g2.com/products/pvs-studio/reviews",
+      "https://www.gartner.com/reviews/market/application-security-testing/vendor/pvs-studio/product/pvs-studio"
+    ],
     "demos": null,
     "wrapper": null
   },
@@ -14417,7 +14476,9 @@
         "url": "https://www.youtube.com/watch?v=sfOGjcMVQ9U"
       }
     ],
-    "reviews": null,
+    "reviews": [
+      "https://stackshare.io/rubocop"
+    ],
     "demos": null,
     "wrapper": null
   },
@@ -15910,7 +15971,8 @@
       }
     ],
     "reviews": [
-      "https://www.capterra.com/p/210481/SonarQube/"
+      "https://www.capterra.com/p/210481/SonarQube/",
+      "https://www.peerspot.com/products/sonarqube-reviews"
     ],
     "demos": [
       "https://next.sonarqube.com/sonarqube/projects"
@@ -16932,7 +16994,8 @@
       "MIT License"
     ],
     "types": [
-      "cli"
+      "cli",
+      "ide-plugin"
     ],
     "homepage": "https://realm.github.io/SwiftLint",
     "source": "https://github.com/realm/SwiftLint",
@@ -16941,8 +17004,19 @@
     "description": "A tool to enforce Swift style and conventions.",
     "discussion": null,
     "deprecated": null,
-    "resources": null,
-    "reviews": null,
+    "resources": [
+      {
+        "title": "Mastering SwiftLint for Code Readability",
+        "url": "https://www.youtube.com/watch?v=4YQ6DJ-xovY"
+      },
+      {
+        "title": "The Road to Cleaner Code w/ SwiftLint",
+        "url": "https://academy.realm.io/posts/slug-jp-simard-swiftlint/"
+      }
+    ],
+    "reviews": [
+      "https://plugins.jetbrains.com/plugin/9175-swiftlint"
+    ],
     "demos": null,
     "wrapper": null
   },
@@ -18345,7 +18419,9 @@
         "url": "https://www.youtube.com/watch?v=CacOX9ytugc"
       }
     ],
-    "reviews": null,
+    "reviews": [
+      "https://www.peerspot.com/products/veracode-reviews"
+    ],
     "demos": null,
     "wrapper": null
   },

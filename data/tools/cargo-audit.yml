@@ -6,8 +6,13 @@ tags:
 license: Other
 types:
   - cli
-source: 'https://github.com/RustSec/cargo-audit'
-homepage: 'https://rustsec.org'
+source: "https://github.com/RustSec/cargo-audit"
+homepage: "https://rustsec.org"
+resources:
+  - title: "Keep your Users Safe and Scan Your Rust Dependencies With This Tool"
+    url: https://www.youtube.com/watch?v=V8RfQ0uihzE
+  - title: "How to audit Rust code in 4 minutes!"
+    url: https://www.youtube.com/watch?v=w2Co88TzrsQ
 description: >-
   Audit Cargo.lock for crates with security vulnerabilities reported to the
   [RustSec Advisory Database](https://github.com/RustSec/advisory-db/).
