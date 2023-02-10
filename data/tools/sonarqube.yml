@@ -27,3 +27,7 @@ resources:
     url: https://www.youtube.com/watch?v=WPHVPbxCAwE
   - title: Write cleaner, safer Python code with SonarQube
     url: https://www.youtube.com/watch?v=ow-yuIlCuHk
+demos:
+  - https://next.sonarqube.com/sonarqube/projects
+reviews:
+  - https://www.capterra.com/p/210481/SonarQube/

@@ -11,6 +11,11 @@ types:
 source: "https://github.com/eslint/eslint"
 homepage: "https://github.com/eslint/eslint"
 description: An extensible linter for JS, following the ECMAScript standard.
+reviews:
+  - https://stackshare.io/eslint
+  - https://openbase.com/js/eslint/reviews
+demos:
+  - https://eslint.org/play/
 resources:
   - title: ESLint Tutorial with VSCode
     url: https://www.youtube.com/watch?v=fslNny60HzI

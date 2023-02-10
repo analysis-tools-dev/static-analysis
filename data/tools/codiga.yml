@@ -32,3 +32,5 @@ resources:
 plans:
   free: true
   oss: false
+reviews:
+  - https://www.capterra.com/p/234335/Codiga/
