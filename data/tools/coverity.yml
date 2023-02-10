@@ -29,3 +29,7 @@ resources:
     url: https://www.youtube.com/watch?v=FZ-ySGEcD0c
   - title: Checkmarx - Source Code Analysis Made Easy 2017
     url: https://www.youtube.com/watch?v=zo1pCl6yQ34
+reviews:
+  - https://www.gartner.com/reviews/market/application-security-testing/vendor/synopsys/product/coverity-sast
+  - https://www.g2.com/products/coverity/reviews
+  - https://www.peerspot.com/products/coverity-reviews

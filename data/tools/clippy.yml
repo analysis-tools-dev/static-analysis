@@ -6,8 +6,10 @@ tags:
 license: Other
 types:
   - cli
-source: 'https://github.com/rust-lang/rust-clippy'
-homepage: 'https://rust-lang.github.io/rust-clippy'
+source: "https://github.com/rust-lang/rust-clippy"
+homepage: "https://rust-lang.github.io/rust-clippy"
+demos:
+  - https://play.rust-lang.org
 resources:
   - title: Rust For Beginners Tutorial - Linting with Clippy
     url: https://www.youtube.com/watch?v=BE9KY6X7aUM

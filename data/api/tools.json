@@ -950,7 +950,12 @@
     "description": "A tool to find common security issues in Python code.",
     "discussion": null,
     "deprecated": null,
-    "resources": null,
+    "resources": [
+      {
+        "title": "Code security with Bandit and Safety — Perfect Python",
+        "url": "https://www.youtube.com/watch?v=YZOKnvisJpw"
+      }
+    ],
     "reviews": null,
     "demos": null,
     "wrapper": null
@@ -1329,7 +1334,12 @@
     "description": "A static analysis security vulnerability scanner for Ruby on Rails applications.",
     "discussion": null,
     "deprecated": null,
-    "resources": null,
+    "resources": [
+      {
+        "title": "Brakeman: A Security Scanner for Ruby on Rails",
+        "url": "https://www.youtube.com/watch?v=pTUlPq4glOg"
+      }
+    ],
     "reviews": null,
     "demos": null,
     "wrapper": null
@@ -1544,7 +1554,16 @@
     "description": "Audit Cargo.lock for crates with security vulnerabilities reported to the [RustSec Advisory Database](https://github.com/RustSec/advisory-db/).",
     "discussion": null,
     "deprecated": null,
-    "resources": null,
+    "resources": [
+      {
+        "title": "Keep your Users Safe and Scan Your Rust Dependencies With This Tool",
+        "url": "https://www.youtube.com/watch?v=V8RfQ0uihzE"
+      },
+      {
+        "title": "How to audit Rust code in 4 minutes!",
+        "url": "https://www.youtube.com/watch?v=w2Co88TzrsQ"
+      }
+    ],
     "reviews": null,
     "demos": null,
     "wrapper": null
@@ -2442,7 +2461,9 @@
       }
     ],
     "reviews": null,
-    "demos": null,
+    "demos": [
+      "https://play.rust-lang.org"
+    ],
     "wrapper": null
   },
   "clj-kondo": {
@@ -3919,10 +3940,19 @@
       {
         "title": "Cppcheck introduction",
         "url": "https://www.viva64.com/en/t/0083/"
+      },
+      {
+        "title": "Using cppcheck for C & C++ Static Analysis",
+        "url": "https://www.youtube.com/watch?v=oJ8SXVoefaA"
       }
     ],
-    "reviews": null,
-    "demos": null,
+    "reviews": [
+      "https://sourceforge.net/projects/cppcheck/reviews/"
+    ],
+    "demos": [
+      "https://cppcheck.sourceforge.io/demo/",
+      "https://www.g2.com/products/cppcheck/reviews"
+    ],
     "wrapper": null
   },
   "cppdepend": {
@@ -12839,7 +12869,9 @@
       }
     ],
     "reviews": null,
-    "demos": null,
+    "demos": [
+      "https://psalm.dev/r/dcb13e702f"
+    ],
     "wrapper": null
   },
   "pt-application-inspector": {

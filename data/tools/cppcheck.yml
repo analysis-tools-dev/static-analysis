@@ -7,9 +7,16 @@ tags:
 license: GNU General Public License v3.0
 types:
   - cli
-source: 'https://github.com/danmar/cppcheck'
-homepage: 'http://cppcheck.sourceforge.net'
+source: "https://github.com/danmar/cppcheck"
+homepage: "http://cppcheck.sourceforge.net"
 description: Static analysis of C/C++ code.
+demos:
+  - https://cppcheck.sourceforge.io/demo/
+  - https://www.g2.com/products/cppcheck/reviews
+reviews:
+  - https://sourceforge.net/projects/cppcheck/reviews/
 resources:
   - title: Cppcheck introduction
     url: https://www.viva64.com/en/t/0083/
+  - title: "Using cppcheck for C & C++ Static Analysis"
+    url: https://www.youtube.com/watch?v=oJ8SXVoefaA
