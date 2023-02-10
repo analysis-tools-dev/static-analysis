@@ -44,3 +44,5 @@ description: >-
   Supports 17+ languages.
 reviews:
   - https://stackshare.io/semgrep
+demos:
+  - https://semgrep.dev/playground

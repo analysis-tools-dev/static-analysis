@@ -1157,8 +1157,12 @@
         "url": "https://www.youtube.com/watch?v=esZLCuWs_2Y"
       }
     ],
-    "reviews": null,
-    "demos": null,
+    "reviews": [
+      "https://luminousmen.com/post/my-unpopular-opinion-about-black-code-formatter"
+    ],
+    "demos": [
+      "https://black.vercel.app/"
+    ],
     "wrapper": null
   },
   "black-duck": {
@@ -10045,6 +10049,10 @@
     "deprecated": null,
     "resources": [
       {
+        "title": "Hands on - Improving code standards with mega linter",
+        "url": "https://www.youtube.com/watch?v=3xgTU1GhRvs"
+      },
+      {
         "title": "How Mega-linter works",
         "url": "https://nvuillam.github.io/mega-linter/frequently-asked-questions/"
       },
@@ -10344,7 +10352,9 @@
       }
     ],
     "reviews": null,
-    "demos": null,
+    "demos": [
+      "https://mypy-lang.org/examples.html"
+    ],
     "wrapper": null
   },
   "mythril": {
@@ -12218,7 +12228,9 @@
       }
     ],
     "reviews": null,
-    "demos": null,
+    "demos": [
+      "https://phpstan.org/try"
+    ],
     "wrapper": null
   },
   "plato": {
@@ -15171,7 +15183,9 @@
     "reviews": [
       "https://stackshare.io/semgrep"
     ],
-    "demos": null,
+    "demos": [
+      "https://semgrep.dev/playground"
+    ],
     "wrapper": null
   },
   "semgrep-supply-chain": {
