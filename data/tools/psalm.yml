@@ -11,4 +11,6 @@ homepage: 'https://psalm.dev'
 resources:
   - title: Try it Tuesday - PHP Static Analysis Tool Psalm
     url: https://www.youtube.com/watch?v=ZxXw5Fkp9R8
+demos:
+  - https://psalm.dev/r/dcb13e702f
 description: Static analysis tool for finding type errors in PHP applications.
