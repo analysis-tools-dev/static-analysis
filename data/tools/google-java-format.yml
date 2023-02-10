@@ -6,6 +6,8 @@ tags:
 license: Apache License 2.0
 types:
   - cli
-source: 'https://github.com/google/google-java-format'
-homepage: 'https://github.com/google/google-java-format'
-description: Google Style Reformat.
+  - ide-plugin
+source: "https://github.com/google/google-java-format"
+homepage: "https://github.com/google/google-java-format"
+description: >-
+  Reformats Java source code to comply with Google Java Style
