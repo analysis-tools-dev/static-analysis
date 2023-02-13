@@ -5,6 +5,8 @@ tags:
   - c
   - cpp
   - ci
+  - embedded
+  - ocaml
 license: proprietary
 types:
   - cli
