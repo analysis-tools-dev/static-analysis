@@ -1,0 +1,30 @@
+name: TrustInSoft Analyzer
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - ci
+license: proprietary
+types:
+  - cli
+homepage: 'https://trust-in-soft.com'
+description: >-
+  Exhaustive detection of coding errors and their associated security vulnerabilities.
+  This encompasses a sound undefined behavior detection (buffer overflows,
+  out-of-bounds array accesses, null-pointer dereferences, use-after-free, divide-by-zeros,
+  uninitialized memory accesses, signed overflows, invalid pointer arithmetic, etc.),
+  data flow and control flow verification as well as full functional verification of formal
+  specifications. All versions of C up to C18 and C++ up to C++20 are supported.
+  TrustInSoft Analyzer will acquire ISO 26262 qualification in Q2'2023 (TCL3).
+  A MISRA C checker is also bundled.
+resources:
+  - title: TrustInSoft blog
+    url: https://trust-in-soft.com/resources/news/
+  - title: TrustInSoft white papers
+    url: https://trust-in-soft.com/resources/news/?_types=white-papers
+demos:
+  - https://github.com/TrustInSoft/demos
+  - https://github.com/TrustInSoft/jenkins-demos
+reviews:
+  - https://www.gartner.com/reviews/market/application-security-testing/vendor/trustinsoft/reviews
