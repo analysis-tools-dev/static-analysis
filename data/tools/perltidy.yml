@@ -1,0 +1,21 @@
+name: perltidy
+tags:
+  - perl
+categories:
+  - formatter
+license: GPL-2.0 license
+types:
+  - cli
+source: "https://github.com/perltidy/perltidy"
+homepage: "https://perltidy.sourceforge.net/"
+description: >-
+  Perltidy is a Perl script which indents and reformats Perl scripts to make
+  them easier to read. 
+
+  The formatting can be controlled with command line parameters. The default
+  parameter settings approximately follow the suggestions in the Perl Style
+  Guide. 
+
+  Besides reformatting scripts, Perltidy can be a great help in tracking down
+  errors with missing or extra braces, parentheses, and square brackets because
+  it is very good at localizing errors.
