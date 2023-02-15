@@ -1,0 +1,78 @@
+name: StaticReviewer
+categories:
+  - linter
+tags:
+  - C#
+  - Vb.NET
+  - VB6
+  - ASP
+  - ASPX
+  - Java
+  - JSP
+  - JavaScript
+  - TypeScript
+  - eScript
+  - Svelte
+  - APEX
+  - Java Server Faces
+  - python
+  - R
+  - GO
+  - Kotlin
+  - Clojure
+  - Groovy
+  - Flex
+  - ActionScript
+  - PowerShell
+  - Rust
+  - LUA
+  - Auto-IT
+  - HTML5
+  - XML
+  - XPath
+  - C
+  - C++
+  - PHP
+  - SCALA
+  - Objective-C
+  - Objective-C++
+  - SWIFT
+  - IBM Streams Processing Language
+  - Shell
+  - BPMN
+  - BPEL
+  - UiPath
+  - SAIL
+  - COBOL
+  - JCL
+  - RPG
+  - PL/I
+  - ABAP
+  - SAP-HANA
+  - PL/SQL
+  - T/SQL
+  - U-SQL
+  - Teradata SQL
+  - SAS-SQL
+  - ANSI SQL
+  - IBM DB2
+  - IBM Informix
+  - SAP Sybase
+  - HP Vertica
+  - MySQL
+  - FireBird
+  - PostGreSQL
+  - SQLite
+  - MongoDB
+  - HQL
+  license: proprietary
+types:
+  - desktop
+  - cli
+  - service
+homepage: >-
+  https://securityreviewer.atlassian.net/wiki/spaces/KC/pages/196633/Static+Reviewer
+description: >-
+  Static Reviewer executes code checks according to the most relevant Secure Coding Standards, OWASP, CWE, CVE, CVSS, MISRA, CERT,
+  for 40+ programming languages, using 1000+ built-in validation rules for Security, Deadcode, 
+  Available a module for Software Composition Analysis (SCA) to find vulnerabilities in open source and third party libraries
