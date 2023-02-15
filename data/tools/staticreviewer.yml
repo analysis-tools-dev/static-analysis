@@ -7,10 +7,10 @@ tags:
   - asp
   - aspnet
   - java
-  - javaScript
+  - javascript
   - jsp
   - json
-  - typeScript
+  - typescript
   - apex
   - python
   - r
@@ -18,13 +18,11 @@ tags:
   - kotlin
   - clojure
   - groovy
-  - flex
   - actionscript
   - powershell
   - rust
   - lua
   - xml
-  - xpath
   - c
   - cpp
   - php
@@ -32,17 +30,12 @@ tags:
   - objectivec
   - swift
   - shell
-  - uipath
-  - sail
   - cobol
-  - jcl
-  - rpg
   - plsql
   - vba
   - abap
   - sql
   - tsql
-  - hql
 license: proprietary
 types:
   - desktop
