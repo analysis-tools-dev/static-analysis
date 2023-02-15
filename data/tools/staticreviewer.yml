@@ -2,53 +2,50 @@ name: StaticReviewer
 categories:
   - linter
 tags:
-  - C#
-  - Vb.NET
+  - csharp
+  - vbnet
   - VB6
-  - ASP
-  - ASPX
-  - Java
-  - JavaScript
-  - TypeScript
-  - eScript
-  - Svelte
-  - APEX
+  - asp
+  - aspnet
+  - java
+  - javaScript
+  - jsp
+  - json
+  - typeScript
+  - escript
+  - svelte
+  - aPEX
   - python
-  - R
-  - GO
-  - Kotlin
-  - Clojure
-  - Groovy
-  - Flex
-  - ActionScript
-  - PowerShell
-  - Rust
-  - LUA
-  - XML
-  - XPath
-  - C
-  - C++
-  - PHP
-  - SCALA
-  - Objective-C
-  - SWIFT
-  - IBM Streams Processing Language
-  - Shell
-  - BPMN
-  - BPEL
-  - UiPath
-  - SAIL
-  - COBOL
-  - JCL
-  - RPG
-  - PL/I
-  - ABAP
-  - SAP-HANA
-  - SQL
-  - IBM DB2
-  - IBM Informix
-  - SAP Sybase
-  - HQL
+  - r
+  - go
+  - kotlin
+  - clojure
+  - groovy
+  - flex
+  - actionscript
+  - powershell
+  - rust
+  - lua
+  - xml
+  - xpath
+  - c
+  - cpp
+  - php
+  - scala
+  - objectivec
+  - swift
+  - shell
+  - uipath
+  - sail
+  - cobol
+  - jcl
+  - rpg
+  - plsql
+  - vba
+  - abap
+  - sql
+  - tsql
+  - hql
 license: proprietary
 types:
   - desktop
