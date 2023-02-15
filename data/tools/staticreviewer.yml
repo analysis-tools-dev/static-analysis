@@ -49,7 +49,7 @@ tags:
   - IBM Informix
   - SAP Sybase
   - HQL
-  license: proprietary
+license: proprietary
 types:
   - desktop
   - cli
@@ -58,4 +58,4 @@ homepage: >-
 description: >-
   Static Reviewer executes code checks according to the most relevant Secure Coding Standards, OWASP, CWE, CVE, CVSS, MISRA, CERT,
   for 40+ programming languages, using 1000+ built-in validation rules for Security, Deadcode & Best Practices
-  Available a module for Software Composition Analysis (SCA) to find vulnerabilities in open source and third party libraries
+  Available a module for Software Composition Analysis (SCA) to find vulnerabilities in open source and third party libraries.
