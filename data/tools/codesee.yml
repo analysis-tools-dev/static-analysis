@@ -1,0 +1,25 @@
+name: CodeSee
+categories:
+  - linter
+tags:
+  - go
+  - java
+  - javascript
+  - python
+  - rust
+  - typescript
+license: proprietary
+types:
+  - service 
+  - ide-plugin
+homepage: 'https://www.codesee.io/'
+demos:
+  - https://www.codesee.io/maps-demos
+pricing: https://www.codesee.io/pricing
+plans:
+  free: true
+  oss: false
+description: >-
+  CodeSee is mapping and automating your app's services, directories, file
+  dependencies, and code changes. It's like Google Map, but for code.t
+
