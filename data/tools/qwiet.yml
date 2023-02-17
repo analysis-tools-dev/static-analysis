@@ -1,4 +1,4 @@
-name: ShiftLeft
+name: Qwiet AI
 categories:
 - linter
 tags:
@@ -14,12 +14,12 @@ tags:
 license: proprietary
 types:
 - service
-homepage: https://www.shiftleft.io
+homepage: https://qwiet.ai/
 description: >-
-  Identify vulnerabilities that are unique to your code base before they reach production.
-  Leverages the Code Property Graph (CPG) to run its analyses concurrently in a single
-  graph of graphs. Automatically finds business logic flaws in dev like hardcoded
-  secrets and logic bombs
+  Identify vulnerabilities that are unique to your code base before they reach
+  production. Leverages the Code Property Graph (CPG) to run its analyses
+  concurrently in a single graph of graphs. Automatically finds business logic
+  flaws in dev like hardcoded secrets and logic bombs
 resources:
 - title: Securing Every Pull Request with ShiftLeft
   url: https://vimeo.com/383381584
