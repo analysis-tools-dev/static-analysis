@@ -602,7 +602,7 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 <h2 id="javascript">JavaScript</h2>
 
 
-- [aether](http://aetherjs.com) :warning: — Lint, analyze, normalize, transform, sandbox, run, step through, and visualize user JavaScript, in node or the browser.
+- [aether](http://aetherjs.com) — Lint, analyze, normalize, transform, sandbox, run, step through, and visualize user JavaScript, in node or the browser.
 
 - [Closure Compiler](https://developers.google.com/closure/compiler) — A compiler tool to increase efficiency, reduce size, and provide code warnings in JavaScript files.
 
@@ -836,7 +836,7 @@ It uses the pycodestyle utility to determine what parts of the code needs to be 
 
 - [bandit](https://bandit.readthedocs.io/en/latest) — A tool to find common security issues in Python code.
 
-- [bellybutton](https://github.com/hchasestevens/bellybutton) :warning: — A linting engine supporting custom project-specific rules.
+- [bellybutton](https://github.com/hchasestevens/bellybutton) — A linting engine supporting custom project-specific rules.
 
 - [Black](https://black.readthedocs.io/en/stable) — The uncompromising Python code formatter.
 
@@ -933,7 +933,7 @@ YAPF follows a distinctive methodology, originating from the 'clang-format' tool
 
 - [bundler-audit](https://github.com/rubysec/bundler-audit) — Audit Gemfile.lock for gems with security vulnerabilities reported in [Ruby Advisory Database](https://github.com/rubysec/ruby-advisory-db).
 
-- [cane](https://github.com/square/cane) :warning: — Code quality threshold checking as part of your build.
+- [cane](https://github.com/square/cane) — Code quality threshold checking as part of your build.
 
 - [Churn](https://github.com/danmayer/churn) — A Project to give the churn file, class, and method for a project for a given checkin. Over time the tool adds up the history of churns to give the number of times a file, class, or method is changing during the life of a project.
 
@@ -1177,7 +1177,7 @@ TSLint is an extensible static analysis tool that checks TypeScript code for rea
 
 - [ArchUnit](https://www.archunit.org) — Unit test your Java or Kotlin architecture.
 
-- [Atom-Beautify](https://atom.io/packages/atom-beautify) :warning: — Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom editor.
+- [Atom-Beautify](https://atom.io/packages/atom-beautify) — Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom editor.
 
 - [autocorrect](https://huacnlee.github.io/autocorrect) — A linter and formatter to help you to improve copywriting, correct spaces, words, punctuations between CJK (Chinese, Japanese, Korean).
 
@@ -1658,7 +1658,7 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 
 - [Angular ESLint](https://github.com/angular-eslint/angular-eslint#readme) — Linter for Angular projects
 
-- [Bootlint](https://github.com/twbs/bootlint) :warning: — An HTML linter for Bootstrap projects.
+- [Bootlint](https://github.com/twbs/bootlint) — An HTML linter for Bootstrap projects.
 
 - [ERB Lint](https://github.com/Shopify/erb-lint) — Lint your ERB or HTML files
 
@@ -1775,7 +1775,7 @@ It is inspired by, contains code from and is designed to stay close to [Kubeval]
 
 - [Android Lint](http://tools.android.com/tips/lint) — Run static analysis on Android projects.
 
-- [android-lint-summary](https://passy.github.io/android-lint-summary) :warning: — Combines lint errors of multiple projects into one output, check lint results of multiple sub-projects at once.
+- [android-lint-summary](https://passy.github.io/android-lint-summary) — Combines lint errors of multiple projects into one output, check lint results of multiple sub-projects at once.
 
 - [FlowDroid](https://github.com/secure-software-engineering/FlowDroid) — Static taint analysis tool for Android applications.
 
