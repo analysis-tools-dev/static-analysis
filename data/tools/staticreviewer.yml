@@ -1,0 +1,48 @@
+name: StaticReviewer
+categories:
+  - linter
+tags:
+  - csharp
+  - vbnet
+  - asp
+  - aspnet
+  - java
+  - javascript
+  - jsp
+  - json
+  - typescript
+  - apex
+  - python
+  - r
+  - go
+  - kotlin
+  - clojure
+  - groovy
+  - actionscript
+  - powershell
+  - rust
+  - lua
+  - xml
+  - c
+  - cpp
+  - php
+  - scala
+  - objectivec
+  - swift
+  - shell
+  - cobol
+  - plsql
+  - vba
+  - abap
+  - sql
+  - tsql
+license: proprietary
+types:
+  - desktop
+  - cli
+homepage: >-
+  https://securityreviewer.atlassian.net/wiki/spaces/KC/pages/196633/Static+Reviewer
+description: >-
+  Static Reviewer executes code checks according to the most relevant Secure Coding Standards, OWASP, CWE, CVE, CVSS, MISRA, CERT,
+  for 40+ programming languages, using 1000+ built-in validation rules for Security, Deadcode & Best Practices
+  Available a module for Software Composition Analysis (SCA) to find vulnerabilities in open source and third party libraries.
