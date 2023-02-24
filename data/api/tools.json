@@ -771,8 +771,8 @@
   "autocorrect": {
     "name": "autocorrect",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "csharp",
@@ -2374,7 +2374,7 @@
   "clayton": {
     "name": "Clayton",
     "categories": [
-      "foo"
+      "linter"
     ],
     "languages": [
       "apex",
@@ -5151,8 +5151,8 @@
   "diktat": {
     "name": "diktat",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "kotlin"
@@ -7174,8 +7174,8 @@
   "gofmt-s": {
     "name": "gofmt -s",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "go"
@@ -9044,8 +9044,8 @@
   "ktlint": {
     "name": "ktlint",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "kotlin"
@@ -13638,6 +13638,38 @@
     "demos": null,
     "wrapper": null
   },
+  "pyupgrade": {
+    "name": "pyupgrade",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "python"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://pypi.org/project/pyupgrade-docs/",
+    "source": "https://github.com/asottile/pyupgrade",
+    "pricing": null,
+    "plans": null,
+    "description": "A tool (and pre-commit hook) to automatically upgrade syntax for newer versions of the language.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Python linter comparision 2022.",
+        "url": "https://inventwithpython.com/blog/2022/11/19/python-linter-comparison-2022-pylint-vs-pyflakes-vs-flake8-vs-autopep8-vs-bandit-vs-prospector-vs-pylama-vs-pyroma-vs-black-vs-mypy-vs-radon-vs-mccabe/"
+      }
+    ],
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "qafoo-quality-analyzer": {
     "name": "Qafoo Quality Analyzer",
     "categories": [
@@ -13962,7 +13994,7 @@
   "redex": {
     "name": "redex",
     "categories": [
-      "optimizer"
+      "linter"
     ],
     "languages": [],
     "other": [
@@ -16433,8 +16465,8 @@
   "sqlfluff": {
     "name": "SQLFluff",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "sql"
@@ -16887,8 +16919,8 @@
   "structslop": {
     "name": "structslop",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "go"
@@ -17772,8 +17804,8 @@
   "trunk": {
     "name": "trunk",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "c",
@@ -18395,8 +18427,8 @@
   "unimport": {
     "name": "unimport",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [
       "python"
@@ -18697,8 +18729,8 @@
   "vetur": {
     "name": "Vetur",
     "categories": [
-      "formatter",
-      "linter"
+      "linter",
+      "formatter"
     ],
     "languages": [],
     "other": [
