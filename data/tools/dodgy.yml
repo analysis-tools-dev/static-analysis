@@ -1,0 +1,14 @@
+name: Dodgy
+categories:
+  - linter
+tags:
+  - python
+license: MIT License
+types:
+  - cli
+source: "https://github.com/landscapeio/dodgy"
+homepage: "https://github.com/landscapeio/dodgy"
+description: Dodgy is a very basic tool to run against your codebase to search for "dodgy" looking values. It is a series of simple regular expressions designed to detect things such as accidental SCM diff checkins, or passwords or secret keys hard coded into files.
+resources:
+  - title: "Python linters for better code quality"
+    url: https://smirnov-am.github.io/python-linters-for-better-code-quality/
