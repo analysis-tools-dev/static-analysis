@@ -1,0 +1,16 @@
+name: SafeQL
+categories:
+  - linter
+tags:
+  - javascript
+  - typescript
+  - sql
+license: MIT
+types:  
+  - cli
+source: 'https://github.com/ts-safeql/safeql'
+homepage: 'https://safeql.dev'
+description: >-
+    Validate and auto-generate TypeScript types from raw SQL queries in
+    PostgreSQL.
+    SafeQL is an ESLint plugin for writing SQL queries in a type-safe way.
