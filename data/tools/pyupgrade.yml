@@ -1,0 +1,14 @@
+name: pyupgrade
+categories:
+  - linter
+tags:
+  - python
+license: MIT License
+types:
+  - cli
+source: "https://github.com/asottile/pyupgrade"
+homepage: "https://pypi.org/project/pyupgrade-docs/"
+description: A tool (and pre-commit hook) to automatically upgrade syntax for newer versions of the language.
+resources:
+  - title: Python linter comparision 2022.
+    url: https://inventwithpython.com/blog/2022/11/19/python-linter-comparison-2022-pylint-vs-pyflakes-vs-flake8-vs-autopep8-vs-bandit-vs-prospector-vs-pylama-vs-pyroma-vs-black-vs-mypy-vs-radon-vs-mccabe/

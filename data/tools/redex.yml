@@ -1,14 +1,14 @@
 name: redex
 categories:
-  - optimizer
+  - linter
 tags:
   - mobile
 license: MIT License
 types:
   - cli
-source: 'https://github.com/facebook/redex'
-homepage: 'https://fbredex.com'
-description: >- 
+source: "https://github.com/facebook/redex"
+homepage: "https://fbredex.com"
+description: >-
   Redex provides a framework for reading, writing, and analyzing .dex files, and a set of optimization passes 
   that use this framework to improve the bytecode. An APK optimized by Redex should be smaller and faster.
 resources:
@@ -16,5 +16,5 @@ resources:
     url: https://www.youtube.com/watch?v=vtxJvJj6gSE
   - title: Optimizing Android bytecode with ReDex
     url: https://engineering.fb.com/android/optimizing-android-bytecode-with-redex/
-  - title: 
+  - title:
     url: https://www.youtube.com/watch?v=h_Gkl5eAdc4

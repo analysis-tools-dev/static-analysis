@@ -894,6 +894,8 @@ It uses the pycodestyle utility to determine what parts of the code needs to be 
 
 - [pytype](https://google.github.io/pytype) — A static type analyzer for Python code.
 
+- [pyupgrade](https://pypi.org/project/pyupgrade-docs/) — A tool (and pre-commit hook) to automatically upgrade syntax for newer versions of the language.
+
 - [QuantifiedCode](https://github.com/quantifiedcode/quantifiedcode) :warning: — Automated code review & repair. It helps you to keep track of issues and metrics in your software projects, and can be easily extended to support new types of analyses.
 
 - [radon](https://radon.readthedocs.io/en/latest) — A Python tool that computes various metrics from the source code.

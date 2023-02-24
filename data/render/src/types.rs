@@ -54,10 +54,21 @@ pub struct Demo {
     url: String,
 }
 
+#[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq, Hash, Ord, PartialOrd)]
+#[serde(rename = "category")]
+pub enum Category {
+    #[serde(rename = "linter")]
+    Linter,
+    #[serde(rename = "formatter")]
+    Formatter,
+    #[serde(rename = "meta")]
+    Meta,
+}
+
 #[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq)]
 pub struct ParsedEntry {
     pub name: String,
-    pub categories: BTreeSet<String>,
+    pub categories: BTreeSet<Category>,
     pub tags: BTreeSet<String>,
     pub license: String,
     pub types: BTreeSet<String>,
@@ -77,7 +88,7 @@ pub struct ParsedEntry {
 #[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq)]
 pub struct Entry {
     pub name: String,
-    pub categories: BTreeSet<String>,
+    pub categories: BTreeSet<Category>,
     pub tags: BTreeSet<Tag>,
     pub license: String,
     pub types: BTreeSet<String>,
@@ -170,7 +181,7 @@ pub struct Catalog {
 pub struct ApiEntry {
     /// The original entry name (not slugified)
     pub name: String,
-    pub categories: BTreeSet<String>,
+    pub categories: BTreeSet<Category>,
     pub languages: Vec<String>,
     pub other: Vec<String>,
     pub licenses: Vec<String>,
