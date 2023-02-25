@@ -6,6 +6,6 @@ tags:
 license: MIT License
 types:
   - cli
-source: 'https://github.com/PyCQA/autoflakee'
+source: 'https://github.com/PyCQA/autoflake'
 homepage: 'https://github.com/PyCQA/autoflake'
 description: Autoflake removes unused imports and unused variables from Python code.
