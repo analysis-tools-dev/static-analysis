@@ -163,7 +163,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="asm">Assembly</h2>
 
 
-- [STOKE](https://github.com/StanfordPL/stoke) :warning: — A programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations.
+- [STOKE](https://github.com/StanfordPL/stoke) — A programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations.
 
 
 <h2 id="awk">Awk</h2>
@@ -644,7 +644,7 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 
 - [tern](https://ternjs.net) — A JavaScript code analyzer for deep, cross-editor language support.
 
-- [TypL](https://typl.dev) :warning: — With TypL, you just write completely standard JS, and the tool figures out your types via powerful inferencing.
+- [TypL](https://typl.dev) — With TypL, you just write completely standard JS, and the tool figures out your types via powerful inferencing.
 
 - [xo](https://github.com/xojs/xo) — Opinionated but configurable ESLint wrapper with lots of goodies included. Enforces strict and readable code.
 
@@ -914,7 +914,7 @@ It uses the pycodestyle utility to determine what parts of the code needs to be 
 
 - [wily](https://github.com/tonybaloney/wily) — A command-line tool for archiving, exploring and graphing the complexity of Python source code.
 
-- [xenon](https://xenon.readthedocs.io) :warning: — Monitor code complexity using [`radon`](https://github.com/rubik/radon).
+- [xenon](https://xenon.readthedocs.io) — Monitor code complexity using [`radon`](https://github.com/rubik/radon).
 
 - [yapf](https://github.com/google/yapf) — A formatter for Python files created by Google
 YAPF follows a distinctive methodology, originating from the 'clang-format' tool created by Daniel Jasper. Essentially, the program reframes the code to the most suitable formatting that abides by the style guide, even if the original code already follows the style guide. This concept is similar to the Go programming language's 'gofmt' tool, which aims to put an end to debates about formatting by having the entire codebase of a project pass through YAPF whenever changes are made, thereby maintaining a consistent style throughout the project and eliminating the need to argue about style in every code review.
@@ -1070,7 +1070,7 @@ It removes a feature of a dependency and then compiles the project to see if it 
 
 - [tsqllint](https://github.com/tsqllint/tsqllint) — T-SQL-specific linter.
 
-- [TSqlRules](https://github.com/ashleyglee/TSqlRules) :warning: — TSQL Static Code Analysis Rules for SQL Server.
+- [TSqlRules](https://github.com/ashleyglee/TSqlRules) — TSQL Static Code Analysis Rules for SQL Server.
 
 - [Visual Expert](https://www.visual-expert.com) :copyright: — Code analysis for PowerBuilder, Oracle, and SQL Server Explores, analyzes, and documents Code 
 
@@ -1404,7 +1404,7 @@ TSLint is an extensible static analysis tool that checks TypeScript code for rea
 
 - [Understand](https://www.scitools.com) :copyright: — Code visualization tool that provides code analysis, standards testing, metrics, graphing, dependency analysis and more for Ada, VHDL, and others.
 
-- [Unibeautify](https://unibeautify.com) :warning: — Universal code beautifier with a GitHub app. Supports HTML, CSS, JavaScript, TypeScript, JSX, Vue, C++, Go, Objective-C, Java, Python, PHP, GraphQL, Markdown, and more.
+- [Unibeautify](https://unibeautify.com) — Universal code beautifier with a GitHub app. Supports HTML, CSS, JavaScript, TypeScript, JSX, Vue, C++, Go, Objective-C, Java, Python, PHP, GraphQL, Markdown, and more.
 
 - [Upsource](https://www.jetbrains.com/upsource) :copyright: — Code review tool with static code analysis and code-aware navigation for Java, PHP, JavaScript and Kotlin.
 
@@ -1416,7 +1416,7 @@ TSLint is an extensible static analysis tool that checks TypeScript code for rea
 
 - [WhiteHat Application Security Platform](https://www.whitehatsec.com/platform/static-application-security-testing) :copyright: — WhiteHat Scout (for Developers) combined with WhiteHat Sentinel Source (for Operations) supporting WhiteHat Top 40 and OWASP Top 10.
 
-- [Wotan](https://github.com/fimbullinter/wotan) :warning: — Pluggable TypeScript and JavaScript linter.
+- [Wotan](https://github.com/fimbullinter/wotan) — Pluggable TypeScript and JavaScript linter.
 
 - [XCode](https://developer.apple.com/xcode) :copyright: — XCode provides a pretty decent UI for [Clang's](http://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C).
 
@@ -1524,7 +1524,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 - [sass-lint](https://github.com/sasstools/sass-lint) :warning: — A Node-only Sass linter for both sass and scss syntax.
 
-- [scsslint](https://github.com/brigade/scss-lint) — Linter for SCSS files.
+- [scsslint](https://github.com/brigade/scss-lint) :warning: — Linter for SCSS files.
 
 - [Specificity Graph](https://jonassebastianohlsson.com/specificity-graph) — CSS Specificity Graph Generator.
 
