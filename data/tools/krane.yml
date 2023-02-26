@@ -1,0 +1,17 @@
+name: krane
+categories:
+  - linter
+tags:
+  - kubernetes
+  - container
+license: Apache-2.0
+types:
+  - cli
+source: "https://github.com/appvia/krane"
+homepage: "https://github.com/appvia/krane"
+description: >-
+  Krane is a simple Kubernetes RBAC static analysis tool.
+
+  It identifies potential security risks in K8s RBAC design and makes
+  suggestions on how to mitigate them. Krane dashboard presents current RBAC
+  security posture and lets you navigate through its definition.

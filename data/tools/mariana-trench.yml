@@ -1,0 +1,16 @@
+name: Mariana Trench
+categories:
+  - linter
+tags:
+  - java
+  - mobile
+license: MIT
+types:
+  - cli
+source: "https://github.com/facebook/mariana-trench"
+homepage: "https://mariana-tren.ch/"
+description: >-
+  Our security focused static analysis tool for Android and Java applications.
+  Mariana Trench analyzes Dalvik bytecode and is built to run fast on large
+  codebases (10s of millions of lines of code). It can find vulnerabilities as
+  code changes, before it ever lands in your repository.

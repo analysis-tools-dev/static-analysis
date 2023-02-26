@@ -1,0 +1,12 @@
+name: Reflection
+categories:
+  - linter
+tags:
+  - php
+license: MIT
+types:
+  - cli
+source: "https://github.com/phpDocumentor/Reflection"
+homepage: "https://github.com/phpDocumentor/Reflection"
+description: >-
+  Reflection library to do Static Analysis for PHP Projects

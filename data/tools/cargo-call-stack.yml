@@ -1,0 +1,13 @@
+name: cargo-call-stack
+categories:
+  - linter
+tags:
+  - rust
+license: Apache-2.0
+types:
+  - cli
+source: "https://github.com/japaric/cargo-call-stack"
+homepage: "https://github.com/japaric/cargo-call-stack"
+description: >-
+  Whole program static stack analysis
+  The tool produces the full call graph of a program as a dot file.
