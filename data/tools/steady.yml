@@ -1,0 +1,14 @@
+name: steady
+categories:
+  - linter
+tags:
+  - java
+license: Apache-2.0
+types:
+  - cli
+source: "https://github.com/eclipse/steady"
+homepage: "https://eclipse.github.io/steady/"
+description: >-
+  Analyses your Java applications for open-source dependencies with known
+  vulnerabilities, using both static analysis and testing to determine code
+  context and usage for greater accuracy.
