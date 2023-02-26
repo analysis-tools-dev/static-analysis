@@ -6125,6 +6125,34 @@
     "demos": null,
     "wrapper": null
   },
+  "ezno": {
+    "name": "ezno",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "javascript",
+      "typescript"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://kaleidawave.github.io/posts/introducing-ezno/",
+    "source": "https://github.com/kaleidawave/ezno",
+    "pricing": null,
+    "plans": null,
+    "description": "A JavaScript compiler and TypeScript checker written in Rust with a focus on static analysis and runtime performance. Ezno's type checker is built from scratch.  The checker is fully compatible with TypeScript type annotations and can work without any type annotations at all.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "fasterer": {
     "name": "Fasterer",
     "categories": [
