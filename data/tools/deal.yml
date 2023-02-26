@@ -1,0 +1,15 @@
+name: deal
+categories:
+  - linter
+tags:
+  - python
+license: MIT
+types:
+  - cli
+source: "https://github.com/life4/deal"
+homepage: "https://deal.readthedocs.io/"
+description: >-
+  Design by contract for Python. Write bug-free code. 
+  By adding a few decorators to your code, you get for free tests, static
+  analysis, formal verification, and much more.
+
