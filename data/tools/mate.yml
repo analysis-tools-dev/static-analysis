@@ -1,0 +1,18 @@
+name: MATE
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+license: BSD-3-Clause
+types:
+  - cli
+source: "https://github.com/GaloisInc/MATE"
+homepage: "https://galoisinc.github.io/MATE/"
+description: >-
+  A suite of tools for interactive program analysis with a focus on
+  hunting for bugs in C and C++ code.
+  MATE unifies application-specific and low-level vulnerability analysis using
+  code property graphs (CPGs), enabling the discovery of highly
+  application-specific vulnerabilities that depend on both implementation
+  details and the high-level semantics of target C/C++ programs.
