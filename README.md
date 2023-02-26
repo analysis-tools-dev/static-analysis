@@ -858,6 +858,8 @@ It uses the pycodestyle utility to determine what parts of the code needs to be 
 
 - [cohesion](https://github.com/mschwager/cohesion) — A tool for measuring Python class cohesion.
 
+- [deal](https://deal.readthedocs.io/) — Design by contract for Python. Write bug-free code.  By adding a few decorators to your code, you get for free tests, static analysis, formal verification, and much more.
+
 - [Dlint](https://github.com/dlint-py/dlint) — A tool for ensuring Python code is secure.
 
 - [Dodgy](https://github.com/landscapeio/dodgy) — Dodgy is a very basic tool to run against your codebase to search for "dodgy" looking values. It is a series of simple regular expressions designed to detect things such as accidental SCM diff checkins, or passwords or secret keys hard coded into files.

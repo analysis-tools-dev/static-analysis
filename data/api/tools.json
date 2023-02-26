@@ -4630,6 +4630,33 @@
     "demos": null,
     "wrapper": null
   },
+  "deal": {
+    "name": "deal",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "python"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://deal.readthedocs.io/",
+    "source": "https://github.com/life4/deal",
+    "pricing": null,
+    "plans": null,
+    "description": "Design by contract for Python. Write bug-free code.  By adding a few decorators to your code, you get for free tests, static analysis, formal verification, and much more.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "deepcode": {
     "name": "DeepCode",
     "categories": [
