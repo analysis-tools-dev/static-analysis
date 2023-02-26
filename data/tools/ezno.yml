@@ -1,0 +1,17 @@
+name: ezno
+categories:
+  - linter
+tags:
+  - javascript
+  - typescript
+license: MIT
+types:
+  - cli
+source: "https://github.com/kaleidawave/ezno"
+homepage: "https://kaleidawave.github.io/posts/introducing-ezno/"
+description: >-
+  A JavaScript compiler and TypeScript checker written in Rust with a focus on
+  static analysis and runtime performance. Ezno's type checker is built from
+  scratch. 
+  The checker is fully compatible with TypeScript type annotations and can work
+  without any type annotations at all.
