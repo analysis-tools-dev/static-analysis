@@ -33,7 +33,7 @@ If you also want to support this project, head over to our [Github sponsors page
 - :warning: means that this tool was not updated for more than 1 year, or the repo was archived.
 
 Pull requests are very welcome!  
-Also check out the sister project, [awesome-dynamic-analysis](https://github.com/mre/awesome-dynamic-analysis).
+Also check out the sister project, [awesome-dynamic-analysis](https://github.com/mre/awesome-dynamic-analysis)
 
 ## Table of Contents
 
