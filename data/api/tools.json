@@ -319,7 +319,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "http://tools.android.com/tips/lint",
+    "homepage": "https://sites.google.com/a/android.com/tools/tips/lint",
     "source": "https://android.googlesource.com",
     "pricing": null,
     "plans": null,
@@ -2384,8 +2384,8 @@
     "types": [
       "cli"
     ],
-    "homepage": "http://clang.llvm.org/extra/clang-tidy",
-    "source": "http://clang.llvm.org/extra/clang-tidy",
+    "homepage": "https://clang.llvm.org/extra/clang-tidy",
+    "source": "https://clang.llvm.org/extra/clang-tidy",
     "pricing": null,
     "plans": null,
     "description": "clang static analyser.",
@@ -2826,7 +2826,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "http://code-cracker.github.io",
+    "homepage": "https://code-cracker.github.io",
     "source": "https://github.com/code-cracker/code-cracker",
     "pricing": null,
     "plans": null,
@@ -2932,7 +2932,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "http://groupon.github.io/codeburner",
+    "homepage": "https://groupon.github.io/codeburner",
     "source": "https://github.com/groupon/codeburner",
     "pricing": null,
     "plans": null,
@@ -3245,9 +3245,9 @@
     "types": [
       "cli"
     ],
-    "homepage": "http://www.adacore.com/codepeer",
+    "homepage": "https://www.adacore.com/static-analysis/codepeer",
     "source": null,
-    "pricing": "http://www.adacore.com/pricing",
+    "pricing": "https://www.adacore.com/pricing",
     "plans": null,
     "description": "Detects run-time and logic errors.",
     "discussion": null,
@@ -4025,7 +4025,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "http://cppcheck.sourceforge.net",
+    "homepage": "https://cppcheck.sourceforge.io",
     "source": "https://github.com/danmar/cppcheck",
     "pricing": null,
     "plans": null,
@@ -5628,7 +5628,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "http://kha.github.io/electrolysis",
+    "homepage": "https://kha.github.io/electrolysis",
     "source": "https://github.com/Kha/electrolysis",
     "pricing": null,
     "plans": null,
@@ -6718,8 +6718,8 @@
     "types": [
       "cli"
     ],
-    "homepage": "http://frama-c.com",
-    "source": "http://frama-c.com/download.html",
+    "homepage": "https://www.frama-c.com",
+    "source": "https://www.frama-c.com/html/get-frama-c.html",
     "pricing": null,
     "plans": null,
     "description": "A sound and extensible static analyzer for C code.",
@@ -6772,7 +6772,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "http://fsprojects.github.io/FSharpLint",
+    "homepage": "https://fsprojects.github.io/FSharpLint",
     "source": "https://github.com/fsprojects/FSharpLint",
     "pricing": null,
     "plans": null,
@@ -7496,7 +7496,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "http://mangothecat.github.io/goodpractice",
+    "homepage": "https://mangothecat.github.io/goodpractice",
     "source": "https://github.com/mangothecat/goodpractice",
     "pricing": null,
     "plans": null,
@@ -7914,7 +7914,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "http://haxecheckstyle.github.io/docs/haxe-checkstyle/home.html",
+    "homepage": "https://haxecheckstyle.github.io/docs/haxe-checkstyle/home.html",
     "source": "https://github.com/HaxeCheckstyle/haxe-checkstyle",
     "pricing": null,
     "plans": null,
@@ -8958,7 +8958,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "http://dpnishant.github.io/jsprime",
+    "homepage": "https://dpnishant.github.io/jsprime",
     "source": "https://github.com/dpnishant/jsprime",
     "pricing": null,
     "plans": null,
@@ -10593,7 +10593,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "http://trismegiste.github.io/Mondrian",
+    "homepage": "https://trismegiste.github.io/Mondrian",
     "source": "https://github.com/Trismegiste/Mondrian",
     "pricing": null,
     "plans": null,
@@ -11983,7 +11983,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "http://qafoolabs.github.io/php-refactoring-browser",
+    "homepage": "https://qafoolabs.github.io/php-refactoring-browser",
     "source": "https://github.com/QafooLabs/php-refactoring-browser",
     "pricing": null,
     "plans": null,
@@ -14477,7 +14477,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "http://retirejs.github.io/retire.js",
+    "homepage": "https://retirejs.github.io/retire.js",
     "source": "https://github.com/RetireJS/retire.js",
     "pricing": null,
     "plans": null,
@@ -16612,7 +16612,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "http://spoon.gforge.inria.fr",
+    "homepage": "https://spoon.gforge.inria.fr",
     "source": "https://github.com/INRIA/spoon",
     "pricing": null,
     "plans": null,
@@ -17341,7 +17341,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "http://svf-tools.github.io/SVF",
+    "homepage": "https://svf-tools.github.io/SVF",
     "source": "https://github.com/SVF-tools/SVF",
     "pricing": null,
     "plans": null,
@@ -17814,8 +17814,8 @@
     "types": [
       "cli"
     ],
-    "homepage": "http://golang.org/pkg/testing",
-    "source": "http://golang.org/pkg/testing",
+    "homepage": "https://pkg.go.dev/testing",
+    "source": "https://pkg.go.dev/testing",
     "pricing": null,
     "plans": null,
     "description": "Show location of test failures from the stdlib testing module.",
@@ -18870,7 +18870,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "http://www.veracode.com/products/static-analysis-sast/static-code-analysis",
+    "homepage": "https://www.veracode.com/security/static-code-analysis",
     "source": null,
     "pricing": null,
     "plans": null,
@@ -19276,7 +19276,7 @@
       "cli"
     ],
     "homepage": "https://securityonline.info/owasp-wap-web-application-protection-project",
-    "source": "http://awap.sourceforge.net/index.html",
+    "source": "https://awap.sourceforge.io",
     "pricing": null,
     "plans": null,
     "description": "Tool to detect and correct input validation vulnerabilities in PHP (4.0 or higher) web applications and predicts false positives by combining static analysis and data mining.",
@@ -19619,7 +19619,7 @@
     "source": null,
     "pricing": null,
     "plans": null,
-    "description": "XCode provides a pretty decent UI for [Clang's](http://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C).",
+    "description": "XCode provides a pretty decent UI for [Clang's](https://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C).",
     "discussion": null,
     "deprecated": null,
     "resources": null,

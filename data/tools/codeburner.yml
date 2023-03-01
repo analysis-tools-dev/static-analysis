@@ -12,5 +12,5 @@ license: MIT License
 types:
   - cli
 source: 'https://github.com/groupon/codeburner'
-homepage: 'http://groupon.github.io/codeburner'
+homepage: 'https://groupon.github.io/codeburner'
 description: Provides a unified interface to sort and act on the issues it finds.

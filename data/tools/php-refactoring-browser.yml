@@ -7,5 +7,5 @@ license: MIT License
 types:
   - cli
 source: 'https://github.com/QafooLabs/php-refactoring-browser'
-homepage: 'http://qafoolabs.github.io/php-refactoring-browser'
+homepage: 'https://qafoolabs.github.io/php-refactoring-browser'
 description: Refactoring helper.

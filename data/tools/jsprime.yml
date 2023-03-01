@@ -8,5 +8,5 @@ license: Other
 types:
   - cli
 source: 'https://github.com/dpnishant/jsprime'
-homepage: 'http://dpnishant.github.io/jsprime'
+homepage: 'https://dpnishant.github.io/jsprime'
 description: Static security analysis tool.

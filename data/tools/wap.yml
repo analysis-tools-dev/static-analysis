@@ -6,7 +6,7 @@ tags:
 license: GNU GPL
 types:
   - cli
-source: 'http://awap.sourceforge.net/index.html'
+source: 'https://awap.sourceforge.io'
 homepage: 'https://securityonline.info/owasp-wap-web-application-protection-project'
 description: >-
   Tool to detect and correct input validation vulnerabilities in PHP (4.0 or

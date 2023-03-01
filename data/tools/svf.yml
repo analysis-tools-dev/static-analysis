@@ -8,7 +8,7 @@ license: Other
 types:
   - cli
 source: 'https://github.com/SVF-tools/SVF'
-homepage: 'http://svf-tools.github.io/SVF'
+homepage: 'https://svf-tools.github.io/SVF'
 description: >-
   A static tool that enables scalable and precise interprocedural dependence
   analysis for C and C++ programs.

@@ -11,5 +11,5 @@ types:
 homepage: 'https://developer.apple.com/xcode'
 description: >-
   XCode provides a pretty decent UI for
-  [Clang's](http://clang-analyzer.llvm.org/xcode.html) static code analyzer
+  [Clang's](https://clang-analyzer.llvm.org/xcode.html) static code analyzer
   (C/C++, Obj-C).

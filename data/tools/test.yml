@@ -6,6 +6,6 @@ tags:
 license: BSD-3-Clause (original text)
 types:
   - cli
-source: 'http://golang.org/pkg/testing'
-homepage: 'http://golang.org/pkg/testing'
+source: 'https://pkg.go.dev/testing'
+homepage: 'https://pkg.go.dev/testing'
 description: Show location of test failures from the stdlib testing module.
