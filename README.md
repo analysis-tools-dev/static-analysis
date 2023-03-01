@@ -153,7 +153,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2 id="ada">Ada</h2>
 
 
-- [Codepeer](http://www.adacore.com/codepeer) :copyright: — Detects run-time and logic errors.
+- [Codepeer](https://www.adacore.com/static-analysis/codepeer) :copyright: — Detects run-time and logic errors.
 
 - [Polyspace for Ada](https://www.mathworks.com/products/polyspace-ada.html) :copyright: — Provide code verification that proves the absence of overflow, divide-by-zero, out-of-bounds array access, and certain other run-time errors in source code.
 
@@ -179,7 +179,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [CBMC](http://www.cprover.org/cbmc) — Bounded model-checker for C programs, user-defined assertions, standard assertions, several coverage metric analyses.
 
-- [clang-tidy](http://clang.llvm.org/extra/clang-tidy) — clang static analyser.
+- [clang-tidy](https://clang.llvm.org/extra/clang-tidy) — clang static analyser.
 
 - [clazy](https://github.com/KDE/clazy) — Qt-oriented static code analyzer based on the Clang framework. clazy is a compiler plugin which allows clang to understand Qt semantics. You get more than 50 Qt related compiler warnings, ranging from unneeded memory allocations to misusage of API, including fix-its for automatic refactoring.
 
@@ -187,7 +187,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [CPAchecker](https://cpachecker.sosy-lab.org) — A tool for configurable software verification of C programs.  The name CPAchecker was chosen to reflect that the tool is based on the CPA concepts and is used for checking software programs.
 
-- [cppcheck](http://cppcheck.sourceforge.net) — Static analysis of C/C++ code.
+- [cppcheck](https://cppcheck.sourceforge.io) — Static analysis of C/C++ code.
 
 - [CppDepend](https://www.cppdepend.com) :warning: :copyright: — Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.
 
@@ -203,7 +203,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [flint++](https://github.com/JossWhittle/FlintPlusPlus) — Cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.
 
-- [Frama-C](http://frama-c.com) — A sound and extensible static analyzer for C code.
+- [Frama-C](https://www.frama-c.com) — A sound and extensible static analyzer for C code.
 
 - [GCC](https://gcc.gnu.org/onlinedocs/gcc/Static-Analyzer-Options.html) — The GCC compiler has static analysis capabilities since version 10. This option is only available if GCC was configured with analyzer support enabled.  It can also output its diagnostics to a JSON file in the SARIF format (from v13).
 
@@ -231,7 +231,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [splint](http://splint.org) — Annotation-assisted static program checker.
 
-- [SVF](http://svf-tools.github.io/SVF) — A static tool that enables scalable and precise interprocedural dependence analysis for C and C++ programs.
+- [SVF](https://svf-tools.github.io/SVF) — A static tool that enables scalable and precise interprocedural dependence analysis for C and C++ programs.
 
 - [TrustInSoft Analyzer](https://trust-in-soft.com) :copyright: — Exhaustive detection of coding errors and their associated security vulnerabilities. This encompasses a sound undefined behavior detection (buffer overflows, out-of-bounds array accesses, null-pointer dereferences, use-after-free, divide-by-zeros, uninitialized memory accesses, signed overflows, invalid pointer arithmetic, etc.), data flow and control flow verification as well as full functional verification of formal specifications. All versions of C up to C18 and C++ up to C++20 are supported. TrustInSoft Analyzer will acquire ISO 26262 qualification in Q2'2023 (TCL3). A MISRA C checker is also bundled.
 
@@ -245,7 +245,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [ArchUnitNET](https://github.com/TNG/ArchUnitNET) — A C# architecture test library to specify and assert architecture rules in C# for automated testing.
 
-- [code-cracker](http://code-cracker.github.io) — An analyzer library for C# and VB that uses Roslyn to produce refactorings, code analysis, and other niceties.
+- [code-cracker](https://code-cracker.github.io) — An analyzer library for C# and VB that uses Roslyn to produce refactorings, code analysis, and other niceties.
 
 - [CSharpEssentials](https://github.com/DustinCampbell/CSharpEssentials) — C# Essentials is a collection of Roslyn diagnostic analyzers, code fixes and refactorings that make it easy to work with C# 6 language features.
 
@@ -273,13 +273,13 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [CBMC](http://www.cprover.org/cbmc) — Bounded model-checker for C programs, user-defined assertions, standard assertions, several coverage metric analyses.
 
-- [clang-tidy](http://clang.llvm.org/extra/clang-tidy) — clang static analyser.
+- [clang-tidy](https://clang.llvm.org/extra/clang-tidy) — clang static analyser.
 
 - [clazy](https://github.com/KDE/clazy) — Qt-oriented static code analyzer based on the Clang framework. clazy is a compiler plugin which allows clang to understand Qt semantics. You get more than 50 Qt related compiler warnings, ranging from unneeded memory allocations to misusage of API, including fix-its for automatic refactoring.
 
 - [CMetrics](https://github.com/MetricsGrimoire/CMetrics) — Measures size and complexity for C files.
 
-- [cppcheck](http://cppcheck.sourceforge.net) — Static analysis of C/C++ code.
+- [cppcheck](https://cppcheck.sourceforge.io) — Static analysis of C/C++ code.
 
 - [CppDepend](https://www.cppdepend.com) :warning: :copyright: — Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.
 
@@ -295,7 +295,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [flint++](https://github.com/JossWhittle/FlintPlusPlus) — Cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.
 
-- [Frama-C](http://frama-c.com) — A sound and extensible static analyzer for C code.
+- [Frama-C](https://www.frama-c.com) — A sound and extensible static analyzer for C code.
 
 - [Helix QAC](https://www.perforce.com/products/helix-qac) :copyright: — Enterprise-grade static analysis for embedded software. Supports MISRA, CERT, and AUTOSAR coding standards.
 
@@ -319,7 +319,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [splint](http://splint.org) — Annotation-assisted static program checker.
 
-- [SVF](http://svf-tools.github.io/SVF) — A static tool that enables scalable and precise interprocedural dependence analysis for C and C++ programs.
+- [SVF](https://svf-tools.github.io/SVF) — A static tool that enables scalable and precise interprocedural dependence analysis for C and C++ programs.
 
 - [TrustInSoft Analyzer](https://trust-in-soft.com) :copyright: — Exhaustive detection of coding errors and their associated security vulnerabilities. This encompasses a sound undefined behavior detection (buffer overflows, out-of-bounds array accesses, null-pointer dereferences, use-after-free, divide-by-zeros, uninitialized memory accesses, signed overflows, invalid pointer arithmetic, etc.), data flow and control flow verification as well as full functional verification of formal specifications. All versions of C up to C18 and C++ up to C++20 are supported. TrustInSoft Analyzer will acquire ISO 26262 qualification in Q2'2023 (TCL3). A MISRA C checker is also bundled.
 
@@ -412,7 +412,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 <h2 id="fsharp">F#</h2>
 
 
-- [FSharpLint](http://fsprojects.github.io/FSharpLint) — Lint tool for F#.
+- [FSharpLint](https://fsprojects.github.io/FSharpLint) — Lint tool for F#.
 
 
 <h2 id="fortran">Fortran</h2>
@@ -515,7 +515,7 @@ By default, govulncheck makes requests to the Go vulnerability database at https
 
 - [structslop](https://github.com/orijtech/structslop) — Static analyzer for Go that recommends struct field rearrangements to provide for maximum space/allocation efficiency
 
-- [test](http://golang.org/pkg/testing) — Show location of test failures from the stdlib testing module.
+- [test](https://pkg.go.dev/testing) — Show location of test failures from the stdlib testing module.
 
 - [unconvert](https://github.com/mdempsky/unconvert) — Detect redundant type conversions.
 
@@ -549,7 +549,7 @@ By default, govulncheck makes requests to the Go vulnerability database at https
 <h2 id="haxe">Haxe</h2>
 
 
-- [Haxe Checkstyle](http://haxecheckstyle.github.io/docs/haxe-checkstyle/home.html) — A static analysis tool to help developers write Haxe code that adheres to a coding standard.
+- [Haxe Checkstyle](https://haxecheckstyle.github.io/docs/haxe-checkstyle/home.html) — A static analysis tool to help developers write Haxe code that adheres to a coding standard.
 
 
 <h2 id="java">Java</h2>
@@ -598,7 +598,7 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 
 - [Soot](https://soot-oss.github.io/soot) — A framework for analyzing and transforming Java and Android applications.
 
-- [Spoon](http://spoon.gforge.inria.fr) — Spoon is a metaprogramming library to analyze and transform Java source code (incl Java 9, 10, 11, 12, 13, 14). It parses source files to build a well-designed AST with powerful analysis and transformation API. Can be integrated in Maven and Gradle.
+- [Spoon](https://spoon.gforge.inria.fr) — Spoon is a metaprogramming library to analyze and transform Java source code (incl Java 9, 10, 11, 12, 13, 14). It parses source files to build a well-designed AST with powerful analysis and transformation API. Can be integrated in Maven and Gradle.
 
 - [SpotBugs](https://spotbugs.github.io) — SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code.
 
@@ -634,7 +634,7 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 
 - [JSLint](https://github.com/douglascrockford/JSLint) [:information_source:](<https://github.com/analysis-tools-dev/static-analysis/issues/223>) — The JavaScript Code Quality Tool.
 
-- [JSPrime](http://dpnishant.github.io/jsprime) :warning: — Static security analysis tool.
+- [JSPrime](https://dpnishant.github.io/jsprime) :warning: — Static security analysis tool.
 
 - [NodeJSScan](https://opensecurity.in) — A static security code scanner for Node.js applications powered by libsast and semgrep that builds on the njsscan cli tool. It features a UI with various dashboards about an application's security status.
 
@@ -644,7 +644,7 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 
 - [Reshift](https://www.reshiftsecurity.com) :copyright: — A source code analysis tool for detecting and managing JavaScript security vulnerabilities.
 
-- [retire.js](http://retirejs.github.io/retire.js) — Scanner detecting the use of JavaScript libraries with known vulnerabilities.
+- [retire.js](https://retirejs.github.io/retire.js) — Scanner detecting the use of JavaScript libraries with known vulnerabilities.
 
 - [RSLint](http://rslint.org/) — A (WIP) JavaScript linter written in Rust designed to be as fast as possible, customizable, and easy to use.
 
@@ -733,7 +733,7 @@ A ktfmt IntelliJ plugin is available from the plugin repository. To install it, 
 
 - [larastan](https://github.com/nunomaduro/larastan) — Adds static analysis to Laravel improving developer productivity and code quality. It is a wrapper around PHPStan.
 
-- [Mondrian](http://trismegiste.github.io/Mondrian) — A set of static analysis and refactoring tools which use graph theory.
+- [Mondrian](https://trismegiste.github.io/Mondrian) — A set of static analysis and refactoring tools which use graph theory.
 
 - [Nitpick CI](https://nitpick-ci.com) :copyright: — Automated PHP code review.
 
@@ -755,7 +755,7 @@ A ktfmt IntelliJ plugin is available from the plugin repository. To install it, 
 
 - [Php Inspections (EA Extended)](https://plugins.jetbrains.com/plugin/7622-php-inspections-ea-extended-) — A Static Code Analyzer for PHP.
 
-- [PHP Refactoring Browser](http://qafoolabs.github.io/php-refactoring-browser) — Refactoring helper.
+- [PHP Refactoring Browser](https://qafoolabs.github.io/php-refactoring-browser) — Refactoring helper.
 
 - [PHP Semantic Versioning Checker](https://github.com/tomzx/php-semver-checker) — Suggests a next version according to semantic versioning.
 
@@ -937,7 +937,7 @@ YAPF follows a distinctive methodology, originating from the 'clang-format' tool
 
 - [cyclocomp](https://github.com/MangoTheCat/cyclocomp) — Quantifies the cyclomatic complexity of R functions / expressions.
 
-- [goodpractice](http://mangothecat.github.io/goodpractice) — Analyses the source code for R packages and provides best-practice recommendations.
+- [goodpractice](https://mangothecat.github.io/goodpractice) — Analyses the source code for R packages and provides best-practice recommendations.
 
 - [lintr](https://github.com/jimhester/lintr) — Static Code Analysis for R.
 
@@ -1040,7 +1040,7 @@ It removes a feature of a dependency and then compiles the project to see if it 
 
 - [dylint](https://www.trailofbits.com/post/write-rust-lints-without-forking-clippy) — A tool for running Rust lints from dynamic libraries. Dylint makes it easy for developers to maintain their own personal lint collections.
 
-- [electrolysis](http://kha.github.io/electrolysis) — A tool for formally verifying Rust programs by transpiling them into definitions in the Lean theorem prover.
+- [electrolysis](https://kha.github.io/electrolysis) — A tool for formally verifying Rust programs by transpiling them into definitions in the Lean theorem prover.
 
 - [herbie](https://github.com/mcarton/rust-herbie-lint) — Adds warnings or errors to your crate when using a numerically unstable floating point expression.
 
@@ -1225,7 +1225,7 @@ TSLint is an extensible static analysis tool that checks TypeScript code for rea
 
 - [Codeac](https://www.codeac.io/?ref=awesome-static-analysis) :copyright: — Automated code review tool integrates with GitHub, Bitbucket and GitLab (even self-hosted). Available for JavaScript, TypeScript, Python, Ruby, Go, PHP, Java, Docker, and more. (open-source free)
 
-- [codeburner](http://groupon.github.io/codeburner) — Provides a unified interface to sort and act on the issues it finds.
+- [codeburner](https://groupon.github.io/codeburner) — Provides a unified interface to sort and act on the issues it finds.
 
 - [codechecker](https://codechecker.readthedocs.io/en/latest) — A defect database and viewer extension for the Clang Static Analyzer with web GUI.
 
@@ -1424,7 +1424,7 @@ TSLint is an extensible static analysis tool that checks TypeScript code for rea
 
 - [Upsource](https://www.jetbrains.com/upsource) :copyright: — Code review tool with static code analysis and code-aware navigation for Java, PHP, JavaScript and Kotlin.
 
-- [Veracode](http://www.veracode.com/products/static-analysis-sast/static-code-analysis) :copyright: — Find flaws in binaries and bytecode without requiring source. Support all major programming languages: Java, .NET, JavaScript, Swift, Objective-C, C, C++ and more.
+- [Veracode](https://www.veracode.com/security/static-code-analysis) :copyright: — Find flaws in binaries and bytecode without requiring source. Support all major programming languages: Java, .NET, JavaScript, Swift, Objective-C, C, C++ and more.
 
 - [WALA](https://github.com/wala/WALA) — Static analysis capabilities for Java bytecode and related languages and for JavaScript.
 
@@ -1434,7 +1434,7 @@ TSLint is an extensible static analysis tool that checks TypeScript code for rea
 
 - [Wotan](https://github.com/fimbullinter/wotan) — Pluggable TypeScript and JavaScript linter.
 
-- [XCode](https://developer.apple.com/xcode) :copyright: — XCode provides a pretty decent UI for [Clang's](http://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C).
+- [XCode](https://developer.apple.com/xcode) :copyright: — XCode provides a pretty decent UI for [Clang's](https://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C).
 
 
 ## Other
