@@ -7,5 +7,5 @@ license: CC-BY-SA-3.0
 types:
   - cli
 source: 'https://github.com/Trismegiste/Mondrian'
-homepage: 'http://trismegiste.github.io/Mondrian'
+homepage: 'https://trismegiste.github.io/Mondrian'
 description: A set of static analysis and refactoring tools which use graph theory.

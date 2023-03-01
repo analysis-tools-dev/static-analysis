@@ -6,9 +6,9 @@ tags:
 license: proprietary
 types:
 - cli
-homepage: http://www.adacore.com/codepeer
+homepage: https://www.adacore.com/static-analysis/codepeer
 description: Detects run-time and logic errors.
 resources:
 - title: What's New in CodePeer 19
   url: https://www.youtube.com/watch?v=8837TUpLLMo
-pricing: http://www.adacore.com/pricing
+pricing: https://www.adacore.com/pricing

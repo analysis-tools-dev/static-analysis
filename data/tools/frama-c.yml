@@ -7,6 +7,6 @@ tags:
 license: GNU Lesser General Public License v2.1
 types:
   - cli
-source: 'http://frama-c.com/download.html'
-homepage: 'http://frama-c.com'
+source: 'https://www.frama-c.com/html/get-frama-c.html'
+homepage: 'https://www.frama-c.com'
 description: A sound and extensible static analyzer for C code.

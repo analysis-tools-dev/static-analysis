@@ -7,7 +7,7 @@ license: Other
 types:
   - cli
 source: 'https://github.com/Kha/electrolysis'
-homepage: 'http://kha.github.io/electrolysis'
+homepage: 'https://kha.github.io/electrolysis'
 description: >-
   A tool for formally verifying Rust programs by transpiling them into
   definitions in the Lean theorem prover.

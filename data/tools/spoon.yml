@@ -7,7 +7,7 @@ license: Other
 types:
   - cli
 source: 'https://github.com/INRIA/spoon'
-homepage: 'http://spoon.gforge.inria.fr'
+homepage: 'https://spoon.gforge.inria.fr'
 description: >-
   Spoon is a metaprogramming library to analyze and transform Java source code
   (incl Java 9, 10, 11, 12, 13, 14). It parses source files to build a
