@@ -9,4 +9,4 @@ types:
   - cli
 source: 'https://clang.llvm.org/extra/clang-tidy'
 homepage: 'https://clang.llvm.org/extra/clang-tidy'
-description: clang static analyser.
+description: Clang-based C++ linter tool with the (limited) ability to fix issues, too.
