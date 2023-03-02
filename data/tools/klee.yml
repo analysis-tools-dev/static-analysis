@@ -1,0 +1,24 @@
+name: KLEE
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+license: UIUC open source license
+types:
+  - cli
+source: "https://github.com/klee/klee"
+homepage: "http://klee.github.io/"
+resources:
+  - title: "Introduction to symbolic execution with KLEE"
+    url: "https://www.youtube.com/watch?v=z6bsk-lsk1Q"
+  - title: "KLEE: Unassisted and Automatic Generation of High-Coverage
+Tests for Complex Systems Programs [Original Paper]"
+    url: "https://www.usenix.org/legacy/event/osdi08/tech/full_papers/cadar/cadar.pdf"
+description: >-
+  A dynamic symbolic execution engine built on top of the LLVM compiler
+  infrastructure. 
+  It can auto-generate test cases for programs such that
+  the test cases exercise as much of the program as possible.
+
+
