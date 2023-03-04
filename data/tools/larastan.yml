@@ -3,6 +3,7 @@ categories:
   - linter
 tags:
   - php
+  - laravel
 license: MIT License
 types:
   - cli

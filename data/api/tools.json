@@ -422,7 +422,6 @@
       "typescript"
     ],
     "other": [
-      "angular",
       "html"
     ],
     "licenses": [
@@ -8138,8 +8137,7 @@
       "swift"
     ],
     "other": [
-      "css",
-      "haml"
+      "css"
     ],
     "licenses": [
       "MIT License"
@@ -9509,7 +9507,9 @@
     "languages": [
       "php"
     ],
-    "other": [],
+    "other": [
+      "laravel"
+    ],
     "licenses": [
       "MIT License"
     ],
@@ -10355,7 +10355,6 @@
       "vbnet"
     ],
     "other": [
-      "editorconfig",
       "dotenv",
       "ansible",
       "arm",
@@ -10368,18 +10367,14 @@
       "dockerfile",
       "formatter",
       "gherkin",
-      "graphql",
       "html",
       "json",
-      "jsonschema",
       "kubernetes",
       "latex",
       "markdown",
       "nodejs",
       "protobuf",
       "puppet",
-      "rst",
-      "snakemake",
       "terraform",
       "vue",
       "writing",
@@ -15666,7 +15661,6 @@
       "configmanagement",
       "ci",
       "dockerfile",
-      "ide",
       "json",
       "kubernetes",
       "nodejs",
@@ -16018,8 +16012,6 @@
       "cpp",
       "java",
       "lisp",
-      "miranda",
-      "modula-2",
       "pascal"
     ],
     "other": [],
@@ -16499,8 +16491,7 @@
       "csharp",
       "cpp",
       "java",
-      "python",
-      "rpg"
+      "python"
     ],
     "other": [],
     "licenses": [
@@ -18626,7 +18617,6 @@
       "javascript",
       "php",
       "python",
-      "vhdl",
       "vbnet"
     ],
     "other": [
