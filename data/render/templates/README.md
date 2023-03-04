@@ -44,7 +44,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
   <!-- Please use HTML syntax here so that it works for Github and mkdocs -->
   <ul>
     {% for (language, _) in linters -%}
-      <li><a href="#{{ language.tag }}">{{ language.name }}</a></li>
+      <li><a href="#{{ language.value }}">{{ language.name }}</a></li>
     {% endfor -%}
   </ul>
 </details>
@@ -53,8 +53,8 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 #### [Other](#other-1)
 {% for (tag, _) in others %}
-- [{{ tag.name }}](#{{ tag.tag }})
-{%- endfor %}
+- [{{ tag.name }}](#{{ tag.value }})
+  {%- endfor %}
 
 ---
 
@@ -62,7 +62,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 {%- for (language, linters) in linters %}
 
-<h2 id="{{ language.tag }}">{{ language.name }}</h2>
+<h2 id="{{ language.value }}">{{ language.name }}</h2>
 
 {% for linter in linters %}
 - [{{linter.name }}]({{linter.homepage }}){% if linter.discussion.is_some() %} [:information_source:](<{{linter.discussion.as_ref().unwrap()}}>){% endif %}{% if linter.deprecated.is_some() %} :warning:{% endif %}{% if linter.license == "proprietary" %} :copyright:{% endif %} — {{ linter.description }}
@@ -80,7 +80,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 {% for (tag, others) in others %}
 
-<h2 id="{{ tag.tag }}">{{ tag.name }}</h2>
+<h2 id="{{ tag.value }}">{{ tag.name }}</h2>
 
 {% for other in others %}
 - [{{ other.name }}]({{ other.homepage }}){% if other.discussion.is_some() %} [:information_source:](<{{other.discussion.as_ref().unwrap()}}>){% endif %}{% if other.deprecated.is_some() %} :warning:{% endif %}{% if other.license == "proprietary" %} :copyright:{% endif %} — {{ other.description }}

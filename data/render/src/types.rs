@@ -17,16 +17,16 @@ pub enum Type {
 #[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq, Hash, Ord, PartialOrd)]
 pub struct Tag {
     pub name: String,
-    pub tag: String,
+    pub value: String,
     #[serde(alias = "type")]
     pub tag_type: Type,
 }
 
 impl Tag {
-    fn new(name: &str, tag: &str, tag_type: Type) -> Tag {
+    fn new(name: &str, value: &str, tag_type: Type) -> Tag {
         Tag {
             name: name.into(),
-            tag: tag.into(),
+            value: value.into(),
             tag_type,
         }
     }
@@ -85,13 +85,23 @@ pub struct ParsedEntry {
     pub wrapper: Option<bool>,
 }
 
+#[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq, Ord, PartialOrd)]
+pub enum ToolType {
+    #[serde(rename = "cli")]
+    Commandline,
+    #[serde(rename = "service")]
+    Service,
+    #[serde(rename = "ide-plugin")]
+    IdePlugin,
+}
+
 #[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq)]
 pub struct Entry {
     pub name: String,
     pub categories: BTreeSet<Category>,
     pub tags: BTreeSet<Tag>,
     pub license: String,
-    pub types: BTreeSet<String>,
+    pub types: BTreeSet<ToolType>,
     pub homepage: String,
     pub source: Option<String>,
     pub pricing: Option<String>,
@@ -120,12 +130,21 @@ impl Entry {
     pub fn from_parsed(p: ParsedEntry, tags: &[Tag]) -> Result<Entry> {
         valid(&p, tags)?;
         let entry_tags: Result<BTreeSet<Tag>> = p.tags.iter().map(|t| get_tag(t, tags)).collect();
+        let types: Result<BTreeSet<ToolType>> = p
+            .types
+            .iter()
+            .map(|t| {
+                serde_json::from_value::<ToolType>(serde_json::to_value(t).unwrap())
+                    .map_err(|e| e.into())
+            })
+            .collect();
+
         Ok(Entry {
             name: p.name,
             categories: p.categories,
             tags: entry_tags?,
             license: p.license,
-            types: p.types,
+            types: types?,
             homepage: p.homepage,
             source: p.source,
             pricing: p.pricing,
@@ -143,7 +162,7 @@ impl Entry {
 
 fn get_tag(t: &str, tags: &[Tag]) -> Result<Tag> {
     for tag in tags {
-        if tag.tag == t {
+        if tag.value == t {
             return Ok(tag.clone());
         }
     }
@@ -185,7 +204,7 @@ pub struct ApiEntry {
     pub languages: Vec<String>,
     pub other: Vec<String>,
     pub licenses: Vec<String>,
-    pub types: BTreeSet<String>,
+    pub types: BTreeSet<ToolType>,
     pub homepage: String,
     pub source: Option<String>,
     pub pricing: Option<String>,

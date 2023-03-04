@@ -2,644 +2,644 @@
   "languages": [
     {
       "name": ".NET",
-      "tag": "dotnet",
+      "value": "dotnet",
       "tag_type": "Language"
     },
     {
       "name": "ABAP",
-      "tag": "abap",
+      "value": "abap",
       "tag_type": "Language"
     },
     {
       "name": "ActionScript",
-      "tag": "actionscript",
+      "value": "actionscript",
       "tag_type": "Language"
     },
     {
       "name": "Active Server Pages",
-      "tag": "asp",
+      "value": "asp",
       "tag_type": "Language"
     },
     {
       "name": "Ada",
-      "tag": "ada",
+      "value": "ada",
       "tag_type": "Language"
     },
     {
       "name": "Apex",
-      "tag": "apex",
+      "value": "apex",
       "tag_type": "Language"
     },
     {
       "name": "ASP.NET",
-      "tag": "aspnet",
+      "value": "aspnet",
       "tag_type": "Language"
     },
     {
       "name": "Assembly",
-      "tag": "asm",
+      "value": "asm",
       "tag_type": "Language"
     },
     {
       "name": "Awk",
-      "tag": "awk",
+      "value": "awk",
       "tag_type": "Language"
     },
     {
       "name": "C",
-      "tag": "c",
+      "value": "c",
       "tag_type": "Language"
     },
     {
       "name": "C#",
-      "tag": "csharp",
+      "value": "csharp",
       "tag_type": "Language"
     },
     {
       "name": "C++",
-      "tag": "cpp",
+      "value": "cpp",
       "tag_type": "Language"
     },
     {
       "name": "Clojure",
-      "tag": "clojure",
+      "value": "clojure",
       "tag_type": "Language"
     },
     {
       "name": "COBOL",
-      "tag": "cobol",
+      "value": "cobol",
       "tag_type": "Language"
     },
     {
       "name": "CoffeeScript",
-      "tag": "coffeescript",
+      "value": "coffeescript",
       "tag_type": "Language"
     },
     {
       "name": "ColdFusion",
-      "tag": "coldfusion",
+      "value": "coldfusion",
       "tag_type": "Language"
     },
     {
       "name": "Crystal",
-      "tag": "crystal",
+      "value": "crystal",
       "tag_type": "Language"
     },
     {
       "name": "Dart",
-      "tag": "dart",
+      "value": "dart",
       "tag_type": "Language"
     },
     {
       "name": "Delphi",
-      "tag": "delphi",
+      "value": "delphi",
       "tag_type": "Language"
     },
     {
       "name": "Dlang",
-      "tag": "dlang",
+      "value": "dlang",
       "tag_type": "Language"
     },
     {
       "name": "Elixir",
-      "tag": "elixir",
+      "value": "elixir",
       "tag_type": "Language"
     },
     {
       "name": "Elm",
-      "tag": "elm",
+      "value": "elm",
       "tag_type": "Language"
     },
     {
       "name": "Erlang",
-      "tag": "erlang",
+      "value": "erlang",
       "tag_type": "Language"
     },
     {
       "name": "F#",
-      "tag": "fsharp",
+      "value": "fsharp",
       "tag_type": "Language"
     },
     {
       "name": "Fortran",
-      "tag": "fortran",
+      "value": "fortran",
       "tag_type": "Language"
     },
     {
       "name": "Go",
-      "tag": "go",
+      "value": "go",
       "tag_type": "Language"
     },
     {
       "name": "Groovy",
-      "tag": "groovy",
+      "value": "groovy",
       "tag_type": "Language"
     },
     {
       "name": "Haskell",
-      "tag": "haskell",
+      "value": "haskell",
       "tag_type": "Language"
     },
     {
       "name": "Haxe",
-      "tag": "haxe",
+      "value": "haxe",
       "tag_type": "Language"
     },
     {
       "name": "Java",
-      "tag": "java",
+      "value": "java",
       "tag_type": "Language"
     },
     {
       "name": "JavaScript",
-      "tag": "javascript",
+      "value": "javascript",
       "tag_type": "Language"
     },
     {
       "name": "JavaServer Pages",
-      "tag": "jsp",
+      "value": "jsp",
       "tag_type": "Language"
     },
     {
       "name": "JSX",
-      "tag": "jsx",
+      "value": "jsx",
       "tag_type": "Language"
     },
     {
       "name": "Julia",
-      "tag": "julia",
+      "value": "julia",
       "tag_type": "Language"
     },
     {
       "name": "Kotlin",
-      "tag": "kotlin",
+      "value": "kotlin",
       "tag_type": "Language"
     },
     {
       "name": "Lightning Web Components",
-      "tag": "lwc",
+      "value": "lwc",
       "tag_type": "Language"
     },
     {
       "name": "Lisp",
-      "tag": "lisp",
+      "value": "lisp",
       "tag_type": "Language"
     },
     {
       "name": "Lua",
-      "tag": "lua",
+      "value": "lua",
       "tag_type": "Language"
     },
     {
       "name": "MATLAB",
-      "tag": "matlab",
+      "value": "matlab",
       "tag_type": "Language"
     },
     {
       "name": "Miranda",
-      "tag": "miranda",
+      "value": "miranda",
       "tag_type": "Language"
     },
     {
       "name": "Modula-2",
-      "tag": "modula-2",
+      "value": "modula-2",
       "tag_type": "Language"
     },
     {
       "name": "Nim",
-      "tag": "nim",
+      "value": "nim",
       "tag_type": "Language"
     },
     {
       "name": "Obj-C",
-      "tag": "objectivec",
+      "value": "objectivec",
       "tag_type": "Language"
     },
     {
       "name": "Objective C",
-      "tag": "objectivec",
+      "value": "objectivec",
       "tag_type": "Language"
     },
     {
       "name": "Ocaml",
-      "tag": "ocaml",
+      "value": "ocaml",
       "tag_type": "Language"
     },
     {
       "name": "Pascal",
-      "tag": "pascal",
+      "value": "pascal",
       "tag_type": "Language"
     },
     {
       "name": "Perl",
-      "tag": "perl",
+      "value": "perl",
       "tag_type": "Language"
     },
     {
       "name": "PHP",
-      "tag": "php",
+      "value": "php",
       "tag_type": "Language"
     },
     {
       "name": "PL/SQL",
-      "tag": "plsql",
+      "value": "plsql",
       "tag_type": "Language"
     },
     {
       "name": "PowerShell",
-      "tag": "powershell",
+      "value": "powershell",
       "tag_type": "Language"
     },
     {
       "name": "Python",
-      "tag": "python",
+      "value": "python",
       "tag_type": "Language"
     },
     {
       "name": "R",
-      "tag": "r",
+      "value": "r",
       "tag_type": "Language"
     },
     {
       "name": "Raku",
-      "tag": "raku",
+      "value": "raku",
       "tag_type": "Language"
     },
     {
       "name": "RPG",
-      "tag": "rpg",
+      "value": "rpg",
       "tag_type": "Language"
     },
     {
       "name": "Ruby",
-      "tag": "ruby",
+      "value": "ruby",
       "tag_type": "Language"
     },
     {
       "name": "Rust",
-      "tag": "rust",
+      "value": "rust",
       "tag_type": "Language"
     },
     {
       "name": "Scala",
-      "tag": "scala",
+      "value": "scala",
       "tag_type": "Language"
     },
     {
       "name": "Shell",
-      "tag": "shell",
+      "value": "shell",
       "tag_type": "Language"
     },
     {
       "name": "SQL",
-      "tag": "sql",
+      "value": "sql",
       "tag_type": "Language"
     },
     {
       "name": "Swift",
-      "tag": "swift",
+      "value": "swift",
       "tag_type": "Language"
     },
     {
       "name": "Tcl",
-      "tag": "tcl",
+      "value": "tcl",
       "tag_type": "Language"
     },
     {
       "name": "TSQL",
-      "tag": "tsql",
+      "value": "tsql",
       "tag_type": "Language"
     },
     {
       "name": "TypeScript",
-      "tag": "typescript",
+      "value": "typescript",
       "tag_type": "Language"
     },
     {
       "name": "VBScript",
-      "tag": "vbscript",
+      "value": "vbscript",
       "tag_type": "Language"
     },
     {
       "name": "Verilog/SystemVerilog",
-      "tag": "verilog",
+      "value": "verilog",
       "tag_type": "Language"
     },
     {
       "name": "VHDL",
-      "tag": "vhdl",
+      "value": "vhdl",
       "tag_type": "Language"
     },
     {
       "name": "Vim Script",
-      "tag": "vim-script",
+      "value": "vim-script",
       "tag_type": "Language"
     },
     {
       "name": "Visual Basic",
-      "tag": "vbasic",
+      "value": "vbasic",
       "tag_type": "Language"
     },
     {
       "name": "Visual Basic .NET",
-      "tag": "vbnet",
+      "value": "vbnet",
       "tag_type": "Language"
     },
     {
       "name": "Visual Basic for Applications (VBA)",
-      "tag": "vba",
+      "value": "vba",
       "tag_type": "Language"
     },
     {
       "name": "Visualforce",
-      "tag": "visualforce",
+      "value": "visualforce",
       "tag_type": "Language"
     }
   ],
   "other": [
     {
       "name": ".editorconfig",
-      "tag": "editorconfig",
+      "value": "editorconfig",
       "tag_type": "Other"
     },
     {
       "name": ".env",
-      "tag": "dotenv",
+      "value": "dotenv",
       "tag_type": "Other"
     },
     {
       "name": "Angular",
-      "tag": "angular",
+      "value": "angular",
       "tag_type": "Other"
     },
     {
       "name": "Ansible",
-      "tag": "ansible",
+      "value": "ansible",
       "tag_type": "Other"
     },
     {
       "name": "Archive",
-      "tag": "archive",
+      "value": "archive",
       "tag_type": "Other"
     },
     {
       "name": "Azure Resource Manager",
-      "tag": "arm",
+      "value": "arm",
       "tag_type": "Other"
     },
     {
       "name": "Binaries",
-      "tag": "binary",
+      "value": "binary",
       "tag_type": "Other"
     },
     {
       "name": "Build tools",
-      "tag": "buildtool",
+      "value": "buildtool",
       "tag_type": "Other"
     },
     {
       "name": "Cloud Formation",
-      "tag": "cloudformation",
+      "value": "cloudformation",
       "tag_type": "Other"
     },
     {
       "name": "Config Files",
-      "tag": "configfile",
+      "value": "configfile",
       "tag_type": "Other"
     },
     {
       "name": "Configuration Management",
-      "tag": "configmanagement",
+      "value": "configmanagement",
       "tag_type": "Other"
     },
     {
       "name": "Containers",
-      "tag": "container",
+      "value": "container",
       "tag_type": "Other"
     },
     {
       "name": "Continuous Integration",
-      "tag": "ci",
+      "value": "ci",
       "tag_type": "Other"
     },
     {
       "name": "CSS/SASS/SCSS",
-      "tag": "css",
+      "value": "css",
       "tag_type": "Other"
     },
     {
       "name": "Deno",
-      "tag": "deno",
+      "value": "deno",
       "tag_type": "Other"
     },
     {
       "name": "Dockerfile",
-      "tag": "dockerfile",
+      "value": "dockerfile",
       "tag_type": "Other"
     },
     {
       "name": "Embedded Ruby (a.k.a. ERB, eRuby)",
-      "tag": "erb",
+      "value": "erb",
       "tag_type": "Other"
     },
     {
       "name": "Embedded",
-      "tag": "embedded",
+      "value": "embedded",
       "tag_type": "Other"
     },
     {
       "name": "Formatter",
-      "tag": "formatter",
+      "value": "formatter",
       "tag_type": "Other"
     },
     {
       "name": "Gherkin",
-      "tag": "gherkin",
+      "value": "gherkin",
       "tag_type": "Other"
     },
     {
       "name": "git",
-      "tag": "git",
+      "value": "git",
       "tag_type": "Other"
     },
     {
       "name": "GraphQL",
-      "tag": "graphql",
+      "value": "graphql",
       "tag_type": "Other"
     },
     {
       "name": "Haml",
-      "tag": "haml",
+      "value": "haml",
       "tag_type": "Other"
     },
     {
       "name": "HTML",
-      "tag": "html",
+      "value": "html",
       "tag_type": "Other"
     },
     {
       "name": "IDE Plugins",
-      "tag": "ide",
+      "value": "ide",
       "tag_type": "Other"
     },
     {
       "name": "JSON",
-      "tag": "json",
+      "value": "json",
       "tag_type": "Other"
     },
     {
       "name": "JSON Schema",
-      "tag": "jsonschema",
+      "value": "jsonschema",
       "tag_type": "Other"
     },
     {
       "name": "Kubernetes",
-      "tag": "kubernetes",
+      "value": "kubernetes",
       "tag_type": "Other"
     },
     {
       "name": "Laravel",
-      "tag": "laravel",
+      "value": "laravel",
       "tag_type": "Other"
     },
     {
       "name": "LaTeX",
-      "tag": "latex",
+      "value": "latex",
       "tag_type": "Other"
     },
     {
       "name": "Less",
-      "tag": "less",
+      "value": "less",
       "tag_type": "Other"
     },
     {
       "name": "Makefiles",
-      "tag": "make",
+      "value": "make",
       "tag_type": "Other"
     },
     {
       "name": "Markdown",
-      "tag": "markdown",
+      "value": "markdown",
       "tag_type": "Other"
     },
     {
       "name": "Metalinter",
-      "tag": "meta",
+      "value": "meta",
       "tag_type": "Other"
     },
     {
       "name": "Mobile",
-      "tag": "mobile",
+      "value": "mobile",
       "tag_type": "Other"
     },
     {
       "name": "More collections",
-      "tag": "collection",
+      "value": "collection",
       "tag_type": "Other"
     },
     {
       "name": "Nix",
-      "tag": "nix",
+      "value": "nix",
       "tag_type": "Other"
     },
     {
       "name": "Node.js",
-      "tag": "nodejs",
+      "value": "nodejs",
       "tag_type": "Other"
     },
     {
       "name": "Packages",
-      "tag": "package",
+      "value": "package",
       "tag_type": "Other"
     },
     {
       "name": "PhoneGap",
-      "tag": "phonegap",
+      "value": "phonegap",
       "tag_type": "Other"
     },
     {
       "name": "Protocol Buffers",
-      "tag": "protobuf",
+      "value": "protobuf",
       "tag_type": "Other"
     },
     {
       "name": "Puppet",
-      "tag": "puppet",
+      "value": "puppet",
       "tag_type": "Other"
     },
     {
       "name": "Rails",
-      "tag": "rails",
+      "value": "rails",
       "tag_type": "Other"
     },
     {
       "name": "reStructuredText",
-      "tag": "rst",
+      "value": "rst",
       "tag_type": "Other"
     },
     {
       "name": "Security/SAST",
-      "tag": "security",
+      "value": "security",
       "tag_type": "Other"
     },
     {
       "name": "Smart Contracts",
-      "tag": "smart-contracts",
+      "value": "smart-contracts",
       "tag_type": "Other"
     },
     {
       "name": "Snakemake",
-      "tag": "snakemake",
+      "value": "snakemake",
       "tag_type": "Other"
     },
     {
       "name": "Support",
-      "tag": "support",
+      "value": "support",
       "tag_type": "Other"
     },
     {
       "name": "Template-Languages",
-      "tag": "template",
+      "value": "template",
       "tag_type": "Other"
     },
     {
       "name": "Terraform",
-      "tag": "terraform",
+      "value": "terraform",
       "tag_type": "Other"
     },
     {
       "name": "Translation",
-      "tag": "translation",
+      "value": "translation",
       "tag_type": "Other"
     },
     {
       "name": "Vue.js",
-      "tag": "vue",
+      "value": "vue",
       "tag_type": "Other"
     },
     {
       "name": "Vyper (Smart contract)",
-      "tag": "vyper",
+      "value": "vyper",
       "tag_type": "Other"
     },
     {
       "name": "Webassembly",
-      "tag": "wasm",
+      "value": "wasm",
       "tag_type": "Other"
     },
     {
       "name": "Writing",
-      "tag": "writing",
+      "value": "writing",
       "tag_type": "Other"
     },
     {
       "name": "XML",
-      "tag": "xml",
+      "value": "xml",
       "tag_type": "Other"
     },
     {
       "name": "YAML",
-      "tag": "yaml",
+      "value": "yaml",
       "tag_type": "Other"
     }
   ]

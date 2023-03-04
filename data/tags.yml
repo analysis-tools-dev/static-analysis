@@ -1,384 +1,384 @@
 - name: .editorconfig
-  tag: editorconfig
+  value: editorconfig
   type: other
 - name: .env
-  tag: dotenv
+  value: dotenv
   type: other
 - name: .NET
-  tag: dotnet
+  value: dotnet
   type: language
 - name: ABAP
-  tag: abap
+  value: abap
   type: language
 - name: ActionScript
-  tag: actionscript
+  value: actionscript
   type: language
 - name: Active Server Pages
-  tag: asp
+  value: asp
   type: language
 - name: Ada
-  tag: ada
+  value: ada
   type: language
 - name: Angular
-  tag: angular
+  value: angular
   type: other
 - name: Ansible
-  tag: ansible
+  value: ansible
   type: other
 - name: Apex
-  tag: apex
+  value: apex
   type: language
 - name: Archive
-  tag: archive
+  value: archive
   type: other
 - name: ASP.NET
-  tag: aspnet
+  value: aspnet
   type: language
 - name: Assembly
-  tag: asm
+  value: asm
   type: language
 - name: Awk
-  tag: awk
+  value: awk
   type: language
 - name: Azure Resource Manager
-  tag: arm
+  value: arm
   type: other
 - name: Binaries
-  tag: binary
+  value: binary
   type: other
 - name: Build tools
-  tag: buildtool
+  value: buildtool
   type: other
 - name: C
-  tag: c
+  value: c
   type: language
 - name: C#
-  tag: csharp
+  value: csharp
   type: language
 - name: C++
-  tag: cpp
+  value: cpp
   type: language
 - name: Clojure
-  tag: clojure
+  value: clojure
   type: language
 - name: Cloud Formation
-  tag: cloudformation
+  value: cloudformation
   type: other
 - name: COBOL
-  tag: cobol
+  value: cobol
   type: language
 - name: CoffeeScript
-  tag: coffeescript
+  value: coffeescript
   type: language
 - name: ColdFusion
-  tag: coldfusion
+  value: coldfusion
   type: language
 - name: Config Files
-  tag: configfile
+  value: configfile
   type: other
 - name: Configuration Management
-  tag: configmanagement
+  value: configmanagement
   type: other
 - name: Containers
-  tag: container
+  value: container
   type: other
 - name: Continuous Integration
-  tag: ci
+  value: ci
   type: other
 - name: Crystal
-  tag: crystal
+  value: crystal
   type: language
 - name: CSS/SASS/SCSS
-  tag: css
+  value: css
   type: other
 - name: Dart
-  tag: dart
+  value: dart
   type: language
 - name: Delphi
-  tag: delphi
+  value: delphi
   type: language
 - name: Deno
-  tag: deno
+  value: deno
   type: other
 - name: Dlang
-  tag: dlang
+  value: dlang
   type: language
 - name: Dockerfile
-  tag: dockerfile
+  value: dockerfile
   type: other
 - name: Elixir
-  tag: elixir
+  value: elixir
   type: language
 - name: Elm
-  tag: elm
+  value: elm
   type: language
 - name: Embedded Ruby (a.k.a. ERB, eRuby)
-  tag: erb
+  value: erb
   type: other
 - name: Embedded
-  tag: embedded
+  value: embedded
   type: other
 - name: Erlang
-  tag: erlang
+  value: erlang
   type: language
 - name: F#
-  tag: fsharp
+  value: fsharp
   type: language
 - name: Formatter
-  tag: formatter
+  value: formatter
   type: other
 - name: Fortran
-  tag: fortran
+  value: fortran
   type: language
 - name: Gherkin
-  tag: gherkin
+  value: gherkin
   type: other
 - name: Go
-  tag: go
+  value: go
   type: language
 - name: git
-  tag: git
+  value: git
   type: other
 - name: GraphQL
-  tag: graphql
+  value: graphql
   type: other
 - name: Groovy
-  tag: groovy
+  value: groovy
   type: language
 - name: Haml
-  tag: haml
+  value: haml
   type: other
 - name: Haskell
-  tag: haskell
+  value: haskell
   type: language
 - name: Haxe
-  tag: haxe
+  value: haxe
   type: language
 - name: HTML
-  tag: html
+  value: html
   type: other
 - name: IDE Plugins
-  tag: ide
+  value: ide
   type: other
 - name: Java
-  tag: java
+  value: java
   type: language
 - name: JavaScript
-  tag: javascript
+  value: javascript
   type: language
 - name: JavaServer Pages
-  tag: jsp
+  value: jsp
   type: language
 - name: JSON
-  tag: json
+  value: json
   type: other
 - name: JSON Schema
-  tag: jsonschema
+  value: jsonschema
   type: other
 - name: JSX
-  tag: jsx
+  value: jsx
   type: language
 - name: Julia
-  tag: julia
+  value: julia
   type: language
 - name: Kotlin
-  tag: kotlin
+  value: kotlin
   type: language
 - name: Kubernetes
-  tag: kubernetes
+  value: kubernetes
   type: other
 - name: Laravel
-  tag: laravel
+  value: laravel
   type: other
 - name: LaTeX
-  tag: latex
+  value: latex
   type: other
 - name: Less
-  tag: less
+  value: less
   type: other
 - name: Lightning Web Components
-  tag: lwc
+  value: lwc
   type: language
 - name: Lisp
-  tag: lisp
+  value: lisp
   type: language
 - name: Lua
-  tag: lua
+  value: lua
   type: language
 - name: Makefiles
-  tag: make
+  value: make
   type: other
 - name: Markdown
-  tag: markdown
+  value: markdown
   type: other
 - name: MATLAB
-  tag: matlab
+  value: matlab
   type: language
 - name: Metalinter
-  tag: meta
+  value: meta
   type: other
 - name: Miranda
-  tag: miranda
+  value: miranda
   type: language
 - name: Mobile
-  tag: mobile
+  value: mobile
   type: other
 - name: Modula-2
-  tag: modula-2
+  value: modula-2
   type: language
 - name: More collections
-  tag: collection
+  value: collection
   type: other
 - name: Nim
-  tag: nim
+  value: nim
   type: language
 - name: Nix
-  tag: nix
+  value: nix
   type: other
 - name: Node.js
-  tag: nodejs
+  value: nodejs
   type: other
 - name: Obj-C
-  tag: objectivec
+  value: objectivec
   type: language
 - name: Objective C
-  tag: objectivec
+  value: objectivec
   type: language
 - name: Ocaml
-  tag: ocaml
+  value: ocaml
   type: language
 - name: Packages
-  tag: package
+  value: package
   type: other
 - name: Pascal
-  tag: pascal
+  value: pascal
   type: language
 - name: Perl
-  tag: perl
+  value: perl
   type: language
 - name: PhoneGap
-  tag: phonegap
+  value: phonegap
   type: other
 - name: PHP
-  tag: php
+  value: php
   type: language
 - name: PL/SQL
-  tag: plsql
+  value: plsql
   type: language
 - name: PowerShell
-  tag: powershell
+  value: powershell
   type: language
 - name: Protocol Buffers
-  tag: protobuf
+  value: protobuf
   type: other
 - name: Puppet
-  tag: puppet
+  value: puppet
   type: other
 - name: Python
-  tag: python
+  value: python
   type: language
 - name: R
-  tag: r
+  value: r
   type: language
 - name: Rails
-  tag: rails
+  value: rails
   type: other
 - name: Raku
-  tag: raku
+  value: raku
   type: language
 - name: reStructuredText
-  tag: rst
+  value: rst
   type: other
 - name: RPG
-  tag: rpg
+  value: rpg
   type: language
 - name: Ruby
-  tag: ruby
+  value: ruby
   type: language
 - name: Rust
-  tag: rust
+  value: rust
   type: language
 - name: Scala
-  tag: scala
+  value: scala
   type: language
 - name: Security/SAST
-  tag: security
+  value: security
   type: other
 - name: Shell
-  tag: shell
+  value: shell
   type: language
 - name: Smart Contracts
-  tag: smart-contracts
+  value: smart-contracts
   type: other
 - name: Snakemake
-  tag: snakemake
+  value: snakemake
   type: other
 - name: SQL
-  tag: sql
+  value: sql
   type: language
 - name: Support
-  tag: support
+  value: support
   type: other
 - name: Swift
-  tag: swift
+  value: swift
   type: language
 - name: Tcl
-  tag: tcl
+  value: tcl
   type: language
 - name: Template-Languages
-  tag: template
+  value: template
   type: other
 - name: Terraform
-  tag: terraform
+  value: terraform
   type: other
 - name: Translation
-  tag: translation
+  value: translation
   type: other
 - name: TSQL
-  tag: tsql
+  value: tsql
   type: language
 - name: TypeScript
-  tag: typescript
+  value: typescript
   type: language
 - name: VBScript
-  tag: vbscript
+  value: vbscript
   type: language
 - name: Verilog/SystemVerilog
-  tag: verilog
+  value: verilog
   type: language
 - name: VHDL
-  tag: vhdl
+  value: vhdl
   type: language
 - name: Vim Script
-  tag: vim-script
+  value: vim-script
   type: language
 - name: Visual Basic
-  tag: vbasic
+  value: vbasic
   type: language
 - name: Visual Basic .NET
-  tag: vbnet
+  value: vbnet
   type: language
 - name: Visual Basic for Applications (VBA)
-  tag: vba
+  value: vba
   type: language
 - name: Visualforce
-  tag: visualforce
+  value: visualforce
   type: language
 - name: Vue.js
-  tag: vue
+  value: vue
   type: other
 - name: Vyper (Smart contract)
-  tag: vyper
+  value: vyper
   type: other
 - name: Webassembly
-  tag: wasm
+  value: wasm
   type: other
 - name: Writing
-  tag: writing
+  value: writing
   type: other
 - name: XML
-  tag: xml
+  value: xml
   type: other
 - name: YAML
-  tag: yaml
+  value: yaml
   type: other
