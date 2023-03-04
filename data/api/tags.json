@@ -196,23 +196,8 @@
       "tag_type": "Language"
     },
     {
-      "name": "Miranda",
-      "value": "miranda",
-      "tag_type": "Language"
-    },
-    {
-      "name": "Modula-2",
-      "value": "modula-2",
-      "tag_type": "Language"
-    },
-    {
       "name": "Nim",
       "value": "nim",
-      "tag_type": "Language"
-    },
-    {
-      "name": "Obj-C",
-      "value": "objectivec",
       "tag_type": "Language"
     },
     {
@@ -263,11 +248,6 @@
     {
       "name": "Raku",
       "value": "raku",
-      "tag_type": "Language"
-    },
-    {
-      "name": "RPG",
-      "value": "rpg",
       "tag_type": "Language"
     },
     {
@@ -326,11 +306,6 @@
       "tag_type": "Language"
     },
     {
-      "name": "VHDL",
-      "value": "vhdl",
-      "tag_type": "Language"
-    },
-    {
       "name": "Vim Script",
       "value": "vim-script",
       "tag_type": "Language"
@@ -358,18 +333,8 @@
   ],
   "other": [
     {
-      "name": ".editorconfig",
-      "value": "editorconfig",
-      "tag_type": "Other"
-    },
-    {
       "name": ".env",
       "value": "dotenv",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Angular",
-      "value": "angular",
       "tag_type": "Other"
     },
     {
@@ -463,33 +428,13 @@
       "tag_type": "Other"
     },
     {
-      "name": "GraphQL",
-      "value": "graphql",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Haml",
-      "value": "haml",
-      "tag_type": "Other"
-    },
-    {
       "name": "HTML",
       "value": "html",
       "tag_type": "Other"
     },
     {
-      "name": "IDE Plugins",
-      "value": "ide",
-      "tag_type": "Other"
-    },
-    {
       "name": "JSON",
       "value": "json",
-      "tag_type": "Other"
-    },
-    {
-      "name": "JSON Schema",
-      "value": "jsonschema",
       "tag_type": "Other"
     },
     {
@@ -533,11 +478,6 @@
       "tag_type": "Other"
     },
     {
-      "name": "More collections",
-      "value": "collection",
-      "tag_type": "Other"
-    },
-    {
       "name": "Nix",
       "value": "nix",
       "tag_type": "Other"
@@ -573,11 +513,6 @@
       "tag_type": "Other"
     },
     {
-      "name": "reStructuredText",
-      "value": "rst",
-      "tag_type": "Other"
-    },
-    {
       "name": "Security/SAST",
       "value": "security",
       "tag_type": "Other"
@@ -585,11 +520,6 @@
     {
       "name": "Smart Contracts",
       "value": "smart-contracts",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Snakemake",
-      "value": "snakemake",
       "tag_type": "Other"
     },
     {
@@ -615,11 +545,6 @@
     {
       "name": "Vue.js",
       "value": "vue",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Vyper (Smart contract)",
-      "value": "vyper",
       "tag_type": "Other"
     },
     {

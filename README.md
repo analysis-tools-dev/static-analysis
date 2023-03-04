@@ -96,7 +96,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 #### [Other](#other-1)
 
-- [Angular](#angular)
 - [Ansible](#ansible)
 - [Archive](#archive)
 - [Azure Resource Manager](#arm)
@@ -1445,12 +1444,6 @@ TSLint is an extensible static analysis tool that checks TypeScript code for rea
 
 
 
-<h2 id="angular">Angular</h2>
-
-
-- [Angular ESLint](https://github.com/angular-eslint/angular-eslint#readme) — Linter for Angular projects
-
-
 <h2 id="ansible">Ansible</h2>
 
 
@@ -1766,6 +1759,8 @@ It is inspired by, contains code from and is designed to stay close to [Kubeval]
 
 
 - [Enlightn](https://www.laravel-enlightn.com/) — A static and dynamic analysis tool for Laravel applications that provides recommendations to improve the performance, security and code reliability of Laravel apps. Contains 120 automated checks.
+
+- [larastan](https://github.com/nunomaduro/larastan) — Adds static analysis to Laravel improving developer productivity and code quality. It is a wrapper around PHPStan.
 
 
 <h2 id="make">Makefiles</h2>

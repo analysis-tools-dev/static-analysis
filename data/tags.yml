@@ -1,6 +1,3 @@
-- name: .editorconfig
-  value: editorconfig
-  type: other
 - name: .env
   value: dotenv
   type: other
@@ -19,9 +16,6 @@
 - name: Ada
   value: ada
   type: language
-- name: Angular
-  value: angular
-  type: other
 - name: Ansible
   value: ansible
   type: other
@@ -139,15 +133,9 @@
 - name: git
   value: git
   type: other
-- name: GraphQL
-  value: graphql
-  type: other
 - name: Groovy
   value: groovy
   type: language
-- name: Haml
-  value: haml
-  type: other
 - name: Haskell
   value: haskell
   type: language
@@ -156,9 +144,6 @@
   type: language
 - name: HTML
   value: html
-  type: other
-- name: IDE Plugins
-  value: ide
   type: other
 - name: Java
   value: java
@@ -171,9 +156,6 @@
   type: language
 - name: JSON
   value: json
-  type: other
-- name: JSON Schema
-  value: jsonschema
   type: other
 - name: JSX
   value: jsx
@@ -217,17 +199,8 @@
 - name: Metalinter
   value: meta
   type: other
-- name: Miranda
-  value: miranda
-  type: language
 - name: Mobile
   value: mobile
-  type: other
-- name: Modula-2
-  value: modula-2
-  type: language
-- name: More collections
-  value: collection
   type: other
 - name: Nim
   value: nim
@@ -238,9 +211,6 @@
 - name: Node.js
   value: nodejs
   type: other
-- name: Obj-C
-  value: objectivec
-  type: language
 - name: Objective C
   value: objectivec
   type: language
@@ -286,12 +256,6 @@
 - name: Raku
   value: raku
   type: language
-- name: reStructuredText
-  value: rst
-  type: other
-- name: RPG
-  value: rpg
-  type: language
 - name: Ruby
   value: ruby
   type: language
@@ -309,9 +273,6 @@
   type: language
 - name: Smart Contracts
   value: smart-contracts
-  type: other
-- name: Snakemake
-  value: snakemake
   type: other
 - name: SQL
   value: sql
@@ -346,9 +307,6 @@
 - name: Verilog/SystemVerilog
   value: verilog
   type: language
-- name: VHDL
-  value: vhdl
-  type: language
 - name: Vim Script
   value: vim-script
   type: language
@@ -366,9 +324,6 @@
   type: language
 - name: Vue.js
   value: vue
-  type: other
-- name: Vyper (Smart contract)
-  value: vyper
   type: other
 - name: Webassembly
   value: wasm
