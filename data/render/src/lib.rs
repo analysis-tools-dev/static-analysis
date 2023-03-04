@@ -124,7 +124,7 @@ pub fn create_api(catalog: Catalog, languages: &[Tag], other_tags: &[Tag]) -> Re
             .iter()
             .filter_map(|lang| {
                 if entry.tags.contains(lang) {
-                    entry.tags.get(lang).map(|tag| tag.tag.clone())
+                    entry.tags.get(lang).map(|tag| tag.value.clone())
                 } else {
                     None
                 }
@@ -136,7 +136,7 @@ pub fn create_api(catalog: Catalog, languages: &[Tag], other_tags: &[Tag]) -> Re
             .iter()
             .filter_map(|other| {
                 if entry.tags.contains(other) {
-                    entry.tags.get(other).map(|tag| tag.tag.clone())
+                    entry.tags.get(other).map(|tag| tag.value.clone())
                 } else {
                     None
                 }

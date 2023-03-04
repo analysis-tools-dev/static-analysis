@@ -22,6 +22,6 @@ tags:
   - jsx
 license: proprietary
 types:
-  - web
-homepage: 'https://offensive360.com/'
+  - service
+homepage: "https://offensive360.com/"
 description: Commercial Static Code Analysis system doesn't require building the source code or pre-compilation.

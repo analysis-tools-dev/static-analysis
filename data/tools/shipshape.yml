@@ -10,8 +10,8 @@ deprecated: true
 license: Apache License 2.0
 types:
   - cli
-source: 'https://github.com/google/shipshape'
-homepage: 'https://github.com/google/shipshape'
+source: "https://github.com/google/shipshape"
+homepage: "https://github.com/google/shipshape"
 description: >-
   Static program analysis platform that allows custom analyzers to plug in
   through a common interface.

@@ -13,8 +13,8 @@
     ],
     "types": [
       "cli",
-      "ide-plugin",
-      "service"
+      "service",
+      "ide-plugin"
     ],
     "homepage": "https://abaplint.org",
     "source": "https://github.com/abaplint/abaplint",
@@ -3284,8 +3284,8 @@
       "MIT"
     ],
     "types": [
-      "ide-plugin",
-      "service"
+      "service",
+      "ide-plugin"
     ],
     "homepage": "https://github.com/github/codeql",
     "source": null,
@@ -3324,7 +3324,7 @@
       "Sustainable Use License"
     ],
     "types": [
-      "cli,",
+      "cli",
       "ide-plugin"
     ],
     "homepage": "https://codeque.co",
@@ -3538,8 +3538,8 @@
       "proprietary"
     ],
     "types": [
-      "ide-plugin",
-      "service"
+      "service",
+      "ide-plugin"
     ],
     "homepage": "https://www.codesee.io/",
     "source": null,
@@ -5811,7 +5811,7 @@
     ],
     "types": [
       "cli",
-      "web"
+      "service"
     ],
     "homepage": "https://github.com/glato/emerge",
     "source": "https://github.com/glato/emerge",
@@ -7185,7 +7185,7 @@
     ],
     "types": [
       "cli",
-      "ide"
+      "ide-plugin"
     ],
     "homepage": "https://goblint.in.tum.de",
     "source": "https://github.com/goblint/analyzer",
@@ -10759,8 +10759,8 @@
     ],
     "types": [
       "cli",
-      "ide-plugin",
-      "service"
+      "service",
+      "ide-plugin"
     ],
     "homepage": "https://mythx.io",
     "source": null,
@@ -11207,7 +11207,7 @@
       "proprietary"
     ],
     "types": [
-      "web"
+      "service"
     ],
     "homepage": "https://offensive360.com/",
     "source": null,
@@ -11653,8 +11653,8 @@
     ],
     "types": [
       "cli",
-      "ide-plugin",
-      "service"
+      "service",
+      "ide-plugin"
     ],
     "homepage": "https://technix.github.io/Perl-Analyzer/",
     "source": "https://github.com/technix/Perl-Analyzer",
@@ -17024,8 +17024,7 @@
       "proprietary"
     ],
     "types": [
-      "cli",
-      "desktop"
+      "cli"
     ],
     "homepage": "https://securityreviewer.atlassian.net/wiki/spaces/KC/pages/196633/Static+Reviewer",
     "source": null,
@@ -17685,8 +17684,8 @@
       "proprietary"
     ],
     "types": [
-      "ide-plugin",
-      "service"
+      "service",
+      "ide-plugin"
     ],
     "homepage": "https://www.cqse.eu/en/teamscale/overview/",
     "source": null,
@@ -17970,8 +17969,7 @@
       "Apache-2.0 License"
     ],
     "types": [
-      "service",
-      "web"
+      "service"
     ],
     "homepage": "https://github.com/deepfence/ThreatMapper",
     "source": "https://github.com/deepfence/ThreatMapper",
