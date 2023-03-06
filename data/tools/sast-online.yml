@@ -1,6 +1,6 @@
 name: SAST Online
 categories:
-  - sast
+  - linter
 tags:
   - mobile
 license: Commercial or Free
