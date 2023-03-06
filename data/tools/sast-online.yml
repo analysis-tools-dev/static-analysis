@@ -5,7 +5,7 @@ tags:
   - mobile
 license: Commercial or Free
 types:
-  - online
+  - service
 source: 'https://sast.online/'
 homepage: 'https://sast.online/'
 description: Examine the Android Source code to identify any security issues or vulnerabilities.
