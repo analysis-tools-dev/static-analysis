@@ -1,0 +1,14 @@
+name: SAST Online
+categories:
+  - linter
+tags:
+  - mobile
+license: proprietary
+types:
+  - service
+pricing: https://sast.online/pricing
+plans:
+  free: true
+source: "https://sast.online/"
+homepage: "https://sast.online/"
+description: Examine the Android Source code to identify any security issues or vulnerabilities.
