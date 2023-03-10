@@ -1,0 +1,12 @@
+name: diff.rs
+categories:
+  - linter
+tags:
+  - rust
+license: MIT
+types:
+  - cli
+source: "https://github.com/xfbs/diff.rs"
+homepage: "https://diff.rs"
+description: >-
+  Web application (WASM) to render a diff between Rust crate versions.
