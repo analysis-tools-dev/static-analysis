@@ -1,0 +1,14 @@
+name: ktool
+categories:
+  - linter
+tags:
+  - binary
+  - security
+license: MIT
+types:
+  - cli
+source: "https://github.com/cxnder/ktool"
+homepage: "https://ktool.cynder.me/en/latest/ktool.html"
+description: >-
+  Fully cross-platform toolkit and library for MachO+Obj-C editing/analysis.
+  Includes a cli kit, a curses GUI, ObjC header dumping, and much more.

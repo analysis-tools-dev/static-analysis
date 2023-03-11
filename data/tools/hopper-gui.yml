@@ -1,0 +1,14 @@
+name: Hopper
+categories:
+  - linter
+tags:
+  - binary
+license: proprietary
+types:
+  - gui
+homepage: "https://www.hopperapp.com/"
+description: >-
+  macOS and Linux reverse engineering tool that lets you disassemble, decompile
+  and debug applications. Hopper displays the code using different
+  representations, e.g. the Control Flow Graph, and the pseudo-code of a
+  procedure. Supports Apple Silicon.

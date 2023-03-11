@@ -8094,6 +8094,33 @@
     "demos": null,
     "wrapper": null
   },
+  "holistic": {
+    "name": "holistic",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "sql"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "service"
+    ],
+    "homepage": "https://holistic.dev/",
+    "source": null,
+    "pricing": null,
+    "plans": null,
+    "description": "More than 1,300 rules to analyze SQL queries. Takes an SQL schema definition and the query source code to generate improvement recommendations. Detects code smells, unused indexes, unused tables, views, materialized views, and more.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "hopper": {
     "name": "Hopper",
     "categories": [
@@ -9234,6 +9261,34 @@
     "pricing": null,
     "plans": null,
     "description": "An anti-bikeshedding Kotlin linter with built-in formatter.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "ktool": {
+    "name": "ktool",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "binary",
+      "security"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://ktool.cynder.me/en/latest/ktool.html",
+    "source": "https://github.com/cxnder/ktool",
+    "pricing": null,
+    "plans": null,
+    "description": "Fully cross-platform toolkit and library for MachO+Obj-C editing/analysis. Includes a cli kit, a curses GUI, ObjC header dumping, and much more.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
