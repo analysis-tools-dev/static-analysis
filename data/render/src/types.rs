@@ -89,6 +89,8 @@ pub struct ParsedEntry {
 pub enum ToolType {
     #[serde(rename = "cli")]
     Commandline,
+    #[serde(rename = "gui")]
+    GUI,
     #[serde(rename = "service")]
     Service,
     #[serde(rename = "ide-plugin")]
