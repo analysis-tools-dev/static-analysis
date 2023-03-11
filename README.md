@@ -39,62 +39,59 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 #### [Programming Languages](#programming-languages-1)
 
-<details>
- <summary>Show languages</summary>
-  <!-- Please use HTML syntax here so that it works for Github and mkdocs -->
-  <ul>
-    <li><a href="#abap">ABAP</a></li>
-    <li><a href="#ada">Ada</a></li>
-    <li><a href="#asm">Assembly</a></li>
-    <li><a href="#awk">Awk</a></li>
-    <li><a href="#c">C</a></li>
-    <li><a href="#csharp">C#</a></li>
-    <li><a href="#cpp">C++</a></li>
-    <li><a href="#clojure">Clojure</a></li>
-    <li><a href="#coffeescript">CoffeeScript</a></li>
-    <li><a href="#coldfusion">ColdFusion</a></li>
-    <li><a href="#crystal">Crystal</a></li>
-    <li><a href="#dart">Dart</a></li>
-    <li><a href="#delphi">Delphi</a></li>
-    <li><a href="#dlang">Dlang</a></li>
-    <li><a href="#elixir">Elixir</a></li>
-    <li><a href="#elm">Elm</a></li>
-    <li><a href="#erlang">Erlang</a></li>
-    <li><a href="#fsharp">F#</a></li>
-    <li><a href="#fortran">Fortran</a></li>
-    <li><a href="#go">Go</a></li>
-    <li><a href="#groovy">Groovy</a></li>
-    <li><a href="#haskell">Haskell</a></li>
-    <li><a href="#haxe">Haxe</a></li>
-    <li><a href="#java">Java</a></li>
-    <li><a href="#javascript">JavaScript</a></li>
-    <li><a href="#julia">Julia</a></li>
-    <li><a href="#kotlin">Kotlin</a></li>
-    <li><a href="#lua">Lua</a></li>
-    <li><a href="#matlab">MATLAB</a></li>
-    <li><a href="#nim">Nim</a></li>
-    <li><a href="#ocaml">Ocaml</a></li>
-    <li><a href="#php">PHP</a></li>
-    <li><a href="#plsql">PL/SQL</a></li>
-    <li><a href="#perl">Perl</a></li>
-    <li><a href="#python">Python</a></li>
-    <li><a href="#r">R</a></li>
-    <li><a href="#ruby">Ruby</a></li>
-    <li><a href="#rust">Rust</a></li>
-    <li><a href="#sql">SQL</a></li>
-    <li><a href="#scala">Scala</a></li>
-    <li><a href="#shell">Shell</a></li>
-    <li><a href="#swift">Swift</a></li>
-    <li><a href="#tcl">Tcl</a></li>
-    <li><a href="#typescript">TypeScript</a></li>
-    <li><a href="#verilog">Verilog/SystemVerilog</a></li>
-    <li><a href="#vim-script">Vim Script</a></li>
-    </ul>
-</details>
+
+- [ABAP](#abap)
+- [Ada](#ada)
+- [Assembly](#asm)
+- [Awk](#awk)
+- [C](#c)
+- [C#](#csharp)
+- [C++](#cpp)
+- [Clojure](#clojure)
+- [CoffeeScript](#coffeescript)
+- [ColdFusion](#coldfusion)
+- [Crystal](#crystal)
+- [Dart](#dart)
+- [Delphi](#delphi)
+- [Dlang](#dlang)
+- [Elixir](#elixir)
+- [Elm](#elm)
+- [Erlang](#erlang)
+- [F#](#fsharp)
+- [Fortran](#fortran)
+- [Go](#go)
+- [Groovy](#groovy)
+- [Haskell](#haskell)
+- [Haxe](#haxe)
+- [Java](#java)
+- [JavaScript](#javascript)
+- [Julia](#julia)
+- [Kotlin](#kotlin)
+- [Lua](#lua)
+- [MATLAB](#matlab)
+- [Nim](#nim)
+- [Ocaml](#ocaml)
+- [PHP](#php)
+- [PL/SQL](#plsql)
+- [Perl](#perl)
+- [Python](#python)
+- [R](#r)
+- [Ruby](#ruby)
+- [Rust](#rust)
+- [SQL](#sql)
+- [Scala](#scala)
+- [Shell](#shell)
+- [Swift](#swift)
+- [Tcl](#tcl)
+- [TypeScript](#typescript)
+- [Verilog/SystemVerilog](#verilog)
+- [Vim Script](#vim-script)
 
 #### [Multiple languages](#multiple-languages-1)
 
 #### [Other](#other-1)
+<details>
+ <summary>Show languages</summary>
 
 - [Ansible](#ansible)
 - [Archive](#archive)
@@ -136,6 +133,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Writing](#writing)
 - [YAML](#yaml)
 - [git](#git)
+</details>
 
 ---
 
