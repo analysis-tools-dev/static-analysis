@@ -39,22 +39,19 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 #### [Programming Languages](#programming-languages-1)
 
-<details>
- <summary>Show languages</summary>
-  <!-- Please use HTML syntax here so that it works for Github and mkdocs -->
-  <ul>
-    {% for (language, _) in linters -%}
-      <li><a href="#{{ language.value }}">{{ language.name }}</a></li>
-    {% endfor -%}
-  </ul>
-</details>
+{% for (language, _) in linters %}
+- [{{ language.name }}](#{{ language.value }})
+  {%- endfor %}
 
-#### [Multiple languages](#multiple-languages-1)
+#### [Multiple Languages](#multiple-languages-1)
 
 #### [Other](#other-1)
+<details>
+ <summary>Show Other</summary>
 {% for (tag, _) in others %}
 - [{{ tag.name }}](#{{ tag.value }})
   {%- endfor %}
+</details>
 
 ---
 
