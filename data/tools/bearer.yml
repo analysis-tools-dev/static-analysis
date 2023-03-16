@@ -19,6 +19,12 @@ types:
   - cli
 source: 'https://github.com/bearer/bearer'
 homepage: 'https://bearer.com'
+plans:
+  - oss
+pricing: https://www.bearer.com/plans
+resources:
+  - title: "Bearer's built-in set of rules to prevent cirtical security risks and vulnerabilities"
+    url: https://docs.bearer.com/reference/rules/
 description: >-
   Open-Source static code analysis tool to discover, 
   filter and prioritize security risks and vulnerabilities 
