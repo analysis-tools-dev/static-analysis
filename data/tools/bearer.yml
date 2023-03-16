@@ -20,7 +20,8 @@ types:
 source: 'https://github.com/bearer/bearer'
 homepage: 'https://bearer.com'
 plans:
-  - oss
+  - oss: true
+  - free: false
 pricing: https://www.bearer.com/plans
 resources:
   - title: "Bearer's built-in set of rules to prevent cirtical security risks and vulnerabilities"
