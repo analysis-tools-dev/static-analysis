@@ -1,0 +1,27 @@
+name: Bearer
+categories:
+  - linter
+tags:
+  - ci
+  - security
+  - HTML
+  - javascript
+  - typescript
+  - json
+  - jsx
+  - rails
+  - ruby
+  - c
+  - go
+  - yaml
+license: Elastic License 2.0
+types:
+  - cli
+source: 'https://github.com/bearer/bearer'
+homepage: 'https://bearer.com'
+description: >-
+  Open-Source static code analysis tool to discover, 
+  filter and prioritize security risks and vulnerabilities 
+  leading to sensitive data exposures (PII, PHI, PD). 
+  Highly configurable and easily extensible, 
+  built for security and engineering teams.
