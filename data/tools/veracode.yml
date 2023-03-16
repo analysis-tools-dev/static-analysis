@@ -22,7 +22,7 @@ description: >-
 resources:
   - title: Veracode Overview
     url: https://www.youtube.com/watch?v=6Fq_UMgwX4I
-  - title: Ten Years in the Making - Veracode (behind the scenes)
-    url: https://www.youtube.com/watch?v=CacOX9ytugc
+  - title: Veracode SCA Scan for VS Code Plugin
+    url: https://www.youtube.com/watch?v=hCl2H8Heqnw
 reviews:
   - https://www.peerspot.com/products/veracode-reviews
