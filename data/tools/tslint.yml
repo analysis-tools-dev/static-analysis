@@ -13,8 +13,8 @@ resources:
   - title: "Nextjs: tslint to eslint"
     url: https://www.youtube.com/watch?v=qXzIW4CfpxA
 description: >-
-  TSLint has been deprecated as of 2019. Please see this issue for more details: 
-  typescript-eslint is now your best option for linting TypeScript.
+  TSLint has been deprecated as of 2019. Please see [this issue](https://github.com/palantir/tslint/issues/4534)
+  for more details. `typescript-eslint` is now your best option for linting TypeScript.
 
   TSLint is an extensible static analysis tool that checks TypeScript code for readability, maintainability, 
   and functionality errors. It is widely supported across modern editors & build systems and can be customized 
