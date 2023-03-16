@@ -4,7 +4,7 @@ categories:
 tags:
   - ci
   - security
-  - HTML
+  - html
   - javascript
   - typescript
   - json
@@ -17,11 +17,11 @@ tags:
 license: Elastic License 2.0
 types:
   - cli
-source: 'https://github.com/bearer/bearer'
-homepage: 'https://bearer.com'
+source: "https://github.com/bearer/bearer"
+homepage: "https://bearer.com"
 plans:
-  - oss: true
-  - free: false
+  oss: true
+  free: false
 pricing: https://www.bearer.com/plans
 resources:
   - title: "Bearer's built-in set of rules to prevent cirtical security risks and vulnerabilities"
