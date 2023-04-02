@@ -1,0 +1,12 @@
+name: zarn
+categories:
+  - linter
+tags:
+  - perl
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/htrgouvea/zarn'
+homepage: 'https://github.com/htrgouvea/zarn'
+description: >-
+  A lightweight static security analysis tool for modern Perl Apps
