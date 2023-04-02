@@ -5524,6 +5524,35 @@
     "demos": null,
     "wrapper": null
   },
+  "dotenet-format": {
+    "name": "dotenet-format",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "dotnet",
+      "csharp",
+      "vbasic"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/dotnet/format",
+    "source": "https://github.com/dotnet/format",
+    "pricing": null,
+    "plans": null,
+    "description": "A code formatter for .NET. Preferences will be read from an `.editorconfig` file, if present, otherwise a default set of preferences will be used. At this time dotnet-format is able to format C# and Visual Basic projects with a subset of supported `.editorconfig` options.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "dotenv-linter": {
     "name": "dotenv-linter",
     "categories": [
@@ -6798,6 +6827,33 @@
         "url": "https://www.youtube.com/watch?v=7CfeUXtDlwQ"
       }
     ],
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "fprettify": {
+    "name": "fprettify",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "fortran"
+    ],
+    "other": [],
+    "licenses": [
+      "NOASSERTION"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://pypi.python.org/pypi/fprettify",
+    "source": "https://github.com/pseewald/fprettify",
+    "pricing": null,
+    "plans": null,
+    "description": "Auto-formatter for modern fortran source code, written in Python.\nFprettify is a tool that provides consistent whitespace, indentation, and delimiter alignment in code, including the ability to change letter case and handle preprocessor directives, all while preserving revision history and tested for editor integration.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
     "reviews": null,
     "demos": null,
     "wrapper": null
@@ -13513,7 +13569,7 @@
     "plans": null,
     "description": "Check that your Puppet manifests conform to the style guide.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -13540,7 +13596,7 @@
     "plans": null,
     "description": "Pure is a static analysis file format checker that checks ZIP files for dangerous compression ratios, spec deviations, malicious archive signatures, mismatching local and central directory headers, ambiguous UTF-8 filenames, directory and symlink traversals, invalid MS-DOS dates, overlapping headers, overflow, underflow,  sparseness, accidental buffer bleeds etc.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -14073,7 +14129,7 @@
     "plans": null,
     "description": "Visualizes metrics and source code.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -14100,7 +14156,7 @@
     "plans": null,
     "description": "Tool to look for several security related Android application vulnerabilities.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -14214,7 +14270,7 @@
     "plans": null,
     "description": "Pattern Based Checking Tool for Ruby.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -14340,7 +14396,7 @@
     "plans": null,
     "description": "An open source static analysis security vulnerability scanner for Ruby on Rails applications.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -14462,7 +14518,7 @@
     "plans": null,
     "description": "The free Visual Studio 2015 extension for C# and VB.NET refactorings, including code best practice analyzers.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,

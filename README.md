@@ -419,6 +419,9 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 <h2 id="fortran">Fortran</h2>
 
 
+- [fprettify](https://pypi.python.org/pypi/fprettify) — Auto-formatter for modern fortran source code, written in Python.
+Fprettify is a tool that provides consistent whitespace, indentation, and delimiter alignment in code, including the ability to change letter case and handle preprocessor directives, all while preserving revision history and tested for editor integration.
+
 - [i-Code CNES for Fortran](https://github.com/lequal/i-CodeCNES) — An open source static code analysis tool for Fortran 77, Fortran 90 and Shell.
 
 
@@ -808,7 +811,7 @@ A ktfmt IntelliJ plugin is available from the plugin repository. To install it, 
 
 - [Psalm](https://psalm.dev) — Static analysis tool for finding type errors in PHP applications.
 
-- [Qafoo Quality Analyzer](https://github.com/Qafoo/QualityAnalyzer) :warning: — Visualizes metrics and source code.
+- [Qafoo Quality Analyzer](https://github.com/Qafoo/QualityAnalyzer) — Visualizes metrics and source code.
 
 - [Reflection](https://github.com/phpDocumentor/Reflection) — Reflection library to do Static Analysis for PHP Projects
 
@@ -980,9 +983,9 @@ YAPF follows a distinctive methodology, originating from the 'clang-format' tool
 
 - [quality](https://github.com/apiology/quality) — Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time.
 
-- [Querly](https://github.com/soutaro/querly) :warning: — Pattern Based Checking Tool for Ruby.
+- [Querly](https://github.com/soutaro/querly) — Pattern Based Checking Tool for Ruby.
 
-- [Railroader](https://railroader.org) :warning: — An open source static analysis security vulnerability scanner for Ruby on Rails applications.
+- [Railroader](https://railroader.org) — An open source static analysis security vulnerability scanner for Ruby on Rails applications.
 
 - [rails_best_practices](https://rails-bestpractices.com) — A code metric tool for Rails projects
 
@@ -1280,6 +1283,8 @@ TSLint is an extensible static analysis tool that checks TypeScript code for rea
 
 - [DevSkim](https://github.com/microsoft/devskim) — Regex-based static analysis tool for Visual Studio, VS Code, and Sublime Text - C/C++, C#, PHP, ASP, Python, Ruby, Java, and others.
 
+- [dotenet-format](https://github.com/dotnet/format) — A code formatter for .NET. Preferences will be read from an `.editorconfig` file, if present, otherwise a default set of preferences will be used. At this time dotnet-format is able to format C# and Visual Basic projects with a subset of supported `.editorconfig` options.
+
 - [Embold](https://embold.io) :copyright: — Intelligent software analytics platform that identifies design issues, code issues, duplication and metrics. Supports Java, C, C++, C#, JavaScript, TypeScript, Python, Go, Kotlin and more.
 
 - [emerge](https://github.com/glato/emerge) — Emerge is a source code and dependency visualizer that can be used to gather insights about source code structure, metrics, dependencies and complexity of software projects. After scanning the source code of a project it provides you an interactive web interface to explore and analyze your project by using graph structures.
@@ -1350,7 +1355,7 @@ TSLint is an extensible static analysis tool that checks TypeScript code for rea
 
 - [Qwiet AI](https://qwiet.ai/) :copyright: — Identify vulnerabilities that are unique to your code base before they reach production. Leverages the Code Property Graph (CPG) to run its analyses concurrently in a single graph of graphs. Automatically finds business logic flaws in dev like hardcoded secrets and logic bombs
 
-- [Refactoring Essentials](https://marketplace.visualstudio.com/items?itemName=SharpDevelopTeam.RefactoringEssentialsforVisualStudio) :warning: — The free Visual Studio 2015 extension for C# and VB.NET refactorings, including code best practice analyzers.
+- [Refactoring Essentials](https://marketplace.visualstudio.com/items?itemName=SharpDevelopTeam.RefactoringEssentialsforVisualStudio) — The free Visual Studio 2015 extension for C# and VB.NET refactorings, including code best practice analyzers.
 
 - [relint](https://github.com/codingjoe/relint) — A static file linter that allows you to write custom rules using regular expressions (RegEx).
 
@@ -1464,7 +1469,7 @@ This project is intended to be used by maintainers of projects who want to offer
 
 - [packj](https://packj.dev) — Packj (pronounced package) is a command line (CLI) tool to vet open-source software packages for "risky" attributes that make them vulnerable to supply chain attacks. This is the tool behind our large-scale security analysis platform Packj.dev that continuously vets packages and provides free reports.
 
-- [pure](https://github.com/ronomon/pure) :warning: — Pure is a static analysis file format checker that checks ZIP files for dangerous compression ratios, spec deviations, malicious archive signatures, mismatching local and central directory headers, ambiguous UTF-8 filenames, directory and symlink traversals, invalid MS-DOS dates, overlapping headers, overflow, underflow,  sparseness, accidental buffer bleeds etc.
+- [pure](https://github.com/ronomon/pure) — Pure is a static analysis file format checker that checks ZIP files for dangerous compression ratios, spec deviations, malicious archive signatures, mismatching local and central directory headers, ambiguous UTF-8 filenames, directory and symlink traversals, invalid MS-DOS dates, overlapping headers, overflow, underflow,  sparseness, accidental buffer bleeds etc.
 
 
 <h2 id="arm">Azure Resource Manager</h2>
@@ -1587,7 +1592,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 - [metadata-json-lint](https://github.com/voxpupuli/metadata-json-lint) — Tool to check the validity of Puppet metadata.json files.
 
-- [Puppet Lint](https://github.com/rodjek/puppet-lint) :warning: — Check that your Puppet manifests conform to the style guide.
+- [Puppet Lint](https://github.com/rodjek/puppet-lint) — Check that your Puppet manifests conform to the style guide.
 
 - [terraform-compliance](https://terraform-compliance.com) — A lightweight, compliance- and security focused, BDD test framework against Terraform.
 
@@ -1826,7 +1831,7 @@ It is inspired by, contains code from and is designed to stay close to [Kubeval]
 
 - [paprika](https://github.com/GeoffreyHecht/paprika) :warning: — A toolkit to detect some code smells in analyzed Android applications.
 
-- [qark](https://github.com/linkedin/qark) :warning: — Tool to look for several security related Android application vulnerabilities.
+- [qark](https://github.com/linkedin/qark) — Tool to look for several security related Android application vulnerabilities.
 
 - [redex](https://fbredex.com) — Redex provides a framework for reading, writing, and analyzing .dex files, and a set of optimization passes  that use this framework to improve the bytecode. An APK optimized by Redex should be smaller and faster.
 
