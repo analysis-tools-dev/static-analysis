@@ -1,0 +1,17 @@
+name: fprettify
+categories:
+  - linter
+tags:
+  - fortran
+license: NOASSERTION
+types:
+  - cli
+source: "https://github.com/pseewald/fprettify"
+homepage: "https://pypi.python.org/pypi/fprettify"
+description: >-
+  Auto-formatter for modern fortran source code, written in Python.
+
+  Fprettify is a tool that provides consistent whitespace, indentation, and
+  delimiter alignment in code, including the ability to change letter case and
+  handle preprocessor directives, all while preserving revision history and
+  tested for editor integration.
