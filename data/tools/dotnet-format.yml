@@ -1,0 +1,17 @@
+name: dotenet-format
+categories:
+  - linter
+tags:
+  - dotnet
+  - csharp
+  - vbasic
+license: MIT
+types:
+  - cli
+source: "https://github.com/dotnet/format"
+homepage: "https://github.com/dotnet/format"
+description: >-
+  A code formatter for .NET. Preferences will be read from an `.editorconfig`
+  file, if present, otherwise a default set of preferences will be used. At this
+  time dotnet-format is able to format C# and Visual Basic projects with a
+  subset of supported `.editorconfig` options.
