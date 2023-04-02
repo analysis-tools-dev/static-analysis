@@ -73,8 +73,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Ocaml](#ocaml)
 - [PHP](#php)
 - [PL/SQL](#plsql)
-- [
-](#perl)
+- [Perl](#perl)
 - [Python](#python)
 - [R](#r)
 - [Ruby](#ruby)
@@ -838,8 +837,6 @@ A ktfmt IntelliJ plugin is available from the plugin repository. To install it, 
 - [perltidy](https://perltidy.sourceforge.net/) — Perltidy is a Perl script which indents and reformats Perl scripts to make them easier to read. 
 The formatting can be controlled with command line parameters. The default parameter settings approximately follow the suggestions in the Perl Style Guide. 
 Besides reformatting scripts, Perltidy can be a great help in tracking down errors with missing or extra braces, parentheses, and square brackets because it is very good at localizing errors.
-
-- [ZARN](https://github.com/htrgouvea/zarn) — A lightweight static security analysis tool for modern Perl Apps
 
 
 <h2 id="python">Python</h2>
