@@ -1,6 +1,6 @@
 name: zarn
 categories:
-  - sast
+  - linter
 tags:
   - perl
 license: MIT License
