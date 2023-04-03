@@ -1,10 +1,4 @@
 {
-  "wsl": 1,
   "violations-lib": 1,
-  "semgrep-supply-chain": 1,
-  "security-code-scan": 1,
-  "pdepend": 1,
-  "elvis": 1,
-  "dialyxir": 1,
-  "codefactor": 1
+  "security-code-scan": 1
 }
