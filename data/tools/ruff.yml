@@ -7,7 +7,7 @@ license: MIT License
 types:
   - cli
 source: 'https://github.com/charliermarsh/ruff'
-homepage: 'https://github.com/charliermarsh/ruff'
+homepage: 'https://astral.sh/ruff'
 resources:
   - title: Python tooling could be much, much faster (announcement)
     url: https://notes.crmarsh.com/python-tooling-could-be-much-much-faster
