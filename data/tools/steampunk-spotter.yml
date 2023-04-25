@@ -16,8 +16,8 @@ source: 'https://gitlab.com/xlab-steampunk/steampunk-spotter-client/spotter-cli'
 homepage: 'https://steampunk.si/spotter/'
 pricing: 'https://steampunk.si/spotter/pricing'
 plans:
-  - free: true
-  - oss: false
+  free: true
+  oss: false
 resources:
   - title: 'Steampunk Spotter: Simplify and Speed up Ansible Upgrades'
     url: https://www.youtube.com/watch?v=JIzph_gqf08
