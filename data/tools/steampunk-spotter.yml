@@ -1,0 +1,26 @@
+name: Steampunk Spotter
+categories:
+  - linter
+  - formatter
+tags:
+  - ansible
+  - configmanagement
+  - security
+license: proprietary
+types:
+  - cli
+  - gui
+  - service
+  - ide-plugin
+source: 'https://gitlab.com/xlab-steampunk/steampunk-spotter-client/spotter-cli'
+homepage: 'https://steampunk.si/spotter/'
+pricing: 'https://steampunk.si/spotter/pricing'
+plans:
+  free: true
+  oss: false
+resources:
+  - title: 'Steampunk Spotter: Simplify and Speed up Ansible Upgrades'
+    url: https://www.youtube.com/watch?v=JIzph_gqf08
+  - title: 'Steampunk Spotter: Demo'
+    url: https://www.youtube.com/watch?v=yeggNPmtv04
+description: 'Ansible Playbook Scanning Tool that analyzes and offers recommendations for your playbooks.'
