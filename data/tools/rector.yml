@@ -1,0 +1,22 @@
+name: rector
+categories:
+  - linter
+tags:
+  - php
+license: MIT
+types:  
+  - cli
+source: 'https://github.com/rectorphp/rector'
+homepage: 'https://getrector.org'
+resources: 
+  - title: "Rector: Install & Setup "
+    url: https://www.youtube.com/watch?v=_Uk95vG3ezQ
+demos:
+  - https://getrector.com/demo
+description: >-
+    Instant Upgrades and Automated Refactoring of any PHP 5.3+ code.
+    It upgrades your code for PHP 7.4, 8.0 and beyond.
+    Rector promises a low false-positive rate because it looks for narrowly
+    defined AST (abstract syntax tree) patterns. 
+    The main use-case are tackling technical debt in your legacy code and removing dead code.
+    Rector provides a set of special rules for Symfony, Doctrine, PHPUnit, and many more.
