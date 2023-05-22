@@ -118,6 +118,9 @@
 - name: F#
   value: fsharp
   type: language
+- name: Flutter
+  value: flutter
+  type: language
 - name: Formatter
   value: formatter
   type: other
