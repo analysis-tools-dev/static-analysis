@@ -1,0 +1,16 @@
+name: lockbud
+categories:
+  - linter
+tags:
+  - rust
+license: BSD-3-Clause
+types:
+  - cli
+source: "https://github.com/BurtonQin/lockbud"
+homepage: "https://github.com/BurtonQin/lockbud"
+description: >-
+  Statically detects Rust deadlocks bugs.
+  It currently detects two common kinds of deadlock bugs:
+  doublelock and locks in conflicting order.
+  It will print bugs in JSON format together with the source code location and
+  an explanation of each bug.
