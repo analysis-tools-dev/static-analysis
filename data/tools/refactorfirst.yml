@@ -1,0 +1,14 @@
+name: RefactorFirst
+categories:
+  - linter
+tags:
+  - ci
+  - java
+  - support
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/jimbethancourt/RefactorFirst'
+homepage: 'https://github.com/jimbethancourt/RefactorFirst'
+description: >-
+  Identifies and prioritizes God Classes and Highly Coupled classes in Java codebases you should refactor first.
