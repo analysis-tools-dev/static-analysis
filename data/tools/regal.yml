@@ -1,0 +1,19 @@
+name: Regal
+categories:
+  - linter
+tags:
+  - rego
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/styrainc/regal'
+homepage: 'https://github.com/styrainc/regal'
+description: >-
+  Regal is a linter for the policy language Rego. Regal aims to catch bugs and mistakes
+  in policy code, while at the same time helping people learn the language, best practices
+  and idiomatic constructs.
+resources:
+  - title: 'Guarding the Guardrails — Introducing Regal, the Rego Linter'
+    url: 'https://www.styra.com/blog/guarding-the-guardrails-introducing-regal-the-rego-linter'
+  - title: 'Regal the Rego Linter, CNCF London meetup, June 2023 (video)'
+    url: 'https://www.youtube.com/watch?v=Xx8npd2TQJ0&t=2567s'

@@ -256,6 +256,9 @@
 - name: Raku
   value: raku
   type: language
+- name: Rego
+  value: rego
+  type: language
 - name: Ruby
   value: ruby
   type: language
