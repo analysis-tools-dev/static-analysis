@@ -251,6 +251,11 @@
       "tag_type": "Language"
     },
     {
+      "name": "Rego",
+      "value": "rego",
+      "tag_type": "Language"
+    },
+    {
       "name": "Ruby",
       "value": "ruby",
       "tag_type": "Language"
