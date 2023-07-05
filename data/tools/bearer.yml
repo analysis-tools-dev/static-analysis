@@ -6,6 +6,7 @@ tags:
   - security
   - html
   - javascript
+  - java
   - typescript
   - json
   - jsx
@@ -18,7 +19,7 @@ license: Elastic License 2.0
 types:
   - cli
 source: "https://github.com/bearer/bearer"
-homepage: "https://bearer.com"
+homepage: "https://github.com/bearer/bearer"
 plans:
   oss: true
   free: false
@@ -26,6 +27,8 @@ pricing: https://www.bearer.com/plans
 resources:
   - title: "Bearer's built-in set of rules to prevent cirtical security risks and vulnerabilities"
     url: https://docs.bearer.com/reference/rules/
+  - title: "Bearer CLI: 2 months in retrospect of new features and improvements!"
+    url: https://www.bearer.com/blog/bearer-cli-2-months-in-retrospect-of-new-features-and-improvements
 description: >-
   Open-Source static code analysis tool to discover, 
   filter and prioritize security risks and vulnerabilities 
