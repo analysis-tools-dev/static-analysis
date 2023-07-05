@@ -1026,6 +1026,7 @@
     "languages": [
       "c",
       "go",
+      "java",
       "javascript",
       "jsx",
       "ruby",
@@ -1045,7 +1046,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://bearer.com",
+    "homepage": "https://github.com/bearer/bearer",
     "source": "https://github.com/bearer/bearer",
     "pricing": "https://www.bearer.com/plans",
     "plans": {
@@ -1059,6 +1060,10 @@
       {
         "title": "Bearer's built-in set of rules to prevent cirtical security risks and vulnerabilities",
         "url": "https://docs.bearer.com/reference/rules/"
+      },
+      {
+        "title": "Bearer CLI: 2 months in retrospect of new features and improvements!",
+        "url": "https://www.bearer.com/blog/bearer-cli-2-months-in-retrospect-of-new-features-and-improvements"
       }
     ],
     "reviews": null,
