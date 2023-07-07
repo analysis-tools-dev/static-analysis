@@ -195,7 +195,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [cppcheck](https://cppcheck.sourceforge.io) — Static analysis of C/C++ code.
 
-- [CppDepend](https://www.cppdepend.com) :warning: :copyright: — Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.
+- [CppDepend](https://www.cppdepend.com) :copyright: — Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.
 
 - [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) — Automated C++ checker that follows Google's style guide.
 
@@ -289,7 +289,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [cppcheck](https://cppcheck.sourceforge.io) — Static analysis of C/C++ code.
 
-- [CppDepend](https://www.cppdepend.com) :warning: :copyright: — Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.
+- [CppDepend](https://www.cppdepend.com) :copyright: — Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.
 
 - [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) — Automated C++ checker that follows Google's style guide.
 
