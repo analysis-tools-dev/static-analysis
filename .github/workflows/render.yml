@@ -29,5 +29,5 @@ jobs:
         uses: peter-evans/repository-dispatch@v1
         with:
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
-          repository: analysis-tools-dev/website
+          repository: analysis-tools-dev/website-next
           event-type: rebuild
