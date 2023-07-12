@@ -461,7 +461,7 @@ Fprettify is a tool that provides consistent whitespace, indentation, and delimi
 
 - [go vet](https://golang.org/cmd/vet) — Examines Go source code and reports suspicious.
 
-- [go-consistent](https://github.com/Quasilyte/go-consistent) :warning: — Analyzer that helps you to make your Go programs more consistent.
+- [go-consistent](https://github.com/Quasilyte/go-consistent) — Analyzer that helps you to make your Go programs more consistent.
 
 - [go-critic](https://github.com/go-critic/go-critic) — Go source code linter that maintains checks which are currently not implemented in other linters.
 

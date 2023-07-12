@@ -7172,7 +7172,7 @@
     "plans": null,
     "description": "Analyzer that helps you to make your Go programs more consistent.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
