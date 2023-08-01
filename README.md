@@ -1320,7 +1320,7 @@ TSLint is an extensible static analysis tool that checks TypeScript code for rea
 
 - [Goodcheck](https://sider.github.io/goodcheck) — Regexp based customizable linter.
 
-- [goone](https://github.com/masibw/goone) — Finds N+1 queries (SQL calls in a for loop) in go code
+- [goone](https://github.com/masibw/goone) :warning: — Finds N+1 queries (SQL calls in a for loop) in go code
 
 - [graudit](http://www.justanotherhacker.com) — Grep rough audit - source code auditing tool.
 
