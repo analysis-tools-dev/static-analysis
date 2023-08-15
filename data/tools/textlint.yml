@@ -1,0 +1,11 @@
+name: textlint
+categories:
+    - linter
+tags:
+    - markdown
+license: MIT Licence
+types:
+    - cli
+source: "https://github.com/textlint/textlint"
+homepage: "https://textlint.github.io/"
+description: textlint is an open source text linting utility written in JavaScript.
