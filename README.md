@@ -887,6 +887,8 @@ It uses the pycodestyle utility to determine what parts of the code needs to be 
 
 - [flake8](https://github.com/PyCQA/flake8) — A wrapper around `pyflakes`, `pycodestyle` and `mccabe`.
 
+- [flakeheaven](https://pypi.org/project/flakeheaven/) — flakeheaven is a python linter built around flake8 to enable inheritable and complex toml configuration.
+
 - [InspectorTiger](https://github.com/thg-consulting/it) :warning: — IT, Inspector Tiger, is a modern python code review tool / framework. It comes with bunch of pre-defined handlers which warns you about improvements and possible bugs. Beside these handlers, you can write your own or use community ones.
 
 - [jedi](https://jedi.readthedocs.io/en/latest) — Autocompletion/static analysis library for Python.
@@ -1826,6 +1828,8 @@ It is inspired by, contains code from and is designed to stay close to [Kubeval]
 
 - [remark-lint](https://remark.js.org) — Pluggable Markdown code style linter written in JavaScript.
 
+- [textlint](https://textlint.github.io/) — textlint is an open source text linting utility written in JavaScript.
+
 
 <h2 id="meta">Metalinter</h2>
 
@@ -1833,6 +1837,8 @@ It is inspired by, contains code from and is designed to stay close to [Kubeval]
 - [ciocheck](https://github.com/ContinuumIO/ciocheck) :warning: — Linter, formatter and test suite helper. As a linter, it is a wrapper around `pep8`, `pydocstyle`, `flake8`, and `pylint`.
 
 - [flake8](https://github.com/PyCQA/flake8) — A wrapper around `pyflakes`, `pycodestyle` and `mccabe`.
+
+- [flakeheaven](https://pypi.org/project/flakeheaven/) — flakeheaven is a python linter built around flake8 to enable inheritable and complex toml configuration.
 
 - [Go Meta Linter](https://github.com/alecthomas/gometalinter) :warning: — Concurrently run Go lint tools and normalise their output. Use `golangci-lint` for new projects.
 

@@ -6491,6 +6491,35 @@
     "demos": null,
     "wrapper": null
   },
+  "flakeheaven": {
+    "name": "flakeheaven",
+    "categories": [
+      "meta"
+    ],
+    "languages": [
+      "python"
+    ],
+    "other": [
+      "meta"
+    ],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://pypi.org/project/flakeheaven/",
+    "source": "https://github.com/flakeheaven/flakeheaven",
+    "pricing": null,
+    "plans": null,
+    "description": "flakeheaven is a python linter built around flake8 to enable inheritable and complex toml configuration.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "flawfinder": {
     "name": "flawfinder",
     "categories": [
@@ -18281,6 +18310,33 @@
     "pricing": null,
     "plans": null,
     "description": "A Language Server Protocol implementation for TeX/LaTeX, including lint capabilities.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "textlint": {
+    "name": "textlint",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "markdown"
+    ],
+    "licenses": [
+      "MIT Licence"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://textlint.github.io/",
+    "source": "https://github.com/textlint/textlint",
+    "pricing": null,
+    "plans": null,
+    "description": "textlint is an open source text linting utility written in JavaScript.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
