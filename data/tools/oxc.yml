@@ -1,0 +1,17 @@
+name: oxc
+categories:
+  - linter
+  - formatter
+tags:
+  - javascript
+  - typescript
+license: MIT License
+types:
+  - cli
+source: "https://github.com/web-infra-dev/oxc"
+homepage: "https://github.com/web-infra-dev/oxc"
+description: >-
+  The Oxidation Compiler is creating a suite of high-performance tools for the
+  JavaScript / TypeScript language re-written in Rust.
+demos:
+  - https://web-infra-dev.github.io/oxc/playground
