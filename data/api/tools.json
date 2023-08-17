@@ -7317,6 +7317,33 @@
     "demos": null,
     "wrapper": null
   },
+  "goast": {
+    "name": "goast",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "go"
+    ],
+    "other": [],
+    "licenses": [
+      "Apache License 2.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/m-mizutani/goast",
+    "source": "https://github.com/m-mizutani/goast",
+    "pricing": null,
+    "plans": null,
+    "description": "Go AST (Abstract Syntax Tree) based static analysis tool with Rego.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "goblint": {
     "name": "Goblint",
     "categories": [
@@ -11564,6 +11591,37 @@
     "demos": null,
     "wrapper": null
   },
+  "oxc": {
+    "name": "oxc",
+    "categories": [
+      "linter",
+      "formatter"
+    ],
+    "languages": [
+      "javascript",
+      "typescript"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/web-infra-dev/oxc",
+    "source": "https://github.com/web-infra-dev/oxc",
+    "pricing": null,
+    "plans": null,
+    "description": "The Oxidation Compiler is creating a suite of high-performance tools for the JavaScript / TypeScript language re-written in Rust.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": [
+      "https://web-infra-dev.github.io/oxc/playground"
+    ],
+    "wrapper": null
+  },
   "packj": {
     "name": "packj",
     "categories": [
@@ -14148,7 +14206,7 @@
     "plans": null,
     "description": "Visualizes metrics and source code.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -14175,7 +14233,7 @@
     "plans": null,
     "description": "Tool to look for several security related Android application vulnerabilities.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -14289,7 +14347,7 @@
     "plans": null,
     "description": "Pattern Based Checking Tool for Ruby.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -14415,7 +14473,7 @@
     "plans": null,
     "description": "An open source static analysis security vulnerability scanner for Ruby on Rails applications.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -14601,7 +14659,7 @@
     "plans": null,
     "description": "The free Visual Studio 2015 extension for C# and VB.NET refactorings, including code best practice analyzers.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -15057,7 +15115,7 @@
     "plans": null,
     "description": "Roodi stands for Ruby Object Oriented Design Inferometer. It parses your Ruby code and warns you about design issues you have based on the checks that it has configured.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -15194,7 +15252,7 @@
     "plans": null,
     "description": "A (WIP) JavaScript linter written in Rust designed to be as fast as possible, customizable, and easy to use.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -15336,7 +15394,7 @@
     "plans": null,
     "description": "Rust Memory Safety & Undefined Behavior Detection. It is capable of analyzing single Rust packages as well as all the packages on crates.io.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -15505,7 +15563,7 @@
     "plans": null,
     "description": "Read and apply the suggestions made by rustc (and third-party lints, like those offered by clippy).",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -15615,7 +15673,7 @@
     "plans": null,
     "description": "Static analysis tool for Golang that protects against SQL injections.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -15642,7 +15700,7 @@
     "plans": null,
     "description": "A Ruby cyclomatic complexity analyzer.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -15939,7 +15997,7 @@
     "plans": null,
     "description": "Linter for SCSS files.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -17092,7 +17150,7 @@
     "plans": null,
     "description": "Automatically identify anti-patterns in SQL queries.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": [
       {
         "title": "SQLCheck: Automated Detection and Diagnosis of SQL Anti-Patterns",
@@ -17595,7 +17653,7 @@
     "plans": null,
     "description": "A programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -18800,7 +18858,7 @@
     "plans": null,
     "description": "TSQL Static Code Analysis Rules for SQL Server.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -19000,7 +19058,7 @@
     "plans": null,
     "description": "With TypL, you just write completely standard JS, and the tool figures out your types via powerful inferencing.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -20027,7 +20085,7 @@
     "plans": null,
     "description": "Pluggable TypeScript and JavaScript linter.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
