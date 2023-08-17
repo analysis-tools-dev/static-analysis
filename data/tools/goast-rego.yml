@@ -1,0 +1,11 @@
+name: goast
+categories:
+  - linter
+tags:
+  - go
+license: Apache License 2.0
+types:
+  - cli
+source: "https://github.com/m-mizutani/goast"
+homepage: "https://github.com/m-mizutani/goast"
+description: Go AST (Abstract Syntax Tree) based static analysis tool with Rego.
