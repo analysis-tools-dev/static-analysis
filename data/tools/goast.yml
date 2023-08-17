@@ -1,11 +1,11 @@
-name: goast
+name: go/ast
 categories:
   - linter
 tags:
   - go
-license: Apache License 2.0
+license: BSD-3-Clause (original text)
 types:
   - cli
-source: "https://github.com/m-mizutani/goast"
-homepage: "https://github.com/m-mizutani/goast"
-description: Go AST (Abstract Syntax Tree) based static analysis tool with Rego.
+source: 'https://github.com/golang/go/tree/master/src/go/ast'
+homepage: 'https://golang.org/pkg/go/ast'
+description: Package ast declares the types used to represent syntax trees for Go packages.
