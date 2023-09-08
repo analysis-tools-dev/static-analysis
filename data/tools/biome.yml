@@ -1,0 +1,19 @@
+name: biome
+categories:
+  - linter
+tags:
+  - javascript
+  - typescript
+  - json
+  - css
+license: MIT
+types:
+  - cli
+source: "https://github.com/biomejs/biome"
+homepage: "https://biomejs.dev"
+description: >-
+  A toolchain for web projects, aimed to provide functionalities to maintain them.
+  Biome formats and lints code in a fraction of a second.
+  It is the successor to Rome.
+  It is designed to eventually replace Biome is designed to eventually replace
+  Babel, ESLint, webpack, Prettier, Jest, and others.
