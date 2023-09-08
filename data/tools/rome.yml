@@ -12,6 +12,8 @@ types:
   - cli
 source: "https://github.com/rome/tools"
 homepage: "https://rome.tools/"
+deprecated: true
 description: >-
-  Rome is a linter, compiler, bundler, and [more](https://rome.tools/#development-status)
+  Rome was a linter, compiler, bundler, and [more](https://rome.tools/#development-status)
   for JavaScript, TypeScript, JSON, HTML, Markdown, and CSS.
+  It has since been succeeded by [biome](https://biomejs.dev/).
