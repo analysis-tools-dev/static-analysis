@@ -9,7 +9,7 @@ tags:
 license: proprietary
 types:
   - cli
-homepage: 'https://www.grammatech.com/products/codesonar'
+homepage: 'https://codesecure.com/our-products/codesonar/'
 description: >-
   Advanced, whole program, deep path, static analysis of C, C++, Java and C# with
   easy-to-understand explanations and code and path visualization.
