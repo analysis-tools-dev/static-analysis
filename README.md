@@ -367,7 +367,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [Dart Code Metrics](https://pub.dev/packages/dart_code_metrics) — Additional linter for Dart. Reports code metrics, checks for anti-patterns and provides additional rules for Dart analyzer.
 
-- [effective_dart](https://pub.dev/packages/effective_dart) :warning: — Linter rules corresponding to the guidelines in Effective Dart
+- [effective_dart](https://pub.dev/packages/effective_dart) — Linter rules corresponding to the guidelines in Effective Dart
 
 - [lint](https://github.com/passsy/dart-lint) — An opinionated, community-driven set of lint rules for Dart and Flutter projects. Like pedantic but stricter
 

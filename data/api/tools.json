@@ -5680,7 +5680,7 @@
     "plans": null,
     "description": "Linter rules corresponding to the guidelines in Effective Dart",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
