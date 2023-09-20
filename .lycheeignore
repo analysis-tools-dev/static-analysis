@@ -4,3 +4,5 @@ https://rome.tools
 https://marketplace.visualstudio.com/items?itemName=rome.rome
 # DeepCode is now part of Snyk
 deepcode.ai
+# Lintian seems to be down. Might be a temporary outage; check back later
+lintian.debian.org
