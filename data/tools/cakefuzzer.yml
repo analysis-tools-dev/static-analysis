@@ -1,0 +1,12 @@
+name: CakeFuzzer
+categories:
+  - linter
+tags:
+  - php
+license: GNU GPL
+types:
+  - cli
+source: 'https://github.com/Zigrin-Security/CakeFuzzer'
+homepage: 'https://zigrin.com/tools/cake-fuzzer/'
+description: >-
+  Web application security testing tool for CakePHP-based web applications. CakeFuzzer employs a predefined set of attacks that are randomly modified before execution. Leveraging its deep understanding of the Cake PHP framework, Cake Fuzzer launches attacks on all potential application entry points.
