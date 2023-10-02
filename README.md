@@ -414,7 +414,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 
 - [elvis](https://github.com/inaka/elvis) — Erlang Style Reviewer.
 
-- [Primitive Erlang Security Tool (PEST)](https://github.com/okeuday/pest) — A tool to do a basic scan of Erlang source code and report any function calls that may cause Erlang source code to be insecure.
+- [Primitive Erlang Security Tool (PEST)](https://github.com/okeuday/pest) :warning: — A tool to do a basic scan of Erlang source code and report any function calls that may cause Erlang source code to be insecure.
 
 
 <h2 id="fsharp">F#</h2>
@@ -776,7 +776,7 @@ A ktfmt IntelliJ plugin is available from the plugin repository. To install it, 
 
 - [PHP Semantic Versioning Checker](https://github.com/tomzx/php-semver-checker) — Suggests a next version according to semantic versioning.
 
-- [PHP-Parser](https://github.com/nikic/PHP-Parser) — A PHP parser written in PHP.
+- [PHP-Parser](https://github.com/nikic/PHP-Parser) :warning: — A PHP parser written in PHP.
 
 - [php-speller](https://github.com/mekras/php-speller) — PHP spell check library.
 
