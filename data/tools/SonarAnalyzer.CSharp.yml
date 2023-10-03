@@ -1,0 +1,12 @@
+name: SonarAnalyzer.CSharp
+categories:
+  - linter
+tags:
+  - csharp
+license: LGPL-3.0-only license
+types:
+  - cli
+source: 'https://github.com/SonarSource/sonar-dotnet'
+homepage: 'https://github.com/SonarSource/sonar-dotnet'
+description: >-
+  These Roslyn analyzers allow you to produce Clean Code that is safe, reliable, and maintainable by helping you find and correct bugs, vulnerabilities, and code smells in your codebase.

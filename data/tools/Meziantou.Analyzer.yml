@@ -1,0 +1,12 @@
+name: Meziantou.Analyzer
+categories:
+  - linter
+tags:
+  - csharp
+license: MIT license
+types:
+  - cli
+source: 'https://github.com/meziantou/Meziantou.Analyzer'
+homepage: 'https://github.com/meziantou/Meziantou.Analyzer'
+description: >-
+  A Roslyn analyzer to enforce some good practices in C# in terms of design, usage, security, performance, and style.
