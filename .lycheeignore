@@ -6,3 +6,5 @@ https://marketplace.visualstudio.com/items?itemName=rome.rome
 deepcode.ai
 # Lintian seems to be down. Might be a temporary outage; check back later
 lintian.debian.org
+# https://github.com/amperser/proselint/issues/1357
+proselint.com
