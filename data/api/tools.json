@@ -10741,6 +10741,33 @@
     "demos": null,
     "wrapper": null
   },
+  "meziantou-analyzer": {
+    "name": "Meziantou.Analyzer",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "csharp"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT license"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/meziantou/Meziantou.Analyzer",
+    "source": "https://github.com/meziantou/Meziantou.Analyzer",
+    "pricing": null,
+    "plans": null,
+    "description": "A Roslyn analyzer to enforce some good practices in C# in terms of design, usage, security, performance, and style.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "mirai": {
     "name": "MIRAI",
     "categories": [
@@ -14214,7 +14241,7 @@
     "plans": null,
     "description": "Visualizes metrics and source code.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -14241,7 +14268,7 @@
     "plans": null,
     "description": "Tool to look for several security related Android application vulnerabilities.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -14355,7 +14382,7 @@
     "plans": null,
     "description": "Pattern Based Checking Tool for Ruby.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -14481,7 +14508,7 @@
     "plans": null,
     "description": "An open source static analysis security vulnerability scanner for Ruby on Rails applications.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -14667,7 +14694,7 @@
     "plans": null,
     "description": "The free Visual Studio 2015 extension for C# and VB.NET refactorings, including code best practice analyzers.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -15062,7 +15089,7 @@
     "plans": null,
     "description": "Rome was a linter, compiler, bundler, and [more](https://rome.tools/#development-status) for JavaScript, TypeScript, JSON, HTML, Markdown, and CSS. It has since been succeeded by [biome](https://biomejs.dev/).",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -15123,7 +15150,7 @@
     "plans": null,
     "description": "Roodi stands for Ruby Object Oriented Design Inferometer. It parses your Ruby code and warns you about design issues you have based on the checks that it has configured.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -15260,7 +15287,7 @@
     "plans": null,
     "description": "A (WIP) JavaScript linter written in Rust designed to be as fast as possible, customizable, and easy to use.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -15402,7 +15429,7 @@
     "plans": null,
     "description": "Rust Memory Safety & Undefined Behavior Detection. It is capable of analyzing single Rust packages as well as all the packages on crates.io.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -15544,7 +15571,7 @@
     "plans": null,
     "description": "Supports functionality such as 'goto definition', symbol search, reformatting, and code completion, and enables renaming and refactorings.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -15571,7 +15598,7 @@
     "plans": null,
     "description": "Read and apply the suggestions made by rustc (and third-party lints, like those offered by clippy).",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -15681,7 +15708,7 @@
     "plans": null,
     "description": "Static analysis tool for Golang that protects against SQL injections.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -15708,7 +15735,7 @@
     "plans": null,
     "description": "A Ruby cyclomatic complexity analyzer.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -16005,7 +16032,7 @@
     "plans": null,
     "description": "Linter for SCSS files.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -16673,6 +16700,33 @@
     "demos": null,
     "wrapper": null
   },
+  "sonaranalyzer-csharp": {
+    "name": "SonarAnalyzer.CSharp",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "csharp"
+    ],
+    "other": [],
+    "licenses": [
+      "LGPL-3.0-only license"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/SonarSource/sonar-dotnet",
+    "source": "https://github.com/SonarSource/sonar-dotnet",
+    "pricing": null,
+    "plans": null,
+    "description": "These Roslyn analyzers allow you to produce Clean Code that is safe, reliable, and maintainable by helping you find and correct bugs, vulnerabilities, and code smells in your codebase.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "sonarcloud": {
     "name": "SonarCloud",
     "categories": [
@@ -17158,7 +17212,7 @@
     "plans": null,
     "description": "Automatically identify anti-patterns in SQL queries.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": [
       {
         "title": "SQLCheck: Automated Detection and Diagnosis of SQL Anti-Patterns",
@@ -17661,7 +17715,7 @@
     "plans": null,
     "description": "A programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -18866,7 +18920,7 @@
     "plans": null,
     "description": "TSQL Static Code Analysis Rules for SQL Server.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -19066,7 +19120,7 @@
     "plans": null,
     "description": "With TypL, you just write completely standard JS, and the tool figures out your types via powerful inferencing.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -19863,7 +19917,7 @@
     "plans": null,
     "description": "Show unused code from multi-crate Rust projects",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -20093,7 +20147,7 @@
     "plans": null,
     "description": "Pluggable TypeScript and JavaScript linter.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
