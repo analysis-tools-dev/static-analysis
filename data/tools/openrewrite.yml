@@ -1,0 +1,22 @@
+name: OpenRewrite
+categories:
+  - linter
+  - formatter
+tags:
+  - git
+  - groovy
+  - java
+  - json
+  - kotlin
+  - python
+  - sql
+  - xml
+  - yaml
+license: Apache-2.0
+types:
+  - cli
+source: 'https://github.com/openrewrite/rewrite'
+homepage: 'https://docs.openrewrite.org/'
+description: >-
+  OpenRewrite [fixes common static analysis issues](https://docs.openrewrite.org/running-recipes/popular-recipe-guides/common-static-analysis-issue-remediation) 
+  reported through Sonar and other tools using a Maven and Gradle plugin or the Moderne CLI.
