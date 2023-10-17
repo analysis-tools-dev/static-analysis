@@ -2,11 +2,11 @@ name: BugProve
 categories:
   - linter
 tags:
+  - asm
   - binary
   - c
   - cpp
-  - security
-  - assembly  
+  - security  
 license: proprietary
 types:
   - cli
