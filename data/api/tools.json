@@ -11509,6 +11509,43 @@
     "demos": null,
     "wrapper": null
   },
+  "openrewrite": {
+    "name": "OpenRewrite",
+    "categories": [
+      "linter",
+      "formatter"
+    ],
+    "languages": [
+      "groovy",
+      "java",
+      "kotlin",
+      "python",
+      "sql"
+    ],
+    "other": [
+      "git",
+      "json",
+      "xml",
+      "yaml"
+    ],
+    "licenses": [
+      "Apache-2.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://docs.openrewrite.org/",
+    "source": "https://github.com/openrewrite/rewrite",
+    "pricing": null,
+    "plans": null,
+    "description": "OpenRewrite [fixes common static analysis issues](https://docs.openrewrite.org/running-recipes/popular-recipe-guides/common-static-analysis-issue-remediation)  reported through Sonar and other tools using a Maven and Gradle plugin or the Moderne CLI.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "openscap": {
     "name": "OpenSCAP",
     "categories": [
@@ -15598,7 +15635,7 @@
     "plans": null,
     "description": "Read and apply the suggestions made by rustc (and third-party lints, like those offered by clippy).",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
