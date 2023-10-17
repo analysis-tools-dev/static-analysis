@@ -1,0 +1,25 @@
+name: BugProve
+categories:
+  - linter
+tags:
+  - asm
+  - binary
+  - c
+  - cpp
+  - security  
+license: proprietary
+types:
+  - cli
+plans:
+  free: true
+homepage: "https://www.bugprove.com"
+description: >-
+  BugProve is a firmware analysis platform featuring both static and dynamic analysis
+  techniques to discover memory corruptions, command injections and other classes or
+  common weaknesses in binary code. It also detects vulnerable dependencies,
+  weak cryptographic parameters, misconfigurations, and more.
+resources:
+  - title: BugProve Product Intro by John Hammond
+    url: https://www.youtube.com/watch?v=orTvsOlFS5k
+reviews:
+  - https://www.g2.com/products/bugprove/reviews
