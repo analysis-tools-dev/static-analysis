@@ -1,0 +1,27 @@
+name: GitGuardian ggshield
+categories:
+  - linter
+tags:
+  - security
+  - ci
+  - dotenv
+  - terraform
+  - container
+  - git
+license: MIT
+types:
+  - cli
+  - service
+source: 'github.com/gitguardian/ggshield'
+homepage: 'https://www.gitguardian.com/ggshield'
+resources:
+  - title: Getting started with ggshield 
+    url: https://docs.gitguardian.com/ggshield-docs/getting-started
+  - title: A Developer's View of GitGuardian ggshield Throughout The Software Development Lifecycle
+    url: https://www.youtube.com/watch?v=diuBTBjx7Qc
+description: >-
+  ggshield is a CLI application that runs in your local environment 
+  or in a CI environment to help you detect more than 350+ types of secrets, 
+  as well as other potential security vulnerabilities or policy breaks affecting your codebase.
+free forever for individual developers:
+  - https://dashboard.gitguardian.com/auth/signup
