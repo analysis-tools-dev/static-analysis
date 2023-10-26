@@ -1,0 +1,17 @@
+name: fta
+categories:
+  - linter
+types:
+  - cli
+tags:
+  - typescript
+  - javascript
+  - wasm
+  - rust
+license: MIT
+source: 'https://github.com/sgb-io/fta'
+homepage: 'https://ftaproject.dev/'
+description: >-
+  Rust-based static analysis for TypeScript projects
+demos:
+  - https://ftaproject.dev/playground
