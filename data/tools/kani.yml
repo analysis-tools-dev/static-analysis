@@ -3,7 +3,7 @@ categories:
   - wasd
 tags:
   - rust
-  - Security/SAST
+  - security
 license: 'MIT & Apache 2.0' 
 source: 'https://github.com/model-checking/kani'
 homepage: 'https://github.com/model-checking/kani'
