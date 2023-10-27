@@ -8,4 +8,4 @@ types:
   - cli
 source: 'https://github.com/typetools/checker-framework'
 homepage: 'https://checkerframework.org'
-description: Pluggable type-checking for Java.
+description: Pluggable type-checking for Java.  This is not just a bug-finder, but a verification tool that gives a guarantee of correctness.  It comes with 27 pre-built type systems, and it enables users to define their own type system; the manual lists over 30 user-contributed type systems.
