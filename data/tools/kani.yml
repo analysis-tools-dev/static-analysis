@@ -1,6 +1,8 @@
 name: kani
 categories:
   - linter
+types:
+  - cli
 tags:
   - rust
   - security
