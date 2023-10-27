@@ -1,6 +1,6 @@
 name: kani
 categories:
-  - wasd
+  - linter
 tags:
   - rust
   - security
