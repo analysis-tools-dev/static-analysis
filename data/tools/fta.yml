@@ -5,9 +5,6 @@ types:
   - cli
 tags:
   - typescript
-  - javascript
-  - wasm
-  - rust
 license: MIT
 source: 'https://github.com/sgb-io/fta'
 homepage: 'https://ftaproject.dev/'
