@@ -6059,7 +6059,7 @@
     "wrapper": null
   },
   "error-prone": {
-    "name": "Error-prone",
+    "name": "Error Prone",
     "categories": [
       "linter"
     ],
