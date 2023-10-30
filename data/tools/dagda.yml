@@ -9,3 +9,4 @@ types:
 source: 'https://github.com/eliasgranderubio/dagda'
 homepage: 'https://github.com/eliasgranderubio/dagda'
 description: Perform static analysis of known vulnerabilities in docker images/containers.
+deprecated: true
