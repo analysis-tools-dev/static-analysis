@@ -65,7 +65,8 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 {%- for (language, linters) in linters %}
 
-<h2 id="{{ language.value }}">{{ language.name }}</h2>
+<a name="{{ language.value }}" />
+<h2>{{ language.name }}</h2>
 
 {% for linter in linters %}
 - [{{linter.name }}]({{linter.homepage }}){% if linter.discussion.is_some() %} [:information_source:](<{{linter.discussion.as_ref().unwrap()}}>){% endif %}{% if linter.deprecated.is_some() && linter.deprecated.unwrap() %} :warning:{% endif %}{% if linter.license == "proprietary" %} :copyright:{% endif %} — {{ linter.description }}
@@ -83,7 +84,8 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 {% for (tag, others) in others %}
 
-<h2 id="{{ tag.value }}">{{ tag.name }}</h2>
+<a name="{{ tag.value }}" />
+<h2>{{ tag.name }}</h2>
 
 {% for other in others %}
 - [{{ other.name }}]({{ other.homepage }}){% if other.discussion.is_some() %} [:information_source:](<{{other.discussion.as_ref().unwrap()}}>){% endif %}{% if other.deprecated.is_some() && other.deprecated.unwrap() %} :warning:{% endif %}{% if other.license == "proprietary" %} :copyright:{% endif %} — {{ other.description }}
