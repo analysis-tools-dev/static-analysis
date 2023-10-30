@@ -1186,6 +1186,8 @@ It removes a feature of a dependency and then compiles the project to see if it 
 
 - [Codelyzer](http://codelyzer.com) :warning: — A set of tslint rules for static code analysis of Angular 2 TypeScript projects.
 
+- [fta](https://ftaproject.dev/) — Rust-based static analysis for TypeScript projects
+
 - [stc](https://stc.dudy.dev) — Speedy TypeScript type checker written in Rust
 
 - [tslint](https://palantir.github.io/tslint/) :warning: — TSLint has been deprecated as of 2019. Please see [this issue](https://github.com/palantir/tslint/issues/4534) for more details. `typescript-eslint` is now your best option for linting TypeScript.
@@ -1328,8 +1330,6 @@ TSLint is an extensible static analysis tool that checks TypeScript code for rea
 - [Find Security Bugs](https://find-sec-bugs.github.io) — The SpotBugs plugin for security audits of Java web applications and Android applications. (Also work with Kotlin, Groovy and Scala projects)
 
 - [Fortify](https://software.microfocus.com/en-us/products/static-code-analysis-sast/overview) :copyright: — A commercial static analysis platform that supports the scanning of C/C++, C#, VB.NET, VB6, ABAP/BSP, ActionScript, Apex, ASP.NET, Classic ASP, VB Script, Cobol, ColdFusion, HTML, Java, JS, JSP, MXML/Flex, Objective-C, PHP, PL/SQL, T-SQL, Python (2.6, 2.7), Ruby (1.9.3), Swift, Scala, VB, and XML.
-
-- [fta](https://ftaproject.dev/) — Rust-based static analysis for TypeScript projects
 
 - [Goodcheck](https://sider.github.io/goodcheck) — Regexp based customizable linter.
 

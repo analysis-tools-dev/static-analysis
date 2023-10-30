@@ -6987,13 +6987,9 @@
       "linter"
     ],
     "languages": [
-      "javascript",
-      "rust",
       "typescript"
     ],
-    "other": [
-      "wasm"
-    ],
+    "other": [],
     "licenses": [
       "MIT"
     ],
