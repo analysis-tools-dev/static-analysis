@@ -1,0 +1,17 @@
+name: Dataflow Framework
+categories:
+  - linter
+tags:
+  - java
+license: GPL with Classpath exception / MIT License
+types:
+  - cli
+source: 'https://github.com/typetools/checker-framework'
+homepage: 'https://github.com/typetools/checker-framework'
+description: >-
+  An industrial-strength dataflow framework for Java.
+  The Dataflow Framework is used in the Checker Framework, Google’s Error Prone, Uber’s NullAway, Meta’s Nullsafe, and in other contexts.
+  It is distributed with the Checker Framework.
+resources:
+  - title: "User Manual"
+    url: https://checkerframework.org/manual/checker-framework-dataflow-manual.pdf
