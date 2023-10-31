@@ -607,6 +607,8 @@ By default, govulncheck makes requests to the Go vulnerability database at https
 
 - [CogniCrypt](https://www.eclipse.org/cognicrypt) — Checks Java source and byte code for incorrect uses of cryptographic APIs.
 
+- [Dataflow Framework](https://github.com/typetools/checker-framework) — An industrial-strength dataflow framework for Java. The Dataflow Framework is used in the Checker Framework, Google’s Error Prone, Uber’s NullAway, Meta’s Nullsafe, and in other contexts. It is distributed with the Checker Framework.
+
 - [DesigniteJava](http://www.designite-tools.com/designitejava) :copyright: — DesigniteJava supports detection of various architecture, design, and implementation smells along with computation of various code quality metrics.
 
 - [Diffblue](https://www.diffblue.com/) :copyright: — Diffblue is a software company that provides AI-powered code analysis and testing solutions for software development teams.
@@ -2187,7 +2189,7 @@ TruffleHog is an open source secret-scanning engine that resolves exposed secret
 
 - [proselint](http://proselint.com) — A linter for English prose with a focus on writing style instead of grammar.
 
-- [vale](https://docs.errata.ai/vale/about) — A syntax-aware linter for prose built with speed and extensibility in mind.
+- [vale](https://vale.sh) — A syntax-aware linter for prose built with speed and extensibility in mind.
 
 - [write-good](https://github.com/btford/write-good) — A linter with a focus on eliminating "weasel words".
 

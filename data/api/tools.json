@@ -4577,6 +4577,38 @@
     "demos": null,
     "wrapper": null
   },
+  "dataflow-framework": {
+    "name": "Dataflow Framework",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "java"
+    ],
+    "other": [],
+    "licenses": [
+      "GPL with Classpath exception / MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/typetools/checker-framework",
+    "source": "https://github.com/typetools/checker-framework",
+    "pricing": null,
+    "plans": null,
+    "description": "An industrial-strength dataflow framework for Java. The Dataflow Framework is used in the Checker Framework, Google’s Error Prone, Uber’s NullAway, Meta’s Nullsafe, and in other contexts. It is distributed with the Checker Framework.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "User Manual",
+        "url": "https://checkerframework.org/manual/checker-framework-dataflow-manual.pdf"
+      }
+    ],
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "datree": {
     "name": "Datree",
     "categories": [
@@ -19595,7 +19627,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://docs.errata.ai/vale/about",
+    "homepage": "https://vale.sh",
     "source": "https://github.com/errata-ai/vale",
     "pricing": null,
     "plans": null,
