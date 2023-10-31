@@ -12,7 +12,7 @@ askama = "0.12.1"
 # Switch back to crates as soon as a new release with tokio 1.x support is
 # released. See https://github.com/softprops/hubcaps/pull/285
 hubcaps = { git="https://github.com/softprops/hubcaps" }
-tokio = { version = "1.32.0", features = ["rt-multi-thread", "macros"] }
+tokio = { version = "1.33.0", features = ["rt-multi-thread", "macros"] }
 chrono = "0.4.31"
 anyhow = "1.0.75"
 pico-args = "0.5.0"
