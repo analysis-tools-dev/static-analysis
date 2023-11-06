@@ -9,6 +9,5 @@ tags:
 license: MIT License
 types:
   - cli
-source: 'https://github.com/sideci/goodcheck'
 homepage: 'https://sider.github.io/goodcheck'
 description: Regexp based customizable linter.
