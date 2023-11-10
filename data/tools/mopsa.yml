@@ -1,0 +1,12 @@
+name: MOPSA
+categories:
+  - linter
+tags:
+  - c
+  - python
+license: GNU Lesser General Public License v3.0
+types:
+  - cli
+source: 'https://gitlab.com/mopsa/mopsa-analyzer'
+homepage: 'https://mopsa.lip6.fr'
+description: A static analyzer designed to easily reuse abstract domains across widely different languages (such as C and Python).
