@@ -1,0 +1,11 @@
+name: SonarDelphi
+categories:
+  - linter
+tags:
+  - delphi
+license: LGPL-3.0-only license
+types:
+  - cli
+source: 'https://github.com/integrated-application-development/sonar-delphi'
+homepage: 'https://github.com/integrated-application-development/sonar-delphi'
+description: Delphi static analyzer for the SonarQube code quality platform.
