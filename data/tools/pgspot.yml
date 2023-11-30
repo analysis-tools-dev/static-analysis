@@ -1,0 +1,13 @@
+name: pgspot
+categories:
+  - linter
+tags:
+  - sql
+license: PostgreSQL License
+types:
+  - cli
+source: 'https://github.com/timescale/pgspot'
+homepage: 'https://github.com/timescale/pgspot'
+description: >-
+  Spot vulnerabilities in postgres extension scripts.
+  Finds unsafe search_path usage and unsafe object creation in PostgreSQL extension scripts or any other PostgreSQL SQL code.
