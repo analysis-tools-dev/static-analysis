@@ -238,6 +238,9 @@
 - name: PowerShell
   value: powershell
   type: language
+- name: Prometheus
+  value: prometheus
+  type: other
 - name: Protocol Buffers
   value: protobuf
   type: other

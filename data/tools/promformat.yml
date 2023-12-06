@@ -2,7 +2,7 @@ name: promformat
 categories:
   - formatter
 tags:
-  - promql
+  - prometheus
 license: GPL-3.0
 types:
   - cli
