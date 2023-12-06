@@ -32,7 +32,7 @@ This project would not be possible without the generous support of our sponsors.
             </picture>
          </a>
       </td>
-      <td><a href="https://codescene.io/"><img width="200px" src="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/codescene.svg" /></a></td>
+      <td><a href="https://codescene.com/"><img width="200px" src="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/codescene.svg" /></a></td>
       <td><a href="https://semgrep.dev/"><img width="200px" src="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/semgrep.svg" /></a></td>
       <td><a href="https://offensive360.com/"><img width="200px" src="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/offensive360.png" /></a></td>
    </tr>
