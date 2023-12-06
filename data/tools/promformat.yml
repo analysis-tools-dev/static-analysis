@@ -1,0 +1,12 @@
+name: promformat
+categories:
+  - formatter
+tags:
+  - prometheus
+license: GPL-3.0
+types:
+  - cli
+source: "https://github.com/facetoe/promformat"
+homepage: "https://github.com/facetoe/promformat"
+description: >-
+  Promformat is a PromQL formatter written in Python.

@@ -1,0 +1,13 @@
+name: promval
+categories:
+  - linter
+tags:
+  - prometheus
+license: MIT
+types:
+  - cli
+source: "https://github.com/facetoe/promval"
+homepage: "https://github.com/facetoe/promval"
+description: >-
+  PromQL validator written in Python.
+  It can be used to validate that PromQL expressions are written as expected.
