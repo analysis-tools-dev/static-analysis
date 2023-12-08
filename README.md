@@ -720,7 +720,7 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 <a name="julia" />
 <h2>Julia</h2>
 
-
+- [JET](https://github.com/aviatesk/JET.jl) — Static type inference and checking in Julia
 - [StaticLint](https://github.com/julia-vscode/StaticLint.jl) — Static Code Analysis for Julia
 
 
