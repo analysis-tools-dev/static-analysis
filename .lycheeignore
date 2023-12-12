@@ -8,3 +8,6 @@ deepcode.ai
 lintian.debian.org
 # https://github.com/amperser/proselint/issues/1357
 proselint.com
+# unable to get local issuer certificate
+# https://github.com/analysis-tools-dev/static-analysis/issues/1474
+https://checkerframework.org/
