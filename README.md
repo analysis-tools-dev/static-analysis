@@ -721,6 +721,8 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 <h2>Julia</h2>
 
 
+- [JET](https://github.com/aviatesk/JET.jl) — Static type inference system to detect bugs and type instabilities.
+
 - [StaticLint](https://github.com/julia-vscode/StaticLint.jl) — Static Code Analysis for Julia
 
 

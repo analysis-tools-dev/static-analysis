@@ -9215,6 +9215,33 @@
     "demos": null,
     "wrapper": null
   },
+  "jet": {
+    "name": "JET",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "julia"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/aviatesk/JET.jl",
+    "source": "https://github.com/aviatesk/JET.jl",
+    "pricing": null,
+    "plans": null,
+    "description": "Static type inference system to detect bugs and type instabilities.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "joern": {
     "name": "Joern",
     "categories": [
