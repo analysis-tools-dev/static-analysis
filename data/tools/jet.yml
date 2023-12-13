@@ -1,0 +1,11 @@
+name: JET
+categories:
+  - linter
+tags:
+  - julia
+license: MIT
+types:
+  - cli
+source: 'https://github.com/aviatesk/JET.jl'
+homepage: 'https://github.com/aviatesk/JET.jl'
+description: Static type inference system to detect bugs and type instabilities.
