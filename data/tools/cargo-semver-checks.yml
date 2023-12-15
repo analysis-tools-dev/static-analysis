@@ -1,0 +1,16 @@
+name: cargo-semver-checks
+categories:
+  - linter
+tags:
+  - rust
+license: Apache License (Version 2.0) or MIT
+types:
+  - cli
+source: 'https://github.com/obi1kenobi/cargo-semver-checks'
+homepage: 'https://crates.io/crates/cargo-semver-checks'
+description: >-
+  Scan your Rust crate releases for semver violations.
+  It can be used either directly via the CLI, as a GitHub Action in CI, 
+  or via release managers like `release-plz`.
+  It found semver violations in 
+  [more than 1 in 6 of the top 1000 most-downloaded crates](https://predr.ag/blog/semver-violations-are-common-better-tooling-is-the-answer/) on crates.io.
