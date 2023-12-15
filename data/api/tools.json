@@ -1859,6 +1859,33 @@
     "demos": null,
     "wrapper": null
   },
+  "cargo-semver-checks": {
+    "name": "cargo-semver-checks",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "rust"
+    ],
+    "other": [],
+    "licenses": [
+      "Apache License (Version 2.0) or MIT"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://crates.io/crates/cargo-semver-checks",
+    "source": "https://github.com/obi1kenobi/cargo-semver-checks",
+    "pricing": null,
+    "plans": null,
+    "description": "Scan your Rust crate releases for semver violations. It can be used either directly via the CLI, as a GitHub Action in CI,  or via release managers like `release-plz`. It found semver violations in  [more than 1 in 6 of the top 1000 most-downloaded crates](https://predr.ag/blog/semver-violations-are-common-better-tooling-is-the-answer/) on crates.io.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "cargo-show-asm": {
     "name": "cargo-show-asm",
     "categories": [
@@ -16759,7 +16786,7 @@
     "plans": null,
     "description": "A lightweight static code analyzer designed for developers and security teams. It allows you to analyze and transform source code with an intuitive DSL similar to sed, but for code.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
