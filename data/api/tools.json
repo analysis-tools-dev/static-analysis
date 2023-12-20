@@ -12395,7 +12395,7 @@
     "plans": null,
     "description": "Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
