@@ -10011,8 +10011,8 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://github.com/nunomaduro/larastan",
-    "source": "https://github.com/nunomaduro/larastan",
+    "homepage": "https://github.com/larastan/larastan",
+    "source": "https://github.com/larastan/larastan",
     "pricing": null,
     "plans": null,
     "description": "Adds static analysis to Laravel improving developer productivity and code quality. It is a wrapper around PHPStan.",
