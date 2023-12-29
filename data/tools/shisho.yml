@@ -9,7 +9,7 @@ types:
   - cli
   - service
 source: 'https://github.com/flatt-security/shisho'
-homepage: 'https://docs.shisho.dev/'
+homepage: 'https://github.com/flatt-security/shisho'
 description: >-
   A lightweight static code analyzer designed for developers and security teams.
   It allows you to analyze and transform source code with an intuitive DSL similar
