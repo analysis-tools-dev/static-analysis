@@ -556,7 +556,7 @@ By default, govulncheck makes requests to the Go vulnerability database at https
 
 - [safesql](https://github.com/stripe/safesql) :warning: — Static analysis tool for Golang that protects against SQL injections.
 
-- [shisho](https://docs.shisho.dev/) :warning: — A lightweight static code analyzer designed for developers and security teams. It allows you to analyze and transform source code with an intuitive DSL similar to sed, but for code.
+- [shisho](https://github.com/flatt-security/shisho) :warning: — A lightweight static code analyzer designed for developers and security teams. It allows you to analyze and transform source code with an intuitive DSL similar to sed, but for code.
 
 - [staticcheck](https://staticcheck.io) — Go static analysis that specialises in finding bugs, simplifying code and improving performance.
 
@@ -2173,7 +2173,7 @@ TruffleHog is an open source secret-scanning engine that resolves exposed secret
 
 - [kics](https://kics.io/) — Find security vulnerabilities, compliance issues, and infrastructure misconfigurations in your infrastructure-as-code. Supports Terraform, Kubernetes, Docker, AWS CloudFormation and Ansible
 
-- [shisho](https://docs.shisho.dev/) :warning: — A lightweight static code analyzer designed for developers and security teams. It allows you to analyze and transform source code with an intuitive DSL similar to sed, but for code.
+- [shisho](https://github.com/flatt-security/shisho) :warning: — A lightweight static code analyzer designed for developers and security teams. It allows you to analyze and transform source code with an intuitive DSL similar to sed, but for code.
 
 
 <a name="translation" />
