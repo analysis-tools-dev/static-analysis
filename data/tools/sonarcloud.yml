@@ -2,28 +2,49 @@ name: SonarCloud
 categories:
   - linter
 tags:
-  - ci
-  - security
-  - java
-  - javascript
-  - typescript
-  - csharp
-  - python
-  - cpp
-  - go
-  - kotlin
-  - swift
-  - ruby
   - abap
   - apex
+  - arm
+  - c
+  - cpp
+  - cloudformation
+  - cobol
+  - csharp
+  - css
+  - dockerfile
+  - go
+  - html
+  - java
+  - javascript
+  - kotlin
+  - kubernetes
+  - objectivec
+  - php
+  - plsql
+  - python
+  - ruby
+  - scala
+  - swift
+  - terraform
+  - typescript
+  - tsql
+  - vbnet
+  - xml
+  - ci
+  - security
 license: proprietary
 types:
   - service
 homepage: https://sonarcloud.io
 description: >-
-  Multi-language cloud-based static code analysis. History, trends, security hot-spots,
-  pull request analysis and more. Free for open source.
+  SonarCloud enables your team to deliver clean code consistently and efficiently with a code review 
+  tool that easily integrates into the cloud DevOps platforms and extend your CI/CD workflow. 
+  SonarCloud is free for open source projects.
 pricing: https://sonarcloud.io/pricing
 plans:
   free: false
   oss: true
+reviews:
+  - https://www.gartner.com/reviews/market/application-security-testing/vendor/sonarsource/product/sonarcloud
+  - https://www.peerspot.com/products/sonarcloud-reviews
+  - https://www.g2.com/products/sonarcloud/reviews

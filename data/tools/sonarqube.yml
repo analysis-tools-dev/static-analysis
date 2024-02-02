@@ -20,8 +20,12 @@ license: GNU Lesser General Public License v3.0
 types:
   - service
 source: "https://github.com/SonarSource/sonarqube"
-homepage: "http://www.sonarqube.org"
-description: SonarQube is an open platform to manage code quality.
+homepage: "https://sonarqube.org"
+description: SonarQube empowers development teams with a code quality and security solution
+  that deeply integrates into your enterprise environment;
+  enabling you to deploy clean code consistently and reliably.
+  SonarQube provides a free and open source Community Edition.
+pricing: "https://www.sonarsource.com/plans-and-pricing/"
 resources:
   - title: Write Cleaner, Safer, Modern C++ Code with SonarQube
     url: https://www.youtube.com/watch?v=WPHVPbxCAwE
@@ -30,5 +34,6 @@ resources:
 demos:
   - https://next.sonarqube.com/sonarqube/projects
 reviews:
+  - https://www.gartner.com/reviews/market/application-security-testing/vendor/sonarsource/product/sonarqube
   - https://www.capterra.com/p/210481/SonarQube/
   - https://www.peerspot.com/products/sonarqube-reviews
