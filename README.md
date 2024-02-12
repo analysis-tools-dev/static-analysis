@@ -1066,7 +1066,7 @@ YAPF follows a distinctive methodology, originating from the 'clang-format' tool
 
 - [Railroader](https://railroader.org) :warning: — An open source static analysis security vulnerability scanner for Ruby on Rails applications.
 
-- [rails_best_practices](https://rails-bestpractices.com) — A code metric tool for Rails projects
+- [rails_best_practices](https://rails-bestpractices.com) :warning: — A code metric tool for Rails projects
 
 - [reek](https://github.com/troessner/reek) — Code smell detector for Ruby.
 
@@ -1147,7 +1147,7 @@ It removes a feature of a dependency and then compiles the project to see if it 
 
 - [Prusti](https://www.pm.inf.ethz.ch/research/prusti.html) — A static verifier for Rust, based on the Viper verification infrastructure. By default Prusti verifies absence of panics by proving that statements such as unreachable!() and panic!() are unreachable.
 
-- [Rudra](https://github.com/sslab-gatech/Rudra) :warning: — Rust Memory Safety & Undefined Behavior Detection. It is capable of analyzing single Rust packages as well as all the packages on crates.io.
+- [Rudra](https://github.com/sslab-gatech/Rudra) — Rust Memory Safety & Undefined Behavior Detection. It is capable of analyzing single Rust packages as well as all the packages on crates.io.
 
 - [Rust Language Server](https://github.com/rust-lang-nursery/rls) :warning: — Supports functionality such as 'goto definition', symbol search, reformatting, and code completion, and enables renaming and refactorings.
 
