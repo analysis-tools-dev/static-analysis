@@ -1,0 +1,29 @@
+name: Betterscan.io
+categories:
+  - linter
+tags:
+  - ci
+  - apex
+  - c
+  - cpp
+  - csharp
+  - php
+  - python
+  - perl
+  - ruby
+  - go
+  - java
+  - ruby
+  - scala
+  - swift
+  - kotlin
+  - javascript
+  - typescript
+  - python
+
+license: BSD-3 Clause License with LGPL-2.1 with Commonsclause. 
+types:
+  - service
+source: "https://github.com/marcinguy/scanmycode-ce"
+homepage: "https://betterscan.io"
+description: Betterscan.io - Betterscan.io checks your code and infra (various Git repositories supported, cloud stacks, CLI, Web Interface platform, integrationss available) for security and quality issues. Code Scanning/SAST/Linting using many tools/Scanners deduplicated with One Report (AI optional). Free to use in noncommerical way, commercial requires license.
