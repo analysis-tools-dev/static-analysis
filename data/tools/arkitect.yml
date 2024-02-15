@@ -1,0 +1,18 @@
+name: PHPArkitect
+categories:
+  - linter
+tags:
+  - php
+license: MIT
+types:
+  - cli
+source: 'https://github.com/phparkitect/arkitect'
+homepage: 'https://github.com/phparkitect/arkitect'
+resources:
+  - title: 'PUG Romagna - Testing Architectural Decisions with PHPArkitect (Italian)'
+    url: 'https://www.youtube.com/watch?v=fhRDZs82AbE'
+description: >-
+    PHPArkitect helps you to keep your PHP codebase coherent and solid, by
+    permitting to add some architectural constraint check to your workflow. You
+    can express the constraint that you want to enforce, in simple and readable
+    PHP code.
