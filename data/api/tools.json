@@ -12834,6 +12834,38 @@
     "demos": null,
     "wrapper": null
   },
+  "phparkitect": {
+    "name": "PHPArkitect",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "php"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/phparkitect/arkitect",
+    "source": "https://github.com/phparkitect/arkitect",
+    "pricing": null,
+    "plans": null,
+    "description": "PHPArkitect helps you to keep your PHP codebase coherent and solid, by permitting to add some architectural constraint check to your workflow. You can express the constraint that you want to enforce, in simple and readable PHP code.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "PUG Romagna - Testing Architectural Decisions with PHPArkitect (Italian)",
+        "url": "https://www.youtube.com/watch?v=fhRDZs82AbE"
+      }
+    ],
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "phpca": {
     "name": "phpca",
     "categories": [
@@ -17646,7 +17678,7 @@
     "plans": null,
     "description": "Automatically identify anti-patterns in SQL queries.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": [
       {
         "title": "SQLCheck: Automated Detection and Diagnosis of SQL Anti-Patterns",
