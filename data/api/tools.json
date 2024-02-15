@@ -1099,6 +1099,49 @@
     "demos": null,
     "wrapper": null
   },
+  "betterscan-io": {
+    "name": "Betterscan.io",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "apex",
+      "c",
+      "csharp",
+      "cpp",
+      "go",
+      "java",
+      "javascript",
+      "kotlin",
+      "perl",
+      "php",
+      "python",
+      "ruby",
+      "scala",
+      "swift",
+      "typescript"
+    ],
+    "other": [
+      "ci"
+    ],
+    "licenses": [
+      "BSD-3 Clause License with LGPL-2.1 with Commonsclause."
+    ],
+    "types": [
+      "service"
+    ],
+    "homepage": "https://betterscan.io",
+    "source": "https://github.com/marcinguy/scanmycode-ce",
+    "pricing": null,
+    "plans": null,
+    "description": "Betterscan.io - Betterscan.io checks your code and infra (various Git repositories supported, cloud stacks, CLI, Web Interface platform, integrationss available) for security and quality issues. Code Scanning/SAST/Linting using many tools/Scanners deduplicated with One Report (AI optional). Free to use in noncommerical way, commercial requires license.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "binbloom": {
     "name": "binbloom",
     "categories": [
@@ -16274,41 +16317,6 @@
     "pricing": null,
     "plans": null,
     "description": "Frontend to drive the Clang Static Analyzer built into Clang via a regular build.",
-    "discussion": null,
-    "deprecated": null,
-    "resources": null,
-    "reviews": null,
-    "demos": null,
-    "wrapper": null
-  },
-  "scanmycode-ce-community-edition": {
-    "name": "Scanmycode CE (Community Edition)",
-    "categories": [
-      "linter"
-    ],
-    "languages": [
-      "go",
-      "java",
-      "javascript",
-      "php",
-      "python",
-      "ruby",
-      "scala"
-    ],
-    "other": [
-      "ci"
-    ],
-    "licenses": [
-      "BSD-3 Clause License with LGPL-2.1 with Commonsclause."
-    ],
-    "types": [
-      "service"
-    ],
-    "homepage": "http://www.scanmycode.today",
-    "source": "https://github.com/marcinguy/scanmycode-ce",
-    "pricing": null,
-    "plans": null,
-    "description": "Scanmycode - Code Scanning/SAST/Linting using many tools/Scanners with One Report",
     "discussion": null,
     "deprecated": null,
     "resources": null,
