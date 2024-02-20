@@ -1,0 +1,14 @@
+name: Pixee
+categories:
+tags:
+  - java
+license: proprietary
+types:
+  - service
+homepage: 'https://pixee.ai'
+description: >-
+ Pixeebot finds security and code quality issues in your code and creates merge-ready pull requests with recommended fixes.
+pricing: 'https://www.pixee.ai/pricing'
+plans:
+  free: true
+  oss: false
