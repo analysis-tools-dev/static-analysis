@@ -938,7 +938,7 @@ It uses the pycodestyle utility to determine what parts of the code needs to be 
 
 - [Codemodder](https://codemodder.io/) — Codemodder is a pluggable framework for building expressive codemods. Use Codemodder when you need more than a linter or code formatting tool. Use it to fix non-trivial security issues and other code quality problems.
 
-- [cohesion](https://github.com/mschwager/cohesion) — A tool for measuring Python class cohesion.
+- [cohesion](https://github.com/mschwager/cohesion) :warning: — A tool for measuring Python class cohesion.
 
 - [deal](https://deal.readthedocs.io/) — Design by contract for Python. Write bug-free code.  By adding a few decorators to your code, you get for free tests, static analysis, formal verification, and much more.
 
@@ -2025,7 +2025,7 @@ It is inspired by, contains code from and is designed to stay close to [Kubeval]
 <h2>Packages</h2>
 
 
-- [lintian](https://lintian.debian.org) — Static analysis tool for Debian packages.
+- [lintian](https://wiki.debian.org/Lintian) — Static analysis tool for Debian packages.
 
 - [rpmlint](https://github.com/rpm-software-management/rpmlint) — Tool for checking common errors in rpm packages.
 
@@ -2034,7 +2034,7 @@ It is inspired by, contains code from and is designed to stay close to [Kubeval]
 <h2>Prometheus</h2>
 
 
-- [promformat](https://github.com/facetoe/promformat) — Promformat is a PromQL formatter written in Python.
+- [promformat](https://github.com/facetoe/promformat) :warning: — Promformat is a PromQL formatter written in Python.
 
 - [promval](https://github.com/facetoe/promval) — PromQL validator written in Python. It can be used to validate that PromQL expressions are written as expected.
 
@@ -2221,7 +2221,7 @@ TruffleHog is an open source secret-scanning engine that resolves exposed secret
 
 - [Misspelled Words In Context](https://jwilk.net/software/mwic) — A spell-checker that groups possible misspellings and shows them in their contexts.
 
-- [proselint](http://proselint.com) — A linter for English prose with a focus on writing style instead of grammar.
+- [proselint](https://github.com/amperser/proselint) — A linter for English prose with a focus on writing style instead of grammar.
 
 - [vale](https://vale.sh) — A syntax-aware linter for prose built with speed and extensibility in mind.
 

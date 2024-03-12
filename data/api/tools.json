@@ -3905,7 +3905,7 @@
     "plans": null,
     "description": "A tool for measuring Python class cohesion.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -10340,7 +10340,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://lintian.debian.org",
+    "homepage": "https://wiki.debian.org/Lintian",
     "source": "https://salsa.debian.org/lintian/lintian",
     "pricing": null,
     "plans": null,
@@ -13862,7 +13862,7 @@
     "plans": null,
     "description": "Promformat is a PromQL formatter written in Python.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -13945,7 +13945,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "http://proselint.com",
+    "homepage": "https://github.com/amperser/proselint",
     "source": "https://github.com/amperser/proselint",
     "pricing": null,
     "plans": null,
