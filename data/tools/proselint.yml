@@ -7,5 +7,5 @@ license: BSD-3-Clause
 types:
   - cli
 source: 'https://github.com/amperser/proselint'
-homepage: 'http://proselint.com'
+homepage: 'https://github.com/amperser/proselint'
 description: A linter for English prose with a focus on writing style instead of grammar.
