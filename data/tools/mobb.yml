@@ -1,6 +1,7 @@
 name: Mobb
 categories:
-  - fixer
+  - formatter
+  - linter
 tags:
   - ci
   - java
