@@ -11229,6 +11229,40 @@
     "demos": null,
     "wrapper": null
   },
+  "mobb": {
+    "name": "Mobb",
+    "categories": [
+      "linter",
+      "formatter"
+    ],
+    "languages": [
+      "csharp",
+      "java",
+      "javascript",
+      "typescript"
+    ],
+    "other": [
+      "ci"
+    ],
+    "licenses": [
+      "proprietary"
+    ],
+    "types": [
+      "cli",
+      "service"
+    ],
+    "homepage": "https://mobb.ai",
+    "source": null,
+    "pricing": null,
+    "plans": null,
+    "description": "Mobb is a trusted, automatic vulnerability fixer that secures applications, reduces security backlogs,  and frees developers to focus on innovation. Mobb is free for open-source projects.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "mondrian": {
     "name": "Mondrian",
     "categories": [

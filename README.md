@@ -1440,6 +1440,8 @@ TSLint is an extensible static analysis tool that checks TypeScript code for rea
  its advanced reporting, runnable on any CI system or locally,
  with assisted installation and configuration, able to apply formatting and fixes
 
+- [Mobb](https://mobb.ai) :copyright: — Mobb is a trusted, automatic vulnerability fixer that secures applications, reduces security backlogs,  and frees developers to focus on innovation. Mobb is free for open-source projects.
+
 - [MOPSA](https://mopsa.lip6.fr) — A static analyzer designed to easily reuse abstract domains across widely different languages (such as C and Python).
 
 - [oclint](http://oclint.org) :warning: — A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C.
