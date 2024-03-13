@@ -12,7 +12,7 @@ license: MIT
 types:
   - cli
   - service
-source: 'github.com/gitguardian/ggshield'
+source: 'https://github.com/gitguardian/ggshield'
 homepage: 'https://www.gitguardian.com/ggshield'
 resources:
   - title: Getting started with ggshield 
