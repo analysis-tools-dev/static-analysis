@@ -11,6 +11,7 @@ tags:
 license: proprietary
 types:
   - service
+  - cli
 homepage: 'https://mobb.ai'
 description: >-
   Mobb is a trusted, automatic vulnerability fixer that secures applications, reduces security backlogs, 
