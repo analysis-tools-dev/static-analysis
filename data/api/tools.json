@@ -1875,6 +1875,33 @@
     "demos": null,
     "wrapper": null
   },
+  "cargo-geiger": {
+    "name": "cargo-geiger",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "rust"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/geiger-rs/cargo-geiger",
+    "source": "https://github.com/geiger-rs/cargo-geiger",
+    "pricing": null,
+    "plans": null,
+    "description": "A cargo plugin for analysing the usage of unsafe Rust code Provides statistical output to aid security auditing",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "cargo-inspect": {
     "name": "cargo-inspect",
     "categories": [
