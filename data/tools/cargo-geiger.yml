@@ -1,0 +1,13 @@
+name: cargo-geiger
+categories:
+  - linter
+tags:
+  - rust
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/geiger-rs/cargo-geiger'
+homepage: 'https://github.com/geiger-rs/cargo-geiger'
+description: >-
+  A cargo plugin for analysing the usage of unsafe Rust code
+  Provides statistical output to aid security auditing
