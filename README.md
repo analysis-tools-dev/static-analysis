@@ -932,7 +932,7 @@ It uses the pycodestyle utility to determine what parts of the code needs to be 
 
 - [Black](https://black.readthedocs.io/en/stable) — The uncompromising Python code formatter.
 
-- [Bowler](https://pybowler.io/) :warning: — Safe code refactoring for modern Python.  Bowler is a refactoring tool for manipulating Python at the syntax tree level.  It enables safe, large scale code modifications while guaranteeing that the  resulting code compiles and runs. It provides both a simple command line interface  and a fluent API in Python for generating complex code modifications in code.
+- [Bowler](https://pybowler.io/) — Safe code refactoring for modern Python.  Bowler is a refactoring tool for manipulating Python at the syntax tree level.  It enables safe, large scale code modifications while guaranteeing that the  resulting code compiles and runs. It provides both a simple command line interface  and a fluent API in Python for generating complex code modifications in code.
 
 - [ciocheck](https://github.com/ContinuumIO/ciocheck) :warning: — Linter, formatter and test suite helper. As a linter, it is a wrapper around `pep8`, `pydocstyle`, `flake8`, and `pylint`.
 
@@ -1070,7 +1070,7 @@ YAPF follows a distinctive methodology, originating from the 'clang-format' tool
 
 - [pelusa](https://github.com/codegram/pelusa) — Static analysis Lint-type tool to improve your OO Ruby code.
 
-- [quality](https://github.com/apiology/quality) — Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time.
+- [quality](https://github.com/apiology/quality) :warning: — Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time.
 
 - [Querly](https://github.com/soutaro/querly) :warning: — Pattern Based Checking Tool for Ruby.
 
@@ -1799,7 +1799,7 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 
 - [PullRequest](https://www.pullrequest.com) :copyright: — Code review as a service with built-in static analysis.  Increase velocity and reduce technical debt through quality code review by expert engineers backed by best-in-class automation.
 
-- [quality](https://github.com/apiology/quality) — Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time.
+- [quality](https://github.com/apiology/quality) :warning: — Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time.
 
 - [QuantifiedCode](https://github.com/quantifiedcode/quantifiedcode) :warning: — Automated code review & repair. It helps you to keep track of issues and metrics in your software projects, and can be easily extended to support new types of analyses.
 
