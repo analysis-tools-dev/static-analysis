@@ -5017,6 +5017,33 @@
     "demos": null,
     "wrapper": null
   },
+  "delphilint": {
+    "name": "DelphiLint",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "delphi"
+    ],
+    "other": [],
+    "licenses": [
+      "LGPL-3.0-only license"
+    ],
+    "types": [
+      "ide-plugin"
+    ],
+    "homepage": "https://github.com/integrated-application-development/delphilint",
+    "source": "https://github.com/integrated-application-development/delphilint",
+    "pricing": null,
+    "plans": null,
+    "description": "A Delphi IDE package providing on-the-fly code analysis and linting, powered by SonarDelphi.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "dennis": {
     "name": "dennis",
     "categories": [
