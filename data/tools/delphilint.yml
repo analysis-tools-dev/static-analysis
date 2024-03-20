@@ -1,0 +1,11 @@
+name: DelphiLint
+categories:
+  - linter
+tags:
+  - delphi
+license: LGPL-3.0-only license
+types:
+  - ide-plugin
+source: 'https://github.com/integrated-application-development/delphilint'
+homepage: 'https://github.com/integrated-application-development/delphilint'
+description: A Delphi IDE package providing on-the-fly code analysis and linting, powered by SonarDelphi.
