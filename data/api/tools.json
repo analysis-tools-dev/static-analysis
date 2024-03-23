@@ -2056,7 +2056,7 @@
     "source": "https://github.com/TimonPost/cargo-unused-features",
     "pricing": null,
     "plans": null,
-    "description": "Find potential unused enabled feature flags and prune them. You can generate a simple HTML report from the json to make it easier to inspect results.\nIt removes a feature of a dependency and then compiles the project to see if it still compiles. If it does, the feature flag can possibly be removed, but it can be a false-positve.",
+    "description": "Find potential unused enabled feature flags and prune them. You can generate a simple HTML report from the json to make it easier to inspect results.\nIt removes a feature of a dependency and then compiles the project to see if it still compiles. If it does, the feature flag can possibly be removed, but it can be a false-positive.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
@@ -2204,7 +2204,7 @@
     "source": "https://github.com/helm/chart-testing",
     "pricing": null,
     "plans": null,
-    "description": "ct is the the tool for testing Helm charts.  It is meant to be used for linting and testing pull requests.  It automatically detects charts changed against the target branch.",
+    "description": "ct is the tool for testing Helm charts.  It is meant to be used for linting and testing pull requests.  It automatically detects charts changed against the target branch.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
@@ -14832,7 +14832,7 @@
     "deprecated": null,
     "resources": [
       {
-        "title": "Python linter comparision 2022.",
+        "title": "Python linter comparison 2022.",
         "url": "https://inventwithpython.com/blog/2022/11/19/python-linter-comparison-2022-pylint-vs-pyflakes-vs-flake8-vs-autopep8-vs-bandit-vs-prospector-vs-pylama-vs-pyroma-vs-black-vs-mypy-vs-radon-vs-mccabe/"
       }
     ],
