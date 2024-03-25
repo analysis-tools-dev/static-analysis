@@ -868,7 +868,7 @@ A ktfmt IntelliJ plugin is available from the plugin repository. To install it, 
 
 - [phpmnd](https://github.com/povils/phpmnd) — Helps to detect magic numbers.
 
-- [PHPQA](https://edgedesigncz.github.io/phpqa) — A tool for running QA tools (phploc, phpcpd, phpcs, pdepend, phpmd, phpmetrics).
+- [PHPQA](https://edgedesigncz.github.io/phpqa) :warning: — A tool for running QA tools (phploc, phpcpd, phpcs, pdepend, phpmd, phpmetrics).
 
 - [phpqa - jakzal](https://github.com/jakzal/phpqa) — Many tools for PHP static analysis in one container.
 
