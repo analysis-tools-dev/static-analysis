@@ -5470,7 +5470,7 @@
     "plans": null,
     "description": "Web application (WASM) to render a diff between Rust crate versions.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
