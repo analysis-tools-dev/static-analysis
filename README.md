@@ -1140,7 +1140,7 @@ It removes a feature of a dependency and then compiles the project to see if it 
 
 - [clippy](https://rust-lang.github.io/rust-clippy) — A code linter to catch common mistakes and improve your Rust code.
 
-- [diff.rs](https://diff.rs) :warning: — Web application (WASM) to render a diff between Rust crate versions.
+- [diff.rs](https://diff.rs) — Web application (WASM) to render a diff between Rust crate versions.
 
 - [dylint](https://www.trailofbits.com/post/write-rust-lints-without-forking-clippy) — A tool for running Rust lints from dynamic libraries. Dylint makes it easy for developers to maintain their own personal lint collections.
 
@@ -1596,7 +1596,7 @@ TSLint is an extensible static analysis tool that checks TypeScript code for rea
 <h2>Archive</h2>
 
 
-- [alquitran](https://github.com/ferivoz/alquitran) :warning: — Inspects tar archives and tries to spot portability issues in regard  to POSIX 2017 pax specification and common tar implementations.
+- [alquitran](https://github.com/ferivoz/alquitran) — Inspects tar archives and tries to spot portability issues in regard  to POSIX 2017 pax specification and common tar implementations.
 This project is intended to be used by maintainers of projects who want to offer portable source code archives for as many systems as possible. Checking tar archives with alquitran before publishing them should help spotting issues before they reach distributors and users.
 
 - [packj](https://packj.dev) — Packj (pronounced package) is a command line (CLI) tool to vet open-source software packages for "risky" attributes that make them vulnerable to supply chain attacks. This is the tool behind our large-scale security analysis platform Packj.dev that continuously vets packages and provides free reports.
