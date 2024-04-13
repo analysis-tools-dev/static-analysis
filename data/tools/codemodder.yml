@@ -3,6 +3,7 @@ categories:
  - linter
 tags:
   - java
+  - python
 license: GNU AFFERO GENERAL PUBLIC LICENSE 3.0
 types:
  - cli
