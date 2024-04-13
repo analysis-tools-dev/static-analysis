@@ -2,6 +2,7 @@ name: Pixee
 categories:
 tags:
   - java
+  - python
 license: proprietary
 types:
   - service
