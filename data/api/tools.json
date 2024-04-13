@@ -3373,6 +3373,7 @@
       "linter"
     ],
     "languages": [
+      "java",
       "python"
     ],
     "other": [],
@@ -3383,7 +3384,7 @@
       "cli"
     ],
     "homepage": "https://codemodder.io/",
-    "source": "https://github.com/pixee/codemodder-python",
+    "source": "https://github.com/pixee/codemodder-java",
     "pricing": null,
     "plans": null,
     "description": "Codemodder is a pluggable framework for building expressive codemods. Use Codemodder when you need more than a linter or code formatting tool. Use it to fix non-trivial security issues and other code quality problems.",
