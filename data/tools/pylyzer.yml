@@ -1,0 +1,15 @@
+name: pylyzers
+categories:
+  - linter
+tags:
+  - python
+license: MIT
+types:
+  - cli
+source: 'https://github.com/mtshiba/pylyzer'
+homepage: 'https://mtshiba.github.io/pylyzer/'
+resources: ~
+demos: ~
+description: >-
+  A static code analyzer / language server for Python, written in Rust, focused
+  on type checking and readable output.
