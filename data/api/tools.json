@@ -14643,6 +14643,33 @@
     "demos": null,
     "wrapper": null
   },
+  "pylyzers": {
+    "name": "pylyzers",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "python"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://mtshiba.github.io/pylyzer/",
+    "source": "https://github.com/mtshiba/pylyzer",
+    "pricing": null,
+    "plans": null,
+    "description": "A static code analyzer / language server for Python, written in Rust, focused on type checking and readable output.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "pyre-check": {
     "name": "pyre-check",
     "categories": [
