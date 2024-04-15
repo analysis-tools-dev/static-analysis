@@ -6,15 +6,15 @@ types:
 tags:
   - rust
   - security
-license: 'MIT & Apache 2.0' 
-source: 'https://github.com/model-checking/kani'
-homepage: 'https://github.com/model-checking/kani'
-description: >-
+license: "MIT & Apache 2.0"
+source: "https://github.com/model-checking/kani"
+homepage: "https://github.com/model-checking/kani"
+description: |
   The Kani Rust Verifier is a bit-precise model checker for Rust. 
   Kani is particularly useful for verifying unsafe code blocks in Rust, 
   where the "unsafe superpowers" are unchecked by the compiler.
   Kani verifies:
-  
+
   * Memory safety (e.g., null pointer dereferences)
   * User-specified assertions (i.e., assert!(...))
   * The absence of panics (e.g., unwrap() on None values)

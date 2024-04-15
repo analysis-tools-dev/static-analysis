@@ -11,7 +11,7 @@ homepage: "https://github.com/yannh/kubeconform"
 resources:
   - title: Ensuring Kubernetes manifests validity & compliance - a tooling overview - Yann Hamon, Contentful
     url: https://youtu.be/YM7Wy_M7Lvw?t=657
-description: >-
+description: |
   A fast Kubernetes manifests validator with support for custom resources.
 
   It is inspired by, contains code from and is designed to stay close to [Kubeval](https://analysis-tools.dev/tool/kubeval),
