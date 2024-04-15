@@ -9552,7 +9552,7 @@
     "source": "https://github.com/model-checking/kani",
     "pricing": null,
     "plans": null,
-    "description": "The Kani Rust Verifier is a bit-precise model checker for Rust.  Kani is particularly useful for verifying unsafe code blocks in Rust,  where the \"unsafe superpowers\" are unchecked by the compiler. Kani verifies:\n* Memory safety (e.g., null pointer dereferences) * User-specified assertions (i.e., assert!(...)) * The absence of panics (e.g., unwrap() on None values) * The absence of some types of unexpected behavior (e.g., arithmetic overflows)",
+    "description": "The Kani Rust Verifier is a bit-precise model checker for Rust. \nKani is particularly useful for verifying unsafe code blocks in Rust, \nwhere the \"unsafe superpowers\" are unchecked by the compiler.\nKani verifies:\n\n* Memory safety (e.g., null pointer dereferences)\n* User-specified assertions (i.e., assert!(...))\n* The absence of panics (e.g., unwrap() on None values)\n* The absence of some types of unexpected behavior (e.g., arithmetic overflows)\n",
     "discussion": null,
     "deprecated": null,
     "resources": null,
@@ -9989,7 +9989,7 @@
     "source": "https://github.com/yannh/kubeconform",
     "pricing": null,
     "plans": null,
-    "description": "A fast Kubernetes manifests validator with support for custom resources.\nIt is inspired by, contains code from and is designed to stay close to [Kubeval](https://analysis-tools.dev/tool/kubeval), but with the following improvements: * high performance: will validate & download manifests over multiple routines, caching downloaded files in memory * configurable list of remote, or local schemas locations, enabling validating Kubernetes custom resources (CRDs) and offline validation capabilities * uses by default a self-updating fork of the schemas registry maintained by the kubernetes-json-schema project - which guarantees up-to-date schemas for all recent versions of Kubernetes.",
+    "description": "A fast Kubernetes manifests validator with support for custom resources.\n\nIt is inspired by, contains code from and is designed to stay close to [Kubeval](https://analysis-tools.dev/tool/kubeval),\nbut with the following improvements:\n* high performance: will validate & download manifests over multiple routines, caching downloaded files in memory\n* configurable list of remote, or local schemas locations, enabling validating Kubernetes custom resources (CRDs) and offline validation capabilities\n* uses by default a self-updating fork of the schemas registry maintained by the kubernetes-json-schema project - which guarantees up-to-date schemas for all recent versions of Kubernetes.\n",
     "discussion": null,
     "deprecated": null,
     "resources": [

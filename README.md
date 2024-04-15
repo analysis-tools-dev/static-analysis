@@ -1142,8 +1142,16 @@ It removes a feature of a dependency and then compiles the project to see if it 
 
 - [herbie](https://github.com/mcarton/rust-herbie-lint) :warning: — Adds warnings or errors to your crate when using a numerically unstable floating point expression.
 
-- [kani](https://github.com/model-checking/kani) — The Kani Rust Verifier is a bit-precise model checker for Rust.  Kani is particularly useful for verifying unsafe code blocks in Rust,  where the "unsafe superpowers" are unchecked by the compiler. Kani verifies:
-* Memory safety (e.g., null pointer dereferences) * User-specified assertions (i.e., assert!(...)) * The absence of panics (e.g., unwrap() on None values) * The absence of some types of unexpected behavior (e.g., arithmetic overflows)
+- [kani](https://github.com/model-checking/kani) — The Kani Rust Verifier is a bit-precise model checker for Rust. 
+Kani is particularly useful for verifying unsafe code blocks in Rust, 
+where the "unsafe superpowers" are unchecked by the compiler.
+Kani verifies:
+
+* Memory safety (e.g., null pointer dereferences)
+* User-specified assertions (i.e., assert!(...))
+* The absence of panics (e.g., unwrap() on None values)
+* The absence of some types of unexpected behavior (e.g., arithmetic overflows)
+
 
 - [linter-rust](https://github.com/AtomLinter/linter-rust) :warning: — Linting your Rust-files in Atom, using rustc and cargo.
 
@@ -1906,7 +1914,13 @@ It identifies potential security risks in K8s RBAC design and makes suggestions 
 - [kube-score](https://kube-score.com) — Static code analysis of your Kubernetes object definitions.
 
 - [kubeconform](https://github.com/yannh/kubeconform) — A fast Kubernetes manifests validator with support for custom resources.
-It is inspired by, contains code from and is designed to stay close to [Kubeval](https://analysis-tools.dev/tool/kubeval), but with the following improvements: * high performance: will validate & download manifests over multiple routines, caching downloaded files in memory * configurable list of remote, or local schemas locations, enabling validating Kubernetes custom resources (CRDs) and offline validation capabilities * uses by default a self-updating fork of the schemas registry maintained by the kubernetes-json-schema project - which guarantees up-to-date schemas for all recent versions of Kubernetes.
+
+It is inspired by, contains code from and is designed to stay close to [Kubeval](https://analysis-tools.dev/tool/kubeval),
+but with the following improvements:
+* high performance: will validate & download manifests over multiple routines, caching downloaded files in memory
+* configurable list of remote, or local schemas locations, enabling validating Kubernetes custom resources (CRDs) and offline validation capabilities
+* uses by default a self-updating fork of the schemas registry maintained by the kubernetes-json-schema project - which guarantees up-to-date schemas for all recent versions of Kubernetes.
+
 
 - [KubeLinter](https://github.com/stackrox/kube-linter) — KubeLinter is a static analysis tool that checks Kubernetes YAML files and Helm charts to ensure the applications represented in them adhere to best practices.
 
@@ -2089,8 +2103,16 @@ It does this by running periodic diff outputs against heuristically crafted rege
 
 - [iblessing](https://www.kitploit.com/2020/08/iblessing-ios-security-exploiting.html) :warning: — iblessing is an iOS security exploiting toolkit. It can be used for reverse engineering, binary analysis and vulnerability mining.
 
-- [kani](https://github.com/model-checking/kani) — The Kani Rust Verifier is a bit-precise model checker for Rust.  Kani is particularly useful for verifying unsafe code blocks in Rust,  where the "unsafe superpowers" are unchecked by the compiler. Kani verifies:
-* Memory safety (e.g., null pointer dereferences) * User-specified assertions (i.e., assert!(...)) * The absence of panics (e.g., unwrap() on None values) * The absence of some types of unexpected behavior (e.g., arithmetic overflows)
+- [kani](https://github.com/model-checking/kani) — The Kani Rust Verifier is a bit-precise model checker for Rust. 
+Kani is particularly useful for verifying unsafe code blocks in Rust, 
+where the "unsafe superpowers" are unchecked by the compiler.
+Kani verifies:
+
+* Memory safety (e.g., null pointer dereferences)
+* User-specified assertions (i.e., assert!(...))
+* The absence of panics (e.g., unwrap() on None values)
+* The absence of some types of unexpected behavior (e.g., arithmetic overflows)
+
 
 - [kics](https://kics.io/) — Find security vulnerabilities, compliance issues, and infrastructure misconfigurations in your infrastructure-as-code. Supports Terraform, Kubernetes, Docker, AWS CloudFormation and Ansible
 
