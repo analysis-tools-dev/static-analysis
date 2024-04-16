@@ -784,6 +784,9 @@ A ktfmt IntelliJ plugin is available from the plugin repository. To install it, 
 
 - [churn-php](https://github.com/bmitch/churn-php) — Helps discover good candidates for refactoring.
 
+- [composer-dependency-analyser](https://github.com/shipmonk-rnd/composer-dependency-analyser) — Fast detection of composer dependency issues.
+* 💪 Powerful: Detects unused, shadow and misplaced composer dependencies * ⚡ Performant: Scans 15 000 files in 2s! * ⚙️ Configurable: Fine-grained ignores via PHP config * 🕸️ Lightweight: No composer dependencies * 🍰 Easy-to-use: No config needed for first try * ✨ Compatible: PHP >= 7.2
+
 - [dephpend](https://github.com/mihaeu/dephpend) — Dependency analysis tool.
 
 - [deprecation-detector](https://github.com/sensiolabs-de/deprecation-detector) — Finds usages of deprecated (Symfony) code.
@@ -1794,6 +1797,9 @@ It identifies potential security risks in K8s RBAC design and makes suggestions 
 - [Codecov](https://about.codecov.io/) :copyright: — Codecov is a company that provides code coverage tools for developers and engineering leaders  to gain visibility into their code coverage.
 They offer flexible and unified reporting, seamless coverage insights, and robust coverage controls. Codecov supports over 20 languages and is CI/CD agnostic. Over 29,000 organizations and 1 million developers use Codecov. Codecov has recently joined Sentry.
 
+- [composer-dependency-analyser](https://github.com/shipmonk-rnd/composer-dependency-analyser) — Fast detection of composer dependency issues.
+* 💪 Powerful: Detects unused, shadow and misplaced composer dependencies * ⚡ Performant: Scans 15 000 files in 2s! * ⚙️ Configurable: Fine-grained ignores via PHP config * 🕸️ Lightweight: No composer dependencies * 🍰 Easy-to-use: No config needed for first try * ✨ Compatible: PHP >= 7.2
+
 - [Diffblue](https://www.diffblue.com/) :copyright: — Diffblue is a software company that provides AI-powered code analysis and testing solutions for software development teams.
 Its technology helps developers automate testing, find bugs, and reduce manual labor in their software development processes. The company's main product, Diffblue Cover, uses AI to generate and run unit tests for Java code, helping to catch errors and improve code quality.
 
@@ -2038,6 +2044,9 @@ but with the following improvements:
 <a name="package" />
 <h2>Packages</h2>
 
+
+- [composer-dependency-analyser](https://github.com/shipmonk-rnd/composer-dependency-analyser) — Fast detection of composer dependency issues.
+* 💪 Powerful: Detects unused, shadow and misplaced composer dependencies * ⚡ Performant: Scans 15 000 files in 2s! * ⚙️ Configurable: Fine-grained ignores via PHP config * 🕸️ Lightweight: No composer dependencies * 🍰 Easy-to-use: No config needed for first try * ✨ Compatible: PHP >= 7.2
 
 - [lintian](https://wiki.debian.org/Lintian) — Static analysis tool for Debian packages.
 

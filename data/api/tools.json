@@ -4020,6 +4020,36 @@
     "demos": null,
     "wrapper": null
   },
+  "composer-dependency-analyser": {
+    "name": "composer-dependency-analyser",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "php"
+    ],
+    "other": [
+      "ci",
+      "package"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/shipmonk-rnd/composer-dependency-analyser",
+    "source": "https://github.com/shipmonk-rnd/composer-dependency-analyser",
+    "pricing": null,
+    "plans": null,
+    "description": "Fast detection of composer dependency issues.\n* 💪 Powerful: Detects unused, shadow and misplaced composer dependencies * ⚡ Performant: Scans 15 000 files in 2s! * ⚙️ Configurable: Fine-grained ignores via PHP config * 🕸️ Lightweight: No composer dependencies * 🍰 Easy-to-use: No config needed for first try * ✨ Compatible: PHP >= 7.2",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "cookstyle": {
     "name": "cookstyle",
     "categories": [
