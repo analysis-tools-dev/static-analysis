@@ -10,7 +10,7 @@ types:
   - cli
 source: 'https://github.com/shipmonk-rnd/composer-dependency-analyser'
 homepage: 'https://github.com/shipmonk-rnd/composer-dependency-analyser'
-description: >-
+description: |
   Fast detection of composer dependency issues.
 
   * 💪 Powerful: Detects unused, shadow and misplaced composer dependencies
