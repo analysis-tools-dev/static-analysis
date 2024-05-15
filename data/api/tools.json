@@ -12828,7 +12828,7 @@
     "plans": null,
     "description": "A Static Code Analyzer for PHP.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
