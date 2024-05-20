@@ -1428,6 +1428,9 @@ TSLint is an extensible static analysis tool that checks TypeScript code for rea
 
 - [Fortify](https://www.microfocus.com/en-us/cyberres/application-security/static-code-analyzer) :copyright: — A commercial static analysis platform that supports the scanning of C/C++, C#, VB.NET, VB6, ABAP/BSP, ActionScript, Apex, ASP.NET, Classic ASP, VB Script, Cobol, ColdFusion, HTML, Java, JS, JSP, MXML/Flex, Objective-C, PHP, PL/SQL, T-SQL, Python (2.6, 2.7), Ruby (1.9.3), Swift, Scala, VB, and XML.
 
+- [Freeplane Code Explorer](https://docs.freeplane.org/user-documentation/Code_Explorer.html) — The Code Explorer mode in Freeplane is designed for analyzing the structure and dependencies  of code compiled to JVM class files.  It also allows displaying ArchUnit test results directly in Freeplane,  if Freeplane is running and ArchUnit detects rule violations during the tests.
+
+
 - [Goodcheck](https://sider.github.io/goodcheck) — Regexp based customizable linter.
 
 - [goone](https://github.com/masibw/goone) :warning: — Finds N+1 queries (SQL calls in a for loop) in go code

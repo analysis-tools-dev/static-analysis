@@ -7141,6 +7141,35 @@
     "demos": null,
     "wrapper": null
   },
+  "freeplane-code-explorer": {
+    "name": "Freeplane Code Explorer",
+    "categories": [
+      "meta"
+    ],
+    "languages": [
+      "java",
+      "kotlin",
+      "scala"
+    ],
+    "other": [],
+    "licenses": [
+      "GPL-2.0-or-later"
+    ],
+    "types": [
+      "gui"
+    ],
+    "homepage": "https://docs.freeplane.org/user-documentation/Code_Explorer.html",
+    "source": "https://github.com/freeplane/freeplane",
+    "pricing": null,
+    "plans": null,
+    "description": "The Code Explorer mode in Freeplane is designed for analyzing the structure and dependencies  of code compiled to JVM class files.  It also allows displaying ArchUnit test results directly in Freeplane,  if Freeplane is running and ArchUnit detects rule violations during the tests.\n",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "frink": {
     "name": "Frink",
     "categories": [
