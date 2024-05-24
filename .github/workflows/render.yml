@@ -29,7 +29,7 @@ jobs:
           commit_author: Analysis Tools Bot <bot@analysis-tools.dev>
 
       - name: Redeploy website
-        uses: peter-evans/repository-dispatch@v1
+        uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
           repository: analysis-tools-dev/website-next
