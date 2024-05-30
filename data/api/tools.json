@@ -1099,8 +1099,8 @@
     "demos": null,
     "wrapper": null
   },
-  "betterscan": {
-    "name": "Betterscan",
+  "betterscan-ce": {
+    "name": "Betterscan CE",
     "categories": [
       "linter"
     ],
@@ -1122,19 +1122,23 @@
       "typescript"
     ],
     "other": [
-      "ci"
+      "ci",
+      "security"
     ],
     "licenses": [
-      "BSD-3 Clause License with LGPL-2.1 with Commonsclause."
+      "AGPL-3.0"
     ],
     "types": [
-      "service"
+      "cli"
     ],
-    "homepage": "https://betterscan.io",
-    "source": "https://github.com/marcinguy/scanmycode-ce",
-    "pricing": null,
-    "plans": null,
-    "description": "Betterscan.io - Betterscan.io checks your code and infra (various Git repositories supported, cloud stacks, CLI, Web Interface platform, integrationss available) for security and quality issues. Code Scanning/SAST/Linting using many tools/Scanners deduplicated with One Report (AI optional). Free to use in noncommerical way, commercial requires license.",
+    "homepage": "https://github.com/marcinguy/betterscan-ce",
+    "source": "https://github.com/marcinguy/betterscan-ce",
+    "pricing": "https://betterscan.io/pricing",
+    "plans": {
+      "free": false,
+      "oss": true
+    },
+    "description": "Checks your code and infra (various Git repositories supported, cloud stacks, CLI, Web Interface platform, integrationss available) for security and quality issues. Code Scanning/SAST/Linting using many tools/Scanners deduplicated with One Report (AI optional).",
     "discussion": null,
     "deprecated": null,
     "resources": null,
