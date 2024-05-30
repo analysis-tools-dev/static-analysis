@@ -1,4 +1,4 @@
-name: Betterscan
+name: Betterscan CE
 categories:
   - linter
 tags:
@@ -20,10 +20,14 @@ tags:
   - javascript
   - typescript
   - python
-
-license: BSD-3 Clause License with LGPL-2.1 with Commonsclause. 
+  - security
+license: AGPL-3.0 
 types:
-  - service
-source: "https://github.com/marcinguy/scanmycode-ce"
-homepage: "https://betterscan.io"
-description: Betterscan.io - Betterscan.io checks your code and infra (various Git repositories supported, cloud stacks, CLI, Web Interface platform, integrationss available) for security and quality issues. Code Scanning/SAST/Linting using many tools/Scanners deduplicated with One Report (AI optional). Free to use in noncommerical way, commercial requires license.
+  - cli
+source: "https://github.com/marcinguy/betterscan-ce"
+homepage: "https://github.com/marcinguy/betterscan-ce"
+plans:
+  oss: true
+  free: false
+pricing: https://betterscan.io/pricing
+description: Checks your code and infra (various Git repositories supported, cloud stacks, CLI, Web Interface platform, integrationss available) for security and quality issues. Code Scanning/SAST/Linting using many tools/Scanners deduplicated with One Report (AI optional).
