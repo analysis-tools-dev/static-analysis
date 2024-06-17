@@ -17,18 +17,18 @@ This project would not be possible without the generous support of our sponsors.
 <table>
    <tr>
       <td>
-         <a href="https://www.bearer.com">
-            <picture >
-               <source width="200px" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/bearer-dark.svg">
-               <img width="200px" alt="Bearer" src="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/bearer-light.svg">
-            </picture>
-         </a>
-      </td>
-      <td>
          <a href="https://bugprove.com">
             <picture >
                <source width="200px" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/bugprove-dark.svg">
                <img width="200px" alt="BugProve" src="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/bugprove-light.svg">
+            </picture>
+         </a>
+      </td>
+      <td>
+         <a href="https://www.betterscan.io">
+            <picture >
+               <source width="200px" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/betterscan-dark.svg">
+               <img width="200px" alt="Betterscan" src="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/betterscan-light.svg">
             </picture>
          </a>
       </td>
@@ -40,9 +40,16 @@ This project would not be possible without the generous support of our sponsors.
             </picture>
          </a>
       </td>
-      <td><a href="https://codescene.com/"><img width="200px" src="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/codescene.svg" /></a></td>
-      <td><a href="https://semgrep.dev/"><img width="200px" src="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/semgrep.svg" /></a></td>
-      <td><a href="https://offensive360.com/"><img width="200px" src="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/offensive360.png" /></a></td>
+      <td>
+         <a href="https://semgrep.dev/">
+            <img width="200px" src="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/semgrep.svg" />
+         </a>
+      </td>
+      <td>
+         <a href="https://offensive360.com/">
+            <img width="200px" src="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/offensive360.png" />
+         </a>
+      </td>
    </tr>
 </table>
 
