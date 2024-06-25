@@ -452,7 +452,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [elm-analyse](https://stil4m.github.io/elm-analyse) :warning: — A tool that allows you to analyse your Elm code, identify deficiencies and apply best practices.
 
-- [elm-review](https://package.elm-lang.org/packages/jfmengels/elm-review/latest) — Analyzes whole Elm projects, with a focus on shareable and custom rules written in Elm that add guarantees the Elm compiler doesn't give you.
+- [elm-review](https://package.elm-lang.org/packages/jfmengels/elm-review/latest) :warning: — Analyzes whole Elm projects, with a focus on shareable and custom rules written in Elm that add guarantees the Elm compiler doesn't give you.
 
 
 <a name="erlang" />
@@ -481,7 +481,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [fprettify](https://pypi.python.org/pypi/fprettify) — Auto-formatter for modern fortran source code, written in Python.
 Fprettify is a tool that provides consistent whitespace, indentation, and delimiter alignment in code, including the ability to change letter case and handle preprocessor directives, all while preserving revision history and tested for editor integration.
 
-- [i-Code CNES for Fortran](https://github.com/lequal/i-CodeCNES) :warning: — An open source static code analysis tool for Fortran 77, Fortran 90 and Shell.
+- [i-Code CNES for Fortran](https://github.com/lequal/i-CodeCNES) — An open source static code analysis tool for Fortran 77, Fortran 90 and Shell.
 
 
 <a name="go" />
@@ -779,7 +779,7 @@ A ktfmt IntelliJ plugin is available from the plugin repository. To install it, 
 
 - [DrNim](https://nim-lang.org/docs/drnim.html) — DrNim combines the Nim frontend with the Z3 proof engine in order to allow verify / validate software written in Nim.
 
-- [nimfmt](https://github.com/FedericoCeratto/nimfmt) :warning: — Nim code formatter / linter / style checker
+- [nimfmt](https://github.com/FedericoCeratto/nimfmt) — Nim code formatter / linter / style checker
 
 
 <a name="ocaml" />
@@ -851,7 +851,7 @@ A ktfmt IntelliJ plugin is available from the plugin repository. To install it, 
 
 - [PHP Refactoring Browser](https://qafoolabs.github.io/php-refactoring-browser) — Refactoring helper.
 
-- [PHP Semantic Versioning Checker](https://github.com/tomzx/php-semver-checker) — Suggests a next version according to semantic versioning.
+- [PHP Semantic Versioning Checker](https://github.com/tomzx/php-semver-checker) :warning: — Suggests a next version according to semantic versioning.
 
 - [PHP-Parser](https://github.com/nikic/PHP-Parser) — A PHP parser written in PHP.
 
@@ -1251,7 +1251,7 @@ Kani verifies:
 
 - [bashate](https://github.com/openstack/bashate) — Code style enforcement for bash programs. The output format aims to follow pycodestyle (pep8) default output format.
 
-- [i-Code CNES for Shell](https://github.com/lequal/i-CodeCNES) :warning: — An open source static code analysis tool for Shell and Fortran (77 and 90).
+- [i-Code CNES for Shell](https://github.com/lequal/i-CodeCNES) — An open source static code analysis tool for Shell and Fortran (77 and 90).
 
 - [kmdr](https://github.com/ediardo/kmdr-cli) — CLI tool for learning commands from your terminal. kmdr delivers a break down of commands with every attribute explained.
 
