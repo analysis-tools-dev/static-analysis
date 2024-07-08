@@ -452,7 +452,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [elm-analyse](https://stil4m.github.io/elm-analyse) :warning: — A tool that allows you to analyse your Elm code, identify deficiencies and apply best practices.
 
-- [elm-review](https://package.elm-lang.org/packages/jfmengels/elm-review/latest) :warning: — Analyzes whole Elm projects, with a focus on shareable and custom rules written in Elm that add guarantees the Elm compiler doesn't give you.
+- [elm-review](https://package.elm-lang.org/packages/jfmengels/elm-review/latest) — Analyzes whole Elm projects, with a focus on shareable and custom rules written in Elm that add guarantees the Elm compiler doesn't give you.
 
 
 <a name="erlang" />
