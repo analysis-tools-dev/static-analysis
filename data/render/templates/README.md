@@ -41,6 +41,11 @@ This project would not be possible without the generous support of our sponsors.
          </a>
       </td>
       <td>
+         <a href="https://coderabbit.ai">
+            <img width="200px" src="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/code-rabbit.svg" />
+         </a>
+      </td>
+      <td>
          <a href="https://semgrep.dev/">
             <img width="200px" src="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/semgrep.svg" />
          </a>
