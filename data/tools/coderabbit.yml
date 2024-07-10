@@ -1,0 +1,22 @@
+name: CodeRabbit
+categories:
+  - linter
+tags:
+  - ci
+types:
+  - service
+source: "https://github.com/coderabbitai"
+homepage: "https://coderabbit.ai"
+license: proprietary
+plans:
+  oss: true
+  free: true
+pricing: https://coderabbit.ai/pricing
+resources:
+  - title: "AI Code Reviews Demo"
+    url: https://www.youtube.com/watch?v=3SyUOSebG7E
+description: >-
+  AI-powered code review tool that helps developers write better code faster. 
+  CodeRabbit provides automated code reviews, 
+  identifies security vulnerabilities, and suggests code improvements. 
+  It integrates with GitHub and GitLab.
