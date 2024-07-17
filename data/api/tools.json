@@ -4765,7 +4765,7 @@
     "plans": null,
     "description": "Additional linter for Dart. Reports code metrics, checks for anti-patterns and provides additional rules for Dart analyzer.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
