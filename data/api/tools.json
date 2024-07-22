@@ -6844,7 +6844,7 @@
     "plans": null,
     "description": "Finds possible security weaknesses.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,

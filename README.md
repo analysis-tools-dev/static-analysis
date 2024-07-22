@@ -238,7 +238,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [ESBMC](http://esbmc.org) — ESBMC is an open source, permissively licensed, context-bounded model checker based on satisfiability modulo theories for the verification of single- and multi-threaded C/C++ programs.
 
-- [flawfinder](http://dwheeler.com/flawfinder/) — Finds possible security weaknesses.
+- [flawfinder](http://dwheeler.com/flawfinder/) :warning: — Finds possible security weaknesses.
 
 - [flint++](https://github.com/JossWhittle/FlintPlusPlus) — Cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.
 
@@ -338,7 +338,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [ESBMC](http://esbmc.org) — ESBMC is an open source, permissively licensed, context-bounded model checker based on satisfiability modulo theories for the verification of single- and multi-threaded C/C++ programs.
 
-- [flawfinder](http://dwheeler.com/flawfinder/) — Finds possible security weaknesses.
+- [flawfinder](http://dwheeler.com/flawfinder/) :warning: — Finds possible security weaknesses.
 
 - [flint++](https://github.com/JossWhittle/FlintPlusPlus) — Cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.
 
