@@ -2062,7 +2062,7 @@
     "plans": null,
     "description": "Find potential unused enabled feature flags and prune them. You can generate a simple HTML report from the json to make it easier to inspect results.\nIt removes a feature of a dependency and then compiles the project to see if it still compiles. If it does, the feature flag can possibly be removed, but it can be a false-positive.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
