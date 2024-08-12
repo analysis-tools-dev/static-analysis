@@ -1038,7 +1038,7 @@ It uses the pycodestyle utility to determine what parts of the code needs to be 
 
 - [wily](https://github.com/tonybaloney/wily) — A command-line tool for archiving, exploring and graphing the complexity of Python source code.
 
-- [xenon](https://xenon.readthedocs.io) — Monitor code complexity using [`radon`](https://github.com/rubik/radon).
+- [xenon](https://xenon.readthedocs.io) :warning: — Monitor code complexity using [`radon`](https://github.com/rubik/radon).
 
 - [yapf](https://github.com/google/yapf) — A formatter for Python files created by Google
 YAPF follows a distinctive methodology, originating from the 'clang-format' tool created by Daniel Jasper. Essentially, the program reframes the code to the most suitable formatting that abides by the style guide, even if the original code already follows the style guide. This concept is similar to the Go programming language's 'gofmt' tool, which aims to put an end to debates about formatting by having the entire codebase of a project pass through YAPF whenever changes are made, thereby maintaining a consistent style throughout the project and eliminating the need to argue about style in every code review.
@@ -1802,7 +1802,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 - [kics](https://kics.io/) — Find security vulnerabilities, compliance issues, and infrastructure misconfigurations in your infrastructure-as-code. Supports Terraform, Kubernetes, Docker, AWS CloudFormation and Ansible
 
-- [krane](https://github.com/appvia/krane) — Krane is a simple Kubernetes RBAC static analysis tool.
+- [krane](https://github.com/appvia/krane) :warning: — Krane is a simple Kubernetes RBAC static analysis tool.
 It identifies potential security risks in K8s RBAC design and makes suggestions on how to mitigate them. Krane dashboard presents current RBAC security posture and lets you navigate through its definition.
 
 - [OpenSCAP](https://www.open-scap.org/) — Suite of automated audit tools to examine the configuration and  known vulnerabilities following the NIST-certified Security  Content Automation Protocol (SCAP).
@@ -1947,7 +1947,7 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 
 - [klint](https://github.com/uswitch/klint) — A tool that listens to changes in Kubernetes resources and runs linting rules against them. Identify and debug erroneous objects and nudge objects in line with the policies as both change over time. Klint helps us encode checks and proactively alert teams when they need to take action.
 
-- [krane](https://github.com/appvia/krane) — Krane is a simple Kubernetes RBAC static analysis tool.
+- [krane](https://github.com/appvia/krane) :warning: — Krane is a simple Kubernetes RBAC static analysis tool.
 It identifies potential security risks in K8s RBAC design and makes suggestions on how to mitigate them. Krane dashboard presents current RBAC security posture and lets you navigate through its definition.
 
 - [kube-hunter](https://aquasecurity.github.io/kube-hunter/) — Hunt for security weaknesses in Kubernetes clusters.
