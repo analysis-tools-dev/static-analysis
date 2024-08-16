@@ -240,7 +240,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [flawfinder](http://dwheeler.com/flawfinder/) :warning: — Finds possible security weaknesses.
 
-- [flint++](https://github.com/JossWhittle/FlintPlusPlus) — Cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.
+- [flint++](https://github.com/JossWhittle/FlintPlusPlus) :warning: — Cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.
 
 - [Frama-C](https://www.frama-c.com) — A sound and extensible static analyzer for C code.
 
@@ -340,7 +340,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [flawfinder](http://dwheeler.com/flawfinder/) :warning: — Finds possible security weaknesses.
 
-- [flint++](https://github.com/JossWhittle/FlintPlusPlus) — Cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.
+- [flint++](https://github.com/JossWhittle/FlintPlusPlus) :warning: — Cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.
 
 - [Frama-C](https://www.frama-c.com) — A sound and extensible static analyzer for C code.
 

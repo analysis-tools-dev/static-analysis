@@ -6926,7 +6926,7 @@
     "plans": null,
     "description": "Cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
