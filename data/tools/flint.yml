@@ -4,6 +4,7 @@ categories:
 tags:
   - c
   - cpp
+deprecated: true
 license: Boost Software License 1.0
 types:
   - cli
