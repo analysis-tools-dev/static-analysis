@@ -4,6 +4,7 @@ categories:
 tags:
   - c
   - cpp
+deprecated: true
 license: BSL-1.0 (original text)
 types:
   - cli
