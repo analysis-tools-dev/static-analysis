@@ -1,0 +1,23 @@
+name: Codety
+categories:
+  - linter
+tags:
+  - ci
+  - cpp
+  - go
+  - java
+  - javascript
+  - json
+  - jsp
+  - kotlin
+  - plsql
+  - python
+  - scala
+  - swift
+  - typescript
+license: proprietary
+types:
+  - service
+homepage: https://www.codety.io
+description: Codety Scanner is a comprehensive and versatile source code scanner that detects code issues for different programming languages and IaC tools
+source: "https://github.com/codetyio/codety-scanner"
