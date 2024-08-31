@@ -15,7 +15,6 @@ tags:
   - scala
   - swift
   - typescript
-  - IaC
 license: proprietary
 types:
   - service
