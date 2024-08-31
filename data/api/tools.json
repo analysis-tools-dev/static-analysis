@@ -3837,6 +3837,46 @@
     "demos": null,
     "wrapper": null
   },
+  "codety": {
+    "name": "Codety",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "cpp",
+      "go",
+      "java",
+      "javascript",
+      "jsp",
+      "kotlin",
+      "plsql",
+      "python",
+      "scala",
+      "swift",
+      "typescript"
+    ],
+    "other": [
+      "ci",
+      "json"
+    ],
+    "licenses": [
+      "proprietary"
+    ],
+    "types": [
+      "service"
+    ],
+    "homepage": "https://www.codety.io",
+    "source": "https://github.com/codetyio/codety-scanner",
+    "pricing": null,
+    "plans": null,
+    "description": "Codety Scanner is a comprehensive source code scanner that embeds 5000+ static code analysis rules, which aim to detect code issues for 20+ programming languages and IaC tools.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "codiga": {
     "name": "Codiga",
     "categories": [
