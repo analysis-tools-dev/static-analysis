@@ -1,0 +1,11 @@
+name: ionide-analyzers
+categories:
+  - linter
+tags:
+  - fsharp
+license: "MIT License"
+types:
+  - cli
+source: 'https://github.com/ionide/ionide-analyzers'
+homepage: 'https://ionide.io/ionide-analyzers/'
+description: A collection of F# analyzers, built with the FSharp.Analyzers.SDK.

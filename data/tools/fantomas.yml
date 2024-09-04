@@ -1,0 +1,11 @@
+name: fantomas
+categories:
+  - formatter
+tags:
+  - fsharp
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/fsprojects/fantomas'
+homepage: 'https://fsprojects.github.io/fantomas/'
+description: F# source code formatter.
