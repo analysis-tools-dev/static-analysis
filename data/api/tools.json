@@ -6614,6 +6614,33 @@
     "demos": null,
     "wrapper": null
   },
+  "fantomas": {
+    "name": "fantomas",
+    "categories": [
+      "formatter"
+    ],
+    "languages": [
+      "fsharp"
+    ],
+    "other": [],
+    "licenses": [
+      "Apache License 2.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://fsprojects.github.io/fantomas/",
+    "source": "https://github.com/fsprojects/fantomas",
+    "pricing": null,
+    "plans": null,
+    "description": "F# source code formatter.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "fasterer": {
     "name": "Fasterer",
     "categories": [
@@ -9360,6 +9387,33 @@
     "description": "Suggest narrower interfaces that can be used.",
     "discussion": null,
     "deprecated": true,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "ionide-analyzers": {
+    "name": "ionide-analyzers",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "fsharp"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://ionide.io/ionide-analyzers/",
+    "source": "https://github.com/ionide/ionide-analyzers",
+    "pricing": null,
+    "plans": null,
+    "description": "A collection of F# analyzers, built with the FSharp.Analyzers.SDK.",
+    "discussion": null,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,

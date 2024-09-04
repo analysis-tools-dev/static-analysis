@@ -476,7 +476,11 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 <h2>F#</h2>
 
 
+- [fantomas](https://fsprojects.github.io/fantomas/) — F# source code formatter.
+
 - [FSharpLint](https://fsprojects.github.io/FSharpLint) — Lint tool for F#.
+
+- [ionide-analyzers](https://ionide.io/ionide-analyzers/) — A collection of F# analyzers, built with the FSharp.Analyzers.SDK.
 
 
 <a name="fortran" />
