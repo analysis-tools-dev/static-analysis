@@ -8,4 +8,4 @@ types:
   - cli
 source: 'https://github.com/ionide/ionide-analyzers'
 homepage: 'https://ionide.io/ionide-analyzers/'
-description: A collection of F# analyzers, build with the FSharp.Analyzers.SDK.
+description: A collection of F# analyzers, built with the FSharp.Analyzers.SDK.
