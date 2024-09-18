@@ -260,6 +260,8 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [MATE](https://galoisinc.github.io/MATE/) :warning: — A suite of tools for interactive program analysis with a focus on hunting for bugs in C and C++ code. MATE unifies application-specific and low-level vulnerability analysis using code property graphs (CPGs), enabling the discovery of highly application-specific vulnerabilities that depend on both implementation details and the high-level semantics of target C/C++ programs.
 
+- [Owi](https://github.com/OCamlPro/owi) - Parallel (dynamic) symbolic execution engine for C code built on WebAssembly (Wasm). ([paper](https://hal.science/hal-04627413))
+ 
 - [PC-lint](https://pclintplus.com/) :copyright: — Static analysis for C/C++. Runs natively under Windows/Linux/MacOS. Analyzes code for virtually any platform, supporting C11/C18 and C++17.
 
 - [Phasar](https://phasar.org) — A LLVM-based static analysis framework which comes with a taint and type state analysis.
@@ -1193,6 +1195,8 @@ Kani verifies:
 
 - [MIRAI](https://github.com/facebookexperimental/MIRAI) — And abstract interpreter operating on Rust's mid-level intermediate language, and providing warnings based on taint analysis.
 
+- [Owi](https://github.com/OCamlPro/owi) - Parallel (dynamic) symbolic execution engine for Rust code built on WebAssembly (Wasm). ([paper](https://hal.science/hal-04627413))
+
 - [prae](https://github.com/teenjuna/prae) :warning: — Provides a convenient macro that allows you to generate type wrappers  that promise to always uphold arbitrary invariants that you specified. 
 
 - [Prusti](https://www.pm.inf.ethz.ch/research/prusti.html) — A static verifier for Rust, based on the Viper verification infrastructure. By default Prusti verifies absence of panics by proving that statements such as unreachable!() and panic!() are unreachable.
@@ -1501,6 +1505,8 @@ TSLint is an extensible static analysis tool that checks TypeScript code for rea
 
 - [oxc](https://github.com/web-infra-dev/oxc) — The Oxidation Compiler is creating a suite of high-performance tools for the JavaScript / TypeScript language re-written in Rust.
 
+- [Owi](https://github.com/OCamlPro/owi) - Parallel (dynamic) **cross-language** symbolic execution engine built on WebAssembly (Wasm). ([paper](https://hal.science/hal-04627413))
+
 - [parasoft](https://www.parasoft.com/) :copyright: — Automated Software Testing Solutions for unit-, API-, and web UI testing. Complies with MISRA, OWASP, and others.
 
 - [pfff](https://github.com/facebookarchive/pfff/wiki/Main) :warning: — Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages.
@@ -1692,6 +1698,8 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 - [mcsema](https://github.com/lifting-bits/mcsema) :warning: — Framework for lifting x86, amd64, aarch64, sparc32, and sparc64 program binaries to LLVM bitcode. It translates ("lifts") executable binaries from native machine code to LLVM bitcode, which is very useful for performing program analysis methods.
 
 - [Nauz File Detector](https://github.com/horsicq/Nauz-File-Detector) — Static Linker/Compiler/Tool detector for Windows, Linux and MacOS.
+
+- [Owi](https://github.com/OCamlPro/owi) - Parallel (dynamic) symbolic execution engine for WebAssembly (Wasm). ([paper](https://hal.science/hal-04627413))
 
 - [rust-audit](https://github.com/Shnatsel/rust-audit) — Audit Rust binaries for known bugs or security vulnerabilities. This works by embedding data about the dependency tree (Cargo.lock) in JSON format into a dedicated linker section of the compiled executable.
 
@@ -2282,8 +2290,9 @@ TruffleHog is an open source secret-scanning engine that resolves exposed secret
 
 
 <a name="wasm" />
-<h2>Webassembly</h2>
+<h2>WebAssembly</h2>
 
+- [Owi](https://github.com/OCamlPro/owi) - Parallel (dynamic) symbolic execution engine for WebAssembly (Wasm). ([paper](https://hal.science/hal-04627413))
 
 - [Twiggy](https://rustwasm.github.io/twiggy) — Analyzes a binary's call graph to profile code size. The goal is to slim down wasm binary size.
 
