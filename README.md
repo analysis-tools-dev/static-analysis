@@ -856,7 +856,7 @@ A ktfmt IntelliJ plugin is available from the plugin repository. To install it, 
 
 - [PHP Insights](https://phpinsights.com) — Instant PHP quality checks from your console. Analysis of code quality and coding style as well as overview of code architecture and its complexity.
 
-- [Php Inspections (EA Extended)](https://plugins.jetbrains.com/plugin/7622-php-inspections-ea-extended-) :warning: — A Static Code Analyzer for PHP.
+- [Php Inspections (EA Extended)](https://plugins.jetbrains.com/plugin/7622-php-inspections-ea-extended-) — A Static Code Analyzer for PHP.
 
 - [PHP Refactoring Browser](https://qafoolabs.github.io/php-refactoring-browser) — Refactoring helper.
 
@@ -1510,6 +1510,8 @@ TSLint is an extensible static analysis tool that checks TypeScript code for rea
 - [PMD](https://pmd.github.io) — A source code analyzer for Java, Salesforce Apex, Javascript, PLSQL, XML, XSL and others.
 
 - [pre-commit](https://pre-commit.com) — A framework for managing and maintaining multi-language pre-commit hooks.
+
+- [Precaution](https://www.securesauce.dev/) — Precaution is a static analysis security tool (SAST) designed to find potentially critical vulnerabilities in source code prior to production. It is available as a CLI, GitHub Action, and GitHub App.
 
 - [Prettier](https://prettier.io) — An opinionated code formatter.
 

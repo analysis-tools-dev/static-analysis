@@ -12990,7 +12990,7 @@
     "plans": null,
     "description": "A Static Code Analyzer for PHP.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -13993,6 +13993,47 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "precaution": {
+    "name": "Precaution",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "go",
+      "java",
+      "python"
+    ],
+    "other": [
+      "ci",
+      "security"
+    ],
+    "licenses": [
+      "Business Source License 1.1"
+    ],
+    "types": [
+      "cli",
+      "service"
+    ],
+    "homepage": "https://www.securesauce.dev/",
+    "source": "https://github.com/securesauce/precli",
+    "pricing": "https://www.securesauce.dev/",
+    "plans": {
+      "free": true,
+      "oss": true
+    },
+    "description": "Precaution is a static analysis security tool (SAST) designed to find potentially critical vulnerabilities in source code prior to production. It is available as a CLI, GitHub Action, and GitHub App.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Introducing Precaution",
+        "url": "https://blog.securesauce.dev/introducing-precaution"
+      }
+    ],
     "reviews": null,
     "demos": null,
     "wrapper": null
