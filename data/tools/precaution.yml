@@ -10,10 +10,18 @@ tags:
 license: Business Source License 1.1
 types:
   - cli
+  - service
 source: 'https://github.com/securesauce/precli'
-homepage: 'https://precli.readthedocs.io/latest/'
+homepage: 'https://www.securesauce.dev/'
 resources:
   - title: Introducing Precaution
     url: https://blog.securesauce.dev/introducing-precaution
+plans:
+  oss: true
+  free: true
+pricing: https://www.securesauce.dev/
 description: >-
-   Precaution CLI - command line static application security testing tool
+   Precaution is a static analysis security tool (SAST) designed
+   to find potentially critical vulnerabilities in source code prior
+   to production. It is available as a CLI, GitHub Action, and GitHub
+   App.
