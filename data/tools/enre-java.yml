@@ -1,0 +1,14 @@
+name: ENRE-java
+categories:
+  - linter
+tags:
+  - java
+license: LGPL-2.1 license
+types:
+  - cli
+source: 'https://github.com/xjtu-enre/ENRE-java'
+homepage: 'https://github.com/xjtu-enre/ENRE-java'
+description: >-
+  ENRE (ENtity Relationship Extractor) is a tool for extraction of code entity dependencies or relationships from source code.
+  ENRE-java is a ENtity Relationship Extractor for Java projects based on @Eclipse JDT/parser.
+

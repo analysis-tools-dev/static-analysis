@@ -1,0 +1,14 @@
+name: ENRE-py
+categories:
+  - linter
+tags:
+  - python
+license: LGPL-2.1 license
+types:
+  - cli
+source: 'https://github.com/xjtu-enre/ENRE-py'
+homepage: 'https://github.com/xjtu-enre/ENRE-py'
+description: >-
+  ENRE (ENtity Relationship Extractor) is a tool for extraction of code entity dependencies or relationships from source code.
+  ENRE-py is a ENtity Relationship Extractor for Python based on Python Language Services of The Standard Library.
+
