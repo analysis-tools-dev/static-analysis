@@ -11,5 +11,5 @@ source: 'https://github.com/xjtu-enre/ENRE-cpp'
 homepage: 'https://github.com/xjtu-enre/ENRE-cpp'
 description: >-
   ENRE (ENtity Relationship Extractor) is a tool for extraction of code entity dependencies or relationships from source code.
-  ENRE-cpp is a ENtity Relationship Extractor for C++ based on Eclipse/CDT.
+  ENRE-cpp is a ENtity Relationship Extractor for C/C++ based on @eclipse/CDT. (Under development)
 
