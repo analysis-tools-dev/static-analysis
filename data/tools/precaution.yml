@@ -1,0 +1,19 @@
+name: Precaution
+categories:
+  - linter
+tags:
+  - ci
+  - go
+  - java
+  - python
+  - security
+license: Business Source License 1.1
+types:
+  - cli
+source: 'https://github.com/securesauce/precli'
+homepage: 'https://precli.readthedocs.io/latest/'
+resources:
+  - title: Introducing Precaution
+    url: https://blog.securesauce.dev/introducing-precaution
+description: >-
+   Precaution CLI - command line static application security testing tool
