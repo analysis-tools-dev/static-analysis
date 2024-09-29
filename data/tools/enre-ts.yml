@@ -1,0 +1,14 @@
+name: ENRE-ts
+categories:
+  - linter
+tags:
+  - typescript
+license: LGPL-2.1 license
+types:
+  - cli
+source: 'https://github.com/xjtu-enre/ENRE-ts'
+homepage: 'https://github.com/xjtu-enre/ENRE-ts'
+description: >-
+  ENRE (ENtity Relationship Extractor) is a tool for extraction of code entity dependencies or relationships from source code.
+  ENRE-ts is a ENtity Relationship Extractor for ECMAScript and TypeScript based on @babel/parser.
+
