@@ -12,3 +12,5 @@ description: A tool to find common security issues in Python code.
 resources:
   - title: "Code security with Bandit and Safety — Perfect Python"
     url: https://www.youtube.com/watch?v=YZOKnvisJpw
+  - title: "The Python Podcast.__init__: Bandit with Tim Kelsey, Travis McPeak, and Eric Brown - E62"
+    url: https://www.pythonpodcast.com/episodepage/bandit-with-tim-kelsey-travis-mcpeak-and-eric-brown
