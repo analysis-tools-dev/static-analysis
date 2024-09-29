@@ -236,6 +236,8 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [CScout](https://www.spinellis.gr/cscout) — Complexity and quality metrics for C and C preprocessor code.
 
+- [ENRE-cpp](https://github.com/xjtu-enre/ENRE-cpp) — ENRE (ENtity Relationship Extractor) is a tool for extraction of code entity dependencies or relationships from source code. ENRE-cpp is a ENtity Relationship Extractor for C/C++ based on @eclipse/CDT. (Under development)
+
 - [ESBMC](http://esbmc.org) — ESBMC is an open source, permissively licensed, context-bounded model checker based on satisfiability modulo theories for the verification of single- and multi-threaded C/C++ programs.
 
 - [flawfinder](http://dwheeler.com/flawfinder/) :warning: — Finds possible security weaknesses.
@@ -335,6 +337,8 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [cqmetrics](https://github.com/dspinellis/cqmetrics) — Quality metrics for C code.
 
 - [CScout](https://www.spinellis.gr/cscout) — Complexity and quality metrics for C and C preprocessor code.
+
+- [ENRE-cpp](https://github.com/xjtu-enre/ENRE-cpp) — ENRE (ENtity Relationship Extractor) is a tool for extraction of code entity dependencies or relationships from source code. ENRE-cpp is a ENtity Relationship Extractor for C/C++ based on @eclipse/CDT. (Under development)
 
 - [ESBMC](http://esbmc.org) — ESBMC is an open source, permissively licensed, context-bounded model checker based on satisfiability modulo theories for the verification of single- and multi-threaded C/C++ programs.
 
@@ -652,6 +656,8 @@ By default, govulncheck makes requests to the Go vulnerability database at https
 Its technology helps developers automate testing, find bugs, and reduce manual labor in their software development processes. The company's main product, Diffblue Cover, uses AI to generate and run unit tests for Java code, helping to catch errors and improve code quality.
 
 - [Doop](https://bitbucket.org/yanniss/doop) — Doop is a declarative framework for static analysis of Java/Android programs, centered on pointer analysis algorithms. Doop provides a large variety of analyses and also the surrounding scaffolding to run an analysis end-to-end (fact generation, processing, statistics, etc.).
+
+- [ENRE-java](https://github.com/xjtu-enre/ENRE-java) — ENRE (ENtity Relationship Extractor) is a tool for extraction of code entity dependencies or relationships from source code. ENRE-java is a ENtity Relationship Extractor for Java projects based on @Eclipse JDT/parser.
 
 - [Error Prone](https://errorprone.info) — Catch common Java mistakes as compile-time errors.
 
@@ -976,6 +982,8 @@ It uses the pycodestyle utility to determine what parts of the code needs to be 
 
 - [Dodgy](https://github.com/landscapeio/dodgy) — Dodgy is a very basic tool to run against your codebase to search for "dodgy" looking values. It is a series of simple regular expressions designed to detect things such as accidental SCM diff checkins, or passwords or secret keys hard coded into files.
 
+- [ENRE-py](https://github.com/xjtu-enre/ENRE-py) :warning: — ENRE (ENtity Relationship Extractor) is a tool for extraction of code entity dependencies or relationships from source code. ENRE-py is a ENtity Relationship Extractor for Python based on Python Language Services of The Standard Library.
+
 - [fixit](https://pypi.org/project/fixit) — A framework for creating lint rules and corresponding auto-fixes for source code.
 
 - [flake8](https://github.com/PyCQA/flake8) — A wrapper around `pyflakes`, `pycodestyle` and `mccabe`.
@@ -1088,7 +1096,7 @@ YAPF follows a distinctive methodology, originating from the 'clang-format' tool
 
 - [flay](https://ruby.sadi.st/Flay.html) — Flay analyzes code for structural similarities.
 
-- [flog](https://ruby.sadi.st/Flog.html) — Flog reports the most tortured code in an easy to read pain report. The higher the score, the more pain the code is in.
+- [flog](https://ruby.sadi.st/Flog.html) :warning: — Flog reports the most tortured code in an easy to read pain report. The higher the score, the more pain the code is in.
 
 - [Fukuzatsu](https://github.com/CoralineAda/fukuzatsu) — A tool for measuring code complexity in Ruby class files. Its analysis generates scores based on cyclomatic complexity algorithms with no added "opinions".
 
@@ -1300,6 +1308,8 @@ Kani verifies:
 - [Angular ESLint](https://github.com/angular-eslint/angular-eslint#readme) — Linter for Angular projects
 
 - [Codelyzer](http://codelyzer.com) :warning: — A set of tslint rules for static code analysis of Angular 2 TypeScript projects.
+
+- [ENRE-ts](https://github.com/xjtu-enre/ENRE-ts) — ENRE (ENtity Relationship Extractor) is a tool for extraction of code entity dependencies or relationships from source code. ENRE-ts is a ENtity Relationship Extractor for ECMAScript and TypeScript based on @babel/parser.
 
 - [fta](https://ftaproject.dev/) — Rust-based static analysis for TypeScript projects
 

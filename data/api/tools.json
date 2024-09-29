@@ -930,6 +930,10 @@
       {
         "title": "Code security with Bandit and Safety — Perfect Python",
         "url": "https://www.youtube.com/watch?v=YZOKnvisJpw"
+      },
+      {
+        "title": "The Python Podcast.__init__: Bandit with Tim Kelsey, Travis McPeak, and Eric Brown - E62",
+        "url": "https://www.pythonpodcast.com/episodepage/bandit-with-tim-kelsey-travis-mcpeak-and-eric-brown"
       }
     ],
     "reviews": null,
@@ -6294,6 +6298,115 @@
     "demos": null,
     "wrapper": null
   },
+  "enre-cpp": {
+    "name": "ENRE-cpp",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "c",
+      "cpp"
+    ],
+    "other": [],
+    "licenses": [
+      "LGPL-2.1 license"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/xjtu-enre/ENRE-cpp",
+    "source": "https://github.com/xjtu-enre/ENRE-cpp",
+    "pricing": null,
+    "plans": null,
+    "description": "ENRE (ENtity Relationship Extractor) is a tool for extraction of code entity dependencies or relationships from source code. ENRE-cpp is a ENtity Relationship Extractor for C/C++ based on @eclipse/CDT. (Under development)",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "enre-java": {
+    "name": "ENRE-java",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "java"
+    ],
+    "other": [],
+    "licenses": [
+      "LGPL-2.1 license"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/xjtu-enre/ENRE-java",
+    "source": "https://github.com/xjtu-enre/ENRE-java",
+    "pricing": null,
+    "plans": null,
+    "description": "ENRE (ENtity Relationship Extractor) is a tool for extraction of code entity dependencies or relationships from source code. ENRE-java is a ENtity Relationship Extractor for Java projects based on @Eclipse JDT/parser.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "enre-py": {
+    "name": "ENRE-py",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "python"
+    ],
+    "other": [],
+    "licenses": [
+      "LGPL-2.1 license"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/xjtu-enre/ENRE-py",
+    "source": "https://github.com/xjtu-enre/ENRE-py",
+    "pricing": null,
+    "plans": null,
+    "description": "ENRE (ENtity Relationship Extractor) is a tool for extraction of code entity dependencies or relationships from source code. ENRE-py is a ENtity Relationship Extractor for Python based on Python Language Services of The Standard Library.",
+    "discussion": null,
+    "deprecated": true,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "enre-ts": {
+    "name": "ENRE-ts",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "typescript"
+    ],
+    "other": [],
+    "licenses": [
+      "LGPL-2.1 license"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/xjtu-enre/ENRE-ts",
+    "source": "https://github.com/xjtu-enre/ENRE-ts",
+    "pricing": null,
+    "plans": null,
+    "description": "ENRE (ENtity Relationship Extractor) is a tool for extraction of code entity dependencies or relationships from source code. ENRE-ts is a ENtity Relationship Extractor for ECMAScript and TypeScript based on @babel/parser.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "erb-lint": {
     "name": "ERB Lint",
     "categories": [
@@ -7020,7 +7133,7 @@
     "plans": null,
     "description": "Flog reports the most tortured code in an easy to read pain report. The higher the score, the more pain the code is in.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
