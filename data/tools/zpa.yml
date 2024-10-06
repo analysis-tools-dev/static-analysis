@@ -7,5 +7,5 @@ license: LGPL-3.0 License
 types:
   - cli
 source: 'https://github.com/felipebz/zpa'
-homepage: 'https://felipezorzo.com.br/zpa/'
-description: Z PL/SQL Analyzer (ZPA) is an extensible code analyzer for PL/SQL and Oracle SQL. It can be integrated with SonarQube.
+homepage: 'https://zpa.felipebz.com'
+description: An open source parser and code analyzer for PL/SQL and Oracle SQL code.
