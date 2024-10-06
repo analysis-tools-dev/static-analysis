@@ -937,7 +937,7 @@ A ktfmt IntelliJ plugin is available from the plugin repository. To install it, 
 <h2>PL/SQL</h2>
 
 
-- [ZPA](https://felipezorzo.com.br/zpa/) — Z PL/SQL Analyzer (ZPA) is an extensible code analyzer for PL/SQL and Oracle SQL. It can be integrated with SonarQube.
+- [ZPA](https://zpa.felipebz.com) — An open source parser and code analyzer for PL/SQL and Oracle SQL code.
 
 
 <a name="perl" />
@@ -1036,7 +1036,7 @@ It uses the pycodestyle utility to determine what parts of the code needs to be 
 
 - [QuantifiedCode](https://github.com/quantifiedcode/quantifiedcode) :warning: — Automated code review & repair. It helps you to keep track of issues and metrics in your software projects, and can be easily extended to support new types of analyses.
 
-- [radon](https://radon.readthedocs.io/en/latest) — A Python tool that computes various metrics from the source code.
+- [radon](https://radon.readthedocs.io/en/latest) :warning: — A Python tool that computes various metrics from the source code.
 
 - [refurb](https://github.com/dosisod/refurb) — A tool for refurbishing and modernizing Python codebases. Refurb is heavily inspired by clippy, the built-in linter for Rust.
 
@@ -2025,7 +2025,7 @@ but with the following improvements:
 
 - [markdownlint](https://github.com/DavidAnson/markdownlint) — Node.js -based style checker and lint tool for Markdown/CommonMark files.
 
-- [mdformat](https://mdformat.rtfd.io) :warning: — CommonMark compliant Markdown formatter
+- [mdformat](https://mdformat.rtfd.io) — CommonMark compliant Markdown formatter
 
 - [mdl](https://github.com/mivok/markdownlint) — A tool to check Markdown files and flag style issues.
 
