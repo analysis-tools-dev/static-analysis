@@ -1,0 +1,14 @@
+name: Griffe
+categories:
+  - linter
+tags:
+  - python
+license: ISC License
+types:
+  - cli
+source: 'https://github.com/mkdocstrings/griffe'
+homepage: 'https://mkdocstrings.github.io/griffe/'
+description: >-
+  Signatures for entire Python programs.
+  Extract the structure, the frame, the skeleton of your project,
+  to generate API documentation or find breaking changes in your API.
