@@ -16,5 +16,5 @@ tokio = { version = "1.40.0", features = ["rt-multi-thread", "macros"] }
 chrono = "0.4.38"
 anyhow = "1.0.90"
 pico-args = "0.5.0"
-serde_json = "1.0.129"
+serde_json = "1.0.132"
 slug = "0.1.6"
