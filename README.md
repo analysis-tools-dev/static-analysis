@@ -2126,7 +2126,7 @@ but with the following improvements:
 
 - [promformat](https://github.com/facetoe/promformat) :warning: — Promformat is a PromQL formatter written in Python.
 
-- [promval](https://github.com/facetoe/promval) :warning: — PromQL validator written in Python. It can be used to validate that PromQL expressions are written as expected.
+- [promval](https://github.com/facetoe/promval) — PromQL validator written in Python. It can be used to validate that PromQL expressions are written as expected.
 
 
 <a name="protobuf" />

@@ -14352,7 +14352,7 @@
     "plans": null,
     "description": "PromQL validator written in Python. It can be used to validate that PromQL expressions are written as expected.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
