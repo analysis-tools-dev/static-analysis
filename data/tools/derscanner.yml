@@ -1,0 +1,45 @@
+name: DerScanner
+categories:
+  - linter
+tags:
+  - abap
+  - apex
+  - asp
+  - c
+  - cpp
+  - cobol
+  - csharp
+  - dart
+  - delphi
+  - go
+  - groovy
+  - html
+  - java
+  - javascript
+  - kotlin
+  - mobile
+  - nodejs
+  - objectivec
+  - pascal
+  - perl
+  - php
+  - plsql
+  - python
+  - ruby
+  - rust
+  - scala
+  - security
+  - swift
+  - vbasic
+  - vbnet
+  - vbscript
+  - xml
+license: proprietary
+types:
+  - cli
+  - service
+homepage: https://derscanner.com/
+description: >-
+  Multi-language Static Application Security Testing (SAST) platform that detects critical vulnerabilities,
+  including hardcoded secrets, weak cryptography, backdoors, SQL injections, insecure configurations, etc.
+pricing: https://derscanner.com/pricing
