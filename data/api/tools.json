@@ -5323,6 +5323,66 @@
     "demos": null,
     "wrapper": null
   },
+  "derscanner": {
+    "name": "DerScanner",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "abap",
+      "asp",
+      "apex",
+      "c",
+      "csharp",
+      "cpp",
+      "cobol",
+      "dart",
+      "delphi",
+      "go",
+      "groovy",
+      "java",
+      "javascript",
+      "kotlin",
+      "objectivec",
+      "pascal",
+      "perl",
+      "php",
+      "plsql",
+      "python",
+      "ruby",
+      "rust",
+      "scala",
+      "swift",
+      "vbscript",
+      "vbasic",
+      "vbnet"
+    ],
+    "other": [
+      "html",
+      "mobile",
+      "nodejs",
+      "security",
+      "xml"
+    ],
+    "licenses": [
+      "proprietary"
+    ],
+    "types": [
+      "cli",
+      "service"
+    ],
+    "homepage": "https://derscanner.com/",
+    "source": null,
+    "pricing": "https://derscanner.com/pricing",
+    "plans": null,
+    "description": "Multi-language Static Application Security Testing (SAST) platform that detects critical vulnerabilities, including hardcoded secrets, weak cryptography, backdoors, SQL injections, insecure configurations, etc.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "designite": {
     "name": "Designite",
     "categories": [
