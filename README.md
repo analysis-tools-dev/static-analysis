@@ -727,7 +727,7 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 
 - [JSPrime](https://dpnishant.github.io/jsprime) :warning: — Static security analysis tool.
 
-- [NodeJSScan](https://opensecurity.in) :warning: — A static security code scanner for Node.js applications powered by libsast and semgrep that builds on the njsscan cli tool. It features a UI with various dashboards about an application's security status.
+- [NodeJSScan](https://opensecurity.in) — A static security code scanner for Node.js applications powered by libsast and semgrep that builds on the njsscan cli tool. It features a UI with various dashboards about an application's security status.
 
 - [plato](https://github.com/es-analysis/plato) :warning: — Visualize JavaScript source complexity.
 
@@ -1015,7 +1015,7 @@ It uses the pycodestyle utility to determine what parts of the code needs to be 
 
 - [pycodestyle](https://pycodestyle.pycqa.org/en/latest) — (Formerly `pep8`) Check Python code against some of the style conventions in PEP 8.
 
-- [pydocstyle](http://www.pydocstyle.org) — Check compliance with Python docstring conventions.
+- [pydocstyle](http://www.pydocstyle.org) :warning: — Check compliance with Python docstring conventions.
 
 - [pyflakes](https://pypi.org/project/pyflakes) — Check Python source files for errors.
 
@@ -2098,7 +2098,7 @@ but with the following improvements:
 
 - [njsscan](https://opensecurity.in) — A static application testing (SAST) tool that can find insecure code patterns in your node.js applications using simple pattern matcher from libsast and syntax-aware semantic code pattern search tool semgrep.
 
-- [NodeJSScan](https://opensecurity.in) :warning: — A static security code scanner for Node.js applications powered by libsast and semgrep that builds on the njsscan cli tool. It features a UI with various dashboards about an application's security status.
+- [NodeJSScan](https://opensecurity.in) — A static security code scanner for Node.js applications powered by libsast and semgrep that builds on the njsscan cli tool. It features a UI with various dashboards about an application's security status.
 
 - [standard](http://standardjs.com) — An npm module that checks for Javascript Styleguide issues.
 
@@ -2204,7 +2204,7 @@ Kani verifies:
 
 - [njsscan](https://opensecurity.in) — A static application testing (SAST) tool that can find insecure code patterns in your node.js applications using simple pattern matcher from libsast and syntax-aware semantic code pattern search tool semgrep.
 
-- [NodeJSScan](https://opensecurity.in) :warning: — A static security code scanner for Node.js applications powered by libsast and semgrep that builds on the njsscan cli tool. It features a UI with various dashboards about an application's security status.
+- [NodeJSScan](https://opensecurity.in) — A static security code scanner for Node.js applications powered by libsast and semgrep that builds on the njsscan cli tool. It features a UI with various dashboards about an application's security status.
 
 - [Oversecured](https://oversecured.com) :copyright: — Enterprise vulnerability scanner for Android and iOS apps. It allows app owners and developers to secure each new version of a mobile app by integrating Oversecured into the development process.
 
