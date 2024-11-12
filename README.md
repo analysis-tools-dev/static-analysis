@@ -1325,7 +1325,7 @@ TSLint is an extensible static analysis tool that checks TypeScript code for rea
 
 - [tslint-microsoft-contrib](https://github.com/Microsoft/tslint-microsoft-contrib) :warning: — A set of tslint rules for static code analysis of TypeScript projects maintained by Microsoft.
 
-- [TypeScript Call Graph](https://github.com/whyboris/TypeScript-Call-Graph) :warning: — CLI to generate an interactive graph of functions and calls from your TypeScript files
+- [TypeScript Call Graph](https://github.com/whyboris/TypeScript-Call-Graph) — CLI to generate an interactive graph of functions and calls from your TypeScript files
 
 - [TypeScript ESLint](https://github.com/typescript-eslint/typescript-eslint) — TypeScript language extension for eslint.
 

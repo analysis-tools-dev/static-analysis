@@ -20074,7 +20074,7 @@
     "plans": null,
     "description": "CLI to generate an interactive graph of functions and calls from your TypeScript files",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
