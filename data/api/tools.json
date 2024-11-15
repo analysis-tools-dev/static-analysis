@@ -11078,7 +11078,7 @@
     "plans": null,
     "description": "An IDE for statically typed Lua development.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -11350,6 +11350,33 @@
     "pricing": null,
     "plans": null,
     "description": "A tool to check Markdown files and flag style issues.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "mdsf": {
+    "name": "mdsf",
+    "categories": [
+      "formatter"
+    ],
+    "languages": [],
+    "other": [
+      "markdown"
+    ],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/hougesen/mdsf",
+    "source": "https://github.com/hougesen/mdsf",
+    "pricing": null,
+    "plans": null,
+    "description": "Format markdown code blocks using your favorite code formatters.",
     "discussion": null,
     "deprecated": null,
     "resources": null,

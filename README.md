@@ -779,7 +779,7 @@ A ktfmt IntelliJ plugin is available from the plugin repository. To install it, 
 
 - [lualint](https://github.com/philips/lualint) — lualint performs luac-based static analysis of global variable usage in Lua source code.
 
-- [Luanalysis](https://plugins.jetbrains.com/plugin/14698-luanalysis) — An IDE for statically typed Lua development.
+- [Luanalysis](https://plugins.jetbrains.com/plugin/14698-luanalysis) :warning: — An IDE for statically typed Lua development.
 
 
 <a name="matlab" />
@@ -2033,6 +2033,8 @@ but with the following improvements:
 - [mdformat](https://mdformat.rtfd.io) — CommonMark compliant Markdown formatter
 
 - [mdl](https://github.com/mivok/markdownlint) — A tool to check Markdown files and flag style issues.
+
+- [mdsf](https://github.com/hougesen/mdsf) — Format markdown code blocks using your favorite code formatters.
 
 - [remark-lint](https://remark.js.org) — Pluggable Markdown code style linter written in JavaScript.
 
