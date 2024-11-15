@@ -6,6 +6,6 @@ tags:
 license: UPL
 types:
   - cli
-source: 'https://bitbucket.org/yanniss/doop'
-homepage: 'https://bitbucket.org/yanniss/doop'
+source: 'https://github.com/plast-lab/doop'
+homepage: 'https://plast-lab.github.io/doop-pldi15-tutorial/'
 description: Doop is a declarative framework for static analysis of Java/Android programs, centered on pointer analysis algorithms. Doop provides a large variety of analyses and also the surrounding scaffolding to run an analysis end-to-end (fact generation, processing, statistics, etc.).
