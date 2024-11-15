@@ -5881,8 +5881,8 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://bitbucket.org/yanniss/doop",
-    "source": "https://bitbucket.org/yanniss/doop",
+    "homepage": "https://plast-lab.github.io/doop-pldi15-tutorial/",
+    "source": "https://github.com/plast-lab/doop",
     "pricing": null,
     "plans": null,
     "description": "Doop is a declarative framework for static analysis of Java/Android programs, centered on pointer analysis algorithms. Doop provides a large variety of analyses and also the surrounding scaffolding to run an analysis end-to-end (fact generation, processing, statistics, etc.).",
