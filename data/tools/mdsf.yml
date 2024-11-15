@@ -1,0 +1,12 @@
+name: mdsf
+categories:
+  - formatter
+tags:
+  - markdown
+license: MIT License
+types:
+  - cli
+deprecated: false
+homepage: "https://github.com/hougesen/mdsf"
+source: "https://github.com/hougesen/mdsf"
+description: Format markdown code blocks using your favorite code formatters.
