@@ -18629,7 +18629,7 @@
     "plans": null,
     "description": "Speedy TypeScript type checker written in Rust",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
