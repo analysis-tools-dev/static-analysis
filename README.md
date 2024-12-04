@@ -565,7 +565,7 @@ The tool is a fork of `gofmt` as of Go 1.19, and requires Go 1.18 or later.  It 
 - [govulncheck](https://go.dev/blog/vuln) — Govulncheck reports known vulnerabilities that affect Go code.  It uses static analysis of source code or a binary's symbol table to narrow down reports to only those that could affect the application.
 By default, govulncheck makes requests to the Go vulnerability database at https://vuln.go.dev. Requests to the vulnerability database contain only module paths, not code or other properties of your program.
 
-- [ineffassign](https://github.com/gordonklaus/ineffassign) — Detect ineffectual assignments in Go code.
+- [ineffassign](https://github.com/gordonklaus/ineffassign) :warning: — Detect ineffectual assignments in Go code.
 
 - [interfacer](https://github.com/mvdan/interfacer) :warning: — Suggest narrower interfaces that can be used.
 
@@ -597,7 +597,7 @@ By default, govulncheck makes requests to the Go vulnerability database at https
 
 - [test](https://pkg.go.dev/testing) — Show location of test failures from the stdlib testing module.
 
-- [unconvert](https://github.com/mdempsky/unconvert) :warning: — Detect redundant type conversions.
+- [unconvert](https://github.com/mdempsky/unconvert) — Detect redundant type conversions.
 
 - [unparam](https://github.com/mvdan/unparam) — Find unused function parameters.
 
@@ -692,7 +692,7 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 
 - [SpotBugs](https://spotbugs.github.io) — SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code.
 
-- [steady](https://eclipse.github.io/steady/) — Analyses your Java applications for open-source dependencies with known vulnerabilities, using both static analysis and testing to determine code context and usage for greater accuracy.
+- [steady](https://eclipse.github.io/steady/) :warning: — Analyses your Java applications for open-source dependencies with known vulnerabilities, using both static analysis and testing to determine code context and usage for greater accuracy.
 
 - [Violations Lib](https://github.com/tomasbjerre/violations-lib) — Java library for parsing report files from static code analysis. Used by a bunch of Jenkins, Maven and Gradle plugins.
 
@@ -999,7 +999,7 @@ It uses the pycodestyle utility to determine what parts of the code needs to be 
 
 - [linty fresh](https://github.com/lyft/linty_fresh) — Parse lint errors and report them to Github as comments on a pull request.
 
-- [mccabe](https://pypi.org/project/mccabe) — Check McCabe complexity.
+- [mccabe](https://pypi.org/project/mccabe) :warning: — Check McCabe complexity.
 
 - [multilint](https://github.com/adamchainz/multilint) :warning: — A wrapper around `flake8`, `isort` and `modernize`.
 
@@ -1506,7 +1506,7 @@ TSLint is an extensible static analysis tool that checks TypeScript code for rea
 
 - [MOPSA](https://mopsa.lip6.fr) — A static analyzer designed to easily reuse abstract domains across widely different languages (such as C and Python).
 
-- [oclint](http://oclint.org) :warning: — A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C.
+- [oclint](http://oclint.org) — A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C.
 
 - [Offensive 360](https://offensive360.com/) :copyright: — Commercial Static Code Analysis system doesn't require building the source code or pre-compilation.
 
