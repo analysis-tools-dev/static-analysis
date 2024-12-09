@@ -4016,7 +4016,7 @@
     "plans": null,
     "description": "A tool for measuring Python class cohesion.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -17698,8 +17698,35 @@
     "demos": null,
     "wrapper": null
   },
-  "sonarcloud": {
-    "name": "SonarCloud",
+  "sonardelphi": {
+    "name": "SonarDelphi",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "delphi"
+    ],
+    "other": [],
+    "licenses": [
+      "LGPL-3.0-only license"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/integrated-application-development/sonar-delphi",
+    "source": "https://github.com/integrated-application-development/sonar-delphi",
+    "pricing": null,
+    "plans": null,
+    "description": "Delphi static analyzer for the SonarQube code quality platform.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "sonarqube-cloud": {
+    "name": "SonarQube Cloud",
     "categories": [
       "linter"
     ],
@@ -17750,7 +17777,7 @@
       "free": false,
       "oss": true
     },
-    "description": "SonarCloud enables your team to deliver clean code consistently and efficiently with a code review  tool that easily integrates into the cloud DevOps platforms and extend your CI/CD workflow.  SonarCloud is free for open source projects.",
+    "description": "SonarQube Cloud enables your team to deliver clean code consistently and efficiently with a code review  tool that easily integrates into the cloud DevOps platforms and extend your CI/CD workflow.  SonarQube Cloud provides a free plan.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
@@ -17762,35 +17789,8 @@
     "demos": null,
     "wrapper": null
   },
-  "sonardelphi": {
-    "name": "SonarDelphi",
-    "categories": [
-      "linter"
-    ],
-    "languages": [
-      "delphi"
-    ],
-    "other": [],
-    "licenses": [
-      "LGPL-3.0-only license"
-    ],
-    "types": [
-      "cli"
-    ],
-    "homepage": "https://github.com/integrated-application-development/sonar-delphi",
-    "source": "https://github.com/integrated-application-development/sonar-delphi",
-    "pricing": null,
-    "plans": null,
-    "description": "Delphi static analyzer for the SonarQube code quality platform.",
-    "discussion": null,
-    "deprecated": null,
-    "resources": null,
-    "reviews": null,
-    "demos": null,
-    "wrapper": null
-  },
-  "sonarlint": {
-    "name": "SonarLint",
+  "sonarqube-for-ide": {
+    "name": "SonarQube for IDE",
     "categories": [
       "linter"
     ],
@@ -17833,7 +17833,7 @@
     "source": "https://github.com/SonarSource/sonarlint-intellij",
     "pricing": null,
     "plans": null,
-    "description": "SonarLint is a free IDE extension available for IntelliJ, VS Code, Visual Studio, and Eclipse,  to find and fix coding issues in real-time, flagging issues as you code, just like a spell-checker.  More than a linter, it also delivers rich contextual guidance to help developers understand  why there is an issue, assess the risk, and educate them on how to fix it.",
+    "description": "SonarQube for IDE (formerly SonarLint) is a free IDE extension available for IntelliJ, VS Code, Visual Studio, and Eclipse,  to find and fix coding issues in real-time, flagging issues as you code, just like a spell-checker.  More than a linter, it also delivers rich contextual guidance to help developers understand  why there is an issue, assess the risk, and educate them on how to fix it.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
@@ -17841,27 +17841,43 @@
     "demos": null,
     "wrapper": null
   },
-  "sonarqube": {
-    "name": "SonarQube",
+  "sonarqube-server": {
+    "name": "SonarQube Server",
     "categories": [
       "linter"
     ],
     "languages": [
+      "abap",
+      "apex",
+      "c",
       "csharp",
+      "cpp",
+      "cobol",
       "go",
       "java",
       "javascript",
       "kotlin",
+      "objectivec",
       "php",
+      "plsql",
       "python",
       "ruby",
       "scala",
-      "typescript"
+      "swift",
+      "tsql",
+      "typescript",
+      "vbnet"
     ],
     "other": [
+      "arm",
+      "cloudformation",
       "ci",
       "css",
+      "dockerfile",
       "html",
+      "kubernetes",
+      "security",
+      "terraform",
       "xml"
     ],
     "licenses": [
@@ -17874,7 +17890,7 @@
     "source": "https://github.com/SonarSource/sonarqube",
     "pricing": "https://www.sonarsource.com/plans-and-pricing/",
     "plans": null,
-    "description": "SonarQube empowers development teams with a code quality and security solution that deeply integrates into your enterprise environment; enabling you to deploy clean code consistently and reliably. SonarQube provides a free and open source Community Edition.",
+    "description": "SonarQube empowers development teams with a code quality and security solution that deeply integrates into your enterprise environment; enabling you to deploy clean code consistently and reliably. SonarQube provides a free and open source Community Build.",
     "discussion": null,
     "deprecated": null,
     "resources": [
