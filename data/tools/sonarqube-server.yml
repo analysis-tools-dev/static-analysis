@@ -1,21 +1,37 @@
-name: SonarQube
+name: SonarQube Server
 categories:
   - linter
 tags:
-  - ci
+  - abap
+  - apex
+  - arm
+  - c
+  - cpp
+  - cloudformation
+  - cobol
   - csharp
   - css
+  - dockerfile
   - go
   - html
   - java
   - javascript
   - kotlin
+  - kubernetes
+  - objectivec
   - php
+  - plsql
   - python
   - ruby
   - scala
+  - swift
+  - terraform
   - typescript
+  - tsql
+  - vbnet
   - xml
+  - ci
+  - security
 license: GNU Lesser General Public License v3.0
 types:
   - service
@@ -24,7 +40,7 @@ homepage: "https://sonarqube.org"
 description: SonarQube empowers development teams with a code quality and security solution
   that deeply integrates into your enterprise environment;
   enabling you to deploy clean code consistently and reliably.
-  SonarQube provides a free and open source Community Edition.
+  SonarQube provides a free and open source Community Build.
 pricing: "https://www.sonarsource.com/plans-and-pricing/"
 resources:
   - title: Write Cleaner, Safer, Modern C++ Code with SonarQube

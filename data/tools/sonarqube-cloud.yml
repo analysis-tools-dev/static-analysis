@@ -1,4 +1,4 @@
-name: SonarCloud
+name: SonarQube Cloud
 categories:
   - linter
 tags:
@@ -37,9 +37,9 @@ types:
   - service
 homepage: https://sonarcloud.io
 description: >-
-  SonarCloud enables your team to deliver clean code consistently and efficiently with a code review 
+  SonarQube Cloud enables your team to deliver clean code consistently and efficiently with a code review 
   tool that easily integrates into the cloud DevOps platforms and extend your CI/CD workflow. 
-  SonarCloud is free for open source projects.
+  SonarQube Cloud provides a free plan.
 pricing: https://sonarcloud.io/pricing
 plans:
   free: false

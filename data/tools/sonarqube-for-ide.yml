@@ -1,4 +1,4 @@
-name: SonarLint
+name: SonarQube for IDE
 categories:
   - linter
 tags:
@@ -33,7 +33,7 @@ types:
 source: 'https://github.com/SonarSource/sonarlint-intellij'
 homepage: 'https://sonarlint.org'
 description: >-
-  SonarLint is a free IDE extension available for IntelliJ, VS Code, Visual Studio, and Eclipse, 
+  SonarQube for IDE (formerly SonarLint) is a free IDE extension available for IntelliJ, VS Code, Visual Studio, and Eclipse, 
   to find and fix coding issues in real-time, flagging issues as you code, just like a spell-checker. 
   More than a linter, it also delivers rich contextual guidance to help developers understand 
   why there is an issue, assess the risk, and educate them on how to fix it.
