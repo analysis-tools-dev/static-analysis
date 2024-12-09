@@ -647,7 +647,7 @@ By default, govulncheck makes requests to the Go vulnerability database at https
 
 - [ckjm](http://www.spinellis.gr/sw/ckjm) — Calculates Chidamber and Kemerer object-oriented metrics by processing the bytecode of compiled Java files.
 
-- [CogniCrypt](https://www.eclipse.org/cognicrypt) — Checks Java source and byte code for incorrect uses of cryptographic APIs.
+- [CogniCrypt](https://www.eclipse.org/cognicrypt) :warning: — Checks Java source and byte code for incorrect uses of cryptographic APIs.
 
 - [Dataflow Framework](https://github.com/typetools/checker-framework) — An industrial-strength dataflow framework for Java. The Dataflow Framework is used in the Checker Framework, Google’s Error Prone, Uber’s NullAway, Meta’s Nullsafe, and in other contexts. It is distributed with the Checker Framework.
 
@@ -879,7 +879,7 @@ A ktfmt IntelliJ plugin is available from the plugin repository. To install it, 
 
 - [php7mar](https://github.com/Alexia/php7mar) :warning: — Assist developers in porting their code quickly to PHP 7.
 
-- [PHP_CodeSniffer](https://pear.php.net/package/PHP_CodeSniffer) — Detects violations of a defined set of coding standards.
+- [PHP_CodeSniffer](https://pear.php.net/package/PHP_CodeSniffer) :warning: — Detects violations of a defined set of coding standards.
 
 - [PHPArkitect](https://github.com/phparkitect/arkitect) — PHPArkitect helps you to keep your PHP codebase coherent and solid, by permitting to add some architectural constraint check to your workflow. You can express the constraint that you want to enforce, in simple and readable PHP code.
 

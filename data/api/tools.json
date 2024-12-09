@@ -3984,7 +3984,7 @@
     "plans": null,
     "description": "Checks Java source and byte code for incorrect uses of cryptographic APIs.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": [
       {
         "title": "Tutorial: CogniCrypt basics, and how to integrate your own Crypto APIs into CognICrypt",
@@ -13136,7 +13136,7 @@
     "plans": null,
     "description": "Detects violations of a defined set of coding standards.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
