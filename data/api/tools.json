@@ -15205,7 +15205,7 @@
     "plans": null,
     "description": "Rate how well a Python project complies with the best practices of the Python packaging ecosystem, and list issues that could be improved.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
