@@ -1,0 +1,12 @@
+name: R Language Server
+categories:
+  - linter
+tags:
+  - r
+license: MIT + file LICENSE
+types:
+  - ide-plugin
+source: 'https://github.com/REditorSupport/languageserver/'
+homepage: 'https://github.com/REditorSupport/languageserver/'
+description:  >-
+  Provides code completion, refactoring, folding, diagnostics (with lintr), and more for R.
