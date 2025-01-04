@@ -1,0 +1,12 @@
+name: flowR
+categories:
+  - linter
+tags:
+  - r
+license: GPL-3
+types:
+  - cli
+  - ide-plugin
+source: 'https://github.com/flowr-analysis/flowr'
+homepage: 'https://github.com/flowr-analysis/flowr'
+description: A program slicer and dataflow analyzer for R.
