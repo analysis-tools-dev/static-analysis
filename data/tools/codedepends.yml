@@ -1,0 +1,12 @@
+name: CodeDepends
+categories:
+  - linter
+tags:
+  - r
+license: GPL
+types:
+  - cli
+deprecated: true
+source: 'https://github.com/duncantl/CodeDepends'
+homepage: 'https://github.com/duncantl/CodeDepends'
+description: Static Code Analysis for R.
