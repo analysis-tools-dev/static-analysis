@@ -3224,6 +3224,33 @@
     "demos": null,
     "wrapper": null
   },
+  "codedepends": {
+    "name": "CodeDepends",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "r"
+    ],
+    "other": [],
+    "licenses": [
+      "GPL"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/duncantl/CodeDepends",
+    "source": "https://github.com/duncantl/CodeDepends",
+    "pricing": null,
+    "plans": null,
+    "description": "Static Code Analysis for R.",
+    "discussion": null,
+    "deprecated": true,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "codefactor": {
     "name": "CodeFactor",
     "categories": [
@@ -11159,7 +11186,7 @@
     "plans": null,
     "description": "A static analyzer, which checks portable executables for malicious content.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -15565,6 +15592,33 @@
         "url": "https://vimeo.com/233423863"
       }
     ],
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "r-language-server": {
+    "name": "R Language Server",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "r"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT + file LICENSE"
+    ],
+    "types": [
+      "ide-plugin"
+    ],
+    "homepage": "https://github.com/REditorSupport/languageserver/",
+    "source": "https://github.com/REditorSupport/languageserver/",
+    "pricing": null,
+    "plans": null,
+    "description": "Provides code completion, refactoring, folding, diagnostics (with lintr), and more for R.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
     "reviews": null,
     "demos": null,
     "wrapper": null
