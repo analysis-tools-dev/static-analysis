@@ -140,4 +140,4 @@ To the extent possible under law, [Matthias Endler](https://endler.dev) has waiv
 The underlying source code used to format and display that content is licensed under the MIT license.
 
 
-Title image [Designed by Freepik](http://www.freepik.com).
+Title image [Designed by Freepik](https://www.freepik.com).
