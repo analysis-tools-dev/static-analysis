@@ -2885,7 +2885,7 @@
     "source": "https://github.com/coala/coala",
     "pricing": null,
     "plans": null,
-    "description": "Language independent framework for creating code analysis - supports [over 60 languages](https://coala.io/languages) by default.",
+    "description": "Language independent framework for creating code analysis - supports over 60 languages by default.",
     "discussion": null,
     "deprecated": true,
     "resources": null,
