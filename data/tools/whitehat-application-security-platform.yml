@@ -15,7 +15,7 @@ tags:
 license: proprietary
 types:
   - cli
-homepage: 'https://www.whitehatsec.com/platform/static-application-security-testing'
+homepage: "https://source.whitehatsec.com/help/sentinel/sast-service-detail.html"
 description: >-
   WhiteHat Scout (for Developers) combined with WhiteHat Sentinel Source (for
   Operations) supporting WhiteHat Top 40 and OWASP Top 10.

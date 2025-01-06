@@ -4,9 +4,9 @@ categories:
 tags:
   - ruby
 deprecated: true
-license: 'Mozilla Public License, version 2.0'
+license: "Mozilla Public License, version 2.0"
 types:
   - cli
-source: 'https://gitlab.com/yorickpeterse/ruby-lint'
-homepage: 'http://code.yorickpeterse.com/ruby-lint/latest'
+source: "https://gitlab.com/yorickpeterse/ruby-lint"
+homepage: "https://gitlab.com/yorickpeterse/ruby-lint"
 description: Static code analysis for Ruby.

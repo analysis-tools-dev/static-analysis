@@ -6,8 +6,8 @@ tags:
 license: MIT License
 types:
   - cli
-source: 'https://github.com/nunomaduro/phpinsights'
-homepage: 'https://phpinsights.com'
+source: "https://github.com/nunomaduro/phpinsights"
+homepage: "https://github.com/nunomaduro/phpinsights"
 description: >-
   Instant PHP quality checks from your console. Analysis of code quality and
   coding style as well as overview of code architecture and its complexity.

@@ -8,10 +8,11 @@ tags:
   - java
   - javascript
 license: AGPL-3.0-only
+deprecated: true
 types:
   - cli
-source: 'https://github.com/coala/coala'
-homepage: 'https://coala.io'
+source: "https://github.com/coala/coala"
+homepage: "https://github.com/coala/coala"
 description: >-
   Language independent framework for creating code analysis - supports [over 60
   languages](https://coala.io/languages) by default.

@@ -11,7 +11,7 @@ tags:
 license: proprietary
 types:
   - service
-homepage: https://www.deepcode.ai
+homepage: https://snyk.io/platform/deepcode-ai/
 deprecated: true
 description: >-
   DeepCode was acquired by Snyk is now Snyk Code.

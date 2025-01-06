@@ -6,6 +6,6 @@ tags:
 license: Android Software Development Kit License Agreement
 types:
   - cli
-source: 'https://android.googlesource.com'
-homepage: 'http://tools.android.com/tips/lint'
+source: "https://android.googlesource.com"
+homepage: "https://developer.android.com/studio/write/lint"
 description: Run static analysis on Android projects.

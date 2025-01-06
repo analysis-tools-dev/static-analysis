@@ -319,7 +319,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "http://tools.android.com/tips/lint",
+    "homepage": "https://developer.android.com/studio/write/lint",
     "source": "https://android.googlesource.com",
     "pricing": null,
     "plans": null,
@@ -2881,7 +2881,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://coala.io",
+    "homepage": "https://github.com/coala/coala",
     "source": "https://github.com/coala/coala",
     "pricing": null,
     "plans": null,
@@ -3450,39 +3450,6 @@
     "pricing": null,
     "plans": null,
     "description": "A static analysis tool for Groovy source code, enabling monitoring and enforcement of many coding standards and best practices.",
-    "discussion": null,
-    "deprecated": null,
-    "resources": null,
-    "reviews": null,
-    "demos": null,
-    "wrapper": null
-  },
-  "codepatrol": {
-    "name": "CodePatrol",
-    "categories": [
-      "linter"
-    ],
-    "languages": [
-      "csharp",
-      "java",
-      "javascript",
-      "php"
-    ],
-    "other": [
-      "ci",
-      "security"
-    ],
-    "licenses": [
-      "proprietary"
-    ],
-    "types": [
-      "service"
-    ],
-    "homepage": "https://cyber-security.claranet.fr/en/codepatrol",
-    "source": null,
-    "pricing": null,
-    "plans": null,
-    "description": "Automated SAST code reviews driven by security, supports 15+ languages and includes security training.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
@@ -5059,7 +5026,7 @@
     "types": [
       "service"
     ],
-    "homepage": "https://www.deepcode.ai",
+    "homepage": "https://snyk.io/platform/deepcode-ai/",
     "source": null,
     "pricing": null,
     "plans": null,
@@ -8340,7 +8307,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://mangothecat.github.io/goodpractice",
+    "homepage": "https://docs.ropensci.org/goodpractice/",
     "source": "https://github.com/mangothecat/goodpractice",
     "pricing": null,
     "plans": null,
@@ -11126,7 +11093,7 @@
     "types": [
       "service"
     ],
-    "homepage": "https://www.lunasec.io",
+    "homepage": "https://github.com/marketplace/lunatrace-by-lunasec/",
     "source": "https://github.com/lunasec-io/lunasec",
     "pricing": null,
     "plans": null,
@@ -12151,38 +12118,6 @@
     "demos": null,
     "wrapper": null
   },
-  "nitpick-ci": {
-    "name": "Nitpick CI",
-    "categories": [
-      "linter"
-    ],
-    "languages": [
-      "php"
-    ],
-    "other": [
-      "ci"
-    ],
-    "licenses": [
-      "proprietary"
-    ],
-    "types": [
-      "service"
-    ],
-    "homepage": "https://nitpick-ci.com",
-    "source": null,
-    "pricing": "https://nitpick-ci.com/#pricing",
-    "plans": {
-      "free": false,
-      "oss": true
-    },
-    "description": "Automated PHP code review.",
-    "discussion": null,
-    "deprecated": null,
-    "resources": null,
-    "reviews": null,
-    "demos": null,
-    "wrapper": null
-  },
   "njsscan": {
     "name": "njsscan",
     "categories": [
@@ -12598,7 +12533,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://packj.dev",
+    "homepage": "https://github.com/ossillate-inc/packj",
     "source": "https://github.com/ossillate-inc/packj",
     "pricing": null,
     "plans": null,
@@ -13211,7 +13146,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://phpinsights.com",
+    "homepage": "https://github.com/nunomaduro/phpinsights",
     "source": "https://github.com/nunomaduro/phpinsights",
     "pricing": null,
     "plans": null,
@@ -14957,36 +14892,6 @@
     "demos": null,
     "wrapper": null
   },
-  "pycodequal": {
-    "name": "PyCodeQual",
-    "categories": [
-      "linter"
-    ],
-    "languages": [
-      "python"
-    ],
-    "other": [],
-    "licenses": [
-      "proprietary"
-    ],
-    "types": [
-      "service"
-    ],
-    "homepage": "https://pycodequ.al",
-    "source": null,
-    "pricing": "https://pycodequ.al/pricing",
-    "plans": {
-      "free": true,
-      "oss": false
-    },
-    "description": "PyCodeQual gives you insights into complexity and bug risks. It adds automatic reviews to your pull requests.",
-    "discussion": null,
-    "deprecated": null,
-    "resources": null,
-    "reviews": null,
-    "demos": null,
-    "wrapper": null
-  },
   "pycodestyle": {
     "name": "pycodestyle",
     "categories": [
@@ -16429,7 +16334,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "http://code.yorickpeterse.com/ruby-lint/latest",
+    "homepage": "https://gitlab.com/yorickpeterse/ruby-lint",
     "source": "https://gitlab.com/yorickpeterse/ruby-lint",
     "pricing": null,
     "plans": null,
@@ -21169,7 +21074,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://www.whitehatsec.com/platform/static-application-security-testing",
+    "homepage": "https://source.whitehatsec.com/help/sentinel/sast-service-detail.html",
     "source": null,
     "pricing": null,
     "plans": null,

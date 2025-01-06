@@ -6,8 +6,8 @@ tags:
 license: Apache License Version 2.0
 types:
   - service
-homepage: 'https://www.lunasec.io'
-source: 'https://github.com/lunasec-io/lunasec'
+homepage: "https://github.com/marketplace/lunatrace-by-lunasec/"
+source: "https://github.com/lunasec-io/lunasec"
 description: >-
   Open Source AppSec platform that automatically notifies you the next time vulnerabilities
   like Log4Shell or node-ipc happen. Track your dependencies and builds in a centralized service.
