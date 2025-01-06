@@ -1,0 +1,21 @@
+name: flowR
+categories:
+  - linter
+tags:
+  - r
+license: GPL-3
+types:
+  - cli
+  - ide-plugin
+source: 'https://github.com/flowr-analysis/flowr'
+homepage: 'https://github.com/flowr-analysis/flowr'
+description: >-
+  A [program slicer](https://github.com/flowr-analysis/flowr/wiki/Terminology#program-slice) and [dataflow analyzer](https://en.wikipedia.org/wiki/Data-flow_analysis) for the [R](https://www.r-project.org/) programming language.
+  Its slicer allows you to reduce a complicated program just to the parts related for a specific task (e.g., the generation of a single or collection of plots, a significance test, ...). The dataflow analysis
+  provides you with a detailed view on the semantics of the R code which can greatly improve other analyses.
+  To use _flowR_, check out the [Visual Studio Code extension](https://marketplace.visualstudio.com/items?itemName=code-inspect.vscode-flowr), the [RStudio Addin](https://github.com/flowr-analysis/rstudio-addin-flowr), the [Docker image](https://hub.docker.com/r/eagleoutice/flowr), or the [R package](https://github.com/flowr-analysis/flowr-r-adapter).
+resources:
+- title: Wiki Pages
+  url: https://github.com/flowr-analysis/flowr/wiki
+- title: Overview of the VS Code extension
+  url: https://www.youtube.com/watch?v=Zgq6rnbvvhk
