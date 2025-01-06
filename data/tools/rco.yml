@@ -1,0 +1,11 @@
+name: rco
+categories:
+  - performance
+tags:
+  - r
+license: GPL-3
+types:
+  - cli
+source: "https://github.com/jcrodriguez1989/rco"
+homepage: "https://jcrodriguez1989.github.io/rco/"
+description: Performance optimizer for R code (with GUI).
