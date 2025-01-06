@@ -7247,6 +7247,43 @@
     "demos": null,
     "wrapper": null
   },
+  "flowr": {
+    "name": "flowR",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "r"
+    ],
+    "other": [],
+    "licenses": [
+      "GPL-3"
+    ],
+    "types": [
+      "cli",
+      "ide-plugin"
+    ],
+    "homepage": "https://github.com/flowr-analysis/flowr",
+    "source": "https://github.com/flowr-analysis/flowr",
+    "pricing": null,
+    "plans": null,
+    "description": "A [program slicer](https://github.com/flowr-analysis/flowr/wiki/Terminology#program-slice) and [dataflow analyzer](https://en.wikipedia.org/wiki/Data-flow_analysis) for the [R](https://www.r-project.org/) programming language. Its slicer allows you to reduce a complicated program just to the parts related for a specific task (e.g., the generation of a single or collection of plots, a significance test, ...). The dataflow analysis provides you with a detailed view on the semantics of the R code which can greatly improve other analyses. To use _flowR_, check out the [Visual Studio Code extension](https://marketplace.visualstudio.com/items?itemName=code-inspect.vscode-flowr), the [RStudio Addin](https://github.com/flowr-analysis/rstudio-addin-flowr), the [Docker image](https://hub.docker.com/r/eagleoutice/flowr), or the [R package](https://github.com/flowr-analysis/flowr-r-adapter).",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Wiki Pages",
+        "url": "https://github.com/flowr-analysis/flowr/wiki"
+      },
+      {
+        "title": "Overview of the VS Code extension",
+        "url": "https://www.youtube.com/watch?v=Zgq6rnbvvhk"
+      }
+    ],
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "foodcritic": {
     "name": "foodcritic",
     "categories": [
@@ -15604,6 +15641,33 @@
     "description": "A code metric tool for Rails projects",
     "discussion": null,
     "deprecated": true,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "rco": {
+    "name": "rco",
+    "categories": [
+      "performance"
+    ],
+    "languages": [
+      "r"
+    ],
+    "other": [],
+    "licenses": [
+      "GPL-3"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://jcrodriguez1989.github.io/rco/",
+    "source": "https://github.com/jcrodriguez1989/rco",
+    "pricing": null,
+    "plans": null,
+    "description": "Performance optimizer for R code (with GUI).",
+    "discussion": null,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,

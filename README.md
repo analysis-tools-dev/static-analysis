@@ -1063,11 +1063,15 @@ YAPF follows a distinctive methodology, originating from the 'clang-format' tool
 
 - [cyclocomp](https://github.com/MangoTheCat/cyclocomp) — Quantifies the cyclomatic complexity of R functions / expressions.
 
+- [flowR](https://github.com/flowr-analysis/flowr) — A [program slicer](https://github.com/flowr-analysis/flowr/wiki/Terminology#program-slice) and [dataflow analyzer](https://en.wikipedia.org/wiki/Data-flow_analysis) for the [R](https://www.r-project.org/) programming language. Its slicer allows you to reduce a complicated program just to the parts related for a specific task (e.g., the generation of a single or collection of plots, a significance test, ...). The dataflow analysis provides you with a detailed view on the semantics of the R code which can greatly improve other analyses. To use _flowR_, check out the [Visual Studio Code extension](https://marketplace.visualstudio.com/items?itemName=code-inspect.vscode-flowr), the [RStudio Addin](https://github.com/flowr-analysis/rstudio-addin-flowr), the [Docker image](https://hub.docker.com/r/eagleoutice/flowr), or the [R package](https://github.com/flowr-analysis/flowr-r-adapter).
+
 - [goodpractice](https://docs.ropensci.org/goodpractice/) — Analyses the source code for R packages and provides best-practice recommendations.
 
 - [lintr](https://github.com/jimhester/lintr) — Static Code Analysis for R.
 
 - [R Language Server](https://github.com/REditorSupport/languageserver/) — Provides code completion, refactoring, folding, diagnostics (with lintr), and more for R.
+
+- [rco](https://jcrodriguez1989.github.io/rco/) — Performance optimizer for R code (with GUI).
 
 - [styler](https://styler.r-lib.org) — Formatting of R source code files and pretty-printing of R code.
 
