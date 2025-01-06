@@ -3,6 +3,7 @@ use askama::Template;
 use pico_args::Arguments;
 use render::types::{Entry, ParsedEntry, Tag, Tags, Type};
 use render::{check_deprecated, create_api, create_catalog};
+use slug::slugify;
 use std::collections::BTreeMap;
 use std::env;
 use std::ffi::OsStr;
@@ -49,6 +50,24 @@ fn read_tools(path: PathBuf) -> Result<Vec<ParsedEntry>> {
         .collect::<Result<Vec<ParsedEntry>, _>>()
 }
 
+/// Backfills the deprecated field in the tools data from the old tools data.
+fn backfill_deprecated(tools: &mut Vec<Entry>) -> Result<()> {
+    let tools_raw = match fs::read_to_string("data/api/tools.json") {
+        Ok(content) => content,
+        Err(_) => return Ok(()), // No old data to backfill from. Skip silently.
+    };
+
+    let old_tools_data: BTreeMap<String, serde_json::Value> = serde_json::from_str(&tools_raw)?;
+
+    for tool in tools {
+        let id = slugify(&tool.name);
+        if let Some(old_tool) = old_tools_data.get(&id) {
+            tool.deprecated = old_tool.get("deprecated").and_then(|d| d.as_bool());
+        }
+    }
+    Ok(())
+}
+
 fn main() -> Result<()> {
     let mut args = Arguments::from_env();
     let args = Args {
@@ -69,10 +88,16 @@ fn main() -> Result<()> {
     let mut tools = tools?;
     tools.sort();
 
-    if !args.skip_deprecated {
-        if let Ok(token) = env::var("GITHUB_TOKEN") {
-            check_deprecated(token, &mut tools)?;
+    let should_check_deprecation = !args.skip_deprecated;
+    let github_token = env::var("GITHUB_TOKEN");
+
+    match (should_check_deprecation, github_token) {
+        (true, Ok(token)) => check_deprecated(token, &mut tools)?,
+        (true, Err(_)) => {
+            eprintln!("No GITHUB_TOKEN environment variable found. Reusing old deprecation data.");
+            backfill_deprecated(&mut tools)?;
         }
+        (false, _) => backfill_deprecated(&mut tools)?,
     }
 
     let languages: Vec<Tag> = tags

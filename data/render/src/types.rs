@@ -61,6 +61,8 @@ pub enum Category {
     Linter,
     #[serde(rename = "formatter")]
     Formatter,
+    #[serde(rename = "performance")]
+    Performance,
     #[serde(rename = "meta")]
     Meta,
 }
