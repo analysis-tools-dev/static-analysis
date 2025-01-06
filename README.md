@@ -786,7 +786,7 @@ A ktfmt IntelliJ plugin is available from the plugin repository. To install it, 
 <h2>MATLAB</h2>
 
 
-- [mlint](https://mathworks.com/help/matlab/ref/mlint.html) :copyright: — Check MATLAB code files for possible problems.
+- [mlint](https://www.mathworks.com/help/matlab/ref/mlint.html) :copyright: — Check MATLAB code files for possible problems.
 
 
 <a name="nim" />
