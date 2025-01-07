@@ -201,7 +201,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2>Assembly</h2>
 
 
-- [STOKE](https://github.com/StanfordPL/stoke) — A programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations.
+- [STOKE](https://github.com/StanfordPL/stoke) :warning: — A programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations.
 
 
 <a name="awk" />
@@ -310,7 +310,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [SonarAnalyzer.CSharp](https://github.com/SonarSource/sonar-dotnet) — These Roslyn analyzers allow you to produce Clean Code that is safe, reliable, and maintainable by helping you find and correct bugs, vulnerabilities, and code smells in your codebase.
 
-- [VSDiagnostics](https://github.com/Vannevelj/VSDiagnostics) — A collection of static analyzers based on Roslyn that integrates with VS.
+- [VSDiagnostics](https://github.com/Vannevelj/VSDiagnostics) :warning: — A collection of static analyzers based on Roslyn that integrates with VS.
 
 - [Wintellect.Analyzers](https://github.com/Wintellect/Wintellect.Analyzers) — .NET Compiler Platform ("Roslyn") diagnostic analyzers and code fixes.
 
@@ -692,7 +692,7 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 
 - [SpotBugs](https://spotbugs.github.io) — SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code.
 
-- [steady](https://eclipse.github.io/steady/) — Analyses your Java applications for open-source dependencies with known vulnerabilities, using both static analysis and testing to determine code context and usage for greater accuracy.
+- [steady](https://eclipse.github.io/steady/) :warning: — Analyses your Java applications for open-source dependencies with known vulnerabilities, using both static analysis and testing to determine code context and usage for greater accuracy.
 
 - [Violations Lib](https://github.com/tomasbjerre/violations-lib) — Java library for parsing report files from static code analysis. Used by a bunch of Jenkins, Maven and Gradle plugins.
 
@@ -741,7 +741,7 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 
 - [tern](https://ternjs.net) — A JavaScript code analyzer for deep, cross-editor language support.
 
-- [TypL](https://typl.dev) — With TypL, you just write completely standard JS, and the tool figures out your types via powerful inferencing.
+- [TypL](https://typl.dev) :warning: — With TypL, you just write completely standard JS, and the tool figures out your types via powerful inferencing.
 
 - [xo](https://github.com/xojs/xo) — Opinionated but configurable ESLint wrapper with lots of goodies included. Enforces strict and readable code.
 
@@ -1041,13 +1041,13 @@ It uses the pycodestyle utility to determine what parts of the code needs to be 
 
 - [ruff](https://astral.sh/ruff) — Fast Python linter, written in Rust. 10-100x faster than existing linters. Compatible with Python 3.10. Supports file watcher.
 
-- [unimport](https://unimport.hakancelik.dev) — A linter, formatter for finding and removing unused import statements.
+- [unimport](https://unimport.hakancelik.dev) :warning: — A linter, formatter for finding and removing unused import statements.
 
 - [vulture](https://github.com/jendrikseipp/vulture) — Find unused classes, functions and variables in Python code.
 
 - [wemake-python-styleguide](https://wemake-python-styleguide.rtfd.io/) — The strictest and most opinionated python linter ever.
 
-- [wily](https://github.com/tonybaloney/wily) — A command-line tool for archiving, exploring and graphing the complexity of Python source code.
+- [wily](https://github.com/tonybaloney/wily) :warning: — A command-line tool for archiving, exploring and graphing the complexity of Python source code.
 
 - [xenon](https://xenon.readthedocs.io) — Monitor code complexity using [`radon`](https://github.com/rubik/radon).
 
@@ -1251,7 +1251,7 @@ Kani verifies:
 
 - [tsqllint](https://github.com/tsqllint/tsqllint) — T-SQL-specific linter.
 
-- [TSqlRules](https://github.com/ashleyglee/TSqlRules) — TSQL Static Code Analysis Rules for SQL Server.
+- [TSqlRules](https://github.com/ashleyglee/TSqlRules) :warning: — TSQL Static Code Analysis Rules for SQL Server.
 
 - [Visual Expert](https://www.visual-expert.com) :copyright: — Code analysis for PowerBuilder, Oracle, and SQL Server Explores, analyzes, and documents Code 
 
@@ -1320,7 +1320,7 @@ Kani verifies:
 
 - [fta](https://ftaproject.dev/) — Rust-based static analysis for TypeScript projects
 
-- [stc](https://stc.dudy.dev) — Speedy TypeScript type checker written in Rust
+- [stc](https://stc.dudy.dev) :warning: — Speedy TypeScript type checker written in Rust
 
 - [tslint](https://palantir.github.io/tslint/) :warning: — TSLint has been deprecated as of 2019. Please see [this issue](https://github.com/palantir/tslint/issues/4534) for more details. `typescript-eslint` is now your best option for linting TypeScript.
 TSLint is an extensible static analysis tool that checks TypeScript code for readability, maintainability,  and functionality errors. It is widely supported across modern editors & build systems and can be customized  with your own lint rules, configurations, and formatters.
@@ -1355,7 +1355,7 @@ TSLint is an extensible static analysis tool that checks TypeScript code for rea
 <h2>Vim Script</h2>
 
 
-- [vint](https://github.com/Kuniwak/vint) — Fast and Highly Extensible Vim script Language Lint implemented by Python.
+- [vint](https://github.com/Kuniwak/vint) :warning: — Fast and Highly Extensible Vim script Language Lint implemented by Python.
 
 
 ## Multiple languages
@@ -1631,7 +1631,7 @@ TSLint is an extensible static analysis tool that checks TypeScript code for rea
 
 - [WhiteHat Application Security Platform](https://source.whitehatsec.com/help/sentinel/sast-service-detail.html) :copyright: — WhiteHat Scout (for Developers) combined with WhiteHat Sentinel Source (for Operations) supporting WhiteHat Top 40 and OWASP Top 10.
 
-- [Wotan](https://github.com/fimbullinter/wotan) — Pluggable TypeScript and JavaScript linter.
+- [Wotan](https://github.com/fimbullinter/wotan) :warning: — Pluggable TypeScript and JavaScript linter.
 
 - [XCode](https://developer.apple.com/xcode) :copyright: — XCode provides a pretty decent UI for [Clang's](https://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C).
 
@@ -2297,7 +2297,7 @@ TruffleHog is an open source secret-scanning engine that resolves exposed secret
 
 - [HTML-Validate](https://html-validate.org/) — Offline HTML5 validator.
 
-- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) — Vue tooling for VS Code, powered by vls (vue language server). Vetur has support for formatting embedded HTML, CSS, SCSS, JS, TypeScript, and more. Vetur only has a "whole document formatter" and cannot format arbitrary ranges.
+- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) :warning: — Vue tooling for VS Code, powered by vls (vue language server). Vetur has support for formatting embedded HTML, CSS, SCSS, JS, TypeScript, and more. Vetur only has a "whole document formatter" and cannot format arbitrary ranges.
 
 
 <a name="wasm" />
