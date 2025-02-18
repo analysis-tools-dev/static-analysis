@@ -4154,6 +4154,56 @@
     "demos": null,
     "wrapper": null
   },
+  "corgea": {
+    "name": "Corgea",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "c",
+      "csharp",
+      "cpp",
+      "go",
+      "java",
+      "javascript",
+      "kotlin",
+      "php",
+      "python",
+      "ruby",
+      "typescript"
+    ],
+    "other": [
+      "ci",
+      "security"
+    ],
+    "licenses": [
+      "proprietary"
+    ],
+    "types": [
+      "cli",
+      "service"
+    ],
+    "homepage": "https://corgea.com/",
+    "source": null,
+    "pricing": null,
+    "plans": null,
+    "description": "Corgea is an AI-powered SAST scanner that helps developers find and fix insecure code.  It finds business logic flaws, broken authentication, API vulnerabilities, and more with little false positives. Additionally, it automatically writes security fixes for them to approve.  Corgea integrates with GitHub, GitLab, Azure DevOps, IDEs and CLI. It is free to try it.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Product homepage",
+        "url": "https://corgea.com/"
+      },
+      {
+        "title": "Corgea Docs",
+        "url": "https://docs.corgea.app/"
+      }
+    ],
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "corrode": {
     "name": "Corrode",
     "categories": [
@@ -8068,7 +8118,7 @@
     "plans": null,
     "description": "Checks that no globals are present.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -10716,7 +10766,7 @@
     "plans": null,
     "description": "An opinionated, community-driven set of lint rules for Dart and Flutter projects. Like pedantic but stricter",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -16458,7 +16508,7 @@
     "plans": null,
     "description": "Rust Memory Safety & Undefined Behavior Detection. It is capable of analyzing single Rust packages as well as all the packages on crates.io.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -20113,7 +20163,7 @@
     "plans": null,
     "description": "Analyzes a binary's call graph to profile code size. The goal is to slim down wasm binary size.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
