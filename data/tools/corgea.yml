@@ -1,0 +1,32 @@
+name: Corgea
+categories:
+  - linter
+tags:
+  - ci
+  - go
+  - java
+  - javascript
+  - php
+  - python
+  - ruby
+  - security
+  - typescript
+  - csharp
+  - kotlin
+  - c
+  - cpp
+license: proprietary
+types:
+  - cli
+  - service
+homepage: 'https://corgea.com/'
+description: >-
+  Corgea is an AI-powered SAST scanner that helps developers find and fix insecure code. 
+  It finds business logic flaws, broken authentication, API vulnerabilities, and more with little false positives.
+  Additionally, it automatically writes security fixes for them to approve. 
+  Corgea integrates with GitHub, GitLab, Azure DevOps, IDEs and CLI. It is free to try it.
+resources:
+  - title: Product homepage
+    url: https://corgea.com/
+  - title: Corgea Docs
+    url: https://docs.corgea.app/
