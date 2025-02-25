@@ -5175,6 +5175,37 @@
     "demos": null,
     "wrapper": null
   },
+  "deleaker": {
+    "name": "deleaker",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "dotnet",
+      "c",
+      "csharp",
+      "cpp",
+      "delphi"
+    ],
+    "other": [],
+    "licenses": [
+      "proprietary"
+    ],
+    "types": [
+      "service"
+    ],
+    "homepage": "https://www.deleaker.com/",
+    "source": null,
+    "pricing": null,
+    "plans": null,
+    "description": "Deleaker is a memory leak detection tool for C++, .NET, and Delphi, integrating with Visual Studio, Qt Creator, and RAD Studio or running as a standalone application. It helps developers find and fix memory, GDI, and handle leaks efficiently.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "delphilint": {
     "name": "DelphiLint",
     "categories": [
@@ -18341,7 +18372,7 @@
     "plans": null,
     "description": "Automatically identify anti-patterns in SQL queries.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": [
       {
         "title": "SQLCheck: Automated Detection and Diagnosis of SQL Anti-Patterns",
