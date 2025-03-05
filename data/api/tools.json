@@ -20177,10 +20177,11 @@
     "categories": [
       "linter"
     ],
-    "languages": [],
-    "other": [
-      "binary",
+    "languages": [
       "wasm"
+    ],
+    "other": [
+      "binary"
     ],
     "licenses": [
       "Other"
@@ -21103,6 +21104,34 @@
     "pricing": null,
     "plans": null,
     "description": "A flexible Scala code linting tool.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "wasm-language-tools": {
+    "name": "wasm-language-tools",
+    "categories": [
+      "linter",
+      "formatter"
+    ],
+    "languages": [
+      "wasm"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "ide-plugin"
+    ],
+    "homepage": "https://github.com/g-plane/wasm-language-tools",
+    "source": "https://github.com/g-plane/wasm-language-tools",
+    "pricing": null,
+    "plans": null,
+    "description": "WebAssembly Language Tools aims to provide and improve the editing experience of WebAssembly Text Format. It also provides an out-of-the-box formatter (a.k.a. pretty printer) for WebAssembly Text Format.",
     "discussion": null,
     "deprecated": null,
     "resources": null,

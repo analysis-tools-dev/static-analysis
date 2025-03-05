@@ -334,6 +334,11 @@
       "name": "Visualforce",
       "value": "visualforce",
       "tag_type": "Language"
+    },
+    {
+      "name": "WebAssembly",
+      "value": "wasm",
+      "tag_type": "Language"
     }
   ],
   "other": [
@@ -555,11 +560,6 @@
     {
       "name": "Vue.js",
       "value": "vue",
-      "tag_type": "Other"
-    },
-    {
-      "name": "Webassembly",
-      "value": "wasm",
       "tag_type": "Other"
     },
     {
