@@ -331,9 +331,9 @@
 - name: Vue.js
   value: vue
   type: other
-- name: Webassembly
+- name: WebAssembly
   value: wasm
-  type: other
+  type: language
 - name: Writing
   value: writing
   type: other
