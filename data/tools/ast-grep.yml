@@ -1,0 +1,37 @@
+name: ast-grep
+categories:
+  - linter
+tags:
+  - c
+  - csharp
+  - go
+  - java
+  - lua
+  - javascript
+  - json
+  - jsx
+  - kotlin
+  - python
+  - ruby
+  - rust
+  - typescript
+  - yaml
+license: MIT
+types:
+  - cli
+  - ide-plugin
+source: 'https://github.com/ast-grep/ast-grep'
+homepage: 'https://ast-grep.github.io/'
+resources:
+  - title: ast-grep Quick Start Guide
+    url: https://ast-grep.github.io/guide/quick-start.html
+description: >-
+  ast-grep is a powerful tool designed for managing code at scale using
+  Abstract Syntax Trees (AST). Think of it as a hybrid of grep, eslint, and codemod,
+  with the ability to search, lint, and rewrite code based on its structure rather than plain text.
+
+  It supports multiple languages and is designed to be extensible, allowing you to register custom languages.
+reviews:
+  - https://stackshare.io/ast-grep
+demos:
+  - https://ast-grep.github.io/playground.html
