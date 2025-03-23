@@ -638,6 +638,57 @@
     "demos": null,
     "wrapper": null
   },
+  "ast-grep": {
+    "name": "ast-grep",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "c",
+      "csharp",
+      "go",
+      "java",
+      "javascript",
+      "jsx",
+      "kotlin",
+      "lua",
+      "python",
+      "ruby",
+      "rust",
+      "typescript"
+    ],
+    "other": [
+      "json",
+      "yaml"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "cli",
+      "ide-plugin"
+    ],
+    "homepage": "https://ast-grep.github.io/",
+    "source": "https://github.com/ast-grep/ast-grep",
+    "pricing": null,
+    "plans": null,
+    "description": "ast-grep is a powerful tool designed for managing code at scale using Abstract Syntax Trees (AST). Think of it as a hybrid of grep, eslint, and codemod, with the ability to search, lint, and rewrite code based on its structure rather than plain text.\nIt supports multiple languages and is designed to be extensible, allowing you to register custom languages.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "ast-grep Quick Start Guide",
+        "url": "https://ast-grep.github.io/guide/quick-start.html"
+      }
+    ],
+    "reviews": [
+      "https://stackshare.io/ast-grep"
+    ],
+    "demos": [
+      "https://ast-grep.github.io/playground.html"
+    ],
+    "wrapper": null
+  },
   "astree": {
     "name": "Astrée",
     "categories": [
@@ -1904,7 +1955,7 @@
     "plans": null,
     "description": "A cargo plugin for analysing the usage of unsafe Rust code Provides statistical output to aid security auditing",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -2429,7 +2480,7 @@
     "plans": null,
     "description": "A Project to give the churn file, class, and method for a project for a given checkin. Over time the tool adds up the history of churns to give the number of times a file, class, or method is changing during the life of a project.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -10387,7 +10438,7 @@
     "plans": null,
     "description": "Hunt for security weaknesses in Kubernetes clusters.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
