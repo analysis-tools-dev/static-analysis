@@ -5305,7 +5305,7 @@
     "plans": null,
     "description": "A set of utilities for working with PO files to ease development and improve quality.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -7524,6 +7524,33 @@
         "url": "https://www.youtube.com/watch?v=7CfeUXtDlwQ"
       }
     ],
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "fortitude": {
+    "name": "Fortitude",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "fortran"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://fortitude.readthedocs.io",
+    "source": "https://github.com/PlasmaFAIR/fortitude",
+    "pricing": null,
+    "plans": null,
+    "description": "Fortran linter, inspired by (and built on) Ruff, and based on community best practices. Supports latest Fortran (2023) standard.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
     "reviews": null,
     "demos": null,
     "wrapper": null
@@ -12708,7 +12735,7 @@
     "plans": null,
     "description": "Packj (pronounced package) is a command line (CLI) tool to vet open-source software packages for \"risky\" attributes that make them vulnerable to supply chain attacks. This is the tool behind our large-scale security analysis platform Packj.dev that continuously vets packages and provides free reports.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -14715,7 +14742,7 @@
     "plans": null,
     "description": "A static verifier for Rust, based on the Viper verification infrastructure. By default Prusti verifies absence of panics by proving that statements such as unreachable!() and panic!() are unreachable.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -20246,7 +20273,7 @@
     "plans": null,
     "description": "Analyzes a binary's call graph to profile code size. The goal is to slim down wasm binary size.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,

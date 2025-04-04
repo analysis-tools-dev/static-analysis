@@ -492,6 +492,8 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 <h2>Fortran</h2>
 
 
+- [Fortitude](https://fortitude.readthedocs.io) — Fortran linter, inspired by (and built on) Ruff, and based on community best practices. Supports latest Fortran (2023) standard.
+
 - [fprettify](https://pypi.python.org/pypi/fprettify) :warning: — Auto-formatter for modern fortran source code, written in Python.
 Fprettify is a tool that provides consistent whitespace, indentation, and delimiter alignment in code, including the ability to change letter case and handle preprocessor directives, all while preserving revision history and tested for editor integration.
 
@@ -1210,7 +1212,7 @@ Kani verifies:
 
 - [prae](https://github.com/teenjuna/prae) :warning: — Provides a convenient macro that allows you to generate type wrappers  that promise to always uphold arbitrary invariants that you specified. 
 
-- [Prusti](https://www.pm.inf.ethz.ch/research/prusti.html) — A static verifier for Rust, based on the Viper verification infrastructure. By default Prusti verifies absence of panics by proving that statements such as unreachable!() and panic!() are unreachable.
+- [Prusti](https://www.pm.inf.ethz.ch/research/prusti.html) :warning: — A static verifier for Rust, based on the Viper verification infrastructure. By default Prusti verifies absence of panics by proving that statements such as unreachable!() and panic!() are unreachable.
 
 - [Rudra](https://github.com/sslab-gatech/Rudra) :warning: — Rust Memory Safety & Undefined Behavior Detection. It is capable of analyzing single Rust packages as well as all the packages on crates.io.
 
@@ -1362,7 +1364,7 @@ TSLint is an extensible static analysis tool that checks TypeScript code for rea
 <h2>WebAssembly</h2>
 
 
-- [Twiggy](https://rustwasm.github.io/twiggy) :warning: — Analyzes a binary's call graph to profile code size. The goal is to slim down wasm binary size.
+- [Twiggy](https://rustwasm.github.io/twiggy) — Analyzes a binary's call graph to profile code size. The goal is to slim down wasm binary size.
 
 - [wasm-language-tools](https://github.com/g-plane/wasm-language-tools) — WebAssembly Language Tools aims to provide and improve the editing experience of WebAssembly Text Format. It also provides an out-of-the-box formatter (a.k.a. pretty printer) for WebAssembly Text Format.
 
@@ -1679,7 +1681,7 @@ It supports multiple languages and is designed to be extensible, allowing you to
 - [alquitran](https://github.com/ferivoz/alquitran) — Inspects tar archives and tries to spot portability issues in regard  to POSIX 2017 pax specification and common tar implementations.
 This project is intended to be used by maintainers of projects who want to offer portable source code archives for as many systems as possible. Checking tar archives with alquitran before publishing them should help spotting issues before they reach distributors and users.
 
-- [packj](https://github.com/ossillate-inc/packj) — Packj (pronounced package) is a command line (CLI) tool to vet open-source software packages for "risky" attributes that make them vulnerable to supply chain attacks. This is the tool behind our large-scale security analysis platform Packj.dev that continuously vets packages and provides free reports.
+- [packj](https://github.com/ossillate-inc/packj) :warning: — Packj (pronounced package) is a command line (CLI) tool to vet open-source software packages for "risky" attributes that make them vulnerable to supply chain attacks. This is the tool behind our large-scale security analysis platform Packj.dev that continuously vets packages and provides free reports.
 
 - [pure](https://github.com/ronomon/pure) :warning: — Pure is a static analysis file format checker that checks ZIP files for dangerous compression ratios, spec deviations, malicious archive signatures, mismatching local and central directory headers, ambiguous UTF-8 filenames, directory and symlink traversals, invalid MS-DOS dates, overlapping headers, overflow, underflow,  sparseness, accidental buffer bleeds etc.
 
@@ -1730,7 +1732,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 - [rust-audit](https://github.com/Shnatsel/rust-audit) — Audit Rust binaries for known bugs or security vulnerabilities. This works by embedding data about the dependency tree (Cargo.lock) in JSON format into a dedicated linker section of the compiled executable.
 
-- [Twiggy](https://rustwasm.github.io/twiggy) :warning: — Analyzes a binary's call graph to profile code size. The goal is to slim down wasm binary size.
+- [Twiggy](https://rustwasm.github.io/twiggy) — Analyzes a binary's call graph to profile code size. The goal is to slim down wasm binary size.
 
 - [VMware chap](https://github.com/vmware/chap) — chap analyzes un-instrumented ELF core files for leaks, memory growth, and corruption.  It is sufficiently reliable that it can be used in automation to catch leaks before  they are committed. As an interactive tool, it helps explain memory growth,  can identify some forms of corruption, and supplements a debugger  by giving the status of various memory locations. 
 
@@ -2304,7 +2306,7 @@ TruffleHog is an open source secret-scanning engine that resolves exposed secret
 <h2>Translation</h2>
 
 
-- [dennis](https://github.com/willkg/dennis) — A set of utilities for working with PO files to ease development and improve quality.
+- [dennis](https://github.com/willkg/dennis) :warning: — A set of utilities for working with PO files to ease development and improve quality.
 
 
 <a name="vue" />
