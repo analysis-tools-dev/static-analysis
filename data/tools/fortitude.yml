@@ -1,0 +1,13 @@
+name: Fortitude
+categories:
+  - linter
+tags:
+  - fortran
+license: MIT License
+types:
+  - cli
+homepage: "https://fortitude.readthedocs.io"
+source: "https://github.com/PlasmaFAIR/fortitude"
+description: >-
+  Fortran linter, inspired by (and built on) Ruff, and based on
+  community best practices. Supports latest Fortran (2023) standard.
