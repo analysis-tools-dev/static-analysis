@@ -6473,7 +6473,7 @@
     "plans": null,
     "description": "A static and dynamic analysis tool for Laravel applications that provides recommendations to improve the performance, security and code reliability of Laravel apps. Contains 120 automated checks.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": [
       {
         "title": "Enlightn: Performance and Security Consultant",
