@@ -897,7 +897,7 @@ A ktfmt IntelliJ plugin is available from the plugin repository. To install it, 
 
 - [phpDocumentor](https://www.phpdoc.org) — Analyzes PHP source code to generate documentation.
 
-- [phploc](https://github.com/sebastianbergmann/phploc) :warning: — A tool for quickly measuring the size and analyzing the structure of a PHP project.
+- [phploc](https://github.com/sebastianbergmann/phploc) — A tool for quickly measuring the size and analyzing the structure of a PHP project.
 
 - [PHPMD](https://phpmd.org) — Finds possible bugs in your code.
 
@@ -1071,7 +1071,7 @@ YAPF follows a distinctive methodology, originating from the 'clang-format' tool
 
 - [lintr](https://github.com/jimhester/lintr) — Static Code Analysis for R.
 
-- [R Language Server](https://github.com/REditorSupport/languageserver/) :warning: — Provides code completion, refactoring, folding, diagnostics (with lintr), and more for R.
+- [R Language Server](https://github.com/REditorSupport/languageserver/) — Provides code completion, refactoring, folding, diagnostics (with lintr), and more for R.
 
 - [rco](https://jcrodriguez1989.github.io/rco/) — Performance optimizer for R code (with GUI).
 
@@ -1170,7 +1170,7 @@ YAPF follows a distinctive methodology, originating from the 'clang-format' tool
 
 - [cargo-expand](https://github.com/dtolnay/cargo-expand) — Cargo subcommand to show result of macro expansion  and #[derive] expansion applied to the current crate.  This is a wrapper around a more verbose compiler command.
 
-- [cargo-geiger](https://github.com/geiger-rs/cargo-geiger) :warning: — A cargo plugin for analysing the usage of unsafe Rust code Provides statistical output to aid security auditing
+- [cargo-geiger](https://github.com/geiger-rs/cargo-geiger) — A cargo plugin for analysing the usage of unsafe Rust code Provides statistical output to aid security auditing
 
 - [cargo-inspect](https://github.com/mre/cargo-inspect) :warning: — Inspect Rust code without syntactic sugar to see what the compiler does behind the curtains.
 
