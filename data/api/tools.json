@@ -2320,7 +2320,7 @@
     "plans": null,
     "description": "Linter / Analyzer for Makefiles.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
