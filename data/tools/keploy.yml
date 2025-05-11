@@ -1,14 +1,21 @@
 name: keploy
 categories:
-  - other
+  - linter
 tags:
   - keploy
   - go
 license: Apache-2.0 License
 types:
   - cli
-source: "https://github.com/keploy/keploy"
-homepage: "https://github.com/keploy/keploy"
+homepage: "https://keploy.io/"
+source: "https://github.com/keploy/"
+resources:
+  - title: "Keploy PR Agent"
+    url: https://github.com/apps/keploy
+  - title: "Keploy Agent VSCode Extension" 
+    url: https://marketplace.visualstudio.com/items?itemName=Keploy.keployio
+  - title: "Keploy Low code Integration Testing"
+    url:  "https://github.com/keploy/keploy"
 description: >-
  Keploy is an open-source testing platform that helps developers automate and streamline their testing process. It provides API, and integration testing agents, generating tests, mocks/stubs for APIs that actually work. Additionally, Keploy offers an AI-powered Unit Testing Agent that generates stable, useful unit tests directly in your GitHub PRs and in VSCode, helping catch errors and improve code quality.
 
