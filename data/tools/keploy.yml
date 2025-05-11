@@ -1,0 +1,15 @@
+name: keploy
+categories:
+  - Testing
+tags:
+  - keploy
+  - go
+license: Apache-2.0 License
+types:
+  - cli
+source: "https://github.com/keploy/keploy"
+homepage: "https://github.com/keploy/keploy"
+description: >-
+  Keploy is an open-source testing platform that helps developers automate and streamline their testing process. It provides a unit, API, and integration testing agent for developers, generating tests, mocks/stubs for APIs that actually work.
+
+
