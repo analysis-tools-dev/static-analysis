@@ -10,5 +10,5 @@ types:
 source: "https://github.com/keploy/keploy"
 homepage: "https://github.com/keploy/keploy"
 description: >-
- Keploy is an open-source testing platform that helps developers automate and streamline their testing process. It provides API, and integration testing agents, generating tests, mocks, and stubs for APIs that actually work. Additionally, Keploy offers an AI-powered Unit Testing Agent that generates stable, useful unit tests directly in your GitHub PRs and in VSCode, helping catch errors and improve code quality.
+ Keploy is an open-source testing platform that helps developers automate and streamline their testing process. It provides API, and integration testing agents, generating tests, mocks/stubs for APIs that actually work. Additionally, Keploy offers an AI-powered Unit Testing Agent that generates stable, useful unit tests directly in your GitHub PRs and in VSCode, helping catch errors and improve code quality.
 
