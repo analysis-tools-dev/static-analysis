@@ -2,8 +2,13 @@ name: keploy
 categories:
   - linter
 tags:
-  - keploy
   - go
+  - csharp
+  - javascript
+  - java
+  - python
+  - rust
+
 license: Apache-2.0 License
 types:
   - cli

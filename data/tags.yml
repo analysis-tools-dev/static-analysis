@@ -343,6 +343,3 @@
 - name: YAML
   value: yaml
   type: other
-- name: Keploy
-  value: keploy
-  type: other
