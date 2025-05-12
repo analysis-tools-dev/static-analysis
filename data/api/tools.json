@@ -1820,7 +1820,7 @@
     "plans": null,
     "description": "Find out what takes most of the space in your executable. supports ELF (Linux, BSD), Mach-O (macOS) and PE (Windows) binaries.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -10142,6 +10142,51 @@
     "demos": null,
     "wrapper": null
   },
+  "keploy": {
+    "name": "keploy",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "csharp",
+      "go",
+      "java",
+      "javascript",
+      "python",
+      "rust"
+    ],
+    "other": [],
+    "licenses": [
+      "Apache-2.0 License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://keploy.io/",
+    "source": "https://github.com/keploy/",
+    "pricing": null,
+    "plans": null,
+    "description": "Keploy is an open-source testing platform that helps developers automate and streamline their testing process. It provides API, and integration testing agents, generating tests, mocks/stubs for APIs that actually work. Additionally, Keploy offers an AI-powered Unit Testing Agent that generates stable, useful unit tests directly in your GitHub PRs and in VSCode, helping catch errors and improve code quality.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Keploy PR Agent",
+        "url": "https://github.com/apps/keploy"
+      },
+      {
+        "title": "Keploy Agent VSCode Extension",
+        "url": "https://marketplace.visualstudio.com/items?itemName=Keploy.keployio"
+      },
+      {
+        "title": "Keploy Low code Integration Testing",
+        "url": "https://github.com/keploy/keploy"
+      }
+    ],
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "kics": {
     "name": "kics",
     "categories": [
@@ -11295,7 +11340,7 @@
     "plans": null,
     "description": "Open Source AppSec platform that automatically notifies you the next time vulnerabilities like Log4Shell or node-ipc happen. Track your dependencies and builds in a centralized service.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -15799,7 +15844,7 @@
     "plans": null,
     "description": "A code metric tool for Rails projects",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
