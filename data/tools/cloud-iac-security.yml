@@ -4,6 +4,7 @@ categories:
 tags:
   - dockerfile
   - kubernetes
+  - security
 license: MIT
 types:
   - ide-plugin
