@@ -567,7 +567,7 @@ The tool is a fork of `gofmt` as of Go 1.19, and requires Go 1.18 or later.  It 
 - [govulncheck](https://go.dev/blog/vuln) — Govulncheck reports known vulnerabilities that affect Go code.  It uses static analysis of source code or a binary's symbol table to narrow down reports to only those that could affect the application.
 By default, govulncheck makes requests to the Go vulnerability database at https://vuln.go.dev. Requests to the vulnerability database contain only module paths, not code or other properties of your program.
 
-- [ineffassign](https://github.com/gordonklaus/ineffassign) :warning: — Detect ineffectual assignments in Go code.
+- [ineffassign](https://github.com/gordonklaus/ineffassign) — Detect ineffectual assignments in Go code.
 
 - [interfacer](https://github.com/mvdan/interfacer) :warning: — Suggest narrower interfaces that can be used.
 
@@ -694,7 +694,7 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 
 - [SpotBugs](https://spotbugs.github.io) — SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code.
 
-- [steady](https://eclipse.github.io/steady/) :warning: — Analyses your Java applications for open-source dependencies with known vulnerabilities, using both static analysis and testing to determine code context and usage for greater accuracy.
+- [steady](https://eclipse.github.io/steady/) — Analyses your Java applications for open-source dependencies with known vulnerabilities, using both static analysis and testing to determine code context and usage for greater accuracy.
 
 - [Violations Lib](https://github.com/tomasbjerre/violations-lib) — Java library for parsing report files from static code analysis. Used by a bunch of Jenkins, Maven and Gradle plugins.
 
@@ -851,7 +851,7 @@ A ktfmt IntelliJ plugin is available from the plugin repository. To install it, 
 
 - [Parse](https://github.com/psecio/parse) — A Static Security Scanner.
 
-- [pdepend](https://pdepend.org) — Calculates software metrics like cyclomatic complexity for PHP code.
+- [pdepend](https://pdepend.org) :warning: — Calculates software metrics like cyclomatic complexity for PHP code.
 
 - [phan](https://github.com/phan/phan/wiki) — A modern static analyzer from etsy.
 
@@ -905,7 +905,7 @@ A ktfmt IntelliJ plugin is available from the plugin repository. To install it, 
 
 - [phpmnd](https://github.com/povils/phpmnd) — Helps to detect magic numbers.
 
-- [PHPQA](https://edgedesigncz.github.io/phpqa) :warning: — A tool for running QA tools (phploc, phpcpd, phpcs, pdepend, phpmd, phpmetrics).
+- [PHPQA](https://edgedesigncz.github.io/phpqa) — A tool for running QA tools (phploc, phpcpd, phpcs, pdepend, phpmd, phpmetrics).
 
 - [phpqa - jakzal](https://github.com/jakzal/phpqa) — Many tools for PHP static analysis in one container.
 
@@ -1103,7 +1103,7 @@ YAPF follows a distinctive methodology, originating from the 'clang-format' tool
 
 - [Fasterer](https://github.com/DamirSvrtan/fasterer) — Common Ruby idioms checker.
 
-- [flay](https://ruby.sadi.st/Flay.html) — Flay analyzes code for structural similarities.
+- [flay](https://ruby.sadi.st/Flay.html) :warning: — Flay analyzes code for structural similarities.
 
 - [flog](https://ruby.sadi.st/Flog.html) :warning: — Flog reports the most tortured code in an easy to read pain report. The higher the score, the more pain the code is in.
 
