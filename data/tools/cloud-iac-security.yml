@@ -1,0 +1,16 @@
+name: Cloud (IaC) Security for JetBrains IDEs
+categories:
+  - linter
+tags:
+  - dockerfile
+  - kubernetes
+  - security
+license: MIT
+types:
+  - ide-plugin
+source: "https://github.com/NordCoderd/cloud-security-plugin"
+homepage: "https://plugins.jetbrains.com/plugin/25413-cloud-iac-security"
+description: "Cloud (IaC) Security plugin for JetBrains IDEs. Performs real-time inspections of Docker & Kubernetes IaC with 50+ rules based on Docker image/build security best practices, Kubernetes Pod Security Standards, and NSA/CISA Kubernetes Hardening Guidance."
+resources:
+  - title: "Bundled-rules documentation"
+    url: https://protsenko.dev/infrastructure-security/
