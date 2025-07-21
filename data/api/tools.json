@@ -2857,6 +2857,40 @@
     "demos": null,
     "wrapper": null
   },
+  "cloud-iac-security-for-jetbrains-ides": {
+    "name": "Cloud (IaC) Security for JetBrains IDEs",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "dockerfile",
+      "kubernetes",
+      "security"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "ide-plugin"
+    ],
+    "homepage": "https://plugins.jetbrains.com/plugin/25413-cloud-iac-security",
+    "source": "https://github.com/NordCoderd/cloud-security-plugin",
+    "pricing": null,
+    "plans": null,
+    "description": "Cloud (IaC) Security plugin for JetBrains IDEs. Performs real-time inspections of Docker & Kubernetes IaC with 50+ rules based on Docker image/build security best practices, Kubernetes Pod Security Standards, and NSA/CISA Kubernetes Hardening Guidance.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Bundled-rules documentation",
+        "url": "https://protsenko.dev/infrastructure-security/"
+      }
+    ],
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "clusterlint": {
     "name": "clusterlint",
     "categories": [

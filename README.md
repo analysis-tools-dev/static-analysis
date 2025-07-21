@@ -142,6 +142,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Containers](#container)
 - [Continuous Integration](#ci)
 - [Deno](#deno)
+- [Dockerfile](#dockerfile)
 - [Embedded](#embedded)
 - [Embedded Ruby (a.k.a. ERB, eRuby)](#erb)
 - [Gherkin](#gherkin)
@@ -1915,6 +1916,13 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 - [deno_lint](https://github.com/denoland/deno_lint) — Official linter for Deno.
 
 
+<a name="dockerfile" />
+<h2>Dockerfile</h2>
+
+
+- [Cloud (IaC) Security for JetBrains IDEs](https://plugins.jetbrains.com/plugin/25413-cloud-iac-security) — Cloud (IaC) Security plugin for JetBrains IDEs. Performs real-time inspections of Docker & Kubernetes IaC with 50+ rules based on Docker image/build security best practices, Kubernetes Pod Security Standards, and NSA/CISA Kubernetes Hardening Guidance.
+
+
 <a name="embedded" />
 <h2>Embedded</h2>
 
@@ -1981,6 +1989,8 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 
 
 - [chart-testing](https://github.com/helm/chart-testing) — ct is the tool for testing Helm charts.  It is meant to be used for linting and testing pull requests.  It automatically detects charts changed against the target branch.
+
+- [Cloud (IaC) Security for JetBrains IDEs](https://plugins.jetbrains.com/plugin/25413-cloud-iac-security) — Cloud (IaC) Security plugin for JetBrains IDEs. Performs real-time inspections of Docker & Kubernetes IaC with 50+ rules based on Docker image/build security best practices, Kubernetes Pod Security Standards, and NSA/CISA Kubernetes Hardening Guidance.
 
 - [clusterlint](https://github.com/digitalocean/clusterlint) — Clusterlint queries live Kubernetes clusters for resources, executes common and  platform specific checks against these resources and provides actionable feedback to cluster operators.  It is a non invasive tool that is run externally. Clusterlint does not alter the resource configurations.
 
@@ -2183,6 +2193,8 @@ but with the following improvements:
 - [AzSK](https://azsk.azurewebsites.net/) — Secure DevOps kit for Azure (AzSK) provides security IntelliSense, Security Verification Tests (SVTs), CICD scan vulnerabilities, compliance issues, and infrastructure misconfiguration in your infrastructure-as-code. Supports Azure via ARM.
 
 - [brakeman](https://brakemanscanner.org) — A static analysis security vulnerability scanner for Ruby on Rails applications.
+
+- [Cloud (IaC) Security for JetBrains IDEs](https://plugins.jetbrains.com/plugin/25413-cloud-iac-security) — Cloud (IaC) Security plugin for JetBrains IDEs. Performs real-time inspections of Docker & Kubernetes IaC with 50+ rules based on Docker image/build security best practices, Kubernetes Pod Security Standards, and NSA/CISA Kubernetes Hardening Guidance.
 
 - [Credential Digger](https://github.com/SAP/credential-digger) — Credential Digger is a GitHub scanning tool that identifies hardcoded credentials (Passwords, API Keys, Secret Keys, Tokens, personal information, etc),  and filtering the false positive data through a machine learning model called [Password Model](https://huggingface.co/SAPOSS/password-model). This scanner is able to detect passwords and non structured tokens with a low false positive rate. 
 
