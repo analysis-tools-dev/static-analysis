@@ -11518,6 +11518,36 @@
     "demos": null,
     "wrapper": null
   },
+  "mbake": {
+    "name": "mbake",
+    "categories": [
+      "linter",
+      "formatter"
+    ],
+    "languages": [
+      "python"
+    ],
+    "other": [
+      "make"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://pypi.org/project/mbake/",
+    "source": "https://github.com/EbodShojaei/bake",
+    "pricing": null,
+    "plans": null,
+    "description": "mbake is a Makefile formatter and linter. It only took 50 years!",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "mccabe": {
     "name": "mccabe",
     "categories": [

@@ -1000,6 +1000,8 @@ It uses the pycodestyle utility to determine what parts of the code needs to be 
 
 - [linty fresh](https://github.com/lyft/linty_fresh) — Parse lint errors and report them to Github as comments on a pull request.
 
+- [mbake](https://pypi.org/project/mbake/) — mbake is a Makefile formatter and linter. It only took 50 years!
+
 - [mccabe](https://pypi.org/project/mccabe) :warning: — Check McCabe complexity.
 
 - [multilint](https://github.com/adamchainz/multilint) :warning: — A wrapper around `flake8`, `isort` and `modernize`.
@@ -2050,6 +2052,8 @@ but with the following improvements:
 
 
 - [checkmake](https://github.com/mrtazz/checkmake) — Linter / Analyzer for Makefiles.
+
+- [mbake](https://pypi.org/project/mbake/) — mbake is a Makefile formatter and linter. It only took 50 years!
 
 - [portlint](https://www.freebsd.org/cgi/man.cgi?query=portlint&sektion=1&manpath=FreeBSD+8.1-RELEASE+and+Ports) — A verifier for FreeBSD and DragonFlyBSD port directories.
 
