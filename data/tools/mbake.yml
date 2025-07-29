@@ -1,0 +1,13 @@
+name: mbake
+categories:
+  - formatter
+  - linter
+tags:
+  - make
+  - python
+license: MIT
+types:
+  - cli
+source: 'https://github.com/EbodShojaei/bake'
+homepage: 'https://pypi.org/project/mbake/'
+description: mbake is a Makefile formatter and linter. It only took 50 years!
