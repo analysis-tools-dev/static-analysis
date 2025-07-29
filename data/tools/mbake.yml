@@ -3,7 +3,7 @@ categories:
   - formatter
   - linter
 tags:
-  - makefile
+  - make
   - python
 license: MIT
 types:
