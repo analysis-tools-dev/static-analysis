@@ -1,4 +1,4 @@
-name: dotenet-format
+name: dotnet-format
 categories:
   - linter
 tags:
