@@ -6053,35 +6053,6 @@
     "demos": null,
     "wrapper": null
   },
-  "dotenet-format": {
-    "name": "dotenet-format",
-    "categories": [
-      "linter"
-    ],
-    "languages": [
-      "dotnet",
-      "csharp",
-      "vbasic"
-    ],
-    "other": [],
-    "licenses": [
-      "MIT"
-    ],
-    "types": [
-      "cli"
-    ],
-    "homepage": "https://github.com/dotnet/format",
-    "source": "https://github.com/dotnet/format",
-    "pricing": null,
-    "plans": null,
-    "description": "A code formatter for .NET. Preferences will be read from an `.editorconfig` file, if present, otherwise a default set of preferences will be used. At this time dotnet-format is able to format C# and Visual Basic projects with a subset of supported `.editorconfig` options.",
-    "discussion": null,
-    "deprecated": null,
-    "resources": null,
-    "reviews": null,
-    "demos": null,
-    "wrapper": null
-  },
   "dotenv-linter": {
     "name": "dotenv-linter",
     "categories": [
@@ -6129,6 +6100,35 @@
     "pricing": null,
     "plans": null,
     "description": "Lightning-fast linter for .env files. Written in Rust",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "dotnet-format": {
+    "name": "dotnet-format",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "dotnet",
+      "csharp",
+      "vbasic"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/dotnet/format",
+    "source": "https://github.com/dotnet/format",
+    "pricing": null,
+    "plans": null,
+    "description": "A code formatter for .NET. Preferences will be read from an `.editorconfig` file, if present, otherwise a default set of preferences will be used. At this time dotnet-format is able to format C# and Visual Basic projects with a subset of supported `.editorconfig` options.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
@@ -6540,7 +6540,7 @@
     "plans": null,
     "description": "ENRE (ENtity Relationship Extractor) is a tool for extraction of code entity dependencies or relationships from source code. ENRE-cpp is a ENtity Relationship Extractor for C/C++ based on @eclipse/CDT. (Under development)",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -12417,7 +12417,7 @@
     "plans": null,
     "description": "Nim code formatter / linter / style checker",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
