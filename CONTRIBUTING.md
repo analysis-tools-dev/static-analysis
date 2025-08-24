@@ -50,3 +50,9 @@ you think the tool should be marked deprecated. Every deprecation will be
 handled on a case-by-case basis.
 
 **Thanks for helping out!** :tada:
+## Beginner-friendly Contribution Steps
+
+1. **Fork & Clone the repository**
+   ```bash
+   git clone https://github.com/<your-username>/static-analysis.git
+   cd static-analysis
