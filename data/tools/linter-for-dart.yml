@@ -6,6 +6,6 @@ tags:
 license: BSD 3-Clause "New" or "Revised" License
 types:
   - cli
-source: 'https://github.com/dart-lang/linter'
-homepage: 'https://dart-lang.github.io/linter'
+source: "https://github.com/dart-lang/linter"
+homepage: "https://github.com/dart-lang/linter"
 description: Style linter for Dart.

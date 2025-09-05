@@ -6,6 +6,7 @@ tags:
 license: Other
 types:
   - cli
+deprecated: true
 source: "https://github.com/instrumenta/kubeval"
 homepage: "https://kubeval.instrumenta.dev"
 description: >-

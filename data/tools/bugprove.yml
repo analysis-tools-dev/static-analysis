@@ -6,12 +6,13 @@ tags:
   - binary
   - c
   - cpp
-  - security  
+  - security
 license: proprietary
 types:
   - cli
 plans:
   free: true
+deprecated: true
 homepage: "https://www.bugprove.com"
 description: >-
   BugProve is a firmware analysis platform featuring both static and dynamic analysis

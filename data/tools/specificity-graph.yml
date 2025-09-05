@@ -6,6 +6,6 @@ tags:
 license: MIT License
 types:
   - cli
-source: 'https://github.com/pocketjoso/specificity-graph'
-homepage: 'https://jonassebastianohlsson.com/specificity-graph'
+source: "https://github.com/pocketjoso/specificity-graph"
+homepage: "https://github.com/pocketjoso/specificity-graph"
 description: CSS Specificity Graph Generator.

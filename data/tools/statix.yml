@@ -5,9 +5,9 @@ tags:
   - nix
 license: MIT
 types:
-  - cli 
-source: 'https://github.com/nerdypepper/statix'
-homepage: 'https://git.peppe.rs/languages/statix/about/'
+  - cli
+source: "https://github.com/nerdypepper/statix"
+homepage: "https://github.com/nerdypepper/statix"
 description: >-
   Lints and suggestions for the Nix programming language.
   "statix check" highlights antipatterns in Nix code. "statix fix" can fix several such occurrences.

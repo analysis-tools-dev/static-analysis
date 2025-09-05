@@ -6,6 +6,7 @@ tags:
 license: Apache-2.0
 types:
   - cli
+deprecated: true
 source: "https://github.com/eclipse/steady"
 homepage: "https://eclipse.github.io/steady/"
 description: >-

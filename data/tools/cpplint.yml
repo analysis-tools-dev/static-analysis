@@ -7,6 +7,6 @@ tags:
 license: Apache-2.0
 types:
   - cli
-source: 'https://github.com/google/styleguide/tree/gh-pages/cpplint'
-homepage: 'https://github.com/google/styleguide/tree/gh-pages/cpplint'
+source: "https://github.com/cpplint/cpplint"
+homepage: "https://github.com/cpplint/cpplint"
 description: Automated C++ checker that follows Google's style guide.
