@@ -1211,7 +1211,7 @@ Kani verifies:
 
 - [lockbud](https://github.com/BurtonQin/lockbud) — Statically detects Rust deadlocks bugs. It currently detects two common kinds of deadlock bugs: doublelock and locks in conflicting order. It will print bugs in JSON format together with the source code location and an explanation of each bug.
 
-- [MIRAI](https://github.com/facebookexperimental/MIRAI) — And abstract interpreter operating on Rust's mid-level intermediate language, and providing warnings based on taint analysis.
+- [MIRAI](https://github.com/facebookexperimental/MIRAI) :warning: — And abstract interpreter operating on Rust's mid-level intermediate language, and providing warnings based on taint analysis.
 
 - [prae](https://github.com/teenjuna/prae) :warning: — Provides a convenient macro that allows you to generate type wrappers  that promise to always uphold arbitrary invariants that you specified. 
 
@@ -1288,7 +1288,7 @@ Kani verifies:
 
 - [shellcheck](https://www.shellcheck.net) — ShellCheck, a static analysis tool that gives warnings and suggestions for bash/sh shell scripts.
 
-- [shellharden](https://github.com/anordal/shellharden) — A syntax highlighter and a tool to semi-automate the rewriting of scripts to ShellCheck conformance, mainly focused on quoting.
+- [shellharden](https://github.com/anordal/shellharden) :warning: — A syntax highlighter and a tool to semi-automate the rewriting of scripts to ShellCheck conformance, mainly focused on quoting.
 
 
 <a name="swift" />
@@ -1617,7 +1617,7 @@ It supports multiple languages and is designed to be extensible, allowing you to
 
 - [StaticReviewer](https://securityreviewer.atlassian.net/wiki/spaces/KC/pages/196633/Static+Reviewer) :copyright: — Static Reviewer executes code checks according to the most relevant Secure Coding Standards, OWASP, CWE, CVE, CVSS, MISRA, CERT, for 40+ programming languages, using 1000+ built-in validation rules for Security, Deadcode & Best Practices Available a module for Software Composition Analysis (SCA) to find vulnerabilities in open source and third party libraries.
 
-- [Super-Linter](https://github.com/github/super-linter) — Combination of multiple linters to install as a GitHub Action.
+- [Super-Linter](https://github.com/github/super-linter) :warning: — Combination of multiple linters to install as a GitHub Action.
 
 - [Svace](https://www.ispras.ru/en/technologies/svace/) :copyright: — Static code analysis tool for Java,C,C++,C#,Go.
 
@@ -2245,6 +2245,8 @@ Kani verifies:
 - [NodeJSScan](https://opensecurity.in) — A static security code scanner for Node.js applications powered by libsast and semgrep that builds on the njsscan cli tool. It features a UI with various dashboards about an application's security status.
 
 - [Oversecured](https://oversecured.com) :copyright: — Enterprise vulnerability scanner for Android and iOS apps. It allows app owners and developers to secure each new version of a mobile app by integrating Oversecured into the development process.
+
+- [OWASP Noir](https://owasp-noir.github.io/noir/) — Attack surface detector that identifies endpoints by static analysis.
 
 - [PT Application Inspector](https://www.ptsecurity.com) :copyright: — Identifies code flaws and detects vulnerabilities to prevent web attacks. Demonstrates remote code execution by presenting possible exploits.
 

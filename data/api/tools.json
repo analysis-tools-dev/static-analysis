@@ -11888,7 +11888,7 @@
     "plans": null,
     "description": "And abstract interpreter operating on Rust's mid-level intermediate language, and providing warnings based on taint analysis.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -12788,6 +12788,38 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "owasp-noir": {
+    "name": "OWASP Noir",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "security"
+    ],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://owasp-noir.github.io/noir/",
+    "source": "https://github.com/owasp-noir/noir",
+    "pricing": null,
+    "plans": null,
+    "description": "Attack surface detector that identifies endpoints by static analysis.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "OWASP Project Noir",
+        "url": "https://owasp.org/www-project-noir/"
+      }
+    ],
     "reviews": null,
     "demos": null,
     "wrapper": null
@@ -17539,7 +17571,7 @@
     "plans": null,
     "description": "A syntax highlighter and a tool to semi-automate the rewriting of scripts to ShellCheck conformance, mainly focused on quoting.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -19212,7 +19244,7 @@
     "plans": null,
     "description": "Combination of multiple linters to install as a GitHub Action.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": [
       {
         "title": "The Easiest Way to Lint Your Code: GitHub Super Linter Deep Dive",
