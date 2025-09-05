@@ -232,7 +232,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [CppDepend](https://www.cppdepend.com) :copyright: — Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.
 
-- [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) — Automated C++ checker that follows Google's style guide.
+- [cpplint](https://github.com/cpplint/cpplint) — Automated C++ checker that follows Google's style guide.
 
 - [cqmetrics](https://github.com/dspinellis/cqmetrics) — Quality metrics for C code.
 
@@ -334,7 +334,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [CppDepend](https://www.cppdepend.com) :copyright: — Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.
 
-- [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) — Automated C++ checker that follows Google's style guide.
+- [cpplint](https://github.com/cpplint/cpplint) — Automated C++ checker that follows Google's style guide.
 
 - [cqmetrics](https://github.com/dspinellis/cqmetrics) — Quality metrics for C code.
 
@@ -421,7 +421,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [lint](https://github.com/passsy/dart-lint) — An opinionated, community-driven set of lint rules for Dart and Flutter projects. Like pedantic but stricter
 
-- [Linter for dart](https://dart-lang.github.io/linter) — Style linter for Dart.
+- [Linter for dart](https://github.com/dart-lang/linter) — Style linter for Dart.
 
 
 <a name="delphi" />
@@ -484,7 +484,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 
 - [fantomas](https://fsprojects.github.io/fantomas/) — F# source code formatter.
 
-- [FSharpLint](https://fsprojects.github.io/FSharpLint) — Lint tool for F#.
+- [FSharpLint](https://github.com/fsprojects/FSharpLint) — Lint tool for F#.
 
 - [ionide-analyzers](https://ionide.io/ionide-analyzers/) — A collection of F# analyzers, built with the FSharp.Analyzers.SDK.
 
@@ -695,7 +695,7 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 
 - [SpotBugs](https://spotbugs.github.io) — SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code.
 
-- [steady](https://eclipse.github.io/steady/) — Analyses your Java applications for open-source dependencies with known vulnerabilities, using both static analysis and testing to determine code context and usage for greater accuracy.
+- [steady](https://eclipse.github.io/steady/) :warning: — Analyses your Java applications for open-source dependencies with known vulnerabilities, using both static analysis and testing to determine code context and usage for greater accuracy.
 
 - [Violations Lib](https://github.com/tomasbjerre/violations-lib) — Java library for parsing report files from static code analysis. Used by a bunch of Jenkins, Maven and Gradle plugins.
 
@@ -1367,7 +1367,7 @@ TSLint is an extensible static analysis tool that checks TypeScript code for rea
 <h2>WebAssembly</h2>
 
 
-- [Twiggy](https://rustwasm.github.io/twiggy) — Analyzes a binary's call graph to profile code size. The goal is to slim down wasm binary size.
+- [Twiggy](https://github.com/rustwasm/twiggy) — Analyzes a binary's call graph to profile code size. The goal is to slim down wasm binary size.
 
 - [wasm-language-tools](https://github.com/g-plane/wasm-language-tools) — WebAssembly Language Tools aims to provide and improve the editing experience of WebAssembly Text Format. It also provides an out-of-the-box formatter (a.k.a. pretty printer) for WebAssembly Text Format.
 
@@ -1400,11 +1400,11 @@ It supports multiple languages and is designed to be extensible, allowing you to
 
 - [Better Code Hub](https://bettercodehub.com) :copyright: — Better Code Hub checks your GitHub codebase against 10 engineering guidelines devised by the authority in software quality, Software Improvement Group.
 
-- [Betterscan CE](https://github.com/tcosolutions/betterscan-ce) — Checks your code and infra (various Git repositories supported, cloud stacks, CLI, Web Interface platform, integrationss available) for security and quality issues. Code Scanning/SAST/Linting using many tools/Scanners deduplicated with One Report (AI optional).
+- [Betterscan CE](https://github.com/tcosolutions/betterscan-ce) :warning: — Checks your code and infra (various Git repositories supported, cloud stacks, CLI, Web Interface platform, integrationss available) for security and quality issues. Code Scanning/SAST/Linting using many tools/Scanners deduplicated with One Report (AI optional).
 
 - [biome](https://biomejs.dev) — A toolchain for web projects, aimed to provide functionalities to maintain them. Biome formats and lints code in a fraction of a second. It is the successor to Rome. It is designed to eventually replace Biome is designed to eventually replace Babel, ESLint, webpack, Prettier, Jest, and others.
 
-- [BugProve](https://www.bugprove.com) :copyright: — BugProve is a firmware analysis platform featuring both static and dynamic analysis techniques to discover memory corruptions, command injections and other classes or common weaknesses in binary code. It also detects vulnerable dependencies, weak cryptographic parameters, misconfigurations, and more.
+- [BugProve](https://www.bugprove.com) :warning: :copyright: — BugProve is a firmware analysis platform featuring both static and dynamic analysis techniques to discover memory corruptions, command injections and other classes or common weaknesses in binary code. It also detects vulnerable dependencies, weak cryptographic parameters, misconfigurations, and more.
 
 - [callGraph](https://github.com/koknat/callGraph) — Statically generates a call graph image and displays it on screen.
 
@@ -1583,7 +1583,7 @@ It supports multiple languages and is designed to be extensible, allowing you to
 
 - [SAST Online](https://sast.online/) :copyright: — Check the Android Source code thoroughly to uncover and address potential security concerns and vulnerabilities. Static application security testing (Static Code Analysis) tool Online
 
-- [Scrutinizer](https://scrutinizer-ci.com) :copyright: — A proprietary code quality checker that can be integrated with GitHub.
+- [Scrutinizer](https://scrutinizer-ci.com) :warning: :copyright: — A proprietary code quality checker that can be integrated with GitHub.
 
 - [Security Code Scan](https://security-code-scan.github.io) — Security code analyzer for C# and VB.NET. Detects various security vulnerability patterns: SQLi, XSS, CSRF, XXE, Open Redirect, etc. Integrates into Visual Studio 2015 and newer. Detects various security vulnerability patterns: SQLi, XSS, CSRF, XXE, Open Redirect, etc.
 
@@ -1737,7 +1737,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 - [rust-audit](https://github.com/Shnatsel/rust-audit) — Audit Rust binaries for known bugs or security vulnerabilities. This works by embedding data about the dependency tree (Cargo.lock) in JSON format into a dedicated linker section of the compiled executable.
 
-- [Twiggy](https://rustwasm.github.io/twiggy) — Analyzes a binary's call graph to profile code size. The goal is to slim down wasm binary size.
+- [Twiggy](https://github.com/rustwasm/twiggy) — Analyzes a binary's call graph to profile code size. The goal is to slim down wasm binary size.
 
 - [VMware chap](https://github.com/vmware/chap) — chap analyzes un-instrumented ELF core files for leaks, memory growth, and corruption.  It is sufficiently reliable that it can be used in automation to catch leaks before  they are committed. As an interactive tool, it helps explain memory growth,  can identify some forms of corruption, and supplements a debugger  by giving the status of various memory locations. 
 
@@ -1777,7 +1777,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 - [scsslint](https://github.com/brigade/scss-lint) :warning: — Linter for SCSS files.
 
-- [Specificity Graph](https://jonassebastianohlsson.com/specificity-graph) — CSS Specificity Graph Generator.
+- [Specificity Graph](https://github.com/pocketjoso/specificity-graph) — CSS Specificity Graph Generator.
 
 - [Stylelint](http://stylelint.io) — Linter for SCSS/CSS files.
 
@@ -2024,7 +2024,7 @@ but with the following improvements:
 
 - [KubeLinter](https://github.com/stackrox/kube-linter) — KubeLinter is a static analysis tool that checks Kubernetes YAML files and Helm charts to ensure the applications represented in them adhere to best practices.
 
-- [kubeval](https://kubeval.instrumenta.dev) — Validates your Kubernetes configuration files and supports multiple Kubernetes versions.
+- [kubeval](https://kubeval.instrumenta.dev) :warning: — Validates your Kubernetes configuration files and supports multiple Kubernetes versions.
 
 
 <a name="latex" />
@@ -2123,7 +2123,7 @@ but with the following improvements:
 
 - [deadnix](https://github.com/astro/deadnix) — Scan Nix files for dead code (unused variable bindings)
 
-- [statix](https://git.peppe.rs/languages/statix/about/) — Lints and suggestions for the Nix programming language. "statix check" highlights antipatterns in Nix code. "statix fix" can fix several such occurrences.
+- [statix](https://github.com/nerdypepper/statix) — Lints and suggestions for the Nix programming language. "statix check" highlights antipatterns in Nix code. "statix fix" can fix several such occurrences.
 
 
 <a name="nodejs" />

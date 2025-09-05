@@ -1195,7 +1195,7 @@
     },
     "description": "Checks your code and infra (various Git repositories supported, cloud stacks, CLI, Web Interface platform, integrationss available) for security and quality issues. Code Scanning/SAST/Linting using many tools/Scanners deduplicated with One Report (AI optional).",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -1587,7 +1587,7 @@
     },
     "description": "BugProve is a firmware analysis platform featuring both static and dynamic analysis techniques to discover memory corruptions, command injections and other classes or common weaknesses in binary code. It also detects vulnerable dependencies, weak cryptographic parameters, misconfigurations, and more.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": [
       {
         "title": "BugProve Product Intro by John Hammond",
@@ -4520,8 +4520,8 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://github.com/google/styleguide/tree/gh-pages/cpplint",
-    "source": "https://github.com/google/styleguide/tree/gh-pages/cpplint",
+    "homepage": "https://github.com/cpplint/cpplint",
+    "source": "https://github.com/cpplint/cpplint",
     "pricing": null,
     "plans": null,
     "description": "Automated C++ checker that follows Google's style guide.",
@@ -7715,7 +7715,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://fsprojects.github.io/FSharpLint",
+    "homepage": "https://github.com/fsprojects/FSharpLint",
     "source": "https://github.com/fsprojects/FSharpLint",
     "pricing": null,
     "plans": null,
@@ -10720,7 +10720,7 @@
     "plans": null,
     "description": "Validates your Kubernetes configuration files and supports multiple Kubernetes versions.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -11002,7 +11002,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://dart-lang.github.io/linter",
+    "homepage": "https://github.com/dart-lang/linter",
     "source": "https://github.com/dart-lang/linter",
     "pricing": null,
     "plans": null,
@@ -17299,7 +17299,7 @@
     },
     "description": "A proprietary code quality checker that can be integrated with GitHub.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -18448,7 +18448,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://jonassebastianohlsson.com/specificity-graph",
+    "homepage": "https://github.com/pocketjoso/specificity-graph",
     "source": "https://github.com/pocketjoso/specificity-graph",
     "pricing": null,
     "plans": null,
@@ -18935,7 +18935,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://git.peppe.rs/languages/statix/about/",
+    "homepage": "https://github.com/nerdypepper/statix",
     "source": "https://github.com/nerdypepper/statix",
     "pricing": null,
     "plans": null,
@@ -18995,7 +18995,7 @@
     "plans": null,
     "description": "Analyses your Java applications for open-source dependencies with known vulnerabilities, using both static analysis and testing to determine code context and usage for greater accuracy.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -20408,7 +20408,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://rustwasm.github.io/twiggy",
+    "homepage": "https://github.com/rustwasm/twiggy",
     "source": "https://github.com/rustwasm/twiggy",
     "pricing": null,
     "plans": null,
