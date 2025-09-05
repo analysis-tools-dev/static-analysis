@@ -18,22 +18,6 @@ This project would not be possible without the generous support of our sponsors.
 <table>
    <tr>
       <td>
-         <a href="https://bugprove.com">
-            <picture >
-               <source width="200px" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/bugprove-dark.svg">
-               <img width="200px" alt="BugProve" src="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/bugprove-light.svg">
-            </picture>
-         </a>
-      </td>
-      <td>
-         <a href="https://www.betterscan.io">
-            <picture >
-               <source width="200px" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/betterscan-dark.svg">
-               <img width="200px" alt="Betterscan" src="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/betterscan-light.svg">
-            </picture>
-         </a>
-      </td>
-      <td>
          <a href="https://www.pixee.ai/">
             <picture >
                <source width="200px" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/pixee-light.png">
@@ -98,7 +82,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2>{{ language.name }}</h2>
 
 {% for linter in linters %}
-- [{{linter.name }}]({{linter.homepage }}){% if linter.discussion.is_some() %} [:information_source:](<{{linter.discussion.as_ref().unwrap()}}>){% endif %}{% if linter.deprecated.is_some() && linter.deprecated.unwrap() %} :warning:{% endif %}{% if linter.license == "proprietary" %} :copyright:{% endif %} — {{ linter.description }}
+- {% if linter.deprecated.is_some() && linter.deprecated.unwrap() %}**{{linter.name }}**{% else %}[{{linter.name }}]({{linter.homepage }}){% endif %}{% if linter.discussion.is_some() %} [:information_source:](<{{linter.discussion.as_ref().unwrap()}}>){% endif %}{% if linter.deprecated.is_some() && linter.deprecated.unwrap() %} :warning:{% endif %}{% if linter.license == "proprietary" %} :copyright:{% endif %} — {{ linter.description }}
 {% endfor %}
 
 {%- endfor %}
@@ -106,7 +90,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 ## Multiple languages
 
 {% for linter in multi %}
-- [{{linter.name }}]({{linter.homepage }}){% if linter.discussion.is_some() %} [:information_source:](<{{linter.discussion.as_ref().unwrap()}}>){% endif %}{% if linter.deprecated.is_some() && linter.deprecated.unwrap() %} :warning:{% endif %}{% if linter.license == "proprietary" %} :copyright:{% endif %} — {{ linter.description }}
+- {% if linter.deprecated.is_some() && linter.deprecated.unwrap() %}**{{linter.name }}**{% else %}[{{linter.name }}]({{linter.homepage }}){% endif %}{% if linter.discussion.is_some() %} [:information_source:](<{{linter.discussion.as_ref().unwrap()}}>){% endif %}{% if linter.deprecated.is_some() && linter.deprecated.unwrap() %} :warning:{% endif %}{% if linter.license == "proprietary" %} :copyright:{% endif %} — {{ linter.description }}
 {% endfor %}
 
 ## Other
@@ -117,7 +101,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <h2>{{ tag.name }}</h2>
 
 {% for other in others %}
-- [{{ other.name }}]({{ other.homepage }}){% if other.discussion.is_some() %} [:information_source:](<{{other.discussion.as_ref().unwrap()}}>){% endif %}{% if other.deprecated.is_some() && other.deprecated.unwrap() %} :warning:{% endif %}{% if other.license == "proprietary" %} :copyright:{% endif %} — {{ other.description }}
+- {% if other.deprecated.is_some() && other.deprecated.unwrap() %}**{{ other.name }}**{% else %}[{{ other.name }}]({{ other.homepage }}){% endif %}{% if other.discussion.is_some() %} [:information_source:](<{{other.discussion.as_ref().unwrap()}}>){% endif %}{% if other.deprecated.is_some() && other.deprecated.unwrap() %} :warning:{% endif %}{% if other.license == "proprietary" %} :copyright:{% endif %} — {{ other.description }}
 {% endfor %}
 
 {%- endfor %}
