@@ -1,4 +1,4 @@
-use anyhow::{bail, Result};
+use anyhow::{Result, bail};
 use askama::Template;
 use serde::Deserialize;
 use std::cmp::Ordering;
@@ -23,8 +23,8 @@ pub struct Tag {
 }
 
 impl Tag {
-    fn new(name: &str, value: &str, tag_type: Type) -> Tag {
-        Tag {
+    fn new(name: &str, value: &str, tag_type: Type) -> Self {
+        Self {
             name: name.into(),
             value: value.into(),
             tag_type,
@@ -138,8 +138,8 @@ impl Entry {
             .types
             .iter()
             .map(|t| {
-                serde_json::from_value::<ToolType>(serde_json::to_value(t).unwrap())
-                    .map_err(|e| e.into())
+                let value = serde_json::to_value(t)?;
+                serde_json::from_value::<ToolType>(value).map_err(Into::into)
             })
             .collect();
 

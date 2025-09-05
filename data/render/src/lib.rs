@@ -11,7 +11,7 @@ mod lints;
 pub mod stats;
 pub mod types;
 
-use std::{collections::BTreeMap, iter::FromIterator};
+use std::collections::BTreeMap;
 use types::{Api, ApiEntry, Catalog, Entry, ParsedEntry, Tag, Type};
 
 fn valid(entry: &ParsedEntry, tags: &[Tag]) -> Result<()> {
@@ -32,13 +32,10 @@ pub async fn check_deprecated(token: String, entries: &mut Vec<Entry>) -> Result
             continue;
         }
 
-        let components: Vec<&str> = entry
-            .source
-            .as_ref()
-            .unwrap()
-            .trim_end_matches('/')
-            .split('/')
-            .collect();
+        let Some(source) = entry.source.as_ref() else {
+            continue;
+        };
+        let components: Vec<&str> = source.trim_end_matches('/').split('/').collect();
         if !(components.contains(&"github.com") && components.len() == 5) {
             // valid github source must have 5 elements - anything longer and they are probably a
             // reference to a path inside a repo, rather than a repo itself.
@@ -51,8 +48,10 @@ pub async fn check_deprecated(token: String, entries: &mut Vec<Entry>) -> Result
         if let Ok(commit_list) = github.repo(owner, repo).commits().list("").await {
             let date = &commit_list[0].commit.author.date;
             let last_commit = NaiveDateTime::parse_from_str(date, "%Y-%m-%dT%H:%M:%SZ")?;
-            let last_commit_utc = DateTime::<Utc>::from_utc(last_commit, Utc);
-            let duration = Local::today().signed_duration_since(last_commit_utc.date());
+            let last_commit_utc: DateTime<Utc> =
+                DateTime::from_naive_utc_and_offset(last_commit, Utc);
+            let now = Local::now().date_naive();
+            let duration = now.signed_duration_since(last_commit_utc.date_naive());
 
             if duration.num_days() > 365 {
                 entry.deprecated = Some(true);
@@ -111,8 +110,8 @@ pub fn create_api(catalog: Catalog, languages: &[Tag], other_tags: &[Tag]) -> Re
     let mut api_entries = BTreeMap::new();
 
     // Concatenate all entries into one vector
-    let mut entries: Vec<Entry> = Vec::from_iter(catalog.linters.into_values().flatten());
-    entries.extend(Vec::from_iter(catalog.others.into_values().flatten()));
+    let mut entries: Vec<Entry> = catalog.linters.into_values().flatten().collect();
+    entries.extend(catalog.others.into_values().flatten());
     entries.extend(catalog.multi);
 
     for entry in entries {
