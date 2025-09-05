@@ -1,0 +1,14 @@
+# Clippy configuration for stricter linting
+# https://rust-lang.github.io/rust-clippy/master/index.html
+
+# Set the threshold for too many arguments
+too-many-arguments-threshold = 4
+
+# Set the threshold for too many lines
+too-many-lines-threshold = 100
+
+# Set the threshold for type complexity
+type-complexity-threshold = 250
+
+# Avoid suggesting wildcard imports
+avoid-breaking-exported-api = false

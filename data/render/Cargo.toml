@@ -2,7 +2,46 @@
 name = "render"
 version = "0.2.0"
 authors = ["Matthias Endler <matthias-endler@gmx.net>"]
-edition = "2018"
+edition = "2024"
+description = "Static analysis tools catalog renderer"
+license = "MIT"
+repository = "https://github.com/analysis-tools-dev/static-analysis"
+keywords = ["static-analysis", "linting", "tools", "catalog"]
+categories = ["development-tools"]
+
+[lints.clippy]
+# Correctness lints (enabled by default, but being explicit)
+correctness = { level = "deny", priority = -1 }
+
+# Style lints
+style = { level = "warn", priority = -1 }
+complexity = { level = "warn", priority = -1 }
+perf = { level = "warn", priority = -1 }
+suspicious = { level = "warn", priority = -1 }
+
+# Additional strict lints
+cargo = { level = "warn", priority = -1 }
+pedantic = { level = "warn", priority = -1 }
+nursery = { level = "warn", priority = -1 }
+
+# Specific lints we want to enforce
+missing_docs_in_private_items = "warn"
+missing_errors_doc = "warn"
+missing_panics_doc = "warn"
+unwrap_used = "deny"
+expect_used = "warn"
+panic = "deny"
+unimplemented = "deny"
+unreachable = "deny"
+todo = "warn"
+print_stdout = "warn"
+print_stderr = "warn"
+dbg_macro = "warn"
+
+# Allow some pedantic lints that might be too noisy
+module_name_repetitions = "allow"
+similar_names = "allow"
+too_many_lines = "allow"  # We'll use the clippy.toml threshold instead
 
 [dependencies]
 serde = "1.0.219"
