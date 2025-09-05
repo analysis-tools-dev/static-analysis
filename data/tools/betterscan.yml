@@ -21,9 +21,10 @@ tags:
   - typescript
   - python
   - security
-license: AGPL-3.0 
+license: AGPL-3.0
 types:
   - cli
+deprecated: true
 source: "https://github.com/tcosolutions/betterscan-ce"
 homepage: "https://github.com/tcosolutions/betterscan-ce"
 plans:

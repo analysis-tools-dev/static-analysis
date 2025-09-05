@@ -13,6 +13,7 @@ tags:
 license: proprietary
 types:
   - service
+deprecated: true
 homepage: https://scrutinizer-ci.com
 description: >-
   A proprietary code quality checker that can be integrated with GitHub.

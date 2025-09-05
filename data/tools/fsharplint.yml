@@ -6,6 +6,6 @@ tags:
 license: MIT License
 types:
   - cli
-source: 'https://github.com/fsprojects/FSharpLint'
-homepage: 'https://fsprojects.github.io/FSharpLint'
+source: "https://github.com/fsprojects/FSharpLint"
+homepage: "https://github.com/fsprojects/FSharpLint"
 description: Lint tool for F#.
