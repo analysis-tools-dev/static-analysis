@@ -283,7 +283,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [Gendarme](https://www.mono-project.com/docs/tools+libraries/tools/gendarme) — Gendarme inspects programs and libraries that contain code in ECMA CIL format (Mono and .NET).
 
-- [Infer#](https://github.com/microsoft/infersharp) — InferSharp (also referred to as Infer#) is an interprocedural and  scalable static code analyzer for C#. Via the capabilities of Facebook's Infer,  this tool detects null pointer dereferences and resource leaks.
+- **Infer#** :warning: — InferSharp (also referred to as Infer#) is an interprocedural and  scalable static code analyzer for C#. Via the capabilities of Facebook's Infer,  this tool detects null pointer dereferences and resource leaks.
 
 - [Meziantou.Analyzer](https://github.com/meziantou/Meziantou.Analyzer) — A Roslyn analyzer to enforce some good practices in C# in terms of design, usage, security, performance, and style.
 
@@ -1703,7 +1703,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 - [Ghidra](https://ghidra-sre.org) — A software reverse engineering (SRE) suite of tools developed by NSA's Research Directorate in support of the Cybersecurity mission
 
-- **Hopper** :warning: :copyright: — macOS and Linux reverse engineering tool that lets you disassemble, decompile and debug applications. Hopper displays the code using different representations, e.g. the Control Flow Graph, and the pseudo-code of a procedure. Supports Apple Silicon.
+- [Hopper](https://www.hopperapp.com/) :copyright: — macOS and Linux reverse engineering tool that lets you disassemble, decompile and debug applications. Hopper displays the code using different representations, e.g. the Control Flow Graph, and the pseudo-code of a procedure. Supports Apple Silicon.
 
 - [IDA Free](https://www.hex-rays.com/products/ida/support/download_freeware) :copyright: — Binary code analysis tool.
 
@@ -2199,7 +2199,7 @@ It does this by running periodic diff outputs against heuristically crafted rege
 
 - [gokart](https://github.com/praetorian-inc/gokart) — Golang security analysis with a focus on minimizing false positives. It is capable of tracing the source of variables and function arguments  to determine whether input sources are safe.
 
-- **HasMySecretLeaked** :warning: :copyright: — HasMySecretLeaked is a project from GitGuardian that aims to help individual users and organizations search across 20 million exposed secrets to verify if their  developer secrets have leaked on public repositories, gists, and issues on GitHub projects.
+- [HasMySecretLeaked](https://gitguardian.com/hasmysecretleaked) :copyright: — HasMySecretLeaked is a project from GitGuardian that aims to help individual users and organizations search across 20 million exposed secrets to verify if their  developer secrets have leaked on public repositories, gists, and issues on GitHub projects.
 
 - **iblessing** :warning: — iblessing is an iOS security exploiting toolkit. It can be used for reverse engineering, binary analysis and vulnerability mining.
 
@@ -2362,7 +2362,7 @@ TruffleHog is an open source secret-scanning engine that resolves exposed secret
 
 - [GitGuardian ggshield](https://www.gitguardian.com/ggshield) — ggshield is a CLI application that runs in your local environment  or in a CI environment to help you detect more than 350+ types of secrets,  as well as other potential security vulnerabilities or policy breaks affecting your codebase.
 
-- **HasMySecretLeaked** :warning: :copyright: — HasMySecretLeaked is a project from GitGuardian that aims to help individual users and organizations search across 20 million exposed secrets to verify if their  developer secrets have leaked on public repositories, gists, and issues on GitHub projects.
+- [HasMySecretLeaked](https://gitguardian.com/hasmysecretleaked) :copyright: — HasMySecretLeaked is a project from GitGuardian that aims to help individual users and organizations search across 20 million exposed secrets to verify if their  developer secrets have leaked on public repositories, gists, and issues on GitHub projects.
 
 
 ## More Collections
