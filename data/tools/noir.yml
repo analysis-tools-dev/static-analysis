@@ -1,0 +1,14 @@
+name: OWASP Noir
+categories:
+  - linter
+tags:
+  - security
+license: MIT License
+types:
+  - cli
+source: "https://github.com/owasp-noir/noir"
+homepage: "https://owasp-noir.github.io/noir/"
+resources:
+  - title: OWASP Project Noir
+    url: https://owasp.org/www-project-noir/
+description: Attack surface detector that identifies endpoints by static analysis.
