@@ -62,7 +62,10 @@ fn backfill_deprecated(tools: &mut Vec<Entry>) -> Result<()> {
     for tool in tools {
         let id = slugify(&tool.name);
         if let Some(old_tool) = old_tools_data.get(&id) {
-            tool.deprecated = old_tool.get("deprecated").and_then(|d| d.as_bool());
+            // Only backfill deprecated if it's not already set
+            if tool.deprecated.is_none() {
+                tool.deprecated = old_tool.get("deprecated").and_then(|d| d.as_bool());
+            }
         }
     }
     Ok(())
