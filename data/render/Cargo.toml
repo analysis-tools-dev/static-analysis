@@ -44,7 +44,7 @@ similar_names = "allow"
 too_many_lines = "allow"  # We'll use the clippy.toml threshold instead
 
 [dependencies]
-serde = "1.0.219"
+serde = "1.0.223"
 serde_derive = "1.0.136"
 serde_yaml = "0.9.34"
 askama = "0.12.1"
