@@ -21297,7 +21297,7 @@
     "plans": null,
     "description": "Show unused code from multi-crate Rust projects",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
