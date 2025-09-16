@@ -6,6 +6,7 @@ tags:
 license: GNU General Public License v2.0
 types:
   - cli
+deprecated: true
 source: 'http://iverilog.icarus.com/'
 homepage: 'https://github.com/steveicarus/iverilog'
 description: >-

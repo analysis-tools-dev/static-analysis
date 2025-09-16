@@ -22,6 +22,7 @@ types:
   - service
   - cli
 source: 'https://github.com/Tencent/CodeAnalysis'
+deprecated: true
 homepage: 'https://tca.tencent.com/'
 description: >-
   Tencent Cloud Code Analysis (TCA for short, code-named CodeDog inside the company early) is a comprehensive platform for code analysis and issue tracking. TCA consist of three components, server, web and client. It integrates of a number of self-developed tools, and also supports dynamic integration of code analysis tools in various programming languages.

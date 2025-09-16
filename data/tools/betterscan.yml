@@ -30,5 +30,4 @@ homepage: "https://github.com/tcosolutions/betterscan-ce"
 plans:
   oss: true
   free: false
-pricing: https://betterscan.io/pricing
 description: Checks your code and infra (various Git repositories supported, cloud stacks, CLI, Web Interface platform, integrationss available) for security and quality issues. Code Scanning/SAST/Linting using many tools/Scanners deduplicated with One Report (AI optional).
