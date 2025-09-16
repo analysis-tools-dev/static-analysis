@@ -6483,6 +6483,57 @@
     "demos": null,
     "wrapper": null
   },
+  "enforster-ai": {
+    "name": "Enforster AI",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "c",
+      "csharp",
+      "cpp",
+      "go",
+      "java",
+      "javascript",
+      "php",
+      "python",
+      "typescript"
+    ],
+    "other": [
+      "ci",
+      "security"
+    ],
+    "licenses": [
+      "proprietary"
+    ],
+    "types": [
+      "service"
+    ],
+    "homepage": "https://enforster.ai/",
+    "source": null,
+    "pricing": null,
+    "plans": null,
+    "description": "Enforster AI performs Contextual Code Security SAST, leveraging LLMs and artificial intelligence to reduce  and enrich the detection of Logic Flaws, Secrets, Data leaks, Supply chain and technical vulnerabilities. ",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Product homepage",
+        "url": "https://enforster.ai/"
+      },
+      {
+        "title": "Docs",
+        "url": "https://docs.enforster.ai/"
+      },
+      {
+        "title": "Platform Access",
+        "url": "https://app.enforster.ai/"
+      }
+    ],
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "enlightn": {
     "name": "Enlightn",
     "categories": [
