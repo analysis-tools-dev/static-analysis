@@ -13,7 +13,7 @@ types:
 plans:
   free: true
 deprecated: true
-homepage: "https://www.bugprove.com"
+homepage: "https://bugprove.com"
 description: >-
   BugProve is a firmware analysis platform featuring both static and dynamic analysis
   techniques to discover memory corruptions, command injections and other classes or

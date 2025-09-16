@@ -1188,7 +1188,7 @@
     ],
     "homepage": "https://github.com/tcosolutions/betterscan-ce",
     "source": "https://github.com/tcosolutions/betterscan-ce",
-    "pricing": "https://betterscan.io/pricing",
+    "pricing": null,
     "plans": {
       "free": false,
       "oss": true
@@ -1579,7 +1579,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://www.bugprove.com",
+    "homepage": "https://bugprove.com",
     "source": null,
     "pricing": null,
     "plans": {
@@ -2453,7 +2453,7 @@
     "plans": null,
     "description": "A linter for LaTex which catches some typographic errors LaTeX oversees.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -5989,12 +5989,7 @@
     "description": "Dodgy is a very basic tool to run against your codebase to search for \"dodgy\" looking values. It is a series of simple regular expressions designed to detect things such as accidental SCM diff checkins, or passwords or secret keys hard coded into files.",
     "discussion": null,
     "deprecated": null,
-    "resources": [
-      {
-        "title": "Python linters for better code quality",
-        "url": "https://smirnov-am.github.io/python-linters-for-better-code-quality/"
-      }
-    ],
+    "resources": null,
     "reviews": null,
     "demos": null,
     "wrapper": null
@@ -9041,7 +9036,7 @@
     "plans": null,
     "description": "HasMySecretLeaked is a project from GitGuardian that aims to help individual users and organizations search across 20 million exposed secrets to verify if their  developer secrets have leaked on public repositories, gists, and issues on GitHub projects.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -9603,7 +9598,7 @@
     "plans": null,
     "description": "A Verilog simulation and synthesis tool that operates by compiling source code written in IEEE-1364 Verilog into some target format",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -11728,7 +11723,7 @@
     "plans": null,
     "description": "Format markdown code blocks using your favorite code formatters.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": false,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -11803,7 +11798,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://nvuillam.github.io/mega-linter/",
+    "homepage": "https://megalinter.io/",
     "source": "https://github.com/nvuillam/mega-linter",
     "pricing": null,
     "plans": null,
@@ -11814,22 +11809,6 @@
       {
         "title": "Hands on - Improving code standards with mega linter",
         "url": "https://www.youtube.com/watch?v=3xgTU1GhRvs"
-      },
-      {
-        "title": "How Mega-linter works",
-        "url": "https://nvuillam.github.io/mega-linter/frequently-asked-questions/"
-      },
-      {
-        "title": "List of Mega-Linter supported languages, formats and tooling formats",
-        "url": "https://nvuillam.github.io/mega-linter/supported-linters/"
-      },
-      {
-        "title": "Assisted installation guide",
-        "url": "https://nvuillam.github.io/mega-linter/installation/"
-      },
-      {
-        "title": "Assisted configuration guide",
-        "url": "https://nvuillam.github.io/mega-linter/configuration/"
       }
     ],
     "reviews": null,
@@ -12806,7 +12785,7 @@
     ],
     "homepage": "https://oversecured.com",
     "source": null,
-    "pricing": "https://oversecured.com/pricing",
+    "pricing": null,
     "plans": null,
     "description": "Enterprise vulnerability scanner for Android and iOS apps. It allows app owners and developers to secure each new version of a mobile app by integrating Oversecured into the development process.",
     "discussion": null,
@@ -15053,9 +15032,9 @@
     "types": [
       "service"
     ],
-    "homepage": "https://www.pullrequest.com",
+    "homepage": "https://www.hackerone.com/product/code",
     "source": null,
-    "pricing": "https://www.pullrequest.com/pricing",
+    "pricing": null,
     "plans": null,
     "description": "Code review as a service with built-in static analysis.  Increase velocity and reduce technical debt through quality code review by expert engineers backed by best-in-class automation.",
     "discussion": null,
@@ -19726,7 +19705,7 @@
     "plans": null,
     "description": "Tencent Cloud Code Analysis (TCA for short, code-named CodeDog inside the company early) is a comprehensive platform for code analysis and issue tracking. TCA consist of three components, server, web and client. It integrates of a number of self-developed tools, and also supports dynamic integration of code analysis tools in various programming languages.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
