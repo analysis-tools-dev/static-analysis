@@ -1,0 +1,29 @@
+name: Enforster AI
+categories:
+  - linter
+tags:
+  - ci
+  - go
+  - java
+  - javascript
+  - php
+  - python
+  - security
+  - typescript
+  - csharp
+  - c
+  - cpp
+license: proprietary
+types:
+  - service
+homepage: 'https://enforster.ai/'
+description: >-
+  Enforster AI performs Contextual Code Security SAST, leveraging LLMs and artificial intelligence to reduce 
+  and enrich the detection of Logic Flaws, Secrets, Data leaks, Supply chain and technical vulnerabilities. 
+resources:
+  - title: Product homepage
+    url: https://enforster.ai/
+  - title: Docs
+    url: https://docs.enforster.ai/
+  - title: Platform Access
+    url: https://app.enforster.ai/
