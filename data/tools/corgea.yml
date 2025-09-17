@@ -20,6 +20,10 @@ types:
   - cli
   - service
 homepage: 'https://corgea.com/'
+pricing: https://corgea.com/pricing
+plans:
+  free: true
+  oss: false
 description: >-
   Corgea is an AI-powered SAST scanner that helps developers find and fix insecure code. 
   It finds business logic flaws, broken authentication, API vulnerabilities, and more with little false positives.

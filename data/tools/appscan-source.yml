@@ -25,6 +25,10 @@ license: proprietary
 types:
   - service
 homepage: "https://www.hcltechsw.com/products/appscan"
+pricing: http://www.hcl-software.com/appscan/contact-us
+plans:
+  free: false
+  oss: false
 description: Commercial Static Code Analysis.
 resources:
   - title: Introducing HCL AppScan Standard

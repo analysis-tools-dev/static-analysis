@@ -11,6 +11,10 @@ license: proprietary
 types:
   - service
 homepage: 'https://www.deleaker.com/'
+pricing: https://www.deleaker.com/order.html
+plans:
+  free: false
+  oss: false
 description: >-
   Deleaker is a memory leak detection tool for C++, .NET, and Delphi,
   integrating with Visual Studio, Qt Creator, and RAD Studio or running

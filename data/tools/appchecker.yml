@@ -10,4 +10,8 @@ license: proprietary
 types:
   - cli
 homepage: https://npo-echelon.ru/en/solutions/appchecker.php
+pricing: https://npo-echelon.ru/en/solutions/appchecker.php
+plans:
+  free: false
+  oss: false
 description: Static analysis for C/C++/C#, PHP and Java.

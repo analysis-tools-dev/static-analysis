@@ -32,6 +32,10 @@ license: proprietary
 types:
   - ide-plugin
 homepage: https://www.microfocus.com/en-us/cyberres/application-security/static-code-analyzer
+pricing: https://www.opentext.com/products/fortify-on-demand/trial
+plans:
+  free: false
+  oss: false
 description: >-
   A commercial static analysis platform that supports the scanning of C/C++, C#, VB.NET,
   VB6, ABAP/BSP, ActionScript, Apex, ASP.NET, Classic ASP, VB Script, Cobol, ColdFusion,

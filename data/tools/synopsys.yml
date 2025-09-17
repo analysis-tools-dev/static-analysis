@@ -20,6 +20,10 @@ types:
   - cli
 homepage: >-
   https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html
+pricing: https://www.blackduck.com/static-analysis-tools-sast/coverity/get-pricing.html
+plans:
+  free: false
+  oss: true
 description: >-
   A commercial static analysis platform that allows for scanning of multiple
   languages (C/C++, Android, C#, Java, JS, PHP, Python, Node.JS, Ruby, Fortran,

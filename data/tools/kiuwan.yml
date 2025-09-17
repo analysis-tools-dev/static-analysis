@@ -20,3 +20,6 @@ description: >-
   Identify and remediate cyber threats in a blazingly fast, collaborative environment,
   with seamless integration in your SDLC. Python, C\C++, Java, C#, PHP and more.
 pricing: https://www.kiuwan.com/pricing
+plans:
+  free: false
+  oss: false

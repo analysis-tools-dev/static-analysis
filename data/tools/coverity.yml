@@ -20,6 +20,10 @@ types:
   - cli
 homepage: >-
   https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html
+pricing: https://www.synopsys.com/software-integrity/contact-sales.html
+plans:
+  free: false
+  oss: true
 description: >-
   Synopsys Coverity supports 20 languages and over 70 frameworks including Ruby
   on rails, Scala, PHP, Python, JavaScript, TypeScript, Java, Fortran, C, C++,

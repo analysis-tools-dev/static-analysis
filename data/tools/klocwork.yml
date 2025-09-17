@@ -12,3 +12,6 @@ types:
 homepage: https://www.perforce.com/products/klocwork
 description: Quality and Security Static analysis for C/C++, Java and C#.
 pricing: https://www.perforce.com/purchase
+plans:
+  free: false
+  oss: false

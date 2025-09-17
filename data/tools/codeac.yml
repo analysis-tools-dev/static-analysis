@@ -15,6 +15,10 @@ license: proprietary
 types:
   - service
 homepage: "https://www.codeac.io/?ref=awesome-static-analysis"
+pricing: https://www.codeac.io/pricing.html
+plans:
+  free: true
+  oss: true
 description: >-
   Automated code review tool integrates with GitHub, Bitbucket and GitLab (even
   self-hosted). Available for JavaScript, TypeScript, Python, Ruby, Go, PHP,

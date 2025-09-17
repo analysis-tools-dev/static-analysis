@@ -8,6 +8,10 @@ license: proprietary
 types:
   - cli
 homepage: 'https://submain.com/products/codeit.right.aspx'
+pricing: https://submain.com/CodeIt.Right/editions/
+plans:
+  free: false
+  oss: false
 description: >-
   CodeIt.Right&trade; provides a fast, automated way to ensure that your source
   code adheres to (your) predefined design and style guidelines as well as best

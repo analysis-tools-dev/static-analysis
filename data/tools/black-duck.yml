@@ -7,6 +7,10 @@ license: proprietary
 types:
   - cli
 homepage: "https://www.blackducksoftware.com"
+pricing: https://www.synopsys.com/software-integrity/contact-sales.html
+plans:
+  free: false
+  oss: false
 description: >-
   Tool to analyze source code and binaries for reusable code, necessary licenses
   and potential security aspects.

@@ -15,6 +15,10 @@ license: proprietary
 types:
   - service
 homepage: 'https://www.getcodeflow.com'
+pricing: https://www.getcodeflow.com
+plans:
+  free: false
+  oss: true
 description: >-
   Automated code analysis tool to deal with technical depth. Integrates with
   Bitbucket and Gitlab. (free for Open Source Projects)

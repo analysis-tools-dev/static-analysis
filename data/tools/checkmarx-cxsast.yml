@@ -31,4 +31,8 @@ license: proprietary
 types:
   - cli
 homepage: 'https://www.checkmarx.com/products/static-application-security-testing'
+pricing: https://checkmarx.com/packaging/
+plans:
+  free: false
+  oss: false
 description: Commercial Static Code Analysis which doesn't require pre-compilation.

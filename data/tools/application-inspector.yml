@@ -19,6 +19,10 @@ license: proprietary
 types:
   - service
 homepage: "https://www.ptsecurity.com/ww-en/products/ai"
+pricing: https://global.ptsecurity.com/en/products/ai/
+plans:
+  free: false
+  oss: false
 description: >-
   Commercial Static Code Analysis which generates exploits to verify
   vulnerabilities.

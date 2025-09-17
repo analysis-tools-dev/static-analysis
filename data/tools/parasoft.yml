@@ -10,6 +10,10 @@ license: proprietary
 types:
   - service
 homepage: 'https://www.parasoft.com/'
+pricing: https://www.parasoft.com/contact/
+plans:
+  free: false
+  oss: false
 description: >-
   Automated Software Testing Solutions for unit-, API-, and web UI testing.
   Complies with MISRA, OWASP, and others.

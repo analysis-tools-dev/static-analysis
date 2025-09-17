@@ -17,11 +17,15 @@ license: proprietary
 types:
   - service
 homepage: 'https://snyk.io'
+pricing: https://snyk.io/plans/
+plans:
+  free: true
+  oss: true
 description: >-
-  Snyk Code finds security vulnerabilities based on AI. Its speed of analysis allow us to 
-  analyse your code in real time and deliver results when you hit the save button in your IDE. 
-  Supported languages are Java, JavaScript, Python, PHP, C#, Go and TypeScript. Integrations with 
-  GitHub, BitBucket and Gitlab. It is free to try and part of the Snyk platform also covering SCA, 
+  Snyk Code finds security vulnerabilities based on AI. Its speed of analysis allow us to
+  analyse your code in real time and deliver results when you hit the save button in your IDE.
+  Supported languages are Java, JavaScript, Python, PHP, C#, Go and TypeScript. Integrations with
+  GitHub, BitBucket and Gitlab. It is free to try and part of the Snyk platform also covering SCA,
   containers and IaC.
 resources:
   - title: Product homepage

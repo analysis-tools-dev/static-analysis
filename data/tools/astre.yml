@@ -8,6 +8,10 @@ license: proprietary
 types:
   - cli
 homepage: 'https://www.absint.com/astree/index.htm'
+pricing: https://www.absint.com/astree/contact.htm
+plans:
+  free: false
+  oss: false
 description: >-
   Astrée automatically proves the absence of runtime errors and invalid con­current behavior in C/C++ applications.
   It is sound for floating-point computations, very fast, and exceptionally precise.
