@@ -1,0 +1,17 @@
+name: Safety
+categories:
+  - linter
+tags:
+  - python
+  - security
+license: MIT License
+types:
+  - cli
+source: "https://github.com/pyupio/safety"
+homepage: "https://safetycli.com/"
+description: >-
+  Python dependency vulnerability scanner designed to enhance software supply
+  chain security by detecting packages with known vulnerabilities. Checks
+  Python dependencies against a database of known security vulnerabilities
+  and provides detailed reports. Supports CI/CD integration and multiple
+  output formats.
