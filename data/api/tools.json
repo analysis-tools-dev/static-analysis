@@ -11486,6 +11486,36 @@
     "demos": null,
     "wrapper": null
   },
+  "malcat": {
+    "name": "Malcat",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "binary",
+      "security"
+    ],
+    "licenses": [
+      "proprietary"
+    ],
+    "types": [
+      "gui"
+    ],
+    "homepage": "https://malcat.fr/",
+    "source": null,
+    "pricing": null,
+    "plans": {
+      "free": true
+    },
+    "description": "Hexadecimal editor and disassembler for malware analysis and binary file inspection. Supports over 50 file formats and multiple CPU architectures (x86/x64, MIPS, .NET, Python, VB p-code). Features rapid analysis, embedded file extraction, Yara signature scanning, anomaly detection, and Python scripting. Designed for malware analysts, SOC operators, incident responders, and CTF players.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "maligned": {
     "name": "maligned",
     "categories": [
