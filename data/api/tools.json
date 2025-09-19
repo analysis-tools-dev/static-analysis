@@ -6012,6 +6012,35 @@
     "demos": null,
     "wrapper": null
   },
+  "dockle": {
+    "name": "Dockle",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "container",
+      "dockerfile",
+      "security"
+    ],
+    "licenses": [
+      "Apache License 2.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/goodwithtech/dockle",
+    "source": "https://github.com/goodwithtech/dockle",
+    "pricing": null,
+    "plans": null,
+    "description": "Container Image Linter for Security helping build the Best-Practice Docker Image. Scans Docker images for security vulnerabilities and CIS Benchmark compliance. Checks for secrets, credential exposure, and security best practices. Provides multiple severity levels (FATAL, WARN, INFO) and supports various output formats for CI/CD integration.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "dodgy": {
     "name": "Dodgy",
     "categories": [
@@ -8975,6 +9004,34 @@
     "description": "A Grunt wrapper for [Bootlint](https://github.com/twbs/bootlint), the HTML linter for Bootstrap projects.",
     "discussion": null,
     "deprecated": true,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "grype": {
+    "name": "Grype",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "container",
+      "security"
+    ],
+    "licenses": [
+      "Apache License 2.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/anchore/grype",
+    "source": "https://github.com/anchore/grype",
+    "pricing": null,
+    "plans": null,
+    "description": "Vulnerability scanner for container images and filesystems. Developed by Anchore, it scans container images, directories, and archives for known vulnerabilities. Supports multiple image formats, SBOM integration, and VEX (Vulnerability Exploitability eXchange) for accurate vulnerability assessment. Works with various vulnerability databases and provides detailed reporting.",
+    "discussion": null,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -12885,6 +12942,35 @@
     "demos": null,
     "wrapper": null
   },
+  "osv-scanner": {
+    "name": "OSV-Scanner",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "go"
+    ],
+    "other": [
+      "security"
+    ],
+    "licenses": [
+      "Apache License 2.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://osv.dev/",
+    "source": "https://github.com/google/osv-scanner",
+    "pricing": null,
+    "plans": null,
+    "description": "Vulnerability scanner written in Go which uses the data provided by OSV.dev. Developed by Google to scan dependencies across multiple languages and package managers for known vulnerabilities. Supports container scanning, license scanning, and guided remediation. Works with lockfiles, SBOMs, and container images to identify security issues.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "oversecured": {
     "name": "Oversecured",
     "categories": [
@@ -14331,6 +14417,35 @@
     "demos": [
       "https://phpstan.org/try"
     ],
+    "wrapper": null
+  },
+  "pip-audit": {
+    "name": "pip-audit",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "python"
+    ],
+    "other": [
+      "security"
+    ],
+    "licenses": [
+      "Apache License 2.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/pypa/pip-audit",
+    "source": "https://github.com/pypa/pip-audit",
+    "pricing": null,
+    "plans": null,
+    "description": "Tool for scanning Python packages for known vulnerabilities. Developed by the Python Packaging Authority (PyPA) and supported by Trail of Bits and Google. Scans Python environments and requirements files to identify vulnerable packages and suggests remediation. Supports GitHub Actions, pre-commit hooks, and multiple vulnerability service integrations.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "pixee": {
@@ -17189,6 +17304,35 @@
     "description": "Static analysis tool for Golang that protects against SQL injections.",
     "discussion": null,
     "deprecated": true,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "safety": {
+    "name": "Safety",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "python"
+    ],
+    "other": [
+      "security"
+    ],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://safetycli.com/",
+    "source": "https://github.com/pyupio/safety",
+    "pricing": null,
+    "plans": null,
+    "description": "Python dependency vulnerability scanner designed to enhance software supply chain security by detecting packages with known vulnerabilities. Checks Python dependencies against a database of known security vulnerabilities and provides detailed reports. Supports CI/CD integration and multiple output formats.",
+    "discussion": null,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
