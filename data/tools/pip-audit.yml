@@ -1,0 +1,17 @@
+name: pip-audit
+categories:
+  - linter
+tags:
+  - python
+  - security
+license: Apache License 2.0
+types:
+  - cli
+source: "https://github.com/pypa/pip-audit"
+homepage: "https://github.com/pypa/pip-audit"
+description: >-
+  Tool for scanning Python packages for known vulnerabilities. Developed by
+  the Python Packaging Authority (PyPA) and supported by Trail of Bits and
+  Google. Scans Python environments and requirements files to identify
+  vulnerable packages and suggests remediation. Supports GitHub Actions,
+  pre-commit hooks, and multiple vulnerability service integrations.

@@ -1,0 +1,18 @@
+name: Dockle
+categories:
+  - linter
+tags:
+  - container
+  - security
+  - dockerfile
+license: Apache License 2.0
+types:
+  - cli
+source: "https://github.com/goodwithtech/dockle"
+homepage: "https://github.com/goodwithtech/dockle"
+description: >-
+  Container Image Linter for Security helping build the Best-Practice Docker
+  Image. Scans Docker images for security vulnerabilities and CIS Benchmark
+  compliance. Checks for secrets, credential exposure, and security best
+  practices. Provides multiple severity levels (FATAL, WARN, INFO) and
+  supports various output formats for CI/CD integration.

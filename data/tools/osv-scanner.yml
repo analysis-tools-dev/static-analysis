@@ -1,0 +1,17 @@
+name: OSV-Scanner
+categories:
+  - linter
+tags:
+  - security
+  - go
+license: Apache License 2.0
+types:
+  - cli
+source: "https://github.com/google/osv-scanner"
+homepage: "https://osv.dev/"
+description: >-
+  Vulnerability scanner written in Go which uses the data provided by OSV.dev.
+  Developed by Google to scan dependencies across multiple languages and
+  package managers for known vulnerabilities. Supports container scanning,
+  license scanning, and guided remediation. Works with lockfiles, SBOMs,
+  and container images to identify security issues.

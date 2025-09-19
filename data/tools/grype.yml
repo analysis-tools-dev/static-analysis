@@ -1,0 +1,18 @@
+name: Grype
+categories:
+  - linter
+tags:
+  - security
+  - container
+license: Apache License 2.0
+types:
+  - cli
+source: "https://github.com/anchore/grype"
+homepage: "https://github.com/anchore/grype"
+description: >-
+  Vulnerability scanner for container images and filesystems. Developed by
+  Anchore, it scans container images, directories, and archives for known
+  vulnerabilities. Supports multiple image formats, SBOM integration, and
+  VEX (Vulnerability Exploitability eXchange) for accurate vulnerability
+  assessment. Works with various vulnerability databases and provides
+  detailed reporting.
