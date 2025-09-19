@@ -1,0 +1,17 @@
+name: MISS_HIT
+categories:
+  - linter
+  - formatter
+tags:
+  - matlab
+license: GPL-3.0
+types:
+  - cli
+source: "https://github.com/florianschanda/miss_hit"
+homepage: "https://misshit.org/"
+description: >-
+  MISS_HIT is a free, open-source code quality toolset for MATLAB, Simulink,
+  and Octave. It includes MH Style (style checker and formatter), MH Metrics
+  (complexity metrics), MH Lint (static analysis), MH Trace (requirements
+  traceability), and MH Copyright (copyright management). Designed to work
+  standalone without requiring MATLAB/Octave installation.
