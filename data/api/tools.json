@@ -12147,7 +12147,7 @@
     "plans": null,
     "description": "Quick tool for fixing common misspellings, typos in source code.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
