@@ -1,0 +1,13 @@
+name: DatabaseConsistency
+categories:
+  - linter
+tags:
+  - ruby
+  - rails
+license: MIT License
+types:
+  - cli
+source: "https://github.com/djezzzl/database_consistency"
+homepage: "https://github.com/djezzzl/database_consistency"
+description: >-
+  The tool to avoid various issues due to inconsistencies and inefficiencies between a database schema and application models.
