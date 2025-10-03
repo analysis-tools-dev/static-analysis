@@ -4986,6 +4986,35 @@
     "demos": null,
     "wrapper": null
   },
+  "databaseconsistency": {
+    "name": "DatabaseConsistency",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "ruby"
+    ],
+    "other": [
+      "rails"
+    ],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/djezzzl/database_consistency",
+    "source": "https://github.com/djezzzl/database_consistency",
+    "pricing": null,
+    "plans": null,
+    "description": "The tool to avoid various issues due to inconsistencies and inefficiencies between a database schema and application models.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "dataflow-framework": {
     "name": "Dataflow Framework",
     "categories": [
