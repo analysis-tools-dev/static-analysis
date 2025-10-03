@@ -1,0 +1,13 @@
+name: Bullet
+categories:
+  - linter
+tags:
+  - ruby
+  - rails
+license: MIT License
+types:
+  - cli
+source: "https://github.com/flyerhzm/bullet"
+homepage: "https://github.com/flyerhzm/bullet"
+description: >-
+  Help to kill N+1 queries and unused eager loading.
