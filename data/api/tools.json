@@ -1612,6 +1612,35 @@
     "demos": null,
     "wrapper": null
   },
+  "bullet": {
+    "name": "Bullet",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "ruby"
+    ],
+    "other": [
+      "rails"
+    ],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/flyerhzm/bullet",
+    "source": "https://github.com/flyerhzm/bullet",
+    "pricing": null,
+    "plans": null,
+    "description": "Help to kill N+1 queries and unused eager loading.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "bundler-audit": {
     "name": "bundler-audit",
     "categories": [
@@ -20743,6 +20772,33 @@
     "pricing": null,
     "plans": null,
     "description": "Analyzes a binary's call graph to profile code size. The goal is to slim down wasm binary size.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "ty": {
+    "name": "ty",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "python"
+    ],
+    "other": [],
+    "licenses": [
+      "Other"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://docs.astral.sh/ty/",
+    "source": "https://github.com/astral-sh/ty",
+    "pricing": null,
+    "plans": null,
+    "description": "An extremely fast Python type checker written in Rust.",
     "discussion": null,
     "deprecated": null,
     "resources": null,

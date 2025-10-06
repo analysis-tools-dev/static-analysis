@@ -1038,6 +1038,8 @@ It uses the pycodestyle utility to determine what parts of the code needs to be 
 
 - [Safety](https://safetycli.com/) — Python dependency vulnerability scanner designed to enhance software supply chain security by detecting packages with known vulnerabilities. Checks Python dependencies against a database of known security vulnerabilities and provides detailed reports. Supports CI/CD integration and multiple output formats.
 
+- [ty](https://docs.astral.sh/ty/) — An extremely fast Python type checker written in Rust.
+
 - [unimport](https://unimport.hakancelik.dev) — A linter, formatter for finding and removing unused import statements.
 
 - [vulture](https://github.com/jendrikseipp/vulture) — Find unused classes, functions and variables in Python code.
@@ -1085,6 +1087,8 @@ YAPF follows a distinctive methodology, originating from the 'clang-format' tool
 
 
 - [brakeman](https://brakemanscanner.org) — A static analysis security vulnerability scanner for Ruby on Rails applications.
+
+- [Bullet](https://github.com/flyerhzm/bullet) — Help to kill N+1 queries and unused eager loading.
 
 - [bundler-audit](https://github.com/rubysec/bundler-audit) — Audit Gemfile.lock for gems with security vulnerabilities reported in [Ruby Advisory Database](https://github.com/rubysec/ruby-advisory-db).
 
@@ -2190,6 +2194,8 @@ but with the following improvements:
 <a name="rails" />
 <h2>Rails</h2>
 
+
+- [Bullet](https://github.com/flyerhzm/bullet) — Help to kill N+1 queries and unused eager loading.
 
 - [DatabaseConsistency](https://github.com/djezzzl/database_consistency) — The tool to avoid various issues due to inconsistencies and inefficiencies between a database schema and application models.
 
