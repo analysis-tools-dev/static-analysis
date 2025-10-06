@@ -7,5 +7,6 @@ license: Other
 types:
   - cli
 source: 'https://github.com/astral-sh/ty'
+homepage: 'https://docs.astral.sh/ty/'
 description: >-
   An extremely fast Python type checker written in Rust.
