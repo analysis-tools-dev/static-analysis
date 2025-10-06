@@ -1,0 +1,13 @@
+name: Active Record Doctor
+categories:
+  - linter
+tags:
+  - ruby
+  - rails
+license: MIT License
+types:
+  - cli
+source: "https://github.com/gregnavis/active_record_doctor"
+homepage: "https://github.com/gregnavis/active_record_doctor"
+description: >-
+  Identify database issues before they hit production.
