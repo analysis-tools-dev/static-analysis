@@ -82,6 +82,35 @@
     "demos": null,
     "wrapper": null
   },
+  "active-record-doctor": {
+    "name": "Active Record Doctor",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "ruby"
+    ],
+    "other": [
+      "rails"
+    ],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/gregnavis/active_record_doctor",
+    "source": "https://github.com/gregnavis/active_record_doctor",
+    "pricing": null,
+    "plans": null,
+    "description": "Identify database issues before they hit production.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "aether": {
     "name": "aether",
     "categories": [
@@ -18131,6 +18160,35 @@
     "pricing": null,
     "plans": null,
     "description": "A tool that finds similarities between or within files to support you encountering DRY principle violations.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "skunk": {
+    "name": "Skunk",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "ruby"
+    ],
+    "other": [
+      "rails"
+    ],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/fastruby/skunk",
+    "source": "https://github.com/fastruby/skunk",
+    "pricing": null,
+    "plans": null,
+    "description": "A SkunkScore Calculator for Ruby Code -- Find the most complicated code without test coverage!",
     "discussion": null,
     "deprecated": null,
     "resources": null,

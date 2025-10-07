@@ -1086,6 +1086,8 @@ YAPF follows a distinctive methodology, originating from the 'clang-format' tool
 <h2>Ruby</h2>
 
 
+- [Active Record Doctor](https://github.com/gregnavis/active_record_doctor) — Identify database issues before they hit production.
+
 - [brakeman](https://brakemanscanner.org) — A static analysis security vulnerability scanner for Ruby on Rails applications.
 
 - [Bullet](https://github.com/flyerhzm/bullet) — Help to kill N+1 queries and unused eager loading.
@@ -1143,6 +1145,8 @@ YAPF follows a distinctive methodology, originating from the 'clang-format' tool
 - **Saikuro** :warning: — A Ruby cyclomatic complexity analyzer.
 
 - **SandiMeter** :warning: — Static analysis tool for checking Ruby code for Sandi Metz' rules.
+
+- [Skunk](https://github.com/fastruby/skunk) — A SkunkScore Calculator for Ruby Code -- Find the most complicated code without test coverage!
 
 - [Sorbet](https://sorbet.org) — A fast, powerful type checker designed for Ruby.
 
@@ -2195,11 +2199,15 @@ but with the following improvements:
 <h2>Rails</h2>
 
 
+- [Active Record Doctor](https://github.com/gregnavis/active_record_doctor) — Identify database issues before they hit production.
+
 - [Bullet](https://github.com/flyerhzm/bullet) — Help to kill N+1 queries and unused eager loading.
 
 - [DatabaseConsistency](https://github.com/djezzzl/database_consistency) — The tool to avoid various issues due to inconsistencies and inefficiencies between a database schema and application models.
 
 - [dawnscanner](https://github.com/thesp0nge/dawnscanner) — A static analysis security scanner for ruby written web applications. It supports Sinatra, Padrino and Ruby on Rails frameworks.
+
+- [Skunk](https://github.com/fastruby/skunk) — A SkunkScore Calculator for Ruby Code -- Find the most complicated code without test coverage!
 
 
 <a name="security" />
