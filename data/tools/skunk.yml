@@ -1,0 +1,13 @@
+name: Skunk
+categories:
+  - linter
+tags:
+  - ruby
+  - rails
+license: MIT License
+types:
+  - cli
+source: "https://github.com/fastruby/skunk"
+homepage: "https://github.com/fastruby/skunk"
+description: >-
+  A SkunkScore Calculator for Ruby Code -- Find the most complicated code without test coverage!
