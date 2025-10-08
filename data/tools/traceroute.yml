@@ -1,0 +1,13 @@
+name: Traceroute
+categories:
+  - linter
+tags:
+  - ruby
+  - rails
+license: MIT License
+types:
+  - cli
+source: "https://github.com/amatsuda/traceroute"
+homepage: "https://github.com/amatsuda/traceroute"
+description: >-
+  A Rake task gem that helps you find the unused routes and controller actions for your Rails 3+ app.
