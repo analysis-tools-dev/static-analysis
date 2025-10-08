@@ -1,0 +1,15 @@
+name: ERB::Formatter
+categories:
+  - formatter
+tags:
+  - erb
+  - html
+  - ruby
+  - rails
+license: MIT License
+types:
+  - cli
+source: "https://github.com/nebulab/erb-formatter"
+homepage: "https://github.com/nebulab/erb-formatter"
+description: >-
+  Format ERB files with speed and precision.
