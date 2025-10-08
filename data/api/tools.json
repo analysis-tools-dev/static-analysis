@@ -6834,6 +6834,37 @@
     "demos": null,
     "wrapper": null
   },
+  "erb-formatter": {
+    "name": "ERB::Formatter",
+    "categories": [
+      "formatter"
+    ],
+    "languages": [
+      "ruby"
+    ],
+    "other": [
+      "erb",
+      "html",
+      "rails"
+    ],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/nebulab/erb-formatter",
+    "source": "https://github.com/nebulab/erb-formatter",
+    "pricing": null,
+    "plans": null,
+    "description": "Format ERB files with speed and precision.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "erb-lint": {
     "name": "ERB Lint",
     "categories": [
