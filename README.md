@@ -1154,6 +1154,8 @@ YAPF follows a distinctive methodology, originating from the 'clang-format' tool
 
 - [Steep](https://github.com/soutaro/steep) — Gradual Typing for Ruby.
 
+- [Traceroute](https://github.com/amatsuda/traceroute) — A Rake task gem that helps you find the unused routes and controller actions for your Rails 3+ app.
+
 
 <a name="rust" />
 <h2>Rust</h2>
@@ -2208,6 +2210,8 @@ but with the following improvements:
 - [dawnscanner](https://github.com/thesp0nge/dawnscanner) — A static analysis security scanner for ruby written web applications. It supports Sinatra, Padrino and Ruby on Rails frameworks.
 
 - [Skunk](https://github.com/fastruby/skunk) — A SkunkScore Calculator for Ruby Code -- Find the most complicated code without test coverage!
+
+- [Traceroute](https://github.com/amatsuda/traceroute) — A Rake task gem that helps you find the unused routes and controller actions for your Rails 3+ app.
 
 
 <a name="security" />

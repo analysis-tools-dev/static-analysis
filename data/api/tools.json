@@ -20395,6 +20395,35 @@
     "demos": null,
     "wrapper": null
   },
+  "traceroute": {
+    "name": "Traceroute",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "ruby"
+    ],
+    "other": [
+      "rails"
+    ],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/amatsuda/traceroute",
+    "source": "https://github.com/amatsuda/traceroute",
+    "pricing": null,
+    "plans": null,
+    "description": "A Rake task gem that helps you find the unused routes and controller actions for your Rails 3+ app.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "trivy": {
     "name": "trivy",
     "categories": [
