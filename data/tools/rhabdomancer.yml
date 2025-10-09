@@ -1,0 +1,16 @@
+name: rhabdomancer
+categories:
+  - linter
+tags:
+  - binary
+license: MIT License
+types:
+  - cli
+source: "https://github.com/0xdea/rhabdomancer"
+homepage: "https://crates.io/crates/rhabdomancer"
+resources:
+  - title: Streamlining Vulnerability Research with the idalib Rust Bindings for IDA 9.2
+    url: https://hex-rays.com/blog/streamlining-vulnerability-research-idalib-rust-bindings
+  - title: Streamlining vulnerability research with IDA Pro and Rust
+    url: https://hnsecurity.it/blog/streamlining-vulnerability-research-with-ida-pro-and-rust
+description: IDA Pro headless plugin that locates calls to potentially insecure API functions in a binary file.
