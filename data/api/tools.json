@@ -16812,6 +16812,42 @@
     "demos": null,
     "wrapper": null
   },
+  "rhabdomancer": {
+    "name": "rhabdomancer",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "binary"
+    ],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://crates.io/crates/rhabdomancer",
+    "source": "https://github.com/0xdea/rhabdomancer",
+    "pricing": null,
+    "plans": null,
+    "description": "IDA Pro headless plugin that locates calls to potentially insecure API functions in a binary file.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Streamlining Vulnerability Research with the idalib Rust Bindings for IDA 9.2",
+        "url": "https://hex-rays.com/blog/streamlining-vulnerability-research-idalib-rust-bindings"
+      },
+      {
+        "title": "Streamlining vulnerability research with IDA Pro and Rust",
+        "url": "https://hnsecurity.it/blog/streamlining-vulnerability-research-with-ida-pro-and-rust"
+      }
+    ],
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "rips": {
     "name": "RIPS",
     "categories": [
