@@ -1,0 +1,24 @@
+name: LangLint
+categories:
+  - linter
+tags:
+  - python
+  - javascript
+  - typescript
+  - go
+  - rust
+  - java
+  - cpp
+  - markdown
+  - json
+  - yaml
+  - translation
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/HzaCode/Langlint'
+homepage: 'https://github.com/HzaCode/Langlint'
+description: >-
+  Automated translation platform for code comments and docstrings across 20+ file types.
+  Eliminates language barriers in international software collaboration. Supports 100+ language pairs with syntax protection.
+  Integrates into CI/CD pipelines like Ruff. 10-20x faster with concurrent processing.
