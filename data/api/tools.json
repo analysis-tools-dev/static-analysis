@@ -10289,9 +10289,23 @@
     ],
     "languages": [
       "c",
-      "cpp"
+      "csharp",
+      "cpp",
+      "go",
+      "java",
+      "javascript",
+      "jimple",
+      "kotlin",
+      "php",
+      "python",
+      "ruby",
+      "swift",
+      "typescript"
     ],
-    "other": [],
+    "other": [
+      "ghidra",
+      "security"
+    ],
     "licenses": [
       "Apache License 2.0"
     ],
@@ -10299,13 +10313,22 @@
       "cli"
     ],
     "homepage": "https://joern.io",
-    "source": "https://github.com/ShiftLeftSecurity/joern",
+    "source": "https://github.com/joernio/joern",
     "pricing": null,
     "plans": null,
-    "description": "Open-source code analysis platform for C/C++ based on code property graphs",
+    "description": "Joern is a platform for analyzing source code, bytecode, and binary executables. It generates code property graphs (CPGs), a graph representation of code for cross-language code analysis. Code property graphs are stored in a custom graph database. This allows code to be mined using search queries formulated in a Scala-based domain-specific query language. Joern is developed with the goal of providing a useful tool for vulnerability discovery and research in static program analysis.",
     "discussion": null,
     "deprecated": null,
-    "resources": null,
+    "resources": [
+      {
+        "title": "Documentation",
+        "url": "https://docs.joern.io"
+      },
+      {
+        "title": "CPG Specification",
+        "url": "https://cpg.joern.io"
+      }
+    ],
     "reviews": null,
     "demos": null,
     "wrapper": null
@@ -11656,6 +11679,34 @@
     "description": "Open Source AppSec platform that automatically notifies you the next time vulnerabilities like Log4Shell or node-ipc happen. Track your dependencies and builds in a centralized service.",
     "discussion": null,
     "deprecated": true,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "mago": {
+    "name": "mago",
+    "categories": [
+      "linter",
+      "formatter"
+    ],
+    "languages": [
+      "php"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://mago.carthage.software",
+    "source": "https://github.com/carthage-software/mago",
+    "pricing": null,
+    "plans": null,
+    "description": "Mago is a complete toolchain for PHP, written in Rust, designed from the ground up for maximum performance.\n- ✨ A blazing-fast formatter that automatically formats your code according to PER-CS, ending style debates forever. - 🔎 An intelligent linter that catches stylistic issues, inconsistencies, and code smells before they become problems. - 🔬 A powerful static analyzer that finds type errors and logical bugs in your code without you ever having to run it. - 🛡️ A robust architectural guard that enforces dependency rules and structural conventions.",
+    "discussion": null,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,

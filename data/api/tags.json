@@ -161,6 +161,11 @@
       "tag_type": "Language"
     },
     {
+      "name": "Jimple",
+      "value": "jimple",
+      "tag_type": "Language"
+    },
+    {
       "name": "JSX",
       "value": "jsx",
       "tag_type": "Language"
@@ -430,6 +435,11 @@
     {
       "name": "Gherkin",
       "value": "gherkin",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Ghidra",
+      "value": "ghidra",
       "tag_type": "Other"
     },
     {
