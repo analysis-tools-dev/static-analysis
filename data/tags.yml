@@ -127,6 +127,9 @@
 - name: Gherkin
   value: gherkin
   type: other
+- name: Ghidra
+  value: ghidra
+  type: other
 - name: Go
   value: go
   type: language
@@ -153,6 +156,9 @@
   type: language
 - name: JavaServer Pages
   value: jsp
+  type: language
+- name: Jimple
+  value: jimple
   type: language
 - name: JSON
   value: json

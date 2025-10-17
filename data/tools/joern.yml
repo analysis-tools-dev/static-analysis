@@ -2,11 +2,34 @@ name: Joern
 categories:
   - linter
 tags:
+  - security
+  - java
+  - javascript
+  - typescript
+  - csharp
   - c
   - cpp
+  - ghidra
+  - go
+  - jimple
+  - kotlin
+  - php
+  - python
+  - ruby
+  - swift
 license: Apache License 2.0
 types:
   - cli
-source: 'https://github.com/ShiftLeftSecurity/joern'
+source: 'https://github.com/joernio/joern'
 homepage: 'https://joern.io'
-description: Open-source code analysis platform for C/C++ based on code property graphs
+description: >-
+  Joern is a platform for analyzing source code, bytecode, and binary executables.
+  It generates code property graphs (CPGs), a graph representation of code for cross-language code analysis.
+  Code property graphs are stored in a custom graph database.
+  This allows code to be mined using search queries formulated in a Scala-based domain-specific query language.
+  Joern is developed with the goal of providing a useful tool for vulnerability discovery and research in static program analysis.
+resources:
+  - title: Documentation
+    url: https://docs.joern.io
+  - title: CPG Specification
+    url: https://cpg.joern.io
