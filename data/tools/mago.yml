@@ -1,0 +1,19 @@
+name: mago
+categories:
+  - linter
+  - formatter
+tags:
+  - php  
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/carthage-software/mago'
+homepage: 'https://mago.carthage.software'
+description:  >-
+    Mago is a complete toolchain for PHP, written in Rust, designed from the ground up for maximum performance.
+    
+    - ✨ A blazing-fast formatter that automatically formats your code according to PER-CS, ending style debates forever.
+    - 🔎 An intelligent linter that catches stylistic issues, inconsistencies, and code smells before they become problems.
+    - 🔬 A powerful static analyzer that finds type errors and logical bugs in your code without you ever having to run it.
+    - 🛡️ A robust architectural guard that enforces dependency rules and structural conventions.
+  
