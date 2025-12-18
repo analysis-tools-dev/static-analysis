@@ -1,0 +1,20 @@
+name: TangleGuard
+categories:
+  - linter
+tags:
+  - rust
+  - ci
+license: proprietary
+types:
+  - cli
+  - service
+source: "https://github.com/TangleGuard"
+homepage: "https://tangleguard.com/"
+resources:
+  - title: TangleGuard Preview
+    url: https://youtu.be/whzbP1Hnsqs
+description: >-
+  A tool that helps developers to understand and maintain their software architecture.
+  It generates interactive, configurable dependency graphs out of source code, with all packages and modules included.
+  You can choose the level of details and get what portions of your codebase gets rendered.
+  That way you get a quick understanding of the software's architecture and detect unwanted dependencies and spaghetti code which harm efficient maintenance and leads to technical debt and inflexibility.
