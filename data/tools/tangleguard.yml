@@ -1,16 +1,21 @@
 name: TangleGuard
 categories:
   - linter
+  - meta
 tags:
   - rust
   - ci
 license: proprietary
+plans:
+  free: false
+  oss: true
 types:
   - cli
   - service
+wrapper: false
 source: "https://github.com/TangleGuard"
 homepage: "https://tangleguard.com/"
-resources:
+demo:
   - title: TangleGuard Preview
     url: https://youtu.be/whzbP1Hnsqs
 description: >-
