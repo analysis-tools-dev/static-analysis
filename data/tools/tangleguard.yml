@@ -15,9 +15,15 @@ types:
 wrapper: false
 source: "https://github.com/TangleGuard"
 homepage: "https://tangleguard.com/"
-demo:
+resources:
+  - title: TangleGuard Public Directory Sample
+    url: https://directory.tangleguard.com/project/Lorem-Ipsum/sample
   - title: TangleGuard Preview
     url: https://youtu.be/whzbP1Hnsqs
+  - title: TangleGuard Documentation
+    url: https://docs.tangleguard.com/welcome/intro/
+demo:
+  -  https://directory.tangleguard.com/project/Lorem-Ipsum/sample
 description: >-
   A tool that helps developers to understand and maintain their software architecture.
   It generates interactive, configurable dependency graphs out of source code, with all packages and modules included.
