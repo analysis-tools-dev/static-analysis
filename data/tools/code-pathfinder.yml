@@ -1,0 +1,22 @@
+name: Code Pathfinder
+categories:
+  - linter
+tags:
+  - ci
+  - container
+  - dockerfile
+  - python
+  - security
+license: AGPL-3.0
+types:
+  - cli
+source: 'https://github.com/shivasurya/code-pathfinder'
+homepage: 'https://codepathfinder.dev'
+resources:
+  - title: Code Pathfinder Rules Registry
+    url: https://codepathfinder.dev/registry
+description: >-
+  Code Pathfinder is an open-source static code analysis tool
+  for modern engineering teams to reduce false positives,
+  facilitate secure code reviews, and detect vulnerabilities in code.
+  Available for Python, Dockerfile, and Docker Compose.
