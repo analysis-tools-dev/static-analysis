@@ -16,7 +16,6 @@ resources:
   - title: Code Pathfinder Rules Registry
     url: https://codepathfinder.dev/registry
 description: >-
-  Code Pathfinder is an open-source static code analysis tool
-  for modern engineering teams to reduce false positives,
-  facilitate secure code reviews, and detect vulnerabilities in code.
-  Available for Python, Dockerfile, and Docker Compose.
+  An open-source security suite aiming to combine structural code analysis with 
+  AI-powered vulnerability detection. Built for advanced structural search, derive 
+  insights, find vulnerabilities in code.
