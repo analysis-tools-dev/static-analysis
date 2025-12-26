@@ -1,0 +1,21 @@
+name: Code Pathfinder
+categories:
+  - linter
+tags:
+  - ci
+  - container
+  - dockerfile
+  - python
+  - security
+license: AGPL-3.0
+types:
+  - cli
+source: 'https://github.com/shivasurya/code-pathfinder'
+homepage: 'https://codepathfinder.dev'
+resources:
+  - title: Code Pathfinder Rules Registry
+    url: https://codepathfinder.dev/registry
+description: >-
+  An open-source security suite aiming to combine structural code analysis with 
+  AI-powered vulnerability detection. Built for advanced structural search, derive 
+  insights, find vulnerabilities in code.
