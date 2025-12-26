@@ -3244,6 +3244,43 @@
     "demos": null,
     "wrapper": null
   },
+  "code-pathfinder": {
+    "name": "Code Pathfinder",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "python"
+    ],
+    "other": [
+      "container",
+      "ci",
+      "dockerfile",
+      "security"
+    ],
+    "licenses": [
+      "AGPL-3.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://codepathfinder.dev",
+    "source": "https://github.com/shivasurya/code-pathfinder",
+    "pricing": null,
+    "plans": null,
+    "description": "An open-source security suite aiming to combine structural code analysis with  AI-powered vulnerability detection. Built for advanced structural search, derive  insights, find vulnerabilities in code.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Code Pathfinder Rules Registry",
+        "url": "https://codepathfinder.dev/registry"
+      }
+    ],
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "codeac": {
     "name": "Codeac",
     "categories": [
