@@ -8593,7 +8593,7 @@
     "plans": null,
     "description": "Calculate cyclomatic complexities of functions in Go source code.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,

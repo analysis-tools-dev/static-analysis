@@ -521,7 +521,7 @@ Fprettify is a tool that provides consistent whitespace, indentation, and delimi
 
 - [goconst](https://github.com/jgautheron/goconst) — Finds repeated strings that could be replaced by a constant.
 
-- **gocyclo** :warning: — Calculate cyclomatic complexities of functions in Go source code.
+- [gocyclo](https://github.com/fzipp/gocyclo) — Calculate cyclomatic complexities of functions in Go source code.
 
 - [gofmt -s](https://golang.org/cmd/gofmt) — Checks if the code is properly formatted and could not be further simplified.
 
