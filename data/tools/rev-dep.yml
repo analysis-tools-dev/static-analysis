@@ -1,0 +1,17 @@
+name: Rev-dep
+categories:
+  - linter
+tags:
+  - typescript
+  - javascript
+  - jsx 
+  - ci
+license: MIT License
+types:
+  - cli
+source: "https://github.com/jayu/rev-dep"
+homepage: "https://github.com/jayu/rev-dep"
+description: Dependency analysis and optimization toolkit for modern JavaScript and TypeScript projects. Trace imports, identify circular dependencies, find unused code, clean node modules.
+resources:
+  - title: Install via NPM
+    url: "https://www.npmjs.com/package/rev-dep"
