@@ -3,6 +3,7 @@ categories:
   - linter
 tags:
   - c
+  - cpp
 license: GPL
 types:
   - cli
