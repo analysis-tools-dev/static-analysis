@@ -3752,6 +3752,9 @@
     ],
     "languages": [
       "javascript",
+      "jsx",
+      "lua",
+      "python",
       "typescript"
     ],
     "other": [
@@ -16846,6 +16849,42 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "rev-dep": {
+    "name": "Rev-dep",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "javascript",
+      "jsx",
+      "typescript"
+    ],
+    "other": [
+      "ci"
+    ],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/jayu/rev-dep",
+    "source": "https://github.com/jayu/rev-dep",
+    "pricing": null,
+    "plans": null,
+    "description": "Dependency analysis and optimization toolkit for modern JavaScript and TypeScript projects. Trace imports, identify circular dependencies, find unused code, clean node modules.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Install via NPM",
+        "url": "https://www.npmjs.com/package/rev-dep"
+      }
+    ],
     "reviews": null,
     "demos": null,
     "wrapper": null
