@@ -6,7 +6,6 @@ languages:
   - JavaScript
   - TypeScript
 tags:
-  - linter
   - formatter
 license: "Apache-2.0"
 types:
