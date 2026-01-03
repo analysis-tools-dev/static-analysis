@@ -1,0 +1,24 @@
+---
+name: Neurolint-CLI
+categories:
+  - linter
+languages:
+  - JavaScript
+  - TypeScript
+tags:
+  - formatter
+license: "Apache-2.0"
+types:
+  - cli
+homepage: https://neurolint.dev
+source: https://github.com/Alcatecablee/Neurolint-CLI
+description: |
+  Deterministic code transformation tool using AST parsing and rule-based transformations. 
+  Automatically fixes 50+ issues including accessibility violations, hydration errors, 
+  React 19/Next.js 16 migrations, and configuration updates. Features 5-step fail-safe 
+  orchestration to ensure zero breaking changes. Specialized for React, Next.js, and TypeScript projects.
+resources:
+  - title: CLI Documentation
+    url: https://neurolint.dev
+  - title: GitHub Marketplace Action
+    url: https://github.com/marketplace/actions/neurolint-deterministic-code-fixer
