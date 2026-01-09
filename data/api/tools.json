@@ -20221,8 +20221,7 @@
       "meta"
     ],
     "languages": [
-      "rust",
-      "javascript"
+      "rust"
     ],
     "other": [
       "ci"
@@ -20241,13 +20240,13 @@
       "free": false,
       "oss": true
     },
-    "description": "Helps you understand and maintain a scalable software architecture. It generates interactive, configurable dependency graphs out of source code. You can choose the level of details and get what portions of your codebase gets rendered. That way you get a quick understanding of the software's architecture and detect unwanted dependencies and spaghetti code which harm efficient maintenance and leads to technical debt and inflexibility.",
+    "description": "A tool that helps developers to understand and maintain their software architecture. It generates interactive, configurable dependency graphs out of source code, with all packages and modules included. You can choose the level of details and get what portions of your codebase gets rendered. That way you get a quick understanding of the software's architecture and detect unwanted dependencies and spaghetti code which harm efficient maintenance and leads to technical debt and  inflexibility.",
     "discussion": null,
     "deprecated": null,
     "resources": [
       {
-        "title": "TangleGuard Public Directory",
-        "url": "https://app.tangleguard.com/"
+        "title": "TangleGuard Public Directory Sample",
+        "url": "https://directory.tangleguard.com/project/Lorem-Ipsum/sample"
       },
       {
         "title": "TangleGuard Preview",
@@ -20255,7 +20254,7 @@
       },
       {
         "title": "TangleGuard Documentation",
-        "url": "https://docs.tangleguard.com/"
+        "url": "https://docs.tangleguard.com/welcome/intro/"
       }
     ],
     "reviews": null,
