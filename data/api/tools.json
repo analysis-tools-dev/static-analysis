@@ -13643,7 +13643,7 @@
     "plans": null,
     "description": "Calculates software metrics like cyclomatic complexity for PHP code.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
