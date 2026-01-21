@@ -1,0 +1,23 @@
+name: Seqra
+categories:
+  - linter
+tags:
+  - security
+  - java
+  - spring
+  - kotlin
+  - ci
+  - yaml
+license: MIT
+types:
+  - cli
+source: 'https://github.com/seqra/seqra'
+homepage: 'https://seqra.dev'
+resources:
+  - title: 'Static Analysis Showdown: How Semgrep, CodeQL, and Seqra Handle XSS Detection'
+    url: https://seqra.dev/blog/semgrep-vs-codeql-vs-seqra
+description: >-
+  Security-focused static analyzer for Java and Kotlin web applications.
+  Analyzes bytecode with Semgrep-style YAML rules and CodeQL-grade dataflow
+  (with first-class Spring support) to find vulnerabilities
+  that source-only scanners miss.
