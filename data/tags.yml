@@ -292,6 +292,9 @@
 - name: Support
   value: support
   type: other
+- name: Spring
+  value: spring
+  type: other
 - name: Swift
   value: swift
   type: language
