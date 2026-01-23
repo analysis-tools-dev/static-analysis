@@ -553,6 +553,11 @@
       "tag_type": "Other"
     },
     {
+      "name": "Spring",
+      "value": "spring",
+      "tag_type": "Other"
+    },
+    {
       "name": "Template-Languages",
       "value": "template",
       "tag_type": "Other"

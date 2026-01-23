@@ -7092,7 +7092,7 @@
     "plans": null,
     "description": "Software complexity analysis of JavaScript-family abstract syntax trees.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -18140,6 +18140,44 @@
       {
         "title": "It's time to ignore 98% of dependency alerts",
         "url": "https://r2c.dev/blog/2022/introducing-semgrep-supply-chain/"
+      }
+    ],
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "seqra": {
+    "name": "Seqra",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "java",
+      "kotlin"
+    ],
+    "other": [
+      "ci",
+      "security",
+      "spring",
+      "yaml"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://seqra.dev",
+    "source": "https://github.com/seqra/seqra",
+    "pricing": null,
+    "plans": null,
+    "description": "Security-focused static analyzer for Java and Kotlin web applications. Analyzes bytecode with Semgrep-style YAML rules and CodeQL-grade dataflow (with first-class Spring support) to find vulnerabilities that source-only scanners miss.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Static Analysis Showdown: How Semgrep, CodeQL, and Seqra Handle XSS Detection",
+        "url": "https://seqra.dev/blog/semgrep-vs-codeql-vs-seqra"
       }
     ],
     "reviews": null,

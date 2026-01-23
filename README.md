@@ -699,7 +699,7 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 
 - **es6-plato** :warning: — Visualize JavaScript (ES6) source complexity.
 
-- **escomplex** :warning: — Software complexity analysis of JavaScript-family abstract syntax trees.
+- [escomplex](https://github.com/jared-stilwell/escomplex) — Software complexity analysis of JavaScript-family abstract syntax trees.
 
 - **Esprima** :warning: — ECMAScript parsing infrastructure for multipurpose analysis.
 
@@ -1608,6 +1608,8 @@ It supports multiple languages and is designed to be extensible, allowing you to
 - [Semgrep](https://semgrep.dev) — A fast, open-source, static analysis tool for finding bugs and enforcing code standards at editor, commit, and CI time. Its rules look like the code you already write;  no abstract syntax trees or regex wrestling. Supports 17+ languages.
 
 - [Semgrep Supply Chain](https://semgrep.dev/products/semgrep-supply-chain) :copyright: — Quickly find and remediate high-priority security issues.  Semgrep Supply Chain prioritizes the 2% of vulnerabilities that are reachable from your code.
+
+- [Seqra](https://seqra.dev) — Security-focused static analyzer for Java and Kotlin web applications. Analyzes bytecode with Semgrep-style YAML rules and CodeQL-grade dataflow (with first-class Spring support) to find vulnerabilities that source-only scanners miss.
 
 - [ShiftLeft Scan](https://github.com/ShiftLeftSecurity/sast-scan) — Scan is a free open-source DevSecOps platform for detecting security issues in source code and dependencies. It supports a broad range of languages and CI/CD pipelines.
 
