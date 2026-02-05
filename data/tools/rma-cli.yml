@@ -1,0 +1,29 @@
+name: rma-cli
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - csharp
+  - go
+  - java
+  - javascript
+  - kotlin
+  - php
+  - python
+  - ruby
+  - rust
+  - scala
+  - security
+  - swift
+  - typescript
+license: MIT
+types:
+  - cli
+source: 'https://github.com/bumahkib7/rust-monorepo-analyzer'
+homepage: 'https://crates.io/crates/rma-cli'
+description: >-
+  Fast SAST scanner written in Rust that compiles Semgrep rules to native
+  tree-sitter matchers for 10x faster scanning. Supports 647+ security rules
+  covering OWASP Top 10, CWE, and more across 28 programming languages.
+  Outputs SARIF/JSON for CI/CD integration.
