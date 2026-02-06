@@ -1431,6 +1431,55 @@
     "demos": null,
     "wrapper": null
   },
+  "blockwatch": {
+    "name": "BlockWatch",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "c",
+      "csharp",
+      "cpp",
+      "go",
+      "java",
+      "javascript",
+      "jsx",
+      "kotlin",
+      "php",
+      "python",
+      "ruby",
+      "rust",
+      "shell",
+      "sql",
+      "swift",
+      "typescript"
+    ],
+    "other": [
+      "css",
+      "html",
+      "make",
+      "markdown",
+      "xml",
+      "yaml"
+    ],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/mennanov/blockwatch",
+    "source": "https://github.com/mennanov/blockwatch",
+    "pricing": null,
+    "plans": null,
+    "description": "A language-agnostic linter that keeps code, documentation, and configuration in sync and enforces strict formatting and validation rules.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "bodyclose": {
     "name": "bodyclose",
     "categories": [
@@ -1452,7 +1501,7 @@
     "plans": null,
     "description": "Checks whether HTTP response body is closed.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -2187,7 +2236,7 @@
     "plans": null,
     "description": "Find potential unused enabled feature flags and prune them. You can generate a simple HTML report from the json to make it easier to inspect results.\nIt removes a feature of a dependency and then compiles the project to see if it still compiles. If it does, the feature flag can possibly be removed, but it can be a false-positive.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -5511,7 +5560,7 @@
     "plans": null,
     "description": "A set of utilities for working with PO files to ease development and improve quality.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -11593,7 +11642,7 @@
     "plans": null,
     "description": "Report long lines.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -11868,7 +11917,7 @@
     "plans": null,
     "description": "A static analyzer, which checks portable executables for malicious content.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -13792,7 +13841,7 @@
     "plans": null,
     "description": "Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -20314,13 +20363,13 @@
       "free": false,
       "oss": true
     },
-    "description": "A tool that helps developers to understand and maintain their software architecture. It generates interactive, configurable dependency graphs out of source code, with all packages and modules included. You can choose the level of details and get what portions of your codebase gets rendered. That way you get a quick understanding of the software's architecture and detect unwanted dependencies and spaghetti code which harm efficient maintenance and leads to technical debt and inflexibility.",
+    "description": "Helps you understand and maintain a scalable software architecture. To do so, it generates a interactive, nested dependency graph out of the source code. You can choose the level of details and get the portion of your codebase that matters to you.",
     "discussion": null,
     "deprecated": null,
     "resources": [
       {
-        "title": "TangleGuard Public Directory Sample",
-        "url": "https://directory.tangleguard.com/project/Lorem-Ipsum/sample"
+        "title": "TangleGuard Cloud",
+        "url": "https://app.tangleguard.com/"
       },
       {
         "title": "TangleGuard Preview",
@@ -20328,7 +20377,7 @@
       },
       {
         "title": "TangleGuard Documentation",
-        "url": "https://docs.tangleguard.com/welcome/intro/"
+        "url": "https://docs.tangleguard.com/"
       }
     ],
     "reviews": null,

@@ -488,7 +488,7 @@ Fprettify is a tool that provides consistent whitespace, indentation, and delimi
 
 - [aligncheck](https://gitlab.com/opennota/check) — Find inefficiently packed structs.
 
-- **bodyclose** :warning: — Checks whether HTTP response body is closed.
+- [bodyclose](https://github.com/timakin/bodyclose) — Checks whether HTTP response body is closed.
 
 - [deadcode](https://github.com/tsenart/deadcode) — Finds unused code.
 
@@ -553,7 +553,7 @@ By default, govulncheck makes requests to the Go vulnerability database at https
 
 - **interfacer** :warning: — Suggest narrower interfaces that can be used.
 
-- **lll** :warning: — Report long lines.
+- [lll](https://github.com/walle/lll) — Report long lines.
 
 - **maligned** :warning: — Detect structs that would take less memory if their fields were sorted.
 
@@ -1191,7 +1191,7 @@ YAPF follows a distinctive methodology, originating from the 'clang-format' tool
 
 - [cargo-spellcheck](https://github.com/drahnr/cargo-spellcheck) — Checks all your documentation for spelling and grammar mistakes  with hunspell (ready) and languagetool (preview)
 
-- [cargo-unused-features](https://github.com/TimonPost/cargo-unused-features) — Find potential unused enabled feature flags and prune them. You can generate a simple HTML report from the json to make it easier to inspect results.
+- **cargo-unused-features** :warning: — Find potential unused enabled feature flags and prune them. You can generate a simple HTML report from the json to make it easier to inspect results.
 It removes a feature of a dependency and then compiles the project to see if it still compiles. If it does, the feature flag can possibly be removed, but it can be a false-positive.
 
 - [clippy](https://rust-lang.github.io/rust-clippy) — A code linter to catch common mistakes and improve your Rust code.
@@ -1239,7 +1239,7 @@ Kani verifies:
 
 - [RustViz](https://github.com/rustviz/rustviz) — RustViz is a tool that generates visualizations  from simple Rust programs to assist users in better  understanding the Rust Lifetime and Borrowing mechanism. It generates SVG files with graphical indicators that integrate  with mdbook to render visualizations of data-flow in Rust programs.
 
-- [TangleGuard](https://tangleguard.com/) :copyright: — A tool that helps developers to understand and maintain their software architecture. It generates interactive, configurable dependency graphs out of source code, with all packages and modules included. You can choose the level of details and get what portions of your codebase gets rendered. That way you get a quick understanding of the software's architecture and detect unwanted dependencies and spaghetti code which harm efficient maintenance and leads to technical debt and inflexibility.
+- [TangleGuard](https://tangleguard.com/) :copyright: — Helps you understand and maintain a scalable software architecture. To do so, it generates a interactive, nested dependency graph out of the source code. You can choose the level of details and get the portion of your codebase that matters to you.
 
 - **warnalyzer** :warning: — Show unused code from multi-crate Rust projects
 
@@ -1414,6 +1414,8 @@ It supports multiple languages and is designed to be extensible, allowing you to
 
 - [biome](https://biomejs.dev) — A toolchain for web projects, aimed to provide functionalities to maintain them. Biome formats and lints code in a fraction of a second. It is the successor to Rome. It is designed to eventually replace Biome is designed to eventually replace Babel, ESLint, webpack, Prettier, Jest, and others.
 
+- [BlockWatch](https://github.com/mennanov/blockwatch) — A language-agnostic linter that keeps code, documentation, and configuration in sync and enforces strict formatting and validation rules.
+
 - **BugProve** :warning: :copyright: — BugProve is a firmware analysis platform featuring both static and dynamic analysis techniques to discover memory corruptions, command injections and other classes or common weaknesses in binary code. It also detects vulnerable dependencies, weak cryptographic parameters, misconfigurations, and more.
 
 - [callGraph](https://github.com/koknat/callGraph) — Statically generates a call graph image and displays it on screen.
@@ -1559,7 +1561,7 @@ It supports multiple languages and is designed to be extensible, allowing you to
 
 - [parasoft](https://www.parasoft.com/) :copyright: — Automated Software Testing Solutions for unit-, API-, and web UI testing. Complies with MISRA, OWASP, and others.
 
-- **pfff** :warning: — Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages.
+- [pfff](https://github.com/facebookarchive/pfff/wiki/Main) — Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages.
 
 - [Pixee](https://pixee.ai) :copyright: — Pixeebot finds security and code quality issues in your code and creates merge-ready pull requests with recommended fixes.
 
@@ -1751,7 +1753,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 - [Malcat](https://malcat.fr/) :copyright: — Hexadecimal editor and disassembler for malware analysis and binary file inspection. Supports over 50 file formats and multiple CPU architectures (x86/x64, MIPS, .NET, Python, VB p-code). Features rapid analysis, embedded file extraction, Yara signature scanning, anomaly detection, and Python scripting. Designed for malware analysts, SOC operators, incident responders, and CTF players.
 
-- **Manalyze** :warning: — A static analyzer, which checks portable executables for malicious content.
+- [Manalyze](https://github.com/JusticeRage/Manalyze) — A static analyzer, which checks portable executables for malicious content.
 
 - **mcsema** :warning: — Framework for lifting x86, amd64, aarch64, sparc32, and sparc64 program binaries to LLVM bitcode. It translates ("lifts") executable binaries from native machine code to LLVM bitcode, which is very useful for performing program analysis methods.
 
@@ -1940,7 +1942,7 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 
 - [Symfony Insight](https://insight.symfony.com/) :copyright: — Detect security risks, find bugs and provide actionable metrics for PHP projects.
 
-- [TangleGuard](https://tangleguard.com/) :copyright: — A tool that helps developers to understand and maintain their software architecture. It generates interactive, configurable dependency graphs out of source code, with all packages and modules included. You can choose the level of details and get what portions of your codebase gets rendered. That way you get a quick understanding of the software's architecture and detect unwanted dependencies and spaghetti code which harm efficient maintenance and leads to technical debt and inflexibility.
+- [TangleGuard](https://tangleguard.com/) :copyright: — Helps you understand and maintain a scalable software architecture. To do so, it generates a interactive, nested dependency graph out of the source code. You can choose the level of details and get the portion of your codebase that matters to you.
 
 - [Violations Lib](https://github.com/tomasbjerre/violations-lib) — Java library for parsing report files from static code analysis. Used by a bunch of Jenkins, Maven and Gradle plugins.
 
@@ -2405,7 +2407,7 @@ TruffleHog is an open source secret-scanning engine that resolves exposed secret
 <h2>Translation</h2>
 
 
-- **dennis** :warning: — A set of utilities for working with PO files to ease development and improve quality.
+- [dennis](https://github.com/willkg/dennis) — A set of utilities for working with PO files to ease development and improve quality.
 
 
 <a name="vue" />
