@@ -1,0 +1,11 @@
+name: pyrefly
+categories:
+  - linter
+tags:
+  - python
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/facebook/pyrefly'
+homepage: 'https://pyrefly.org/'
+description: 'A fast, incremental type checker and language server for Python, providing IDE features like code navigation, semantic highlighting, and code completion.'
