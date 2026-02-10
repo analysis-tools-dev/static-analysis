@@ -1,0 +1,22 @@
+name: Xygeni
+details: >-
+  Xygeni is a comprehensive Software Supply Chain Security platform. It provides 
+  Advanced SAST with AI-powered remediation, Software Composition Analysis (SCA) 
+  with real-time malware detection, Infrastructure as Code (IaC) scanning, 
+  and Secrets detection to ensure end-to-end code security.
+website: https://xygeni.io/
+license: proprietary
+tags:
+  - java
+  - javascript
+  - python
+  - go
+  - c-sharp
+  - terraform
+  - kubernetes
+  - dockerfile
+  - sast
+  - sca
+  - iac
+  - secrets
+  - security
