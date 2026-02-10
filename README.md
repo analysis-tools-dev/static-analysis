@@ -518,7 +518,7 @@ Fprettify is a tool that provides consistent whitespace, indentation, and delimi
 
 - **goast** :warning: — Go AST (Abstract Syntax Tree) based static analysis tool with Rego.
 
-- [gochecknoglobals](https://github.com/leighmcculloch/gochecknoglobals) — Checks that no globals are present.
+- **gochecknoglobals** :warning: — Checks that no globals are present.
 
 - [goconst](https://github.com/jgautheron/goconst) — Finds repeated strings that could be replaced by a constant.
 
@@ -1016,7 +1016,9 @@ It uses the pycodestyle utility to determine what parts of the code needs to be 
 
 - [pylyzers](https://mtshiba.github.io/pylyzer/) — A static code analyzer / language server for Python, written in Rust, focused on type checking and readable output.
 
-- [pyre-check](https://pyre-check.org) — A fast, scalable type checker for large Python codebases.
+- **pyre-check** :warning: — A fast, scalable type checker for large Python codebases. Pyre-check has been superseded by Pyrefly, its next iteration.
+
+- [pyrefly](https://pyrefly.org/) — A fast, incremental type checker and language server for Python, providing IDE features like code navigation, semantic highlighting, and code completion.
 
 - [pyright](https://github.com/Microsoft/pyright) — Static type checker for Python, created to address gaps in existing tools like mypy.
 

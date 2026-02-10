@@ -8591,7 +8591,7 @@
     "plans": null,
     "description": "Checks that no globals are present.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -16016,7 +16016,34 @@
     "source": "https://github.com/facebook/pyre-check",
     "pricing": null,
     "plans": null,
-    "description": "A fast, scalable type checker for large Python codebases.",
+    "description": "A fast, scalable type checker for large Python codebases. Pyre-check has been superseded by Pyrefly, its next iteration.",
+    "discussion": null,
+    "deprecated": true,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "pyrefly": {
+    "name": "pyrefly",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "python"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://pyrefly.org/",
+    "source": "https://github.com/facebook/pyrefly",
+    "pricing": null,
+    "plans": null,
+    "description": "A fast, incremental type checker and language server for Python, providing IDE features like code navigation, semantic highlighting, and code completion.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
