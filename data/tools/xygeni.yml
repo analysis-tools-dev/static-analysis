@@ -8,7 +8,7 @@ details: >-
   Advanced SAST with AI-powered remediation, Software Composition Analysis (SCA) 
   with real-time malware detection, Infrastructure as Code (IaC) scanning, 
   and Secrets detection to ensure end-to-end code security.
-website: https://xygeni.io/
+homepage: https://xygeni.io/
 license: proprietary
 tags:
   - java
