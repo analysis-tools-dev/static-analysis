@@ -1,6 +1,8 @@
 name: Xygeni
 categories:
   - linter
+types:
+  - service  
 details: >-
   Xygeni is a comprehensive Software Supply Chain Security platform. It provides 
   Advanced SAST with AI-powered remediation, Software Composition Analysis (SCA) 
