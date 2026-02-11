@@ -1,0 +1,26 @@
+name: Xygeni
+categories:
+  - linter
+tags:
+  - csharp
+  - dockerfile
+  - go
+  - iac
+  - java
+  - javascript
+  - kubernetes
+  - python
+  - sast
+  - sca
+  - secrets
+  - terraform
+license: proprietary
+types:
+  - cli
+homepage: "https://xygeni.io/"
+pricing: "https://xygeni.io/pricing/"
+description: >-
+  Xygeni is an AI-powered ASPM platform that detects and remediates 
+  vulnerabilities and malware end-to-end. It features Advanced SAST with 
+  AI AutoFix, real-time Malware Defense for SCA, IaC scanning, and 
+  CI/CD security to prevent supply chain attacks without AppSec overhead.
