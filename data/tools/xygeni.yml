@@ -11,15 +11,15 @@ description: >-
 homepage: https://xygeni.io/
 license: proprietary
 tags:
+  - c-sharp
+  - dockerfile
+  - go
+  - iac
   - java
   - javascript
-  - python
-  - go
-  - c-sharp
-  - terraform
   - kubernetes
-  - dockerfile
+  - python
   - sast
   - sca
-  - iac
   - secrets
+  - terraform
