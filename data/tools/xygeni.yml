@@ -12,14 +12,10 @@ tags:
   - csharp
   - dockerfile
   - go
-  - iac
   - java
   - javascript
   - kubernetes
   - python
-  - sast
-  - sca
-  - secrets
   - terraform
 types:
   - service
