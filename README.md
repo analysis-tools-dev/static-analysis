@@ -1054,7 +1054,7 @@ It uses the pycodestyle utility to determine what parts of the code needs to be 
 
 - **xenon** :warning: — Monitor code complexity using [`radon`](https://github.com/rubik/radon).
 
-- [yapf](https://github.com/google/yapf) — A formatter for Python files created by Google
+- **yapf** :warning: — A formatter for Python files created by Google
 YAPF follows a distinctive methodology, originating from the 'clang-format' tool created by Daniel Jasper. Essentially, the program reframes the code to the most suitable formatting that abides by the style guide, even if the original code already follows the style guide. This concept is similar to the Go programming language's 'gofmt' tool, which aims to put an end to debates about formatting by having the entire codebase of a project pass through YAPF whenever changes are made, thereby maintaining a consistent style throughout the project and eliminating the need to argue about style in every code review.
 
 
@@ -1681,6 +1681,8 @@ It supports multiple languages and is designed to be extensible, allowing you to
 - **Wotan** :warning: — Pluggable TypeScript and JavaScript linter.
 
 - [XCode](https://developer.apple.com/xcode) :copyright: — XCode provides a pretty decent UI for [Clang's](https://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C).
+
+- [Xygeni](https://xygeni.io/) :copyright: — Xygeni is a comprehensive Software Supply Chain Security platform. It provides Advanced SAST with AI-powered remediation, Software Composition Analysis (SCA) with real-time malware detection, Infrastructure as Code (IaC) scanning, and Secrets detection to ensure end-to-end code security.
 
 
 ## Other
