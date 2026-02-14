@@ -2,7 +2,7 @@ name: JLiSA
 categories:
   - linter
 tags:
-  - Java
+  - java
 license: MIT license
 types:
   - cli
