@@ -1,0 +1,11 @@
+name: JLiSA
+categories:
+  - linter
+tags:
+  - Java
+license: MIT license
+types:
+  - cli
+source: 'https://github.com/lisa-analyzer/jlisa'
+homepage: 'https://github.com/lisa-analyzer/jlisa'
+description: An abstract interpretation-based static analyzer for Java build upon the [LiSA](https://github.com/lisa-analyzer/lisa) framekwork.
