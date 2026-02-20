@@ -1,0 +1,17 @@
+name: prodlint
+categories:
+  - linter
+tags:
+  - javascript
+  - typescript
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/prodlint/prodlint'
+homepage: 'https://prodlint.com'
+description: >-
+  The linter for vibe-coded apps. Catches hardcoded secrets, missing auth,
+  hallucinated imports, SQL injection, and 48 other production bugs that AI
+  coding tools consistently write. 52 rules across security, reliability,
+  performance, and AI quality categories. Zero config, Babel AST-based
+  analysis with regex fallback.
