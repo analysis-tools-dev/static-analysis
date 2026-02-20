@@ -479,7 +479,7 @@ Dialyzer starts its analysis from either debug-compiled BEAM bytecode  or from E
 - [fprettify](https://pypi.python.org/pypi/fprettify) — Auto-formatter for modern fortran source code, written in Python.
 Fprettify is a tool that provides consistent whitespace, indentation, and delimiter alignment in code, including the ability to change letter case and handle preprocessor directives, all while preserving revision history and tested for editor integration.
 
-- [i-Code CNES for Fortran](https://github.com/lequal/i-CodeCNES) — An open source static code analysis tool for Fortran 77, Fortran 90 and Shell.
+- **i-Code CNES for Fortran** :warning: — An open source static code analysis tool for Fortran 77, Fortran 90 and Shell.
 
 
 <a name="go" />
@@ -510,7 +510,7 @@ Fprettify is a tool that provides consistent whitespace, indentation, and delimi
 
 - [go vet](https://golang.org/cmd/vet) — Examines Go source code and reports suspicious.
 
-- [go-consistent](https://github.com/Quasilyte/go-consistent) — Analyzer that helps you to make your Go programs more consistent.
+- **go-consistent** :warning: — Analyzer that helps you to make your Go programs more consistent.
 
 - [go-critic](https://github.com/go-critic/go-critic) — Go source code linter that maintains checks which are currently not implemented in other linters.
 
@@ -583,7 +583,7 @@ By default, govulncheck makes requests to the Go vulnerability database at https
 
 - [test](https://pkg.go.dev/testing) — Show location of test failures from the stdlib testing module.
 
-- [unconvert](https://github.com/mdempsky/unconvert) — Detect redundant type conversions.
+- **unconvert** :warning: — Detect redundant type conversions.
 
 - [unparam](https://github.com/mvdan/unparam) — Find unused function parameters.
 
@@ -662,11 +662,13 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 
 - [JBMC](https://www.cprover.org/jbmc) — Bounded model-checker for Java (bytecode), verifies user-defined assertions, standard assertions, several coverage metric analyses.
 
+- [JLiSA](https://github.com/lisa-analyzer/jlisa) — An abstract interpretation-based static analyzer for Java build upon the [LiSA](https://github.com/lisa-analyzer/lisa) framekwork.
+
 - [Mariana Trench](https://mariana-tren.ch/) — Our security focused static analysis tool for Android and Java applications. Mariana Trench analyzes Dalvik bytecode and is built to run fast on large codebases (10s of millions of lines of code). It can find vulnerabilities as code changes, before it ever lands in your repository.
 
 - [NullAway](https://github.com/uber/NullAway) — Type-based null-pointer checker with low build-time overhead; an [Error Prone](http://errorprone.info/) plugin.
 
-- [OWASP Dependency Check](https://owasp.org/www-project-dependency-check) — Checks dependencies for known, publicly disclosed, vulnerabilities.
+- **OWASP Dependency Check** :warning: — Checks dependencies for known, publicly disclosed, vulnerabilities.
 
 - [qulice](https://www.qulice.com) — Combines a few (pre-configured) static analysis tools (checkstyle, PMD, Findbugs, ...).
 
@@ -1016,6 +1018,8 @@ It uses the pycodestyle utility to determine what parts of the code needs to be 
 
 - [pylyzers](https://mtshiba.github.io/pylyzer/) — A static code analyzer / language server for Python, written in Rust, focused on type checking and readable output.
 
+- [Pyra](https://github.com/spangea/Pyra) — Pyra is a high-level linter static analyzer for data science applications written in Python, that helps developers identify potential issues in their data science code written in Python, as an extension of [Lyra](https://github.com/caterinaurban/Lyra).
+
 - **pyre-check** :warning: — A fast, scalable type checker for large Python codebases. Pyre-check has been superseded by Pyrefly, its next iteration.
 
 - [pyrefly](https://pyrefly.org/) — A fast, incremental type checker and language server for Python, providing IDE features like code navigation, semantic highlighting, and code completion.
@@ -1292,7 +1296,7 @@ Kani verifies:
 
 - [bashate](https://github.com/openstack/bashate) — Code style enforcement for bash programs. The output format aims to follow pycodestyle (pep8) default output format.
 
-- [i-Code CNES for Shell](https://github.com/lequal/i-CodeCNES) — An open source static code analysis tool for Shell and Fortran (77 and 90).
+- **i-Code CNES for Shell** :warning: — An open source static code analysis tool for Shell and Fortran (77 and 90).
 
 - [kmdr](https://github.com/ediardo/kmdr-cli) — CLI tool for learning commands from your terminal. kmdr delivers a break down of commands with every attribute explained.
 
@@ -1615,7 +1619,7 @@ It supports multiple languages and is designed to be extensible, allowing you to
 
 - [Seqra](https://seqra.dev) — Security-focused static analyzer for Java and Kotlin web applications. Analyzes bytecode with Semgrep-style YAML rules and CodeQL-grade dataflow (with first-class Spring support) to find vulnerabilities that source-only scanners miss.
 
-- [ShiftLeft Scan](https://github.com/ShiftLeftSecurity/sast-scan) — Scan is a free open-source DevSecOps platform for detecting security issues in source code and dependencies. It supports a broad range of languages and CI/CD pipelines.
+- **ShiftLeft Scan** :warning: — Scan is a free open-source DevSecOps platform for detecting security issues in source code and dependencies. It supports a broad range of languages and CI/CD pipelines. Note: ShiftLeft rebranded to Qwiet AI in 2023, which was subsequently acquired by Harness in September 2025. This open-source project is no longer maintained.
 
 - **shipshape** :warning: — Static program analysis platform that allows custom analyzers to plug in through a common interface.
 
@@ -1753,7 +1757,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 - [JEB Decompiler](https://www.pnfsoftware.com/) :copyright: — Decompile and debug binary code. Break down and analyze document files. Android Dalvik, MIPS, ARM, Intel x86, Java, WebAssembly & Ethereum Decompilers.
 
-- **ktool** :warning: — Fully cross-platform toolkit and library for MachO+Obj-C editing/analysis. Includes a cli kit, a curses GUI, ObjC header dumping, and much more.
+- [ktool](https://ktool.cynder.me/en/latest/ktool.html) — Fully cross-platform toolkit and library for MachO+Obj-C editing/analysis. Includes a cli kit, a curses GUI, ObjC header dumping, and much more.
 
 - [Malcat](https://malcat.fr/) :copyright: — Hexadecimal editor and disassembler for malware analysis and binary file inspection. Supports over 50 file formats and multiple CPU architectures (x86/x64, MIPS, .NET, Python, VB p-code). Features rapid analysis, embedded file extraction, Yara signature scanning, anomaly detection, and Python scripting. Designed for malware analysts, SOC operators, incident responders, and CTF players.
 
@@ -2221,7 +2225,7 @@ but with the following improvements:
 <h2>Prometheus</h2>
 
 
-- **promformat** :warning: — Promformat is a PromQL formatter written in Python.
+- [promformat](https://github.com/facetoe/promformat) — Promformat is a PromQL formatter written in Python.
 
 - [promval](https://github.com/facetoe/promval) — PromQL validator written in Python. It can be used to validate that PromQL expressions are written as expected.
 
@@ -2309,7 +2313,7 @@ Kani verifies:
 
 - [kics](https://kics.io/) — Find security vulnerabilities, compliance issues, and infrastructure misconfigurations in your infrastructure-as-code. Supports Terraform, Kubernetes, Docker, AWS CloudFormation and Ansible
 
-- **ktool** :warning: — Fully cross-platform toolkit and library for MachO+Obj-C editing/analysis. Includes a cli kit, a curses GUI, ObjC header dumping, and much more.
+- [ktool](https://ktool.cynder.me/en/latest/ktool.html) — Fully cross-platform toolkit and library for MachO+Obj-C editing/analysis. Includes a cli kit, a curses GUI, ObjC header dumping, and much more.
 
 - **kube-hunter** :warning: — Hunt for security weaknesses in Kubernetes clusters.
 
