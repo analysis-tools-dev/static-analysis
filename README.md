@@ -662,6 +662,8 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 
 - [JBMC](https://www.cprover.org/jbmc) — Bounded model-checker for Java (bytecode), verifies user-defined assertions, standard assertions, several coverage metric analyses.
 
+- [JLiSA](https://github.com/lisa-analyzer/jlisa) — An abstract interpretation-based static analyzer for Java build upon the [LiSA](https://github.com/lisa-analyzer/lisa) framekwork.
+
 - [Mariana Trench](https://mariana-tren.ch/) — Our security focused static analysis tool for Android and Java applications. Mariana Trench analyzes Dalvik bytecode and is built to run fast on large codebases (10s of millions of lines of code). It can find vulnerabilities as code changes, before it ever lands in your repository.
 
 - [NullAway](https://github.com/uber/NullAway) — Type-based null-pointer checker with low build-time overhead; an [Error Prone](http://errorprone.info/) plugin.
@@ -1015,6 +1017,8 @@ It uses the pycodestyle utility to determine what parts of the code needs to be 
 - [pylint](http://pylint.pycqa.org/en/latest) — Looks for programming errors, helps enforcing a coding standard and sniffs for some code smells. It additionally includes `pyreverse` (an UML diagram generator) and `symilar` (a similarities checker).
 
 - [pylyzers](https://mtshiba.github.io/pylyzer/) — A static code analyzer / language server for Python, written in Rust, focused on type checking and readable output.
+
+- [Pyra](https://github.com/spangea/Pyra) — Pyra is a high-level linter static analyzer for data science applications written in Python, that helps developers identify potential issues in their data science code written in Python, as an extension of [Lyra](https://github.com/caterinaurban/Lyra).
 
 - **pyre-check** :warning: — A fast, scalable type checker for large Python codebases. Pyre-check has been superseded by Pyrefly, its next iteration.
 
@@ -1615,7 +1619,7 @@ It supports multiple languages and is designed to be extensible, allowing you to
 
 - [Seqra](https://seqra.dev) — Security-focused static analyzer for Java and Kotlin web applications. Analyzes bytecode with Semgrep-style YAML rules and CodeQL-grade dataflow (with first-class Spring support) to find vulnerabilities that source-only scanners miss.
 
-- [ShiftLeft Scan](https://github.com/ShiftLeftSecurity/sast-scan) — Scan is a free open-source DevSecOps platform for detecting security issues in source code and dependencies. It supports a broad range of languages and CI/CD pipelines.
+- **ShiftLeft Scan** :warning: — Scan is a free open-source DevSecOps platform for detecting security issues in source code and dependencies. It supports a broad range of languages and CI/CD pipelines. Note: ShiftLeft rebranded to Qwiet AI in 2023, which was subsequently acquired by Harness in September 2025. This open-source project is no longer maintained.
 
 - **shipshape** :warning: — Static program analysis platform that allows custom analyzers to plug in through a common interface.
 

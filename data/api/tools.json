@@ -10371,6 +10371,33 @@
     "demos": null,
     "wrapper": null
   },
+  "jlisa": {
+    "name": "JLiSA",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "java"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT license"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/lisa-analyzer/jlisa",
+    "source": "https://github.com/lisa-analyzer/jlisa",
+    "pricing": null,
+    "plans": null,
+    "description": "An abstract interpretation-based static analyzer for Java build upon the [LiSA](https://github.com/lisa-analyzer/lisa) framekwork.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "joern": {
     "name": "Joern",
     "categories": [
@@ -15997,6 +16024,38 @@
     "demos": null,
     "wrapper": null
   },
+  "pyra": {
+    "name": "Pyra",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "python"
+    ],
+    "other": [],
+    "licenses": [
+      "MPL-2.0 license"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/spangea/Pyra",
+    "source": "https://github.com/spangea/Pyra",
+    "pricing": null,
+    "plans": null,
+    "description": "Pyra is a high-level linter static analyzer for data science applications written in Python, that helps developers identify potential issues in their data science code written in Python, as an extension of [Lyra](https://github.com/caterinaurban/Lyra).",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Demo",
+        "url": "https://www.youtube.com/watch?v=D-AsyuhsTyo"
+      }
+    ],
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "pyre-check": {
     "name": "pyre-check",
     "categories": [
@@ -18380,9 +18439,9 @@
     "source": "https://github.com/ShiftLeftSecurity/sast-scan",
     "pricing": null,
     "plans": null,
-    "description": "Scan is a free open-source DevSecOps platform for detecting security issues in source code and dependencies. It supports a broad range of languages and CI/CD pipelines.",
+    "description": "Scan is a free open-source DevSecOps platform for detecting security issues in source code and dependencies. It supports a broad range of languages and CI/CD pipelines. Note: ShiftLeft rebranded to Qwiet AI in 2023, which was subsequently acquired by Harness in September 2025. This open-source project is no longer maintained.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
