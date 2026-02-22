@@ -10,8 +10,7 @@ types:
 source: 'https://github.com/prodlint/prodlint'
 homepage: 'https://prodlint.com'
 description: >-
-  The linter for vibe-coded apps. Catches hardcoded secrets, missing auth,
-  hallucinated imports, SQL injection, and 48 other production bugs that AI
-  coding tools consistently write. 52 rules across security, reliability,
-  performance, and AI quality categories. Zero config, Babel AST-based
-  analysis with regex fallback.
+  Production readiness for vibe-coded apps. 52 checks for hardcoded secrets,
+  missing auth, hallucinated imports, SQL injection, and more — the issues AI
+  coding tools consistently create. Zero config, Babel AST-based analysis
+  with regex fallback.
