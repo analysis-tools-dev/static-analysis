@@ -2365,6 +2365,8 @@ TruffleHog is an open source secret-scanning engine that resolves exposed secret
 <h2>Smart Contracts</h2>
 
 
+- [aikido](https://github.com/Bajuzjefe/Aikido-Security-Analysis-Platform) — Static security analyzer for Aiken smart contracts (Cardano). 75 vulnerability detectors covering authorization, value preservation, datum integrity, minting, and arithmetic with Cardano Weakness Classification (CWC) mapping.
+
 - [mythril](https://github.com/ConsenSys/mythril) — A symbolic execution framework with batteries included, can be used to find and exploit vulnerabilities in smart contracts automatically.
 
 - [MythX](https://mythx.io) :copyright: — MythX is an easy to use analysis platform which integrates several analysis methods like fuzzing, symbolic execution and static analysis to find vulnerabilities with high precision. It can be integrated with toolchains like Remix or VSCode or called from the command-line.
