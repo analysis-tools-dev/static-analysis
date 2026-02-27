@@ -12,7 +12,7 @@ license: proprietary
 types:
   - service
   - ide-plugin
-homepage: https://www.cqse.eu/en/teamscale/overview/
+homepage: https://teamscale.com
 description: >-
   Static and dynamic analysis tool supporting more than 25 languages and direct IDE
   integration. Free hosting for Open Source projects available on request. Free academic
@@ -22,7 +22,7 @@ resources:
     url: https://www.youtube.com/watch?v=fJVjv0153-U
   - title: Teamscale Integration for Visual Studio
     url: https://marketplace.visualstudio.com/items?itemName=CQSEGmbH.Teamscale
-pricing: https://www.cqse.eu/en/teamscale/buy/
+pricing: https://teamscale.com/pricing
 plans:
   free: false
   oss: false
