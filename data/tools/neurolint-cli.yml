@@ -2,11 +2,9 @@
 name: Neurolint-CLI
 categories:
   - linter
-languages:
-  - JavaScript
-  - TypeScript
 tags:
-  - formatter
+  - javascript
+  - typescript
 license: "Apache-2.0"
 types:
   - cli

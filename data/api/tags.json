@@ -428,11 +428,6 @@
       "tag_type": "Other"
     },
     {
-      "name": "Formatter",
-      "value": "formatter",
-      "tag_type": "Other"
-    },
-    {
       "name": "Gherkin",
       "value": "gherkin",
       "tag_type": "Other"
