@@ -129,7 +129,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [Dockerfile](#dockerfile)
 - [Embedded](#embedded)
 - [Embedded Ruby (a.k.a. ERB, eRuby)](#erb)
-- [Formatter](#formatter)
 - [Gherkin](#gherkin)
 - [HTML](#html)
 - [JSON](#json)
@@ -175,8 +174,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <a name="ada" />
 <h2>Ada</h2>
 
-
-- [Codepeer](https://www.adacore.com/static-analysis/codepeer) :copyright: — Detects run-time and logic errors.
 
 - [Polyspace for Ada](https://www.mathworks.com/products/polyspace-ada.html) :copyright: — Provide code verification that proves the absence of overflow, divide-by-zero, out-of-bounds array access, and certain other run-time errors in source code.
 
@@ -400,7 +397,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [effective_dart](https://pub.dev/packages/effective_dart) — Linter rules corresponding to the guidelines in Effective Dart
 
-- [lint](https://github.com/passsy/dart-lint) — An opinionated, community-driven set of lint rules for Dart and Flutter projects. Like pedantic but stricter
+- **lint** :warning: — An opinionated, community-driven set of lint rules for Dart and Flutter projects. Like pedantic but stricter
 
 - **Linter for dart** :warning: — Style linter for Dart.
 
@@ -1452,8 +1449,6 @@ It supports multiple languages and is designed to be extensible, allowing you to
 
 - [CodeFlow](https://www.getcodeflow.com) :copyright: — Automated code analysis tool to deal with technical depth. Integrates with Bitbucket and Gitlab. (free for Open Source Projects)
 
-- [CodeIt.Right](https://submain.com/products/codeit.right.aspx) :copyright: — CodeIt.Right&trade; provides a fast, automated way to ensure that your source code adheres to (your) predefined design and style guidelines as well as best coding practices.
-
 - [Codemodder](https://codemodder.io/) — Codemodder is a pluggable framework for building expressive codemods. Use Codemodder when you need more than a linter or code formatting tool. Use it to fix non-trivial security issues and other code quality problems.
 
 - [codeql](https://github.com/github/codeql) — Deep code analysis - semantic queries and dataflow for several languages with VSCode plugin support.
@@ -1555,7 +1550,13 @@ It supports multiple languages and is designed to be extensible, allowing you to
 
 - [MOPSA](https://mopsa.lip6.fr) — A static analyzer designed to easily reuse abstract domains across widely different languages (such as C and Python).
 
-- **oclint** :warning: — A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C.
+- [Neurolint-CLI](https://neurolint.dev) — Deterministic code transformation tool using AST parsing and rule-based transformations. 
+Automatically fixes 50+ issues including accessibility violations, hydration errors, 
+React 19/Next.js 16 migrations, and configuration updates. Features 5-step fail-safe 
+orchestration to ensure zero breaking changes. Specialized for React, Next.js, and TypeScript projects.
+
+
+- [oclint](http://oclint.org) — A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C.
 
 - [Offensive 360](https://offensive360.com/) :copyright: — Commercial Static Code Analysis system doesn't require building the source code or pre-compilation.
 
@@ -1651,7 +1652,7 @@ It supports multiple languages and is designed to be extensible, allowing you to
 
 - [Synopsys](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html) :copyright: — A commercial static analysis platform that allows for scanning of multiple languages (C/C++, Android, C#, Java, JS, PHP, Python, Node.JS, Ruby, Fortran, and Swift).
 
-- [Teamscale](https://www.cqse.eu/en/teamscale/overview/) :copyright: — Static and dynamic analysis tool supporting more than 25 languages and direct IDE integration. Free hosting for Open Source projects available on request. Free academic licenses available.
+- [Teamscale](https://teamscale.com) :copyright: — Static and dynamic analysis tool supporting more than 25 languages and direct IDE integration. Free hosting for Open Source projects available on request. Free academic licenses available.
 
 - [TencentCodeAnalysis](https://tca.tencent.com/) — Tencent Cloud Code Analysis (TCA for short, code-named CodeDog inside the company early) is a comprehensive platform for code analysis and issue tracking. TCA consist of three components, server, web and client. It integrates of a number of self-developed tools, and also supports dynamic integration of code analysis tools in various programming languages.
 
@@ -1757,8 +1758,6 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 - [JEB Decompiler](https://www.pnfsoftware.com/) :copyright: — Decompile and debug binary code. Break down and analyze document files. Android Dalvik, MIPS, ARM, Intel x86, Java, WebAssembly & Ethereum Decompilers.
 
-- [ktool](https://ktool.cynder.me/en/latest/ktool.html) — Fully cross-platform toolkit and library for MachO+Obj-C editing/analysis. Includes a cli kit, a curses GUI, ObjC header dumping, and much more.
-
 - [Malcat](https://malcat.fr/) :copyright: — Hexadecimal editor and disassembler for malware analysis and binary file inspection. Supports over 50 file formats and multiple CPU architectures (x86/x64, MIPS, .NET, Python, VB p-code). Features rapid analysis, embedded file extraction, Yara signature scanning, anomaly detection, and Python scripting. Designed for malware analysts, SOC operators, incident responders, and CTF players.
 
 - [Manalyze](https://github.com/JusticeRage/Manalyze) — A static analyzer, which checks portable executables for malicious content.
@@ -1831,7 +1830,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 <h2>Configuration Management</h2>
 
 
-- [ansible-lint](https://docs.ansible.com/ansible-lint) — Checks playbooks for practices and behaviour that could potentially be improved.
+- [ansible-lint](https://ansible.readthedocs.io/projects/lint/) — Checks playbooks for practices and behaviour that could potentially be improved.
 
 - [AWS CloudFormation Guard](https://github.com/aws-cloudformation/cloudformation-guard) — Check local CloudFormation templates against policy-as-code rules  and generate rules from existing templates.
 
@@ -1989,17 +1988,6 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 - [ERB::Formatter](https://github.com/nebulab/erb-formatter) — Format ERB files with speed and precision.
 
 - [htmlbeautifier](https://github.com/threedaymonk/htmlbeautifier) — A normaliser/beautifier for HTML that also understands embedded Ruby. Ideal for tidying up Rails templates.
-
-
-<a name="formatter" />
-<h2>Formatter</h2>
-
-
-- [Neurolint-CLI](https://neurolint.dev) — Deterministic code transformation tool using AST parsing and rule-based transformations. 
-Automatically fixes 50+ issues including accessibility violations, hydration errors, 
-React 19/Next.js 16 migrations, and configuration updates. Features 5-step fail-safe 
-orchestration to ensure zero breaking changes. Specialized for React, Next.js, and TypeScript projects.
-
 
 
 <a name="gherkin" />
@@ -2313,8 +2301,6 @@ Kani verifies:
 
 - [kics](https://kics.io/) — Find security vulnerabilities, compliance issues, and infrastructure misconfigurations in your infrastructure-as-code. Supports Terraform, Kubernetes, Docker, AWS CloudFormation and Ansible
 
-- [ktool](https://ktool.cynder.me/en/latest/ktool.html) — Fully cross-platform toolkit and library for MachO+Obj-C editing/analysis. Includes a cli kit, a curses GUI, ObjC header dumping, and much more.
-
 - **kube-hunter** :warning: — Hunt for security weaknesses in Kubernetes clusters.
 
 - [lockfile-lint](https://github.com/lirantal/lockfile-lint) — Lint an npm or yarn lockfile to analyze and detect security issues
@@ -2341,13 +2327,9 @@ Kani verifies:
 
 - **QuantifiedCode** :warning: — Automated code review & repair. It helps you to keep track of issues and metrics in your software projects, and can be easily extended to support new types of analyses.
 
-- [Rezilion](https://www.rezilion.com/) :copyright: — Discovers vulnerabilities for all components in your environment, filters out 85% non-exploitable vulnerabilities and creates a  remediation plan and open tickets to upgrade components that violate your security policy and/or patch automatically in CI.
-
 - [Safety](https://safetycli.com/) — Python dependency vulnerability scanner designed to enhance software supply chain security by detecting packages with known vulnerabilities. Checks Python dependencies against a database of known security vulnerabilities and provides detailed reports. Supports CI/CD integration and multiple output formats.
 
 - [scorecard](https://github.com/ossf/scorecard) — Security Scorecards - Security health metrics for Open Source
-
-- [SearchDiggity](https://resources.bishopfox.com/resources/tools/google-hacking-diggity/attack-tools/) :copyright: — Identifies vulnerabilities in open source code projects  hosted on Github, Google Code, MS CodePlex, SourceForge, and more.  The tool comes with over 130 default searches that identify SQL injection,  cross-site scripting (XSS), insecure remote and local file includes, hard-coded passwords, etc. 
 
 - [Steampunk Spotter](https://steampunk.si/spotter/) :copyright: — Ansible Playbook Scanning Tool that analyzes and offers recommendations for your playbooks.
 
