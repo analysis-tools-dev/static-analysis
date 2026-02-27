@@ -118,9 +118,6 @@
 - name: F#
   value: fsharp
   type: language
-- name: Formatter
-  value: formatter
-  type: other
 - name: Fortran
   value: fortran
   type: language

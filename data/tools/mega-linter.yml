@@ -20,7 +20,6 @@ tags:
   - dockerfile
   - dotenv
   - dotnet
-  - formatter
   - gherkin
   - go
   - groovy

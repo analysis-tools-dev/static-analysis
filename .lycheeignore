@@ -5,3 +5,12 @@ https://www.freepik.com/
 # (Occasional) Timeouts
 https://npo-echelon.ru/en/solutions/appchecker.php
 https://www.qualys.com/apps/container-security
+# 415 Unsupported Media Type (site works in browser)
+dickgrune.com
+zigrin.com
+# Cloudflare bot protection
+spinroot.com
+# npmjs.com blocks automated requests
+https://www.npmjs.com/package/tslint-clean-code
+# GitHub wiki intermittent 502
+https://github.com/flowr-analysis/flowr/wiki/Terminology#program-slice

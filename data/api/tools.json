@@ -486,8 +486,8 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://docs.ansible.com/ansible-lint",
-    "source": "https://github.com/willthames/ansible-lint",
+    "homepage": "https://ansible.readthedocs.io/projects/lint/",
+    "source": "https://github.com/ansible/ansible-lint",
     "pricing": null,
     "plans": null,
     "description": "Checks playbooks for practices and behaviour that could potentially be improved.",
@@ -3498,7 +3498,7 @@
     "plans": null,
     "description": "Static Code Analysis for R.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -3603,37 +3603,6 @@
     "demos": null,
     "wrapper": null
   },
-  "codeit-right": {
-    "name": "CodeIt.Right",
-    "categories": [
-      "linter"
-    ],
-    "languages": [
-      "csharp",
-      "vbnet"
-    ],
-    "other": [],
-    "licenses": [
-      "proprietary"
-    ],
-    "types": [
-      "cli"
-    ],
-    "homepage": "https://submain.com/products/codeit.right.aspx",
-    "source": null,
-    "pricing": "https://submain.com/CodeIt.Right/editions/",
-    "plans": {
-      "free": false,
-      "oss": false
-    },
-    "description": "CodeIt.Right&trade; provides a fast, automated way to ensure that your source code adheres to (your) predefined design and style guidelines as well as best coding practices.",
-    "discussion": null,
-    "deprecated": null,
-    "resources": null,
-    "reviews": null,
-    "demos": null,
-    "wrapper": null
-  },
   "codelyzer": {
     "name": "Codelyzer",
     "categories": [
@@ -3712,38 +3681,6 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
-    "reviews": null,
-    "demos": null,
-    "wrapper": null
-  },
-  "codepeer": {
-    "name": "Codepeer",
-    "categories": [
-      "linter"
-    ],
-    "languages": [
-      "ada"
-    ],
-    "other": [],
-    "licenses": [
-      "proprietary"
-    ],
-    "types": [
-      "cli"
-    ],
-    "homepage": "https://www.adacore.com/static-analysis/codepeer",
-    "source": null,
-    "pricing": "https://www.adacore.com/pricing",
-    "plans": null,
-    "description": "Detects run-time and logic errors.",
-    "discussion": null,
-    "deprecated": null,
-    "resources": [
-      {
-        "title": "What's New in CodePeer 19",
-        "url": "https://www.youtube.com/watch?v=8837TUpLLMo"
-      }
-    ],
     "reviews": null,
     "demos": null,
     "wrapper": null
@@ -10911,34 +10848,6 @@
     "demos": null,
     "wrapper": null
   },
-  "ktool": {
-    "name": "ktool",
-    "categories": [
-      "linter"
-    ],
-    "languages": [],
-    "other": [
-      "binary",
-      "security"
-    ],
-    "licenses": [
-      "MIT"
-    ],
-    "types": [
-      "cli"
-    ],
-    "homepage": "https://ktool.cynder.me/en/latest/ktool.html",
-    "source": "https://github.com/cxnder/ktool",
-    "pricing": null,
-    "plans": null,
-    "description": "Fully cross-platform toolkit and library for MachO+Obj-C editing/analysis. Includes a cli kit, a curses GUI, ObjC header dumping, and much more.",
-    "discussion": null,
-    "deprecated": null,
-    "resources": null,
-    "reviews": null,
-    "demos": null,
-    "wrapper": null
-  },
   "kube-hunter": {
     "name": "kube-hunter",
     "categories": [
@@ -12193,7 +12102,7 @@
     "plans": null,
     "description": "Format markdown code blocks using your favorite code formatters.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": false,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -12246,7 +12155,6 @@
       "ci",
       "css",
       "dockerfile",
-      "formatter",
       "gherkin",
       "html",
       "json",
@@ -12929,10 +12837,11 @@
     "categories": [
       "linter"
     ],
-    "languages": [],
-    "other": [
-      "formatter"
+    "languages": [
+      "javascript",
+      "typescript"
     ],
+    "other": [],
     "licenses": [
       "Apache-2.0"
     ],
@@ -13868,7 +13777,7 @@
     "plans": null,
     "description": "Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -17116,38 +17025,6 @@
     "demos": null,
     "wrapper": null
   },
-  "rezilion": {
-    "name": "Rezilion",
-    "categories": [
-      "linter"
-    ],
-    "languages": [],
-    "other": [
-      "security"
-    ],
-    "licenses": [
-      "proprietary"
-    ],
-    "types": [
-      "service"
-    ],
-    "homepage": "https://www.rezilion.com/",
-    "source": null,
-    "pricing": null,
-    "plans": null,
-    "description": "Discovers vulnerabilities for all components in your environment, filters out 85% non-exploitable vulnerabilities and creates a  remediation plan and open tickets to upgrade components that violate your security policy and/or patch automatically in CI.",
-    "discussion": null,
-    "deprecated": null,
-    "resources": [
-      {
-        "title": "Rezilion and CircleCI Integration Demo",
-        "url": "https://www.youtube.com/watch?v=OIhfnVKq-MU"
-      }
-    ],
-    "reviews": null,
-    "demos": null,
-    "wrapper": null
-  },
   "rhabdomancer": {
     "name": "rhabdomancer",
     "categories": [
@@ -18112,33 +17989,6 @@
     "description": "Linter for SCSS files.",
     "discussion": null,
     "deprecated": true,
-    "resources": null,
-    "reviews": null,
-    "demos": null,
-    "wrapper": null
-  },
-  "searchdiggity": {
-    "name": "SearchDiggity",
-    "categories": [
-      "linter"
-    ],
-    "languages": [],
-    "other": [
-      "security"
-    ],
-    "licenses": [
-      "proprietary"
-    ],
-    "types": [
-      "cli"
-    ],
-    "homepage": "https://resources.bishopfox.com/resources/tools/google-hacking-diggity/attack-tools/",
-    "source": null,
-    "pricing": null,
-    "plans": null,
-    "description": "Identifies vulnerabilities in open source code projects  hosted on Github, Google Code, MS CodePlex, SourceForge, and more.  The tool comes with over 130 default searches that identify SQL injection,  cross-site scripting (XSS), insecure remote and local file includes, hard-coded passwords, etc. ",
-    "discussion": null,
-    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -20519,9 +20369,9 @@
       "service",
       "ide-plugin"
     ],
-    "homepage": "https://www.cqse.eu/en/teamscale/overview/",
+    "homepage": "https://teamscale.com",
     "source": null,
-    "pricing": "https://www.cqse.eu/en/teamscale/buy/",
+    "pricing": "https://teamscale.com/pricing",
     "plans": {
       "free": false,
       "oss": false
@@ -20580,7 +20430,7 @@
     "plans": null,
     "description": "Tencent Cloud Code Analysis (TCA for short, code-named CodeDog inside the company early) is a comprehensive platform for code analysis and issue tracking. TCA consist of three components, server, web and client. It integrates of a number of self-developed tools, and also supports dynamic integration of code analysis tools in various programming languages.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,

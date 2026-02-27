@@ -133,7 +133,22 @@ impl Entry {
 
     pub fn from_parsed(p: ParsedEntry, tags: &[Tag]) -> Result<Entry> {
         valid(&p, tags)?;
-        let entry_tags: Result<BTreeSet<Tag>> = p.tags.iter().map(|t| get_tag(t, tags)).collect();
+
+        let tag_results: Vec<Result<Tag>> = p.tags.iter().map(|t| get_tag(t, tags)).collect();
+        let tag_errors: Vec<String> = tag_results
+            .iter()
+            .filter_map(|r| r.as_ref().err().map(|e| e.to_string()))
+            .collect();
+        if !tag_errors.is_empty() {
+            bail!(
+                "Tool '{}': {}\n  File: data/tools/{}.yml",
+                p.name,
+                tag_errors.join("\n"),
+                p.name.to_lowercase().replace(' ', "-")
+            );
+        }
+        let entry_tags: Result<BTreeSet<Tag>> = tag_results.into_iter().collect();
+
         let types: Result<BTreeSet<ToolType>> = p
             .types
             .iter()
