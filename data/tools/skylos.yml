@@ -1,0 +1,14 @@
+name: Skylos                                                         
+categories:                                                          
+  - linter                                                           
+tags:                                                                
+  - python                                                           
+  - typescript                                                       
+  - go                                                               
+  - security   
+types:                                                               
+  - cli  
+homepage: https://github.com/duriantaco/skylos                       
+source: https://github.com/duriantaco/skylos                         
+license: Apache 2.0                                                         
+description: 'Dead code detection, security scanning, secrets detection, and code quality analysis for Python, TypeScript, and Go. Framework-aware analysis with 98% recall. Includes CI/CD GitHub Action, VS Code extension, and MCP server for AI agent integration.'
