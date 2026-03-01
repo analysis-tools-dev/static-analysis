@@ -1,0 +1,23 @@
+name: Code-Graph-RAG
+categories:
+  - meta
+tags:
+  - python
+  - javascript
+  - typescript
+  - rust
+  - go
+  - java
+  - scala
+  - cpp
+  - lua
+license: MIT
+types:
+  - cli
+source: "https://github.com/vitali87/code-graph-rag"
+homepage: "https://code-graph-rag.com"
+description: >-
+  Builds knowledge graphs from multi-language codebases using Tree-sitter AST parsing
+  and stores them in Memgraph. Supports 11 programming languages with a unified graph
+  schema and enables natural language querying and editing of code structure and
+  relationships. Functions as an MCP server for AI assistant integration.
