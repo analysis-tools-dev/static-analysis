@@ -5,7 +5,9 @@ tags:
   - python                                                           
   - typescript                                                       
   - go                                                               
-  - security                                                         
+  - security   
+types:                                                               
+  - cli  
 homepage: https://github.com/duriantaco/skylos                       
 source: https://github.com/duriantaco/skylos                         
 license: Apache 2.0                                                         
