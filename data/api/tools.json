@@ -18487,6 +18487,37 @@
     "demos": null,
     "wrapper": null
   },
+  "skylos": {
+    "name": "Skylos",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "go",
+      "python",
+      "typescript"
+    ],
+    "other": [
+      "security"
+    ],
+    "licenses": [
+      "Apache 2.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/duriantaco/skylos",
+    "source": "https://github.com/duriantaco/skylos",
+    "pricing": null,
+    "plans": null,
+    "description": "Dead code detection, security scanning, secrets detection, and code quality analysis for Python, TypeScript, and Go. Framework-aware analysis with 98% recall. Includes CI/CD GitHub Action, VS Code extension, and MCP server for AI agent integration.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "sleek": {
     "name": "sleek",
     "categories": [
