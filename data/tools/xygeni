@@ -1,0 +1,16 @@
+name: Xygeni
+categories:
+  - linter
+tags:
+  - binary
+license: proprietary
+types:
+  - cli
+homepage: "https://xygeni.io/xygeni-code-security/"
+pricing: https://xygeni.io/pricing/
+plans:
+  free: false
+  oss: false
+description: >-
+  Xygeni provides advanced Static Source Code Analysis (SAST) to detect 
+  security flaws and vulnerabilities in application code.
