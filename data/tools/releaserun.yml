@@ -1,0 +1,22 @@
+name: releaserun
+categories:
+  - linter
+tags:
+  - security
+  - nodejs
+  - python
+  - go
+  - rust
+  - dockerfile
+license: MIT
+types:
+  - cli
+source: "https://github.com/Releaserun/releaserun-cli"
+homepage: "https://releaserun.com/tools/dependency-eol-scanner/"
+description: >-
+  CLI tool that scans project dependencies for known CVEs, end-of-life
+  status, and deprecated packages across multiple ecosystems. Supports
+  Node.js (package.json), Python (requirements.txt), Go (go.mod), Rust
+  (Cargo.toml), and Dockerfiles. Reports vulnerability severity, EOL
+  dates, and suggests upgrade paths. Available as npm package and GitHub
+  Action for CI/CD integration.
