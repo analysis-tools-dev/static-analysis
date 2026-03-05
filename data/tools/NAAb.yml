@@ -1,0 +1,19 @@
+name: NAAb
+categories:
+  - linter
+tags:
+  - python
+  - javascript
+  - rust
+  - go
+  - c_cpp
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/b-macker/NAAb'
+homepage: 'https://b-macker.github.io/NAAb/'
+description: >-
+  Polyglot programming language with built-in LLM governance engine. Embeds 12 languages
+  (Python, JS, Rust, C++, Go, Nim, Zig, Julia, Ruby, PHP, C#, Shell) in one file.
+  50+ governance checks detect hallucinated APIs, oversimplified stubs, incomplete logic,
+  and security issues in AI-generated polyglot code. Three enforcement tiers (hard/soft/advisory).
