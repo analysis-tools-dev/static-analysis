@@ -1,0 +1,28 @@
+name: NoPII
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - go
+  - javascript
+  - python
+  - rust
+  - solidity
+  - swift
+  - typescript
+  - security
+license: proprietary
+types:
+  - service
+homepage: https://nopii.xyz
+source: https://github.com/ETwithin/nopii
+description: >-
+  AI-powered code review API and GitHub Action. Detects security vulnerabilities
+  (OWASP Top 10, injection, auth flaws, hardcoded secrets), bugs, and code quality
+  issues via a single API call. Supports multiple languages. Free tier available
+  with 10 reviews per month.
+pricing: https://nopii.xyz/#pricing
+plans:
+  free: true
+  oss: false
