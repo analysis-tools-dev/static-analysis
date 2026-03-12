@@ -12,7 +12,7 @@ license: MIT
 types:
   - cli
 source: "https://github.com/Releaserun/releaserun-cli"
-homepage: "https://releaserun.com/tools/dependency-eol-scanner/"
+homepage: "https://releaserun.com/tools/dep-eol-scanner/"
 description: >-
   CLI tool that scans project dependencies for known CVEs, end-of-life
   status, and deprecated packages across multiple ecosystems. Supports
