@@ -1,0 +1,20 @@
+name: AgentShield
+categories:
+  - linter
+tags:
+  - javascript
+  - python
+  - security
+  - typescript
+  - yaml
+license: MIT
+types:
+  - cli
+source: 'https://github.com/elliotllliu/agent-shield'
+homepage: 'https://www.npmjs.com/package/@elliotllliu/agent-shield'
+description: >-
+  Security scanner for AI agent skills, MCP servers, and plugins.
+  31 rules detect prompt injection, data exfiltration, backdoors,
+  tool poisoning, and cross-file attack chains.
+  Includes MCP runtime proxy and Python AST taint tracking.
+  Free, offline, zero-config.
