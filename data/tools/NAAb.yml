@@ -6,7 +6,14 @@ tags:
   - javascript
   - rust
   - go
-  - c_cpp
+  - c
+  - cpp
+  - csharp
+  - ruby
+  - php
+  - nim
+  - julia
+  - shell
 license: MIT License
 types:
   - cli
