@@ -933,6 +933,33 @@
     "demos": null,
     "wrapper": null
   },
+  "axe-core": {
+    "name": "axe-core",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "html"
+    ],
+    "licenses": [
+      "MPL-2.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://www.deque.com/axe/",
+    "source": "https://github.com/dequelabs/axe-core",
+    "pricing": null,
+    "plans": null,
+    "description": "Accessibility engine for automated Web UI testing. Tests HTML against WCAG 2.0, 2.1, and 2.2 guidelines. Used by Google Lighthouse, Microsoft Accessibility Insights, and thousands of organizations worldwide.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "axivion-bauhaus-suite": {
     "name": "Axivion Bauhaus Suite",
     "categories": [
@@ -3246,6 +3273,41 @@
     "pricing": null,
     "plans": null,
     "description": "An analyzer library for C# and VB that uses Roslyn to produce refactorings, code analysis, and other niceties.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "code-graph-rag": {
+    "name": "Code-Graph-RAG",
+    "categories": [
+      "meta"
+    ],
+    "languages": [
+      "cpp",
+      "go",
+      "java",
+      "javascript",
+      "lua",
+      "python",
+      "rust",
+      "scala",
+      "typescript"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://code-graph-rag.com",
+    "source": "https://github.com/vitali87/code-graph-rag",
+    "pricing": null,
+    "plans": null,
+    "description": "Builds knowledge graphs from multi-language codebases using Tree-sitter AST parsing and stores them in Memgraph. Supports 11 programming languages with a unified graph schema and enables natural language querying and editing of code structure and relationships. Functions as an MCP server for AI assistant integration.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
@@ -5937,6 +5999,34 @@
         "url": "https://www.youtube.com/watch?v=Nxsw1jRE2A4&t=709s"
       }
     ],
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "diesel-guard": {
+    "name": "diesel-guard",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "rust",
+      "sql"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/ayarotsky/diesel-guard",
+    "source": "https://github.com/ayarotsky/diesel-guard",
+    "pricing": null,
+    "plans": null,
+    "description": "Linter for dangerous Postgres migration patterns in Diesel and SQLx. Prevents downtime caused by unsafe schema changes.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
     "reviews": null,
     "demos": null,
     "wrapper": null
@@ -13396,6 +13486,33 @@
     "demos": [
       "https://web-infra-dev.github.io/oxc/playground"
     ],
+    "wrapper": null
+  },
+  "pa11y": {
+    "name": "Pa11y",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "html"
+    ],
+    "licenses": [
+      "LGPL-3.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://pa11y.org/",
+    "source": "https://github.com/pa11y/pa11y",
+    "pricing": null,
+    "plans": null,
+    "description": "Automated accessibility testing tool that runs HTML CodeSniffer or axe-core from the command line. Supports CI/CD integration, multiple reporters, and testing against WCAG 2.1 AA standards.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "packj": {
