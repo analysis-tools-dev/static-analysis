@@ -1,0 +1,42 @@
+[package]
+name = "pr-check"
+version = "0.1.0"
+edition = "2024"
+description = "Checks pull requests against contributing criteria"
+license = "MIT"
+repository = "https://github.com/analysis-tools-dev/static-analysis"
+
+[lints.clippy]
+correctness = { level = "deny", priority = -1 }
+style = { level = "warn", priority = -1 }
+complexity = { level = "warn", priority = -1 }
+perf = { level = "warn", priority = -1 }
+suspicious = { level = "warn", priority = -1 }
+cargo = { level = "warn", priority = -1 }
+pedantic = { level = "warn", priority = -1 }
+nursery = { level = "warn", priority = -1 }
+missing_docs_in_private_items = "warn"
+missing_errors_doc = "warn"
+missing_panics_doc = "warn"
+unwrap_used = "deny"
+expect_used = "warn"
+panic = "deny"
+unimplemented = "deny"
+unreachable = "deny"
+todo = "warn"
+print_stdout = "warn"
+print_stderr = "warn"
+dbg_macro = "warn"
+module_name_repetitions = "allow"
+similar_names = "allow"
+too_many_lines = "allow"
+
+[dependencies]
+anyhow = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+pico-args = "0.5"
+reqwest = { version = "0.12", features = ["json", "rustls-tls"], default-features = false }
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.9"
+serde_json = "1.0"
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }

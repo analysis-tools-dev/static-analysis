@@ -1,0 +1,49 @@
+name: PR Check
+
+on:
+  pull_request:
+    branches: [master]
+    paths:
+      - 'data/tools/**.yml'
+
+jobs:
+  pr-check:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get changed tool files
+        id: changed
+        run: |
+          FILES=$(git diff --name-only --diff-filter=A origin/master...HEAD -- 'data/tools/*.yml' | tr '\n' ' ')
+          echo "files=$FILES" >> "$GITHUB_OUTPUT"
+
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache cargo registry
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            data/pr-check/target
+          key: pr-check-${{ runner.os }}-${{ hashFiles('data/pr-check/Cargo.lock') }}
+          restore-keys: |
+            pr-check-${{ runner.os }}-
+
+      - name: Build pr-check
+        run: cargo build --release --manifest-path data/pr-check/Cargo.toml
+
+      - name: Run pr-check
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          data/pr-check/target/release/pr-check ${{ steps.changed.outputs.files }}
