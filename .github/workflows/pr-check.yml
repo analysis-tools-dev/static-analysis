@@ -5,6 +5,7 @@ on:
     branches: [master]
     paths:
       - "data/tools/**.yml"
+      - "ci/**"
 
 jobs:
   pr-check:
@@ -32,13 +33,13 @@ jobs:
           path: |
             ~/.cargo/registry
             ~/.cargo/git
-            data/target
-          key: pr-check-${{ runner.os }}-${{ hashFiles('data/Cargo.lock') }}
+            ci/target
+          key: pr-check-${{ runner.os }}-${{ hashFiles('ci/Cargo.lock') }}
           restore-keys: |
             pr-check-${{ runner.os }}-
 
       - name: Build pr-check
-        run: cargo build --release --manifest-path data/Cargo.toml -p pr-check
+        run: cargo build --release --manifest-path ci/Cargo.toml -p pr-check
 
       - name: Run pr-check
         env:
@@ -46,4 +47,4 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
         run: |
-          data/target/release/pr-check ${{ steps.changed.outputs.files }}
+          ci/target/release/pr-check ${{ steps.changed.outputs.files }}
