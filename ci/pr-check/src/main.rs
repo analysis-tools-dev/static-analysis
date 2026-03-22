@@ -427,7 +427,11 @@ async fn main() -> Result<()> {
     let tool_paths: Vec<PathBuf> = tool_paths
         .into_iter()
         .filter(|p| {
-            p.starts_with("data/tools") && p.extension().and_then(|e| e.to_str()) == Some("yml")
+            p.starts_with("data/tools")
+                && matches!(
+                    p.extension().and_then(|e| e.to_str()),
+                    Some("yml") | Some("yaml")
+                )
         })
         .collect();
 

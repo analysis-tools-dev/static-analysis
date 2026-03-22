@@ -26,13 +26,22 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Check out PR head for manual runs
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          PR_REF=$(gh pr view ${{ inputs.pr_number }} --repo ${{ github.repository }} --json headRefName --jq '.headRefName')
+          git fetch origin "$PR_REF"
+          git checkout FETCH_HEAD -- ${{ inputs.tool_files }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Get changed tool files
         id: changed
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             FILES="${{ inputs.tool_files }}"
           else
-            FILES=$(git diff --name-only --diff-filter=A origin/master...HEAD -- 'data/tools/*.yml' | tr '\n' ' ')
+            FILES=$(git diff --name-only --diff-filter=A origin/master...HEAD -- 'data/tools/*.yml' 'data/tools/*.yaml' | tr '\n' ' ')
           fi
           echo "files=$FILES" >> "$GITHUB_OUTPUT"
 
