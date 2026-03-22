@@ -59,15 +59,6 @@ struct Contributor {
 struct IssueComment {
     id: u64,
     body: String,
-    user: CommentUser,
-}
-
-/// The author of a comment.
-#[derive(Debug, Deserialize)]
-struct CommentUser {
-    login: String,
-    #[serde(rename = "type")]
-    account_type: String,
 }
 
 // ---------------------------------------------------------------------------
@@ -473,10 +464,7 @@ async fn upsert_comment(
 ) -> Result<()> {
     let comments = client.list_pr_comments(repo, pr).await?;
 
-    let existing = comments.iter().find(|c| {
-        (c.user.account_type == "Bot" || c.user.login.ends_with("[bot]") || c.user.login == "github-actions[bot]")
-            && c.body.contains(COMMENT_MARKER)
-    });
+    let existing = comments.iter().find(|c| c.body.contains(COMMENT_MARKER));
 
     match existing {
         Some(c) => client.update_pr_comment(repo, c.id, body).await,
