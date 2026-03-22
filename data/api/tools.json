@@ -8561,7 +8561,7 @@
     "plans": null,
     "description": "Go AST (Abstract Syntax Tree) based static analysis tool with Rego.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
