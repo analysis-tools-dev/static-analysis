@@ -19,6 +19,7 @@
 //!   PR_NUMBER      - the pull request number
 
 use anyhow::{Context, Result, bail};
+use askama::Template;
 use chrono::{DateTime, Duration, Utc};
 use render::types::ParsedEntry;
 use serde::Deserialize;
@@ -98,6 +99,18 @@ impl ToolReport {
     fn any_fail(&self) -> bool {
         self.stars.is_fail() || self.contributors.is_fail() || self.age.is_fail()
     }
+
+    fn status(&self) -> &'static str {
+        if self.any_fail() { "FAIL" } else { "PASS" }
+    }
+}
+
+#[derive(Template)]
+#[template(path = "comment.md")]
+struct CommentTemplate<'a> {
+    marker: &'a str,
+    reports: &'a [ToolReport],
+    any_failures: bool,
 }
 
 struct GithubClient {
@@ -357,63 +370,19 @@ async fn check_tool(client: &GithubClient, tool: &ParsedEntry) -> Result<ToolRep
 }
 
 /// Renders all tool reports into a Markdown comment body.
-fn render_comment(reports: &[ToolReport]) -> String {
+///
+/// # Errors
+///
+/// Returns an error if the template fails to render.
+fn render_comment(reports: &[ToolReport]) -> Result<String> {
     let any_failures = reports.iter().any(|r| r.any_fail());
-
-    let mut out = String::new();
-
-    out.push_str(COMMENT_MARKER);
-    out.push('\n');
-    out.push_str("## Contributing criteria check\n\n");
-
-    if reports.is_empty() {
-        out.push_str("No new tool files detected in `data/tools/`. Nothing to check.\n");
-        return out;
+    CommentTemplate {
+        marker: COMMENT_MARKER,
+        reports,
+        any_failures,
     }
-
-    for report in reports {
-        let status = if report.any_fail() { "FAIL" } else { "PASS" };
-        out.push_str(&format!("### [{}] `{}`\n\n", status, report.name));
-
-        if let Some(src) = &report.source {
-            out.push_str(&format!("Source: {src}\n\n"));
-        }
-
-        if let Some(note) = &report.note {
-            out.push_str(&format!("> **Note:** {note}\n\n"));
-        }
-
-        out.push_str("| Criterion | Result |\n");
-        out.push_str("|---|---|\n");
-
-        for (label, check) in [
-            ("Stars (min 20)", &report.stars),
-            ("Contributors (min 2)", &report.contributors),
-            ("Age (min 3 months)", &report.age),
-        ] {
-            out.push_str(&format!(
-                "| {} | {} {} |\n",
-                label,
-                check.symbol(),
-                check.message()
-            ));
-        }
-
-        out.push('\n');
-    }
-
-    if any_failures {
-        out.push_str("---\n\n");
-        out.push_str(
-            "One or more tools do not meet the [contributing criteria](CONTRIBUTING.md) yet. \
-             We will keep this PR open. Feel free to update it once the thresholds are met.\n",
-        );
-    } else {
-        out.push_str("---\n\n");
-        out.push_str("All criteria passed. Thank you for your contribution.\n");
-    }
-
-    out
+    .render()
+    .context("Failed to render comment template")
 }
 
 /// Posts or updates the bot comment on the PR.
@@ -472,7 +441,7 @@ async fn main() -> Result<()> {
         reports.push(report);
     }
 
-    let comment_body = render_comment(&reports);
+    let comment_body = render_comment(&reports)?;
 
     upsert_comment(&client, &gh_repo, pr_number, &comment_body).await?;
 
@@ -521,13 +490,13 @@ mod tests {
 
     #[test]
     fn render_comment_no_files() {
-        let comment = render_comment(&[]);
+        let comment = render_comment(&[]).unwrap();
         assert!(comment.contains("No new tool files detected"));
     }
 
     #[test]
     fn render_comment_contains_marker() {
-        let comment = render_comment(&[]);
+        let comment = render_comment(&[]).unwrap();
         assert!(comment.contains(COMMENT_MARKER));
     }
 }

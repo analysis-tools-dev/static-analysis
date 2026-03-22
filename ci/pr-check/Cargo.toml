@@ -35,6 +35,7 @@ too_many_lines = "allow"
 [dependencies]
 render = { path = "../render" }
 anyhow = { workspace = true }
+askama = { workspace = true }
 chrono = { workspace = true }
 pico-args = { workspace = true }
 serde = { workspace = true }

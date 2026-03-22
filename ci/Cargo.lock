@@ -996,6 +996,7 @@ name = "pr-check"
 version = "0.1.0"
 dependencies = [
  "anyhow",
+ "askama",
  "chrono",
  "pico-args",
  "render",
