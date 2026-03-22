@@ -6,6 +6,14 @@ on:
     paths:
       - "data/tools/**.yml"
       - "ci/**"
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: "PR number to check"
+        required: true
+      tool_files:
+        description: "Space-separated list of tool YAML files to check (e.g. data/tools/foo.yml)"
+        required: true
 
 jobs:
   pr-check:
@@ -21,7 +29,11 @@ jobs:
       - name: Get changed tool files
         id: changed
         run: |
-          FILES=$(git diff --name-only --diff-filter=A origin/master...HEAD -- 'data/tools/*.yml' | tr '\n' ' ')
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            FILES="${{ inputs.tool_files }}"
+          else
+            FILES=$(git diff --name-only --diff-filter=A origin/master...HEAD -- 'data/tools/*.yml' | tr '\n' ' ')
+          fi
           echo "files=$FILES" >> "$GITHUB_OUTPUT"
 
       - name: Install Rust toolchain
@@ -45,6 +57,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_NUMBER: ${{ github.event_name == 'workflow_dispatch' && inputs.pr_number || github.event.pull_request.number }}
         run: |
           ci/target/release/pr-check ${{ steps.changed.outputs.files }}
