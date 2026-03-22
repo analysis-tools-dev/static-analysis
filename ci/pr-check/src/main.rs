@@ -340,20 +340,18 @@ async fn check_tool(client: &GithubClient, tool: &ParsedEntry) -> Result<ToolRep
             note: None,
         })
     } else {
-        // Not a GitHub repo or no source field.
-        let note = if source.is_none() {
-            "No source URL provided. Please add a `source` field pointing to the repository.".into()
-        } else {
-            "Source is not a GitHub repository. Stars, contributor count, and age cannot be checked automatically. Please verify these manually against the contributing criteria.".into()
-        };
+        // No source or non-GitHub source. This is fine for proprietary or
+        // hosted tools. Skip automated checks and leave a note for manual review.
+        let note = "No GitHub source URL found. Automated checks for stars, contributor count, \
+                    and age are not possible. Please verify the contributing criteria manually.";
 
         Ok(ToolReport {
             name: tool.name.to_string(),
             source,
-            stars: CheckResult::Skip("N/A (non-GitHub source)".into()),
-            contributors: CheckResult::Skip("N/A (non-GitHub source)".into()),
-            age: CheckResult::Skip("N/A (non-GitHub source)".into()),
-            note: Some(note),
+            stars: CheckResult::Skip("N/A".into()),
+            contributors: CheckResult::Skip("N/A".into()),
+            age: CheckResult::Skip("N/A".into()),
+            note: Some(note.into()),
         })
     }
 }
