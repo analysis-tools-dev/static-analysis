@@ -145,7 +145,7 @@ impl GithubClient {
     ///
     /// Returns an error on network failure or if the response cannot be
     /// deserialised as `T`.
-    async fn get<T: for<'de> Deserialize<'de>>(&self, url: &str) -> Result<T> {
+    async fn get<T: for<'de> Deserialize<'de>>(&self, url: &str) -> Result<Option<T>> {
         let resp = self
             .client
             .get(url)
@@ -157,6 +157,9 @@ impl GithubClient {
             .with_context(|| format!("GET {url} failed"))?;
 
         let status = resp.status();
+        if status == reqwest::StatusCode::NOT_FOUND {
+            return Ok(None);
+        }
         if !status.is_success() {
             let body = resp.text().await.unwrap_or_default();
             bail!("GET {url} returned {status}: {body}");
@@ -165,6 +168,7 @@ impl GithubClient {
         resp.json::<T>()
             .await
             .with_context(|| format!("Failed to deserialise response from {url}"))
+            .map(Some)
     }
 
     /// Fetches repository metadata.
@@ -172,7 +176,7 @@ impl GithubClient {
     /// # Errors
     ///
     /// Returns an error if the API call fails.
-    async fn repo_info(&self, owner: &str, repo: &str) -> Result<RepoInfo> {
+    async fn repo_info(&self, owner: &str, repo: &str) -> Result<Option<RepoInfo>> {
         let url = format!("https://api.github.com/repos/{owner}/{repo}");
         self.get::<RepoInfo>(&url).await
     }
@@ -183,16 +187,18 @@ impl GithubClient {
     /// # Errors
     ///
     /// Returns an error if the API call fails.
-    async fn contributor_count(&self, owner: &str, repo: &str) -> Result<usize> {
+    async fn contributor_count(&self, owner: &str, repo: &str) -> Result<Option<usize>> {
         let url =
             format!("https://api.github.com/repos/{owner}/{repo}/contributors?per_page=100&anon=0");
-        let contributors = self.get::<Vec<Contributor>>(&url).await?;
+        let Some(contributors) = self.get::<Vec<Contributor>>(&url).await? else {
+            return Ok(None);
+        };
         // Exclude bot accounts from the contributor count.
         let human_count = contributors
             .iter()
             .filter(|c| c.account_type != "Bot")
             .count();
-        Ok(human_count)
+        Ok(Some(human_count))
     }
 
     /// Lists all comments on a PR/issue.
@@ -202,7 +208,9 @@ impl GithubClient {
     /// Returns an error if the API call fails.
     async fn list_pr_comments(&self, repo: &str, pr: u64) -> Result<Vec<IssueComment>> {
         let url = format!("https://api.github.com/repos/{repo}/issues/{pr}/comments?per_page=100");
-        self.get::<Vec<IssueComment>>(&url).await
+        self.get::<Vec<IssueComment>>(&url)
+            .await?
+            .with_context(|| format!("PR {pr} not found in {repo}"))
     }
 
     /// Creates a new PR comment.
@@ -310,7 +318,7 @@ async fn check_tool(client: &GithubClient, tool: &ToolEntry) -> Result<ToolRepor
         let contributors_result = client.contributor_count(&owner, &repo).await;
 
         let stars_check = match &repo_result {
-            Ok(info) => {
+            Ok(Some(info)) => {
                 let s = info.stargazers_count;
                 if s >= MIN_STARS {
                     CheckResult::Pass(format!("{s} stars"))
@@ -318,11 +326,12 @@ async fn check_tool(client: &GithubClient, tool: &ToolEntry) -> Result<ToolRepor
                     CheckResult::Fail(format!("{s} stars (minimum is {MIN_STARS})"))
                 }
             }
+            Ok(None) => CheckResult::Skip("repository not found".into()),
             Err(e) => CheckResult::Fail(format!("Could not fetch repo info: {e}")),
         };
 
         let age_check = match &repo_result {
-            Ok(info) => {
+            Ok(Some(info)) => {
                 let age = Utc::now().signed_duration_since(info.created_at);
                 let days = age.num_days();
                 let months = days / 30;
@@ -335,11 +344,12 @@ async fn check_tool(client: &GithubClient, tool: &ToolEntry) -> Result<ToolRepor
                     ))
                 }
             }
+            Ok(None) => CheckResult::Skip("repository not found".into()),
             Err(_) => CheckResult::Skip("Could not determine age (repo info unavailable)".into()),
         };
 
         let contributors_check = match contributors_result {
-            Ok(count) => {
+            Ok(Some(count)) => {
                 if count >= MIN_CONTRIBUTORS {
                     CheckResult::Pass(format!("{count} contributors"))
                 } else {
@@ -348,8 +358,14 @@ async fn check_tool(client: &GithubClient, tool: &ToolEntry) -> Result<ToolRepor
                     ))
                 }
             }
+            Ok(None) => CheckResult::Skip("repository not found".into()),
             Err(e) => CheckResult::Fail(format!("Could not fetch contributors: {e}")),
         };
+
+        let repo_not_found = matches!(repo_result, Ok(None));
+        let note = repo_not_found.then_some(
+            "The source URL returned a 404. Please check that the repository exists and is public.",
+        );
 
         Ok(ToolReport {
             name: tool.name.to_string(),
@@ -357,7 +373,7 @@ async fn check_tool(client: &GithubClient, tool: &ToolEntry) -> Result<ToolRepor
             stars: stars_check,
             contributors: contributors_check,
             age: age_check,
-            note: None,
+            note: note.map(str::to_owned),
         })
     } else {
         // No source or non-GitHub source. This is fine for proprietary or
