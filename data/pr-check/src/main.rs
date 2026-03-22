@@ -25,20 +25,12 @@ use std::collections::HashMap;
 use std::env;
 use std::path::{Path, PathBuf};
 
-// ---------------------------------------------------------------------------
-// YAML tool schema (minimal subset we need)
-// ---------------------------------------------------------------------------
-
 /// A parsed tool entry from `data/tools/<name>.yml`.
 #[derive(Debug, Deserialize)]
 struct ToolEntry {
     name: String,
     source: Option<String>,
 }
-
-// ---------------------------------------------------------------------------
-// GitHub REST API response types
-// ---------------------------------------------------------------------------
 
 /// Response from `GET /repos/{owner}/{repo}`.
 #[derive(Debug, Deserialize)]
@@ -61,20 +53,12 @@ struct IssueComment {
     body: String,
 }
 
-// ---------------------------------------------------------------------------
-// Criteria thresholds
-// ---------------------------------------------------------------------------
-
 const MIN_STARS: u64 = 20;
 const MIN_CONTRIBUTORS: usize = 2;
 const MIN_AGE_DAYS: i64 = 90;
 
 // Marker text embedded in every comment we post so we can find and update it.
 const COMMENT_MARKER: &str = "<!-- pr-check-bot -->";
-
-// ---------------------------------------------------------------------------
-// Check result types
-// ---------------------------------------------------------------------------
 
 /// The outcome of one criterion check.
 #[derive(Debug)]
@@ -121,10 +105,6 @@ impl ToolReport {
         self.stars.is_fail() || self.contributors.is_fail() || self.age.is_fail()
     }
 }
-
-// ---------------------------------------------------------------------------
-// GitHub API client
-// ---------------------------------------------------------------------------
 
 struct GithubClient {
     client: reqwest::Client,
@@ -270,10 +250,6 @@ impl GithubClient {
         Ok(())
     }
 }
-
-// ---------------------------------------------------------------------------
-// Core logic
-// ---------------------------------------------------------------------------
 
 /// Parses `owner` and `repo` out of a GitHub URL like
 /// `https://github.com/owner/repo` or `https://github.com/owner/repo/`.
@@ -472,10 +448,6 @@ async fn upsert_comment(
     }
 }
 
-// ---------------------------------------------------------------------------
-// Entry point
-// ---------------------------------------------------------------------------
-
 /// Parses a PR number from a string.
 ///
 /// # Errors
@@ -531,10 +503,6 @@ async fn main() -> Result<()> {
 
     Ok(())
 }
-
-// ---------------------------------------------------------------------------
-// Tests
-// ---------------------------------------------------------------------------
 
 #[cfg(test)]
 mod tests {
