@@ -67,11 +67,11 @@ impl CheckResult {
         matches!(self, Self::Fail(_))
     }
 
-    fn emoji(&self) -> &'static str {
+    fn symbol(&self) -> &'static str {
         match self {
-            Self::Pass(_) => "✅",
-            Self::Fail(_) => "❌",
-            Self::Skip(_) => "⚪",
+            Self::Pass(_) => "pass",
+            Self::Fail(_) => "fail",
+            Self::Skip(_) => "skip",
         }
     }
 
@@ -372,8 +372,8 @@ fn render_comment(reports: &[ToolReport]) -> String {
     }
 
     for report in reports {
-        let status_icon = if report.any_fail() { "❌" } else { "✅" };
-        out.push_str(&format!("### {} `{}`\n\n", status_icon, report.name));
+        let status = if report.any_fail() { "FAIL" } else { "PASS" };
+        out.push_str(&format!("### [{}] `{}`\n\n", status, report.name));
 
         if let Some(src) = &report.source {
             out.push_str(&format!("Source: {src}\n\n"));
@@ -394,7 +394,7 @@ fn render_comment(reports: &[ToolReport]) -> String {
             out.push_str(&format!(
                 "| {} | {} {} |\n",
                 label,
-                check.emoji(),
+                check.symbol(),
                 check.message()
             ));
         }
