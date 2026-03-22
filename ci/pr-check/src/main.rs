@@ -21,11 +21,18 @@
 use anyhow::{Context, Result, bail};
 use askama::Template;
 use chrono::{DateTime, Duration, Utc};
-use render::types::ParsedEntry;
 use serde::Deserialize;
 use std::collections::HashMap;
 use std::env;
 use std::path::{Path, PathBuf};
+
+/// A minimal tool entry parsed from `data/tools/<name>.yml`.
+/// Only the fields needed for the contributing criteria check are required.
+#[derive(Debug, Deserialize)]
+struct ToolEntry {
+    name: String,
+    source: Option<String>,
+}
 
 /// Response from `GET /repos/{owner}/{repo}`.
 #[derive(Debug, Deserialize)]
@@ -282,7 +289,7 @@ fn parse_github_repo(url: &str) -> Option<(String, String)> {
 /// # Errors
 ///
 /// Returns an error if the file cannot be read or parsed.
-fn read_tool(path: &Path) -> Result<ParsedEntry> {
+fn read_tool(path: &Path) -> Result<ToolEntry> {
     let f = std::fs::File::open(path).with_context(|| format!("Cannot open {}", path.display()))?;
     serde_yaml::from_reader(f).with_context(|| format!("Cannot parse {}", path.display()))
 }
@@ -293,7 +300,7 @@ fn read_tool(path: &Path) -> Result<ParsedEntry> {
 ///
 /// Returns an error only for unexpected failures (network, auth). Missing
 /// criteria produce `CheckResult::Fail` values, not errors.
-async fn check_tool(client: &GithubClient, tool: &ParsedEntry) -> Result<ToolReport> {
+async fn check_tool(client: &GithubClient, tool: &ToolEntry) -> Result<ToolReport> {
     let source = tool.source.clone();
 
     let gh_coords = source.as_deref().and_then(parse_github_repo);
