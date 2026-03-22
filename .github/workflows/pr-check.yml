@@ -29,8 +29,7 @@ jobs:
       - name: Check out PR head for manual runs
         if: github.event_name == 'workflow_dispatch'
         run: |
-          PR_REF=$(gh pr view ${{ inputs.pr_number }} --repo ${{ github.repository }} --json headRefName --jq '.headRefName')
-          git fetch origin "$PR_REF"
+          git fetch origin "refs/pull/${{ inputs.pr_number }}/head"
           git checkout FETCH_HEAD -- ${{ inputs.tool_files }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
