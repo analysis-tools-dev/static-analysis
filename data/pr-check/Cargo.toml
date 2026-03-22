@@ -5,6 +5,7 @@ edition = "2024"
 description = "Checks pull requests against contributing criteria"
 license = "MIT"
 repository = "https://github.com/analysis-tools-dev/static-analysis"
+publish = false
 
 [lints.clippy]
 correctness = { level = "deny", priority = -1 }
@@ -32,11 +33,12 @@ similar_names = "allow"
 too_many_lines = "allow"
 
 [dependencies]
-anyhow = "1.0"
-chrono = { version = "0.4", features = ["serde"] }
-pico-args = "0.5"
+render = { path = "../render" }
+anyhow = { workspace = true }
+chrono = { workspace = true }
+pico-args = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+serde_yaml = { workspace = true }
+tokio = { workspace = true }
 reqwest = { version = "0.12", features = ["json", "rustls-tls"], default-features = false }
-serde = { version = "1.0", features = ["derive"] }
-serde_yaml = "0.9"
-serde_json = "1.0"
-tokio = { version = "1", features = ["rt-multi-thread", "macros"] }

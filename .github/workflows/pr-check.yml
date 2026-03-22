@@ -4,7 +4,7 @@ on:
   pull_request:
     branches: [master]
     paths:
-      - 'data/tools/**.yml'
+      - "data/tools/**.yml"
 
 jobs:
   pr-check:
@@ -32,13 +32,13 @@ jobs:
           path: |
             ~/.cargo/registry
             ~/.cargo/git
-            data/pr-check/target
-          key: pr-check-${{ runner.os }}-${{ hashFiles('data/pr-check/Cargo.lock') }}
+            data/target
+          key: pr-check-${{ runner.os }}-${{ hashFiles('data/Cargo.lock') }}
           restore-keys: |
             pr-check-${{ runner.os }}-
 
       - name: Build pr-check
-        run: cargo build --release --manifest-path data/pr-check/Cargo.toml
+        run: cargo build --release --manifest-path data/Cargo.toml -p pr-check
 
       - name: Run pr-check
         env:
@@ -46,4 +46,4 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
         run: |
-          data/pr-check/target/release/pr-check ${{ steps.changed.outputs.files }}
+          data/target/release/pr-check ${{ steps.changed.outputs.files }}

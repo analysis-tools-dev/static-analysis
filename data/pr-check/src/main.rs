@@ -20,17 +20,11 @@
 
 use anyhow::{Context, Result, bail};
 use chrono::{DateTime, Duration, Utc};
+use render::types::ParsedEntry;
 use serde::Deserialize;
 use std::collections::HashMap;
 use std::env;
 use std::path::{Path, PathBuf};
-
-/// A parsed tool entry from `data/tools/<name>.yml`.
-#[derive(Debug, Deserialize)]
-struct ToolEntry {
-    name: String,
-    source: Option<String>,
-}
 
 /// Response from `GET /repos/{owner}/{repo}`.
 #[derive(Debug, Deserialize)]
@@ -187,8 +181,7 @@ impl GithubClient {
     ///
     /// Returns an error if the API call fails.
     async fn list_pr_comments(&self, repo: &str, pr: u64) -> Result<Vec<IssueComment>> {
-        let url =
-            format!("https://api.github.com/repos/{repo}/issues/{pr}/comments?per_page=100");
+        let url = format!("https://api.github.com/repos/{repo}/issues/{pr}/comments?per_page=100");
         self.get::<Vec<IssueComment>>(&url).await
     }
 
@@ -276,7 +269,7 @@ fn parse_github_repo(url: &str) -> Option<(String, String)> {
 /// # Errors
 ///
 /// Returns an error if the file cannot be read or parsed.
-fn read_tool(path: &Path) -> Result<ToolEntry> {
+fn read_tool(path: &Path) -> Result<ParsedEntry> {
     let f = std::fs::File::open(path).with_context(|| format!("Cannot open {}", path.display()))?;
     serde_yaml::from_reader(f).with_context(|| format!("Cannot parse {}", path.display()))
 }
@@ -287,7 +280,7 @@ fn read_tool(path: &Path) -> Result<ToolEntry> {
 ///
 /// Returns an error only for unexpected failures (network, auth). Missing
 /// criteria produce `CheckResult::Fail` values, not errors.
-async fn check_tool(client: &GithubClient, tool: &ToolEntry) -> Result<ToolReport> {
+async fn check_tool(client: &GithubClient, tool: &ParsedEntry) -> Result<ToolReport> {
     let source = tool.source.clone();
 
     let gh_coords = source.as_deref().and_then(parse_github_repo);
@@ -302,9 +295,7 @@ async fn check_tool(client: &GithubClient, tool: &ToolEntry) -> Result<ToolRepor
                 if s >= MIN_STARS {
                     CheckResult::Pass(format!("{s} stars"))
                 } else {
-                    CheckResult::Fail(format!(
-                        "{s} stars (minimum is {MIN_STARS})"
-                    ))
+                    CheckResult::Fail(format!("{s} stars (minimum is {MIN_STARS})"))
                 }
             }
             Err(e) => CheckResult::Fail(format!("Could not fetch repo info: {e}")),
@@ -341,7 +332,7 @@ async fn check_tool(client: &GithubClient, tool: &ToolEntry) -> Result<ToolRepor
         };
 
         Ok(ToolReport {
-            name: tool.name.clone(),
+            name: tool.name.to_string(),
             source,
             stars: stars_check,
             contributors: contributors_check,
@@ -357,7 +348,7 @@ async fn check_tool(client: &GithubClient, tool: &ToolEntry) -> Result<ToolRepor
         };
 
         Ok(ToolReport {
-            name: tool.name.clone(),
+            name: tool.name.to_string(),
             source,
             stars: CheckResult::Skip("N/A (non-GitHub source)".into()),
             contributors: CheckResult::Skip("N/A (non-GitHub source)".into()),
@@ -432,12 +423,7 @@ fn render_comment(reports: &[ToolReport]) -> String {
 /// # Errors
 ///
 /// Returns an error if the GitHub API calls fail.
-async fn upsert_comment(
-    client: &GithubClient,
-    repo: &str,
-    pr: u64,
-    body: &str,
-) -> Result<()> {
+async fn upsert_comment(client: &GithubClient, repo: &str, pr: u64, body: &str) -> Result<()> {
     let comments = client.list_pr_comments(repo, pr).await?;
 
     let existing = comments.iter().find(|c| c.body.contains(COMMENT_MARKER));
@@ -462,8 +448,7 @@ fn parse_pr_number(s: &str) -> Result<u64> {
 #[tokio::main]
 async fn main() -> Result<()> {
     let token = env::var("GITHUB_TOKEN").context("GITHUB_TOKEN not set")?;
-    let gh_repo =
-        env::var("GITHUB_REPOSITORY").context("GITHUB_REPOSITORY not set")?;
+    let gh_repo = env::var("GITHUB_REPOSITORY").context("GITHUB_REPOSITORY not set")?;
     let pr_number_str = env::var("PR_NUMBER").context("PR_NUMBER not set")?;
     let pr_number = parse_pr_number(&pr_number_str)?;
 
@@ -475,8 +460,7 @@ async fn main() -> Result<()> {
     let tool_paths: Vec<PathBuf> = tool_paths
         .into_iter()
         .filter(|p| {
-            p.starts_with("data/tools")
-                && p.extension().and_then(|e| e.to_str()) == Some("yml")
+            p.starts_with("data/tools") && p.extension().and_then(|e| e.to_str()) == Some("yml")
         })
         .collect();
 
@@ -484,9 +468,8 @@ async fn main() -> Result<()> {
 
     let mut reports = Vec::new();
     for path in &tool_paths {
-        let tool = read_tool(path)
-            .with_context(|| format!("Failed to read {}", path.display()))?;
-        eprintln!("Checking '{}'...", tool.name);
+        let tool = read_tool(path).with_context(|| format!("Failed to read {}", path.display()))?;
+        eprintln!("Checking '{}'...", &tool.name);
         let report = check_tool(&client, &tool).await?;
         reports.push(report);
     }
