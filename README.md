@@ -2288,6 +2288,8 @@ It does this by running periodic diff outputs against heuristically crafted rege
 
 - **Enlightn** :warning: — A static and dynamic analysis tool for Laravel applications that provides recommendations to improve the performance, security and code reliability of Laravel apps. Contains 120 automated checks.
 
+- [g0](https://github.com/guard0-ai/g0) — The control layer for AI agents — static and dynamic security analysis for AI agent infrastructure across 12 security domains with 1,200+ rules. Scans Python, TypeScript, JavaScript, Java, and Go codebases for AI security risks including prompt injection, data leakage, tool safety, and supply chain issues. Parses 10 agent frameworks (LangChain, CrewAI, AutoGen, etc.), tests against 4,000+ adversarial payloads, and maps findings to OWASP, NIST, and ISO standards. Supports CI/CD integration with SARIF output.
+
 - [GitGuardian ggshield](https://www.gitguardian.com/ggshield) — ggshield is a CLI application that runs in your local environment  or in a CI environment to help you detect more than 350+ types of secrets,  as well as other potential security vulnerabilities or policy breaks affecting your codebase.
 
 - [Gitleaks](https://github.com/zricethezav/gitleaks) — A SAST tool for detecting hardcoded secrets like passwords, api keys, and tokens in git repos.
