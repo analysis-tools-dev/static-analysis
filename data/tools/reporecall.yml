@@ -1,0 +1,26 @@
+name: Reporecall
+categories:
+  - meta
+tags:
+  - c
+  - cpp
+  - csharp
+  - go
+  - java
+  - javascript
+  - kotlin
+  - lua
+  - python
+  - ruby
+  - rust
+  - swift
+  - typescript
+license: MIT
+types:
+  - cli
+source: 'https://github.com/proofofwork-agency/reporecall'
+description: >-
+  AST-based code indexing tool using Tree-sitter parsing across 22 languages.
+  Extracts call graphs and import graphs from static AST analysis, with hybrid
+  keyword (FTS5 with stemming) and vector search. Designed as codebase memory
+  for AI coding agents via MCP server interface.
