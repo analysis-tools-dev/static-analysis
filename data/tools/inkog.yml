@@ -1,0 +1,21 @@
+name: Inkog
+categories:
+  - linter
+tags:
+  - python
+  - typescript
+  - security
+  - ci
+license: Apache-2.0
+types:
+  - cli
+source: 'https://github.com/inkog-io/inkog'
+homepage: 'https://inkog.io'
+description: >-
+  Open-source security scanner for AI agents.
+  Detects prompt injection, infinite loops, token bombing,
+  SQL injection via LLM, and missing human oversight
+  across 20+ agent frameworks including LangChain, CrewAI,
+  AutoGen, LangGraph, and pydantic-ai.
+  SARIF output for CI/CD integration.
+  Maps findings to EU AI Act, OWASP LLM Top 10, and NIST AI RMF.
