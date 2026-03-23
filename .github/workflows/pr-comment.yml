@@ -1,0 +1,55 @@
+name: Post PR Comment
+
+# This workflow implements the "Split Workflow" pattern to securely post comments
+# on Pull Requests coming from forks. Since fork PRs run with a read-only token,
+# the main 'PR Check' workflow uploads the comment as an artifact, and this
+# trusted workflow downloads it and posts it to the PR.
+on:
+  workflow_run:
+    workflows: ["PR Check"]
+    types:
+      - completed
+
+jobs:
+  post-comment:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      actions: read
+    steps:
+      - name: Download PR check artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: pr-check-comment
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
+
+      - name: Post or update comment
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          if [ ! -f pr-number.txt ] || [ ! -f pr-comment.txt ]; then
+            echo "Artifacts not found. The PR Check workflow likely skipped or failed early."
+            exit 0
+          fi
+
+          PR=$(cat pr-number.txt | tr -d '\n')
+
+          # Find the ID of an existing comment with the bot's marker
+          COMMENT_ID=$(gh api "repos/$REPO/issues/$PR/comments" \
+            -q '.[] | select(.body | contains("<!-- pr-check-bot -->")) | .id' \
+            | head -n 1)
+
+          if [ -n "$COMMENT_ID" ]; then
+            echo "Updating existing comment $COMMENT_ID on PR #$PR"
+            gh api -X PATCH "repos/$REPO/issues/comments/$COMMENT_ID" \
+              -f body=@pr-comment.txt \
+              --silent
+          else
+            echo "Creating new comment on PR #$PR"
+            gh api "repos/$REPO/issues/$PR/comments" \
+              -f body=@pr-comment.txt \
+              --silent
+          fi

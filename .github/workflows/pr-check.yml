@@ -19,7 +19,6 @@ jobs:
   pr-check:
     runs-on: ubuntu-latest
     permissions:
-      pull-requests: write
       contents: read
     steps:
       - uses: actions/checkout@v4
@@ -66,5 +65,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           PR_NUMBER: ${{ github.event_name == 'workflow_dispatch' && inputs.pr_number || github.event.pull_request.number }}
+          COMMENT_OUT_FILE: pr-comment.txt
         run: |
+          echo "$PR_NUMBER" > pr-number.txt
           ci/target/release/pr-check ${{ steps.changed.outputs.files }}
+
+      - name: Upload PR check comment artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pr-check-comment
+          path: |
+            pr-comment.txt
+            pr-number.txt
+          if-no-files-found: ignore

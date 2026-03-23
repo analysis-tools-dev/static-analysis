@@ -441,6 +441,7 @@ async fn main() -> Result<()> {
     let gh_repo = env::var("GITHUB_REPOSITORY").context("GITHUB_REPOSITORY not set")?;
     let pr_number_str = env::var("PR_NUMBER").context("PR_NUMBER not set")?;
     let pr_number = parse_pr_number(&pr_number_str)?;
+    let out_file = env::var("COMMENT_OUT_FILE").ok();
 
     // Remaining CLI arguments are the paths to check.
     // Usage: pr-check data/tools/foo.yml data/tools/bar.yml
@@ -470,7 +471,15 @@ async fn main() -> Result<()> {
 
     let comment_body = render_comment(&reports)?;
 
-    upsert_comment(&client, &gh_repo, pr_number, &comment_body).await?;
+    if let Some(path) = out_file {
+        std::fs::write(&path, &comment_body)
+            .with_context(|| format!("Failed to write comment to {}", path))?;
+        eprintln!("Wrote comment to {}", path);
+    } else {
+        if let Err(e) = upsert_comment(&client, &gh_repo, pr_number, &comment_body).await {
+            eprintln!("Warning: Failed to post PR comment: {e}");
+        }
+    }
 
     let any_failures = reports.iter().any(|r| r.any_fail());
     if any_failures {
