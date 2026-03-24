@@ -1,0 +1,31 @@
+name: LucidShark
+categories:
+  - linter
+  - formatter
+tags:
+  - c
+  - cpp
+  - csharp
+  - go
+  - java
+  - javascript
+  - kotlin
+  - php
+  - python
+  - ruby
+  - rust
+  - scala
+  - security
+  - swift
+  - typescript
+license: Apache-2.0
+types:
+  - cli
+source: 'https://github.com/toniantunovi/lucidshark'
+homepage: 'https://github.com/toniantunovi/lucidshark'
+description: >-
+  Unified code quality tool that enables AI agents to generate code safely
+  by automatically checking, reporting, and helping fix quality issues.
+  Consolidates linting, type checking, formatting, security scanning (SAST/SCA/IaC),
+  testing, coverage analysis, and duplication detection into one tool.
+  Local-first with MCP support for Claude Code. Supports 15 languages.
