@@ -8,6 +8,7 @@ license = "MIT"
 repository = "https://github.com/analysis-tools-dev/static-analysis"
 keywords = ["static-analysis", "linting", "tools", "catalog"]
 categories = ["development-tools"]
+publish = false
 
 [lints.clippy]
 # Correctness lints (enabled by default, but being explicit)
@@ -44,16 +45,16 @@ similar_names = "allow"
 too_many_lines = "allow"  # We'll use the clippy.toml threshold instead
 
 [dependencies]
-serde = "1.0.228"
-serde_derive = "1.0.136"
-serde_yaml = "0.9.34"
-askama = "0.12.1"
+anyhow = { workspace = true }
+chrono = { workspace = true }
+pico-args = { workspace = true }
+serde = { workspace = true }
+serde_derive = { workspace = true }
+serde_json = { workspace = true }
+serde_yaml = { workspace = true }
+tokio = { workspace = true }
+askama = { workspace = true }
 # Switch back to crates as soon as a new release with tokio 1.x support is
 # released. See https://github.com/softprops/hubcaps/pull/285
 hubcaps = { git="https://github.com/softprops/hubcaps" }
-tokio = { version = "1.43.4", features = ["rt-multi-thread", "macros"] }
-chrono = "0.4.44"
-anyhow = "1.0.102"
-pico-args = "0.5.0"
-serde_json = "1.0.149"
 slug = "0.1.6"

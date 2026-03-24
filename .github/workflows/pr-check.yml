@@ -1,0 +1,70 @@
+name: PR Check
+
+on:
+  pull_request:
+    branches: [master]
+    paths:
+      - "data/tools/**.yml"
+      - "ci/**"
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: "PR number to check"
+        required: true
+      tool_files:
+        description: "Space-separated list of tool YAML files to check (e.g. data/tools/foo.yml)"
+        required: true
+
+jobs:
+  pr-check:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check out PR head for manual runs
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          git fetch origin "refs/pull/${{ inputs.pr_number }}/head"
+          git checkout FETCH_HEAD -- ${{ inputs.tool_files }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Get changed tool files
+        id: changed
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            FILES="${{ inputs.tool_files }}"
+          else
+            FILES=$(git diff --name-only --diff-filter=A origin/master...HEAD -- 'data/tools/*.yml' 'data/tools/*.yaml' | tr '\n' ' ')
+          fi
+          echo "files=$FILES" >> "$GITHUB_OUTPUT"
+
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache cargo registry
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            ci/target
+          key: pr-check-${{ runner.os }}-${{ hashFiles('ci/Cargo.lock') }}
+          restore-keys: |
+            pr-check-${{ runner.os }}-
+
+      - name: Build pr-check
+        run: cargo build --release --manifest-path ci/Cargo.toml -p pr-check
+
+      - name: Run pr-check
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event_name == 'workflow_dispatch' && inputs.pr_number || github.event.pull_request.number }}
+        run: |
+          ci/target/release/pr-check ${{ steps.changed.outputs.files }}

@@ -513,7 +513,7 @@ Fprettify is a tool that provides consistent whitespace, indentation, and delimi
 
 - [go/ast](https://golang.org/pkg/go/ast) — Package ast declares the types used to represent syntax trees for Go packages.
 
-- **goast** :warning: — Go AST (Abstract Syntax Tree) based static analysis tool with Rego.
+- [goast](https://github.com/m-mizutani/goast) — Go AST (Abstract Syntax Tree) based static analysis tool with Rego.
 
 - **gochecknoglobals** :warning: — Checks that no globals are present.
 
