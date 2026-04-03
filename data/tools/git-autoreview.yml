@@ -13,7 +13,7 @@ tags:
   - security
   - ci
 types:
-  - ide
+  - ide-plugin
 license: proprietary
 homepage: "https://gitautoreview.com"
 description: >-
