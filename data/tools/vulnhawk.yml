@@ -3,16 +3,21 @@ categories:
   - linter
 tags:
   - go
+  - java
   - javascript
+  - php
   - python
+  - ruby
   - security
   - typescript
 license: MIT
 types:
   - cli
 source: 'https://github.com/momenbasel/vulnhawk'
+homepage: 'https://github.com/momenbasel/vulnhawk'
 description: >-
-  AI-powered code security scanner that uses LLMs to understand business logic
-  and detect vulnerabilities like missing auth checks, IDOR flaws, and logic bugs
-  that pattern-matching tools miss. Supports multiple LLM backends (Claude, OpenAI, Ollama)
-  and outputs JSON, SARIF, and Markdown. Available as CLI and GitHub Action.
+  AI-powered static analysis tool that uses LLMs to understand business logic
+  and detect security vulnerabilities like missing auth checks, IDOR flaws,
+  and logic bugs that pattern-matching SAST tools miss. Supports multiple LLM
+  backends (Claude, OpenAI, Ollama for local scanning) and outputs SARIF, JSON,
+  and Markdown. Available as CLI via PyPI and as a GitHub Action.
