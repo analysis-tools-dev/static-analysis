@@ -1,0 +1,29 @@
+name: VEXLIT
+categories:
+  - linter
+tags:
+  - c
+  - csharp
+  - dart
+  - go
+  - java
+  - javascript
+  - kotlin
+  - php
+  - python
+  - ruby
+  - rust
+  - scala
+  - security
+  - swift
+  - typescript
+license: MIT
+types:
+  - cli
+source: 'https://github.com/vexlit/cli'
+homepage: 'https://vexlit.ai'
+description: >-
+  AST-based static analysis with taint tracking across 34 languages.
+  Tracks how data flows across functions instead of pattern matching,
+  detecting real vulnerabilities with low false positive rate.
+  Zero-config CLI with SARIF output for CI/CD integration.
