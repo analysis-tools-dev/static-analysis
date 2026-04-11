@@ -1,0 +1,18 @@
+name: IMCA.AI
+homepage: https://imca.ai/en/
+license: proprietary
+categories:
+  - security
+  - sast
+types:
+  - service
+  - api
+tags:
+  - security
+description: >
+  Generative AI-powered malicious code analysis engine with 500+ specialized
+  agents for every programming language. Multiple agents collaborate in teams
+  for deeper analysis. Detects hidden, obfuscated, or intentionally concealed
+  threats such as backdoors, logic bombs, ransomware, insider threats, and
+  cryptojacking. Integrates into CI/CD pipelines via GitHub, GitLab, Bitbucket
+  and more. Complements existing SAST tools.
