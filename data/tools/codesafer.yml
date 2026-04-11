@@ -1,0 +1,27 @@
+name: CodeSafer
+categories:
+  - linter
+tags:
+  - ci
+  - security
+  - javascript
+  - typescript
+  - nodejs
+  - configfile
+license: ISC
+types:
+  - cli
+source: "https://github.com/goldmembrane/cleaner-code"
+homepage: "https://codesafer.org/"
+plans:
+  oss: true
+  free: true
+description: >-
+  AI code security scanner packaged as a Model Context Protocol (MCP) server.
+  Detects 9 categories of threats in AI-generated code: invisible Unicode
+  characters (30+ variants), BiDi/Trojan Source attacks (CVE-2021-42574),
+  homoglyphs (CVE-2021-42694), Glassworm-style Unicode steganography,
+  rules-file backdoors in `.cursorrules` and `CLAUDE.md`, dependency
+  typosquatting, and obfuscation patterns. Combines 8 static analysis
+  scanners with a CodeBERT deep learning classifier. Runs locally, so
+  code never leaves the developer's machine.
