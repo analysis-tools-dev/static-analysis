@@ -1,0 +1,24 @@
+name: codesize
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - go
+  - java
+  - javascript
+  - lua
+  - python
+  - rust
+  - swift
+  - typescript
+license: MIT
+types:
+  - cli
+source: 'https://github.com/ChrisGVE/codesize'
+homepage: 'https://github.com/ChrisGVE/codesize'
+description: >-
+  codesize reports files and functions that exceed per-language size limits,
+  using tree-sitter for accurate function boundary detection. Supports Rust,
+  TypeScript, JavaScript, Python, Go, Java, C, C++, Swift, and Lua, with
+  additional languages configurable via TOML. Outputs CSV for CI integration.
