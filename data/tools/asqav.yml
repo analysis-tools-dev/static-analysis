@@ -1,0 +1,14 @@
+name: asqav
+categories:
+  - linter
+tags:
+  - python
+  - typescript
+  - security
+license: MIT
+types:
+  - cli
+  - github-action
+source: "https://github.com/jagmarques/asqav-compliance"
+homepage: "https://asqav.com"
+description: AI compliance scanner for CI/CD pipelines. Detects EU AI Act violations, prompt injection risks, and missing guardrails in AI agent code.
