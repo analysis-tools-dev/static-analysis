@@ -9,14 +9,22 @@
 //! - More than one contributor
 //! - Repository is at least 3 months old
 //!
-//! The results are posted as a single comment on the PR (updating an existing
-//! bot comment if one already exists). The process exits with a non-zero status
-//! code when any hard criterion is not met, causing CI to fail.
+//! The results are either posted as a single comment on the PR (updating an
+//! existing bot comment if one already exists) or written to a file when the
+//! `COMMENT_OUTPUT_FILE` environment variable is set. The latter mode is used
+//! in CI to work around the GitHub Actions restriction that prevents fork PRs
+//! from writing to the base repository. A separate `pr-comment` workflow then
+//! picks up the file and posts the comment with the necessary permissions.
+//!
+//! The process exits with a non-zero status code when any hard criterion is
+//! not met, causing CI to fail.
 //!
 //! Expected environment variables:
-//!   GITHUB_TOKEN   - a token with `pull-requests: write` permission
-//!   GITHUB_REPOSITORY - owner/repo, e.g. "analysis-tools-dev/static-analysis"
-//!   PR_NUMBER      - the pull request number
+//!   GITHUB_TOKEN        - a token with `pull-requests: write` permission
+//!   GITHUB_REPOSITORY   - owner/repo, e.g. "analysis-tools-dev/static-analysis"
+//!   PR_NUMBER           - the pull request number
+//!   COMMENT_OUTPUT_FILE - (optional) path to write the rendered comment body
+//!                         to instead of posting it directly via the API.
 
 use anyhow::{Context, Result, bail};
 use askama::Template;
@@ -470,7 +478,22 @@ async fn main() -> Result<()> {
 
     let comment_body = render_comment(&reports)?;
 
-    upsert_comment(&client, &gh_repo, pr_number, &comment_body).await?;
+    // If COMMENT_OUTPUT_FILE is set, write the comment to that file instead of
+    // posting it via the API. This is used by the `pull_request` CI workflow to
+    // avoid the 403 that GitHub returns when a fork PR tries to write comments.
+    // A separate `pr-comment` workflow picks up the file and posts the comment
+    // with the write permissions it has as a `workflow_run` job.
+    if let Ok(output_file) = env::var("COMMENT_OUTPUT_FILE") {
+        if let Some(parent) = std::path::Path::new(&output_file).parent() {
+            std::fs::create_dir_all(parent)
+                .with_context(|| format!("Failed to create directory for {output_file}"))?;
+        }
+        std::fs::write(&output_file, &comment_body)
+            .with_context(|| format!("Failed to write comment to {output_file}"))?;
+        eprintln!("Comment written to {output_file}");
+    } else {
+        upsert_comment(&client, &gh_repo, pr_number, &comment_body).await?;
+    }
 
     let any_failures = reports.iter().any(|r| r.any_fail());
     if any_failures {
