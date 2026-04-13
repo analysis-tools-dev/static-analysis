@@ -4039,6 +4039,42 @@
     ],
     "wrapper": null
   },
+  "codesize": {
+    "name": "codesize",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "c",
+      "cpp",
+      "go",
+      "java",
+      "javascript",
+      "lua",
+      "python",
+      "rust",
+      "swift",
+      "typescript"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/ChrisGVE/codesize",
+    "source": "https://github.com/ChrisGVE/codesize",
+    "pricing": null,
+    "plans": null,
+    "description": "codesize reports files and functions that exceed per-language size limits, using tree-sitter for accurate function boundary detection. Supports Rust, TypeScript, JavaScript, Python, Go, Java, C, C++, Swift, and Lua, with additional languages configurable via TOML. Outputs CSV for CI integration.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "codesonar-from-grammatech": {
     "name": "CodeSonar from GrammaTech",
     "categories": [
@@ -11001,7 +11037,7 @@
     "plans": null,
     "description": "Hunt for security weaknesses in Kubernetes clusters.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
