@@ -58,18 +58,24 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 #### [Programming Languages](#programming-languages-1)
 
-{% for (language, _) in linters %}
-- [{{ language.name }}](#{{ language.value }})
-  {%- endfor %}
+| | | |
+|---|---|---|
+{%- for row in self.linter_rows() %}
+|{% for (language, _) in row %} [{{ language.name }}](#{{ language.value }}) |{% endfor %}
+{%- endfor %}
 
 #### [Multiple Languages](#multiple-languages-1)
 
 #### [Other](#other-1)
 <details>
  <summary>Show Other</summary>
-{% for (tag, _) in others %}
-- [{{ tag.name }}](#{{ tag.value }})
-  {%- endfor %}
+
+| | | |
+|---|---|---|
+{%- for row in self.other_rows() %}
+|{% for (tag, _) in row %} [{{ tag.name }}](#{{ tag.value }}) |{% endfor %}
+{%- endfor %}
+
 </details>
 
 ---
