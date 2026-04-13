@@ -11001,7 +11001,7 @@
     "plans": null,
     "description": "Hunt for security weaknesses in Kubernetes clusters.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -14616,7 +14616,7 @@
     "plans": null,
     "description": "A tool for quickly measuring the size and analyzing the structure of a PHP project.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -21996,6 +21996,48 @@
         "url": "https://www.youtube.com/watch?v=05tNXJ-Kric"
       }
     ],
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "vexlit": {
+    "name": "VEXLIT",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "c",
+      "csharp",
+      "dart",
+      "go",
+      "java",
+      "javascript",
+      "kotlin",
+      "php",
+      "python",
+      "ruby",
+      "rust",
+      "scala",
+      "swift",
+      "typescript"
+    ],
+    "other": [
+      "security"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://vexlit.ai",
+    "source": "https://github.com/vexlit/cli",
+    "pricing": null,
+    "plans": null,
+    "description": "AST-based static analysis with taint tracking across 34 languages. Tracks how data flows across functions instead of pattern matching, detecting real vulnerabilities with low false positive rate. Zero-config CLI with SARIF output for CI/CD integration.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
     "reviews": null,
     "demos": null,
     "wrapper": null
