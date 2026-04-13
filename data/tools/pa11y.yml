@@ -1,0 +1,14 @@
+name: Pa11y
+categories:
+  - linter
+tags:
+  - html
+license: LGPL-3.0
+types:
+  - cli
+source: 'https://github.com/pa11y/pa11y'
+homepage: 'https://pa11y.org/'
+description: >-
+  Automated accessibility testing tool that runs HTML CodeSniffer or axe-core
+  from the command line. Supports CI/CD integration, multiple reporters, and
+  testing against WCAG 2.1 AA standards.
