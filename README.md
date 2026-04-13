@@ -497,7 +497,7 @@ Fprettify is a tool that provides consistent whitespace, indentation, and delimi
 
 - [errcheck](https://github.com/kisielk/errcheck) — Check that error return values are used.
 
-- [errwrap](https://github.com/fatih/errwrap) — Wrap and fix Go errors with the new %w verb directive.  This tool analyzes fmt.Errorf() calls and reports calls that contain a verb directive that  is different than the new %w verb directive introduced in Go v1.13.  It's also capable of rewriting calls to use the new %w wrap verb directive.
+- **errwrap** :warning: — Wrap and fix Go errors with the new %w verb directive.  This tool analyzes fmt.Errorf() calls and reports calls that contain a verb directive that  is different than the new %w verb directive introduced in Go v1.13.  It's also capable of rewriting calls to use the new %w wrap verb directive.
 
 - [flen](https://github.com/lafolle/flen) — Get info on length of functions in a Go package.
 
@@ -556,7 +556,7 @@ By default, govulncheck makes requests to the Go vulnerability database at https
 
 - [misspell](https://github.com/client9/misspell) — Finds commonly misspelled English words.
 
-- [nakedret](https://github.com/alexkohler/nakedret) — Finds naked returns.
+- **nakedret** :warning: — Finds naked returns.
 
 - [nargs](https://github.com/alexkohler/nargs) — Finds unused arguments in function declarations.
 
@@ -1228,7 +1228,7 @@ Kani verifies:
 
 - **Prusti** :warning: — A static verifier for Rust, based on the Viper verification infrastructure. By default Prusti verifies absence of panics by proving that statements such as unreachable!() and panic!() are unreachable.
 
-- **Rudra** :warning: — Rust Memory Safety & Undefined Behavior Detection. It is capable of analyzing single Rust packages as well as all the packages on crates.io.
+- [Rudra](https://github.com/sslab-gatech/Rudra) — Rust Memory Safety & Undefined Behavior Detection. It is capable of analyzing single Rust packages as well as all the packages on crates.io.
 
 - **Rust Language Server** :warning: — Supports functionality such as 'goto definition', symbol search, reformatting, and code completion, and enables renaming and refactorings.
 
@@ -1334,7 +1334,7 @@ Kani verifies:
 
 - **Codelyzer** :warning: — A set of tslint rules for static code analysis of Angular 2 TypeScript projects.
 
-- [ENRE-ts](https://github.com/xjtu-enre/ENRE-ts) — ENRE (ENtity Relationship Extractor) is a tool for extraction of code entity dependencies or relationships from source code. ENRE-ts is a ENtity Relationship Extractor for ECMAScript and TypeScript based on @babel/parser.
+- **ENRE-ts** :warning: — ENRE (ENtity Relationship Extractor) is a tool for extraction of code entity dependencies or relationships from source code. ENRE-ts is a ENtity Relationship Extractor for ECMAScript and TypeScript based on @babel/parser.
 
 - [fta](https://ftaproject.dev/) — Rust-based static analysis for TypeScript projects
 
@@ -1662,7 +1662,7 @@ orchestration to ensure zero breaking changes. Specialized for React, Next.js, a
 
 - [Teamscale](https://teamscale.com) :copyright: — Static and dynamic analysis tool supporting more than 25 languages and direct IDE integration. Free hosting for Open Source projects available on request. Free academic licenses available.
 
-- [TencentCodeAnalysis](https://tca.tencent.com/) — Tencent Cloud Code Analysis (TCA for short, code-named CodeDog inside the company early) is a comprehensive platform for code analysis and issue tracking. TCA consist of three components, server, web and client. It integrates of a number of self-developed tools, and also supports dynamic integration of code analysis tools in various programming languages.
+- **TencentCodeAnalysis** :warning: — Tencent Cloud Code Analysis (TCA for short, code-named CodeDog inside the company early) is a comprehensive platform for code analysis and issue tracking. TCA consist of three components, server, web and client. It integrates of a number of self-developed tools, and also supports dynamic integration of code analysis tools in various programming languages.
 
 - [ThreatMapper](https://github.com/deepfence/ThreatMapper) — Vulnerability Scanner and Risk Evaluation for containers, serverless and hosts at runtime. ThreatMapper generates runtime BOMs from dependencies and operating system packages, matches against multiple threat feeds, scans for unprotected secrets, and scores issues based on severity and risk-of-exploit.
 
@@ -1722,10 +1722,10 @@ orchestration to ensure zero breaking changes. Specialized for React, Next.js, a
 <h2>Archive</h2>
 
 
-- [alquitran](https://github.com/ferivoz/alquitran) — Inspects tar archives and tries to spot portability issues in regard  to POSIX 2017 pax specification and common tar implementations.
+- **alquitran** :warning: — Inspects tar archives and tries to spot portability issues in regard  to POSIX 2017 pax specification and common tar implementations.
 This project is intended to be used by maintainers of projects who want to offer portable source code archives for as many systems as possible. Checking tar archives with alquitran before publishing them should help spotting issues before they reach distributors and users.
 
-- **packj** :warning: — Packj (pronounced package) is a command line (CLI) tool to vet open-source software packages for "risky" attributes that make them vulnerable to supply chain attacks. This is the tool behind our large-scale security analysis platform Packj.dev that continuously vets packages and provides free reports.
+- [packj](https://github.com/ossillate-inc/packj) — Packj (pronounced package) is a command line (CLI) tool to vet open-source software packages for "risky" attributes that make them vulnerable to supply chain attacks. This is the tool behind our large-scale security analysis platform Packj.dev that continuously vets packages and provides free reports.
 
 - **pure** :warning: — Pure is a static analysis file format checker that checks ZIP files for dangerous compression ratios, spec deviations, malicious archive signatures, mismatching local and central directory headers, ambiguous UTF-8 filenames, directory and symlink traversals, invalid MS-DOS dates, overlapping headers, overflow, underflow,  sparseness, accidental buffer bleeds etc.
 
@@ -1887,7 +1887,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 - **Docker Label Inspector** :warning: — Lint and validate Dockerfile labels.
 
-- **Dockle** :warning: — Container Image Linter for Security helping build the Best-Practice Docker Image. Scans Docker images for security vulnerabilities and CIS Benchmark compliance. Checks for secrets, credential exposure, and security best practices. Provides multiple severity levels (FATAL, WARN, INFO) and supports various output formats for CI/CD integration.
+- [Dockle](https://github.com/goodwithtech/dockle) — Container Image Linter for Security helping build the Best-Practice Docker Image. Scans Docker images for security vulnerabilities and CIS Benchmark compliance. Checks for secrets, credential exposure, and security best practices. Provides multiple severity levels (FATAL, WARN, INFO) and supports various output formats for CI/CD integration.
 
 - [GitGuardian ggshield](https://www.gitguardian.com/ggshield) — ggshield is a CLI application that runs in your local environment  or in a CI environment to help you detect more than 350+ types of secrets,  as well as other potential security vulnerabilities or policy breaks affecting your codebase.
 
@@ -1977,7 +1977,7 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 
 - [Code Pathfinder](https://codepathfinder.dev) — An open-source security suite aiming to combine structural code analysis with  AI-powered vulnerability detection. Built for advanced structural search, derive  insights, find vulnerabilities in code.
 
-- **Dockle** :warning: — Container Image Linter for Security helping build the Best-Practice Docker Image. Scans Docker images for security vulnerabilities and CIS Benchmark compliance. Checks for secrets, credential exposure, and security best practices. Provides multiple severity levels (FATAL, WARN, INFO) and supports various output formats for CI/CD integration.
+- [Dockle](https://github.com/goodwithtech/dockle) — Container Image Linter for Security helping build the Best-Practice Docker Image. Scans Docker images for security vulnerabilities and CIS Benchmark compliance. Checks for secrets, credential exposure, and security best practices. Provides multiple severity levels (FATAL, WARN, INFO) and supports various output formats for CI/CD integration.
 
 
 <a name="embedded" />
@@ -2068,7 +2068,7 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 - [krane](https://github.com/appvia/krane) — Krane is a simple Kubernetes RBAC static analysis tool.
 It identifies potential security risks in K8s RBAC design and makes suggestions on how to mitigate them. Krane dashboard presents current RBAC security posture and lets you navigate through its definition.
 
-- **kube-hunter** :warning: — Hunt for security weaknesses in Kubernetes clusters.
+- [kube-hunter](https://aquasecurity.github.io/kube-hunter/) — Hunt for security weaknesses in Kubernetes clusters.
 
 - [kube-lint](https://github.com/viglesiasce/kube-lint) — A linter for Kubernetes resources with a customizable rule set. You define a list of rules that you would like to validate against your  resources and kube-lint will evaluate those rules against them.
 
@@ -2284,7 +2284,7 @@ but with the following improvements:
 - [detect-secrets](https://github.com/Yelp/detect-secrets) — An enterprise friendly way of detecting and preventing secrets in code.
 It does this by running periodic diff outputs against heuristically crafted regex statements,  to identify whether any new secret has been committed. This way, it avoids the overhead of digging  through all git history, as well as the need to scan the entire repository every time.
 
-- **Dockle** :warning: — Container Image Linter for Security helping build the Best-Practice Docker Image. Scans Docker images for security vulnerabilities and CIS Benchmark compliance. Checks for secrets, credential exposure, and security best practices. Provides multiple severity levels (FATAL, WARN, INFO) and supports various output formats for CI/CD integration.
+- [Dockle](https://github.com/goodwithtech/dockle) — Container Image Linter for Security helping build the Best-Practice Docker Image. Scans Docker images for security vulnerabilities and CIS Benchmark compliance. Checks for secrets, credential exposure, and security best practices. Provides multiple severity levels (FATAL, WARN, INFO) and supports various output formats for CI/CD integration.
 
 - **Enlightn** :warning: — A static and dynamic analysis tool for Laravel applications that provides recommendations to improve the performance, security and code reliability of Laravel apps. Contains 120 automated checks.
 
@@ -2296,7 +2296,7 @@ It does this by running periodic diff outputs against heuristically crafted rege
 
 - [Grype](https://github.com/anchore/grype) — Vulnerability scanner for container images and filesystems. Developed by Anchore, it scans container images, directories, and archives for known vulnerabilities. Supports multiple image formats, SBOM integration, and VEX (Vulnerability Exploitability eXchange) for accurate vulnerability assessment. Works with various vulnerability databases and provides detailed reporting.
 
-- [HasMySecretLeaked](https://gitguardian.com/hasmysecretleaked) :copyright: — HasMySecretLeaked is a project from GitGuardian that aims to help individual users and organizations search across 20 million exposed secrets to verify if their  developer secrets have leaked on public repositories, gists, and issues on GitHub projects.
+- **HasMySecretLeaked** :warning: :copyright: — HasMySecretLeaked is a project from GitGuardian that aims to help individual users and organizations search across 20 million exposed secrets to verify if their  developer secrets have leaked on public repositories, gists, and issues on GitHub projects.
 
 - **iblessing** :warning: — iblessing is an iOS security exploiting toolkit. It can be used for reverse engineering, binary analysis and vulnerability mining.
 
@@ -2313,7 +2313,7 @@ Kani verifies:
 
 - [kics](https://kics.io/) — Find security vulnerabilities, compliance issues, and infrastructure misconfigurations in your infrastructure-as-code. Supports Terraform, Kubernetes, Docker, AWS CloudFormation and Ansible
 
-- **kube-hunter** :warning: — Hunt for security weaknesses in Kubernetes clusters.
+- [kube-hunter](https://aquasecurity.github.io/kube-hunter/) — Hunt for security weaknesses in Kubernetes clusters.
 
 - [lockfile-lint](https://github.com/lirantal/lockfile-lint) — Lint an npm or yarn lockfile to analyze and detect security issues
 
@@ -2461,7 +2461,7 @@ TruffleHog is an open source secret-scanning engine that resolves exposed secret
 
 - [GitGuardian ggshield](https://www.gitguardian.com/ggshield) — ggshield is a CLI application that runs in your local environment  or in a CI environment to help you detect more than 350+ types of secrets,  as well as other potential security vulnerabilities or policy breaks affecting your codebase.
 
-- [HasMySecretLeaked](https://gitguardian.com/hasmysecretleaked) :copyright: — HasMySecretLeaked is a project from GitGuardian that aims to help individual users and organizations search across 20 million exposed secrets to verify if their  developer secrets have leaked on public repositories, gists, and issues on GitHub projects.
+- **HasMySecretLeaked** :warning: :copyright: — HasMySecretLeaked is a project from GitGuardian that aims to help individual users and organizations search across 20 million exposed secrets to verify if their  developer secrets have leaked on public repositories, gists, and issues on GitHub projects.
 
 
 ## More Collections
