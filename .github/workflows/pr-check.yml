@@ -19,7 +19,6 @@ jobs:
   pr-check:
     runs-on: ubuntu-latest
     permissions:
-      pull-requests: write
       contents: read
     steps:
       - uses: actions/checkout@v4
@@ -42,12 +41,23 @@ jobs:
           else
             FILES=$(git diff --name-only --diff-filter=A origin/master...HEAD -- 'data/tools/*.yml' 'data/tools/*.yaml' | tr '\n' ' ')
           fi
+          FILES=$(echo "$FILES" | xargs)  # trim leading/trailing whitespace
           echo "files=$FILES" >> "$GITHUB_OUTPUT"
+          echo "has_files=$( [ -n "$FILES" ] && echo true || echo false )" >> "$GITHUB_OUTPUT"
+
+      - name: Skip: no tool files to check
+        if: steps.changed.outputs.has_files == 'false'
+        run: |
+          mkdir -p pr-check-output
+          echo "${{ github.event_name == 'workflow_dispatch' && inputs.pr_number || github.event.pull_request.number }}" > pr-check-output/pr_number.txt
+          echo "passed" > pr-check-output/result.txt
 
       - name: Install Rust toolchain
+        if: steps.changed.outputs.has_files == 'true'
         uses: dtolnay/rust-toolchain@stable
 
       - name: Cache cargo registry
+        if: steps.changed.outputs.has_files == 'true'
         uses: actions/cache@v4
         with:
           path: |
@@ -59,12 +69,40 @@ jobs:
             pr-check-${{ runner.os }}-
 
       - name: Build pr-check
+        if: steps.changed.outputs.has_files == 'true'
         run: cargo build --release --manifest-path ci/Cargo.toml -p pr-check
 
       - name: Run pr-check
+        if: steps.changed.outputs.has_files == 'true'
+        id: run-check
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           PR_NUMBER: ${{ github.event_name == 'workflow_dispatch' && inputs.pr_number || github.event.pull_request.number }}
+          # For pull_request events (including forks), write the comment to a
+          # file instead of posting it directly. The fork's GITHUB_TOKEN does
+          # not have write access to the base repository, so direct posting
+          # returns 403. The pr-comment workflow picks up this artifact and
+          # posts the comment with the right permissions.
+          COMMENT_OUTPUT_FILE: ${{ github.event_name == 'pull_request' && 'pr-check-output/comment.md' || '' }}
         run: |
-          ci/target/release/pr-check ${{ steps.changed.outputs.files }}
+          mkdir -p pr-check-output
+          echo "$PR_NUMBER" > pr-check-output/pr_number.txt
+          if ci/target/release/pr-check ${{ steps.changed.outputs.files }}; then
+            echo "passed" > pr-check-output/result.txt
+          else
+            echo "failed" > pr-check-output/result.txt
+          fi
+
+      - name: Upload check results
+        if: always() && github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: pr-check-output
+          path: pr-check-output/
+
+      - name: Fail if checks did not pass
+        if: always()
+        run: |
+          result=$(cat pr-check-output/result.txt 2>/dev/null || echo "failed")
+          [ "$result" = "passed" ]
