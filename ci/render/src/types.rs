@@ -210,6 +210,36 @@ pub struct Catalog {
     pub multi: Vec<Entry>,
 }
 
+impl Catalog {
+    fn rows(map: &EntryMap) -> Vec<Vec<(&Tag, &Vec<Entry>)>> {
+        let num_columns = 3;
+        let mut rows = Vec::new();
+        let items: Vec<_> = map.iter().collect();
+        let items_per_column = (items.len() + num_columns - 1) / num_columns;
+
+        for i in 0..items_per_column {
+            let mut row = Vec::new();
+            for col in 0..num_columns {
+                let index = col * items_per_column + i;
+                if index < items.len() {
+                    row.push(items[index]);
+                }
+            }
+            rows.push(row);
+        }
+
+        rows
+    }
+
+    pub fn linter_rows(&self) -> Vec<Vec<(&Tag, &Vec<Entry>)>> {
+        Self::rows(&self.linters)
+    }
+
+    pub fn other_rows(&self) -> Vec<Vec<(&Tag, &Vec<Entry>)>> {
+        Self::rows(&self.others)
+    }
+}
+
 /// An entry of the machine-readable JSON out from the tool.
 ///
 /// We use a different, de-normalized data format instead of the catalog, which
