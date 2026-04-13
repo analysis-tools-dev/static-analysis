@@ -1,0 +1,15 @@
+name: SlowQL
+tags:
+  - sql
+  - security
+  - performance
+license: Apache-2.0
+types:
+  - cli
+source: 'https://github.com/makroumi/slowql'
+homepage: 'https://github.com/makroumi/slowql'
+description: >-
+  SQL static analyzer with 171 rules across 6 dimensions: security,
+  performance, reliability, compliance (GDPR, HIPAA, PCI-DSS, SOX, CCPA),
+  quality, and cost. Zero external dependencies. Completely offline.
+  Works on .sql files via CLI.
