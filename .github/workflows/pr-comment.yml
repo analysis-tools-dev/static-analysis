@@ -1,0 +1,40 @@
+name: PR Check Comment
+
+on:
+  workflow_run:
+    workflows: ["PR Check"]
+    types: [completed]
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - name: Download check results
+        uses: actions/download-artifact@v4
+        with:
+          name: pr-check-output
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          run-id: ${{ github.event.workflow_run.id }}
+        continue-on-error: true
+
+      - name: Post or update PR comment
+        if: hashFiles('pr_number.txt') != '' && hashFiles('comment.md') != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          PR_NUMBER=$(cat pr_number.txt)
+          COMMENT_BODY=$(cat comment.md)
+
+          EXISTING_ID=$(gh api "repos/$GH_REPO/issues/$PR_NUMBER/comments" \
+            --jq '[.[] | select(.body | contains("<!-- pr-check-bot -->"))] | first | .id // empty')
+
+          if [ -n "$EXISTING_ID" ]; then
+            gh api --method PATCH "repos/$GH_REPO/issues/comments/$EXISTING_ID" \
+              --field body="$COMMENT_BODY"
+          else
+            gh api --method POST "repos/$GH_REPO/issues/$PR_NUMBER/comments" \
+              --field body="$COMMENT_BODY"
+          fi
