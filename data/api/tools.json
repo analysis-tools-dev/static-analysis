@@ -268,7 +268,7 @@
     "plans": null,
     "description": "Inspects tar archives and tries to spot portability issues in regard  to POSIX 2017 pax specification and common tar implementations.\nThis project is intended to be used by maintainers of projects who want to offer portable source code archives for as many systems as possible. Checking tar archives with alquitran before publishing them should help spotting issues before they reach distributors and users.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -926,6 +926,33 @@
     "pricing": null,
     "plans": null,
     "description": "Check local CloudFormation templates against policy-as-code rules  and generate rules from existing templates.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "axe-core": {
+    "name": "axe-core",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "html"
+    ],
+    "licenses": [
+      "MPL-2.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://www.deque.com/axe/",
+    "source": "https://github.com/dequelabs/axe-core",
+    "pricing": null,
+    "plans": null,
+    "description": "Accessibility engine for automated Web UI testing. Tests HTML against WCAG 2.0, 2.1, and 2.2 guidelines. Used by Google Lighthouse, Microsoft Accessibility Insights, and thousands of organizations worldwide.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
@@ -3246,6 +3273,41 @@
     "pricing": null,
     "plans": null,
     "description": "An analyzer library for C# and VB that uses Roslyn to produce refactorings, code analysis, and other niceties.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "code-graph-rag": {
+    "name": "Code-Graph-RAG",
+    "categories": [
+      "meta"
+    ],
+    "languages": [
+      "cpp",
+      "go",
+      "java",
+      "javascript",
+      "lua",
+      "python",
+      "rust",
+      "scala",
+      "typescript"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://code-graph-rag.com",
+    "source": "https://github.com/vitali87/code-graph-rag",
+    "pricing": null,
+    "plans": null,
+    "description": "Builds knowledge graphs from multi-language codebases using Tree-sitter AST parsing and stores them in Memgraph. Supports 11 programming languages with a unified graph schema and enables natural language querying and editing of code structure and relationships. Functions as an MCP server for AI assistant integration.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
@@ -5941,6 +6003,34 @@
     "demos": null,
     "wrapper": null
   },
+  "diesel-guard": {
+    "name": "diesel-guard",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "rust",
+      "sql"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/ayarotsky/diesel-guard",
+    "source": "https://github.com/ayarotsky/diesel-guard",
+    "pricing": null,
+    "plans": null,
+    "description": "Linter for dangerous Postgres migration patterns in Diesel and SQLx. Prevents downtime caused by unsafe schema changes.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "diff-rs": {
     "name": "diff.rs",
     "categories": [
@@ -6148,7 +6238,7 @@
     "plans": null,
     "description": "Container Image Linter for Security helping build the Best-Practice Docker Image. Scans Docker images for security vulnerabilities and CIS Benchmark compliance. Checks for secrets, credential exposure, and security best practices. Provides multiple severity levels (FATAL, WARN, INFO) and supports various output formats for CI/CD integration.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -6366,7 +6456,7 @@
     "plans": null,
     "description": "Reports potentially duplicated code.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -6854,7 +6944,7 @@
     "plans": null,
     "description": "ENRE (ENtity Relationship Extractor) is a tool for extraction of code entity dependencies or relationships from source code. ENRE-ts is a ENtity Relationship Extractor for ECMAScript and TypeScript based on @babel/parser.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -6996,7 +7086,7 @@
     "plans": null,
     "description": "Wrap and fix Go errors with the new %w verb directive.  This tool analyzes fmt.Errorf() calls and reports calls that contain a verb directive that  is different than the new %w verb directive introduced in Go v1.13.  It's also capable of rewriting calls to use the new %w wrap verb directive.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -8471,7 +8561,7 @@
     "plans": null,
     "description": "Go AST (Abstract Syntax Tree) based static analysis tool with Rego.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -10386,6 +10476,47 @@
     "demos": null,
     "wrapper": null
   },
+  "jqassistant": {
+    "name": "jQAssistant",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "java",
+      "kotlin",
+      "typescript"
+    ],
+    "other": [
+      "git",
+      "json",
+      "nodejs",
+      "spring",
+      "xml",
+      "yaml"
+    ],
+    "licenses": [
+      "GNU General Public License v3.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://jqassistant.org/",
+    "source": "https://github.com/jqassistant/jqassistant",
+    "pricing": null,
+    "plans": null,
+    "description": "jQAssistant is a plugin based software analytics platform which allows scanning code structures and metadata from repositories into a Neo4j graph database.  The gathered data can be used for ad-hoc exploration using queries, visualization or defining rules for continuous architecture validation.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Plugins",
+        "url": "https://github.com/jqassistant-plugin"
+      }
+    ],
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "jshint": {
     "name": "jshint",
     "categories": [
@@ -10870,7 +11001,7 @@
     "plans": null,
     "description": "Hunt for security weaknesses in Kubernetes clusters.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -12715,7 +12846,7 @@
     "plans": null,
     "description": "Finds naked returns.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -13357,6 +13488,33 @@
     ],
     "wrapper": null
   },
+  "pa11y": {
+    "name": "Pa11y",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "html"
+    ],
+    "licenses": [
+      "LGPL-3.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://pa11y.org/",
+    "source": "https://github.com/pa11y/pa11y",
+    "pricing": null,
+    "plans": null,
+    "description": "Automated accessibility testing tool that runs HTML CodeSniffer or axe-core from the command line. Supports CI/CD integration, multiple reporters, and testing against WCAG 2.1 AA standards.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "packj": {
     "name": "packj",
     "categories": [
@@ -13378,7 +13536,7 @@
     "plans": null,
     "description": "Packj (pronounced package) is a command line (CLI) tool to vet open-source software packages for \"risky\" attributes that make them vulnerable to supply chain attacks. This is the tool behind our large-scale security analysis platform Packj.dev that continuously vets packages and provides free reports.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -17391,7 +17549,7 @@
     "plans": null,
     "description": "Rust Memory Safety & Undefined Behavior Detection. It is capable of analyzing single Rust packages as well as all the packages on crates.io.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -20461,7 +20619,7 @@
     "plans": null,
     "description": "Tencent Cloud Code Analysis (TCA for short, code-named CodeDog inside the company early) is a comprehensive platform for code analysis and issue tracking. TCA consist of three components, server, web and client. It integrates of a number of self-developed tools, and also supports dynamic integration of code analysis tools in various programming languages.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -22427,7 +22585,7 @@
     "plans": null,
     "description": "A linter with a focus on eliminating \"weasel words\".",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
