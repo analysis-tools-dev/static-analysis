@@ -1,0 +1,14 @@
+name: axe-core
+categories:
+  - linter
+tags:
+  - html
+license: MPL-2.0
+types:
+  - cli
+source: 'https://github.com/dequelabs/axe-core'
+homepage: 'https://www.deque.com/axe/'
+description: >-
+  Accessibility engine for automated Web UI testing. Tests HTML against
+  WCAG 2.0, 2.1, and 2.2 guidelines. Used by Google Lighthouse, Microsoft
+  Accessibility Insights, and thousands of organizations worldwide.

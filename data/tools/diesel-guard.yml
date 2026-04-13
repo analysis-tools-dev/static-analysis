@@ -1,0 +1,14 @@
+name: diesel-guard
+categories:
+  - linter
+tags:
+  - sql
+  - rust
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/ayarotsky/diesel-guard'
+homepage: 'https://github.com/ayarotsky/diesel-guard'
+description: >-
+  Linter for dangerous Postgres migration patterns in Diesel and SQLx.
+  Prevents downtime caused by unsafe schema changes.
