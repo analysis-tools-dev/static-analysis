@@ -22,6 +22,7 @@ tags:
   - vbasic
   - yaml
 license: Other
+deprecated: true
 types:
   - cli
   - service
@@ -31,3 +32,5 @@ description: >-
   Scan is a free open-source DevSecOps platform for detecting security issues in
   source code and dependencies. It supports a broad range of languages and CI/CD
   pipelines.
+  Note: ShiftLeft rebranded to Qwiet AI in 2023, which was subsequently acquired
+  by Harness in September 2025. This open-source project is no longer maintained.

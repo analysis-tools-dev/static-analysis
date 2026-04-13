@@ -114,6 +114,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 - [linters](https://github.com/mcandre/linters) — An introduction to static code analysis
 - [OWASP Source Code Analysis Tools](https://owasp.org/www-community/Source_Code_Analysis_Tools) — List of tools maintained by the Open Web Application Security Project
 - [php-static-analysis-tools](https://github.com/exakat/php-static-analysis-tools) — A reviewed list of useful PHP static analysis tools
+- [AppSec Santa — SAST Tools](https://appsecsanta.com/sast-tools) — Independent comparison of 30+ static analysis security testing tools with features, pricing, and alternatives
 - [Wikipedia](http://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis) — A list of tools for static code analysis.
 
 ## License

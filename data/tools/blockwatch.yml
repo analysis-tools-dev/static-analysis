@@ -1,0 +1,32 @@
+name: BlockWatch
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - csharp
+  - css
+  - go
+  - html
+  - java
+  - javascript
+  - jsx
+  - kotlin
+  - make
+  - markdown
+  - php
+  - python
+  - ruby
+  - rust
+  - shell
+  - sql
+  - swift
+  - typescript
+  - xml
+  - yaml
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/mennanov/blockwatch'
+homepage: 'https://github.com/mennanov/blockwatch'
+description: 'A language-agnostic linter that keeps code, documentation, and configuration in sync and enforces strict formatting and validation rules.'

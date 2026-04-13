@@ -1,0 +1,14 @@
+name: Pyra
+categories:
+  - linter
+tags:
+  - python
+license: MPL-2.0 license
+types:
+  - cli
+source: 'https://github.com/spangea/Pyra'
+homepage: 'https://github.com/spangea/Pyra'
+description: Pyra is a high-level linter static analyzer for data science applications written in Python, that helps developers identify potential issues in their data science code written in Python, as an extension of [Lyra](https://github.com/caterinaurban/Lyra).
+resources:
+- title: Demo
+  url: https://www.youtube.com/watch?v=D-AsyuhsTyo
