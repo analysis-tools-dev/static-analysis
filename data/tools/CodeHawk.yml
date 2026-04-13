@@ -1,0 +1,19 @@
+name: CodeHawk
+categories:
+  - linter
+tags:
+  - ci
+  - security
+types:
+  - service
+source: "https://github.com/apps/codehawk-crossgen"
+homepage: "https://codehawk.crossgen-ai.com"
+license: proprietary
+plans:
+  oss: false
+  free: true
+pricing: https://codehawk.crossgen-ai.com
+description: >-
+  AI-powered GitHub App that reviews pull requests and posts inline comments on bugs, 
+  security vulnerabilities (SQL injection, XSS), null pointer dereferences, async race conditions,
+  and logic errors. Installs in seconds, runs on every PR open with no CI pipeline changes required.
