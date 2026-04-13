@@ -1,2 +1,4 @@
 logcli-linux-amd64
 logcli.zip
+ci/target/
+ci/pr-check/target/
