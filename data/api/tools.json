@@ -14616,7 +14616,7 @@
     "plans": null,
     "description": "A tool for quickly measuring the size and analyzing the structure of a PHP project.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
