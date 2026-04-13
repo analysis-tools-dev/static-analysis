@@ -1,0 +1,21 @@
+name: ffmt
+categories:
+  - formatter
+tags:
+  - fortran
+license: MIT
+types:
+  - cli
+source: "https://github.com/sbryngelson/ffmt"
+homepage: "https://pypi.org/project/ffmt/"
+description: >-
+  A fast, configurable Fortran formatter with support for Fypp, Doxygen, and
+  OpenACC/OpenMP directives. Written in Rust, installable via pip.
+
+  Handles indentation, whitespace normalization, keyword casing, named ends,
+  line wrapping, operator modernization (.eq. -> ==), double-colon enforcement,
+  comment rewrapping and inline spacing, blank line management, and
+  preprocessor directives (Fypp, C preprocessor, OpenACC, OpenMP).
+  Opt-in features include multi-statement splitting, assignment alignment,
+  and use-statement reformatting. Supports LSP, parallel formatting,
+  stdin/stdout, and CI check mode.
