@@ -885,7 +885,7 @@ A ktfmt IntelliJ plugin is available from the plugin repository. To install it, 
 
 - [phpDocumentor](https://www.phpdoc.org) — Analyzes PHP source code to generate documentation.
 
-- [phploc](https://github.com/sebastianbergmann/phploc) — A tool for quickly measuring the size and analyzing the structure of a PHP project.
+- **phploc** :warning: — A tool for quickly measuring the size and analyzing the structure of a PHP project.
 
 - [PHPMD](https://phpmd.org) — Finds possible bugs in your code.
 
@@ -1464,6 +1464,8 @@ It supports multiple languages and is designed to be extensible, allowing you to
 - [CodeScene](https://codescene.com) :copyright: — CodeScene is a quality visualization tool for software. Prioritize technical debt, detect delivery risks, and measure organizational aspects. Fully automated.
 
 - [CodeSee](https://www.codesee.io/) :copyright: — CodeSee is mapping and automating your app's services, directories, file dependencies, and code changes. It's like Google Map, but for code.t
+
+- [codesize](https://github.com/ChrisGVE/codesize) — codesize reports files and functions that exceed per-language size limits, using tree-sitter for accurate function boundary detection. Supports Rust, TypeScript, JavaScript, Python, Go, Java, C, C++, Swift, and Lua, with additional languages configurable via TOML. Outputs CSV for CI integration.
 
 - [CodeSonar from GrammaTech](https://codesecure.com/our-products/codesonar/) :copyright: — Advanced, whole program, deep path, static analysis of C, C++, Java and C# with easy-to-understand explanations and code and path visualization.
 
@@ -2068,7 +2070,7 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 - [krane](https://github.com/appvia/krane) — Krane is a simple Kubernetes RBAC static analysis tool.
 It identifies potential security risks in K8s RBAC design and makes suggestions on how to mitigate them. Krane dashboard presents current RBAC security posture and lets you navigate through its definition.
 
-- [kube-hunter](https://aquasecurity.github.io/kube-hunter/) — Hunt for security weaknesses in Kubernetes clusters.
+- **kube-hunter** :warning: — Hunt for security weaknesses in Kubernetes clusters.
 
 - [kube-lint](https://github.com/viglesiasce/kube-lint) — A linter for Kubernetes resources with a customizable rule set. You define a list of rules that you would like to validate against your  resources and kube-lint will evaluate those rules against them.
 
@@ -2313,7 +2315,7 @@ Kani verifies:
 
 - [kics](https://kics.io/) — Find security vulnerabilities, compliance issues, and infrastructure misconfigurations in your infrastructure-as-code. Supports Terraform, Kubernetes, Docker, AWS CloudFormation and Ansible
 
-- [kube-hunter](https://aquasecurity.github.io/kube-hunter/) — Hunt for security weaknesses in Kubernetes clusters.
+- **kube-hunter** :warning: — Hunt for security weaknesses in Kubernetes clusters.
 
 - [lockfile-lint](https://github.com/lirantal/lockfile-lint) — Lint an npm or yarn lockfile to analyze and detect security issues
 
