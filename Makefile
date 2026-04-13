@@ -16,23 +16,23 @@ help:
 
 # Main rendering targets
 render:
-	cargo run --manifest-path data/render/Cargo.toml -- --tags data/tags.yml --tools data/tools --md-out README.md --json-out data/api
+	cargo run --manifest-path ci/Cargo.toml -p render -- --tags data/tags.yml --tools data/tools --md-out README.md --json-out data/api
 
 render-skip-deprecated:
-	cargo run --manifest-path data/render/Cargo.toml -- --tags data/tags.yml --tools data/tools --md-out README.md --json-out data/api --skip-deprecated
+	cargo run --manifest-path ci/Cargo.toml -p render -- --tags data/tags.yml --tools data/tools --md-out README.md --json-out data/api --skip-deprecated
 
 # Development targets
 check:
-	cargo check --manifest-path data/render/Cargo.toml
+	cargo check --manifest-path ci/Cargo.toml
 
 clippy:
-	cargo clippy --manifest-path data/render/Cargo.toml -- -D warnings
+	cargo clippy --manifest-path ci/Cargo.toml -- -D warnings
 
 fmt:
-	cargo fmt --manifest-path data/render/Cargo.toml
+	cargo fmt --manifest-path ci/Cargo.toml
 
 test:
-	cargo test --manifest-path data/render/Cargo.toml
+	cargo test --manifest-path ci/Cargo.toml
 
 clean:
-	cargo clean --manifest-path data/render/Cargo.toml
+	cargo clean --manifest-path ci/Cargo.toml
