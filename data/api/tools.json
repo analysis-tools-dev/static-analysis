@@ -11001,7 +11001,7 @@
     "plans": null,
     "description": "Hunt for security weaknesses in Kubernetes clusters.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -14616,7 +14616,7 @@
     "plans": null,
     "description": "A tool for quickly measuring the size and analyzing the structure of a PHP project.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -17242,6 +17242,48 @@
     "pricing": "https://sonarsource.com/plans-and-pricing/",
     "plans": null,
     "description": "A static source code analyser for vulnerabilities in PHP scripts.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "rma-cli": {
+    "name": "rma-cli",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "c",
+      "csharp",
+      "cpp",
+      "go",
+      "java",
+      "javascript",
+      "kotlin",
+      "php",
+      "python",
+      "ruby",
+      "rust",
+      "scala",
+      "swift",
+      "typescript"
+    ],
+    "other": [
+      "security"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://crates.io/crates/rma-cli",
+    "source": "https://github.com/bumahkib7/rust-monorepo-analyzer",
+    "pricing": null,
+    "plans": null,
+    "description": "Fast SAST scanner written in Rust that compiles Semgrep rules to native tree-sitter matchers for 10x faster scanning. Supports 647+ security rules covering OWASP Top 10, CWE, and more across 28 programming languages. Outputs SARIF/JSON for CI/CD integration.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
