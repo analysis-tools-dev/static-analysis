@@ -1415,6 +1415,8 @@ It supports multiple languages and is designed to be extensible, allowing you to
 
 - [Codiga](https://www.codiga.io) :copyright: — Automated Code Reviews and Technical Debt management platform that supports 12+ languages.
 
+- [cognium](https://cognium.dev) — Semantic taint-tracking SAST engine with a 36-pass analysis pipeline covering security (SQL injection, XSS, SSRF, command injection, path traversal, and 15 more CWEs), reliability, performance, and maintainability. Supports Java, JavaScript, TypeScript, Python, Rust, and Bash. Outputs text, JSON, and SARIF 2.1.0. OWASP Benchmark: 100% TPR, 0% FPR across 1415 test cases.
+
 - [Corgea](https://corgea.com/) :copyright: — Corgea is an AI-powered SAST scanner that helps developers find and fix insecure code.  It finds business logic flaws, broken authentication, API vulnerabilities, and more with little false positives. Additionally, it automatically writes security fixes for them to approve.  Corgea integrates with GitHub, GitLab, Azure DevOps, IDEs and CLI. It is free to try it.
 
 - **Corrode** :warning: — Semi-automatic translation from C to Rust. Could reveal bugs in the original implementation by showing Rust compiler warnings and errors. Superseded by C2Rust.
