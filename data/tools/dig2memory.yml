@@ -1,0 +1,14 @@
+name: dig2memory
+categories:
+  - linter
+tags:
+  - rust
+  - typescript
+  - python
+  - go
+license: MIT
+types:
+  - cli
+  - web-service
+source: "https://github.com/ZENG3LD/dig2memory"
+description: Code intelligence server with multi-language AST indexing using tree-sitter. Provides caller tracking, dependency graphs, file-level impact analysis, crate dependency trees, and fuzzy symbol search via HTTP API.
