@@ -9,7 +9,7 @@ tags:
 license: MIT
 types:
   - cli
-  - web-service
+  - service
 source: "https://github.com/ZENG3LD/dig2memory"
 homepage: "https://github.com/ZENG3LD/dig2memory"
 description: Code intelligence server with multi-language AST indexing using tree-sitter. Provides caller tracking, dependency graphs, file-level impact analysis, crate dependency trees, and fuzzy symbol search via HTTP API.
