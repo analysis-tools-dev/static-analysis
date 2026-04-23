@@ -1,0 +1,26 @@
+name: CodeSight
+categories:
+  - linter
+tags:
+  - python
+  - javascript
+  - typescript
+  - go
+  - rust
+  - java
+  - solidity
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/AvixoSec/codesight'
+homepage: 'https://codesight.is-a.dev'
+resources:
+  - title: Zenodo preprint - Benchmarking LLMs for Automated Code Security Analysis
+    url: https://doi.org/10.5281/zenodo.19672508
+description: >-
+  LLM-powered CLI for code review, bug detection and security analysis with
+  CWE IDs and OWASP Top 10 mapping. Supports 13+ providers via 5 adapters
+  (OpenAI, Anthropic, Google Vertex, Ollama, and any OpenAI-compatible).
+  Outputs SARIF for GitHub Security tab and CI exit codes. Benchmarked at
+  91.5% detection on 47 vulnerable samples across 14 CWEs, beats Semgrep and
+  CodeQL on logic vulnerabilities.
