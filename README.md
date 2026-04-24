@@ -134,8 +134,6 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <a name="awk" />
 <h2>Awk</h2>
 
-- [Auditor Core](https://github.com/DataWizual/auditor-core-technical-overview) :copyright: — Deterministic security audit engine with 11 detection engines (SAST, secrets, IaC, supply chain), AI-powered false positive elimination via Gemini/Groq, vulnerability chain analysis, and SOC 2/CIS/ISO 27001 compliance mapping.
-- 
 - [gawk --lint](https://www.gnu.org/software/gawk/manual/html_node/Options.html) — Warns about constructs that are dubious or nonportable to other awk implementations.
 
 
@@ -1349,6 +1347,8 @@ TSLint is an extensible static analysis tool that checks TypeScript code for rea
 It supports multiple languages and is designed to be extensible, allowing you to register custom languages.
 
 - **Atom-Beautify** :warning: — Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom editor.
+
+- [Auditor Core](https://github.com/DataWizual/auditor-core-technical-overview) :copyright: — Deterministic security audit engine with 11 detection engines (SAST, secrets, IaC, supply chain), AI-powered false positive elimination via Gemini/Groq, vulnerability chain analysis, and SOC 2/CIS/ISO 27001 compliance mapping.
 
 - [autocorrect](https://huacnlee.github.io/autocorrect) — A linter and formatter to help you to improve copywriting, correct spaces, words, punctuations between CJK (Chinese, Japanese, Korean).
 
