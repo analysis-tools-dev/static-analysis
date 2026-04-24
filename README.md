@@ -88,6 +88,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 | [.env](#dotenv) | [Embedded Ruby (a.k.a. ERB, eRuby)](#erb) | [Prometheus](#prometheus) |
 | [Ansible](#ansible) | [Gherkin](#gherkin) | [Protocol Buffers](#protobuf) |
 | [Archive](#archive) | [HTML](#html) | [Puppet](#puppet) |
+| [Auditor Core](https://github.com/DataWizual/auditor-core-technical-overview) :copyright: — Deterministic security audit engine with 11 detection engines (SAST, secrets, IaC, supply chain), AI-powered false positive elimination via Gemini/Groq, vulnerability chain analysis, and SOC 2/CIS/ISO 27001 compliance mapping.
 | [Azure Resource Manager](#arm) | [JSON](#json) | [Rails](#rails) |
 | [Binaries](#binary) | [Kubernetes](#kubernetes) | [Security/SAST](#security) |
 | [Build tools](#buildtool) | [LaTeX](#latex) | [Smart Contracts](#smart-contracts) |
