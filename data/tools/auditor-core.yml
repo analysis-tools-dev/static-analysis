@@ -1,0 +1,14 @@
+name: Auditor Core
+categories:
+  - linter
+tags:
+  - security
+  - sast
+  - python
+license: Proprietary
+types:
+  - cli
+source: 'https://github.com/DataWizual/auditor-core-technical-overview'
+homepage: 'https://github.com/DataWizual/auditor-core-technical-overview'
+description: >-
+  Deterministic security audit engine with 11 detection engines (SAST, secrets, IaC, supply chain), AI-powered false positive elimination via Gemini/Groq, vulnerability chain analysis, and SOC 2/CIS/ISO 27001 compliance mapping.
