@@ -1,0 +1,13 @@
+name: zizmor
+categories:
+  - linter
+tags:
+  - ci
+  - security
+  - yaml
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/zizmorcore/zizmor'
+homepage: 'https://zizmor.sh'
+description: 'Static analysis for GitHub Actions workflows, detecting insecure CI/CD patterns such as excessive token permissions, template injection risks, credential persistence, and unsafe workflow references.'
