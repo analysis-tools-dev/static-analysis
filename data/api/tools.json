@@ -13141,6 +13141,45 @@
     "demos": null,
     "wrapper": null
   },
+  "nyx": {
+    "name": "nyx",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "c",
+      "cpp",
+      "go",
+      "java",
+      "javascript",
+      "php",
+      "python",
+      "ruby",
+      "rust",
+      "typescript"
+    ],
+    "other": [
+      "ci",
+      "security"
+    ],
+    "licenses": [
+      "GPL-3.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://nyxscan.dev",
+    "source": "https://github.com/elicpeter/nyx",
+    "pricing": null,
+    "plans": null,
+    "description": "Local-first, cross-language SAST tool with cross-file taint tracking. Runs headless for CI with SARIF output, or serves findings to a local browser UI with a flow visualiser, triage workflow, and rule editor. Triage state commits alongside your code. No cloud, no account.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "oclint": {
     "name": "oclint",
     "categories": [
