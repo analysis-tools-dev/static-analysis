@@ -1,7 +1,6 @@
 name: GauntletCI
 categories:
-  - static analysis
-  - diff-based analysis
+  - linter
 tags:
   - csharp
   - dotnet
