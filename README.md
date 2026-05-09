@@ -2293,6 +2293,8 @@ Kani verifies:
 
 - [tfsec](https://github.com/tfsec/tfsec) — Terraform static analysis tool that prevents potential security issues by checking cloud misconfigurations at build time and directly integrates with the HCL parser for better results. Checks for violations of AWS, Azure and GCP security best practice recommendations.
 
+- [mcp-safeguard](https://github.com/SyedAnas01/mcp-safeguard) :python: - Security scanner for MCP (Model Context Protocol) servers. Detects prompt injection in tool descriptions, hardcoded credentials, exposed endpoints, and tool poisoning. CVSS-scored findings. `pip install mcp-safeguard`
+
 - [trufflehog](https://trufflesecurity.com) — Find credentials all over the place
 TruffleHog is an open source secret-scanning engine that resolves exposed secrets across your company’s entire tech stack. 
 
