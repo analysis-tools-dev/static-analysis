@@ -1,0 +1,23 @@
+name: fallow
+categories:
+  - linter
+tags:
+  - javascript
+  - typescript
+  - jsx
+  - nodejs
+  - vue
+license: MIT
+types:
+  - cli
+source: "https://github.com/fallow-rs/fallow"
+homepage: "https://fallow.tools"
+description: >-
+  Codebase intelligence for TypeScript and JavaScript. Detects unused
+  files, exports, dependencies, types, enum and class members,
+  unresolved imports, circular dependencies, code duplication,
+  boundary violations, and complexity hotspots. Ships framework
+  plugins for Next.js, Vite, Svelte, Astro, and Vue. Outputs human,
+  JSON, SARIF, CodeClimate, compact, and markdown, and integrates
+  with GitHub Actions, GitLab CI, VS Code, LSP, and MCP. Written
+  in Rust.
