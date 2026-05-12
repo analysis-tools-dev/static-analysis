@@ -1,0 +1,27 @@
+name: repowise
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - csharp
+  - go
+  - java
+  - javascript
+  - kotlin
+  - php
+  - python
+  - ruby
+  - rust
+  - scala
+  - swift
+  - typescript
+license: AGPL-3.0
+types:
+  - cli
+homepage: https://github.com/repowise-dev/repowise
+source: https://github.com/repowise-dev/repowise
+description: >-
+  Indexes codebases into dependency graphs, git history, auto-generated docs,
+  and architectural decisions. Supports 14 languages with tree-sitter AST parsing,
+  dead code detection, hotspot analysis, and ownership tracking.
