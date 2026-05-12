@@ -1,0 +1,23 @@
+name: Git AutoReview
+categories:
+  - linter
+tags:
+  - javascript
+  - typescript
+  - python
+  - go
+  - java
+  - csharp
+  - ruby
+  - php
+  - security
+  - ci
+types:
+  - ide-plugin
+license: proprietary
+homepage: "https://gitautoreview.com"
+description: >-
+  AI code review extension for VS Code that runs three models
+  (Claude, GPT, Gemini) against pull requests to catch bugs,
+  security vulnerabilities, and performance issues.
+  Works with GitHub, GitLab, and Bitbucket repositories.
