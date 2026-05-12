@@ -1,0 +1,17 @@
+name: nestjs-doctor
+categories:
+  - linter
+tags:
+  - typescript
+  - javascript
+license: MIT License
+types:
+  - cli
+  - ide-plugin
+source: "https://github.com/RoloBits/nestjs-doctor"
+homepage: "https://github.com/RoloBits/nestjs-doctor"
+description: >-
+  Static analysis tool for NestJS applications. Detects anti-patterns across
+  security, performance, correctness, and architecture with 30+ built-in rules.
+  Outputs a 0-100 health score. Includes module graph visualization, endpoint
+  dependency graphs, and database schema analysis. CLI and VS Code extension.
