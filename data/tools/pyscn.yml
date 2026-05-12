@@ -1,0 +1,14 @@
+name: pyscn
+categories:
+  - linter
+tags:
+  - python
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/ludo-technologies/pyscn'
+homepage: 'https://github.com/ludo-technologies/pyscn'
+description: >-
+  Intelligent Python code quality analyzer with CFG-based cyclomatic complexity
+  analysis, dead code detection, clone detection (Type 1-4), and coupling
+  metrics. Uses tree-sitter for parsing. Written in Go.
