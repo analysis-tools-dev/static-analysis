@@ -1,0 +1,32 @@
+name: sem
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - csharp
+  - go
+  - java
+  - javascript
+  - jsx
+  - kotlin
+  - lua
+  - php
+  - python
+  - ruby
+  - rust
+  - scala
+  - swift
+  - typescript
+  - git
+license: FSL-1.1-ALv2
+types:
+  - cli
+source: "https://github.com/Ataraxy-Labs/sem"
+homepage: "https://github.com/Ataraxy-Labs/sem"
+description: >-
+  Semantic version control CLI that provides entity-level diffs, blame,
+  and impact analysis on top of git. Uses tree-sitter to parse 26 languages
+  and builds a cross-file dependency graph with structural hashing.
+  Commands include sem diff, sem blame, sem graph, and sem impact
+  for blast-radius analysis of code changes.
