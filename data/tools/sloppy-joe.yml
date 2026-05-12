@@ -1,0 +1,25 @@
+name: sloppy-joe
+categories:
+  - linter
+tags:
+  - security
+  - package
+  - rust
+  - python
+  - javascript
+  - go
+  - ruby
+  - php
+  - java
+  - csharp
+license: Apache-2.0
+types:
+  - cli
+source: 'https://github.com/brennhill/sloppy-joe'
+homepage: 'https://github.com/brennhill/sloppy-joe'
+description: >-
+  Detect hallucinated, typosquatted, and non-canonical dependencies before they reach production.
+  Uses 11 mutation generators for typosquatting detection across 8 package ecosystems
+  (npm, PyPI, Cargo, Go, RubyGems, Packagist, Maven/Gradle, NuGet).
+  Catches AI-hallucinated packages, verifies dependency existence against live registries,
+  and checks OSV for known vulnerabilities. Designed as a supply chain security gate for CI pipelines.
