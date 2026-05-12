@@ -1,0 +1,31 @@
+name: HefestoAI
+categories:
+  - linter
+tags:
+  - python
+  - typescript
+  - javascript
+  - java
+  - go
+  - rust
+  - csharp
+  - terraform
+  - dockerfile
+  - yaml
+  - sql
+  - shell
+  - groovy
+  - json
+  - powershell
+  - cloudformation
+  - make
+license: MIT License
+types:
+  - cli
+source: "https://github.com/artvepa80/Agents-Hefesto"
+homepage: "https://hefestoai.narapallc.com"
+description: >
+  AI-powered code quality guardian designed for AI-generated code.
+  Catches security flaws, semantic drift, and complexity issues
+  across many formats. Pre-commit compatible, CI/CD ready, and
+  available as an MCP server and GitHub Action for AI agent integration.
