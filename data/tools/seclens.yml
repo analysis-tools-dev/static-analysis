@@ -1,0 +1,29 @@
+name: SecLens
+categories:
+  - linter
+tags:
+  - security
+  - python
+  - javascript
+  - go
+  - ruby
+  - rust
+  - java
+  - php
+  - c
+  - cpp
+  - csharp
+license: MIT
+types:
+  - cli
+source: "https://github.com/mattersec-labs/seclens"
+homepage: "https://github.com/mattersec-labs/seclens"
+resources:
+  - title: "SecLens: Role-Specific Evaluation of LLMs for Security Vulnerability Detection"
+    url: https://arxiv.org/abs/2604.01637
+description: >-
+  Benchmark for evaluating LLMs on security vulnerability detection
+  using real CVEs. Tests 12 frontier models across 406 CVE tasks
+  in 10 languages with 8 OWASP-aligned vulnerability categories.
+  Includes role-specific prompting (developer, auditor, pentester)
+  and structured scoring rubrics.
