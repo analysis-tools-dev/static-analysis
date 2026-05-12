@@ -1,0 +1,16 @@
+name: ClawSec
+categories:
+  - linter
+tags:
+  - javascript
+  - python
+  - security
+license: Proprietary
+types:
+  - service
+homepage: 'https://clawsec.cc'
+description: >-
+  Static analysis and security audit platform for AI agent skills
+  (Claude Code, MCP). Provides 5-tier analysis including static analysis,
+  pattern matching, dependency checking, LLM semantic review,
+  and Firecracker sandbox execution.
