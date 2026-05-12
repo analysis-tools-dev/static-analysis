@@ -2403,6 +2403,8 @@ TruffleHog is an open source secret-scanning engine that resolves exposed secret
 
 - [commitlint](https://commitlint.js.org) — checks if your commit messages meet the conventional commit format
 
+- [devarch-framework](https://github.com/KyaniteLabs/devarch-framework) — Git repository archaeology framework. Mines commit history into SQLite, detects development signals (velocity shifts, gaps, author changes), runs 6 analysis vectors, and generates engineering reports.
+
 - [GitGuardian ggshield](https://www.gitguardian.com/ggshield) — ggshield is a CLI application that runs in your local environment  or in a CI environment to help you detect more than 350+ types of secrets,  as well as other potential security vulnerabilities or policy breaks affecting your codebase.
 
 - **HasMySecretLeaked** :warning: :copyright: — HasMySecretLeaked is a project from GitGuardian that aims to help individual users and organizations search across 20 million exposed secrets to verify if their  developer secrets have leaked on public repositories, gists, and issues on GitHub projects.
