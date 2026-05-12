@@ -1,0 +1,27 @@
+name: cognium
+categories:
+  - linter
+tags:
+  - java
+  - javascript
+  - typescript
+  - python
+  - rust
+  - shell
+  - security
+license: MIT
+types:
+  - cli
+source: https://github.com/cogniumhq/cognium
+homepage: https://cognium.dev
+description: >-
+  Semantic taint-tracking SAST engine with a 36-pass analysis pipeline covering
+  security (SQL injection, XSS, SSRF, command injection, path traversal, and 15
+  more CWEs), reliability, performance, and maintainability. Supports Java,
+  JavaScript, TypeScript, Python, Rust, and Bash. Outputs text, JSON, and SARIF
+  2.1.0. OWASP Benchmark: 100% TPR, 0% FPR across 1415 test cases.
+resources:
+  - title: OWASP Benchmark Results
+    url: https://github.com/cogniumhq/cognium#benchmark-results
+  - title: GitHub Action
+    url: https://github.com/marketplace/actions/cognium-security-scan
