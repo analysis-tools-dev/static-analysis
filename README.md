@@ -64,6 +64,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 | [Ada](#ada) | [F#](#fsharp) | [Perl](#perl) |
 | [Assembly](#asm) | [Fortran](#fortran) | [Python](#python) |
 | [Awk](#awk) | [Go](#go) | [R](#r) |
+- [golangci-lint](https://github.com/golangci/lint) - Fast linters runner for Go.
 | [C](#c) | [Groovy](#groovy) | [Rego](#rego) |
 | [C#](#csharp) | [Haskell](#haskell) | [Ruby](#ruby) |
 | [C++](#cpp) | [Haxe](#haxe) | [Rust](#rust) |
