@@ -1,0 +1,16 @@
+name: GauntletCI
+categories:
+  - static analysis
+  - diff-based analysis
+tags:
+  - csharp
+  - dotnet
+  - ci
+  - pre-commit
+license: MIT license
+types:
+  - cli
+source: 'https://github.com/EricCogen/GauntletCI'
+homepage: 'https://gauntletci.com'
+description: >-
+  Deterministic pre-commit change-risk detection for .NET. GauntletCI analyzes only the lines you changed (diff-based), not the entire codebase. It detects behavioral regressions, breaking changes, and risk patterns invisible to traditional linters and tests. Runs locally in sub-second time, high-signal output with zero configuration required. Integrates as pre-commit hook, GitHub Actions workflow, or local CLI.
