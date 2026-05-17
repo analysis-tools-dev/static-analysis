@@ -1629,6 +1629,8 @@ orchestration to ensure zero breaking changes. Specialized for React, Next.js, a
 
 - [Veracode](https://www.veracode.com/security/static-code-analysis) :copyright: — Find flaws in binaries and bytecode without requiring source. Support all major programming languages: Java, .NET, JavaScript, Swift, Objective-C, C, C++ and more.
 
+- [vastlint](https://github.com/aleksUIX/vastlint) — Validator and linter for VAST XML ad tags. Checks wrappers and inline tags against the IAB VAST 2.0-4.3 specification and can auto-fix deterministic issues.
+
 - [WALA](https://github.com/wala/WALA) — Static analysis capabilities for Java bytecode and related languages and for JavaScript.
 
 - [weggli](https://github.com/googleprojectzero/weggli) — A fast and robust semantic search tool for C and C++ codebases. It is designed to help security researchers identify interesting functionality in large codebases.
