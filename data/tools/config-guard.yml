@@ -1,0 +1,20 @@
+name: config-guard
+categories:
+  - linter
+tags:
+  - configmanagement
+  - json
+  - python
+  - security
+  - yaml
+license: MIT
+types:
+  - cli
+source: 'https://github.com/KGT24k/mcp-config-guard'
+homepage: 'https://pypi.org/project/mcp-config-guard/'
+description: >-
+  Zero-dependency security linter for MCP (Model Context Protocol) configurations.
+  54 OWASP-mapped checks, 28 CVE detections, 56 known malicious package signatures,
+  typosquat detection via Levenshtein distance, SARIF v2.1.0 output for CI/CD,
+  and policy-as-code support. Supports Claude Code, Cursor, VS Code, Windsurf,
+  and Claude Desktop configs. Python 3.9+.
