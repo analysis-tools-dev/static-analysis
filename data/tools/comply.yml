@@ -1,0 +1,17 @@
+name: comply
+categories:
+  - linter
+types:
+  - cli
+tags:
+  - javascript
+  - typescript
+  - python
+license: Apache-2.0
+source: "https://github.com/systima-ai/comply"
+homepage: "https://www.npmjs.com/package/@systima/comply"
+description: >-
+  EU AI Act compliance scanner for CI/CD pipelines. AST-based detection of 37+
+  AI/ML frameworks, call-chain tracing of AI API return values through code, and
+  obligation checking against Articles 5-50. Ships as CLI, GitHub Action, and
+  TypeScript API.
