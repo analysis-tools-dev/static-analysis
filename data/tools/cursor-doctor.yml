@@ -1,0 +1,13 @@
+name: cursor-doctor
+categories:
+  - linter
+tags:
+  - javascript
+  - typescript
+  - yaml
+license: MIT License
+types:
+  - cli
+source: "https://github.com/nedcodes-ok/cursor-doctor"
+homepage: "https://www.npmjs.com/package/cursor-doctor"
+description: Health scanner and diagnostic tool for Cursor AI IDE configuration (.cursor/rules/ files). Scans for broken YAML frontmatter, rule conflicts, redundancies, missing alwaysApply, token budget issues, and stack coverage gaps.
