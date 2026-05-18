@@ -4136,7 +4136,7 @@
     },
     "description": "Codety Scanner is a comprehensive source code scanner that embeds 5000+ static code analysis rules, which aim to detect code issues for 20+ programming languages and IaC tools.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -8809,7 +8809,7 @@
     "source": "https://github.com/golangci/golangci-lint",
     "pricing": null,
     "plans": null,
-    "description": "Alternative to `Go Meta Linter`: GolangCI-Lint is a linters aggregator.",
+    "description": "Fast linters runner for Go. It aggregates multiple Go linters and provides a unified configuration, caching, and output format. Alternative to `Go Meta Linter`.",
     "discussion": null,
     "deprecated": null,
     "resources": [
@@ -8818,7 +8818,9 @@
         "url": "https://www.youtube.com/watch?v=1U-Gzz4TYP0"
       }
     ],
-    "reviews": null,
+    "reviews": [
+      "https://stackshare.io/golangci-lint"
+    ],
     "demos": null,
     "wrapper": null
   },
@@ -16085,7 +16087,7 @@
     "plans": null,
     "description": "A static code analyzer / language server for Python, written in Rust, focused on type checking and readable output.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -20945,7 +20947,7 @@
     "plans": null,
     "description": "A Rake task gem that helps you find the unused routes and controller actions for your Rails 3+ app.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
