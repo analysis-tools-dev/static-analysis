@@ -1,0 +1,20 @@
+name: Sentinel AI
+categories:
+  - linter
+tags:
+  - python
+  - security
+license: Apache License 2.0
+types:
+  - cli
+  - library
+source: "https://github.com/MaxwellCalkin/sentinel-ai"
+homepage: "https://maxwellcalkin.github.io/sentinel-ai/"
+description: >-
+  Real-time safety guardrails for LLM applications.
+  Scans prompts and outputs for prompt injection, PII leakage,
+  harmful content, hallucination, toxicity, and more.
+  Includes 8 scanners, multilingual injection detection across 12 languages,
+  and an MCP safety proxy. Sub-millisecond scan latency with zero heavy dependencies.
+demos:
+  - https://maxwellcalkin.github.io/sentinel-ai/
