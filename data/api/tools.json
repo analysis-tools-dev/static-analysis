@@ -3361,6 +3361,7 @@
       "linter"
     ],
     "languages": [
+      "go",
       "python"
     ],
     "other": [
@@ -3370,7 +3371,7 @@
       "security"
     ],
     "licenses": [
-      "AGPL-3.0"
+      "Apache-2.0"
     ],
     "types": [
       "cli"
@@ -3379,7 +3380,7 @@
     "source": "https://github.com/shivasurya/code-pathfinder",
     "pricing": null,
     "plans": null,
-    "description": "An open-source security suite aiming to combine structural code analysis with  AI-powered vulnerability detection. Built for advanced structural search, derive  insights, find vulnerabilities in code.",
+    "description": "Opensource Static Code Analysis for security teams with Inter file dataflow  taint analysis. Built for finding vulnerabilities, advanced structural search,  derive insights and supports MCP server.",
     "discussion": null,
     "deprecated": null,
     "resources": [
@@ -7598,7 +7599,7 @@
     "plans": null,
     "description": "Finds possible security weaknesses.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
