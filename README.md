@@ -1510,6 +1510,8 @@ orchestration to ensure zero breaking changes. Specialized for React, Next.js, a
 
 - [Offensive 360](https://offensive360.com/) :copyright: — Commercial Static Code Analysis system doesn't require building the source code or pre-compilation.
 
+- [Open Code Review](https://github.com/raye-deng/open-code-review) — AI-powered code quality gate that detects 5 types of AI-generated code defects (phantom packages, outdated APIs, context breaks, etc.) invisible to traditional linters and SonarQube. Supports TypeScript, Python, Java, Go, Kotlin with SARIF output. Designed for CI/CD pipelines.
+
 - [OpenRewrite](https://docs.openrewrite.org/) — OpenRewrite [fixes common static analysis issues](https://docs.openrewrite.org/running-recipes/popular-recipe-guides/common-static-analysis-issue-remediation)  reported through Sonar and other tools using a Maven and Gradle plugin or the Moderne CLI.
 
 - [OpenStaticAnalyzer](https://github.com/sed-inf-u-szeged/OpenStaticAnalyzer) — OpenStaticAnalyzer is a source code analyzer tool, which can perform deep static analysis of the source code of complex systems.
