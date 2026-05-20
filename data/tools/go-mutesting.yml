@@ -1,0 +1,15 @@
+name: go-mutesting
+categories:
+  - linter
+tags:
+  - go
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/jonbaldie/go-mutesting'
+homepage: 'https://jonbaldie.github.io/go-mutesting/'
+description: >-
+  Mutation testing for Go. Applies code mutations (arithmetic, branch, expression,
+  loop, statement, concurrency, and more) and checks whether tests catch them.
+  Reports a mutation score index (MSI) with CI quality gates, per-test filtering,
+  parallel execution, and JSON output designed for LLM consumption.
