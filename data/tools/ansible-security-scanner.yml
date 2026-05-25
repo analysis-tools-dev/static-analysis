@@ -1,0 +1,17 @@
+name: ansible-security-scanner
+categories:
+  - linter
+tags:
+  - ansible
+  - configmanagement
+  - security
+  - yaml
+license: Apache-2.0
+types:
+  - cli
+source: 'https://github.com/cpeoples/ansible-security-scanner'
+homepage: 'https://github.com/cpeoples/ansible-security-scanner'
+description: >-
+  Static analyzer for Ansible playbooks, roles, and collections. Detects
+  hardcoded credentials, remote code execution, and supply-chain risks
+  across 1,000+ rules. Outputs SARIF, CycloneDX SBOM, and GitLab SAST.
