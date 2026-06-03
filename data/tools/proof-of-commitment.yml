@@ -12,7 +12,6 @@ tags:
 license: MIT
 types:
   - cli
-  - web
 source: 'https://github.com/piiiico/proof-of-commitment'
 homepage: 'https://getcommit.dev'
 description: >-
