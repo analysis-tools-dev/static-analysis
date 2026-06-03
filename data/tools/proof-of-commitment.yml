@@ -1,0 +1,23 @@
+name: proof-of-commitment
+categories:
+  - linter
+tags:
+  - javascript
+  - typescript
+  - python
+  - rust
+  - go
+  - security
+  - package
+license: MIT
+types:
+  - cli
+  - web
+source: 'https://github.com/piiiico/proof-of-commitment'
+homepage: 'https://getcommit.dev'
+description: >-
+  Supply chain risk scoring for npm packages, PyPI packages, Rust crates, Go modules,
+  and GitHub repos. Scores packages on behavioral commitment signals —
+  publisher concentration, transfer history, contributor counts — that
+  traditional vulnerability scanners miss. Run with `npx proof-of-commitment`
+  to audit your project's dependencies.
