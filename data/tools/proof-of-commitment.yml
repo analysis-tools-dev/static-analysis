@@ -1,0 +1,20 @@
+name: proof-of-commitment
+categories:
+  - linter
+tags:
+  - security
+  - package
+  - nodejs
+  - python
+  - rust
+license: MIT
+types:
+  - cli
+  - service
+source: 'https://github.com/piiiico/proof-of-commitment'
+homepage: 'https://getcommit.dev'
+description: >-
+  Behavioral risk scoring for npm, PyPI, Cargo, and Go packages. Surfaces
+  publisher concentration, release consistency, and maintenance patterns that
+  predict supply chain attacks. Available as CLI, MCP server, GitHub Action,
+  and IDE hooks for Cursor and Claude Code.
