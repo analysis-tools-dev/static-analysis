@@ -73,6 +73,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 | [Crystal](#crystal) | [Kotlin](#kotlin) | [Swift](#swift) |
 | [Dart](#dart) | [Lua](#lua) | [Tcl](#tcl) |
 | [Delphi](#delphi) | [MATLAB](#matlab) | [TypeScript](#typescript) |
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 | [Dlang](#dlang) | [Nim](#nim) | [Verilog/SystemVerilog](#verilog) |
 | [Elixir](#elixir) | [Ocaml](#ocaml) | [Vim Script](#vim-script) |
 | [Elm](#elm) | [PHP](#php) | [WebAssembly](#wasm) |
@@ -111,6 +112,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 
 - [abaplint](https://abaplint.org) — Linter for ABAP, written in TypeScript.
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 
 - [abapOpenChecks](https://docs.abapopenchecks.org) — Enhances the SAP Code Inspector with new and customizable checks.
 
@@ -1270,30 +1272,41 @@ Kani verifies:
 
 <a name="typescript" />
 <h2>TypeScript</h2>
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 
 
 - [Angular ESLint](https://github.com/angular-eslint/angular-eslint#readme) — Linter for Angular projects
 
 - **Codelyzer** :warning: — A set of tslint rules for static code analysis of Angular 2 TypeScript projects.
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 
 - **ENRE-ts** :warning: — ENRE (ENtity Relationship Extractor) is a tool for extraction of code entity dependencies or relationships from source code. ENRE-ts is a ENtity Relationship Extractor for ECMAScript and TypeScript based on @babel/parser.
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 
 - [fta](https://ftaproject.dev/) — Rust-based static analysis for TypeScript projects
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 
 - **stc** :warning: — Speedy TypeScript type checker written in Rust
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 
 - **tslint** :warning: — TSLint has been deprecated as of 2019. Please see [this issue](https://github.com/palantir/tslint/issues/4534) for more details. `typescript-eslint` is now your best option for linting TypeScript.
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 TSLint is an extensible static analysis tool that checks TypeScript code for readability, maintainability,  and functionality errors. It is widely supported across modern editors & build systems and can be customized  with your own lint rules, configurations, and formatters.
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 
 - [tslint-clean-code](https://www.npmjs.com/package/tslint-clean-code) — A set of TSLint rules inspired by the Clean Code handbook.
 
 - **tslint-microsoft-contrib** :warning: — A set of tslint rules for static code analysis of TypeScript projects maintained by Microsoft.
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 
 - [TypeScript Call Graph](https://github.com/whyboris/TypeScript-Call-Graph) — CLI to generate an interactive graph of functions and calls from your TypeScript files
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 
 - [TypeScript ESLint](https://github.com/typescript-eslint/typescript-eslint) — TypeScript language extension for eslint.
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 
 - [zod](https://zod.dev) — TypeScript-first schema validation with static type inference. The goal is to eliminate duplicative type declarations. With Zod, you declare a validator once and Zod will automatically infer the static TypeScript type. It is easy to compose simpler types into complex data structures.
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 
 
 <a name="verilog" />
@@ -1346,6 +1359,7 @@ TSLint is an extensible static analysis tool that checks TypeScript code for rea
 It supports multiple languages and is designed to be extensible, allowing you to register custom languages.
 
 - **Atom-Beautify** :warning: — Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom editor.
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 
 - [autocorrect](https://huacnlee.github.io/autocorrect) — A linter and formatter to help you to improve copywriting, correct spaces, words, punctuations between CJK (Chinese, Japanese, Korean).
 
@@ -1386,6 +1400,7 @@ It supports multiple languages and is designed to be extensible, allowing you to
 - [Code-Graph-RAG](https://code-graph-rag.com) — Builds knowledge graphs from multi-language codebases using Tree-sitter AST parsing and stores them in Memgraph. Supports 11 programming languages with a unified graph schema and enables natural language querying and editing of code structure and relationships. Functions as an MCP server for AI assistant integration.
 
 - [Codeac](https://www.codeac.io/?ref=awesome-static-analysis) :copyright: — Automated code review tool integrates with GitHub, Bitbucket and GitLab (even self-hosted). Available for JavaScript, TypeScript, Python, Ruby, Go, PHP, Java, Docker, and more. (open-source free)
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 
 - [codeburner](https://groupon.github.io/codeburner) — Provides a unified interface to sort and act on the issues it finds.
 
@@ -1400,6 +1415,7 @@ It supports multiple languages and is designed to be extensible, allowing you to
 - [codeql](https://github.com/github/codeql) — Deep code analysis - semantic queries and dataflow for several languages with VSCode plugin support.
 
 - [CodeQue](https://codeque.co) — Ecosystem for structural matching JavaScript and TypeScript code. Offers search tool that understands code structure. Available as CLI tool and Visual Studio Code extension. It helps to search code faster and more accurately making you workflow more effective. Soon it will offer ESLint plugin to create your own rules in minutes to help with assuring codebase quality.
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 
 - [CodeRush](https://www.devexpress.com/products/coderush) :copyright: — Code creation, debugging, navigation, refactoring, analysis and visualization tools that use the Roslyn engine in Visual Studio 2015 and up.
 
@@ -1420,6 +1436,7 @@ It supports multiple languages and is designed to be extensible, allowing you to
 - **Corrode** :warning: — Semi-automatic translation from C to Rust. Could reveal bugs in the original implementation by showing Rust compiler warnings and errors. Superseded by C2Rust.
 
 - [Coverity](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html) :copyright: — Synopsys Coverity supports 20 languages and over 70 frameworks including Ruby on rails, Scala, PHP, Python, JavaScript, TypeScript, Java, Fortran, C, C++, C#, VB.NET.
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 
 - [cpp-linter-action](https://cpp-linter.github.io/cpp-linter-action/) — A Github Action for linting C/C++ code integrating clang-tidy and clang-format to collect feedback provided in the form of thread comments and/or annotations.
 
@@ -1442,6 +1459,7 @@ It supports multiple languages and is designed to be extensible, allowing you to
 - [dotnet-format](https://github.com/dotnet/format) — A code formatter for .NET. Preferences will be read from an `.editorconfig` file, if present, otherwise a default set of preferences will be used. At this time dotnet-format is able to format C# and Visual Basic projects with a subset of supported `.editorconfig` options.
 
 - [Embold](https://embold.io) :copyright: — Intelligent software analytics platform that identifies design issues, code issues, duplication and metrics. Supports Java, C, C++, C#, JavaScript, TypeScript, Python, Go, Kotlin and more.
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 
 - **emerge** :warning: — Emerge is a source code and dependency visualizer that can be used to gather insights about source code structure, metrics, dependencies and complexity of software projects. After scanning the source code of a project it provides you an interactive web interface to explore and analyze your project by using graph structures.
 
@@ -1450,6 +1468,7 @@ It supports multiple languages and is designed to be extensible, allowing you to
 - [ESLint](https://github.com/eslint/eslint) — An extensible linter for JS, following the ECMAScript standard.
 
 - [ezno](https://kaleidawave.github.io/posts/introducing-ezno/) — A JavaScript compiler and TypeScript checker written in Rust with a focus on static analysis and runtime performance. Ezno's type checker is built from scratch.  The checker is fully compatible with TypeScript type annotations and can work without any type annotations at all.
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 
 - [Find Security Bugs](https://find-sec-bugs.github.io) — The SpotBugs plugin for security audits of Java web applications and Android applications. (Also work with Kotlin, Groovy and Scala projects)
 
@@ -1504,6 +1523,7 @@ It supports multiple languages and is designed to be extensible, allowing you to
 Automatically fixes 50+ issues including accessibility violations, hydration errors, 
 React 19/Next.js 16 migrations, and configuration updates. Features 5-step fail-safe 
 orchestration to ensure zero breaking changes. Specialized for React, Next.js, and TypeScript projects.
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 
 
 - [oclint](http://oclint.org) — A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C.
@@ -1515,6 +1535,7 @@ orchestration to ensure zero breaking changes. Specialized for React, Next.js, a
 - [OpenStaticAnalyzer](https://github.com/sed-inf-u-szeged/OpenStaticAnalyzer) — OpenStaticAnalyzer is a source code analyzer tool, which can perform deep static analysis of the source code of complex systems.
 
 - [oxc](https://github.com/web-infra-dev/oxc) — The Oxidation Compiler is creating a suite of high-performance tools for the JavaScript / TypeScript language re-written in Rust.
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 
 - [parasoft](https://www.parasoft.com/) :copyright: — Automated Software Testing Solutions for unit-, API-, and web UI testing. Complies with MISRA, OWASP, and others.
 
@@ -1547,8 +1568,10 @@ orchestration to ensure zero breaking changes. Specialized for React, Next.js, a
 - [relint](https://github.com/codingjoe/relint) — A static file linter that allows you to write custom rules using regular expressions (RegEx).
 
 - [ReSharper](https://www.jetbrains.com/resharper) :copyright: — Extends Visual Studio with on-the-fly code inspections for C#, VB.NET, ASP.NET, JavaScript, TypeScript and other technologies.
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 
 - [Rev-dep](https://github.com/jayu/rev-dep) — Dependency analysis and optimization toolkit for modern JavaScript and TypeScript projects. Trace imports, identify circular dependencies, find unused code, clean node modules.
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 
 - [RIPS](https://www.ripstech.com) :copyright: — A static source code analyser for vulnerabilities in PHP scripts.
 
@@ -1557,6 +1580,7 @@ orchestration to ensure zero breaking changes. Specialized for React, Next.js, a
 - [Roslyn Security Guard](https://security-code-scan.github.io) — Project that focuses on the identification of potential vulnerabilities such as SQL injection, cross-site scripting (XSS), CSRF, cryptography weaknesses, hardcoded passwords and many more.
 
 - [SafeQL](https://safeql.dev) — Validate and auto-generate TypeScript types from raw SQL queries in PostgreSQL. SafeQL is an ESLint plugin for writing SQL queries in a type-safe way.
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 
 - [SAST Online](https://sast.online/) :copyright: — Check the Android Source code thoroughly to uncover and address potential security concerns and vulnerabilities. Static application security testing (Static Code Analysis) tool Online
 
@@ -1579,8 +1603,10 @@ orchestration to ensure zero breaking changes. Specialized for React, Next.js, a
 - [Similarity Tester](https://dickgrune.com/Programs/similarity_tester/) — A tool that finds similarities between or within files to support you encountering DRY principle violations.
 
 - [Skylos](https://github.com/duriantaco/skylos) — Dead code detection, security scanning, secrets detection, and code quality analysis for Python, TypeScript, and Go. Framework-aware analysis with 98% recall. Includes CI/CD GitHub Action, VS Code extension, and MCP server for AI agent integration.
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 
 - [Snyk Code](https://snyk.io) :copyright: — Snyk Code finds security vulnerabilities based on AI. Its speed of analysis allow us to analyse your code in real time and deliver results when you hit the save button in your IDE. Supported languages are Java, JavaScript, Python, PHP, C#, Go and TypeScript. Integrations with GitHub, BitBucket and Gitlab. It is free to try and part of the Snyk platform also covering SCA, containers and IaC.
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 
 - [SonarQube Cloud](https://sonarcloud.io) :copyright: — SonarQube Cloud enables your team to deliver clean code consistently and efficiently with a code review  tool that easily integrates into the cloud DevOps platforms and extend your CI/CD workflow.  SonarQube Cloud provides a free plan.
 
@@ -1624,6 +1650,7 @@ orchestration to ensure zero breaking changes. Specialized for React, Next.js, a
 - [Understand](https://www.scitools.com) :copyright: — Code visualization tool that provides code analysis, standards testing, metrics, graphing, dependency analysis and more for Ada, VHDL, and others.
 
 - [Unibeautify](https://unibeautify.com) — Universal code beautifier with a GitHub app. Supports HTML, CSS, JavaScript, TypeScript, JSX, Vue, C++, Go, Objective-C, Java, Python, PHP, GraphQL, Markdown, and more.
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 
 - [Upsource](https://www.jetbrains.com/upsource) :copyright: — Code review tool with static code analysis and code-aware navigation for Java, PHP, JavaScript and Kotlin.
 
@@ -1636,6 +1663,7 @@ orchestration to ensure zero breaking changes. Specialized for React, Next.js, a
 - [WhiteHat Application Security Platform](https://source.whitehatsec.com/help/sentinel/sast-service-detail.html) :copyright: — WhiteHat Scout (for Developers) combined with WhiteHat Sentinel Source (for Operations) supporting WhiteHat Top 40 and OWASP Top 10.
 
 - **Wotan** :warning: — Pluggable TypeScript and JavaScript linter.
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 
 - [XCode](https://developer.apple.com/xcode) :copyright: — XCode provides a pretty decent UI for [Clang's](https://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C).
 
@@ -2355,6 +2383,7 @@ TruffleHog is an open source secret-scanning engine that resolves exposed secret
 - [HTML-Validate](https://html-validate.org/) — Offline HTML5 validator.
 
 - **Vetur** :warning: — Vue tooling for VS Code, powered by vls (vue language server). Vetur has support for formatting embedded HTML, CSS, SCSS, JS, TypeScript, and more. Vetur only has a "whole document formatter" and cannot format arbitrary ranges.
+- [BreakShield CI](https://breakshield-ci.vercel.app) — AST-based breaking change detection for TypeScript APIs. Analyzes PRs for removed fields, changed types, deleted endpoints with confidence scoring and AI auto-fix.
 
 
 <a name="writing" />
