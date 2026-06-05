@@ -3361,6 +3361,7 @@
       "linter"
     ],
     "languages": [
+      "go",
       "python"
     ],
     "other": [
@@ -3370,7 +3371,7 @@
       "security"
     ],
     "licenses": [
-      "AGPL-3.0"
+      "Apache-2.0"
     ],
     "types": [
       "cli"
@@ -3379,7 +3380,7 @@
     "source": "https://github.com/shivasurya/code-pathfinder",
     "pricing": null,
     "plans": null,
-    "description": "An open-source security suite aiming to combine structural code analysis with  AI-powered vulnerability detection. Built for advanced structural search, derive  insights, find vulnerabilities in code.",
+    "description": "Opensource Static Code Analysis for security teams with Inter file dataflow  taint analysis. Built for finding vulnerabilities, advanced structural search,  derive insights and supports MCP server.",
     "discussion": null,
     "deprecated": null,
     "resources": [
@@ -4136,7 +4137,7 @@
     },
     "description": "Codety Scanner is a comprehensive source code scanner that embeds 5000+ static code analysis rules, which aim to detect code issues for 20+ programming languages and IaC tools.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -7598,7 +7599,7 @@
     "plans": null,
     "description": "Finds possible security weaknesses.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -8809,7 +8810,7 @@
     "source": "https://github.com/golangci/golangci-lint",
     "pricing": null,
     "plans": null,
-    "description": "Alternative to `Go Meta Linter`: GolangCI-Lint is a linters aggregator.",
+    "description": "Fast linters runner for Go. It aggregates multiple Go linters and provides a unified configuration, caching, and output format. Alternative to `Go Meta Linter`.",
     "discussion": null,
     "deprecated": null,
     "resources": [
@@ -8818,7 +8819,9 @@
         "url": "https://www.youtube.com/watch?v=1U-Gzz4TYP0"
       }
     ],
-    "reviews": null,
+    "reviews": [
+      "https://stackshare.io/golangci-lint"
+    ],
     "demos": null,
     "wrapper": null
   },
@@ -14616,7 +14619,7 @@
     "plans": null,
     "description": "A tool for quickly measuring the size and analyzing the structure of a PHP project.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -16085,7 +16088,7 @@
     "plans": null,
     "description": "A static code analyzer / language server for Python, written in Rust, focused on type checking and readable output.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -20945,7 +20948,7 @@
     "plans": null,
     "description": "A Rake task gem that helps you find the unused routes and controller actions for your Rails 3+ app.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,

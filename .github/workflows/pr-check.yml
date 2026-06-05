@@ -41,12 +41,23 @@ jobs:
           else
             FILES=$(git diff --name-only --diff-filter=A origin/master...HEAD -- 'data/tools/*.yml' 'data/tools/*.yaml' | tr '\n' ' ')
           fi
+          FILES=$(echo "$FILES" | xargs)  # trim leading/trailing whitespace
           echo "files=$FILES" >> "$GITHUB_OUTPUT"
+          echo "has_files=$( [ -n "$FILES" ] && echo true || echo false )" >> "$GITHUB_OUTPUT"
+
+      - name: Skip: no tool files to check
+        if: steps.changed.outputs.has_files == 'false'
+        run: |
+          mkdir -p pr-check-output
+          echo "${{ github.event_name == 'workflow_dispatch' && inputs.pr_number || github.event.pull_request.number }}" > pr-check-output/pr_number.txt
+          echo "passed" > pr-check-output/result.txt
 
       - name: Install Rust toolchain
+        if: steps.changed.outputs.has_files == 'true'
         uses: dtolnay/rust-toolchain@stable
 
       - name: Cache cargo registry
+        if: steps.changed.outputs.has_files == 'true'
         uses: actions/cache@v4
         with:
           path: |
@@ -58,9 +69,11 @@ jobs:
             pr-check-${{ runner.os }}-
 
       - name: Build pr-check
+        if: steps.changed.outputs.has_files == 'true'
         run: cargo build --release --manifest-path ci/Cargo.toml -p pr-check
 
       - name: Run pr-check
+        if: steps.changed.outputs.has_files == 'true'
         id: run-check
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
