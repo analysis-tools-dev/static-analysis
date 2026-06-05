@@ -10,6 +10,9 @@
 - name: ActionScript
   value: actionscript
   type: language
+- name: AsciiDoc
+  value: asciidoc
+  type: other
 - name: Active Server Pages
   value: asp
   type: language

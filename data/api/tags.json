@@ -353,6 +353,11 @@
       "tag_type": "Other"
     },
     {
+      "name": "AsciiDoc",
+      "value": "asciidoc",
+      "tag_type": "Other"
+    },
+    {
       "name": "Ansible",
       "value": "ansible",
       "tag_type": "Other"

@@ -1,0 +1,18 @@
+name: adocfmt
+categories:
+  - formatter
+  - linter
+tags:
+  - asciidoc
+  - java
+  - writing
+license: Apache License 2.0
+types:
+  - cli
+source: "https://github.com/dheid/adocfmt"
+homepage: "https://dheid.github.io/adocfmt"
+description: >-
+  An opinionated formatter for AsciiDoc documents that normalizes headings,
+  lists, block delimiters, and whitespace. Includes a check mode for CI
+  pipelines. Distributed as a CLI with integrations for pre-commit, GitHub
+  Actions, and the Spotless code-formatting plugin.
