@@ -1,0 +1,26 @@
+name: kuzushi
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - go
+  - java
+  - javascript
+  - php
+  - python
+  - ruby
+  - security
+  - typescript
+license: MIT
+types:
+  - cli
+source: 'https://github.com/allsmog/kuzushi-security-plugin'
+homepage: 'https://github.com/allsmog/kuzushi-security-plugin'
+description: >-
+  A local-first security-review pipeline that runs inside Claude Code. It hunts
+  source-to-sink vulnerabilities across a repository, then advances each finding
+  through a proof ladder: it reconstructs the exploit, proves it in a
+  network-denied sandbox, and validates the patch against that exploit. It also
+  benchmarks its own recall against planted bugs, so it reports what it missed.
+  Static-first with sandboxed dynamic proof; SARIF output for CI.
