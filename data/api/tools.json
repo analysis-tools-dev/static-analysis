@@ -111,6 +111,37 @@
     "demos": null,
     "wrapper": null
   },
+  "adocfmt": {
+    "name": "adocfmt",
+    "categories": [
+      "linter",
+      "formatter"
+    ],
+    "languages": [
+      "java"
+    ],
+    "other": [
+      "asciidoc",
+      "writing"
+    ],
+    "licenses": [
+      "Apache License 2.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/dheid/adocfmt",
+    "source": "https://github.com/dheid/adocfmt",
+    "pricing": null,
+    "plans": null,
+    "description": "An opinionated formatter for AsciiDoc documents that normalizes headings, lists, block delimiters, and whitespace. Includes a check mode for CI pipelines. Distributed as a CLI with integrations for pre-commit, GitHub Actions, and the Spotless code-formatting plugin.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "aether": {
     "name": "aether",
     "categories": [
@@ -3561,7 +3592,7 @@
     "plans": null,
     "description": "Static Code Analysis for R.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -12236,7 +12267,7 @@
     "plans": null,
     "description": "Format markdown code blocks using your favorite code formatters.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": false,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -13938,7 +13969,7 @@
     "plans": null,
     "description": "Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
