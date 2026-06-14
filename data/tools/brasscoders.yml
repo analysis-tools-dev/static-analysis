@@ -1,0 +1,18 @@
+name: BrassCoders
+categories:
+  - linter
+tags:
+  - python
+  - ci
+  - security
+license: Apache-2.0
+types:
+  - cli
+source: "https://github.com/CopperSunDev/brasscoders"
+homepage: "https://coppersun.dev"
+description: >-
+  Deterministic local pre-merge gate for AI-generated Python code: orchestrates 12 scanners
+  (Bandit, Pylint, Pyre/Pysa, Semgrep, detect-secrets, and custom performance and privacy
+  detectors) and emits ranked findings as YAML for AI coding assistants to consume.
+  Catches AI-coder performance anti-patterns (O(N²) string concat, insert-at-zero loops,
+  N-deep nested joins, unbounded polls) that generic security linters miss.
