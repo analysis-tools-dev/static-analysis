@@ -1,0 +1,23 @@
+name: SkillTotal
+categories:
+  - linter
+tags:
+  - python
+  - javascript
+  - nodejs
+  - json
+  - ci
+  - security
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/pezhik/skilltotal'
+homepage: 'https://www.skilltotal.ai'
+description: >-
+  A free, offline static security scanner for AI components
+  (agent skills/plugins, MCP servers, npm & PyPI packages, git repos).
+  Deterministic regex + AST detection (no LLM, no account) with
+  evidence-anchored findings for supply-chain risk, dangerous
+  capabilities, prompt-injection surfaces, MCP tool poisoning and
+  exfiltration paths; maps to the OWASP Agentic Skills Top 10.
+  JSON and SARIF 2.1.0 output, with a GitHub Action and pre-commit hook.
