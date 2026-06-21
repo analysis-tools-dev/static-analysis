@@ -1,0 +1,14 @@
+name: sql-sop
+categories:
+  - linter
+tags:
+  - sql
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/Pawansingh3889/sql-guard'
+homepage: 'https://pypi.org/project/sql-sop/'
+description: Rule-based SQL linter with a libCST injection scanner, SARIF output, a pre-commit hook and a GitHub Action.
+resources:
+  - title: Browser playground (runs locally via Pyodide)
+    url: https://pawansingh3889.github.io/sql-guard/
