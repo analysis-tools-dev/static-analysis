@@ -1,0 +1,28 @@
+name: code-inspector
+categories:
+  - linter
+tags:
+  - go
+  - python
+  - javascript
+  - typescript
+  - rust
+  - java
+  - c
+  - cpp
+  - csharp
+  - ruby
+  - php
+  - scala
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/miguelbravo7/code-inspector'
+homepage: 'https://github.com/miguelbravo7/code-inspector'
+description: >-
+  A Go CLI and library that ranks code by complexity x git churn to surface
+  refactoring hotspots. Reports cyclomatic and cognitive complexity, Halstead
+  metrics and a Maintainability Index, token-normalized duplicate-code (clone)
+  detection, and an import dependency graph (fan-in/fan-out and cycle detection)
+  across many languages via tree-sitter. Also ships a Claude Code skill for
+  AI-assisted code review.
