@@ -1,0 +1,22 @@
+name: inkode
+homepage_url: https://inkode.co/
+logo: https://inkode.co/favicon.ico
+language:  # multiple
+  - Go
+  - Python
+  - JavaScript
+  - TypeScript
+  - Java
+  - Rust
+license: Proprietary
+category:  # sast, linter, duplication
+  - SAST
+  - Linter
+  - Duplication
+analysis_types: 
+  - secret-detection
+  - dependency-audit
+  - test-coverage
+  - cyclomatic-complexity
+  - semantic-duplication
+description: Code-quality scanner for AI-generated code — secrets, CVEs, test gaps, complexity, semantic duplication. 0–100 score, local-first CLI.
