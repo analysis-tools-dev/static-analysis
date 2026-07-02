@@ -1,0 +1,8 @@
+- name: ansede-static
+  description: Offline SAST engine with 96.3% CVE recall and IFDS taint analysis. Detects IDOR, auth bypass, ownership flaws natively.
+  languages: [python, javascript, go, java, csharp]
+  categories: [security, linter]
+  license: MIT
+  source: https://github.com/mattybellx/Ansede
+  pip: ansede-static
+  homepage: https://ansede.onrender.com
