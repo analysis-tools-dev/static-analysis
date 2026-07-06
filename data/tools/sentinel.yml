@@ -1,0 +1,13 @@
+name: Sentinel
+categories:
+  - linter
+tags:
+  - security
+license: GNU Affero General Public License v3.0
+types:
+  - cli
+source: 'https://github.com/sentinel-cli/sentinel'
+homepage: 'https://sentinel-cli.github.io/sentinel/'
+description: >-
+  An enterprise-grade, zero-dependency Git pre-commit secret detector written in Go.
+  Designed for speed and local workstation security. Runs in sub-20ms with zero allocations on the hot path.
