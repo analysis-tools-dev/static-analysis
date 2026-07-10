@@ -1,0 +1,14 @@
+name: vastlint
+categories:
+  - linter
+tags:
+  - xml
+license: proprietary
+types:
+  - cli
+  - service
+homepage: "https://vastlint.org"
+description: >-
+  Validator and linter for VAST XML ad tags. Checks wrappers and inline tags
+  against the IAB VAST 2.0-4.3 specification and can auto-fix deterministic
+  issues.
