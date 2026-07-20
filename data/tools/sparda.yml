@@ -1,0 +1,12 @@
+name: SPARDA
+categories:
+  - linter
+tags:
+  - security
+license: MIT
+types:
+  - cli
+source: 'https://github.com/zyx77550/sparda-skills'
+homepage: 'https://github.com/zyx77550/sparda-skills'
+description: >-
+  Connects AI coding agents to the SPARDA Security Gate. Validates agent edits against runtime invariants before applying them (Proof-Carrying Code for Agents).
