@@ -1,0 +1,31 @@
+name: Zennoxa Shield
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - csharp
+  - dart
+  - go
+  - java
+  - javascript
+  - kotlin
+  - php
+  - python
+  - ruby
+  - rust
+  - swift
+  - typescript
+  - ci
+  - container
+  - security
+license: proprietary
+types:
+  - cli
+  - service
+source: 'https://github.com/Zennoxa/shield'
+homepage: 'https://zennoxa.com'
+description: >-
+  Developer-first scanner that runs SAST, secret detection, dependency (SCA),
+  container and IaC checks in one pass and ranks findings by exploitability
+  (CVSS, EPSS, CISA KEV, reachability). Free offline CLI.
