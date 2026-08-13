@@ -1,0 +1,16 @@
+name: lintlang
+categories:
+  - linter
+tags:
+  - json
+  - markdown
+  - python
+  - yaml
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/hermes-labs-ai/lintlang'
+homepage: 'https://github.com/hermes-labs-ai/lintlang'
+description: >-
+  Statically analyzes natural-language instructions that control AI agents, flagging ambiguous tools,
+  missing limits, conflicting directives, and schema gaps before runtime.
