@@ -953,6 +953,8 @@ It uses the pycodestyle utility to determine what parts of the code needs to be 
 
 - [pyflakes](https://pypi.org/project/pyflakes) — Check Python source files for errors.
 
+- [peek](https://github.com/hariomlohardev/peek) — The htop for codebases — understand any repo in 5 seconds. Python + Rich + Textual TUI (`pip install peek-code && peek .`), import graph + PageRank `Start Here`, `peek --no-tui` for screenshots, `peek graph --format svg`.
+
 - [pylint](http://pylint.pycqa.org/en/latest) — Looks for programming errors, helps enforcing a coding standard and sniffs for some code smells. It additionally includes `pyreverse` (an UML diagram generator) and `symilar` (a similarities checker).
 
 - **pylyzers** :warning: — A static code analyzer / language server for Python, written in Rust, focused on type checking and readable output.
