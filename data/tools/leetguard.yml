@@ -1,0 +1,14 @@
+name: LeetGuard
+categories:
+  - linter
+tags:
+  - javascript
+  - nodejs
+  - security
+  - jsx
+license: Open Source
+types:
+  - cli
+source: "https://github.com/adebayoade/leetguard"
+homepage: "https://github.com/adebayoade/leetguard"
+description: Parses lockfiles and identifies security anti-patterns across dependencies and source code, mapped to ISO 27001.
