@@ -1,0 +1,11 @@
+name: AutonomyProof
+categories:
+  - linter
+tags:
+  - python
+license: Apache License 2.0
+types:
+  - cli
+source: "https://github.com/autonomyproof/autonomyproof-cli"
+homepage: "https://autonomyproof.io"
+description: Static security scanner for Python AI agents that proves what authority an agent holds (shell, SSRF, data destruction, insecure deserialization, and version-validated CVEs) and fails the pull request that grants new dangerous authority. Publishes its own zero-false-positive benchmark.
