@@ -1,0 +1,19 @@
+name: skillsaw
+categories:
+  - linter
+tags:
+  - configfile
+  - json
+  - markdown
+  - security
+  - yaml
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/stbenjam/skillsaw'
+homepage: 'https://skillsaw.org/'
+description: >-
+  Configurable linter for the files that steer AI coding agents, including
+  skills, plugins, instruction files, hooks, and related configuration. Detects
+  structural, content-quality, and security issues and provides deterministic
+  autofixes, baselines, and CI-ready output.
