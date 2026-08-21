@@ -1,0 +1,12 @@
+name: SmartBench
+categories:
+  - linter
+tags:
+  - python
+license: MIT
+types:
+  - cli
+source: 'https://github.com/xianyu-sheng/SmartBench'
+homepage: 'https://github.com/xianyu-sheng/SmartBench'
+description: >-
+  Evidence-constrained code diagnosis workbench combining static analysis with LLM review. Found and verified 4 real bugs in open-source projects (stunner, qscan, sniproxy, Robyn).
