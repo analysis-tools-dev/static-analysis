@@ -1,0 +1,22 @@
+name: pyrift
+categories:
+  - linter
+languages:
+  - python
+license: MIT
+types:
+  - cli
+source: https://github.com/BHUVANSH855/pyrift
+homepage: https://pypi.org/project/pyrift/
+description: >-
+  Detects silent Python behaviour differences across CPython versions and
+  between CPython and PyPy — patterns that linters, type checkers, and
+  security scanners all miss. Covers 90 rules including deprecated APIs,
+  removed stdlib modules, GC timing differences, and version-specific
+  runtime traps.
+tags:
+  - python
+  - compatibility
+  - linter
+  - cpython
+  - pypy
