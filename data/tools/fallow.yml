@@ -20,7 +20,6 @@ resources:
   - title: Install via npm
     url: https://www.npmjs.com/package/fallow
 description: >-
-  Rust-native codebase intelligence for JavaScript and TypeScript. Finds unused files,
-  exports, types, and dependencies; circular dependencies; code duplication; complexity
-  hotspots; architecture boundary violations; and design-system styling drift. Ships as
-  a CLI, GitHub Action, VS Code extension, LSP, MCP server, and Node API.
+  Rust-native static analysis for JavaScript and TypeScript. Maps a repository as one
+  dependency graph to find unused code and structural problems across file boundaries.
+  Runs from the CLI or GitHub Actions, with VS Code, LSP, MCP, and Node API integrations.
