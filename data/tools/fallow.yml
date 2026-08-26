@@ -1,0 +1,26 @@
+name: Fallow
+categories:
+  - linter
+tags:
+  - javascript
+  - typescript
+  - jsx
+  - css
+  - nodejs
+  - ci
+license: MIT
+types:
+  - cli
+  - ide-plugin
+source: 'https://github.com/fallow-rs/fallow'
+homepage: 'https://fallow.tools'
+resources:
+  - title: Quickstart
+    url: https://docs.fallow.tools/quickstart
+  - title: Install via npm
+    url: https://www.npmjs.com/package/fallow
+description: >-
+  Rust-native codebase intelligence for JavaScript and TypeScript. Finds unused files,
+  exports, types, and dependencies; circular dependencies; code duplication; complexity
+  hotspots; architecture boundary violations; and design-system styling drift. Ships as
+  a CLI, GitHub Action, VS Code extension, LSP, MCP server, and Node API.
