@@ -1,0 +1,25 @@
+name: AST Metrics
+categories:
+  - linter
+tags:
+  - csharp
+  - go
+  - java
+  - php
+  - python
+  - rust
+  - typescript
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/ast-metrics/ast-metrics'
+homepage: 'https://ast-metrics.dev'
+description: >-
+  Multi-language maintainability analyzer. Computes cyclomatic and cognitive
+  complexity, Halstead volume, afferent/efferent coupling and maintainability
+  index, detects communities in the dependency graph, and generates an
+  explorable HTML report plus JSON, Markdown, SARIF and OpenMetrics output.
+  Single fast binary with no runtime dependency, and a built-in MCP server so AI
+  agents can query codebase structure before refactoring.
+demos:
+  - https://analyze.ast-metrics.dev
