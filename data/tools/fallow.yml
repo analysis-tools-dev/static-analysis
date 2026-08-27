@@ -1,0 +1,27 @@
+name: Fallow
+categories:
+  - linter
+tags:
+  - javascript
+  - typescript
+  - jsx
+  - css
+  - nodejs
+  - vue
+  - ci
+types:
+  - cli
+  - ide-plugin
+source: https://github.com/fallow-rs/fallow
+homepage: https://fallow.tools
+license: MIT License
+description: >-
+  Whole-codebase quality checks for JavaScript and TypeScript. Builds a codebase
+  graph to find unused code, circular dependencies, duplication, complexity
+  hotspots, architecture boundary violations, design-system drift, and
+  changed-code risk. Includes CLI, CI, VS Code, JSON, SARIF, and MCP integrations.
+resources:
+  - title: Documentation
+    url: https://docs.fallow.tools
+  - title: Install via npm
+    url: https://www.npmjs.com/package/fallow
