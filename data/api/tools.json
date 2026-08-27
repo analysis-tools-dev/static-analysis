@@ -724,6 +724,41 @@
     ],
     "wrapper": null
   },
+  "ast-metrics": {
+    "name": "AST Metrics",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "csharp",
+      "go",
+      "java",
+      "php",
+      "python",
+      "rust",
+      "typescript"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://ast-metrics.dev",
+    "source": "https://github.com/ast-metrics/ast-metrics",
+    "pricing": null,
+    "plans": null,
+    "description": "Multi-language maintainability analyzer. Computes cyclomatic and cognitive complexity, Halstead volume, afferent/efferent coupling and maintainability index, detects communities in the dependency graph, and generates an explorable HTML report plus JSON, Markdown, SARIF and OpenMetrics output. Single fast binary with no runtime dependency, and a built-in MCP server so AI agents can query codebase structure before refactoring.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": [
+      "https://analyze.ast-metrics.dev"
+    ],
+    "wrapper": null
+  },
   "astree": {
     "name": "Astrée",
     "categories": [
@@ -3715,7 +3750,7 @@
     "plans": null,
     "description": "Codemodder is a pluggable framework for building expressive codemods. Use Codemodder when you need more than a linter or code formatting tool. Use it to fix non-trivial security issues and other code quality problems.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -4802,7 +4837,7 @@
     "plans": null,
     "description": "Credential Digger is a GitHub scanning tool that identifies hardcoded credentials (Passwords, API Keys, Secret Keys, Tokens, personal information, etc),  and filtering the false positive data through a machine learning model called [Password Model](https://huggingface.co/SAPOSS/password-model). This scanner is able to detect passwords and non structured tokens with a low false positive rate. ",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -6673,7 +6708,7 @@
     "plans": null,
     "description": "Linter for Ember or Handlebars templates.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -6750,7 +6785,7 @@
     "plans": null,
     "description": "Emerge is a source code and dependency visualizer that can be used to gather insights about source code structure, metrics, dependencies and complexity of software projects. After scanning the source code of a project it provides you an interactive web interface to explore and analyze your project by using graph structures.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -9378,7 +9413,7 @@
     "plans": null,
     "description": "HasMySecretLeaked is a project from GitGuardian that aims to help individual users and organizations search across 20 million exposed secrets to verify if their  developer secrets have leaked on public repositories, gists, and issues on GitHub projects.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -10087,7 +10122,7 @@
     "plans": null,
     "description": "Detect ineffectual assignments in Go code.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -10920,7 +10955,7 @@
     "plans": null,
     "description": "Krane is a simple Kubernetes RBAC static analysis tool.\nIt identifies potential security risks in K8s RBAC design and makes suggestions on how to mitigate them. Krane dashboard presents current RBAC security posture and lets you navigate through its definition.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -12128,7 +12163,7 @@
     "plans": null,
     "description": "Check McCabe complexity.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -13052,7 +13087,7 @@
     "plans": null,
     "description": "A static application testing (SAST) tool that can find insecure code patterns in your node.js applications using simple pattern matcher from libsast and syntax-aware semantic code pattern search tool semgrep.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -15352,7 +15387,7 @@
     "plans": null,
     "description": "A static analysis tool for security purposes.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -16373,7 +16408,7 @@
     "plans": null,
     "description": "Visualizes metrics and source code.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -18700,7 +18735,7 @@
     "plans": null,
     "description": "Sleek is a CLI tool for formatting SQL.  It helps you maintain a consistent style across your SQL code, enhancing readability and productivity. The heavy lifting is done by the sqlformat crate.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -19664,7 +19699,7 @@
     "plans": null,
     "description": "An npm module that checks for Javascript Styleguide issues.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -20141,7 +20176,7 @@
     "plans": null,
     "description": "Combination of multiple linters to install as a GitHub Action.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": [
       {
         "title": "The Easiest Way to Lint Your Code: GitHub Super Linter Deep Dive",
@@ -21248,7 +21283,7 @@
     "plans": null,
     "description": "T-SQL-specific linter.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -21530,7 +21565,7 @@
     "plans": null,
     "description": "Detect redundant type conversions.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -22220,6 +22255,37 @@
     "resources": null,
     "reviews": null,
     "demos": null,
+    "wrapper": null
+  },
+  "wakaru": {
+    "name": "Wakaru",
+    "categories": [
+      "formatter"
+    ],
+    "languages": [
+      "javascript",
+      "typescript"
+    ],
+    "other": [],
+    "licenses": [
+      "Apache License 2.0"
+    ],
+    "types": [
+      "cli",
+      "service"
+    ],
+    "homepage": "https://wakarujs.com",
+    "source": "https://github.com/pionxzh/wakaru",
+    "pricing": null,
+    "plans": null,
+    "description": "JavaScript decompiler that turns bundled, minified, transpiled production code back into readable modules. Unpacks webpack, esbuild, Metro, Browserify, SystemJS, and AMD/UMD bundles, then reverses minifier artifacts and Babel/TypeScript/SWC helpers (async/await, classes, optional chaining, and more). Written in Rust; runs as a CLI or fully in-browser via WebAssembly.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": [
+      "https://wakarujs.com/playground"
+    ],
     "wrapper": null
   },
   "wala": {
