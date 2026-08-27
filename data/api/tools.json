@@ -1808,6 +1808,39 @@
     "demos": null,
     "wrapper": null
   },
+  "bytebase": {
+    "name": "Bytebase",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "sql"
+    ],
+    "other": [],
+    "licenses": [
+      "Other"
+    ],
+    "types": [
+      "gui",
+      "service"
+    ],
+    "homepage": "https://www.bytebase.com",
+    "source": "https://github.com/bytebase/bytebase",
+    "pricing": null,
+    "plans": null,
+    "description": "Database DevSecOps platform with a built-in SQL Review engine that lints schema migrations and queries against 100+ configurable rules — naming conventions, anti-patterns, and safety checks — across MySQL, PostgreSQL, Oracle, SQL Server, Snowflake, and more.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "SQL Review documentation",
+        "url": "https://www.bytebase.com/docs/sql-review/"
+      }
+    ],
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "c2rust": {
     "name": "C2Rust",
     "categories": [
