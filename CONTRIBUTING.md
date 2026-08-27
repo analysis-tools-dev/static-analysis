@@ -8,11 +8,11 @@ but create a pull request right away** because that's easier to handle. Thanks!
 
 ### Requirements
 
-Each tool on the list should be
+Each tool on the list should
 
-- actively maintained (more than one contributor)
-- actively used (have **more than 20 stars on Github or similar impact**)
-- relatively mature (project exists for at least three months)
+- have existed for at least six months
+- have at least 20 stars on GitHub
+- have more than one contributor
 
 ### Format
 
@@ -27,8 +27,11 @@ that directory to see how it should look like.
   description to **500 characters**.
 - Add a license. If it's a proprietary tool, use `license: proprietary`.
 - Please add as many tags as possible. You can choose from the tags in
-  `data/tags.yml` If a tool does not match any existing tag, feel free to add a
+  `data/tags.yml`. If a tool does not match any existing tag, feel free to add a
   new tag but also add it to `data/tags.yml`.
+- For AI-related tools, add `ai-generated-code` if the tool analyzes
+  AI-generated code, and add `uses-llm` if it invokes an LLM or other model
+  while analyzing code.
 
 Finally, create a pull request with all your changes. You can call `make
 render` to check for errors before.  This is optional, because it will also be

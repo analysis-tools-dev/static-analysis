@@ -16,6 +16,9 @@
 - name: Ada
   value: ada
   type: language
+- name: AI-generated code
+  value: ai-generated-code
+  type: other
 - name: Ansible
   value: ansible
   type: other
@@ -313,6 +316,9 @@
 - name: TypeScript
   value: typescript
   type: language
+- name: Uses LLM/model
+  value: uses-llm
+  type: other
 - name: VBScript
   value: vbscript
   type: language
