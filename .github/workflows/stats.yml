@@ -11,7 +11,7 @@ jobs:
   stats:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v7
         with:
           token: ${{ secrets.GH_STATS_COMMIT_TOKEN }}
 
