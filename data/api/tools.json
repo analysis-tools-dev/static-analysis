@@ -7370,6 +7370,49 @@
     "demos": null,
     "wrapper": null
   },
+  "fallow": {
+    "name": "Fallow",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "javascript",
+      "jsx",
+      "typescript"
+    ],
+    "other": [
+      "ci",
+      "css",
+      "nodejs"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "cli",
+      "ide-plugin"
+    ],
+    "homepage": "https://fallow.tools",
+    "source": "https://github.com/fallow-rs/fallow",
+    "pricing": null,
+    "plans": null,
+    "description": "Rust-native static analysis for JavaScript and TypeScript. Maps a repository as one dependency graph to find unused code and structural problems across file boundaries. Runs from the CLI or GitHub Actions, with VS Code, LSP, MCP, and Node API integrations.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Quickstart",
+        "url": "https://docs.fallow.tools/quickstart"
+      },
+      {
+        "title": "Install via npm",
+        "url": "https://www.npmjs.com/package/fallow"
+      }
+    ],
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "fantomas": {
     "name": "fantomas",
     "categories": [
@@ -17261,6 +17304,59 @@
     "demos": null,
     "wrapper": null
   },
+  "repowise": {
+    "name": "Repowise",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "c",
+      "csharp",
+      "cpp",
+      "dart",
+      "go",
+      "java",
+      "javascript",
+      "kotlin",
+      "php",
+      "python",
+      "ruby",
+      "rust",
+      "scala",
+      "sql",
+      "swift",
+      "typescript"
+    ],
+    "other": [
+      "ci",
+      "git",
+      "security"
+    ],
+    "licenses": [
+      "AGPL-3.0"
+    ],
+    "types": [
+      "cli",
+      "service",
+      "ide-plugin"
+    ],
+    "homepage": "https://www.repowise.dev",
+    "source": "https://github.com/repowise-dev/repowise",
+    "pricing": null,
+    "plans": null,
+    "description": "Deterministic, zero-LLM code-health analysis. Scores every file 1-10 for defect risk, maintainability, and performance from 25 markers: McCabe complexity, LCOM4 cohesion, god classes, Rabin-Karp clone detection, change entropy, and untested hotspots. Adds a dependency graph, dead-code detection, git-history signals (churn, ownership, co-change), and concrete graph-aware refactoring plans. Ships as a CLI, an MCP server, and a VS Code extension across 15 languages.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Code health documentation",
+        "url": "https://github.com/repowise-dev/repowise/blob/main/docs/CODE_HEALTH.md"
+      }
+    ],
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "resharper": {
     "name": "ReSharper",
     "categories": [
@@ -21288,6 +21384,42 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "trentclaw": {
+    "name": "trentclaw",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "ci",
+      "security"
+    ],
+    "licenses": [
+      "Apache License 2.0"
+    ],
+    "types": [
+      "service"
+    ],
+    "homepage": "https://trent.ai/",
+    "source": "https://github.com/trnt-ai/trent-openclaw-security-assessment",
+    "pricing": null,
+    "plans": {
+      "free": true,
+      "oss": true
+    },
+    "description": "Security assessment for your OpenClaw agent environment. Flags misconfigurations and risky skills — prompt injection, permission escalation, data exfiltration — and the chained attack paths between them, across gateway config, tool permissions, MCP servers, and plugins.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Product homepage",
+        "url": "https://trent.ai/"
+      }
+    ],
     "reviews": null,
     "demos": null,
     "wrapper": null
