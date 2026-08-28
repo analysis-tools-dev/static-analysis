@@ -353,6 +353,11 @@
       "tag_type": "Other"
     },
     {
+      "name": "AI-generated code",
+      "value": "ai-generated-code",
+      "tag_type": "Other"
+    },
+    {
       "name": "Ansible",
       "value": "ansible",
       "tag_type": "Other"
@@ -565,6 +570,11 @@
     {
       "name": "Translation",
       "value": "translation",
+      "tag_type": "Other"
+    },
+    {
+      "name": "Uses LLM/model",
+      "value": "uses-llm",
       "tag_type": "Other"
     },
     {
