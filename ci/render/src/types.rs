@@ -20,20 +20,13 @@ pub struct Tag {
     pub value: String,
     #[serde(alias = "type")]
     pub tag_type: Type,
+    /// Include multi-language tools in this tag's rendered README section.
+    #[serde(default, skip_serializing)]
+    pub include_multi: bool,
 }
 
-impl Tag {
-    fn new(name: &str, value: &str, tag_type: Type) -> Self {
-        Self {
-            name: name.into(),
-            value: value.into(),
-            tag_type,
-        }
-    }
-}
-
-// The tags from tags.yml. Note that this is a `Vector<Tag>` and not a
-// `BTreeSet<Tag>` because we like to keep the sorting between renders.
+// The tags from tags.yml. This remains a `Vec<Tag>` rather than a
+// `BTreeSet<Tag>` so renders preserve the configured order.
 pub type Tags = Vec<Tag>;
 
 pub type EntryTags = BTreeSet<String>;
@@ -120,15 +113,29 @@ pub struct Entry {
 }
 
 impl Entry {
+    #[must_use]
     pub fn is_c_cpp(&self) -> bool {
-        self.tags
-            == [
-                Tag::new("C", "c", Type::Language),
-                Tag::new("C++", "cpp", Type::Language),
-            ]
+        let language_tags = self
+            .tags
             .iter()
-            .cloned()
-            .collect::<BTreeSet<Tag>>()
+            .filter(|tag| tag.tag_type == Type::Language);
+
+        language_tags.clone().count() == 2
+            && language_tags
+                .map(|tag| tag.value.as_str())
+                .all(|value| matches!(value, "c" | "cpp"))
+    }
+
+    /// Whether the tool is marked as deprecated or unmaintained.
+    #[must_use]
+    pub fn is_deprecated(&self) -> bool {
+        self.deprecated.unwrap_or(false)
+    }
+
+    /// Whether the tool uses the catalog's proprietary license marker.
+    #[must_use]
+    pub fn is_proprietary(&self) -> bool {
+        self.license == "proprietary"
     }
 
     pub fn from_parsed(p: ParsedEntry, tags: &[Tag]) -> Result<Entry> {

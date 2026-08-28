@@ -19,6 +19,7 @@
 - name: AI-generated code
   value: ai-generated-code
   type: other
+  include_multi: true
 - name: Ansible
   value: ansible
   type: other
@@ -319,6 +320,7 @@
 - name: Uses LLM/model
   value: uses-llm
   type: other
+  include_multi: true
 - name: VBScript
   value: vbscript
   type: language
