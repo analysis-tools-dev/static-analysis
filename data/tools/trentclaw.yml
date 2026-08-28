@@ -1,0 +1,22 @@
+name: trentclaw
+categories:
+  - linter
+tags:
+  - security
+  - ci
+license: Apache License 2.0
+source: 'https://github.com/trnt-ai/trent-openclaw-security-assessment'
+types:
+  - service
+homepage: 'https://trent.ai/'
+plans:
+  free: true
+  oss: true
+description: >-
+  Security assessment for your OpenClaw agent environment. Flags
+  misconfigurations and risky skills — prompt injection, permission escalation,
+  data exfiltration — and the chained attack paths between them, across gateway
+  config, tool permissions, MCP servers, and plugins.
+resources:
+  - title: Product homepage
+    url: https://trent.ai/
