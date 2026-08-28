@@ -1,12 +1,10 @@
-#[macro_use]
-extern crate serde_derive;
-
-use anyhow::Result;
-use chrono::{DateTime, Local, NaiveDateTime, Utc};
-use hubcaps::{Credentials, Github};
+use anyhow::{Context, Result};
+use chrono::{DateTime, Local, Utc};
+use serde::Deserialize;
 use slug::slugify;
 use stats::StatsRaw;
 
+/// Entry validation rules.
 mod lints;
 pub mod stats;
 pub mod types;
@@ -19,51 +17,101 @@ fn valid(entry: &ParsedEntry, tags: &[Tag]) -> Result<()> {
     lints.iter().try_for_each(|lint| lint(entry, tags))
 }
 
-#[tokio::main]
-pub async fn check_deprecated(token: String, entries: &mut Vec<Entry>) -> Result<()> {
-    println!("Checking for deprecated entries on Github. This might take a while...");
-    let github = Github::new(
-        String::from("analysis tools bot"),
-        Credentials::Token(token),
-    )?;
+#[derive(Deserialize)]
+struct CommitResponse {
+    commit: Commit,
+}
+
+#[derive(Deserialize)]
+struct Commit {
+    author: CommitAuthor,
+}
+
+#[derive(Deserialize)]
+struct CommitAuthor {
+    date: DateTime<Utc>,
+}
+
+fn github_coordinates(source: &str) -> Option<(&str, &str)> {
+    let path = source
+        .strip_prefix("https://github.com/")
+        .or_else(|| source.strip_prefix("http://github.com/"))?
+        .trim_end_matches('/');
+    let (owner, repo) = path.split_once('/')?;
+    (!owner.is_empty() && !repo.is_empty() && !repo.contains('/')).then_some((owner, repo))
+}
+
+async fn latest_commit_date(
+    client: &reqwest::Client,
+    token: &str,
+    owner: &str,
+    repo: &str,
+) -> Result<Option<DateTime<Utc>>> {
+    let url = format!("https://api.github.com/repos/{owner}/{repo}/commits?per_page=1");
+    let response = client
+        .get(&url)
+        .bearer_auth(token)
+        .header("Accept", "application/vnd.github+json")
+        .header("X-GitHub-Api-Version", "2022-11-28")
+        .send()
+        .await
+        .with_context(|| format!("Failed to fetch commits for {owner}/{repo}"))?;
+
+    if matches!(
+        response.status(),
+        reqwest::StatusCode::NOT_FOUND | reqwest::StatusCode::CONFLICT
+    ) {
+        return Ok(None);
+    }
+
+    let commits = response
+        .error_for_status()
+        .with_context(|| format!("GitHub rejected the commits request for {owner}/{repo}"))?
+        .json::<Vec<CommitResponse>>()
+        .await
+        .with_context(|| format!("Invalid commits response for {owner}/{repo}"))?;
+
+    Ok(commits
+        .into_iter()
+        .next()
+        .map(|commit| commit.commit.author.date))
+}
+
+/// Refreshes deprecation markers using each GitHub repository's latest commit.
+///
+/// # Errors
+///
+/// Returns an error when the HTTP client cannot be created or GitHub returns an
+/// unexpected response.
+pub async fn check_deprecated(token: &str, entries: &mut [Entry]) -> Result<()> {
+    let client = reqwest::Client::builder()
+        .user_agent("analysis-tools-render/0.2")
+        .build()
+        .context("Failed to build GitHub HTTP client")?;
 
     for entry in entries {
-        if entry.source.is_none() {
-            continue;
-        }
-
-        let Some(source) = entry.source.as_ref() else {
+        let Some((owner, repo)) = entry.source.as_deref().and_then(github_coordinates) else {
             continue;
         };
-        let components: Vec<&str> = source.trim_end_matches('/').split('/').collect();
-        if !(components.contains(&"github.com") && components.len() == 5) {
-            // valid github source must have 5 elements - anything longer and they are probably a
-            // reference to a path inside a repo, rather than a repo itself.
-            continue;
-        }
-
-        let owner = components[3];
-        let repo = components[4];
-
-        if let Ok(commit_list) = github.repo(owner, repo).commits().list("").await {
-            let date = &commit_list[0].commit.author.date;
-            let last_commit = NaiveDateTime::parse_from_str(date, "%Y-%m-%dT%H:%M:%SZ")?;
-            let last_commit_utc: DateTime<Utc> =
-                DateTime::from_naive_utc_and_offset(last_commit, Utc);
-            let now = Local::now().date_naive();
-            let duration = now.signed_duration_since(last_commit_utc.date_naive());
-
-            if duration.num_days() > 365 {
-                entry.deprecated = Some(true);
-            } else {
-                entry.deprecated = None;
+        let last_commit = match latest_commit_date(&client, token, owner, repo).await {
+            Ok(Some(date)) => date,
+            Ok(None) => continue,
+            Err(error) => {
+                eprintln!("Could not check {owner}/{repo} for deprecation: {error:#}");
+                continue;
             }
-        }
+        };
+
+        let duration = Local::now()
+            .date_naive()
+            .signed_duration_since(last_commit.date_naive());
+        entry.deprecated = (duration.num_days() > 365).then_some(true);
     }
 
     Ok(())
 }
 
+/// Groups normalized entries for the generated README.
 #[must_use]
 pub fn create_catalog(entries: &[Entry], languages: &[Tag], other_tags: &[Tag]) -> Catalog {
     // Multi-language tools get their own primary section instead of being repeated under
@@ -73,7 +121,7 @@ pub fn create_catalog(entries: &[Entry], languages: &[Tag], other_tags: &[Tag]) 
             let language_tags = entry
                 .tags
                 .iter()
-                .filter(|t| t.tag_type == Type::Language)
+                .filter(|t| t.kind == Type::Language)
                 .count();
             language_tags > 1 && !entry.is_c_cpp()
         });
@@ -114,6 +162,7 @@ pub fn create_catalog(entries: &[Entry], languages: &[Tag], other_tags: &[Tag]) 
     }
 }
 
+/// Converts normalized entries to the machine-readable API representation.
 #[must_use]
 pub fn create_api(entries: Vec<Entry>, languages: &[Tag], other_tags: &[Tag]) -> Api {
     let mut api_entries = BTreeMap::new();
@@ -177,16 +226,32 @@ pub fn create_api(entries: Vec<Entry>, languages: &[Tag], other_tags: &[Tag]) ->
     api_entries
 }
 
+/// Converts raw page-view statistics into a tool-name lookup.
+#[must_use]
+pub fn format_stats(stats: StatsRaw) -> BTreeMap<String, String> {
+    stats
+        .data
+        .result
+        .into_iter()
+        .map(|result| {
+            (
+                result.metric.path.trim_start_matches("/tool/").to_string(),
+                result.value.1,
+            )
+        })
+        .collect()
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
     use std::collections::BTreeSet;
 
-    fn tag(name: &str, value: &str, tag_type: Type) -> Tag {
+    fn tag(name: &str, value: &str, kind: Type) -> Tag {
         Tag {
             name: name.into(),
             value: value.into(),
-            tag_type,
+            kind,
             include_multi: false,
         }
     }
@@ -210,6 +275,39 @@ mod tests {
             demos: None,
             wrapper: None,
         }
+    }
+
+    #[test]
+    fn parses_github_repository_urls() {
+        assert_eq!(
+            github_coordinates("https://github.com/owner/repo"),
+            Some(("owner", "repo"))
+        );
+        assert_eq!(
+            github_coordinates("https://github.com/owner/repo/"),
+            Some(("owner", "repo"))
+        );
+        assert_eq!(
+            github_coordinates("https://github.com/owner/repo/tree/main"),
+            None
+        );
+        assert_eq!(github_coordinates("https://gitlab.com/owner/repo"), None);
+    }
+
+    #[test]
+    fn parses_github_commit_response() -> Result<()> {
+        let response: Vec<CommitResponse> =
+            serde_json::from_str(r#"[{"commit":{"author":{"date":"2026-08-01T12:34:56Z"}}}]"#)?;
+        let date = response
+            .into_iter()
+            .next()
+            .map(|commit| commit.commit.author.date);
+
+        assert_eq!(
+            date.map(|value| value.to_rfc3339()),
+            Some("2026-08-01T12:34:56+00:00".into())
+        );
+        Ok(())
     }
 
     #[test]
@@ -270,18 +368,4 @@ mod tests {
         assert_eq!(catalog.others[&security].len(), 1);
         assert_eq!(catalog.others[&security][0], tool);
     }
-}
-
-pub fn format_stats(stats: StatsRaw) -> BTreeMap<String, String> {
-    stats
-        .data
-        .result
-        .into_iter()
-        .map(|r| {
-            (
-                r.metric.path.trim_start_matches("/tool/").to_string(),
-                r.value.1,
-            )
-        })
-        .collect()
 }
