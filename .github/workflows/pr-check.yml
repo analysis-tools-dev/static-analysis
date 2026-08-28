@@ -98,7 +98,7 @@ jobs:
 
       - name: Upload check results
         if: always() && github.event_name == 'pull_request'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: pr-check-output
           path: pr-check-output/
