@@ -10191,6 +10191,37 @@
     "demos": null,
     "wrapper": null
   },
+  "inkog": {
+    "name": "Inkog",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "javascript",
+      "python",
+      "typescript"
+    ],
+    "other": [
+      "security"
+    ],
+    "licenses": [
+      "Apache-2.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://inkog.io",
+    "source": "https://github.com/inkog-io/inkog",
+    "pricing": null,
+    "plans": null,
+    "description": "AI agent security scanner. Detects behavioral vulnerabilities (prompt injection, infinite loops, token bombing, SQL injection via LLM) across 11 framework adapters including LangChain, CrewAI, and pydantic-ai. Audits MCP servers. Maps findings to EU AI Act, OWASP LLM Top 10, and NIST AI RMF.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "inspectortiger": {
     "name": "InspectorTiger",
     "categories": [
@@ -13000,6 +13031,35 @@
       "oss": false
     },
     "description": "Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "nestjs-doctor": {
+    "name": "nestjs-doctor",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "javascript",
+      "typescript"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli",
+      "ide-plugin"
+    ],
+    "homepage": "https://github.com/RoloBits/nestjs-doctor",
+    "source": "https://github.com/RoloBits/nestjs-doctor",
+    "pricing": null,
+    "plans": null,
+    "description": "Static analysis tool for NestJS applications. Detects anti-patterns across security, performance, correctness, and architecture with 30+ built-in rules. Outputs a 0-100 health score. Includes module graph visualization, endpoint dependency graphs, and database schema analysis. CLI and VS Code extension.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
@@ -16334,6 +16394,38 @@
     "demos": null,
     "wrapper": null
   },
+  "pyscn": {
+    "name": "pyscn",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "python"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://ludo-technologies.github.io/pyscn/",
+    "source": "https://github.com/ludo-technologies/pyscn",
+    "pricing": null,
+    "plans": null,
+    "description": "Intelligent Python code quality analyzer with CFG-based cyclomatic complexity analysis, dead code detection, clone detection (Type 1-4), and coupling metrics. Uses tree-sitter for parsing. Written in Go.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "pyscn documentation",
+        "url": "https://ludo-technologies.github.io/pyscn/"
+      }
+    ],
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "pyt-python-taint": {
     "name": "PyT - Python Taint",
     "categories": [
@@ -18248,6 +18340,50 @@
     "pricing": null,
     "plans": null,
     "description": "Security code analyzer for C# and VB.NET. Detects various security vulnerability patterns: SQLi, XSS, CSRF, XXE, Open Redirect, etc. Integrates into Visual Studio 2015 and newer. Detects various security vulnerability patterns: SQLi, XSS, CSRF, XXE, Open Redirect, etc.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "sem": {
+    "name": "sem",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "c",
+      "csharp",
+      "cpp",
+      "go",
+      "java",
+      "javascript",
+      "jsx",
+      "kotlin",
+      "lua",
+      "php",
+      "python",
+      "ruby",
+      "rust",
+      "scala",
+      "swift",
+      "typescript"
+    ],
+    "other": [
+      "git"
+    ],
+    "licenses": [
+      "FSL-1.1-ALv2"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/Ataraxy-Labs/sem",
+    "source": "https://github.com/Ataraxy-Labs/sem",
+    "pricing": null,
+    "plans": null,
+    "description": "Semantic version control CLI that provides entity-level diffs, blame, and impact analysis on top of git. Uses tree-sitter to parse 26 languages and builds a cross-file dependency graph with structural hashing. Commands include sem diff, sem blame, sem graph, and sem impact for blast-radius analysis of code changes.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
@@ -22463,6 +22599,50 @@
     "demos": null,
     "wrapper": null
   },
+  "weave": {
+    "name": "weave",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "c",
+      "csharp",
+      "cpp",
+      "go",
+      "java",
+      "javascript",
+      "jsx",
+      "kotlin",
+      "lua",
+      "php",
+      "python",
+      "ruby",
+      "rust",
+      "scala",
+      "swift",
+      "typescript"
+    ],
+    "other": [
+      "git"
+    ],
+    "licenses": [
+      "FSL-1.1-ALv2"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/Ataraxy-Labs/weave",
+    "source": "https://github.com/Ataraxy-Labs/weave",
+    "pricing": null,
+    "plans": null,
+    "description": "Entity-level semantic merge driver for git. Resolves false conflicts that line-based merge produces when independent changes touch the same file. Parses functions and classes via tree-sitter, matches by name, and merges at the entity level. Benchmarked at 100% clean merges vs git's 48% on a 31-scenario suite.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "weeder": {
     "name": "Weeder",
     "categories": [
@@ -22940,6 +23120,35 @@
     "pricing": null,
     "plans": null,
     "description": "A lightweight static security analysis tool for modern Perl Apps",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "zizmor": {
+    "name": "zizmor",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "ci",
+      "security",
+      "yaml"
+    ],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://zizmor.sh",
+    "source": "https://github.com/zizmorcore/zizmor",
+    "pricing": null,
+    "plans": null,
+    "description": "Static analysis for GitHub Actions workflows, detecting insecure CI/CD patterns such as excessive token permissions, template injection risks, credential persistence, and unsafe workflow references.",
     "discussion": null,
     "deprecated": null,
     "resources": null,

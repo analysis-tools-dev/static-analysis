@@ -969,6 +969,8 @@ It uses the pycodestyle utility to determine what parts of the code needs to be 
 
 - [Pysa](https://pyre-check.org/docs/pysa-basics.html) — A tool based on Facebook's pyre-check to identify potential security issues in Python code identified with taint analysis.
 
+- [pyscn](https://ludo-technologies.github.io/pyscn/) — Intelligent Python code quality analyzer with CFG-based cyclomatic complexity analysis, dead code detection, clone detection (Type 1-4), and coupling metrics. Uses tree-sitter for parsing. Written in Go.
+
 - **PyT - Python Taint** :warning: — A static analysis tool for detecting security vulnerabilities in Python web applications.
 
 - [pytype](https://google.github.io/pytype) — A static type analyzer for Python code.
@@ -1480,6 +1482,8 @@ It supports multiple languages and is designed to be extensible, allowing you to
 
 - [Infer](https://fbinfer.com) — A static analyzer for Java, C and Objective-C
 
+- [Inkog](https://inkog.io) — AI agent security scanner. Detects behavioral vulnerabilities (prompt injection, infinite loops, token bombing, SQL injection via LLM) across 11 framework adapters including LangChain, CrewAI, and pydantic-ai. Audits MCP servers. Maps findings to EU AI Act, OWASP LLM Top 10, and NIST AI RMF.
+
 - [Joern](https://joern.io) — Joern is a platform for analyzing source code, bytecode, and binary executables. It generates code property graphs (CPGs), a graph representation of code for cross-language code analysis. Code property graphs are stored in a custom graph database. This allows code to be mined using search queries formulated in a Scala-based domain-specific query language. Joern is developed with the goal of providing a useful tool for vulnerability discovery and research in static program analysis.
 
 - [jQAssistant](https://jqassistant.org/) — jQAssistant is a plugin based software analytics platform which allows scanning code structures and metadata from repositories into a Neo4j graph database.  The gathered data can be used for ad-hoc exploration using queries, visualization or defining rules for continuous architecture validation.
@@ -1503,6 +1507,8 @@ It supports multiple languages and is designed to be extensible, allowing you to
 - [Mobb](https://mobb.ai) :copyright: — Mobb is a trusted, automatic vulnerability fixer that secures applications, reduces security backlogs,  and frees developers to focus on innovation. Mobb is free for open-source projects.
 
 - [MOPSA](https://mopsa.lip6.fr) — A static analyzer designed to easily reuse abstract domains across widely different languages (such as C and Python).
+
+- [nestjs-doctor](https://github.com/RoloBits/nestjs-doctor) — Static analysis tool for NestJS applications. Detects anti-patterns across security, performance, correctness, and architecture with 30+ built-in rules. Outputs a 0-100 health score. Includes module graph visualization, endpoint dependency graphs, and database schema analysis. CLI and VS Code extension.
 
 - [Neurolint-CLI](https://neurolint.dev) — Deterministic code transformation tool using AST parsing and rule-based transformations. 
 Automatically fixes 50+ issues including accessibility violations, hydration errors, 
@@ -1567,6 +1573,8 @@ orchestration to ensure zero breaking changes. Specialized for React, Next.js, a
 - **Scrutinizer** :warning: :copyright: — A proprietary code quality checker that can be integrated with GitHub.
 
 - [Security Code Scan](https://security-code-scan.github.io) — Security code analyzer for C# and VB.NET. Detects various security vulnerability patterns: SQLi, XSS, CSRF, XXE, Open Redirect, etc. Integrates into Visual Studio 2015 and newer. Detects various security vulnerability patterns: SQLi, XSS, CSRF, XXE, Open Redirect, etc.
+
+- [sem](https://github.com/Ataraxy-Labs/sem) — Semantic version control CLI that provides entity-level diffs, blame, and impact analysis on top of git. Uses tree-sitter to parse 26 languages and builds a cross-file dependency graph with structural hashing. Commands include sem diff, sem blame, sem graph, and sem impact for blast-radius analysis of code changes.
 
 - [Semgrep](https://semgrep.dev) — A fast, open-source, static analysis tool for finding bugs and enforcing code standards at editor, commit, and CI time. Its rules look like the code you already write;  no abstract syntax trees or regex wrestling. Supports 17+ languages.
 
@@ -1636,6 +1644,8 @@ orchestration to ensure zero breaking changes. Specialized for React, Next.js, a
 - [Wakaru](https://wakarujs.com) — JavaScript decompiler that turns bundled, minified, transpiled production code back into readable modules. Unpacks webpack, esbuild, Metro, Browserify, SystemJS, and AMD/UMD bundles, then reverses minifier artifacts and Babel/TypeScript/SWC helpers (async/await, classes, optional chaining, and more). Written in Rust; runs as a CLI or fully in-browser via WebAssembly.
 
 - [WALA](https://github.com/wala/WALA) — Static analysis capabilities for Java bytecode and related languages and for JavaScript.
+
+- [weave](https://github.com/Ataraxy-Labs/weave) — Entity-level semantic merge driver for git. Resolves false conflicts that line-based merge produces when independent changes touch the same file. Parses functions and classes via tree-sitter, matches by name, and merges at the entity level. Benchmarked at 100% clean merges vs git's 48% on a 31-scenario suite.
 
 - [weggli](https://github.com/googleprojectzero/weggli) — A fast and robust semantic search tool for C and C++ codebases. It is designed to help security researchers identify interesting functionality in large codebases.
 
@@ -1906,6 +1916,8 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 - [TangleGuard](https://tangleguard.com/) :copyright: — Helps you understand and maintain a scalable software architecture. To do so, it generates a interactive, nested dependency graph out of the source code. You can choose the level of details and get the portion of your codebase that matters to you.
 
 - [Violations Lib](https://github.com/tomasbjerre/violations-lib) — Java library for parsing report files from static code analysis. Used by a bunch of Jenkins, Maven and Gradle plugins.
+
+- [zizmor](https://zizmor.sh) — Static analysis for GitHub Actions workflows, detecting insecure CI/CD patterns such as excessive token permissions, template injection risks, credential persistence, and unsafe workflow references.
 
 
 <a name="deno" />
@@ -2296,6 +2308,8 @@ TruffleHog is an open source secret-scanning engine that resolves exposed secret
 
 - [Tsunami Security Scanner](https://github.com/google/tsunami-security-scanner) — A general purpose network security scanner with an extensible plugin system for  detecting high severity RCE-like vulnerabilities with high confidence. Custom detectors for finding vulnerabilities (e.g. open APIs) can be added.
 
+- [zizmor](https://zizmor.sh) — Static analysis for GitHub Actions workflows, detecting insecure CI/CD patterns such as excessive token permissions, template injection risks, credential persistence, and unsafe workflow references.
+
 
 <a name="smart-contracts" />
 <h2>Smart Contracts</h2>
@@ -2393,6 +2407,8 @@ TruffleHog is an open source secret-scanning engine that resolves exposed secret
 - [Spectral](https://stoplight.io/open-source/spectral) — A flexible JSON/YAML linter, with out-of-the-box support for OpenAPI v2/v3 and AsyncAPI v2.
 
 - [yamllint](https://yamllint.readthedocs.io) — Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation.
+
+- [zizmor](https://zizmor.sh) — Static analysis for GitHub Actions workflows, detecting insecure CI/CD patterns such as excessive token permissions, template injection risks, credential persistence, and unsafe workflow references.
 
 
 <a name="git" />
