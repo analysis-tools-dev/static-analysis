@@ -1,14 +1,14 @@
-<!-- 🚨🚨 DON'T EDIT THIS FILE DIRECTLY. Edit `data/tools.yml` instead. 🚨🚨 -->
+<!-- 🚨🚨 DON'T EDIT THIS FILE DIRECTLY. Edit files in `data/tools/` instead. 🚨🚨 -->
 
- <a href="https://analysis-tools.dev/">
-   <img alt="Analysis Tools Website" src="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/redesign.svg" />
- </a>
+<a href="https://analysis-tools.dev/">
+  <img alt="Analysis Tools Website" src="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/redesign.svg" />
+</a>
 
 This repository lists **static analysis tools** for all programming languages, build tools, config files and more. The focus is on tools which improve code quality such as linters and formatters.
 The official website, [analysis-tools.dev](https://analysis-tools.dev/) is based on this repository and adds rankings, user comments, and additional resources like videos for each tool.
 
 [![Website](https://img.shields.io/badge/Website-Online-2B5BAE)](https://analysis-tools.dev)
-![CI](https://github.com/analysis-tools-dev/static-analysis/workflows/CI/badge.svg)
+[![CI](https://github.com/analysis-tools-dev/static-analysis/workflows/CI/badge.svg)](https://github.com/analysis-tools-dev/static-analysis/actions/workflows/ci.yml)
 [![Links](https://github.com/analysis-tools-dev/static-analysis/actions/workflows/links.yml/badge.svg)](https://github.com/analysis-tools-dev/static-analysis/actions/workflows/links.yml)
 
 ## Sponsors
@@ -19,7 +19,7 @@ This project would not be possible without the generous support of our sponsors.
    <tr>
       <td>
          <a href="https://www.pixee.ai/">
-            <picture >
+            <picture>
                <source width="200px" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/pixee-light.png">
                <img width="200px" alt="Pixee" src="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/pixee-dark.png">
             </picture>
@@ -27,31 +27,32 @@ This project would not be possible without the generous support of our sponsors.
       </td>
       <td>
          <a href="https://coderabbit.ai">
-            <img width="200px" src="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/code-rabbit.svg" />
+            <img width="200px" alt="CodeRabbit" src="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/code-rabbit.svg" />
          </a>
       </td>
       <td>
          <a href="https://semgrep.dev/">
-            <img width="200px" src="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/semgrep.svg" />
+            <img width="200px" alt="Semgrep" src="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/semgrep.svg" />
          </a>
       </td>
       <td>
          <a href="https://offensive360.com/">
-            <img width="200px" src="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/offensive360.png" />
+            <img width="200px" alt="Offensive360" src="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/offensive360.png" />
          </a>
       </td>
    </tr>
 </table>
 
-If you also want to support this project, head over to our [Github sponsors page](https://github.com/sponsors/analysis-tools-dev).
+If you also want to support this project, head over to our [GitHub Sponsors page](https://github.com/sponsors/analysis-tools-dev).
 
-## Meaning of Symbols:
+## Meaning of symbols
 
-- :copyright: stands for proprietary software. All other tools are Open Source.
-- :information_source: indicates that the community does not recommend to use this tool for new projects anymore. The icon links to the discussion issue.
-- :warning: means that this tool was not updated for more than 1 year, or the repo was archived.
+- :copyright: stands for proprietary software. All other tools are open source.
+- :information_source: indicates that the community does not recommend the tool for new projects. The icon links to the discussion issue.
+- :warning: means that the tool was not updated for more than one year, or its repository was archived.
 
-Pull requests are very welcome!  
+[Pull requests are very welcome!](CONTRIBUTING.md)
+
 Also check out the sister project, [awesome-dynamic-analysis](https://github.com/mre/awesome-dynamic-analysis).
 
 ## Table of Contents
@@ -84,11 +85,11 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 {%- for (language, linters) in linters %}
 
-<a name="{{ language.value }}" />
+<a id="{{ language.value }}"></a>
 <h2>{{ language.name }}</h2>
 
 {% for linter in linters %}
-- {% if linter.deprecated.is_some() && linter.deprecated.unwrap() %}**{{linter.name }}**{% else %}[{{linter.name }}]({{linter.homepage }}){% endif %}{% if linter.discussion.is_some() %} [:information_source:](<{{linter.discussion.as_ref().unwrap()}}>){% endif %}{% if linter.deprecated.is_some() && linter.deprecated.unwrap() %} :warning:{% endif %}{% if linter.license == "proprietary" %} :copyright:{% endif %} — {{ linter.description }}
+- {% if linter.is_deprecated() %}**{{ linter.name }}**{% else %}[{{ linter.name }}]({{ linter.homepage }}){% endif %}{% if linter.discussion.is_some() %} [:information_source:](<{{ linter.discussion.as_ref().unwrap() }}>){% endif %}{% if linter.is_deprecated() %} :warning:{% endif %}{% if linter.is_proprietary() %} :copyright:{% endif %} — {{ linter.description }}
 {% endfor %}
 
 {%- endfor %}
@@ -96,23 +97,23 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 ## Multiple languages
 
 {% for linter in multi %}
-- {% if linter.deprecated.is_some() && linter.deprecated.unwrap() %}**{{linter.name }}**{% else %}[{{linter.name }}]({{linter.homepage }}){% endif %}{% if linter.discussion.is_some() %} [:information_source:](<{{linter.discussion.as_ref().unwrap()}}>){% endif %}{% if linter.deprecated.is_some() && linter.deprecated.unwrap() %} :warning:{% endif %}{% if linter.license == "proprietary" %} :copyright:{% endif %} — {{ linter.description }}
+- {% if linter.is_deprecated() %}**{{ linter.name }}**{% else %}[{{ linter.name }}]({{ linter.homepage }}){% endif %}{% if linter.discussion.is_some() %} [:information_source:](<{{ linter.discussion.as_ref().unwrap() }}>){% endif %}{% if linter.is_deprecated() %} :warning:{% endif %}{% if linter.is_proprietary() %} :copyright:{% endif %} — {{ linter.description }}
 {% endfor %}
 
 ## Other
 
 {% for (tag, others) in others %}
 
-<a name="{{ tag.value }}" />
+<a id="{{ tag.value }}"></a>
 <h2>{{ tag.name }}</h2>
 
 {% for other in others %}
-- {% if other.deprecated.is_some() && other.deprecated.unwrap() %}**{{ other.name }}**{% else %}[{{ other.name }}]({{ other.homepage }}){% endif %}{% if other.discussion.is_some() %} [:information_source:](<{{other.discussion.as_ref().unwrap()}}>){% endif %}{% if other.deprecated.is_some() && other.deprecated.unwrap() %} :warning:{% endif %}{% if other.license == "proprietary" %} :copyright:{% endif %} — {{ other.description }}
+- {% if other.is_deprecated() %}**{{ other.name }}**{% else %}[{{ other.name }}]({{ other.homepage }}){% endif %}{% if other.discussion.is_some() %} [:information_source:](<{{ other.discussion.as_ref().unwrap() }}>){% endif %}{% if other.is_deprecated() %} :warning:{% endif %}{% if other.is_proprietary() %} :copyright:{% endif %} — {{ other.description }}
 {% endfor %}
 
 {%- endfor %}
 
-## More Collections
+## More collections
 
 - [Clean code linters](https://github.com/collections/clean-code-linters) — A collection of linters in github collections
 - [Code Quality Checker Tools For PHP Projects](https://github.com/collections/code-quality-in-php) — A collection of PHP linters in github collections

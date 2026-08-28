@@ -52,9 +52,8 @@ fn read_tools(path: PathBuf) -> Result<Vec<ParsedEntry>> {
 
 /// Backfills the deprecated field in the tools data from the old tools data.
 fn backfill_deprecated(tools: &mut Vec<Entry>) -> Result<()> {
-    let tools_raw = match fs::read_to_string("data/api/tools.json") {
-        Ok(content) => content,
-        Err(_) => return Ok(()), // No old data to backfill from. Skip silently.
+    let Ok(tools_raw) = fs::read_to_string("data/api/tools.json") else {
+        return Ok(()); // No old data to backfill from. Skip silently.
     };
 
     let old_tools_data: BTreeMap<String, serde_json::Value> = serde_json::from_str(&tools_raw)?;
@@ -64,7 +63,9 @@ fn backfill_deprecated(tools: &mut Vec<Entry>) -> Result<()> {
         if let Some(old_tool) = old_tools_data.get(&id) {
             // Only backfill deprecated if it's not already set
             if tool.deprecated.is_none() {
-                tool.deprecated = old_tool.get("deprecated").and_then(|d| d.as_bool());
+                tool.deprecated = old_tool
+                    .get("deprecated")
+                    .and_then(serde_json::Value::as_bool);
             }
         }
     }
@@ -110,18 +111,17 @@ fn main() -> Result<()> {
         .collect();
 
     let other_tags: Vec<Tag> = tags
-        .clone()
         .into_iter()
         .filter(|t| t.tag_type == Type::Other)
         .collect();
 
-    let catalog = create_catalog(&tools, &languages, &other_tags)?;
+    let catalog = create_catalog(&tools, &languages, &other_tags);
     fs::write(&args.md_out, catalog.render()?).context(format!(
         "Cannot write Markdown output to {}",
         args.md_out.display()
     ))?;
 
-    let api = create_api(catalog, &languages, &other_tags)?;
+    let api = create_api(tools, &languages, &other_tags);
 
     let json = serde_json::to_string_pretty(&api)?;
     let tools_out = args.json_out.join("tools.json");

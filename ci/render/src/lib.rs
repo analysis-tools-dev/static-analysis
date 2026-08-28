@@ -64,20 +64,23 @@ pub async fn check_deprecated(token: String, entries: &mut Vec<Entry>) -> Result
     Ok(())
 }
 
-pub fn create_catalog(entries: &[Entry], languages: &[Tag], other_tags: &[Tag]) -> Result<Catalog> {
-    // Move tools that support multiple programming languages into their own category
-    let (multi, entries): (Vec<Entry>, Vec<Entry>) = entries.iter().cloned().partition(|entry| {
-        let language_tags = entry
-            .tags
-            .iter()
-            .filter(|t| t.tag_type == Type::Language)
-            .count();
-        language_tags > 1 && !entry.is_c_cpp()
-    });
+#[must_use]
+pub fn create_catalog(entries: &[Entry], languages: &[Tag], other_tags: &[Tag]) -> Catalog {
+    // Multi-language tools get their own primary section instead of being repeated under
+    // every language. They still belong in applicable non-language tag sections.
+    let (multi, single_language): (Vec<Entry>, Vec<Entry>) =
+        entries.iter().cloned().partition(|entry| {
+            let language_tags = entry
+                .tags
+                .iter()
+                .filter(|t| t.tag_type == Type::Language)
+                .count();
+            language_tags > 1 && !entry.is_c_cpp()
+        });
 
     let mut linters = BTreeMap::new();
     for language in languages {
-        let list: Vec<Entry> = entries
+        let list: Vec<Entry> = single_language
             .iter()
             .filter(|e| e.tags.contains(language))
             .cloned()
@@ -89,7 +92,12 @@ pub fn create_catalog(entries: &[Entry], languages: &[Tag], other_tags: &[Tag]) 
 
     let mut others = BTreeMap::new();
     for other in other_tags {
-        let list: Vec<Entry> = entries
+        let entries_for_tag: &[Entry] = if other.include_multi {
+            entries
+        } else {
+            &single_language
+        };
+        let list: Vec<Entry> = entries_for_tag
             .iter()
             .filter(|e| e.tags.contains(other))
             .cloned()
@@ -99,26 +107,22 @@ pub fn create_catalog(entries: &[Entry], languages: &[Tag], other_tags: &[Tag]) 
         }
     }
 
-    Ok(Catalog {
+    Catalog {
         linters,
         others,
         multi,
-    })
+    }
 }
 
-pub fn create_api(catalog: Catalog, languages: &[Tag], other_tags: &[Tag]) -> Result<Api> {
+#[must_use]
+pub fn create_api(entries: Vec<Entry>, languages: &[Tag], other_tags: &[Tag]) -> Api {
     let mut api_entries = BTreeMap::new();
-
-    // Concatenate all entries into one vector
-    let mut entries: Vec<Entry> = catalog.linters.into_values().flatten().collect();
-    entries.extend(catalog.others.into_values().flatten());
-    entries.extend(catalog.multi);
 
     for entry in entries {
         // Get the language data for the entry. We iterate over all languages
-        // and look up each language in the entry tags This is an O(n) operation
+        // and look up each language in the entry tags. This is an O(n) operation
         // as we iterate over the language list only once while the lookup is an
-        // O(1) operation thanks to the tag hash set.
+        // O(1) operation thanks to the tag set.
         let entry_languages = languages
             .iter()
             .filter_map(|lang| {
@@ -170,12 +174,43 @@ pub fn create_api(catalog: Catalog, languages: &[Tag], other_tags: &[Tag]) -> Re
         api_entries.insert(slugify(&entry.name), api_entry);
     }
 
-    Ok(api_entries)
+    api_entries
 }
 
 #[cfg(test)]
 mod tests {
     use super::*;
+    use std::collections::BTreeSet;
+
+    fn tag(name: &str, value: &str, tag_type: Type) -> Tag {
+        Tag {
+            name: name.into(),
+            value: value.into(),
+            tag_type,
+            include_multi: false,
+        }
+    }
+
+    fn entry(tags: &[Tag]) -> Entry {
+        Entry {
+            name: "Multi Tool".into(),
+            categories: BTreeSet::new(),
+            tags: tags.iter().cloned().collect(),
+            license: "MIT".into(),
+            types: BTreeSet::new(),
+            homepage: "https://example.com".into(),
+            source: None,
+            pricing: None,
+            plans: None,
+            description: "Example tool".into(),
+            discussion: None,
+            deprecated: None,
+            resources: None,
+            reviews: None,
+            demos: None,
+            wrapper: None,
+        }
+    }
 
     #[test]
     fn test_slugify() {
@@ -189,6 +224,51 @@ mod tests {
             slugify("   - - it-has-dashes - -"),
             "it-has-dashes".to_string()
         );
+    }
+
+    #[test]
+    fn multi_language_tools_remain_visible_in_other_sections_and_api() {
+        let python = tag("Python", "python", Type::Language);
+        let rust = tag("Rust", "rust", Type::Language);
+        let mut ai_generated = tag("AI-generated code", "ai-generated-code", Type::Other);
+        ai_generated.include_multi = true;
+        let tool = entry(&[python.clone(), rust.clone(), ai_generated.clone()]);
+        let languages = [python, rust];
+        let other_tags = [ai_generated.clone()];
+
+        let catalog = create_catalog(std::slice::from_ref(&tool), &languages, &other_tags);
+
+        assert!(catalog.linters.is_empty());
+        assert_eq!(catalog.multi.len(), 1);
+        assert_eq!(catalog.multi[0], tool);
+        assert_eq!(catalog.others[&ai_generated].len(), 1);
+        assert_eq!(catalog.others[&ai_generated][0], tool);
+
+        let api = create_api(vec![tool], &languages, &other_tags);
+        assert_eq!(api["multi-tool"].languages, ["python", "rust"]);
+        assert_eq!(api["multi-tool"].other, ["ai-generated-code"]);
+    }
+
+    #[test]
+    fn c_and_cpp_tools_stay_in_language_sections_when_they_have_other_tags() {
+        let c = tag("C", "c", Type::Language);
+        let cpp = tag("C++", "cpp", Type::Language);
+        let security = tag("Security/SAST", "security", Type::Other);
+        let tool = entry(&[c.clone(), cpp.clone(), security.clone()]);
+
+        let catalog = create_catalog(
+            std::slice::from_ref(&tool),
+            &[c.clone(), cpp.clone()],
+            std::slice::from_ref(&security),
+        );
+
+        assert!(catalog.multi.is_empty());
+        assert_eq!(catalog.linters[&c].len(), 1);
+        assert_eq!(catalog.linters[&c][0], tool);
+        assert_eq!(catalog.linters[&cpp].len(), 1);
+        assert_eq!(catalog.linters[&cpp][0], tool);
+        assert_eq!(catalog.others[&security].len(), 1);
+        assert_eq!(catalog.others[&security][0], tool);
     }
 }
 
