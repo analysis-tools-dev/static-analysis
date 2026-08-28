@@ -26,13 +26,13 @@ check:
 	cargo check --manifest-path ci/Cargo.toml
 
 clippy:
-	cargo clippy --manifest-path ci/Cargo.toml -- -D warnings
+	cargo clippy --manifest-path ci/Cargo.toml --workspace --all-targets --all-features --locked -- -D warnings
 
 fmt:
 	cargo fmt --manifest-path ci/Cargo.toml
 
 test:
-	cargo test --manifest-path ci/Cargo.toml
+	cargo test --manifest-path ci/Cargo.toml --workspace --all-targets --all-features --locked
 
 clean:
 	cargo clean --manifest-path ci/Cargo.toml

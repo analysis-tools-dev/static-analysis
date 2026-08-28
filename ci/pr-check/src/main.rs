@@ -20,10 +20,10 @@
 //! not met, causing CI to fail.
 //!
 //! Expected environment variables:
-//!   GITHUB_TOKEN        - a token with `pull-requests: write` permission
-//!   GITHUB_REPOSITORY   - owner/repo, e.g. "analysis-tools-dev/static-analysis"
-//!   PR_NUMBER           - the pull request number
-//!   COMMENT_OUTPUT_FILE - (optional) path to write the rendered comment body
+//!   `GITHUB_TOKEN`        - a token with `pull-requests: write` permission
+//!   `GITHUB_REPOSITORY`   - owner/repo, e.g. "analysis-tools-dev/static-analysis"
+//!   `PR_NUMBER`           - the pull request number
+//!   `COMMENT_OUTPUT_FILE` - (optional) path to write the rendered comment body
 //!                         to instead of posting it directly via the API.
 
 use anyhow::{Context, Result, bail};
@@ -79,11 +79,11 @@ enum CheckResult {
 }
 
 impl CheckResult {
-    fn is_pass(&self) -> bool {
+    const fn is_pass(&self) -> bool {
         matches!(self, Self::Pass(_))
     }
 
-    fn symbol(&self) -> &'static str {
+    const fn symbol(&self) -> &'static str {
         match self {
             Self::Pass(_) => "pass",
             Self::Fail(_) => "fail",
@@ -111,11 +111,11 @@ struct ToolReport {
 }
 
 impl ToolReport {
-    fn any_fail(&self) -> bool {
+    const fn any_fail(&self) -> bool {
         !self.stars.is_pass() || !self.contributors.is_pass() || !self.age.is_pass()
     }
 
-    fn status(&self) -> &'static str {
+    const fn status(&self) -> &'static str {
         if self.any_fail() { "FAIL" } else { "PASS" }
     }
 }
@@ -157,7 +157,7 @@ impl GithubClient {
         let resp = self
             .client
             .get(url)
-            .header("Authorization", format!("Bearer {}", self.token))
+            .bearer_auth(&self.token)
             .header("Accept", "application/vnd.github+json")
             .header("X-GitHub-Api-Version", "2022-11-28")
             .send()
@@ -234,7 +234,7 @@ impl GithubClient {
         let resp = self
             .client
             .post(&url)
-            .header("Authorization", format!("Bearer {}", self.token))
+            .bearer_auth(&self.token)
             .header("Accept", "application/vnd.github+json")
             .header("X-GitHub-Api-Version", "2022-11-28")
             .json(&payload)
@@ -263,7 +263,7 @@ impl GithubClient {
         let resp = self
             .client
             .patch(&url)
-            .header("Authorization", format!("Bearer {}", self.token))
+            .bearer_auth(&self.token)
             .header("Accept", "application/vnd.github+json")
             .header("X-GitHub-Api-Version", "2022-11-28")
             .json(&payload)
@@ -343,7 +343,7 @@ async fn check_tool(client: &GithubClient, tool: &ToolEntry) -> Result<ToolRepor
                 let now = Utc::now();
                 let minimum_created_at = now
                     .checked_sub_months(Months::new(MIN_AGE_MONTHS))
-                    .expect("subtracting six months from the current date must succeed");
+                    .context("Current date cannot be shifted back by six months")?;
                 let days = now.signed_duration_since(info.created_at).num_days();
 
                 if info.created_at <= minimum_created_at {
@@ -352,7 +352,12 @@ async fn check_tool(client: &GithubClient, tool: &ToolEntry) -> Result<ToolRepor
                     let eligible_at = info
                         .created_at
                         .checked_add_months(Months::new(MIN_AGE_MONTHS))
-                        .expect("adding six months to a repository creation date must succeed");
+                        .with_context(|| {
+                            format!(
+                                "Repository creation date {} cannot be shifted forward by {MIN_AGE_MONTHS} months",
+                                info.created_at
+                            )
+                        })?;
                     let remaining = eligible_at.signed_duration_since(now).num_days().max(1);
                     CheckResult::Fail(format!(
                         "created {days} days ago, needs {remaining} more days to meet the 6-month minimum"
@@ -383,7 +388,7 @@ async fn check_tool(client: &GithubClient, tool: &ToolEntry) -> Result<ToolRepor
         );
 
         Ok(ToolReport {
-            name: tool.name.to_string(),
+            name: tool.name.clone(),
             source,
             stars: stars_check,
             contributors: contributors_check,
@@ -397,7 +402,7 @@ async fn check_tool(client: &GithubClient, tool: &ToolEntry) -> Result<ToolRepor
                     and age are not possible. Please verify the contributing criteria manually.";
 
         Ok(ToolReport {
-            name: tool.name.to_string(),
+            name: tool.name.clone(),
             source,
             stars: CheckResult::Skip("N/A".into()),
             contributors: CheckResult::Skip("N/A".into()),
@@ -413,7 +418,7 @@ async fn check_tool(client: &GithubClient, tool: &ToolEntry) -> Result<ToolRepor
 ///
 /// Returns an error if the template fails to render.
 fn render_comment(reports: &[ToolReport]) -> Result<String> {
-    let any_failures = reports.iter().any(|r| r.any_fail());
+    let any_failures = reports.iter().any(ToolReport::any_fail);
     CommentTemplate {
         marker: COMMENT_MARKER,
         reports,
@@ -460,15 +465,15 @@ async fn main() -> Result<()> {
     // Remaining CLI arguments are the paths to check.
     // Usage: pr-check data/tools/foo.yml data/tools/bar.yml
     let pico = pico_args::Arguments::from_env();
-    let tool_paths: Vec<PathBuf> = pico.finish().into_iter().map(PathBuf::from).collect();
-
-    let tool_paths: Vec<PathBuf> = tool_paths
+    let tool_paths: Vec<PathBuf> = pico
+        .finish()
         .into_iter()
+        .map(PathBuf::from)
         .filter(|p| {
             p.starts_with("data/tools")
                 && matches!(
-                    p.extension().and_then(|e| e.to_str()),
-                    Some("yml") | Some("yaml")
+                    p.extension().and_then(|extension| extension.to_str()),
+                    Some("yml" | "yaml")
                 )
         })
         .collect();
@@ -478,7 +483,7 @@ async fn main() -> Result<()> {
     let mut reports = Vec::new();
     for path in &tool_paths {
         let tool = read_tool(path).with_context(|| format!("Failed to read {}", path.display()))?;
-        eprintln!("Checking '{}'...", &tool.name);
+        eprintln!("Checking '{}'...", tool.name);
         let report = check_tool(&client, &tool).await?;
         reports.push(report);
     }
@@ -502,7 +507,7 @@ async fn main() -> Result<()> {
         upsert_comment(&client, &gh_repo, pr_number, &comment_body).await?;
     }
 
-    let any_failures = reports.iter().any(|r| r.any_fail());
+    let any_failures = reports.iter().any(ToolReport::any_fail);
     if any_failures {
         eprintln!("One or more tools failed the contributing criteria check.");
         std::process::exit(1);
@@ -546,14 +551,16 @@ mod tests {
     }
 
     #[test]
-    fn render_comment_no_files() {
-        let comment = render_comment(&[]).unwrap();
+    fn render_comment_no_files() -> Result<()> {
+        let comment = render_comment(&[])?;
         assert!(comment.contains("No new tool files detected"));
+        Ok(())
     }
 
     #[test]
-    fn render_comment_contains_marker() {
-        let comment = render_comment(&[]).unwrap();
+    fn render_comment_contains_marker() -> Result<()> {
+        let comment = render_comment(&[])?;
         assert!(comment.contains(COMMENT_MARKER));
+        Ok(())
     }
 }

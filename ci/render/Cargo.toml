@@ -3,6 +3,7 @@ name = "render"
 version = "0.2.0"
 authors = ["Matthias Endler <matthias-endler@gmx.net>"]
 edition = "2024"
+rust-version.workspace = true
 description = "Static analysis tools catalog renderer"
 license = "MIT"
 repository = "https://github.com/analysis-tools-dev/static-analysis"
@@ -26,7 +27,6 @@ pedantic = { level = "warn", priority = -1 }
 nursery = { level = "warn", priority = -1 }
 
 # Specific lints we want to enforce
-missing_docs_in_private_items = "warn"
 missing_errors_doc = "warn"
 missing_panics_doc = "warn"
 unwrap_used = "deny"
@@ -35,9 +35,9 @@ panic = "deny"
 unimplemented = "deny"
 unreachable = "deny"
 todo = "warn"
-print_stdout = "warn"
-print_stderr = "warn"
 dbg_macro = "warn"
+# TLS and target-support compatibility crates intentionally coexist.
+multiple_crate_versions = "allow"
 
 # Allow some pedantic lints that might be too noisy
 module_name_repetitions = "allow"
@@ -49,12 +49,9 @@ anyhow = { workspace = true }
 chrono = { workspace = true }
 pico-args = { workspace = true }
 serde = { workspace = true }
-serde_derive = { workspace = true }
 serde_json = { workspace = true }
 serde_yaml = { workspace = true }
 tokio = { workspace = true }
 askama = { workspace = true }
-# Switch back to crates as soon as a new release with tokio 1.x support is
-# released. See https://github.com/softprops/hubcaps/pull/285
-hubcaps = { git="https://github.com/softprops/hubcaps" }
+reqwest = { workspace = true }
 slug = "0.1.6"

@@ -19,6 +19,8 @@ struct Args {
     skip_deprecated: bool,
 }
 
+// `pico_args::value_from_os_str` requires a fallible parser callback.
+#[allow(clippy::unnecessary_wraps)]
 fn parse_path(s: &OsStr) -> Result<PathBuf> {
     Ok(s.into())
 }
@@ -33,9 +35,10 @@ fn read_tools(path: PathBuf) -> Result<Vec<ParsedEntry>> {
 
     let files = dir
         .map(|res| res.map(|e| e.path()))
-        .filter(|x| match x {
-            Ok(pb) => pb.extension().and_then(OsStr::to_str) == Some("yml"),
-            Err(_) => false,
+        .filter(|result| {
+            result
+                .as_ref()
+                .is_ok_and(|path| path.extension().and_then(OsStr::to_str) == Some("yml"))
         })
         .collect::<Result<Vec<_>, io::Error>>()?;
 
@@ -72,7 +75,8 @@ fn backfill_deprecated(tools: &mut Vec<Entry>) -> Result<()> {
     Ok(())
 }
 
-fn main() -> Result<()> {
+#[tokio::main]
+async fn main() -> Result<()> {
     let mut args = Arguments::from_env();
     let args = Args {
         tags: args.value_from_os_str("--tags", parse_path)?,
@@ -96,7 +100,10 @@ fn main() -> Result<()> {
     let github_token = env::var("GITHUB_TOKEN");
 
     match (should_check_deprecation, github_token) {
-        (true, Ok(token)) => check_deprecated(token, &mut tools)?,
+        (true, Ok(token)) => {
+            println!("Checking for deprecated entries on GitHub. This might take a while...");
+            check_deprecated(&token, &mut tools).await?;
+        }
         (true, Err(_)) => {
             eprintln!("No GITHUB_TOKEN environment variable found. Reusing old deprecation data.");
             backfill_deprecated(&mut tools)?;
@@ -107,13 +114,10 @@ fn main() -> Result<()> {
     let languages: Vec<Tag> = tags
         .clone()
         .into_iter()
-        .filter(|t| t.tag_type == Type::Language)
+        .filter(|t| t.kind == Type::Language)
         .collect();
 
-    let other_tags: Vec<Tag> = tags
-        .into_iter()
-        .filter(|t| t.tag_type == Type::Other)
-        .collect();
+    let other_tags: Vec<Tag> = tags.into_iter().filter(|t| t.kind == Type::Other).collect();
 
     let catalog = create_catalog(&tools, &languages, &other_tags);
     fs::write(&args.md_out, catalog.render()?).context(format!(
