@@ -13373,6 +13373,71 @@
     "demos": null,
     "wrapper": null
   },
+  "offensive360": {
+    "name": "Offensive360",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "apex",
+      "c",
+      "csharp",
+      "cpp",
+      "cobol",
+      "dart",
+      "elixir",
+      "go",
+      "groovy",
+      "java",
+      "javascript",
+      "kotlin",
+      "lua",
+      "objectivec",
+      "perl",
+      "php",
+      "python",
+      "r",
+      "ruby",
+      "rust",
+      "scala",
+      "swift",
+      "typescript",
+      "vbnet"
+    ],
+    "other": [
+      "ci",
+      "security"
+    ],
+    "licenses": [
+      "proprietary"
+    ],
+    "types": [
+      "service"
+    ],
+    "homepage": "https://offensive360.com",
+    "source": null,
+    "pricing": "https://offensive360.com/pricing/",
+    "plans": {
+      "free": false,
+      "oss": false
+    },
+    "description": "Offensive360 is an application security platform combining SAST (taint/data-flow analysis across 60+ languages), DAST, SCA, mobile app scanning (Android/iOS), malware/binary analysis and license compliance. Findings include the full source-to-sink trace and a secure code example. Deploys as SaaS or as a self-hosted virtual appliance for offline/air-gapped networks. SARIF output; CI/CD (GitHub Actions, GitLab, Jenkins, Azure DevOps) and IDE integrations.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Product documentation and knowledge base",
+        "url": "https://offensive360.com/knowledge-base/"
+      }
+    ],
+    "reviews": [
+      "https://www.g2.com/products/offensive360/reviews",
+      "https://www.gartner.com/reviews/market/application-security-testing/vendor/offensive-360/product/offensive-360",
+      "https://www.peerspot.com/products/offensive-360-reviews"
+    ],
+    "demos": null,
+    "wrapper": null
+  },
   "openrewrite": {
     "name": "OpenRewrite",
     "categories": [
@@ -19818,6 +19883,40 @@
     "demos": null,
     "wrapper": null
   },
+  "squirrelscan": {
+    "name": "squirrelscan",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "javascript"
+    ],
+    "other": [
+      "ci",
+      "css",
+      "html",
+      "security",
+      "uses-llm"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "cli",
+      "service"
+    ],
+    "homepage": "https://squirrelscan.com",
+    "source": "https://github.com/squirrelscan/squirrelscan",
+    "pricing": null,
+    "plans": null,
+    "description": "squirrelscan is a website QA tool built for coding agents such as Claude Code and Cursor. Its squirrel CLI crawls a live site and runs 260+ audit rules across SEO, performance, security, accessibility, structured data and agent experience, then returns exact source-mapped fixes. Runs from the terminal, CI, the cloud, or over MCP.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "stan": {
     "name": "Stan",
     "categories": [
@@ -21049,6 +21148,41 @@
     "demos": null,
     "wrapper": null
   },
+  "thailint": {
+    "name": "thailint",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "javascript",
+      "python",
+      "rust",
+      "shell",
+      "typescript"
+    ],
+    "other": [
+      "ai-generated-code",
+      "terraform",
+      "yaml"
+    ],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://thai-lint.readthedocs.io/",
+    "source": "https://github.com/be-wise-be-kind/thai-lint",
+    "pricing": null,
+    "plans": null,
+    "description": "Multi-language linter targeting anti-patterns that appear disproportionately in AI-generated code: duplicated blocks across files, excessive nesting, magic numbers, Single Responsibility violations, and linter suppressions added without justification. Covers Python, TypeScript, JavaScript and Rust from one configuration, ships a pre-commit hook per rule, and emits text, JSON or SARIF for CI.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "threatmapper": {
     "name": "ThreatMapper",
     "categories": [
@@ -22007,6 +22141,34 @@
     "pricing": null,
     "plans": null,
     "description": "Find unused global variables and constants.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "vastlint": {
+    "name": "vastlint",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "xml"
+    ],
+    "licenses": [
+      "proprietary"
+    ],
+    "types": [
+      "cli",
+      "service"
+    ],
+    "homepage": "https://vastlint.org",
+    "source": null,
+    "pricing": null,
+    "plans": null,
+    "description": "Validator and linter for VAST XML ad tags. Checks wrappers and inline tags against the IAB VAST 2.0-4.3 specification and can auto-fix deterministic issues.",
     "discussion": null,
     "deprecated": null,
     "resources": null,

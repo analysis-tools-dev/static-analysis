@@ -85,20 +85,21 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 | | | |
 |---|---|---|
-| [.env](#dotenv) | [Embedded Ruby (a.k.a. ERB, eRuby)](#erb) | [Prometheus](#prometheus) |
-| [Ansible](#ansible) | [Gherkin](#gherkin) | [Protocol Buffers](#protobuf) |
-| [Archive](#archive) | [HTML](#html) | [Puppet](#puppet) |
-| [Azure Resource Manager](#arm) | [JSON](#json) | [Rails](#rails) |
-| [Binaries](#binary) | [Kubernetes](#kubernetes) | [Security/SAST](#security) |
-| [Build tools](#buildtool) | [LaTeX](#latex) | [Smart Contracts](#smart-contracts) |
-| [CSS/SASS/SCSS](#css) | [Laravel](#laravel) | [Support](#support) |
-| [Config Files](#configfile) | [Makefiles](#make) | [Template-Languages](#template) |
-| [Configuration Management](#configmanagement) | [Markdown](#markdown) | [Terraform](#terraform) |
-| [Containers](#container) | [Metalinter](#meta) | [Translation](#translation) |
-| [Continuous Integration](#ci) | [Mobile](#mobile) | [Vue.js](#vue) |
-| [Deno](#deno) | [Nix](#nix) | [Writing](#writing) |
-| [Dockerfile](#dockerfile) | [Node.js](#nodejs) | [YAML](#yaml) |
-| [Embedded](#embedded) | [Packages](#package) | [git](#git) |
+| [.env](#dotenv) | [Gherkin](#gherkin) | [Puppet](#puppet) |
+| [Ansible](#ansible) | [HTML](#html) | [Rails](#rails) |
+| [Archive](#archive) | [JSON](#json) | [Security/SAST](#security) |
+| [Azure Resource Manager](#arm) | [Kubernetes](#kubernetes) | [Smart Contracts](#smart-contracts) |
+| [Binaries](#binary) | [LaTeX](#latex) | [Support](#support) |
+| [Build tools](#buildtool) | [Laravel](#laravel) | [Template-Languages](#template) |
+| [CSS/SASS/SCSS](#css) | [Makefiles](#make) | [Terraform](#terraform) |
+| [Config Files](#configfile) | [Markdown](#markdown) | [Translation](#translation) |
+| [Configuration Management](#configmanagement) | [Metalinter](#meta) | [Uses LLM/model](#uses-llm) |
+| [Containers](#container) | [Mobile](#mobile) | [Vue.js](#vue) |
+| [Continuous Integration](#ci) | [Nix](#nix) | [Writing](#writing) |
+| [Deno](#deno) | [Node.js](#nodejs) | [XML](#xml) |
+| [Dockerfile](#dockerfile) | [Packages](#package) | [YAML](#yaml) |
+| [Embedded](#embedded) | [Prometheus](#prometheus) | [git](#git) |
+| [Embedded Ruby (a.k.a. ERB, eRuby)](#erb) | [Protocol Buffers](#protobuf) |
 
 </details>
 
@@ -665,6 +666,8 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 - [retire.js](https://retirejs.github.io/retire.js) — Scanner detecting the use of JavaScript libraries with known vulnerabilities.
 
 - **RSLint** :warning: — A (WIP) JavaScript linter written in Rust designed to be as fast as possible, customizable, and easy to use.
+
+- [squirrelscan](https://squirrelscan.com) — squirrelscan is a website QA tool built for coding agents such as Claude Code and Cursor. Its squirrel CLI crawls a live site and runs 260+ audit rules across SEO, performance, security, accessibility, structured data and agent experience, then returns exact source-mapped fixes. Runs from the terminal, CI, the cloud, or over MCP.
 
 - **standard** :warning: — An npm module that checks for Javascript Styleguide issues.
 
@@ -1520,6 +1523,8 @@ orchestration to ensure zero breaking changes. Specialized for React, Next.js, a
 
 - [Offensive 360](https://offensive360.com/) :copyright: — Commercial Static Code Analysis system doesn't require building the source code or pre-compilation.
 
+- [Offensive360](https://offensive360.com) :copyright: — Offensive360 is an application security platform combining SAST (taint/data-flow analysis across 60+ languages), DAST, SCA, mobile app scanning (Android/iOS), malware/binary analysis and license compliance. Findings include the full source-to-sink trace and a secure code example. Deploys as SaaS or as a self-hosted virtual appliance for offline/air-gapped networks. SARIF output; CI/CD (GitHub Actions, GitLab, Jenkins, Azure DevOps) and IDE integrations.
+
 - [OpenRewrite](https://docs.openrewrite.org/) — OpenRewrite [fixes common static analysis issues](https://docs.openrewrite.org/running-recipes/popular-recipe-guides/common-static-analysis-issue-remediation)  reported through Sonar and other tools using a Maven and Gradle plugin or the Moderne CLI.
 
 - [OpenStaticAnalyzer](https://github.com/sed-inf-u-szeged/OpenStaticAnalyzer) — OpenStaticAnalyzer is a source code analyzer tool, which can perform deep static analysis of the source code of complex systems.
@@ -1619,6 +1624,8 @@ orchestration to ensure zero breaking changes. Specialized for React, Next.js, a
 - [Teamscale](https://teamscale.com) :copyright: — Static and dynamic analysis tool supporting more than 25 languages and direct IDE integration. Free hosting for Open Source projects available on request. Free academic licenses available.
 
 - **TencentCodeAnalysis** :warning: — Tencent Cloud Code Analysis (TCA for short, code-named CodeDog inside the company early) is a comprehensive platform for code analysis and issue tracking. TCA consist of three components, server, web and client. It integrates of a number of self-developed tools, and also supports dynamic integration of code analysis tools in various programming languages.
+
+- [thailint](https://thai-lint.readthedocs.io/) — Multi-language linter targeting anti-patterns that appear disproportionately in AI-generated code: duplicated blocks across files, excessive nesting, magic numbers, Single Responsibility violations, and linter suppressions added without justification. Covers Python, TypeScript, JavaScript and Rust from one configuration, ships a pre-commit hook per rule, and emits text, JSON or SARIF for CI.
 
 - [ThreatMapper](https://github.com/deepfence/ThreatMapper) — Vulnerability Scanner and Risk Evaluation for containers, serverless and hosts at runtime. ThreatMapper generates runtime BOMs from dependencies and operating system packages, matches against multiple threat feeds, scans for unprotected secrets, and scores issues based on severity and risk-of-exploit.
 
@@ -1780,6 +1787,8 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 - [Specificity Graph](https://github.com/pocketjoso/specificity-graph) — CSS Specificity Graph Generator.
 
+- [squirrelscan](https://squirrelscan.com) — squirrelscan is a website QA tool built for coding agents such as Claude Code and Cursor. Its squirrel CLI crawls a live site and runs 260+ audit rules across SEO, performance, security, accessibility, structured data and agent experience, then returns exact source-mapped fixes. Runs from the terminal, CI, the cloud, or over MCP.
+
 - [Stylelint](http://stylelint.io) — Linter for SCSS/CSS files.
 
 
@@ -1911,6 +1920,8 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 
 - [Reviewdog](https://github.com/haya14busa/reviewdog) — A tool for posting review comments from any linter in any code hosting service.
 
+- [squirrelscan](https://squirrelscan.com) — squirrelscan is a website QA tool built for coding agents such as Claude Code and Cursor. Its squirrel CLI crawls a live site and runs 260+ audit rules across SEO, performance, security, accessibility, structured data and agent experience, then returns exact source-mapped fixes. Runs from the terminal, CI, the cloud, or over MCP.
+
 - [Symfony Insight](https://insight.symfony.com/) :copyright: — Detect security risks, find bugs and provide actionable metrics for PHP projects.
 
 - [TangleGuard](https://tangleguard.com/) :copyright: — Helps you understand and maintain a scalable software architecture. To do so, it generates a interactive, nested dependency graph out of the source code. You can choose the level of details and get the portion of your codebase that matters to you.
@@ -1994,6 +2005,8 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 - [Pa11y](https://pa11y.org/) — Automated accessibility testing tool that runs HTML CodeSniffer or axe-core from the command line. Supports CI/CD integration, multiple reporters, and testing against WCAG 2.1 AA standards.
 
 - [Polymer-analyzer](https://github.com/Polymer/tools/tree/master/packages/analyzer) — A static analysis framework for Web Components.
+
+- [squirrelscan](https://squirrelscan.com) — squirrelscan is a website QA tool built for coding agents such as Claude Code and Cursor. Its squirrel CLI crawls a live site and runs 260+ audit rules across SEO, performance, security, accessibility, structured data and agent experience, then returns exact source-mapped fixes. Runs from the terminal, CI, the cloud, or over MCP.
 
 
 <a name="json" />
@@ -2297,6 +2310,8 @@ Kani verifies:
 
 - [scorecard](https://github.com/ossf/scorecard) — Security Scorecards - Security health metrics for Open Source
 
+- [squirrelscan](https://squirrelscan.com) — squirrelscan is a website QA tool built for coding agents such as Claude Code and Cursor. Its squirrel CLI crawls a live site and runs 260+ audit rules across SEO, performance, security, accessibility, structured data and agent experience, then returns exact source-mapped fixes. Runs from the terminal, CI, the cloud, or over MCP.
+
 - [Steampunk Spotter](https://steampunk.si/spotter/) :copyright: — Ansible Playbook Scanning Tool that analyzes and offers recommendations for your playbooks.
 
 - [Symfony Insight](https://insight.symfony.com/) :copyright: — Detect security risks, find bugs and provide actionable metrics for PHP projects.
@@ -2368,6 +2383,13 @@ TruffleHog is an open source secret-scanning engine that resolves exposed secret
 - [dennis](https://github.com/willkg/dennis) — A set of utilities for working with PO files to ease development and improve quality.
 
 
+<a name="uses-llm" />
+<h2>Uses LLM/model</h2>
+
+
+- [squirrelscan](https://squirrelscan.com) — squirrelscan is a website QA tool built for coding agents such as Claude Code and Cursor. Its squirrel CLI crawls a live site and runs 260+ audit rules across SEO, performance, security, accessibility, structured data and agent experience, then returns exact source-mapped fixes. Runs from the terminal, CI, the cloud, or over MCP.
+
+
 <a name="vue" />
 <h2>Vue.js</h2>
 
@@ -2398,6 +2420,13 @@ TruffleHog is an open source secret-scanning engine that resolves exposed secret
 - [vale](https://vale.sh) — A syntax-aware linter for prose built with speed and extensibility in mind.
 
 - **write-good** :warning: — A linter with a focus on eliminating "weasel words".
+
+
+<a name="xml" />
+<h2>XML</h2>
+
+
+- [vastlint](https://vastlint.org) :copyright: — Validator and linter for VAST XML ad tags. Checks wrappers and inline tags against the IAB VAST 2.0-4.3 specification and can auto-fix deterministic issues.
 
 
 <a name="yaml" />
