@@ -26,7 +26,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
 
-      - uses: stefanzweifel/git-auto-commit-action@v4.1.2
+      - uses: stefanzweifel/git-auto-commit-action@v7.2.0
         with:
           commit_message: Commit list
           commit_user_name: Analysis Tools Bot
