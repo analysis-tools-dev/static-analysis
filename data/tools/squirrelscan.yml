@@ -7,10 +7,12 @@ tags:
   - html
   - javascript
   - security
-license: proprietary
+  - uses-llm
+license: MIT
 types:
   - cli
   - service
+source: 'https://github.com/squirrelscan/squirrelscan'
 homepage: 'https://squirrelscan.com'
 description: >-
   squirrelscan is a website QA tool built for coding agents such as Claude Code
