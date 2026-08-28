@@ -5,9 +5,9 @@
 //! source repository, and evaluates each tool against the contributing
 //! criteria:
 //!
-//! - More than 20 stars
+//! - At least 20 stars
 //! - More than one contributor
-//! - Repository is at least 3 months old
+//! - Repository is at least 6 months old
 //!
 //! The results are either posted as a single comment on the PR (updating an
 //! existing bot comment if one already exists) or written to a file when the
@@ -28,7 +28,7 @@
 
 use anyhow::{Context, Result, bail};
 use askama::Template;
-use chrono::{DateTime, Duration, Utc};
+use chrono::{DateTime, Months, Utc};
 use serde::Deserialize;
 use std::collections::HashMap;
 use std::env;
@@ -65,7 +65,7 @@ struct IssueComment {
 
 const MIN_STARS: u64 = 20;
 const MIN_CONTRIBUTORS: usize = 2;
-const MIN_AGE_DAYS: i64 = 90;
+const MIN_AGE_MONTHS: u32 = 6;
 
 // Marker text embedded in every comment we post so we can find and update it.
 const COMMENT_MARKER: &str = "<!-- pr-check-bot -->";
@@ -79,8 +79,8 @@ enum CheckResult {
 }
 
 impl CheckResult {
-    fn is_fail(&self) -> bool {
-        matches!(self, Self::Fail(_))
+    fn is_pass(&self) -> bool {
+        matches!(self, Self::Pass(_))
     }
 
     fn symbol(&self) -> &'static str {
@@ -112,7 +112,7 @@ struct ToolReport {
 
 impl ToolReport {
     fn any_fail(&self) -> bool {
-        self.stars.is_fail() || self.contributors.is_fail() || self.age.is_fail()
+        !self.stars.is_pass() || !self.contributors.is_pass() || !self.age.is_pass()
     }
 
     fn status(&self) -> &'static str {
@@ -340,15 +340,22 @@ async fn check_tool(client: &GithubClient, tool: &ToolEntry) -> Result<ToolRepor
 
         let age_check = match &repo_result {
             Ok(Some(info)) => {
-                let age = Utc::now().signed_duration_since(info.created_at);
-                let days = age.num_days();
-                let months = days / 30;
-                if age >= Duration::days(MIN_AGE_DAYS) {
-                    CheckResult::Pass(format!("created {days} days ago (~{months} months)"))
+                let now = Utc::now();
+                let minimum_created_at = now
+                    .checked_sub_months(Months::new(MIN_AGE_MONTHS))
+                    .expect("subtracting six months from the current date must succeed");
+                let days = now.signed_duration_since(info.created_at).num_days();
+
+                if info.created_at <= minimum_created_at {
+                    CheckResult::Pass(format!("created {days} days ago (at least 6 months)"))
                 } else {
-                    let remaining = MIN_AGE_DAYS - days;
+                    let eligible_at = info
+                        .created_at
+                        .checked_add_months(Months::new(MIN_AGE_MONTHS))
+                        .expect("adding six months to a repository creation date must succeed");
+                    let remaining = eligible_at.signed_duration_since(now).num_days().max(1);
                     CheckResult::Fail(format!(
-                        "created {days} days ago, needs {remaining} more days to meet the 3-month minimum"
+                        "created {days} days ago, needs {remaining} more days to meet the 6-month minimum"
                     ))
                 }
             }
