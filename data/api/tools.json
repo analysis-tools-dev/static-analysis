@@ -18519,6 +18519,33 @@
     "demos": null,
     "wrapper": null
   },
+  "scythe": {
+    "name": "scythe",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "sql"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/Goldziher/scythe",
+    "source": "https://github.com/Goldziher/scythe",
+    "pricing": null,
+    "plans": null,
+    "description": "Polyglot SQL compiler and linter that generates type-safe code from SQL with schema-aware linting.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "security-code-scan": {
     "name": "Security Code Scan",
     "categories": [
