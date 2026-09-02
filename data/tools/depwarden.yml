@@ -23,11 +23,10 @@ tags:
   - terraform
   - typescript
   - yaml
-license: MIT
+license: proprietary
 types:
   - cli
   - service
-source: "https://github.com/Rushabh5000/dep-warden"
 homepage: "https://depwarden.in"
 description: >-
   Free, anonymous SCA + SAST scanner. SCA: scans npm, PyPI,
