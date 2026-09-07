@@ -9726,23 +9726,26 @@
     "categories": [
       "linter"
     ],
-    "languages": [],
-    "other": [
-      "binary"
+    "languages": [
+      "groovy",
+      "java",
+      "kotlin",
+      "scala"
     ],
+    "other": [],
     "licenses": [
-      "proprietary"
+      "Apache License 2.0"
     ],
     "types": [
-      "gui"
+      "cli"
     ],
-    "homepage": "https://www.hopperapp.com/",
-    "source": null,
+    "homepage": "https://github.com/cuplv/hopper",
+    "source": "https://github.com/cuplv/hopper",
     "pricing": null,
     "plans": null,
-    "description": "macOS and Linux reverse engineering tool that lets you disassemble, decompile and debug applications. Hopper displays the code using different representations, e.g. the Control Flow Graph, and the pseudo-code of a procedure. Supports Apple Silicon.",
+    "description": "A static analysis tool written in scala for languages that run on JVM.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -11640,7 +11643,7 @@
     "plans": null,
     "description": "An opinionated, community-driven set of lint rules for Dart and Flutter projects. Like pedantic but stricter",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -16109,12 +16112,21 @@
       "linter"
     ],
     "languages": [
+      "dotnet",
       "c",
       "csharp",
       "cpp",
-      "java"
+      "go",
+      "java",
+      "javascript",
+      "typescript"
     ],
-    "other": [],
+    "other": [
+      "configmanagement",
+      "embedded",
+      "json",
+      "xml"
+    ],
     "licenses": [
       "proprietary"
     ],
@@ -16125,10 +16137,14 @@
     "source": null,
     "pricing": "https://pvs-studio.com/en/order/license/",
     "plans": null,
-    "description": "A ([conditionally free](https://pvs-studio.com/en/order/open-source-license) for FOSS and individual developers) static analysis of C, C++, C# and Java code. For advertising purposes [you can propose a large FOSS project for analysis by PVS employees](https://github.com/viva64/pvs-studio-check-list). Supports CWE mapping, OWASP ASVS, MISRA, AUTOSAR and SEI CERT coding standards.",
+    "description": "PVS-Studio is a SAST tool that enhances code quality, security, and safety. Supported languages: C, C++, C#, Java, Go, JavaScript and TypeScript. Works on Windows, macOS, Linux. Supports intermodular, incremental, data flow analysis, taint analysis. Provides compliance with OWASP TOP 10, MISRA C/C++, CWE, and SEI CERT. [Conditionally free for FOSS](https://pvs-studio.com/en/order/open-source-license/) and has [trial version](https://pvs-studio.com/en/pvs-studio/try-free/).",
     "discussion": null,
     "deprecated": null,
     "resources": [
+      {
+        "title": "Get started with PVS-Studio static analyzer",
+        "url": "https://pvs-studio.com/en/blog/posts/1358/"
+      },
       {
         "title": "PVS-Studio is now in Compiler Explorer!",
         "url": "https://www.youtube.com/watch?v=hw5npZqB3b8"
@@ -16278,7 +16294,7 @@
     "plans": null,
     "description": "Check Python source files for errors.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
