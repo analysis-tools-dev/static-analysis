@@ -20,7 +20,7 @@ types:
 homepage: https://pvs-studio.com
 description: >-
   PVS-Studio is a SAST tool that enhances code quality, security, and safety. Supported languages: C, C++, C#, Java, Go, JavaScript and TypeScript. Works on Windows, macOS, Linux. Supports intermodular, incremental, data flow analysis, taint analysis. Provides compliance with OWASP TOP 10, MISRA C/C++, CWE, and SEI CERT.
-  [Conditionally free for FOSS](https://pvs-studio.com/en/order/open-source-license/)and has [trial version](https://pvs-studio.com/en/pvs-studio/try-free/).
+  [Conditionally free for FOSS](https://pvs-studio.com/en/order/open-source-license/) and has [trial version](https://pvs-studio.com/en/pvs-studio/try-free/).
 resources:
 - title: Get started with PVS-Studio static analyzer
   url: https://pvs-studio.com/en/blog/posts/1358/
