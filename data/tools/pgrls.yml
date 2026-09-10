@@ -1,0 +1,22 @@
+name: pgrls
+categories:
+  - linter
+tags:
+  - sql
+  - security
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/pgrls/pgrls'
+homepage: 'https://github.com/pgrls/pgrls'
+description: |
+  Static analyzer for Postgres Row-Level Security. Connects to a live
+  database, walks the parsed AST of every policy predicate (via pglast),
+  and reports auth bugs, predicate logic flaws, and per-row performance
+  traps. 36 rules across security (SEC001-SEC026), performance
+  (PERF001-PERF003), hygiene (HYG001-HYG003), and view bypasses
+  (VIEW001-VIEW004); 10 mechanically auto-fixable via `pgrls fix`.
+  A `pgrls diff` command classifies migrations as SAFE / BREAKING /
+  REQUIRES_REVIEW / DANGEROUS so CI gates on real security regressions
+  without blocking safe schema changes. Output formats: text, JSON,
+  SARIF, Markdown.
