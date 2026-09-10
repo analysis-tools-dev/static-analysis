@@ -1,0 +1,26 @@
+name: BattleTest
+categories:
+  - linter
+tags:
+  - ci
+  - security
+  - javascript
+  - typescript
+  - python
+  - go
+  - java
+  - php
+  - ruby
+license: proprietary
+types:
+  - service
+homepage: 'https://battletest.dev'
+plans:
+  free: true
+  oss: true
+description: >-
+  BattleTest is an AI security platform that reviews every pull request for
+  secrets, injection, authentication flaws and vulnerable dependencies,
+  reasoning about whether the changed code is actually exploitable rather than
+  only pattern-matching. It runs as a GitHub App and posts findings inline on
+  the pull request before merge. Free on public repositories.
