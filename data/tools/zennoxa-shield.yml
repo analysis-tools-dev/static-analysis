@@ -1,0 +1,51 @@
+name: Zennoxa Shield
+categories:
+  - linter
+tags:
+  - security
+  - c
+  - cpp
+  - csharp
+  - dart
+  - go
+  - java
+  - javascript
+  - kotlin
+  - php
+  - python
+  - ruby
+  - rust
+  - swift
+  - typescript
+  - scala
+  - shell
+  - sql
+  - perl
+  - powershell
+  - groovy
+  - objectivec
+  - vbnet
+  - yaml
+  - dockerfile
+  - kubernetes
+  - terraform
+  - cloudformation
+  - ci
+license: MIT License
+types:
+  - cli
+  - service
+source: 'https://github.com/Zennoxa/shield'
+homepage: 'https://zennoxa.com'
+description: >-
+  One offline scan across SAST, secrets, dependencies (OSV data plus a
+  CycloneDX SBOM), containers, Infrastructure-as-Code and CI/CD config, with
+  every finding ranked 0-100 by exploitability signals (CVSS, EPSS, CISA KEV)
+  and code reachability. Comprehensive SAST coverage for 14 languages and
+  lighter coverage for 10 more; SARIF output for GitHub code scanning.
+  Free CLI released under MIT; optional hosted dashboard.
+resources:
+  - title: OWASP Benchmark v1.2 results, reproducible with the released CLI
+    url: https://zennoxa.com/benchmark
+  - title: Reproducible research studies (SAST census, KEV/EPSS, supply chain)
+    url: https://zennoxa.com/research
