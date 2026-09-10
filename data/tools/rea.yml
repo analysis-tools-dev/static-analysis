@@ -1,0 +1,20 @@
+name: REA
+categories:
+  - linter
+tags:
+  - binary
+  - dotnet
+  - javascript
+license: MIT
+types:
+  - cli
+source: 'https://github.com/morluto/rea'
+homepage: 'https://github.com/morluto/rea'
+description: >-
+  REA provides local CLI and MCP tools for agent-driven reverse engineering of
+  native binaries through Hopper and Ghidra, managed PE/CLI files,
+  JavaScript/Electron apps, and browser runtimes. It returns structured analysis
+  results with evidence for tracing application behavior.
+resources:
+  - title: Quick start
+    url: https://github.com/morluto/rea#quick-start
