@@ -16,5 +16,5 @@ pico-args = "0.5"
 reqwest = { version = "0.13.4", default-features = false, features = ["json", "rustls", "system-proxy"] }
 serde = { version = "1.0.229", features = ["derive"] }
 serde_json = "1.0.151"
-serde_yaml = { package = "yaml_serde", version = "0.10.7" }
+serde-saphyr = { version = "1.2", default-features = false, features = ["deserialize"] }
 tokio = { version = "1.53.1", features = ["rt-multi-thread", "macros"] }
