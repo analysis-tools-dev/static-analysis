@@ -307,7 +307,7 @@ fn parse_github_repo(url: &str) -> Option<(String, String)> {
 /// Returns an error if the file cannot be read or parsed.
 fn read_tool(path: &Path) -> Result<ToolEntry> {
     let f = std::fs::File::open(path).with_context(|| format!("Cannot open {}", path.display()))?;
-    serde_yaml::from_reader(f).with_context(|| format!("Cannot parse {}", path.display()))
+    serde_saphyr::from_reader(f).with_context(|| format!("Cannot parse {}", path.display()))
 }
 
 /// Runs all contributing-criteria checks for one tool.
@@ -519,6 +519,22 @@ async fn main() -> Result<()> {
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    #[test]
+    fn parses_catalog() -> Result<()> {
+        let tools = Path::new(env!("CARGO_MANIFEST_DIR")).join("../../data/tools");
+        let mut count = 0;
+        for entry in std::fs::read_dir(tools)? {
+            let path = entry?.path();
+            if path.extension().is_some_and(|ext| ext == "yml") {
+                let tool = read_tool(&path)?;
+                assert!(!tool.name.is_empty(), "{}", path.display());
+                count += 1;
+            }
+        }
+        assert!(count > 0);
+        Ok(())
+    }
 
     #[test]
     fn parses_plain_github_url() {
