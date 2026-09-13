@@ -27,7 +27,7 @@ fn parse_path(s: &OsStr) -> Result<PathBuf> {
 
 fn read_tags(path: PathBuf) -> Result<Tags> {
     let f = std::fs::File::open(path)?;
-    Ok(serde_yaml::from_reader(f)?)
+    Ok(serde_saphyr::from_reader(f)?)
 }
 
 fn read_tools(path: PathBuf) -> Result<Vec<ParsedEntry>> {
@@ -47,7 +47,7 @@ fn read_tools(path: PathBuf) -> Result<Vec<ParsedEntry>> {
         .inspect(|p| println!("Checking {}", p.display()))
         .map(|p| {
             let file = std::fs::File::open(p)?;
-            let entry: ParsedEntry = serde_yaml::from_reader(file)?;
+            let entry: ParsedEntry = serde_saphyr::from_reader(file)?;
             Ok(entry)
         })
         .collect::<Result<Vec<ParsedEntry>, _>>()
@@ -158,4 +158,22 @@ async fn main() -> Result<()> {
     // ))?;
 
     Ok(())
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn parses_catalog() -> Result<()> {
+        let data = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("../../data");
+        let tags = read_tags(data.join("tags.yml"))?;
+        let tools = read_tools(data.join("tools"))?;
+        assert!(!tags.is_empty());
+        assert!(!tools.is_empty());
+        for tool in tools {
+            Entry::from_parsed(tool, &tags)?;
+        }
+        Ok(())
+    }
 }

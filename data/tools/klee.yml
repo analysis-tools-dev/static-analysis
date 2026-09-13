@@ -13,7 +13,7 @@ resources:
   - title: "Introduction to symbolic execution with KLEE"
     url: "https://www.youtube.com/watch?v=z6bsk-lsk1Q"
   - title: "KLEE: Unassisted and Automatic Generation of High-Coverage
-Tests for Complex Systems Programs [Original Paper]"
+      Tests for Complex Systems Programs [Original Paper]"
     url: "https://www.usenix.org/legacy/event/osdi08/tech/full_papers/cadar/cadar.pdf"
 description: >-
   A dynamic symbolic execution engine built on top of the LLVM compiler
