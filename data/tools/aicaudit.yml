@@ -1,0 +1,22 @@
+name: aicaudit
+categories:
+  - linter
+tags:
+  - python
+  - security
+  - uses-llm
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/IhateStomachProblems/aicaudit'
+homepage: 'https://pypi.org/project/aicaudit/'
+description: >-
+  AI-powered code audit CLI for Python. Static analysis with a built-in
+  taint engine that traces user input from source to sink and proves
+  constants safe, eliminating common false-positive classes. Every
+  finding carries a machine-checkable taint path, rendered natively in
+  GitHub Code Scanning via SARIF codeFlows. Optional evidence-grounded
+  AI verification (OpenAI-compatible APIs, Claude, or local ollama)
+  marks findings as confirmed, false positive, or unverified — and
+  never silently hides them. Includes an offline-first web UI and a
+  reproducible benchmark suite.
