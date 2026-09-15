@@ -1,0 +1,15 @@
+name: intent-verify
+categories:
+  - linter
+tags:
+  - python
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/hermes-labs-ai/intent-verify'
+homepage: 'https://github.com/hermes-labs-ai/intent-verify'
+description: >-
+  Deterministic, zero-LLM CLI that checks whether a repo's source still
+  lexically covers the acceptance items in a markdown spec, INTENT.md, or
+  handoff doc, returning verified, partial, or missing. A fast guardrail
+  for catching spec-vs-code drift before review, release, or handoff.

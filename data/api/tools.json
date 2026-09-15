@@ -10180,6 +10180,33 @@
     "demos": null,
     "wrapper": null
   },
+  "intent-verify": {
+    "name": "intent-verify",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "python"
+    ],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/hermes-labs-ai/intent-verify",
+    "source": "https://github.com/hermes-labs-ai/intent-verify",
+    "pricing": null,
+    "plans": null,
+    "description": "Deterministic, zero-LLM CLI that checks whether a repo's source still lexically covers the acceptance items in a markdown spec, INTENT.md, or handoff doc, returning verified, partial, or missing. A fast guardrail for catching spec-vs-code drift before review, release, or handoff.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "interfacer": {
     "name": "interfacer",
     "categories": [
@@ -11562,6 +11589,33 @@
     "pricing": null,
     "plans": null,
     "description": "Static analysis tool for Debian packages.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "lintlang": {
+    "name": "lintlang",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "python"
+    ],
+    "other": [],
+    "licenses": [
+      "Apache License 2.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://pypi.org/project/lintlang/",
+    "source": "https://github.com/hermes-labs-ai/lintlang",
+    "pricing": null,
+    "plans": null,
+    "description": "Static analysis for AI agent configs, tool descriptions, and system prompts. Catches vague tool descriptions, missing stop conditions, and schema gaps before they reach runtime. Zero-LLM, deterministic checks, built for CI.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
@@ -17610,6 +17664,33 @@
     "pricing": null,
     "plans": null,
     "description": "An opinionated ruby formatter, intended to be used via the command line as a text-editor plugin, to autoformat files on save or on demand.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "rule-audit": {
+    "name": "rule-audit",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "python"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://pypi.org/project/rule-audit/",
+    "source": "https://github.com/hermes-labs-ai/rule-audit",
+    "pricing": null,
+    "plans": null,
+    "description": "Static analyzer for AI system prompts. Parses a prompt into normative rules and reports contradictions, coverage gaps, priority ambiguities, and absolute-rule edge cases. No LLM calls; deterministic pure-Python lint with CLI, Python API, and CI exit codes.",
     "discussion": null,
     "deprecated": null,
     "resources": null,

@@ -927,7 +927,11 @@ It uses the pycodestyle utility to determine what parts of the code needs to be 
 
 - **InspectorTiger** :warning: — IT, Inspector Tiger, is a modern python code review tool / framework. It comes with bunch of pre-defined handlers which warns you about improvements and possible bugs. Beside these handlers, you can write your own or use community ones.
 
+- [intent-verify](https://github.com/hermes-labs-ai/intent-verify) — Deterministic, zero-LLM CLI that checks whether a repo's source still lexically covers the acceptance items in a markdown spec, INTENT.md, or handoff doc, returning verified, partial, or missing. A fast guardrail for catching spec-vs-code drift before review, release, or handoff.
+
 - [jedi](https://jedi.readthedocs.io/en/latest) — Autocompletion/static analysis library for Python.
+
+- [lintlang](https://pypi.org/project/lintlang/) — Static analysis for AI agent configs, tool descriptions, and system prompts. Catches vague tool descriptions, missing stop conditions, and schema gaps before they reach runtime. Zero-LLM, deterministic checks, built for CI.
 
 - [linty fresh](https://github.com/lyft/linty_fresh) — Parse lint errors and report them to Github as comments on a pull request.
 
@@ -982,6 +986,8 @@ It uses the pycodestyle utility to determine what parts of the code needs to be 
 - [refurb](https://github.com/dosisod/refurb) — A tool for refurbishing and modernizing Python codebases. Refurb is heavily inspired by clippy, the built-in linter for Rust.
 
 - [ruff](https://astral.sh/ruff) — Fast Python linter, written in Rust. 10-100x faster than existing linters. Compatible with Python 3.10. Supports file watcher.
+
+- [rule-audit](https://pypi.org/project/rule-audit/) — Static analyzer for AI system prompts. Parses a prompt into normative rules and reports contradictions, coverage gaps, priority ambiguities, and absolute-rule edge cases. No LLM calls; deterministic pure-Python lint with CLI, Python API, and CI exit codes.
 
 - [Safety](https://safetycli.com/) — Python dependency vulnerability scanner designed to enhance software supply chain security by detecting packages with known vulnerabilities. Checks Python dependencies against a database of known security vulnerabilities and provides detailed reports. Supports CI/CD integration and multiple output formats.
 

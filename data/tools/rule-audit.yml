@@ -1,0 +1,15 @@
+name: rule-audit
+categories:
+  - linter
+tags:
+  - python
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/hermes-labs-ai/rule-audit'
+homepage: 'https://pypi.org/project/rule-audit/'
+description: >-
+  Static analyzer for AI system prompts. Parses a prompt into normative
+  rules and reports contradictions, coverage gaps, priority ambiguities,
+  and absolute-rule edge cases. No LLM calls; deterministic pure-Python
+  lint with CLI, Python API, and CI exit codes.

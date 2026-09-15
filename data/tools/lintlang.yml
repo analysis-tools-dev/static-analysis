@@ -1,0 +1,15 @@
+name: lintlang
+categories:
+  - linter
+tags:
+  - python
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/hermes-labs-ai/lintlang'
+homepage: 'https://pypi.org/project/lintlang/'
+description: >-
+  Static analysis for AI agent configs, tool descriptions, and system
+  prompts. Catches vague tool descriptions, missing stop conditions, and
+  schema gaps before they reach runtime. Zero-LLM, deterministic checks,
+  built for CI.
