@@ -1,0 +1,16 @@
+name: checkowners
+categories:
+  - linter
+tags:
+  - git
+  - python
+  - ci
+  - configfile
+license: MIT
+types:
+  - cli
+source: "https://github.com/smusali/checkowners"
+homepage: "https://pypi.org/project/checkowners/"
+description: >-
+  Infer CODEOWNERS from git history with confidence scoring and report
+  when the committed file has drifted from that evidence.
