@@ -10,7 +10,7 @@
 //! - Repository is at least 6 months old
 //!
 //! Writes the report to `COMMENT_OUTPUT_FILE`, or stdout when unset. The
-//! `pr-comment` workflow publishes the report and closes verified rejections.
+//! `pr-check` workflow publishes the report and closes verified rejections.
 //! This checker only reads repository metadata; it never modifies PRs.
 //!
 //! Exit code 2 indicates a verified criteria failure; exit code 1 indicates
@@ -54,7 +54,7 @@ const MIN_STARS: u64 = 20;
 const MIN_CONTRIBUTORS: usize = 2;
 const MIN_AGE_MONTHS: u32 = 6;
 
-// Identifies checker reports when validating CI artifacts.
+// Identifies the report as output from the contribution checker.
 const COMMENT_MARKER: &str = "<!-- pr-check-bot -->";
 
 /// The outcome of one criterion check.
