@@ -6,33 +6,55 @@ on:
     paths:
       - "data/tools/**.yml"
       - "data/tools/**.yaml"
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: "Open PR to check (verified failures will be closed)"
+        required: true
+        type: string
 
 concurrency:
-  group: pr-check-${{ github.event.pull_request.number }}
+  group: pr-check-${{ inputs.pr_number || github.event.pull_request.number }}
   cancel-in-progress: true
 
 jobs:
   pr-check:
+    if: github.event_name != 'workflow_dispatch' || github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     permissions:
       contents: read
       pull-requests: write
     env:
       GH_REPO: ${{ github.repository }}
-      PR_NUMBER: ${{ github.event.pull_request.number }}
+      PR_NUMBER: ${{ inputs.pr_number || github.event.pull_request.number }}
       HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+      HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
+      BASE_SHA: ${{ github.event.pull_request.base.sha }}
     steps:
+      - name: Resolve PR for manual run
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          [[ "$PR_NUMBER" =~ ^[1-9][0-9]*$ ]] || { echo "PR number must be a positive integer" >&2; exit 1; }
+          metadata=$(gh api "repos/$GH_REPO/pulls/$PR_NUMBER" --jq '
+            if .state == "open" and .base.ref == "master" and .head.repo != null then
+              "HEAD_SHA=\(.head.sha)\nHEAD_REPO=\(.head.repo.full_name)\nBASE_SHA=\(.base.sha)"
+            else error("Expected an open PR targeting master with an accessible source repository") end
+          ')
+          printf '%s\n' "$metadata" >> "$GITHUB_ENV"
+
       # This job has write permissions. Never check out or execute PR code.
       - uses: actions/checkout@v7
         with:
-          ref: ${{ github.event.pull_request.base.sha }}
+          ref: ${{ env.BASE_SHA }}
           persist-credentials: false
 
       - name: Download new tool entries as data
         id: tools
         env:
           GH_TOKEN: ${{ github.token }}
-          HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
         shell: bash
         run: |
           mkdir -p "$RUNNER_TEMP/pr-check/data/tools"
@@ -89,7 +111,7 @@ jobs:
         id: comment
         uses: marocchino/sticky-pull-request-comment@5770ad5eb8f42dd2c4f34da00c94c5381e49af88 # v3.0.5
         with:
-          number: ${{ github.event.pull_request.number }}
+          number: ${{ env.PR_NUMBER }}
           path: ${{ runner.temp }}/pr-check/comment.md
           header: pr-check-bot
 
