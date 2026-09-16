@@ -493,7 +493,7 @@ mod tests {
         let reports = [passing_report()];
         assert_eq!(report_exit_code(&reports), 0);
         let comment = render_comment(&reports)?;
-        assert!(comment.contains("All criteria passed"));
+        assert!(comment.contains("All tool eligibility criteria passed"));
         assert!(!comment.contains("closing this pull request"));
         assert_eq!(report_exit_code(&[]), 0);
         Ok(())

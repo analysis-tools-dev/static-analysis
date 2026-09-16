@@ -3,9 +3,7 @@ name: PR Check
 on:
   pull_request_target:
     branches: [master]
-    paths:
-      - "data/tools/**.yml"
-      - "data/tools/**.yaml"
+
   workflow_dispatch:
     inputs:
       pr_number:
@@ -59,9 +57,12 @@ jobs:
         shell: bash
         run: |
           mkdir -p "$RUNNER_TEMP/pr-check/data/tools"
-          gh api --paginate "repos/$GH_REPO/pulls/$PR_NUMBER/files" \
-            --jq '.[] | select(.status == "added") | select(.filename | test("^data/tools/[a-zA-Z0-9_.-]+\\.ya?ml$")) | [.sha, .filename] | @tsv' \
-            > "$RUNNER_TEMP/pr-check/tools.tsv"
+          gh api --paginate --slurp "repos/$GH_REPO/pulls/$PR_NUMBER/files" > "$RUNNER_TEMP/pr-check/files.json"
+          jq -r '.[][] | select(.status == "added") | select(.filename | test("^data/tools/[a-zA-Z0-9_.-]+\\.ya?ml$")) | [.sha, .filename] | @tsv' \
+            "$RUNNER_TEMP/pr-check/files.json" > "$RUNNER_TEMP/pr-check/tools.tsv"
+          if jq -e 'any(.[][]; .filename == "README.md" or .previous_filename == "README.md")' "$RUNNER_TEMP/pr-check/files.json" > /dev/null; then
+            echo "readme_changed=true" >> "$GITHUB_OUTPUT"
+          fi
           while IFS=$'\t' read -r sha file; do
             gh api "repos/$HEAD_REPO/git/blobs/$sha" --jq .content | base64 --decode \
               > "$RUNNER_TEMP/pr-check/$file"
@@ -96,8 +97,29 @@ jobs:
           "$GITHUB_WORKSPACE/ci/target/release/pr-check" "${files[@]}" || status=$?
           echo "status=$status" >> "$GITHUB_OUTPUT"
 
+      - name: Report README check
+        env:
+          TOOLS_FOUND: ${{ steps.tools.outputs.found }}
+          README_CHANGED: ${{ steps.tools.outputs.readme_changed }}
+        run: |
+          if [ "$TOOLS_FOUND" != 'true' ]; then
+            printf 'No new tool entries to check.\n' > "$RUNNER_TEMP/pr-check/comment.md"
+          elif [ ! -s "$RUNNER_TEMP/pr-check/comment.md" ]; then
+            printf 'Tool criteria checks could not complete. Please inspect the workflow logs, fix any errors, and rerun the check.\n' > "$RUNNER_TEMP/pr-check/comment.md"
+          fi
+          if [ "$README_CHANGED" != 'true' ]; then
+            exit 0
+          fi
+          cat >> "$RUNNER_TEMP/pr-check/comment.md" <<'EOF'
+
+          ## [FAIL] Generated README changed
+
+          `README.md` is generated and should not be included in tool submissions. Please remove its changes from this PR and submit tool entries under `data/tools/` instead. For changes to the README text or structure, edit `ci/render/templates/README.md` rather than the generated file.
+
+          This check will remain failed until the `README.md` changes are removed. README changes alone do not automatically close the PR.
+          EOF
+
       - name: Check PR is still current
-        if: steps.tools.outputs.found == 'true'
         id: current
         env:
           GH_TOKEN: ${{ github.token }}
@@ -115,6 +137,8 @@ jobs:
           number: ${{ env.PR_NUMBER }}
           path: ${{ runner.temp }}/pr-check/comment.md
           header: pr-check-bot
+          # Clear obsolete warnings without adding comments to unrelated PRs.
+          only_update: ${{ steps.tools.outputs.found != 'true' && steps.tools.outputs.readme_changed != 'true' }}
 
       - name: Close verified rejections
         if: steps.comment.outcome == 'success' && steps.check.outputs.status == '2'
@@ -127,7 +151,8 @@ jobs:
           fi
 
       - name: Fail if checks did not pass
-        if: steps.tools.outputs.found == 'true'
+        if: steps.tools.outputs.found == 'true' || steps.tools.outputs.readme_changed == 'true'
         env:
-          CHECK_STATUS: ${{ steps.check.outputs.status }}
-        run: test "$CHECK_STATUS" = '0'
+          CHECK_STATUS: ${{ steps.check.outputs.status || '0' }}
+          README_CHANGED: ${{ steps.tools.outputs.readme_changed }}
+        run: test "$CHECK_STATUS" = '0' && test "$README_CHANGED" != 'true'

@@ -31,6 +31,6 @@ Please wait until all criteria are met before submitting a tool. We do not keep 
 {% else if any_failures %}
 Thank you for your contribution. One or more criteria could not be verified automatically, so this pull request needs manual review and will not be closed automatically. Please provide evidence for the unverified [contribution criteria](https://github.com/analysis-tools-dev/static-analysis/blob/master/CONTRIBUTING.md), or retry the check if the GitHub API was unavailable.
 {% else %}
-All criteria passed. Thank you for your contribution.
+All tool eligibility criteria passed. Thank you for your contribution.
 {% endif %}
 {% endif %}
