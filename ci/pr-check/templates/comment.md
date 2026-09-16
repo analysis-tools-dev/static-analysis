@@ -19,7 +19,9 @@ Source: {{ src }}
 |---|---|
 | Stars (min 20) | {{ report.stars.symbol() }} {{ report.stars.message() }} |
 | Contributors (min 2) | {{ report.contributors.symbol() }} {{ report.contributors.message() }} |
-| Age (min 6 months) | {{ report.age.symbol() }} {{ report.age.message() }} |
+{% if let Some(domain) = report.domain.as_ref() %}| Homepage domain age (min 6 months; [RDAP record](https://rdap.org/domain/{{ domain }})) | {{ report.age.symbol() }} {{ report.age.message() }} |
+{% else %}| Age (min 6 months) | {{ report.age.symbol() }} {{ report.age.message() }} |
+{% endif %}
 
 {% endfor %}
 ---
@@ -29,7 +31,7 @@ Thank you for sharing your tool! One or more tools do not yet meet the [contribu
 
 You are welcome to submit a new pull request once all criteria are met. Thank you for your contribution!
 {% else if any_failures %}
-Thank you for your contribution. One or more criteria could not be verified automatically, so this pull request needs manual review and will not be closed automatically. Please provide evidence for the unverified [contribution criteria](https://github.com/analysis-tools-dev/static-analysis/blob/master/CONTRIBUTING.md), or retry the check if the GitHub API was unavailable.
+Thank you for your contribution. One or more criteria could not be verified automatically, so this pull request needs manual review and will not be closed automatically. Please provide evidence for the unverified [contribution criteria](https://github.com/analysis-tools-dev/static-analysis/blob/master/CONTRIBUTING.md), or retry the check if an external API was unavailable.
 {% else %}
 All tool eligibility criteria passed. Thank you for your contribution.
 {% endif %}

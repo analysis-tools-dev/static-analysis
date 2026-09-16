@@ -20,6 +20,12 @@ criteria are met. If a check cannot be verified automatically (for example, for
 a non-GitHub or proprietary tool), it requires manual review rather than
 automatic closure. Meeting the minimum criteria does not guarantee inclusion.
 
+For tools without a source URL, the bot checks the homepage domain's registration
+date through RDAP. Domains younger than six months fail the age check but require
+manual review rather than automatic closure. An older domain does not prove the
+service's age. If the service previously operated under another domain, please
+provide evidence of that history. Missing registration data also requires review.
+
 ### Format
 
 ⚠️ **The main `README.md` is just a rendered version of the data. Do not edit it

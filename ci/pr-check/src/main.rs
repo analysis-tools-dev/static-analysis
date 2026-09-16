@@ -11,10 +11,11 @@
 //!
 //! Writes the report to `COMMENT_OUTPUT_FILE`, or stdout when unset. The
 //! `pr-check` workflow publishes the report and closes verified rejections.
-//! This checker only reads repository metadata; it never modifies PRs.
+//! Tools without a source URL get an RDAP homepage-domain age check for manual
+//! review. This checker only reads metadata; it never modifies PRs.
 //!
-//! Exit code 2 indicates a verified criteria failure; exit code 1 indicates
-//! an error or an unverified criterion. Only verified failures warrant closure.
+//! Exit code 2 indicates a verified repository criteria failure warranting
+//! closure; exit code 1 indicates an error or a check requiring manual review.
 //!
 //! Expected environment variables:
 //!   `GITHUB_TOKEN`        - a token for reading public repository metadata
@@ -34,6 +35,7 @@ use std::path::{Path, PathBuf};
 struct ToolEntry {
     name: String,
     source: Option<String>,
+    homepage: Option<String>,
 }
 
 /// Response from `GET /repos/{owner}/{repo}`.
@@ -97,7 +99,9 @@ struct ToolReport {
     stars: CheckResult,
     contributors: CheckResult,
     age: CheckResult,
-    /// Non-GitHub source repositories cannot be checked automatically.
+    /// Domain registration is evidence for review, not proof of service age.
+    domain: Option<String>,
+    /// Explains checks that require manual review.
     note: Option<String>,
 }
 
@@ -107,7 +111,8 @@ impl ToolReport {
     }
 
     const fn should_close(&self) -> bool {
-        self.stars.is_fail() || self.contributors.is_fail() || self.age.is_fail()
+        let repository_age_failed = self.age.is_fail() && self.domain.is_none();
+        self.stars.is_fail() || self.contributors.is_fail() || repository_age_failed
     }
 
     const fn status(&self) -> &'static str {
@@ -325,22 +330,117 @@ async fn check_tool(client: &GithubClient, tool: &ToolEntry) -> Result<ToolRepor
             stars: stars_check,
             contributors: contributors_check,
             age: age_check,
+            domain: None,
             note: note.map(str::to_owned),
         })
     } else {
-        // No source or non-GitHub source. This is fine for proprietary or
-        // hosted tools. Skip automated checks and leave a note for manual review.
-        let note = "No GitHub source URL found. Automated checks for stars, contributor count, \
-                    and age are not possible. Please verify the contributing criteria manually.";
+        let domain = if source.is_none() {
+            tool.homepage.as_deref().and_then(homepage_domain)
+        } else {
+            None
+        };
+        let age = if let Some(domain) = &domain {
+            check_domain_age(domain).await
+        } else {
+            CheckResult::Skip("No supported homepage domain or GitHub source URL".into())
+        };
+        let note = "No GitHub source URL found. Please verify the contributing criteria manually. \
+                    Domain registration dates do not establish when a service launched. \
+                    If the service previously operated under another domain, please provide evidence of that history.";
 
         Ok(ToolReport {
             name: tool.name.clone(),
             source,
             stars: CheckResult::Skip("N/A".into()),
             contributors: CheckResult::Skip("N/A".into()),
-            age: CheckResult::Skip("N/A".into()),
+            age,
+            domain,
             note: Some(note.into()),
         })
+    }
+}
+
+#[derive(Debug, Deserialize)]
+struct RdapDomain {
+    #[serde(rename = "ldhName")]
+    name: String,
+    #[serde(default)]
+    events: Vec<RdapEvent>,
+}
+
+#[derive(Debug, Deserialize)]
+#[serde(rename_all = "camelCase")]
+struct RdapEvent {
+    event_action: String,
+    event_date: DateTime<Utc>,
+}
+
+fn homepage_domain(homepage: &str) -> Option<String> {
+    let url = reqwest::Url::parse(homepage).ok()?;
+    if !matches!(url.scheme(), "https" | "http") {
+        return None;
+    }
+    let domain = url.domain()?.trim_end_matches('.');
+    // Do not fall back to parent domains: their age may belong to a hosting provider.
+    Some(domain.strip_prefix("www.").unwrap_or(domain).to_owned())
+}
+
+async fn check_domain_age(domain: &str) -> CheckResult {
+    match fetch_domain_registration(domain).await {
+        Ok(Some(registered)) => domain_age_result(domain, registered, Utc::now()),
+        Ok(None) => {
+            CheckResult::Skip("Domain registration date unavailable; manual review required".into())
+        }
+        Err(error) => CheckResult::Skip(format!("Could not check domain registration: {error}")),
+    }
+}
+
+async fn fetch_domain_registration(domain: &str) -> Result<Option<DateTime<Utc>>> {
+    // RDAP requests must never carry the GitHub token. rdap.org redirects to the registry.
+    let client = reqwest::Client::builder()
+        .user_agent("pr-check-bot/1.0 (analysis-tools-dev)")
+        .https_only(true)
+        .timeout(std::time::Duration::from_secs(15))
+        .build()?;
+    let response = client
+        .get(format!("https://rdap.org/domain/{domain}"))
+        .send()
+        .await?;
+    if response.status() == reqwest::StatusCode::NOT_FOUND {
+        return Ok(None);
+    }
+    let record = response.error_for_status()?.json::<RdapDomain>().await?;
+    if !record.name.eq_ignore_ascii_case(domain) {
+        bail!("RDAP returned a different domain");
+    }
+    Ok(record
+        .events
+        .into_iter()
+        .find(|event| event.event_action == "registration")
+        .map(|event| event.event_date))
+}
+
+fn domain_age_result(domain: &str, registered: DateTime<Utc>, now: DateTime<Utc>) -> CheckResult {
+    let Some(eligible) = registered.checked_add_months(Months::new(MIN_AGE_MONTHS)) else {
+        return CheckResult::Skip("Invalid domain registration date".into());
+    };
+    if registered > now {
+        return CheckResult::Skip(
+            "Domain registration date is in the future; manual review required".into(),
+        );
+    }
+    let message = format!(
+        "The homepage domain `{domain}` was registered on {} and reaches the six-month minimum on {}.",
+        registered.format("%B %-d, %Y"),
+        eligible.format("%B %-d, %Y")
+    );
+    if now < eligible {
+        CheckResult::Fail(message)
+    } else {
+        CheckResult::Pass(format!(
+            "Domain registered on {} (at least six months ago). Service age still requires manual review.",
+            registered.format("%B %-d, %Y")
+        ))
     }
 }
 
@@ -484,6 +584,7 @@ mod tests {
             stars: CheckResult::Pass("20 stars".into()),
             contributors: CheckResult::Pass("2 contributors".into()),
             age: CheckResult::Pass("at least 6 months".into()),
+            domain: None,
             note: None,
         }
     }
@@ -542,6 +643,73 @@ mod tests {
         report.stars = CheckResult::Skip("GitHub API unavailable".into());
         report.contributors = CheckResult::Fail("1 contributor".into());
         assert_eq!(report_exit_code(&[report]), 2);
+    }
+
+    #[test]
+    fn homepage_domains_are_not_reduced_to_hosting_providers() {
+        assert_eq!(
+            homepage_domain("https://www.battletest.dev/path"),
+            Some("battletest.dev".into())
+        );
+        assert_eq!(
+            homepage_domain("https://tool.github.io"),
+            Some("tool.github.io".into())
+        );
+        assert_eq!(
+            homepage_domain("https://app.example.co.uk"),
+            Some("app.example.co.uk".into())
+        );
+        for url in [
+            "not a URL",
+            "file:///tmp/tool",
+            "https://127.0.0.1",
+            "https://[::1]",
+        ] {
+            assert!(homepage_domain(url).is_none());
+        }
+    }
+
+    #[test]
+    fn domain_age_uses_six_calendar_months() -> Result<()> {
+        let registered = "2026-05-01T20:44:07Z".parse::<DateTime<Utc>>()?;
+        let before = "2026-11-01T20:44:06Z".parse::<DateTime<Utc>>()?;
+        let boundary = "2026-11-01T20:44:07Z".parse::<DateTime<Utc>>()?;
+        let result = domain_age_result("battletest.dev", registered, before);
+        assert!(result.is_fail());
+        assert!(result.message().contains("registered on May 1, 2026"));
+        assert!(result.message().contains("minimum on November 1, 2026"));
+        assert!(domain_age_result("battletest.dev", registered, boundary).is_pass());
+        assert!(matches!(
+            domain_age_result("battletest.dev", boundary, registered),
+            CheckResult::Skip(_)
+        ));
+        Ok(())
+    }
+
+    #[test]
+    fn domain_checks_require_review_without_closing() -> Result<()> {
+        for age in [
+            CheckResult::Fail("Domain younger than six months".into()),
+            CheckResult::Pass("Domain older than six months".into()),
+            CheckResult::Skip("RDAP unavailable".into()),
+        ] {
+            let mut report = passing_report();
+            report.source = None;
+            report.domain = Some("battletest.dev".into());
+            report.stars = CheckResult::Skip("N/A".into());
+            report.contributors = CheckResult::Skip("N/A".into());
+            report.age = age;
+            assert!(!report.should_close());
+            assert_eq!(report.status(), "REVIEW");
+            let reports = [report];
+            assert_eq!(report_exit_code(&reports), 1);
+            let comment = render_comment(&reports)?;
+            assert!(comment.contains("Homepage domain age"));
+            assert!(comment.contains("https://rdap.org/domain/battletest.dev"));
+            assert!(!comment.contains("closing this pull request"));
+            assert!(comment.contains("needs manual review"));
+        }
+        Ok(())
     }
 
     #[test]
