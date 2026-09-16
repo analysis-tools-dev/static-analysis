@@ -110,8 +110,7 @@ jobs:
         id: run-check
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-          PR_NUMBER: ${{ github.event_name == 'workflow_dispatch' && inputs.pr_number || github.event.pull_request.number }}
+
           # Both triggers use the artifact path; only pr-comment may post/close.
           COMMENT_OUTPUT_FILE: pr-check-output/comment.md
           TOOL_FILES: ${{ steps.changed.outputs.files }}

@@ -9,29 +9,22 @@
 //! - More than one contributor
 //! - Repository is at least 6 months old
 //!
-//! The results are either posted as a single comment on the PR (updating an
-//! existing bot comment if one already exists) or written to a file when the
-//! `COMMENT_OUTPUT_FILE` environment variable is set. The latter mode is used
-//! in CI to work around the GitHub Actions restriction that prevents fork PRs
-//! from writing to the base repository. A separate `pr-comment` workflow then
-//! picks up the file, posts the comment, and closes PRs with verified failures.
-//! Direct API mode also closes PRs after posting a verified failure.
+//! Writes the report to `COMMENT_OUTPUT_FILE`, or stdout when unset. The
+//! `pr-comment` workflow publishes the report and closes verified rejections.
+//! This checker only reads repository metadata; it never modifies PRs.
 //!
 //! Exit code 2 indicates a verified criteria failure; exit code 1 indicates
 //! an error or an unverified criterion. Only verified failures warrant closure.
 //!
 //! Expected environment variables:
-//!   `GITHUB_TOKEN`        - a token with `pull-requests: write` permission
-//!   `GITHUB_REPOSITORY`   - owner/repo, e.g. "analysis-tools-dev/static-analysis"
-//!   `PR_NUMBER`           - the pull request number
-//!   `COMMENT_OUTPUT_FILE` - (optional) path to write the rendered comment body
-//!                         to instead of posting it directly via the API.
+//!   `GITHUB_TOKEN`        - a token for reading public repository metadata
+//!   `COMMENT_OUTPUT_FILE` - (optional) report output path; defaults to stdout
 
 use anyhow::{Context, Result, bail};
 use askama::Template;
 use chrono::{DateTime, Months, Utc};
 use serde::Deserialize;
-use std::collections::HashMap;
+
 use std::env;
 use std::path::{Path, PathBuf};
 
@@ -57,18 +50,11 @@ struct Contributor {
     account_type: String,
 }
 
-/// One PR comment from `GET /repos/{owner}/{repo}/issues/{pr}/comments`.
-#[derive(Debug, Deserialize)]
-struct IssueComment {
-    id: u64,
-    body: String,
-}
-
 const MIN_STARS: u64 = 20;
 const MIN_CONTRIBUTORS: usize = 2;
 const MIN_AGE_MONTHS: u32 = 6;
 
-// Marker text embedded in every comment we post so we can find and update it.
+// Identifies checker reports when validating CI artifacts.
 const COMMENT_MARKER: &str = "<!-- pr-check-bot -->";
 
 /// The outcome of one criterion check.
@@ -224,98 +210,6 @@ impl GithubClient {
             .count();
         Ok(Some(human_count))
     }
-
-    /// Lists all comments on a PR/issue.
-    ///
-    /// # Errors
-    ///
-    /// Returns an error if the API call fails.
-    async fn list_pr_comments(&self, repo: &str, pr: u64) -> Result<Vec<IssueComment>> {
-        let url = format!("https://api.github.com/repos/{repo}/issues/{pr}/comments?per_page=100");
-        self.get::<Vec<IssueComment>>(&url)
-            .await?
-            .with_context(|| format!("PR {pr} not found in {repo}"))
-    }
-
-    /// Creates a new PR comment.
-    ///
-    /// # Errors
-    ///
-    /// Returns an error if the API call fails.
-    async fn create_pr_comment(&self, repo: &str, pr: u64, body: &str) -> Result<()> {
-        let url = format!("https://api.github.com/repos/{repo}/issues/{pr}/comments");
-        let mut payload = HashMap::new();
-        payload.insert("body", body);
-
-        let resp = self
-            .client
-            .post(&url)
-            .bearer_auth(&self.token)
-            .header("Accept", "application/vnd.github+json")
-            .header("X-GitHub-Api-Version", "2022-11-28")
-            .json(&payload)
-            .send()
-            .await
-            .with_context(|| format!("POST {url} failed"))?;
-
-        let status = resp.status();
-        if !status.is_success() {
-            let body = resp.text().await.unwrap_or_default();
-            bail!("POST {url} returned {status}: {body}");
-        }
-        Ok(())
-    }
-
-    /// Closes a PR after its criteria failure comment has been posted.
-    ///
-    /// # Errors
-    ///
-    /// Returns an error if the API call fails.
-    async fn close_pr(&self, repo: &str, pr: u64) -> Result<()> {
-        let url = format!("https://api.github.com/repos/{repo}/pulls/{pr}");
-        let payload = HashMap::from([("state", "closed")]);
-        self.client
-            .patch(&url)
-            .bearer_auth(&self.token)
-            .header("Accept", "application/vnd.github+json")
-            .header("X-GitHub-Api-Version", "2022-11-28")
-            .json(&payload)
-            .send()
-            .await
-            .with_context(|| format!("PATCH {url} failed"))?
-            .error_for_status()
-            .with_context(|| format!("Failed to close PR {pr}"))?;
-        Ok(())
-    }
-
-    /// Updates an existing PR comment.
-    ///
-    /// # Errors
-    ///
-    /// Returns an error if the API call fails.
-    async fn update_pr_comment(&self, repo: &str, comment_id: u64, body: &str) -> Result<()> {
-        let url = format!("https://api.github.com/repos/{repo}/issues/comments/{comment_id}");
-        let mut payload = HashMap::new();
-        payload.insert("body", body);
-
-        let resp = self
-            .client
-            .patch(&url)
-            .bearer_auth(&self.token)
-            .header("Accept", "application/vnd.github+json")
-            .header("X-GitHub-Api-Version", "2022-11-28")
-            .json(&payload)
-            .send()
-            .await
-            .with_context(|| format!("PATCH {url} failed"))?;
-
-        let status = resp.status();
-        if !status.is_success() {
-            let body = resp.text().await.unwrap_or_default();
-            bail!("PATCH {url} returned {status}: {body}");
-        }
-        Ok(())
-    }
 }
 
 /// Parses `owner` and `repo` out of a GitHub URL like
@@ -467,33 +361,6 @@ fn render_comment(reports: &[ToolReport]) -> Result<String> {
     .context("Failed to render comment template")
 }
 
-/// Posts or updates the bot comment on the PR.
-///
-/// # Errors
-///
-/// Returns an error if the GitHub API calls fail.
-async fn upsert_comment(client: &GithubClient, repo: &str, pr: u64, body: &str) -> Result<()> {
-    let comments = client.list_pr_comments(repo, pr).await?;
-
-    let existing = comments.iter().find(|c| c.body.contains(COMMENT_MARKER));
-
-    match existing {
-        Some(c) => client.update_pr_comment(repo, c.id, body).await,
-        None => client.create_pr_comment(repo, pr, body).await,
-    }
-}
-
-/// Parses a PR number from a string.
-///
-/// # Errors
-///
-/// Returns an error if the string is not a valid integer.
-fn parse_pr_number(s: &str) -> Result<u64> {
-    s.trim()
-        .parse::<u64>()
-        .with_context(|| format!("Invalid PR number: {s}"))
-}
-
 fn report_exit_code(reports: &[ToolReport]) -> i32 {
     if reports.iter().any(ToolReport::should_close) {
         2
@@ -505,9 +372,6 @@ fn report_exit_code(reports: &[ToolReport]) -> i32 {
 #[tokio::main]
 async fn main() -> Result<()> {
     let token = env::var("GITHUB_TOKEN").context("GITHUB_TOKEN not set")?;
-    let gh_repo = env::var("GITHUB_REPOSITORY").context("GITHUB_REPOSITORY not set")?;
-    let pr_number_str = env::var("PR_NUMBER").context("PR_NUMBER not set")?;
-    let pr_number = parse_pr_number(&pr_number_str)?;
 
     // Remaining CLI arguments are the paths to check.
     // Usage: pr-check data/tools/foo.yml data/tools/bar.yml
@@ -537,11 +401,6 @@ async fn main() -> Result<()> {
 
     let comment_body = render_comment(&reports)?;
 
-    // If COMMENT_OUTPUT_FILE is set, write the comment to that file instead of
-    // posting it via the API. This is used by the `pull_request` CI workflow to
-    // avoid the 403 that GitHub returns when a fork PR tries to write comments.
-    // A separate `pr-comment` workflow picks up the file and posts the comment
-    // with the write permissions it has as a `workflow_run` job.
     if let Some(output_file) = env::var("COMMENT_OUTPUT_FILE")
         .ok()
         .filter(|s| !s.is_empty())
@@ -554,10 +413,7 @@ async fn main() -> Result<()> {
             .with_context(|| format!("Failed to write comment to {output_file}"))?;
         eprintln!("Comment written to {output_file}");
     } else {
-        upsert_comment(&client, &gh_repo, pr_number, &comment_body).await?;
-        if reports.iter().any(ToolReport::should_close) {
-            client.close_pr(&gh_repo, pr_number).await?;
-        }
+        println!("{comment_body}");
     }
 
     let exit_code = report_exit_code(&reports);

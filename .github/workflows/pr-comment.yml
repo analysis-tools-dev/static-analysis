@@ -22,7 +22,8 @@ jobs:
         continue-on-error: true
 
       # Never check out or execute code from the triggering PR or its artifact.
-      - name: Post or update PR comment and close verified rejections
+      - name: Validate check results
+        id: validate
         uses: actions/github-script@v8
         with:
           script: |
@@ -85,23 +86,30 @@ jobs:
               return;
             }
 
-            const isCurrent = async () => {
-              const { data: current } = await github.rest.pulls.get({ ...repo, pull_number });
-              return current.state === 'open' && current.head.sha === sha;
-            };
-            const comments = await github.paginate(github.rest.issues.listComments, {
-              ...repo, issue_number: pull_number, per_page: 100,
-            });
-            const existing = comments.find(comment =>
-              comment.user?.login === 'github-actions[bot]' && comment.body?.includes(marker));
-            if (!await isCurrent()) return;
-            if (existing) {
-              await github.rest.issues.updateComment({ ...repo, comment_id: existing.id, body });
-            } else {
-              await github.rest.issues.createComment({ ...repo, issue_number: pull_number, body });
-            }
-            // A failed comment request throws before this point. Recheck the head
-            // immediately before closing so an older run cannot close an updated PR.
-            if (result === 'rejected' && await isCurrent()) {
-              await github.rest.pulls.update({ ...repo, pull_number, state: 'closed' });
-            }
+            const { data: current } = await github.rest.pulls.get({ ...repo, pull_number });
+            if (current.state !== 'open' || current.head.sha !== sha) return;
+            core.setOutput('number', number);
+            core.setOutput('sha', sha);
+            core.setOutput('result', result);
+
+      - name: Post or update PR comment
+        id: comment
+        if: steps.validate.outputs.number != ''
+        uses: marocchino/sticky-pull-request-comment@5770ad5eb8f42dd2c4f34da00c94c5381e49af88 # v3.0.5
+        with:
+          number: ${{ steps.validate.outputs.number }}
+          path: comment.md
+          header: pr-check-bot
+
+      - name: Close verified rejections
+        if: steps.comment.outcome == 'success' && steps.validate.outputs.result == 'rejected'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ steps.validate.outputs.number }}
+          HEAD_SHA: ${{ steps.validate.outputs.sha }}
+        run: |
+          current=$(gh pr view "$PR_NUMBER" --json state,headRefOid --jq '[.state, .headRefOid] | join(" ")')
+          if [ "$current" = "OPEN $HEAD_SHA" ]; then
+            gh pr close "$PR_NUMBER"
+          fi
