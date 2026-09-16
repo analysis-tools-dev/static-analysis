@@ -29,7 +29,7 @@ jobs:
       PR_NUMBER: ${{ inputs.pr_number || github.event.pull_request.number }}
       HEAD_SHA: ${{ github.event.pull_request.head.sha }}
       HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
-      BASE_SHA: ${{ github.event.pull_request.base.sha }}
+
     steps:
       - name: Resolve PR for manual run
         if: github.event_name == 'workflow_dispatch'
@@ -40,15 +40,16 @@ jobs:
           [[ "$PR_NUMBER" =~ ^[1-9][0-9]*$ ]] || { echo "PR number must be a positive integer" >&2; exit 1; }
           metadata=$(gh api "repos/$GH_REPO/pulls/$PR_NUMBER" --jq '
             if .state == "open" and .base.ref == "master" and .head.repo != null then
-              "HEAD_SHA=\(.head.sha)\nHEAD_REPO=\(.head.repo.full_name)\nBASE_SHA=\(.base.sha)"
+              "HEAD_SHA=\(.head.sha)\nHEAD_REPO=\(.head.repo.full_name)"
             else error("Expected an open PR targeting master with an accessible source repository") end
           ')
           printf '%s\n' "$metadata" >> "$GITHUB_ENV"
 
+      # Use current trusted code, not the PR's potentially stale base SHA.
       # This job has write permissions. Never check out or execute PR code.
       - uses: actions/checkout@v7
         with:
-          ref: ${{ env.BASE_SHA }}
+          ref: refs/heads/master
           persist-credentials: false
 
       - name: Download new tool entries as data
