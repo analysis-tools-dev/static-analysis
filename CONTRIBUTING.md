@@ -12,10 +12,7 @@ Before submitting, each tool must
 - have at least 20 stars on GitHub
 - have more than one human contributor
 
-These requirements apply regardless of whether a tool was built with AI
-assistance. This is a curated list, not a launch or marketing channel. Please do
-not open a pull request to promote a tool or leave one open while it gains stars,
-contributors, or enough history to qualify.
+These requirements apply to all tools.
 
 The CI bot will politely close pull requests when it verifies that a tool does
 not meet the criteria. You are welcome to submit a new pull request once **all**

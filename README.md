@@ -51,7 +51,7 @@ If you also want to support this project, head over to our [GitHub Sponsors page
 - :information_source: indicates that the community does not recommend the tool for new projects. The icon links to the discussion issue.
 - :warning: means that the tool was not updated for more than one year, or its repository was archived.
 
-Contributions are welcome for tools that already meet the [contribution criteria](CONTRIBUTING.md): at least six months of history, 20 GitHub stars, and more than one human contributor. **Please do not submit tools before they qualify.** Pull requests with verified criteria failures will be closed; you are welcome to resubmit once all criteria are met. This list is not a launch or marketing channel, including for AI-assisted tools.
+Contributions are welcome for tools that already meet the [contribution criteria](CONTRIBUTING.md): at least six months of history, 20 GitHub stars, and more than one human contributor. **Please do not submit tools before they qualify.** Pull requests with verified criteria failures will be closed; you are welcome to resubmit once all criteria are met.
 
 Also check out the sister project, [awesome-dynamic-analysis](https://github.com/mre/awesome-dynamic-analysis).
 
