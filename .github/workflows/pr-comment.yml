@@ -9,6 +9,8 @@ jobs:
   comment:
     runs-on: ubuntu-latest
     permissions:
+      actions: read
+      contents: read
       pull-requests: write
     steps:
       - name: Download check results
@@ -19,22 +21,87 @@ jobs:
           run-id: ${{ github.event.workflow_run.id }}
         continue-on-error: true
 
-      - name: Post or update PR comment
-        if: hashFiles('pr_number.txt') != '' && hashFiles('comment.md') != ''
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_REPO: ${{ github.repository }}
-        run: |
-          PR_NUMBER=$(cat pr_number.txt)
-          COMMENT_BODY=$(cat comment.md)
+      # Never check out or execute code from the triggering PR or its artifact.
+      - name: Post or update PR comment and close verified rejections
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const fs = require('fs');
+            const read = name => fs.existsSync(name) ? fs.readFileSync(name, 'utf8').trim() : '';
+            const number = read('pr_number.txt');
+            const sha = read('head_sha.txt');
+            const result = read('result.txt');
+            const body = read('comment.md');
+            const marker = '<!-- pr-check-bot -->';
+            const run = context.payload.workflow_run;
+            if (!/^[1-9][0-9]*$/.test(number) || !/^[a-f0-9]{40}$/.test(sha) ||
+                !['passed', 'failed', 'rejected'].includes(result) || !body.includes(marker) ||
+                !['success', 'failure'].includes(run.conclusion)) {
+              core.info('No complete checker comment to publish.');
+              return;
+            }
+            const pull_number = Number(number);
+            const repo = context.repo;
+            const { data: pr } = await github.rest.pulls.get({ ...repo, pull_number });
+            if (pr.base.repo.full_name !== `${repo.owner}/${repo.repo}` ||
+                pr.state !== 'open' || pr.head.sha !== sha) {
+              core.info('PR is closed or the checked head is stale.');
+              return;
+            }
 
-          EXISTING_ID=$(gh api "repos/$GH_REPO/issues/$PR_NUMBER/comments" \
-            --jq '[.[] | select(.body | contains("<!-- pr-check-bot -->"))] | first | .id // empty')
+            if (run.event === 'pull_request') {
+              // Fork runs can omit pull_requests. Resolve from GitHub, not the artifact,
+              // and require a unique match (including closed PRs) to avoid retargeting.
+              if (run.head_sha !== sha) {
+                core.info('Artifact SHA does not match the workflow run.');
+                return;
+              }
+              let candidates = run.pull_requests ?? [];
+              if (candidates.length === 0) {
+                candidates = (await github.paginate(github.rest.repos.listPullRequestsAssociatedWithCommit, {
+                  ...repo, commit_sha: run.head_sha, per_page: 100,
+                })).filter(candidate =>
+                  candidate.head.sha === run.head_sha &&
+                  candidate.head.ref === run.head_branch &&
+                  candidate.head.repo?.id === run.head_repository?.id &&
+                  candidate.base.repo.full_name === `${repo.owner}/${repo.repo}`);
+              }
+              if (candidates.length !== 1 || candidates[0].number !== pull_number ||
+                  candidates[0].head.sha !== sha) {
+                core.info('Cannot uniquely bind the artifact to the triggering PR.');
+                return;
+              }
+            } else if (run.event === 'workflow_dispatch') {
+              // Dispatch head_sha describes the checker, not the PR. Only trust
+              // manual artifacts produced on the base repository's default branch;
+              // run-name binds the requested PR number in GitHub-owned metadata.
+              if (run.head_repository?.full_name !== `${repo.owner}/${repo.repo}` ||
+                  run.head_branch !== context.payload.repository.default_branch ||
+                  run.display_title !== `PR Check #${number}`) {
+                core.info('Manual run is not from the default branch or targets another PR.');
+                return;
+              }
+            } else {
+              return;
+            }
 
-          if [ -n "$EXISTING_ID" ]; then
-            gh api --method PATCH "repos/$GH_REPO/issues/comments/$EXISTING_ID" \
-              --field body="$COMMENT_BODY"
-          else
-            gh api --method POST "repos/$GH_REPO/issues/$PR_NUMBER/comments" \
-              --field body="$COMMENT_BODY"
-          fi
+            const isCurrent = async () => {
+              const { data: current } = await github.rest.pulls.get({ ...repo, pull_number });
+              return current.state === 'open' && current.head.sha === sha;
+            };
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              ...repo, issue_number: pull_number, per_page: 100,
+            });
+            const existing = comments.find(comment =>
+              comment.user?.login === 'github-actions[bot]' && comment.body?.includes(marker));
+            if (!await isCurrent()) return;
+            if (existing) {
+              await github.rest.issues.updateComment({ ...repo, comment_id: existing.id, body });
+            } else {
+              await github.rest.issues.createComment({ ...repo, issue_number: pull_number, body });
+            }
+            // A failed comment request throws before this point. Recheck the head
+            // immediately before closing so an older run cannot close an updated PR.
+            if (result === 'rejected' && await isCurrent()) {
+              await github.rest.pulls.update({ ...repo, pull_number, state: 'closed' });
+            }

@@ -1,4 +1,5 @@
 name: PR Check
+run-name: "PR Check #${{ github.event_name == 'workflow_dispatch' && inputs.pr_number || github.event.pull_request.number }}"
 
 on:
   pull_request:
@@ -20,24 +21,56 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
+      pull-requests: read
     steps:
       - uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
+      - name: Initialize check results
+        id: target
+        uses: actions/github-script@v8
+        env:
+          PR_NUMBER: ${{ github.event_name == 'workflow_dispatch' && inputs.pr_number || github.event.pull_request.number }}
+        with:
+          script: |
+            const fs = require('fs');
+            if (!/^[1-9][0-9]*$/.test(process.env.PR_NUMBER)) {
+              throw new Error('Invalid PR number');
+            }
+            const pr = context.payload.pull_request ?? (await github.rest.pulls.get({
+              ...context.repo, pull_number: Number(process.env.PR_NUMBER),
+            })).data;
+            fs.mkdirSync('pr-check-output', { recursive: true });
+            fs.writeFileSync('pr-check-output/pr_number.txt', String(pr.number));
+            fs.writeFileSync('pr-check-output/head_sha.txt', pr.head.sha);
+            fs.writeFileSync('pr-check-output/result.txt', 'failed');
+            core.setOutput('head_sha', pr.head.sha);
+
       - name: Check out PR head for manual runs
         if: github.event_name == 'workflow_dispatch'
-        run: |
-          git fetch origin "refs/pull/${{ inputs.pr_number }}/head"
-          git checkout FETCH_HEAD -- ${{ inputs.tool_files }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ inputs.pr_number }}
+          TOOL_FILES: ${{ inputs.tool_files }}
+          HEAD_SHA: ${{ steps.target.outputs.head_sha }}
+        run: |
+          read -r -a files <<< "$TOOL_FILES"
+          [ "${#files[@]}" -gt 0 ]
+          for file in "${files[@]}"; do
+            [[ "$file" =~ ^data/tools/[a-zA-Z0-9_.-]+\.ya?ml$ ]] || exit 1
+          done
+          git fetch origin "refs/pull/$PR_NUMBER/head"
+          [ "$(git rev-parse FETCH_HEAD)" = "$HEAD_SHA" ]
+          git checkout FETCH_HEAD -- "${files[@]}"
 
       - name: Get changed tool files
         id: changed
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          TOOL_FILES: ${{ inputs.tool_files }}
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            FILES="${{ inputs.tool_files }}"
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            FILES="$TOOL_FILES"
           else
             FILES=$(git diff --name-only --diff-filter=A origin/master...HEAD -- 'data/tools/*.yml' 'data/tools/*.yaml' | tr '\n' ' ')
           fi
@@ -48,8 +81,6 @@ jobs:
       - name: "Skip: no tool files to check"
         if: steps.changed.outputs.has_files == 'false'
         run: |
-          mkdir -p pr-check-output
-          echo "${{ github.event_name == 'workflow_dispatch' && inputs.pr_number || github.event.pull_request.number }}" > pr-check-output/pr_number.txt
           echo "passed" > pr-check-output/result.txt
 
       - name: Install Rust toolchain
@@ -81,23 +112,21 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           PR_NUMBER: ${{ github.event_name == 'workflow_dispatch' && inputs.pr_number || github.event.pull_request.number }}
-          # For pull_request events (including forks), write the comment to a
-          # file instead of posting it directly. The fork's GITHUB_TOKEN does
-          # not have write access to the base repository, so direct posting
-          # returns 403. The pr-comment workflow picks up this artifact and
-          # posts the comment with the right permissions.
-          COMMENT_OUTPUT_FILE: ${{ github.event_name == 'pull_request' && 'pr-check-output/comment.md' || '' }}
+          # Both triggers use the artifact path; only pr-comment may post/close.
+          COMMENT_OUTPUT_FILE: pr-check-output/comment.md
+          TOOL_FILES: ${{ steps.changed.outputs.files }}
         run: |
-          mkdir -p pr-check-output
-          echo "$PR_NUMBER" > pr-check-output/pr_number.txt
-          if ci/target/release/pr-check ${{ steps.changed.outputs.files }}; then
-            echo "passed" > pr-check-output/result.txt
-          else
-            echo "failed" > pr-check-output/result.txt
-          fi
+          read -r -a files <<< "$TOOL_FILES"
+          status=0
+          ci/target/release/pr-check "${files[@]}" || status=$?
+          case "$status" in
+            0) echo "passed" > pr-check-output/result.txt ;;
+            2) echo "rejected" > pr-check-output/result.txt ;;
+            *) echo "failed" > pr-check-output/result.txt ;;
+          esac
 
       - name: Upload check results
-        if: always() && github.event_name == 'pull_request'
+        if: always()
         uses: actions/upload-artifact@v7
         with:
           name: pr-check-output
