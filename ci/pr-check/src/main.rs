@@ -9,28 +9,22 @@
 //! - More than one contributor
 //! - Repository is at least 6 months old
 //!
-//! The results are either posted as a single comment on the PR (updating an
-//! existing bot comment if one already exists) or written to a file when the
-//! `COMMENT_OUTPUT_FILE` environment variable is set. The latter mode is used
-//! in CI to work around the GitHub Actions restriction that prevents fork PRs
-//! from writing to the base repository. A separate `pr-comment` workflow then
-//! picks up the file and posts the comment with the necessary permissions.
+//! Writes the report to `COMMENT_OUTPUT_FILE`, or stdout when unset. The
+//! `pr-check` workflow publishes the report and closes verified rejections.
+//! This checker only reads repository metadata; it never modifies PRs.
 //!
-//! The process exits with a non-zero status code when any hard criterion is
-//! not met, causing CI to fail.
+//! Exit code 2 indicates a verified criteria failure; exit code 1 indicates
+//! an error or an unverified criterion. Only verified failures warrant closure.
 //!
 //! Expected environment variables:
-//!   `GITHUB_TOKEN`        - a token with `pull-requests: write` permission
-//!   `GITHUB_REPOSITORY`   - owner/repo, e.g. "analysis-tools-dev/static-analysis"
-//!   `PR_NUMBER`           - the pull request number
-//!   `COMMENT_OUTPUT_FILE` - (optional) path to write the rendered comment body
-//!                         to instead of posting it directly via the API.
+//!   `GITHUB_TOKEN`        - a token for reading public repository metadata
+//!   `COMMENT_OUTPUT_FILE` - (optional) report output path; defaults to stdout
 
 use anyhow::{Context, Result, bail};
 use askama::Template;
 use chrono::{DateTime, Months, Utc};
 use serde::Deserialize;
-use std::collections::HashMap;
+
 use std::env;
 use std::path::{Path, PathBuf};
 
@@ -56,18 +50,11 @@ struct Contributor {
     account_type: String,
 }
 
-/// One PR comment from `GET /repos/{owner}/{repo}/issues/{pr}/comments`.
-#[derive(Debug, Deserialize)]
-struct IssueComment {
-    id: u64,
-    body: String,
-}
-
 const MIN_STARS: u64 = 20;
 const MIN_CONTRIBUTORS: usize = 2;
 const MIN_AGE_MONTHS: u32 = 6;
 
-// Marker text embedded in every comment we post so we can find and update it.
+// Identifies the report as output from the contribution checker.
 const COMMENT_MARKER: &str = "<!-- pr-check-bot -->";
 
 /// The outcome of one criterion check.
@@ -81,6 +68,10 @@ enum CheckResult {
 impl CheckResult {
     const fn is_pass(&self) -> bool {
         matches!(self, Self::Pass(_))
+    }
+
+    const fn is_fail(&self) -> bool {
+        matches!(self, Self::Fail(_))
     }
 
     const fn symbol(&self) -> &'static str {
@@ -115,8 +106,18 @@ impl ToolReport {
         !self.stars.is_pass() || !self.contributors.is_pass() || !self.age.is_pass()
     }
 
+    const fn should_close(&self) -> bool {
+        self.stars.is_fail() || self.contributors.is_fail() || self.age.is_fail()
+    }
+
     const fn status(&self) -> &'static str {
-        if self.any_fail() { "FAIL" } else { "PASS" }
+        if self.should_close() {
+            "FAIL"
+        } else if self.any_fail() {
+            "REVIEW"
+        } else {
+            "PASS"
+        }
     }
 }
 
@@ -126,6 +127,7 @@ struct CommentTemplate<'a> {
     marker: &'a str,
     reports: &'a [ToolReport],
     any_failures: bool,
+    should_close: bool,
 }
 
 struct GithubClient {
@@ -208,76 +210,6 @@ impl GithubClient {
             .count();
         Ok(Some(human_count))
     }
-
-    /// Lists all comments on a PR/issue.
-    ///
-    /// # Errors
-    ///
-    /// Returns an error if the API call fails.
-    async fn list_pr_comments(&self, repo: &str, pr: u64) -> Result<Vec<IssueComment>> {
-        let url = format!("https://api.github.com/repos/{repo}/issues/{pr}/comments?per_page=100");
-        self.get::<Vec<IssueComment>>(&url)
-            .await?
-            .with_context(|| format!("PR {pr} not found in {repo}"))
-    }
-
-    /// Creates a new PR comment.
-    ///
-    /// # Errors
-    ///
-    /// Returns an error if the API call fails.
-    async fn create_pr_comment(&self, repo: &str, pr: u64, body: &str) -> Result<()> {
-        let url = format!("https://api.github.com/repos/{repo}/issues/{pr}/comments");
-        let mut payload = HashMap::new();
-        payload.insert("body", body);
-
-        let resp = self
-            .client
-            .post(&url)
-            .bearer_auth(&self.token)
-            .header("Accept", "application/vnd.github+json")
-            .header("X-GitHub-Api-Version", "2022-11-28")
-            .json(&payload)
-            .send()
-            .await
-            .with_context(|| format!("POST {url} failed"))?;
-
-        let status = resp.status();
-        if !status.is_success() {
-            let body = resp.text().await.unwrap_or_default();
-            bail!("POST {url} returned {status}: {body}");
-        }
-        Ok(())
-    }
-
-    /// Updates an existing PR comment.
-    ///
-    /// # Errors
-    ///
-    /// Returns an error if the API call fails.
-    async fn update_pr_comment(&self, repo: &str, comment_id: u64, body: &str) -> Result<()> {
-        let url = format!("https://api.github.com/repos/{repo}/issues/comments/{comment_id}");
-        let mut payload = HashMap::new();
-        payload.insert("body", body);
-
-        let resp = self
-            .client
-            .patch(&url)
-            .bearer_auth(&self.token)
-            .header("Accept", "application/vnd.github+json")
-            .header("X-GitHub-Api-Version", "2022-11-28")
-            .json(&payload)
-            .send()
-            .await
-            .with_context(|| format!("PATCH {url} failed"))?;
-
-        let status = resp.status();
-        if !status.is_success() {
-            let body = resp.text().await.unwrap_or_default();
-            bail!("PATCH {url} returned {status}: {body}");
-        }
-        Ok(())
-    }
 }
 
 /// Parses `owner` and `repo` out of a GitHub URL like
@@ -335,7 +267,7 @@ async fn check_tool(client: &GithubClient, tool: &ToolEntry) -> Result<ToolRepor
                 }
             }
             Ok(None) => CheckResult::Skip("repository not found".into()),
-            Err(e) => CheckResult::Fail(format!("Could not fetch repo info: {e}")),
+            Err(e) => CheckResult::Skip(format!("Could not fetch repo info: {e}")),
         };
 
         let age_check = match &repo_result {
@@ -379,7 +311,7 @@ async fn check_tool(client: &GithubClient, tool: &ToolEntry) -> Result<ToolRepor
                 }
             }
             Ok(None) => CheckResult::Skip("repository not found".into()),
-            Err(e) => CheckResult::Fail(format!("Could not fetch contributors: {e}")),
+            Err(e) => CheckResult::Skip(format!("Could not fetch contributors: {e}")),
         };
 
         let repo_not_found = matches!(repo_result, Ok(None));
@@ -423,44 +355,23 @@ fn render_comment(reports: &[ToolReport]) -> Result<String> {
         marker: COMMENT_MARKER,
         reports,
         any_failures,
+        should_close: reports.iter().any(ToolReport::should_close),
     }
     .render()
     .context("Failed to render comment template")
 }
 
-/// Posts or updates the bot comment on the PR.
-///
-/// # Errors
-///
-/// Returns an error if the GitHub API calls fail.
-async fn upsert_comment(client: &GithubClient, repo: &str, pr: u64, body: &str) -> Result<()> {
-    let comments = client.list_pr_comments(repo, pr).await?;
-
-    let existing = comments.iter().find(|c| c.body.contains(COMMENT_MARKER));
-
-    match existing {
-        Some(c) => client.update_pr_comment(repo, c.id, body).await,
-        None => client.create_pr_comment(repo, pr, body).await,
+fn report_exit_code(reports: &[ToolReport]) -> i32 {
+    if reports.iter().any(ToolReport::should_close) {
+        2
+    } else {
+        i32::from(reports.iter().any(ToolReport::any_fail))
     }
-}
-
-/// Parses a PR number from a string.
-///
-/// # Errors
-///
-/// Returns an error if the string is not a valid integer.
-fn parse_pr_number(s: &str) -> Result<u64> {
-    s.trim()
-        .parse::<u64>()
-        .with_context(|| format!("Invalid PR number: {s}"))
 }
 
 #[tokio::main]
 async fn main() -> Result<()> {
     let token = env::var("GITHUB_TOKEN").context("GITHUB_TOKEN not set")?;
-    let gh_repo = env::var("GITHUB_REPOSITORY").context("GITHUB_REPOSITORY not set")?;
-    let pr_number_str = env::var("PR_NUMBER").context("PR_NUMBER not set")?;
-    let pr_number = parse_pr_number(&pr_number_str)?;
 
     // Remaining CLI arguments are the paths to check.
     // Usage: pr-check data/tools/foo.yml data/tools/bar.yml
@@ -490,12 +401,10 @@ async fn main() -> Result<()> {
 
     let comment_body = render_comment(&reports)?;
 
-    // If COMMENT_OUTPUT_FILE is set, write the comment to that file instead of
-    // posting it via the API. This is used by the `pull_request` CI workflow to
-    // avoid the 403 that GitHub returns when a fork PR tries to write comments.
-    // A separate `pr-comment` workflow picks up the file and posts the comment
-    // with the write permissions it has as a `workflow_run` job.
-    if let Ok(output_file) = env::var("COMMENT_OUTPUT_FILE") {
+    if let Some(output_file) = env::var("COMMENT_OUTPUT_FILE")
+        .ok()
+        .filter(|s| !s.is_empty())
+    {
         if let Some(parent) = std::path::Path::new(&output_file).parent() {
             std::fs::create_dir_all(parent)
                 .with_context(|| format!("Failed to create directory for {output_file}"))?;
@@ -504,13 +413,15 @@ async fn main() -> Result<()> {
             .with_context(|| format!("Failed to write comment to {output_file}"))?;
         eprintln!("Comment written to {output_file}");
     } else {
-        upsert_comment(&client, &gh_repo, pr_number, &comment_body).await?;
+        println!("{comment_body}");
     }
 
-    let any_failures = reports.iter().any(ToolReport::any_fail);
-    if any_failures {
-        eprintln!("One or more tools failed the contributing criteria check.");
-        std::process::exit(1);
+    let exit_code = report_exit_code(&reports);
+    if exit_code != 0 {
+        eprintln!(
+            "One or more tools failed or require manual review of the contributing criteria."
+        );
+        std::process::exit(exit_code);
     }
 
     Ok(())
@@ -564,6 +475,73 @@ mod tests {
     fn rejects_missing_repo() {
         let result = parse_github_repo("https://github.com/owner");
         assert!(result.is_none());
+    }
+
+    fn passing_report() -> ToolReport {
+        ToolReport {
+            name: "Example".into(),
+            source: Some("https://github.com/example/tool".into()),
+            stars: CheckResult::Pass("20 stars".into()),
+            contributors: CheckResult::Pass("2 contributors".into()),
+            age: CheckResult::Pass("at least 6 months".into()),
+            note: None,
+        }
+    }
+
+    #[test]
+    fn passing_tools_do_not_close_pr() -> Result<()> {
+        let reports = [passing_report()];
+        assert_eq!(report_exit_code(&reports), 0);
+        let comment = render_comment(&reports)?;
+        assert!(comment.contains("All criteria passed"));
+        assert!(!comment.contains("closing this pull request"));
+        assert_eq!(report_exit_code(&[]), 0);
+        Ok(())
+    }
+
+    #[test]
+    fn each_verified_failure_closes_pr_and_invites_resubmission() -> Result<()> {
+        for criterion in 0..3 {
+            let mut report = passing_report();
+            let check = match criterion {
+                0 => &mut report.stars,
+                1 => &mut report.contributors,
+                _ => &mut report.age,
+            };
+            *check = CheckResult::Fail("below minimum".into());
+            assert_eq!(report.status(), "FAIL");
+            let reports = [passing_report(), report];
+            assert_eq!(report_exit_code(&reports), 2);
+            let comment = render_comment(&reports)?;
+            assert!(comment.contains("closing this pull request"));
+            assert!(comment.contains("submit a new pull request once all criteria are met"));
+        }
+        Ok(())
+    }
+
+    #[test]
+    fn unverified_checks_require_review_not_closure() -> Result<()> {
+        for reason in ["N/A", "repository not found", "GitHub API unavailable"] {
+            let mut report = passing_report();
+            report.stars = CheckResult::Skip(reason.into());
+            report.contributors = CheckResult::Skip(reason.into());
+            report.age = CheckResult::Skip(reason.into());
+            assert_eq!(report.status(), "REVIEW");
+            let reports = [report];
+            assert_eq!(report_exit_code(&reports), 1);
+            let comment = render_comment(&reports)?;
+            assert!(comment.contains("needs manual review"));
+            assert!(!comment.contains("closing this pull request"));
+        }
+        Ok(())
+    }
+
+    #[test]
+    fn verified_failure_still_closes_when_another_check_is_unverified() {
+        let mut report = passing_report();
+        report.stars = CheckResult::Skip("GitHub API unavailable".into());
+        report.contributors = CheckResult::Fail("1 contributor".into());
+        assert_eq!(report_exit_code(&[report]), 2);
     }
 
     #[test]

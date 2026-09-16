@@ -1,110 +1,132 @@
 name: PR Check
 
 on:
-  pull_request:
+  pull_request_target:
     branches: [master]
     paths:
       - "data/tools/**.yml"
-      - "ci/**"
+      - "data/tools/**.yaml"
   workflow_dispatch:
     inputs:
       pr_number:
-        description: "PR number to check"
+        description: "Open PR to check (verified failures will be closed)"
         required: true
-      tool_files:
-        description: "Space-separated list of tool YAML files to check (e.g. data/tools/foo.yml)"
-        required: true
+        type: string
+
+concurrency:
+  group: pr-check-${{ inputs.pr_number || github.event.pull_request.number }}
+  cancel-in-progress: true
 
 jobs:
   pr-check:
+    if: github.event_name != 'workflow_dispatch' || github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     permissions:
       contents: read
+      pull-requests: write
+    env:
+      GH_REPO: ${{ github.repository }}
+      PR_NUMBER: ${{ inputs.pr_number || github.event.pull_request.number }}
+      HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+      HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
+      BASE_SHA: ${{ github.event.pull_request.base.sha }}
     steps:
+      - name: Resolve PR for manual run
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          [[ "$PR_NUMBER" =~ ^[1-9][0-9]*$ ]] || { echo "PR number must be a positive integer" >&2; exit 1; }
+          metadata=$(gh api "repos/$GH_REPO/pulls/$PR_NUMBER" --jq '
+            if .state == "open" and .base.ref == "master" and .head.repo != null then
+              "HEAD_SHA=\(.head.sha)\nHEAD_REPO=\(.head.repo.full_name)\nBASE_SHA=\(.base.sha)"
+            else error("Expected an open PR targeting master with an accessible source repository") end
+          ')
+          printf '%s\n' "$metadata" >> "$GITHUB_ENV"
+
+      # This job has write permissions. Never check out or execute PR code.
       - uses: actions/checkout@v7
         with:
-          fetch-depth: 0
+          ref: ${{ env.BASE_SHA }}
+          persist-credentials: false
 
-      - name: Check out PR head for manual runs
-        if: github.event_name == 'workflow_dispatch'
-        run: |
-          git fetch origin "refs/pull/${{ inputs.pr_number }}/head"
-          git checkout FETCH_HEAD -- ${{ inputs.tool_files }}
+      - name: Download new tool entries as data
+        id: tools
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Get changed tool files
-        id: changed
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            FILES="${{ inputs.tool_files }}"
-          else
-            FILES=$(git diff --name-only --diff-filter=A origin/master...HEAD -- 'data/tools/*.yml' 'data/tools/*.yaml' | tr '\n' ' ')
+          mkdir -p "$RUNNER_TEMP/pr-check/data/tools"
+          gh api --paginate "repos/$GH_REPO/pulls/$PR_NUMBER/files" \
+            --jq '.[] | select(.status == "added") | select(.filename | test("^data/tools/[a-zA-Z0-9_.-]+\\.ya?ml$")) | [.sha, .filename] | @tsv' \
+            > "$RUNNER_TEMP/pr-check/tools.tsv"
+          while IFS=$'\t' read -r sha file; do
+            gh api "repos/$HEAD_REPO/git/blobs/$sha" --jq .content | base64 --decode \
+              > "$RUNNER_TEMP/pr-check/$file"
+          done < "$RUNNER_TEMP/pr-check/tools.tsv"
+          if [ -s "$RUNNER_TEMP/pr-check/tools.tsv" ]; then
+            echo "found=true" >> "$GITHUB_OUTPUT"
           fi
-          FILES=$(echo "$FILES" | xargs)  # trim leading/trailing whitespace
-          echo "files=$FILES" >> "$GITHUB_OUTPUT"
-          echo "has_files=$( [ -n "$FILES" ] && echo true || echo false )" >> "$GITHUB_OUTPUT"
-
-      - name: "Skip: no tool files to check"
-        if: steps.changed.outputs.has_files == 'false'
-        run: |
-          mkdir -p pr-check-output
-          echo "${{ github.event_name == 'workflow_dispatch' && inputs.pr_number || github.event.pull_request.number }}" > pr-check-output/pr_number.txt
-          echo "passed" > pr-check-output/result.txt
 
       - name: Install Rust toolchain
-        if: steps.changed.outputs.has_files == 'true'
+        if: steps.tools.outputs.found == 'true'
         uses: dtolnay/rust-toolchain@6c977a6ca4077a0ceb28ffbe03f59d46e9ac8772 # master
         with:
           toolchain: 1.98.0
 
-      - name: Cache cargo registry
-        if: steps.changed.outputs.has_files == 'true'
-        uses: actions/cache@v6
-        with:
-          path: |
-            ~/.cargo/registry
-            ~/.cargo/git
-            ci/target
-          key: pr-check-${{ runner.os }}-${{ hashFiles('ci/Cargo.lock') }}
-          restore-keys: |
-            pr-check-${{ runner.os }}-
+      - name: Build trusted checker
+        if: steps.tools.outputs.found == 'true'
+        run: cargo build --release --locked --manifest-path ci/Cargo.toml -p pr-check
 
-      - name: Build pr-check
-        if: steps.changed.outputs.has_files == 'true'
-        run: cargo build --release --manifest-path ci/Cargo.toml -p pr-check
-
-      - name: Run pr-check
-        if: steps.changed.outputs.has_files == 'true'
-        id: run-check
+      - name: Check tool criteria
+        if: steps.tools.outputs.found == 'true'
+        id: check
+        working-directory: ${{ runner.temp }}/pr-check
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-          PR_NUMBER: ${{ github.event_name == 'workflow_dispatch' && inputs.pr_number || github.event.pull_request.number }}
-          # For pull_request events (including forks), write the comment to a
-          # file instead of posting it directly. The fork's GITHUB_TOKEN does
-          # not have write access to the base repository, so direct posting
-          # returns 403. The pr-comment workflow picks up this artifact and
-          # posts the comment with the right permissions.
-          COMMENT_OUTPUT_FILE: ${{ github.event_name == 'pull_request' && 'pr-check-output/comment.md' || '' }}
+          GITHUB_TOKEN: ${{ github.token }}
+          COMMENT_OUTPUT_FILE: ${{ runner.temp }}/pr-check/comment.md
+        shell: bash
         run: |
-          mkdir -p pr-check-output
-          echo "$PR_NUMBER" > pr-check-output/pr_number.txt
-          if ci/target/release/pr-check ${{ steps.changed.outputs.files }}; then
-            echo "passed" > pr-check-output/result.txt
-          else
-            echo "failed" > pr-check-output/result.txt
+          shopt -s nullglob dotglob
+          files=(data/tools/*.yml data/tools/*.yaml)
+          [ "${#files[@]}" -gt 0 ]
+          status=0
+          "$GITHUB_WORKSPACE/ci/target/release/pr-check" "${files[@]}" || status=$?
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+
+      - name: Check PR is still current
+        if: steps.tools.outputs.found == 'true'
+        id: current
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          current=$(gh pr view "$PR_NUMBER" --json state,headRefOid --jq '[.state, .headRefOid] | join(" ")')
+          if [ "$current" = "OPEN $HEAD_SHA" ] && [ -s "$RUNNER_TEMP/pr-check/comment.md" ]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Upload check results
-        if: always() && github.event_name == 'pull_request'
-        uses: actions/upload-artifact@v7
+      - name: Post or update PR comment
+        if: steps.current.outputs.ready == 'true'
+        id: comment
+        uses: marocchino/sticky-pull-request-comment@5770ad5eb8f42dd2c4f34da00c94c5381e49af88 # v3.0.5
         with:
-          name: pr-check-output
-          path: pr-check-output/
+          number: ${{ env.PR_NUMBER }}
+          path: ${{ runner.temp }}/pr-check/comment.md
+          header: pr-check-bot
+
+      - name: Close verified rejections
+        if: steps.comment.outcome == 'success' && steps.check.outputs.status == '2'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          current=$(gh pr view "$PR_NUMBER" --json state,headRefOid --jq '[.state, .headRefOid] | join(" ")')
+          if [ "$current" = "OPEN $HEAD_SHA" ]; then
+            gh pr close "$PR_NUMBER"
+          fi
 
       - name: Fail if checks did not pass
-        if: always()
-        run: |
-          result=$(cat pr-check-output/result.txt 2>/dev/null || echo "failed")
-          [ "$result" = "passed" ]
+        if: steps.tools.outputs.found == 'true'
+        env:
+          CHECK_STATUS: ${{ steps.check.outputs.status }}
+        run: test "$CHECK_STATUS" = '0'

@@ -1,18 +1,27 @@
 # Thank you for contributing
 
-Please feel free to open a pull request if you know of a static analysis tool that
-is not mentioned here.  
-If you're in doubt if a tool is a good fit for the list, **don't open an issue,
-but create a pull request right away** because that's easier to handle. Thanks!
-:smiley:
+We welcome pull requests for static analysis tools that meet the requirements
+below. **Please verify all criteria before submitting a tool.** If a tool does
+not qualify yet, wait until it does rather than opening a pull request or issue.
 
 ### Requirements
 
-Each tool on the list should
+Before submitting, each tool must
 
 - have existed for at least six months
 - have at least 20 stars on GitHub
-- have more than one contributor
+- have more than one human contributor
+
+These requirements apply regardless of whether a tool was built with AI
+assistance. This is a curated list, not a launch or marketing channel. Please do
+not open a pull request to promote a tool or leave one open while it gains stars,
+contributors, or enough history to qualify.
+
+The CI bot will politely close pull requests when it verifies that a tool does
+not meet the criteria. You are welcome to submit a new pull request once **all**
+criteria are met. If a check cannot be verified automatically (for example, for
+a non-GitHub or proprietary tool), it requires manual review rather than
+automatic closure. Meeting the minimum criteria does not guarantee inclusion.
 
 ### Format
 
