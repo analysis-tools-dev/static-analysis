@@ -968,6 +968,7 @@ dependencies = [
  "askama",
  "chrono",
  "clap",
+ "futures-util",
  "github-repo",
  "reqwest",
  "serde",

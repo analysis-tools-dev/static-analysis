@@ -72,6 +72,32 @@ impl ToolReport {
     }
 }
 
+/// The ordered outcomes of all tool checks.
+#[derive(Debug, Default)]
+pub struct Reports(Vec<ToolReport>);
+
+impl Reports {
+    pub fn exit_code(&self) -> u8 {
+        if self.0.iter().any(ToolReport::should_close) {
+            2
+        } else {
+            u8::from(self.0.iter().any(ToolReport::has_nonpassing_checks))
+        }
+    }
+}
+
+impl Extend<ToolReport> for Reports {
+    fn extend<T: IntoIterator<Item = ToolReport>>(&mut self, iter: T) {
+        self.0.extend(iter);
+    }
+}
+
+impl FromIterator<ToolReport> for Reports {
+    fn from_iter<T: IntoIterator<Item = ToolReport>>(iter: T) -> Self {
+        Self(iter.into_iter().collect())
+    }
+}
+
 /// A Markdown comment; Askama derives its `Display` implementation.
 #[derive(Template)]
 #[template(path = "comment.md")]
@@ -82,22 +108,14 @@ pub struct Comment<'a> {
     should_close: bool,
 }
 
-impl<'a> From<&'a [ToolReport]> for Comment<'a> {
-    fn from(reports: &'a [ToolReport]) -> Self {
+impl<'a> From<&'a Reports> for Comment<'a> {
+    fn from(reports: &'a Reports) -> Self {
         Self {
             marker: COMMENT_MARKER,
-            reports,
-            any_failures: reports.iter().any(ToolReport::has_nonpassing_checks),
-            should_close: reports.iter().any(ToolReport::should_close),
+            reports: &reports.0,
+            any_failures: reports.0.iter().any(ToolReport::has_nonpassing_checks),
+            should_close: reports.0.iter().any(ToolReport::should_close),
         }
-    }
-}
-
-pub fn report_exit_code(reports: &[ToolReport]) -> u8 {
-    if reports.iter().any(ToolReport::should_close) {
-        2
-    } else {
-        u8::from(reports.iter().any(ToolReport::has_nonpassing_checks))
     }
 }
 
@@ -119,13 +137,45 @@ mod tests {
     }
 
     #[test]
+    fn collect_and_extend_preserve_input_order() {
+        let report = |name: &str| ToolReport {
+            name: name.into(),
+            ..passing_report()
+        };
+        let mut reports: Reports = [report("First"), report("Second")].into_iter().collect();
+        reports.extend([report("Third"), report("Fourth")]);
+        reports.extend([]);
+        let comment = Comment::from(&reports);
+        let names: Vec<_> = comment
+            .reports
+            .iter()
+            .map(|report| report.name.as_str())
+            .collect();
+        assert_eq!(names, ["First", "Second", "Third", "Fourth"]);
+        assert_eq!(reports.exit_code(), 0);
+    }
+
+    #[test]
+    fn empty_reports_have_no_failures() -> Result<()> {
+        for mut reports in [Reports::default(), std::iter::empty().collect()] {
+            reports.extend([]);
+            assert_eq!(reports.exit_code(), 0);
+            let comment = Comment::from(&reports);
+            assert!(comment.reports.is_empty());
+            assert!(!comment.any_failures);
+            assert!(!comment.should_close);
+            assert!(comment.render()?.contains("No new tool files detected"));
+        }
+        Ok(())
+    }
+
+    #[test]
     fn passing_tools_do_not_close_pr() -> Result<()> {
-        let reports = [passing_report()];
-        assert_eq!(report_exit_code(&reports), 0);
-        let comment = Comment::from(reports.as_slice()).render()?;
+        let reports: Reports = std::iter::once(passing_report()).collect();
+        assert_eq!(reports.exit_code(), 0);
+        let comment = Comment::from(&reports).render()?;
         assert!(comment.contains("All tool eligibility criteria passed"));
         assert!(!comment.contains("closing this pull request"));
-        assert_eq!(report_exit_code(&[]), 0);
         Ok(())
     }
 
@@ -140,9 +190,9 @@ mod tests {
             };
             *check = CheckResult::Fail("below minimum".into());
             assert_eq!(report.status(), "FAIL");
-            let reports = [passing_report(), report];
-            assert_eq!(report_exit_code(&reports), 2);
-            let comment = Comment::from(reports.as_slice()).render()?;
+            let reports: Reports = [passing_report(), report].into_iter().collect();
+            assert_eq!(reports.exit_code(), 2);
+            let comment = Comment::from(&reports).render()?;
             assert!(comment.contains("closing this pull request"));
             assert!(comment.contains("submit a new pull request once all criteria are met"));
         }
@@ -157,9 +207,9 @@ mod tests {
             report.contributors = CheckResult::Skip(reason.into());
             report.age = CheckResult::Skip(reason.into());
             assert_eq!(report.status(), "REVIEW");
-            let reports = [report];
-            assert_eq!(report_exit_code(&reports), 1);
-            let comment = Comment::from(reports.as_slice()).render()?;
+            let reports = Reports::from_iter([report]);
+            assert_eq!(reports.exit_code(), 1);
+            let comment = Comment::from(&reports).render()?;
             assert!(comment.contains("needs manual review"));
             assert!(!comment.contains("closing this pull request"));
         }
@@ -171,7 +221,7 @@ mod tests {
         let mut report = passing_report();
         report.stars = CheckResult::Skip("GitHub API unavailable".into());
         report.contributors = CheckResult::Fail("1 contributor".into());
-        assert_eq!(report_exit_code(&[report]), 2);
+        assert_eq!(Reports::from_iter([report]).exit_code(), 2);
     }
 
     #[test]
@@ -189,9 +239,9 @@ mod tests {
             report.age = age;
             assert!(!report.should_close());
             assert_eq!(report.status(), "REVIEW");
-            let reports = [report];
-            assert_eq!(report_exit_code(&reports), 1);
-            let comment = Comment::from(reports.as_slice()).render()?;
+            let reports = Reports::from_iter([report]);
+            assert_eq!(reports.exit_code(), 1);
+            let comment = Comment::from(&reports).render()?;
             assert!(comment.contains("Homepage domain age"));
             assert!(comment.contains("https://rdap.org/domain/battletest.dev"));
             assert!(!comment.contains("closing this pull request"));
@@ -201,7 +251,8 @@ mod tests {
     }
     #[test]
     fn render_comment_no_files() -> Result<()> {
-        let template = Comment::from([].as_slice());
+        let reports = Reports::from_iter([]);
+        let template = Comment::from(&reports);
         let comment = template.render()?;
         assert_eq!(template.to_string(), comment);
         assert!(comment.contains("No new tool files detected"));
@@ -210,7 +261,7 @@ mod tests {
 
     #[test]
     fn render_comment_contains_marker() -> Result<()> {
-        let comment = Comment::from([].as_slice()).render()?;
+        let comment = Comment::from(&Reports::from_iter([])).render()?;
         assert!(comment.contains(COMMENT_MARKER));
         Ok(())
     }
@@ -246,9 +297,9 @@ mod tests {
                             ("PASS", 0)
                         };
                         assert_eq!(report.status(), status);
-                        let reports = [passing_report(), report];
-                        assert_eq!(report_exit_code(&reports), exit);
-                        let template = Comment::from(reports.as_slice());
+                        let reports: Reports = [passing_report(), report].into_iter().collect();
+                        assert_eq!(reports.exit_code(), exit);
+                        let template = Comment::from(&reports);
                         let comment = template.render()?;
                         assert_eq!(template.to_string(), comment);
                         assert!(comment.starts_with(COMMENT_MARKER));

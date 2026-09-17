@@ -29,13 +29,14 @@ mod report;
 
 use anyhow::{Context, Result};
 use clap::Parser;
+use futures_util::{StreamExt, TryStreamExt, stream};
 use std::env;
 use std::path::PathBuf;
 use std::process::ExitCode;
 
 use input::{ToolEntry, ToolPath};
 use network::{GithubClient, check_tool};
-use report::{Comment, report_exit_code};
+use report::{Comment, Reports};
 
 #[derive(Debug, Parser)]
 #[command(version, about)]
@@ -60,19 +61,20 @@ async fn main() -> Result<ExitCode> {
 
     let client = GithubClient::new(token)?;
 
-    let mut reports = Vec::new();
-    for path in args
+    let paths = args
         .files
         .into_iter()
-        .filter_map(|path| ToolPath::try_from(path).ok())
-    {
-        let tool = ToolEntry::read(&path)?;
-        eprintln!("Checking '{}'...", tool.name);
-        let report = check_tool(&client, &tool).await?;
-        reports.push(report);
-    }
+        .filter_map(|path| ToolPath::try_from(path).ok());
+    let reports: Reports = stream::iter(paths)
+        .then(async |path| {
+            let tool = ToolEntry::read(&path)?;
+            eprintln!("Checking '{}'...", tool.name);
+            check_tool(&client, &tool).await
+        })
+        .try_collect()
+        .await?;
 
-    let comment = Comment::from(reports.as_slice());
+    let comment = Comment::from(&reports);
 
     if let Some(output_file) = env::var("COMMENT_OUTPUT_FILE")
         .ok()
@@ -89,7 +91,7 @@ async fn main() -> Result<ExitCode> {
         println!("{comment}");
     }
 
-    let exit_code = report_exit_code(&reports);
+    let exit_code = reports.exit_code();
     if exit_code != 0 {
         eprintln!(
             "One or more tools failed or require manual review of the contributing criteria."
