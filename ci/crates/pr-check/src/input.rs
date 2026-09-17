@@ -1,6 +1,7 @@
 //! Catalog input paths and tool loading.
 
 use anyhow::{Context, Result, ensure};
+use github_repo::ToolSource;
 use serde::Deserialize;
 use std::fmt;
 use std::path::{Component, PathBuf};
@@ -40,7 +41,7 @@ impl fmt::Display for ToolPath {
 #[derive(Debug, Deserialize)]
 pub struct ToolEntry {
     pub name: String,
-    pub source: Option<String>,
+    pub source: Option<ToolSource>,
     pub homepage: Option<String>,
 }
 
@@ -101,6 +102,30 @@ mod tests {
             }
         }
         assert!(count > 0);
+        Ok(())
+    }
+
+    #[test]
+    fn tool_sources_are_classified_during_deserialization() -> Result<()> {
+        let tool: ToolEntry =
+            serde_saphyr::from_str("name: Example\nsource: http://github.com/Owner/Repo///\n")?;
+        let Some(ToolSource::Github(repo)) = tool.source else {
+            anyhow::bail!("Expected a GitHub repository");
+        };
+        assert_eq!(repo.to_string(), "Owner/Repo");
+        assert_eq!(repo.as_str(), "http://github.com/Owner/Repo///");
+        for source in [
+            "https://gitlab.com/owner/repo",
+            "https://github.com/owner/repo/tree/main",
+            "",
+        ] {
+            let yaml = format!("name: Example\nsource: '{source}'\n");
+            let tool: ToolEntry = serde_saphyr::from_str(&yaml)?;
+            assert!(matches!(tool.source, Some(ToolSource::Other(ref value)) if value == source));
+        }
+        for yaml in ["name: Example\n", "name: Example\nsource: null\n"] {
+            assert!(serde_saphyr::from_str::<ToolEntry>(yaml)?.source.is_none());
+        }
         Ok(())
     }
 

@@ -2,7 +2,7 @@
 
 use anyhow::{Context, Result, bail};
 use chrono::{DateTime, Utc};
-use github_repo::GithubRepo;
+use github_repo::{GithubRepo, ToolSource};
 use serde::{Deserialize, de::DeserializeOwned};
 
 use crate::checks::{Check, DomainAge};
@@ -67,7 +67,7 @@ impl GithubClient {
     /// # Errors
     ///
     /// Returns an error if the API call fails.
-    async fn repo_info(&self, repo: GithubRepo<'_>) -> Result<Option<RepoInfo>> {
+    async fn repo_info(&self, repo: &GithubRepo) -> Result<Option<RepoInfo>> {
         let url = format!("https://api.github.com/repos/{repo}");
         self.get::<RepoInfo>(&url).await
     }
@@ -77,7 +77,7 @@ impl GithubClient {
     /// # Errors
     ///
     /// Returns an error if the API call fails.
-    async fn contributor_count(&self, repo: GithubRepo<'_>) -> Result<Option<usize>> {
+    async fn contributor_count(&self, repo: &GithubRepo) -> Result<Option<usize>> {
         let url = format!("https://api.github.com/repos/{repo}/contributors?per_page=100&anon=0");
         Ok(self
             .get::<Vec<Contributor>>(&url)
@@ -95,11 +95,7 @@ impl GithubClient {
 pub async fn check_tool(client: &GithubClient, tool: &ToolEntry) -> Result<ToolReport> {
     let source = &tool.source;
 
-    let repo = source
-        .as_deref()
-        .and_then(|url| GithubRepo::try_from(url).ok());
-
-    if let Some(repo) = repo {
+    if let Some(ToolSource::Github(repo)) = source {
         let repo_result = client.repo_info(repo).await;
         let contributors_result = client.contributor_count(repo).await;
 

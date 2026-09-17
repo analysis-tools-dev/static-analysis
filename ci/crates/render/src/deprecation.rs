@@ -1,6 +1,6 @@
 use anyhow::{Context, Result};
 use chrono::{DateTime, Local, NaiveDate, Utc};
-use github_repo::GithubRepo;
+use github_repo::{GithubRepo, ToolSource};
 use serde::Deserialize;
 
 use crate::types::Entry;
@@ -38,7 +38,7 @@ impl GithubClient {
         })
     }
 
-    async fn latest_commit_date(&self, repo: GithubRepo<'_>) -> Result<Option<DateTime<Utc>>> {
+    async fn latest_commit_date(&self, repo: &GithubRepo) -> Result<Option<DateTime<Utc>>> {
         let url = format!("https://api.github.com/repos/{repo}/commits?per_page=1");
         let response = self
             .client
@@ -93,11 +93,7 @@ pub async fn check_deprecated(token: &str, entries: &mut [Entry]) -> Result<()> 
     let client = GithubClient::new(token)?;
 
     for entry in entries {
-        let Some(repo) = entry
-            .source
-            .as_deref()
-            .and_then(|url| GithubRepo::try_from(url).ok())
-        else {
+        let Some(ToolSource::Github(repo)) = &entry.source else {
             continue;
         };
         let last_commit = match client.latest_commit_date(repo).await {

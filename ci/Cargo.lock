@@ -499,6 +499,9 @@ name = "github-repo"
 version = "0.1.0"
 dependencies = [
  "anyhow",
+ "serde",
+ "serde-saphyr",
+ "serde_json",
 ]
 
 [[package]]
