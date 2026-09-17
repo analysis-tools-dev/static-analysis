@@ -16,6 +16,9 @@
 - name: Ada
   value: ada
   type: language
+- name: Agent Skills
+  value: skill
+  type: other
 - name: AI-generated code
   value: ai-generated-code
   type: other
