@@ -52,9 +52,13 @@ async fn main() -> Result<ExitCode> {
         Ok(args) => args,
         Err(error) => {
             // Exit code 2 tells the workflow to close the PR, so CLI errors must use 1.
-            let code = u8::from(error.use_stderr());
+            let code = if error.use_stderr() {
+                ExitCode::FAILURE
+            } else {
+                ExitCode::SUCCESS
+            };
             error.print()?;
-            return Ok(ExitCode::from(code));
+            return Ok(code);
         }
     };
     let token = env::var("GITHUB_TOKEN").context("GITHUB_TOKEN not set")?;
@@ -92,13 +96,13 @@ async fn main() -> Result<ExitCode> {
     }
 
     let exit_code = reports.exit_code();
-    if exit_code != 0 {
+    if exit_code != ExitCode::SUCCESS {
         eprintln!(
             "One or more tools failed or require manual review of the contributing criteria."
         );
     }
 
-    Ok(ExitCode::from(exit_code))
+    Ok(exit_code)
 }
 
 #[cfg(test)]

@@ -1,6 +1,7 @@
 //! Report status, Markdown rendering, and workflow exit-code contract.
 
 use askama::Template;
+use std::process::ExitCode;
 
 // Identifies the report as output from the contribution checker.
 const COMMENT_MARKER: &str = "<!-- pr-check-bot -->";
@@ -77,11 +78,14 @@ impl ToolReport {
 pub struct Reports(Vec<ToolReport>);
 
 impl Reports {
-    pub fn exit_code(&self) -> u8 {
+    pub fn exit_code(&self) -> ExitCode {
         if self.0.iter().any(ToolReport::should_close) {
-            2
+            // The workflow reserves code 2 for verified failures that close the PR.
+            ExitCode::from(2)
+        } else if self.0.iter().any(ToolReport::has_nonpassing_checks) {
+            ExitCode::FAILURE
         } else {
-            u8::from(self.0.iter().any(ToolReport::has_nonpassing_checks))
+            ExitCode::SUCCESS
         }
     }
 }
@@ -152,14 +156,14 @@ mod tests {
             .map(|report| report.name.as_str())
             .collect();
         assert_eq!(names, ["First", "Second", "Third", "Fourth"]);
-        assert_eq!(reports.exit_code(), 0);
+        assert_eq!(reports.exit_code(), ExitCode::SUCCESS);
     }
 
     #[test]
     fn empty_reports_have_no_failures() -> Result<()> {
         for mut reports in [Reports::default(), std::iter::empty().collect()] {
             reports.extend([]);
-            assert_eq!(reports.exit_code(), 0);
+            assert_eq!(reports.exit_code(), ExitCode::SUCCESS);
             let comment = Comment::from(&reports);
             assert!(comment.reports.is_empty());
             assert!(!comment.any_failures);
@@ -172,7 +176,7 @@ mod tests {
     #[test]
     fn passing_tools_do_not_close_pr() -> Result<()> {
         let reports: Reports = std::iter::once(passing_report()).collect();
-        assert_eq!(reports.exit_code(), 0);
+        assert_eq!(reports.exit_code(), ExitCode::SUCCESS);
         let comment = Comment::from(&reports).render()?;
         assert!(comment.contains("All tool eligibility criteria passed"));
         assert!(!comment.contains("closing this pull request"));
@@ -191,7 +195,7 @@ mod tests {
             *check = CheckResult::Fail("below minimum".into());
             assert_eq!(report.status(), "FAIL");
             let reports: Reports = [passing_report(), report].into_iter().collect();
-            assert_eq!(reports.exit_code(), 2);
+            assert_eq!(reports.exit_code(), ExitCode::from(2));
             let comment = Comment::from(&reports).render()?;
             assert!(comment.contains("closing this pull request"));
             assert!(comment.contains("submit a new pull request once all criteria are met"));
@@ -208,7 +212,7 @@ mod tests {
             report.age = CheckResult::Skip(reason.into());
             assert_eq!(report.status(), "REVIEW");
             let reports = Reports::from_iter([report]);
-            assert_eq!(reports.exit_code(), 1);
+            assert_eq!(reports.exit_code(), ExitCode::FAILURE);
             let comment = Comment::from(&reports).render()?;
             assert!(comment.contains("needs manual review"));
             assert!(!comment.contains("closing this pull request"));
@@ -221,7 +225,7 @@ mod tests {
         let mut report = passing_report();
         report.stars = CheckResult::Skip("GitHub API unavailable".into());
         report.contributors = CheckResult::Fail("1 contributor".into());
-        assert_eq!(Reports::from_iter([report]).exit_code(), 2);
+        assert_eq!(Reports::from_iter([report]).exit_code(), ExitCode::from(2));
     }
 
     #[test]
@@ -240,7 +244,7 @@ mod tests {
             assert!(!report.should_close());
             assert_eq!(report.status(), "REVIEW");
             let reports = Reports::from_iter([report]);
-            assert_eq!(reports.exit_code(), 1);
+            assert_eq!(reports.exit_code(), ExitCode::FAILURE);
             let comment = Comment::from(&reports).render()?;
             assert!(comment.contains("Homepage domain age"));
             assert!(comment.contains("https://rdap.org/domain/battletest.dev"));
@@ -298,7 +302,7 @@ mod tests {
                         };
                         assert_eq!(report.status(), status);
                         let reports: Reports = [passing_report(), report].into_iter().collect();
-                        assert_eq!(reports.exit_code(), exit);
+                        assert_eq!(reports.exit_code(), ExitCode::from(exit));
                         let template = Comment::from(&reports);
                         let comment = template.render()?;
                         assert_eq!(template.to_string(), comment);
