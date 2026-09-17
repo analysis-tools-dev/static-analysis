@@ -34,7 +34,7 @@ use std::process::ExitCode;
 
 use criteria::ToolEntry;
 use network::{GithubClient, check_tool};
-use report::{render_comment, report_exit_code};
+use report::{Comment, report_exit_code};
 
 #[derive(Debug, Parser)]
 #[command(version, about)]
@@ -85,7 +85,7 @@ async fn main() -> Result<ExitCode> {
         reports.push(report);
     }
 
-    let comment_body = render_comment(&reports)?;
+    let comment = Comment::from(reports.as_slice());
 
     if let Some(output_file) = env::var("COMMENT_OUTPUT_FILE")
         .ok()
@@ -95,11 +95,11 @@ async fn main() -> Result<ExitCode> {
             std::fs::create_dir_all(parent)
                 .with_context(|| format!("Failed to create directory for {output_file}"))?;
         }
-        std::fs::write(&output_file, &comment_body)
+        std::fs::write(&output_file, comment.to_string())
             .with_context(|| format!("Failed to write comment to {output_file}"))?;
         eprintln!("Comment written to {output_file}");
     } else {
-        println!("{comment_body}");
+        println!("{comment}");
     }
 
     let exit_code = report_exit_code(&reports);

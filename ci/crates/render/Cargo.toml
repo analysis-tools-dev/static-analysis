@@ -19,6 +19,7 @@ anyhow.workspace = true
 askama.workspace = true
 chrono.workspace = true
 clap.workspace = true
+github-repo.workspace = true
 reqwest.workspace = true
 serde.workspace = true
 serde_json.workspace = true

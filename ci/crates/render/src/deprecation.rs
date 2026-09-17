@@ -1,5 +1,6 @@
 use anyhow::{Context, Result};
 use chrono::{DateTime, Local, NaiveDate, Utc};
+use github_repo::GithubRepo;
 use serde::Deserialize;
 
 use crate::types::Entry;
@@ -19,22 +20,12 @@ struct CommitAuthor {
     date: DateTime<Utc>,
 }
 
-fn github_coordinates(source: &str) -> Option<(&str, &str)> {
-    let path = source
-        .strip_prefix("https://github.com/")
-        .or_else(|| source.strip_prefix("http://github.com/"))?
-        .trim_end_matches('/');
-    let (owner, repo) = path.split_once('/')?;
-    (!owner.is_empty() && !repo.is_empty() && !repo.contains('/')).then_some((owner, repo))
-}
-
 async fn latest_commit_date(
     client: &reqwest::Client,
     token: &str,
-    owner: &str,
-    repo: &str,
+    repo: GithubRepo<'_>,
 ) -> Result<Option<DateTime<Utc>>> {
-    let url = format!("https://api.github.com/repos/{owner}/{repo}/commits?per_page=1");
+    let url = format!("https://api.github.com/repos/{repo}/commits?per_page=1");
     let response = client
         .get(url)
         .bearer_auth(token)
@@ -42,7 +33,7 @@ async fn latest_commit_date(
         .header("X-GitHub-Api-Version", "2022-11-28")
         .send()
         .await
-        .with_context(|| format!("Failed to fetch commits for {owner}/{repo}"))?;
+        .with_context(|| format!("Failed to fetch commits for {repo}"))?;
 
     if matches!(
         response.status(),
@@ -53,10 +44,10 @@ async fn latest_commit_date(
 
     let commits = response
         .error_for_status()
-        .with_context(|| format!("GitHub rejected the commits request for {owner}/{repo}"))?
+        .with_context(|| format!("GitHub rejected the commits request for {repo}"))?
         .json::<Vec<CommitResponse>>()
         .await
-        .with_context(|| format!("Invalid commits response for {owner}/{repo}"))?;
+        .with_context(|| format!("Invalid commits response for {repo}"))?;
 
     Ok(commits
         .into_iter()
@@ -90,14 +81,18 @@ pub async fn check_deprecated(token: &str, entries: &mut [Entry]) -> Result<()> 
         .context("Failed to build GitHub HTTP client")?;
 
     for entry in entries {
-        let Some((owner, repo)) = entry.source.as_deref().and_then(github_coordinates) else {
+        let Some(repo) = entry
+            .source
+            .as_deref()
+            .and_then(|url| GithubRepo::try_from(url).ok())
+        else {
             continue;
         };
-        let last_commit = match latest_commit_date(&client, token, owner, repo).await {
+        let last_commit = match latest_commit_date(&client, token, repo).await {
             Ok(Some(date)) => date,
             Ok(None) => continue,
             Err(error) => {
-                eprintln!("Could not check {owner}/{repo} for deprecation: {error:#}");
+                eprintln!("Could not check {repo} for deprecation: {error:#}");
                 continue;
             }
         };
@@ -111,26 +106,6 @@ pub async fn check_deprecated(token: &str, entries: &mut [Entry]) -> Result<()> 
 #[cfg(test)]
 mod tests {
     use super::*;
-
-    #[test]
-    fn parses_github_repository_urls() {
-        for source in [
-            "https://github.com/owner/repo",
-            "http://github.com/owner/repo/",
-            "https://github.com/owner/repo///",
-        ] {
-            assert_eq!(github_coordinates(source), Some(("owner", "repo")));
-        }
-        for source in [
-            "https://github.com/owner/repo/tree/main",
-            "https://gitlab.com/owner/repo",
-            "https://github.com//repo",
-            "https://github.com/owner/",
-            "https://github.com/owner",
-        ] {
-            assert_eq!(github_coordinates(source), None);
-        }
-    }
 
     #[test]
     fn parses_github_author_date_not_committer_date() -> Result<()> {

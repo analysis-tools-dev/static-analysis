@@ -1,6 +1,5 @@
 //! Report status, Markdown rendering, and workflow exit-code contract.
 
-use anyhow::{Context, Result};
 use askama::Template;
 
 // Identifies the report as output from the contribution checker.
@@ -73,30 +72,25 @@ impl ToolReport {
     }
 }
 
+/// A Markdown comment; Askama derives its `Display` implementation.
 #[derive(Template)]
 #[template(path = "comment.md")]
-struct CommentTemplate<'a> {
+pub struct Comment<'a> {
     marker: &'a str,
     reports: &'a [ToolReport],
     any_failures: bool,
     should_close: bool,
 }
 
-/// Renders all tool reports into a Markdown comment body.
-///
-/// # Errors
-///
-/// Returns an error if the template fails to render.
-pub fn render_comment(reports: &[ToolReport]) -> Result<String> {
-    let any_failures = reports.iter().any(ToolReport::has_nonpassing_checks);
-    CommentTemplate {
-        marker: COMMENT_MARKER,
-        reports,
-        any_failures,
-        should_close: reports.iter().any(ToolReport::should_close),
+impl<'a> From<&'a [ToolReport]> for Comment<'a> {
+    fn from(reports: &'a [ToolReport]) -> Self {
+        Self {
+            marker: COMMENT_MARKER,
+            reports,
+            any_failures: reports.iter().any(ToolReport::has_nonpassing_checks),
+            should_close: reports.iter().any(ToolReport::should_close),
+        }
     }
-    .render()
-    .context("Failed to render comment template")
 }
 
 pub fn report_exit_code(reports: &[ToolReport]) -> u8 {
@@ -110,6 +104,7 @@ pub fn report_exit_code(reports: &[ToolReport]) -> u8 {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use anyhow::Result;
 
     fn passing_report() -> ToolReport {
         ToolReport {
@@ -127,7 +122,7 @@ mod tests {
     fn passing_tools_do_not_close_pr() -> Result<()> {
         let reports = [passing_report()];
         assert_eq!(report_exit_code(&reports), 0);
-        let comment = render_comment(&reports)?;
+        let comment = Comment::from(reports.as_slice()).render()?;
         assert!(comment.contains("All tool eligibility criteria passed"));
         assert!(!comment.contains("closing this pull request"));
         assert_eq!(report_exit_code(&[]), 0);
@@ -147,7 +142,7 @@ mod tests {
             assert_eq!(report.status(), "FAIL");
             let reports = [passing_report(), report];
             assert_eq!(report_exit_code(&reports), 2);
-            let comment = render_comment(&reports)?;
+            let comment = Comment::from(reports.as_slice()).render()?;
             assert!(comment.contains("closing this pull request"));
             assert!(comment.contains("submit a new pull request once all criteria are met"));
         }
@@ -164,7 +159,7 @@ mod tests {
             assert_eq!(report.status(), "REVIEW");
             let reports = [report];
             assert_eq!(report_exit_code(&reports), 1);
-            let comment = render_comment(&reports)?;
+            let comment = Comment::from(reports.as_slice()).render()?;
             assert!(comment.contains("needs manual review"));
             assert!(!comment.contains("closing this pull request"));
         }
@@ -196,7 +191,7 @@ mod tests {
             assert_eq!(report.status(), "REVIEW");
             let reports = [report];
             assert_eq!(report_exit_code(&reports), 1);
-            let comment = render_comment(&reports)?;
+            let comment = Comment::from(reports.as_slice()).render()?;
             assert!(comment.contains("Homepage domain age"));
             assert!(comment.contains("https://rdap.org/domain/battletest.dev"));
             assert!(!comment.contains("closing this pull request"));
@@ -206,14 +201,16 @@ mod tests {
     }
     #[test]
     fn render_comment_no_files() -> Result<()> {
-        let comment = render_comment(&[])?;
+        let template = Comment::from([].as_slice());
+        let comment = template.render()?;
+        assert_eq!(template.to_string(), comment);
         assert!(comment.contains("No new tool files detected"));
         Ok(())
     }
 
     #[test]
     fn render_comment_contains_marker() -> Result<()> {
-        let comment = render_comment(&[])?;
+        let comment = Comment::from([].as_slice()).render()?;
         assert!(comment.contains(COMMENT_MARKER));
         Ok(())
     }
@@ -251,7 +248,9 @@ mod tests {
                         assert_eq!(report.status(), status);
                         let reports = [passing_report(), report];
                         assert_eq!(report_exit_code(&reports), exit);
-                        let comment = render_comment(&reports)?;
+                        let template = Comment::from(reports.as_slice());
+                        let comment = template.render()?;
+                        assert_eq!(template.to_string(), comment);
                         assert!(comment.starts_with(COMMENT_MARKER));
                         assert_eq!(comment.contains("closing this pull request"), close);
                         assert_eq!(comment.contains("needs manual review"), review && !close);
