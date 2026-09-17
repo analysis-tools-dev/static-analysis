@@ -1,10 +1,11 @@
 //! Contribution criteria and URL classification, independent of network access.
 
 use anyhow::{Context, Result, ensure};
-use chrono::{DateTime, Months, Utc};
+use chrono::{DateTime, Utc};
 use serde::Deserialize;
 
-use crate::report::{CheckResult, ToolReport};
+use crate::checks::{Check, Contributors, RepositoryAge, Stars};
+use crate::report::ToolReport;
 
 /// A minimal tool entry parsed from `data/tools/<name>.yml`.
 /// Only the fields needed for the contributing criteria check are required.
@@ -43,10 +44,6 @@ impl Contributor {
 // Use exact logins rather than broad patterns that could exclude human contributors.
 const AUTOMATION_LOGINS: &[&str] = &["claude", "dependabot", "renovate-bot"];
 
-const MIN_STARS: u64 = 20;
-const MIN_CONTRIBUTORS: usize = 2;
-const MIN_AGE_MONTHS: u32 = 6;
-
 /// A repository parsed from a GitHub HTTP(S) URL, borrowing its owner and name.
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub struct GithubRepo<'a> {
@@ -82,64 +79,22 @@ impl std::fmt::Display for GithubRepo<'_> {
 pub fn repository_report(
     tool: &ToolEntry,
     repo_result: &Result<Option<RepoInfo>>,
-    contributors_result: Result<Option<usize>>,
+    contributors_result: &Result<Option<usize>>,
     now: DateTime<Utc>,
 ) -> Result<ToolReport> {
-    let stars_check = match repo_result {
-        Ok(Some(info)) => {
-            let s = info.stargazers_count;
-            if s >= MIN_STARS {
-                CheckResult::Pass(format!("{s} stars"))
-            } else {
-                CheckResult::Fail(format!("{s} stars (minimum is {MIN_STARS})"))
-            }
-        }
-        Ok(None) => CheckResult::Skip("repository not found".into()),
-        Err(e) => CheckResult::Skip(format!("Could not fetch repo info: {e}")),
-    };
-
-    let age_check = match repo_result {
-        Ok(Some(info)) => {
-            let minimum_created_at = now
-                .checked_sub_months(Months::new(MIN_AGE_MONTHS))
-                .context("Current date cannot be shifted back by six months")?;
-            let days = now.signed_duration_since(info.created_at).num_days();
-
-            if info.created_at <= minimum_created_at {
-                CheckResult::Pass(format!("created {days} days ago (at least 6 months)"))
-            } else {
-                let eligible_at = info
-                    .created_at
-                    .checked_add_months(Months::new(MIN_AGE_MONTHS))
-                    .with_context(|| {
-                        format!(
-                            "Repository creation date {} cannot be shifted forward by {MIN_AGE_MONTHS} months",
-                            info.created_at
-                        )
-                    })?;
-                let remaining = eligible_at.signed_duration_since(now).num_days().max(1);
-                CheckResult::Fail(format!(
-                    "created {days} days ago, needs {remaining} more days to meet the 6-month minimum"
-                ))
-            }
-        }
-        Ok(None) => CheckResult::Skip("repository not found".into()),
-        Err(_) => CheckResult::Skip("Could not determine age (repo info unavailable)".into()),
-    };
-
-    let contributors_check = match contributors_result {
-        Ok(Some(count)) => {
-            if count >= MIN_CONTRIBUTORS {
-                CheckResult::Pass(format!("{count} human contributors"))
-            } else {
-                CheckResult::Fail(format!(
-                    "{count} human contributor(s) (minimum is {MIN_CONTRIBUTORS})"
-                ))
-            }
-        }
-        Ok(None) => CheckResult::Skip("repository not found".into()),
-        Err(e) => CheckResult::Skip(format!("Could not fetch contributors: {e}")),
-    };
+    let stars = Stars {
+        repository: repo_result,
+    }
+    .check()?;
+    let age = RepositoryAge {
+        repository: repo_result,
+        now,
+    }
+    .check()?;
+    let contributors = Contributors {
+        count: contributors_result,
+    }
+    .check()?;
 
     let repo_not_found = matches!(repo_result, Ok(None));
     let note = repo_not_found.then_some(
@@ -149,9 +104,9 @@ pub fn repository_report(
     Ok(ToolReport {
         name: tool.name.clone(),
         source: tool.source.clone(),
-        stars: stars_check,
-        contributors: contributors_check,
-        age: age_check,
+        stars,
+        contributors,
+        age,
         domain: None,
         note: note.map(str::to_owned),
     })
@@ -165,34 +120,6 @@ pub fn homepage_domain(homepage: &str) -> Option<String> {
     let domain = url.domain()?.trim_end_matches('.');
     // Do not fall back to parent domains: their age may belong to a hosting provider.
     Some(domain.strip_prefix("www.").unwrap_or(domain).to_owned())
-}
-
-pub fn domain_age_result(
-    domain: &str,
-    registered: DateTime<Utc>,
-    now: DateTime<Utc>,
-) -> CheckResult {
-    let Some(eligible) = registered.checked_add_months(Months::new(MIN_AGE_MONTHS)) else {
-        return CheckResult::Skip("Invalid domain registration date".into());
-    };
-    if registered > now {
-        return CheckResult::Skip(
-            "Domain registration date is in the future; manual review required".into(),
-        );
-    }
-    let message = format!(
-        "The homepage domain `{domain}` was registered on {} and reaches the six-month minimum on {}.",
-        registered.format("%B %-d, %Y"),
-        eligible.format("%B %-d, %Y")
-    );
-    if now < eligible {
-        CheckResult::Fail(message)
-    } else {
-        CheckResult::Pass(format!(
-            "Domain registered on {} (at least six months ago). Service age still requires manual review.",
-            registered.format("%B %-d, %Y")
-        ))
-    }
 }
 
 #[cfg(test)]
@@ -235,8 +162,8 @@ mod tests {
         let count =
             |accounts: &[Contributor]| accounts.iter().filter(|c| c.counts_as_human()).count();
         assert_eq!(count(&contributors[..4]), 1);
-        assert!(count(&contributors[..4]) < MIN_CONTRIBUTORS);
-        assert_eq!(count(&contributors), MIN_CONTRIBUTORS);
+        assert!(count(&contributors[..4]) < 2);
+        assert_eq!(count(&contributors), 2);
         Ok(())
     }
 
@@ -307,23 +234,6 @@ mod tests {
     }
 
     #[test]
-    fn domain_age_uses_six_calendar_months() -> Result<()> {
-        let registered = "2026-05-01T20:44:07Z".parse::<DateTime<Utc>>()?;
-        let before = "2026-11-01T20:44:06Z".parse::<DateTime<Utc>>()?;
-        let boundary = "2026-11-01T20:44:07Z".parse::<DateTime<Utc>>()?;
-        let result = domain_age_result("battletest.dev", registered, before);
-        assert!(result.is_fail());
-        assert!(result.message().contains("registered on May 1, 2026"));
-        assert!(result.message().contains("minimum on November 1, 2026"));
-        assert!(domain_age_result("battletest.dev", registered, boundary).is_pass());
-        assert!(matches!(
-            domain_age_result("battletest.dev", boundary, registered),
-            CheckResult::Skip(_)
-        ));
-        Ok(())
-    }
-
-    #[test]
     fn excludes_automation_even_when_github_reports_a_user() {
         for login in [
             "claude",
@@ -367,7 +277,7 @@ mod tests {
                             stargazers_count: stars,
                             created_at,
                         })),
-                        Ok(Some(contributors)),
+                        &Ok(Some(contributors)),
                         boundary + chrono::Duration::seconds(seconds),
                     )?;
                     assert_eq!(report.stars.is_pass(), stars >= 20);
@@ -400,7 +310,7 @@ mod tests {
                     stargazers_count: 20,
                     created_at: created.parse()?,
                 })),
-                Ok(Some(2)),
+                &Ok(Some(2)),
                 now,
             )?;
             assert_eq!(report.age.is_pass(), passes);
@@ -411,7 +321,7 @@ mod tests {
     #[test]
     fn missing_or_unavailable_metadata_is_not_a_verified_failure() -> Result<()> {
         let now = "2026-09-01T12:00:00Z".parse::<DateTime<Utc>>()?;
-        let missing = repository_report(&example_tool(), &Ok(None), Ok(None), now)?;
+        let missing = repository_report(&example_tool(), &Ok(None), &Ok(None), now)?;
         assert_eq!(missing.status(), "REVIEW");
         assert_eq!(missing.stars.message(), "repository not found");
         assert_eq!(missing.age.message(), "repository not found");
@@ -426,7 +336,7 @@ mod tests {
         let unavailable = repository_report(
             &example_tool(),
             &Err(anyhow::anyhow!("rate limited")),
-            Err(anyhow::anyhow!("connection failed")),
+            &Err(anyhow::anyhow!("connection failed")),
             now,
         )?;
         assert_eq!(unavailable.status(), "REVIEW");
@@ -447,7 +357,7 @@ mod tests {
         let verified = repository_report(
             &example_tool(),
             &Err(anyhow::anyhow!("rate limited")),
-            Ok(Some(1)),
+            &Ok(Some(1)),
             now,
         )?;
         assert_eq!(verified.status(), "FAIL");
@@ -468,7 +378,7 @@ mod tests {
                     stargazers_count: stars,
                     created_at: created.parse()?,
                 })),
-                Err(anyhow::anyhow!("API unavailable")),
+                &Err(anyhow::anyhow!("API unavailable")),
                 now,
             )?;
             assert_eq!(report.status(), expected);

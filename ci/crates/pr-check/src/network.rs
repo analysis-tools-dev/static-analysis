@@ -4,9 +4,9 @@ use anyhow::{Context, Result, bail};
 use chrono::{DateTime, Utc};
 use serde::{Deserialize, de::DeserializeOwned};
 
+use crate::checks::{Check, DomainAge};
 use crate::criteria::{
-    Contributor, GithubRepo, RepoInfo, ToolEntry, domain_age_result, homepage_domain,
-    repository_report,
+    Contributor, GithubRepo, RepoInfo, ToolEntry, homepage_domain, repository_report,
 };
 use crate::report::{CheckResult, ToolReport};
 
@@ -103,7 +103,7 @@ pub async fn check_tool(client: &GithubClient, tool: &ToolEntry) -> Result<ToolR
         let repo_result = client.repo_info(repo).await;
         let contributors_result = client.contributor_count(repo).await;
 
-        repository_report(tool, &repo_result, contributors_result, Utc::now())
+        repository_report(tool, &repo_result, &contributors_result, Utc::now())
     } else {
         let domain = if source.is_none() {
             tool.homepage.as_deref().and_then(homepage_domain)
@@ -111,7 +111,13 @@ pub async fn check_tool(client: &GithubClient, tool: &ToolEntry) -> Result<ToolR
             None
         };
         let age = if let Some(domain) = &domain {
-            check_domain_age(domain).await
+            let registration = fetch_domain_registration(domain).await;
+            DomainAge {
+                domain,
+                registration: &registration,
+                now: Utc::now(),
+            }
+            .check()?
         } else {
             CheckResult::Skip("No supported homepage domain or GitHub source URL".into())
         };
@@ -144,16 +150,6 @@ struct RdapDomain {
 struct RdapEvent {
     event_action: String,
     event_date: DateTime<Utc>,
-}
-
-async fn check_domain_age(domain: &str) -> CheckResult {
-    match fetch_domain_registration(domain).await {
-        Ok(Some(registered)) => domain_age_result(domain, registered, Utc::now()),
-        Ok(None) => {
-            CheckResult::Skip("Domain registration date unavailable; manual review required".into())
-        }
-        Err(error) => CheckResult::Skip(format!("Could not check domain registration: {error}")),
-    }
 }
 
 async fn fetch_domain_registration(domain: &str) -> Result<Option<DateTime<Utc>>> {

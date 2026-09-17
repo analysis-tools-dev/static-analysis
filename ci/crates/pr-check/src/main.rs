@@ -21,6 +21,7 @@
 //!   `GITHUB_TOKEN`        - a token for reading public repository metadata
 //!   `COMMENT_OUTPUT_FILE` - (optional) report output path; defaults to stdout
 
+mod checks;
 mod criteria;
 mod network;
 mod report;
