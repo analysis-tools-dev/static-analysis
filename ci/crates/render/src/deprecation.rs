@@ -20,39 +20,55 @@ struct CommitAuthor {
     date: DateTime<Utc>,
 }
 
-async fn latest_commit_date(
-    client: &reqwest::Client,
-    token: &str,
-    repo: GithubRepo<'_>,
-) -> Result<Option<DateTime<Utc>>> {
-    let url = format!("https://api.github.com/repos/{repo}/commits?per_page=1");
-    let response = client
-        .get(url)
-        .bearer_auth(token)
-        .header("Accept", "application/vnd.github+json")
-        .header("X-GitHub-Api-Version", "2022-11-28")
-        .send()
-        .await
-        .with_context(|| format!("Failed to fetch commits for {repo}"))?;
+struct GithubClient {
+    client: reqwest::Client,
+    token: String,
+}
 
-    if matches!(
-        response.status(),
-        reqwest::StatusCode::NOT_FOUND | reqwest::StatusCode::CONFLICT
-    ) {
-        return Ok(None);
+impl GithubClient {
+    fn new(token: &str) -> Result<Self> {
+        let client = reqwest::Client::builder()
+            .user_agent("analysis-tools-render/0.2")
+            .timeout(std::time::Duration::from_secs(30))
+            .build()
+            .context("Failed to build GitHub HTTP client")?;
+        Ok(Self {
+            client,
+            token: token.to_owned(),
+        })
     }
 
-    let commits = response
-        .error_for_status()
-        .with_context(|| format!("GitHub rejected the commits request for {repo}"))?
-        .json::<Vec<CommitResponse>>()
-        .await
-        .with_context(|| format!("Invalid commits response for {repo}"))?;
+    async fn latest_commit_date(&self, repo: GithubRepo<'_>) -> Result<Option<DateTime<Utc>>> {
+        let url = format!("https://api.github.com/repos/{repo}/commits?per_page=1");
+        let response = self
+            .client
+            .get(url)
+            .bearer_auth(&self.token)
+            .header("Accept", "application/vnd.github+json")
+            .header("X-GitHub-Api-Version", "2022-11-28")
+            .send()
+            .await
+            .with_context(|| format!("Failed to fetch commits for {repo}"))?;
 
-    Ok(commits
-        .into_iter()
-        .next()
-        .map(|commit| commit.commit.author.date))
+        if matches!(
+            response.status(),
+            reqwest::StatusCode::NOT_FOUND | reqwest::StatusCode::CONFLICT
+        ) {
+            return Ok(None);
+        }
+
+        let commits = response
+            .error_for_status()
+            .with_context(|| format!("GitHub rejected the commits request for {repo}"))?
+            .json::<Vec<CommitResponse>>()
+            .await
+            .with_context(|| format!("Invalid commits response for {repo}"))?;
+
+        Ok(commits
+            .into_iter()
+            .next()
+            .map(|commit| commit.commit.author.date))
+    }
 }
 
 fn deprecation_marker(today: NaiveDate, last_commit: DateTime<Utc>) -> Option<bool> {
@@ -74,11 +90,7 @@ fn deprecation_marker(today: NaiveDate, last_commit: DateTime<Utc>) -> Option<bo
 ///
 /// Returns an error when the HTTP client cannot be created.
 pub async fn check_deprecated(token: &str, entries: &mut [Entry]) -> Result<()> {
-    let client = reqwest::Client::builder()
-        .user_agent("analysis-tools-render/0.2")
-        .timeout(std::time::Duration::from_secs(30))
-        .build()
-        .context("Failed to build GitHub HTTP client")?;
+    let client = GithubClient::new(token)?;
 
     for entry in entries {
         let Some(repo) = entry
@@ -88,7 +100,7 @@ pub async fn check_deprecated(token: &str, entries: &mut [Entry]) -> Result<()> 
         else {
             continue;
         };
-        let last_commit = match latest_commit_date(&client, token, repo).await {
+        let last_commit = match client.latest_commit_date(repo).await {
             Ok(Some(date)) => date,
             Ok(None) => continue,
             Err(error) => {
