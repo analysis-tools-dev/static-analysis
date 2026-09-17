@@ -1,35 +1,39 @@
 # Static Analysis Tools Repository Makefile
 
-.PHONY: render render-skip-deprecated check clippy fmt test clean help
+.PHONY: render render-skip-deprecated check clippy fmt fmt-check test clean help
 
 # Default target shows help
 help:
 	@echo "Available targets:"
 	@echo "  render              - Render README.md and JSON API from YAML sources"
-	@echo "  render-skip-deprecated - Render without deprecated tools"
+	@echo "  render-skip-deprecated - Render using cached deprecation data (no GitHub requests)"
 	@echo "  check               - Run cargo check"
 	@echo "  clippy              - Run clippy lints"
 	@echo "  fmt                 - Format Rust code"
+	@echo "  fmt-check           - Check Rust formatting without changing files"
 	@echo "  test                - Run tests"
 	@echo "  clean               - Clean build artifacts"
 	@echo "  help                - Show this help"
 
 # Main rendering targets
 render:
-	cargo run --manifest-path ci/Cargo.toml -p render -- --tags data/tags.yml --tools data/tools --collections data/collections --md-out README.md --json-out data/api
+	cargo run --manifest-path ci/Cargo.toml --locked -p render -- --tags data/tags.yml --tools data/tools --collections data/collections --md-out README.md --json-out data/api
 
 render-skip-deprecated:
-	cargo run --manifest-path ci/Cargo.toml -p render -- --tags data/tags.yml --tools data/tools --collections data/collections --md-out README.md --json-out data/api --skip-deprecated
+	cargo run --manifest-path ci/Cargo.toml --locked -p render -- --tags data/tags.yml --tools data/tools --collections data/collections --md-out README.md --json-out data/api --skip-deprecated
 
 # Development targets
 check:
-	cargo check --manifest-path ci/Cargo.toml
+	cargo check --manifest-path ci/Cargo.toml --workspace --all-targets --locked
 
 clippy:
 	cargo clippy --manifest-path ci/Cargo.toml --workspace --all-targets --all-features --locked -- -D warnings
 
 fmt:
-	cargo fmt --manifest-path ci/Cargo.toml
+	cargo fmt --manifest-path ci/Cargo.toml --all
+
+fmt-check:
+	cargo fmt --manifest-path ci/Cargo.toml --all --check
 
 test:
 	cargo test --manifest-path ci/Cargo.toml --workspace --all-targets --all-features --locked

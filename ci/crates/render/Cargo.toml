@@ -1,0 +1,28 @@
+[package]
+name = "render"
+version = "0.2.0"
+authors = ["Matthias Endler <matthias-endler@gmx.net>"]
+edition.workspace = true
+rust-version.workspace = true
+description = "Static analysis tools catalog renderer"
+license.workspace = true
+repository.workspace = true
+keywords = ["static-analysis", "linting", "tools", "catalog"]
+categories = ["development-tools"]
+publish.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+anyhow.workspace = true
+askama.workspace = true
+chrono.workspace = true
+clap.workspace = true
+github-repo.workspace = true
+reqwest.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+serde-saphyr.workspace = true
+slug = "0.1.6"
+tokio.workspace = true
