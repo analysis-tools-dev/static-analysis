@@ -28,7 +28,7 @@ struct GithubClient {
 impl GithubClient {
     fn new(token: &str) -> Result<Self> {
         let client = reqwest::Client::builder()
-            .user_agent("analysis-tools-render/0.2")
+            .user_agent(concat!("analysis-tools-render/", env!("CARGO_PKG_VERSION")))
             .timeout(std::time::Duration::from_secs(30))
             .build()
             .context("Failed to build GitHub HTTP client")?;
