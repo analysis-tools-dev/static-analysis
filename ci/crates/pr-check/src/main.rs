@@ -30,9 +30,9 @@ mod report;
 use anyhow::{Context, Result};
 use clap::Parser;
 use futures_util::{StreamExt, TryStreamExt, stream};
-use std::env;
-use std::path::PathBuf;
+use std::path::{Path, PathBuf};
 use std::process::ExitCode;
+use std::{env, fs};
 
 use input::{ToolEntry, ToolPath};
 use network::{GithubClient, check_tool};
@@ -80,11 +80,11 @@ async fn main() -> Result<ExitCode> {
         .ok()
         .filter(|s| !s.is_empty())
     {
-        if let Some(parent) = std::path::Path::new(&output_file).parent() {
-            std::fs::create_dir_all(parent)
+        if let Some(parent) = Path::new(&output_file).parent() {
+            fs::create_dir_all(parent)
                 .with_context(|| format!("Failed to create directory for {output_file}"))?;
         }
-        std::fs::write(&output_file, comment.to_string())
+        fs::write(&output_file, comment.to_string())
             .with_context(|| format!("Failed to write comment to {output_file}"))?;
         eprintln!("Comment written to {output_file}");
     } else {
