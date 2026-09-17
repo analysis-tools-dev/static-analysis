@@ -38,7 +38,7 @@ jobs:
           REPO: ${{ github.repository }}
         run: |
           gh api "repos/$REPO/issues/$PR/comments" \
-            -f body="README.md was edited directly. Please edit tool entries in \`data/tools/\`, related collections in \`data/collections/\`, or text and structure in \`ci/render/templates/README.md\` instead. Leave the generated README.md out of your pull request." \
+            -f body="README.md was edited directly. Please edit tool entries in \`data/tools/\`, related collections in \`data/collections/\`, or text and structure in \`ci/crates/render/templates/README.md\` instead. Leave the generated README.md out of your pull request." \
             --silent
           echo "README.md must not be edited directly." >&2
           exit 1

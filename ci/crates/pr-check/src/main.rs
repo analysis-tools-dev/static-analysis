@@ -141,7 +141,7 @@ mod tests {
 
     #[test]
     fn parses_catalog() -> Result<()> {
-        let tools = Path::new(env!("CARGO_MANIFEST_DIR")).join("../../data/tools");
+        let tools = Path::new(env!("CARGO_MANIFEST_DIR")).join("../../../data/tools");
         let mut count = 0;
         for entry in std::fs::read_dir(tools)? {
             let path = entry?.path();

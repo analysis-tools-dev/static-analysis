@@ -1,6 +1,6 @@
 //! Contribution criteria and URL classification, independent of network access.
 
-use anyhow::{Context, Result};
+use anyhow::{Context, Result, ensure};
 use chrono::{DateTime, Months, Utc};
 use serde::Deserialize;
 
@@ -47,20 +47,35 @@ const MIN_STARS: u64 = 20;
 const MIN_CONTRIBUTORS: usize = 2;
 const MIN_AGE_MONTHS: u32 = 6;
 
-/// Parses `owner` and `repo` out of a GitHub URL like
-/// `https://github.com/owner/repo` or `https://github.com/owner/repo/`.
-/// Returns `None` for non-GitHub URLs or malformed paths.
-pub fn parse_github_repo(url: &str) -> Option<(&str, &str)> {
-    let url = url.trim_end_matches('/');
-    let without_scheme = url
-        .strip_prefix("https://github.com/")
-        .or_else(|| url.strip_prefix("http://github.com/"))?;
+/// A repository parsed from a GitHub HTTP(S) URL, borrowing its owner and name.
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+pub struct GithubRepo<'a> {
+    owner: &'a str,
+    name: &'a str,
+}
 
-    let (owner, repo) = without_scheme.split_once('/')?;
-    if owner.is_empty() || repo.is_empty() || repo.contains('/') {
-        return None;
+impl<'a> TryFrom<&'a str> for GithubRepo<'a> {
+    type Error = anyhow::Error;
+
+    fn try_from(url: &'a str) -> Result<Self> {
+        let url = url.trim_end_matches('/');
+        let path = url
+            .strip_prefix("https://github.com/")
+            .or_else(|| url.strip_prefix("http://github.com/"))
+            .context("Expected a GitHub HTTP(S) URL")?;
+        let (owner, name) = path.split_once('/').context("Expected owner/repository")?;
+        ensure!(
+            !owner.is_empty() && !name.is_empty() && !name.contains('/'),
+            "Expected a repository URL with no subpath"
+        );
+        Ok(Self { owner, name })
     }
-    Some((owner, repo))
+}
+
+impl std::fmt::Display for GithubRepo<'_> {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(f, "{}/{}", self.owner, self.name)
+    }
 }
 
 /// Evaluate fetched metadata without performing I/O; unavailable checks require review.
@@ -226,33 +241,45 @@ mod tests {
     }
 
     #[test]
-    fn parses_plain_github_url() {
-        let result = parse_github_repo("https://github.com/owner/repo");
-        assert_eq!(result, Some(("owner", "repo")));
+    fn parses_plain_github_url() -> Result<()> {
+        let repo = GithubRepo::try_from("https://github.com/owner/repo")?;
+        assert_eq!(
+            repo,
+            GithubRepo {
+                owner: "owner",
+                name: "repo"
+            }
+        );
+        assert_eq!(repo.to_string(), "owner/repo");
+        Ok(())
     }
 
     #[test]
-    fn parses_trailing_slash() {
-        let result = parse_github_repo("https://github.com/owner/repo/");
-        assert_eq!(result, Some(("owner", "repo")));
+    fn parses_trailing_slash() -> Result<()> {
+        let repo = GithubRepo::try_from("https://github.com/owner/repo/")?;
+        assert_eq!(
+            repo,
+            GithubRepo {
+                owner: "owner",
+                name: "repo"
+            }
+        );
+        Ok(())
     }
 
     #[test]
     fn rejects_subpath() {
-        let result = parse_github_repo("https://github.com/owner/repo/tree/main/subdir");
-        assert!(result.is_none());
+        assert!(GithubRepo::try_from("https://github.com/owner/repo/tree/main/subdir").is_err());
     }
 
     #[test]
     fn rejects_gitlab() {
-        let result = parse_github_repo("https://gitlab.com/owner/repo");
-        assert!(result.is_none());
+        assert!(GithubRepo::try_from("https://gitlab.com/owner/repo").is_err());
     }
 
     #[test]
     fn rejects_missing_repo() {
-        let result = parse_github_repo("https://github.com/owner");
-        assert!(result.is_none());
+        assert!(GithubRepo::try_from("https://github.com/owner").is_err());
     }
 
     #[test]
@@ -455,7 +482,13 @@ mod tests {
             "http://github.com/owner/repo",
             "https://github.com/owner/repo///",
         ] {
-            assert_eq!(parse_github_repo(url), Some(("owner", "repo")));
+            assert_eq!(
+                GithubRepo::try_from(url).ok(),
+                Some(GithubRepo {
+                    owner: "owner",
+                    name: "repo"
+                })
+            );
         }
         for url in [
             "https://github.com/",
@@ -465,7 +498,7 @@ mod tests {
             "https://github.com.evil/owner/repo",
             "git@github.com:owner/repo.git",
         ] {
-            assert_eq!(parse_github_repo(url), None, "{url}");
+            assert!(GithubRepo::try_from(url).is_err(), "{url}");
         }
     }
 }

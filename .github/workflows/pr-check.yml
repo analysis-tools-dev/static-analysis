@@ -114,7 +114,7 @@ jobs:
 
           ## [FAIL] Generated README changed
 
-          `README.md` is generated and should not be included in tool submissions. Please remove its changes from this PR and submit tool entries under `data/tools/` instead. For changes to the README text or structure, edit `ci/render/templates/README.md` rather than the generated file.
+          `README.md` is generated and should not be included in tool submissions. Please remove its changes from this PR and submit tool entries under `data/tools/` instead. For changes to the README text or structure, edit `ci/crates/render/templates/README.md` rather than the generated file.
 
           This check will remain failed until the `README.md` changes are removed. README changes alone do not automatically close the PR.
           EOF

@@ -214,7 +214,7 @@ mod tests {
 
     #[test]
     fn parses_catalog() -> Result<()> {
-        let data = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("../../data");
+        let data = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("../../../data");
         let tags: Tags = read_yaml(&data.join("tags.yml"))?;
         let tools: Vec<ParsedEntry> = read_entries(&data.join("tools"))?;
         let collections: Vec<Collection> = read_entries(&data.join("collections"))?;

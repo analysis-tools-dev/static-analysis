@@ -5,7 +5,7 @@ use chrono::{DateTime, Utc};
 use serde::{Deserialize, de::DeserializeOwned};
 
 use crate::criteria::{
-    Contributor, RepoInfo, ToolEntry, domain_age_result, homepage_domain, parse_github_repo,
+    Contributor, GithubRepo, RepoInfo, ToolEntry, domain_age_result, homepage_domain,
     repository_report,
 };
 use crate::report::{CheckResult, ToolReport};
@@ -67,8 +67,8 @@ impl GithubClient {
     /// # Errors
     ///
     /// Returns an error if the API call fails.
-    async fn repo_info(&self, owner: &str, repo: &str) -> Result<Option<RepoInfo>> {
-        let url = format!("https://api.github.com/repos/{owner}/{repo}");
+    async fn repo_info(&self, repo: GithubRepo<'_>) -> Result<Option<RepoInfo>> {
+        let url = format!("https://api.github.com/repos/{repo}");
         self.get::<RepoInfo>(&url).await
     }
 
@@ -77,9 +77,8 @@ impl GithubClient {
     /// # Errors
     ///
     /// Returns an error if the API call fails.
-    async fn contributor_count(&self, owner: &str, repo: &str) -> Result<Option<usize>> {
-        let url =
-            format!("https://api.github.com/repos/{owner}/{repo}/contributors?per_page=100&anon=0");
+    async fn contributor_count(&self, repo: GithubRepo<'_>) -> Result<Option<usize>> {
+        let url = format!("https://api.github.com/repos/{repo}/contributors?per_page=100&anon=0");
         Ok(self
             .get::<Vec<Contributor>>(&url)
             .await?
@@ -96,11 +95,13 @@ impl GithubClient {
 pub async fn check_tool(client: &GithubClient, tool: &ToolEntry) -> Result<ToolReport> {
     let source = &tool.source;
 
-    let gh_coords = source.as_deref().and_then(parse_github_repo);
+    let repo = source
+        .as_deref()
+        .and_then(|url| GithubRepo::try_from(url).ok());
 
-    if let Some((owner, repo)) = gh_coords {
-        let repo_result = client.repo_info(owner, repo).await;
-        let contributors_result = client.contributor_count(owner, repo).await;
+    if let Some(repo) = repo {
+        let repo_result = client.repo_info(repo).await;
+        let contributors_result = client.contributor_count(repo).await;
 
         repository_report(tool, &repo_result, contributors_result, Utc::now())
     } else {

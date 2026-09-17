@@ -37,7 +37,7 @@ provide evidence of that history. Missing registration data also requires review
 manually.** Leave generated `README.md` changes out of your pull request, even
 if you run `make render` locally. CI will flag them as a failure in the PR
 comment. For changes to the README text or structure, edit
-`ci/render/templates/README.md` instead.
+`ci/crates/render/templates/README.md` instead.
 
 To add a new tool, please create a file in the `data/tools` directory like
 `data/tools/<toolname>.yml`. Feel free to check out a few other YAML files in
