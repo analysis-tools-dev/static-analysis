@@ -10,9 +10,6 @@ mod validated;
 
 pub use deprecation::check_deprecated;
 
-#[cfg(test)]
-mod regression_tests;
-
 /// Groups normalized entries for the generated README.
 #[must_use]
 pub fn create_catalog(

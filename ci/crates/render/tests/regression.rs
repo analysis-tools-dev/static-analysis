@@ -2,8 +2,8 @@ use anyhow::{Context, Result};
 use serde_json::json;
 use std::collections::{BTreeMap, BTreeSet};
 
-use crate::types::{Catalog, Entry, ParsedEntry, Tag, ToolType, Type};
-use crate::{create_api, create_catalog, format_stats, stats};
+use render::types::{Catalog, Entry, ParsedEntry, Tag, ToolType, Type};
+use render::{create_api, create_catalog, format_stats, stats};
 
 fn tag(value: &str, kind: Type) -> Tag {
     Tag {
