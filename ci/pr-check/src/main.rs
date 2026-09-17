@@ -48,9 +48,23 @@ struct RepoInfo {
 /// One item from `GET /repos/{owner}/{repo}/contributors`.
 #[derive(Debug, Deserialize)]
 struct Contributor {
+    login: String,
     #[serde(rename = "type")]
     account_type: String,
 }
+
+impl Contributor {
+    fn counts_as_human(&self) -> bool {
+        let login = self.login.to_ascii_lowercase();
+        self.account_type.eq_ignore_ascii_case("User")
+            && !login.ends_with("[bot]")
+            && !AUTOMATION_LOGINS.contains(&login.as_str())
+    }
+}
+
+// Some automation accounts are reported as ordinary users by GitHub.
+// Use exact logins rather than broad patterns that could exclude human contributors.
+const AUTOMATION_LOGINS: &[&str] = &["claude", "dependabot", "renovate-bot"];
 
 const MIN_STARS: u64 = 20;
 const MIN_CONTRIBUTORS: usize = 2;
@@ -196,8 +210,7 @@ impl GithubClient {
         self.get::<RepoInfo>(&url).await
     }
 
-    /// Fetches the contributor list (up to 100, which is enough to confirm
-    /// whether there is more than one human contributor).
+    /// Counts human contributors among the first 100 GitHub contributor accounts.
     ///
     /// # Errors
     ///
@@ -208,11 +221,7 @@ impl GithubClient {
         let Some(contributors) = self.get::<Vec<Contributor>>(&url).await? else {
             return Ok(None);
         };
-        // Exclude bot accounts from the contributor count.
-        let human_count = contributors
-            .iter()
-            .filter(|c| c.account_type != "Bot")
-            .count();
+        let human_count = contributors.iter().filter(|c| c.counts_as_human()).count();
         Ok(Some(human_count))
     }
 }
@@ -308,10 +317,10 @@ async fn check_tool(client: &GithubClient, tool: &ToolEntry) -> Result<ToolRepor
         let contributors_check = match contributors_result {
             Ok(Some(count)) => {
                 if count >= MIN_CONTRIBUTORS {
-                    CheckResult::Pass(format!("{count} contributors"))
+                    CheckResult::Pass(format!("{count} human contributors"))
                 } else {
                     CheckResult::Fail(format!(
-                        "{count} contributor(s) (minimum is {MIN_CONTRIBUTORS})"
+                        "{count} human contributor(s) (minimum is {MIN_CONTRIBUTORS})"
                     ))
                 }
             }
@@ -530,6 +539,70 @@ async fn main() -> Result<()> {
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    #[test]
+    fn excludes_automation_even_when_github_reports_a_user() {
+        for login in [
+            "claude",
+            "Claude",
+            "dependabot",
+            "Dependabot",
+            "renovate-bot",
+            "RENOVATE-BOT",
+            "dependabot[bot]",
+            "github-actions[bot]",
+            "copilot[bot]",
+            "coderabbitai[bot]",
+            "some-new-app[BOT]",
+        ] {
+            let contributor = Contributor {
+                login: login.into(),
+                account_type: "User".into(),
+            };
+            assert!(!contributor.counts_as_human(), "{login}");
+        }
+    }
+
+    #[test]
+    fn excludes_non_user_account_types() {
+        for account_type in ["Bot", "bot", "Organization", "unknown"] {
+            let contributor = Contributor {
+                login: "otherwise-ordinary-name".into(),
+                account_type: account_type.into(),
+            };
+            assert!(!contributor.counts_as_human(), "{account_type}");
+        }
+    }
+
+    #[test]
+    fn keeps_humans_with_similar_names() {
+        for login in [
+            "alice",
+            "claude-smith",
+            "dependabot-maintainer",
+            "robotics-researcher",
+            "human-bot",
+        ] {
+            let contributor = Contributor {
+                login: login.into(),
+                account_type: "User".into(),
+            };
+            assert!(contributor.counts_as_human(), "{login}");
+        }
+    }
+
+    #[test]
+    fn human_and_automation_do_not_meet_contributor_minimum() -> Result<()> {
+        let contributors: Vec<Contributor> = serde_saphyr::from_str(
+            "- {login: alice, type: User}\n- {login: claude, type: User}\n- {login: 'dependabot[bot]', type: Bot}\n- {login: renovate-bot, type: User}\n- {login: bob, type: User}",
+        )?;
+        let count =
+            |accounts: &[Contributor]| accounts.iter().filter(|c| c.counts_as_human()).count();
+        assert_eq!(count(&contributors[..4]), 1);
+        assert!(count(&contributors[..4]) < MIN_CONTRIBUTORS);
+        assert_eq!(count(&contributors), MIN_CONTRIBUTORS);
+        Ok(())
+    }
 
     #[test]
     fn parses_catalog() -> Result<()> {

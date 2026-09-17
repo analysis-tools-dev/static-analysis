@@ -18,7 +18,7 @@ Source: {{ src }}
 | Criterion | Result |
 |---|---|
 | Stars (min 20) | {{ report.stars.symbol() }} {{ report.stars.message() }} |
-| Contributors (min 2) | {{ report.contributors.symbol() }} {{ report.contributors.message() }} |
+| Human contributors (min 2) | {{ report.contributors.symbol() }} {{ report.contributors.message() }} |
 {% if let Some(domain) = report.domain.as_ref() %}| Homepage domain age (min 6 months; [RDAP record](https://rdap.org/domain/{{ domain }})) | {{ report.age.symbol() }} {{ report.age.message() }} |
 {% else %}| Age (min 6 months) | {{ report.age.symbol() }} {{ report.age.message() }} |
 {% endif %}
