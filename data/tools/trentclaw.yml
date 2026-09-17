@@ -3,6 +3,7 @@ categories:
   - linter
 tags:
   - security
+  - skill
   - ci
 license: Apache License 2.0
 source: 'https://github.com/trnt-ai/trent-openclaw-security-assessment'
