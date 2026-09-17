@@ -43,10 +43,12 @@ To add a new tool, please create a file in the `data/tools` directory like
 `data/tools/<toolname>.yml`. Feel free to check out a few other YAML files in
 that directory to see how it should look like.
 
+- Use a nonblank tool name of at most **50 UTF-8 bytes** (non-ASCII characters
+  can take more than one byte).
 - Make each tool description as precise as possible.  Please limit the
   description to **500 characters**.
 - Add a license. If it's a proprietary tool, use `license: proprietary`.
-- Please add as many tags as possible. You can choose from the tags in
+- Add at least one tag, and include as many relevant tags as possible. Choose from
   `data/tags.yml`. If a tool does not match any existing tag, feel free to add a
   new tag but also add it to `data/tags.yml`.
 - For AI-related tools, add `ai-generated-code` if the tool analyzes

@@ -4,7 +4,7 @@ use serde::{Deserialize, Serialize, de::value::StrDeserializer};
 use std::cmp::Ordering;
 use std::collections::{BTreeMap, BTreeSet};
 
-use crate::lints;
+pub use crate::validated::{EntryName, EntryTags};
 
 #[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq, Hash, Ord, PartialOrd)]
 pub enum Type {
@@ -28,8 +28,6 @@ pub struct Tag {
 // The tags from tags.yml. This remains a `Vec<Tag>` rather than a
 // `BTreeSet<Tag>` so renders preserve the configured order.
 pub type Tags = Vec<Tag>;
-
-pub type EntryTags = BTreeSet<String>;
 
 #[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq)]
 pub struct Resource {
@@ -62,9 +60,9 @@ pub enum Category {
 
 #[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq)]
 pub struct ParsedEntry {
-    pub name: String,
+    pub name: EntryName,
     pub categories: BTreeSet<Category>,
-    pub tags: BTreeSet<String>,
+    pub tags: EntryTags,
     pub license: String,
     pub types: BTreeSet<String>,
     pub homepage: String,
@@ -94,9 +92,9 @@ pub enum ToolType {
 
 #[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq)]
 pub struct Entry {
-    pub name: String,
+    pub name: EntryName,
     pub categories: BTreeSet<Category>,
-    pub tags: BTreeSet<Tag>,
+    pub tags: EntryTags<Tag>,
     pub license: String,
     pub types: BTreeSet<ToolType>,
     pub homepage: String,
@@ -142,8 +140,6 @@ impl Entry {
     /// Returns an error when the entry fails validation or references an
     /// unknown tag or tool type.
     pub fn from_parsed(p: ParsedEntry, tags: &[Tag]) -> Result<Self> {
-        lints::validate(&p, tags)?;
-
         let mut entry_tags = BTreeSet::new();
         let mut tag_errors = Vec::new();
         for value in &p.tags {
@@ -170,7 +166,7 @@ impl Entry {
         Ok(Self {
             name: p.name,
             categories: p.categories,
-            tags: entry_tags,
+            tags: entry_tags.try_into()?,
             license: p.license,
             types,
             homepage: p.homepage,

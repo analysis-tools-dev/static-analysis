@@ -177,7 +177,7 @@ mod tests {
 
     #[test]
     fn cached_deprecation_never_overrides_explicit_markers() -> Result<()> {
-        let fixture = r#"{"name":"Example Tool","categories":[],"tags":[],"license":"MIT","types":[],"homepage":"https://example.com","description":"Example"}"#;
+        let fixture = r#"{"name":"Example Tool","categories":[],"tags":[{"name":"Rust","value":"rust","tag_type":"language"}],"license":"MIT","types":[],"homepage":"https://example.com","description":"Example"}"#;
         for cached_marker in [Some(true), Some(false), None] {
             let cached = BTreeMap::from([(
                 "example-tool".into(),

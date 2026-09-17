@@ -1,6 +1,6 @@
 use anyhow::{Context, Result};
 use serde_json::json;
-use std::collections::BTreeMap;
+use std::collections::{BTreeMap, BTreeSet};
 
 use crate::types::{Catalog, Entry, ParsedEntry, Tag, ToolType, Type};
 use crate::{create_api, create_catalog, format_stats, stats};
@@ -33,7 +33,7 @@ fn normalization_preserves_fields_and_uses_the_first_matching_tag() -> Result<()
     let mut duplicate = rust.clone();
     duplicate.name = "Different metadata".into();
     let normalized = Entry::from_parsed(original.clone(), &[rust.clone(), duplicate])?;
-    assert_eq!(normalized.tags, [rust].into());
+    assert_eq!(normalized.tags.iter().collect::<Vec<_>>(), [&rust]);
     assert_eq!(normalized.types, [ToolType::Commandline].into());
     let mut expected = serde_json::to_value(original)?;
     expected["tags"] = serde_json::to_value(&normalized.tags)?;
@@ -44,7 +44,8 @@ fn normalization_preserves_fields_and_uses_the_first_matching_tag() -> Result<()
 #[test]
 fn unknown_tags_are_reported_together_before_invalid_tool_types() -> Result<()> {
     let mut tool = parsed()?;
-    tool.tags = ["z-unknown".into(), "a-unknown".into(), "rust".into()].into();
+    tool.tags =
+        BTreeSet::from(["z-unknown".into(), "a-unknown".into(), "rust".into()]).try_into()?;
     tool.types = ["invalid".into()].into();
     let error = Entry::from_parsed(tool, &[tag("rust", Type::Language)])
         .err()
@@ -79,34 +80,69 @@ fn tool_type_deserialization_matches_the_previous_json_conversion() -> Result<()
 }
 
 #[test]
-fn validation_preserves_byte_length_limit_and_error_precedence() -> Result<()> {
-    let tags = [tag("rust", Type::Language)];
-    for name in ["a".repeat(50), "é".repeat(25), String::new()] {
-        let mut tool = parsed()?;
-        tool.name = name;
-        Entry::from_parsed(tool, &tags)?;
+fn parsed_and_normalized_deserialization_enforce_invariants() -> Result<()> {
+    let parsed = serde_json::to_value(parsed()?)?;
+    let normalized = serde_json::to_value(Entry::from_parsed(
+        serde_json::from_value(parsed.clone())?,
+        &[tag("rust", Type::Language)],
+    )?)?;
+    for (original, is_normalized) in [(parsed, false), (normalized, true)] {
+        let rejects = |value| {
+            if is_normalized {
+                serde_json::from_value::<Entry>(value).is_err()
+            } else {
+                serde_json::from_value::<ParsedEntry>(value).is_err()
+            }
+        };
+        for name in [
+            String::new(),
+            " \t\n\u{2003}".into(),
+            "a".repeat(51),
+            "é".repeat(26),
+        ] {
+            let mut invalid = original.clone();
+            invalid["name"] = json!(name);
+            assert!(rejects(invalid));
+        }
+        for name in ["a".repeat(50), "é".repeat(25), "  Astrée  ".into()] {
+            let mut valid = original.clone();
+            valid["name"] = json!(name);
+            let encoded = if is_normalized {
+                serde_json::to_value(serde_json::from_value::<Entry>(valid.clone())?)?
+            } else {
+                serde_json::to_value(serde_json::from_value::<ParsedEntry>(valid.clone())?)?
+            };
+            assert_eq!(encoded, valid);
+        }
+        let mut invalid = original.clone();
+        invalid["tags"] = json!([]);
+        assert!(rejects(invalid));
+        for field in ["name", "tags"] {
+            let mut invalid = original.clone();
+            invalid[field] = serde_json::Value::Null;
+            assert!(rejects(invalid));
+        }
     }
-    let mut tool = parsed()?;
-    tool.name = "é".repeat(26);
-    tool.tags.clear();
-    assert_eq!(
-        Entry::from_parsed(tool.clone(), &tags)
-            .err()
-            .context("Names over 50 bytes should be rejected")?
-            .to_string(),
-        format!(
-            "Name of entry may be at most 50 characters long, but {} is 52 long",
-            tool.name
-        )
-    );
-    tool.name = "Example Tool".into();
-    assert_eq!(
-        Entry::from_parsed(tool, &tags)
-            .err()
-            .context("Empty tags should be rejected")?
-            .to_string(),
-        "Example Tool must have at least one tag from `tags.yml`."
-    );
+    Ok(())
+}
+
+#[test]
+fn normalized_tags_deserialize_as_a_sorted_nonempty_set() -> Result<()> {
+    let rust = tag("rust", Type::Language);
+    let cpp = tag("cpp", Type::Language);
+    let entry = Entry::from_parsed(parsed()?, std::slice::from_ref(&rust))?;
+    let mut value = serde_json::to_value(entry)?;
+    value["tags"] = json!([rust, cpp, rust]);
+    let encoded = serde_json::to_string(&value)?;
+    for entry in [
+        serde_json::from_str::<Entry>(&encoded)?,
+        serde_saphyr::from_str::<Entry>(&encoded)?,
+    ] {
+        assert_eq!(entry.tags.iter().collect::<Vec<_>>(), [&cpp, &rust]);
+        assert_eq!(serde_json::to_value(entry.tags)?, json!([cpp, rust]));
+    }
+    value["tags"] = json!([]);
+    assert!(serde_saphyr::from_str::<Entry>(&serde_json::to_string(&value)?).is_err());
     Ok(())
 }
 
@@ -116,7 +152,7 @@ fn api_preserves_configured_tag_order_duplicates_and_all_fields() -> Result<()> 
     let python = tag("python", Type::Language);
     let security = tag("security", Type::Other);
     let mut raw = parsed()?;
-    raw.tags = ["rust".into(), "python".into(), "security".into()].into();
+    raw.tags = BTreeSet::from(["rust".into(), "python".into(), "security".into()]).try_into()?;
     raw.source = Some("https://github.com/owner/repo".into());
     raw.pricing = Some("https://example.com/pricing".into());
     raw.plans = Some(BTreeMap::from([("free".into(), true)]));
@@ -159,7 +195,7 @@ fn api_preserves_configured_tag_order_duplicates_and_all_fields() -> Result<()> 
 fn api_slug_collisions_keep_the_last_entry_and_missing_fields_stay_null() -> Result<()> {
     let tool = Entry::from_parsed(parsed()?, &[tag("rust", Type::Language)])?;
     let mut replacement = tool.clone();
-    replacement.name = "Example-Tool".into();
+    replacement.name = String::from("Example-Tool").try_into()?;
     let api = create_api(vec![tool, replacement], &[], &[]);
     assert_eq!(api.len(), 1);
     assert_eq!(api["example-tool"].name, "Example-Tool");
@@ -197,11 +233,17 @@ fn catalog_preserves_input_order_and_omits_empty_sections() -> Result<()> {
         inclusive.clone(),
     ];
     let mut raw = parsed()?;
-    raw.tags = ["rust".into(), "regular".into(), "inclusive".into()].into();
-    raw.name = "Z Single".into();
+    raw.tags = BTreeSet::from(["rust".into(), "regular".into(), "inclusive".into()]).try_into()?;
+    raw.name = String::from("Z Single").try_into()?;
     let single = Entry::from_parsed(raw.clone(), &tags)?;
-    raw.tags.insert("python".into());
-    raw.name = "A Multi".into();
+    raw.tags = raw
+        .tags
+        .iter()
+        .cloned()
+        .chain(["python".into()])
+        .collect::<BTreeSet<_>>()
+        .try_into()?;
+    raw.name = String::from("A Multi").try_into()?;
     let multi = Entry::from_parsed(raw, &tags)?;
     let tools = [single.clone(), multi.clone()];
     let catalog = create_catalog(

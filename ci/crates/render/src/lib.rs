@@ -4,9 +4,9 @@ use std::collections::BTreeMap;
 use types::{Api, ApiEntry, Catalog, Collection, Entry, Tag, Type};
 
 mod deprecation;
-mod lints;
 pub mod stats;
 pub mod types;
+mod validated;
 
 pub use deprecation::check_deprecated;
 
@@ -95,7 +95,7 @@ pub fn create_api(entries: Vec<Entry>, languages: &[Tag], other_tags: &[Tag]) ->
 
         let key = slugify(&entry.name);
         let api_entry = ApiEntry {
-            name: entry.name,
+            name: entry.name.into(),
             categories: entry.categories,
             languages: entry_languages,
             other: entry_other,
@@ -152,11 +152,11 @@ mod tests {
         }
     }
 
-    fn entry(tags: &[Tag]) -> Entry {
-        Entry {
-            name: "Multi Tool".into(),
+    fn entry(tags: &[Tag]) -> Result<Entry> {
+        Ok(Entry {
+            name: String::from("Multi Tool").try_into()?,
             categories: BTreeSet::new(),
-            tags: tags.iter().cloned().collect(),
+            tags: tags.iter().cloned().collect::<BTreeSet<_>>().try_into()?,
             license: "MIT".into(),
             types: BTreeSet::new(),
             homepage: "https://example.com".into(),
@@ -170,15 +170,16 @@ mod tests {
             reviews: None,
             demos: None,
             wrapper: None,
-        }
+        })
     }
 
     #[test]
     fn deprecated_tools_are_collapsed_in_every_section() -> Result<()> {
-        let mut active = entry(&[]);
-        active.name = "Active Tool".into();
-        let mut deprecated = entry(&[]);
-        deprecated.name = "Deprecated Tool".into();
+        let tags = [tag("Rust", "rust", Type::Language)];
+        let mut active = entry(&tags)?;
+        active.name = String::from("Active Tool").try_into()?;
+        let mut deprecated = entry(&tags)?;
+        deprecated.name = String::from("Deprecated Tool").try_into()?;
         deprecated.deprecated = Some(true);
         deprecated.license = "proprietary".into();
         deprecated.discussion = Some("https://example.com/discussion".into());
@@ -232,9 +233,10 @@ mod tests {
 
     #[test]
     fn no_empty_deprecated_sections_are_rendered() -> Result<()> {
-        let mut explicitly_active = entry(&[]);
+        let tags = [tag("Rust", "rust", Type::Language)];
+        let mut explicitly_active = entry(&tags)?;
         explicitly_active.deprecated = Some(false);
-        for tools in [vec![], vec![entry(&[])], vec![explicitly_active]] {
+        for tools in [vec![], vec![entry(&tags)?], vec![explicitly_active]] {
             let markdown = Catalog {
                 linters: BTreeMap::new(),
                 others: BTreeMap::new(),
@@ -249,7 +251,7 @@ mod tests {
 
     #[test]
     fn deprecated_only_sections_keep_their_entries() -> Result<()> {
-        let mut tool = entry(&[]);
+        let mut tool = entry(&[tag("Rust", "rust", Type::Language)])?;
         tool.deprecated = Some(true);
         let markdown = Catalog {
             linters: BTreeMap::new(),
@@ -283,12 +285,12 @@ mod tests {
     }
 
     #[test]
-    fn multi_language_tools_remain_visible_in_other_sections_and_api() {
+    fn multi_language_tools_remain_visible_in_other_sections_and_api() -> Result<()> {
         let python = tag("Python", "python", Type::Language);
         let rust = tag("Rust", "rust", Type::Language);
         let mut ai_generated = tag("AI-generated code", "ai-generated-code", Type::Other);
         ai_generated.include_multi = true;
-        let tool = entry(&[python.clone(), rust.clone(), ai_generated.clone()]);
+        let tool = entry(&[python.clone(), rust.clone(), ai_generated.clone()])?;
         let languages = [python, rust];
         let other_tags = [ai_generated.clone()];
 
@@ -303,14 +305,15 @@ mod tests {
         let api = create_api(vec![tool], &languages, &other_tags);
         assert_eq!(api["multi-tool"].languages, ["python", "rust"]);
         assert_eq!(api["multi-tool"].other, ["ai-generated-code"]);
+        Ok(())
     }
 
     #[test]
-    fn c_and_cpp_tools_stay_in_language_sections_when_they_have_other_tags() {
+    fn c_and_cpp_tools_stay_in_language_sections_when_they_have_other_tags() -> Result<()> {
         let c = tag("C", "c", Type::Language);
         let cpp = tag("C++", "cpp", Type::Language);
         let security = tag("Security/SAST", "security", Type::Other);
-        let tool = entry(&[c.clone(), cpp.clone(), security.clone()]);
+        let tool = entry(&[c.clone(), cpp.clone(), security.clone()])?;
 
         let catalog = create_catalog(
             std::slice::from_ref(&tool),
@@ -326,5 +329,6 @@ mod tests {
         assert_eq!(catalog.linters[&cpp][0], tool);
         assert_eq!(catalog.others[&security].len(), 1);
         assert_eq!(catalog.others[&security][0], tool);
+        Ok(())
     }
 }
