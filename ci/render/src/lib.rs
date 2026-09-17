@@ -10,7 +10,7 @@ pub mod stats;
 pub mod types;
 
 use std::collections::BTreeMap;
-use types::{Api, ApiEntry, Catalog, Entry, ParsedEntry, Tag, Type};
+use types::{Api, ApiEntry, Catalog, Collection, Entry, ParsedEntry, Tag, Type};
 
 fn valid(entry: &ParsedEntry, tags: &[Tag]) -> Result<()> {
     let lints = [lints::name, lints::min_one_tag];
@@ -113,7 +113,12 @@ pub async fn check_deprecated(token: &str, entries: &mut [Entry]) -> Result<()> 
 
 /// Groups normalized entries for the generated README.
 #[must_use]
-pub fn create_catalog(entries: &[Entry], languages: &[Tag], other_tags: &[Tag]) -> Catalog {
+pub fn create_catalog(
+    entries: &[Entry],
+    languages: &[Tag],
+    other_tags: &[Tag],
+    collections: Vec<Collection>,
+) -> Catalog {
     // Multi-language tools get their own primary section instead of being repeated under
     // every language. They still belong in applicable non-language tag sections.
     let (multi, single_language): (Vec<Entry>, Vec<Entry>) =
@@ -159,6 +164,7 @@ pub fn create_catalog(entries: &[Entry], languages: &[Tag], other_tags: &[Tag]) 
         linters,
         others,
         multi,
+        collections,
     }
 }
 
@@ -292,6 +298,7 @@ mod tests {
             linters: BTreeMap::from([(tag("Rust", "rust", Type::Language), tools.clone())]),
             others: BTreeMap::from([(tag("Security", "security", Type::Other), tools.clone())]),
             multi: tools,
+            collections: vec![],
         };
         let markdown = catalog.render()?;
 
@@ -343,6 +350,7 @@ mod tests {
                 linters: BTreeMap::new(),
                 others: BTreeMap::new(),
                 multi: tools,
+                collections: vec![],
             }
             .render()?;
             assert!(!markdown.contains("Show Deprecated"));
@@ -358,6 +366,7 @@ mod tests {
             linters: BTreeMap::new(),
             others: BTreeMap::new(),
             multi: vec![tool],
+            collections: vec![],
         }
         .render()?;
         assert_eq!(
@@ -427,7 +436,7 @@ mod tests {
         let languages = [python, rust];
         let other_tags = [ai_generated.clone()];
 
-        let catalog = create_catalog(std::slice::from_ref(&tool), &languages, &other_tags);
+        let catalog = create_catalog(std::slice::from_ref(&tool), &languages, &other_tags, vec![]);
 
         assert!(catalog.linters.is_empty());
         assert_eq!(catalog.multi.len(), 1);
@@ -451,6 +460,7 @@ mod tests {
             std::slice::from_ref(&tool),
             &[c.clone(), cpp.clone()],
             std::slice::from_ref(&security),
+            vec![],
         );
 
         assert!(catalog.multi.is_empty());

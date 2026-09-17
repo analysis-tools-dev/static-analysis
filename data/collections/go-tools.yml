@@ -1,0 +1,3 @@
+name: go-tools
+homepage: https://github.com/dominikh/go-tools
+description: A collection of tools and libraries for working with Go code, including linters and static analysis

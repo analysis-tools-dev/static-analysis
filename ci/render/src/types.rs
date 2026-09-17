@@ -212,12 +212,22 @@ impl Ord for Entry {
 
 pub type EntryMap = BTreeMap<Tag, Vec<Entry>>;
 
+/// A related collection listed separately from individual tools.
+#[derive(Debug, Serialize, Deserialize)]
+#[serde(deny_unknown_fields)]
+pub struct Collection {
+    pub name: String,
+    pub homepage: String,
+    pub description: String,
+}
+
 #[derive(Debug, Serialize, Deserialize, Template)]
 #[template(path = "README.md")]
 pub struct Catalog {
     pub linters: EntryMap,
     pub others: EntryMap,
     pub multi: Vec<Entry>,
+    pub collections: Vec<Collection>,
 }
 
 impl Catalog {

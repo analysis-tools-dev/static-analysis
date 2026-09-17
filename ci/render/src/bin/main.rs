@@ -1,8 +1,9 @@
 use anyhow::{Context, Result};
 use askama::Template;
 use pico_args::Arguments;
-use render::types::{Entry, ParsedEntry, Tag, Tags, Type};
+use render::types::{Collection, Entry, ParsedEntry, Tag, Tags, Type};
 use render::{check_deprecated, create_api, create_catalog};
+use serde::de::DeserializeOwned;
 use slug::slugify;
 use std::collections::BTreeMap;
 use std::env;
@@ -14,6 +15,7 @@ use std::path::PathBuf;
 struct Args {
     tags: PathBuf,
     tools: PathBuf,
+    collections: PathBuf,
     md_out: PathBuf,
     json_out: PathBuf,
     skip_deprecated: bool,
@@ -30,7 +32,7 @@ fn read_tags(path: PathBuf) -> Result<Tags> {
     Ok(serde_saphyr::from_reader(f)?)
 }
 
-fn read_tools(path: PathBuf) -> Result<Vec<ParsedEntry>> {
+fn read_entries<T: DeserializeOwned>(path: PathBuf) -> Result<Vec<T>> {
     let dir: std::fs::ReadDir = std::fs::read_dir(path)?;
 
     let files = dir
@@ -47,10 +49,11 @@ fn read_tools(path: PathBuf) -> Result<Vec<ParsedEntry>> {
         .inspect(|p| println!("Checking {}", p.display()))
         .map(|p| {
             let file = std::fs::File::open(p)?;
-            let entry: ParsedEntry = serde_saphyr::from_reader(file)?;
+            let entry = serde_saphyr::from_reader(file)
+                .with_context(|| format!("Cannot parse {}", p.display()))?;
             Ok(entry)
         })
-        .collect::<Result<Vec<ParsedEntry>, _>>()
+        .collect()
 }
 
 /// Backfills the deprecated field in the tools data from the old tools data.
@@ -81,6 +84,7 @@ async fn main() -> Result<()> {
     let args = Args {
         tags: args.value_from_os_str("--tags", parse_path)?,
         tools: args.value_from_os_str("--tools", parse_path)?,
+        collections: args.value_from_os_str("--collections", parse_path)?,
         md_out: args.value_from_os_str("--md-out", parse_path)?,
         json_out: args.value_from_os_str("--json-out", parse_path)?,
         skip_deprecated: args.contains("--skip-deprecated"),
@@ -88,7 +92,10 @@ async fn main() -> Result<()> {
 
     let tags = read_tags(args.tags)?;
 
-    let parsed_tools = read_tools(args.tools)?;
+    let mut collections: Vec<Collection> = read_entries(args.collections)?;
+    collections.sort_by_cached_key(|collection| collection.name.to_lowercase());
+
+    let parsed_tools: Vec<ParsedEntry> = read_entries(args.tools)?;
     let tools: Result<Vec<Entry>> = parsed_tools
         .into_iter()
         .map(|t| Entry::from_parsed(t, &tags))
@@ -119,7 +126,7 @@ async fn main() -> Result<()> {
 
     let other_tags: Vec<Tag> = tags.into_iter().filter(|t| t.kind == Type::Other).collect();
 
-    let catalog = create_catalog(&tools, &languages, &other_tags);
+    let catalog = create_catalog(&tools, &languages, &other_tags, collections);
     fs::write(&args.md_out, catalog.render()?).context(format!(
         "Cannot write Markdown output to {}",
         args.md_out.display()
@@ -168,7 +175,20 @@ mod tests {
     fn parses_catalog() -> Result<()> {
         let data = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("../../data");
         let tags = read_tags(data.join("tags.yml"))?;
-        let tools = read_tools(data.join("tools"))?;
+        let tools: Vec<ParsedEntry> = read_entries(data.join("tools"))?;
+        let collections: Vec<Collection> = read_entries(data.join("collections"))?;
+        assert!(!collections.is_empty());
+        let catalog = create_catalog(&[], &[], &[], collections);
+        let markdown = catalog.render()?;
+        for collection in &catalog.collections {
+            assert!(!collection.name.is_empty());
+            reqwest::Url::parse(&collection.homepage)?;
+            assert!(!collection.description.is_empty());
+            assert!(markdown.contains(&format!(
+                "- [{}]({}) — {}",
+                collection.name, collection.homepage, collection.description
+            )));
+        }
         assert!(!tags.is_empty());
         assert!(!tools.is_empty());
         for tool in tools {

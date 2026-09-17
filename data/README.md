@@ -1,6 +1,7 @@
 This folder contains the source data for the list.
 
 - `tools/` - one YAML file per tool
+- `collections/` - one YAML file per related collection in the README's “More collections” section
 - `tags.yml` - all valid tags that can be used in tool entries
 - `api/` - generated JSON output (do not edit manually)
 
