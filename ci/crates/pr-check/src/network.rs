@@ -6,7 +6,8 @@ use github_repo::GithubRepo;
 use serde::{Deserialize, de::DeserializeOwned};
 
 use crate::checks::{Check, DomainAge};
-use crate::criteria::{Contributor, RepoInfo, ToolEntry, homepage_domain, repository_report};
+use crate::criteria::{Contributor, RepoInfo, homepage_domain, repository_report};
+use crate::input::ToolEntry;
 use crate::report::{CheckResult, ToolReport};
 
 pub struct GithubClient {

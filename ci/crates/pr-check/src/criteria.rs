@@ -5,16 +5,8 @@ use chrono::{DateTime, Utc};
 use serde::Deserialize;
 
 use crate::checks::{Check, Contributors, RepositoryAge, Stars};
+use crate::input::ToolEntry;
 use crate::report::ToolReport;
-
-/// A minimal tool entry parsed from `data/tools/<name>.yml`.
-/// Only the fields needed for the contributing criteria check are required.
-#[derive(Debug, Deserialize)]
-pub struct ToolEntry {
-    pub name: String,
-    pub source: Option<String>,
-    pub homepage: Option<String>,
-}
 
 /// Response from `GET /repos/{owner}/{repo}`.
 #[derive(Debug, Deserialize)]
