@@ -1,27 +1,27 @@
-use anyhow::{Result, anyhow};
+use anyhow::{Result, ensure};
 
-use crate::types::ParsedEntry;
-use crate::types::Tag;
+use crate::types::{ParsedEntry, Tag};
+
+pub fn validate(entry: &ParsedEntry, tags: &[Tag]) -> Result<()> {
+    name(entry, tags)?;
+    min_one_tag(entry, tags)
+}
 
 pub fn name(entry: &ParsedEntry, _: &[Tag]) -> Result<()> {
-    if entry.name.len() <= 50 {
-        Ok(())
-    } else {
-        Err(anyhow!(
-            "Name of entry may be at most 50 characters long, but {} is {} long",
-            entry.name,
-            entry.name.len()
-        ))
-    }
+    ensure!(
+        entry.name.len() <= 50,
+        "Name of entry may be at most 50 characters long, but {} is {} long",
+        entry.name,
+        entry.name.len()
+    );
+    Ok(())
 }
 
 pub fn min_one_tag(entry: &ParsedEntry, _: &[Tag]) -> Result<()> {
-    if entry.tags.is_empty() {
-        Err(anyhow!(
-            "{} must have at least one tag from `tags.yml`.",
-            entry.name
-        ))
-    } else {
-        Ok(())
-    }
+    ensure!(
+        !entry.tags.is_empty(),
+        "{} must have at least one tag from `tags.yml`.",
+        entry.name
+    );
+    Ok(())
 }

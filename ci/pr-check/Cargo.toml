@@ -1,43 +1,22 @@
 [package]
 name = "pr-check"
 version = "0.1.0"
-edition = "2024"
+edition.workspace = true
 rust-version.workspace = true
 description = "Checks pull requests against contributing criteria"
-license = "MIT"
-repository = "https://github.com/analysis-tools-dev/static-analysis"
-publish = false
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
 
-[lints.clippy]
-correctness = { level = "deny", priority = -1 }
-style = { level = "warn", priority = -1 }
-complexity = { level = "warn", priority = -1 }
-perf = { level = "warn", priority = -1 }
-suspicious = { level = "warn", priority = -1 }
-cargo = { level = "warn", priority = -1 }
-pedantic = { level = "warn", priority = -1 }
-nursery = { level = "warn", priority = -1 }
-missing_errors_doc = "warn"
-missing_panics_doc = "warn"
-unwrap_used = "deny"
-expect_used = "warn"
-panic = "deny"
-unimplemented = "deny"
-unreachable = "deny"
-todo = "warn"
-dbg_macro = "warn"
-# TLS and target-support compatibility crates intentionally coexist.
-multiple_crate_versions = "allow"
-module_name_repetitions = "allow"
-similar_names = "allow"
-too_many_lines = "allow"
+[lints]
+workspace = true
 
 [dependencies]
-anyhow = { workspace = true }
-askama = { workspace = true }
-chrono = { workspace = true }
-pico-args = { workspace = true }
-serde = { workspace = true }
-serde-saphyr = { workspace = true }
-tokio = { workspace = true }
-reqwest = { workspace = true }
+anyhow.workspace = true
+askama.workspace = true
+chrono.workspace = true
+
+reqwest.workspace = true
+serde.workspace = true
+serde-saphyr.workspace = true
+tokio.workspace = true

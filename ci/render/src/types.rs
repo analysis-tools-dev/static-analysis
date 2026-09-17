@@ -1,10 +1,10 @@
 use anyhow::{Result, bail};
 use askama::Template;
-use serde::{Deserialize, Serialize};
+use serde::{Deserialize, Serialize, de::value::StrDeserializer};
 use std::cmp::Ordering;
 use std::collections::{BTreeMap, BTreeSet};
 
-use crate::valid;
+use crate::lints;
 
 #[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq, Hash, Ord, PartialOrd)]
 pub enum Type {
@@ -142,13 +142,17 @@ impl Entry {
     /// Returns an error when the entry fails validation or references an
     /// unknown tag or tool type.
     pub fn from_parsed(p: ParsedEntry, tags: &[Tag]) -> Result<Self> {
-        valid(&p, tags)?;
+        lints::validate(&p, tags)?;
 
-        let tag_results: Vec<Result<Tag>> = p.tags.iter().map(|t| get_tag(t, tags)).collect();
-        let tag_errors: Vec<String> = tag_results
-            .iter()
-            .filter_map(|r| r.as_ref().err().map(ToString::to_string))
-            .collect();
+        let mut entry_tags = BTreeSet::new();
+        let mut tag_errors = Vec::new();
+        for value in &p.tags {
+            if let Some(tag) = tags.iter().find(|tag| tag.value == *value) {
+                entry_tags.insert(tag.clone());
+            } else {
+                tag_errors.push(format!("Invalid tag: {value}"));
+            }
+        }
         if !tag_errors.is_empty() {
             bail!(
                 "Tool '{}': {}\n  File: data/tools/{}.yml",
@@ -157,23 +161,18 @@ impl Entry {
                 p.name.to_lowercase().replace(' ', "-")
             );
         }
-        let entry_tags: Result<BTreeSet<Tag>> = tag_results.into_iter().collect();
-
-        let types: Result<BTreeSet<ToolType>> = p
+        let types = p
             .types
             .iter()
-            .map(|t| {
-                let value = serde_json::to_value(t)?;
-                serde_json::from_value::<ToolType>(value).map_err(Into::into)
-            })
-            .collect();
+            .map(|value| ToolType::deserialize(StrDeserializer::<serde_json::Error>::new(value)))
+            .collect::<std::result::Result<_, _>>()?;
 
         Ok(Self {
             name: p.name,
             categories: p.categories,
-            tags: entry_tags?,
+            tags: entry_tags,
             license: p.license,
-            types: types?,
+            types,
             homepage: p.homepage,
             source: p.source,
             pricing: p.pricing,
@@ -187,15 +186,6 @@ impl Entry {
             wrapper: p.wrapper,
         })
     }
-}
-
-fn get_tag(t: &str, tags: &[Tag]) -> Result<Tag> {
-    for tag in tags {
-        if tag.value == t {
-            return Ok(tag.clone());
-        }
-    }
-    bail!("Invalid tag: {t}")
 }
 
 impl PartialOrd for Entry {
@@ -234,16 +224,16 @@ impl Catalog {
     /// Arranges a tag map into three visually balanced table columns.
     fn rows(map: &EntryMap) -> Vec<Vec<(&Tag, &Vec<Entry>)>> {
         let num_columns = 3;
-        let mut rows = Vec::new();
         let items: Vec<_> = map.iter().collect();
         let items_per_column = items.len().div_ceil(num_columns);
+        let mut rows = Vec::with_capacity(items_per_column);
 
         for i in 0..items_per_column {
-            let mut row = Vec::new();
+            let mut row = Vec::with_capacity(num_columns);
             for col in 0..num_columns {
                 let index = col * items_per_column + i;
-                if index < items.len() {
-                    row.push(items[index]);
+                if let Some(&item) = items.get(index) {
+                    row.push(item);
                 }
             }
             rows.push(row);
