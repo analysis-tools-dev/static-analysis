@@ -706,7 +706,7 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 
 - **diktat** :warning: — Strict coding standard for Kotlin and a linter that detects and auto-fixes code smells.
 
-- [ktfmt](https://facebook.github.io/ktfmt/) — A program that reformats Kotlin source code to comply with the common community standard for Kotlin code conventions.
+- [ktfmt](https://kotlin.github.io/ktfmt/) — A program that reformats Kotlin source code to comply with the common community standard for Kotlin code conventions.
 A ktfmt IntelliJ plugin is available from the plugin repository. To install it, go to your IDE's settings and select the Plugins category. Click the Marketplace tab, search for the ktfmt plugin, and click the Install button.
 
 - [ktlint](https://ktlint.github.io) — An anti-bikeshedding Kotlin linter with built-in formatter.
@@ -875,7 +875,7 @@ A ktfmt IntelliJ plugin is available from the plugin repository. To install it, 
 
 - **twig-lint** :warning: — twig-lint is a lint tool for your twig files.
 
-- [WAP](https://securityonline.info/owasp-wap-web-application-protection-project) — Tool to detect and correct input validation vulnerabilities in PHP (4.0 or higher) web applications and predicts false positives by combining static analysis and data mining.
+- [WAP](https://awap.sourceforge.net/) — Tool to detect and correct input validation vulnerabilities in PHP (4.0 or higher) web applications and predicts false positives by combining static analysis and data mining.
 
 
 <a id="plsql"></a>
@@ -1157,7 +1157,7 @@ It removes a feature of a dependency and then compiles the project to see if it 
 
 - [diff.rs](https://diff.rs) — Web application (WASM) to render a diff between Rust crate versions.
 
-- [dylint](https://www.trailofbits.com/post/write-rust-lints-without-forking-clippy) — A tool for running Rust lints from dynamic libraries. Dylint makes it easy for developers to maintain their own personal lint collections.
+- [dylint](https://blog.trailofbits.com/2021/11/09/write-rust-lints-without-forking-clippy/) — A tool for running Rust lints from dynamic libraries. Dylint makes it easy for developers to maintain their own personal lint collections.
 
 - **electrolysis** :warning: — A tool for formally verifying Rust programs by transpiling them into definitions in the Lean theorem prover.
 
@@ -1407,7 +1407,7 @@ It supports multiple languages and is designed to be extensible, allowing you to
 
 - [Codeac](https://www.codeac.io/?ref=awesome-static-analysis) :copyright: — Automated code review tool integrates with GitHub, Bitbucket and GitLab (even self-hosted). Available for JavaScript, TypeScript, Python, Ruby, Go, PHP, Java, Docker, and more. (open-source free)
 
-- [codeburner](https://groupon.github.io/codeburner) — Provides a unified interface to sort and act on the issues it finds.
+- **codeburner** :warning: — Provides a unified interface to sort and act on the issues it finds.
 
 - [CodeFactor](https://codefactor.io) :copyright: — Automated Code Analysis for repos on GitHub or BitBucket.
 
@@ -1425,7 +1425,7 @@ It supports multiple languages and is designed to be extensible, allowing you to
 
 - [CodeScene](https://codescene.com) :copyright: — CodeScene is a quality visualization tool for software. Prioritize technical debt, detect delivery risks, and measure organizational aspects. Fully automated.
 
-- [CodeSee](https://www.codesee.io/) :copyright: — CodeSee is mapping and automating your app's services, directories, file dependencies, and code changes. It's like Google Map, but for code.t
+- **CodeSee** :warning: :copyright: — Mapped application services, directories, file dependencies, and code changes. Acquired by GitKraken in May 2024; the standalone product website is no longer available.
 
 - [CodeSonar from GrammaTech](https://codesecure.com/our-products/codesonar/) :copyright: — Advanced, whole program, deep path, static analysis of C, C++, Java and C# with easy-to-understand explanations and code and path visualization.
 
@@ -1473,7 +1473,7 @@ It supports multiple languages and is designed to be extensible, allowing you to
 
 - [Find Security Bugs](https://find-sec-bugs.github.io) — The SpotBugs plugin for security audits of Java web applications and Android applications. (Also work with Kotlin, Groovy and Scala projects)
 
-- [Fortify](https://www.microfocus.com/en-us/cyberres/application-security/static-code-analyzer) :copyright: — A commercial static analysis platform that supports the scanning of C/C++, C#, VB.NET, VB6, ABAP/BSP, ActionScript, Apex, ASP.NET, Classic ASP, VB Script, Cobol, ColdFusion, HTML, Java, JS, JSP, MXML/Flex, Objective-C, PHP, PL/SQL, T-SQL, Python (2.6, 2.7), Ruby (1.9.3), Swift, Scala, VB, and XML.
+- [Fortify](https://www.opentext.com/products/static-application-security-testing) :copyright: — A commercial static analysis platform that supports the scanning of C/C++, C#, VB.NET, VB6, ABAP/BSP, ActionScript, Apex, ASP.NET, Classic ASP, VB Script, Cobol, ColdFusion, HTML, Java, JS, JSP, MXML/Flex, Objective-C, PHP, PL/SQL, T-SQL, Python (2.6, 2.7), Ruby (1.9.3), Swift, Scala, VB, and XML.
 
 - [Freeplane Code Explorer](https://docs.freeplane.org/user-documentation/Code_Explorer.html) — The Code Explorer mode in Freeplane is designed for analyzing the structure and dependencies  of code compiled to JVM class files.  It also allows displaying ArchUnit test results directly in Freeplane,  if Freeplane is running and ArchUnit detects rule violations during the tests.
 
@@ -1510,7 +1510,7 @@ It supports multiple languages and is designed to be extensible, allowing you to
 
 - [Klocwork](https://www.perforce.com/products/klocwork) :copyright: — Quality and Security Static analysis for C/C++, Java and C#.
 
-- [LangLint](https://github.com/HzaCode/Langlint) — Automated translation platform for code comments and docstrings across 20+ file types. Eliminates language barriers in international software collaboration. Supports 100+ language pairs with syntax protection. Integrates into CI/CD pipelines like Ruff. 10-20x faster with concurrent processing.
+- **LangLint** :warning: — Automated translation platform for code comments and docstrings across 20+ file types. Eliminates language barriers in international software collaboration. Supports 100+ language pairs with syntax protection. Integrates into CI/CD pipelines like Ruff. 10-20x faster with concurrent processing.
 
 - [LGTM](https://lgtm.com/) :copyright: — Find security vulnerabilities, variants, and critical code quality issues using CodeQL queries over source code. Automatic PR code review; free for open source. Formerly semmle. It supports public Git repositories hosted on Bitbucket Cloud, GitHub.com, GitLab.com.
 
@@ -1526,7 +1526,7 @@ It supports multiple languages and is designed to be extensible, allowing you to
 
 - [nestjs-doctor](https://github.com/RoloBits/nestjs-doctor) — Static analysis tool for NestJS applications. Detects anti-patterns across security, performance, correctness, and architecture with 30+ built-in rules. Outputs a 0-100 health score. Includes module graph visualization, endpoint dependency graphs, and database schema analysis. CLI and VS Code extension.
 
-- [Neurolint-CLI](https://neurolint.dev) — Deterministic code transformation tool using AST parsing and rule-based transformations. 
+- [Neurolint-CLI](https://github.com/Alcatecablee/Neurolint-CLI#readme) — Deterministic code transformation tool using AST parsing and rule-based transformations. 
 Automatically fixes 50+ issues including accessibility violations, hydration errors, 
 React 19/Next.js 16 migrations, and configuration updates. Features 5-step fail-safe 
 orchestration to ensure zero breaking changes. Specialized for React, Next.js, and TypeScript projects.
@@ -1541,6 +1541,8 @@ orchestration to ensure zero breaking changes. Specialized for React, Next.js, a
 - [OpenRewrite](https://docs.openrewrite.org/) — OpenRewrite [fixes common static analysis issues](https://docs.openrewrite.org/running-recipes/popular-recipe-guides/common-static-analysis-issue-remediation)  reported through Sonar and other tools using a Maven and Gradle plugin or the Moderne CLI.
 
 - [OpenStaticAnalyzer](https://github.com/sed-inf-u-szeged/OpenStaticAnalyzer) — OpenStaticAnalyzer is a source code analyzer tool, which can perform deep static analysis of the source code of complex systems.
+
+- [OpenTaint](https://opentaint.org) — Open-source taint analysis engine for Java and Kotlin applications, formerly Seqra. Tracks data flow across function boundaries to find security vulnerabilities, with Spring support, YAML rules, and CI integrations.
 
 - [oxc](https://github.com/web-infra-dev/oxc) — The Oxidation Compiler is creating a suite of high-performance tools for the JavaScript / TypeScript language re-written in Rust.
 
@@ -1600,8 +1602,6 @@ orchestration to ensure zero breaking changes. Specialized for React, Next.js, a
 
 - [Semgrep Supply Chain](https://semgrep.dev/products/semgrep-supply-chain) :copyright: — Quickly find and remediate high-priority security issues.  Semgrep Supply Chain prioritizes the 2% of vulnerabilities that are reachable from your code.
 
-- [Seqra](https://seqra.dev) — Security-focused static analyzer for Java and Kotlin web applications. Analyzes bytecode with Semgrep-style YAML rules and CodeQL-grade dataflow (with first-class Spring support) to find vulnerabilities that source-only scanners miss.
-
 - **ShiftLeft Scan** :warning: — Scan is a free open-source DevSecOps platform for detecting security issues in source code and dependencies. It supports a broad range of languages and CI/CD pipelines. Note: ShiftLeft rebranded to Qwiet AI in 2023, which was subsequently acquired by Harness in September 2025. This open-source project is no longer maintained.
 
 - **shipshape** :warning: — Static program analysis platform that allows custom analyzers to plug in through a common interface.
@@ -1628,7 +1628,7 @@ orchestration to ensure zero breaking changes. Specialized for React, Next.js, a
 
 - [sqlvet](https://github.com/houqp/sqlvet) — Performs static analysis on raw SQL queries in your Go code base to surface potential runtime errors. It checks for SQL syntax error, identifies unsafe queries that could potentially lead to SQL injections makes sure column count matches value count in INSERT statements and validates table- and column names.
 
-- [StaticReviewer](https://securityreviewer.atlassian.net/wiki/spaces/KC/pages/196633/Static+Reviewer) :copyright: — Static Reviewer executes code checks according to the most relevant Secure Coding Standards, OWASP, CWE, CVE, CVSS, MISRA, CERT, for 40+ programming languages, using 1000+ built-in validation rules for Security, Deadcode & Best Practices Available a module for Software Composition Analysis (SCA) to find vulnerabilities in open source and third party libraries.
+- [StaticReviewer](https://securityreviewer.net/kb/products) :copyright: — Static Reviewer executes code checks according to the most relevant Secure Coding Standards, OWASP, CWE, CVE, CVSS, MISRA, CERT, for 40+ programming languages, using 1000+ built-in validation rules for Security, Deadcode & Best Practices Available a module for Software Composition Analysis (SCA) to find vulnerabilities in open source and third party libraries.
 
 - [Super-Linter](https://github.com/github/super-linter) — Combination of multiple linters to install as a GitHub Action.
 
@@ -1841,7 +1841,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 - [checkov](https://www.checkov.io) — Static analysis tool for Terraform files (tf>=v0.12), preventing cloud misconfigs at build time.
 
-- [cookstyle](https://docs.chef.io/cookstyle.html) — Cookstyle is a linting tool based on the RuboCop Ruby linting tool for Chef cookbooks.
+- [cookstyle](https://docs.chef.io/workstation/cookstyle/) — Cookstyle is a linting tool based on the RuboCop Ruby linting tool for Chef cookbooks.
 
 - **foodcritic** :warning: — A lint tool that checks Chef cookbooks for common problems.
 

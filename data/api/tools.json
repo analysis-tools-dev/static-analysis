@@ -3522,12 +3522,12 @@
       "cli"
     ],
     "homepage": "https://groupon.github.io/codeburner",
-    "source": "https://github.com/groupon/codeburner",
+    "source": null,
     "pricing": null,
     "plans": null,
     "description": "Provides a unified interface to sort and act on the issues it finds.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -4093,19 +4093,19 @@
     ],
     "homepage": "https://www.codesee.io/",
     "source": null,
-    "pricing": "https://www.codesee.io/pricing",
-    "plans": {
-      "free": true,
-      "oss": false
-    },
-    "description": "CodeSee is mapping and automating your app's services, directories, file dependencies, and code changes. It's like Google Map, but for code.t",
+    "pricing": null,
+    "plans": null,
+    "description": "Mapped application services, directories, file dependencies, and code changes. Acquired by GitKraken in May 2024; the standalone product website is no longer available.",
     "discussion": null,
-    "deprecated": null,
-    "resources": null,
-    "reviews": null,
-    "demos": [
-      "https://www.codesee.io/maps-demos"
+    "deprecated": true,
+    "resources": [
+      {
+        "title": "GitKraken acquires CodeSee",
+        "url": "https://gitkraken.com/press/gitkraken-acquires-codesee-launches-devex-platform"
+      }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "codesonar-from-grammatech": {
@@ -4478,7 +4478,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://docs.chef.io/cookstyle.html",
+    "homepage": "https://docs.chef.io/workstation/cookstyle/",
     "source": "https://github.com/chef/cookstyle",
     "pricing": null,
     "plans": null,
@@ -6546,7 +6546,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://www.trailofbits.com/post/write-rust-lints-without-forking-clippy",
+    "homepage": "https://blog.trailofbits.com/2021/11/09/write-rust-lints-without-forking-clippy/",
     "source": "https://github.com/trailofbits/dylint",
     "pricing": null,
     "plans": null,
@@ -8011,7 +8011,7 @@
     "types": [
       "ide-plugin"
     ],
-    "homepage": "https://www.microfocus.com/en-us/cyberres/application-security/static-code-analyzer",
+    "homepage": "https://www.opentext.com/products/static-application-security-testing",
     "source": null,
     "pricing": "https://www.opentext.com/products/fortify-on-demand/trial",
     "plans": {
@@ -11130,8 +11130,8 @@
       "cli",
       "ide-plugin"
     ],
-    "homepage": "https://facebook.github.io/ktfmt/",
-    "source": "https://github.com/facebook/ktfmt",
+    "homepage": "https://kotlin.github.io/ktfmt/",
+    "source": "https://github.com/Kotlin/ktfmt",
     "pricing": null,
     "plans": null,
     "description": "A program that reformats Kotlin source code to comply with the common community standard for Kotlin code conventions.\nA ktfmt IntelliJ plugin is available from the plugin repository. To install it, go to your IDE's settings and select the Plugins category. Click the Marketplace tab, search for the ktfmt plugin, and click the Install button.",
@@ -11428,12 +11428,12 @@
       "cli"
     ],
     "homepage": "https://github.com/HzaCode/Langlint",
-    "source": "https://github.com/HzaCode/Langlint",
+    "source": null,
     "pricing": null,
     "plans": null,
     "description": "Automated translation platform for code comments and docstrings across 20+ file types. Eliminates language barriers in international software collaboration. Supports 100+ language pairs with syntax protection. Integrates into CI/CD pipelines like Ruff. 10-20x faster with concurrent processing.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -13199,7 +13199,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://neurolint.dev",
+    "homepage": "https://github.com/Alcatecablee/Neurolint-CLI#readme",
     "source": "https://github.com/Alcatecablee/Neurolint-CLI",
     "pricing": null,
     "plans": null,
@@ -13209,7 +13209,7 @@
     "resources": [
       {
         "title": "CLI Documentation",
-        "url": "https://neurolint.dev"
+        "url": "https://github.com/Alcatecablee/Neurolint-CLI/blob/main/CLI_USAGE.md"
       },
       {
         "title": "GitHub Marketplace Action",
@@ -13622,6 +13622,44 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "opentaint": {
+    "name": "OpenTaint",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "java",
+      "kotlin"
+    ],
+    "other": [
+      "ci",
+      "security",
+      "spring",
+      "yaml"
+    ],
+    "licenses": [
+      "Apache 2.0 / MIT"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://opentaint.org",
+    "source": "https://github.com/seqra/opentaint",
+    "pricing": null,
+    "plans": null,
+    "description": "Open-source taint analysis engine for Java and Kotlin applications, formerly Seqra. Tracks data flow across function boundaries to find security vulnerabilities, with Spring support, YAML rules, and CI integrations.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "OpenTaint documentation",
+        "url": "https://github.com/seqra/opentaint/blob/main/docs/README.md"
+      }
+    ],
     "reviews": null,
     "demos": null,
     "wrapper": null
@@ -18743,44 +18781,6 @@
     "demos": null,
     "wrapper": null
   },
-  "seqra": {
-    "name": "Seqra",
-    "categories": [
-      "linter"
-    ],
-    "languages": [
-      "java",
-      "kotlin"
-    ],
-    "other": [
-      "ci",
-      "security",
-      "spring",
-      "yaml"
-    ],
-    "licenses": [
-      "MIT"
-    ],
-    "types": [
-      "cli"
-    ],
-    "homepage": "https://seqra.dev",
-    "source": "https://github.com/seqra/seqra",
-    "pricing": null,
-    "plans": null,
-    "description": "Security-focused static analyzer for Java and Kotlin web applications. Analyzes bytecode with Semgrep-style YAML rules and CodeQL-grade dataflow (with first-class Spring support) to find vulnerabilities that source-only scanners miss.",
-    "discussion": null,
-    "deprecated": null,
-    "resources": [
-      {
-        "title": "Static Analysis Showdown: How Semgrep, CodeQL, and Seqra Handle XSS Detection",
-        "url": "https://seqra.dev/blog/semgrep-vs-codeql-vs-seqra"
-      }
-    ],
-    "reviews": null,
-    "demos": null,
-    "wrapper": null
-  },
   "sh": {
     "name": "sh",
     "categories": [
@@ -20290,7 +20290,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://securityreviewer.atlassian.net/wiki/spaces/KC/pages/196633/Static+Reviewer",
+    "homepage": "https://securityreviewer.net/kb/products",
     "source": null,
     "pricing": null,
     "plans": null,
@@ -22885,8 +22885,8 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://securityonline.info/owasp-wap-web-application-protection-project",
-    "source": "https://awap.sourceforge.io",
+    "homepage": "https://awap.sourceforge.net/",
+    "source": "https://awap.sourceforge.net/",
     "pricing": null,
     "plans": null,
     "description": "Tool to detect and correct input validation vulnerabilities in PHP (4.0 or higher) web applications and predicts false positives by combining static analysis and data mining.",
