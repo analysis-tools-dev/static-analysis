@@ -88,17 +88,13 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <a id="{{ language.value }}"></a>
 <h2>{{ language.name }}</h2>
 
-{% for linter in linters %}
-- {% if linter.is_deprecated() %}**{{ linter.name }}**{% else %}[{{ linter.name }}]({{ linter.homepage }}){% endif %}{% if linter.discussion.is_some() %} [:information_source:](<{{ linter.discussion.as_ref().unwrap() }}>){% endif %}{% if linter.is_deprecated() %} :warning:{% endif %}{% if linter.is_proprietary() %} :copyright:{% endif %} — {{ linter.description }}
-{% endfor %}
+{% call tool_list(linters) %}{% endcall %}
 
 {%- endfor %}
 
 ## Multiple languages
 
-{% for linter in multi %}
-- {% if linter.is_deprecated() %}**{{ linter.name }}**{% else %}[{{ linter.name }}]({{ linter.homepage }}){% endif %}{% if linter.discussion.is_some() %} [:information_source:](<{{ linter.discussion.as_ref().unwrap() }}>){% endif %}{% if linter.is_deprecated() %} :warning:{% endif %}{% if linter.is_proprietary() %} :copyright:{% endif %} — {{ linter.description }}
-{% endfor %}
+{% call tool_list(multi) %}{% endcall %}
 
 ## Other
 
@@ -107,9 +103,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 <a id="{{ tag.value }}"></a>
 <h2>{{ tag.name }}</h2>
 
-{% for other in others %}
-- {% if other.is_deprecated() %}**{{ other.name }}**{% else %}[{{ other.name }}]({{ other.homepage }}){% endif %}{% if other.discussion.is_some() %} [:information_source:](<{{ other.discussion.as_ref().unwrap() }}>){% endif %}{% if other.is_deprecated() %} :warning:{% endif %}{% if other.is_proprietary() %} :copyright:{% endif %} — {{ other.description }}
-{% endfor %}
+{% call tool_list(others) %}{% endcall %}
 
 {%- endfor %}
 
@@ -133,3 +127,19 @@ The underlying source code used to format and display that content is licensed u
 
 
 Title image [Designed by Freepik](https://www.freepik.com).
+
+{% macro tool_list(entries) -%}
+{% for tool in entries if !tool.is_deprecated() %}
+- [{{ tool.name }}]({{ tool.homepage }}){% if let Some(discussion) = tool.discussion %} [:information_source:](<{{ discussion }}>){% endif %}{% if tool.is_proprietary() %} :copyright:{% endif %} — {{ tool.description }}
+{% endfor %}
+{% for tool in entries if tool.is_deprecated() %}
+{% if loop.first %}
+<details>
+<summary>Show Deprecated</summary>
+{% endif %}
+- **{{ tool.name }}**{% if let Some(discussion) = tool.discussion %} [:information_source:](<{{ discussion }}>){% endif %} :warning:{% if tool.is_proprietary() %} :copyright:{% endif %} — {{ tool.description }}
+{% if loop.last %}
+</details>
+{% endif %}
+{% endfor %}
+{%- endmacro %}
