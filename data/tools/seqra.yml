@@ -1,4 +1,4 @@
-name: Seqra
+name: OpenTaint
 categories:
   - linter
 tags:
@@ -8,16 +8,15 @@ tags:
   - kotlin
   - ci
   - yaml
-license: MIT
+license: Apache 2.0 / MIT
 types:
   - cli
-source: 'https://github.com/seqra/seqra'
-homepage: 'https://seqra.dev'
+source: 'https://github.com/seqra/opentaint'
+homepage: 'https://opentaint.org'
 resources:
-  - title: 'Static Analysis Showdown: How Semgrep, CodeQL, and Seqra Handle XSS Detection'
-    url: https://seqra.dev/blog/semgrep-vs-codeql-vs-seqra
+  - title: OpenTaint documentation
+    url: https://github.com/seqra/opentaint/blob/main/docs/README.md
 description: >-
-  Security-focused static analyzer for Java and Kotlin web applications.
-  Analyzes bytecode with Semgrep-style YAML rules and CodeQL-grade dataflow
-  (with first-class Spring support) to find vulnerabilities
-  that source-only scanners miss.
+  Open-source taint analysis engine for Java and Kotlin applications, formerly
+  Seqra. Tracks data flow across function boundaries to find security
+  vulnerabilities, with Spring support, YAML rules, and CI integrations.

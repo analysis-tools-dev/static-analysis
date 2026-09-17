@@ -40,7 +40,7 @@ license: proprietary
 types:
   - cli
 homepage: >-
-  https://securityreviewer.atlassian.net/wiki/spaces/KC/pages/196633/Static+Reviewer
+  https://securityreviewer.net/kb/products
 description: >-
   Static Reviewer executes code checks according to the most relevant Secure Coding Standards, OWASP, CWE, CVE, CVSS, MISRA, CERT,
   for 40+ programming languages, using 1000+ built-in validation rules for Security, Deadcode & Best Practices
