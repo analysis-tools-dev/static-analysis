@@ -16,8 +16,8 @@ tags:
 license: MIT License
 types:
   - cli
-source: 'https://github.com/HzaCode/Langlint'
 homepage: 'https://github.com/HzaCode/Langlint'
+deprecated: true
 description: >-
   Automated translation platform for code comments and docstrings across 20+ file types.
   Eliminates language barriers in international software collaboration. Supports 100+ language pairs with syntax protection.

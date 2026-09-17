@@ -8,7 +8,7 @@ tags:
 license: "Apache-2.0"
 types:
   - cli
-homepage: https://neurolint.dev
+homepage: https://github.com/Alcatecablee/Neurolint-CLI#readme
 source: https://github.com/Alcatecablee/Neurolint-CLI
 description: |
   Deterministic code transformation tool using AST parsing and rule-based transformations. 
@@ -17,6 +17,6 @@ description: |
   orchestration to ensure zero breaking changes. Specialized for React, Next.js, and TypeScript projects.
 resources:
   - title: CLI Documentation
-    url: https://neurolint.dev
+    url: https://github.com/Alcatecablee/Neurolint-CLI/blob/main/CLI_USAGE.md
   - title: GitHub Marketplace Action
     url: https://github.com/marketplace/actions/neurolint-deterministic-code-fixer
