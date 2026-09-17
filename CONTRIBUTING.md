@@ -12,6 +12,11 @@ Before submitting, each tool must
 - have at least 20 stars on GitHub
 - have more than one human contributor
 
+Bot and automation accounts do not count toward the contributor minimum. The
+check excludes GitHub bot accounts, logins ending in `[bot]`, and known automation
+accounts such as `claude`, `dependabot`, and `renovate-bot`, even when GitHub lists
+them as ordinary users.
+
 These requirements apply to all tools.
 
 The CI bot will politely close pull requests when it verifies that a tool does
