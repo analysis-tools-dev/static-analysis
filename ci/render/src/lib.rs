@@ -245,6 +245,7 @@ pub fn format_stats(stats: StatsRaw) -> BTreeMap<String, String> {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use askama::Template;
     use std::collections::BTreeSet;
 
     fn tag(name: &str, value: &str, kind: Type) -> Tag {
@@ -275,6 +276,98 @@ mod tests {
             demos: None,
             wrapper: None,
         }
+    }
+
+    #[test]
+    fn deprecated_tools_are_collapsed_in_every_section() -> Result<()> {
+        let mut active = entry(&[]);
+        active.name = "Active Tool".into();
+        let mut deprecated = entry(&[]);
+        deprecated.name = "Deprecated Tool".into();
+        deprecated.deprecated = Some(true);
+        deprecated.license = "proprietary".into();
+        deprecated.discussion = Some("https://example.com/discussion".into());
+        let tools = vec![deprecated, active];
+        let catalog = Catalog {
+            linters: BTreeMap::from([(tag("Rust", "rust", Type::Language), tools.clone())]),
+            others: BTreeMap::from([(tag("Security", "security", Type::Other), tools.clone())]),
+            multi: tools,
+        };
+        let markdown = catalog.render()?;
+
+        assert_eq!(
+            markdown
+                .matches("<summary>Show Deprecated</summary>")
+                .count(),
+            3
+        );
+        assert_eq!(
+            markdown
+                .matches("[Active Tool](https://example.com)")
+                .count(),
+            3
+        );
+        assert_eq!(markdown.matches("**Deprecated Tool**").count(), 3);
+        assert!(!markdown.contains("[Deprecated Tool]("));
+        assert!(!markdown.contains("<details open"));
+        for heading in [
+            "<h2>Rust</h2>",
+            "## Multiple languages",
+            "<h2>Security</h2>",
+        ] {
+            let section = markdown.split_once(heading).context("Missing section")?.1;
+            let active_position = section
+                .find("[Active Tool]")
+                .context("Missing active tool")?;
+            let details_position = section.find("<details>").context("Missing details")?;
+            assert!(active_position < details_position);
+            let hidden = section[details_position..]
+                .split_once("</details>")
+                .context("Unclosed details")?
+                .0;
+            assert!(hidden.contains("<summary>Show Deprecated</summary>\n\n- **Deprecated Tool**"));
+            assert!(hidden.contains(
+                "[:information_source:](<https://example.com/discussion>) :warning: :copyright:"
+            ));
+            assert!(!hidden.contains("[Active Tool]"));
+        }
+        Ok(())
+    }
+
+    #[test]
+    fn no_empty_deprecated_sections_are_rendered() -> Result<()> {
+        let mut explicitly_active = entry(&[]);
+        explicitly_active.deprecated = Some(false);
+        for tools in [vec![], vec![entry(&[])], vec![explicitly_active]] {
+            let markdown = Catalog {
+                linters: BTreeMap::new(),
+                others: BTreeMap::new(),
+                multi: tools,
+            }
+            .render()?;
+            assert!(!markdown.contains("Show Deprecated"));
+        }
+        Ok(())
+    }
+
+    #[test]
+    fn deprecated_only_sections_keep_their_entries() -> Result<()> {
+        let mut tool = entry(&[]);
+        tool.deprecated = Some(true);
+        let markdown = Catalog {
+            linters: BTreeMap::new(),
+            others: BTreeMap::new(),
+            multi: vec![tool],
+        }
+        .render()?;
+        assert_eq!(
+            markdown
+                .matches("<summary>Show Deprecated</summary>")
+                .count(),
+            1
+        );
+        assert!(markdown.contains("\n\n- **Multi Tool** :warning: — Example tool\n\n</details>"));
+        Ok(())
     }
 
     #[test]
