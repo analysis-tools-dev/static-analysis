@@ -5772,6 +5772,55 @@
     "demos": null,
     "wrapper": null
   },
+  "depwarden": {
+    "name": "DepWarden",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "dotnet",
+      "go",
+      "java",
+      "javascript",
+      "kotlin",
+      "php",
+      "python",
+      "ruby",
+      "rust",
+      "scala",
+      "shell",
+      "swift",
+      "typescript"
+    ],
+    "other": [
+      "configmanagement",
+      "ci",
+      "dockerfile",
+      "json",
+      "kubernetes",
+      "security",
+      "terraform",
+      "yaml"
+    ],
+    "licenses": [
+      "proprietary"
+    ],
+    "types": [
+      "cli",
+      "service"
+    ],
+    "homepage": "https://depwarden.in",
+    "source": null,
+    "pricing": null,
+    "plans": null,
+    "description": "Free, anonymous SCA + SAST scanner. SCA: scans npm, PyPI, Maven, Go, Cargo, Ruby, NuGet dependencies for CVEs (OSV/KEV/EPSS), typosquats and supply-chain risk. SAST: pattern + taint analysis for 15 languages, 300+ rules. No account, no source upload. Available as a web tool, zero-install CLI and GitHub Action.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "derscanner": {
     "name": "DerScanner",
     "categories": [
