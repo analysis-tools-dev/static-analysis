@@ -16,10 +16,10 @@ help:
 
 # Main rendering targets
 render:
-	cargo run --manifest-path ci/Cargo.toml -p render -- --tags data/tags.yml --tools data/tools --md-out README.md --json-out data/api
+	cargo run --manifest-path ci/Cargo.toml -p render -- --tags data/tags.yml --tools data/tools --collections data/collections --md-out README.md --json-out data/api
 
 render-skip-deprecated:
-	cargo run --manifest-path ci/Cargo.toml -p render -- --tags data/tags.yml --tools data/tools --md-out README.md --json-out data/api --skip-deprecated
+	cargo run --manifest-path ci/Cargo.toml -p render -- --tags data/tags.yml --tools data/tools --collections data/collections --md-out README.md --json-out data/api --skip-deprecated
 
 # Development targets
 check:

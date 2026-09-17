@@ -57,6 +57,20 @@ Finally, create a pull request with all your changes. You can call `make
 render` to check for errors before.  This is optional, because it will also be
 done when creating a pull request.
 
+### Related collections
+
+To add or update a link in “More collections”, edit a YAML file in
+`data/collections/`, not the README template. Each file contains `name`,
+`homepage`, and `description`:
+
+```yaml
+name: Example collection
+homepage: https://example.com/collection
+description: A collection of static analysis tools for a specific language.
+```
+
+Collections are listed alphabetically and are separate from individual tool entries.
+
 ### How to mark a tool as unmaintained/deprecated
 
 Sometimes a tool becomes unmaintained and there's nothing wrong with that.  
