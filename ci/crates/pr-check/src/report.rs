@@ -1,6 +1,7 @@
 //! Report status, Markdown rendering, and workflow exit-code contract.
 
 use askama::Template;
+use github_repo::ToolSource;
 use std::process::ExitCode;
 
 // Identifies the report as output from the contribution checker.
@@ -42,7 +43,7 @@ impl CheckResult {
 #[derive(Debug)]
 pub struct ToolReport {
     pub name: String,
-    pub source: Option<String>,
+    pub source: Option<ToolSource>,
     pub stars: CheckResult,
     pub contributors: CheckResult,
     pub age: CheckResult,
@@ -137,6 +138,26 @@ mod tests {
             age: CheckResult::Pass("at least 6 months".into()),
             domain: None,
             note: None,
+        }
+    }
+
+    #[test]
+    fn comments_preserve_source_text_for_each_variant() {
+        for source in [
+            "http://github.com/Owner/Repo///",
+            "https://gitlab.com/owner/repo",
+            "",
+        ] {
+            let report = ToolReport {
+                source: Some(source.into()),
+                ..passing_report()
+            };
+            let reports = Reports::from_iter([report]);
+            assert!(
+                Comment::from(&reports)
+                    .to_string()
+                    .contains(&format!("Source: {source}\n"))
+            );
         }
     }
 

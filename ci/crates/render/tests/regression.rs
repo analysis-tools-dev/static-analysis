@@ -1,8 +1,9 @@
 use anyhow::{Context, Result};
+use github_repo::{GithubRepo, ToolSource};
 use serde_json::json;
 use std::collections::{BTreeMap, BTreeSet};
 
-use render::types::{Catalog, Entry, ParsedEntry, Tag, ToolType, Type};
+use render::types::{ApiEntry, Catalog, Entry, ParsedEntry, Tag, ToolType, Type};
 use render::{create_api, create_catalog, format_stats, stats};
 
 fn tag(value: &str, kind: Type) -> Tag {
@@ -24,6 +25,106 @@ fn parsed() -> Result<ParsedEntry> {
         "homepage": "https://example.com",
         "description": "Example description"
     }))?)
+}
+
+fn assert_source_preserved(tool: ParsedEntry, tags: &[Tag], raw: Option<&str>) -> Result<()> {
+    let expected = raw.map(ToolSource::from);
+    assert_eq!(tool.source, expected);
+    assert_eq!(serde_json::to_value(&tool)?["source"], json!(raw));
+    let entry = Entry::from_parsed(tool, tags)?;
+    assert_eq!(entry.source, expected);
+    let encoded = serde_json::to_string(&entry)?;
+    assert_eq!(serde_json::from_str::<Entry>(&encoded)?.source, expected);
+    assert_eq!(serde_saphyr::from_str::<Entry>(&encoded)?.source, expected);
+    let api = create_api(vec![entry], tags, &[]);
+    let api_entry = api.values().next().context("Expected one API entry")?;
+    assert_eq!(api_entry.source, expected);
+    assert_eq!(serde_json::to_value(api_entry)?["source"], json!(raw));
+    let encoded = serde_json::to_string(api_entry)?;
+    assert_eq!(serde_json::from_str::<ApiEntry>(&encoded)?.source, expected);
+    assert_eq!(
+        serde_saphyr::from_str::<ApiEntry>(&encoded)?.source,
+        expected
+    );
+    Ok(())
+}
+
+#[test]
+fn source_variants_and_absence_survive_normalization_and_api_output() -> Result<()> {
+    for (raw, github) in [
+        (Some("http://github.com/Owner/Repo///"), true),
+        (Some("https://github.com/owner/repo?tab=readme"), true),
+        (Some("https://gitlab.com/Owner/Repo/"), false),
+        (Some("https://github.com/owner/repo/tree/main"), false),
+        (Some("https://github.com/owner/"), false),
+        (Some("not a URL"), false),
+        (Some(""), false),
+        (None, false),
+    ] {
+        let mut value = serde_json::to_value(parsed()?)?;
+        value["source"] = json!(raw);
+        let encoded = serde_json::to_string(&value)?;
+        for tool in [
+            serde_json::from_str::<ParsedEntry>(&encoded)?,
+            serde_saphyr::from_str::<ParsedEntry>(&encoded)?,
+        ] {
+            assert_eq!(matches!(tool.source, Some(ToolSource::Github(_))), github);
+            assert_source_preserved(tool, &[tag("rust", Type::Language)], raw)?;
+        }
+    }
+    let mut value = serde_json::to_value(parsed()?)?;
+    value
+        .as_object_mut()
+        .context("Expected object")?
+        .remove("source");
+    let encoded = serde_json::to_string(&value)?;
+    for tool in [
+        serde_json::from_str::<ParsedEntry>(&encoded)?,
+        serde_saphyr::from_str::<ParsedEntry>(&encoded)?,
+    ] {
+        assert_source_preserved(tool, &[tag("rust", Type::Language)], None)?;
+    }
+    Ok(())
+}
+
+#[test]
+fn full_catalog_preserves_original_sources_through_api_output() -> Result<()> {
+    #[derive(serde::Deserialize)]
+    struct RawSource {
+        source: Option<String>,
+    }
+
+    let data = std::path::Path::new(env!("CARGO_MANIFEST_DIR")).join("../../../data");
+    let tags: Vec<Tag> = serde_saphyr::from_str(&std::fs::read_to_string(data.join("tags.yml"))?)?;
+    let mut counts = [0; 3];
+    for file in std::fs::read_dir(data.join("tools"))? {
+        let path = file?.path();
+        if path.extension().is_none_or(|extension| extension != "yml") {
+            continue;
+        }
+        let yaml = std::fs::read_to_string(&path)?;
+        let raw: RawSource = serde_saphyr::from_str(&yaml)?;
+        let tool: ParsedEntry = serde_saphyr::from_str(&yaml)?;
+        let index = match &tool.source {
+            Some(ToolSource::Github(repo)) => {
+                assert_eq!(Some(repo.as_str()), raw.source.as_deref());
+                0
+            }
+            Some(ToolSource::Other(source)) => {
+                assert!(GithubRepo::try_from(source.as_str()).is_err());
+                1
+            }
+            None => 2,
+        };
+        counts[index] += 1;
+        assert_source_preserved(tool, &tags, raw.source.as_deref())
+            .with_context(|| path.display().to_string())?;
+    }
+    assert!(
+        counts.into_iter().all(|count| count > 0),
+        "Expected GitHub, other, and absent sources"
+    );
+    Ok(())
 }
 
 #[test]

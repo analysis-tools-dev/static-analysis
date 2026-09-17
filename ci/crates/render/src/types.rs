@@ -1,5 +1,6 @@
 use anyhow::{Result, bail};
 use askama::Template;
+use github_repo::ToolSource;
 use serde::{Deserialize, Serialize, de::value::StrDeserializer};
 use std::cmp::Ordering;
 use std::collections::{BTreeMap, BTreeSet};
@@ -66,7 +67,7 @@ pub struct ParsedEntry {
     pub license: String,
     pub types: BTreeSet<String>,
     pub homepage: String,
-    pub source: Option<String>,
+    pub source: Option<ToolSource>,
     pub pricing: Option<String>,
     pub plans: Option<BTreeMap<String, bool>>,
     pub description: String,
@@ -98,7 +99,7 @@ pub struct Entry {
     pub license: String,
     pub types: BTreeSet<ToolType>,
     pub homepage: String,
-    pub source: Option<String>,
+    pub source: Option<ToolSource>,
     pub pricing: Option<String>,
     pub plans: Option<BTreeMap<String, bool>>,
     pub description: String,
@@ -264,7 +265,7 @@ pub struct ApiEntry {
     pub licenses: Vec<String>,
     pub types: BTreeSet<ToolType>,
     pub homepage: String,
-    pub source: Option<String>,
+    pub source: Option<ToolSource>,
     pub pricing: Option<String>,
     pub plans: Option<BTreeMap<String, bool>>,
     pub description: String,

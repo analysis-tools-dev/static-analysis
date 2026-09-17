@@ -1,15 +1,25 @@
-//! Shared GitHub repository URL classification.
+//! Shared tool source and GitHub repository URL classification.
 
 use anyhow::{Context, Result, ensure};
+use serde::{Deserialize, Deserializer, Serialize, Serializer};
 
-/// A repository parsed from a GitHub HTTP(S) URL, borrowing its owner and name.
-#[derive(Debug, Clone, Copy, PartialEq, Eq)]
-pub struct GithubRepo<'a> {
-    owner: &'a str,
-    name: &'a str,
+/// A repository parsed from a GitHub HTTP(S) URL.
+#[derive(Debug, Clone, PartialEq, Eq)]
+pub struct GithubRepo {
+    owner: String,
+    name: String,
+    original_url: String,
 }
 
-impl<'a> TryFrom<&'a str> for GithubRepo<'a> {
+impl GithubRepo {
+    /// Returns the original URL without normalizing its spelling or trailing slashes.
+    #[must_use]
+    pub fn as_str(&self) -> &str {
+        &self.original_url
+    }
+}
+
+impl TryFrom<&str> for GithubRepo {
     type Error = anyhow::Error;
 
     /// Parses an HTTP(S) GitHub repository URL, ignoring trailing slashes.
@@ -18,8 +28,8 @@ impl<'a> TryFrom<&'a str> for GithubRepo<'a> {
     ///
     /// Returns an error for an unsupported prefix, missing owner or repository,
     /// or a repository path containing a subpath.
-    fn try_from(url: &'a str) -> Result<Self> {
-        let url = url.trim_end_matches('/');
+    fn try_from(original_url: &str) -> Result<Self> {
+        let url = original_url.trim_end_matches('/');
         let path = url
             .strip_prefix("https://github.com/")
             .or_else(|| url.strip_prefix("http://github.com/"))
@@ -29,13 +39,69 @@ impl<'a> TryFrom<&'a str> for GithubRepo<'a> {
             !owner.is_empty() && !name.is_empty() && !name.contains('/'),
             "Expected a repository URL with no subpath"
         );
-        Ok(Self { owner, name })
+        Ok(Self {
+            owner: owner.to_owned(),
+            name: name.to_owned(),
+            original_url: original_url.to_owned(),
+        })
     }
 }
 
-impl std::fmt::Display for GithubRepo<'_> {
+impl std::fmt::Display for GithubRepo {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         write!(f, "{}/{}", self.owner, self.name)
+    }
+}
+
+/// A tool's source URL, classified without rejecting unsupported or malformed URLs.
+///
+/// Serialized as the original plain string, not as a tagged enum.
+#[derive(Debug, Clone, PartialEq, Eq)]
+pub enum ToolSource {
+    /// A supported GitHub repository URL.
+    Github(GithubRepo),
+    /// Any other source string, retained verbatim for manual review.
+    Other(String),
+}
+
+impl ToolSource {
+    /// Returns the original source string without URL normalization.
+    #[must_use]
+    pub fn as_str(&self) -> &str {
+        match self {
+            Self::Github(repo) => repo.as_str(),
+            Self::Other(source) => source,
+        }
+    }
+}
+
+impl From<String> for ToolSource {
+    fn from(source: String) -> Self {
+        GithubRepo::try_from(source.as_str()).map_or(Self::Other(source), Self::Github)
+    }
+}
+
+impl From<&str> for ToolSource {
+    fn from(source: &str) -> Self {
+        source.to_owned().into()
+    }
+}
+
+impl std::fmt::Display for ToolSource {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        f.write_str(self.as_str())
+    }
+}
+
+impl Serialize for ToolSource {
+    fn serialize<S: Serializer>(&self, serializer: S) -> Result<S::Ok, S::Error> {
+        serializer.serialize_str(self.as_str())
+    }
+}
+
+impl<'de> Deserialize<'de> for ToolSource {
+    fn deserialize<D: Deserializer<'de>>(deserializer: D) -> Result<Self, D::Error> {
+        String::deserialize(deserializer).map(Self::from)
     }
 }
 
@@ -46,13 +112,9 @@ mod tests {
     #[test]
     fn parses_plain_github_url() -> Result<()> {
         let repo = GithubRepo::try_from("https://github.com/owner/repo")?;
-        assert_eq!(
-            repo,
-            GithubRepo {
-                owner: "owner",
-                name: "repo"
-            }
-        );
+        assert_eq!(repo.owner, "owner");
+        assert_eq!(repo.name, "repo");
+        assert_eq!(repo.as_str(), "https://github.com/owner/repo");
         assert_eq!(repo.to_string(), "owner/repo");
         Ok(())
     }
@@ -60,13 +122,8 @@ mod tests {
     #[test]
     fn parses_trailing_slash() -> Result<()> {
         let repo = GithubRepo::try_from("https://github.com/owner/repo/")?;
-        assert_eq!(
-            repo,
-            GithubRepo {
-                owner: "owner",
-                name: "repo"
-            }
-        );
+        assert_eq!(repo.to_string(), "owner/repo");
+        assert_eq!(repo.as_str(), "https://github.com/owner/repo/");
         Ok(())
     }
 
@@ -114,6 +171,66 @@ mod tests {
     }
 
     #[test]
+    fn source_variants_preserve_raw_strings_through_serde() -> Result<()> {
+        for (raw, github) in [
+            ("https://github.com/Owner/Repo.git", true),
+            ("http://github.com/Owner/Repo///", true),
+            ("https://github.com/owner/repo?tab=readme", true),
+            ("https://github.com/owner/repo#readme", true),
+            ("https://github.com/owner/repo%2Ftree", true),
+            ("https://github.com/owner/repo ", true),
+            ("https://gitlab.com/owner/repo/", false),
+            ("https://github.com/owner/repo/tree/main", false),
+            ("https://github.com/owner/", false),
+            ("https://github.com//repo", false),
+            ("https://GitHub.com/owner/repo", false),
+            (" https://github.com/owner/repo", false),
+            ("git@github.com:owner/repo.git", false),
+            ("not a URL", false),
+            ("", false),
+        ] {
+            let encoded = serde_json::to_string(raw)?;
+            for source in [
+                ToolSource::from(raw),
+                ToolSource::from(raw.to_owned()),
+                serde_json::from_str::<ToolSource>(&encoded)?,
+                serde_saphyr::from_str::<ToolSource>(&encoded)?,
+            ] {
+                assert_eq!(matches!(source, ToolSource::Github(_)), github, "{raw}");
+                assert_eq!(source.as_str(), raw);
+                assert_eq!(source.to_string(), raw);
+                assert_eq!(serde_json::to_string(&source)?, encoded);
+            }
+        }
+        Ok(())
+    }
+
+    #[test]
+    fn source_deserialization_matches_plain_string_acceptance() {
+        for raw in ["null", "42", "true", "[]", r#"{"Github":"owner/repo"}"#] {
+            assert!(serde_json::from_str::<ToolSource>(raw).is_err(), "{raw}");
+            assert_eq!(
+                serde_saphyr::from_str::<ToolSource>(raw).ok(),
+                serde_saphyr::from_str::<String>(raw)
+                    .ok()
+                    .map(ToolSource::from),
+                "{raw}"
+            );
+        }
+    }
+
+    #[test]
+    fn repository_owns_its_url() -> Result<()> {
+        let repo = {
+            let url = String::from("http://github.com/Owner/Repo///");
+            GithubRepo::try_from(url.as_str())?
+        };
+        assert_eq!(repo.to_string(), "Owner/Repo");
+        assert_eq!(repo.as_str(), "http://github.com/Owner/Repo///");
+        Ok(())
+    }
+
+    #[test]
     fn rejects_subpath() {
         assert!(GithubRepo::try_from("https://github.com/owner/repo/tree/main/subdir").is_err());
     }
@@ -138,8 +255,9 @@ mod tests {
             assert_eq!(
                 GithubRepo::try_from(url).ok(),
                 Some(GithubRepo {
-                    owner: "owner",
-                    name: "repo"
+                    owner: "owner".into(),
+                    name: "repo".into(),
+                    original_url: url.into(),
                 })
             );
         }
