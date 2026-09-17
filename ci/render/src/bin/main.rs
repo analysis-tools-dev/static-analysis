@@ -1,47 +1,37 @@
-use anyhow::{Context, Result, ensure};
+use anyhow::{Context, Result};
 use askama::Template;
-use pico_args::Arguments;
+use clap::Parser;
 use render::types::{Collection, Entry, ParsedEntry, Tag, Tags, Type};
 use render::{check_deprecated, create_api, create_catalog};
 use serde::{Deserialize, Serialize, de::DeserializeOwned};
 use slug::slugify;
 use std::collections::BTreeMap;
 use std::env;
-use std::ffi::OsStr;
 use std::fs;
 use std::io;
 use std::path::{Path, PathBuf};
 
-#[derive(Debug)]
+#[derive(Debug, Parser)]
+#[command(name = "render", version, about)]
 struct Args {
+    /// YAML file defining the available tags.
+    #[arg(long)]
     tags: PathBuf,
+    /// Directory containing tool YAML files.
+    #[arg(long)]
     tools: PathBuf,
+    /// Directory containing related collection YAML files.
+    #[arg(long)]
     collections: PathBuf,
+    /// Destination for the generated README.
+    #[arg(long)]
     md_out: PathBuf,
+    /// Existing directory for the generated JSON API files.
+    #[arg(long)]
     json_out: PathBuf,
+    /// Reuse cached deprecation data instead of querying GitHub.
+    #[arg(long)]
     skip_deprecated: bool,
-}
-
-impl Args {
-    fn parse(mut args: Arguments) -> Result<Self> {
-        let parsed = Self {
-            tags: args.value_from_os_str("--tags", parse_path)?,
-            tools: args.value_from_os_str("--tools", parse_path)?,
-            collections: args.value_from_os_str("--collections", parse_path)?,
-            md_out: args.value_from_os_str("--md-out", parse_path)?,
-            json_out: args.value_from_os_str("--json-out", parse_path)?,
-            skip_deprecated: args.contains("--skip-deprecated"),
-        };
-        let remaining = args.finish();
-        ensure!(remaining.is_empty(), "Unexpected arguments: {remaining:?}");
-        Ok(parsed)
-    }
-}
-
-// `pico_args::value_from_os_str` requires a fallible parser callback.
-#[allow(clippy::unnecessary_wraps)]
-fn parse_path(s: &OsStr) -> Result<PathBuf> {
-    Ok(s.into())
 }
 
 fn read_yaml<T: DeserializeOwned>(path: &Path) -> Result<T> {
@@ -99,7 +89,7 @@ fn write_json(path: &Path, value: &impl Serialize) -> Result<()> {
 
 #[tokio::main(flavor = "current_thread")]
 async fn main() -> Result<()> {
-    let args = Args::parse(Arguments::from_env())?;
+    let args = Args::parse();
     let tags: Tags = read_yaml(&args.tags)?;
 
     let mut collections: Vec<Collection> = read_entries(&args.collections)?;
@@ -150,6 +140,7 @@ mod tests {
 
     fn cli_args() -> Vec<std::ffi::OsString> {
         [
+            "render",
             "--tags",
             "tags.yml",
             "--tools",
@@ -170,17 +161,17 @@ mod tests {
     fn parses_cli_and_rejects_unknown_or_missing_arguments() -> Result<()> {
         let mut args = cli_args();
         args.push("--skip-deprecated".into());
-        let parsed = Args::parse(Arguments::from_vec(args))?;
+        let parsed = Args::try_parse_from(args)?;
         assert!(parsed.skip_deprecated);
         assert_eq!(parsed.collections, Path::new("collections"));
 
         let mut args = cli_args();
         args.push("--skip-deprected".into());
-        let error = Args::parse(Arguments::from_vec(args))
+        let error = Args::try_parse_from(args)
             .err()
             .context("Expected invalid argument")?;
         assert!(error.to_string().contains("--skip-deprected"));
-        assert!(Args::parse(Arguments::from_vec(vec![])).is_err());
+        assert!(Args::try_parse_from(["render"]).is_err());
         Ok(())
     }
 

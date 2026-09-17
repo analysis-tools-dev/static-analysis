@@ -15,7 +15,7 @@ workspace = true
 anyhow.workspace = true
 askama.workspace = true
 chrono.workspace = true
-
+clap.workspace = true
 reqwest.workspace = true
 serde.workspace = true
 serde-saphyr.workspace = true

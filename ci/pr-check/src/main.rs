@@ -26,6 +26,7 @@ mod network;
 mod report;
 
 use anyhow::{Context, Result};
+use clap::Parser;
 use std::env;
 use std::path::{Path, PathBuf};
 use std::process::ExitCode;
@@ -33,6 +34,14 @@ use std::process::ExitCode;
 use criteria::ToolEntry;
 use network::{GithubClient, check_tool};
 use report::{render_comment, report_exit_code};
+
+#[derive(Debug, Parser)]
+#[command(version, about)]
+struct Args {
+    /// Changed files to check; only YAML files under data/tools are inspected.
+    #[arg(value_name = "FILE")]
+    files: Vec<PathBuf>,
+}
 
 /// Reads and deserialises a single tool YAML file.
 ///
@@ -54,20 +63,21 @@ fn is_tool_path(path: &Path) -> bool {
 
 #[tokio::main(flavor = "current_thread")]
 async fn main() -> Result<ExitCode> {
+    let args = match Args::try_parse() {
+        Ok(args) => args,
+        Err(error) => {
+            // Exit code 2 tells the workflow to close the PR, so CLI errors must use 1.
+            let code = u8::from(error.use_stderr());
+            error.print()?;
+            return Ok(ExitCode::from(code));
+        }
+    };
     let token = env::var("GITHUB_TOKEN").context("GITHUB_TOKEN not set")?;
-
-    // Remaining CLI arguments are the paths to check.
-    // Usage: pr-check data/tools/foo.yml data/tools/bar.yml
-    let tool_paths: Vec<PathBuf> = env::args_os()
-        .skip(1)
-        .map(PathBuf::from)
-        .filter(|path| is_tool_path(path))
-        .collect();
 
     let client = GithubClient::new(token)?;
 
     let mut reports = Vec::new();
-    for path in &tool_paths {
+    for path in args.files.iter().filter(|path| is_tool_path(path)) {
         let tool = read_tool(path).with_context(|| format!("Failed to read {}", path.display()))?;
         eprintln!("Checking '{}'...", tool.name);
         let report = check_tool(&client, &tool).await?;
@@ -104,6 +114,30 @@ async fn main() -> Result<ExitCode> {
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    #[test]
+    fn parses_files_and_provides_help() -> Result<()> {
+        let args = Args::try_parse_from(["pr-check", "data/tools/example.yml", "README.md"])?;
+        assert_eq!(
+            args.files,
+            [
+                PathBuf::from("data/tools/example.yml"),
+                PathBuf::from("README.md")
+            ]
+        );
+        assert!(Args::try_parse_from(["pr-check"])?.files.is_empty());
+        for (flag, kind) in [
+            ("--help", clap::error::ErrorKind::DisplayHelp),
+            ("--version", clap::error::ErrorKind::DisplayVersion),
+            ("--unknown", clap::error::ErrorKind::UnknownArgument),
+        ] {
+            let error = Args::try_parse_from(["pr-check", flag])
+                .err()
+                .context("Expected help or error")?;
+            assert_eq!(error.kind(), kind);
+        }
+        Ok(())
+    }
 
     #[test]
     fn parses_catalog() -> Result<()> {
