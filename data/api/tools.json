@@ -10291,6 +10291,7 @@
       "typescript"
     ],
     "other": [
+      "skill",
       "security"
     ],
     "licenses": [
@@ -19119,6 +19120,38 @@
     "demos": null,
     "wrapper": null
   },
+  "skillsaw": {
+    "name": "skillsaw",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "skill",
+      "configfile",
+      "json",
+      "markdown",
+      "security",
+      "yaml"
+    ],
+    "licenses": [
+      "Apache License 2.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://skillsaw.org/",
+    "source": "https://github.com/stbenjam/skillsaw",
+    "pricing": null,
+    "plans": null,
+    "description": "Configurable linter for the files that steer AI coding agents, including skills, plugins, instruction files, hooks, and related configuration. Detects structural, content-quality, and security issues and provides deterministic autofixes, baselines, and CI-ready output.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "skunk": {
     "name": "Skunk",
     "categories": [
@@ -21530,6 +21563,7 @@
     ],
     "languages": [],
     "other": [
+      "skill",
       "ci",
       "security"
     ],

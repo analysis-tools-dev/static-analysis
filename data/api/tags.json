@@ -353,6 +353,11 @@
       "tag_type": "Other"
     },
     {
+      "name": "Agent Skills",
+      "value": "skill",
+      "tag_type": "Other"
+    },
+    {
       "name": "AI-generated code",
       "value": "ai-generated-code",
       "tag_type": "Other"
