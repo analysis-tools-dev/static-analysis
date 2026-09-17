@@ -1,7 +1,7 @@
 //! Shared tool source and GitHub repository URL classification.
 
 use anyhow::{Context, Result, ensure};
-use serde::{Deserialize, Deserializer, Serialize, Serializer};
+use serde::{Deserialize, Serialize, Serializer};
 
 /// A repository parsed from a GitHub HTTP(S) URL.
 #[derive(Debug, Clone, PartialEq, Eq)]
@@ -56,7 +56,8 @@ impl std::fmt::Display for GithubRepo {
 /// A tool's source URL, classified without rejecting unsupported or malformed URLs.
 ///
 /// Serialized as the original plain string, not as a tagged enum.
-#[derive(Debug, Clone, PartialEq, Eq)]
+#[derive(Debug, Clone, Deserialize, PartialEq, Eq)]
+#[serde(from = "String")]
 pub enum ToolSource {
     /// A supported GitHub repository URL.
     Github(GithubRepo),
@@ -83,7 +84,7 @@ impl From<String> for ToolSource {
 
 impl From<&str> for ToolSource {
     fn from(source: &str) -> Self {
-        source.to_owned().into()
+        GithubRepo::try_from(source).map_or_else(|_| Self::Other(source.to_owned()), Self::Github)
     }
 }
 
@@ -96,12 +97,6 @@ impl std::fmt::Display for ToolSource {
 impl Serialize for ToolSource {
     fn serialize<S: Serializer>(&self, serializer: S) -> Result<S::Ok, S::Error> {
         serializer.serialize_str(self.as_str())
-    }
-}
-
-impl<'de> Deserialize<'de> for ToolSource {
-    fn deserialize<D: Deserializer<'de>>(deserializer: D) -> Result<Self, D::Error> {
-        String::deserialize(deserializer).map(Self::from)
     }
 }
 
