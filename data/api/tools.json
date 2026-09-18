@@ -11807,6 +11807,36 @@
     "demos": null,
     "wrapper": null
   },
+  "lintlang": {
+    "name": "LintLang",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "skill",
+      "configfile",
+      "markdown",
+      "yaml"
+    ],
+    "licenses": [
+      "Apache License 2.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://lintlang.ai/",
+    "source": "https://github.com/hermes-labs-ai/lintlang",
+    "pricing": null,
+    "plans": null,
+    "description": "Static linter for natural-language instructions that control AI agents. Detects ambiguous tool descriptions, missing limits, conflicting directives, and schema gaps in local files and CI without model or network calls.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "lintr": {
     "name": "lintr",
     "categories": [
