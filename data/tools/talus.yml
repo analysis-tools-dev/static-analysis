@@ -1,0 +1,15 @@
+name: talus
+categories:
+  - linter
+tags:
+  - rust
+  - security
+license: MIT
+types:
+  - cli
+source: "https://github.com/BartoszOsiej/talus-process-monitor"
+homepage: "https://bartoszosiej.github.io/talus-process-monitor/"
+description: >-
+  eBPF-based runtime security monitor for Linux (Rust/aya). Sliding-window
+  syscall heuristics detect ransomware behavior; optional automated SIGKILL
+  response. A live kernel-side detector rather than static analysis.
