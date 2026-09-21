@@ -188,20 +188,29 @@ mod tests {
             collections: vec![],
         };
         let markdown = catalog.render()?;
+        let lines: Vec<_> = markdown.lines().collect();
 
         assert_eq!(
-            markdown
-                .matches("<summary>Show Deprecated</summary>")
+            lines
+                .iter()
+                .filter(|line| line.trim() == "<summary>Show Deprecated</summary>")
                 .count(),
             3
         );
         assert_eq!(
-            markdown
-                .matches("[Active Tool](https://example.com)")
+            lines
+                .iter()
+                .filter(|line| line.contains("[Active Tool](https://example.com)"))
                 .count(),
             3
         );
-        assert_eq!(markdown.matches("**Deprecated Tool**").count(), 3);
+        assert_eq!(
+            lines
+                .iter()
+                .filter(|line| line.contains("**Deprecated Tool**"))
+                .count(),
+            3
+        );
         assert!(!markdown.contains("[Deprecated Tool]("));
         assert!(!markdown.contains("<details open"));
         for heading in [
@@ -209,21 +218,35 @@ mod tests {
             "## Multiple languages",
             "<h2>Security</h2>",
         ] {
-            let section = markdown.split_once(heading).context("Missing section")?.1;
+            let heading_position = lines
+                .iter()
+                .position(|line| line.trim() == heading)
+                .context("Missing section")?;
+            let section = &lines[heading_position + 1..];
             let active_position = section
-                .find("[Active Tool]")
+                .iter()
+                .position(|line| line.contains("[Active Tool]"))
                 .context("Missing active tool")?;
-            let details_position = section.find("<details>").context("Missing details")?;
+            let details_position = section
+                .iter()
+                .position(|line| line.trim() == "<details>")
+                .context("Missing details")?;
             assert!(active_position < details_position);
-            let hidden = section[details_position..]
-                .split_once("</details>")
-                .context("Unclosed details")?
-                .0;
-            assert!(hidden.contains("<summary>Show Deprecated</summary>\n\n- **Deprecated Tool**"));
-            assert!(hidden.contains(
-                "[:information_source:](<https://example.com/discussion>) :warning: :copyright:"
-            ));
-            assert!(!hidden.contains("[Active Tool]"));
+            let hidden = &section[details_position..];
+            let hidden_end = hidden
+                .iter()
+                .position(|line| line.trim() == "</details>")
+                .context("Unclosed details")?;
+            let hidden = &hidden[..=hidden_end];
+            assert!(hidden.windows(3).any(|window| {
+                window[0].trim() == "<summary>Show Deprecated</summary>"
+                    && window[1].trim().is_empty()
+                    && window[2].contains("- **Deprecated Tool**")
+            }));
+            assert!(hidden.iter().any(|line| {
+                line.contains("[:information_source:](<https://example.com/discussion>) :warning: :copyright:")
+            }));
+            assert!(!hidden.iter().any(|line| line.contains("[Active Tool]")));
         }
         Ok(())
     }
@@ -257,13 +280,21 @@ mod tests {
             collections: vec![],
         }
         .render()?;
+        let lines: Vec<_> = markdown.lines().collect();
         assert_eq!(
-            markdown
-                .matches("<summary>Show Deprecated</summary>")
+            lines
+                .iter()
+                .filter(|line| line.trim() == "<summary>Show Deprecated</summary>")
                 .count(),
             1
         );
-        assert!(markdown.contains("\n\n- **Multi Tool** :warning: — Example tool\n\n</details>"));
+        assert!(lines.windows(4).any(|window| {
+            window[0].trim().is_empty()
+                && window[1].contains("- **Multi Tool** :warning:")
+                && window[1].contains("Example tool")
+                && window[2].trim().is_empty()
+                && window[3].trim() == "</details>"
+        }));
         Ok(())
     }
 

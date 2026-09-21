@@ -153,11 +153,9 @@ mod tests {
                 ..passing_report()
             };
             let reports = Reports::from_iter([report]);
-            assert!(
-                Comment::from(&reports)
-                    .to_string()
-                    .contains(&format!("Source: {source}\n"))
-            );
+            let rendered = Comment::from(&reports).to_string();
+            let expected = format!("Source: {source}");
+            assert!(rendered.lines().any(|line| line == expected.as_str()));
         }
     }
 
