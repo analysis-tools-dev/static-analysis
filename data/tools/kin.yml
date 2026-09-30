@@ -1,0 +1,29 @@
+name: Kin
+categories:
+  - meta
+tags:
+  - typescript
+  - javascript
+  - python
+  - go
+  - java
+  - rust
+  - cpp
+  - c
+  - kotlin
+  - csharp
+  - ruby
+  - swift
+  - php
+  - terraform
+license: Apache-2.0
+types:
+  - cli
+source: "https://github.com/firelock-ai/kin"
+homepage: "https://kinlab.ai"
+description: >-
+  A graph-native code repository for people and AI agents. Kin parses supported
+  languages into code entities and their relationships (calls, references,
+  imports, inheritance) and versions them with the source. The kin CLI and an MCP
+  server query the same graph for callers, references, traces and what a change
+  might affect. Imports existing Git history. Public beta.
