@@ -1,0 +1,27 @@
+name: Cynative
+categories:
+  - linter
+tags:
+  - uses-llm
+  - configmanagement
+  - security
+  - ci
+  - go
+  - git
+  - cloudformation
+  - terraform
+  - skill
+  - ai-generated-code
+  - container
+  - kubernetes
+  - buildtool
+  - configfile
+  - markdown
+license: Apache 2.0 License
+types:
+  - cli
+source: 'https://github.com/cynative/cynative'
+homepage: 'https://cynative.com'
+description: >-
+  AI agents framework built for security engineering + 45 workflow blueprints 
+  across AWS, GCP, Azure, Kubernetes, GitHub & GitLab. Completely open-source.
