@@ -10,7 +10,7 @@ types:
   - service
 homepage: 'https://agiledigitalworker.com'
 plans:
-  free: true
+  free: false
 resources:
   - title: "GitHub Marketplace"
     url: https://github.com/marketplace/digitalworker-reviewer
