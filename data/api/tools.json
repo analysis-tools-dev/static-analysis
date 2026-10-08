@@ -1112,7 +1112,7 @@
     "plans": null,
     "description": "Code style enforcement for bash programs. The output format aims to follow pycodestyle (pep8) default output format.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": [
       {
         "title": "Official bashate documentation",
@@ -9775,26 +9775,23 @@
     "categories": [
       "linter"
     ],
-    "languages": [
-      "groovy",
-      "java",
-      "kotlin",
-      "scala"
+    "languages": [],
+    "other": [
+      "binary"
     ],
-    "other": [],
     "licenses": [
-      "Apache License 2.0"
+      "proprietary"
     ],
     "types": [
-      "cli"
+      "gui"
     ],
-    "homepage": "https://github.com/cuplv/hopper",
-    "source": "https://github.com/cuplv/hopper",
+    "homepage": "https://www.hopperapp.com/",
+    "source": null,
     "pricing": null,
     "plans": null,
-    "description": "A static analysis tool written in scala for languages that run on JVM.",
+    "description": "macOS and Linux reverse engineering tool that lets you disassemble, decompile and debug applications. Hopper displays the code using different representations, e.g. the Control Flow Graph, and the pseudo-code of a procedure. Supports Apple Silicon.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,

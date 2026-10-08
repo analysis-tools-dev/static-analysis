@@ -1734,6 +1734,8 @@ It removes a feature of a dependency and then compiles the project to see if it 
 <h2>Shell</h2>
 
 
+- [bashate](https://github.com/openstack/bashate) — Code style enforcement for bash programs. The output format aims to follow pycodestyle (pep8) default output format.
+
 - [sh](https://pkg.go.dev/mvdan.cc/sh/v3) — A shell parser, formatter, and interpreter with bash support; includes shfmt
 
 - [shellcheck](https://www.shellcheck.net) — ShellCheck, a static analysis tool that gives warnings and suggestions for bash/sh shell scripts.
@@ -1744,10 +1746,6 @@ It removes a feature of a dependency and then compiles the project to see if it 
 
 <details>
 <summary>Show Deprecated</summary>
-
-- **bashate** :warning: — Code style enforcement for bash programs. The output format aims to follow pycodestyle (pep8) default output format.
-
-
 
 - **i-Code CNES for Shell** :warning: — An open source static code analysis tool for Shell and Fortran (77 and 90).
 
