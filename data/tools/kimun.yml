@@ -1,0 +1,46 @@
+name: Kimün
+categories:
+  - linter
+tags:
+  - c
+  - clojure
+  - cpp
+  - csharp
+  - dart
+  - elixir
+  - erlang
+  - fsharp
+  - git
+  - go
+  - haskell
+  - java
+  - javascript
+  - julia
+  - kotlin
+  - lua
+  - nim
+  - objectivec
+  - ocaml
+  - perl
+  - php
+  - python
+  - r
+  - ruby
+  - rust
+  - scala
+  - shell
+  - swift
+  - typescript
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/lnds/kimun'
+homepage: 'https://kimun.tools/en/'
+description: >-
+  Code health metrics from the terminal. Grades a project from A++ to F--
+  on cognitive complexity, duplication, indentation, Halstead effort and
+  file size, and lists the files to look at first. Separate commands report
+  cyclomatic and cognitive complexity per function, duplicates, code smells
+  and the Maintainability Index. From git history it finds hotspots, code
+  ownership and temporal coupling, and measures which files a diff reaches.
+  A CI gate fails when a changed file gets worse.
