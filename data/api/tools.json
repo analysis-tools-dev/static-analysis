@@ -4433,6 +4433,35 @@
     "demos": null,
     "wrapper": null
   },
+  "compose-lint": {
+    "name": "compose-lint",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "container",
+      "security",
+      "yaml"
+    ],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://tmatens.github.io/compose-lint/",
+    "source": "https://github.com/tmatens/compose-lint",
+    "pricing": null,
+    "plans": null,
+    "description": "Security linter for Docker Compose files. Checks compose.yaml against 27 rules taken from the OWASP Docker Security Cheat Sheet and the CIS Docker Benchmark: mounted Docker socket, privileged mode, missing no-new-privileges, extra capabilities, writable root filesystem, ports bound to all interfaces, credentials in environment variables, unpinned images. Each finding says how to fix it and which runtime error the fix can cause. JSON and SARIF output, a GitHub Action, and a dry-run auto-fix.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "composer-dependency-analyser": {
     "name": "composer-dependency-analyser",
     "categories": [
@@ -15113,7 +15142,7 @@
     "plans": null,
     "description": "A tool for quickly measuring the size and analyzing the structure of a PHP project.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
