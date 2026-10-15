@@ -1,0 +1,17 @@
+name: GitStats
+categories:
+  - linter
+tags:
+  - git
+license: GPL-2.0-only OR GPL-3.0-only
+types:
+  - cli
+source: 'https://github.com/shenxianpeng/gitstats'
+homepage: 'https://github.com/shenxianpeng/gitstats'
+description: >-
+  Generates a static HTML report from a Git repository's history: activity,
+  authors, code ownership, hotspots and bus factor, file churn, tags and lines
+  of code over time. It also counts the commits that name an AI coding
+  assistant (agent accounts, Co-authored-by and Assisted-by lines). Works on
+  any Git repository with only git and Python, writes JSON, compares several
+  repositories, and runs as a GitHub Action.
