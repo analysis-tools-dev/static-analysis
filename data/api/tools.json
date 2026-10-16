@@ -8539,6 +8539,33 @@
     "demos": null,
     "wrapper": null
   },
+  "gitstats": {
+    "name": "GitStats",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "git"
+    ],
+    "licenses": [
+      "GPL-2.0-only OR GPL-3.0-only"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/shenxianpeng/gitstats",
+    "source": "https://github.com/shenxianpeng/gitstats",
+    "pricing": null,
+    "plans": null,
+    "description": "Generates a static HTML report from a Git repository's history: activity, authors, code ownership, hotspots and bus factor, file churn, tags and lines of code over time. It also counts the commits that name an AI coding assistant (agent accounts, Co-authored-by and Assisted-by lines). Works on any Git repository with only git and Python, writes JSON, compares several repositories, and runs as a GitHub Action.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "gixy": {
     "name": "gixy",
     "categories": [
@@ -15142,7 +15169,7 @@
     "plans": null,
     "description": "A tool for quickly measuring the size and analyzing the structure of a PHP project.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
