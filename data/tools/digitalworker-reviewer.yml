@@ -1,0 +1,24 @@
+name: DigitalWorker Reviewer
+categories:
+  - linter
+tags:
+  - ci
+  - uses-llm
+  - ai-generated-code
+license: proprietary
+types:
+  - service
+homepage: 'https://agiledigitalworker.com'
+plans:
+  free: false
+resources:
+  - title: "GitHub Marketplace"
+    url: https://github.com/marketplace/digitalworker-reviewer
+  - title: "Engineering Deep Dive"
+    url: https://agiledigitalworker.com/Engineering-Deep-Dive
+description: >-
+  GitHub App for engineering-grade PR review that catches AI slop: Agile
+  architecture violations such as spaghetti code/Anemic Domain Model and
+  layering, testability gaps, and most code smells including code and class
+  duplication. Review comments enforce Patterns of Enterprise Application
+  Architecture, clean layer dependencies, and proper OOP/Rich Domain Model.
