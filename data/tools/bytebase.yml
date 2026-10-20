@@ -1,0 +1,19 @@
+name: Bytebase
+categories:
+  - linter
+tags:
+  - sql
+license: Other
+types:
+  - gui
+  - service
+source: 'https://github.com/bytebase/bytebase'
+homepage: 'https://www.bytebase.com'
+description: >-
+  Database DevSecOps platform with a built-in SQL Review engine that lints
+  schema migrations and queries against 100+ configurable rules — naming
+  conventions, anti-patterns, and safety checks — across MySQL, PostgreSQL,
+  Oracle, SQL Server, Snowflake, and more.
+resources:
+  - title: SQL Review documentation
+    url: https://www.bytebase.com/docs/sql-review/

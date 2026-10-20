@@ -11,7 +11,7 @@ jobs:
   stats:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v7
         with:
           token: ${{ secrets.GH_STATS_COMMIT_TOKEN }}
 
@@ -39,7 +39,7 @@ jobs:
           ORG_ID: ${{secrets.LOKI_ORG_ID}}
           LOKI_ADDR: http://loki.jorgelbg.me
 
-      - uses: stefanzweifel/git-auto-commit-action@v4.1.2
+      - uses: stefanzweifel/git-auto-commit-action@v7.2.0
         with:
           branch: ${{ github.head_ref }}
           commit_message: Commit list

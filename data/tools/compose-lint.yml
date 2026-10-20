@@ -1,0 +1,20 @@
+name: compose-lint
+categories:
+  - linter
+tags:
+  - container
+  - security
+  - yaml
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/tmatens/compose-lint'
+homepage: 'https://tmatens.github.io/compose-lint/'
+description: >-
+  Security linter for Docker Compose files. Checks compose.yaml against 27
+  rules taken from the OWASP Docker Security Cheat Sheet and the CIS Docker
+  Benchmark: mounted Docker socket, privileged mode, missing
+  no-new-privileges, extra capabilities, writable root filesystem, ports
+  bound to all interfaces, credentials in environment variables, unpinned
+  images. Each finding says how to fix it and which runtime error the fix
+  can cause. JSON and SARIF output, a GitHub Action, and a dry-run auto-fix.

@@ -7,8 +7,8 @@ license: Apache-2.0
 types:
   - cli
   - ide-plugin
-source: "https://github.com/facebook/ktfmt"
-homepage: "https://facebook.github.io/ktfmt/"
+source: "https://github.com/Kotlin/ktfmt"
+homepage: "https://kotlin.github.io/ktfmt/"
 description: >-
   A program that reformats Kotlin source code to comply with the common
   community standard for Kotlin code conventions.

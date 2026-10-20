@@ -327,7 +327,7 @@
     "plans": null,
     "description": "Discover, analyze, and certify container images. A service that analyzes Docker images and applies user-defined acceptance policies  to allow automated container image validation and certification ",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -724,6 +724,41 @@
     ],
     "wrapper": null
   },
+  "ast-metrics": {
+    "name": "AST Metrics",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "csharp",
+      "go",
+      "java",
+      "php",
+      "python",
+      "rust",
+      "typescript"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://ast-metrics.dev",
+    "source": "https://github.com/ast-metrics/ast-metrics",
+    "pricing": null,
+    "plans": null,
+    "description": "Multi-language maintainability analyzer. Computes cyclomatic and cognitive complexity, Halstead volume, afferent/efferent coupling and maintainability index, detects communities in the dependency graph, and generates an explorable HTML report plus JSON, Markdown, SARIF and OpenMetrics output. Single fast binary with no runtime dependency, and a built-in MCP server so AI agents can query codebase structure before refactoring.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": [
+      "https://analyze.ast-metrics.dev"
+    ],
+    "wrapper": null
+  },
   "astree": {
     "name": "Astrée",
     "categories": [
@@ -1014,7 +1049,7 @@
     "plans": null,
     "description": "Secure DevOps kit for Azure (AzSK) provides security IntelliSense, Security Verification Tests (SVTs), CICD scan vulnerabilities, compliance issues, and infrastructure misconfiguration in your infrastructure-as-code. Supports Azure via ARM.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -1161,7 +1196,7 @@
     "plans": null,
     "description": "A linting engine supporting custom project-specific rules.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -1287,7 +1322,7 @@
     "plans": null,
     "description": "Analyzes a raw binary firmware and determines features like endianness or the loading address.  The tool is compatible with all architectures.\nLoading address: binbloom can parse a raw binary firmware and determine its loading address. Endianness: binbloom can use heuristics to determine the endianness of a firmware. UDS Database: binbloom can parse a raw binary firmware and check if it contains an array containing UDS command IDs.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": [
       {
         "title": "Tutorial: Binbloom - Raw Binary Firmware Analysis Software",
@@ -1582,7 +1617,7 @@
     "plans": null,
     "description": "Safe code refactoring for modern Python.  Bowler is a refactoring tool for manipulating Python at the syntax tree level.  It enables safe, large scale code modifications while guaranteeing that the  resulting code compiles and runs. It provides both a simple command line interface  and a fluent API in Python for generating complex code modifications in code.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -1773,6 +1808,39 @@
     "demos": null,
     "wrapper": null
   },
+  "bytebase": {
+    "name": "Bytebase",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "sql"
+    ],
+    "other": [],
+    "licenses": [
+      "Other"
+    ],
+    "types": [
+      "gui",
+      "service"
+    ],
+    "homepage": "https://www.bytebase.com",
+    "source": "https://github.com/bytebase/bytebase",
+    "pricing": null,
+    "plans": null,
+    "description": "Database DevSecOps platform with a built-in SQL Review engine that lints schema migrations and queries against 100+ configurable rules — naming conventions, anti-patterns, and safety checks — across MySQL, PostgreSQL, Oracle, SQL Server, Snowflake, and more.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "SQL Review documentation",
+        "url": "https://www.bytebase.com/docs/sql-review/"
+      }
+    ],
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "c2rust": {
     "name": "C2Rust",
     "categories": [
@@ -1826,7 +1894,7 @@
     "plans": null,
     "description": "Web application security testing tool for CakePHP-based web applications. CakeFuzzer employs a predefined set of attacks that are randomly modified before execution. Leveraging its deep understanding of the Cake PHP framework, Cake Fuzzer launches attacks on all potential application entry points.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -1874,7 +1942,7 @@
     "plans": null,
     "description": "Statically generates a call graph image and displays it on screen.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -1993,7 +2061,7 @@
     "plans": null,
     "description": "cargo-breaking compares a crate's public API between two different branches, shows what changed, and suggests the next version according to semver.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -2020,7 +2088,7 @@
     "plans": null,
     "description": "Whole program static stack analysis The tool produces the full call graph of a program as a dot file.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -2384,7 +2452,7 @@
     "plans": null,
     "description": "A linter for AWS CloudFormation templates.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -2740,7 +2808,7 @@
     "plans": null,
     "description": "Calculates Chidamber and Kemerer object-oriented metrics by processing the bytecode of compiled Java files.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -3089,7 +3157,7 @@
     "plans": null,
     "description": "Measures size and complexity for C files.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -3274,7 +3342,7 @@
     "plans": null,
     "description": "An analyzer library for C# and VB that uses Roslyn to produce refactorings, code analysis, and other niceties.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -3361,6 +3429,7 @@
       "linter"
     ],
     "languages": [
+      "go",
       "python"
     ],
     "other": [
@@ -3370,7 +3439,7 @@
       "security"
     ],
     "licenses": [
-      "AGPL-3.0"
+      "Apache-2.0"
     ],
     "types": [
       "cli"
@@ -3379,7 +3448,7 @@
     "source": "https://github.com/shivasurya/code-pathfinder",
     "pricing": null,
     "plans": null,
-    "description": "An open-source security suite aiming to combine structural code analysis with  AI-powered vulnerability detection. Built for advanced structural search, derive  insights, find vulnerabilities in code.",
+    "description": "Opensource Static Code Analysis for security teams with Inter file dataflow  taint analysis. Built for finding vulnerabilities, advanced structural search,  derive insights and supports MCP server.",
     "discussion": null,
     "deprecated": null,
     "resources": [
@@ -3453,12 +3522,12 @@
       "cli"
     ],
     "homepage": "https://groupon.github.io/codeburner",
-    "source": "https://github.com/groupon/codeburner",
+    "source": null,
     "pricing": null,
     "plans": null,
     "description": "Provides a unified interface to sort and act on the issues it finds.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -3714,7 +3783,7 @@
     "plans": null,
     "description": "Codemodder is a pluggable framework for building expressive codemods. Use Codemodder when you need more than a linter or code formatting tool. Use it to fix non-trivial security issues and other code quality problems.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -4024,19 +4093,19 @@
     ],
     "homepage": "https://www.codesee.io/",
     "source": null,
-    "pricing": "https://www.codesee.io/pricing",
-    "plans": {
-      "free": true,
-      "oss": false
-    },
-    "description": "CodeSee is mapping and automating your app's services, directories, file dependencies, and code changes. It's like Google Map, but for code.t",
+    "pricing": null,
+    "plans": null,
+    "description": "Mapped application services, directories, file dependencies, and code changes. Acquired by GitKraken in May 2024; the standalone product website is no longer available.",
     "discussion": null,
-    "deprecated": null,
-    "resources": null,
-    "reviews": null,
-    "demos": [
-      "https://www.codesee.io/maps-demos"
+    "deprecated": true,
+    "resources": [
+      {
+        "title": "GitKraken acquires CodeSee",
+        "url": "https://gitkraken.com/press/gitkraken-acquires-codesee-launches-devex-platform"
+      }
     ],
+    "reviews": null,
+    "demos": null,
     "wrapper": null
   },
   "codesonar-from-grammatech": {
@@ -4136,7 +4205,7 @@
     },
     "description": "Codety Scanner is a comprehensive source code scanner that embeds 5000+ static code analysis rules, which aim to detect code issues for 20+ programming languages and IaC tools.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -4364,6 +4433,35 @@
     "demos": null,
     "wrapper": null
   },
+  "compose-lint": {
+    "name": "compose-lint",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "container",
+      "security",
+      "yaml"
+    ],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://tmatens.github.io/compose-lint/",
+    "source": "https://github.com/tmatens/compose-lint",
+    "pricing": null,
+    "plans": null,
+    "description": "Security linter for Docker Compose files. Checks compose.yaml against 27 rules taken from the OWASP Docker Security Cheat Sheet and the CIS Docker Benchmark: mounted Docker socket, privileged mode, missing no-new-privileges, extra capabilities, writable root filesystem, ports bound to all interfaces, credentials in environment variables, unpinned images. Each finding says how to fix it and which runtime error the fix can cause. JSON and SARIF output, a GitHub Action, and a dry-run auto-fix.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "composer-dependency-analyser": {
     "name": "composer-dependency-analyser",
     "categories": [
@@ -4409,7 +4507,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://docs.chef.io/cookstyle.html",
+    "homepage": "https://docs.chef.io/workstation/cookstyle/",
     "source": "https://github.com/chef/cookstyle",
     "pricing": null,
     "plans": null,
@@ -4774,7 +4872,7 @@
     "plans": null,
     "description": "Quality metrics for C code.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -4801,7 +4899,7 @@
     "plans": null,
     "description": "Credential Digger is a GitHub scanning tool that identifies hardcoded credentials (Passwords, API Keys, Secret Keys, Tokens, personal information, etc),  and filtering the false positive data through a machine learning model called [Password Model](https://huggingface.co/SAPOSS/password-model). This scanner is able to detect passwords and non structured tokens with a low false positive rate. ",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -4937,7 +5035,7 @@
     "plans": null,
     "description": "Potentially interesting stats on stylesheets.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -4964,7 +5062,7 @@
     "plans": null,
     "description": "A coding style formatter for CSS. Supports own configurations to make style sheets beautiful and consistent.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -4991,7 +5089,7 @@
     "plans": null,
     "description": "Does basic syntax checking and finds problematic patterns or signs of inefficiency.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -5045,7 +5143,7 @@
     "plans": null,
     "description": "Quantifies the cyclomatic complexity of R functions / expressions.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -5215,7 +5313,7 @@
     "plans": null,
     "description": "A CLI tool to prevent Kubernetes misconfigurations by ensuring that manifests and Helm charts follow best practices as well as your organization’s policies",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -5244,7 +5342,7 @@
     "plans": null,
     "description": "A static analysis security scanner for ruby written web applications. It supports Sinatra, Padrino and Ruby on Rails frameworks.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -5298,7 +5396,7 @@
     "plans": null,
     "description": "Finds unused code.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -5670,7 +5768,7 @@
     "plans": null,
     "description": "Finds usages of deprecated (Symfony) code.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -5696,6 +5794,55 @@
     "pricing": null,
     "plans": null,
     "description": "Enforce rules for dependencies between software layers.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "depwarden": {
+    "name": "DepWarden",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "dotnet",
+      "go",
+      "java",
+      "javascript",
+      "kotlin",
+      "php",
+      "python",
+      "ruby",
+      "rust",
+      "scala",
+      "shell",
+      "swift",
+      "typescript"
+    ],
+    "other": [
+      "configmanagement",
+      "ci",
+      "dockerfile",
+      "json",
+      "kubernetes",
+      "security",
+      "terraform",
+      "yaml"
+    ],
+    "licenses": [
+      "proprietary"
+    ],
+    "types": [
+      "cli",
+      "service"
+    ],
+    "homepage": "https://depwarden.in",
+    "source": null,
+    "pricing": null,
+    "plans": null,
+    "description": "Free, anonymous SCA + SAST scanner. SCA: scans npm, PyPI, Maven, Go, Cargo, Ruby, NuGet dependencies for CVEs (OSV/KEV/EPSS), typosquats and supply-chain risk. SAST: pattern + taint analysis for 15 languages, 300+ rules. No account, no source upload. Available as a web tool, zero-install CLI and GitHub Action.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
@@ -5838,7 +5985,7 @@
     "plans": null,
     "description": "Detection of design patterns in PHP code.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -6265,7 +6412,7 @@
     "plans": null,
     "description": "Dodgy is a very basic tool to run against your codebase to search for \"dodgy\" looking values. It is a series of simple regular expressions designed to detect things such as accidental SCM diff checkins, or passwords or secret keys hard coded into files.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -6292,7 +6439,7 @@
     "plans": null,
     "description": "Finds assignments/declarations with too many blank identifiers.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -6477,7 +6624,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://www.trailofbits.com/post/write-rust-lints-without-forking-clippy",
+    "homepage": "https://blog.trailofbits.com/2021/11/09/write-rust-lints-without-forking-clippy/",
     "source": "https://github.com/trailofbits/dylint",
     "pricing": null,
     "plans": null,
@@ -6537,7 +6684,7 @@
     "plans": null,
     "description": "Linter rules corresponding to the guidelines in Effective Dart",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -6749,7 +6896,7 @@
     "plans": null,
     "description": "Emerge is a source code and dependency visualizer that can be used to gather insights about source code structure, metrics, dependencies and complexity of software projects. After scanning the source code of a project it provides you an interactive web interface to explore and analyze your project by using graph structures.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -6975,7 +7122,7 @@
     "plans": null,
     "description": "Format ERB files with speed and precision.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -7168,7 +7315,7 @@
     "plans": null,
     "description": "Software complexity analysis of JavaScript-family abstract syntax trees.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -7267,7 +7414,7 @@
     "plans": null,
     "description": "An automated code reviewing engine for PHP.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -7297,6 +7444,49 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "fallow": {
+    "name": "Fallow",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "javascript",
+      "jsx",
+      "typescript"
+    ],
+    "other": [
+      "ci",
+      "css",
+      "nodejs"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "cli",
+      "ide-plugin"
+    ],
+    "homepage": "https://fallow.tools",
+    "source": "https://github.com/fallow-rs/fallow",
+    "pricing": null,
+    "plans": null,
+    "description": "Rust-native static analysis for JavaScript and TypeScript. Maps a repository as one dependency graph to find unused code and structural problems across file boundaries. Runs from the CLI or GitHub Actions, with VS Code, LSP, MCP, and Node API integrations.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Quickstart",
+        "url": "https://docs.fallow.tools/quickstart"
+      },
+      {
+        "title": "Install via npm",
+        "url": "https://www.npmjs.com/package/fallow"
+      }
+    ],
     "reviews": null,
     "demos": null,
     "wrapper": null
@@ -7349,7 +7539,7 @@
     "plans": null,
     "description": "Common Ruby idioms checker.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -7570,7 +7760,7 @@
     "plans": null,
     "description": "flakeheaven is a python linter built around flake8 to enable inheritable and complex toml configuration.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -7598,7 +7788,7 @@
     "plans": null,
     "description": "Finds possible security weaknesses.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -7825,7 +8015,7 @@
     "plans": null,
     "description": "A lint tool that checks Chef cookbooks for common problems.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -7899,7 +8089,7 @@
     "types": [
       "ide-plugin"
     ],
-    "homepage": "https://www.microfocus.com/en-us/cyberres/application-security/static-code-analyzer",
+    "homepage": "https://www.opentext.com/products/static-application-security-testing",
     "source": null,
     "pricing": "https://www.opentext.com/products/fortify-on-demand/trial",
     "plans": {
@@ -8133,7 +8323,7 @@
     "plans": null,
     "description": "A tool for measuring code complexity in Ruby class files. Its analysis generates scores based on cyclomatic complexity algorithms with no added \"opinions\".",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -8215,7 +8405,7 @@
     "plans": null,
     "description": "Gendarme inspects programs and libraries that contain code in ECMA CIL format (Mono and .NET).",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -8242,7 +8432,7 @@
     "plans": null,
     "description": "A linter for the Gherkin-Syntax written in Javascript.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -8349,6 +8539,33 @@
     "demos": null,
     "wrapper": null
   },
+  "gitstats": {
+    "name": "GitStats",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "git"
+    ],
+    "licenses": [
+      "GPL-2.0-only OR GPL-3.0-only"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/shenxianpeng/gitstats",
+    "source": "https://github.com/shenxianpeng/gitstats",
+    "pricing": null,
+    "plans": null,
+    "description": "Generates a static HTML report from a Git repository's history: activity, authors, code ownership, hotspots and bus factor, file churn, tags and lines of code over time. It also counts the commits that name an AI coding assistant (agent accounts, Co-authored-by and Assisted-by lines). Works on any Git repository with only git and Python, writes JSON, compares several repositories, and runs as a GitHub Action.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "gixy": {
     "name": "gixy",
     "categories": [
@@ -8370,7 +8587,7 @@
     "plans": null,
     "description": "A tool to analyze Nginx configuration. The main goal is to prevent misconfiguration and automate flaw detection.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -8784,7 +9001,7 @@
     "plans": null,
     "description": "Golang security analysis with a focus on minimizing false positives. It is capable of tracing the source of variables and function arguments  to determine whether input sources are safe.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -8809,7 +9026,7 @@
     "source": "https://github.com/golangci/golangci-lint",
     "pricing": null,
     "plans": null,
-    "description": "Alternative to `Go Meta Linter`: GolangCI-Lint is a linters aggregator.",
+    "description": "Fast linters runner for Go. It aggregates multiple Go linters and provides a unified configuration, caching, and output format. Alternative to `Go Meta Linter`.",
     "discussion": null,
     "deprecated": null,
     "resources": [
@@ -8818,7 +9035,9 @@
         "url": "https://www.youtube.com/watch?v=1U-Gzz4TYP0"
       }
     ],
-    "reviews": null,
+    "reviews": [
+      "https://stackshare.io/golangci-lint"
+    ],
     "demos": null,
     "wrapper": null
   },
@@ -8843,7 +9062,7 @@
     "plans": null,
     "description": "Prints out coding style mistakes in Go source code.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -8985,7 +9204,7 @@
     "plans": null,
     "description": "Concurrently runs many linters and normalises their output to a report.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -9012,7 +9231,7 @@
     "plans": null,
     "description": "An interactive tool to analyze Golang goroutine dump.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -9121,7 +9340,7 @@
     "plans": null,
     "description": "CSS Specificity Graph Generator.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -9375,7 +9594,7 @@
     "plans": null,
     "description": "HasMySecretLeaked is a project from GitGuardian that aims to help individual users and organizations search across 20 million exposed secrets to verify if their  developer secrets have leaked on public repositories, gists, and issues on GitHub projects.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -9612,26 +9831,23 @@
     "categories": [
       "linter"
     ],
-    "languages": [
-      "groovy",
-      "java",
-      "kotlin",
-      "scala"
+    "languages": [],
+    "other": [
+      "binary"
     ],
-    "other": [],
     "licenses": [
-      "Apache License 2.0"
+      "proprietary"
     ],
     "types": [
-      "cli"
+      "gui"
     ],
-    "homepage": "https://github.com/cuplv/hopper",
-    "source": "https://github.com/cuplv/hopper",
+    "homepage": "https://www.hopperapp.com/",
+    "source": null,
     "pricing": null,
     "plans": null,
-    "description": "A static analysis tool written in scala for languages that run on JVM.",
+    "description": "macOS and Linux reverse engineering tool that lets you disassemble, decompile and debug applications. Hopper displays the code using different representations, e.g. the Control Flow Graph, and the pseudo-code of a procedure. Supports Apple Silicon.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -9718,7 +9934,7 @@
     "plans": null,
     "description": "Corrects and cleans up HTML and XML documents by fixing markup errors and upgrading legacy code to modern standards.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -9995,7 +10211,7 @@
     "plans": null,
     "description": "A sound static analyzer for C/C++ code based on LLVM.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -10084,22 +10300,19 @@
     "plans": null,
     "description": "Detect ineffectual assignments in Go code.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
     "wrapper": null
   },
   "infer": {
-    "name": "Infer",
+    "name": "Infer#",
     "categories": [
       "linter"
     ],
     "languages": [
-      "c",
-      "cpp",
-      "java",
-      "objectivec"
+      "csharp"
     ],
     "other": [],
     "licenses": [
@@ -10108,11 +10321,43 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://fbinfer.com",
-    "source": "https://github.com/facebook/infer",
+    "homepage": "https://github.com/microsoft/infersharp",
+    "source": "https://github.com/microsoft/infersharp",
     "pricing": null,
     "plans": null,
-    "description": "A static analyzer for Java, C and Objective-C",
+    "description": "InferSharp (also referred to as Infer#) is an interprocedural and  scalable static code analyzer for C#. Via the capabilities of Facebook's Infer,  this tool detects null pointer dereferences and resource leaks.",
+    "discussion": null,
+    "deprecated": true,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "inkog": {
+    "name": "Inkog",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "javascript",
+      "python",
+      "typescript"
+    ],
+    "other": [
+      "skill",
+      "security"
+    ],
+    "licenses": [
+      "Apache-2.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://inkog.io",
+    "source": "https://github.com/inkog-io/inkog",
+    "pricing": null,
+    "plans": null,
+    "description": "AI agent security scanner. Detects behavioral vulnerabilities (prompt injection, infinite loops, token bombing, SQL injection via LLM) across 11 framework adapters including LangChain, CrewAI, and pydantic-ai. Audits MCP servers. Maps findings to EU AI Act, OWASP LLM Top 10, and NIST AI RMF.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
@@ -10252,7 +10497,7 @@
     "plans": null,
     "description": "Jakstab is an Abstract Interpretation-based, integrated disassembly and static analysis framework for designing analyses on executables and recovering reliable control flow graphs.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -10517,6 +10762,55 @@
     "demos": null,
     "wrapper": null
   },
+  "jscpd": {
+    "name": "jscpd",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "c",
+      "csharp",
+      "cpp",
+      "go",
+      "java",
+      "javascript",
+      "jsx",
+      "kotlin",
+      "php",
+      "python",
+      "ruby",
+      "rust",
+      "scala",
+      "swift",
+      "typescript"
+    ],
+    "other": [
+      "ci",
+      "css",
+      "html",
+      "json",
+      "markdown",
+      "nodejs",
+      "yaml"
+    ],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://jscpd.dev",
+    "source": "https://github.com/kucherenko/jscpd",
+    "pricing": null,
+    "plans": null,
+    "description": "Copy/paste detector for programming source code. Finds duplicated blocks in 200+ file formats — JavaScript, TypeScript, Python, Java, C#, C/C++, Go, Rust, PHP, Ruby and more — using token-based detection. Supports configurable thresholds and ignore patterns, git blame integration, and reporters for console, HTML, JSON, Markdown, SARIF and badges. Runs via CLI, in CI pipelines, or as a library; bundled by MegaLinter and Codacy.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "jshint": {
     "name": "jshint",
     "categories": [
@@ -10538,7 +10832,7 @@
     "plans": null,
     "description": "Detect errors and potential problems in JavaScript code and enforce your team's coding conventions.",
     "discussion": "https://github.com/analysis-tools-dev/static-analysis/issues/223",
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -10593,7 +10887,7 @@
     "plans": null,
     "description": "A JSON parser and validator with a CLI. Standalone version of jsonlint.com",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -10732,6 +11026,103 @@
     "demos": null,
     "wrapper": null
   },
+  "kimun": {
+    "name": "Kimün",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "c",
+      "csharp",
+      "cpp",
+      "clojure",
+      "dart",
+      "elixir",
+      "erlang",
+      "fsharp",
+      "go",
+      "haskell",
+      "java",
+      "javascript",
+      "julia",
+      "kotlin",
+      "lua",
+      "nim",
+      "objectivec",
+      "ocaml",
+      "perl",
+      "php",
+      "python",
+      "r",
+      "ruby",
+      "rust",
+      "scala",
+      "shell",
+      "swift",
+      "typescript"
+    ],
+    "other": [
+      "git"
+    ],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://kimun.tools/en/",
+    "source": "https://github.com/lnds/kimun",
+    "pricing": null,
+    "plans": null,
+    "description": "Code health metrics from the terminal. Grades a project from A++ to F-- on cognitive complexity, duplication, indentation, Halstead effort and file size, and lists the files to look at first. Separate commands report cyclomatic and cognitive complexity per function, duplicates, code smells and the Maintainability Index. From git history it finds hotspots, code ownership and temporal coupling, and measures which files a diff reaches. A CI gate fails when a changed file gets worse.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "kin": {
+    "name": "Kin",
+    "categories": [
+      "meta"
+    ],
+    "languages": [
+      "c",
+      "csharp",
+      "cpp",
+      "go",
+      "java",
+      "javascript",
+      "kotlin",
+      "php",
+      "python",
+      "ruby",
+      "rust",
+      "swift",
+      "typescript"
+    ],
+    "other": [
+      "terraform"
+    ],
+    "licenses": [
+      "Apache-2.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://kinlab.ai",
+    "source": "https://github.com/firelock-ai/kin",
+    "pricing": null,
+    "plans": null,
+    "description": "A graph-native code repository for people and AI agents. Kin parses supported languages into code entities and their relationships (calls, references, imports, inheritance) and versions them with the source. The kin CLI and an MCP server query the same graph for callers, references, traces and what a change might affect. Imports existing Git history. Public beta.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "kiuwan": {
     "name": "Kiuwan",
     "categories": [
@@ -10829,7 +11220,7 @@
     "plans": null,
     "description": "A tool that listens to changes in Kubernetes resources and runs linting rules against them. Identify and debug erroneous objects and nudge objects in line with the policies as both change over time. Klint helps us encode checks and proactively alert teams when they need to take action.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -10889,7 +11280,7 @@
     "plans": null,
     "description": "CLI tool for learning commands from your terminal. kmdr delivers a break down of commands with every attribute explained.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -10939,8 +11330,8 @@
       "cli",
       "ide-plugin"
     ],
-    "homepage": "https://facebook.github.io/ktfmt/",
-    "source": "https://github.com/facebook/ktfmt",
+    "homepage": "https://kotlin.github.io/ktfmt/",
+    "source": "https://github.com/Kotlin/ktfmt",
     "pricing": null,
     "plans": null,
     "description": "A program that reformats Kotlin source code to comply with the common community standard for Kotlin code conventions.\nA ktfmt IntelliJ plugin is available from the plugin repository. To install it, go to your IDE's settings and select the Plugins category. Click the Marketplace tab, search for the ktfmt plugin, and click the Install button.",
@@ -11028,7 +11419,7 @@
     "plans": null,
     "description": "A linter for Kubernetes resources with a customizable rule set. You define a list of rules that you would like to validate against your  resources and kube-lint will evaluate those rules against them.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -11237,12 +11628,12 @@
       "cli"
     ],
     "homepage": "https://github.com/HzaCode/Langlint",
-    "source": "https://github.com/HzaCode/Langlint",
+    "source": null,
     "pricing": null,
     "plans": null,
     "description": "Automated translation platform for code comments and docstrings across 20+ file types. Eliminates language barriers in international software collaboration. Supports 100+ language pairs with syntax protection. Integrates into CI/CD pipelines like Ruff. 10-20x faster with concurrent processing.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -11425,7 +11816,7 @@
     "plans": null,
     "description": "A Java library that allows existing tools to analyse the evolution of software systems by providing a common API for different version control systems and issue trackers.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -11452,7 +11843,7 @@
     "plans": null,
     "description": "An opinionated, community-driven set of lint rules for Dart and Flutter projects. Like pedantic but stricter",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -11566,6 +11957,36 @@
     "demos": null,
     "wrapper": null
   },
+  "lintlang": {
+    "name": "LintLang",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "skill",
+      "configfile",
+      "markdown",
+      "yaml"
+    ],
+    "licenses": [
+      "Apache License 2.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://lintlang.ai/",
+    "source": "https://github.com/hermes-labs-ai/lintlang",
+    "pricing": null,
+    "plans": null,
+    "description": "Static linter for natural-language instructions that control AI agents. Detects ambiguous tool descriptions, missing limits, conflicting directives, and schema gaps in local files and CI without model or network calls.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "lintr": {
     "name": "lintr",
     "categories": [
@@ -11614,7 +12035,7 @@
     "plans": null,
     "description": "Parse lint errors and report them to Github as comments on a pull request.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -11709,7 +12130,7 @@
     "plans": null,
     "description": "Report long lines.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -11818,7 +12239,7 @@
     "plans": null,
     "description": "lualint performs luac-based static analysis of global variable usage in Lua source code.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -12125,7 +12546,7 @@
     "plans": null,
     "description": "Check McCabe complexity.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -12179,7 +12600,7 @@
     "plans": null,
     "description": "CommonMark compliant Markdown formatter",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -12482,7 +12903,7 @@
     "plans": null,
     "description": "Finds commonly misspelled English words.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -12509,7 +12930,7 @@
     "plans": null,
     "description": "Quick tool for fixing common misspellings, typos in source code.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -12746,7 +13167,7 @@
     "plans": null,
     "description": "A symbolic execution framework with batteries included, can be used to find and exploit vulnerabilities in smart contracts automatically.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": [
       {
         "title": "The Ether Wars: Exploits, counter exploits and honeypots - Bernhard Mueller, DEF CON 27 Conference",
@@ -12873,7 +13294,7 @@
     "plans": null,
     "description": "Finds unused arguments in function declarations.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -12936,6 +13357,35 @@
     "demos": null,
     "wrapper": null
   },
+  "nestjs-doctor": {
+    "name": "nestjs-doctor",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "javascript",
+      "typescript"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli",
+      "ide-plugin"
+    ],
+    "homepage": "https://github.com/RoloBits/nestjs-doctor",
+    "source": "https://github.com/RoloBits/nestjs-doctor",
+    "pricing": null,
+    "plans": null,
+    "description": "Static analysis tool for NestJS applications. Detects anti-patterns across security, performance, correctness, and architecture with 30+ built-in rules. Outputs a 0-100 health score. Includes module graph visualization, endpoint dependency graphs, and database schema analysis. CLI and VS Code extension.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "net-analyzers": {
     "name": ".NET Analyzers",
     "categories": [
@@ -12979,7 +13429,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://neurolint.dev",
+    "homepage": "https://github.com/Alcatecablee/Neurolint-CLI#readme",
     "source": "https://github.com/Alcatecablee/Neurolint-CLI",
     "pricing": null,
     "plans": null,
@@ -12989,7 +13439,7 @@
     "resources": [
       {
         "title": "CLI Documentation",
-        "url": "https://neurolint.dev"
+        "url": "https://github.com/Alcatecablee/Neurolint-CLI/blob/main/CLI_USAGE.md"
       },
       {
         "title": "GitHub Marketplace Action",
@@ -13049,7 +13499,7 @@
     "plans": null,
     "description": "A static application testing (SAST) tool that can find insecure code patterns in your node.js applications using simple pattern matcher from libsast and syntax-aware semantic code pattern search tool semgrep.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -13080,7 +13530,7 @@
     "plans": null,
     "description": "A static security code scanner for Node.js applications powered by libsast and semgrep that builds on the njsscan cli tool. It features a UI with various dashboards about an application's security status.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -13242,6 +13692,71 @@
     "demos": null,
     "wrapper": null
   },
+  "offensive360": {
+    "name": "Offensive360",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "apex",
+      "c",
+      "csharp",
+      "cpp",
+      "cobol",
+      "dart",
+      "elixir",
+      "go",
+      "groovy",
+      "java",
+      "javascript",
+      "kotlin",
+      "lua",
+      "objectivec",
+      "perl",
+      "php",
+      "python",
+      "r",
+      "ruby",
+      "rust",
+      "scala",
+      "swift",
+      "typescript",
+      "vbnet"
+    ],
+    "other": [
+      "ci",
+      "security"
+    ],
+    "licenses": [
+      "proprietary"
+    ],
+    "types": [
+      "service"
+    ],
+    "homepage": "https://offensive360.com",
+    "source": null,
+    "pricing": "https://offensive360.com/pricing/",
+    "plans": {
+      "free": false,
+      "oss": false
+    },
+    "description": "Offensive360 is an application security platform combining SAST (taint/data-flow analysis across 60+ languages), DAST, SCA, mobile app scanning (Android/iOS), malware/binary analysis and license compliance. Findings include the full source-to-sink trace and a secure code example. Deploys as SaaS or as a self-hosted virtual appliance for offline/air-gapped networks. SARIF output; CI/CD (GitHub Actions, GitLab, Jenkins, Azure DevOps) and IDE integrations.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Product documentation and knowledge base",
+        "url": "https://offensive360.com/knowledge-base/"
+      }
+    ],
+    "reviews": [
+      "https://www.g2.com/products/offensive360/reviews",
+      "https://www.gartner.com/reviews/market/application-security-testing/vendor/offensive-360/product/offensive-360",
+      "https://www.peerspot.com/products/offensive-360-reviews"
+    ],
+    "demos": null,
+    "wrapper": null
+  },
   "openrewrite": {
     "name": "OpenRewrite",
     "categories": [
@@ -13337,6 +13852,44 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "opentaint": {
+    "name": "OpenTaint",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "java",
+      "kotlin"
+    ],
+    "other": [
+      "ci",
+      "security",
+      "spring",
+      "yaml"
+    ],
+    "licenses": [
+      "Apache 2.0 / MIT"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://opentaint.org",
+    "source": "https://github.com/seqra/opentaint",
+    "pricing": null,
+    "plans": null,
+    "description": "Open-source taint analysis engine for Java and Kotlin applications, formerly Seqra. Tracks data flow across function boundaries to find security vulnerabilities, with Spring support, YAML rules, and CI integrations.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "OpenTaint documentation",
+        "url": "https://github.com/seqra/opentaint/blob/main/docs/README.md"
+      }
+    ],
     "reviews": null,
     "demos": null,
     "wrapper": null
@@ -13677,7 +14230,7 @@
     "plans": null,
     "description": "A Static Security Scanner.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -13813,7 +14366,7 @@
     "plans": null,
     "description": "Static analysis Lint-type tool to improve your OO Ruby code.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -13842,7 +14395,7 @@
     "plans": null,
     "description": "Perl-Analyzer is a set of programs and modules that allow users to analyze and visualize Perl  codebases by providing information about namespaces and their relations, dependencies,  inheritance, and methods implemented, inherited, and redefined in packages,  as well as calls to methods from parent packages via SUPER. ",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -14071,7 +14624,7 @@
     "plans": null,
     "description": "Checks for weak assumptions.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -14233,7 +14786,7 @@
     "plans": null,
     "description": "Refactoring helper.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -14287,7 +14840,7 @@
     "plans": null,
     "description": "PHP spell check library.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -14616,7 +15169,7 @@
     "plans": null,
     "description": "A tool for quickly measuring the size and analyzing the structure of a PHP project.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -14778,7 +15331,7 @@
     "plans": null,
     "description": "PHPQA all-in-one Analyzer CLI tool.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -15349,7 +15902,7 @@
     "plans": null,
     "description": "A static analysis tool for security purposes.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -15430,7 +15983,7 @@
     "plans": null,
     "description": "PromQL validator written in Python. It can be used to validate that PromQL expressions are written as expected.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -15575,7 +16128,7 @@
     "plans": null,
     "description": "A static verifier for Rust, based on the Viper verification infrastructure. By default Prusti verifies absence of panics by proving that statements such as unreachable!() and panic!() are unreachable.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -15827,12 +16380,21 @@
       "linter"
     ],
     "languages": [
+      "dotnet",
       "c",
       "csharp",
       "cpp",
-      "java"
+      "go",
+      "java",
+      "javascript",
+      "typescript"
     ],
-    "other": [],
+    "other": [
+      "configmanagement",
+      "embedded",
+      "json",
+      "xml"
+    ],
     "licenses": [
       "proprietary"
     ],
@@ -15843,10 +16405,14 @@
     "source": null,
     "pricing": "https://pvs-studio.com/en/order/license/",
     "plans": null,
-    "description": "A ([conditionally free](https://pvs-studio.com/en/order/open-source-license) for FOSS and individual developers) static analysis of C, C++, C# and Java code. For advertising purposes [you can propose a large FOSS project for analysis by PVS employees](https://github.com/viva64/pvs-studio-check-list). Supports CWE mapping, OWASP ASVS, MISRA, AUTOSAR and SEI CERT coding standards.",
+    "description": "PVS-Studio is a SAST tool that enhances code quality, security, and safety. Supported languages: C, C++, C#, Java, Go, JavaScript and TypeScript. Works on Windows, macOS, Linux. Supports intermodular, incremental, data flow analysis, taint analysis. Provides compliance with OWASP TOP 10, MISRA C/C++, CWE, and SEI CERT. [Conditionally free for FOSS](https://pvs-studio.com/en/order/open-source-license/) and has [trial version](https://pvs-studio.com/en/pvs-studio/try-free/).",
     "discussion": null,
     "deprecated": null,
     "resources": [
+      {
+        "title": "Get started with PVS-Studio static analyzer",
+        "url": "https://pvs-studio.com/en/blog/posts/1358/"
+      },
       {
         "title": "PVS-Studio is now in Compiler Explorer!",
         "url": "https://www.youtube.com/watch?v=hw5npZqB3b8"
@@ -16026,7 +16592,7 @@
     "plans": null,
     "description": "Code audit tool for Python and JavaScript. Wraps pycodestyle, pydocstyle, PyFlakes, Mccabe, Pylint, and more",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -16085,7 +16651,7 @@
     "plans": null,
     "description": "A static code analyzer / language server for Python, written in Rust, focused on type checking and readable output.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -16144,7 +16710,7 @@
     "plans": null,
     "description": "A fast, scalable type checker for large Python codebases. Pyre-check has been superseded by Pyrefly, its next iteration.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -16257,6 +16823,38 @@
       {
         "title": "Workshop: Graham Bleaney - Pysa to Identify Python Vulnerabilities - DEF CON 28SM AppSec Village",
         "url": "https://www.youtube.com/watch?v=8I3zlvtpOww"
+      }
+    ],
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "pyscn": {
+    "name": "pyscn",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "python"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://ludo-technologies.github.io/pyscn/",
+    "source": "https://github.com/ludo-technologies/pyscn",
+    "pricing": null,
+    "plans": null,
+    "description": "Intelligent Python code quality analyzer with CFG-based cyclomatic complexity analysis, dead code detection, clone detection (Type 1-4), and coupling metrics. Uses tree-sitter for parsing. Written in Go.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "pyscn documentation",
+        "url": "https://ludo-technologies.github.io/pyscn/"
       }
     ],
     "reviews": null,
@@ -16718,7 +17316,7 @@
     "plans": null,
     "description": "Performance optimizer for R code (with GUI).",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -16877,7 +17475,7 @@
     "plans": null,
     "description": "The free Visual Studio 2015 extension for C# and VB.NET refactorings, including code best practice analyzers.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -17029,6 +17627,59 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "repowise": {
+    "name": "Repowise",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "c",
+      "csharp",
+      "cpp",
+      "dart",
+      "go",
+      "java",
+      "javascript",
+      "kotlin",
+      "php",
+      "python",
+      "ruby",
+      "rust",
+      "scala",
+      "sql",
+      "swift",
+      "typescript"
+    ],
+    "other": [
+      "ci",
+      "git",
+      "security"
+    ],
+    "licenses": [
+      "AGPL-3.0"
+    ],
+    "types": [
+      "cli",
+      "service",
+      "ide-plugin"
+    ],
+    "homepage": "https://www.repowise.dev",
+    "source": "https://github.com/repowise-dev/repowise",
+    "pricing": null,
+    "plans": null,
+    "description": "Deterministic, zero-LLM code-health analysis. Scores every file 1-10 for defect risk, maintainability, and performance from 25 markers: McCabe complexity, LCOM4 cohesion, god classes, Rabin-Karp clone detection, change entropy, and untested hotspots. Adds a dependency graph, dead-code detection, git-history signals (churn, ownership, co-change), and concrete graph-aware refactoring plans. Ships as a CLI, an MCP server, and a VS Code extension across 15 languages.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Code health documentation",
+        "url": "https://github.com/repowise-dev/repowise/blob/main/docs/CODE_HEALTH.md"
+      }
+    ],
     "reviews": null,
     "demos": null,
     "wrapper": null
@@ -17270,7 +17921,7 @@
     "plans": null,
     "description": "Roodi stands for Ruby Object Oriented Design Inferometer. It parses your Ruby code and warns you about design issues you have based on the checks that it has configured.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -17326,7 +17977,7 @@
     "plans": null,
     "description": "Project that focuses on the identification of potential vulnerabilities such as SQL injection, cross-site scripting (XSS), CSRF, cryptography weaknesses, hardcoded passwords and many more.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -17468,7 +18119,7 @@
     "plans": null,
     "description": "Ruby classes interactive dependency graph generator.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -17718,7 +18369,7 @@
     "plans": null,
     "description": "Read and apply the suggestions made by rustc (and third-party lints, like those offered by clippy).",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -17999,7 +18650,7 @@
     "plans": null,
     "description": "Scalastyle examines your Scala code and indicates potential problems with it.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -18152,6 +18803,33 @@
     "demos": null,
     "wrapper": null
   },
+  "scythe": {
+    "name": "scythe",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "sql"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/Goldziher/scythe",
+    "source": "https://github.com/Goldziher/scythe",
+    "pricing": null,
+    "plans": null,
+    "description": "Polyglot SQL compiler and linter that generates type-safe code from SQL with schema-aware linting.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "security-code-scan": {
     "name": "Security Code Scan",
     "categories": [
@@ -18177,6 +18855,50 @@
     "pricing": null,
     "plans": null,
     "description": "Security code analyzer for C# and VB.NET. Detects various security vulnerability patterns: SQLi, XSS, CSRF, XXE, Open Redirect, etc. Integrates into Visual Studio 2015 and newer. Detects various security vulnerability patterns: SQLi, XSS, CSRF, XXE, Open Redirect, etc.",
+    "discussion": null,
+    "deprecated": true,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "sem": {
+    "name": "sem",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "c",
+      "csharp",
+      "cpp",
+      "go",
+      "java",
+      "javascript",
+      "jsx",
+      "kotlin",
+      "lua",
+      "php",
+      "python",
+      "ruby",
+      "rust",
+      "scala",
+      "swift",
+      "typescript"
+    ],
+    "other": [
+      "git"
+    ],
+    "licenses": [
+      "FSL-1.1-ALv2"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/Ataraxy-Labs/sem",
+    "source": "https://github.com/Ataraxy-Labs/sem",
+    "pricing": null,
+    "plans": null,
+    "description": "Semantic version control CLI that provides entity-level diffs, blame, and impact analysis on top of git. Uses tree-sitter to parse 26 languages and builds a cross-file dependency graph with structural hashing. Commands include sem diff, sem blame, sem graph, and sem impact for blast-radius analysis of code changes.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
@@ -18283,44 +19005,6 @@
       {
         "title": "It's time to ignore 98% of dependency alerts",
         "url": "https://r2c.dev/blog/2022/introducing-semgrep-supply-chain/"
-      }
-    ],
-    "reviews": null,
-    "demos": null,
-    "wrapper": null
-  },
-  "seqra": {
-    "name": "Seqra",
-    "categories": [
-      "linter"
-    ],
-    "languages": [
-      "java",
-      "kotlin"
-    ],
-    "other": [
-      "ci",
-      "security",
-      "spring",
-      "yaml"
-    ],
-    "licenses": [
-      "MIT"
-    ],
-    "types": [
-      "cli"
-    ],
-    "homepage": "https://seqra.dev",
-    "source": "https://github.com/seqra/seqra",
-    "pricing": null,
-    "plans": null,
-    "description": "Security-focused static analyzer for Java and Kotlin web applications. Analyzes bytecode with Semgrep-style YAML rules and CodeQL-grade dataflow (with first-class Spring support) to find vulnerabilities that source-only scanners miss.",
-    "discussion": null,
-    "deprecated": null,
-    "resources": [
-      {
-        "title": "Static Analysis Showdown: How Semgrep, CodeQL, and Seqra Handle XSS Detection",
-        "url": "https://seqra.dev/blog/semgrep-vs-codeql-vs-seqra"
       }
     ],
     "reviews": null,
@@ -18616,6 +19300,38 @@
     "demos": null,
     "wrapper": null
   },
+  "skillsaw": {
+    "name": "skillsaw",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "skill",
+      "configfile",
+      "json",
+      "markdown",
+      "security",
+      "yaml"
+    ],
+    "licenses": [
+      "Apache License 2.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://skillsaw.org/",
+    "source": "https://github.com/stbenjam/skillsaw",
+    "pricing": null,
+    "plans": null,
+    "description": "Configurable linter for the files that steer AI coding agents, including skills, plugins, instruction files, hooks, and related configuration. Detects structural, content-quality, and security issues and provides deterministic autofixes, baselines, and CI-ready output.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "skunk": {
     "name": "Skunk",
     "categories": [
@@ -18697,7 +19413,7 @@
     "plans": null,
     "description": "Sleek is a CLI tool for formatting SQL.  It helps you maintain a consistent style across your SQL code, enhancing readability and productivity. The heavy lifting is done by the sqlformat crate.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -18828,7 +19544,7 @@
     "plans": null,
     "description": "Security-focused static analysis for the Phoenix Framework.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -18882,7 +19598,7 @@
     "plans": null,
     "description": "Solium is a linter to identify and fix style and security issues in Solidity smart contracts.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -19348,7 +20064,7 @@
     "plans": null,
     "description": "CSS Specificity Graph Generator.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -19611,6 +20327,40 @@
     "demos": null,
     "wrapper": null
   },
+  "squirrelscan": {
+    "name": "squirrelscan",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "javascript"
+    ],
+    "other": [
+      "ci",
+      "css",
+      "html",
+      "security",
+      "uses-llm"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "cli",
+      "service"
+    ],
+    "homepage": "https://squirrelscan.com",
+    "source": "https://github.com/squirrelscan/squirrelscan",
+    "pricing": null,
+    "plans": null,
+    "description": "squirrelscan is a website QA tool built for coding agents such as Claude Code and Cursor. Its squirrel CLI crawls a live site and runs 260+ audit rules across SEO, performance, security, accessibility, structured data and agent experience, then returns exact source-mapped fixes. Runs from the terminal, CI, the cloud, or over MCP.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "stan": {
     "name": "Stan",
     "categories": [
@@ -19661,7 +20411,7 @@
     "plans": null,
     "description": "An npm module that checks for Javascript Styleguide issues.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -19802,7 +20552,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://securityreviewer.atlassian.net/wiki/spaces/KC/pages/196633/Static+Reviewer",
+    "homepage": "https://securityreviewer.net/kb/products",
     "source": null,
     "pricing": null,
     "plans": null,
@@ -20043,7 +20793,7 @@
     "plans": null,
     "description": "Static analyzer for Go that recommends struct field rearrangements to provide for maximum space/allocation efficiency",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -20138,7 +20888,7 @@
     "plans": null,
     "description": "Combination of multiple linters to install as a GitHub Action.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": [
       {
         "title": "The Easiest Way to Lint Your Code: GitHub Super Linter Deep Dive",
@@ -20397,7 +21147,7 @@
     "plans": null,
     "description": "A static/symbolic Tool for finding bugs in (browser) code. It uses the LLVM AST to find bugs like uninitialized memory access.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -20619,7 +21369,7 @@
     "plans": null,
     "description": "Tencent Cloud Code Analysis (TCA for short, code-named CodeDog inside the company early) is a comprehensive platform for code analysis and issue tracking. TCA consist of three components, server, web and client. It integrates of a number of self-developed tools, and also supports dynamic integration of code analysis tools in various programming languages.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -20842,6 +21592,41 @@
     "demos": null,
     "wrapper": null
   },
+  "thailint": {
+    "name": "thailint",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "javascript",
+      "python",
+      "rust",
+      "shell",
+      "typescript"
+    ],
+    "other": [
+      "ai-generated-code",
+      "terraform",
+      "yaml"
+    ],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://thai-lint.readthedocs.io/",
+    "source": "https://github.com/be-wise-be-kind/thai-lint",
+    "pricing": null,
+    "plans": null,
+    "description": "Multi-language linter targeting anti-patterns that appear disproportionately in AI-generated code: duplicated blocks across files, excessive nesting, magic numbers, Single Responsibility violations, and linter suppressions added without justification. Covers Python, TypeScript, JavaScript and Rust from one configuration, ships a pre-commit hook per rule, and emits text, JSON or SARIF for CI.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "threatmapper": {
     "name": "ThreatMapper",
     "categories": [
@@ -20945,8 +21730,45 @@
     "plans": null,
     "description": "A Rake task gem that helps you find the unused routes and controller actions for your Rails 3+ app.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "trentclaw": {
+    "name": "trentclaw",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "skill",
+      "ci",
+      "security"
+    ],
+    "licenses": [
+      "Apache License 2.0"
+    ],
+    "types": [
+      "service"
+    ],
+    "homepage": "https://trent.ai/",
+    "source": "https://github.com/trnt-ai/trent-openclaw-security-assessment",
+    "pricing": null,
+    "plans": {
+      "free": true,
+      "oss": true
+    },
+    "description": "Security assessment for your OpenClaw agent environment. Flags misconfigurations and risky skills — prompt injection, permission escalation, data exfiltration — and the chained attack paths between them, across gateway config, tool permissions, MCP servers, and plugins.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Product homepage",
+        "url": "https://trent.ai/"
+      }
+    ],
     "reviews": null,
     "demos": null,
     "wrapper": null
@@ -21132,7 +21954,7 @@
     "plans": null,
     "description": "A fast and accurate static analysis solution for C/C++, C#, Lua codes provided by Tencent. Using GPLv3 license.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -21191,7 +22013,7 @@
     "plans": null,
     "description": "A set of TSLint rules inspired by the Clean Code handbook.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -21245,7 +22067,7 @@
     "plans": null,
     "description": "T-SQL-specific linter.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -21331,7 +22153,7 @@
     "plans": null,
     "description": "A static analysis engine.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -21358,7 +22180,7 @@
     "plans": null,
     "description": "twig-lint is a lint tool for your twig files.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -21527,7 +22349,7 @@
     "plans": null,
     "description": "Detect redundant type conversions.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -21557,7 +22379,7 @@
     "plans": null,
     "description": "Language-independent tool for massive, automatic, programmable refactoring based on simple pattern definitions.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -21800,6 +22622,34 @@
     "pricing": null,
     "plans": null,
     "description": "Find unused global variables and constants.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "vastlint": {
+    "name": "vastlint",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "xml"
+    ],
+    "licenses": [
+      "proprietary"
+    ],
+    "types": [
+      "cli",
+      "service"
+    ],
+    "homepage": "https://vastlint.org",
+    "source": null,
+    "pricing": null,
+    "plans": null,
+    "description": "Validator and linter for VAST XML ad tags. Checks wrappers and inline tags against the IAB VAST 2.0-4.3 specification and can auto-fix deterministic issues.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
@@ -22105,7 +22955,7 @@
     "plans": null,
     "description": "chap analyzes un-instrumented ELF core files for leaks, memory growth, and corruption.  It is sufficiently reliable that it can be used in automation to catch leaks before  they are committed. As an interactive tool, it helps explain memory growth,  can identify some forms of corruption, and supplements a debugger  by giving the status of various memory locations. ",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -22219,6 +23069,37 @@
     "demos": null,
     "wrapper": null
   },
+  "wakaru": {
+    "name": "Wakaru",
+    "categories": [
+      "formatter"
+    ],
+    "languages": [
+      "javascript",
+      "typescript"
+    ],
+    "other": [],
+    "licenses": [
+      "Apache License 2.0"
+    ],
+    "types": [
+      "cli",
+      "service"
+    ],
+    "homepage": "https://wakarujs.com",
+    "source": "https://github.com/pionxzh/wakaru",
+    "pricing": null,
+    "plans": null,
+    "description": "JavaScript decompiler that turns bundled, minified, transpiled production code back into readable modules. Unpacks webpack, esbuild, Metro, Browserify, SystemJS, and AMD/UMD bundles, then reverses minifier artifacts and Babel/TypeScript/SWC helpers (async/await, classes, optional chaining, and more). Written in Rust; runs as a CLI or fully in-browser via WebAssembly.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": [
+      "https://wakarujs.com/playground"
+    ],
+    "wrapper": null
+  },
   "wala": {
     "name": "WALA",
     "categories": [
@@ -22267,8 +23148,8 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://securityonline.info/owasp-wap-web-application-protection-project",
-    "source": "https://awap.sourceforge.io",
+    "homepage": "https://awap.sourceforge.net/",
+    "source": "https://awap.sourceforge.net/",
     "pricing": null,
     "plans": null,
     "description": "Tool to detect and correct input validation vulnerabilities in PHP (4.0 or higher) web applications and predicts false positives by combining static analysis and data mining.",
@@ -22361,6 +23242,50 @@
     "demos": null,
     "wrapper": null
   },
+  "weave": {
+    "name": "weave",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "c",
+      "csharp",
+      "cpp",
+      "go",
+      "java",
+      "javascript",
+      "jsx",
+      "kotlin",
+      "lua",
+      "php",
+      "python",
+      "ruby",
+      "rust",
+      "scala",
+      "swift",
+      "typescript"
+    ],
+    "other": [
+      "git"
+    ],
+    "licenses": [
+      "FSL-1.1-ALv2"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/Ataraxy-Labs/weave",
+    "source": "https://github.com/Ataraxy-Labs/weave",
+    "pricing": null,
+    "plans": null,
+    "description": "Entity-level semantic merge driver for git. Resolves false conflicts that line-based merge produces when independent changes touch the same file. Parses functions and classes via tree-sitter, matches by name, and merges at the entity level. Benchmarked at 100% clean merges vs git's 48% on a 31-scenario suite.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "weeder": {
     "name": "Weeder",
     "categories": [
@@ -22412,7 +23337,7 @@
     "plans": null,
     "description": "A fast and robust semantic search tool for C and C++ codebases. It is designed to help security researchers identify interesting functionality in large codebases.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -22530,7 +23455,7 @@
     "plans": null,
     "description": ".NET Compiler Platform (\"Roslyn\") diagnostic analyzers and code fixes.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -22838,6 +23763,35 @@
     "pricing": null,
     "plans": null,
     "description": "A lightweight static security analysis tool for modern Perl Apps",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "zizmor": {
+    "name": "zizmor",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "ci",
+      "security",
+      "yaml"
+    ],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://zizmor.sh",
+    "source": "https://github.com/zizmorcore/zizmor",
+    "pricing": null,
+    "plans": null,
+    "description": "Static analysis for GitHub Actions workflows, detecting insecure CI/CD patterns such as excessive token permissions, template injection risks, credential persistence, and unsafe workflow references.",
     "discussion": null,
     "deprecated": null,
     "resources": null,

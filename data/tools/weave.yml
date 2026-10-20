@@ -1,0 +1,32 @@
+name: weave
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - csharp
+  - go
+  - java
+  - javascript
+  - jsx
+  - kotlin
+  - lua
+  - php
+  - python
+  - ruby
+  - rust
+  - scala
+  - swift
+  - typescript
+  - git
+license: FSL-1.1-ALv2
+types:
+  - cli
+source: "https://github.com/Ataraxy-Labs/weave"
+homepage: "https://github.com/Ataraxy-Labs/weave"
+description: >-
+  Entity-level semantic merge driver for git. Resolves false conflicts
+  that line-based merge produces when independent changes touch the same
+  file. Parses functions and classes via tree-sitter, matches by name,
+  and merges at the entity level. Benchmarked at 100% clean merges
+  vs git's 48% on a 31-scenario suite.

@@ -1,0 +1,38 @@
+name: jscpd
+categories:
+  - linter
+tags:
+  - c
+  - ci
+  - cpp
+  - csharp
+  - css
+  - go
+  - html
+  - java
+  - javascript
+  - json
+  - jsx
+  - kotlin
+  - markdown
+  - nodejs
+  - php
+  - python
+  - ruby
+  - rust
+  - scala
+  - swift
+  - typescript
+  - yaml
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/kucherenko/jscpd'
+homepage: 'https://jscpd.dev'
+description: >-
+  Copy/paste detector for programming source code. Finds duplicated blocks in
+  200+ file formats — JavaScript, TypeScript, Python, Java, C#, C/C++, Go,
+  Rust, PHP, Ruby and more — using token-based detection. Supports
+  configurable thresholds and ignore patterns, git blame integration, and
+  reporters for console, HTML, JSON, Markdown, SARIF and badges. Runs via CLI,
+  in CI pipelines, or as a library; bundled by MegaLinter and Codacy.

@@ -31,7 +31,7 @@ tags:
 license: proprietary
 types:
   - ide-plugin
-homepage: https://www.microfocus.com/en-us/cyberres/application-security/static-code-analyzer
+homepage: https://www.opentext.com/products/static-application-security-testing
 pricing: https://www.opentext.com/products/fortify-on-demand/trial
 plans:
   free: false

@@ -1,0 +1,21 @@
+name: Wakaru
+categories:
+  - formatter
+tags:
+  - javascript
+  - typescript
+license: Apache License 2.0
+types:
+  - cli
+  - service
+source: "https://github.com/pionxzh/wakaru"
+homepage: "https://wakarujs.com"
+demos:
+  - "https://wakarujs.com/playground"
+description: >-
+  JavaScript decompiler that turns bundled, minified, transpiled production
+  code back into readable modules. Unpacks webpack, esbuild, Metro,
+  Browserify, SystemJS, and AMD/UMD bundles, then reverses minifier artifacts
+  and Babel/TypeScript/SWC helpers (async/await, classes, optional chaining,
+  and more). Written in Rust; runs as a CLI or fully in-browser via
+  WebAssembly.

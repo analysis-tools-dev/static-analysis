@@ -6,8 +6,9 @@ tags:
   - container
   - dockerfile
   - python
+  - go
   - security
-license: AGPL-3.0
+license: Apache-2.0
 types:
   - cli
 source: 'https://github.com/shivasurya/code-pathfinder'
@@ -16,6 +17,6 @@ resources:
   - title: Code Pathfinder Rules Registry
     url: https://codepathfinder.dev/registry
 description: >-
-  An open-source security suite aiming to combine structural code analysis with 
-  AI-powered vulnerability detection. Built for advanced structural search, derive 
-  insights, find vulnerabilities in code.
+  Opensource Static Code Analysis for security teams with Inter file dataflow 
+  taint analysis. Built for finding vulnerabilities, advanced structural search, 
+  derive insights and supports MCP server.

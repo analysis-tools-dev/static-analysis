@@ -1,38 +1,77 @@
 # Thank you for contributing
 
-Please feel free to open a pull request if you know of a static analysis tool that
-is not mentioned here.  
-If you're in doubt if a tool is a good fit for the list, **don't open an issue,
-but create a pull request right away** because that's easier to handle. Thanks!
-:smiley:
+We welcome pull requests for static analysis tools that meet the requirements
+below. **Please verify all criteria before submitting a tool.** If a tool does
+not qualify yet, wait until it does rather than opening a pull request or issue.
 
 ### Requirements
 
-Each tool on the list should be
+Before submitting, each tool must
 
-- actively maintained (more than one contributor)
-- actively used (have **more than 20 stars on Github or similar impact**)
-- relatively mature (project exists for at least three months)
+- have existed for at least six months
+- have at least 20 stars on GitHub
+- have more than one human contributor
+
+Bot and automation accounts do not count toward the contributor minimum. The
+check excludes GitHub bot accounts, logins ending in `[bot]`, and known automation
+accounts such as `claude`, `dependabot`, and `renovate-bot`, even when GitHub lists
+them as ordinary users.
+
+These requirements apply to all tools.
+
+The CI bot will politely close pull requests when it verifies that a tool does
+not meet the criteria. You are welcome to submit a new pull request once **all**
+criteria are met. If a check cannot be verified automatically (for example, for
+a non-GitHub or proprietary tool), it requires manual review rather than
+automatic closure. Meeting the minimum criteria does not guarantee inclusion.
+
+For tools without a source URL, the bot checks the homepage domain's registration
+date through RDAP. Domains younger than six months fail the age check but require
+manual review rather than automatic closure. An older domain does not prove the
+service's age. If the service previously operated under another domain, please
+provide evidence of that history. Missing registration data also requires review.
 
 ### Format
 
 ⚠️ **The main `README.md` is just a rendered version of the data. Do not edit it
-manually.**
+manually.** Leave generated `README.md` changes out of your pull request, even
+if you run `make render` locally. CI will flag them as a failure in the PR
+comment. For changes to the README text or structure, edit
+`ci/crates/render/templates/README.md` instead.
 
 To add a new tool, please create a file in the `data/tools` directory like
 `data/tools/<toolname>.yml`. Feel free to check out a few other YAML files in
 that directory to see how it should look like.
 
+- Use a nonblank tool name of at most **50 UTF-8 bytes** (non-ASCII characters
+  can take more than one byte).
 - Make each tool description as precise as possible.  Please limit the
   description to **500 characters**.
 - Add a license. If it's a proprietary tool, use `license: proprietary`.
-- Please add as many tags as possible. You can choose from the tags in
-  `data/tags.yml` If a tool does not match any existing tag, feel free to add a
+- Add at least one tag, and include as many relevant tags as possible. Choose from
+  `data/tags.yml`. If a tool does not match any existing tag, feel free to add a
   new tag but also add it to `data/tags.yml`.
+- For AI-related tools, add `ai-generated-code` if the tool analyzes
+  AI-generated code, and add `uses-llm` if it invokes an LLM or other model
+  while analyzing code.
 
 Finally, create a pull request with all your changes. You can call `make
 render` to check for errors before.  This is optional, because it will also be
 done when creating a pull request.
+
+### Related collections
+
+To add or update a link in “More collections”, edit a YAML file in
+`data/collections/`, not the README template. Each file contains `name`,
+`homepage`, and `description`:
+
+```yaml
+name: Example collection
+homepage: https://example.com/collection
+description: A collection of static analysis tools for a specific language.
+```
+
+Collections are listed alphabetically and are separate from individual tool entries.
 
 ### How to mark a tool as unmaintained/deprecated
 

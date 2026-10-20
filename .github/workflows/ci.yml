@@ -11,7 +11,7 @@ jobs:
       pull-requests: write
       contents: read
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
@@ -38,7 +38,7 @@ jobs:
           REPO: ${{ github.repository }}
         run: |
           gh api "repos/$REPO/issues/$PR/comments" \
-            -f body="README.md was edited directly. The README is generated from the YAML files in \`data/tools/\`. Please add or edit the corresponding file in \`data/tools/\` instead and do not touch README.md." \
+            -f body="README.md was edited directly. Please edit tool entries in \`data/tools/\`, related collections in \`data/collections/\`, or text and structure in \`ci/crates/render/templates/README.md\` instead. Leave the generated README.md out of your pull request." \
             --silent
           echo "README.md must not be edited directly." >&2
           exit 1
@@ -49,12 +49,24 @@ jobs:
       pull-requests: write
       contents: read
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
       - name: Install Rust toolchain
-        uses: dtolnay/rust-toolchain@stable
+        uses: dtolnay/rust-toolchain@683b588c487a69d01f6c6ddf40f036ff682cc2c8 # master
+        with:
+          toolchain: 1.98.1
+          components: clippy, rustfmt
+
+      - name: Check formatting
+        run: make fmt-check
+
+      - name: Run Clippy
+        run: make clippy
+
+      - name: Run tests
+        run: make test
 
       - name: Render list
         id: render

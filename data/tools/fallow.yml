@@ -1,0 +1,25 @@
+name: Fallow
+categories:
+  - linter
+tags:
+  - javascript
+  - typescript
+  - jsx
+  - css
+  - nodejs
+  - ci
+license: MIT
+types:
+  - cli
+  - ide-plugin
+source: 'https://github.com/fallow-rs/fallow'
+homepage: 'https://fallow.tools'
+resources:
+  - title: Quickstart
+    url: https://docs.fallow.tools/quickstart
+  - title: Install via npm
+    url: https://www.npmjs.com/package/fallow
+description: >-
+  Rust-native static analysis for JavaScript and TypeScript. Maps a repository as one
+  dependency graph to find unused code and structural problems across file boundaries.
+  Runs from the CLI or GitHub Actions, with VS Code, LSP, MCP, and Node API integrations.

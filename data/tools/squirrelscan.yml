@@ -1,0 +1,22 @@
+name: squirrelscan
+categories:
+  - linter
+tags:
+  - ci
+  - css
+  - html
+  - javascript
+  - security
+  - uses-llm
+license: MIT
+types:
+  - cli
+  - service
+source: 'https://github.com/squirrelscan/squirrelscan'
+homepage: 'https://squirrelscan.com'
+description: >-
+  squirrelscan is a website QA tool built for coding agents such as Claude Code
+  and Cursor. Its squirrel CLI crawls a live site and runs 260+ audit rules
+  across SEO, performance, security, accessibility, structured data and agent
+  experience, then returns exact source-mapped fixes. Runs from the terminal,
+  CI, the cloud, or over MCP.

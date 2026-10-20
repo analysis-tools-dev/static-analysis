@@ -1,0 +1,11 @@
+name: scythe
+categories:
+  - linter
+tags:
+  - sql
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/Goldziher/scythe'
+homepage: 'https://github.com/Goldziher/scythe'
+description: 'Polyglot SQL compiler and linter that generates type-safe code from SQL with schema-aware linting.'

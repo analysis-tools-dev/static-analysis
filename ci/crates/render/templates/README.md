@@ -1,0 +1,116 @@
+<!-- 🚨🚨 DON'T EDIT THIS FILE DIRECTLY. Edit files in `data/tools/` instead. 🚨🚨 -->
+
+<a href="https://analysis-tools.dev/">
+  <img alt="Analysis Tools Website" src="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/redesign.svg" />
+</a>
+
+This repository lists **static analysis tools** for all programming languages, build tools, config files and more. The focus is on tools which improve code quality such as linters and formatters.
+The official website, [analysis-tools.dev](https://analysis-tools.dev/) is based on this repository and adds rankings, user comments, and additional resources like videos for each tool.
+
+[![Website](https://img.shields.io/badge/Website-Online-2B5BAE)](https://analysis-tools.dev)
+[![CI](https://github.com/analysis-tools-dev/static-analysis/workflows/CI/badge.svg)](https://github.com/analysis-tools-dev/static-analysis/actions/workflows/ci.yml)
+[![Links](https://github.com/analysis-tools-dev/static-analysis/actions/workflows/links.yml/badge.svg)](https://github.com/analysis-tools-dev/static-analysis/actions/workflows/links.yml)
+
+## Sponsors
+
+Thank you to CodeRabbit for sponsoring this project, and to everyone who has supported it over the years.
+
+<a href="https://coderabbit.ai">
+  <img width="200px" alt="CodeRabbit" src="https://raw.githubusercontent.com/analysis-tools-dev/assets/master/static/sponsors/code-rabbit.svg" />
+</a>
+
+Support this project through [GitHub Sponsors](https://github.com/sponsors/analysis-tools-dev) or [Open Collective](https://opencollective.com/analysis-tools).
+
+## Meaning of symbols
+
+- :copyright: stands for proprietary software. All other tools are open source.
+- :information_source: indicates that the community does not recommend the tool for new projects. The icon links to the discussion issue.
+- :warning: means that the tool was not updated for more than one year, or its repository was archived.
+
+Contributions are welcome for tools that already meet the [contribution criteria](CONTRIBUTING.md): at least six months of history, 20 GitHub stars, and more than one human contributor. **Please do not submit tools before they qualify.** Pull requests with verified criteria failures will be closed; you are welcome to resubmit once all criteria are met.
+
+Also check out the sister project, [awesome-dynamic-analysis](https://github.com/mre/awesome-dynamic-analysis).
+
+## Table of Contents
+
+#### [Programming Languages](#programming-languages-1)
+
+| | | |
+|---|---|---|
+{%- for row in self.linter_rows() %}
+|{% for (language, _) in row %} [{{ language.name }}](#{{ language.value }}) |{% endfor %}
+{%- endfor %}
+
+#### [Multiple Languages](#multiple-languages-1)
+
+#### [Other](#other-1)
+<details>
+ <summary>Show Other</summary>
+
+| | | |
+|---|---|---|
+{%- for row in self.other_rows() %}
+|{% for (tag, _) in row %} [{{ tag.name }}](#{{ tag.value }}) |{% endfor %}
+{%- endfor %}
+
+</details>
+
+---
+
+## Programming Languages
+
+{%- for (language, linters) in linters %}
+
+<a id="{{ language.value }}"></a>
+<h2>{{ language.name }}</h2>
+
+{% call tool_list(linters) %}{% endcall %}
+
+{%- endfor %}
+
+## Multiple languages
+
+{% call tool_list(multi) %}{% endcall %}
+
+## Other
+
+{% for (tag, others) in others %}
+
+<a id="{{ tag.value }}"></a>
+<h2>{{ tag.name }}</h2>
+
+{% call tool_list(others) %}{% endcall %}
+
+{%- endfor %}
+
+## More collections
+
+{% for collection in collections -%}
+- [{{ collection.name }}]({{ collection.homepage }}) — {{ collection.description }}
+{% endfor %}
+
+## License
+
+[![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, [Matthias Endler](https://endler.dev) has waived all copyright and related or neighboring rights to this work.
+The underlying source code used to format and display that content is licensed under the MIT license.
+
+
+Title image [Designed by Freepik](https://www.freepik.com).
+
+{% macro tool_list(entries) -%}
+{% for tool in entries if !tool.is_deprecated() %}
+- [{{ tool.name }}]({{ tool.homepage }}){% if let Some(discussion) = tool.discussion %} [:information_source:](<{{ discussion }}>){% endif %}{% if tool.is_proprietary() %} :copyright:{% endif %} — {{ tool.description }}
+{% endfor %}
+{% for tool in entries if tool.is_deprecated() %}
+{% if loop.first %}
+<details>
+<summary>Show Deprecated</summary>
+{% endif %}
+- **{{ tool.name }}**{% if let Some(discussion) = tool.discussion %} [:information_source:](<{{ discussion }}>){% endif %} :warning:{% if tool.is_proprietary() %} :copyright:{% endif %} — {{ tool.description }}
+{% if loop.last %}
+</details>
+{% endif %}
+{% endfor %}
+{%- endmacro %}

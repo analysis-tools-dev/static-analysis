@@ -8,7 +8,9 @@ types:
   - cli
 source: "https://github.com/golangci/golangci-lint"
 homepage: "https://golangci-lint.run"
-description: "Alternative to `Go Meta Linter`: GolangCI-Lint is a linters aggregator."
+description: "Fast linters runner for Go. It aggregates multiple Go linters and provides a unified configuration, caching, and output format. Alternative to `Go Meta Linter`."
+reviews:
+  - https://stackshare.io/golangci-lint
 resources:
   - title: "GopherCon 2019: Denis Isaev (author of golangci-lint) - Go Linters: Myths and Best Practices"
     url: https://www.youtube.com/watch?v=1U-Gzz4TYP0

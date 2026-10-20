@@ -1,0 +1,36 @@
+name: DepWarden
+categories:
+  - linter
+tags:
+  - ci
+  - configmanagement
+  - dockerfile
+  - dotnet
+  - go
+  - java
+  - javascript
+  - json
+  - kotlin
+  - kubernetes
+  - php
+  - python
+  - ruby
+  - rust
+  - scala
+  - security
+  - shell
+  - swift
+  - terraform
+  - typescript
+  - yaml
+license: proprietary
+types:
+  - cli
+  - service
+homepage: "https://depwarden.in"
+description: >-
+  Free, anonymous SCA + SAST scanner. SCA: scans npm, PyPI,
+  Maven, Go, Cargo, Ruby, NuGet dependencies for CVEs (OSV/KEV/EPSS),
+  typosquats and supply-chain risk. SAST: pattern + taint analysis
+  for 15 languages, 300+ rules. No account, no source upload.
+  Available as a web tool, zero-install CLI and GitHub Action.

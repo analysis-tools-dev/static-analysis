@@ -14,17 +14,19 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Install Rust toolchain
-        uses: dtolnay/rust-toolchain@stable
+        uses: dtolnay/rust-toolchain@683b588c487a69d01f6c6ddf40f036ff682cc2c8 # master
+        with:
+          toolchain: 1.98.1
 
       - name: Render list
         run: make render
         env:
           GITHUB_TOKEN: ${{ github.token }}
 
-      - uses: stefanzweifel/git-auto-commit-action@v4.1.2
+      - uses: stefanzweifel/git-auto-commit-action@v7.2.0
         with:
           commit_message: Commit list
           commit_user_name: Analysis Tools Bot
@@ -32,7 +34,7 @@ jobs:
           commit_author: Analysis Tools Bot <bot@analysis-tools.dev>
 
       - name: Redeploy website
-        uses: peter-evans/repository-dispatch@v3
+        uses: peter-evans/repository-dispatch@v4
         with:
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
           repository: analysis-tools-dev/website-next

@@ -1,0 +1,53 @@
+name: Offensive360
+categories:
+  - linter
+tags:
+  - apex
+  - c
+  - ci
+  - cobol
+  - cpp
+  - csharp
+  - dart
+  - elixir
+  - go
+  - groovy
+  - java
+  - javascript
+  - kotlin
+  - lua
+  - objectivec
+  - perl
+  - php
+  - python
+  - r
+  - ruby
+  - rust
+  - scala
+  - security
+  - swift
+  - typescript
+  - vbnet
+license: proprietary
+types:
+  - service
+homepage: 'https://offensive360.com'
+pricing: https://offensive360.com/pricing/
+plans:
+  free: false
+  oss: false
+description: >-
+  Offensive360 is an application security platform combining SAST
+  (taint/data-flow analysis across 60+ languages), DAST, SCA, mobile app
+  scanning (Android/iOS), malware/binary analysis and license compliance.
+  Findings include the full source-to-sink trace and a secure code example.
+  Deploys as SaaS or as a self-hosted virtual appliance for offline/air-gapped
+  networks. SARIF output; CI/CD (GitHub Actions, GitLab, Jenkins, Azure DevOps)
+  and IDE integrations.
+resources:
+  - title: Product documentation and knowledge base
+    url: https://offensive360.com/knowledge-base/
+reviews:
+  - https://www.gartner.com/reviews/market/application-security-testing/vendor/offensive-360/product/offensive-360
+  - https://www.g2.com/products/offensive360/reviews
+  - https://www.peerspot.com/products/offensive-360-reviews

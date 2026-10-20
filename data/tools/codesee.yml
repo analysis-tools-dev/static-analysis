@@ -13,13 +13,11 @@ types:
   - service 
   - ide-plugin
 homepage: 'https://www.codesee.io/'
-demos:
-  - https://www.codesee.io/maps-demos
-pricing: https://www.codesee.io/pricing
-plans:
-  free: true
-  oss: false
+deprecated: true
+resources:
+  - title: GitKraken acquires CodeSee
+    url: https://gitkraken.com/press/gitkraken-acquires-codesee-launches-devex-platform
 description: >-
-  CodeSee is mapping and automating your app's services, directories, file
-  dependencies, and code changes. It's like Google Map, but for code.t
+  Mapped application services, directories, file dependencies, and code changes.
+  Acquired by GitKraken in May 2024; the standalone product website is no longer available.
 

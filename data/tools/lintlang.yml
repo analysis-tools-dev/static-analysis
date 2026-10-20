@@ -1,0 +1,17 @@
+name: LintLang
+categories:
+  - linter
+tags:
+  - configfile
+  - markdown
+  - skill
+  - yaml
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/hermes-labs-ai/lintlang'
+homepage: 'https://lintlang.ai/'
+description: >-
+  Static linter for natural-language instructions that control AI agents. Detects
+  ambiguous tool descriptions, missing limits, conflicting directives, and schema
+  gaps in local files and CI without model or network calls.

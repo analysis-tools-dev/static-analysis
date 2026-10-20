@@ -1,0 +1,24 @@
+name: thailint
+categories:
+  - linter
+tags:
+  - python
+  - typescript
+  - javascript
+  - rust
+  - yaml
+  - terraform
+  - shell
+  - ai-generated-code
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/be-wise-be-kind/thai-lint'
+homepage: 'https://thai-lint.readthedocs.io/'
+description: >-
+  Multi-language linter targeting anti-patterns that appear disproportionately
+  in AI-generated code: duplicated blocks across files, excessive nesting,
+  magic numbers, Single Responsibility violations, and linter suppressions
+  added without justification. Covers Python, TypeScript, JavaScript and Rust
+  from one configuration, ships a pre-commit hook per rule, and emits text,
+  JSON or SARIF for CI.
