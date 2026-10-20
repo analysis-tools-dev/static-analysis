@@ -12,6 +12,7 @@ tags:
   - php
   - security
   - ci
+  - uses-llm
 types:
   - ide-plugin
 license: proprietary
