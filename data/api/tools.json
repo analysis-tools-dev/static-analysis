@@ -5741,7 +5741,7 @@
     "plans": null,
     "description": "Dependency analysis tool.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -23738,6 +23738,35 @@
     "description": "Javascript code metrics.",
     "discussion": null,
     "deprecated": true,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "zanadir": {
+    "name": "zanadir",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "ci",
+      "security",
+      "yaml"
+    ],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://mustachecase.github.io/",
+    "source": "https://github.com/MustacheCase/zanadir",
+    "pricing": null,
+    "plans": null,
+    "description": "Audits CI configuration (GitHub Actions, GitLab CI, CircleCI, Bitbucket Pipelines, Azure Pipelines, Jenkins) for missing security and quality controls such as SCA, secrets detection, SAST, IaC and workflow security, and grades whether each present control can actually fail the build (continue-on-error, || true, --exit-code 0, push-only triggers). Outputs table, JSON, SARIF or Markdown and prints CI snippets for the gaps.",
+    "discussion": null,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,

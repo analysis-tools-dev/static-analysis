@@ -6,9 +6,9 @@ not qualify yet, wait until it does rather than opening a pull request or issue.
 
 ### Requirements
 
-Before submitting, each tool must
+Before submitting, each tool must have been publicly available for at least
+six months. Open-source tools must also
 
-- have existed for at least six months
 - have at least 20 stars on GitHub
 - have more than one human contributor
 
@@ -17,7 +17,10 @@ check excludes GitHub bot accounts, logins ending in `[bot]`, and known automati
 accounts such as `claude`, `dependabot`, and `renovate-bot`, even when GitHub lists
 them as ordinary users.
 
-These requirements apply to all tools.
+For proprietary tools, please include public examples showing the code being
+analyzed and the results. We also need evidence that someone outside the team
+behind the tool has used it or reviewed it in detail. Marketing claims, download
+counts, and testimonials alone are not enough.
 
 The CI bot will politely close pull requests when it verifies that a tool does
 not meet the criteria. You are welcome to submit a new pull request once **all**

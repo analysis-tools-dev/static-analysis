@@ -1,0 +1,13 @@
+name: zanadir
+categories:
+  - linter
+tags:
+  - ci
+  - security
+  - yaml
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/MustacheCase/zanadir'
+homepage: 'https://mustachecase.github.io/'
+description: 'Audits CI configuration (GitHub Actions, GitLab CI, CircleCI, Bitbucket Pipelines, Azure Pipelines, Jenkins) for missing security and quality controls such as SCA, secrets detection, SAST, IaC and workflow security, and grades whether each present control can actually fail the build (continue-on-error, || true, --exit-code 0, push-only triggers). Outputs table, JSON, SARIF or Markdown and prints CI snippets for the gaps.'
