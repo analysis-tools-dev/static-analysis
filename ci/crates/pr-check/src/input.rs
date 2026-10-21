@@ -43,9 +43,16 @@ pub struct ToolEntry {
     pub name: String,
     pub source: Option<ToolSource>,
     pub homepage: Option<String>,
+    pub license: Option<String>,
 }
 
 impl ToolEntry {
+    pub fn is_proprietary(&self) -> bool {
+        self.license
+            .as_deref()
+            .is_some_and(|license| license.trim().eq_ignore_ascii_case("proprietary"))
+    }
+
     /// Reads a catalog entry relative to the current working directory.
     ///
     /// # Errors
@@ -84,6 +91,18 @@ mod tests {
         ] {
             assert!(ToolPath::try_from(PathBuf::from(path)).is_err(), "{path}");
         }
+        Ok(())
+    }
+
+    #[test]
+    fn recognizes_proprietary_license() -> Result<()> {
+        for (license, expected) in [("proprietary", true), ("Proprietary", true), ("MIT", false)] {
+            let tool: ToolEntry =
+                serde_saphyr::from_str(&format!("name: Example\nlicense: {license}\n"))?;
+            assert_eq!(tool.is_proprietary(), expected);
+        }
+        let tool: ToolEntry = serde_saphyr::from_str("name: Example")?;
+        assert!(!tool.is_proprietary());
         Ok(())
     }
 

@@ -95,13 +95,15 @@ impl GithubClient {
 pub async fn check_tool(client: &GithubClient, tool: &ToolEntry) -> Result<ToolReport> {
     let source = &tool.source;
 
-    if let Some(ToolSource::Github(repo)) = source {
+    if let Some(ToolSource::Github(repo)) = source
+        && !tool.is_proprietary()
+    {
         let repo_result = client.repo_info(repo).await;
         let contributors_result = client.contributor_count(repo).await;
 
         repository_report(tool, &repo_result, &contributors_result, Utc::now())
     } else {
-        let domain = if source.is_none() {
+        let domain = if tool.is_proprietary() || source.is_none() {
             tool.homepage.as_deref().and_then(homepage_domain)
         } else {
             None
@@ -115,11 +117,26 @@ pub async fn check_tool(client: &GithubClient, tool: &ToolEntry) -> Result<ToolR
             }
             .check()?
         } else {
-            CheckResult::Skip("No supported homepage domain or GitHub source URL".into())
+            CheckResult::Skip(if tool.is_proprietary() {
+                "Please show when the tool became publicly available".into()
+            } else {
+                "No supported homepage domain or GitHub source URL".into()
+            })
         };
-        let note = "No GitHub source URL found. Please verify the contributing criteria manually. \
-                    Domain registration dates do not establish when a service launched. \
-                    If the service previously operated under another domain, please provide evidence of that history.";
+        let note = if tool.is_proprietary() {
+            "Thanks for sharing your tool! For proprietary tools, please include public links in your PR description showing:\n\n\
+             - Code the tool has analyzed and the results.\n\
+             - Someone outside the team using the tool or reviewing it in detail.\n\
+             - That the tool has been publicly available for at least six months, and where to install or try it.\n\n\
+             Marketing claims, download counts, or an older domain aren't enough on their own. \
+             We need these examples even if you've linked a GitHub repository.\n\n\
+             Already included these? Thanks! A maintainer will need to review them; rerunning CI won't clear this check. \
+             If you need more time to gather examples, you're welcome to resubmit when they're ready."
+        } else {
+            "No GitHub source URL found. Please verify the contributing criteria manually. \
+             Domain registration dates do not establish when a service launched. \
+             If the service previously operated under another domain, please provide evidence of that history."
+        };
 
         Ok(ToolReport {
             name: tool.name.clone(),
@@ -178,6 +195,40 @@ mod tests {
     use super::*;
 
     #[tokio::test]
+    async fn proprietary_tools_require_evidence_even_with_github_source() -> Result<()> {
+        use crate::report::{Comment, Reports};
+        use std::process::ExitCode;
+
+        let client = GithubClient::new("unused-test-token".into())?;
+        for source in [None, Some("https://github.com/example/tool")] {
+            let tool = ToolEntry {
+                name: "Example".into(),
+                source: source.map(Into::into),
+                homepage: None,
+                license: Some("proprietary".into()),
+            };
+            let report = check_tool(&client, &tool).await?;
+            assert_eq!(report.status(), "REVIEW");
+            assert!(!report.should_close());
+            assert_eq!(report.source, tool.source);
+            let reports = Reports::from_iter([report]);
+            assert_eq!(reports.exit_code(), ExitCode::FAILURE);
+            let comment = Comment::from(&reports).to_string();
+            for expected in [
+                "Thanks for sharing your tool!",
+                "- Code the tool has analyzed and the results",
+                "Someone outside the team using the tool or reviewing it in detail",
+                "publicly available for at least six months",
+                "where to install or try it",
+                "rerunning CI won't clear this check",
+            ] {
+                assert!(comment.contains(expected), "{expected}");
+            }
+        }
+        Ok(())
+    }
+
+    #[tokio::test]
     async fn unsupported_source_does_not_fall_back_to_homepage_age() -> Result<()> {
         let client = GithubClient::new("unused-test-token".into())?;
         for source in [
@@ -189,6 +240,7 @@ mod tests {
                 name: "Example".into(),
                 source: Some(source.into()),
                 homepage: Some("https://example.invalid".into()),
+                license: None,
             };
             let report = check_tool(&client, &tool).await?;
             assert_eq!(report.status(), "REVIEW");
@@ -215,6 +267,7 @@ mod tests {
                 name: "Example".into(),
                 source: None,
                 homepage: homepage.map(str::to_owned),
+                license: None,
             };
             let report = check_tool(&client, &tool).await?;
             assert_eq!(report.status(), "REVIEW");
