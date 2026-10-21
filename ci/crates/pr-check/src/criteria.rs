@@ -180,6 +180,7 @@ mod tests {
             name: "Example".into(),
             source: Some("https://github.com/example/tool".into()),
             homepage: None,
+            license: None,
         }
     }
 
