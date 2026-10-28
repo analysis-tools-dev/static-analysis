@@ -8190,6 +8190,42 @@
     "demos": null,
     "wrapper": null
   },
+  "frame": {
+    "name": "Frame",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "c",
+      "csharp",
+      "cpp",
+      "java",
+      "javascript",
+      "python",
+      "typescript"
+    ],
+    "other": [
+      "security",
+      "uses-llm"
+    ],
+    "licenses": [
+      "Apache License 2.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://github.com/lambdasec/frame",
+    "source": "https://github.com/lambdasec/frame",
+    "pricing": null,
+    "plans": null,
+    "description": "Security scanner that pairs taint analysis with separation-logic checks in Z3, plus an optional LLM layer. Symbolic frontends cover Python, Java, JavaScript/TypeScript, C/C++ and C#. LLM findings are reported in a separate tier from symbolic ones, and the LLM layer runs on any OpenAI-compatible endpoint, including a local one.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "freeplane-code-explorer": {
     "name": "Freeplane Code Explorer",
     "categories": [
@@ -9831,23 +9867,26 @@
     "categories": [
       "linter"
     ],
-    "languages": [],
-    "other": [
-      "binary"
+    "languages": [
+      "groovy",
+      "java",
+      "kotlin",
+      "scala"
     ],
+    "other": [],
     "licenses": [
-      "proprietary"
+      "Apache License 2.0"
     ],
     "types": [
-      "gui"
+      "cli"
     ],
-    "homepage": "https://www.hopperapp.com/",
-    "source": null,
+    "homepage": "https://github.com/cuplv/hopper",
+    "source": "https://github.com/cuplv/hopper",
     "pricing": null,
     "plans": null,
-    "description": "macOS and Linux reverse engineering tool that lets you disassemble, decompile and debug applications. Hopper displays the code using different representations, e.g. the Control Flow Graph, and the pseudo-code of a procedure. Supports Apple Silicon.",
+    "description": "A static analysis tool written in scala for languages that run on JVM.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
