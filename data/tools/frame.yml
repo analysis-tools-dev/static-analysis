@@ -1,0 +1,24 @@
+name: Frame
+categories:
+  - linter
+tags:
+  - c
+  - cpp
+  - csharp
+  - java
+  - javascript
+  - python
+  - security
+  - typescript
+  - uses-llm
+license: Apache License 2.0
+types:
+  - cli
+source: 'https://github.com/lambdasec/frame'
+homepage: 'https://github.com/lambdasec/frame'
+description: >-
+  Security scanner that pairs taint analysis with separation-logic
+  checks in Z3, plus an optional LLM layer. Symbolic frontends cover
+  Python, Java, JavaScript/TypeScript, C/C++ and C#. LLM findings are
+  reported in a separate tier from symbolic ones, and the LLM layer
+  runs on any OpenAI-compatible endpoint, including a local one.
