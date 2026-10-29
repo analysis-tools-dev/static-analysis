@@ -31,7 +31,7 @@ license: GNU Lesser General Public License v3.0
 types:
   - cli
 source: 'https://github.com/SonarSource/sonarlint-intellij'
-homepage: 'https://sonarlint.org'
+homepage: 'https://www.sonarsource.com/products/sonarqube/ide/'
 description: >-
   SonarQube for IDE (formerly SonarLint) is a free IDE extension available for IntelliJ, VS Code, Visual Studio, and Eclipse, 
   to find and fix coding issues in real-time, flagging issues as you code, just like a spell-checker. 

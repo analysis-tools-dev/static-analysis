@@ -7,5 +7,5 @@ license: MIT License
 types:
   - cli
 source: 'https://github.com/ternjs/tern'
-homepage: 'https://ternjs.net'
+homepage: 'https://ternjs.github.io/'
 description: 'A JavaScript code analyzer for deep, cross-editor language support.'
