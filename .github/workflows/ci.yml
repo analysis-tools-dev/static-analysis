@@ -94,3 +94,41 @@ jobs:
           gh api "repos/$REPO/issues/$PR/comments" \
             -f body=@/tmp/render-comment.txt \
             --silent
+
+  dependabot-merge:
+    needs: [readme-check, render]
+    if: >-
+      github.actor == 'dependabot[bot]' &&
+      github.event.pull_request.user.login == 'dependabot[bot]' &&
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      !github.event.pull_request.draft
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      pull-requests: read
+    steps:
+      # Keep the merge credential isolated from the jobs that execute PR code.
+      - name: Verify Dependabot metadata
+        id: metadata
+        uses: dependabot/fetch-metadata@25dd0e34f4fe68f24cc83900b1fe3fe149efef98 # v3.1.0
+
+      - name: Merge minor and patch updates after CI passes
+        if: >-
+          (steps.metadata.outputs.package-ecosystem == 'cargo' ||
+           steps.metadata.outputs.package-ecosystem == 'github_actions') &&
+          (steps.metadata.outputs.update-type == 'version-update:semver-minor' ||
+           steps.metadata.outputs.update-type == 'version-update:semver-patch')
+        env:
+          # Use the existing Dependabot secret so the merge triggers the
+          # list-generation workflow and its website rebuild event.
+          GH_TOKEN: ${{ secrets.AUTOMERGE_TOKEN }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::error::Set the AUTOMERGE_TOKEN Dependabot secret."
+            exit 1
+          fi
+
+          gh pr merge "$PR_URL" --squash --match-head-commit "$HEAD_SHA"

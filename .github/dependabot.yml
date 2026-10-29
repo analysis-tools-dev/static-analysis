@@ -3,12 +3,32 @@ updates:
   - package-ecosystem: cargo
     directory: "/ci"
     schedule:
-      interval: daily
+      interval: weekly
+      day: monday
       time: "11:00"
     open-pull-requests-limit: 10
+    groups:
+      cargo-minor-patch:
+        applies-to: version-updates
+        patterns: ["*"]
+        update-types: [minor, patch]
+      cargo-security:
+        applies-to: security-updates
+        patterns: ["*"]
+        update-types: [minor, patch]
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
-      interval: daily
+      interval: weekly
+      day: monday
       time: "11:00"
     open-pull-requests-limit: 10
+    groups:
+      actions-minor-patch:
+        applies-to: version-updates
+        patterns: ["*"]
+        update-types: [minor, patch]
+      actions-security:
+        applies-to: security-updates
+        patterns: ["*"]
+        update-types: [minor, patch]
