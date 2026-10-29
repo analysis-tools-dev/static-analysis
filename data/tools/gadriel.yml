@@ -1,0 +1,52 @@
+name: Gadriel Code Assurance
+categories:
+  - linter
+tags:
+  - ai-generated-code
+  - c
+  - ci
+  - configfile
+  - container
+  - cpp
+  - csharp
+  - dockerfile
+  - go
+  - java
+  - javascript
+  - json
+  - kotlin
+  - kubernetes
+  - markdown
+  - nodejs
+  - package
+  - php
+  - python
+  - ruby
+  - rust
+  - security
+  - shell
+  - skill
+  - swift
+  - terraform
+  - typescript
+  - yaml
+license: proprietary
+types:
+  - cli
+  - ide-plugin
+homepage: 'https://gadriel.ai/code-security'
+pricing: 'https://gadriel.ai/pricing'
+plans:
+  free: true
+  oss: true
+description: >-
+  Local AI code security harness that scans AI-generated code and agent skills
+  for SAST vulnerabilities, secrets, vulnerable dependencies (SCA/SBOM),
+  container issues, IaC/config misconfigurations, and OWASP LLM Top 10 risks.
+  Runs locally via CLI, MCP server, or IDE plugin for Claude Code, Cursor, GitHub
+  Copilot, VS Code, and Codex without sending source code off the machine.
+resources:
+  - title: Gadriel Code Assurance Documentation
+    url: https://docs.gadriel.ai/code-assurance/overview
+  - title: Gadriel Vulnerable CBOM Benchmark Repository
+    url: https://github.com/Gadriel-ai/gadriel-vulnerable-cbom
