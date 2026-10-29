@@ -3403,16 +3403,16 @@
     "types": [
       "service"
     ],
-    "homepage": "https://www.code-intelligence.com",
+    "homepage": "https://github.com/CodeIntelligenceTesting",
     "source": null,
-    "pricing": "https://www.code-intelligence.com/product-pricing",
+    "pricing": null,
     "plans": {
       "free": false,
       "oss": true
     },
     "description": "CI/CD-agnostic DevSecOps platform which combines industry-leading fuzzing engines for finding bugs and visualizing code coverage",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": [
       {
         "title": "Code Intelligence | Introduction",
@@ -3884,7 +3884,7 @@
       "cli",
       "ide-plugin"
     ],
-    "homepage": "https://codeque.co",
+    "homepage": "https://github.com/codeque-co/codeque",
     "source": "https://github.com/codeque-co/codeque",
     "pricing": null,
     "plans": null,
@@ -3894,11 +3894,11 @@
     "resources": [
       {
         "title": "Documentation",
-        "url": "https://codeque.co/docs"
+        "url": "https://github.com/codeque-co/codeque#readme"
       },
       {
         "title": "Visual Studio Code Extension",
-        "url": "https://codeque.co/r/vsc"
+        "url": "https://marketplace.visualstudio.com/items?itemName=CodeQue.codeque"
       },
       {
         "title": "CLI via NPM",
@@ -8270,8 +8270,8 @@
     "types": [
       "cli"
     ],
-    "homepage": "http://catless.ncl.ac.uk/Programs/Frink",
-    "source": "http://catless.ncl.ac.uk/Programs/Frink",
+    "homepage": "https://catless.ncl.ac.uk/Programs/Frink/",
+    "source": "https://catless.ncl.ac.uk/Programs/Frink/",
     "pricing": null,
     "plans": null,
     "description": "A Tcl formatting and static check program (can prettify the program, minimise, obfuscate or just sanity check it).",
@@ -9867,26 +9867,23 @@
     "categories": [
       "linter"
     ],
-    "languages": [
-      "groovy",
-      "java",
-      "kotlin",
-      "scala"
+    "languages": [],
+    "other": [
+      "binary"
     ],
-    "other": [],
     "licenses": [
-      "Apache License 2.0"
+      "proprietary"
     ],
     "types": [
-      "cli"
+      "gui"
     ],
-    "homepage": "https://github.com/cuplv/hopper",
-    "source": "https://github.com/cuplv/hopper",
+    "homepage": "https://www.hopperapp.com/",
+    "source": null,
     "pricing": null,
     "plans": null,
-    "description": "A static analysis tool written in scala for languages that run on JVM.",
+    "description": "macOS and Linux reverse engineering tool that lets you disassemble, decompile and debug applications. Hopper displays the code using different representations, e.g. the Control Flow Graph, and the pseudo-code of a procedure. Supports Apple Silicon.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -10216,7 +10213,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://www.hex-rays.com/products/ida/support/download_freeware",
+    "homepage": "https://hex-rays.com/ida-free",
     "source": null,
     "pricing": null,
     "plans": null,
@@ -19801,7 +19798,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://sonarlint.org",
+    "homepage": "https://www.sonarsource.com/products/sonarqube/ide/",
     "source": "https://github.com/SonarSource/sonarlint-intellij",
     "pricing": null,
     "plans": null,
@@ -21429,7 +21426,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://ternjs.net",
+    "homepage": "https://ternjs.github.io/",
     "source": "https://github.com/ternjs/tern",
     "pricing": null,
     "plans": null,

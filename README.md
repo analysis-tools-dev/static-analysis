@@ -840,7 +840,7 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 
 - [squirrelscan](https://squirrelscan.com) — squirrelscan is a website QA tool built for coding agents such as Claude Code and Cursor. Its squirrel CLI crawls a live site and runs 260+ audit rules across SEO, performance, security, accessibility, structured data and agent experience, then returns exact source-mapped fixes. Runs from the terminal, CI, the cloud, or over MCP.
 
-- [tern](https://ternjs.net) — A JavaScript code analyzer for deep, cross-editor language support.
+- [tern](https://ternjs.github.io/) — A JavaScript code analyzer for deep, cross-editor language support.
 
 - [xo](https://github.com/xojs/xo) — Opinionated but configurable ESLint wrapper with lots of goodies included. Enforces strict and readable code.
 
@@ -1778,7 +1778,7 @@ It removes a feature of a dependency and then compiles the project to see if it 
 <h2>Tcl</h2>
 
 
-- [Frink](http://catless.ncl.ac.uk/Programs/Frink) — A Tcl formatting and static check program (can prettify the program, minimise, obfuscate or just sanity check it).
+- [Frink](https://catless.ncl.ac.uk/Programs/Frink/) — A Tcl formatting and static check program (can prettify the program, minimise, obfuscate or just sanity check it).
 
 - [Nagelfar](https://sourceforge.net/projects/nagelfar) — A static syntax checker for Tcl.
 
@@ -1928,8 +1928,6 @@ It supports multiple languages and is designed to be extensible, allowing you to
 
 - [Codacy](https://www.codacy.com) :copyright: — Code Analysis to ship Better Code, Faster.
 
-- [Code Intelligence](https://www.code-intelligence.com) :copyright: — CI/CD-agnostic DevSecOps platform which combines industry-leading fuzzing engines for finding bugs and visualizing code coverage
-
 - [Code Pathfinder](https://codepathfinder.dev) — Opensource Static Code Analysis for security teams with Inter file dataflow  taint analysis. Built for finding vulnerabilities, advanced structural search,  derive insights and supports MCP server.
 
 - [Code-Graph-RAG](https://code-graph-rag.com) — Builds knowledge graphs from multi-language codebases using Tree-sitter AST parsing and stores them in Memgraph. Supports 11 programming languages with a unified graph schema and enables natural language querying and editing of code structure and relationships. Functions as an MCP server for AI assistant integration.
@@ -1942,7 +1940,7 @@ It supports multiple languages and is designed to be extensible, allowing you to
 
 - [codeql](https://github.com/github/codeql) — Deep code analysis - semantic queries and dataflow for several languages with VSCode plugin support.
 
-- [CodeQue](https://codeque.co) — Ecosystem for structural matching JavaScript and TypeScript code. Offers search tool that understands code structure. Available as CLI tool and Visual Studio Code extension. It helps to search code faster and more accurately making you workflow more effective. Soon it will offer ESLint plugin to create your own rules in minutes to help with assuring codebase quality.
+- [CodeQue](https://github.com/codeque-co/codeque) — Ecosystem for structural matching JavaScript and TypeScript code. Offers search tool that understands code structure. Available as CLI tool and Visual Studio Code extension. It helps to search code faster and more accurately making you workflow more effective. Soon it will offer ESLint plugin to create your own rules in minutes to help with assuring codebase quality.
 
 - [CodeRush](https://www.devexpress.com/products/coderush) :copyright: — Code creation, debugging, navigation, refactoring, analysis and visualization tools that use the Roslyn engine in Visual Studio 2015 and up.
 
@@ -2111,7 +2109,7 @@ orchestration to ensure zero breaking changes. Specialized for React, Next.js, a
 
 - [SonarQube Cloud](https://sonarcloud.io) :copyright: — SonarQube Cloud enables your team to deliver clean code consistently and efficiently with a code review  tool that easily integrates into the cloud DevOps platforms and extend your CI/CD workflow.  SonarQube Cloud provides a free plan.
 
-- [SonarQube for IDE](https://sonarlint.org) — SonarQube for IDE (formerly SonarLint) is a free IDE extension available for IntelliJ, VS Code, Visual Studio, and Eclipse,  to find and fix coding issues in real-time, flagging issues as you code, just like a spell-checker.  More than a linter, it also delivers rich contextual guidance to help developers understand  why there is an issue, assess the risk, and educate them on how to fix it.
+- [SonarQube for IDE](https://www.sonarsource.com/products/sonarqube/ide/) — SonarQube for IDE (formerly SonarLint) is a free IDE extension available for IntelliJ, VS Code, Visual Studio, and Eclipse,  to find and fix coding issues in real-time, flagging issues as you code, just like a spell-checker.  More than a linter, it also delivers rich contextual guidance to help developers understand  why there is an issue, assess the risk, and educate them on how to fix it.
 
 - [SonarQube Server](https://sonarqube.org) — SonarQube empowers development teams with a code quality and security solution that deeply integrates into your enterprise environment; enabling you to deploy clean code consistently and reliably. SonarQube provides a free and open source Community Build.
 
@@ -2188,6 +2186,10 @@ orchestration to ensure zero breaking changes. Specialized for React, Next.js, a
 
 
 - **coala** :warning: — Language independent framework for creating code analysis - supports over 60 languages by default.
+
+
+
+- **Code Intelligence** :warning: :copyright: — CI/CD-agnostic DevSecOps platform which combines industry-leading fuzzing engines for finding bugs and visualizing code coverage
 
 
 
@@ -2386,7 +2388,7 @@ This project is intended to be used by maintainers of projects who want to offer
 
 - [Hopper](https://www.hopperapp.com/) :copyright: — macOS and Linux reverse engineering tool that lets you disassemble, decompile and debug applications. Hopper displays the code using different representations, e.g. the Control Flow Graph, and the pseudo-code of a procedure. Supports Apple Silicon.
 
-- [IDA Free](https://www.hex-rays.com/products/ida/support/download_freeware) :copyright: — Binary code analysis tool.
+- [IDA Free](https://hex-rays.com/ida-free) :copyright: — Binary code analysis tool.
 
 - [JEB Decompiler](https://www.pnfsoftware.com/) :copyright: — Decompile and debug binary code. Break down and analyze document files. Android Dalvik, MIPS, ARM, Intel x86, Java, WebAssembly & Ethereum Decompilers.
 
