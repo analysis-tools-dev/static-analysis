@@ -17,10 +17,11 @@ tags:
   - php
   - terraform
 license: Apache-2.0
+deprecated: true
 types:
   - cli
-source: "https://github.com/firelock-ai/kin"
-homepage: "https://kinlab.ai"
+source: "https://github.com/kinlab-ai/kin"
+homepage: "https://github.com/kinlab-ai/kin"
 description: >-
   A graph-native code repository for people and AI agents. Kin parses supported
   languages into code entities and their relationships (calls, references,
