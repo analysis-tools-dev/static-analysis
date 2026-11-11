@@ -1,0 +1,23 @@
+name: GuardLink
+categories:
+  - linter
+tags:
+  - ci
+  - security
+  - uses-llm
+license: MIT License
+types:
+  - cli
+source: 'https://github.com/Bugb-Technologies/guardlink'
+homepage: 'https://guardlink.bugb.io/'
+resources:
+  - title: GuardLink documentation
+    url: https://docs.bugb.io/guardlink/
+description: >-
+  Continuous threat modeling as code. Security annotations in source comments
+  (threats, exposures, mitigations, flows) form a threat model that updates
+  with the code and is validated and diffed against the base branch in CI.
+  Without an LLM, it reports untrusted-entry-to-sink paths with no control,
+  citing file:line, and tracks which claims are verified or stale. Open
+  exposures become test templates to prove them. Any comment syntax; coding
+  agents maintain it via MCP. Optional LLM threat reports.
