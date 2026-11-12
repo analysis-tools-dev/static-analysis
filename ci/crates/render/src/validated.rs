@@ -1,3 +1,4 @@
+use crate::types::Category;
 use anyhow::{Result, ensure};
 use serde::{Deserialize, Serialize};
 use std::collections::{BTreeSet, btree_set};
@@ -89,6 +90,23 @@ impl<'a, T: Ord> IntoIterator for &'a EntryTags<T> {
     }
 }
 
+/// A nonempty, sorted set of tool categories, with no mutable access to its contents.
+#[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq)]
+#[serde(try_from = "BTreeSet<Category>")]
+pub struct EntryCategories(BTreeSet<Category>);
+
+impl TryFrom<BTreeSet<Category>> for EntryCategories {
+    type Error = anyhow::Error;
+
+    fn try_from(categories: BTreeSet<Category>) -> Result<Self> {
+        ensure!(
+            !categories.is_empty(),
+            "Entry must have at least one category: linter, formatter, performance, or meta."
+        );
+        Ok(Self(categories))
+    }
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -122,6 +140,35 @@ mod tests {
             assert_eq!(serde_json::to_value(&name)?, json!(original));
             assert_eq!(String::from(name), original);
         }
+        Ok(())
+    }
+
+    #[test]
+    fn categories_reject_empty_sets_in_constructors_and_serde() {
+        assert!(EntryCategories::try_from(BTreeSet::new()).is_err());
+        for input in ["[]", "null", "\"linter\"", "[\"unknown\"]"] {
+            assert!(serde_json::from_str::<EntryCategories>(input).is_err());
+            assert!(serde_saphyr::from_str::<EntryCategories>(input).is_err());
+        }
+    }
+
+    #[test]
+    fn categories_are_sorted_and_deduplicated_through_serde() -> Result<()> {
+        let categories =
+            EntryCategories::try_from(BTreeSet::from([Category::Formatter, Category::Linter]))?;
+        let encoded = r#"["formatter","linter","formatter"]"#;
+        assert_eq!(
+            serde_json::from_str::<EntryCategories>(encoded)?,
+            categories
+        );
+        assert_eq!(
+            serde_saphyr::from_str::<EntryCategories>(encoded)?,
+            categories
+        );
+        assert_eq!(
+            serde_json::to_value(categories)?,
+            json!(["linter", "formatter"])
+        );
         Ok(())
     }
 

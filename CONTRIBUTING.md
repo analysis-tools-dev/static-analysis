@@ -51,6 +51,7 @@ that directory to see how it should look like.
 - Make each tool description as precise as possible.  Please limit the
   description to **500 characters**.
 - Add a license. If it's a proprietary tool, use `license: proprietary`.
+- Add at least one category: `linter`, `formatter`, `performance`, or `meta`.
 - Add at least one tag, and include as many relevant tags as possible. Choose from
   `data/tags.yml`. If a tool does not match any existing tag, feel free to add a
   new tag but also add it to `data/tags.yml`.

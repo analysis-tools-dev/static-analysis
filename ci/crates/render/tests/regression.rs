@@ -128,6 +128,56 @@ fn full_catalog_preserves_original_sources_through_api_output() -> Result<()> {
 }
 
 #[test]
+fn entries_require_nonempty_categories_in_yaml_and_json() -> Result<()> {
+    let parsed = serde_json::to_value(parsed()?)?;
+    let entry = Entry::from_parsed(self::parsed()?, &[tag("rust", Type::Language)])?;
+    let normalized = serde_json::to_value(&entry)?;
+    let api = create_api(vec![entry], &[tag("rust", Type::Language)], &[]);
+    let api = serde_json::to_value(api.values().next().context("Expected API entry")?)?;
+
+    for categories in [
+        None,
+        Some(json!([])),
+        Some(json!(null)),
+        Some(json!(["unknown"])),
+    ] {
+        for (kind, mut value) in [
+            ("parsed", parsed.clone()),
+            ("normalized", normalized.clone()),
+            ("api", api.clone()),
+        ] {
+            if let Some(categories) = &categories {
+                value["categories"] = categories.clone();
+            } else {
+                value
+                    .as_object_mut()
+                    .context("Expected object")?
+                    .remove("categories");
+            }
+            let encoded = serde_json::to_string(&value)?;
+            let (json_error, yaml_error) = match kind {
+                "parsed" => (
+                    serde_json::from_str::<ParsedEntry>(&encoded).is_err(),
+                    serde_saphyr::from_str::<ParsedEntry>(&encoded).is_err(),
+                ),
+                "normalized" => (
+                    serde_json::from_str::<Entry>(&encoded).is_err(),
+                    serde_saphyr::from_str::<Entry>(&encoded).is_err(),
+                ),
+                _ => (
+                    serde_json::from_str::<ApiEntry>(&encoded).is_err(),
+                    serde_saphyr::from_str::<ApiEntry>(&encoded).is_err(),
+                ),
+            };
+            assert!(json_error && yaml_error, "{kind}: {encoded}");
+        }
+    }
+    let yaml = "name: Example\ncategories:\ntags: [rust]\nlicense: MIT\ntypes: [cli]\nhomepage: https://example.com\ndescription: Example\n";
+    assert!(serde_saphyr::from_str::<ParsedEntry>(yaml).is_err());
+    Ok(())
+}
+
+#[test]
 fn normalization_preserves_fields_and_uses_the_first_matching_tag() -> Result<()> {
     let original = parsed()?;
     let rust = tag("rust", Type::Language);

@@ -5,7 +5,7 @@ use serde::{Deserialize, Serialize, de::value::StrDeserializer};
 use std::cmp::Ordering;
 use std::collections::{BTreeMap, BTreeSet};
 
-pub use crate::validated::{EntryName, EntryTags};
+pub use crate::validated::{EntryCategories, EntryName, EntryTags};
 
 #[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq, Hash, Ord, PartialOrd)]
 pub enum Type {
@@ -62,7 +62,7 @@ pub enum Category {
 #[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq)]
 pub struct ParsedEntry {
     pub name: EntryName,
-    pub categories: BTreeSet<Category>,
+    pub categories: EntryCategories,
     pub tags: EntryTags,
     pub license: String,
     pub types: BTreeSet<String>,
@@ -94,7 +94,7 @@ pub enum ToolType {
 #[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq)]
 pub struct Entry {
     pub name: EntryName,
-    pub categories: BTreeSet<Category>,
+    pub categories: EntryCategories,
     pub tags: EntryTags<Tag>,
     pub license: String,
     pub types: BTreeSet<ToolType>,
@@ -259,7 +259,7 @@ impl Catalog {
 pub struct ApiEntry {
     /// The original entry name (not slugified)
     pub name: String,
-    pub categories: BTreeSet<Category>,
+    pub categories: EntryCategories,
     pub languages: Vec<String>,
     pub other: Vec<String>,
     pub licenses: Vec<String>,

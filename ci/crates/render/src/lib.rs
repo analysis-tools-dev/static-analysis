@@ -152,7 +152,7 @@ mod tests {
     fn entry(tags: &[Tag]) -> Result<Entry> {
         Ok(Entry {
             name: String::from("Multi Tool").try_into()?,
-            categories: BTreeSet::new(),
+            categories: BTreeSet::from([crate::types::Category::Linter]).try_into()?,
             tags: tags.iter().cloned().collect::<BTreeSet<_>>().try_into()?,
             license: "MIT".into(),
             types: BTreeSet::new(),
