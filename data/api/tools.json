@@ -15465,7 +15465,9 @@
   },
   "pixee": {
     "name": "Pixee",
-    "categories": [],
+    "categories": [
+      "linter"
+    ],
     "languages": [
       "java",
       "python"
