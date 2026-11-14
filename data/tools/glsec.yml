@@ -1,0 +1,13 @@
+name: glsec
+categories:
+  - linter
+tags:
+  - ci
+  - security
+  - yaml
+license: Apache-2.0
+types:
+  - cli
+source: 'https://github.com/glsec/glsec'
+homepage: 'https://glsec.github.io'
+description: 'Static analysis for GitLab CI/CD pipeline files (.gitlab-ci.yml), detecting insecure patterns such as unpinned includes, components and images, leaked secrets, injection through pipeline inputs and job scripts, unsafe deployments, and supply-chain risks. Runs as a CLI, pre-commit hook, CI step, or GitLab CI/CD component.'
