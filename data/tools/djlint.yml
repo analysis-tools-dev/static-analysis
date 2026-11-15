@@ -1,0 +1,19 @@
+name: djLint
+categories:
+  - linter
+  - formatter
+tags:
+  - html
+  - template
+license: GNU General Public License v3.0 or later
+types:
+  - cli
+  - ide-plugin
+source: "https://github.com/djlint/djLint"
+homepage: "https://djlint.com"
+description: >-
+  Linter and formatter for HTML templates. It understands the template syntax
+  together with the markup and has profiles for Django, Jinja, Twig, Nunjucks,
+  Handlebars, Mustache, Liquid, Go templates, Angular, Tera, Askama and Mako.
+  The linter reports accessibility, correctness and style problems. Runs as a
+  CLI, a pre-commit hook and a VS Code extension.
