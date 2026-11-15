@@ -16,4 +16,4 @@ description: >-
   together with the markup and has profiles for Django, Jinja, Twig, Nunjucks,
   Handlebars, Mustache, Liquid, Go templates, Angular, Tera, Askama and Mako.
   The linter reports accessibility, correctness and style problems. Runs as a
-  CLI, a pre-commit hook and a VS Code extension.
+  CLI, a language server (LSP), a pre-commit hook and a VS Code extension.
