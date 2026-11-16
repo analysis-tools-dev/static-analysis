@@ -1,0 +1,3 @@
+name: Dev Quality Gates
+homepage: https://github.com/mokevnin/dev-quality-gates
+description: An opinionated list of quality gates for a dozen languages, CI, infrastructure and git workflows, with one recommended tool per job and its limits
