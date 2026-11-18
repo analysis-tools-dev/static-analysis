@@ -1,0 +1,21 @@
+name: REA
+categories:
+  - linter
+tags:
+  - binary
+  - dotnet
+  - javascript
+  - security
+license: MIT
+types:
+  - cli
+source: 'https://github.com/morluto/rea'
+homepage: 'https://rea.tools/'
+description: >-
+  Local CLI and MCP server for static analysis of native binaries, .NET
+  assemblies, and JavaScript and Electron bundles. Reports binary hardening
+  flags, dependencies, and release exposure such as shipped source maps, with
+  supporting evidence. The release audit can fail a build at a chosen severity.
+resources:
+  - title: Release exposure audit
+    url: https://github.com/morluto/rea/blob/main/docs/release-exposure.md
