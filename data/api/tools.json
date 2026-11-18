@@ -6308,6 +6308,36 @@
     "demos": null,
     "wrapper": null
   },
+  "djlint": {
+    "name": "djLint",
+    "categories": [
+      "linter",
+      "formatter"
+    ],
+    "languages": [],
+    "other": [
+      "html",
+      "template"
+    ],
+    "licenses": [
+      "GNU General Public License v3.0 or later"
+    ],
+    "types": [
+      "cli",
+      "ide-plugin"
+    ],
+    "homepage": "https://djlint.com",
+    "source": "https://github.com/djlint/djLint",
+    "pricing": null,
+    "plans": null,
+    "description": "Linter and formatter for HTML templates. It understands the template syntax together with the markup and has profiles for Django, Jinja, Twig, Nunjucks, Handlebars, Mustache, Liquid, Go templates, Angular, Tera, Askama and Mako. The linter reports accessibility, correctness and style problems. Runs as a CLI, a language server (LSP), a pre-commit hook and a VS Code extension.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "dlint": {
     "name": "Dlint",
     "categories": [
@@ -8629,6 +8659,35 @@
     "demos": null,
     "wrapper": null
   },
+  "glsec": {
+    "name": "glsec",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "ci",
+      "security",
+      "yaml"
+    ],
+    "licenses": [
+      "Apache-2.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://glsec.github.io",
+    "source": "https://github.com/glsec/glsec",
+    "pricing": null,
+    "plans": null,
+    "description": "Static analysis for GitLab CI/CD pipeline files (.gitlab-ci.yml), detecting insecure patterns such as unpinned includes, components and images, leaked secrets, injection through pipeline inputs and job scripts, unsafe deployments, and supply-chain risks. Runs as a CLI, pre-commit hook, CI step, or GitLab CI/CD component.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "go-ast": {
     "name": "go/ast",
     "categories": [
@@ -9522,6 +9581,40 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "guardlink": {
+    "name": "GuardLink",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "ci",
+      "security",
+      "uses-llm"
+    ],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://guardlink.bugb.io/",
+    "source": "https://github.com/Bugb-Technologies/guardlink",
+    "pricing": null,
+    "plans": null,
+    "description": "Continuous threat modeling as code. Security annotations in source comments (threats, exposures, mitigations, flows) form a threat model that updates with the code and is validated and diffed against the base branch in CI. Without an LLM, it reports untrusted-entry-to-sink paths with no control, citing file:line, and tracks which claims are verified or stale. Open exposures become test templates to prove them. Any comment syntax; coding agents maintain it via MCP. Optional LLM threat reports.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "GuardLink documentation",
+        "url": "https://docs.bugb.io/guardlink/"
+      }
+    ],
     "reviews": null,
     "demos": null,
     "wrapper": null
@@ -14876,7 +14969,7 @@
     "plans": null,
     "description": "PHP spell check library.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
