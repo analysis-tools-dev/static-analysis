@@ -1,0 +1,20 @@
+name: GitGalaxy
+categories:
+  - linter
+tags:
+  - cobol
+  - java
+  - python
+  - security
+  - ci
+license: PolyForm Noncommercial License 1.0.0
+types:
+  - cli
+source: "https://github.com/squid-protocol/gitgalaxy"
+homepage: "https://squid-protocol.github.io/gitgalaxy/"
+description: >-
+  Offline static analysis that needs no build, compiler, AST or LLM. Scans a
+  whole repository (59 languages, including fixed-format COBOL, JCL, PL/I and
+  CICS) and reports per-function structure, call and import graphs, risk
+  scores and security findings. Outputs SARIF, a CycloneDX SBOM and a SQLite
+  knowledge graph. Runs as a CLI and as a GitHub Action.
