@@ -9960,23 +9960,26 @@
     "categories": [
       "linter"
     ],
-    "languages": [],
-    "other": [
-      "binary"
+    "languages": [
+      "groovy",
+      "java",
+      "kotlin",
+      "scala"
     ],
+    "other": [],
     "licenses": [
-      "proprietary"
+      "Apache License 2.0"
     ],
     "types": [
-      "gui"
+      "cli"
     ],
-    "homepage": "https://www.hopperapp.com/",
-    "source": null,
+    "homepage": "https://github.com/cuplv/hopper",
+    "source": "https://github.com/cuplv/hopper",
     "pricing": null,
     "plans": null,
-    "description": "macOS and Linux reverse engineering tool that lets you disassemble, decompile and debug applications. Hopper displays the code using different representations, e.g. the Control Flow Graph, and the pseudo-code of a procedure. Supports Apple Silicon.",
+    "description": "A static analysis tool written in scala for languages that run on JVM.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -17449,6 +17452,42 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "rea": {
+    "name": "REA",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "dotnet",
+      "javascript"
+    ],
+    "other": [
+      "binary",
+      "security"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://rea.tools/",
+    "source": "https://github.com/morluto/rea",
+    "pricing": null,
+    "plans": null,
+    "description": "Local CLI and MCP server for static analysis of native binaries, .NET assemblies, and JavaScript and Electron bundles. Reports binary hardening flags, dependencies, and release exposure such as shipped source maps, with supporting evidence. The release audit can fail a build at a chosen severity.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Release exposure audit",
+        "url": "https://github.com/morluto/rea/blob/main/docs/release-exposure.md"
+      }
+    ],
     "reviews": null,
     "demos": null,
     "wrapper": null
