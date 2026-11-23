@@ -9960,26 +9960,23 @@
     "categories": [
       "linter"
     ],
-    "languages": [
-      "groovy",
-      "java",
-      "kotlin",
-      "scala"
+    "languages": [],
+    "other": [
+      "binary"
     ],
-    "other": [],
     "licenses": [
-      "Apache License 2.0"
+      "proprietary"
     ],
     "types": [
-      "cli"
+      "gui"
     ],
-    "homepage": "https://github.com/cuplv/hopper",
-    "source": "https://github.com/cuplv/hopper",
+    "homepage": "https://www.hopperapp.com/",
+    "source": null,
     "pricing": null,
     "plans": null,
-    "description": "A static analysis tool written in scala for languages that run on JVM.",
+    "description": "macOS and Linux reverse engineering tool that lets you disassemble, decompile and debug applications. Hopper displays the code using different representations, e.g. the Control Flow Graph, and the pseudo-code of a procedure. Supports Apple Silicon.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -21620,7 +21617,7 @@
     "plans": null,
     "description": "Collection of security and best practice tests for static code analysis of Terraform templates.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
