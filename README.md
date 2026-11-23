@@ -1991,6 +1991,8 @@ It supports multiple languages and is designed to be extensible, allowing you to
 - [Freeplane Code Explorer](https://docs.freeplane.org/user-documentation/Code_Explorer.html) — The Code Explorer mode in Freeplane is designed for analyzing the structure and dependencies  of code compiled to JVM class files.  It also allows displaying ArchUnit test results directly in Freeplane,  if Freeplane is running and ArchUnit detects rule violations during the tests.
 
 
+- [GitGalaxy](https://squid-protocol.github.io/gitgalaxy/) — Offline static analysis that needs no build, compiler, AST or LLM. Scans a whole repository (59 languages, including fixed-format COBOL, JCL, PL/I and CICS) and reports per-function structure, call and import graphs, risk scores and security findings. Outputs SARIF, a CycloneDX SBOM and a SQLite knowledge graph. Runs as a CLI and as a GitHub Action.
+
 - [Goodcheck](https://sider.github.io/goodcheck) — Regexp based customizable linter.
 
 - [graudit](http://www.justanotherhacker.com) — Grep rough audit - source code auditing tool.
@@ -2398,6 +2400,8 @@ This project is intended to be used by maintainers of projects who want to offer
 
 - [Manalyze](https://github.com/JusticeRage/Manalyze) — A static analyzer, which checks portable executables for malicious content.
 
+- [MemBrowse](https://membrowse.com) — Analyzes ELF firmware binaries together with their GNU LD linker scripts or map files to report flash and RAM usage per memory region, section, and symbol. Uses DWARF debug info to attribute symbols to source files. The CLI runs locally without an account. An optional hosted service tracks memory usage across commits and targets, comments on pull requests with per-region and per-symbol changes, and fails CI when memory budgets are exceeded.
+
 - [Nauz File Detector](https://github.com/horsicq/Nauz-File-Detector) — Static Linker/Compiler/Tool detector for Windows, Linux and MacOS.
 
 - [rhabdomancer](https://crates.io/crates/rhabdomancer) — IDA Pro headless plugin that locates calls to potentially insecure API functions in a binary file.
@@ -2727,6 +2731,8 @@ Its technology helps developers automate testing, find bugs, and reduce manual l
 <a id="embedded"></a>
 <h2>Embedded</h2>
 
+
+- [MemBrowse](https://membrowse.com) — Analyzes ELF firmware binaries together with their GNU LD linker scripts or map files to report flash and RAM usage per memory region, section, and symbol. Uses DWARF debug info to attribute symbols to source files. The CLI runs locally without an account. An optional hosted service tracks memory usage across commits and targets, comments on pull requests with per-region and per-symbol changes, and fails CI when memory budgets are exceeded.
 
 - [oelint-adv](https://github.com/priv-kweihmann/oelint-adv) — Linter for bitbake recipes used in open-embedded and YOCTO
 

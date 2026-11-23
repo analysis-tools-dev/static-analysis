@@ -8536,6 +8536,38 @@
     "demos": null,
     "wrapper": null
   },
+  "gitgalaxy": {
+    "name": "GitGalaxy",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "cobol",
+      "java",
+      "python"
+    ],
+    "other": [
+      "ci",
+      "security"
+    ],
+    "licenses": [
+      "PolyForm Noncommercial License 1.0.0"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://squid-protocol.github.io/gitgalaxy/",
+    "source": "https://github.com/squid-protocol/gitgalaxy",
+    "pricing": null,
+    "plans": null,
+    "description": "Offline static analysis that needs no build, compiler, AST or LLM. Scans a whole repository (59 languages, including fixed-format COBOL, JCL, PL/I and CICS) and reports per-function structure, call and import graphs, risk scores and security findings. Outputs SARIF, a CycloneDX SBOM and a SQLite knowledge graph. Runs as a CLI and as a GitHub Action.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "gitguardian-ggshield": {
     "name": "GitGuardian ggshield",
     "categories": [
@@ -9960,23 +9992,26 @@
     "categories": [
       "linter"
     ],
-    "languages": [],
-    "other": [
-      "binary"
+    "languages": [
+      "groovy",
+      "java",
+      "kotlin",
+      "scala"
     ],
+    "other": [],
     "licenses": [
-      "proprietary"
+      "Apache License 2.0"
     ],
     "types": [
-      "gui"
+      "cli"
     ],
-    "homepage": "https://www.hopperapp.com/",
-    "source": null,
+    "homepage": "https://github.com/cuplv/hopper",
+    "source": "https://github.com/cuplv/hopper",
     "pricing": null,
     "plans": null,
-    "description": "macOS and Linux reverse engineering tool that lets you disassemble, decompile and debug applications. Hopper displays the code using different representations, e.g. the Control Flow Graph, and the pseudo-code of a procedure. Supports Apple Silicon.",
+    "description": "A static analysis tool written in scala for languages that run on JVM.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -12870,6 +12905,35 @@
         "url": "https://www.youtube.com/watch?v=3xgTU1GhRvs"
       }
     ],
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "membrowse": {
+    "name": "MemBrowse",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "binary",
+      "embedded"
+    ],
+    "licenses": [
+      "GPL-3.0 License"
+    ],
+    "types": [
+      "cli",
+      "service"
+    ],
+    "homepage": "https://membrowse.com",
+    "source": "https://github.com/membrowse/membrowse-action",
+    "pricing": null,
+    "plans": null,
+    "description": "Analyzes ELF firmware binaries together with their GNU LD linker scripts or map files to report flash and RAM usage per memory region, section, and symbol. Uses DWARF debug info to attribute symbols to source files. The CLI runs locally without an account. An optional hosted service tracks memory usage across commits and targets, comments on pull requests with per-region and per-symbol changes, and fails CI when memory budgets are exceeded.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
     "reviews": null,
     "demos": null,
     "wrapper": null
