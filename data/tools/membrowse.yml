@@ -1,0 +1,19 @@
+name: MemBrowse
+categories:
+  - linter
+tags:
+  - binary
+  - embedded
+license: GPL-3.0 License
+types:
+  - cli
+  - service
+source: 'https://github.com/membrowse/membrowse-action'
+homepage: 'https://membrowse.com'
+description: >-
+  Analyzes ELF firmware binaries together with their GNU LD linker scripts or map
+  files to report flash and RAM usage per memory region, section, and symbol.
+  Uses DWARF debug info to attribute symbols to source files. The CLI runs
+  locally without an account. An optional hosted service tracks memory usage
+  across commits and targets, comments on pull requests with per-region and
+  per-symbol changes, and fails CI when memory budgets are exceeded.
