@@ -1,0 +1,13 @@
+name: Kavach AI
+categories:
+  - linter
+tags:
+  - python
+  - security
+license: PolyForm Noncommercial License 1.0.0
+types:
+  - cli
+  - action
+source: "https://github.com/rajrajak99/kavach-ai"
+homepage: "https://kavach-security.vercel.app"
+description: "Autonomous offline AST security gate for PRs with sub-16ms taint tracking and 1-click self-healing patches."
