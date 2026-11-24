@@ -1,0 +1,3 @@
+name: Certify-the-Checker
+homepage: https://ericyunlinchiang.github.io/certify-the-checker/
+description: Runnable C examples comparing clang, gcc -fanalyzer and cppcheck with sanitizer runs and measured coverage, plus a short standard for reporting what a CLEAN result covers
